@@ -35,13 +35,13 @@ bovini/pelle (e derivati). Copertura ampia **adattata ai punti di forza industri
 | Italia | ✅ CONSEGNATO (foglio nel workbook) | 95 |
 | Germania | ✅ CONSEGNATO | 97 |
 | Finlandia | ✅ CONSEGNATO | 84 |
-| **Danimarca** | 🟡 **FOGLIO CREATO** — da arricchire (contatti, vedi §11) | 88 |
+| **Danimarca** | ✅ CONSEGNATO (residui minori in §11) | 89 |
 | Svezia | ⏳ da fare | — |
 | Olanda | ⏳ da fare | — |
 | Belgio | ⏳ da fare | — |
 | Austria | ⏳ da fare | — |
 
-**Deliverable attuale:** `MyEUDR_Lead_Mapping.xlsx` — **4 fogli, 364 righe**, integro, 0 entità HTML residue.
+**Deliverable attuale:** `MyEUDR_Lead_Mapping.xlsx` — **4 fogli, 365 righe**, integro, 0 entità HTML residue.
 Contiene Italia+Germania+Finlandia+Danimarca. (Esiste anche `MyEUDR_Lead_Mapping_ITALIA_pilota.xlsx`, vecchio, **eliminabile**.)
 
 ## 4. File e infrastruttura
@@ -160,20 +160,40 @@ due limiti che **cambiano il metodo** rispetto alle sessioni desktop:
    → Meglio 6 ricercatori "ricerca aziende" + un secondo giro di agenti "arricchimento contatti"
    che leggono il JSON e riempiono solo i campi vuoti.
 
-### Conseguenza sul foglio Danimarca (da sanare)
+### Metodo in due giri (adottato per la Danimarca, da riusare per SE/NL/BE/AT)
 
-Il foglio ha una **copertura contatti anomala rispetto agli altri paesi**: referente 65/88 e
-LinkedIn 17/88 sono in linea, ma **email 3/88** (contro le coperture quasi piene di IT/DE/FI),
-perché nessun sito aziendale era raggiungibile per estrarle. **Nessuna email è stata inventata.**
-Restano inoltre alcuni `sito` vuoti (soprattutto nel filone caffè/cacao) e `dimensione` espressa
-come *bruttofortjeneste* anziché fatturato per le società in forma ridotta (ApS/K/S), che per
-legge danese non pubblicano il fatturato — sempre indicato esplicitamente nel campo.
+Il primo giro di 6 ricercatori ha prodotto le aziende ma solo **3 email su 88**: senza accesso ai
+siti aziendali non c'era modo di estrarle. Un **secondo giro di 6 agenti di arricchimento**
+(uno per file `dk_0N_*.json`, solo WebSearch, che riempiono *unicamente* i campi vuoti) ha portato
+la copertura a **email 81/89, referente 77/89, sito 86/89, LinkedIn 57/89** — in linea con DE/FI.
+Le query che funzionano: `"<azienda>" kontakt e-mail telefon` e `"<azienda>" kontakt info@ mail adresse`.
+Dopo l'arricchimento: rieseguire `normalize_dk.py` e poi `add_country.py` (sostituisce il foglio).
 
-**Prossimo passo per la Danimarca:** rilanciare gli agenti di arricchimento (uno per file
-`dk_0N_*.json`, solo WebSearch, riempiono solo i campi vuoti, regola anti-invenzione invariata)
-e poi ri-eseguire `add_country.py dk Danimarca <xlsx>`, che sostituisce il foglio.
-Il filone **mangimi/soia è fermo a 8 aziende su ~15**: va completato (piste già individuate:
-Vestjysk Specialfoder, Sønderborg Korn, Mejling Landhandel, soci DAKOFO).
+### Residui aperti sulla Danimarca
+
+- **Mangimi/soia: 11 aziende invece di ~15.** Piste ancora da battere: pagina DAKOFO
+  "Ansvarlig soja/Virksomheder", elenchi krak.dk/degulesider "korn og foderstoffer", conferma di
+  Tjørnehøj Mølle (il dato di fatturato trovato è del 2003).
+- **Olio di palma: solo 2 aziende** dopo l'esclusione di Dragsbæk (vedi sotto). Da integrare.
+- **Senza email (8):** H. Emballage, Color Label (indirizzo protetto anti-spam), Dansk Kaffe,
+  La Cabra (solo form di contatto), A-One Danmark, AB Neo e 2 dei nuovi record mangimi.
+- **`dimensione`**: per le società in forma ridotta (ApS/K/S), che per legge danese non pubblicano
+  il fatturato, il campo riporta il *bruttofortjeneste* con anno e fonte, sempre dichiarato come tale.
+
+### Due aziende rimosse dopo verifica (motivi da ricordare)
+
+- **Getama Danmark A/S** — stabilimento di Gedsted distrutto da un incendio nel feb. 2024,
+  produzione non ricostruita e portafoglio rilevato da **Carl Hansen & Søn** (tra i big esclusi):
+  non è più un produttore, quindi non è un operatore EUDR. Stessa logica già applicata a
+  Magnus Olesen (fallita) e Bent Krogh (cessata).
+- **Dragsbæk A/S** — fatturato ~1,9 mld DKK (≈255 M€): ben oltre la soglia dei ~50 M€ decisa dal
+  cliente, non un caso "di confine".
+
+### Da verificare prima del contatto
+
+- **Vestjysk Specialfoder**: allo stesso indirizzo risulta un'omonima società **sotto fallimento**.
+- **Estate Coffee Copenhagen A/S** = Smage-Compagniet A/S (stesso CVR); **Copenhagen Chocolate
+  Factory ApS** = marchio Simply Chocolate Copenhagen. Annotato nel campo `dimensione`.
 
 ### File aggiunti in questo giro
 
