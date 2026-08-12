@@ -1,0 +1,142 @@
+# MyEUDR — Prompt di continuazione (handoff)
+
+> **Come usarlo:** apri una nuova sessione di Claude Code nella cartella
+> `C:\Users\39333\Desktop\EDUR da Studio` (dopo il reset del limite, ore 13:30 Europe/Rome)
+> e incolla come primo messaggio: **"Leggi `MyEUDR_CONTINUA.md` e continua il lavoro da dove
+> si è interrotto: completa la Danimarca, poi procedi un paese alla volta."**
+> La memoria di progetto (`.claude/.../memory/myeudr-lead-mapping.md`) si carica da sola.
+
+---
+
+## 1. Contesto
+
+Mappatura di **potenziali lead per il prodotto MyEUDR** (software di compliance all'EU
+Deforestation Regulation). Cliente: utente a **binp.it**. Obiettivo: per ogni nazione,
+**~100 aziende reali** soggette all'EUDR e **contattabili**, di taglia PMI.
+
+**Filiere EUDR:** legno/carta/mobili/imballaggi, caffè, cacao, gomma, soia, olio di palma,
+bovini/pelle (e derivati). Copertura ampia **adattata ai punti di forza industriali di ogni paese**.
+
+## 2. Decisioni confermate dal cliente (NON ridiscutere)
+
+- **Taglia target:** fatturato ~**10–20 M€** (sweet spot), tolleranza ~**5–40 M€**.
+  ESCLUDERE grandi corporation/multinazionali (>~50 M€).
+- **Campo "Contatto"** = referente (nome+ruolo) + LinkedIn + email/PEC aziendale.
+  **MAI inventare** email, nomi o URL LinkedIn. Non trovato → `"n.d."` (email/dimensione) o `""` (referente/ruolo/linkedin).
+- **Layout Excel esteso a 10 colonne** (confermato dal cliente), un **foglio per nazione**.
+- **Un paese alla volta** (più risorse per nazione).
+- **8 paesi totali:** Italia, Germania, Finlandia, Danimarca, Svezia, Olanda, Belgio, Austria
+  (la Germania è stata **aggiunta** ai 7 iniziali).
+
+## 3. Stato attuale
+
+| Paese | Stato | Aziende |
+|---|---|---:|
+| Italia | ✅ CONSEGNATO (foglio nel workbook) | 95 |
+| Germania | ✅ CONSEGNATO | 97 |
+| Finlandia | ✅ CONSEGNATO | 84 |
+| **Danimarca** | 🔴 **INTERROTTO** dal limite di sessione — da rifare | — |
+| Svezia | ⏳ da fare | — |
+| Olanda | ⏳ da fare | — |
+| Belgio | ⏳ da fare | — |
+| Austria | ⏳ da fare | — |
+
+**Deliverable attuale:** `MyEUDR_Lead_Mapping.xlsx` (nella cartella di lavoro) — **3 fogli, 276 righe**, integro.
+Contiene già Italia+Germania+Finlandia. (Esiste anche `MyEUDR_Lead_Mapping_ITALIA_pilota.xlsx`, vecchio, **eliminabile**.)
+
+## 4. File e infrastruttura
+
+- `MyEUDR_Lead_Mapping.xlsx` — il workbook finale (IT/DE/FI già dentro). **Non ricostruirlo da zero: aggiungi i nuovi fogli.**
+- `_myeudr_build/add_country.py` — script che **merge+aggiunge/sostituisce un foglio-paese** al workbook, lasciando intatti gli altri. Colori/formattazione identici agli altri fogli.
+- ⚠️ Lo **scratchpad di sessione si azzera** a ogni sessione: lavora nella cartella persistente `_myeudr_build/` (mettici lì i JSON dei ricercatori).
+
+## 5. Metodo (pipeline collaudata) — da ripetere per ogni paese
+
+1. **6 ricercatori in parallelo** (Agent tool, `subagent_type: general-purpose`), uno per cluster di filiere, **pesati sui punti di forza del paese**. Lanciarli **tutti in un unico messaggio** (girano in background, notificano al termine).
+2. Ogni ricercatore restituisce **SOLO un array JSON** con esattamente queste chiavi:
+   `denominazione, filiera, sede, sito, email, referente, ruolo, linkedin, dimensione, fonte`.
+3. Salva ogni risposta in `_myeudr_build/<prefix>_NN_nome.json` (prefissi: **dk** Danimarca, **se** Svezia, **nl** Olanda, **be** Belgio, **at** Austria). ⚠️ Decodifica/normalizza è automatica nello script (gestisce `&amp;`, `&gt;`).
+4. Aggiungi il foglio al workbook:
+   ```bash
+   cd "C:/Users/39333/Desktop/EDUR da Studio/_myeudr_build"
+   python add_country.py dk Danimarca "C:/Users/39333/Desktop/EDUR da Studio/MyEUDR_Lead_Mapping.xlsx"
+   ```
+   (rieseguibile: sostituisce il foglio se già presente; deduplica i doppioni cross-file).
+5. Verifica (fogli, righe, 0 entità HTML residue) e consegna al cliente con un breve riepilogo:
+   ripartizione per filiera + copertura contatti (email X/N, referente Y/N) + note di trasparenza
+   (aziende "di confine" sopra soglia, legami di gruppo, taglie sotto i 5M dove il mercato lo impone).
+6. Poi **chiedi al cliente se procedere** col paese successivo (lui vuole un paese alla volta).
+
+### Template prompt per ogni ricercatore (riempi le [ ])
+
+```
+Sei un analista di lead generation B2B. Devo mappare PMI [PAESE] della filiera [FILIERE]
+soggette all'EUDR e buoni lead per un software di compliance EUDR "MyEUDR". [motiva perché la filiera è EUDR].
+TARGET: fatturato ~10–20 M€ (tollerabile 5–40 M€); ESCLUDI >~50 M€ e multinazionali ([nomina i big del paese da escludere]).
+FONTI: [associazioni di categoria del paese] + directory [registri/DB del paese] + siti aziendali.
+Per il referente usa [fonte CEO del paese: es. Impressum (DE/AT), Proff/registro (Nordics/DK), KVK (NL), NBB (BE)].
+OBIETTIVO: ~16-18 aziende reali ed esistenti.
+Per OGNI azienda: denominazione, filiera, sede (città+regione), sito (URL reale),
+email (dal sito; se assente "n.d."; MAI inventarla), referente (nome+cognome del decisore SOLO se pubblicato; altrimenti ""),
+ruolo, linkedin (URL reale trovato o ""; MAI costruito), dimensione (fatturato+dipendenti con fonte; valuta €),
+fonte (URL).
+REGOLE ANTI-INVENZIONE: nessuna azienda/email/nome/URL inventati; nel dubbio vuoto/"n.d."; sempre una fonte. Accuratezza > quantità.
+OUTPUT: SOLO un array JSON (niente testo/markdown attorno) con ESATTAMENTE le chiavi:
+denominazione, filiera, sede, sito, email, referente, ruolo, linkedin, dimensione, fonte.
+```
+
+## 6. DANIMARCA — piano (prossimo passo immediato)
+
+Valuta i fatturati: **DKK ~7,46 kr/€** (10–20 M€ ≈ 75–150 M DKK). Referente = *adm. direktør/direktør* da **proff.dk**, **datacvr.virk.dk (CVR)**, **biq.dk**, siti aziendali.
+
+**6 filoni (pesi danesi):**
+1. **Mobili (møbler)** — forte industria del design; cluster Jutland (Salling/Skive/Herning/Ikast-Brande). ~18. Escludi Carl Hansen & Søn, Fritz Hansen, HAY (MillerKnoll), BoConcept.
+2. **Legno/import (træ, tømmer, trægulve)** — importatori/commercio legname (Dansk Træforening), parquet, limtræ, porte/finestre. ~16. Escludi STARK, XL-BYG, Bygma.
+3. **Carta/packaging (emballage, bølgepap, karton, tryk)** — ondulato, astucci, etichette, stampa. ~16.
+4. **Caffè + cacao/cioccolato** — torrefazioni + import caffè verde; chokolade + import cacao. ~16.
+5. **Mangimi/soia (foderstof, soja)** — **filiera forte** (colosso suinicolo → import soia). ~15. Escludi DLG, Danish Agro, Vestjyllands Andel.
+6. **Gomma + carne bovina + pelle + palma** (gummi/oksekød/huder-garveri/palmeolie). ~14. Escludi Danish Crown, Tican, AAK.
+
+**Leads parziali già emersi prima dell'interruzione (verificare e completare, NON dare per buoni senza fonte):**
+- *Caffè:* The Coffee Collective (~11 M€), La Cabra (~20 M€), Stillers Coffee (piccola).
+- *Packaging:* escludere DS Smith, Smurfit Westrock, Schur Pack, VPK, August Faller (grandi); indipendenti mid: **All Creative**, **Boxen**, **H. Emballage**.
+- *Mangimi:* **CR Foderservice**, **Nordvest Foder**, **A-One** (verificare). ⚠️ `nutrimin.com` è canadese — usare il dominio danese corretto.
+- *Legno:* **Sommer-Savex** (email `info@sommer-savex.dk`, CEO **Line Hjort**, ~14 dip.).
+
+**Grandi da escludere (già confermati):** DS Smith (627 dip.), Smurfit Westrock (589), Schur Pack (212), VPK (110), August Faller (92).
+
+## 7. Guida pesi per gli altri paesi
+
+- **Svezia (se):** enorme su **legno/segherie/carta-cellulosa** (come Finlandia) + **caffè** (alto consumo, torrefazioni) + mobili + packaging. Valuta **SEK ~11,3 kr/€**. Referente = *VD (verkställande direktör)*. Fonti: allabolag.se, proff.se, ratsit.se. Escludi i giganti forestali (SCA, Holmen, Stora Enso, IKEA-suppliers troppo grandi).
+- **Olanda (nl):** **HUB di import** → **caffè** (grande), **cacao** (Amsterdam/Zaandam, hub mondiale), **soia** (Rotterdam), **olio di palma**, **legname tropicale**; carta/packaging; trading+trasformazione. EUR. Referente = *directeur*. Fonti: **KVK** (Kamer van Koophandel), company.info, drimble.
+- **Belgio (be):** **Anversa** = hub **cacao/caffè/legname**; **cioccolato** (mid-sized chocolatiers); carta/packaging; legno; gomma. EUR. Referente = *gedelegeerd bestuurder/zaakvoerder* (NL) o *administrateur délégué* (FR). Fonti: **NBB/BNB** (bilanci depositati gratis → ottimi per fatturato), KBO/BCE, trendstop.
+- **Austria (at):** forte su **legno/segherie/mobili/carta** (come DE/FI) + **caffè** (tradizione viennese). EUR. Referente = **Geschäftsführer** — **obbligo di Impressum** sui siti (come Germania → ottima copertura referenti!). Fonti: firmenabc.at, herold.at, compass.at, firmenbuch/WKO.
+
+## 8. Regole ferree & note di qualità
+
+- **Anti-invenzione assoluta.** Ogni azienda reale ed esistente; email/nomi/LinkedIn solo da fonte realmente vista; altrimenti `"n.d."`/`""`. Sempre una `fonte` (URL).
+- **Caffè in paesi Nordici**: spesso micro-torrefazioni sotto il target — includere solo le più sostanziose + gli **importatori di caffè verde** (molto rilevanti EUDR), segnalando la taglia. In FI ne sono state curate 9 su 17.
+- **Segnalare sempre** nel campo *Dimensione*: aziende sopra ~50 M€ ma indipendenti, taglie sotto i 5 M€ tenute per copertura, e i **legami di gruppo** (es. controllata di X).
+- **Copertura contatti tipica:** IT referente 11/95 (fonti pubbliche scarse); DE 96/97 e FI 77/84 (Impressum/registri con CEO). AT sarà alta (Impressum); SE/DK/NL/BE medie (registri con direttore).
+- **Deduplica**: `add_country.py` normalizza i nomi ignorando le parentesi (già gestiti i doppioni tipo "X" vs "X (Y)").
+
+## 9. Come rigenerare/riparare
+
+- **Aggiungere un paese:** metti i `<prefix>_NN.json` in `_myeudr_build/` e lancia `add_country.py` (vedi §5.4).
+- **Recuperare i dati IT/DE/FI in JSON** (se mai servisse) leggendo il workbook:
+  ```python
+  from openpyxl import load_workbook
+  wb = load_workbook(r"C:/Users/39333/Desktop/EDUR da Studio/MyEUDR_Lead_Mapping.xlsx")
+  keys=["denominazione","filiera","dimensione","referente","ruolo","linkedin","email","sito","sede","fonte"]
+  for sn in wb.sheetnames:
+      ws=wb[sn]; rows=[]
+      for r in ws.iter_rows(min_row=3, values_only=True):
+          if r and r[0]: rows.append(dict(zip(keys, r)))
+      import json; open(f"{sn.lower()}_recovered.json","w",encoding="utf-8").write(json.dumps(rows,ensure_ascii=False,indent=1))
+  ```
+  (l'ordine colonne del foglio è: Denominazione, Filiera, Dimensione, Referente, Ruolo, LinkedIn, Email, Sito, Sede, Fonte).
+
+## 10. Task list (stato)
+
+Completati: Italia (ricerca+consolidamento), Germania (ricerca+consolidamento), Finlandia.
+In corso/da fare: **Danimarca** (rifare), Svezia, Olanda, Belgio, Austria, poi rifinitura workbook finale a 8 fogli.
