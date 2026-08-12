@@ -35,14 +35,14 @@ bovini/pelle (e derivati). Copertura ampia **adattata ai punti di forza industri
 | Italia | ✅ CONSEGNATO (foglio nel workbook) | 95 |
 | Germania | ✅ CONSEGNATO | 97 |
 | Finlandia | ✅ CONSEGNATO | 84 |
-| **Danimarca** | 🔴 **INTERROTTO** dal limite di sessione — da rifare | — |
+| **Danimarca** | 🟡 **FOGLIO CREATO** — da arricchire (contatti, vedi §11) | 88 |
 | Svezia | ⏳ da fare | — |
 | Olanda | ⏳ da fare | — |
 | Belgio | ⏳ da fare | — |
 | Austria | ⏳ da fare | — |
 
-**Deliverable attuale:** `MyEUDR_Lead_Mapping.xlsx` (nella cartella di lavoro) — **3 fogli, 276 righe**, integro.
-Contiene già Italia+Germania+Finlandia. (Esiste anche `MyEUDR_Lead_Mapping_ITALIA_pilota.xlsx`, vecchio, **eliminabile**.)
+**Deliverable attuale:** `MyEUDR_Lead_Mapping.xlsx` — **4 fogli, 364 righe**, integro, 0 entità HTML residue.
+Contiene Italia+Germania+Finlandia+Danimarca. (Esiste anche `MyEUDR_Lead_Mapping_ITALIA_pilota.xlsx`, vecchio, **eliminabile**.)
 
 ## 4. File e infrastruttura
 
@@ -138,5 +138,46 @@ Valuta i fatturati: **DKK ~7,46 kr/€** (10–20 M€ ≈ 75–150 M DKK). Refe
 
 ## 10. Task list (stato)
 
-Completati: Italia (ricerca+consolidamento), Germania (ricerca+consolidamento), Finlandia.
-In corso/da fare: **Danimarca** (rifare), Svezia, Olanda, Belgio, Austria, poi rifinitura workbook finale a 8 fogli.
+Completati: Italia (ricerca+consolidamento), Germania (ricerca+consolidamento), Finlandia,
+**Danimarca (ricerca + foglio nel workbook; contatti da arricchire — §11)**.
+Da fare: Svezia, Olanda, Belgio, Austria, poi rifinitura workbook finale a 8 fogli.
+
+---
+
+## 11. Ambiente "Claude Code on the web" — vincoli scoperti (IMPORTANTE)
+
+Il lavoro sulla Danimarca è stato svolto nel repository GitHub `Parzivalbit12/MyEUDR_claude`
+(branch `claude/myeudr-lead-census-k3i1rk`) anziché sul PC locale. In quell'ambiente valgono
+due limiti che **cambiano il metodo** rispetto alle sessioni desktop:
+
+1. **WebFetch/curl sono bloccati dalla policy di egress** (HTTP 403 al CONNECT) su *tutti* i
+   domini esterni: `proff.dk`, `datacvr.virk.dk`, `biq.dk`, `lasso.dk`, `dakofo.dk` e i siti
+   aziendali. Non è aggirabile e non va ritentato.
+   → **Funziona solo WebSearch**, i cui frammenti però contengono spesso proprio i dati di
+   contatto (query efficaci: `"<azienda>" kontakt e-mail telefon`, `"<azienda>" kontakt info@ mail adresse`).
+   Verificato: la query `Skovby Møbelfabrik kontakt email adresse` restituisce `skovby@skovby.dk`.
+2. **Budget WebSearch ~200 chiamate per agente** e limite di sessione sul totale.
+   → Meglio 6 ricercatori "ricerca aziende" + un secondo giro di agenti "arricchimento contatti"
+   che leggono il JSON e riempiono solo i campi vuoti.
+
+### Conseguenza sul foglio Danimarca (da sanare)
+
+Il foglio ha una **copertura contatti anomala rispetto agli altri paesi**: referente 65/88 e
+LinkedIn 17/88 sono in linea, ma **email 3/88** (contro le coperture quasi piene di IT/DE/FI),
+perché nessun sito aziendale era raggiungibile per estrarle. **Nessuna email è stata inventata.**
+Restano inoltre alcuni `sito` vuoti (soprattutto nel filone caffè/cacao) e `dimensione` espressa
+come *bruttofortjeneste* anziché fatturato per le società in forma ridotta (ApS/K/S), che per
+legge danese non pubblicano il fatturato — sempre indicato esplicitamente nel campo.
+
+**Prossimo passo per la Danimarca:** rilanciare gli agenti di arricchimento (uno per file
+`dk_0N_*.json`, solo WebSearch, riempiono solo i campi vuoti, regola anti-invenzione invariata)
+e poi ri-eseguire `add_country.py dk Danimarca <xlsx>`, che sostituisce il foglio.
+Il filone **mangimi/soia è fermo a 8 aziende su ~15**: va completato (piste già individuate:
+Vestjysk Specialfoder, Sønderborg Korn, Mejling Landhandel, soci DAKOFO).
+
+### File aggiunti in questo giro
+
+- `_myeudr_build/dk_01..06_*.json` — output dei 6 ricercatori (88 aziende).
+- `_myeudr_build/normalize_dk.py` — normalizza `filiera` sulla tassonomia dei fogli IT/DE/FI
+  (`<Macro> — <dettaglio>`) e ripulisce `denominazione` spostando il codice CVR in `dimensione`.
+  Da rieseguire prima di `add_country.py` se si rigenerano i JSON danesi.
