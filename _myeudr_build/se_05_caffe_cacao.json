@@ -20,7 +20,7 @@
     "referente": "Fannie Myrén",
     "ruolo": "VD (verkställande direktör)",
     "linkedin": "",
-    "dimensione": "Fatturato 91,2 MSEK (~8,1 M€) 2024 (+18,5%); 16 dipendenti (fonte: allabolag.se, bilancio 2024). Org.nr 556027-6528. SNI: framställning av te och kaffe.",
+    "dimensione": "Fatturato 91,2 MSEK (~8,1 M€) 2024 (+18,5%); 16 dipendenti (fonte: allabolag.se, bilancio 2024). Org.nr 556027-6528. SNI 10830 framställning av te och kaffe. Sotto il target ideale, dentro la fascia tollerabile.",
     "fonte": "https://www.allabolag.se/foretag/bergman-bergstrand-aktiebolag/g%C3%B6teborg/livsmedel/2JYG0TSI5YFWD"
   },
   {
@@ -30,7 +30,7 @@
     "sito": "https://www.kahls.se/",
     "email": "n.d.",
     "referente": "Peter Goodman",
-    "ruolo": "VD (verkställande direktör)",
+    "ruolo": "VD (verkställande direktör, esterno)",
     "linkedin": "",
     "dimensione": "Fatturato 344,8 MSEK (~30,5 M€) esercizio 2025 (+32,6%); 47 dipendenti (fonte: allabolag.se). Org.nr 556117-4920. Gruppo: Kahls Holding AB. Sopra il target ideale ma entro la fascia tollerabile (5-40 M€).",
     "fonte": "https://www.allabolag.se/foretag/kahls-kaffe-aktiebolag/v%C3%A4stra-fr%C3%B6lunda/kaffe-och-te-agenturer/2JYZA14I63IHV"
@@ -39,25 +39,13 @@
     "denominazione": "Johan & Nyström Kafferostare & Tehandlare AB",
     "filiera": "Caffè — torrefazione + import caffè verde (specialty)",
     "sede": "Skogås / Huddinge (Stockholms län)",
-    "sito": "https://johanochnystrom.se/",
+    "sito": "n.d.",
     "email": "n.d.",
     "referente": "",
     "ruolo": "",
     "linkedin": "",
     "dimensione": "Fatturato 196,8 MSEK (~17,4 M€) 2024 (-2,9%); 54 dipendenti (fonte: allabolag.se, bilancio 2024). Org.nr 556657-9446. Nota: dal 2016 controllata da Espresso House (EH Group AB).",
     "fonte": "https://www.allabolag.se/foretag/johan-nystr%C3%B6m-kafferostare-tehandlare-ab/skog%C3%A5s/kaffe-och-te-agenturer/2K2746UI63IHV"
-  },
-  {
-    "denominazione": "Nordiska Kaffebolaget H. Hansson & Co Aktiebolag",
-    "filiera": "Caffè — import/agenzia caffè e tè, engros",
-    "sede": "Stockholm (Stockholms län)",
-    "sito": "n.d.",
-    "email": "n.d.",
-    "referente": "",
-    "ruolo": "",
-    "linkedin": "",
-    "dimensione": "Fatturato 54,7 MSEK (~4,8 M€) 2024 (+8,4%); 17 dipendenti (fonte: allabolag.se, bilancio 2024). Org.nr 556083-2379. SNI: kaffe och te - agenturer. Taglia appena sotto la fascia tollerabile ma importatore/agente puro.",
-    "fonte": "https://www.allabolag.se/foretag/nordiska-kaffebolaget-h.-hansson-co-aktiebolag/stockholm/kaffe-och-te-agenturer/2JYRXQ3I63IHV"
   },
   {
     "denominazione": "Lykke Coffee Farms AB",
@@ -68,8 +56,20 @@
     "referente": "",
     "ruolo": "",
     "linkedin": "",
-    "dimensione": "Fatturato 57,8 MSEK (~5,1 M€) 2024 (+28,7%); 13 dipendenti (23 di gruppo, 4 società, 55,0 MSEK) (fonte: allabolag.se / bolagsfakta.se, bilancio 2024). Org.nr 556764-1575.",
+    "dimensione": "Fatturato 57,8 MSEK (~5,1 M€) 2024 (+28,7%); 13 dipendenti (gruppo di 4 società: 23 dipendenti, 55,0 MSEK) (fonte: allabolag.se / bolagsfakta.se, bilancio 2024). Org.nr 556764-1575.",
     "fonte": "https://www.allabolag.se/foretag/lykke-coffee-farms-ab/farsta/jordbruk/2K2TVQFI63IHJ"
+  },
+  {
+    "denominazione": "Nordiska Kaffebolaget H. Hansson & Co Aktiebolag",
+    "filiera": "Caffè — import/agenzia caffè e tè, engros",
+    "sede": "Stockholm (Stockholms län)",
+    "sito": "n.d.",
+    "email": "n.d.",
+    "referente": "",
+    "ruolo": "",
+    "linkedin": "",
+    "dimensione": "Fatturato 54,7 MSEK (~4,8 M€) 2024 (+8,4%); 17 dipendenti (14 nel 2023) (fonte: allabolag.se, bilancio 2024). Org.nr 556083-2379. SNI 46370 kaffe/te agenturer. Taglia appena sotto la fascia tollerabile ma importatore/agente puro.",
+    "fonte": "https://www.allabolag.se/foretag/nordiska-kaffebolaget-h.-hansson-co-aktiebolag/stockholm/kaffe-och-te-agenturer/2JYRXQ3I63IHV"
   },
   {
     "denominazione": "Kaffekompaniet Din Pauspartner AB",
@@ -84,6 +84,18 @@
     "fonte": "https://www.allabolag.se/5563179554/bokslut"
   },
   {
+    "denominazione": "Tehuset Java Aktiebolag",
+    "filiera": "Caffè — import e commercio caffè e tè (engros + retail)",
+    "sede": "Lund (Skåne län)",
+    "sito": "n.d.",
+    "email": "n.d.",
+    "referente": "",
+    "ruolo": "",
+    "linkedin": "",
+    "dimensione": "Fatturato 62,4 MSEK (~5,5 M€); 26 dipendenti (fonte: allabolag.se / merinfo.se, ultimo bilancio disponibile). Org.nr 556311-4957. Controllata da Javaimporten i Sverige AB (org.nr 556779-5033, SNI 46370, VD Fredrik August Skeppstedt).",
+    "fonte": "https://www.allabolag.se/foretag/tehuset-java-aktiebolag/lund/livsmedel/2K04UZ1I5YFWD"
+  },
+  {
     "denominazione": "Grahns Konfektyr AB",
     "filiera": "Cacao/Cioccolato — produzione confetteria e prodotti di cioccolato",
     "sede": "Skövde (Västra Götalands län)",
@@ -96,15 +108,63 @@
     "fonte": "https://www.allabolag.se/foretag/grahns-konfektyr-ab/sk%C3%B6vde/konfektyrer-choklad-/2K2LGQCI5YF14"
   },
   {
+    "denominazione": "Delicato Bakverk Aktiebolag",
+    "filiera": "Cacao/Cioccolato — produzione dolciaria con cioccolato e cacao",
+    "sede": "Segeltorp / Huddinge (Stockholms län)",
+    "sito": "https://www.delicato.se/",
+    "email": "n.d.",
+    "referente": "",
+    "ruolo": "",
+    "linkedin": "https://se.linkedin.com/company/delicato-bakverk-ab",
+    "dimensione": "Fatturato 396,6 MSEK (~35,1 M€) esercizio 2025 (+12,2%); 125 dipendenti (fonte: allabolag.se / bolagsfakta.se). Org.nr 556119-4720. Gruppo di 8 società, capogruppo Belvéns Bageri AB. Entro la fascia tollerabile (5-40 M€).",
+    "fonte": "https://www.allabolag.se/foretag/delicato-bakverk-aktiebolag/segeltorp/livsmedel-tillverkning/2JYZPB4I63IIO"
+  },
+  {
+    "denominazione": "Aktiebolaget Cool & Candy",
+    "filiera": "Cacao/Cioccolato — engros/wholesale zucchero, cioccolato e confetteria",
+    "sede": "Ystad (Skåne län)",
+    "sito": "n.d.",
+    "email": "n.d.",
+    "referente": "Jens Peter Thomas Persson",
+    "ruolo": "VD (verkställande direktör, esterno)",
+    "linkedin": "",
+    "dimensione": "Fatturato 196,7 MSEK (~17,4 M€) esercizio 2022 (+9,0%); 19-22 dipendenti (fonte: allabolag.se / bolagsfakta.se). Org.nr 556330-4137. SNI 46360 partihandel med socker, choklad och sockerkonfektyrer. Fa parte del gruppo Humble Group AB.",
+    "fonte": "https://www.allabolag.se/foretag/aktiebolaget-cool-candy/ystad/livsmedel-agenturer-och-grossister/2K08WY1I63IIN"
+  },
+  {
+    "denominazione": "Candy People AB",
+    "filiera": "Cacao/Cioccolato — import/export ed engros di confetteria e cioccolato",
+    "sede": "Malmö (Skåne län)",
+    "sito": "https://candypeople.se/",
+    "email": "n.d.",
+    "referente": "Anna Youssef Bebinno",
+    "ruolo": "VD (verkställande direktör)",
+    "linkedin": "",
+    "dimensione": "Fatturato 251,2 MSEK (~22,2 M€) 2024; 10 dipendenti nella società AB (fonte: allabolag.se / bolagsfakta.se, bilancio 2024). Org.nr 556696-8375. Gruppo di 5 società, capogruppo J & J Holding AB.",
+    "fonte": "https://www.allabolag.se/foretag/candy-people-ab/malm%C3%B6/livsmedel/2K2FGAFI5YFWD"
+  },
+  {
+    "denominazione": "Puratos Sweden AB",
+    "filiera": "Cacao/Cioccolato — import e distribuzione cioccolato/cacao per panificazione e pasticceria",
+    "sede": "Vellinge / Malmö (Skåne län)",
+    "sito": "n.d.",
+    "email": "n.d.",
+    "referente": "",
+    "ruolo": "",
+    "linkedin": "",
+    "dimensione": "Fatturato 121,5 MSEK (~10,8 M€) 2024 (+9,1%); 9 dipendenti (fonte: allabolag.se / bolagsfakta.se, bilancio 2024). Org.nr 556842-9715. Filiale svedese del gruppo Puratos (BE); fornisce cioccolato (Belcolade) e cacao a bagerier/konditorier.",
+    "fonte": "https://www.allabolag.se/foretag/puratos-sweden-ab/vellinge/livsmedel/2K3ARV7I5YFWD"
+  },
+  {
     "denominazione": "Malmö Chokladfabrik AB",
-    "filiera": "Cacao/Cioccolato — fabbrica di cioccolato",
+    "filiera": "Cacao/Cioccolato — bean-to-bar, tostatura propria di fave di cacao",
     "sede": "Oxie / Malmö (Skåne län)",
     "sito": "https://malmochokladfabrik.se/",
     "email": "n.d.",
     "referente": "Roger Stenfeldt",
     "ruolo": "VD (verkställande direktör, esterno)",
     "linkedin": "",
-    "dimensione": "Fatturato 42,6 MSEK (~3,8 M€) esercizio 2025 (+31,6%); 16 dipendenti (fonte: allabolag.se / bolagsfakta.se). Org.nr 556664-6286. Sotto la fascia tollerabile ma trasformatore diretto di cacao in forte crescita.",
+    "dimensione": "Fatturato 42,6 MSEK (~3,8 M€) esercizio 2025 (+31,6%); 16 dipendenti (fonte: allabolag.se / bolagsfakta.se). Org.nr 556664-6286. Sotto la fascia tollerabile ma importatore diretto di fave di cacao (tostatura interna) e in forte crescita.",
     "fonte": "https://www.allabolag.se/foretag/malm%C3%B6-chokladfabrik-ab/oxie/livsmedel/2K28JRII5YFWD"
   }
 ]
