@@ -36,7 +36,7 @@ bovini/pelle (e derivati). Copertura ampia **adattata ai punti di forza industri
 | Germania | ✅ CONSEGNATO | 97 |
 | Finlandia | ✅ CONSEGNATO | 84 |
 | **Danimarca** | ✅ CONSEGNATO (residui minori in §11) | 89 |
-| Svezia | ⏳ da fare | — |
+| **Svezia** | 🔴 **DA RILANCIARE** — 6 ricercatori fermati dal limite di sessione, nessun file salvato (§12) | — |
 | Olanda | ⏳ da fare | — |
 | Belgio | ⏳ da fare | — |
 | Austria | ⏳ da fare | — |
@@ -138,9 +138,8 @@ Valuta i fatturati: **DKK ~7,46 kr/€** (10–20 M€ ≈ 75–150 M DKK). Refe
 
 ## 10. Task list (stato)
 
-Completati: Italia (ricerca+consolidamento), Germania (ricerca+consolidamento), Finlandia,
-**Danimarca (ricerca + foglio nel workbook; contatti da arricchire — §11)**.
-Da fare: Svezia, Olanda, Belgio, Austria, poi rifinitura workbook finale a 8 fogli.
+Completati: Italia, Germania, Finlandia, **Danimarca** (ricerca + arricchimento + foglio nel workbook).
+In corso: **Svezia** (§12). Da fare: Olanda, Belgio, Austria, poi rifinitura workbook finale a 8 fogli.
 
 ---
 
@@ -197,7 +196,46 @@ Dopo l'arricchimento: rieseguire `normalize_dk.py` e poi `add_country.py` (sosti
 
 ### File aggiunti in questo giro
 
-- `_myeudr_build/dk_01..06_*.json` — output dei 6 ricercatori (88 aziende).
+- `_myeudr_build/dk_01..06_*.json` — output dei 6 ricercatori + arricchimento (89 aziende).
 - `_myeudr_build/normalize_dk.py` — normalizza `filiera` sulla tassonomia dei fogli IT/DE/FI
   (`<Macro> — <dettaglio>`) e ripulisce `denominazione` spostando il codice CVR in `dimensione`.
   Da rieseguire prima di `add_country.py` se si rigenerano i JSON danesi.
+
+---
+
+## 12. SVEZIA — stato e piano (prossimo passo immediato)
+
+**Stato: da rilanciare da zero.** I 6 ricercatori sono stati avviati e stavano già producendo
+risultati buoni, ma sono stati interrotti *tutti insieme* dal limite di sessione dell'account
+prima di salvare i file: **nessun `se_*.json` è stato scritto**. Non c'è lavoro da recuperare,
+solo da rifare quando il limite si resetta.
+
+**Lezione operativa:** i 6 ricercatori in parallelo consumano molto in fretta il budget di
+sessione. Se il limite è vicino, conviene lanciarne **2-3 per volta** invece di 6.
+
+Valuta: **SEK ~11,3 kr/€** → 10–20 M€ ≈ 113–226 MSEK, tolleranza 5–40 M€ ≈ 56–450 MSEK.
+Referente = **VD (verkställande direktör)**. Fonti (solo via WebSearch): allabolag.se, proff.se,
+ratsit.se, largestcompanies.se, associazioni (Skogsindustrierna, Svenskt Trä, TMF, Grafiska
+Företagen, Packbridge, Foder & Spannmål, KCF, Svenska Kaffeinformation).
+
+**6 filoni (pesi svedesi), file `se_01..06`:**
+1. **Segherie e legname** (sågverk, hyvleri, virkeshandel) — la filiera più forte. ~18.
+   Escludi SCA, Holmen, Stora Enso, Setra, Vida, Bergs Timber, Norra Skog, Södra, Martinsons, Moelven.
+2. **Prodotti in legno per edilizia** (limträ/glulam, KL-trä/CLT, trähus, trägolv, fönster/dörrar,
+   takstolar, träemballage/pallar). ~16. Escludi Derome, Myresjöhus/OBOS, Älvsbyhus, Inwido.
+3. **Mobili e arredo** (distretti Småland/Tibro/Nässjö/Virserum). ~16.
+   Escludi IKEA e i fornitori maggiori (Inter IKEA Industry), Kinnarps, EFG, Nobia/Ballingslöv/Marbodal.
+4. **Carta/imballaggio/stampa/etichette**. ~16. Escludi Billerud, SCA, Smurfit Westrock, DS Smith, Tetra Pak.
+5. **Caffè + cacao/cioccolato** — consumo pro capite altissimo, filiera ricca; priorità agli
+   importatori di **råkaffe**. ~16. Escludi Löfbergs, Arvid Nordquist, Zoégas (Nestlé), Gevalia/JDE, Cloetta, Fazer.
+6. **Gomma + mangimi/soia + bovini/carne + pelle + palma**. ~14.
+   Escludi Trelleborg, Lantmännen, Svenska Foder, HKScan/Scan, Atria, KLS Ugglarps, AAK/Karlshamns.
+
+**Miglioramenti al metodo già applicati nei prompt svedesi (da riusare per NL/BE/AT):**
+- **Tassonomia `filiera` imposta ai ricercatori** (`<Macro> — <dettaglio>`, max 5 parole), così
+  non serve un `normalize_XX.py` a posteriori come per la Danimarca.
+- **Organisationsnummer/n. registro fuori dalla `denominazione`**, direttamente in `dimensione`.
+- **Raccolta email opportunistica già al primo giro**, così il giro di arricchimento parte da
+  una base migliore invece che da zero.
+- Ai ricercatori va detto **subito** che i registri non sono raggiungibili (policy di egress):
+  evita che sprechino il budget in tentativi WebFetch/curl.
