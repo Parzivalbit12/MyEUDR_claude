@@ -8,7 +8,7 @@
     "referente": "Stefan Gillberg",
     "ruolo": "VD",
     "linkedin": "",
-    "dimensione": "≈12,6 M€ / 39 dip. (allabolag 2025: 142 474 KSEK) · org.nr 556099-7008 · ATTENZIONE: fatturato 2023 era 326 MSEK (≈29 M€), calo -66,7% nel 2025 (possibile esercizio ridotto) · gruppo: controllata da Green Wood Sverige AB (capogruppo Ziegler Holding GmbH)",
+    "dimensione": "≈12,6 M€ / 39 dip. (allabolag 2025: 142 474 KSEK) · org.nr 556099-7008 · NOTA: nel 2023 il fatturato era 326 MSEK (≈29 M€), calo -66,7% nel 2025 (possibile esercizio ridotto) · legame di gruppo: controllata di Green Wood Sverige AB, capogruppo Ziegler Holding GmbH",
     "fonte": "https://www.allabolag.se/foretag/b%C3%A4ckebrons-s%C3%A5gverk-aktiebolag/v%C3%A4stra-%C3%A4mtervik/s%C3%A5gverk/2JYVGR4I5YHTM"
   },
   {
@@ -20,7 +20,7 @@
     "referente": "Stefan Gillberg",
     "ruolo": "VD (extern VD)",
     "linkedin": "https://se.linkedin.com/company/balungstrands-s%C3%A5gverk-ab",
-    "dimensione": "≈10,1 M€ / 38 dip. (allabolag 2025: 114 525 KSEK) · org.nr 556637-7171 · gruppo: controllata da Green Wood Sverige AB (stessa proprietà di Bäckebrons Sågverk) · calo fatturato -70,1% sul 2024, verificare esercizio",
+    "dimensione": "≈10,1 M€ / 38 dip. (allabolag 2025: 114 525 KSEK) · org.nr 556637-7171 · legame di gruppo: controllata di Green Wood Sverige AB (stessa proprietà di Bäckebrons e Nordanå Trä) · calo -70,1% sul 2024, verificare durata esercizio",
     "fonte": "https://www.allabolag.se/foretag/balungstrands-s%C3%A5gverk-ab/enviken/s%C3%A5gverk/2K22S43I5YHTM"
   },
   {
@@ -48,28 +48,64 @@
     "fonte": "https://www.allabolag.se/foretag/sm%C3%A5land-timber-ab/rydaholm/s%C3%A5gverk/2JZ3914I5YHTM"
   },
   {
-    "denominazione": "Nydala Trävaru Aktiebolag",
-    "filiera": "Legno/Segheria — segheria e piallatura",
-    "sede": "Vrigstad (Sävsjö/Värnamo), Jönköpings län",
-    "sito": "https://nydalatravaru.se/",
+    "denominazione": "Olle Dahl Såg Aktiebolag",
+    "filiera": "Legno/Segheria — segheria e lavorazione legno",
+    "sede": "Hästveda (Hässleholm), Skåne län",
+    "sito": "",
     "email": "n.d.",
+    "referente": "Jonas Dahl",
+    "ruolo": "VD",
+    "linkedin": "",
+    "dimensione": "≈11,6 M€ / 16 dip. (allabolag 2025: 131 298 KSEK, -8,0%) · org.nr 556139-2910 · target ideale",
+    "fonte": "https://www.allabolag.se/5561392910/olle-dahl-sag-aktiebolag"
+  },
+  {
+    "denominazione": "Brattby Sågverks AB",
+    "filiera": "Legno/Segheria — segheria di conifere",
+    "sede": "Vännäs, Västerbottens län",
+    "sito": "https://www.brattbysagverk.se/",
+    "email": "info@brattbysagverk.se",
+    "referente": "Marie Bergstrand",
+    "ruolo": "VD",
+    "linkedin": "",
+    "dimensione": "≈12,7 M€ / 32 dip. (allabolag/bolagsfakta 2024: 143 413 KSEK, +25,6%) · org.nr 556415-5066 · membro SÅGAB-Sågverken Norrland · target ideale",
+    "fonte": "https://www.allabolag.se/5564155066/brattby-sagverks-ab"
+  },
+  {
+    "denominazione": "Älgsjö Såg AB",
+    "filiera": "Legno/Segheria — segheria di conifere",
+    "sede": "Ullånger (Kramfors), Västernorrlands län",
+    "sito": "http://www.algsjosag.se/",
+    "email": "info@algsjosag.se",
     "referente": "",
     "ruolo": "",
     "linkedin": "",
-    "dimensione": "≈28,6 M€ / 41 dip. (allabolag 2023: 323 425 KSEK; 2022: 364 MSEK) · org.nr 556075-2825 · azienda di confine sulla fascia alta del range tollerabile · segheria familiare dal 1908, ~100 000 m³/anno",
-    "fonte": "https://www.allabolag.se/foretag/nydala-tr%C3%A4varu-aktiebolag/vrigstad/s%C3%A5gverk/2JYQ8C9I5YHTM"
+    "dimensione": "≈12,2 M€ / 12 dip. (allabolag 2025: 137 399 KSEK, +13,1%) · org.nr 556341-1577 · capogruppo Älgsjö Invest AB · membro SÅGAB · target ideale · VD non pubblicato (Jörgen Törnqvist risulta styrelseledamot)",
+    "fonte": "https://www.allabolag.se/5563411577/algsjo-sag-ab"
   },
   {
-    "denominazione": "Norrlands Trä Aktiebolag",
-    "filiera": "Legno/Segheria — piallatura e pannelli",
-    "sede": "Älandsbro (Härnösand), Västernorrlands län",
-    "sito": "",
+    "denominazione": "Nordanå Trä Aktiebolag",
+    "filiera": "Legno/Segheria — segheria e selvicoltura",
+    "sede": "Alfta (Ovanåker), Gävleborgs län",
+    "sito": "https://nordanatra.se/",
     "email": "n.d.",
-    "referente": "Jan Anders Nivfors",
+    "referente": "Patrik Siljemark",
+    "ruolo": "VD (extern VD)",
+    "linkedin": "",
+    "dimensione": "≈10,4 M€ / 25 dip. (allabolag 2025: 117 660 KSEK) · org.nr 556134-5751 · legame di gruppo: controllata di Green Wood Sverige AB (come Bäckebrons e Balungstrands) · calo -52,2%, verificare durata esercizio",
+    "fonte": "https://www.allabolag.se/foretag/nordan%C3%A5-tr%C3%A4-aktiebolag/alfta/s%C3%A5gverk/2JZ2XUFI5YHTM"
+  },
+  {
+    "denominazione": "N K Lundströms Trävaror Aktiebolag",
+    "filiera": "Legno/Segheria — segheria e trävaror",
+    "sede": "Tväråbäck (Vännäs), Västerbottens län",
+    "sito": "https://www.nkltra.se/",
+    "email": "n.d.",
+    "referente": "Karl Ulf Peter Lundström",
     "ruolo": "VD",
     "linkedin": "",
-    "dimensione": "≈24,3 M€ / 41 dip. (allabolag 2025: 275 049 KSEK; 44 dip. nel 2024) · org.nr 556092-4077 · fascia alta del range tollerabile",
-    "fonte": "https://www.allabolag.se/5560924077/norrlands-tra-aktiebolag"
+    "dimensione": "≈18,6 M€ / 34 dip. (allabolag 2024: 210 533 KSEK, +3,9%) · org.nr 556107-8154 · capogruppo KGL Trä Aktiebolag · membro SÅGAB · azienda familiare dal 1931 · target ideale",
+    "fonte": "https://www.allabolag.se/5561078154/n-k-lundstroms-travaror-aktiebolag"
   },
   {
     "denominazione": "Åsljunga Pallen Aktiebolag",
@@ -80,8 +116,68 @@
     "referente": "",
     "ruolo": "",
     "linkedin": "https://se.linkedin.com/company/%C3%A5sljunga-pallen-ab",
-    "dimensione": "≈22,6 M€ / 80 dip. (allabolag 2024: 255 909 KSEK) · org.nr 556093-5156 · maggior produttore svedese di pallet (HS 4415, Allegato I EUDR)",
+    "dimensione": "≈22,6 M€ / 80 dip. (allabolag 2024: 255 909 KSEK) · org.nr 556093-5156 · maggior produttore svedese di pallet (HS 4415, Allegato I EUDR) · fascia alta del range tollerabile",
     "fonte": "https://www.allabolag.se/foretag/%C3%A5sljunga-pallen-aktiebolag/%C3%B6rkelljunga/tr%C3%A4varor-produktion/2JYU510I63IL3"
+  },
+  {
+    "denominazione": "Norrlands Trä Aktiebolag",
+    "filiera": "Legno/Segheria — piallatura e pannelli",
+    "sede": "Älandsbro (Härnösand), Västernorrlands län",
+    "sito": "https://www.norrlandstra.com/",
+    "email": "n.d.",
+    "referente": "Jan Anders Nivfors",
+    "ruolo": "VD",
+    "linkedin": "",
+    "dimensione": "≈24,3 M€ / 41 dip. (allabolag 2025: 275 049 KSEK; 44 dip. nel 2024) · org.nr 556092-4077 · membro SÅGAB · fascia alta del range tollerabile",
+    "fonte": "https://www.allabolag.se/5560924077/norrlands-tra-aktiebolag"
+  },
+  {
+    "denominazione": "Nydala Trävaru Aktiebolag",
+    "filiera": "Legno/Segheria — segheria e piallatura",
+    "sede": "Vrigstad (Sävsjö), Jönköpings län",
+    "sito": "https://nydalatravaru.se/",
+    "email": "n.d.",
+    "referente": "",
+    "ruolo": "",
+    "linkedin": "",
+    "dimensione": "≈28,6 M€ / 41 dip. (allabolag 2023: 323 425 KSEK; 2022: 364 MSEK) · org.nr 556075-2825 · azienda di confine sulla fascia alta del range tollerabile · segheria familiare dal 1908, ~100 000 m³/anno",
+    "fonte": "https://www.allabolag.se/foretag/nydala-tr%C3%A4varu-aktiebolag/vrigstad/s%C3%A5gverk/2JYQ8C9I5YHTM"
+  },
+  {
+    "denominazione": "Skaraborgs Träförädling Aktiebolag",
+    "filiera": "Legno/Segheria — segheria e piallatura",
+    "sede": "Töreboda, Västra Götalands län",
+    "sito": "https://traforadling.se/",
+    "email": "per@traforadling.se",
+    "referente": "Per-Anders Lennart Andersson",
+    "ruolo": "VD",
+    "linkedin": "",
+    "dimensione": "≈30,2 M€ / 29 dip. (allabolag 2023: 341 232 KSEK, -12,4%; 28 dip. dato aziendale) · org.nr 556261-5657 · azienda di confine sulla fascia alta del range tollerabile · hyvleri familiare dal 1985",
+    "fonte": "https://www.allabolag.se/5562615657/skaraborgs-traforadling-aktiebolag"
+  },
+  {
+    "denominazione": "Rödins Trä AB",
+    "filiera": "Legno/Segheria — segheria e trävaror",
+    "sede": "Svenstavik (Berg), Jämtlands län",
+    "sito": "",
+    "email": "n.d.",
+    "referente": "Lars Gunnar Markus Rödin",
+    "ruolo": "VD",
+    "linkedin": "",
+    "dimensione": "≈33,7 M€ / 37 dip. (allabolag 2025: 380 291 KSEK, +2,7%) · org.nr 556331-1801 · azienda di confine sulla fascia alta del range tollerabile · membro SÅGAB · 1 controllata",
+    "fonte": "https://www.allabolag.se/foretag/r%C3%B6dins-tr%C3%A4-ab/svenstavik/s%C3%A5gverk/2K092UXI5YHTM"
+  },
+  {
+    "denominazione": "Stockhult Glommers Timber AB",
+    "filiera": "Legno/Segheria — segheria e essiccazione",
+    "sede": "Glommersträsk (Arvidsjaur), Norrbottens län",
+    "sito": "https://www.glommerstimber.se/",
+    "email": "n.d.",
+    "referente": "Paul Björnsson",
+    "ruolo": "VD",
+    "linkedin": "",
+    "dimensione": "≈26 M€ / 15 dip. (fatturato 296,6 MSEK, riconoscimento Gasell Dagens Industri; allabolag 2020: 98 352 KSEK) · org.nr 556579-8435 · crescita +269% in 4 anni, azienda di confine sulla fascia alta · produzione ~70 000 m³/anno",
+    "fonte": "https://www.allabolag.se/5565798435/glommers-timber-ab"
   },
   {
     "denominazione": "Aktiebolaget Karlaträ",
@@ -96,81 +192,9 @@
     "fonte": "https://www.allabolag.se/5560818782/aktiebolaget-karlatra"
   },
   {
-    "denominazione": "Stockhult Glommers Timber AB",
-    "filiera": "Legno/Segheria — segheria e essiccazione",
-    "sede": "Glommersträsk (Arvidsjaur), Norrbottens län",
-    "sito": "https://www.glommerstimber.se/",
-    "email": "n.d.",
-    "referente": "Paul Björnsson",
-    "ruolo": "VD",
-    "linkedin": "",
-    "dimensione": "≈26 M€ / 15 dip. (fatturato 296,6 MSEK, Gasell Dagens Industri; allabolag 2020: 98 352 KSEK) · org.nr 556579-8435 · crescita +269% in 4 anni, azienda di confine sulla fascia alta · produzione ~70 000 m³/anno",
-    "fonte": "https://www.allabolag.se/5565798435/glommers-timber-ab"
-  },
-  {
-    "denominazione": "Nordanå Trä Aktiebolag",
-    "filiera": "Legno/Segheria — segheria e selvicoltura",
-    "sede": "Alfta (Ovanåker), Gävleborgs län",
-    "sito": "https://nordanatra.se/",
-    "email": "n.d.",
-    "referente": "Patrik Siljemark",
-    "ruolo": "VD (extern VD)",
-    "linkedin": "",
-    "dimensione": "≈10,4 M€ / 25 dip. (allabolag 2025: 117 660 KSEK) · org.nr 556134-5751 · gruppo: controllata da Green Wood Sverige AB (come Bäckebrons e Balungstrands) · calo fatturato -52,2%, verificare esercizio",
-    "fonte": "https://www.allabolag.se/foretag/nordan%C3%A5-tr%C3%A4-aktiebolag/alfta/s%C3%A5gverk/2JZ2XUFI5YHTM"
-  },
-  {
-    "denominazione": "Brattby Sågverks AB",
-    "filiera": "Legno/Segheria — segheria di conifere",
-    "sede": "Vännäs, Västerbottens län",
-    "sito": "",
-    "email": "n.d.",
-    "referente": "",
-    "ruolo": "",
-    "linkedin": "",
-    "dimensione": "≈12,7 M€ / 32 dip. (allabolag 2024: 143 413 KSEK, +25,6%) · org.nr 556415-5066 · membro SÅGAB-Sågverken Norrland · target ideale",
-    "fonte": "https://www.bolagsfakta.se/5564155066-Brattby_Sagverks_AB"
-  },
-  {
-    "denominazione": "N K Lundströms Trävaror Aktiebolag",
-    "filiera": "Legno/Segheria — segheria e trävaror",
-    "sede": "Tväråbäck (Vännäs/Umeå), Västerbottens län",
-    "sito": "",
-    "email": "n.d.",
-    "referente": "",
-    "ruolo": "",
-    "linkedin": "",
-    "dimensione": "≈18,6 M€ / 34 dip. (allabolag 2024: 210 533 KSEK) · org.nr 556107-8154 · capogruppo KGL Trä Aktiebolag · membro SÅGAB · target ideale",
-    "fonte": "https://www.allabolag.se/5561078154/n-k-lundstroms-travaror-aktiebolag"
-  },
-  {
-    "denominazione": "Älgsjö Såg AB",
-    "filiera": "Legno/Segheria — segheria di conifere",
-    "sede": "Ullånger (Kramfors), Västernorrlands län",
-    "sito": "",
-    "email": "n.d.",
-    "referente": "",
-    "ruolo": "",
-    "linkedin": "",
-    "dimensione": "≈12,2 M€ / 12 dip. (allabolag 2025: 137 399 KSEK, +13,1%) · org.nr 556341-1577 · capogruppo Älgsjö Invest AB · membro SÅGAB · target ideale",
-    "fonte": "https://www.allabolag.se/5563411577/algsjo-sag-ab"
-  },
-  {
-    "denominazione": "Rödins Trä AB",
-    "filiera": "Legno/Segheria — segheria e trävaror",
-    "sede": "Svenstavik (Berg), Jämtlands län",
-    "sito": "",
-    "email": "n.d.",
-    "referente": "",
-    "ruolo": "",
-    "linkedin": "",
-    "dimensione": "≈33,7 M€ / 37 dip. (allabolag 2025: 380 291 KSEK, +2,7%) · org.nr 556331-1801 · azienda di confine sulla fascia alta del range tollerabile · membro SÅGAB · 1 controllata",
-    "fonte": "https://www.allabolag.se/foretag/r%C3%B6dins-tr%C3%A4-ab/svenstavik/s%C3%A5gverk/2K092UXI5YHTM"
-  },
-  {
     "denominazione": "Brännfors Träförädling Aktiebolag",
     "filiera": "Legno/Segheria — segheria e lavorazione legno",
-    "sede": "Kåge/Ostvik (Skellefteå), Västerbottens län",
+    "sede": "Ostvik/Kåge (Skellefteå), Västerbottens län",
     "sito": "",
     "email": "n.d.",
     "referente": "",
@@ -178,5 +202,17 @@
     "linkedin": "",
     "dimensione": "≈7,0 M€ / 17 dip. (allabolag 2025: 79 011 KSEK; 2024: 53 348 KSEK con 15 dip.) · org.nr 556103-8695 · sotto la fascia target 10-20 M€, tenuta per copertura · membro SÅGAB",
     "fonte": "https://www.allabolag.se/foretag/br%C3%A4nnfors-tr%C3%A4f%C3%B6r%C3%A4dling-aktiebolag/k%C3%A5ge/s%C3%A5gverk/2JYWCX3I5YHTM"
+  },
+  {
+    "denominazione": "Lars Carlsson Trävaru Aktiebolag",
+    "filiera": "Legno/Segheria — segheria e commercio legname",
+    "sede": "Älmeboda (Tingsryd), Kronobergs län",
+    "sito": "https://www.carlssontra.se/",
+    "email": "n.d.",
+    "referente": "",
+    "ruolo": "",
+    "linkedin": "",
+    "dimensione": "≈6,2 M€ / 14 dip. (allabolag 2024: 70 552 KSEK) · org.nr 556093-1734 · sotto la fascia target 10-20 M€, tenuta per copertura · azienda familiare dal 1901",
+    "fonte": "https://www.allabolag.se/foretag/lars-carlsson-tr%C3%A4varu-aktiebolag/%C3%A4lmeboda/s%C3%A5gverk/2JYU2DYI5YHTM"
   }
 ]
