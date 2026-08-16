@@ -24,7 +24,9 @@ bovini/pelle (e derivati). Copertura ampia **adattata ai punti di forza industri
 - **Campo "Contatto"** = referente (nome+ruolo) + LinkedIn + email/PEC aziendale.
   **MAI inventare** email, nomi o URL LinkedIn. Non trovato → `"n.d."` (email/dimensione) o `""` (referente/ruolo/linkedin).
 - **Layout Excel esteso a 10 colonne** (confermato dal cliente), un **foglio per nazione**.
-- **Un paese alla volta** (più risorse per nazione).
+- **Un paese alla volta** (più risorse per nazione). ⚠️ **AGGIORNAMENTO cliente (16/08/2026):**
+  non serve più chiedere il via libera tra un paese e l'altro — **procedere in automatico**
+  fino a completare tutti e 8 i paesi.
 - **8 paesi totali:** Italia, Germania, Finlandia, Danimarca, Svezia, Olanda, Belgio, Austria
   (la Germania è stata **aggiunta** ai 7 iniziali).
 
@@ -65,7 +67,8 @@ Contiene Italia+Germania+Finlandia+Danimarca+Svezia. (Esiste anche `MyEUDR_Lead_
 5. Verifica (fogli, righe, 0 entità HTML residue) e consegna al cliente con un breve riepilogo:
    ripartizione per filiera + copertura contatti (email X/N, referente Y/N) + note di trasparenza
    (aziende "di confine" sopra soglia, legami di gruppo, taglie sotto i 5M dove il mercato lo impone).
-6. Poi **chiedi al cliente se procedere** col paese successivo (lui vuole un paese alla volta).
+6. Poi **passa direttamente al paese successivo** senza chiedere conferma (decisione cliente del
+   16/08/2026; prima invece voleva approvare un paese alla volta).
 
 ### Template prompt per ogni ricercatore (riempi le [ ])
 
