@@ -36,13 +36,13 @@ bovini/pelle (e derivati). Copertura ampia **adattata ai punti di forza industri
 | Germania | ✅ CONSEGNATO | 97 |
 | Finlandia | ✅ CONSEGNATO | 84 |
 | **Danimarca** | ✅ CONSEGNATO (residui minori in §11) | 89 |
-| **Svezia** | 🔴 **DA RILANCIARE** — 6 ricercatori fermati dal limite di sessione, nessun file salvato (§12) | — |
+| **Svezia** | 🟡 **FOGLIO NEL WORKBOOK** — arricchimento da completare su `se_04_carta` (§12) | 89 |
 | Olanda | ⏳ da fare | — |
 | Belgio | ⏳ da fare | — |
 | Austria | ⏳ da fare | — |
 
-**Deliverable attuale:** `MyEUDR_Lead_Mapping.xlsx` — **4 fogli, 365 righe**, integro, 0 entità HTML residue.
-Contiene Italia+Germania+Finlandia+Danimarca. (Esiste anche `MyEUDR_Lead_Mapping_ITALIA_pilota.xlsx`, vecchio, **eliminabile**.)
+**Deliverable attuale:** `MyEUDR_Lead_Mapping.xlsx` — **5 fogli, 454 righe**, integro, 0 entità HTML residue.
+Contiene Italia+Germania+Finlandia+Danimarca+Svezia. (Esiste anche `MyEUDR_Lead_Mapping_ITALIA_pilota.xlsx`, vecchio, **eliminabile**.)
 
 ## 4. File e infrastruttura
 
@@ -139,7 +139,7 @@ Valuta i fatturati: **DKK ~7,46 kr/€** (10–20 M€ ≈ 75–150 M DKK). Refe
 ## 10. Task list (stato)
 
 Completati: Italia, Germania, Finlandia, **Danimarca** (ricerca + arricchimento + foglio nel workbook).
-In corso: **Svezia** (§12). Da fare: Olanda, Belgio, Austria, poi rifinitura workbook finale a 8 fogli.
+In corso: **Svezia** (foglio consegnato, rifinitura in §12). Da fare: Olanda, Belgio, Austria, poi rifinitura workbook finale a 8 fogli.
 
 ---
 
@@ -205,13 +205,30 @@ Dopo l'arricchimento: rieseguire `normalize_dk.py` e poi `add_country.py` (sosti
 
 ## 12. SVEZIA — stato e piano (prossimo passo immediato)
 
-**Stato: da rilanciare da zero.** I 6 ricercatori sono stati avviati e stavano già producendo
-risultati buoni, ma sono stati interrotti *tutti insieme* dal limite di sessione dell'account
-prima di salvare i file: **nessun `se_*.json` è stato scritto**. Non c'è lavoro da recuperare,
-solo da rifare quando il limite si resetta.
+**Stato: foglio Svezia nel workbook, 89 aziende.** Ripartizione: legno/arredo 29,
+legno/segheria 18, carta/packaging 14, caffè 8, cacao/cioccolato 6, gomma 5, mangimi/soia 4,
+bovini/carne 3, pelle/concia 1, olio di palma 1.
+Copertura contatti: **email 71/89, referente 74/89, sito 87/89, LinkedIn 48/89.**
 
-**Lezione operativa:** i 6 ricercatori in parallelo consumano molto in fretta il budget di
-sessione. Se il limite è vicino, conviene lanciarne **2-3 per volta** invece di 6.
+### Rifinitura ancora da fare
+
+- **`se_04_carta.json` è l'unico file rimasto indietro: email 4/14.** L'agente di arricchimento
+  è stato ucciso dal limite di sessione appena iniziato. Va rilanciato (stesso prompt degli altri)
+  e con l'occasione il filone può salire da 14 a ~16-18 aziende.
+- `se_02_legno_edilizia.json` è a 12 aziende invece di ~16 (email però già 12/12); LinkedIn 1/12.
+- `se_06_gomma_soia_carne.json`: LinkedIn 4/14 e 4 email mancanti.
+- Dopo ogni rifinitura: rieseguire `python add_country.py se Svezia <xlsx>` (sostituisce il foglio).
+
+### Lezioni operative (importanti, valgono per NL/BE/AT)
+
+1. **I 6 ricercatori in parallelo saturano il limite di sessione dell'account.** Lanciarne
+   **2-3 per volta**. Il limite si è riattivato 4 volte durante Danimarca+Svezia.
+2. **Il salvataggio incrementale è ciò che salva il lavoro.** Va chiesto esplicitamente nel prompt
+   ("scrivi il file appena hai 3-5 aziende, poi riscrivilo ogni 3-4"): senza, un'interruzione da
+   quota fa perdere tutto (successo alla Svezia primo tentativo, dove 6 agenti su 6 non salvarono nulla).
+3. **Avvisare i ricercatori dell'insidia delle unità di misura locali.** In Svezia allabolag
+   riporta spesso in **KSEK** (migliaia): un'azienda da "10 820 KSEK" fa ~1 M€, non 10 M€.
+   Senza l'avviso esplicito nel prompt il rischio di includere micro-imprese fuori target è alto.
 
 Valuta: **SEK ~11,3 kr/€** → 10–20 M€ ≈ 113–226 MSEK, tolleranza 5–40 M€ ≈ 56–450 MSEK.
 Referente = **VD (verkställande direktör)**. Fonti (solo via WebSearch): allabolag.se, proff.se,
