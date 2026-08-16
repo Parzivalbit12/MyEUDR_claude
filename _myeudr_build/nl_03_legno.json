@@ -166,5 +166,41 @@
     "linkedin": "https://nl.linkedin.com/company/houtimport-lekkerkerker-b.v",
     "dimensione": "Fatturato NON pubblicato (BV con bilancio abbreviato). Numero dipendenti non pubblicato nelle fonti consultate (creditsafe / drimble.nl, 2025). KVK 30147004, BV iscritta dal 1998 (attività dal 2000 con il fondatore Theo Lekkerkerker). Azienda familiare che importa/esporta legname da giardino centro-europeo: ca. 200.000 m³/anno (pino, abete, larice, douglas) — volume compatibile con la fascia 10-20 M€.",
     "fonte": "https://drimble.nl/bedrijf/benschop/17948002/houtimport-lekkerkerker-bv.html"
+  },
+  {
+    "denominazione": "GWW Houtimport B.V.",
+    "filiera": "Legno/Arredo — import legname tropicale",
+    "sede": "Lopik, Utrecht",
+    "sito": "https://www.gwwhoutimport.nl",
+    "email": "info@gwwhoutimport.nl",
+    "referente": "Arjan de Jong",
+    "ruolo": "Directeur",
+    "linkedin": "https://nl.linkedin.com/company/gwwhoutimport",
+    "dimensione": "Fatturato NON pubblicato nei registri olandesi (BV con bilancio abbreviato); stima esterna ca. 5 M$ (fonte rocketreach, 2025 — dato non ufficiale, da verificare). 11 dipendenti (fonte rocketreach/creditsafe, 2025). KVK 29051274. TAGLIA SOTTO I 5-10 M€, azienda di confine. Fondata nel 1999, fornitore esclusivamente FSC/PEFC di hardhout tropicale per il settore GWW (opere stradali/idrauliche). Dal 01/01/2026 nello stesso holding (Van den Berg Houtgroep) di Van den Berg Hardhout e GWW Agency. Secondo direttore citato: John Hoogendoorn.",
+    "fonte": "https://drimble.nl/bedrijf/lopik/6368980/gww-houtimport-bv.html"
+  },
+  {
+    "denominazione": "B.V. Houthandel F. Habraken",
+    "filiera": "Legno/Arredo — import legname tropicale",
+    "sede": "Vroomshoop (Twenterand), Overijssel",
+    "sito": "https://www.habrakenhout.nl",
+    "email": "info@habrakenhout.nl",
+    "referente": "Frank Habraken",
+    "ruolo": "Eigenaar/directeur",
+    "linkedin": "https://nl.linkedin.com/company/habrakenhoutimport",
+    "dimensione": "Fatturato NON pubblicato (BV con bilancio abbreviato). 2-10 dipendenti dichiarati (fonte LinkedIn, 2025). KVK 17047540, BV costituita nel 1951 (attività Habraken Houtimport dal 1952). AZIENDA DI CONFINE: organico piccolo, probabile fatturato sotto i 10 M€. Importatore/grossista voorraadhoudend di hardhout e legname lavorato; dal 2016 sede e magazzino a Vroomshoop (in origine Valkenswaard). Membro VVNH e IKVO.",
+    "fonte": "https://drimble.nl/bedrijf/vroomshoop/000017387744/bv-houthandel-f-habraken.html"
+  },
+  {
+    "denominazione": "M.S. Pallets B.V.",
+    "filiera": "Legno/Arredo — imballaggi in legno/pallet",
+    "sede": "Den Ham (Twenterand), Overijssel",
+    "sito": "https://www.mspallets.nl",
+    "email": "info@mspallets.nl",
+    "referente": "",
+    "ruolo": "",
+    "linkedin": "",
+    "dimensione": "Fatturato NON pubblicato (BV con bilancio abbreviato). 6-10 dipendenti (fonte company.info / bedrijvenregister.nl, 2025). KVK 05049728, P.IVA NL808384119B01, costituita nel 1991. TAGLIA PROBABILMENTE SOTTO I 5 M€ — azienda di confine. Produzione/riparazione di pallet in legno e casse per patate, commercio di pallet nuovi e usati. Direttore statutario: persona giuridica Maso Onroerend (nessun nome fisico pubblicato).",
+    "fonte": "https://companyinfo.nl/organisatieprofiel/vervaardiging-van-houten-emballage/m-s-pallets-b-v-den-ham-05049728-000016563247"
   }
 ]
