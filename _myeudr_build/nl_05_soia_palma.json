@@ -106,5 +106,29 @@
     "linkedin": "",
     "dimensione": "Fatturato non pubblicato (BV con deposito abbreviato). 6-10 dipendenti (fonte: adhocdata.nl / oozo.nl su dati KVK, 2025). KVK 09009943. Micro-mengvoederbedrijf familiare, membro Nevedi: taglia di confine inferiore (fatturato verosimilmente sotto i 10 M€, gonfiato dal costo delle materie prime). Produttore di mangimi composti con impiego di sojaschroot: operatore EUDR.",
     "fonte": "https://www.adhocdata.nl/bedrijven/ADH000000CCECEG/Driel/Beijer-Mengvoeders-BV"
+  },
+  {
+    "denominazione": "Doens Food Ingredients B.V.",
+    "filiera": "Mangimi/Soia — import/export soia biologica",
+    "sede": "IJzendijke / Sluis (Zeeland), impianto a Sas van Gent",
+    "sito": "https://www.doensfood.com/",
+    "email": "info@doensfood.com",
+    "referente": "",
+    "ruolo": "",
+    "linkedin": "",
+    "dimensione": "Fatturato non pubblicato (BV con deposito abbreviato; dati finanziari solo su banche dati a pagamento). 35-40 dipendenti (fonte: Biojournaal/Omroep Zeeland, con piano di assunzione di altri 20-30 addetti a Sas van Gent); LinkedIn indica 11-50. KVK 22048339. Azienda familiare, tra i maggiori importatori/esportatori europei di ingredienti biologici food & feed alla rinfusa (soia, mais, lino, grano): importatore e commerciante EUDR in senso stretto.",
+    "fonte": "https://drimble.nl/bedrijf/ijzendijke/17334179/doens-food-ingredients-bv.html"
+  },
+  {
+    "denominazione": "Van Gorp Diervoeders B.V.",
+    "filiera": "Mangimi/Soia — mangimificio (hobby e zootecnia)",
+    "sede": "Waalwijk (Noord-Brabant)",
+    "sito": "https://www.van-gorp.com/",
+    "email": "info@van-gorp.com",
+    "referente": "Arno van Gorp",
+    "ruolo": "Eigenaar",
+    "linkedin": "",
+    "dimensione": "Fatturato non pubblicato (BV con deposito abbreviato). 11-20 dipendenti (fonte: oozo.nl su dati KVK, 2025). KVK 18083568. Mangimificio familiare indipendente con radici a Waspik dal 1923, stabilimento a Waalwijk dal 2005: PMI di taglia medio-piccola (fatturato verosimilmente 5-15 M€, non pubblicato). Utilizzatore di sojaschroot e derivati proteici: operatore EUDR.",
+    "fonte": "https://www.oozo.nl/bedrijven/waalwijk/waalwijk/industrieterrein-haven/43305/van-gorp-diervoeders-b-v"
   }
 ]
