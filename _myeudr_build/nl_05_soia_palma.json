@@ -19,7 +19,7 @@
     "email": "info@spackbv.com",
     "referente": "",
     "ruolo": "",
-    "linkedin": "",
+    "linkedin": "https://nl.linkedin.com/company/spackbv",
     "dimensione": "Fatturato non pubblicato (company.info espone solo profilo, dati finanziari a pagamento). 10-24 dipendenti (fonte: regiobedrijf.nl su dati KVK, 2025). KVK 24225423. PMI probabilmente sotto i 10 M€ di fatturato: segnalata come taglia di confine inferiore. Nata a Rotterdam nel 1977 come trading di oli e grassi vegetali, oggi produttore/confezionatore di oli vegetali biologici (incl. palma e cocco): operatore EUDR.",
     "fonte": "https://regiobedrijf.nl/groothandel-in-ruwe-plantaardige-en-dierlijke-olien-en-vetten-en-oliehoudende-grondstoffen/spack-bv-74891.html"
   },
@@ -79,8 +79,8 @@
     "email": "MOHcommercie@marine-olie.nl",
     "referente": "",
     "ruolo": "",
-    "linkedin": "",
-    "dimensione": "Fatturato non pubblicato (company.info espone il profilo, i dati finanziari solo a pagamento). KVK 24107203. Società di trading internazionale di oli e grassi vegetali con tank farm e laboratorio propri a Wormer; fondata nel 1965 come commercio di olio di pesce. Organico limitato (trader, tecnici di laboratorio e logistica; numero esatto non pubblicato). Importatore/commerciante di oli vegetali inclusi palma e cocco: operatore EUDR.",
+    "linkedin": "https://nl.linkedin.com/company/marine-olie-handel-maatschappij-b.v.",
+    "dimensione": "Fatturato non pubblicato (company.info espone il profilo, i dati finanziari solo a pagamento). KVK 24107203. Società di trading internazionale di oli e grassi vegetali con tank farm e laboratorio propri a Wormer; fondata nel 1965 come commercio di olio di pesce. Organico limitato (trader, tecnici di laboratorio e logistica; numero esatto non pubblicato). Importatore/commerciante di oli vegetali inclusi palma e cocco: operatore EUDR. ATTENZIONE: la societa e stata acquisita dal gruppo di trading STX (Amsterdam) - non piu indipendente (fonte: mena.nl).",
     "fonte": "https://companyinfo.nl/organisatieprofiel/groothandel-in-ruwe-plantaardige-en-dierlijke-olien-en-vetten-en-oliehoudende-grondstoffen/marine-olie-handel-maatschappij-b-v-moerdijk-24107203-000016359224"
   },
   {
@@ -101,9 +101,9 @@
     "sede": "Driel / Overbetuwe (Gelderland)",
     "sito": "https://beijermengvoeders.nl/",
     "email": "info@beijermengvoeders.nl",
-    "referente": "",
-    "ruolo": "",
-    "linkedin": "",
+    "referente": "Jeroen Beijer",
+    "ruolo": "Eigenaar / directeur",
+    "linkedin": "https://www.linkedin.com/in/jeroen-beijer-22214239/",
     "dimensione": "Fatturato non pubblicato (BV con deposito abbreviato). 6-10 dipendenti (fonte: adhocdata.nl / oozo.nl su dati KVK, 2025). KVK 09009943. Micro-mengvoederbedrijf familiare, membro Nevedi: taglia di confine inferiore (fatturato verosimilmente sotto i 10 M€, gonfiato dal costo delle materie prime). Produttore di mangimi composti con impiego di sojaschroot: operatore EUDR.",
     "fonte": "https://www.adhocdata.nl/bedrijven/ADH000000CCECEG/Driel/Beijer-Mengvoeders-BV"
   },
@@ -113,8 +113,8 @@
     "sede": "IJzendijke / Sluis (Zeeland), impianto a Sas van Gent",
     "sito": "https://www.doensfood.com/",
     "email": "info@doensfood.com",
-    "referente": "",
-    "ruolo": "",
+    "referente": "Walter Doens",
+    "ruolo": "Directeur",
     "linkedin": "",
     "dimensione": "Fatturato non pubblicato (BV con deposito abbreviato; dati finanziari solo su banche dati a pagamento). 35-40 dipendenti (fonte: Biojournaal/Omroep Zeeland, con piano di assunzione di altri 20-30 addetti a Sas van Gent); LinkedIn indica 11-50. KVK 22048339. Azienda familiare, tra i maggiori importatori/esportatori europei di ingredienti biologici food & feed alla rinfusa (soia, mais, lino, grano): importatore e commerciante EUDR in senso stretto.",
     "fonte": "https://drimble.nl/bedrijf/ijzendijke/17334179/doens-food-ingredients-bv.html"
@@ -125,10 +125,58 @@
     "sede": "Waalwijk (Noord-Brabant)",
     "sito": "https://www.van-gorp.com/",
     "email": "info@van-gorp.com",
-    "referente": "Arno van Gorp",
-    "ruolo": "Eigenaar",
-    "linkedin": "",
+    "referente": "Hans van Gorp",
+    "ruolo": "Directeur",
+    "linkedin": "https://www.linkedin.com/company/van-gorp-diervoeders-b.v.",
     "dimensione": "Fatturato non pubblicato (BV con deposito abbreviato). 11-20 dipendenti (fonte: oozo.nl su dati KVK, 2025). KVK 18083568. Mangimificio familiare indipendente con radici a Waspik dal 1923, stabilimento a Waalwijk dal 2005: PMI di taglia medio-piccola (fatturato verosimilmente 5-15 M€, non pubblicato). Utilizzatore di sojaschroot e derivati proteici: operatore EUDR.",
     "fonte": "https://www.oozo.nl/bedrijven/waalwijk/waalwijk/industrieterrein-haven/43305/van-gorp-diervoeders-b-v"
+  },
+  {
+    "denominazione": "OTR Oiltrade B.V.",
+    "filiera": "Olio di palma — trading/confezionamento oli e grassi vegetali",
+    "sede": "Werkendam (Noord-Brabant); impianto collegato a Heijningen",
+    "sito": "https://www.oiltrade.nl/",
+    "email": "info@oiltrade.nl",
+    "referente": "",
+    "ruolo": "",
+    "linkedin": "https://nl.linkedin.com/company/oiltrade-b-v-",
+    "dimensione": "Fatturato non pubblicato (BV con deposito abbreviato; company.info espone solo il profilo). 11-50 dipendenti (fonte: LinkedIn/company profile, 2025); fondata nel 2008-2009. KVK 24464899. Stabilimento con linee automatiche e centro logistico proprio, capacita oltre 100.000 t/anno: fornitore di oli vegetali e grassi da frittura (inclusi vet a base di palma) per industria alimentare e horeca. Volumi elevati con organico ridotto: il fatturato potrebbe superare la fascia target pur restando una PMI indipendente.",
+    "fonte": "https://companyinfo.nl/organisatieprofiel/groothandel-in-ruwe-plantaardige-en-dierlijke-olien-en-vetten-en-oliehoudende-grondstoffen/otr-oiltrade-b-v-werkendam-244648990000"
+  },
+  {
+    "denominazione": "DO IT Organic Food Ingredients B.V.",
+    "filiera": "Olio di palma — import oli vegetali e soia bio",
+    "sede": "Barneveld (Gelderland)",
+    "sito": "https://www.doitorganic.nl/",
+    "email": "sales@organic.nl",
+    "referente": "Hendrik Wijnen",
+    "ruolo": "CEO / algemeen directeur",
+    "linkedin": "https://nl.linkedin.com/company/doitorganic",
+    "dimensione": "Fatturato non pubblicato (BV con deposito abbreviato; dati finanziari solo a pagamento). KVK 75119048 (entita DO IT Organic Food Ingredients B.V., Barneveld; il gruppo DO-IT opera dal 1990 ca.). Trader olandese di ingredienti biologici con rete mondiale di fornitori: soia ca. 15% del giro d'affari e oli/grassi (inclusi palma e cocco) ca. 10% - importatore/operatore EUDR su entrambe le commodity. Numero dipendenti non pubblicato.",
+    "fonte": "https://companyinfo.nl/organisatieprofiel/groothandel-in-voedingsmiddelen-dranken-en-overige-genotmiddelen-algemeen-assortiment/do-it-organic-food-ingredients-b-v-barneveld-75119048-000043017282"
+  },
+  {
+    "denominazione": "P. Bos Mengvoeder- en Kunstmesthandel B.V.",
+    "filiera": "Mangimi/Soia — mangimificio e commercio grondstoffen",
+    "sede": "Ederveen / Ede (Gelderland)",
+    "sito": "https://www.pbosveevoeders.nl/",
+    "email": "info@pbosveevoeders.nl",
+    "referente": "J. Bos",
+    "ruolo": "Algemeen directeur",
+    "linkedin": "",
+    "dimensione": "Fatturato non pubblicato (BV con deposito abbreviato; company.info espone solo il profilo). Ca. 31 dipendenti (fonte: company.info / drimble.nl, 2025). KVK 09056076. Azienda familiare attiva dal 1894, produttore e fornitore di mengvoeder e concimi, dal 2025 in collaborazione con Van Benthem Diervoeders: PMI utilizzatrice di sojaschroot, operatore EUDR.",
+    "fonte": "https://companyinfo.nl/organisatieprofiel/vervaardiging-van-veevoeders/p-bos-mengvoeder-en-kunstmesthandel-b-v-ederveen-09056076-000016850459"
+  },
+  {
+    "denominazione": "Gunnewick Mengvoeders B.V.",
+    "filiera": "Mangimi/Soia — mangimificio",
+    "sede": "Vragender / Oost Gelre (Gelderland)",
+    "sito": "https://gunnewick.com/",
+    "email": "info@gunnewick.com",
+    "referente": "",
+    "ruolo": "",
+    "linkedin": "https://nl.linkedin.com/company/gunnewickmengvoeders",
+    "dimensione": "Fatturato non pubblicato (BV con deposito abbreviato). 21-50 dipendenti (fonte: oozo.nl / TransFirm su dati KVK, 2025). KVK 09183960. Mengvoederbedrijf familiare indipendente, membro Nevedi, attivo anche nel commercio di granaglie e materie prime per mangimi (sojaschroot incluso): operatore/commerciante EUDR.",
+    "fonte": "https://www.oozo.nl/bedrijven/oost-gelre/vragender/bebouwde-kom-vragender/438727/gunnewick-mengvoeders-b-v"
   }
 ]

@@ -39,11 +39,11 @@ bovini/pelle (e derivati). Copertura ampia **adattata ai punti di forza industri
 | Finlandia | ✅ CONSEGNATO | 84 |
 | **Danimarca** | ✅ CONSEGNATO (residui minori in §11) | 89 |
 | **Svezia** | 🟡 **FOGLIO NEL WORKBOOK** — arricchimento da completare su `se_04_carta` (§12) | 89 |
-| **Olanda** | 🟡 **FOGLIO NEL WORKBOOK** — 3 filoni da completare + arricchimento (§13) | 73 |
+| **Olanda** | ✅ CONSEGNATO (email 77/100 · §13) | 100 |
 | Belgio | ⏳ da fare | — |
 | Austria | ⏳ da fare | — |
 
-**Deliverable attuale:** `MyEUDR_Lead_Mapping.xlsx` — **6 fogli, 527 righe**, integro, 0 entità HTML residue.
+**Deliverable attuale:** `MyEUDR_Lead_Mapping.xlsx` — **6 fogli, 554 righe**, integro, 0 entità HTML residue.
 Contiene Italia+Germania+Finlandia+Danimarca+Svezia+Olanda. (Esiste anche `MyEUDR_Lead_Mapping_ITALIA_pilota.xlsx`, vecchio, **eliminabile**.)
 
 ## 4. File e infrastruttura
@@ -264,25 +264,24 @@ Företagen, Packbridge, Foder & Spannmål, KCF, Svenska Kaffeinformation).
 
 ## 13. OLANDA — stato e rifiniture aperte
 
-**Stato: foglio nel workbook, 73 aziende** (email 54/73, referente 42/73, LinkedIn 42/73).
-Ripartizione: cacao/cioccolato 19, caffè 17, legno/arredo 17, carta/packaging 11, gomma 4,
-mangimi/soia 3, olio di palma 2.
+**Stato: CONSEGNATA — 100 aziende** (email 77/100, referente 61/100, LinkedIn 67/100).
+Ripartizione: legno/arredo 21, cacao/cioccolato 19, caffè 17, carta/packaging 17, mangimi/soia 10,
+bovini/carne 5, olio di palma 5, gomma 4, pelle/concia 2.
 
 Valuta già in **EUR** (nessuna conversione). Referente = *directeur / algemeen directeur / eigenaar*.
 Fonti (solo via WebSearch): kvk.nl, company.info, drimble.nl + associazioni (VVNH per il legname,
 KNVKT per il caffè, VBZ per il cacao, Nevedi per i mangimi, NVC/VNP/KVGO per carta e stampa, COV
 per la carne, CBM per i mobili).
 
-### Da completare (i 3 filoni interrotti dal limite di quota)
+### Residui minori
 
-| File | Aziende | Target | Nota |
-|---|---:|---:|---|
-| `nl_04_carta.json` | 11 | ~16 | email già 9/11 |
-| `nl_05_soia_palma.json` | 5 | ~15 | il porto di Rotterdam è il maggiore hub UE di soia e olio di palma: filone potenzialmente ricco |
-| `nl_06_gomma_carne_mobili.json` | 4 | ~14 | gomma ~4, bovini/carne ~4, pelle/concia ~2 (distretto Waalwijk/Dongen), mobili ~4 |
-
-Poi: giro di arricchimento contatti sui file con email/referente scoperti (soprattutto
-`nl_01_cacao` con referente 7/19) e rieseguire `python add_country.py nl Olanda <xlsx>`.
+- `nl_01_cacao.json` ha referente 7/19: è il file meno coperto sui nomi dei decisori.
+- Restano senza email: SRC, Snel Industrie, Bannink (contatto solo telefonico o indirizzo non pubblicato).
+- **Marine Olie Handel Maatschappij** risulta acquisita dal trading house STX (Amsterdam) — mantenuta
+  con avvertenza nel campo `dimensione`. **OTR Oiltrade** muove >100.000 t/anno con 11-50 addetti:
+  possibile fatturato sopra fascia, segnalato.
+- **Bangma Verpakking**: maggioranza di **De Jong Verpakking** (De Lier) dal luglio 2020, autorizzazione
+  ACM del 20/05/2020 — la compliance potrebbe essere decisa a livello di gruppo.
 
 ### Difficoltà specifica olandese
 
@@ -295,6 +294,10 @@ pubblicato. È lo stesso trattamento usato per le ApS danesi (bruttofortjeneste)
 - **Houthandel Van Dam Bunnik** e **Centrop Houtimport**: non indipendenti, sono *vestigingen* di
   TABS Holland Groothandels B.V. (gruppo con 100+ sedi) → fuori soglia.
 - **Droste Vaassen**: produzione cessata. **Commodity Centre**: solo warehousing, non operatore EUDR.
+- **Coldenhove**: fallita nel maggio 2026. **ECCO Leather**: uscita da Dongen.
+- **La concia bovina olandese è di fatto estinta**: il distretto Waalwijk/Dongen non è più attivo e
+  l'unica conceria bovina rimasta è Rompa Tanneries (ex Koninklijke Hulshof). Compensato con
+  un commerciante di pelli grezze e un quinto operatore della carne.
 - Fuori target per taglia: Cocoanect (158 M€), Tony's Chocolonely (240 M€), Delicia Tilburg,
   Dutch Cocoa/Theobroma (ECOM), Crown of Holland (Tradin Organic), Nedcoffee (Sucden),
   Trabocca (Tradin Organic), Weekamp Deuren (Deli Home), Kegro, Fetim Group, Foreco.
