@@ -1,0 +1,62 @@
+[
+  {
+    "denominazione": "Van Benthem Diervoeders Vollenhove B.V.",
+    "filiera": "Mangimi/Soia — mangimificio (rundvee/paarden)",
+    "sede": "Vollenhove / Steenwijkerland (Overijssel)",
+    "sito": "https://www.vbvoer.nl/",
+    "email": "info@vanbenthemvollenhove.nl",
+    "referente": "Ed van Benthem",
+    "ruolo": "Eigenaar / directeur",
+    "linkedin": "https://nl.linkedin.com/company/van-benthem-veevoeders-en-kunstmest-b.v.",
+    "dimensione": "Fatturato non pubblicato (BV con deposito abbreviato). Ca. 20-21 dipendenti (fonte: vbvoer.nl e drimble.nl, 2025). KVK 05044357. Mangimificio familiare attivo dal 1780, produttore di mengvoeder di taglia medio-piccola; dal 2025 collaborazione con P. Bos Veevoeders. Utilizzatore di sojaschroot: operatore/commerciante EUDR.",
+    "fonte": "https://www.vbvoer.nl/van-benthem/"
+  },
+  {
+    "denominazione": "Spack B.V.",
+    "filiera": "Olio di palma — produzione/confezionamento oli vegetali bio",
+    "sede": "Nieuwe-Tonge / Goeree-Overflakkee (Zuid-Holland)",
+    "sito": "https://www.spack.nl/",
+    "email": "info@spackbv.com",
+    "referente": "",
+    "ruolo": "",
+    "linkedin": "",
+    "dimensione": "Fatturato non pubblicato (company.info espone solo profilo, dati finanziari a pagamento). 10-24 dipendenti (fonte: regiobedrijf.nl su dati KVK, 2025). KVK 24225423. PMI probabilmente sotto i 10 M€ di fatturato: segnalata come taglia di confine inferiore. Nata a Rotterdam nel 1977 come trading di oli e grassi vegetali, oggi produttore/confezionatore di oli vegetali biologici (incl. palma e cocco): operatore EUDR.",
+    "fonte": "https://regiobedrijf.nl/groothandel-in-ruwe-plantaardige-en-dierlijke-olien-en-vetten-en-oliehoudende-grondstoffen/spack-bv-74891.html"
+  },
+  {
+    "denominazione": "S.R.C. (Special Refining Company) B.V.",
+    "filiera": "Olio di palma — raffinazione conto terzi oli vegetali",
+    "sede": "Zaandam / Zaanstad (Noord-Holland)",
+    "sito": "https://refinery.nl/",
+    "email": "n.d.",
+    "referente": "",
+    "ruolo": "",
+    "linkedin": "https://nl.linkedin.com/company/src-b-v-",
+    "dimensione": "Fatturato non pubblicato (toll refiner: non acquista né vende olio, fattura solo il servizio di raffinazione — fatturato strutturalmente sotto la soglia dei trader). Capacità di raffinazione oltre 40.000 t/anno; organico ridotto e specializzato (numero esatto non pubblicato). Fondata nel 1996, parte del gruppo Pieter Bon. Circa 60% degli oli e grassi lavorati è biologico. Membro MVO. Raffinatore di palma e altri oli vegetali sul Noordzeekanaal.",
+    "fonte": "https://mvo.nl/organisatie/leden/src"
+  },
+  {
+    "denominazione": "Nijsen company B.V.",
+    "filiera": "Mangimi/Soia — trading granaglie e mangimificio",
+    "sede": "Veulen / Venray (Limburg)",
+    "sito": "https://nijsen.co/",
+    "email": "info@nijsen.co",
+    "referente": "John Geurts",
+    "ruolo": "Directeur",
+    "linkedin": "https://nl.linkedin.com/company/nijsencompany",
+    "dimensione": "Fatturato ca. 30 M€ con ca. 100 addetti (fonte: Pigbusiness.nl, intervista aziendale 2013; dato più recente non pubblicato — bilancio abbreviato). Il sito aziendale indica oggi un team di oltre 100-125 persone. KVK 14015971. SBI 1091 (vervaardiging van veevoeders). Ex Nijsen/Granico B.V., azienda familiare dal 1938: import/export di granaglie, farine e materie prime (inclusa soia) per mengvoeders + produzione mangimi da flussi residui alimentari. Taglia leggermente sopra il target ma indipendente.",
+    "fonte": "https://companyinfo.nl/organisatieprofiel/vervaardiging-van-veevoeders/nijsen-company-b-v-veulen-14015971-000015817172"
+  },
+  {
+    "denominazione": "Speerstra Feed Ingredients B.V.",
+    "filiera": "Mangimi/Soia — import/trading ingredienti mangimistici",
+    "sede": "Eesterga / De Fryske Marren (Friesland)",
+    "sito": "https://speerstra.com/",
+    "email": "mail@speerstra.com",
+    "referente": "Jan Speerstra",
+    "ruolo": "Directeur / eigenaar",
+    "linkedin": "https://www.linkedin.com/company/speerstra-feed-ingredients-bv",
+    "dimensione": "Fatturato non pubblicato (BV con deposito abbreviato; company.info espone i dati 2024 solo a pagamento). 2-5 dipendenti registrati KVK (fonte: oozo.nl, 2025); ca. 10 persone secondo i profili aziendali. KVK 01085923. Micro-impresa: fatturato verosimilmente sotto i 5 M€ — segnalata come taglia di confine inferiore. Società di trading e import internazionale di ingredienti per mangimi (soia e derivati proteici, cereali): operatore/commerciante EUDR.",
+    "fonte": "https://companyinfo.nl/organisatieprofiel/groothandel-in-akkerbouwproducten-en-veevoeder-algemeen-assortiment/speerstra-feed-ingredients-b-v-eesterga-01085923-000019415834"
+  }
+]
