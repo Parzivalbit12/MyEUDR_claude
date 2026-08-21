@@ -43,7 +43,7 @@
     "email": "info@zalsman.nl",
     "referente": "Herman Verlind",
     "ruolo": "Directeur",
-    "linkedin": "",
+    "linkedin": "https://nl.linkedin.com/company/zalsman-bv",
     "dimensione": "Fatturato NON pubblicato (BV con bilancio abbreviato). 50 dipendenti nella sede di Steinfurtstraat 1 (fonte drukkerij-gids.nl / company.info, 2024-2025). KVK 05044422. Tipografia indipendente fondata nel 1857; offset + digitale (installata Ricoh Pro VC80000 nel 2024). Ha rilevato Drukkerij van den Berg (Kampen). Soci: Zalcom B.V. e IMpact Sociale Media B.V. NESSUN legame con Zalsman Groningen (fallita 2024, società distinta).",
     "fonte": "https://companyinfo.nl/organisatieprofiel/overige-activiteiten-op-het-gebied-van-drukwerk-rest/zalsman-b-v-zwolle-05044422-000017223881"
   },
@@ -52,7 +52,7 @@
     "filiera": "Carta/Packaging — stampa",
     "sede": "Meppel, Drenthe (già Raalte, Overijssel)",
     "sito": "https://www.veldhuismedia.nl",
-    "email": "n.d.",
+    "email": "info@veldhuis.nl",
     "referente": "Oscar Jager",
     "ruolo": "Directeur",
     "linkedin": "",
@@ -91,7 +91,7 @@
     "email": "sales@bangma.nl",
     "referente": "",
     "ruolo": "",
-    "linkedin": "",
+    "linkedin": "https://nl.linkedin.com/company/bangma-verpakking",
     "dimensione": "Fatturato NON pubblicato (BV con bilancio abbreviato). 32 dipendenti (fonte company.info / rocketreach.co, 2025). KVK 39027421. Fornitore e progettista di imballaggi industriali (carta, cartone, cartone ondulato) dal 1975, sede Cellebroederspoort 8. Membro NVC. ATTENZIONE: dal 2025 risulta amministratore 'A. Kalliomäki' — possibile passaggio a gruppo estero, da verificare. Nessun direttore persona fisica confermato come 'directeur/eigenaar' sulle fonti pubbliche.",
     "fonte": "https://companyinfo.nl/organisatieprofiel/groothandel-in-emballage-voor-industrieel-gebruik/bangma-verpakking-b-v-dronten-39027421-000017208963"
   },
@@ -101,8 +101,8 @@
     "sede": "Easterein (Súdwest-Fryslân), Friesland",
     "sito": "https://www.vandereems.nl",
     "email": "sjoukje@vandereems.nl",
-    "referente": "",
-    "ruolo": "",
+    "referente": "Durk-Jorrit van der Eems",
+    "ruolo": "Directeur",
     "linkedin": "https://nl.linkedin.com/company/grafische-groep-van-der-eems",
     "dimensione": "Fatturato NON pubblicato (BV con bilancio abbreviato). 65 dipendenti su due sedi, Easterein e Heerenveen (fonte vandereems.nl / regiobedrijf.nl, 2024-2025). KVK 01010712. Tipografia offset e digitale, familiare dal 1906, oggi alla quarta generazione. Membro KVGO. Nessun nome pubblicato con la qualifica esplicita di 'directeur': referente lasciato vuoto.",
     "fonte": "https://www.goudengids.nl/nl/bedrijf/Easterein/L120000030/Drukkerij+Van+der+Eems/"
@@ -112,7 +112,7 @@
     "filiera": "Carta/Packaging — stampa",
     "sede": "Goudriaan (Molenlanden), Zuid-Holland",
     "sito": "https://grootsgedrukt.nl",
-    "email": "n.d.",
+    "email": "info@grootsgedrukt.nl",
     "referente": "Anton de Groot",
     "ruolo": "Directeur",
     "linkedin": "",
@@ -130,5 +130,53 @@
     "linkedin": "https://nl.linkedin.com/company/fris-karton",
     "dimensione": "Fatturato NON pubblicato (BV con bilancio abbreviato). 18-20 dipendenti (fonte kompass.nl / rocketreach.co, 2025). KVK 17059632. Produttore indipendente di scatole in cartone ondulato di tutti i formati, sede Hallenstraat 25, attiva dal 1984. SOTTO SOGLIA: con ~20 addetti il fatturato è verosimilmente intorno o sotto i 5 M€.",
     "fonte": "https://graydongo.nl/nl/nl-grafisch-fris-karton-bv-bladel-17059632"
+  },
+  {
+    "denominazione": "Acket Drukkerij Kartonnage B.V.",
+    "filiera": "Carta/Packaging — astucci pieghevoli",
+    "sede": "Oss, Noord-Brabant",
+    "sito": "https://www.acket.nl",
+    "email": "info@acket.nl",
+    "referente": "Tom Acket",
+    "ruolo": "Directeur",
+    "linkedin": "https://nl.linkedin.com/company/acket-drukkerij-kartonnage-bv",
+    "dimensione": "Fatturato ca. 25 M€ (fonte printmedianieuws.nl, articolo sul passaggio alla 5a generazione). 115 dipendenti (stessa fonte; NVC/Kartoflex confermano il profilo). KVK 16061013. Sede Gasstraat-Oost 13, business park Landweer. Fondata nel 1884, familiare alla quinta generazione: Tom Acket ha rilevato la direzione dal padre Vic Acket. Vouwkarton (astucci pieghevoli) e imballaggi microonde stampati, forte quota food/chilled. Membro NVC, Kartoflex e Vouwkarton Platform. DENTRO il target allargato (25 M€), verso la fascia alta.",
+    "fonte": "https://www.printmedianieuws.nl/2015/02/acket-drukkerij-kartonnage-vijfde-generatie-aan-het-roer/"
+  },
+  {
+    "denominazione": "Panhuijsen Verpakkingen B.V.",
+    "filiera": "Carta/Packaging — imballaggi",
+    "sede": "Tilburg, Noord-Brabant",
+    "sito": "https://www.panhuijsen.nl",
+    "email": "info@panhuijsen.nl",
+    "referente": "Joost van Dijk",
+    "ruolo": "Algemeen directeur",
+    "linkedin": "https://nl.linkedin.com/company/panhuijsen-verpakkingen-b.v.",
+    "dimensione": "Fatturato NON pubblicato in bilancio (BV con deposito abbreviato); indicazione di profilo pubblico 'oltre 5 M€'. 10-25 dipendenti (fonte company.info / verpakkingen.com, 2025). KVK 18026915 - BTW NL006885019B01. Sede La Défense 3, zona industriale De Loven. Familiare dal 1903 (fondata da Gerard Panhuijsen), oggi nelle mani dei fratelli Joost, Susanne e Michiel van Dijk. Grossista industriale e produttore di imballaggi in cartone ondulato su misura (dozenmaker), film e macchine. Membro NVC. SOTTO SOGLIA: fascia bassa del range tollerabile (~5-10 M€).",
+    "fonte": "https://companyinfo.nl/organisatieprofiel/groothandel-in-emballage-voor-industrieel-gebruik/panhuijsen-verpakking-tilburg-18026915-000016660757"
+  },
+  {
+    "denominazione": "Van Gennip Verpakking B.V.",
+    "filiera": "Carta/Packaging — imballaggi",
+    "sede": "Eindhoven, Noord-Brabant",
+    "sito": "https://www.gennip.nl",
+    "email": "info@gennip.nl",
+    "referente": "Michelle en Nick Verdaasdonk",
+    "ruolo": "Eigenaren (quarta generazione)",
+    "linkedin": "https://nl.linkedin.com/company/van-gennip-verpakking-bv",
+    "dimensione": "Fatturato NON pubblicato (BV con bilancio abbreviato). 10-50 dipendenti (fonte MijnSBB / goedeverpakking.nl, 2025). KVK 17046790 (registrata come Papiergroothandel Van Gennip B.V., stesso indirizzo Esp 221; opera sul mercato come Van Gennip Verpakking). Fondata nel 1947, familiare alla terza/quarta generazione (Michelle e Nick Verdaasdonk). Grossista e produttore di materiali da imballaggio in carta e cartone per industria, logistica ed e-fulfilment nel Sud dei Paesi Bassi; ~3.500-5.000 referenze a stock. FASCIA BASSA del range tollerabile (stimabile 5-15 M€).",
+    "fonte": "https://www.transfirm.nl/nl/organisatie/17046790-000000000000-papiergroothandel-van-gennip-b.v."
+  },
+  {
+    "denominazione": "Snel Industrie voor Karton en Papierveredeling B.V.",
+    "filiera": "Carta/Packaging — nobilitazione carta e cartone",
+    "sede": "Bemmel (Lingewaard), Gelderland",
+    "sito": "",
+    "email": "n.d.",
+    "referente": "",
+    "ruolo": "",
+    "linkedin": "",
+    "dimensione": "Fatturato NON pubblicato (BV con bilancio abbreviato). 51-100 dipendenti (fonte oozo.nl / drimble.nl su dati Handelsregister, 2025). KVK 09059215, sede Nijverheidstraat 22, iscritta dal 1960. Attività: vervaardiging van verpakkingsmiddelen van papier en karton + golfpapier en -karton (sacchi e imballaggi in carta, nobilitazione). Tel. 026-3250863. NOTA: nessun sito web, nessuna e-mail e nessun direttore persona fisica pubblicati sulle fonti aperte — contatto da qualificare telefonicamente. Con 51-100 addetti il fatturato è plausibilmente nella fascia target 10-20 M€, ma NON è pubblicato.",
+    "fonte": "https://www.oozo.nl/bedrijven/lingewaard/bemmel/verspreide-huizen-angeren/367302/snel-industrie-voor-karton-en-papierveredeling-b-v"
   }
 ]

@@ -58,5 +58,53 @@
     "linkedin": "https://www.linkedin.com/company/speerstra-feed-ingredients-bv",
     "dimensione": "Fatturato non pubblicato (BV con deposito abbreviato; company.info espone i dati 2024 solo a pagamento). 2-5 dipendenti registrati KVK (fonte: oozo.nl, 2025); ca. 10 persone secondo i profili aziendali. KVK 01085923. Micro-impresa: fatturato verosimilmente sotto i 5 M€ — segnalata come taglia di confine inferiore. Società di trading e import internazionale di ingredienti per mangimi (soia e derivati proteici, cereali): operatore/commerciante EUDR.",
     "fonte": "https://companyinfo.nl/organisatieprofiel/groothandel-in-akkerbouwproducten-en-veevoeder-algemeen-assortiment/speerstra-feed-ingredients-b-v-eesterga-01085923-000019415834"
+  },
+  {
+    "denominazione": "Garvo B.V.",
+    "filiera": "Mangimi/Soia — produzione mangimi su base cereali/soia",
+    "sede": "Drempt / Bronckhorst (Gelderland)",
+    "sito": "https://www.garvo.nl/",
+    "email": "garvo@garvo.nl",
+    "referente": "Henkjan Garretsen",
+    "ruolo": "Commercieel directeur / aandeelhouder",
+    "linkedin": "https://nl.linkedin.com/company/garvo-bv",
+    "dimensione": "Fatturato non pubblicato (BV con deposito abbreviato; dati finanziari solo su banche dati a pagamento). 25 dipendenti (fonte: vainu.io/GraydonGo, ultimo esercizio disponibile); LinkedIn indica 11-50 addetti. KVK 09004900. Produttore indipendente di oltre 300 mangimi (cavalli, pollame, colombi, animali da hobby) su base cereali e derivati proteici: utilizzatore/operatore EUDR.",
+    "fonte": "https://vainu.io/company/garvo-bv-omzet-en-financiele/16180270/bedrijfsinformatie"
+  },
+  {
+    "denominazione": "Marine Olie Handel Maatschappij B.V.",
+    "filiera": "Olio di palma — import/trading oli vegetali",
+    "sede": "Moerdijk (Noord-Brabant), depositi a Wormer",
+    "sito": "https://marine-olie.nl/",
+    "email": "MOHcommercie@marine-olie.nl",
+    "referente": "",
+    "ruolo": "",
+    "linkedin": "",
+    "dimensione": "Fatturato non pubblicato (company.info espone il profilo, i dati finanziari solo a pagamento). KVK 24107203. Società di trading internazionale di oli e grassi vegetali con tank farm e laboratorio propri a Wormer; fondata nel 1965 come commercio di olio di pesce. Organico limitato (trader, tecnici di laboratorio e logistica; numero esatto non pubblicato). Importatore/commerciante di oli vegetali inclusi palma e cocco: operatore EUDR.",
+    "fonte": "https://companyinfo.nl/organisatieprofiel/groothandel-in-ruwe-plantaardige-en-dierlijke-olien-en-vetten-en-oliehoudende-grondstoffen/marine-olie-handel-maatschappij-b-v-moerdijk-24107203-000016359224"
+  },
+  {
+    "denominazione": "Booijink Veevoeders B.V.",
+    "filiera": "Mangimi/Soia — mangimificio (bovini/suini/avicoli)",
+    "sede": "Raalte (Overijssel), sedi anche a Luttenberg e Rijssen",
+    "sito": "https://www.booijinkveevoeders.nl/",
+    "email": "info@booijinkveevoeders.nl",
+    "referente": "Giel Booijink",
+    "ruolo": "Directeur",
+    "linkedin": "https://nl.linkedin.com/company/booijink-veevoeders-b.v.",
+    "dimensione": "Fatturato non pubblicato (BV con deposito abbreviato; dati finanziari solo su banche dati a pagamento). 40 dipendenti (fonte: GraydonGo/Salland Partners, 2025). KVK 38014671. Mengvoederbedrijf familiare indipendente, membro Nevedi, con tre sedi in Overijssel; utilizzatore di sojaschroot per mangimi composti: operatore EUDR.",
+    "fonte": "https://graydongo.nl/nl/voeding-booijink-veevoeders-bv-raalte-38014671"
+  },
+  {
+    "denominazione": "Beijer Mengvoeders B.V.",
+    "filiera": "Mangimi/Soia — mangimificio",
+    "sede": "Driel / Overbetuwe (Gelderland)",
+    "sito": "https://beijermengvoeders.nl/",
+    "email": "info@beijermengvoeders.nl",
+    "referente": "",
+    "ruolo": "",
+    "linkedin": "",
+    "dimensione": "Fatturato non pubblicato (BV con deposito abbreviato). 6-10 dipendenti (fonte: adhocdata.nl / oozo.nl su dati KVK, 2025). KVK 09009943. Micro-mengvoederbedrijf familiare, membro Nevedi: taglia di confine inferiore (fatturato verosimilmente sotto i 10 M€, gonfiato dal costo delle materie prime). Produttore di mangimi composti con impiego di sojaschroot: operatore EUDR.",
+    "fonte": "https://www.adhocdata.nl/bedrijven/ADH000000CCECEG/Driel/Beijer-Mengvoeders-BV"
   }
 ]
