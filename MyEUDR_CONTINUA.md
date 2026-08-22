@@ -40,11 +40,11 @@ bovini/pelle (e derivati). Copertura ampia **adattata ai punti di forza industri
 | **Danimarca** | ✅ CONSEGNATO (residui minori in §11) | 89 |
 | **Svezia** | 🟡 **FOGLIO NEL WORKBOOK** — arricchimento da completare su `se_04_carta` (§12) | 89 |
 | **Olanda** | ✅ CONSEGNATO (email 77/100 · §13) | 100 |
-| Belgio | ⏳ da fare | — |
+| **Belgio** | ✅ CONSEGNATO (email 65/90 · §14) | 90 |
 | Austria | ⏳ da fare | — |
 
-**Deliverable attuale:** `MyEUDR_Lead_Mapping.xlsx` — **6 fogli, 554 righe**, integro, 0 entità HTML residue.
-Contiene Italia+Germania+Finlandia+Danimarca+Svezia+Olanda. (Esiste anche `MyEUDR_Lead_Mapping_ITALIA_pilota.xlsx`, vecchio, **eliminabile**.)
+**Deliverable attuale:** `MyEUDR_Lead_Mapping.xlsx` — **7 fogli, 644 righe**, integro, 0 entità HTML residue.
+Contiene Italia+Germania+Finlandia+Danimarca+Svezia+Olanda+Belgio. (Esiste anche `MyEUDR_Lead_Mapping_ITALIA_pilota.xlsx`, vecchio, **eliminabile**.)
 
 ## 4. File e infrastruttura
 
@@ -301,3 +301,42 @@ pubblicato. È lo stesso trattamento usato per le ApS danesi (bruttofortjeneste)
 - Fuori target per taglia: Cocoanect (158 M€), Tony's Chocolonely (240 M€), Delicia Tilburg,
   Dutch Cocoa/Theobroma (ECOM), Crown of Holland (Tradin Organic), Nedcoffee (Sucden),
   Trabocca (Tradin Organic), Weekamp Deuren (Deli Home), Kegro, Fetim Group, Foreco.
+
+---
+
+## 14. BELGIO — stato
+
+**Stato: CONSEGNATO — 90 aziende** (email 65/90, referente 45/90, LinkedIn 34/90).
+Ripartizione: legno/arredo 25, cacao/cioccolato 18, carta/packaging 16, bovini/carne 9,
+gomma 5, caffè 5, mangimi/soia 5, olio di palma 4, pelle/concia 3.
+
+**Vantaggio belga: i bilanci depositati alla NBB/BNB sono pubblici**, quindi a differenza di
+Olanda (B.V. con bilanci abbreviati) e Danimarca (ApS senza fatturato) qui il **fatturato reale
+è quasi sempre disponibile**. È la copertura economica migliore dopo Italia e Germania.
+Referente = *gedelegeerd bestuurder / zaakvoerder* (Fiandre) o *administrateur délégué / gérant* (Vallonia).
+
+### Esclusioni di merito da ricordare
+
+- **Pacorini Antwerp**: *soft commodity warehouse keeper* (230.000 m² di magazzini doganali) che
+  movimenta cacao per conto terzi → **non immette la commodity sul mercato UE, non è operatore EUDR**.
+  Stesso criterio applicato a Commodity Centre in Olanda. ⚠️ Anversa e Gand sono piene di operatori
+  puramente logistici: vanno sempre esclusi.
+- **Immobra** (24,9 M€) e **Oliefabriek Lichtervelde**: producono **olio di lino industriale**, che
+  NON è commodity dell'Allegato I → nessun obbligo EUDR, quindi lead inutili. Sostituita con Repro NV.
+- Fuori soglia con fatturato verificato: Efico (289 M€), Vleeswaren De Keyser (194), Viangro (168),
+  Meat & More (163), Kim's Chocolates (114), Dovy (110), Vlevia/Devameat (103), Natra Chocolate (93),
+  Aigremont (106), Rima (65-123), Aveno (61), Scaldis Ruien (61,9), The Belgian Chocolate Group (54,5,
+  gruppo Baronie), Tribù (51,2).
+- **Vlaemynck**: esclusa per attività ambigua (arredo vs ortofrutta) — meglio fuori che classificata a caso.
+
+### Note di filiera
+
+- **Concia belga esilissima**: restano di fatto due sole concerie attive, Tannerie Masure (Estaimpuis,
+  17,2 M€, concia vegetale bovina — il lead migliore del filone) e Radermecker. Compensato con il
+  commercio di pelli bovine (Hulpiau Hides) e con Sopraco, che unisce carne e pelle.
+- **Forte rilevanza EUDR nei mobili**: Ethnicraft, Manutti, Royal Botania ed Extremis importano
+  teak e legni tropicali da Indonesia/Asia — esposizione diretta, non semplice uso di pannelli europei.
+- Segnalate le taglie gonfiate dal costo materia prima (carne e mangimi): Royale Lacroix (49,3 M€ /
+  18,6 FTE), Ameloot (49,3), Jos Leemput (45,0 M€ con 16 FTE), Dierickx (40,8), Baert (38,9).
+- Il filone **caffè è a 5 aziende**: se serve rinforzarlo, ripartire dalla Koffiefederatie e dagli
+  importatori di caffè verde del porto di Anversa.
