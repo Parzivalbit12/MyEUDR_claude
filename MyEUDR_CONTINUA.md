@@ -24,7 +24,9 @@ bovini/pelle (e derivati). Copertura ampia **adattata ai punti di forza industri
 - **Campo "Contatto"** = referente (nome+ruolo) + LinkedIn + email/PEC aziendale.
   **MAI inventare** email, nomi o URL LinkedIn. Non trovato → `"n.d."` (email/dimensione) o `""` (referente/ruolo/linkedin).
 - **Layout Excel esteso a 10 colonne** (confermato dal cliente), un **foglio per nazione**.
-- **Un paese alla volta** (più risorse per nazione).
+- **Un paese alla volta** (più risorse per nazione). ⚠️ **AGGIORNAMENTO cliente (16/08/2026):**
+  non serve più chiedere il via libera tra un paese e l'altro — **procedere in automatico**
+  fino a completare tutti e 8 i paesi.
 - **8 paesi totali:** Italia, Germania, Finlandia, Danimarca, Svezia, Olanda, Belgio, Austria
   (la Germania è stata **aggiunta** ai 7 iniziali).
 
@@ -35,14 +37,14 @@ bovini/pelle (e derivati). Copertura ampia **adattata ai punti di forza industri
 | Italia | ✅ CONSEGNATO (foglio nel workbook) | 95 |
 | Germania | ✅ CONSEGNATO | 97 |
 | Finlandia | ✅ CONSEGNATO | 84 |
-| **Danimarca** | 🔴 **INTERROTTO** dal limite di sessione — da rifare | — |
-| Svezia | ⏳ da fare | — |
-| Olanda | ⏳ da fare | — |
+| **Danimarca** | ✅ CONSEGNATO (residui minori in §11) | 89 |
+| **Svezia** | 🟡 **FOGLIO NEL WORKBOOK** — arricchimento da completare su `se_04_carta` (§12) | 89 |
+| **Olanda** | ✅ CONSEGNATO (email 77/100 · §13) | 100 |
 | Belgio | ⏳ da fare | — |
 | Austria | ⏳ da fare | — |
 
-**Deliverable attuale:** `MyEUDR_Lead_Mapping.xlsx` (nella cartella di lavoro) — **3 fogli, 276 righe**, integro.
-Contiene già Italia+Germania+Finlandia. (Esiste anche `MyEUDR_Lead_Mapping_ITALIA_pilota.xlsx`, vecchio, **eliminabile**.)
+**Deliverable attuale:** `MyEUDR_Lead_Mapping.xlsx` — **6 fogli, 554 righe**, integro, 0 entità HTML residue.
+Contiene Italia+Germania+Finlandia+Danimarca+Svezia+Olanda. (Esiste anche `MyEUDR_Lead_Mapping_ITALIA_pilota.xlsx`, vecchio, **eliminabile**.)
 
 ## 4. File e infrastruttura
 
@@ -65,7 +67,8 @@ Contiene già Italia+Germania+Finlandia. (Esiste anche `MyEUDR_Lead_Mapping_ITAL
 5. Verifica (fogli, righe, 0 entità HTML residue) e consegna al cliente con un breve riepilogo:
    ripartizione per filiera + copertura contatti (email X/N, referente Y/N) + note di trasparenza
    (aziende "di confine" sopra soglia, legami di gruppo, taglie sotto i 5M dove il mercato lo impone).
-6. Poi **chiedi al cliente se procedere** col paese successivo (lui vuole un paese alla volta).
+6. Poi **passa direttamente al paese successivo** senza chiedere conferma (decisione cliente del
+   16/08/2026; prima invece voleva approvare un paese alla volta).
 
 ### Template prompt per ogni ricercatore (riempi le [ ])
 
@@ -138,5 +141,163 @@ Valuta i fatturati: **DKK ~7,46 kr/€** (10–20 M€ ≈ 75–150 M DKK). Refe
 
 ## 10. Task list (stato)
 
-Completati: Italia (ricerca+consolidamento), Germania (ricerca+consolidamento), Finlandia.
-In corso/da fare: **Danimarca** (rifare), Svezia, Olanda, Belgio, Austria, poi rifinitura workbook finale a 8 fogli.
+Completati: Italia, Germania, Finlandia, **Danimarca** (ricerca + arricchimento + foglio nel workbook).
+In corso: **Svezia** (foglio consegnato, rifinitura in §12). Da fare: Olanda, Belgio, Austria, poi rifinitura workbook finale a 8 fogli.
+
+---
+
+## 11. Ambiente "Claude Code on the web" — vincoli scoperti (IMPORTANTE)
+
+Il lavoro sulla Danimarca è stato svolto nel repository GitHub `Parzivalbit12/MyEUDR_claude`
+(branch `claude/myeudr-lead-census-k3i1rk`) anziché sul PC locale. In quell'ambiente valgono
+due limiti che **cambiano il metodo** rispetto alle sessioni desktop:
+
+1. **WebFetch/curl sono bloccati dalla policy di egress** (HTTP 403 al CONNECT) su *tutti* i
+   domini esterni: `proff.dk`, `datacvr.virk.dk`, `biq.dk`, `lasso.dk`, `dakofo.dk` e i siti
+   aziendali. Non è aggirabile e non va ritentato.
+   → **Funziona solo WebSearch**, i cui frammenti però contengono spesso proprio i dati di
+   contatto (query efficaci: `"<azienda>" kontakt e-mail telefon`, `"<azienda>" kontakt info@ mail adresse`).
+   Verificato: la query `Skovby Møbelfabrik kontakt email adresse` restituisce `skovby@skovby.dk`.
+2. **Budget WebSearch ~200 chiamate per agente** e limite di sessione sul totale.
+   → Meglio 6 ricercatori "ricerca aziende" + un secondo giro di agenti "arricchimento contatti"
+   che leggono il JSON e riempiono solo i campi vuoti.
+
+### Metodo in due giri (adottato per la Danimarca, da riusare per SE/NL/BE/AT)
+
+Il primo giro di 6 ricercatori ha prodotto le aziende ma solo **3 email su 88**: senza accesso ai
+siti aziendali non c'era modo di estrarle. Un **secondo giro di 6 agenti di arricchimento**
+(uno per file `dk_0N_*.json`, solo WebSearch, che riempiono *unicamente* i campi vuoti) ha portato
+la copertura a **email 81/89, referente 77/89, sito 86/89, LinkedIn 57/89** — in linea con DE/FI.
+Le query che funzionano: `"<azienda>" kontakt e-mail telefon` e `"<azienda>" kontakt info@ mail adresse`.
+Dopo l'arricchimento: rieseguire `normalize_dk.py` e poi `add_country.py` (sostituisce il foglio).
+
+### Residui aperti sulla Danimarca
+
+- **Mangimi/soia: 11 aziende invece di ~15.** Piste ancora da battere: pagina DAKOFO
+  "Ansvarlig soja/Virksomheder", elenchi krak.dk/degulesider "korn og foderstoffer", conferma di
+  Tjørnehøj Mølle (il dato di fatturato trovato è del 2003).
+- **Olio di palma: solo 2 aziende** dopo l'esclusione di Dragsbæk (vedi sotto). Da integrare.
+- **Senza email (8):** H. Emballage, Color Label (indirizzo protetto anti-spam), Dansk Kaffe,
+  La Cabra (solo form di contatto), A-One Danmark, AB Neo e 2 dei nuovi record mangimi.
+- **`dimensione`**: per le società in forma ridotta (ApS/K/S), che per legge danese non pubblicano
+  il fatturato, il campo riporta il *bruttofortjeneste* con anno e fonte, sempre dichiarato come tale.
+
+### Due aziende rimosse dopo verifica (motivi da ricordare)
+
+- **Getama Danmark A/S** — stabilimento di Gedsted distrutto da un incendio nel feb. 2024,
+  produzione non ricostruita e portafoglio rilevato da **Carl Hansen & Søn** (tra i big esclusi):
+  non è più un produttore, quindi non è un operatore EUDR. Stessa logica già applicata a
+  Magnus Olesen (fallita) e Bent Krogh (cessata).
+- **Dragsbæk A/S** — fatturato ~1,9 mld DKK (≈255 M€): ben oltre la soglia dei ~50 M€ decisa dal
+  cliente, non un caso "di confine".
+
+### Da verificare prima del contatto
+
+- **Vestjysk Specialfoder**: allo stesso indirizzo risulta un'omonima società **sotto fallimento**.
+- **Estate Coffee Copenhagen A/S** = Smage-Compagniet A/S (stesso CVR); **Copenhagen Chocolate
+  Factory ApS** = marchio Simply Chocolate Copenhagen. Annotato nel campo `dimensione`.
+
+### File aggiunti in questo giro
+
+- `_myeudr_build/dk_01..06_*.json` — output dei 6 ricercatori + arricchimento (89 aziende).
+- `_myeudr_build/normalize_dk.py` — normalizza `filiera` sulla tassonomia dei fogli IT/DE/FI
+  (`<Macro> — <dettaglio>`) e ripulisce `denominazione` spostando il codice CVR in `dimensione`.
+  Da rieseguire prima di `add_country.py` se si rigenerano i JSON danesi.
+
+---
+
+## 12. SVEZIA — stato e piano (prossimo passo immediato)
+
+**Stato: foglio Svezia nel workbook, 89 aziende.** Ripartizione: legno/arredo 29,
+legno/segheria 18, carta/packaging 14, caffè 8, cacao/cioccolato 6, gomma 5, mangimi/soia 4,
+bovini/carne 3, pelle/concia 1, olio di palma 1.
+Copertura contatti: **email 71/89, referente 74/89, sito 87/89, LinkedIn 48/89.**
+
+### Rifinitura ancora da fare
+
+- **`se_04_carta.json` è l'unico file rimasto indietro: email 4/14.** L'agente di arricchimento
+  è stato ucciso dal limite di sessione appena iniziato. Va rilanciato (stesso prompt degli altri)
+  e con l'occasione il filone può salire da 14 a ~16-18 aziende.
+- `se_02_legno_edilizia.json` è a 12 aziende invece di ~16 (email però già 12/12); LinkedIn 1/12.
+- `se_06_gomma_soia_carne.json`: LinkedIn 4/14 e 4 email mancanti.
+- Dopo ogni rifinitura: rieseguire `python add_country.py se Svezia <xlsx>` (sostituisce il foglio).
+
+### Lezioni operative (importanti, valgono per NL/BE/AT)
+
+1. **I 6 ricercatori in parallelo saturano il limite di sessione dell'account.** Lanciarne
+   **2-3 per volta**. Il limite si è riattivato 4 volte durante Danimarca+Svezia.
+2. **Il salvataggio incrementale è ciò che salva il lavoro.** Va chiesto esplicitamente nel prompt
+   ("scrivi il file appena hai 3-5 aziende, poi riscrivilo ogni 3-4"): senza, un'interruzione da
+   quota fa perdere tutto (successo alla Svezia primo tentativo, dove 6 agenti su 6 non salvarono nulla).
+3. **Avvisare i ricercatori dell'insidia delle unità di misura locali.** In Svezia allabolag
+   riporta spesso in **KSEK** (migliaia): un'azienda da "10 820 KSEK" fa ~1 M€, non 10 M€.
+   Senza l'avviso esplicito nel prompt il rischio di includere micro-imprese fuori target è alto.
+
+Valuta: **SEK ~11,3 kr/€** → 10–20 M€ ≈ 113–226 MSEK, tolleranza 5–40 M€ ≈ 56–450 MSEK.
+Referente = **VD (verkställande direktör)**. Fonti (solo via WebSearch): allabolag.se, proff.se,
+ratsit.se, largestcompanies.se, associazioni (Skogsindustrierna, Svenskt Trä, TMF, Grafiska
+Företagen, Packbridge, Foder & Spannmål, KCF, Svenska Kaffeinformation).
+
+**6 filoni (pesi svedesi), file `se_01..06`:**
+1. **Segherie e legname** (sågverk, hyvleri, virkeshandel) — la filiera più forte. ~18.
+   Escludi SCA, Holmen, Stora Enso, Setra, Vida, Bergs Timber, Norra Skog, Södra, Martinsons, Moelven.
+2. **Prodotti in legno per edilizia** (limträ/glulam, KL-trä/CLT, trähus, trägolv, fönster/dörrar,
+   takstolar, träemballage/pallar). ~16. Escludi Derome, Myresjöhus/OBOS, Älvsbyhus, Inwido.
+3. **Mobili e arredo** (distretti Småland/Tibro/Nässjö/Virserum). ~16.
+   Escludi IKEA e i fornitori maggiori (Inter IKEA Industry), Kinnarps, EFG, Nobia/Ballingslöv/Marbodal.
+4. **Carta/imballaggio/stampa/etichette**. ~16. Escludi Billerud, SCA, Smurfit Westrock, DS Smith, Tetra Pak.
+5. **Caffè + cacao/cioccolato** — consumo pro capite altissimo, filiera ricca; priorità agli
+   importatori di **råkaffe**. ~16. Escludi Löfbergs, Arvid Nordquist, Zoégas (Nestlé), Gevalia/JDE, Cloetta, Fazer.
+6. **Gomma + mangimi/soia + bovini/carne + pelle + palma**. ~14.
+   Escludi Trelleborg, Lantmännen, Svenska Foder, HKScan/Scan, Atria, KLS Ugglarps, AAK/Karlshamns.
+
+**Miglioramenti al metodo già applicati nei prompt svedesi (da riusare per NL/BE/AT):**
+- **Tassonomia `filiera` imposta ai ricercatori** (`<Macro> — <dettaglio>`, max 5 parole), così
+  non serve un `normalize_XX.py` a posteriori come per la Danimarca.
+- **Organisationsnummer/n. registro fuori dalla `denominazione`**, direttamente in `dimensione`.
+- **Raccolta email opportunistica già al primo giro**, così il giro di arricchimento parte da
+  una base migliore invece che da zero.
+- Ai ricercatori va detto **subito** che i registri non sono raggiungibili (policy di egress):
+  evita che sprechino il budget in tentativi WebFetch/curl.
+
+---
+
+## 13. OLANDA — stato e rifiniture aperte
+
+**Stato: CONSEGNATA — 100 aziende** (email 77/100, referente 61/100, LinkedIn 67/100).
+Ripartizione: legno/arredo 21, cacao/cioccolato 19, caffè 17, carta/packaging 17, mangimi/soia 10,
+bovini/carne 5, olio di palma 5, gomma 4, pelle/concia 2.
+
+Valuta già in **EUR** (nessuna conversione). Referente = *directeur / algemeen directeur / eigenaar*.
+Fonti (solo via WebSearch): kvk.nl, company.info, drimble.nl + associazioni (VVNH per il legname,
+KNVKT per il caffè, VBZ per il cacao, Nevedi per i mangimi, NVC/VNP/KVGO per carta e stampa, COV
+per la carne, CBM per i mobili).
+
+### Residui minori
+
+- `nl_01_cacao.json` ha referente 7/19: è il file meno coperto sui nomi dei decisori.
+- Restano senza email: SRC, Snel Industrie, Bannink (contatto solo telefonico o indirizzo non pubblicato).
+- **Marine Olie Handel Maatschappij** risulta acquisita dal trading house STX (Amsterdam) — mantenuta
+  con avvertenza nel campo `dimensione`. **OTR Oiltrade** muove >100.000 t/anno con 11-50 addetti:
+  possibile fatturato sopra fascia, segnalato.
+- **Bangma Verpakking**: maggioranza di **De Jong Verpakking** (De Lier) dal luglio 2020, autorizzazione
+  ACM del 20/05/2020 — la compliance potrebbe essere decisa a livello di gruppo.
+
+### Difficoltà specifica olandese
+
+**Le B.V. depositano quasi sempre bilanci abbreviati senza fatturato.** Il campo `dimensione`
+riporta quindi n. dipendenti + anno + n. KVK, dichiarando esplicitamente che il fatturato non è
+pubblicato. È lo stesso trattamento usato per le ApS danesi (bruttofortjeneste).
+
+### Esclusioni verificate da ricordare
+
+- **Houthandel Van Dam Bunnik** e **Centrop Houtimport**: non indipendenti, sono *vestigingen* di
+  TABS Holland Groothandels B.V. (gruppo con 100+ sedi) → fuori soglia.
+- **Droste Vaassen**: produzione cessata. **Commodity Centre**: solo warehousing, non operatore EUDR.
+- **Coldenhove**: fallita nel maggio 2026. **ECCO Leather**: uscita da Dongen.
+- **La concia bovina olandese è di fatto estinta**: il distretto Waalwijk/Dongen non è più attivo e
+  l'unica conceria bovina rimasta è Rompa Tanneries (ex Koninklijke Hulshof). Compensato con
+  un commerciante di pelli grezze e un quinto operatore della carne.
+- Fuori target per taglia: Cocoanect (158 M€), Tony's Chocolonely (240 M€), Delicia Tilburg,
+  Dutch Cocoa/Theobroma (ECOM), Crown of Holland (Tradin Organic), Nedcoffee (Sucden),
+  Trabocca (Tradin Organic), Weekamp Deuren (Deli Home), Kegro, Fetim Group, Foreco.
