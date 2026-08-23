@@ -43,5 +43,41 @@
   "gravita": "alta",
   "evidenza": "https://lasso.dk/firmaer/28854846/ny-administrerende-direktr-i-aubo-production-as/ — titolo \"Ny administrerende direktør i AUBO PRODUCTION A/S\"; frammento: \"Torben Paulin overtook the position of administrerende direktør (CEO) at AUBO PRODUCTION A/S from Torben Andersen\"",
   "correzione_proposta": "Torben Paulin — Adm. direktør"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "BØJSØ DØRE & VINDUER A/S",
+  "campo": "denominazione",
+  "problema": "Lead non indipendente: dal 2017 la società è controllata da INWIDO DENMARK A/S, parte del gruppo quotato svedese Inwido AB (fatturato di gruppo ~9 mld SEK nel 2025). Secondo il mandato una controllata di un gruppo estero non è un lead valido, perché la due diligence EUDR viene decisa a livello di capogruppo. Il campo dimensione lo segnala ma il record resta classificato come lead.",
+  "gravita": "alta",
+  "evidenza": "https://www.proff.dk/firma/b%C3%B8js%C3%B8-d%C3%B8re-vinduer-as/vorbasse/producenter/GJL0QJI016D — frammento: \"Bøjsø Døre & Vinduer A/S has INWIDO DENMARK A/S as its parent company. Since 2017, Bøjsø has been part of the listed company Inwido\"",
+  "correzione_proposta": "Escludere o riclassificare il lead: indirizzare il contatto alla capogruppo Inwido Denmark A/S"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "BØJSØ DØRE & VINDUER A/S",
+  "campo": "dimensione",
+  "problema": "Organico non allineato: le fonti reperite indicano 43 dipendenti, il record ne indica 41. Inoltre il campo non riporta alcun dato economico verificato (né fatturato né bruttofortjeneste): la collocazione in forbice 5-40 M€ resta una stima non verificata.",
+  "gravita": "bassa",
+  "evidenza": "https://www.proff.dk/firma/b%C3%B8js%C3%B8-d%C3%B8re-vinduer-as/vorbasse/producenter/GJL0QJI016D — frammento: \"Bøjsø doors and windows was founded in 1972 and has 43 employees\"",
+  "correzione_proposta": "43 dipendenti (proff.dk, CVR 12224494); dato economico da recuperare a bilancio"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "FREDERICIA FURNITURE A/S",
+  "campo": "dimensione",
+  "problema": "Refuso nell'unità di misura: \"risultato ante imposte 6,5 M€ DKK\" mescola euro e corone danesi. Il valore va espresso in una sola valuta.",
+  "gravita": "bassa",
+  "evidenza": "Testo del campo dimensione del record stesso: \"risultato ante imposte 6,5 M€ DKK\"",
+  "correzione_proposta": "risultato ante imposte 6,5 mio DKK (~0,87 M€)"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Farstrup Furniture A/S",
+  "campo": "ruolo",
+  "problema": "DA CONFERMARE: i registri elencano due direktør (Jan Andersen e Steen Cederholm-Johansen) senza qualificare esplicitamente Cederholm-Johansen come administrerende direktør. Il ruolo indicato non è riconfermato.",
+  "gravita": "bassa",
+  "evidenza": "https://www.proff.dk/firma/farstrup-furniture-as/s%C3%B8nders%C3%B8/producenter/GKF1OMI016D — frammento: \"The directors are Jan Andersen and Steen Cederholm-Johansen ... with Søren Iversen as chairman\"",
+  "correzione_proposta": ""
  }
 ]

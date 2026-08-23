@@ -1,0 +1,74 @@
+[
+ {
+  "foglio": "Belgio",
+  "denominazione": "Hulpiau Hides BV",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti. Le fonti pubbliche citano Raimond Hulpiau come 'current senior manager' (fratello del fondatore Christiaan Hulpiau), ma il ruolo formale (zaakvoerder/gedelegeerd bestuurder) non e' pubblicato: DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://www.hulpiauhides.com/en/about-us/ - frammento: \"Christiaan Hulpiau, brother of current senior manager Raimond Hulpiau, founded Hulpiau Hides\"",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Hulpiau Hides BV",
+  "campo": "dimensione",
+  "problema": "Il campo usa come proxy dimensionale il margine lordo (2.284.726 EUR) di UN'ALTRA entita' giuridica (Hulpiau BV, BE 0429.082.864), non della societa' target BE 0777.875.662, che deposita a schema abbreviato e non pubblica il fatturato. Dato confermato solo per gli FTE (6,1). Impresa sotto la forbice 5-40 M EUR (segnalazione gia' presente nel campo).",
+  "gravita": "bassa",
+  "evidenza": "https://www.companyweb.be/en/0777875662/hulpiau-hides - frammento: \"There are 6.1 FTEs working at Hulpiau Hides according to staff figures in the most recent financial statements\"",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Radermecker SRL",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti. La conceria e' stata rilevata nell'aprile 2016 da due ingegneri francesi, Loic Honore e Nicolas Quintin, che ne sono gli attuali gestori: candidati referenti (gerant / administrateur delegue) da confermare su fonte societaria BCE.",
+  "gravita": "media",
+  "evidenza": "https://www.lavenir.net/regions/wallonie-picarde/comines-warneton/2022/01/14/cuirs-selliers-la-specialite-de-la-tannerie-radermecker-a-comines-YLAPU6LGVNA2RARMXD734SCPGU/ - frammento: \"In April 2016, the Radermecker tannery, created in Verviers in 1870, took a decisive turn following the takeover by two French engineers: Loic Honore and Nicolas Quintin\"",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Radermecker SRL",
+  "campo": "email",
+  "problema": "Email 'n.d.': nessun indirizzo di contatto nel record. Il sito radermecker.com espone una pagina contatti, ma l'indirizzo non e' recuperabile via frammenti di ricerca. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://www.radermecker.com/pages/on-parle-de-nous-dans-la-presse (sito attivo, indirizzo e-mail non estraibile dai frammenti)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Radermecker SRL",
+  "campo": "dimensione",
+  "problema": "Discordanza sugli addetti: il record indica 9,1 FTE (bilancio BNB), mentre la scheda Europages dichiara 20-49 dipendenti. Il fatturato non e' pubblicato (schema abbreviato): la collocazione dimensionale resta non verificabile.",
+  "gravita": "bassa",
+  "evidenza": "https://www.europages.fr/TANNERIE-RADERMECKER/BEL069426-000019048001.html - frammento: \"The company employs between 20 and 49 people\"",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Tannerie Masure SA",
+  "campo": "denominazione",
+  "problema": "Societa' non indipendente: dal 2014 Tannerie Masure fa parte del Groupe Saturne insieme alla francese Tannerie Fortier-Beaulieu (Roanne). Il referente indicato, Olivier Lesage, risulta anche dirigente della holding francese FINANCIERE SATURNE: le decisioni di compliance EUDR si giocano a livello di capogruppo francese, non sulla controllata belga.",
+  "gravita": "media",
+  "evidenza": "https://groupe-saturne.com/en/saturne-group/ - frammento: \"In 2014, Fortier-Beaulieu associated with the Masure tannery in Estaimbourg (Belgium) to form the independent Groupe Saturne\"; https://www.societe.com/manager/Olivier.LESAGE.s8sT-HgWTfO.html (Olivier LESAGE - FINANCIERE SATURNE)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Tannerie Masure SA",
+  "campo": "email",
+  "problema": "Email 'n.d.'. Il sito masure.be ha una pagina contatti attiva ma l'indirizzo non e' verificabile dai frammenti. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://www.masure.be/contact (pagina contatti esistente; indirizzo e-mail non presente nei frammenti)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Bulo NV",
+  "campo": "referente",
+  "problema": "Referente probabilmente non aggiornato. Dirk Busschop risulta CEO in fonti risalenti (2009); l'azienda e' oggi guidata dalla terza generazione, Carlo e Louis Busschop, con Carlo Busschop indicato come Managing Director / CEO in fonti recenti. Da riconfermare quale sia il gedelegeerd bestuurder in carica.",
+  "gravita": "media",
+  "evidenza": "https://www.bulo.com/third_generation/ e https://rocketreach.co/carlo-busschop-email_93406361 - frammento: \"Carlo Busschop, based in Mechelen, BE, is currently a Managing Director at Bulo\"; \"Carlo Busschop is the third generation and the current CEO\"",
+  "correzione_proposta": "Carlo Busschop — gedelegeerd bestuurder / Managing Director (DA CONFERMARE)"
+ }
+]
