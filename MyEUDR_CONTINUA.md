@@ -38,12 +38,17 @@ bovini/pelle (e derivati). Copertura ampia **adattata ai punti di forza industri
 | Germania | ✅ CONSEGNATO | 97 |
 | Finlandia | ✅ CONSEGNATO | 84 |
 | **Danimarca** | ✅ CONSEGNATO (residui minori in §11) | 89 |
-| **Svezia** | 🟡 **FOGLIO NEL WORKBOOK** — arricchimento da completare su `se_04_carta` (§12) | 89 |
+| **Svezia** | ✅ CONSEGNATO (email 80/89 · §12) | 89 |
 | **Olanda** | ✅ CONSEGNATO (email 77/100 · §13) | 100 |
-| **Belgio** | ✅ CONSEGNATO (email 65/90 · §14) | 90 |
+| **Belgio** | ✅ CONSEGNATO (email 73/95 · §14) | 95 |
 | **Austria** | ✅ CONSEGNATO (email 90/93, referente 92/93 · §15) | 93 |
 
-**Deliverable attuale:** `MyEUDR_Lead_Mapping.xlsx` — **8 fogli, 737 righe** (tutti e 8 i paesi), integro, 0 entità HTML residue.
+**Deliverable finale:** `MyEUDR_Lead_Mapping.xlsx` — **8 fogli, 742 righe**, tutti e 8 i paesi
+consegnati. Verifica globale: 0 entità HTML residue, 0 email malformate, 0 URL LinkedIn non validi.
+Copertura complessiva: **email 626/742, referente 543/742, LinkedIn 297/742**.
+⚠️ `add_country.py` ricrea il foglio in fondo al workbook: dopo un rebuild **ripristinare l'ordine
+dei paesi** (Italia, Germania, Finlandia, Danimarca, Svezia, Olanda, Belgio, Austria) con
+`wb._sheets=[wb[n] for n in ordine]`.
 Contiene Italia+Germania+Finlandia+Danimarca+Svezia+Olanda+Belgio+Austria. (Esiste anche `MyEUDR_Lead_Mapping_ITALIA_pilota.xlsx`, vecchio, **eliminabile**.)
 
 ## 4. File e infrastruttura
@@ -215,9 +220,7 @@ Copertura contatti: **email 71/89, referente 74/89, sito 87/89, LinkedIn 48/89.*
 
 ### Rifinitura ancora da fare
 
-- **`se_04_carta.json` è l'unico file rimasto indietro: email 4/14.** L'agente di arricchimento
-  è stato ucciso dal limite di sessione appena iniziato. Va rilanciato (stesso prompt degli altri)
-  e con l'occasione il filone può salire da 14 a ~16-18 aziende.
+- ~~`se_04_carta.json` fermo a email 4/14~~ → **RISOLTO**: email 13/14, LinkedIn 14/14.
 - `se_02_legno_edilizia.json` è a 12 aziende invece di ~16 (email però già 12/12); LinkedIn 1/12.
 - `se_06_gomma_soia_carne.json`: LinkedIn 4/14 e 4 email mancanti.
 - Dopo ogni rifinitura: rieseguire `python add_country.py se Svezia <xlsx>` (sostituisce il foglio).
@@ -338,8 +341,15 @@ Referente = *gedelegeerd bestuurder / zaakvoerder* (Fiandre) o *administrateur d
   teak e legni tropicali da Indonesia/Asia — esposizione diretta, non semplice uso di pannelli europei.
 - Segnalate le taglie gonfiate dal costo materia prima (carne e mangimi): Royale Lacroix (49,3 M€ /
   18,6 FTE), Ameloot (49,3), Jos Leemput (45,0 M€ con 16 FTE), Dierickx (40,8), Baert (38,9).
-- Il filone **caffè è a 5 aziende**: se serve rinforzarlo, ripartire dalla Koffiefederatie e dagli
-  importatori di caffè verde del porto di Anversa.
+- ~~Il filone caffè è a 5 aziende~~ → **RISOLTO**: portato a 10 (The Java Coffee Company 12,3 M€,
+  coffeeRoots 12,6 M€, Mokafina 8,0 M€, Cafés Delahaut, OR Coffee). Il file `be_02` è ora a 21 record
+  (10 caffè + 11 legno), email 20/21 e referenti 18/21.
+  Gli importatori belgi di caffè verde sono quasi tutti fuori soglia: Group Sopex (282 M€),
+  Coffeeteam (108), Briz (75), Charles Liégeois (72), Supremo (67); **32Cup NV è oggi Sucafina NV**
+  (stesso numero d'impresa) → escluso.
+- Da riverificare prima del contatto: **Sas NV non è più familiare** (Miko 2021 → Nimbus Investments
+  05/2024, referente Herman Sas da riconfermare); discrepanze di fatturato su Silco (4,8 vs 8,4 M€)
+  e Belignum (16,1 vs 14,7 M€).
 
 ---
 
