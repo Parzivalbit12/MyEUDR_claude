@@ -41,10 +41,10 @@ bovini/pelle (e derivati). Copertura ampia **adattata ai punti di forza industri
 | **Svezia** | 🟡 **FOGLIO NEL WORKBOOK** — arricchimento da completare su `se_04_carta` (§12) | 89 |
 | **Olanda** | ✅ CONSEGNATO (email 77/100 · §13) | 100 |
 | **Belgio** | ✅ CONSEGNATO (email 65/90 · §14) | 90 |
-| Austria | ⏳ da fare | — |
+| **Austria** | ✅ CONSEGNATO (email 90/93, referente 92/93 · §15) | 93 |
 
-**Deliverable attuale:** `MyEUDR_Lead_Mapping.xlsx` — **7 fogli, 644 righe**, integro, 0 entità HTML residue.
-Contiene Italia+Germania+Finlandia+Danimarca+Svezia+Olanda+Belgio. (Esiste anche `MyEUDR_Lead_Mapping_ITALIA_pilota.xlsx`, vecchio, **eliminabile**.)
+**Deliverable attuale:** `MyEUDR_Lead_Mapping.xlsx` — **8 fogli, 737 righe** (tutti e 8 i paesi), integro, 0 entità HTML residue.
+Contiene Italia+Germania+Finlandia+Danimarca+Svezia+Olanda+Belgio+Austria. (Esiste anche `MyEUDR_Lead_Mapping_ITALIA_pilota.xlsx`, vecchio, **eliminabile**.)
 
 ## 4. File e infrastruttura
 
@@ -340,3 +340,48 @@ Referente = *gedelegeerd bestuurder / zaakvoerder* (Fiandre) o *administrateur d
   18,6 FTE), Ameloot (49,3), Jos Leemput (45,0 M€ con 16 FTE), Dierickx (40,8), Baert (38,9).
 - Il filone **caffè è a 5 aziende**: se serve rinforzarlo, ripartire dalla Koffiefederatie e dagli
   importatori di caffè verde del porto di Anversa.
+
+---
+
+## 15. AUSTRIA — stato
+
+**Stato: CONSEGNATA — 93 aziende.** Copertura contatti **email 90/93, referente 92/93**:
+la migliore dell'intero progetto, meglio anche della Germania.
+Ripartizione: legno/arredo 29, carta/packaging 17, mangimi/soia 11, caffè 7, legno/segheria 6,
+cacao/cioccolato 6, bovini/carne 6, gomma 5, pelle/concia 3, olio di palma 3.
+
+**Perché l'Austria ha la copertura migliore:** l'**Impressum è obbligatorio per legge** sui siti
+aziendali e riporta Geschäftsführer ed e-mail. Nel prompt va detto esplicitamente al ricercatore
+di cercare `"<azienda>" Impressum Geschäftsführer E-Mail`: è ciò che ha prodotto filoni interi
+con copertura 19/19, 17/17 e 16/16.
+
+### Esclusioni di merito da ricordare
+
+- **Filiali nazionali di gruppi esteri**: rimosse a posteriori Segafredo Zanetti Austria,
+  Lavazza Kaffee e Kaffee Partner Austria — la compliance si decide a livello di gruppo, non in
+  Austria. Il ricercatore aveva già escluso per lo stesso motivo illy, Dallmayr Austria e
+  Hausbrandt: **la regola va enunciata nel prompt fin dall'inizio** per evitare la pulizia manuale.
+- **Aziende in Insolvenz**: escluse HAKA Küche, KAPO Möbel, ADA, Schletterer (mobili),
+  SBG-Verpackung (packaging), Alexander Schärf & Söhne (caffè), Lederfabrik Vogl (concia).
+  In Austria è un rischio concreto: un elenco datato le proporrebbe ancora come lead validi.
+  **Franz Hauswirth** è invece inclusa perché risanata: insolvenza chiusa e rilevata al 100% da
+  Landgarten nel marzo 2025, ~70 dipendenti mantenuti.
+- **Fuori perimetro EUDR** (stessa trappola del Belgio): scartate Ölmühle Raab e Plattner Mühle
+  (lino/girasole/colza/zucca — **non commodity dell'Allegato I**), RICO Elastomere (silicone),
+  k-tec (plastica), Münzer/ABID (biodiesel da colza e oli esausti), saponi e candele (HS 3401/3406).
+- Fuori soglia con dato verificato: Mosser (170 M€), Alpenrind (245), Fleischhof Raabtal (135),
+  Rattpack (145), Lenzing Papier (102), VM Holz (~100), Kaufmann Bausysteme (80-95), Voglauer (75),
+  sedda (69), sedie hali (67), Marzek Etiketten (60), Scheucher (56), Neudoerfler (56), Grüne Erde (~56).
+
+### Note di filiera
+
+- **Gomma austriaca strutturalmente povera di PMI 10-20 M€**: sopra soglia ci sono solo Semperit e
+  KRAIBURG; il filone si regge su realtà più piccole (Deisenhammer, Czermak & Feger che lavora
+  lattice di caucciù naturale, TEGUM, Persicaner, Zrunek).
+- **Concia esile**: Boxmark e Wollsdorf sono sopra soglia, Vogl è cessata. Restano Waldviertler
+  Werkstätten/GEA, Ludwig Reiter e la conceria artigianale Tschurtschenthaler.
+- **Oli tropicali quasi assenti**: compensato con i mangimi. Lead multi-commodity interessante:
+  **BIOSERVICE Zach** (grassi di palma bio + cacao + caffè) e **KUK-Austria** (membro RSPO dal 2014).
+  **BAG Ölmühle** (33-35 M€ con ~25 addetti) è il maggiore oleificio di soia austriaco: lead primario.
+- Per le segherie il campo `dimensione` riporta spesso i **volumi di taglio (fm/anno)** quando il
+  fatturato non è pubblicato: per l'esposizione EUDR è un indicatore più significativo del fatturato.

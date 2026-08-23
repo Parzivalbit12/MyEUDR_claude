@@ -106,5 +106,65 @@
   "linkedin": "https://at.linkedin.com/company/sojarei-vollwertkost-gmbh",
   "dimensione": "Ca. 50 dipendenti (fonte advantageaustria.org / sito aziendale, dato 2023-2024); fatturato non pubblicato. Firmenbuch FN 118580h. Fondata nel 1984, è il più grande e antico produttore di tofu dell'Austria e leader nazionale nei prodotti biologici a base di soia; fornisce tutte le principali catene retail austriache, il canale Reformhaus/bio e la ristorazione. Co-Geschäftsführung/tecnica: Andreas Eschner e Ing. Gerhard Eschner. Operatore EUDR sulla soia (Allegato I) anche se acquistata in UE.",
   "fonte": "https://www.northdata.com/Sojarei%20Vollwertkost-GmbH,%20Traiskirchen/118580h"
+ },
+ {
+  "denominazione": "Rickl - Mühle GmbH",
+  "filiera": "Mangimi/Soia — commercio cereali e Sojaschrot",
+  "sede": "Groß-Schweinbarth (Bezirk Gänserndorf), Bassa Austria (Niederösterreich)",
+  "sito": "https://www.rickl.at",
+  "email": "office@rickl.at",
+  "referente": "Josef Rickl",
+  "ruolo": "Geschäftsführer",
+  "linkedin": "",
+  "dimensione": "PMI familiare fondata nel 1894, gestita da 3 responsabili (2 Geschäftsführer + 1 procuratore); fatturato e organico non pubblicati nelle fonti aperte (fonti firmenabc.at / firmeninfo.at / evi.gv.at, 2024-2025). Firmenbuch FN 162039v, LG Korneuburg, UID ATU43171303. Mulino e Landhandel a 35 km da Vienna: commercio di cereali convenzionali e bio, mangimi, sementi, concimi; a catalogo Sojaschrot (farina di estrazione di soia) come mangime proteico — attività di immissione sul mercato di soia = perimetro EUDR. TAGLIA DA VERIFICARE: probabile fascia bassa (5-15 M€).",
+  "fonte": "https://www.rickl.at/produkt/sojaschrot/"
+ },
+ {
+  "denominazione": "Soy Austria Produktions GmbH",
+  "filiera": "Mangimi/Soia — trasformazione soia (farine, texturati)",
+  "sede": "Uttendorf / Prinzersdorf (Bezirk St. Pölten-Land), Bassa Austria (Niederösterreich)",
+  "sito": "https://soyaustria.com",
+  "email": "produktion@soyaustria.com",
+  "referente": "Georg Bamberger",
+  "ruolo": "Geschäftsführer",
+  "linkedin": "https://at.linkedin.com/company/soy-austria-gmbh",
+  "dimensione": "Fatturato e organico non pubblicati nelle fonti aperte (fonti herold.at, WKO Firmen A-Z, northdata.com, 2024-2025). Firmenbuch FN 99559k, LG St. Pölten (iscritta dal 1994). Impianto per prodotti di soia full-fat dal 1989 e secondo stabilimento dal 2017 per farine di soia sgrassate e texturati di soia; materia prima = soia austriaca e UE non-OGM, vendita all'industria alimentare mondiale. Dal 01.10.2025 assorbe l'operativo di J. u. H. Bamberger GmbH. Distribuzione tramite la consociata SOJA AUSTRIA Vertriebs GmbH (sede commerciale: Ares Tower, Donau-City-Straße 11, 1220 Wien). Secondo Geschäftsführer: Ing. Josef Bamberger.",
+  "fonte": "https://soyaustria.com/de/impressum/"
+ },
+ {
+  "denominazione": "BIOSERVICE Zach Ges.m.b.H.",
+  "filiera": "Olio di palma — grossista ingredienti bio",
+  "sede": "Schrems (Wirtschaftspark 1), Bassa Austria (Niederösterreich)",
+  "sito": "https://www.bioservice.at",
+  "email": "zach@bioservice.at",
+  "referente": "Ing. Mag. Robert Zach",
+  "ruolo": "Geschäftsführer (alleinvertretungsberechtigt) e proprietario",
+  "linkedin": "",
+  "dimensione": "PMI con oltre 25-30 anni di attività; fatturato e organico non pubblicati nelle fonti aperte (fonti firmenabc.at, WKO Firmen A-Z, advantageaustria.org, 2024-2025). Sedi/operatività a Schrems, Gmünd e St. Pölten (Bassa Austria). Grossista austriaco leader di ingredienti alimentari biologici certificati per trasformatori industriali e artigianali: a catalogo BIO-Palmfett/olio di palma in Großgebinde (fusti/grandi formati), oltre a cacao e caffè — tre commodity dell'Allegato I EUDR nello stesso portafoglio, quindi lead multi-commodity.",
+  "fonte": "https://www.bioservice.at/en/products/organic-palm-fat-oil/"
+ },
+ {
+  "denominazione": "KUK-Austria GmbH",
+  "filiera": "Olio di palma — distribuzione materie prime food/pharma",
+  "sede": "Ried im Innkreis (Auleiten 4), Alta Austria (Oberösterreich)",
+  "sito": "https://www.kuk.com",
+  "email": "office@kuk.com",
+  "referente": "Mag. Claudia Luzia Neuhold",
+  "ruolo": "Gewerberechtliche Geschäftsführerin",
+  "linkedin": "",
+  "dimensione": "PMI di distribuzione (Großhandel materie prime alimentari e farmaceutiche) attiva dal 1945, con ca. 30-40 rappresentanze/agenzie generali e rete in Europa centro-orientale; fatturato e organico non pubblicati nelle fonti aperte (fonti firmenabc.at, WKO Firmen A-Z, northdata.com, 2024-2025). Firmenbuch FN 278142h, LG Ried im Innkreis. MEMBRO RSPO dall'11.09.2014 come Supply Chain Associate: prova documentale che tratta olio di palma / derivati del palma nel proprio portafoglio (oltre a pectine, gelatine, addensanti, cacao in polvere).",
+  "fonte": "https://www.rspo.org/members/3170/kuk-austria-gmbh"
+ },
+ {
+  "denominazione": "Natural Products & Drugs GmbH",
+  "filiera": "Olio di palma — commercio oli e grassi vegetali",
+  "sede": "Spittal an der Drau, Carinzia (Kärnten)",
+  "sito": "http://www.np-d.com",
+  "email": "n.d.",
+  "referente": "",
+  "ruolo": "",
+  "linkedin": "https://at.linkedin.com/company/natural-products-drugs-gmbh",
+  "dimensione": "PMI attiva a livello internazionale dal 2003, guidata da 2 Geschäftsführer (nomi non pubblicati nelle fonti consultate); fatturato e organico non pubblicati (fonti firmenabc.at, WKO Firmen A-Z, Creditreform, 2024-2025). Firmenbuch FN 283007m, LG Klagenfurt. Sede Neuer Platz 1, 9800 Spittal an der Drau; tel. +43 4762 44340. Società di produzione e commercio certificata ISO/Bio/Demeter con oltre 120 oli vegetali e grassi, oli essenziali, idrolati e materie prime per cosmetica e alimentare; compare tra i fornitori austriaci di Palmöl nella directory B2B wlw.at. NB: portafoglio in larga parte di oli NON Allegato I — il perimetro EUDR riguarda solo la linea olio di palma/palmisto: da qualificare in fase di contatto.",
+  "fonte": "https://www.wlw.at/de/firma/natural-products-drugs-gmbh-958203"
  }
 ]
