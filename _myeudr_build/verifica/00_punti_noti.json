@@ -1,0 +1,65 @@
+[
+ {
+  "foglio": "Belgio",
+  "denominazione": "Sas NV (Sas Coffee)",
+  "campo": "dimensione",
+  "problema": "CONFERMATO: l'azienda NON e' piu' indipendente ne' familiare. Acquisita da Miko NV (11/2021) e rivenduta il 24-05-2024 al fondo di private equity olandese Nimbus Investments; il sito di Nimbus la elenca come societa' di portafoglio con 'complete repositioning and rebranding'. Le decisioni di compliance EUDR si prendono a livello di gruppo/fondo: lead NON valido come impresa familiare indipendente.",
+  "gravita": "alta",
+  "evidenza": "https://nimbus.com/ - 'Sas Coffee, a specialist in private label coffee, recently became part of the Nimbus portfolio'; https://www.made-in.be/kempen/kempens-koffiebedrijf-miko-blijft-achter-met-financiele-kater-van-20-miljoen-euro-na-verkoop-sas-koffie/ ; https://fd.nl/bedrijfsleven/1517530/investeerder-nimbus-koopt-belgische-koffiebrander-sas",
+  "correzione_proposta": "Segnalare nel campo dimensione: 'controllata di Nimbus Investments (NL) dal 24-05-2024 - non indipendente' oppure rimuovere il lead"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Sas NV (Sas Coffee)",
+  "campo": "referente",
+  "problema": "Herman Sas risulta ancora 'gedelegeerd bestuurder' negli estratti KBO pubblicati (pappers.be, insieme a Dominic Sas, Danielle Vanden Eede, Micheline Sas, NV HELFINCO), ma nessuna fonte post-cessione a Nimbus (05/2024) lo riconferma al vertice operativo, e Nimbus dichiara un riposizionamento completo. DA CONFERMARE: probabile mandato residuo/predecessore, non il vertice attuale scelto dal fondo.",
+  "gravita": "media",
+  "evidenza": "https://www.pappers.be/nl/company/sas-0404190783 - 'Herman Sas is de gedelegeerd bestuurder; overige bestuurders: Dominic Sas, Danielle Vanden Eede, Micheline Sas, NV HELFINCO' (data di aggiornamento non esplicitata nel frammento)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Sas NV (Sas Coffee)",
+  "campo": "email",
+  "problema": "L'email nel foglio (info@sas-koffie.be) NON e' quella pubblicata sul sito ufficiale sas-coffee.com: la pagina di contatto riporta CUSTOMERSERVICE@SAS-COFFEE.COM, tel. +32 14 61 12 00, indirizzo LILSEDIJK 36 - 2340 BEERSE. info@sas-koffie.be resta reperibile solo su directory di terzi (dominio del vecchio marchio 'Sas Koffie'), ed anche la sede nel foglio (Dennenlaan 10) risulta superata dal nuovo indirizzo Lilsedijk 36.",
+  "gravita": "media",
+  "evidenza": "https://sas-coffee.com/en/contact/ - 'CUSTOMERSERVICE@SAS-COFFEE.COM | +32 14 61 12 00 | LILSEDIJK 36 - 2340 BEERSE - BELGIUM'",
+  "correzione_proposta": "customerservice@sas-coffee.com ; sede Lilsedijk 36, 2340 Beerse DA CONFERMARE"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Silco NV",
+  "campo": "dimensione",
+  "problema": "Discordanza 4,8 vs 8,4 M€ NON risolta: le due banche dati continuano a riportare cifre diverse per lo stesso ultimo bilancio depositato (14-06-2024). Trendstop: EUR 8.358.215 (23a nel settore 'koffie en thee'); Companyweb/Fincheck: EUR 4.843.986. Senza accesso diretto al deposito NBB (consult.cbso.nbb.be non raggiungibile in questo ambiente) il dato resta DA CONFERMARE. Impatto: con 4,8 M€ l'azienda e' SOTTO la soglia minima di 5 M€.",
+  "gravita": "media",
+  "evidenza": "https://trendstop.knack.be/nl/detail/715792692/silco.aspx - 'omzet van 8.358.215 euro, 23e in de sector Koffie en thee'; https://www.companyweb.be/en/0715792692/silco - 'turnover of 4,843,986 euros'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Silco NV",
+  "campo": "sito",
+  "problema": "Nessun sito web proprio reperito per Silco NV in 3 ricerche: l'azienda compare solo su banche dati societarie (trendstop, companyweb, fincheck, northdata, staatsbladmonitor). Coerente con la struttura a 1 FTE. Il campo vuoto e' quindi corretto, ma va esplicitato 'nessun sito web' anziche' restare vuoto.",
+  "gravita": "bassa",
+  "evidenza": "https://www.northdata.com/Silco%20N.V.,%20Antwerpen/KBO%200715.792.692 - solo scheda registro; nessun dominio aziendale nei risultati",
+  "correzione_proposta": "n.d. (nessun sito web aziendale)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Silco NV",
+  "campo": "denominazione",
+  "problema": "RILIEVO NUOVO emerso in verifica: la sede di Silco (Italielei 181, 2000 Antwerpen) e' lo stesso indirizzo di EFICO NV, il grande trader di caffe' verde di Anversa (fatturato ~289 M€), il cui presidente e' Philippe Van Gestel e che e' controllata dalla famiglia Van Gestel (Noord Natie). L'amministratore di Silco indicato nel foglio e' 'Philip Van Gestel'. Forte indizio che Silco sia un veicolo del gruppo Efico/Van Gestel e non una trading house indipendente: in tal caso la compliance EUDR si deciderebbe a livello di capogruppo e il lead non sarebbe valido. DA CONFERMARE il legame societario.",
+  "gravita": "alta",
+  "evidenza": "https://www.tendata.com/en/buyer/efico-nv-italielei-181-2000-antwerp-belgium-BELN376bec4ab92398acd7b73f7696701f41.html - 'EFICO NV. ITALIELEI 181. 2000 ANTWERP BELGIUM'; https://www.companyweb.be/en/0431096011/efico ; frammento: 'Philippe Van Gestel is the chairman of Efico... Noord Natie (the Van Gestel family) has control over Efico'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Belignum NV",
+  "campo": "dimensione",
+  "problema": "Discordanza 16,1 vs 14,7 M€ RISOLTA a favore di 14,7 M€: due fonti indipendenti (trendstop NL e trendstop FR/Levif) riportano concordemente EUR 14.746.642 e 10,8 FTE per l'ultimo bilancio depositato il 02-07-2024 (esercizio 2023). La cifra di EUR 16.075.653 attribuita a companyweb non e' stata riconfermata da nessuna fonte nelle ricerche. In entrambi i casi l'azienda resta in pieno target.",
+  "gravita": "bassa",
+  "evidenza": "https://trendstop.knack.be/nl/detail/405348449/belignum.aspx - 'omzet van 14.746.642 euro, 40e in de sector houthandel... laatst neergelegde jaarrekening 02-07-2024... 10,8 VTE'; https://trendstop.levif.be/fr/detail/405348449/belignum.aspx",
+  "correzione_proposta": "Fatturato EUR 14.746.642, esercizio 2023 (bilancio depositato 02-07-2024), 10,8 FTE - eliminare il riferimento a 16.075.653"
+ }
+]

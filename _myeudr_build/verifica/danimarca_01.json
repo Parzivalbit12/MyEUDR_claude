@@ -1,0 +1,47 @@
+[
+ {
+  "foglio": "Danimarca",
+  "denominazione": "NIELAUS A/S",
+  "campo": "dimensione",
+  "problema": "Numero di dipendenti non allineato alla fonte citata: la scheda proff.dk (CVR 35480943) riporta 19 addetti, il record ne indica 11.",
+  "gravita": "bassa",
+  "evidenza": "https://www.proff.dk/firma/nielaus-as/bramming/m%C3%B8bler/GUJZBOI015G — frammento: \"NIELAUS A/S is a furniture production company located at Vejrup Storegade 63, 6740 Bramming, with 19 employees\"",
+  "correzione_proposta": "19 dipendenti (proff.dk, CVR 35480943) — verificare l'anno di riferimento"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "NIELAUS A/S",
+  "campo": "email",
+  "problema": "DA CONFERMARE: l'indirizzo info@nielaus.dk non compare letteralmente in nessuna fonte pubblica reperita; la pagina Kontakt del sito ufficiale protegge l'indirizzo dagli spambot e non lo espone in chiaro nei frammenti.",
+  "gravita": "bassa",
+  "evidenza": "https://www.nielaus.dk/da/om-os/kontakt — frammento: \"Email: Available on their website (protected against spambots)\"",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "ONECOLLECTION A/S (House of Finn Juhl)",
+  "campo": "fonte",
+  "problema": "DA CONFERMARE: l'ID proff nell'URL citato (GXS757I015G) non coincide con quello della scheda ONECOLLECTION A/S CVR 29787786 reperita (GQYY8HI016D). L'URL potrebbe puntare a una scheda diversa/obsoleta.",
+  "gravita": "bassa",
+  "evidenza": "https://www.proff.dk/firma/onecollection-as/ringk%C3%B8bing/producenter/GQYY8HI016D — titolo: \"ONECOLLECTION A/S - CVR-nr 29787786 - Ringkøbing\"",
+  "correzione_proposta": "https://www.proff.dk/firma/onecollection-as/ringk%C3%B8bing/producenter/GQYY8HI016D"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "SØRENSEN LÆDER A/S (Sorensen Leather)",
+  "campo": "dimensione",
+  "problema": "Dato obsoleto e non allineato alla fonte: il record indica bruttofortjeneste 23,85 mio DKK (2022) e ca. 20 dipendenti, mentre la scheda proff.dk attuale (CVR 50828514) riporta bruttofortjeneste 13.056 tkr (13,06 mio DKK ≈ 1,75 M€) e 16 dipendenti. In ogni caso l'azienda è ampiamente sotto la forbice 5-40 M€ senza che il campo lo segnali.",
+  "gravita": "media",
+  "evidenza": "https://www.proff.dk/regnskab/s%C3%B8rensen-l%C3%A6der-as/lystrup/skind-l%C3%A6der-og-pels/GKJEN4I07RD — frammento: \"Bruttofortjeneste: 13.056 tkr ... Number of employees: 16\"",
+  "correzione_proposta": "Bruttofortjeneste 13,06 mio DKK (~1,75 M€) e 16 dipendenti — proff.dk, CVR 50828514 (ultimo bilancio disponibile); fatturato non pubblicato. Sotto la forbice target"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "AUBO PRODUCTION A/S",
+  "campo": "referente",
+  "problema": "Referente non attuale: Torben Andersen è il PREDECESSORE. La carica di administrerende direktør è passata a Torben Paulin (ingresso registrato 22.01.2026 secondo lasso.dk). Contattare Torben Andersen come vertice attuale è un dato falso.",
+  "gravita": "alta",
+  "evidenza": "https://lasso.dk/firmaer/28854846/ny-administrerende-direktr-i-aubo-production-as/ — titolo \"Ny administrerende direktør i AUBO PRODUCTION A/S\"; frammento: \"Torben Paulin overtook the position of administrerende direktør (CEO) at AUBO PRODUCTION A/S from Torben Andersen\"",
+  "correzione_proposta": "Torben Paulin — Adm. direktør"
+ }
+]
