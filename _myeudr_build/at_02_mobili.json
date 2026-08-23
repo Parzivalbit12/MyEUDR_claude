@@ -56,7 +56,7 @@
     "referente": "Franz Wiener",
     "ruolo": "Geschäftsführer",
     "linkedin": "https://at.linkedin.com/company/mayr-schulm%C3%B6bel",
-    "dimensione": "150 dipendenti nella sede di Scharnstein (tips.at / firmenabc.at, 2024); fatturato non pubblicato; investimento di 8 M€ nel nuovo campus produttivo. Secondo Geschäftsführer: Ing. Florian Huemer. Leader di mercato austriaco negli arredi scolastici.",
+    "dimensione": "Fatturato ca. 39,0 M€ (stima Die Deutsche Wirtschaft, ranking imprese familiari austriache) e 150 dipendenti nella sede di Scharnstein (tips.at, 2024). AZIENDA DI CONFINE: vicino al limite superiore della fascia tollerata. Secondo Geschäftsführer: Ing. Florian Huemer. Leader di mercato austriaco negli arredi scolastici.",
     "fonte": "https://www.firmenabc.at/mayr-schulmoebel-gesellschaft-m-b-h_cOe"
   },
   {
@@ -142,5 +142,53 @@
     "linkedin": "",
     "dimensione": "ca. 40 dipendenti (km-moebel.at / meinbezirk.at, 2024); fatturato non pubblicato. AZIENDA DI CONFINE: taglia probabilmente sotto i 10 M€. Produce cucine, mobili in massello, imbottiti e porte interne.",
     "fonte": "https://www.gewerbeverzeichnis-oesterreich.at/karnische_massiv_moebel_gmbh/2225.html"
+  },
+  {
+    "denominazione": "Wittmann Möbelwerkstätten GmbH",
+    "filiera": "Legno/Arredo — mobili imbottiti",
+    "sede": "Etsdorf am Kamp, Niederösterreich",
+    "sito": "https://www.wittmann.at",
+    "email": "info@wittmann.at",
+    "referente": "Heinz Hofer-Wittmann",
+    "ruolo": "Geschäftsführer",
+    "linkedin": "https://at.linkedin.com/company/wittmann-moebelwerkstaetten-gmbh",
+    "dimensione": "120 dipendenti (firmenabc.at, 2024); totale attivo di bilancio 9,6 M€ al 31.12.2024. Fatturato non pubblicato: 23,5 M€ nel 2005 (MÖBELMARKT); una stima Die Deutsche Wirtschaft indica 45 M€ ma appare incoerente con il bilancio. AZIENDA DI CONFINE sul lato alto. Imbottiti di alta gamma in legno + pelle (doppia rilevanza EUDR), export ca. 70%.",
+    "fonte": "https://www.firmenabc.at/wittmann-moebelwerkstaetten-gmbh_NVdS"
+  },
+  {
+    "denominazione": "Speedmaster GmbH",
+    "filiera": "Legno/Arredo — componenti per mobili",
+    "sede": "Eberstalzell, Oberösterreich",
+    "sito": "https://www.speedmaster.at",
+    "email": "office@speedmaster.at",
+    "referente": "Hermann Huber",
+    "ruolo": "Geschäftsführer",
+    "linkedin": "",
+    "dimensione": "Fatturato e dipendenti non pubblicati (firmenabc.at / WKO, 2024). Produttore industriale di parti e semilavorati per mobili (pannelli, frontali, corpi) che rifornisce oltre 8.700 falegnamerie in AT/DE/Alto Adige/CH. Forte consumo di pannelli a base legno -> soggetto EUDR. Rilevata una divisione da Schweiger GmbH.",
+    "fonte": "https://www.firmenabc.at/speedmaster-gmbh_kRv"
+  },
+  {
+    "denominazione": "Weissengruber Möbelmanufaktur GmbH",
+    "filiera": "Legno/Arredo — mobili e arredi hotel",
+    "sede": "Ried in der Riedmark, Oberösterreich",
+    "sito": "https://www.weissengruber.at",
+    "email": "office@weissengruber.at",
+    "referente": "Klaus Weissengruber",
+    "ruolo": "Geschäftsführer",
+    "linkedin": "",
+    "dimensione": "ca. 60 dipendenti (weissengruber.at, 2024); fatturato non pubblicato. Produzione di mobili di alta gamma per rivenditori specializzati e per l'ospitalità. Possibile taglia sotto i 10 M€.",
+    "fonte": "https://www.firmenabc.at/weissengruber-moebelmanufaktur-gmbh_BBdYe"
+  },
+  {
+    "denominazione": "SAMINA Produktions- und Handels GmbH",
+    "filiera": "Legno/Arredo — letti e sistemi letto",
+    "sede": "Frastanz, Vorarlberg",
+    "sito": "https://samina.com",
+    "email": "samina@samina.com",
+    "referente": "Philipp Amann",
+    "ruolo": "Geschäftsführer",
+    "linkedin": "",
+    "dimensione": "20-49 dipendenti (firmenabc.at, 2024); fatturato non pubblicato. AZIENDA DI CONFINE: taglia probabilmente sotto i 10 M€. Manifattura di sistemi letto con telai/doghe in legno massello non trattato, lattice naturale e lana; fondatore Günther W. Amann-Jennson.",
+    "fonte": "https://www.firmenabc.at/samina-produktions-und-handels-gmbh_iqg"
   }
 ]
