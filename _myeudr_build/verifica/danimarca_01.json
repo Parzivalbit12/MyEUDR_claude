@@ -79,5 +79,32 @@
   "gravita": "bassa",
   "evidenza": "https://www.proff.dk/firma/farstrup-furniture-as/s%C3%B8nders%C3%B8/producenter/GKF1OMI016D — frammento: \"The directors are Jan Andersen and Steen Cederholm-Johansen ... with Søren Iversen as chairman\"",
   "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "HVIDBJERG VINDUET A/S",
+  "campo": "referente",
+  "problema": "Referente errato: Claus Arberg non risulta l'administrerende direktør attuale. Il vertice esecutivo è Morten Filtenborg Mortensgaard (pagina Kontakt del sito ufficiale, aprile 2026).",
+  "gravita": "alta",
+  "evidenza": "https://www.hvidbjergvinduet.dk/kontakt/ — frammento: \"Morten F. Mortensgaard is the managing director (based on their contact page from April 2026)\"; \"Morten Filtenborg Mortensgaard is the Managing Director (Administrerende direktør)\"",
+  "correzione_proposta": "Morten Filtenborg Mortensgaard — Adm. direktør"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "HVIDBJERG VINDUET A/S",
+  "campo": "dimensione",
+  "problema": "Assetto proprietario errato e lead non indipendente: il campo indica come controllante \"Hvidbjerg i A/S\", ma la società è controllata dal gruppo ACO Nordic, a sua volta parte del gruppo tedesco ACO (famiglia Ahlmann), dal rilevamento del gruppo Plastmo nel 1995. Controllata di gruppo estero: la due diligence EUDR si decide a livello di capogruppo.",
+  "gravita": "alta",
+  "evidenza": "https://da.wikipedia.org/wiki/Hvidbjerg_Vinduet — frammento: \"is a subsidiary of ACO Nordic Group, which is part of the German ACO Group, owned by Thomas Iver Ahlmann. In 1995, ACO Group took over the Danish company Plastmo Group, which consisted of Plastmo A/S and Hvidbjerg Vinduet A/S\"; cfr. https://www.aco.dk/aco/aco-nordic",
+  "correzione_proposta": "Controllata del gruppo tedesco ACO (via ACO Nordic) — escludere o riclassificare il lead, contatto a livello di capogruppo"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "HØRNING PARKET A/S",
+  "campo": "referente",
+  "problema": "Referente e ruolo errati: Peter (Christian Saaby) Mathiasen è presidente del consiglio di amministrazione (bestyrelsesformand), non adm. direktør. Il vertice esecutivo della società è Peter Vissing, direktør/adm. direktør e co-proprietario dal 2016.",
+  "gravita": "alta",
+  "evidenza": "https://www.proff.dk/firma/h%C3%B8rning-parket-as/skanderborg/producenter/GTM41UI016D — frammento: \"a director named Peter Vissing and board chairman Peter Christian Saaby Mathiasen ... has 24 employees\"; https://rocketreach.co/peter-vissing-email_99791140 — \"Peter Vissing ... CEO and Partner at Hørning Parket A/S\"",
+  "correzione_proposta": "Peter Vissing — Adm. direktør"
  }
 ]
