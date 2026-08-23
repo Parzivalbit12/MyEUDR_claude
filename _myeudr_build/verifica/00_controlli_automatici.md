@@ -43,11 +43,13 @@ _Generato da `_myeudr_build/verifica/controlli_automatici.py` · nessun accesso 
 | 9 | 9 · Denominazione: registri, spazi, numeri | 0 |
 | 9b | 9b · Forma giuridica incoerente col paese del foglio | 0 |
 | 9c | 9c · Nessuna forma giuridica nel nome | 20 |
+| 9d | 9d · Maiuscolo/minuscolo incoerente dentro il foglio | 52 |
+| 9e | 9e · Forma giuridica scritta in stile incoerente (foglio Italia) | 18 |
 | 10 | 10 · TLD del sito estraneo al paese del foglio | 7 |
 | 11 | 11 · Divergenze fra JSON di build e foglio Excel | 0 |
 | 11b | 11b · Record presente nei JSON ma assente dal foglio | 0 |
 
-**Totale rilievi automatici: 179**
+**Totale rilievi automatici: 249**
 
 
 ## Macro-filiere osservate
@@ -381,6 +383,90 @@ _Nessun rilievo._
 | Austria | weinberger-holz gmbh | nessuna forma giuridica riconoscibile | xlsx:Austria!r40 |
 | Austria | BAG Ölmühle BetriebsgmbH | nessuna forma giuridica riconoscibile | xlsx:Austria!r42 |
 | Austria | Margarethner Verpackungsgesellschaft m.b.H. | nessuna forma giuridica riconoscibile | xlsx:Austria!r53 |
+
+---
+
+## 9d · Maiuscolo/minuscolo incoerente dentro il foglio  (52)
+
+| Foglio | Denominazione | Rilievo | Origine |
+|---|---|---|---|
+| Germania | FMS AG | maiuscolo integrale da registro: 1/97 record del foglio Germania sono in MAIUSCOLO, gli altri 96 in forma normale | xlsx:Germania!r29 |
+| Danimarca | NIELAUS A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r3 |
+| Danimarca | AUBO PRODUCTION A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r6 |
+| Danimarca | BØJSØ DØRE & VINDUER A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r7 |
+| Danimarca | DANSK HÅRDTTRÆ SAVVÆRK A/S (DHS) | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r8 |
+| Danimarca | DINESEN FLOORS A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r9 |
+| Danimarca | FREDERICIA FURNITURE A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r10 |
+| Danimarca | GLOBAL TIMBER A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r12 |
+| Danimarca | GRAMRODE MØBELFABRIK A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r13 |
+| Danimarca | HAMMEL FURNITURE A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r14 |
+| Danimarca | HVIDBJERG VINDUET A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r15 |
+| Danimarca | HØRNING PARKET A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r16 |
+| Danimarca | JKE DESIGN A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r19 |
+| Danimarca | KEFLICO A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r20 |
+| Danimarca | KRYDSFINER-HANDELEN A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r21 |
+| Danimarca | KVIST INDUSTRIES A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r22 |
+| Danimarca | LILLEHEDEN A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r24 |
+| Danimarca | MULTIFORM A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r25 |
+| Danimarca | N. EILERSEN A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r26 |
+| Danimarca | SIKA DESIGN A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r28 |
+| Danimarca | SKOVBY MØBELFABRIK A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r29 |
+| Danimarca | SOFTLINE A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r30 |
+| Danimarca | SOMMER-SAVEX A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r31 |
+| Danimarca | SUPERWOOD A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r32 |
+| Danimarca | TIMBERMAN DENMARK A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r34 |
+| Danimarca | VERMUND LARSEN A/S (VELA / VERMUND) | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r35 |
+| Danimarca | SKOVS KORN A/S. KORN- OG FODERSTOFAGENTUR | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r36 |
+| Danimarca | ALL CREATIVE A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r37 |
+| Danimarca | BOXEN EMBALLAGE A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r38 |
+| Danimarca | BUCHS A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r39 |
+| Danimarca | COLOR LABEL A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r40 |
+| Danimarca | EMBALLAGEFABRIKKEN THY PAP | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r41 |
+| Danimarca | IKAST ETIKET A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r43 |
+| Danimarca | KAILOW A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r45 |
+| Danimarca | KLS PUREPRINT A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r46 |
+| Danimarca | MC EMBALLAGE A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r47 |
+| Danimarca | ODENSE SEGLMÆRKEFABRIK A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r48 |
+| Danimarca | SCANLUX PACKAGING A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r49 |
+| Danimarca | STOK EMBALLAGE K/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r52 |
+| Danimarca | PETER BEIER CHOKOLADE A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r65 |
+| Danimarca | PR CHOKOLADE A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r66 |
+| Danimarca | AVK GUMMI A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r70 |
+| Danimarca | DANSK GUMMI INDUSTRI A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r71 |
+| Danimarca | H.C. JACOBSEN A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r72 |
+| Danimarca | RG ROM GUMMI A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r73 |
+| Danimarca | SKANDINAVISK DÆK IMPORT A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r75 |
+| Danimarca | CEBECO FOURAGE A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r78 |
+| Danimarca | CR FODERSERVICE K/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r80 |
+| Danimarca | MEJLING LANDHANDEL / SÆBY FRØSALG | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r81 |
+| Danimarca | NORDVEST FODER A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r82 |
+| Danimarca | NUTRIMIN A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r83 |
+| Danimarca | TJØRNEHØJ MØLLE A/S | maiuscolo integrale da registro: 51/89 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r84 |
+
+---
+
+## 9e · Forma giuridica scritta in stile incoerente (foglio Italia)  (18)
+
+| Foglio | Denominazione | Rilievo | Origine |
+|---|---|---|---|
+| Italia | A. Brivio Compensati SpA | «SpA» senza punti (il foglio usa in maggioranza «S.p.A.») | xlsx:Italia!r21 |
+| Italia | Arko SpA | «SpA» senza punti (il foglio usa in maggioranza «S.p.A.») | xlsx:Italia!r22 |
+| Italia | Aster Cucine SpA | «SpA» senza punti (il foglio usa in maggioranza «S.p.A.») | xlsx:Italia!r23 |
+| Italia | Basso Legnami Srl | «Srl» senza punti (il foglio usa in maggioranza «S.r.l.») | xlsx:Italia!r24 |
+| Italia | Bedogna F.lli Srl | «Srl» senza punti (il foglio usa in maggioranza «S.r.l.») | xlsx:Italia!r25 |
+| Italia | C.I.M.A. Srl (Compensati Impiallacciature Materiali Affini) | «Srl» senza punti (il foglio usa in maggioranza «S.r.l.») | xlsx:Italia!r26 |
+| Italia | Caccaro Srl | «Srl» senza punti (il foglio usa in maggioranza «S.r.l.») | xlsx:Italia!r27 |
+| Italia | Cadorin Group Srl | «Srl» senza punti (il foglio usa in maggioranza «S.r.l.») | xlsx:Italia!r28 |
+| Italia | Compensati Toro SpA | «SpA» senza punti (il foglio usa in maggioranza «S.p.A.») | xlsx:Italia!r29 |
+| Italia | Fratelli Berti Legnami Srl | «Srl» senza punti (il foglio usa in maggioranza «S.r.l.») | xlsx:Italia!r30 |
+| Italia | Holzland Fuchs Srl | «Srl» senza punti (il foglio usa in maggioranza «S.r.l.») | xlsx:Italia!r31 |
+| Italia | Itlas Srl Società Benefit | «Srl» senza punti (il foglio usa in maggioranza «S.r.l.») | xlsx:Italia!r32 |
+| Italia | Nord Legnami Group Srl | «Srl» senza punti (il foglio usa in maggioranza «S.r.l.») | xlsx:Italia!r33 |
+| Italia | Nuova River Srl | «Srl» senza punti (il foglio usa in maggioranza «S.r.l.») | xlsx:Italia!r34 |
+| Italia | Original Parquet SpA | «SpA» senza punti (il foglio usa in maggioranza «S.p.A.») | xlsx:Italia!r35 |
+| Italia | PALM SpA SB | «SpA» senza punti (il foglio usa in maggioranza «S.p.A.») | xlsx:Italia!r36 |
+| Italia | Segheria Saccavini Srl | «Srl» senza punti (il foglio usa in maggioranza «S.r.l.») | xlsx:Italia!r37 |
+| Italia | Zalf SpA (Zalf Industria Mobili Componibili) | «SpA» senza punti (il foglio usa in maggioranza «S.p.A.») | xlsx:Italia!r38 |
 
 ---
 

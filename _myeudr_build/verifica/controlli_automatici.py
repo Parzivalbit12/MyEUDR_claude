@@ -263,6 +263,33 @@ for r in records:
         else:
             add("9c_forma_giuridica_assente", sheet, d, "nessuna forma giuridica riconoscibile", r["_src"])
 
+# ---------------- 9d. Coerenza stilistica della denominazione dentro il foglio ----------------
+caps_by = defaultdict(list)
+for r in records:
+    d = r["denominazione"]
+    letters = re.sub(r"[^A-Za-z\u00c0-\u00ff]", "", d)
+    if len(letters) > 3:
+        caps_by[r["_sheet"]].append((letters.isupper(), r))
+for sn, lst in caps_by.items():
+    ncaps = sum(1 for u, _ in lst if u)
+    if 0 < ncaps < len(lst):
+        # si segnalano sempre i nomi in MAIUSCOLO INTEGRALE: è lo stile dei registri
+        # (CVR/Firmenbuch), non la ragione sociale d'uso. Correzione = Title Case.
+        for u, r in lst:
+            if u:
+                add("9d_stile_denominazione", sn, r["denominazione"],
+                    f"maiuscolo integrale da registro: {ncaps}/{len(lst)} record del foglio {sn} "
+                    f"sono in MAIUSCOLO, gli altri {len(lst)-ncaps} in forma normale", r["_src"])
+
+# forme giuridiche italiane: S.r.l. vs Srl, S.p.A. vs SpA
+for r in records:
+    if r["_sheet"] != "Italia": continue
+    d = r["denominazione"]
+    if re.search(r"\bSrl\b", d):
+        add("9e_stile_forma_giuridica", "Italia", d, "«Srl» senza punti (il foglio usa in maggioranza «S.r.l.»)", r["_src"])
+    if re.search(r"\bSpA\b", d):
+        add("9e_stile_forma_giuridica", "Italia", d, "«SpA» senza punti (il foglio usa in maggioranza «S.p.A.»)", r["_src"])
+
 # ---------------- 10. TLD sito/email incoerente col paese ----------------
 GENERIC = {".com",".eu",".net",".org",".coffee",".shop",".group",".info",".biz",".online",".store",".io",".co"}
 for r in records:
@@ -322,6 +349,8 @@ TITLES = {
  "9_denominazione":"9 · Denominazione: registri, spazi, numeri",
  "9b_forma_giuridica":"9b · Forma giuridica incoerente col paese del foglio",
  "9c_forma_giuridica_assente":"9c · Nessuna forma giuridica nel nome",
+ "9d_stile_denominazione":"9d · Maiuscolo/minuscolo incoerente dentro il foglio",
+ "9e_stile_forma_giuridica":"9e · Forma giuridica scritta in stile incoerente (foglio Italia)",
  "10_tld_estero":"10 · TLD del sito estraneo al paese del foglio",
  "11_divergenze_json_xlsx":"11 · Divergenze fra JSON di build e foglio Excel",
  "11b_json_non_nel_foglio":"11b · Record presente nei JSON ma assente dal foglio",
