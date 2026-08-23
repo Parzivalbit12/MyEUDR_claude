@@ -49,9 +49,9 @@
   "denominazione": "Tannerie Masure SA",
   "campo": "denominazione",
   "problema": "Societa' non indipendente: dal 2014 Tannerie Masure fa parte del Groupe Saturne insieme alla francese Tannerie Fortier-Beaulieu (Roanne). Il referente indicato, Olivier Lesage, risulta anche dirigente della holding francese FINANCIERE SATURNE: le decisioni di compliance EUDR si giocano a livello di capogruppo francese, non sulla controllata belga.",
-  "gravita": "media",
+  "gravita": "alta",
   "evidenza": "https://groupe-saturne.com/en/saturne-group/ - frammento: \"In 2014, Fortier-Beaulieu associated with the Masure tannery in Estaimbourg (Belgium) to form the independent Groupe Saturne\"; https://www.societe.com/manager/Olivier.LESAGE.s8sT-HgWTfO.html (Olivier LESAGE - FINANCIERE SATURNE)",
-  "correzione_proposta": ""
+  "correzione_proposta": "Valutare il lead a livello di capogruppo Groupe Saturne / Financiere Saturne (FR): la societa' belga non e' un centro decisionale autonomo per la compliance EUDR"
  },
  {
   "foglio": "Belgio",
@@ -151,5 +151,77 @@
   "gravita": "bassa",
   "evidenza": "https://www.atibt.org/en/members/24/denderwood e https://www.denderwood.com/over-ons/ - frammento: \"Denderwood is located at J. Cardijnstraat, 3 B-9420 Erpe Mere, Belgium, with Filip D'Haeseleer listed as a contact person and info@denderwood.com as the email\"",
   "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Extremis NV",
+  "campo": "referente",
+  "problema": "Referente non aggiornato: Dirk Wynants e' oggi owner e chief designer, NON il vertice esecutivo. L'amministratore delegato in carica e' Valentine Batjoens, nominata CEO in successione a Yff Vandendriessche. Il campo attribuisce erroneamente a Wynants la funzione di vertice.",
+  "gravita": "alta",
+  "evidenza": "https://www.lovethatdesign.com/?post_type=news&p=378797 e https://www.linkedin.com/posts/extremis_meet-our-new-ceo-aka-captain-of-the-ship-activity-7046080915592069121-Z6QI - frammento: \"Extremis appointed Valentine Batjoens as its new Chief Executive Officer... continue the course of outgoing CEO Yff Vandendriessche. However, Dirk Wynants remains as the owner and chief designer of Extremis\"",
+  "correzione_proposta": "Valentine Batjoens — CEO (Dirk Wynants resta fondatore/proprietario e chief designer)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Extremis NV",
+  "campo": "dimensione",
+  "problema": "Fatturato potenzialmente obsoleto: il campo riporta 12.900.125 EUR e 24,8 FTE dall'ultimo bilancio, ma risulta gia' depositato un bilancio piu' recente (deposito 02-07-2026) i cui dati non sono riflessi nel record. DA AGGIORNARE.",
+  "gravita": "media",
+  "evidenza": "https://www.companyweb.be/en/0434625128/extremis - frammento: \"The most recent financial statements of Extremis were filed on 02-07-2026\"",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Houthandel Denis Luyten NV",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti; il campo dimensione dichiara esplicitamente che il nome del gestore non e' pubblicato. Nemmeno le ricerche mirate restituiscono il gedelegeerd bestuurder in carica (azienda alla 4a generazione della famiglia Luyten). DA CONFERMARE su BCE/KBO. Fatturato (16,1 M EUR), sede (Molenstraat 62, 2200 Herentals) e 34,8 FTE risultano confermati.",
+  "gravita": "media",
+  "evidenza": "https://www.companyweb.be/en/0403778831/houthandel-denis-luyten - frammento: \"At the time of its most recent financial statements, Houthandel Denis Luyten recorded a total turnover of EUR 16,134,848.00... There are 34.8 FTEs\"",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Jori NV",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti e non ricostruibili dalle fonti pubbliche consultate: nessun nome di gedelegeerd bestuurder/CEO emerge per Jori NV (BE 0888.984.313). DA CONFERMARE. Fatturato 16.143.273 EUR, 106,8 FTE e sede Hoogweg 52, 8940 Wervik risultano invece confermati.",
+  "gravita": "media",
+  "evidenza": "https://www.companyweb.be/en/0888984313/jori - frammento: \"with a revenue of EUR 16.143.273, Jori from Wervik ranks 19th in the furniture manufacturing sector... There are 106.8 FTEs working at JORI... filed on 21-07-2025\"",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Keukenontwerpers NV",
+  "campo": "filiera",
+  "problema": "Perimetro EUDR debole. L'azienda opera con l'insegna SieMatic Keukenontwerpers come rivenditore/installatore a valle di cucine prodotte dalla tedesca SieMatic: non e' l'operatore che immette per primo il prodotto in legno sul mercato UE (lo e' il fabbricante DE) ed essendo PMI ricadrebbe negli obblighi ridotti da 'trader'. Da valutare l'esclusione o il declassamento del lead. Il campo lo segnala gia' come 'trader', ma il posizionamento come operatore EUDR non regge.",
+  "gravita": "media",
+  "evidenza": "https://www.keukenontwerpers.com/ e https://trustlocal.be/antwerpen/geel/keukenbouwer/siematic-keukenontwerpers/ - frammento: \"SieMatic Keukenontwerpers has been a partner in project kitchens for over 20 years. Their advisors are qualified interior architects\"",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Keukenontwerpers NV",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti; nessuna fonte pubblica restituisce il gedelegeerd bestuurder di Keukenontwerpers NV (BE 0472.648.534). L'email geel@keukenontwerpers.com non e' inoltre riscontrabile letteralmente nei frammenti. DA CONFERMARE entrambi. Fatturato 16.033.016 EUR e sede Antwerpseweg 88, 2440 Geel confermati.",
+  "gravita": "media",
+  "evidenza": "https://trendstop.knack.be/nl/detail/472648534/keukenontwerpers.aspx - frammento: \"With a turnover of 16,033,016 euros, Keukenontwerpers is ranked 7th in the Kitchen Furniture Manufacturing and Sales sector\"; \"the search results do not contain specific information about the individual zaakvoerder\"",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Lavrijsen Houtbedrijf NV",
+  "campo": "dimensione",
+  "problema": "Fatturato obsoleto e indirizzo errato. Il campo riporta 12.763.339 EUR (dato trendstop), mentre l'ultimo bilancio depositato indica 14.093.447 EUR e 23,1 FTE (non '20-49 addetti'). Inoltre la sede legale registrata e' Koning-Albertstraat 123, 2440 Geel, non il n. 68 indicato nel campo.",
+  "gravita": "media",
+  "evidenza": "https://www.companyweb.be/en/0407106030/houtbedrijf-lavrijsen - frammento: \"Houtbedrijf Lavrijsen recorded a total turnover of EUR 14,093,447.00... The registered office is located at Koning-Albertstraat 123, 2440 Geel... There are 23.1 FTEs\"",
+  "correzione_proposta": "Fatturato 14.093.447 EUR e 23,1 FTE (ultimo bilancio NBB); sede Koning-Albertstraat 123, 2440 Geel"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Lavrijsen Houtbedrijf NV",
+  "campo": "ruolo",
+  "problema": "Jan e Bert Lavrijsen sono confermati alla guida dell'azienda, ma per una NV il titolo statutario corretto e' 'gedelegeerd bestuurder / bestuurder', non 'zaakvoerder' (termine proprio delle BV).",
+  "gravita": "bassa",
+  "evidenza": "https://lavrijsen.be/over-ons/ - frammento: \"Jan and Bert Lavrijsen are at the helm of the company with secured succession\"",
+  "correzione_proposta": "Bestuurders / gedelegeerd bestuurders"
  }
 ]
