@@ -1,0 +1,186 @@
+[
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Alavus Ikkunat Oy",
+  "campo": "filiera",
+  "da": "Legno/Compensato-Prodotti — finestre/porte in legno",
+  "a": "Legno/Arredo — finestre/porte in legno",
+  "motivo": "gli altri 7 fogli usano unanimemente «Legno/Arredo — <dettaglio>» per compensato, impiallacciature, finestre/porte, parquet, glulam e CLT"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Aureskosken Jalostetehdas Oy",
+  "campo": "filiera",
+  "da": "Legno/Segheria e trasformazione",
+  "a": "Legno/Segheria — trasformazione",
+  "motivo": "gli altri 7 fogli usano «Legno/Segheria — <dettaglio>» per segheria e piallatura"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "CWP Coloured Wood Products Oy",
+  "campo": "filiera",
+  "da": "Legno/Compensato-Prodotti — impiallacciatura betulla colorata",
+  "a": "Legno/Arredo — impiallacciatura betulla colorata",
+  "motivo": "gli altri 7 fogli usano unanimemente «Legno/Arredo — <dettaglio>» per compensato, impiallacciature, finestre/porte, parquet, glulam e CLT"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Hoisko CLT (CLT Finland Oy)",
+  "campo": "filiera",
+  "da": "Legno/Compensato-Prodotti — CLT",
+  "a": "Legno/Arredo — CLT",
+  "motivo": "gli altri 7 fogli usano unanimemente «Legno/Arredo — <dettaglio>» per compensato, impiallacciature, finestre/porte, parquet, glulam e CLT"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Hollolan Viilu ja Laminaatti Oy (HVL)",
+  "campo": "filiera",
+  "da": "Legno/Compensato-Prodotti — impiallacciatura/laminati",
+  "a": "Legno/Arredo — impiallacciatura/laminati",
+  "motivo": "gli altri 7 fogli usano unanimemente «Legno/Arredo — <dettaglio>» per compensato, impiallacciature, finestre/porte, parquet, glulam e CLT"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Jet-Puu Oy",
+  "campo": "filiera",
+  "da": "Legno/Segheria-Piallatura",
+  "a": "Legno/Segheria — piallatura",
+  "motivo": "gli altri 7 fogli usano «Legno/Segheria — <dettaglio>» per segheria e piallatura"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Kiilax Oy",
+  "campo": "filiera",
+  "da": "Legno/Compensato-Prodotti — compensato betulla/lamellare",
+  "a": "Legno/Arredo — compensato betulla/lamellare",
+  "motivo": "gli altri 7 fogli usano unanimemente «Legno/Arredo — <dettaglio>» per compensato, impiallacciature, finestre/porte, parquet, glulam e CLT"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Kinnaskoski Oy",
+  "campo": "filiera",
+  "da": "Legno/Segheria-Piallatura",
+  "a": "Legno/Segheria — piallatura",
+  "motivo": "gli altri 7 fogli usano «Legno/Segheria — <dettaglio>» per segheria e piallatura"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Lammin Ikkuna Oy",
+  "campo": "filiera",
+  "da": "Legno/Compensato-Prodotti — finestre/porte in legno-alluminio",
+  "a": "Legno/Arredo — finestre/porte in legno-alluminio",
+  "motivo": "gli altri 7 fogli usano unanimemente «Legno/Arredo — <dettaglio>» per compensato, impiallacciature, finestre/porte, parquet, glulam e CLT"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Lappiporras Oy",
+  "campo": "filiera",
+  "da": "Legno/Compensato-Prodotti — scale in legno",
+  "a": "Legno/Arredo — scale in legno",
+  "motivo": "gli altri 7 fogli usano unanimemente «Legno/Arredo — <dettaglio>» per compensato, impiallacciature, finestre/porte, parquet, glulam e CLT"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Late-Rakenteet Oy",
+  "campo": "filiera",
+  "da": "Legno/Compensato-Prodotti — legno lamellare/glulam",
+  "a": "Legno/Arredo — legno lamellare/glulam",
+  "motivo": "gli altri 7 fogli usano unanimemente «Legno/Arredo — <dettaglio>» per compensato, impiallacciature, finestre/porte, parquet, glulam e CLT"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Mahogany Oy",
+  "campo": "filiera",
+  "da": "Legno/Compensato-Prodotti — impiallacciatura ed erikoisvaneri",
+  "a": "Legno/Arredo — impiallacciatura ed erikoisvaneri",
+  "motivo": "gli altri 7 fogli usano unanimemente «Legno/Arredo — <dettaglio>» per compensato, impiallacciature, finestre/porte, parquet, glulam e CLT"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Ollikaisen Hirsirakenne Oy",
+  "campo": "filiera",
+  "da": "Legno/Compensato-Prodotti — hirsi/lamellare (glulam)",
+  "a": "Legno/Arredo — hirsi/lamellare (glulam)",
+  "motivo": "gli altri 7 fogli usano unanimemente «Legno/Arredo — <dettaglio>» per compensato, impiallacciature, finestre/porte, parquet, glulam e CLT"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Orasko Oy",
+  "campo": "filiera",
+  "da": "Legno/Commercio-export sahatavara",
+  "a": "Legno/Segheria — commercio/export sahatavara",
+  "motivo": "gli altri 7 fogli usano «Legno/Segheria — <dettaglio>» per segheria e piallatura"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Oy CrossLam Kuhmo Ltd",
+  "campo": "filiera",
+  "da": "Legno/CLT (trasformazione)",
+  "a": "Legno/Arredo — CLT",
+  "motivo": "gli altri 7 fogli usano unanimemente «Legno/Arredo — <dettaglio>» per compensato, impiallacciature, finestre/porte, parquet, glulam e CLT"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Oy Haka-Wood Ab",
+  "campo": "filiera",
+  "da": "Legno/Segheria (betulla)",
+  "a": "Legno/Segheria — betulla",
+  "motivo": "gli altri 7 fogli usano «Legno/Segheria — <dettaglio>» per segheria e piallatura"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Piklas Oy",
+  "campo": "filiera",
+  "da": "Legno/Compensato-Prodotti — finestre/porte in legno-alluminio",
+  "a": "Legno/Arredo — finestre/porte in legno-alluminio",
+  "motivo": "gli altri 7 fogli usano unanimemente «Legno/Arredo — <dettaglio>» per compensato, impiallacciature, finestre/porte, parquet, glulam e CLT"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Sepa Oy",
+  "campo": "filiera",
+  "da": "Legno/Compensato-Prodotti — capriate/prodotti strutturali",
+  "a": "Legno/Arredo — capriate/prodotti strutturali",
+  "motivo": "gli altri 7 fogli usano unanimemente «Legno/Arredo — <dettaglio>» per compensato, impiallacciature, finestre/porte, parquet, glulam e CLT"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Siparila Oy",
+  "campo": "filiera",
+  "da": "Legno/Piallatura (pannelli/paneelit)",
+  "a": "Legno/Segheria — piallatura (pannelli/paneelit)",
+  "motivo": "gli altri 7 fogli usano «Legno/Segheria — <dettaglio>» per segheria e piallatura"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Sysmän Ikkuna ja Ovi Oy (Päijänne-Ovet)",
+  "campo": "filiera",
+  "da": "Legno/Compensato-Prodotti — finestre/porte in legno",
+  "a": "Legno/Arredo — finestre/porte in legno",
+  "motivo": "gli altri 7 fogli usano unanimemente «Legno/Arredo — <dettaglio>» per compensato, impiallacciature, finestre/porte, parquet, glulam e CLT"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Timberwise Oy",
+  "campo": "filiera",
+  "da": "Legno/Compensato-Prodotti — parquet/pavimenti in legno",
+  "a": "Legno/Arredo — parquet/pavimenti in legno",
+  "motivo": "gli altri 7 fogli usano unanimemente «Legno/Arredo — <dettaglio>» per compensato, impiallacciature, finestre/porte, parquet, glulam e CLT"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Imperator S.r.l.",
+  "campo": "filiera",
+  "da": "Caffè (import caffè verde)",
+  "a": "Caffè — import caffè verde",
+  "motivo": "tassonomia: separatore em-dash invece della parentesi, macro «Caffè»"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Sandalj Trading Company S.p.A.",
+  "campo": "filiera",
+  "da": "Caffè (import caffè verde)",
+  "a": "Caffè — import caffè verde",
+  "motivo": "tassonomia: separatore em-dash invece della parentesi, macro «Caffè»"
+ }
+]

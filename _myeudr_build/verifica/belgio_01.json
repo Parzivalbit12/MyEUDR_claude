@@ -70,5 +70,50 @@
   "gravita": "media",
   "evidenza": "https://www.bulo.com/third_generation/ e https://rocketreach.co/carlo-busschop-email_93406361 - frammento: \"Carlo Busschop, based in Mechelen, BE, is currently a Managing Director at Bulo\"; \"Carlo Busschop is the third generation and the current CEO\"",
   "correzione_proposta": "Carlo Busschop — gedelegeerd bestuurder / Managing Director (DA CONFERMARE)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Buzzispace NV",
+  "campo": "email",
+  "problema": "Email 'n.d.': record privo di indirizzo di contatto nonostante il sito buzzi.space sia attivo. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://www.buzzi.space/brand (sito attivo, nessun indirizzo e-mail nei frammenti)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Buzzispace NV",
+  "campo": "dimensione",
+  "problema": "Il campo indica la produzione 'in Kempen' (implicitamente Belgio): le fonti aziendali collocano lo stabilimento produttivo a Bladel, nei Paesi Bassi. La sede sociale ad Anversa resta corretta, ma l'attivita' manifatturiera non e' belga; l'azienda ha inoltre un consiglio di sorveglianza (Steve Symons presidente) tipico di assetto con investitore, da verificare per l'indipendenza.",
+  "gravita": "bassa",
+  "evidenza": "https://officeinsight.com/officenewswire/buzzispace-appoints-new-ceo-announces-new-role-for-former-ceo-and-founder/ - frammento: \"showrooms in Antwerp, London, New York, and Chicago, including a manufacturing facility in Bladel (NL)\"",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Callens NV (Callens African Woods)",
+  "campo": "referente",
+  "problema": "Thierry Maelfait risulta confermato alla guida, ma dal 2021-2022 e' entrata in azienda la figlia Sam Maelfait, indicata dalle fonti come zaakvoerster/marketingverantwoordelijke: verificare chi sia oggi il rappresentante legale. Nota formale: per una NV il titolo corretto e' 'gedelegeerd bestuurder', non 'zaakvoerder' (termine proprio delle BV).",
+  "gravita": "bassa",
+  "evidenza": "https://www.voka.be/nieuws/west-vlaanderen-ondernemers-2024-19/callens-african-woods-heeft-productiefaciliteiten-kameroen - frammento: \"Sam Maelfait, daughter of Thierry, joined the company around 3 years ago and serves as zaakvoerder of the company\"",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Carlens NV",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti. Le fonti pubbliche citano 'Carl Carlens' in contesto gestionale, mentre il campo dimensione ipotizza 'Luc Carlens' da FinCheck: nomi discordanti, nessuno dei due confermato come gedelegeerd bestuurder. DA CONFERMARE su BCE/KBO.",
+  "gravita": "media",
+  "evidenza": "https://www.limoco-industries.be/referenties/240-houthandel-carlens-keuze-voor-leverancier-dicht-bij-huis - frammento: risultati che referenziano \"Carl Carlens\" in contesto management; fatturato confermato: \"Carlens had a turnover of 14,868,112 euros and ranks 39th in the wood trade sector\" (https://trendstop.knack.be/nl/detail/405592236/carlens.aspx)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Confortluxe NV",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti benche' gli amministratori siano pubblici e confermati (Jacqueline Pauwels, Jimmy Ollevier, Heidi Ollevier). Il fondatore Andre Ollevier, storico gedelegeerd bestuurder, e' deceduto: non usarlo come referente. Da attribuire il ruolo di gedelegeerd bestuurder tra i tre amministratori in carica.",
+  "gravita": "media",
+  "evidenza": "https://fincheck.be/en/confortluxe/0412.863.078/Wervik/connections - frammento: \"The current board members of Confortluxe are Jacqueline Pauwels, Jimmy Ollevier, and Heidi Ollevier\"; https://www.made-in.be/west-vlaanderen/afscheid-van-ras-en-superondernemer-mijnheer-andre-ollevier-79/",
+  "correzione_proposta": "Jimmy Ollevier — bestuurder (ruolo di gedelegeerd bestuurder DA CONFERMARE)"
  }
 ]

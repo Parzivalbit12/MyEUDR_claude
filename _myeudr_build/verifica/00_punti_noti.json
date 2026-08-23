@@ -61,5 +61,59 @@
   "gravita": "bassa",
   "evidenza": "https://trendstop.knack.be/nl/detail/405348449/belignum.aspx - 'omzet van 14.746.642 euro, 40e in de sector houthandel... laatst neergelegde jaarrekening 02-07-2024... 10,8 VTE'; https://trendstop.levif.be/fr/detail/405348449/belignum.aspx",
   "correzione_proposta": "Fatturato EUR 14.746.642, esercizio 2023 (bilancio depositato 02-07-2024), 10,8 FTE - eliminare il riferimento a 16.075.653"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Just Coffee",
+  "campo": "denominazione",
+  "problema": "Ragione sociale CVR ora VERIFICATA: non e' ne' ApS ne' A/S ne' amba, e' un INTERESSENTSKAB. Denominazione legale 'Just Coffee I/S', CVR 35492380, costituita il 01-01-2014, sede Frederiksborgvej 551, 4000 Roskilde; soci illimitatamente responsabili Maria Moe Christoffersen e Patrick Allen Beckett. Esiste anche una precedente ditta individuale 'Just Coffee v/ Patrick Allen Beckett' (CVR 27827055), oggi superata. Un I/S non deposita bilancio pubblico: il fatturato restera' non verificabile.",
+  "gravita": "media",
+  "evidenza": "https://cvrapi.dk/virksomhed/dk/just-coffee-is/35492380 e https://www.proff.dk/firma/just-coffee-is/roskilde/producenter/GUO2ZPI016D - 'Just Coffee I/S ... CVR-nr 35492380 ... Interessentskab ... startdato 01-01-2014 ... fuldt ansvarlige deltagere Maria Moe Christoffersen og Patrick Allen Beckett'; https://cvrapi.dk/virksomhed/dk/just-coffee-v-patrick-allen-beckett/27827055",
+  "correzione_proposta": "Just Coffee I/S - CVR 35492380 (forma giuridica: interessentskab)"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Just Coffee",
+  "campo": "sede",
+  "problema": "La sede registrata al CVR e' Frederiksborgvej 551, 4000 Roskilde, non Jyllinge: il riferimento a Jyllinge deriva dal testo promozionale del sito ('risteriet ligger paa en gaard i Jyllinge lige uden for Roskilde'). Il comune e' comunque Roskilde, Regione Sjaelland, quindi il dato di foglio non e' errato ma va allineato all'indirizzo registrato. Nota: nei risultati compare anche una seconda entita' a Roskilde (CVR 41964316, Munkebro 2) con lo stesso nome commerciale, DA CONFERMARE se collegata.",
+  "gravita": "bassa",
+  "evidenza": "https://www.proff.dk/firma/just-coffee-is/roskilde/producenter/GUO2ZPI016D - 'Frederiksborgvej 551, 4000 Roskilde'; https://estatistik.dk/virksomhed/just-coffee-is/35492380",
+  "correzione_proposta": "Frederiksborgvej 551, 4000 Roskilde, Regione Sjaelland"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "VESTJYSK SPECIALFODER ApS",
+  "campo": "denominazione",
+  "problema": "Ambiguita' PARZIALMENTE risolta: il fallimento riguarda l'omonima 'VestjyDsk Specialfoder ApS' CVR 39680718 (konkurs decretato dallo Skifteretten di Holstebro il 26-02-2020, curatore avv. Michael Joergensen, Bliddal & Holmstroem, Videbaek), NON la societa' del foglio. Resta pero' un'incoerenza nel record stesso: il campo dimensione indica CVR 38786709 mentre il campo fonte cita anche lasso.dk/firmaer/42242993 (un TERZO numero CVR) per la stessa denominazione. Esiste inoltre la ditta individuale omonima CVR 86607514. Quale delle entita' 'Vestjysk' sia quella operativa e attiva oggi resta DA CONFERMARE.",
+  "gravita": "alta",
+  "evidenza": "https://konkurser.dk/konkurs/?id=102386 e https://www.proff.dk/firma/vestjydsk-specialfoder-aps-under-konkurs/vemb/n%C3%A6rings-og-nydelsesmidler/GXIFOUI116S/ - 'Vestjydsk Specialfoder ApS Under Konkurs - 39680718 ... ved dekret af 26. februar 2020 tog Skifteretten i Holstebro Vestjydsk Specialfoder ApS under konkursbehandling'; https://www.proff.dk/firma/vestjysk-specialfoder-aps/vemb/engroshandel-annet/GYZVKCI10N6/ - 'Vestjysk Specialfoder ApS, CVR 38786709, Industrivej 2, 7570 Vemb, startdato 11-07-2017'; https://lasso.dk/firmaer/42242993/vestjysk-specialfoder-aps",
+  "correzione_proposta": "Allineare il record a un unico CVR (38786709 secondo proff.dk) ed eliminare il riferimento a lasso.dk/42242993 se non pertinente"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "VESTJYSK SPECIALFODER ApS",
+  "campo": "filiera",
+  "problema": "Perimetro EUDR DA CONFERMARE: l'oggetto sociale registrato e' generico ('handelsvirksomhed inden for specialfoder'), classificato proff.dk come 'engroshandel - annet'. Nessuna fonte pubblica conferma l'impiego di soia (unica commodity EUDR plausibile per un mangimificio). L'azienda risulta inoltre rivenditrice di fuochi d'artificio, segno di attivita' commerciale mista e di dimensione micro (7 dipendenti, fatturato non pubblicato). Con ogni probabilita' molto sotto la forbice 5-40 M.",
+  "gravita": "media",
+  "evidenza": "https://royalfireworks.dk/forhandler/vestjysk-specialfoder-aps/ - scheda rivenditore fuochi d'artificio a Vemb; https://www.proff.dk/firma/vestjysk-specialfoder-aps/vemb/engroshandel-annet/GYZVKCI10N6/ - categoria 'Engroshandel - annet'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "TJOERNEHOEJ MOELLE A/S",
+  "campo": "dimensione",
+  "problema": "LEAD NON VALIDO. A/S Tjoernehoej Moelle (CVR 34175012) NON e' un'impresa indipendente: e' stata acquistata da DLG nel 1989 dal mugnaio Sander Petersen ed e' oggi una controllata della cooperativa DLG (25.000 agricoltori danesi), che la elenca esplicitamente tra le proprie societa' insieme a Vitfoss e Dangroent; la produzione e' commercializzata sotto il marchio Equsana, brand DLG dal 2012. Coerentemente, la sede legale registrata risulta a Koebenhavn V (sede DLG) e non a Hedehusene (dove resta lo stabilimento, Tingstedvej 47, 2640 Hedehusene). La compliance EUDR si decide a livello di capogruppo DLG.",
+  "gravita": "alta",
+  "evidenza": "https://equsana.dk/om-equsana/tjoernehoej-moelle/ e https://www.dlg.dk/Energy-and-Retail/Retail/Equsana-alt-til-hest - 'DLG ejer datterselskaberne Tjoernehoej Moelle, Vitfoss og Dangroent'; 'Tjoernehoej Moelle blev koebt af DLG i 1989 af moeller Sander Petersen'; https://lasso.dk/firmaer/34175012/as-tjrnehj-mlle - 'A/S TJOERNEHOEJ MOELLE - Koebenhavn V'",
+  "correzione_proposta": "Rimuovere il lead (controllata del gruppo DLG) oppure riqualificarlo come stabilimento del gruppo DLG"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "TJOERNEHOEJ MOELLE A/S",
+  "campo": "dimensione",
+  "problema": "Fatturato recente NON reperito: il dato del foglio resta quello del 2003 (80 M DKK). In 3 ricerche l'unico bilancio individuato e' il PDF dell'esercizio 2011 su regnskaber.cvrapi.dk e menzioni di dati fino al 2014; nessuna cifra 2023-2025 emerge dalle fonti accessibili. Il dato del 2003 e' inutilizzabile (22 anni). DA CONFERMARE su CVR/Virk.",
+  "gravita": "media",
+  "evidenza": "https://regnskaber.cvrapi.dk/21057143/Y3ZyLmRrOi8vcGRmcy8zNDE3NTAxMjtBL1M1MDg2MTsyMDExMDEwMTsyMDExMTIzMTtSO1I.pdf - bilancio 01-01-2011/31-12-2011; https://erhvervplus.dk/erhvervsbasen/a-s-tj%C3%B8rneh%C3%B8j-m%C3%B8lle-3368832 - 'A/S TJOERNEHOEJ MOELLE ... stiftet 1971', dati piu' recenti fermi al 2014",
+  "correzione_proposta": ""
  }
 ]
