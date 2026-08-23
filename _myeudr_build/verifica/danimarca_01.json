@@ -106,5 +106,41 @@
   "gravita": "alta",
   "evidenza": "https://www.proff.dk/firma/h%C3%B8rning-parket-as/skanderborg/producenter/GTM41UI016D — frammento: \"a director named Peter Vissing and board chairman Peter Christian Saaby Mathiasen ... has 24 employees\"; https://rocketreach.co/peter-vissing-email_99791140 — \"Peter Vissing ... CEO and Partner at Hørning Parket A/S\"",
   "correzione_proposta": "Peter Vissing — Adm. direktør"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "INNOVATION LIVING A/S (già Innovation Randers A/S)",
+  "campo": "dimensione",
+  "problema": "Dato obsoleto: il campo cita il bruttofortjeneste 2023 (47,3 M DKK) mentre l'ultimo bilancio disponibile (2025) riporta 40 M DKK, quindi in calo. Anche la composizione del gruppo è imprecisa: INNOVATION HOLDING A/S conta 10 società, non 8.",
+  "gravita": "media",
+  "evidenza": "https://www.proff.dk/firma/innovation-living-as/randers-n%C3%B8/m%C3%B8bler/13462KI015G — frammento: \"In 2025, the company reported a gross profit of DKK 40 million ... part of a group with a total of 10 companies, with the parent company being Innovation Holding A/S\"",
+  "correzione_proposta": "Bruttofortjeneste 40 mio DKK (~5,4 M€) nel 2025 (proff.dk, CVR 65699516); fatturato non pubblicato; gruppo INNOVATION HOLDING A/S, 10 società"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "INNOVATION LIVING A/S (già Innovation Randers A/S)",
+  "campo": "linkedin",
+  "problema": "URL LinkedIn con prefisso di locale tedesco (de.linkedin.com) per una società danese. Non è un errore di pagina ma è incoerente con lo standard del dataset (dk. o www.).",
+  "gravita": "bassa",
+  "evidenza": "Valore del record: https://de.linkedin.com/company/innovation-living-a-s",
+  "correzione_proposta": "https://dk.linkedin.com/company/innovation-living-a-s"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "JKE DESIGN A/S",
+  "campo": "denominazione",
+  "problema": "Lead non indipendente: la società appartiene al gruppo BALLINGSLÖV INTERNATIONAL DANMARK A/S / Ballingslöv International AB (gruppo svedese, Stena Adactum), con presidente del CdA e consigliere espressi dalla capogruppo (Björn Friedrich Hauber, Magnus Hegdal). Secondo il mandato una controllata di un gruppo estero non è un lead valido: la due diligence EUDR si decide a livello di capogruppo.",
+  "gravita": "alta",
+  "evidenza": "https://ballingslovinternational.se/en/businesses/jke-design/ e https://www.proff.dk/firma/jke-design-as/jerslev-j/producenter/GKNXIBI016D — frammento: \"The company is part of the Ballingslöv International Danmark A/S and Ballingslöv International AB group ... Björn Friedrich Hauber serves as board chairman and Magnus Hegdal is a board member\"",
+  "correzione_proposta": "Escludere o riclassificare il lead: contatto a livello di capogruppo Ballingslöv International AB"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "JKE DESIGN A/S",
+  "campo": "dimensione",
+  "problema": "Dato obsoleto: il campo riporta il bruttofortjeneste 2023 (55,6 M DKK) mentre il bilancio 2024 depositato indica 50 M DKK, in ulteriore calo rispetto al 2022 (58,7 M DKK). La stima ricavi \"~20-27 M€\" resta non verificata.",
+  "gravita": "media",
+  "evidenza": "https://regnskaber.cvrapi.dk/21017236/ (Årsrapport 2024 JKE DESIGN A/S, Gl Klæstrupvej 75, 9740 Jerslev J) — frammento: \"In 2024, the company showed a gross profit of DKK 50 million\"",
+  "correzione_proposta": "Bruttofortjeneste 50 mio DKK (~6,7 M€) nel 2024 (årsrapport 2024, CVR 63271012); fatturato non pubblicato"
  }
 ]

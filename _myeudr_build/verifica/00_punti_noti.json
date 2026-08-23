@@ -115,5 +115,113 @@
   "gravita": "media",
   "evidenza": "https://regnskaber.cvrapi.dk/21057143/Y3ZyLmRrOi8vcGRmcy8zNDE3NTAxMjtBL1M1MDg2MTsyMDExMDEwMTsyMDExMTIzMTtSO1I.pdf - bilancio 01-01-2011/31-12-2011; https://erhvervplus.dk/erhvervsbasen/a-s-tj%C3%B8rneh%C3%B8j-m%C3%B8lle-3368832 - 'A/S TJOERNEHOEJ MOELLE ... stiftet 1971', dati piu' recenti fermi al 2014",
   "correzione_proposta": ""
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Horreds Möbel Aktiebolag",
+  "campo": "dimensione",
+  "problema": "Dato 2022 NON aggiornabile con certezza e anzi CONTRADDETTO. allabolag.se riporta oggi per Horreds Möbel AB (556365-1974) 45 dipendenti (contro i 50 del 2022) e un intervallo di fatturato 50.000-99.999 tkr, cioè 50-99,9 MSEK ≈ 4,4-8,8 M€: sarebbe una CONTRAZIONE rispetto ai 103 MSEK del 2022 citati nel foglio, e la fascia bassa dell'intervallo scenderebbe SOTTO la soglia minima di 5 M€. Una fonte discordante (allabolag/bokslut) riporta invece per il 2023 'omsättning 393.007 tkr' (≈34,8 M€), cifra implausibile per 45 dipendenti nel mobile e probabilmente riferita al gruppo o frutto di un errore di lettura. Nessuna cifra 2024/2025 puntuale reperita in 3 ricerche: taglia DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://www.allabolag.se/foretag/horreds-m%C3%B6bel-aktiebolag/horred/butiksinredningar-butiksutrustningar/2K0GDC6I5YDBD - '45 anställda ... omsättningsintervall 50 000-99 999 tkr ... Varbergsvägen 448, 519 30 Horred'; https://www.allabolag.se/5563651974/bokslut - '2023: omsättning 393 007 tkr, resultat efter finansnetto 2 540 tkr'; https://www.markposten.se/arsredovisningar/vild-tillvaxt-for-horreds-mobel-aktiebolag-steg-med-77-procent... (dato 2022)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Horreds Möbel Aktiebolag",
+  "campo": "denominazione",
+  "problema": "Società CONFERMATA ATTIVA (scheda allabolag corrente, nessuna procedura concorsuale rilevata). Va però esplicitato il legame di gruppo: la capogruppo è Horreds Holding AB (esiste anche Horreds Möbel Utvecklings AB, 559016-3324). Nel foglio si legge genericamente 'gruppo di 3 società' senza nominare la capogruppo.",
+  "gravita": "bassa",
+  "evidenza": "https://www.allabolag.se/5563651974/koncern e frammento allabolag: 'moderbolag är Horreds Holding AB'; https://www.allabolag.se/5590163324/horreds-mobel-utvecklings-ab",
+  "correzione_proposta": "Indicare la capogruppo: Horreds Holding AB"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Gärsnäs Aktiebolag",
+  "campo": "referente",
+  "problema": "RICONFERMATO, nessuna correzione necessaria. Magnus Eriksson risulta tuttora VD di Gärsnäs Aktiebolag (556044-4746) e Dag Klockby styrelseordförande, coerentemente con l'annuncio ufficiale del sito (VD dal 01-01-2023, in precedenza platschef per quasi otto anni, prima ancora Microsoft e Purus). Il record è corretto in tutti i campi verificati.",
+  "gravita": "bassa",
+  "evidenza": "https://garsnas.se/en/new-ceo-at-garsnas/ ('Ny vd på Gärsnäs'); https://www.bolagsfakta.se/5560444746-Garsnas_Aktiebolag - 'Magnus Eriksson är VD ... Dag Klockby är styrelseordförande'",
+  "correzione_proposta": "Magnus Eriksson, VD (confermato)"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Origin Bridge (Barchem)",
+  "campo": "denominazione",
+  "problema": "Forma giuridica NON risolta dopo 3 ricerche: nessuna fonte pubblica indicizzata riporta la rechtsvorm né una denominazione legale con suffisso. Restano solo KVK 70878315 e P.IVA NL001587917B24 pubblicati dall'azienda stessa. La struttura del numero IVA (NL + 9 cifre + suffisso B24, non B01) è tipica di una persona fisica con più attività, quindi eenmanszaak/vof e NON una B.V.: l'indicazione del foglio va comunque considerata DA CONFERMARE sul Handelsregister KVK, non correggibile d'ufficio.",
+  "gravita": "media",
+  "evidenza": "https://originbridge.coffee/legal-information/ e https://originbridge.coffee/contact/ - 'Heidehoflaan 2B, 7244AG Barchem, The Netherlands ... CoC: 70878315 ... VAT: NL001587917B24'; nessun risultato per la ricerca '70878315 KVK handelsnaam'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Origin Bridge (Barchem)",
+  "campo": "email",
+  "problema": "L'email del foglio (info@bridgetoorigin.com) NON è quella principale del sito ufficiale: la pagina di contatto di originbridge.coffee indica come recapito dell'entità olandese europe@originbridge.coffee, tel. +31 85 301 6984. info@bridgetoorigin.com compare come recapito alternativo, con un numero di cellulare diverso (+31 641 98 6162) e su un dominio (bridgetoorigin.com) che non è quello del sito indicato nel foglio: verosimilmente un marchio/dominio precedente.",
+  "gravita": "media",
+  "evidenza": "https://originbridge.coffee/contact/ - 'Origin Bridge Netherlands, Heidehoflaan 2B, 7244AG Barchem ... +31 85 301 6984 ... europe@originbridge.coffee'; recapito alternativo 'info@bridgetoorigin.com, +31 641 98 6162'",
+  "correzione_proposta": "europe@originbridge.coffee"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Bangma Verpakking B.V.",
+  "campo": "dimensione",
+  "problema": "LEAD NON VALIDO — aggravamento rispetto a quanto annotato. Non solo De Jong Verpakking ha acquisito Bangma (closing 30-07-2020), ma nel 2023 l'INTERO De Jong Packaging Group è stato acquisito da STORA ENSO (multinazionale finlandese quotata). Bangma Verpakking opera oggi 'as part of the De Jong Verpakking and Stora Enso family': non è più un'entità autonoma sotto il profilo decisionale e la compliance EUDR si determina a livello di capogruppo Stora Enso, che ha già un proprio programma EUDR di gruppo. Da rimuovere dalla lista lead.",
+  "gravita": "alta",
+  "evidenza": "https://dejongverpakking.com/en/news/de-jong-packaging-completes-acquisition-of-bangma-verpakking/ ; https://bangmaverpakking.nl/over-ons/historie-bangma-verpakking/ - 'in 2023 werd De Jong Packaging Group overgenomen door Stora Enso ... vandaag maakt Bangma Verpakking deel uit van de De Jong Verpakking en Stora Enso familie'; https://www.agf.nl/article/9238854/de-jong-verpakking-neemt-bangma-verpakking-over/",
+  "correzione_proposta": "Rimuovere il lead (controllata Stora Enso via De Jong Packaging Group dal 2023)"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Bangma Verpakking B.V.",
+  "campo": "sito",
+  "problema": "Il sito indicato nel foglio (https://www.bangma.nl) non è il dominio istituzionale usato oggi dall'azienda, che pubblica i propri contenuti su bangmaverpakking.nl (pagina 'Historie Bangma Verpakking'). DA CONFERMARE quale dei due sia il dominio attivo/canonico.",
+  "gravita": "bassa",
+  "evidenza": "https://bangmaverpakking.nl/over-ons/historie-bangma-verpakking/ - pagina istituzionale corrente dell'azienda",
+  "correzione_proposta": "https://bangmaverpakking.nl/ (DA CONFERMARE)"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Estate Coffee Copenhagen A/S",
+  "campo": "denominazione",
+  "problema": "IDENTITA' ANNOTATA CONFERMATA CORRETTA: il CVR 18179407 e' oggi registrato come Smage-Compagniet A/S, Holmevej 10, 5683 Haarby. La cronologia e' ricostruita dall'azienda stessa: fondata nei primi anni '90 (tra i fondatori Claus Meyer) come Chokolade Compagniet, ribattezzata Estate Coffee nel 2018 quando era a Rodovre, e oggi Smage-Compagniet con uffici e produzione a Haarby (Fyn); i marchi Estate Coffee e Chokolade Compagniet sono mantenuti come brand. 'Estate Coffee Copenhagen A/S' e' quindi una denominazione STORICA: nel foglio va sostituita con la ragione sociale attuale.",
+  "gravita": "media",
+  "evidenza": "https://smage-compagniet.dk/estate-coffee/ - 'Virksomhedens historie gaar tilbage til starten af 1990'erne, hvor den blev grundlagt af blandt andre Claus Meyer og hed Chokolade Compagniet ... skiftede navn til Estate Coffee i 2018 ... i dag hedder den Smage-Compagniet med kontor og produktion i Haarby paa Sydfyn'; https://estatistik.dk/virksomhed/smage-compagniet-as/18179407 ; https://www.proff.dk/firma/estate-coffee-copenhagen-as/haarby/producenter/GLOZ6AI016D - titolo 'Smage-Compagniet A/S - CVR-nr 18179407 - Haarby'",
+  "correzione_proposta": "Smage-Compagniet A/S (CVR 18179407) - gia' Estate Coffee Copenhagen A/S / Chokolade Compagniet"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "COPENHAGEN CHOCOLATE FACTORY ApS",
+  "campo": "denominazione",
+  "problema": "IDENTITA' ANNOTATA CONFERMATA CORRETTA: CVR 32761844, Amager Landevej 123, 2770 Kastrup, costituita il 26-01-2010, ApS; opera con i binavne 'Simply Chocolate Copenhagen' e www.simplychocolate.dk; direttore Niels Ostenkaer; capogruppo SOLSTRA INVESTMENTS ApS. Chiarito anche un potenziale falso allarme: 'Magillum Chocolate Factory ApS' condivide lo stesso CVR 32761844 perche' e' la denominazione PRECEDENTE, poi cambiata in Copenhagen Chocolate Factory ApS - non e' un'omonimia ne' un'entita' diversa. La denominazione del foglio e' corretta.",
+  "gravita": "bassa",
+  "evidenza": "https://cvrapi.dk/virksomhed/dk/copenhagen-chocolate-factory-aps/32761844 ; https://www.simplychocolate.dk/pages/handelsbetingelser - 'www.simplychocolate.dk ejes og drives af Simply Chocolate Copenhagen, CVR 32761844, Amager Landevej 123, 2770 Kastrup'; https://www.proff.dk/firma/magillum-chocolate-factory-aps/kastrup/producenter/GSS7L9I016D - stesso CVR 32761844 (denominazione precedente)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "COPENHAGEN CHOCOLATE FACTORY ApS",
+  "campo": "email",
+  "problema": "L'email pubblicata come recapito ufficiale nelle condizioni di vendita e sulle schede societarie e' kundeservice@simplychocolate.dk (tel. +45 3634 0070). info@simplychocolate.dk, riportata nel foglio, non e' stata ritrovata letteralmente in nessuna fonte pubblica nelle ricerche: DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://www.simplychocolate.dk/pages/handelsbetingelser e https://www.proff.dk/firma/copenhagen-chocolate-factory-aps/kastrup/producenter/0JI778I016D - 'kundeservice@simplychocolate.dk ... +45 3634 0070'",
+  "correzione_proposta": "kundeservice@simplychocolate.dk"
+ },
+ {
+  "foglio": "(tutti)",
+  "denominazione": "(controllo di rientro)",
+  "campo": "denominazione",
+  "problema": "nessuna delle 7 aziende rimosse e' rientrata nei fogli. Controllo eseguito su _records.json (742 record, tutti i fogli) cercando in ogni campo, con radici tolleranti alle varianti: 'getama', 'dragsb', 'pacorini', 'immobra', 'lavazza', 'segafredo', 'kaffee partner'/'kaffeepartner'. Nessun record ha come denominazione Getama Danmark, Dragsbaek, Pacorini Antwerp, Immobra, Lavazza Kaffee, Segafredo Zanetti Austria o Kaffee Partner Austria. Unica occorrenza: la radice 'dragsb' compare nel solo campo dimensione del record Naturli' Foods (Danimarca, riga 86), come descrizione del gruppo di appartenenza - non come rientro dell'azienda rimossa (rilievo separato).",
+  "gravita": "bassa",
+  "evidenza": "Verifica programmatica su _myeudr_build/verifica/_records.json: per ciascuna delle 7 radici, 0 corrispondenze nel campo 'denominazione' su tutti i 742 record; unico match complessivo 'dragsb' nel campo dimensione di Naturli' Foods.",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Naturli' Foods",
+  "campo": "dimensione",
+  "problema": "RILIEVO EMERSO DAL CONTROLLO DI RIENTRO. Il record dichiara esso stesso che Naturli' Foods e' 'parte del gruppo Dragsbaek/Orkla': e' quindi una controllata del gruppo norvegese quotato Orkla ASA, per la stessa ragione per cui Dragsbaek era stata rimossa dalla raccolta. Non e' un rientro formale (denominazione diversa) ma sostanzialmente reintroduce nel foglio un'entita' dello stesso gruppo: la compliance EUDR si decide a livello di capogruppo Orkla, quindi il lead non e' valido. Si aggiunge che la dimensione e' 'n.d.' (nessun dato di fatturato o dipendenti) e che la filiera dichiarata e' 'Olio di palma' sulla base di una FAQ del sito che dichiara solo l'uso di olio di palma RSPO in parte della gamma: perimetro EUDR marginale e non quantificato.",
+  "gravita": "alta",
+  "evidenza": "Record _records.json, foglio Danimarca riga 86, campo dimensione: 'parte del gruppo Dragsbaek/Orkla (CVR 25476573)'; fonte del record https://www.naturli-foods.com/faq/oils/",
+  "correzione_proposta": "Rimuovere il lead (controllata Dragsbaek/Orkla, stessa motivazione della rimozione di Dragsbaek)"
  }
 ]

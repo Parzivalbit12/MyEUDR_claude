@@ -115,5 +115,41 @@
   "gravita": "media",
   "evidenza": "https://fincheck.be/en/confortluxe/0412.863.078/Wervik/connections - frammento: \"The current board members of Confortluxe are Jacqueline Pauwels, Jimmy Ollevier, and Heidi Ollevier\"; https://www.made-in.be/west-vlaanderen/afscheid-van-ras-en-superondernemer-mijnheer-andre-ollevier-79/",
   "correzione_proposta": "Jimmy Ollevier — bestuurder (ruolo di gedelegeerd bestuurder DA CONFERMARE)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Decadt Houthandel NV",
+  "campo": "ruolo",
+  "problema": "Stefaan Decadt e' confermato al vertice, ma il ruolo pubblicato e' 'bedrijfsleider' (LinkedIn) e non 'Algemeen directeur'; per una NV il titolo statutario sarebbe 'gedelegeerd bestuurder'. Inoltre coesistono due siti web riferiti a Decadt a Vlamertinge (decadt-hout.be e houthandeldecadt-ieper.be) e due pagine LinkedIn aziendali: verificare quale corrisponda alla NV BE 0415.284.714.",
+  "gravita": "bassa",
+  "evidenza": "https://be.linkedin.com/in/stefaan-decadt-8b8144113 - frammento: \"Stefaan Decadt - bedrijfsleider bij decadt houthandel nv\"; siti concorrenti https://decadt-hout.be/ e https://www.houthandeldecadt-ieper.be/",
+  "correzione_proposta": "Ruolo: Bedrijfsleider / gedelegeerd bestuurder"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Decadt Houthandel NV",
+  "campo": "dimensione",
+  "problema": "Data di fondazione discordante: il campo indica 01-01-1975 (data di costituzione della NV) mentre le fonti aziendali datano l'attivita' al 1927. Fatturato 13.460.408 EUR confermato.",
+  "gravita": "bassa",
+  "evidenza": "https://trendstop.knack.be/nl/detail/415284714/decadt-houthandel.aspx - frammento: \"With a turnover of 13,460,408 euros, Decadt Houthandel is ranked 43rd in the timber trade sector\"; \"family-run SME that has been active since 1927\"",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Decolvenaere BV",
+  "campo": "dimensione",
+  "problema": "Fatturato fortemente sottostimato. Il campo riporta 'oltre 10 milioni di euro' (fonte giornalistica Sterck Magazine), ma i dati di bilancio piu' recenti indicano un fatturato totale di 38.585.036 EUR, con altre fonti che collocano l'azienda nella fascia 25-100 M EUR. Il dato reale porta l'azienda al limite superiore della forbice 5-40 M EUR, non nel target 10-20.",
+  "gravita": "media",
+  "evidenza": "Frammenti di ricerca su Decolvenaere BV (BE 0400.079.171): \"The most recent financial statements show a total turnover of EUR 38,585,036.00\" e \"turnover is between EUR 25,000,000 - EUR 100,000,000\" - cfr. https://www.companyweb.be/en/0400079171/decolvenaere e https://trendstop.knack.be/nl/detail/400079171/decolvenaere-houtimport.aspx",
+  "correzione_proposta": "Fatturato ~38,6 M EUR (ultimo bilancio depositato NBB) — DA RICONFERMARE sulla fonte NBB primaria"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Denderwood NV",
+  "campo": "dimensione",
+  "problema": "Il fatturato non e' pubblicato (schema abbreviato): la collocazione dimensionale resta indeterminata e potenzialmente sotto la soglia dei 5 M EUR. Il campo lo dichiara ('TAGLIA DA VERIFICARE'), ma il dato non e' riscontrabile su NBB. Resto del record confermato: sede J. Cardijnstraat 3, Erpe-Mere; membro ATIBT; import di legname tropicale (in perimetro EUDR).",
+  "gravita": "bassa",
+  "evidenza": "https://www.atibt.org/en/members/24/denderwood e https://www.denderwood.com/over-ons/ - frammento: \"Denderwood is located at J. Cardijnstraat, 3 B-9420 Erpe Mere, Belgium, with Filip D'Haeseleer listed as a contact person and info@denderwood.com as the email\"",
+  "correzione_proposta": ""
  }
 ]
