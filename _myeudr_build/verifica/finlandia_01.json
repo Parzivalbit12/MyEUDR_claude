@@ -88,5 +88,68 @@
   "gravita": "media",
   "evidenza": "https://vainu.io/company/fm-timber-oy-taloustiedot-ja-liikevaihto/157555/yritystiedot e https://fmtimber.fi/konserni/ — frammento: \"revenue was 44 MEUR in 2024 and it employed 49 people... 42.9 million euros in 2025... mechanical wood processing at three locations: Pihtipudas, Pyhanta, Kiihtelysvaara\"",
   "correzione_proposta": "Liikevaihto 42,9 M€ / 48 dip. (2025) — FUORI FORBICE (sopra i 40 M€); gruppo con 3 stabilimenti"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Hakola Huonekalu Oy",
+  "campo": "dimensione",
+  "problema": "Dato di fatturato non aggiornato (4,82 M€ 2023): il bilancio 2024 riporta 5,0 M€ e 30 dipendenti. Resta comunque al limite inferiore della forbice (5 M€).",
+  "gravita": "bassa",
+  "evidenza": "https://vainu.io/company/hakola-huonekalu-oy-taloustiedot-ja-liikevaihto/163895/yritystiedot — frammento: \"Hakola Huonekalu Oy's revenue was 5 million euros in 2024, and revenue increased by 3.3%... employed 30 people\"",
+  "correzione_proposta": "Liikevaihto 5,0 M€ / 30 dip. (2024, Asiakastieto/Vainu) — limite inferiore forbice"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Hollolan Viilu ja Laminaatti Oy (HVL)",
+  "campo": "dimensione",
+  "problema": "Il valore 5,4 M€ (2025) e' confermato ma la serie storica e' bassa (4,47 M€ nel 2023, 4,7 M€ nell'esercizio precedente): l'azienda oscilla intorno alla soglia minima di 5 M€ della forbice. Da valutare come lead marginale.",
+  "gravita": "bassa",
+  "evidenza": "https://search.vainu.com/company/hollolan-viilu-ja-laminaatti-oy-taloustiedot-ja-liikevaihto/FI09821550/yritystiedot — frammento: \"2025: 5.4 million euros; 2023: 4.47 million euros; Previous fiscal year: 4.7 million euros\"",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "I.S. Mäkinen Oy (MAKINEN)",
+  "campo": "dimensione",
+  "problema": "Appartenenza a gruppo non dichiarata: I.S. Makinen Oy fa parte del gruppo MAKINEN (il nuovo CEO Mikko Makinen e' indicato come parte della proprieta' del gruppo). La decisione di compliance EUDR si prende a livello di capogruppo.",
+  "gravita": "alta",
+  "evidenza": "https://navigatormagazine.fi/uutiset/nimitykset/i-s-makinen-oyn-toimitusjohtaja-vaihtuu/ — frammento: \"Jaakko Makikalli left his position as CEO on May 9, 2025, and was replaced by Mikko Makinen, who is part of the MAKINEN group's ownership\"",
+  "correzione_proposta": "Segnalare l'appartenenza al gruppo MAKINEN e verificare la capogruppo"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "I.S. Mäkinen Oy (MAKINEN)",
+  "campo": "email",
+  "problema": "Email assente ('n.d.'): il lead non e' contattabile via posta elettronica. Nessun indirizzo reperito nei frammenti pubblici consultati.",
+  "gravita": "media",
+  "evidenza": "https://www.finder.fi/Laivasisustus/I+S+M%C3%A4kinen+Oy/Vanhalinna/yhteystiedot/138719 — la scheda contatti non espone un indirizzo email nei frammenti di ricerca. DA CONFERMARE sul sito ismakinen.com",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "I.S. Mäkinen Oy (MAKINEN)",
+  "campo": "filiera",
+  "problema": "Perimetro EUDR da verificare: l'attivita' principale (laivasisustus) e' allestimento/installazione di interni per navi da crociera, cioe' contract di installazione con pannelli e componenti acquistati gia' sul mercato UE. Non e' detto che l'azienda immetta per prima sul mercato UE una commodity dell'Allegato I: andrebbe qualificata come trader piuttosto che operator.",
+  "gravita": "media",
+  "evidenza": "https://vainu.io/company/is-makinen-oy-taloustiedot-ja-liikevaihto/362542/yritystiedot — frammento: \"the company operates in ship interior design... specializes in building cruise ship interiors\"",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Jet-Puu Oy",
+  "campo": "dimensione",
+  "problema": "Appartenenza a gruppo NON dichiarata: JET-Puu Oy fa parte di JETTA-Korporaatio (gruppo Jetta-Talo, case prefabbricate). Lead da riqualificare sulla capogruppo. Inoltre il fatturato riportato (8,4 M€ 2024) e' superato: 10,7 M€ e 27 dip. nel 2025.",
+  "gravita": "alta",
+  "evidenza": "https://vainu.io/company/jet-puu-oy-taloustiedot-ja-liikevaihto/183735/yritystiedot — frammento: \"The company is part of the JETTA-Korporaatio group and operates as a sawmill and wood processing facility in Perho... In 2025, JET-Puu Oy had a revenue of 10.7 million euros and employed 27 people. In 2024, the company's revenue was 8.4 million euros\"",
+  "correzione_proposta": "Liikevaihto 10,7 M€ / 27 dip. (2025); parte di JETTA-Korporaatio (Jetta-Talo)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Jet-Puu Oy",
+  "campo": "email",
+  "problema": "Email assente ('n.d.'): lead non contattabile via posta elettronica. Esiste una pagina contatti pubblica (jet-puu.fi/en/contacts/) da cui estrarre un indirizzo, ma il dato non e' emerso nei frammenti.",
+  "gravita": "media",
+  "evidenza": "https://www.jet-puu.fi/en/contacts/ — pagina contatti esistente; nessun indirizzo email nei frammenti di ricerca. DA CONFERMARE",
+  "correzione_proposta": ""
  }
 ]

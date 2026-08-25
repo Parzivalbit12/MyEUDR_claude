@@ -183,13 +183,13 @@ Tre categorie di rilievi formali sono state lasciate aperte nel report invece ch
 |---|--:|--:|--:|--:|--:|--:|
 | Italia | 95 | 1 | 0 | 4 | 19 | 20% |
 | Germania | 97 | 1 | 0 | 5 | 17 | 18% |
-| Finlandia | 84 | 0 | 1 | 4 | 7 | 8% |
+| Finlandia | 84 | 0 | 1 | 4 | 11 | 13% |
 | Danimarca | 89 | 2 | 0 | 3 | 36 | 40% |
 | Svezia | 89 | 1 | 0 | 4 | 18 | 20% |
 | Olanda | 99 | 2 | 0 | 4 | 34 | 34% |
 | Belgio | 94 | 3 | 0 | 2 | 57 | 61% |
 | Austria | 93 | 1 | 0 | 4 | 19 | 20% |
-| **TOTALE** | **740** | **11** | **1** | **30** | **207** | **28%** |
+| **TOTALE** | **740** | **11** | **1** | **30** | **211** | **29%** |
 
 _Un blocco è contato **completo** solo se l'agente ha confermato di aver verificato tutti i record. I **blocchi parziali** sono quelli ancora in corso o interrotti dal limite di sessione: i rilievi già salvati sono validi e inclusi nel report, ma la copertura è conteggiata al ribasso (solo le aziende che compaiono fra i rilievi). Il salvataggio incrementale ogni 3-4 record è ciò che ha evitato di perdere quel lavoro._
 
@@ -201,32 +201,32 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 
 ## 2. Rilievi per foglio
 
-**Totale rilievi Fase B: 351** — alta 49 · media 197 · bassa 105.
+**Totale rilievi Fase B: 358** — alta 51 · media 200 · bassa 107.
 
 | Foglio | Rilievi | alta | media | bassa | Aziende toccate |
 |---|--:|--:|--:|--:|--:|
 | Italia | 25 | 0 | 11 | 14 | 17 |
 | Germania | 29 | 1 | 20 | 8 | 17 |
-| Finlandia | 10 | 3 | 5 | 2 | 7 |
+| Finlandia | 17 | 5 | 8 | 4 | 11 |
 | Danimarca | 46 | 14 | 18 | 14 | 32 |
 | Svezia | 36 | 6 | 15 | 15 | 18 |
 | Olanda | 74 | 9 | 50 | 15 | 33 |
 | Belgio | 115 | 15 | 68 | 32 | 57 |
 | Austria | 15 | 1 | 10 | 4 | 12 |
 | _(tutti)_ | 1 | 0 | 0 | 1 | 1 |
-| **TOTALE** | **351** | **49** | **197** | **105** | **194** |
+| **TOTALE** | **358** | **51** | **200** | **107** | **198** |
 
 ### Rilievi per campo
 
 | Campo | Rilievi | di cui alta |
 |---|--:|--:|
-| dimensione | 156 | 26 |
+| dimensione | 160 | 28 |
 | referente | 81 | 10 |
 | denominazione | 29 | 7 |
-| email | 23 | 2 |
+| email | 25 | 2 |
 | linkedin | 19 | 0 |
+| filiera | 11 | 4 |
 | sito | 10 | 0 |
-| filiera | 10 | 4 |
 | ruolo | 10 | 0 |
 | sede | 8 | 0 |
 | fonte | 4 | 0 |
@@ -234,7 +234,7 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 
 ---
 
-## 3. Tema trasversale — legami di gruppo (58 rilievi)
+## 3. Tema trasversale — legami di gruppo (59 rilievi)
 
 È il problema **più diffuso e meno atteso** emerso dalla verifica: non era fra i 13 punti noti dell'handoff. Numerose aziende del censimento sono controllate di gruppi, spesso esteri o quotati. Per il criterio già applicato dal progetto — che aveva rimosso Lavazza Kaffee, Segafredo Zanetti Austria e Kaffee Partner Austria perché *«la compliance si decide a livello di gruppo, non nella filiale»* — sono **lead di valore dubbio**.
 
@@ -279,6 +279,7 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 | Danimarca | TIMBERMAN DENMARK A/S | **dichiarato** | Assetto proprietario errato/obsoleto: il record indica solo 'controllata da Timberman Holding ApS ... azionariato nordico'. In realta' nel dicembre 2024 la societa' e' stata acquistata dal gruppo indu |
 | Danimarca | TJOERNEHOEJ MOELLE A/S | **NON dichiarato** | LEAD NON VALIDO. A/S Tjoernehoej Moelle (CVR 34175012) NON e' un'impresa indipendente: e' stata acquistata da DLG nel 1989 dal mugnaio Sander Petersen ed e' oggi una controllata della cooperativa DLG  |
 | Finlandia | CWP Coloured Wood Products Oy | **NON dichiarato** | Azienda ACQUISITA: l'intero capitale è stato rilevato da Auroora Yhtiöt Oyj (serial acquirer finlandese, 131 M€ di fatturato, oltre 20 PMI). Il legame di gruppo non è dichiarato nel record; la decisio |
+| Finlandia | I.S. Mäkinen Oy (MAKINEN) | **NON dichiarato** | Appartenenza a gruppo non dichiarata: I.S. Makinen Oy fa parte del gruppo MAKINEN (il nuovo CEO Mikko Makinen e' indicato come parte della proprieta' del gruppo). La decisione di compliance EUDR si pr |
 | Germania | H. Heitz Furnierkantenwerk GmbH & Co. KG | **NON dichiarato** | CONTROLLO DI GRUPPO NON DICHIARATO: dal 2016 Heitz e societa del gruppo INDUS Holding AG (holding industriale quotata, Bergisch Gladbach). Il record non riporta alcun legame di gruppo: la decisione di |
 | Germania | Weinheimer Leder GmbH | **NON dichiarato** | Struttura di gruppo non dichiarata: Weinheimer Leder GmbH e collegata a Das Lederband GmbH (Weinheim, HRB 724382), con Uwe Holubeck Geschäftsführer di entrambe; le fonti aperte non chiariscono il vers |
 | Olanda | BeBo Parket B.V. | **dichiarato** | Assetto proprietario incompleto: dal 2022 l'azienda e' partecipata dall'investitore Nobel Capital Partners insieme al management di seconda generazione. La partecipazione di private equity non e' dich |
@@ -307,7 +308,7 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 
 ---
 
-## 4. Casi di gravità ALTA (49)
+## 4. Casi di gravità ALTA (51)
 
 _Dato falso, azienda non contattabile, azienda cessata/fallita/acquisita, oppure fuori dal perimetro dell'Allegato I EUDR._
 
@@ -323,7 +324,7 @@ CONTROLLO DI GRUPPO NON DICHIARATO: dal 2016 Heitz e societa del gruppo INDUS Ho
 **Correzione proposta:** Controllata di INDUS Holding AG (gruppo quotato) dal 2016; dato dimensionale da integrare con fonte e anno
 
 
-### Finlandia (3)
+### Finlandia (5)
 
 #### Akonkosken Saha Oy — campo `email`
 
@@ -348,6 +349,22 @@ Referente errato: Kaj Pellinen non e' il toimitusjohtaja ma il talouspaallikko (
 **Evidenza:** https://elega.fi/ajankohtaista/elegan-osakkaiksi-elegalaisia-avainhenkiloita/ e https://www.asiakastieto.fi/yritykset/fi/elega-oy/24968649/paattajat — frammento: "Pauli Niinikoski continues in his role as CEO and as a shareholder alongside other members of the entrepreneur team... Kaj Pellinen serves as the finance director (talouspaallikko)"
 
 **Correzione proposta:** Pauli Niinikoski — Toimitusjohtaja (CEO)
+
+#### I.S. Mäkinen Oy (MAKINEN) — campo `dimensione`
+
+Appartenenza a gruppo non dichiarata: I.S. Makinen Oy fa parte del gruppo MAKINEN (il nuovo CEO Mikko Makinen e' indicato come parte della proprieta' del gruppo). La decisione di compliance EUDR si prende a livello di capogruppo.
+
+**Evidenza:** https://navigatormagazine.fi/uutiset/nimitykset/i-s-makinen-oyn-toimitusjohtaja-vaihtuu/ — frammento: "Jaakko Makikalli left his position as CEO on May 9, 2025, and was replaced by Mikko Makinen, who is part of the MAKINEN group's ownership"
+
+**Correzione proposta:** Segnalare l'appartenenza al gruppo MAKINEN e verificare la capogruppo
+
+#### Jet-Puu Oy — campo `dimensione`
+
+Appartenenza a gruppo NON dichiarata: JET-Puu Oy fa parte di JETTA-Korporaatio (gruppo Jetta-Talo, case prefabbricate). Lead da riqualificare sulla capogruppo. Inoltre il fatturato riportato (8,4 M€ 2024) e' superato: 10,7 M€ e 27 dip. nel 2025.
+
+**Evidenza:** https://vainu.io/company/jet-puu-oy-taloustiedot-ja-liikevaihto/183735/yritystiedot — frammento: "The company is part of the JETTA-Korporaatio group and operates as a sawmill and wood processing facility in Perho... In 2025, JET-Puu Oy had a revenue of 10.7 million euros and employed 27 people. In 2024, the company's revenue was 8.4 million euros"
+
+**Correzione proposta:** Liikevaihto 10,7 M€ / 27 dip. (2025); parte di JETTA-Korporaatio (Jetta-Talo)
 
 
 ### Danimarca (14)
@@ -727,7 +744,7 @@ Nessuna e-mail pubblica reperibile (campo 'n.d.') e nessun sito web aziendale: i
 
 ---
 
-## 5. Casi di gravità MEDIA (197)
+## 5. Casi di gravità MEDIA (200)
 
 _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente errato._
 
@@ -773,7 +790,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Weinheimer Leder GmbH | dimensione | Struttura di gruppo non dichiarata: Weinheimer Leder GmbH e collegata a Das Lederband GmbH (Weinheim, HRB 724382), con Uwe Holubeck Geschäftsführer di entrambe; le fonti aperte non chiariscono il verso del controllo. L'azienda e inoltre nata nel 2003 | https://www.northdata.de/Das%20Lederband%20GmbH,%20Weinheim/Amtsgericht%20Mannheim%20HRB%20724382 - collegamento societario con Weinheimer Leder GmbH, |  |
 | ecopell GmbH | dimensione | Campo privo di dato dimensionale ('Umsatz/MA n.d. (dal 1992)'). Le fonti disponibili indicano una micro-impresa: totale di bilancio 2023 pari a ~900 mila EUR (-20,1% sull'anno precedente), capitale sociale 265.000 EUR. E' quindi molto al di sotto del | https://implisense.com/en/companies/ecopell-gmbh-weitnau-seltmans-DE7L5HN3YI34 - 'last published balance sheet total of Ecopell GmbH in 2023 was 900k  | Totale di bilancio ~0,9 Mio EUR (2023, Bundesanzeiger via Implisense) - micro-impresa, fuori forbice target |
 
-### Finlandia (5)
+### Finlandia (8)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -782,6 +799,9 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | E J Hiipakka Oy | sito | Il sito ufficiale dell'azienda e' www.hiipakka.net (tutte le pagine yhteystiedot/henkilomme/tietosuojaseloste sono su quel dominio); ejh.fi risulta usato solo come dominio di posta. Il valore indicato nel campo 'sito' non e' il sito istituzionale. | https://www.hiipakka.net/kodin-kalusteet/yhteystiedot/ e https://investkurikka.fi/yrityshakemisto/e-j-hiipakka-oy/ — frammento: "Website: https://www. | https://www.hiipakka.net |
 | Esan Levykaluste Oy | dimensione | Il campo segnala 'sotto sweet spot' ma il valore (3,62 M€; 3,7 M€ e 23 dip. nel 2025) e' sotto anche la soglia minima tollerabile di 5 M€: lead fuori forbice, non solo fuori sweet spot. Manca inoltre anno e fonte del dato riportato. | https://search.vainu.com/company/esan-levykaluste-oy-taloustiedot-ja-liikevaihto/FI04807872/yritystiedot — frammento: "The company's revenue was 3.7 m | Liikevaihto 3,7 M€ / 23 dip. (2025, Vainu) — FUORI FORBICE (sotto i 5 M€) |
 | FM Timber Oy | dimensione | Il campo definisce il dato 'fascia alta, vicino al limite', ma 44 M€ e' gia' SOPRA il tetto di 40 M€ della forbice tollerabile (2025: 42,9 M€, 48 dip. — sempre fuori). Inoltre FM Timber e' capogruppo con tre stabilimenti (Pihtipudas, Pyhanta, Kiihtel | https://vainu.io/company/fm-timber-oy-taloustiedot-ja-liikevaihto/157555/yritystiedot e https://fmtimber.fi/konserni/ — frammento: "revenue was 44 MEU | Liikevaihto 42,9 M€ / 48 dip. (2025) — FUORI FORBICE (sopra i 40 M€); gruppo con 3 stabilimenti |
+| I.S. Mäkinen Oy (MAKINEN) | email | Email assente ('n.d.'): il lead non e' contattabile via posta elettronica. Nessun indirizzo reperito nei frammenti pubblici consultati. | https://www.finder.fi/Laivasisustus/I+S+M%C3%A4kinen+Oy/Vanhalinna/yhteystiedot/138719 — la scheda contatti non espone un indirizzo email nei framment |  |
+| I.S. Mäkinen Oy (MAKINEN) | filiera | Perimetro EUDR da verificare: l'attivita' principale (laivasisustus) e' allestimento/installazione di interni per navi da crociera, cioe' contract di installazione con pannelli e componenti acquistati gia' sul mercato UE. Non e' detto che l'azienda i | https://vainu.io/company/is-makinen-oy-taloustiedot-ja-liikevaihto/362542/yritystiedot — frammento: "the company operates in ship interior design... s |  |
+| Jet-Puu Oy | email | Email assente ('n.d.'): lead non contattabile via posta elettronica. Esiste una pagina contatti pubblica (jet-puu.fi/en/contacts/) da cui estrarre un indirizzo, ma il dato non e' emerso nei frammenti. | https://www.jet-puu.fi/en/contacts/ — pagina contatti esistente; nessun indirizzo email nei frammenti di ricerca. DA CONFERMARE |  |
 
 ### Danimarca (18)
 
@@ -971,7 +991,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 
 ---
 
-## 6. Casi di gravità BASSA (105)
+## 6. Casi di gravità BASSA (107)
 
 _Refusi formali e incoerenze di stile._
 
@@ -1008,12 +1028,14 @@ _Refusi formali e incoerenze di stile._
 | Paletten Meyer | denominazione | 'Paletten Meyer' e solo il nome commerciale/dominio. La ditta e iscritta come 'Josef Meyer Palettenbau Inh. Julian Meyer' (impresa individuale, non societa di capitali): la forma giuridica va esplicitata perche incide sulla figura del contraente EUDR | https://www.europages.de/JOSEF-MEYER-PALETTENBAU-INH-JULIAN-MEYER/00000005396426-001.html e https://www.wlw.de/de/firma/josef-meyer-palettenbau-inh-ju | Josef Meyer Palettenbau Inh. Julian Meyer (Paletten Meyer) |
 | RMW Wohnmöbel GmbH & Co. KG (Rietberger Möbe | referente | Geschäftsführung incompleta: oltre a Rudolf Eikenkötter risulta Geschäftsführer anche Volker Klocke (RMW Wohnmöbel Verwaltungs GmbH, HRB 6744 AG Gütersloh, socio accomandatario). | https://www.northdata.com/RMW%20Wohnm%C3%B6bel%20Verwaltungs%20GmbH,%20Rietberg/Amtsgericht%20G%C3%BCtersloh%20HRB%206744 e https://www.rmw-wohnmoebel | Rudolf Eikenkötter, Volker Klocke |
 
-### Finlandia (2)
+### Finlandia (4)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
 | Aureskosken Jalostetehdas Oy | dimensione | Fatturato riportato (15,8 M€ 2024) superato dal bilancio 2025: 18,9 M€ e 52 dipendenti. | https://vainu.io/company/aureskosken-jalostetehdas-oy-taloustiedot-ja-liikevaihto/128104/yritystiedot — frammento: "In 2025, the company had a revenue | Liikevaihto 18,9 M€ / 52 dip. (2025, Vainu/Asiakastieto) |
 | Elega Oy | dimensione | Fatturato impreciso e senza fonte/anno certo ('~8,8 M€ 2023-24'): il dato di bilancio 2024 e' 9,5 M€ con 56 dipendenti, in calo del 17,5%. | https://vainu.io/company/elega-oy-taloustiedot-ja-liikevaihto/542365/yritystiedot — frammento: "Elega Oy's revenue was 9.5 million euros in 2024 and e | Liikevaihto 9,5 M€ / 56 dip. (2024, Asiakastieto/Vainu) |
+| Hakola Huonekalu Oy | dimensione | Dato di fatturato non aggiornato (4,82 M€ 2023): il bilancio 2024 riporta 5,0 M€ e 30 dipendenti. Resta comunque al limite inferiore della forbice (5 M€). | https://vainu.io/company/hakola-huonekalu-oy-taloustiedot-ja-liikevaihto/163895/yritystiedot — frammento: "Hakola Huonekalu Oy's revenue was 5 million | Liikevaihto 5,0 M€ / 30 dip. (2024, Asiakastieto/Vainu) — limite inferiore forbice |
+| Hollolan Viilu ja Laminaatti Oy (HVL) | dimensione | Il valore 5,4 M€ (2025) e' confermato ma la serie storica e' bassa (4,47 M€ nel 2023, 4,7 M€ nell'esercizio precedente): l'azienda oscilla intorno alla soglia minima di 5 M€ della forbice. Da valutare come lead marginale. | https://search.vainu.com/company/hollolan-viilu-ja-laminaatti-oy-taloustiedot-ja-liikevaihto/FI09821550/yritystiedot — frammento: "2025: 5.4 million e |  |
 
 ### Danimarca (14)
 
