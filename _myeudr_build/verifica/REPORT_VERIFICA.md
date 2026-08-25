@@ -1,11 +1,130 @@
 # REPORT DI VERIFICA — MyEUDR Lead Mapping
 
-Controllo qualità record per record del censimento lead (**742 aziende, 8 fogli**). Non è una raccolta di nuove aziende: è la verifica del lavoro esistente.
+> Controllo qualità **record per record** del censimento lead (**742 aziende, 8 fogli**), alla ricerca di refusi, attribuzioni errate e ogni altro errore introdotto durante la raccolta. Non è una ricerca di nuove aziende.
 
-La verifica si è svolta in due fasi:
 
-- **Fase A — controlli deterministici**, offline, su tutti i JSON di build e sul workbook: 24 controlli automatici su duplicati, email dedotte, URL, entità HTML, tassonomia, forbice dimensionale, denominazioni e forme giuridiche. Dettaglio in [`00_controlli_automatici.md`](00_controlli_automatici.md) e [`01_analisi_dimensione.md`](01_analisi_dimensione.md).
-- **Fase B — riscontro sul web**, record per record, tramite agenti di verifica che hanno lavorato a blocchi di 15-20 aziende con 2-3 ricerche ciascuna. Ogni rilievo porta un URL o la citazione del frammento a sostegno.
+## Come leggere questo report
+
+La verifica si è svolta in due fasi, con budget e coperture diverse:
+
+| Fase | Metodo | Copertura |
+|---|---|---|
+| **A — controlli deterministici** | 26 controlli automatici offline su tutti i JSON di build e sul workbook | **100%** dei 742 record |
+| **B — riscontro sul web** | agenti di verifica, blocchi di 15-20 aziende, 2-3 ricerche per record, ogni rilievo con URL o citazione | vedi §1 |
+
+Documenti di dettaglio:
+
+- [`00_controlli_automatici.md`](00_controlli_automatici.md) — esito completo della Fase A
+- [`01_analisi_dimensione.md`](01_analisi_dimensione.md) — analisi del campo `Dimensione` (tipo di dato dichiarato, anno, obsolescenza)
+- `<foglio>_<blocco>.json` — rilievi grezzi di ciascun agente
+- `00_punti_noti.json` — verifica dei 13 punti lasciati aperti dalla raccolta
+
+
+## Vincolo d'ambiente che ha condizionato la verifica
+
+Il proxy di egress **nega per policy** (403 al CONNECT) tutti i domini esterni: registri societari e siti aziendali non sono raggiungibili né con WebFetch né con curl. **L'unico canale disponibile è WebSearch**, i cui frammenti contengono spesso — ma non sempre — il dato cercato. Di qui una regola applicata da tutti gli agenti: quando dopo 2-3 ricerche il dato non emerge, il rilievo è marcato `DA CONFERMARE` e il campo **non viene toccato**. Un rilievo aperto è preferibile a una correzione inventata.
+
+
+---
+
+
+## 0. Esito della Fase A — controlli deterministici
+
+Il censimento è risultato **pulito su tutti i controlli di integrità**: nessun duplicato (né fra fogli né fra i JSON di build), nessuna entità HTML residua, nessun URL LinkedIn o sito malformato, nessuna email sintatticamente errata, nessun numero di registro rimasto nelle denominazioni, nessun campo `Fonte` vuoto o non-URL, e **nessuna divergenza fra i JSON di build e i fogli Excel** — segno che la pipeline `add_country.py` è rimasta coerente.
+
+I rilievi si concentrano invece su qualità e coerenza redazionale:
+
+> La tabella riflette lo stato **dopo** le correzioni applicate (§0-bis): per questo il controllo 6 sulla tassonomia è ora a zero, mentre prima dell'intervento segnalava **23 valori fuori elenco**.
+
+| # | Controllo | Rilievi |
+|---|---|--:|
+| 1 | 1 · Duplicati fra fogli del workbook | 0 |
+| 1b | 1b · Duplicati fra i JSON di build | 0 |
+| 1c | 1c · Denominazioni diverse con lo stesso sito web | 1 |
+| 2 | 2 · Email con dominio diverso dal sito (sospette di deduzione) | 24 |
+| 2b | 2b · Email presente ma sito assente (non verificabile per dominio) | 1 |
+| 2c | 2c · Email su dominio freemail/PEC (accettabile ma non aziendale) | 10 |
+| 2d | 2d · Email su dominio affine al sito (TLD/variante) — rischio basso | 52 |
+| 3 | 3 · Stessa email su aziende diverse | 0 |
+| 3b | 3b · Stesso LinkedIn su aziende diverse | 1 |
+| 4 | 4 · URL malformati (LinkedIn / sito) | 0 |
+| 4b | 4b · Email sintatticamente non conformi | 0 |
+| 5 | 5 · Entità HTML residue | 0 |
+| 6 | 6 · Tassonomia Filiera fuori elenco | 0 |
+| 6b | 6b · Separatore filiera non em-dash | 0 |
+| 7 | 7 · Fonte vuota o non URL | 0 |
+| 7b | 7b · Dimensione vuota o n.d. | 6 |
+| 7c | 7c · Sito web mancante | 26 |
+| 8 | 8 · Dimensione fuori forbice 5–40 M€ senza segnalazione esplicita | 8 |
+| 9 | 9 · Denominazione: registri, spazi, numeri | 0 |
+| 9b | 9b · Forma giuridica incoerente col paese del foglio | 0 |
+| 9c | 9c · Nessuna forma giuridica nel nome | 19 |
+| 9d | 9d · Maiuscolo/minuscolo incoerente dentro il foglio | 52 |
+| 9e | 9e · Forma giuridica scritta in stile incoerente (foglio Italia) | 18 |
+| 10 | 10 · TLD del sito estraneo al paese del foglio | 7 |
+| 11 | 11 · Divergenze fra JSON di build e foglio Excel | 0 |
+| 11b | 11b · Record presente nei JSON ma assente dal foglio | 0 |
+
+
+**Totale rilievi automatici: 225.**
+
+
+> **Nota sul controllo 2 (email dedotte).** Il controllo grezzo segnalava 86 email con dominio diverso dal sito. Separando i casi innocui — stesso nome con TLD diverso (`azienda.de` vs `azienda.com`) e caselle freemail/PEC, entrambi legittimi — restano **24 casi con stem realmente diverso**, che sono quelli da confermare a fonte.
+
+
+---
+
+
+## 0-bis. Correzioni già applicate al workbook (27)
+
+Applicate **solo le correzioni certe**, secondo il mandato: refusi formali, entità HTML, forme giuridiche, filiere fuori Allegato I, aziende cessate. Tutto il resto resta come rilievo aperto in questo report.
+
+Ogni correzione è stata applicata con un **controllo di guardia**: lo script verifica che il valore attuale del campo coincida esattamente con quello atteso, altrimenti salta la correzione. Dopo l'applicazione: **742 righe invariate**, ordine dei fogli ripristinato (Italia, Germania, Finlandia, Danimarca, Svezia, Olanda, Belgio, Austria).
+
+
+### Tassonomia `Filiera` (23)
+
+Il foglio **Finlandia** conteneva varianti storiche della tassonomia (`Legno/Compensato-Prodotti`, `Legno/Segheria-Piallatura`, `Legno/CLT`, `Legno/Commercio-export sahatavara`, `Legno/Piallatura`) mai allineate agli altri fogli. La riconduzione **non è arbitraria**: gli altri sette fogli sono unanimi nel classificare compensato, impiallacciature, finestre/porte, parquet, glulam e CLT sotto `Legno/Arredo — <dettaglio>`, e segheria/piallatura sotto `Legno/Segheria`.
+
+| Foglio | Azienda | Da | A |
+|---|---|---|---|
+| Finlandia | Alavus Ikkunat Oy | Legno/Compensato-Prodotti — finestre/porte in legno | Legno/Arredo — finestre/porte in legno |
+| Finlandia | Aureskosken Jalostetehdas Oy | Legno/Segheria e trasformazione | Legno/Segheria — trasformazione |
+| Finlandia | CWP Coloured Wood Products Oy | Legno/Compensato-Prodotti — impiallacciatura betulla | Legno/Arredo — impiallacciatura betulla colorata |
+| Finlandia | Hoisko CLT (CLT Finland Oy) | Legno/Compensato-Prodotti — CLT | Legno/Arredo — CLT |
+| Finlandia | Hollolan Viilu ja Laminaatti Oy (HVL) | Legno/Compensato-Prodotti — impiallacciatura/laminat | Legno/Arredo — impiallacciatura/laminati |
+| Finlandia | Jet-Puu Oy | Legno/Segheria-Piallatura | Legno/Segheria — piallatura |
+| Finlandia | Kiilax Oy | Legno/Compensato-Prodotti — compensato betulla/lamel | Legno/Arredo — compensato betulla/lamellare |
+| Finlandia | Kinnaskoski Oy | Legno/Segheria-Piallatura | Legno/Segheria — piallatura |
+| Finlandia | Lammin Ikkuna Oy | Legno/Compensato-Prodotti — finestre/porte in legno- | Legno/Arredo — finestre/porte in legno-alluminio |
+| Finlandia | Lappiporras Oy | Legno/Compensato-Prodotti — scale in legno | Legno/Arredo — scale in legno |
+| Finlandia | Late-Rakenteet Oy | Legno/Compensato-Prodotti — legno lamellare/glulam | Legno/Arredo — legno lamellare/glulam |
+| Finlandia | Mahogany Oy | Legno/Compensato-Prodotti — impiallacciatura ed erik | Legno/Arredo — impiallacciatura ed erikoisvaneri |
+| Finlandia | Ollikaisen Hirsirakenne Oy | Legno/Compensato-Prodotti — hirsi/lamellare (glulam) | Legno/Arredo — hirsi/lamellare (glulam) |
+| Finlandia | Orasko Oy | Legno/Commercio-export sahatavara | Legno/Segheria — commercio/export sahatavara |
+| Finlandia | Oy CrossLam Kuhmo Ltd | Legno/CLT (trasformazione) | Legno/Arredo — CLT |
+| Finlandia | Oy Haka-Wood Ab | Legno/Segheria (betulla) | Legno/Segheria — betulla |
+| Finlandia | Piklas Oy | Legno/Compensato-Prodotti — finestre/porte in legno- | Legno/Arredo — finestre/porte in legno-alluminio |
+| Finlandia | Sepa Oy | Legno/Compensato-Prodotti — capriate/prodotti strutt | Legno/Arredo — capriate/prodotti strutturali |
+| Finlandia | Siparila Oy | Legno/Piallatura (pannelli/paneelit) | Legno/Segheria — piallatura (pannelli/paneelit) |
+| Finlandia | Sysmän Ikkuna ja Ovi Oy (Päijänne-Ovet | Legno/Compensato-Prodotti — finestre/porte in legno | Legno/Arredo — finestre/porte in legno |
+| Finlandia | Timberwise Oy | Legno/Compensato-Prodotti — parquet/pavimenti in leg | Legno/Arredo — parquet/pavimenti in legno |
+| Italia | Imperator S.r.l. | Caffè (import caffè verde) | Caffè — import caffè verde |
+| Italia | Sandalj Trading Company S.p.A. | Caffè (import caffè verde) | Caffè — import caffè verde |
+
+### Refusi formali (4)
+
+| Foglio | Azienda | Campo | Correzione | Motivo |
+|---|---|---|---|---|
+| Danimarca | FREDERICIA FURNITURE A/S | dimensione | «» → « DKK (≈0,87 M» · « DKK» → «)» | refuso di unità di misura: «6,5 M€ DKK» mescolava euro e corone danesi |
+| Danimarca | Just Coffee | denominazione | «Just Coffee» → «Just Coffee I/S» | forma giuridica verificata al registro: interessentskab, CVR 35492380 (cvrapi.dk, proff.dk) |
+| Danimarca | Just Coffee | dimensione | «» → «verificata al » · « non » → «: Just Coffee I/S, CVR 35492380 (interessents» · «rificata» → «j 551, 4000 Roskilde» | la riserva «ragione sociale CVR non verificata» è stata sciolta dalla verifica: sostituita col dato accertato |
+| Danimarca | INNOVATION LIVING A/S (già Innov | linkedin | «https://de.linkedin.com/company/innovation-living-a-s» → «https://dk.linkedin.com/company/innovation-living-a-s» | prefisso di locale tedesco su società danese: stessa pagina, prefisso allineato allo standard del dataset |
+
+---
+
+
+# Fase B — verifica sul web, record per record
 
 
 ## 1. Copertura della verifica

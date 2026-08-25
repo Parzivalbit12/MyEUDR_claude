@@ -88,5 +88,104 @@
   "gravita": "media",
   "evidenza": "https://nl.linkedin.com/in/frans-bolier-b64b394a - titolo: 'Frans Bolier - directeur mede-eigenaar beboparket BV'",
   "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Beijleveld Houtimport B.V.",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti: il direttore statutario e' la persona giuridica Beyleveld Groep B.V. e nelle fonti aperte non emerge alcun nome fisico. Senza referente il lead non e' azionabile. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://www.transfirm.nl/nl/organisatie/24136531-000016457986-beijleveld-houtimport-b.v. e https://drimble.nl/bedrijf/rotterdam/16457986/beijleveld-houtimport-bv.html",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Beijleveld Houtimport B.V.",
+  "campo": "sito",
+  "problema": "Il dominio ufficiale indicato nelle fonti di registro e' www.beyleveld.com (coerente con l'email info@beyleveld.com); beyleveldhoutimport.com risulta un secondo dominio attivo. Verificare quale sia il sito primario.",
+  "gravita": "bassa",
+  "evidenza": "https://www.telefoonboek.nl/bedrijven/t2585787/rotterdam/beijleveld-houtimport-b.v./ - frammento: 'Email: info@beyleveld.com - Website: www.beyleveld.com'; https://www.beyleveldhoutimport.com/en/",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Bruns B.V.",
+  "campo": "email",
+  "problema": "Il campo email riporta 'n.d.' ma esiste una casella nominativa pubblica del direttore: jan.burgmans@bruns.nl. Il record e' quindi ingiustificatamente privo di recapito operativo.",
+  "gravita": "media",
+  "evidenza": "http://bergeijk.gevabiz.nl/company/bruns-bv-bergeijk.html - frammento: 'Managing director Jan Burgmans, e-mail: jan.burgmans@bruns.nl'",
+  "correzione_proposta": "jan.burgmans@bruns.nl"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Bruns B.V.",
+  "campo": "sede",
+  "problema": "Indirizzo discordante: il record indica Riethovensedijk 20, 5571 CR Bergeijk, mentre l'anagrafica di settore riporta Stokskesweg 11, 5571 TJ Bergeijk. Il comune (Bergeijk, Noord-Brabant) e' comunque corretto. Indirizzo civico DA CONFERMARE.",
+  "gravita": "bassa",
+  "evidenza": "http://bergeijk.gevabiz.nl/company/bruns-bv-bergeijk.html - frammento: 'Stokskesweg 11, NL-5571TJ Bergeijk'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "GWW Houtimport B.V.",
+  "campo": "dimensione",
+  "problema": "Controllata di gruppo: dal 01/01/2026 GWW Houtimport, GWW Agency e Van den Berg Hardhout confluiscono nella holding Van den Berg Houtgroep. Il legame e' gia' dichiarato correttamente nel campo, ma la compliance EUDR si decidera' a livello di capogruppo: il lead va indirizzato sulla holding.",
+  "gravita": "media",
+  "evidenza": "https://www.houtwereld.nl/nieuws/van-den-berg-en-gww-houtimport-gaan-samen/ - frammento: 'GWW Houtimport, GWW Agency en Van den Berg Hardhout uit Lopik vallen per 1 januari 2026 onder dezelfde holding; de Van den Berg Houtgroep'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "GWW Houtimport B.V.",
+  "campo": "dimensione",
+  "problema": "Il campo cita 'Secondo direttore citato: John Hoogendoorn': non trova riscontro. Il comunicato di riorganizzazione indica Arjan de Jong come algemeen directeur (confermato) e Bart van Meuwen come commercieel directeur; Albert Oudenaarden passa agli acquisti.",
+  "gravita": "media",
+  "evidenza": "https://www.houtwereld.nl/nieuws/van-den-berg-en-gww-houtimport-gaan-samen/ - frammento: 'Arjan de Jong is benoemd tot algemeen directeur en Bart van Meuwen tot commercieel directeur'",
+  "correzione_proposta": "Bart van Meuwen - commercieel directeur"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Gras Wood Wide B.V.",
+  "campo": "dimensione",
+  "problema": "Anno di fondazione errato: il record indica 1921, mentre azienda e stampa di settore datano la fondazione al 1868 (sesta generazione familiare, coerente). Il 1921 corrisponde semmai a una successiva iscrizione societaria.",
+  "gravita": "bassa",
+  "evidenza": "https://www.houtwereld.nl/bedrijven/gras-wood-wide-b-v/ e https://www.graswoodwide.com/over-ons/ - frammento: 'founded in 1868'",
+  "correzione_proposta": "Fondata nel 1868"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Gras Wood Wide B.V.",
+  "campo": "linkedin",
+  "problema": "Campo LinkedIn vuoto benche' esista la pagina aziendale ufficiale.",
+  "gravita": "bassa",
+  "evidenza": "https://nl.linkedin.com/company/graswoodwide - titolo: 'Gras Wood Wide | LinkedIn'",
+  "correzione_proposta": "https://nl.linkedin.com/company/graswoodwide"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Hardhouthandel Hotim B.V.",
+  "campo": "dimensione",
+  "problema": "Il campo dichiara 'n. KVK non reperito': il numero risulta invece pubblicato. Creditsafe riporta per Hotim B.V. il KvK-nummer 17051960. Da riconciliare con la denominazione esatta iscritta (Hotim B.V. / Hardhouthandel Hotim B.V.).",
+  "gravita": "media",
+  "evidenza": "https://www.creditsafe.com/business-index/en-us/company/hotim-bv-nl00776206 - frammento: 'Hotim B.V. has KvK-nummer: 17051960'",
+  "correzione_proposta": "KVK 17051960 (da riconciliare con la ragione sociale esatta)"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Hardhouthandel Hotim B.V.",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti; nelle fonti aperte consultate non emerge il nome del directeur/eigenaar. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://www.hotim.nl/contact/ (pubblica solo verkoop@hotim.nl e tel. 013 514 24 44, nessun nome)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Houthandel Jos Dennebos B.V.",
+  "campo": "dimensione",
+  "problema": "Il numero di dipendenti e' lasciato discordante (20-49 vs 2-5). La fonte aziendale scioglie il dubbio: circa 30 addetti nella produzione di pavimenti in legno a Raalte. Il record va aggiornato.",
+  "gravita": "media",
+  "evidenza": "https://www.dennebosflooring.com/en/about-us/ - frammento: 'About 30 employees produce their wooden floors for various clients, both in and outside Europe'",
+  "correzione_proposta": "ca. 30 dipendenti (fonte dennebosflooring.com, 2025)"
  }
 ]

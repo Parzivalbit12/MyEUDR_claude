@@ -1,0 +1,74 @@
+[
+ {
+  "foglio": "Italia",
+  "denominazione": "3C Lavorazione Pelli S.r.l.",
+  "campo": "denominazione",
+  "problema": "Ragione sociale al Registro Imprese riportata come '3 C - LAVORAZIONE PELLI S.R.L.' (con spazio e trattino), non '3C Lavorazione Pelli S.r.l.'",
+  "gravita": "bassa",
+  "evidenza": "https://www.europages.it/3-C-LAVORAZIONE-PELLI-SRL/SEAC000597361-002.html — '3 C - LAVORAZIONE PELLI SRL a Arzignano, Conceria'; idem https://www.paginegialle.it/arzignano-vi/concerie/3-c-lavorazione-pelli-s-r-l_02389253",
+  "correzione_proposta": "3 C - Lavorazione Pelli S.r.l."
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Conceria 800 S.p.A.",
+  "campo": "dimensione",
+  "problema": "Fatturato indicato 11,4M€; il bilancio 2023 riporta 9,12M€ con perdita netta di -547.884€. Dato sovrastimato e società in perdita (20-49 dipendenti).",
+  "gravita": "media",
+  "evidenza": "https://topaziende.quotidiano.net/toscana/pisa/fatturato-conceria-800-spa/ — 'ricavi 9.118.508 € (2023); utile netto -547.884 €; dipendenti 20-49'",
+  "correzione_proposta": "≈9,1M€ (bilancio 2023, Top Aziende) — perdita netta 2023"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Conceria Belvedere S.r.l.",
+  "campo": "dimensione",
+  "problema": "Fatturato indicato 14M€; i bilanci depositati riportano 11,78M€ (2023) e 11,28M€ (2022). Dato sovrastimato o riferito ad anno non dichiarato.",
+  "gravita": "media",
+  "evidenza": "https://www.reportaziende.it/conceria_belvedere_srl_vi_03742800240 — 'ricavi 2023: 11.776.554 €; 2022: 11.280.042 €; dipendenti 20-49'",
+  "correzione_proposta": "≈11,8M€ (fatturato 2023, Registro Imprese/ReportAziende)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Conceria Beschin",
+  "campo": "denominazione",
+  "problema": "Manca la forma giuridica e c'è ambiguità di soggetto: al Registro risultano due entità distinte, 'Conceria Beschin S.n.c. di Graziano Beschin & C.' e 'Conceria Beschin S.r.l. (Unipersonale)', entrambe a Chiampo. Va identificato quale è l'operatore EUDR.",
+  "gravita": "media",
+  "evidenza": "https://www.reteimprese.it/concerie-tintorie-pellami-cuoio/chiampo/azienda/1239180 ('Conceria Beschin Snc') e https://www.reteimprese.it/concerie-tintorie-pellami-cuoio/chiampo/azienda/71738 ('Conceria Beschin Srl Unipersonale'); https://www.europages.it/CONCERIA-BESCHIN-SRL/SEAC000811671-001.html",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Conceria Beschin",
+  "campo": "dimensione",
+  "problema": "Campo 'n.d.': impossibile verificare che l'azienda rientri nella forbice target 5-40M€. DA CONFERMARE con bilancio depositato.",
+  "gravita": "media",
+  "evidenza": "Nessun dato di fatturato reperito nei frammenti di ricerca; scheda aziendale https://www.conceriabeschin.com/en/company/ non riporta cifre",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Conceria Cilp",
+  "campo": "denominazione",
+  "problema": "Manca la forma giuridica: la ragione sociale attuale al Registro Imprese è 'CONCERIA CILP S.R.L.' (P.IVA 00190610501), ex 'Conceria Cilp S.n.c. di Poggetti Riccardo e Davide'.",
+  "gravita": "bassa",
+  "evidenza": "https://www.ufficiocamerale.it/9423/conceria-cilp-snc-di-poggetti-riccardo-e-davide — 'CONCERIA CILP S.R.L., Partita IVA: 00190610501'",
+  "correzione_proposta": "Conceria CILP S.r.l."
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Conceria Daniela",
+  "campo": "denominazione",
+  "problema": "Manca la forma giuridica e il nome è ambiguo: al Registro esistono 'CONCERIA DANIELA S.R.L.' (P.IVA 03948180249) e 'CONCERIA DANIELA DI DAL MONTE GIULIANO E C. S.N.C.' (P.IVA 00601580244), entrambe ad Arzignano. Il sito conceriadaniela.com fa capo alla Srl.",
+  "gravita": "media",
+  "evidenza": "https://www.ufficiocamerale.it/9084/conceria-daniela-srl e https://www.ufficiocamerale.it/3712/conceria-daniela-di-dal-monte-giuliano-e-c-snc",
+  "correzione_proposta": "Conceria Daniela S.r.l."
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Conceria Daniela",
+  "campo": "dimensione",
+  "problema": "Campo 'n.d.': impossibile verificare la forbice target 5-40M€. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "Nessun dato di fatturato nei frammenti; scheda https://www.ufficiocamerale.it/9084/conceria-daniela-srl senza cifre nei risultati",
+  "correzione_proposta": ""
+ }
+]
