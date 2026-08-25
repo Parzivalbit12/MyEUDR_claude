@@ -97,5 +97,86 @@
   "gravita": "media",
   "evidenza": "https://ownr.dk/companies/public-profile/27266355 (status Normal) ; https://folketidende.dk/erhverv/produktudvikling-er-krumtappen-hos-softline-a-s ('Finn H. Sorensen ... direktor')",
   "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "SOMMER-SAVEX A/S",
+  "campo": "dimensione",
+  "problema": "Il campo dichiara 'fatturato non verificato / dati di bilancio non accessibili', ma i dati esistono e sono pubblici: bruttofortjeneste 13,06 M DKK nel 2024 (~1,75 M€) contro 14,82 M DKK nel 2023, con esercizio 2024-25 chiuso in perdita (-1,37 M DKK). Su questa base la societa' e' molto probabilmente sotto la forbice target 5-40 M€, circostanza non segnalata nel record.",
+  "gravita": "media",
+  "evidenza": "https://ownr.dk/companies/public-profile/13923795 ; https://vismarating.dk/firma/13923795-sommer-savex-as - 'bruttofortjeneste i 2024 pa 13.059.301 DKK, i 2023 pa 14.816.722 DKK'",
+  "correzione_proposta": "Bruttofortjeneste 13,06 M DKK (2024, ~1,75 M€), risultato 2024-25 negativo; fatturato non pubblicato (classe B). Taglia sotto la forbice target"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Skagerak Denmark A/S",
+  "campo": "referente",
+  "problema": "Referente errato e legame di gruppo non dichiarato: Skagerak Denmark A/S e' stata acquisita da Fritz Hansen A/S nel dicembre 2021 ed e' oggi il marchio 'Skagerak by Fritz Hansen'. Josef Theodor Kaiser indicato come referente e' (era) l'amministratore delegato della capogruppo Fritz Hansen, non il vertice della controllata (all'atto della cessione l'ad di Skagerak era Jesper Panduro). Il campo dimensione non menziona in alcun modo il controllo di Fritz Hansen: lead non valido, la compliance EUDR si decide in capogruppo.",
+  "gravita": "alta",
+  "evidenza": "https://www.dezeen.com/2021/12/15/fritz-hansen-acquires-skagerak/ ; https://www.hjulmandkaptain.dk/english/news/hjulmandkaptain-has-advised-the-owners-of-skagerak-denmark-on-the-sale-to-fritz-hansen/ - 'Fritz Hansen CEO Josef Kaiser ... Skagerak CEO Jesper Panduro'",
+  "correzione_proposta": "Dichiarare: controllata di Fritz Hansen A/S dal dicembre 2021; referente da riverificare presso la controllata (non l'ad di gruppo)"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Skagerak Denmark A/S",
+  "campo": "dimensione",
+  "problema": "Dati economici obsoleti: utile lordo 53,7 M DKK riferito al 2021 e addetti al dicembre 2022, cioe' antecedenti o coevi all'acquisizione da parte di Fritz Hansen. La stima ricavi '~15-22 M€' non e' verificata e non e' piu' rappresentativa dell'assetto attuale.",
+  "gravita": "media",
+  "evidenza": "https://estatistik.dk/virksomhed/skagerak-denmark-as/28855990 ; https://www.dezeen.com/2021/12/15/fritz-hansen-acquires-skagerak/",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Skagerak Denmark A/S",
+  "campo": "linkedin",
+  "problema": "Il link LinkedIn punta alla vecchia denominazione 'trip-trap-denmark-a-s'; il marchio comunica oggi come Skagerak (by Fritz Hansen). DA CONFERMARE quale pagina sia quella ufficiale attiva.",
+  "gravita": "bassa",
+  "evidenza": "https://www.linkedin.com/company/trip-trap-denmark-a-s (denominazione storica) ; https://www.dezeen.com/2021/12/15/fritz-hansen-acquires-skagerak/",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "TIMBERMAN DENMARK A/S",
+  "campo": "dimensione",
+  "problema": "Assetto proprietario errato/obsoleto: il record indica solo 'controllata da Timberman Holding ApS ... azionariato nordico'. In realta' nel dicembre 2024 la societa' e' stata acquistata dal gruppo industriale svedese quotato Volati AB (Nasdaq Stockholm, ~2.000 dipendenti, ~7,7 mld SEK di ricavi), che l'ha rilevata dalla portoghese Corticeira Amorim. Controllata di gruppo quotato estero: lead non valido, compliance EUDR accentrata in capogruppo.",
+  "gravita": "alta",
+  "evidenza": "https://ligeher.nu/mariagerfjord/nyheder/mennesker/svensk-koncern-koeber-hadsund-firma-for-kaempe-millionbeloeb/5355430 ; https://nordjyske.dk/nyheder/erhverv/hadsund-firma-solgt-for-kaempe-millionbeloeb/5355340 - 'Timberman ... blev kobt af den svenske industrikoncern Volati fra portugisiske Corticeira Amorim' (dicembre 2024)",
+  "correzione_proposta": "Controllata del gruppo svedese quotato Volati AB dal dicembre 2024 (in precedenza Corticeira Amorim); Mogens Albaek Fisker resta direktor e comproprietario"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "VERMUND LARSEN A/S (VELA / VERMUND)",
+  "campo": "sito",
+  "problema": "Disallineamento tra i canali: il sito indicato (vermund.eu) e' quello del solo marchio di design 'Vermund', mentre il sito istituzionale della societa' e del marchio principale e' vela.dk (coerente con l'email mail@vela.dk e con la pagina LinkedIn 'vela-vermund-larsen'). Referente Per Buus (adm. direktor) e indipendenza proprietaria (Ny Vela Holding ApS, famiglia Larsen) risultano invece confermati.",
+  "gravita": "bassa",
+  "evidenza": "https://www.vela.dk/om-vela ; https://estatistik.dk/virksomhed/vermund-larsen-as/52796628/roller - 'Ny Vela Holding ApS tiltradte som ejer 100% af virksomheden'",
+  "correzione_proposta": "https://www.vela.dk/ (con vermund.eu come sito del marchio design)"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "SKOVS KORN A/S. KORN- OG FODERSTOFAGENTUR",
+  "campo": "filiera",
+  "problema": "Perimetro EUDR dubbio: la societa' si qualifica pubblicamente come broker/agenzia di intermediazione internazionale ('brokers indenfor international handel med korn, foderstoffer og oliefro' dal 1987) e la ragione sociale stessa e' 'Korn- og Foderstofagentur'. Un agente che non acquista in proprio non immette la commodity sul mercato UE e quindi non e' operatore ai sensi EUDR (analogia con gli operatori di sola logistica). Inoltre le commodity trattate (cereali, mangimi, semi oleosi) ricadono in Allegato I solo per la parte soia, non verificata. Il modesto bruttofortjeneste (12 M DKK ~1,6 M€) e' coerente con un'attivita' di pura intermediazione.",
+  "gravita": "alta",
+  "evidenza": "http://skovskorn.dk/ - 'Skovs Korn A/S har siden 1987 opereret som brokers indenfor international handel med korn, foderstoffer og oliefro' ; https://www.proff.dk/firma/skovs-korn-as.-korn-og-foderstofagentur/vejle/jordbrugsr%C3%A5varer-levende-dyr-tekstilr%C3%A5varer-og-indsatsvarer-agentur/064Z69I10OL (settore: agentur)",
+  "correzione_proposta": "Escludere o declassare il lead salvo verifica che la societa' operi anche in conto proprio su soia (import fisico nell'UE)"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "ALL CREATIVE A/S",
+  "campo": "referente",
+  "problema": "Nome del referente incompleto: l'adm. direktor registrato e' Mette Juhl Christensen. Email info@allcreative.dk e sede (vendite Islevdalvej 214, Rodovre; produzione Tulipvej 3, Vejle) risultano confermate.",
+  "gravita": "bassa",
+  "evidenza": "https://www.proff.dk/firma/all-creative-as/r%C3%B8dovre/papir-og-papirprodukter-produktion/GSG8C7I10K1 (adm. direktor Mette Juhl Christensen) ; https://allcreative.dk/en/kontakt/",
+  "correzione_proposta": "Mette Juhl Christensen, Adm. direktor"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "ALL CREATIVE A/S",
+  "campo": "dimensione",
+  "problema": "Il campo non contiene alcun dato economico: non riporta ne' fatturato ne' bruttofortjeneste ne' anno di riferimento, ma solo una fascia di dipendenti '11-50' presa da LinkedIn e priva di data. La collocazione nella forbice target 5-40 M€ resta quindi indimostrata (lo stesso record avverte 'probabile fascia sotto i 10 M€'). DA CONFERMARE su bilancio depositato.",
+  "gravita": "media",
+  "evidenza": "https://www.proff.dk/firma/all-creative-as/r%C3%B8dovre/producenter/GSG8C7I016D (scheda regnskab della societa', CVR 21124796)",
+  "correzione_proposta": ""
  }
 ]

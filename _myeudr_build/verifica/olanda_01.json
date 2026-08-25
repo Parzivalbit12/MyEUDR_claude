@@ -1,0 +1,92 @@
+[
+ {
+  "foglio": "Olanda",
+  "denominazione": "De Leeuw Huidenhandel N.V.",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti. Il direttore statutario iscritto al KVK e' una persona giuridica (LHST B.V., algemeen directeur dal 2022): manca un nome fisico per il contatto commerciale. Nei frammenti pubblici compare solo Christian Hossu (chossu@deleeuwhides.nl) come contatto vendite. DA CONFERMARE il nome del directeur persona fisica.",
+  "gravita": "media",
+  "evidenza": "https://companyinfo.nl/organisatieprofiel/groothandel-in-huiden-en-vellen/de-leeuw-huidenhandel-n-v-winterswijk-08011164-000017531705 - frammento: 'LHST B.V. serves as Algemeen directeur from 2022'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Rompa Tanneries B.V.",
+  "campo": "denominazione",
+  "problema": "Denominazione obsoleta: la societa' e' stata ridenominata VITELCO LEATHER B.V. Vitelco (gruppo PALI) ha rilevato le quote di Rompa Leather sciogliendo la joint venture ed e' oggi socio unico al 100%. Anche la pagina LinkedIn indicata (nl.linkedin.com/company/rompa-tanneries) si presenta ora come 'Vitelco Leather'.",
+  "gravita": "alta",
+  "evidenza": "https://www.paligroup.nl/uk/news/rompa-tanneries-becomes-vitelco-leather/ - frammento: 'Vitelco and Rompa Leder however decided to dissolve this joint venture and Vitelco took over the Rompa Tanneries shares from Rompa Leder. Vitelco is now 100% owner of the tannery and changes its name to Vitelco Leather B.V.'",
+  "correzione_proposta": "Vitelco Leather B.V."
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Rompa Tanneries B.V.",
+  "campo": "dimensione",
+  "problema": "Assetto proprietario dichiarato errato: il campo indica ancora 'Soci: PALI Group (Den Bosch, vitello) e Rompa Leather (Rijen)', ma la JV e' stata sciolta e Vitelco (PALI Group) e' socio unico al 100%. La societa' e' quindi una controllata integrale di gruppo (PALI Group, 's-Hertogenbosch): la compliance EUDR si decide a livello di capogruppo, il lead va riqualificato o scartato.",
+  "gravita": "alta",
+  "evidenza": "https://www.paligroup.nl/uk/news/rompa-tanneries-becomes-vitelco-leather/ - frammento: 'Vitelco is now 100% owner of the tannery'",
+  "correzione_proposta": "Controllata al 100% di Vitelco B.V. (PALI Group), 's-Hertogenbosch"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Rompa Tanneries B.V.",
+  "campo": "email",
+  "problema": "Email e sito legati al vecchio marchio (sales@rompa-tanneries.com / www.rompa-tanneries.com). Con la ridenominazione in Vitelco Leather il dominio di riferimento del gruppo e' vitelco.nl; il vecchio sito hulshof.com rimanda ancora a 'Rompa Tanneries'. Recapiti DA CONFERMARE prima del contatto.",
+  "gravita": "media",
+  "evidenza": "http://www.hulshof.com/ (titolo pagina: 'Rompa Tanneries') e https://www.vitelco.nl/en/about-us",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Rompa Tanneries B.V.",
+  "campo": "referente",
+  "problema": "Referente e ruolo vuoti. Le fonti stampa locali citano Twan de Bie come 'directeur leerlooierij' dello stabilimento di Lichtenvoorde. DA CONFERMARE la carica attuale dopo il passaggio a Vitelco Leather.",
+  "gravita": "media",
+  "evidenza": "https://www.gld.nl/nieuws/2414011/directeur-leerlooierij-laat-de-wethouder-bellen-dan-lossen-we-het-als-volwassen-mensen-op - frammento: 'De directeur van Rompa is Twan de Bie'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Arco Meubelfabriek B.V.",
+  "campo": "referente",
+  "problema": "Referente da riconfermare: le fonti pubbliche indicano Jorre van Ast alla guida dell'azienda familiare dal 2011 come creative director, affiancato dal managing director Jan Tichelaar. 'F. van Ast' risulta solo dal dato Company.info (algemeen directeur dal 2023) e non e' confermato altrove.",
+  "gravita": "media",
+  "evidenza": "https://www.vno-ncw.nl/forum/meubelfabriek-arco-120-jaar-vallen-opstaan-en-weer-doorgaan - frammento: 'In 2011 kwam het familiebedrijf onder leiding van Jorre van Ast. Hij werkt als creative director naast managing director Jan Tichelaar'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "BeBo Parket B.V.",
+  "campo": "referente",
+  "problema": "Referente obsoleto: Frans Bolier e Johan van de Beek (fondatori 2006) hanno ceduto l'azienda nel 2022 alla seconda generazione. La direzione e' oggi di Kees van de Beek e Marielle Zwolsman.",
+  "gravita": "alta",
+  "evidenza": "https://www.vloerenbusiness.nl/vloerenspecialist-bebo-overgenomen-door-tweede-generatie/ - frammento: 'Kees van de Beek en Marielle Zwolsman maakten al deel uit van het management van Bebo en blijven het bedrijf leiden na de overdracht'",
+  "correzione_proposta": "Kees van de Beek / Marielle Zwolsman - Directeur"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "BeBo Parket B.V.",
+  "campo": "dimensione",
+  "problema": "Assetto proprietario incompleto: dal 2022 l'azienda e' partecipata dall'investitore Nobel Capital Partners insieme al management di seconda generazione. La partecipazione di private equity non e' dichiarata nel campo (solo il legame con BeBo Groep B.V.).",
+  "gravita": "media",
+  "evidenza": "https://www.vloerenbusiness.nl/vloerenspecialist-bebo-overgenomen-door-tweede-generatie/ - frammento: 'samen met investeerder Nobel Capital Partners'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "BeBo Parket B.V.",
+  "campo": "dimensione",
+  "problema": "Il fatturato di ca. 20 M EUR e' datato 2024 nel record, ma il dato di 20 milioni compare nell'articolo sul passaggio generazionale del 2022 (riferito all'esercizio precedente). Anno del dato DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://www.vloerenbusiness.nl/vloerenspecialist-bebo-overgenomen-door-tweede-generatie/ - frammento: 'Vorig jaar had Bebo Parket een omzet van 20 miljoen'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "BeBo Parket B.V.",
+  "campo": "linkedin",
+  "problema": "Il link LinkedIn e' il profilo personale di Frans Bolier (nl.linkedin.com/in/frans-bolier-b64b394a), non la pagina aziendale di BeBo Parket. Trattandosi di un ex titolare uscito nel 2022, il link non e' utilizzabile.",
+  "gravita": "media",
+  "evidenza": "https://nl.linkedin.com/in/frans-bolier-b64b394a - titolo: 'Frans Bolier - directeur mede-eigenaar beboparket BV'",
+  "correzione_proposta": ""
+ }
+]

@@ -223,5 +223,77 @@
   "gravita": "bassa",
   "evidenza": "https://se.linkedin.com/company/ekstrand-&-son-ab — titolo «Ekstrands Dörrar & Fönster AB | LinkedIn»",
   "correzione_proposta": "https://se.linkedin.com/company/ekstrand-&-son-ab"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Fegens Sågverk AB",
+  "campo": "linkedin",
+  "problema": "URL LinkedIn con prefisso regionale 'ca.' (Canada) su azienda svedese: incoerente e da riportare al dominio se./www. La pagina non è stata riscontrata in nessuna fonte — DA CONFERMARE che esista.",
+  "gravita": "bassa",
+  "evidenza": "Record: https://ca.linkedin.com/company/fegens-s%C3%A5gverk-ab ; nelle ricerche su 'Fegens Sågverk' non compare alcuna pagina LinkedIn (solo allabolag, bolagsfakta, byggkatalogen, ratsit, merinfo)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Fegens Sågverk AB",
+  "campo": "referente",
+  "problema": "Nome del VD incompleto rispetto al registro: Lars Johan Andersson. Fatturato 189.377 KSEK (2025) ≈ 16,8 M€ e 28 dipendenti confermati.",
+  "gravita": "bassa",
+  "evidenza": "allabolag.se befattningar (556080-4857): «Lars Johan Andersson, 38 år, VD»; «omsättning 189 377 KSEK, resultat 1 722 KSEK, 28 anställda (2025)»",
+  "correzione_proposta": "Lars Johan Andersson"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Fogia Collection Aktiebolag",
+  "campo": "dimensione",
+  "problema": "Lead di dubbia validità (non errore di dato): controllata di Scandinavian Design Partners AB, legame già dichiarato correttamente. Tutti i dati (108.304 KSEK 2024 ≈ 9,6 M€, risultato 15.276 KSEK, 18 dip. da 21 nel 2023, VD Franz Marcus Huber) risultano confermati.",
+  "gravita": "media",
+  "evidenza": "allabolag.se (556204-6218): «omsättning 108 304 KSEK, resultat 15 276 KSEK (2024), 18 anställda ... ingår i en koncern där moderbolaget är Scandinavian Design Partners AB»; «VD är Franz Marcus Huber, ordförande Lars Lindgren»",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Glimakra of Sweden AB",
+  "campo": "dimensione",
+  "problema": "Lead di dubbia validità (non errore di dato): controllata di Garpco Aktiebolag dal 2007, gruppo di 25 società con 311 addetti e 667,0 MSEK. Il legame è dichiarato ma il record lo sottodimensiona ('controllata di Garpco AB, con 2 sub-controllate'): la koncern è molto più ampia e la compliance EUDR si deciderebbe a livello Garpco.",
+  "gravita": "media",
+  "evidenza": "allabolag.se koncern (556120-7837): «moderbolaget är Garpco Aktiebolag ... koncernen omfattar totalt 25 bolag med 311 anställda och 667,0 MSEK i omsättning» — https://www.allabolag.se/5561207837/koncern ; garpco.com/the-group/interior-design-and-furnishings/",
+  "correzione_proposta": "Controllata di Garpco Aktiebolag (dal 2007), koncern di 25 società / 311 addetti / 667 MSEK"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Gyllsjö Träindustri AB",
+  "campo": "denominazione",
+  "problema": "Ragione sociale di registro imprecisa: il registro riporta 'Aktiebolaget Gyllsjö Träindustri' (org.nr 556083-9671). Dati economici confermati (303.142 KSEK ≈ 26,8 M€, risultato 22.414 KSEK, 82 dip. 2024; VD Björn Olsson Lissner).",
+  "gravita": "bassa",
+  "evidenza": "https://www.bolagsfakta.se/5560839671-Aktiebolaget_Gyllsjo_Traindustri — «Aktiebolaget Gyllsjö Träindustri ... omsättning 303 142 KSEK, resultat 22 414 KSEK, 82 anställda (2024); VD Björn Olsson Lissner»",
+  "correzione_proposta": "Aktiebolaget Gyllsjö Träindustri"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Gärsnäs Aktiebolag",
+  "campo": "dimensione",
+  "problema": "Lead di dubbia validità (non errore di dato): controllata di Bordet i Stockholm Aktiebolag, legame già dichiarato correttamente. Esiste inoltre notizia stampa di cambio di proprietà ('Gärsnäs AB får ny ägare') di cui andrebbe verificata la data. Dati 2023/2024 e VD Magnus Eriksson (dal 1/1/2023, ordförande Dag Klockby) confermati.",
+  "gravita": "media",
+  "evidenza": "allabolag.se (556044-4746): «moderbolaget är Bordet i Stockholm Aktiebolag»; «37 anställda, resultat 583 KSEK, omsättning 80 711 KSEK (2023)»; https://www.ystadsallehanda.se/artikel/garsnas-ab-far-ny-agare/ ; https://garsnas.se/en/new-ceo-at-garsnas/",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Hjältevadshus AB",
+  "campo": "dimensione",
+  "problema": "Rischio economico rilevante non segnalato: a fronte dei 140.766 KSEK (~12,5 M€) del 2025 la società ha una marginalità di -32,6% (perdita nell'ordine dei 45 MSEK). Inoltre la koncern è molto più ampia di quanto indicato: 56 società con moderbolag Pulsen AB (il record cita solo 'azionista di controllo gruppo Pulsen'), quindi la compliance EUDR si deciderebbe a livello Pulsen.",
+  "gravita": "alta",
+  "evidenza": "allabolag.se (556232-9135): «omsättning 2025: 140 766 tkr ... vinstmarginal -32,6%»; «ingår i en koncern med 56 bolag, moderbolag Pulsen AB» — https://www.allabolag.se/5562329135/koncern ; pulsen.se/vara-bolag/hjaltevadshus/",
+  "correzione_proposta": "Aggiungere: 'perdita d'esercizio 2025 (marginalità -32,6%); koncern Pulsen AB, 56 società'"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Hjältevadshus AB",
+  "campo": "referente",
+  "problema": "Referente confermato (Johan Bynell, VD; ordförande Magnus Agervald) ma la nomina è annunciata da Pulsen Group: verificare che sia ancora in carica alla data di uso del lead.",
+  "gravita": "bassa",
+  "evidenza": "https://www.mynewsdesk.com/se/pulsen/pressreleases/johan-bynell-ny-vd-paa-hjaeltevadshus-2948844 ; allabolag befattningar: «VD Johan Bynell, ordförande Magnus Agervald»",
+  "correzione_proposta": ""
  }
 ]
