@@ -196,5 +196,68 @@
   "gravita": "bassa",
   "evidenza": "https://www.northdata.com/PFT%20Holz%20in%20Form%20GmbH,%20Schl%C3%BCsselfeld/Amtsgericht%20Stendal%20HRB%2026378 - 'PFT Holz in Form GmbH, Schlüsselfeld'; https://formsperrholz.de/kontakt - 'Südring 7, 06618 Mertendorf OT Görschen'",
   "correzione_proposta": "Stabilimento: Mertendorf OT Görschen (Sachsen-Anhalt); sede legale: Schlüsselfeld (Bayern), HRB 26378 AG Stendal"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Paletten Meyer",
+  "campo": "denominazione",
+  "problema": "'Paletten Meyer' e solo il nome commerciale/dominio. La ditta e iscritta come 'Josef Meyer Palettenbau Inh. Julian Meyer' (impresa individuale, non societa di capitali): la forma giuridica va esplicitata perche incide sulla figura del contraente EUDR.",
+  "gravita": "bassa",
+  "evidenza": "https://www.europages.de/JOSEF-MEYER-PALETTENBAU-INH-JULIAN-MEYER/00000005396426-001.html e https://www.wlw.de/de/firma/josef-meyer-palettenbau-inh-julian-meyer-1869156 - 'Josef Meyer Palettenbau Inh. Julian Meyer, Ostenfeldmark 14, 59557 Lippstadt'",
+  "correzione_proposta": "Josef Meyer Palettenbau Inh. Julian Meyer (Paletten Meyer)"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Paletten Meyer",
+  "campo": "dimensione",
+  "problema": "Campo privo di qualsiasi elemento dimensionale ('Umsatz/MA n.d.'): nessun tipo di dato, nessuna fonte, nessun anno. Trattandosi di impresa individuale non soggetta a deposito di bilancio, il dato non e ricavabile dai registri e il lead non e collocabile nella forbice target 5-40 Mio EUR.",
+  "gravita": "media",
+  "evidenza": "https://www.regiomanager.de/suedwestfalen/unternehmen/meyer-palettenbau/ - profilo aziendale senza cifre; impresa individuale (Inh. Julian Meyer), nessun bilancio pubblicato",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Parkett Herter GmbH & Co. KG",
+  "campo": "dimensione",
+  "problema": "Il fatturato e espresso come fascia aperta verso il basso ('fino a 10 Mio EUR') e senza anno di riferimento: compatibile anche con valori sotto la soglia minima della forbice target (5 Mio EUR). Anche '>30 MA' e privo di anno.",
+  "gravita": "media",
+  "evidenza": "https://www.firmenwissen.de/az/firmeneintrag/72116/7270165223/PARKETT_HERTER_GMBH_CO_KG.html - 'Jahresumsatz bis 10 Mio EUR', 'mehr als 30 Mitarbeiter', senza esercizio di riferimento",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "RMW Wohnmöbel GmbH & Co. KG (Rietberger Möbelwerke)",
+  "campo": "dimensione",
+  "problema": "Il fatturato di ~20 Mio EUR e una STIMA di portale (Die Deutsche Wirtschaft) priva di anno di riferimento e non ricavata da bilancio depositato; non e affiancata da alcun dato addetti. Il campo non e verificabile.",
+  "gravita": "media",
+  "evidenza": "https://die-deutsche-wirtschaft.de/unternehmen/rmw-wohnmoebel-gmbh-co-kg-rietberg/ - 'geschaetzter Umsatz 20 Mio EUR' (stima, senza esercizio)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "RMW Wohnmöbel GmbH & Co. KG (Rietberger Möbelwerke)",
+  "campo": "referente",
+  "problema": "Geschäftsführung incompleta: oltre a Rudolf Eikenkötter risulta Geschäftsführer anche Volker Klocke (RMW Wohnmöbel Verwaltungs GmbH, HRB 6744 AG Gütersloh, socio accomandatario).",
+  "gravita": "bassa",
+  "evidenza": "https://www.northdata.com/RMW%20Wohnm%C3%B6bel%20Verwaltungs%20GmbH,%20Rietberg/Amtsgericht%20G%C3%BCtersloh%20HRB%206744 e https://www.rmw-wohnmoebel.de/impressum - Geschäftsführer Rudolf Eikenkötter, Volker Klocke",
+  "correzione_proposta": "Rudolf Eikenkötter, Volker Klocke"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Lederfabrik Josef Heinen GmbH & Co. KG (Heinen Leather)",
+  "campo": "esistenza_stato",
+  "problema": "DA CONFERMARE lo stato dell'azienda: Creditreform registra una variazione di bonita (Bonitaetsaenderung) datata 02.09.2025 il cui motivo non emerge dalle fonti aperte. Considerato che il settore concia tedesco ha gia registrato piu insolvenze, lo stato va riverificato prima del contatto commerciale.",
+  "gravita": "media",
+  "evidenza": "https://firmeneintrag.creditreform.de/41844/5230009708/LEDERFABRIK_JOSEF_HEINEN_GMBH_CO_KG - 'Bonitaetsaenderung am 02.09.2025'; nessuna notizia di insolvenza reperita",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Weinheimer Leder GmbH",
+  "campo": "dimensione",
+  "problema": "Struttura di gruppo non dichiarata: Weinheimer Leder GmbH e collegata a Das Lederband GmbH (Weinheim, HRB 724382), con Uwe Holubeck Geschäftsführer di entrambe; le fonti aperte non chiariscono il verso del controllo. L'azienda e inoltre nata nel 2003 da uno spin-off del gruppo Freudenberg. Assetto proprietario DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://www.northdata.de/Das%20Lederband%20GmbH,%20Weinheim/Amtsgericht%20Mannheim%20HRB%20724382 - collegamento societario con Weinheimer Leder GmbH, GF Uwe Holubeck; https://www.weinheimer-leder.com/en/history/ - 'emerged from the Freudenberg group in 2003'",
+  "correzione_proposta": ""
  }
 ]

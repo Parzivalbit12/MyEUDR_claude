@@ -106,6 +106,25 @@ if corr:
             h.append(f"| {esc(c['foglio'])} | {esc(c['denominazione'])[:32]} | {esc(c['campo'])} | "
                      f"{testo[:170]} | {esc(c['motivo'])[:110]} |")
 
+h.append("\n### Correzioni deliberatamente NON applicate\n")
+h.append("Tre categorie di rilievi formali sono state lasciate aperte nel report invece che "
+         "corrette nei fogli. Il motivo è sempre lo stesso: la correzione automatica avrebbe "
+         "introdotto un errore nuovo.\n")
+h.append("| Rilievo | Record | Perché non è stata applicata |")
+h.append("|---|--:|---|")
+h.append("| **Maiuscolo integrale nel foglio Danimarca** (controllo 9d) | 52 | Il foglio mescola "
+         "51 denominazioni in MAIUSCOLO (stile del registro CVR) e 38 in forma normale. "
+         "Un *title case* automatico però **rovinerebbe gli acronimi**: `JKE DESIGN` diventerebbe "
+         "`Jke Design`, e lo stesso vale per NPI, MC, KLS, H.C., DHS. Servirebbe una decisione "
+         "caso per caso, che non è una correzione certa. |")
+h.append("| **Conceria Beschin** e **Conceria Daniela** (foglio Italia) | 2 | Ciascuna corrisponde "
+         "a **due entità distinte e omonime** al Registro Imprese, nello stesso comune (una S.n.c. "
+         "e una S.r.l.). Aggiungere una forma giuridica significherebbe **scegliere** quale sia "
+         "l'operatore EUDR: va accertato prima del contatto. |")
+h.append("| **Email da confermare** | 24+ | Le email con dominio diverso dal sito, e quelle non "
+         "ritrovate letteralmente in una fonte pubblica, restano **`DA CONFERMARE`**. Il mandato "
+         "vieta sia di inventarle sia di cancellarle d'ufficio: il campo non è stato toccato. |")
+
 h.append("\n---\n")
 # il corpo comincia col proprio titolo H1: lo tolgo e tengo dalla sezione 1
 corpo_body = corpo.split("\n## 1. Copertura della verifica\n", 1)

@@ -1,0 +1,65 @@
+[
+ {
+  "foglio": "Belgio",
+  "denominazione": "A & A Chocolaterie NV",
+  "campo": "linkedin",
+  "problema": "NON E' UN DUPLICATO. Verificato il rilievo del controllo automatico: A & A Chocolaterie NV e Pralinart NV sono due societa' realmente distinte, con numeri d'impresa KBO diversi (BE 0892.388.320 vs BE 0450.589.051), sedi diverse (Mosten 16 vs Waaslandlaan 32, entrambe 9160 Lokeren) e bilanci NBB separati. Entrambe sono controllate al 100% dalla societa' di distribuzione Hamlet NV (famiglia Geltmeyer). Il LinkedIn e' pero' una pagina unica congiunta ('A&A Chocolaterie & Pralin'Art'), non la pagina della singola societa': va usata con la consapevolezza che copre entrambe le entita'.",
+  "gravita": "media",
+  "evidenza": "https://www.companyweb.be/en/0892388320/a-a-chocolaterie (A & A Chocolaterie, fondata 20-09-2007, sede Mosten 16, 9160 Lokeren, BE0892388320) e https://www.companyweb.be/en/0450589051/pralinart (Pralinart, Waaslandlaan 32, 9160 Lokeren, BE 0450.589.051). Frammento hamlet.be: \"Pralin'Art en A&A Chocolaterie are 100% subsidiaries of the distribution company Hamlet\"; \"A&A Chocolaterie (figurines and tablets) and Pralinart (pralines) are production centers that produce up to 25 tons of chocolate every day\".",
+  "correzione_proposta": "Mantenere entrambi i record. Segnalare esplicitamente nel campo linkedin che la pagina https://be.linkedin.com/company/a&a-chocolaterie-pralin'art e' condivisa tra le due consociate; pagina della capogruppo distinta: https://be.linkedin.com/company/hamlet-nv"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "A & A Chocolaterie NV",
+  "campo": "sito",
+  "problema": "Il sito indicato (hamlet.be) e' il dominio della capogruppo/distributore Hamlet NV, non un dominio proprio di A & A Chocolaterie NV. Stesso valore assegnato anche a Pralinart NV: i due record condividono sito, LinkedIn ed email ('n.d.'), quindi nessuno dei due ha recapiti propri verificati.",
+  "gravita": "media",
+  "evidenza": "https://www.hamlet.be/pagina/over-hamlet/productiesites-onze-merken-kerncijfers/ — le due societa' vi compaiono come siti produttivi del gruppo Hamlet, non come titolari del dominio.",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "A & A Chocolaterie NV",
+  "campo": "referente",
+  "problema": "Referente e ruolo vuoti ed email 'n.d.': il lead non e' contattabile in modo diretto. L'unico nominativo emerso dalle fonti pubbliche e' Jeroen Van Overloop, indicato come COO di A&A Chocolaterie & Pralin'Art — ruolo operativo, non il titolo statutario (per una NV: gedelegeerd bestuurder). DA CONFERMARE presso KBO/NBB.",
+  "gravita": "media",
+  "evidenza": "Frammento di ricerca: \"Jeroen Van Overloop is the COO of A&A Chocolaterie & Pralin'Art\" (https://be.linkedin.com/company/a&a-chocolaterie-pralin'art)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "A & A Chocolaterie NV",
+  "campo": "dimensione",
+  "problema": "Il legame di gruppo e' correttamente dichiarato, ma va valutato l'effetto sul perimetro commerciale: A & A Chocolaterie (22,1 M€) e Pralinart (18,4 M€) sono entrambe controllate al 100% da Hamlet NV, quindi la decisione di compliance EUDR si prende verosimilmente a livello di capogruppo Hamlet e il fatturato consolidato del gruppo (oltre 40 M€ per le sole due produttive, piu' la distribuzione Hamlet) puo' superare la soglia di esclusione ~50 M€. DA CONFERMARE il consolidato Hamlet.",
+  "gravita": "media",
+  "evidenza": "https://www.hamlet.be/pagina/over-hamlet/productiesites-onze-merken-kerncijfers/ ; companyweb 0892388320 (22.087.972 €, 35,4 FTE, deposito 22-10-2025) + companyweb 0450589051 (18.427.020 €, 34 FTE)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Pralinart NV",
+  "campo": "dimensione",
+  "problema": "Il fatturato riportato (18.427.020 €) proviene da un bilancio depositato il 02-11-2023, quindi riferito all'esercizio 2022: dato di 3+ anni fa, mentre le consociate del blocco hanno depositi 2025/2026. Inoltre trendstop riporta per Pralinart una cifra sensibilmente diversa (25.223.632 €, 33° posto di settore), che porterebbe la societa' nella parte alta del range. Le due cifre vanno riconciliate.",
+  "gravita": "media",
+  "evidenza": "Frammento companyweb/trendstop: \"The company has an omzet (turnover) of €25,223,632 and ranks 33rd in the Chocolate and confectionery sector\"; \"Pralinart has 34 FTEs ... and recorded a total turnover of €18,427,020. The most recent financial statements were filed on 02-11-2023\" — https://trendstop.knack.be/nl/detail/450589051/pralinart.aspx",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Pralinart NV",
+  "campo": "linkedin",
+  "problema": "Stesso rilievo speculare ad A & A Chocolaterie NV: le due societa' sono distinte (KBO BE 0450.589.051 vs BE 0892.388.320, sedi diverse) ma condividono la medesima pagina LinkedIn congiunta e il medesimo sito di gruppo hamlet.be, con email 'n.d.' in entrambi i record. Non e' un duplicato di censimento, ma i recapiti non sono propri della singola entita'.",
+  "gravita": "media",
+  "evidenza": "https://www.companyweb.be/en/0450589051/pralinart — Pralinart NV, Waaslandlaan 32, 9160 Lokeren, BE 0450.589.051; pagina condivisa https://be.linkedin.com/company/a&a-chocolaterie-pralin'art",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Belvas SA",
+  "campo": "referente",
+  "problema": "Il referente indicato (Thierry Noesen, fondatore) risulta tuttora amministratore, ma le fonti recenti indicano come CEO operativo Jean-David Couderc. Il vertice esecutivo attuale va riconfermato; inoltre la forma giuridica di Belvas compare in piu' fonti come SPRL/SRL, non SA.",
+  "gravita": "media",
+  "evidenza": "Frammento di ricerca: \"Thierry Noesens serves as the director of Belvas, with Jean-David Couderc as CEO\"; https://hainaut-terredegouts.be/producteur/belvas-sprl/ (\"CHOCOLATERIE BELVAS SPRL\")",
+  "correzione_proposta": ""
+ }
+]

@@ -143,6 +143,16 @@ Il foglio **Finlandia** conteneva varianti storiche della tassonomia (`Legno/Com
 | Italia | Segheria Saccavini Srl | denominazione | «Segheria Saccavini Srl» → «Segheria Saccavini S.r.l.» | normalizzazione ortografica della forma giuridica allo stile del foglio (S.r.l./S.p.A.) |
 | Italia | Zalf SpA (Zalf Industria Mobili  | denominazione | «Zalf SpA (Zalf Industria Mobili Componibili)» → «Zalf S.p.A. (Zalf Industria Mobili Componibili)» | normalizzazione ortografica della forma giuridica allo stile del foglio (S.r.l./S.p.A.) |
 
+### Correzioni deliberatamente NON applicate
+
+Tre categorie di rilievi formali sono state lasciate aperte nel report invece che corrette nei fogli. Il motivo è sempre lo stesso: la correzione automatica avrebbe introdotto un errore nuovo.
+
+| Rilievo | Record | Perché non è stata applicata |
+|---|--:|---|
+| **Maiuscolo integrale nel foglio Danimarca** (controllo 9d) | 52 | Il foglio mescola 51 denominazioni in MAIUSCOLO (stile del registro CVR) e 38 in forma normale. Un *title case* automatico però **rovinerebbe gli acronimi**: `JKE DESIGN` diventerebbe `Jke Design`, e lo stesso vale per NPI, MC, KLS, H.C., DHS. Servirebbe una decisione caso per caso, che non è una correzione certa. |
+| **Conceria Beschin** e **Conceria Daniela** (foglio Italia) | 2 | Ciascuna corrisponde a **due entità distinte e omonime** al Registro Imprese, nello stesso comune (una S.n.c. e una S.r.l.). Aggiungere una forma giuridica significherebbe **scegliere** quale sia l'operatore EUDR: va accertato prima del contatto. |
+| **Email da confermare** | 24+ | Le email con dominio diverso dal sito, e quelle non ritrovate letteralmente in una fonte pubblica, restano **`DA CONFERMARE`**. Il mandato vieta sia di inventarle sia di cancellarle d'ufficio: il campo non è stato toccato. |
+
 ---
 
 
@@ -159,9 +169,9 @@ Il foglio **Finlandia** conteneva varianti storiche della tassonomia (`Legno/Com
 | Danimarca | 89 | 2/5 | 36 | 40% |
 | Svezia | 89 | 1/5 | 18 | 20% |
 | Olanda | 100 | 1/6 | 17 | 17% |
-| Belgio | 95 | 1/5 | 19 | 20% |
+| Belgio | 95 | 3/5 | 57 | 60% |
 | Austria | 93 | 1/5 | 19 | 20% |
-| **TOTALE** | **742** | **8/42** | **145** | **20%** |
+| **TOTALE** | **742** | **10/42** | **183** | **25%** |
 
 > La Fase A copre invece il **100%** dei 742 record: è un controllo offline e non dipende dal budget di ricerca.
 
@@ -171,39 +181,40 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 
 ## 2. Rilievi per foglio
 
-**Totale rilievi Fase B: 209** — alta 31 · media 108 · bassa 70.
+**Totale rilievi Fase B: 231** — alta 31 · media 126 · bassa 74.
 
 | Foglio | Rilievi | alta | media | bassa | Aziende toccate |
 |---|--:|--:|--:|--:|--:|
 | Italia | 25 | 0 | 11 | 14 | 17 |
-| Germania | 22 | 1 | 15 | 6 | 14 |
+| Germania | 29 | 1 | 20 | 8 | 17 |
 | Finlandia | 0 | 0 | 0 | 0 | 0 |
 | Danimarca | 46 | 14 | 18 | 14 | 32 |
 | Svezia | 36 | 6 | 15 | 15 | 18 |
 | Olanda | 32 | 5 | 21 | 6 | 16 |
-| Belgio | 32 | 4 | 18 | 10 | 19 |
+| Belgio | 47 | 4 | 31 | 12 | 26 |
 | Austria | 15 | 1 | 10 | 4 | 12 |
 | _(tutti)_ | 1 | 0 | 0 | 1 | 1 |
-| **TOTALE** | **209** | **31** | **108** | **70** | **129** |
+| **TOTALE** | **231** | **31** | **126** | **74** | **139** |
 
 ### Rilievi per campo
 
 | Campo | Rilievi | di cui alta |
 |---|--:|--:|
-| dimensione | 98 | 15 |
-| referente | 42 | 8 |
-| denominazione | 25 | 6 |
+| dimensione | 109 | 15 |
+| referente | 46 | 8 |
+| denominazione | 26 | 6 |
 | email | 16 | 1 |
-| linkedin | 9 | 0 |
-| sito | 6 | 0 |
-| ruolo | 4 | 0 |
+| linkedin | 11 | 0 |
+| sito | 7 | 0 |
+| ruolo | 6 | 0 |
 | sede | 3 | 0 |
 | filiera | 3 | 1 |
 | fonte | 3 | 0 |
+| esistenza_stato | 1 | 0 |
 
 ---
 
-## 3. Tema trasversale — legami di gruppo (34 rilievi)
+## 3. Tema trasversale — legami di gruppo (38 rilievi)
 
 È il problema **più diffuso e meno atteso** emerso dalla verifica: non era fra i 13 punti noti dell'handoff. Numerose aziende del censimento sono controllate di gruppi, spesso esteri o quotati. Per il criterio già applicato dal progetto — che aveva rimosso Lavazza Kaffee, Segafredo Zanetti Austria e Kaffee Partner Austria perché *«la compliance si decide a livello di gruppo, non nella filiale»* — sono **lead di valore dubbio**.
 
@@ -216,6 +227,9 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 | Foglio | Azienda | Stato nel foglio | Rilievo |
 |---|---|---|---|
 | Austria | BRAUN LOCKENHAUS GmbH | **dichiarato** | Filiale di gruppo estero: la societa' e' controllata da SCHNEEWEISS AG / SCHNEEWEISS interior, con sede del gruppo a Kippenheim (Baden-Württemberg, DE), dal 2006. La decisione di compliance EUDR si as |
+| Belgio | A & A Chocolaterie NV | **dichiarato** | Il legame di gruppo e' correttamente dichiarato, ma va valutato l'effetto sul perimetro commerciale: A & A Chocolaterie (22,1 M€) e Pralinart (18,4 M€) sono entrambe controllate al 100% da Hamlet NV,  |
+| Belgio | Manutti BV | **dichiarato** | Legame di gruppo con Manutti Invest BV (BE 0478.148.434) dichiarato nel record: si tratta della holding familiare che controlla l'operativa. Segnalato come 'media' perche' gia' dichiarato; la decision |
+| Belgio | Mecam NV | **NON dichiarato** | Il record riporta 32.145.268 € e 111,6 FTE per la sola Mecam NV, mentre la stampa parla di 37 M€ cumulati e ~220 dipendenti per l'intero Mecam Group (Mecam + Neo-Style). Il legame di gruppo esiste ed  |
 | Belgio | Sas NV (Sas Coffee) | **dichiarato** | CONFERMATO: l'azienda NON e' piu' indipendente ne' familiare. Acquisita da Miko NV (11/2021) e rivenduta il 24-05-2024 al fondo di private equity olandese Nimbus Investments; il sito di Nimbus la elen |
 | Belgio | Silco NV | **NON dichiarato** | RILIEVO NUOVO emerso in verifica: la sede di Silco (Italielei 181, 2000 Antwerpen) e' lo stesso indirizzo di EFICO NV, il grande trader di caffe' verde di Anversa (fatturato ~289 M€), il cui president |
 | Belgio | Tannerie Masure SA | **NON dichiarato** | Societa' non indipendente: dal 2014 Tannerie Masure fa parte del Groupe Saturne insieme alla francese Tannerie Fortier-Beaulieu (Roanne). Il referente indicato, Olivier Lesage, risulta anche dirigente |
@@ -231,6 +245,7 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 | Danimarca | TIMBERMAN DENMARK A/S | **dichiarato** | Assetto proprietario errato/obsoleto: il record indica solo 'controllata da Timberman Holding ApS ... azionariato nordico'. In realta' nel dicembre 2024 la societa' e' stata acquistata dal gruppo indu |
 | Danimarca | TJOERNEHOEJ MOELLE A/S | **NON dichiarato** | LEAD NON VALIDO. A/S Tjoernehoej Moelle (CVR 34175012) NON e' un'impresa indipendente: e' stata acquistata da DLG nel 1989 dal mugnaio Sander Petersen ed e' oggi una controllata della cooperativa DLG  |
 | Germania | H. Heitz Furnierkantenwerk GmbH & Co. KG | **NON dichiarato** | CONTROLLO DI GRUPPO NON DICHIARATO: dal 2016 Heitz e societa del gruppo INDUS Holding AG (holding industriale quotata, Bergisch Gladbach). Il record non riporta alcun legame di gruppo: la decisione di |
+| Germania | Weinheimer Leder GmbH | **NON dichiarato** | Struttura di gruppo non dichiarata: Weinheimer Leder GmbH e collegata a Das Lederband GmbH (Weinheim, HRB 724382), con Uwe Holubeck Geschäftsführer di entrambe; le fonti aperte non chiariscono il vers |
 | Olanda | BeBo Parket B.V. | **dichiarato** | Assetto proprietario incompleto: dal 2022 l'azienda e' partecipata dall'investitore Nobel Capital Partners insieme al management di seconda generazione. La partecipazione di private equity non e' dich |
 | Olanda | GWW Houtimport B.V. | **dichiarato** | Controllata di gruppo: dal 01/01/2026 GWW Houtimport, GWW Agency e Van den Berg Hardhout confluiscono nella holding Van den Berg Houtgroep. Il legame e' gia' dichiarato correttamente nel campo, ma la  |
 | Olanda | Houthandel Jos Dennebos B.V. | **NON dichiarato** | Referente e ruolo assenti. Il socio unico e' la persona giuridica Jos Dennebos Exploitatie B.V.; il fondatore storico e' Jos Dennebos (attivo anche in Dennebos Suriname). Nome e carica del directeur a |
@@ -525,7 +540,7 @@ Nessuna e-mail pubblica reperibile (campo 'n.d.') e nessun sito web aziendale: i
 
 ---
 
-## 5. Casi di gravità MEDIA (108)
+## 5. Casi di gravità MEDIA (126)
 
 _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente errato._
 
@@ -546,7 +561,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Conceria Lomar (Lomar Lavorazione Pelli S.r. | email | L'indirizzo 'lomar@concerialomar.it' non compare nelle fonti pubbliche reperite; le schede aziendali e la certificazione LWG riportano 'info@concerialomar.it'. DA CONFERMARE. | https://www.reportaziende.it/lomar_lavorazione_pelli_srl_vi_02002810246 — 'Email: info@concerialomar.it; Tel +39 0444625050; PEC lomar@pec-italia.it' | info@concerialomar.it |
 | Cuoificio Bisonte S.p.A. | dimensione | Fatturato indicato 12,1M€: sottostimato/obsoleto. Il bilancio 2023 riporta ricavi per 15,25M€ e utile 428.879€ (20-49 dipendenti). | https://topaziende.quotidiano.net/toscana/pisa/fatturato-cuoificio-bisonte-spa/ — 'fatturato 2023: 15.247.239 €; utile 428.879 €; dipendenti 20-49; co | ≈15,2M€ (fatturato 2023, Top Aziende/Registro Imprese) |
 
-### Germania (15)
+### Germania (20)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -559,11 +574,16 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | HOFA Holzimport GmbH | dimensione | 'Umsatz >2,5 Mio EUR (Firmenauskunft), cifra esatta n.d.' non e un dato dimensionale utilizzabile: soglia aperta, senza anno e senza fonte puntuale. Non permette di verificare la forbice target 5-40 Mio EUR. | https://firmeneintrag.creditreform.de/22145/2390205389/HOFA_HOLZIMPORT_GMBH - scheda Creditreform senza cifra di fatturato nei frammenti; https://www. |  |
 | Hartmann Möbelwerke GmbH | dimensione | Fatturato di riferimento del 2017 (8 anni fa) e fascia addetti '~140-210' troppo ampia. Il dato piu recente disponibile e il totale di bilancio 2023 di 10 Mio EUR (+5,2% sull'anno precedente); gli addetti confermati sono 'oltre 140'. | https://implisense.com/en/companies/hartmann-moebelwerke-gmbh-beelen-DEZSR23ZJW75 - 'last published balance sheet total 2023: 10 M EUR, +5.2%'; https: | Totale di bilancio 10 Mio EUR (2023, Bundesanzeiger via Implisense); oltre 140 dipendenti (Die Glocke, 2024); fatturato  |
 | Lederfabrik Josef Heinen GmbH & Co. KG (Hein | dimensione | Dato dimensionale obsoleto (2019/2020, 5+ anni) e in conflitto con le fonti: Creditreform/firmeneintrag colloca l'azienda in classe di fatturato 50-100 Mio EUR, non 20-35 Mio EUR. Va riverificato l'anno di riferimento. | https://firmeneintrag.creditreform.de/41844/5230009708/LEDERFABRIK_JOSEF_HEINEN_GMBH_CO_KG - classe di fatturato 50-100 Mio EUR; https://www.kfw.de/st | Fatturato 35 Mio EUR (2019, KfW Stories); classe di fatturato indicata da Creditreform 50-100 Mio EUR - anno piu recente |
+| Lederfabrik Josef Heinen GmbH & Co. KG (Hein | esistenza_stato | DA CONFERMARE lo stato dell'azienda: Creditreform registra una variazione di bonita (Bonitaetsaenderung) datata 02.09.2025 il cui motivo non emerge dalle fonti aperte. Considerato che il settore concia tedesco ha gia registrato piu insolvenze, lo sta | https://firmeneintrag.creditreform.de/41844/5230009708/LEDERFABRIK_JOSEF_HEINEN_GMBH_CO_KG - 'Bonitaetsaenderung am 02.09.2025'; nessuna notizia di in |  |
 | Max Cropp GmbH & Co. KG (Timber Im- & Export | email | Il campo email e valorizzato con 'n.d.' mentre l'indirizzo compare letteralmente nell'Impressum/contatti aziendali. | https://www.cropp-timber.com/de/kontakt/ e https://www.edelholzshop.de/de/service/about/ - 'Telefon: 040 - 766 235-0; E-Mail: info@cropp-timber.com' | info@cropp-timber.com |
 | Max Cropp GmbH & Co. KG (Timber Im- & Export | dimensione | Il campo riporta '~13 MA' senza fonte ne anno e 'Umsatz n.d.'. Nessun elemento consente di verificare la forbice target 5-40 Mio EUR; l'ordine di grandezza (~13 addetti in un'attivita di import/commercio) resta indeterminato. | https://www.cropp-timber.com/de/unternehmen/ - azienda fondata nel 1919, nessuna cifra dimensionale pubblicata; https://www.cropp-timber.com/de/untern |  |
 | Meisen Holzverarbeitung GmbH & Co. KG | dimensione | Il dato '~20-49 MA (Regiomanager)' e una fascia di portale priva di anno e non e accompagnato da alcun dato di fatturato ('Umsatz n.d.'): il campo non permette di collocare il lead nella forbice 5-40 Mio EUR. | https://www.regiomanager.de/koeln-bonn-aachen/unternehmen/meisen-holzverarbeitung-gmbh-und-co-kg/ (fascia addetti senza anno); https://firmeneintrag.c |  |
 | PFT Holz in Form GmbH | dimensione | Il fatturato e indicato solo come classe '10-50 Mio EUR' senza anno di riferimento: fascia troppo ampia (copre sia il centro sia il limite superiore della forbice target). Anche il dato addetti (~35) e privo di anno. | https://www.wer-zu-wem.de/firma/formsperrholz.html e https://firmeneintrag.creditreform.de/96132/3410092585/PFT_HOLZ_IN_FORM_GMBH - classe di fatturat |  |
+| Paletten Meyer | dimensione | Campo privo di qualsiasi elemento dimensionale ('Umsatz/MA n.d.'): nessun tipo di dato, nessuna fonte, nessun anno. Trattandosi di impresa individuale non soggetta a deposito di bilancio, il dato non e ricavabile dai registri e il lead non e collocab | https://www.regiomanager.de/suedwestfalen/unternehmen/meyer-palettenbau/ - profilo aziendale senza cifre; impresa individuale (Inh. Julian Meyer), nes |  |
+| Parkett Herter GmbH & Co. KG | dimensione | Il fatturato e espresso come fascia aperta verso il basso ('fino a 10 Mio EUR') e senza anno di riferimento: compatibile anche con valori sotto la soglia minima della forbice target (5 Mio EUR). Anche '>30 MA' e privo di anno. | https://www.firmenwissen.de/az/firmeneintrag/72116/7270165223/PARKETT_HERTER_GMBH_CO_KG.html - 'Jahresumsatz bis 10 Mio EUR', 'mehr als 30 Mitarbeiter |  |
+| RMW Wohnmöbel GmbH & Co. KG (Rietberger Möbe | dimensione | Il fatturato di ~20 Mio EUR e una STIMA di portale (Die Deutsche Wirtschaft) priva di anno di riferimento e non ricavata da bilancio depositato; non e affiancata da alcun dato addetti. Il campo non e verificabile. | https://die-deutsche-wirtschaft.de/unternehmen/rmw-wohnmoebel-gmbh-co-kg-rietberg/ - 'geschaetzter Umsatz 20 Mio EUR' (stima, senza esercizio) |  |
 | Weinheimer Leder GmbH | dimensione | Campo privo di qualsiasi elemento dimensionale verificabile ('Umsatz/MA n.d.'): non dichiara ne tipo di dato, ne fonte, ne anno. Impossibile collocare il lead nella forbice target 5-40 Mio EUR. | https://www.firmenwissen.de/az/firmeneintrag/69469/7170220020/WEINHEIMER_LEDER_GMBH.html (scheda Firmenauskunft, HRB 432889 Mannheim) - nessun fattura |  |
+| Weinheimer Leder GmbH | dimensione | Struttura di gruppo non dichiarata: Weinheimer Leder GmbH e collegata a Das Lederband GmbH (Weinheim, HRB 724382), con Uwe Holubeck Geschäftsführer di entrambe; le fonti aperte non chiariscono il verso del controllo. L'azienda e inoltre nata nel 2003 | https://www.northdata.de/Das%20Lederband%20GmbH,%20Weinheim/Amtsgericht%20Mannheim%20HRB%20724382 - collegamento societario con Weinheimer Leder GmbH, |  |
 | ecopell GmbH | dimensione | Campo privo di dato dimensionale ('Umsatz/MA n.d. (dal 1992)'). Le fonti disponibili indicano una micro-impresa: totale di bilancio 2023 pari a ~900 mila EUR (-20,1% sull'anno precedente), capitale sociale 265.000 EUR. E' quindi molto al di sotto del | https://implisense.com/en/companies/ecopell-gmbh-weitnau-seltmans-DE7L5HN3YI34 - 'last published balance sheet total of Ecopell GmbH in 2023 was 900k  | Totale di bilancio ~0,9 Mio EUR (2023, Bundesanzeiger via Implisense) - micro-impresa, fuori forbice target |
 
 ### Danimarca (18)
@@ -635,10 +655,15 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Rompa Tanneries B.V. | email | Email e sito legati al vecchio marchio (sales@rompa-tanneries.com / www.rompa-tanneries.com). Con la ridenominazione in Vitelco Leather il dominio di riferimento del gruppo e' vitelco.nl; il vecchio sito hulshof.com rimanda ancora a 'Rompa Tanneries' | http://www.hulshof.com/ (titolo pagina: 'Rompa Tanneries') e https://www.vitelco.nl/en/about-us |  |
 | Rompa Tanneries B.V. | referente | Referente e ruolo vuoti. Le fonti stampa locali citano Twan de Bie come 'directeur leerlooierij' dello stabilimento di Lichtenvoorde. DA CONFERMARE la carica attuale dopo il passaggio a Vitelco Leather. | https://www.gld.nl/nieuws/2414011/directeur-leerlooierij-laat-de-wethouder-bellen-dan-lossen-we-het-als-volwassen-mensen-op - frammento: 'De directeur |  |
 
-### Belgio (18)
+### Belgio (31)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
+| A & A Chocolaterie NV | linkedin | NON E' UN DUPLICATO. Verificato il rilievo del controllo automatico: A & A Chocolaterie NV e Pralinart NV sono due societa' realmente distinte, con numeri d'impresa KBO diversi (BE 0892.388.320 vs BE 0450.589.051), sedi diverse (Mosten 16 vs Waasland | https://www.companyweb.be/en/0892388320/a-a-chocolaterie (A & A Chocolaterie, fondata 20-09-2007, sede Mosten 16, 9160 Lokeren, BE0892388320) e https: | Mantenere entrambi i record. Segnalare esplicitamente nel campo linkedin che la pagina https://be.linkedin.com/company/a |
+| A & A Chocolaterie NV | sito | Il sito indicato (hamlet.be) e' il dominio della capogruppo/distributore Hamlet NV, non un dominio proprio di A & A Chocolaterie NV. Stesso valore assegnato anche a Pralinart NV: i due record condividono sito, LinkedIn ed email ('n.d.'), quindi nessu | https://www.hamlet.be/pagina/over-hamlet/productiesites-onze-merken-kerncijfers/ — le due societa' vi compaiono come siti produttivi del gruppo Hamlet |  |
+| A & A Chocolaterie NV | referente | Referente e ruolo vuoti ed email 'n.d.': il lead non e' contattabile in modo diretto. L'unico nominativo emerso dalle fonti pubbliche e' Jeroen Van Overloop, indicato come COO di A&A Chocolaterie & Pralin'Art — ruolo operativo, non il titolo statutar | Frammento di ricerca: "Jeroen Van Overloop is the COO of A&A Chocolaterie & Pralin'Art" (https://be.linkedin.com/company/a&a-chocolaterie-pralin'art) |  |
+| A & A Chocolaterie NV | dimensione | Il legame di gruppo e' correttamente dichiarato, ma va valutato l'effetto sul perimetro commerciale: A & A Chocolaterie (22,1 M€) e Pralinart (18,4 M€) sono entrambe controllate al 100% da Hamlet NV, quindi la decisione di compliance EUDR si prende v | https://www.hamlet.be/pagina/over-hamlet/productiesites-onze-merken-kerncijfers/ ; companyweb 0892388320 (22.087.972 €, 35,4 FTE, deposito 22-10-2025) |  |
+| Belvas SA | referente | Il referente indicato (Thierry Noesen, fondatore) risulta tuttora amministratore, ma le fonti recenti indicano come CEO operativo Jean-David Couderc. Il vertice esecutivo attuale va riconfermato; inoltre la forma giuridica di Belvas compare in piu' f | Frammento di ricerca: "Thierry Noesens serves as the director of Belvas, with Jean-David Couderc as CEO"; https://hainaut-terredegouts.be/producteur/b |  |
 | Bulo NV | referente | Referente probabilmente non aggiornato. Dirk Busschop risulta CEO in fonti risalenti (2009); l'azienda e' oggi guidata dalla terza generazione, Carlo e Louis Busschop, con Carlo Busschop indicato come Managing Director / CEO in fonti recenti. Da rico | https://www.bulo.com/third_generation/ e https://rocketreach.co/carlo-busschop-email_93406361 - frammento: "Carlo Busschop, based in Mechelen, BE, is  | Carlo Busschop — gedelegeerd bestuurder / Managing Director (DA CONFERMARE) |
 | Buzzispace NV | email | Email 'n.d.': record privo di indirizzo di contatto nonostante il sito buzzi.space sia attivo. DA CONFERMARE. | https://www.buzzi.space/brand (sito attivo, nessun indirizzo e-mail nei frammenti) |  |
 | Carlens NV | referente | Referente e ruolo assenti. Le fonti pubbliche citano 'Carl Carlens' in contesto gestionale, mentre il campo dimensione ipotizza 'Luc Carlens' da FinCheck: nomi discordanti, nessuno dei due confermato come gedelegeerd bestuurder. DA CONFERMARE su BCE/ | https://www.limoco-industries.be/referenties/240-houthandel-carlens-keuze-voor-leverancier-dicht-bij-huis - frammento: risultati che referenziano "Car |  |
@@ -651,6 +676,14 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Keukenontwerpers NV | filiera | Perimetro EUDR debole. L'azienda opera con l'insegna SieMatic Keukenontwerpers come rivenditore/installatore a valle di cucine prodotte dalla tedesca SieMatic: non e' l'operatore che immette per primo il prodotto in legno sul mercato UE (lo e' il fab | https://www.keukenontwerpers.com/ e https://trustlocal.be/antwerpen/geel/keukenbouwer/siematic-keukenontwerpers/ - frammento: "SieMatic Keukenontwerpe |  |
 | Keukenontwerpers NV | referente | Referente e ruolo assenti; nessuna fonte pubblica restituisce il gedelegeerd bestuurder di Keukenontwerpers NV (BE 0472.648.534). L'email geel@keukenontwerpers.com non e' inoltre riscontrabile letteralmente nei frammenti. DA CONFERMARE entrambi. Fatt | https://trendstop.knack.be/nl/detail/472648534/keukenontwerpers.aspx - frammento: "With a turnover of 16,033,016 euros, Keukenontwerpers is ranked 7th |  |
 | Lavrijsen Houtbedrijf NV | dimensione | Fatturato obsoleto e indirizzo errato. Il campo riporta 12.763.339 EUR (dato trendstop), mentre l'ultimo bilancio depositato indica 14.093.447 EUR e 23,1 FTE (non '20-49 addetti'). Inoltre la sede legale registrata e' Koning-Albertstraat 123, 2440 Ge | https://www.companyweb.be/en/0407106030/houtbedrijf-lavrijsen - frammento: "Houtbedrijf Lavrijsen recorded a total turnover of EUR 14,093,447.00... Th | Fatturato 14.093.447 EUR e 23,1 FTE (ultimo bilancio NBB); sede Koning-Albertstraat 123, 2440 Geel |
+| Manutti BV | dimensione | Il fatturato 15.340.098 € e i 27,4 FTE (bilancio NBB depositato 17-06-2024) sono confermati. Non trova invece riscontro pubblico l'affermazione di uno 'stabilimento produttivo in Indonesia (circa 140 addetti)': le fonti presentano Manutti come design | companyweb.be/en/0476263070/manutti: 'Manutti recorded a total turnover of EUR 15,340,098.00 according to the most recent financial statements filed o |  |
+| Manutti BV | dimensione | Legame di gruppo con Manutti Invest BV (BE 0478.148.434) dichiarato nel record: si tratta della holding familiare che controlla l'operativa. Segnalato come 'media' perche' gia' dichiarato; la decisione di compliance potrebbe collocarsi a livello di h | https://www.companyweb.be/en/0478148434/manutti-invest |  |
+| Mecam NV | referente | Il referente indicato (Inge Meers, CFO) non e' il vertice della societa'. Il gedelegeerd bestuurder / CEO e' il fratello Luc Meers, che ha la direzione generale; Inge cura la parte finanziaria. | meubihome.be / sterck-magazine.be: 'CFO en bestuurder Inge Meers runt samen met haar broer Luc het bedrijf'; wonen360.nl: 'CEO Luc Meers'; trendstop:  | Luc Meers — Gedelegeerd bestuurder / CEO |
+| Mecam NV | dimensione | Il record riporta 32.145.268 € e 111,6 FTE per la sola Mecam NV, mentre la stampa parla di 37 M€ cumulati e ~220 dipendenti per l'intero Mecam Group (Mecam + Neo-Style). Il legame di gruppo esiste ed e' accennato ma il perimetro del dato va esplicita | sterck-magazine.be: 'Mecam ... met een gecumuleerde omzet van 37 miljoen euro (2023)'; 'Raymond Meers richtte de Mecam Group op in 1978 ... vandaag we |  |
+| Meubelfabriek Lievens NV | dimensione | Fatturato 19.952.978 € e 53,5 FTE confermati, ma il dato e' anteriore all'uscita dal mercato olandese (dal 31-01-2024 Lievens e Confortluxe hanno abbandonato i Paesi Bassi, con azzeramento del fatturato NL). Il fatturato futuro sara' verosimilmente i | interiorbusiness.nl 'Meubelfabrikanten Confortluxe en Lievens herorienteren zich en verlaten Nederlandse markt'; wonen360.nl 'Confortluxe en Meubelfab |  |
+| Passe Partout NV | dimensione | Il record non segnala che la produzione non avviene in Belgio: Passe Partout produce in Ungheria dal 1999, mentre a Temse lavorano ~13 persone (coerente con gli 11,3 FTE). Elemento rilevante per qualificare il ruolo EUDR (immissione sul mercato di mo | interiorbusiness.nl: 'Passe Partout ... produceert sinds 1999 vanuit Hongarije ... kantoor in Temse waar 13 mensen werken' |  |
+| Pralinart NV | dimensione | Il fatturato riportato (18.427.020 €) proviene da un bilancio depositato il 02-11-2023, quindi riferito all'esercizio 2022: dato di 3+ anni fa, mentre le consociate del blocco hanno depositi 2025/2026. Inoltre trendstop riporta per Pralinart una cifr | Frammento companyweb/trendstop: "The company has an omzet (turnover) of €25,223,632 and ranks 33rd in the Chocolate and confectionery sector"; "Pralin |  |
+| Pralinart NV | linkedin | Stesso rilievo speculare ad A & A Chocolaterie NV: le due societa' sono distinte (KBO BE 0450.589.051 vs BE 0892.388.320, sedi diverse) ma condividono la medesima pagina LinkedIn congiunta e il medesimo sito di gruppo hamlet.be, con email 'n.d.' in e | https://www.companyweb.be/en/0450589051/pralinart — Pralinart NV, Waaslandlaan 32, 9160 Lokeren, BE 0450.589.051; pagina condivisa https://be.linkedin |  |
 | Radermecker SRL | referente | Referente e ruolo assenti. La conceria e' stata rilevata nell'aprile 2016 da due ingegneri francesi, Loic Honore e Nicolas Quintin, che ne sono gli attuali gestori: candidati referenti (gerant / administrateur delegue) da confermare su fonte societar | https://www.lavenir.net/regions/wallonie-picarde/comines-warneton/2022/01/14/cuirs-selliers-la-specialite-de-la-tannerie-radermecker-a-comines-YLAPU6L |  |
 | Radermecker SRL | email | Email 'n.d.': nessun indirizzo di contatto nel record. Il sito radermecker.com espone una pagina contatti, ma l'indirizzo non e' recuperabile via frammenti di ricerca. DA CONFERMARE. | https://www.radermecker.com/pages/on-parle-de-nous-dans-la-presse (sito attivo, indirizzo e-mail non estraibile dai frammenti) |  |
 | Sas NV (Sas Coffee) | referente | Herman Sas risulta ancora 'gedelegeerd bestuurder' negli estratti KBO pubblicati (pappers.be, insieme a Dominic Sas, Danielle Vanden Eede, Micheline Sas, NV HELFINCO), ma nessuna fonte post-cessione a Nimbus (05/2024) lo riconferma al vertice operati | https://www.pappers.be/nl/company/sas-0404190783 - 'Herman Sas is de gedelegeerd bestuurder; overige bestuurders: Dominic Sas, Danielle Vanden Eede, M |  |
@@ -675,7 +708,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 
 ---
 
-## 6. Casi di gravità BASSA (70)
+## 6. Casi di gravità BASSA (74)
 
 _Refusi formali e incoerenze di stile._
 
@@ -699,7 +732,7 @@ _Refusi formali e incoerenze di stile._
 | Fonpelli S.p.A. | denominazione | Forma giuridica errata: al Registro Imprese la società è 'FONPELLI - S.R.L.' (P.IVA 01705980249), non S.p.A. Anche il sito e le schede camerali riportano S.r.l. | https://www.ufficiocamerale.it/2684/fonpelli-spa — 'FONPELLI - S.R.L., Partita IVA: 01705980249'; https://xrayfinance.it/fonpelli-s-p-a — 'FONPELLI S. | Fonpelli S.r.l. |
 | Fonpelli S.p.A. | dimensione | Valore confermato (15,32M€) ma manca l'anno: è il bilancio 2024, chiuso però in perdita (-203.123€) con 35 dipendenti. Elemento da segnalare al commerciale. | https://xrayfinance.it/fonpelli-s-p-a — 'Fatturato: € 15.322.593,00 (2024); Utile: € -203.123,00 (2024); Dipendenti: 35 (2025)' | ≈15,3M€ (fatturato 2024, Registro Imprese) — esercizio in perdita |
 
-### Germania (6)
+### Germania (8)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -709,6 +742,8 @@ _Refusi formali e incoerenze di stile._
 | H. Heitz Furnierkantenwerk GmbH & Co. KG | referente | Referente CONFERMATO ma di nomina recente: Jürgen Cirkel e subentrato come Geschäftsführer dopo il pensionamento del precedente GF Stefan Wernecke; nelle banche dati compare ancora anche Ralf Heitz come GF. Verificare che l'anagrafica sia aggiornata. | https://www.h-heitz.de/aktuelles/presse/ - 'Juergen Cirkel wurde zum neuen Geschaeftsfuehrer bestellt ... nach dem Ausscheiden des langjaehrigen Gesch |  |
 | Hartmann Möbelwerke GmbH | referente | Compagine della Geschäftsführung incompleta: oltre a Katharina Hartmann e Holger Hanhardt ne fa parte anche Bernhard Hartmann, che ha ceduto la guida alla figlia ma resta in Geschäftsführung. | https://www.die-glocke.de/lokalnachrichten/katharina-hartmann-uebernimmt-beelener-moebelhersteller-1709910613 - 'Katharina Hartmann ist in die Geschae | Katharina Hartmann, Bernhard Hartmann, Holger Hanhardt |
 | PFT Holz in Form GmbH | sede | La sede legale (Sitz) iscritta a registro e Schlüsselfeld, con iscrizione presso l'Amtsgericht Stendal (HRB 26378); Mertendorf OT Görschen (Südring 7) e la sede operativa/stabilimento. Il campo non distingue i due livelli. | https://www.northdata.com/PFT%20Holz%20in%20Form%20GmbH,%20Schl%C3%BCsselfeld/Amtsgericht%20Stendal%20HRB%2026378 - 'PFT Holz in Form GmbH, Schlüsself | Stabilimento: Mertendorf OT Görschen (Sachsen-Anhalt); sede legale: Schlüsselfeld (Bayern), HRB 26378 AG Stendal |
+| Paletten Meyer | denominazione | 'Paletten Meyer' e solo il nome commerciale/dominio. La ditta e iscritta come 'Josef Meyer Palettenbau Inh. Julian Meyer' (impresa individuale, non societa di capitali): la forma giuridica va esplicitata perche incide sulla figura del contraente EUDR | https://www.europages.de/JOSEF-MEYER-PALETTENBAU-INH-JULIAN-MEYER/00000005396426-001.html e https://www.wlw.de/de/firma/josef-meyer-palettenbau-inh-ju | Josef Meyer Palettenbau Inh. Julian Meyer (Paletten Meyer) |
+| RMW Wohnmöbel GmbH & Co. KG (Rietberger Möbe | referente | Geschäftsführung incompleta: oltre a Rudolf Eikenkötter risulta Geschäftsführer anche Volker Klocke (RMW Wohnmöbel Verwaltungs GmbH, HRB 6744 AG Gütersloh, socio accomandatario). | https://www.northdata.com/RMW%20Wohnm%C3%B6bel%20Verwaltungs%20GmbH,%20Rietberg/Amtsgericht%20G%C3%BCtersloh%20HRB%206744 e https://www.rmw-wohnmoebel | Rudolf Eikenkötter, Volker Klocke |
 
 ### Danimarca (14)
 
@@ -760,7 +795,7 @@ _Refusi formali e incoerenze di stile._
 | Gras Wood Wide B.V. | linkedin | Campo LinkedIn vuoto benche' esista la pagina aziendale ufficiale. | https://nl.linkedin.com/company/graswoodwide - titolo: 'Gras Wood Wide \| LinkedIn' | https://nl.linkedin.com/company/graswoodwide |
 | Houtimport Lekkerkerker B.V. | dimensione | Il campo deduce la fascia 10-20 M EUR dal volume (ca. 200.000 m3/anno) senza alcuna fonte di fatturato: la stima non e' sostenuta e va marcata come tale. Il volume in se' e' l'unico dato dichiarato con tipo e fonte. | https://www.houtimportlekkerkerker.nl/ e https://www.creditsafe.com/business-index/en-us/company/houtimport-lekkerkerker-bv-nl01698016 (nessun fattura |  |
 
-### Belgio (10)
+### Belgio (12)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -772,6 +807,8 @@ _Refusi formali e incoerenze di stile._
 | Denderwood NV | dimensione | Il fatturato non e' pubblicato (schema abbreviato): la collocazione dimensionale resta indeterminata e potenzialmente sotto la soglia dei 5 M EUR. Il campo lo dichiara ('TAGLIA DA VERIFICARE'), ma il dato non e' riscontrabile su NBB. Resto del record | https://www.atibt.org/en/members/24/denderwood e https://www.denderwood.com/over-ons/ - frammento: "Denderwood is located at J. Cardijnstraat, 3 B-942 |  |
 | Hulpiau Hides BV | dimensione | Il campo usa come proxy dimensionale il margine lordo (2.284.726 EUR) di UN'ALTRA entita' giuridica (Hulpiau BV, BE 0429.082.864), non della societa' target BE 0777.875.662, che deposita a schema abbreviato e non pubblica il fatturato. Dato confermat | https://www.companyweb.be/en/0777875662/hulpiau-hides - frammento: "There are 6.1 FTEs working at Hulpiau Hides according to staff figures in the most |  |
 | Lavrijsen Houtbedrijf NV | ruolo | Jan e Bert Lavrijsen sono confermati alla guida dell'azienda, ma per una NV il titolo statutario corretto e' 'gedelegeerd bestuurder / bestuurder', non 'zaakvoerder' (termine proprio delle BV). | https://lavrijsen.be/over-ons/ - frammento: "Jan and Bert Lavrijsen are at the helm of the company with secured succession" | Bestuurders / gedelegeerd bestuurders |
+| Meubelfabriek Lievens NV | ruolo | Lieven Decoene e' confermato come 'general manager' operativo, ma il mandato statutario della NV e' esercitato da Telinfra (VA Telifra) con rappresentante permanente Andre Ollevier. Il ruolo indicato non e' quello statutario belga (gedelegeerd bestuu | pappers.be/nl/company/meubelfabriek-lievens-0413666990: 'VA Telifra — Andre Ollevier, vaste vertegenwoordiger/zaakvoerder'; wonen360.nl: 'general mana | Lieven Decoene — General Manager (rappresentante legale: Telinfra, rappr. perm. Andre Ollevier) |
+| Passe Partout NV | ruolo | Il titolo 'Zaakvoerder' e' proprio delle BV; per una NV il titolo statutario corretto e' gedelegeerd bestuurder / bestuurder. Dirk Steenbeke e' comunque confermato come fondatore e vertice attuale. | wonen360.nl 'Dirk Steenbeke van Passe Partout' (fondatore/CEO); verhouden.nl/ontwerpers/dirk-steenbeke | Gedelegeerd bestuurder |
 | Radermecker SRL | dimensione | Discordanza sugli addetti: il record indica 9,1 FTE (bilancio BNB), mentre la scheda Europages dichiara 20-49 dipendenti. Il fatturato non e' pubblicato (schema abbreviato): la collocazione dimensionale resta non verificabile. | https://www.europages.fr/TANNERIE-RADERMECKER/BEL069426-000019048001.html - frammento: "The company employs between 20 and 49 people" |  |
 | Silco NV | sito | Nessun sito web proprio reperito per Silco NV in 3 ricerche: l'azienda compare solo su banche dati societarie (trendstop, companyweb, fincheck, northdata, staatsbladmonitor). Coerente con la struttura a 1 FTE. Il campo vuoto e' quindi corretto, ma va | https://www.northdata.com/Silco%20N.V.,%20Antwerpen/KBO%200715.792.692 - solo scheda registro; nessun dominio aziendale nei risultati | n.d. (nessun sito web aziendale) |
 

@@ -1,0 +1,74 @@
+[
+ {
+  "foglio": "Belgio",
+  "denominazione": "Manutti BV",
+  "campo": "dimensione",
+  "problema": "Il fatturato 15.340.098 € e i 27,4 FTE (bilancio NBB depositato 17-06-2024) sono confermati. Non trova invece riscontro pubblico l'affermazione di uno 'stabilimento produttivo in Indonesia (circa 140 addetti)': le fonti presentano Manutti come designer/fabbricante con design 'Made in Belgium'. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "companyweb.be/en/0476263070/manutti: 'Manutti recorded a total turnover of EUR 15,340,098.00 according to the most recent financial statements filed on 17-06-2024'; trendstop: 'Manutti is ontwerper en fabrikant van elegant en exclusief buitenmeubilair met een design Made in Belgium'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Manutti BV",
+  "campo": "dimensione",
+  "problema": "Legame di gruppo con Manutti Invest BV (BE 0478.148.434) dichiarato nel record: si tratta della holding familiare che controlla l'operativa. Segnalato come 'media' perche' gia' dichiarato; la decisione di compliance potrebbe collocarsi a livello di holding.",
+  "gravita": "media",
+  "evidenza": "https://www.companyweb.be/en/0478148434/manutti-invest",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Mecam NV",
+  "campo": "referente",
+  "problema": "Il referente indicato (Inge Meers, CFO) non e' il vertice della societa'. Il gedelegeerd bestuurder / CEO e' il fratello Luc Meers, che ha la direzione generale; Inge cura la parte finanziaria.",
+  "gravita": "media",
+  "evidenza": "meubihome.be / sterck-magazine.be: 'CFO en bestuurder Inge Meers runt samen met haar broer Luc het bedrijf'; wonen360.nl: 'CEO Luc Meers'; trendstop: gedelegeerd bestuurder Luc Meers, Vilvertstraat 11, Dilsen-Stokkem",
+  "correzione_proposta": "Luc Meers — Gedelegeerd bestuurder / CEO"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Mecam NV",
+  "campo": "dimensione",
+  "problema": "Il record riporta 32.145.268 € e 111,6 FTE per la sola Mecam NV, mentre la stampa parla di 37 M€ cumulati e ~220 dipendenti per l'intero Mecam Group (Mecam + Neo-Style). Il legame di gruppo esiste ed e' accennato ma il perimetro del dato va esplicitato.",
+  "gravita": "media",
+  "evidenza": "sterck-magazine.be: 'Mecam ... met een gecumuleerde omzet van 37 miljoen euro (2023)'; 'Raymond Meers richtte de Mecam Group op in 1978 ... vandaag werken er ongeveer 220 medewerkers'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Meubelfabriek Lievens NV",
+  "campo": "ruolo",
+  "problema": "Lieven Decoene e' confermato come 'general manager' operativo, ma il mandato statutario della NV e' esercitato da Telinfra (VA Telifra) con rappresentante permanente Andre Ollevier. Il ruolo indicato non e' quello statutario belga (gedelegeerd bestuurder/bestuurder).",
+  "gravita": "bassa",
+  "evidenza": "pappers.be/nl/company/meubelfabriek-lievens-0413666990: 'VA Telifra — Andre Ollevier, vaste vertegenwoordiger/zaakvoerder'; wonen360.nl: 'general manager Lieven Decoene'",
+  "correzione_proposta": "Lieven Decoene — General Manager (rappresentante legale: Telinfra, rappr. perm. Andre Ollevier)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Meubelfabriek Lievens NV",
+  "campo": "dimensione",
+  "problema": "Fatturato 19.952.978 € e 53,5 FTE confermati, ma il dato e' anteriore all'uscita dal mercato olandese (dal 31-01-2024 Lievens e Confortluxe hanno abbandonato i Paesi Bassi, con azzeramento del fatturato NL). Il fatturato futuro sara' verosimilmente inferiore. Appartenenza alla holding Telinfra dichiarata.",
+  "gravita": "media",
+  "evidenza": "interiorbusiness.nl 'Meubelfabrikanten Confortluxe en Lievens herorienteren zich en verlaten Nederlandse markt'; wonen360.nl 'Confortluxe en Meubelfabriek Lievens: enorme omzetdaling in Nederland, Belgie zelfs naar nul'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Passe Partout NV",
+  "campo": "ruolo",
+  "problema": "Il titolo 'Zaakvoerder' e' proprio delle BV; per una NV il titolo statutario corretto e' gedelegeerd bestuurder / bestuurder. Dirk Steenbeke e' comunque confermato come fondatore e vertice attuale.",
+  "gravita": "bassa",
+  "evidenza": "wonen360.nl 'Dirk Steenbeke van Passe Partout' (fondatore/CEO); verhouden.nl/ontwerpers/dirk-steenbeke",
+  "correzione_proposta": "Gedelegeerd bestuurder"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Passe Partout NV",
+  "campo": "dimensione",
+  "problema": "Il record non segnala che la produzione non avviene in Belgio: Passe Partout produce in Ungheria dal 1999, mentre a Temse lavorano ~13 persone (coerente con gli 11,3 FTE). Elemento rilevante per qualificare il ruolo EUDR (immissione sul mercato di mobili prodotti in altro Stato UE).",
+  "gravita": "media",
+  "evidenza": "interiorbusiness.nl: 'Passe Partout ... produceert sinds 1999 vanuit Hongarije ... kantoor in Temse waar 13 mensen werken'",
+  "correzione_proposta": ""
+ }
+]
