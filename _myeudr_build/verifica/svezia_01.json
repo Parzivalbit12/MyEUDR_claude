@@ -160,5 +160,68 @@
   "gravita": "media",
   "evidenza": "allabolag/proff (556103-8695): risultano ordförande/styrelseledamot Åsa Kärr e Lars Stefan Edström; nessun VD riportato.",
   "correzione_proposta": ""
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Bäckebrons Sågverk Aktiebolag",
+  "campo": "dimensione",
+  "problema": "Capogruppo SBAGLIATA e superata: il record indica 'capogruppo Ziegler Holding GmbH'. Il gruppo tedesco Ziegler è FALLITO e Profura ha riacquistato Green Wood Sverige AB con Bäckebrons e Balungstrands; il koncernmoderbolag attuale è Profuragruppen AB. Lead non valido: la compliance EUDR si decide a livello Profura.",
+  "gravita": "alta",
+  "evidenza": "https://www.lesprom.com/en/news/Profura_reacquires_B%C3%A4ckebrons_and_Balungstrands_sawmills_in_Sweden_after_Ziegler_Group%E2%80%99s_bankruptcy_117770/ ; Skogsaktuellt «Bäckebrons och Balungstrands Sågverk förvärvas av nygammal ägare» — https://www.skogsaktuellt.se/artikel/2237233/backebrons-och-balungstrands-sagverk-forvarvas-av-nygammal-agare.html",
+  "correzione_proposta": "Controllata di Green Wood Sverige AB; koncernmoderbolag Profuragruppen AB (dopo il fallimento di Ziegler Group)"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Bäckebrons Sågverk Aktiebolag",
+  "campo": "dimensione",
+  "problema": "Fatturato 2025 discordante tra le fonti (142.474 KSEK su allabolag vs 148.264 KSEK su altra fonte) e risultato crollato a 28 KSEK (-99,8%): il dato ≈12,6 M€ va indicato come stimato/DA CONFERMARE. Confermato invece il calo -66,7% sul 2024.",
+  "gravita": "media",
+  "evidenza": "allabolag: «142 474 kSEK, -66,7% 2024→2025, resultat 28 kSEK (-99,8%)»; vf.se 31/07/2025 «Omsättningen tar fart – men resultatet sjunker för Bäckebrons Sågverk Aktiebolag» — https://www.vf.se/2025/07/31/omsattningen-tar-fart-men-resultatet-sjunker-for-backebrons-sagverk-aktiebolag-476da",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Bäckebrons Sågverk Aktiebolag",
+  "campo": "referente",
+  "problema": "Nome del VD incompleto rispetto al registro: risulta Rolf Stefan Gillberg (extern VD).",
+  "gravita": "bassa",
+  "evidenza": "allabolag/syna (556099-7008): «extern VD är Rolf Stefan Gillberg»",
+  "correzione_proposta": "Rolf Stefan Gillberg"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Drömtrappor AB",
+  "campo": "dimensione",
+  "problema": "Legame di gruppo non dichiarato (moderbolag Förvaltnings AB Klätterbjörken) e forte discontinuità del fatturato non segnalata: 126.413 KSEK nel 2024 (~11,2 M€) contro 83.213 KSEK nel 2025 (~7,4 M€), con dipendenti scesi da 96 a 74.",
+  "gravita": "alta",
+  "evidenza": "allabolag.se (556309-7038): «Omsättning 2024: 126 413 tkr; 2025: 83 213 KSEK»; «96 anställda ... senare data visar 74»; «moderbolaget är Förvaltnings AB Klätterbjörken» — https://www.allabolag.se/organisation/dr%C3%B6mtrappor-ab/norsj%C3%B6/tr%C3%A4varor/2K04H5AI5YI6G",
+  "correzione_proposta": "Aggiungere: 'moderbolag Förvaltnings AB Klätterbjörken; fatturato in calo da 126,4 MSEK (2024) a 83,2 MSEK (2025)'"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Drömtrappor AB",
+  "campo": "referente",
+  "problema": "Nome del VD incompleto rispetto al registro: Johan Ludvig Gösta Jonsson.",
+  "gravita": "bassa",
+  "evidenza": "allabolag/bolagsfakta (556309-7038): «VD är Johan Ludvig Gösta Jonsson»",
+  "correzione_proposta": "Johan Ludvig Gösta Jonsson"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Ekstrands Dörrar & Fönster AB",
+  "campo": "dimensione",
+  "problema": "Lead di dubbia validità (non errore di dato): società di un gruppo di 6 società con capogruppo Ekstrand & Son Aktiebolag, correttamente dichiarata nel record. Tutti gli altri dati (167.769 KSEK 2025 ≈ 14,8 M€, 84 dip., VD Heidi Ekstrand) risultano confermati.",
+  "gravita": "media",
+  "evidenza": "allabolag.se (556570-0621): «84 anställda, resultat 1 565 KSEK, omsättning 167 769 KSEK (2025) ... ingår i en koncern med totalt 6 bolag, moderbolaget är Ekstrand & Son Aktiebolag»; «VD är Heidi Ekstrand, ordförande Bo Allan Ekstrand»",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Ekstrands Dörrar & Fönster AB",
+  "campo": "linkedin",
+  "problema": "Campo LinkedIn vuoto benché esista una pagina aziendale pubblica.",
+  "gravita": "bassa",
+  "evidenza": "https://se.linkedin.com/company/ekstrand-&-son-ab — titolo «Ekstrands Dörrar & Fönster AB | LinkedIn»",
+  "correzione_proposta": "https://se.linkedin.com/company/ekstrand-&-son-ab"
  }
 ]
