@@ -86,14 +86,15 @@ if corr:
     altre = [c for c in corr if c["a"] is not None and c["campo"] != "filiera"]
     if rim:
         h.append(f"\n### Record rimossi dal censimento ({len(rim)})\n")
-        h.append("Sono le uniche righe **tolte** dai fogli. Entrambe rientrano in una categoria che "
-                 "il mandato autorizza a correggere, e in entrambi i casi il progetto aveva già "
-                 "applicato lo stesso criterio a un caso analogo.\n")
+        h.append("Sono le uniche righe **tolte** dai fogli. Ciascuna rientra in una categoria che "
+                 "il mandato autorizza a correggere — filiere fuori Allegato I, aziende cessate — "
+                 "e in ogni caso il progetto aveva già applicato lo stesso criterio a un caso "
+                 "analogo, che viene citato nella motivazione.\n")
         for c in rim:
             h.append(f"**{esc(c['denominazione'])}** — foglio {esc(c['foglio'])}  ")
             h.append(f"{esc(c['motivo'])}\n")
-        h.append("Il totale del censimento passa quindi da **742 a 740 aziende** "
-                 "(Belgio 95→94, Olanda 100→99).\n")
+        h.append(f"Il totale del censimento passa quindi da **742 a {NTOT} aziende** "
+                 "(Belgio 95→94, Olanda 100→99, Austria 93→92).\n")
     h.append(f"\n### Tassonomia `Filiera` ({len(perf)})\n")
     h.append("Il foglio **Finlandia** conteneva varianti storiche della tassonomia "
              "(`Legno/Compensato-Prodotti`, `Legno/Segheria-Piallatura`, `Legno/CLT`, "

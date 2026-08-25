@@ -3,7 +3,7 @@
   "foglio": "Austria",
   "denominazione": "Meyer Parkett GmbH",
   "campo": "sede",
-  "problema": "La sede legale/operativa non e' piu' Kalsdorf bei Graz: il Firmenbuch e herold indicano Sternweg 2, 8141 Premstaetten (Graz-Umgebung). Anche firmenabc riporta ora l'azienda 'in Premstaetten'. Trasferimento oggetto di Kundmachung comunale 2024.",
+  "problema": "La sede non e' piu' Kalsdorf bei Graz: Firmenbuch, herold e firmenabc indicano Sternweg 2, 8141 Premstaetten (Graz-Umgebung). Trasferimento oggetto di Kundmachung comunale 2024.",
   "gravita": "media",
   "evidenza": "https://www.evi.gv.at/f/226133z (titolo: 'Meyer Parkett GmbH 8141 Premstaetten | Firmenbuch'); https://www.herold.at/gelbe-seiten/premst%C3%A4tten/qSRb9/meyer-parkett-gmbh/ ; https://www.premstaetten.gv.at/wp-content/uploads/2024/04/Kundmachung-Meyer-Parkett-GmbH.pdf",
   "correzione_proposta": "Premstätten (Steiermark)"
@@ -12,7 +12,7 @@
   "foglio": "Austria",
   "denominazione": "Mühlbauer Holz GmbH",
   "campo": "sede",
-  "problema": "Himberg e' la sede operativa (Franz-Lehn-Gasse 7, 2325 Himberg), ma la sede legale iscritta al Firmenbuch e' 1080 Wien, Laudongasse 47/52 (anche l'iscrizione WKO e' su Vienna). Da esplicitare per evitare mismatch anagrafico.",
+  "problema": "Himberg e' la sede operativa (Franz-Lehn-Gasse 7, 2325 Himberg), ma la sede legale iscritta al Firmenbuch e' 1080 Wien, Laudongasse 47/52 (anche l'iscrizione WKO e' su Vienna).",
   "gravita": "bassa",
   "evidenza": "https://www.evi.gv.at/f/283235y (titolo: 'Mühlbauer Holz GmbH 1080 Wien | Firmenbuch'); https://firmen.wko.at/m%C3%BChlbauer-holz-gmbh/wien/",
   "correzione_proposta": "Himberg (Niederösterreich) — sede operativa; sede legale 1080 Wien"
@@ -21,18 +21,153 @@
   "foglio": "Austria",
   "denominazione": "Mühlbauer Holz GmbH",
   "campo": "referente",
-  "problema": "Referente corretto ma da datare: DI Joe Mühlbauer-Elbl e' iscritto come Geschäftsführer dal 04.02.2025, dopo la morte del fondatore/GF Franz Mühlbauer (febbraio 2025). Alcuni siti (Impressum storico) riportano ancora Ing. Franz Mühlbauer.",
+  "problema": "Referente corretto ma recentissimo e da datare: DI Joe Mühlbauer-Elbl e' iscritto come Geschäftsführer dal 04.02.2025, dopo la morte del titolare/GF Ing. Franz Mühlbauer (febbraio 2025). Diverse fonti (incl. l'Impressum aziendale indicizzato) riportano ancora Franz Mühlbauer.",
   "gravita": "bassa",
-  "evidenza": "https://www.holzkurier.com/content/holz/holzkurier/de/holzprodukte/2025/02/franz-muehlbauer-verstorben-.html ; https://www.wirtschaft.at/u/283235y ('vertritt seit 04.02.2025')",
+  "evidenza": "https://www.holzkurier.com/content/holz/holzkurier/de/holzprodukte/2025/02/franz-muehlbauer-verstorben-.html ; https://www.wirtschaft.at/u/283235y ('vertritt seit 04.02.2025'); https://www.muehlbauerholz.com/impressum ('Geschäftsführer: Ing. Franz Mühlbauer')",
   "correzione_proposta": ""
  },
  {
   "foglio": "Austria",
   "denominazione": "Rauchenzauner Möbel GmbH",
   "campo": "dimensione",
-  "problema": "Il fatturato di 18,8 M€ e' una stima Die Deutsche Wirtschaft, non un dato firmenabc: la fonte va attribuita correttamente. Il dato di bilancio reale disponibile e' il totale attivo 4.454.624,41 EUR al 31.03.2025. La societa' e' inoltre di costituzione recente (FN 611446k, iscritta 06.09.2023), quindi la serie storica del fatturato non e' verificabile.",
+  "problema": "Il fatturato di 18,8 M€ e' una stima Die Deutsche Wirtschaft, non un dato firmenabc: la fonte e' attribuita male. L'unico dato di bilancio reale e' il totale attivo 4.454.624,41 EUR al 31.03.2025. La societa' e' inoltre di costituzione recente (FN 611446k, iscritta 06.09.2023): nessuna serie storica di fatturato verificabile. Anche l'organico dichiarato (75) va corretto in fascia 50-99.",
   "gravita": "media",
-  "evidenza": "https://www.evi.gv.at/f/611446k ('Bilanz zum 31.03.2025 ... Bilanzsumme 4.454.624,41 EUR'; 'eingetragen 06.09.2023'); https://www.firmenabc.at/rauchenzauner-moebel-gmbh_BBBnb (50-99 Mitarbeiter)",
-  "correzione_proposta": "Totale di bilancio 4,45 Mio EUR (31.03.2025, Firmenbuch); 50-99 dipendenti (firmenabc); fatturato non pubblicato — 18,8 M€ e' solo stima Die Deutsche Wirtschaft"
+  "evidenza": "https://www.evi.gv.at/f/611446k ('Bilanz zum 31.03.2025, Bilanzsumme 4.454.624,41 EUR'; iscritta 06.09.2023; GF Gerhard Rauchenzauner e Sabine Rauchenzauner dal 06.09.2023); https://www.firmenabc.at/rauchenzauner-moebel-gmbh_BBBnb",
+  "correzione_proposta": "Totale di bilancio 4,45 Mio EUR (31.03.2025, Firmenbuch); 50-99 dipendenti (firmenabc); fatturato non pubblicato (18,8 M€ e' solo stima Die Deutsche Wirtschaft)"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "SCHAFFER SÄGEWERK-HOLZEXPORT GmbH",
+  "campo": "ruolo",
+  "problema": "Markus Schaffer risulta Geschäftsführer a tutti gli effetti dal 01.06.2016 nel Firmenbuch (non solo 'gewerberechtlicher'). Nell'Impressum del sito compare invece come 'Prok. Schaffer Markus'. Il ruolo indicato va semplificato in Geschäftsführer. E-mail office@schafferholz.com confermata.",
+  "gravita": "bassa",
+  "evidenza": "https://www.evi.gv.at/f/137937z ('Markus Schaffer ... seit 01.06.2016'); https://www.schafferholz.com/en/legal-information/ ('Prok. Schaffer Markus, FN 137937z, LG Leoben')",
+  "correzione_proposta": "Geschäftsführer"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Schösswender Möbel Gesellschaft m.b.H.",
+  "campo": "dimensione",
+  "problema": "Il solo dato di fatturato citato e' quello di gruppo del 2012 (28 M€): 13 anni di anzianita', inutilizzabile per il dimensionamento. La stima 15-25 M€ per la sola societa' mobili resta non confermata. Va inoltre tenuto presente il legame di gruppo (Schösswender Holding, siti Franking/Litschau/Anras + produzione in Romania) - gia' dichiarato nel campo, ma rilevante perche' le decisioni EUDR possono ricadere sulla holding.",
+  "gravita": "media",
+  "evidenza": "https://www.firmenabc.at/schoesswender-moebel-gesellschaft-m-b-h_jQF ; https://www.northdata.com/Sch%C3%B6sswender%20M%C3%B6bel%20GmbH,%20Franking/035113m ; https://www.evi.gv.at/f/35113m",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Speedmaster GmbH",
+  "campo": "dimensione",
+  "problema": "Il campo dichiara 'fatturato e dipendenti non pubblicati', ma entrambi i dati sono pubblici: ca. 29 Mio EUR di fatturato annuo e ca. 300 dipendenti nella sede di Eberstalzell, piu' un secondo stabilimento produttivo a Steinsfeld (Germania). L'azienda resta in forbice (29 M€) ma il campo va riscritto con i dati reali; da valutare l'incidenza del sito produttivo tedesco.",
+  "gravita": "media",
+  "evidenza": "https://www.meinbezirk.at/wels-wels-land/c-wirtschaft/stelzer-bei-speedmaster-in-eberstalzell_a5975977 ('erwirtschaftet einen Jahresumsatz von 29 Millionen Euro'; 'rund 300 Mitarbeiter'; zweites Produktionswerk in Steinsfeld/Deutschland)",
+  "correzione_proposta": "Fatturato ca. 29 Mio EUR/anno e ca. 300 dipendenti (meinbezirk.at, Landeshauptmann-Besuch); secondo stabilimento a Steinsfeld (DE)"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Speedmaster GmbH",
+  "campo": "referente",
+  "problema": "La societa' ha due Geschäftsführer: Dipl.-Ing. (FH) Hermann Huber e Günther Schweiger (Prokurist: Dr. Philipp Waechter). Hermann Huber e' corretto, ma va indicata la co-gestione con Schweiger, coerente con la nota di scissione da Schweiger GmbH riportata nel campo dimensione.",
+  "gravita": "bassa",
+  "evidenza": "https://www.evi.gv.at/f/262852y ; https://www.wirtschaft.at/u/262852y (GF: Hermann Huber, Günther Schweiger; Prok. Philipp Waechter)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Storebest Ladeneinrichtungen GmbH",
+  "campo": "denominazione",
+  "problema": "FILIALE DI GRUPPO ESTERO NON DICHIARATA. STOREBEST Österreich e' parte della Kesseböhmer Holding KG di Bad Essen (Germania), gruppo con ca. 3.500 dipendenti su dodici siti; esiste anche la consorella tedesca STOREbest GmbH & Co. KG di Lübeck. La compliance EUDR si decide alla capogruppo tedesca: lead da declassare o rimuovere secondo il criterio gia' applicato a Segafredo Zanetti Austria / Lavazza Kaffee / BRAUN LOCKENHAUS.",
+  "gravita": "alta",
+  "evidenza": "https://www.storebest.at/unternehmen/ ('STOREBEST Österreich ist Teil der inhabergeführten, international tätigen Kesseböhmer Holding KG mit Sitz in Bad Essen'; 'rund 3.500 Mitarbeiter an zwölf Standorten'); https://www.handelsverband.at/mitglieder/unsere-partner/detail/storebest-ladeneinrichtungen-gmbh/",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Storebest Ladeneinrichtungen GmbH",
+  "campo": "referente",
+  "problema": "Gernot Karlsböck risulta Prokurist (authorized signatory) della '\"Storebest\" Ladeneinrichtungen Gesellschaft m.b.H.', mentre come Geschäftsführer e' indicato Martin Klapka. Il referente dichiarato non e' quindi il vertice statutario. DA CONFERMARE su fonte Firmenbuch diretta.",
+  "gravita": "media",
+  "evidenza": "https://www.firmenabc.at/storebest-ladeneinrichtungen-gesellschaft-m-b-h_um ('Gernot Karlsböck (Dkfm.) ... Prokurist; Martin Klapka ... Geschäftsführer'); https://www.northdata.com/Storebest%20Ladeneinrichtungen%20GmbH,%20Aschach%20an%20der%20Steyr/117692b",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Storebest Ladeneinrichtungen GmbH",
+  "campo": "denominazione",
+  "problema": "Ragione sociale esatta a Firmenbuch: '\"Storebest\" Ladeneinrichtungen Gesellschaft m.b.H.' (FN 117692b); 'Storebest Ladeneinrichtungen GmbH' e' il nome commerciale.",
+  "gravita": "bassa",
+  "evidenza": "https://www.firmenabc.at/storebest-ladeneinrichtungen-gesellschaft-m-b-h_um ; https://firmen.wko.at/%22storebest%22-ladeneinrichtungen-gesellschaft-mbh-storebest-ladeneinrichtungen-gmbh/ober%C3%B6sterreich/",
+  "correzione_proposta": "\"Storebest\" Ladeneinrichtungen Gesellschaft m.b.H."
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Wallner Holzhandel GmbH",
+  "campo": "referente",
+  "problema": "Gerhard Wallner e' Geschäftsführer a pieno titolo (non solo 'gewerberechtlicher') e la gestione e' condivisa con Mag. Hans-Christian Riegler, BWL, secondo Geschäftsführer indicato nell'Impressum aziendale.",
+  "gravita": "bassa",
+  "evidenza": "https://www.holz-wallner.at/de/impressum ('Geschäftsführung: Gerhard Wallner, Mag. Hans-Christian Riegler BWL; FN 267061m, HG St. Pölten'); https://www.evi.gv.at/f/267061m",
+  "correzione_proposta": "Geschäftsführer (con Mag. Hans-Christian Riegler)"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Wallner Holzhandel GmbH",
+  "campo": "dimensione",
+  "problema": "L'organico dichiarato (80 dipendenti da WKO/herold) e' inferiore al dato pubblicato dall'azienda: 90 dipendenti. Il fatturato resta non pubblicato, quindi la fascia stimata 20-30 Mio EUR e' priva di riscontro documentale.",
+  "gravita": "bassa",
+  "evidenza": "https://www.holz-wallner.at/de/impressum / https://www.holz-wallner.at/de/home ('90 Mitarbeiter', Holzgroß- und -einzelhandel, sedi Porschestraße 13 St. Pölten e Salcherstraße 44 St. Pölten-Harland)",
+  "correzione_proposta": "90 dipendenti (holz-wallner.at); fatturato non pubblicato"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Weissengruber Möbelmanufaktur GmbH",
+  "campo": "denominazione",
+  "problema": "AZIENDA IN INSOLVENZA. Il produttore di mobili Weissengruber (Niederzirking 89, Ried in der Riedmark, ca. 55-60 dipendenti) ha presentato istanza di insolvenza (Sanierungsverfahren ohne Eigenverwaltung) al Landesgericht Linz il 13 gennaio; curatore René Lindner, prosecuzione con Massekredit e voto dei creditori sul piano di risanamento il 29 aprile. Caso identico a HAKA Küche / KAPO Möbel / ADA / Schletterer gia' esclusi. Inoltre l'entita' attiva risulta 'WEISSENGRUBER Möbelproduktion e.U.' (non la GmbH): denominazione e forma giuridica del record non corrispondono.",
+  "gravita": "alta",
+  "evidenza": "https://www.ksv.at/insolvenzfaelle/weissengruber-moebelproduktion-eu-198251 ; https://www.euwid-holz.de/news/moebel/wohn-und-objektmoebelhersteller-weissengruber-ist-insolvent-140125/ ; https://www.nachrichten.at/wirtschaft/insolvenz-bei-moebelhersteller-weissengruber-fortfuehrung-mit-massekredit;art15,4020792 ; https://firmen.wko.at/weissengruber-m%C3%B6belproduktion-eu/ober%C3%B6sterreich/",
+  "correzione_proposta": "RIMUOVERE il lead (insolvenza in corso)"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Wittmann Möbelwerkstätten GmbH",
+  "campo": "referente",
+  "problema": "REFERENTE OBSOLETO DI DUE PASSAGGI. Heinz Hofer-Wittmann non e' piu' alla guida: gli e' subentrato Bo Thuesen come CEO, uscito dopo circa un anno e mezzo su sua richiesta, e oggi la Geschäftsführung e' di Alice Wittmann (39 anni, pro-pronipote del fondatore), con responsabilita' su marketing, prodotto e vendite. In Firmenbuch risultano inoltre iscritti Alexander Sova e Ron Vorona.",
+  "gravita": "alta",
+  "evidenza": "https://www.noen.at/krems/wechsel-ururenkelin-von-firmengruender-neu-an-spitze-von-etsdorfer-unternehmen-508632071 ; https://moebel-guide.at/news/generationswechsel-bei-wittmann-alice-wittmann-ubernimmt-geschaftsfuhrung ; https://www.moebelfertigung.com/branche/bo-thuesen-ist-der-neue-ceo ; https://www.firmenabc.at/wittmann-moebelwerkstaetten-gmbh_NVdS",
+  "correzione_proposta": "Alice Wittmann — Geschäftsführerin"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Wittmann Möbelwerkstätten GmbH",
+  "campo": "dimensione",
+  "problema": "Conferma dell'incoerenza gia' segnalata: la stima Die Deutsche Wirtschaft di 45,0 Mio EUR e' riferita al 2023, mentre il totale di bilancio 2024 e' 9.611.765,78 EUR. Nessun fatturato ufficiale pubblicato. Esiste inoltre una seconda 'Wittmann Möbelwerkstätten GmbH' con sede a Vienna (FN 399118p) da non confondere con quella di Etsdorf am Kamp.",
+  "gravita": "media",
+  "evidenza": "https://die-deutsche-wirtschaft.de/famu_top/oesterreich-wittmann-moebelwerkstaetten-gmbh-etsdorf-am-kamp-umsatz-mitarbeiterzahl/ (stima 45,0 Mio EUR, 2023); https://www.firmenabc.at/wittmann-moebelwerkstaetten-gmbh_NVdS (Bilanzsumme 2024: 9.611.765,78 EUR); https://www.northdata.com/Wittmann%20M%C3%B6belwerkst%C3%A4tten%20GmbH,%20Wien/399118p",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Meiberger Holzbau GmbH",
+  "campo": "dimensione",
+  "problema": "Il totale di bilancio 11,33 Mio EUR (31.01.2025) e' confermato, ma non sostiene la stima di fatturato 10-15 Mio EUR: la voce e' composta per 8,67 Mio EUR da immobilizzazioni (Anlagevermögen), con patrimonio netto 3,36 Mio EUR. Trattandosi di una Zimmerei/Holzbau ad alta intensita' di capitale, il fatturato non e' inferibile dal totale attivo. Da riscrivere come 'fatturato non pubblicato'.",
+  "gravita": "media",
+  "evidenza": "https://www.firmenabc.at/meiberger-holzbau-gmbh_cXK ('Bilanzsumme 11.328.315,08 EUR; Eigenkapital 3.358.529,11 EUR; Anlagevermögen 8.673.136,11 EUR', bilancio al 31.01.2025); FN 201132h (https://www.austrian-registers.com/query-services/business-register/fn/201132)",
+  "correzione_proposta": "Totale di bilancio 11,33 Mio EUR (31.01.2025, firmenabc.at), di cui 8,67 Mio EUR immobilizzazioni; fatturato non pubblicato e non stimabile dal bilancio"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "weinberger-holz gmbh",
+  "campo": "dimensione",
+  "problema": "Il tribunale del registro e' errato: il Firmenbuch di weinberger-holz gmbh (FN 119447h) e' tenuto dal Bezirksgericht Wolfsberg, non dal 'LG Wolfsberg'. Inoltre anche qui il totale di bilancio (16,77 Mio EUR) non e' un fatturato: il dato di ricavi non risulta pubblicato. Da segnalare la seconda GF: la societa' e' rappresentata da Johann Josef Weinberger oltre che da Dipl.-Ing. Johann Alfred Weinberger (quest'ultimo anche gewerberechtlicher Geschäftsführer).",
+  "gravita": "bassa",
+  "evidenza": "https://www.weinberger-holz.at/en/impressum/ ('FN 119447h, Bezirksgericht Wolfsberg'; gewerberechtliche Geschäftsführung Dipl.Ing. Johann Alfred Weinberger); https://firmen.wko.at/weinberger-holz-gmbh/k%C3%A4rnten/ ; https://www.firmenabc.at/weinberger-holz-gmbh_IPdi",
+  "correzione_proposta": "Totale di bilancio 16,77 Mio EUR (31.12.2024, firmenabc.at); fatturato non pubblicato. FN 119447h, BG Wolfsberg"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "steininger.designers gmbh",
+  "campo": "referente",
+  "problema": "Dato corretto ma incompleto: la Geschäftsführung e' collegiale. Nell'Impressum figurano Mag. Martin Steininger (GF dal 14.10.2008) e Arch. DI Harrytasch Ahmadian. Nessun rilievo su e-mail, sito e sede, tutti confermati (Weinleiten 1, 4113 St. Martin im Mühlkreis; FN 317900a, LG Linz).",
+  "gravita": "bassa",
+  "evidenza": "https://www.steiningerdesigners.com/impressum-agbs ('Geschäftsführer: Arch. DI Harrytasch Ahmadian, Mag. Martin Steininger; FN 317900a, Landesgericht Linz; office@steiningerdesigners.com'); https://firmen.wko.at/steiningerdesigners-gmbh-steininger-building-visions/ober%C3%B6sterreich/",
+  "correzione_proposta": ""
  }
 ]

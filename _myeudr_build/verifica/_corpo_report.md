@@ -1,6 +1,6 @@
 # REPORT DI VERIFICA — MyEUDR Lead Mapping
 
-Controllo qualità record per record del censimento lead (**740 aziende, 8 fogli**). Non è una raccolta di nuove aziende: è la verifica del lavoro esistente.
+Controllo qualità record per record del censimento lead (**739 aziende, 8 fogli**). Non è una raccolta di nuove aziende: è la verifica del lavoro esistente.
 
 La verifica si è svolta in due fasi:
 
@@ -15,16 +15,16 @@ La verifica si è svolta in due fasi:
 | Italia | 95 | 1 | 0 | 4 | 19 | 20% |
 | Germania | 97 | 1 | 0 | 5 | 17 | 18% |
 | Finlandia | 84 | 1 | 0 | 4 | 17 | 20% |
-| Danimarca | 89 | 2 | 1 | 2 | 44 | 49% |
-| Svezia | 89 | 1 | 0 | 4 | 18 | 20% |
+| Danimarca | 89 | 2 | 1 | 2 | 54 | 61% |
+| Svezia | 89 | 1 | 1 | 3 | 28 | 31% |
 | Olanda | 99 | 2 | 0 | 4 | 34 | 34% |
 | Belgio | 94 | 3 | 0 | 2 | 57 | 61% |
-| Austria | 93 | 1 | 1 | 3 | 22 | 24% |
-| **TOTALE** | **740** | **12** | **2** | **28** | **228** | **31%** |
+| Austria | 92 | 2 | 0 | 3 | 38 | 41% |
+| **TOTALE** | **739** | **13** | **2** | **27** | **264** | **36%** |
 
 _Un blocco è contato **completo** solo se l'agente ha confermato di aver verificato tutti i record. I **blocchi parziali** sono quelli ancora in corso o interrotti dal limite di sessione: i rilievi già salvati sono validi e inclusi nel report, ma la copertura è conteggiata al ribasso (solo le aziende che compaiono fra i rilievi). Il salvataggio incrementale ogni 3-4 record è ciò che ha evitato di perdere quel lavoro._
 
-> La Fase A copre invece il **100%** dei 740 record: è un controllo offline e non dipende dal budget di ricerca.
+> La Fase A copre invece il **100%** dei 739 record: è un controllo offline e non dipende dal budget di ricerca.
 
 
 _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati aperti dalla raccolta, condotta separatamente e riportata per intero più sotto._
@@ -32,40 +32,40 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 
 ## 2. Rilievi per foglio
 
-**Totale rilievi Fase B: 381** — alta 53 · media 214 · bassa 114.
+**Totale rilievi Fase B: 423** — alta 65 · media 235 · bassa 123.
 
 | Foglio | Rilievi | alta | media | bassa | Aziende toccate |
 |---|--:|--:|--:|--:|--:|
 | Italia | 25 | 0 | 11 | 14 | 17 |
 | Germania | 29 | 1 | 20 | 8 | 17 |
 | Finlandia | 23 | 6 | 11 | 6 | 15 |
-| Danimarca | 59 | 15 | 27 | 17 | 40 |
-| Svezia | 36 | 6 | 15 | 15 | 18 |
+| Danimarca | 74 | 19 | 36 | 19 | 49 |
+| Svezia | 48 | 11 | 22 | 15 | 27 |
 | Olanda | 74 | 9 | 50 | 15 | 33 |
 | Belgio | 115 | 15 | 68 | 32 | 57 |
-| Austria | 19 | 1 | 12 | 6 | 15 |
+| Austria | 34 | 4 | 17 | 13 | 25 |
 | _(tutti)_ | 1 | 0 | 0 | 1 | 1 |
-| **TOTALE** | **381** | **53** | **214** | **114** | **213** |
+| **TOTALE** | **423** | **65** | **235** | **123** | **241** |
 
 ### Rilievi per campo
 
 | Campo | Rilievi | di cui alta |
 |---|--:|--:|
-| dimensione | 171 | 28 |
-| referente | 87 | 12 |
-| denominazione | 30 | 7 |
+| dimensione | 198 | 36 |
+| referente | 95 | 13 |
+| denominazione | 33 | 9 |
 | email | 26 | 2 |
 | linkedin | 19 | 0 |
+| sede | 12 | 1 |
 | filiera | 12 | 4 |
-| ruolo | 11 | 0 |
-| sito | 10 | 0 |
-| sede | 10 | 0 |
+| ruolo | 12 | 0 |
+| sito | 11 | 0 |
 | fonte | 4 | 0 |
 | esistenza_stato | 1 | 0 |
 
 ---
 
-## 3. Tema trasversale — legami di gruppo (60 rilievi)
+## 3. Tema trasversale — legami di gruppo (75 rilievi)
 
 È il problema **più diffuso e meno atteso** emerso dalla verifica: non era fra i 13 punti noti dell'handoff. Numerose aziende del censimento sono controllate di gruppi, spesso esteri o quotati. Per il criterio già applicato dal progetto — che aveva rimosso Lavazza Kaffee, Segafredo Zanetti Austria e Kaffee Partner Austria perché *«la compliance si decide a livello di gruppo, non nella filiale»* — sono **lead di valore dubbio**.
 
@@ -78,6 +78,8 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 | Foglio | Azienda | Stato nel foglio | Rilievo |
 |---|---|---|---|
 | Austria | BRAUN LOCKENHAUS GmbH | **dichiarato** | Filiale di gruppo estero: la societa' e' controllata da SCHNEEWEISS AG / SCHNEEWEISS interior, con sede del gruppo a Kippenheim (Baden-Württemberg, DE), dal 2006. La decisione di compliance EUDR si as |
+| Austria | Schösswender Möbel Gesellschaft m.b.H. | **dichiarato** | Il solo dato di fatturato citato e' quello di gruppo del 2012 (28 M€): 13 anni di anzianita', inutilizzabile per il dimensionamento. La stima 15-25 M€ per la sola societa' mobili resta non confermata. |
+| Austria | Storebest Ladeneinrichtungen GmbH | **NON dichiarato** | FILIALE DI GRUPPO ESTERO NON DICHIARATA. STOREBEST Österreich e' parte della Kesseböhmer Holding KG di Bad Essen (Germania), gruppo con ca. 3.500 dipendenti su dodici siti; esiste anche la consorella  |
 | Belgio | A & A Chocolaterie NV | **dichiarato** | Il legame di gruppo e' correttamente dichiarato, ma va valutato l'effetto sul perimetro commerciale: A & A Chocolaterie (22,1 M€) e Pralinart (18,4 M€) sono entrambe controllate al 100% da Hamlet NV,  |
 | Belgio | Accent NV | **dichiarato** | La descrizione del legame di gruppo e' rovesciata e fuorviante. Accent non e' la 'capofila' del gruppo Asteria: dal 2018 la famiglia Declerck ha ceduto la MAGGIORANZA al fondo Waterland (prima 18 M€,  |
 | Belgio | Allbox NV | **NON dichiarato** | Assetto proprietario NON dichiarato. Il record presenta Allbox come 'azienda familiare', ma il controllo integrale della NV e' stato acquisito da KBC Investco (capitale di rischio) insieme al manageme |
@@ -99,6 +101,8 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 | Belgio | Vanerum Belgie NV | **dichiarato** | Il legame di gruppo e' dichiarato ma incompleto: i3-Group non e' piu' interamente familiare. WorxInvest ha acquistato circa il 25% per 10 M€ e nel novembre 2023 anche il gruppo americano Steelcase ha  |
 | Belgio | Vincent Sheppard NV | **NON dichiarato** | Assetto proprietario non dichiarato: dal 2002 la societa' e' controllata dalla famiglia Claeys tramite Cennini Holding e oggi il capitale e' 50/50 tra la famiglia Claeys e Jos Destrooper. Il fatturato |
 | Danimarca | BØJSØ DØRE & VINDUER A/S | **dichiarato** | Lead non indipendente: dal 2017 la società è controllata da INWIDO DENMARK A/S, parte del gruppo quotato svedese Inwido AB (fatturato di gruppo ~9 mld SEK nel 2025). Secondo il mandato una controllata |
+| Danimarca | Copenhagen Coffee Lab ApS | **NON dichiarato** | Assetto proprietario non dichiarato: la societa' fa parte di un gruppo di 6 societa' con capogruppo Copenhagen Coffee Lab Holding ApS; il 70% e' stato rilevato dagli investitori danesi Steen Skallebae |
+| Danimarca | DANSK KAFFE ApS | **NON dichiarato** | Assetto proprietario non dichiarato: DANSK KAFFE ApS fa parte di un gruppo di 2 societa' con capogruppo KAFFEA ApS. Manca inoltre la data di costituzione (27.11.2013), utile a qualificare la micro-imp |
 | Danimarca | HVIDBJERG VINDUET A/S | **dichiarato** | Assetto proprietario errato e lead non indipendente: il campo indica come controllante "Hvidbjerg i A/S", ma la società è controllata dal gruppo ACO Nordic, a sua volta parte del gruppo tedesco ACO (f |
 | Danimarca | JKE DESIGN A/S | **dichiarato** | Lead non indipendente: la società appartiene al gruppo BALLINGSLÖV INTERNATIONAL DANMARK A/S / Ballingslöv International AB (gruppo svedese, Stena Adactum), con presidente del CdA e consigliere espres |
 | Danimarca | KLS PUREPRINT A/S | **dichiarato** | Il legame di gruppo e' dichiarato correttamente ma va aggiornato e pesato come criterio di esclusione del lead: F. E. Bording A/S ha rilevato la quota di Knud Erik Larsen a fine 2024/inizio 2025, per  |
@@ -107,6 +111,8 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 | Danimarca | LILLEHEDEN A/S | **dichiarato** | Controllata di gruppo: la societa' fa parte di Nordic Wood Industries A/S (CVR 37385603), che dal 12.05.2025 ha un nuovo adm. direktor di gruppo (Holger Carsten Hansen). Il legame e' gia' correttament |
 | Danimarca | MULTIFORM A/S | **dichiarato** | Controllata di gruppo: capogruppo BALLINGSLOV INTERNATIONAL DANMARK A/S (gruppo svedese Ballingslov International / Stena Adactum). Il legame e' gia' dichiarato correttamente nel record, quindi il ril |
 | Danimarca | Naturli' Foods | **dichiarato** | RILIEVO EMERSO DAL CONTROLLO DI RIENTRO. Il record dichiara esso stesso che Naturli' Foods e' 'parte del gruppo Dragsbaek/Orkla': e' quindi una controllata del gruppo norvegese quotato Orkla ASA, per  |
+| Danimarca | SKJERN PAPER A/S (già Skjern Papirfabrik | **NON dichiarato** | ASSETTO PROPRIETARIO FALSO. Il campo dichiara 'Proprieta' Buur Invest A/S + dirigenti operativi (indipendente danese dal 2005)'. In realta' Skjern Paper A/S e' stata acquisita dal gruppo statunitense  |
+| Danimarca | SKJERN PAPER A/S (già Skjern Papirfabrik | **NON dichiarato** | Il nome e la data sono corretti (Nikolaj Bjerre Thybo, adm. direktoer dal 2020) ma, essendo la societa' controllata da Sonoco dal 2022, il referente non e' il decisore finale sulla compliance EUDR. Se |
 | Danimarca | Skagerak Denmark A/S | **NON dichiarato** | Referente errato e legame di gruppo non dichiarato: Skagerak Denmark A/S e' stata acquisita da Fritz Hansen A/S nel dicembre 2021 ed e' oggi il marchio 'Skagerak by Fritz Hansen'. Josef Theodor Kaiser |
 | Danimarca | TIMBERMAN DENMARK A/S | **dichiarato** | Assetto proprietario errato/obsoleto: il record indica solo 'controllata da Timberman Holding ApS ... azionariato nordico'. In realta' nel dicembre 2024 la societa' e' stata acquistata dal gruppo indu |
 | Danimarca | TJOERNEHOEJ MOELLE A/S | **NON dichiarato** | LEAD NON VALIDO. A/S Tjoernehoej Moelle (CVR 34175012) NON e' un'impresa indipendente: e' stata acquistata da DLG nel 1989 dal mugnaio Sander Petersen ed e' oggi una controllata della cooperativa DLG  |
@@ -136,11 +142,20 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 | Svezia | Gärsnäs Aktiebolag | **dichiarato** | Lead di dubbia validità (non errore di dato): controllata di Bordet i Stockholm Aktiebolag, legame già dichiarato correttamente. Esiste inoltre notizia stampa di cambio di proprietà ('Gärsnäs AB får n |
 | Svezia | Hjältevadshus AB | **dichiarato** | Rischio economico rilevante non segnalato: a fronte dei 140.766 KSEK (~12,5 M€) del 2025 la società ha una marginalità di -32,6% (perdita nell'ordine dei 45 MSEK). Inoltre la koncern è molto più ampia |
 | Svezia | Horreds Möbel Aktiebolag | **dichiarato** | Società CONFERMATA ATTIVA (scheda allabolag corrente, nessuna procedura concorsuale rilevata). Va però esplicitato il legame di gruppo: la capogruppo è Horreds Holding AB (esiste anche Horreds Möbel U |
+| Svezia | Horreds Möbel Aktiebolag | **dichiarato** | Controllo di gruppo non dichiarato. Il campo dice genericamente «Fa parte di un gruppo di 3 società» ma non nomina la capogruppo: il moderbolag è Horreds Holding AB e il koncernmoderbolag è Horreds Mö |
+| Svezia | Kvänum Kök AB | **dichiarato** | Controllata di gruppo (legame già dichiarato correttamente nel foglio): Vedena AB. Il gruppo Vedena conta 5 società, ~350 dipendenti e ~1 135 MSEK di fatturato aggregato: la compliance EUDR si decide  |
+| Svezia | Lammhults Möbel Aktiebolag | **dichiarato** | Controllata di gruppo quotato (legame già dichiarato correttamente nel foglio): Lammhults Design Group AB. Il referente di compliance EUDR è la capogruppo quotata, non la controllata. Dati 2024 confer |
+| Svezia | Leksandsdörren AB | **NON dichiarato** | Controllo di gruppo NON dichiarato: il moderbolag è TräMasen AB e il gruppo comprende 3 società con 51 dipendenti e ~102,0 MSEK di fatturato aggregato. Il foglio presenta l'azienda come indipendente.  |
+| Svezia | N K Lundströms Trävaror Aktiebolag | **dichiarato** | Controllata di gruppo (legame già dichiarato correttamente nel foglio): moderbolag KGL Trä Aktiebolag, koncern di 2 società. La decisione di compliance EUDR si colloca a livello di capogruppo: questio |
+| Svezia | NC Nordic Care AB | **NON dichiarato** | Controllo di gruppo NON dichiarato: il moderbolag risulta Materia Group AB. Il foglio presenta l'azienda come indipendente. La compliance EUDR si decide a livello di capogruppo. Dati economici e VD co |
+| Svezia | Nola Industrier AB | **NON dichiarato** | Controllo di gruppo NON dichiarato: Nola Industrier AB fa parte di una koncern di 3 società il cui moderbolag è Sentensen Aktiebolag (gruppo: 22 dipendenti, 88,0 MSEK). Il foglio la presenta come indi |
+| Svezia | Nordanå Trä Aktiebolag | **dichiarato** | Controllata di gruppo (legame già dichiarato correttamente nel foglio): moderbolag Green Wood Sverige AB. La compliance EUDR si decide a livello di capogruppo: questione di selezione del lead. Conferm |
+| Svezia | Nydala Trävaru Aktiebolag | **NON dichiarato** | Controllo di gruppo NON dichiarato: Nydala Trävaru Aktiebolag fa parte di una koncern di 2 società con moderbolag Nydala Trä Holding AB. Il foglio la presenta come segheria familiare indipendente. |
 | Svezia | Tärnsjö Garveri Aktiebolag | **NON dichiarato** | Legame di gruppo NON dichiarato: il record definisce l'azienda 'la principale conceria indipendente attiva', ma allabolag indica come moderbolag Axel Bodéns Handels Aktiebolag. L'affermazione di indip |
 
 ---
 
-## 4. Casi di gravità ALTA (53)
+## 4. Casi di gravità ALTA (65)
 
 _Dato falso, azienda non contattabile, azienda cessata/fallita/acquisita, oppure fuori dal perimetro dell'Allegato I EUDR._
 
@@ -207,7 +222,7 @@ Referente errato/superato: il toimitusjohtaja in carica e' Jouni Kontkanen (impr
 **Correzione proposta:** Jouni Kontkanen — Toimitusjohtaja (CEO)
 
 
-### Danimarca (15)
+### Danimarca (19)
 
 #### AUBO PRODUCTION A/S — campo `referente`
 
@@ -289,6 +304,30 @@ RILIEVO EMERSO DAL CONTROLLO DI RIENTRO. Il record dichiara esso stesso che Natu
 
 **Correzione proposta:** Rimuovere il lead (controllata Dragsbaek/Orkla, stessa motivazione della rimozione di Dragsbaek)
 
+#### ODENSE SEGLMÆRKEFABRIK A/S — campo `dimensione`
+
+AZIENDA NON PIU' AUTONOMA. Il CVR 17620487 risulta con stato 'oploest efter fusion' (sciolta a seguito di fusione) e la capogruppo e' OG NORDIC ApS, ossia Optimum Group Nordic, braccio nordico del gruppo olandese Optimum Group. Il record la presenta invece come unita' produttiva indipendente: e' un lead da decidere a livello di capogruppo estera, non locale.
+
+**Evidenza:** https://ownr.dk/companies/public-profile/17620487 e https://profiler.dk/17620487/stamdata - CVR 17620487, stato 'oploest efter fusion', 'del af en koncern med OG Nordic ApS som moderselskab'; https://optimumgroup-printing.com/sites/optimum-group-odense-seglmaerke/ - 'Odense Seglmaerke \| Optimum Group'
+
+**Correzione proposta:** Odense Seglmærke — sito produttivo di Optimum Group Nordic (OG NORDIC ApS), gruppo Optimum Group (NL). CVR 17620487 sciolto per fusione. Lead da valutare a livello di capogruppo.
+
+#### ODENSE SEGLMÆRKEFABRIK A/S — campo `sede`
+
+Sede superata: nel 2025 Optimum Group Nordic ha deciso di trasferire Odense Seglmaerke da Odense ad Ans By (tra Bjerringbro e Silkeborg, Midtjylland) per condividere lo stabilimento con la consociata Etiflex; il trasferimento e' previsto entro fine 2025.
+
+**Evidenza:** https://signprintpack.dk/2025/07/14/odense-seglmaerke-forlader-odense/ - 'Odense Seglmaerke forlader Odense' (14.07.2025)
+
+**Correzione proposta:** Ans By (Silkeborg, Midtjylland) dal 2025 — DA CONFERMARE la data effettiva del trasferimento
+
+#### SKJERN PAPER A/S (già Skjern Papirfabrik A/S) — campo `dimensione`
+
+ASSETTO PROPRIETARIO FALSO. Il campo dichiara 'Proprieta' Buur Invest A/S + dirigenti operativi (indipendente danese dal 2005)'. In realta' Skjern Paper A/S e' stata acquisita dal gruppo statunitense SONOCO Products Company (NYSE: SON) con accordo annunciato il 28.09.2022 per ~88 mio USD / 675 mio DKK, closing nel Q4 2022. Non e' un'azienda indipendente danese: la decisione EUDR si colloca presso la capogruppo USA.
+
+**Evidenza:** https://www.globenewswire.com/news-release/2022/09/28/2524051/26553/en/Sonoco-to-Expand-European-Manufacturing-with-the-Acquisition-of-Skjern-Paper-in-Denmark.html e https://denmark.dlapiper.com/en/news/dla-piper-advises-sonoco-its-acquisition-skjern-paper - 'DLA Piper advises Sonoco on its acquisition of Skjern Paper'; dbrs.dk 'Skjern Paper solgt for 675 millioner kroner'
+
+**Correzione proposta:** Controllata di Sonoco Products Company (USA) dal Q4 2022 (acquisizione ~675 mio DKK). Produzione ~75.000 t/anno di cartoncino da riciclo. Lead da escludere o da trattare a livello di capogruppo Sonoco.
+
 #### SKOVS KORN A/S. KORN- OG FODERSTOFAGENTUR — campo `filiera`
 
 Perimetro EUDR dubbio: la societa' si qualifica pubblicamente come broker/agenzia di intermediazione internazionale ('brokers indenfor international handel med korn, foderstoffer og oliefro' dal 1987) e la ragione sociale stessa e' 'Korn- og Foderstofagentur'. Un agente che non acquista in proprio non immette la commodity sul mercato UE e quindi non e' operatore ai sensi EUDR (analogia con gli operatori di sola logistica). Inoltre le commodity trattate (cereali, mangimi, semi oleosi) ricadono in Allegato I solo per la parte soia, non verificata. Il modesto bruttofortjeneste (12 M DKK ~1,6 M€) e' coerente con un'attivita' di pura intermediazione.
@@ -296,6 +335,14 @@ Perimetro EUDR dubbio: la societa' si qualifica pubblicamente come broker/agenzi
 **Evidenza:** http://skovskorn.dk/ - 'Skovs Korn A/S har siden 1987 opereret som brokers indenfor international handel med korn, foderstoffer og oliefro' ; https://www.proff.dk/firma/skovs-korn-as.-korn-og-foderstofagentur/vejle/jordbrugsr%C3%A5varer-levende-dyr-tekstilr%C3%A5varer-og-indsatsvarer-agentur/064Z69I10OL (settore: agentur)
 
 **Correzione proposta:** Escludere o declassare il lead salvo verifica che la societa' operi anche in conto proprio su soia (import fisico nell'UE)
+
+#### STOK EMBALLAGE K/S — campo `dimensione`
+
+CONTROLLO DI GRUPPO NON DICHIARATO E FUORI FORBICE. Il campo indica solo la capogruppo formale STOK Denmark ApS senza dire chi la controlla: dal 30.04.2024 STOK e' partecipata in maggioranza dal fondo di private equity statunitense A&M Capital Europe (Alvarez & Marsal Capital), dopo la morte improvvisa del proprietario e una cessione da ~700 mio DKK. Inoltre il fatturato e' pubblicato ed e' fuori forbice: 686,73 mio DKK nel 2025 (~92 M€), risultato 32,9 mio DKK — non 'verosimilmente >50 M€' come stimato.
+
+**Evidenza:** https://www.a-mcapital.com/am-capital-europe-announces-majority-investment-in-stok-emballage/ - 'A&M Capital Europe Announces Majority Investment in STOK Emballage'; https://kapwatch.dk/nyheder/kapitalfonde/article17008882.ece - 'Dansk familievirksomhed solgt til amerikansk kapitalfond'; https://www.proff.dk/firma/stok-emballage-ks/langeskov/producenter/GL8Z7BI016D - 'omsaetning 686.730 t.DKK, resultat 32.895 t.DKK (2025)'; koncern di 11 societa' con STOK Denmark ApS capogruppo
+
+**Correzione proposta:** Fatturato 686,7 mio DKK nel 2025 (~92 M€) — FUORI FORBICE (>40 M€). Controllata di maggioranza del fondo statunitense A&M Capital Europe dal 30.04.2024 tramite STOK Denmark ApS (gruppo di 11 societa'). Lead da escludere o da trattare a livello di capogruppo. Adm. direktør Martin Frederiksen confermato in carica.
 
 #### Skagerak Denmark A/S — campo `referente`
 
@@ -330,7 +377,7 @@ Ambiguita' PARZIALMENTE risolta: il fallimento riguarda l'omonima 'VestjyDsk Spe
 **Correzione proposta:** Allineare il record a un unico CVR (38786709 secondo proff.dk) ed eliminare il riferimento a lasso.dk/42242993 se non pertinente
 
 
-### Svezia (6)
+### Svezia (11)
 
 #### Balungstrands Sågverk AB — campo `dimensione`
 
@@ -371,6 +418,46 @@ Rischio economico rilevante non segnalato: a fronte dei 140.766 KSEK (~12,5 M€
 **Evidenza:** allabolag.se (556232-9135): «omsättning 2025: 140 766 tkr ... vinstmarginal -32,6%»; «ingår i en koncern med 56 bolag, moderbolag Pulsen AB» — https://www.allabolag.se/5562329135/koncern ; pulsen.se/vara-bolag/hjaltevadshus/
 
 **Correzione proposta:** Aggiungere: 'perdita d'esercizio 2025 (marginalità -32,6%); koncern Pulsen AB, 56 società'
+
+#### Horreds Möbel Aktiebolag — campo `dimensione`
+
+Controllo di gruppo non dichiarato. Il campo dice genericamente «Fa parte di un gruppo di 3 società» ma non nomina la capogruppo: il moderbolag è Horreds Holding AB e il koncernmoderbolag è Horreds Möbel Utvecklings AB (org.nr 559016-3324). La decisione di compliance EUDR si colloca a livello di capogruppo.
+
+**Evidenza:** allabolag.se – Koncernstruktur: «Horreds Möbel Aktiebolags moderbolag är Horreds Holding AB och koncernmoderbolag är Horreds Möbel Utvecklings AB» — https://www.allabolag.se/5563651974/koncern
+
+**Correzione proposta:** Legame di gruppo: moderbolag Horreds Holding AB; koncernmoderbolag Horreds Möbel Utvecklings AB (org.nr 559016-3324)
+
+#### Leksandsdörren AB — campo `dimensione`
+
+Controllo di gruppo NON dichiarato: il moderbolag è TräMasen AB e il gruppo comprende 3 società con 51 dipendenti e ~102,0 MSEK di fatturato aggregato. Il foglio presenta l'azienda come indipendente. La compliance EUDR si decide a livello di capogruppo. Dati economici e VD invece confermati (69 543 KSEK 2024, 30 dipendenti, VD Per Anders Jäderberg).
+
+**Evidenza:** allabolag.se (org.nr 556651-7891): «Moderbolaget är TräMasen AB … koncernen omfattar 3 bolag med totalt 51 anställda och 102,0 MSEK i omsättning» — https://www.allabolag.se/foretag/leksandsd%C3%B6rren-ab/leksand/d%C3%B6rrar-portar/2K25SOZI5YDRN
+
+**Correzione proposta:** Aggiungere: Legame di gruppo — moderbolag TräMasen AB (koncern di 3 società, 51 dipendenti, 102,0 MSEK)
+
+#### NC Nordic Care AB — campo `dimensione`
+
+Controllo di gruppo NON dichiarato: il moderbolag risulta Materia Group AB. Il foglio presenta l'azienda come indipendente. La compliance EUDR si decide a livello di capogruppo. Dati economici e VD confermati (79 707 KSEK esercizio 2025, -7,8%, risultato 166 KSEK, 14 dipendenti; VD Thomas Jörgen Johannesson).
+
+**Evidenza:** allabolag.se (org.nr 556249-9177): «Moderbolaget: Materia Group AB … NC Nordic Care AB har 14 anställda och gjorde ett resultat på 166 KSEK med omsättning 79 707 KSEK under 2025 (-7,8%). Verkställande direktör Thomas Jörgen Johannesson» — https://www.allabolag.se/foretag/nc-nordic-care-ab/valdemarsvik/m%C3%B6bler/2JZRNU1I5YGJV
+
+**Correzione proposta:** Aggiungere: Legame di gruppo — moderbolag Materia Group AB
+
+#### Nola Industrier AB — campo `dimensione`
+
+Controllo di gruppo NON dichiarato: Nola Industrier AB fa parte di una koncern di 3 società il cui moderbolag è Sentensen Aktiebolag (gruppo: 22 dipendenti, 88,0 MSEK). Il foglio la presenta come indipendente. Dati economici e VD confermati (86 155 KSEK 2024, risultato 2 629 KSEK, 22 dipendenti; VD Claes Henrik Edlund, in carica dal 2019 al posto di Agneta Stake).
+
+**Evidenza:** allabolag.se (org.nr 556207-4442): «Nola Industrier AB ingår i en koncern med totalt 3 bolag, moderbolaget är Sentensen Aktiebolag … koncernen har 22 anställda och 88,0 MSEK i omsättning» — https://www.allabolag.se/foretag/nola-industrier-ab/stockholm/kontorsinredningar/2JZIK3UI5YF48
+
+**Correzione proposta:** Aggiungere: Legame di gruppo — moderbolag Sentensen Aktiebolag (koncern di 3 società)
+
+#### Nydala Trävaru Aktiebolag — campo `dimensione`
+
+Controllo di gruppo NON dichiarato: Nydala Trävaru Aktiebolag fa parte di una koncern di 2 società con moderbolag Nydala Trä Holding AB. Il foglio la presenta come segheria familiare indipendente.
+
+**Evidenza:** allabolag.se (org.nr 556075-2825): «Nydala Trävaru Aktiebolag ingår i en koncern med totalt 2 bolag … moderbolaget är Nydala Trä Holding AB» — https://www.allabolag.se/foretag/nydala-tr%C3%A4varu-aktiebolag/vrigstad/s%C3%A5gverk/2JYQ8C9I5YHTM
+
+**Correzione proposta:** Aggiungere: Legame di gruppo — moderbolag Nydala Trä Holding AB (koncern di 2 società)
 
 #### Tärnsjö Garveri Aktiebolag — campo `dimensione`
 
@@ -579,7 +666,15 @@ Assetto proprietario non dichiarato: dal 2002 la societa' e' controllata dalla f
 **Correzione proposta:** — nessun valore certo: rilievo lasciato aperto
 
 
-### Austria (1)
+### Austria (4)
+
+#### Storebest Ladeneinrichtungen GmbH — campo `denominazione`
+
+FILIALE DI GRUPPO ESTERO NON DICHIARATA. STOREBEST Österreich e' parte della Kesseböhmer Holding KG di Bad Essen (Germania), gruppo con ca. 3.500 dipendenti su dodici siti; esiste anche la consorella tedesca STOREbest GmbH & Co. KG di Lübeck. La compliance EUDR si decide alla capogruppo tedesca: lead da declassare o rimuovere secondo il criterio gia' applicato a Segafredo Zanetti Austria / Lavazza Kaffee / BRAUN LOCKENHAUS.
+
+**Evidenza:** https://www.storebest.at/unternehmen/ ('STOREBEST Österreich ist Teil der inhabergeführten, international tätigen Kesseböhmer Holding KG mit Sitz in Bad Essen'; 'rund 3.500 Mitarbeiter an zwölf Standorten'); https://www.handelsverband.at/mitglieder/unsere-partner/detail/storebest-ladeneinrichtungen-gmbh/
+
+**Correzione proposta:** — nessun valore certo: rilievo lasciato aperto
 
 #### Tschurtschenthaler Gerberei GmbH — campo `email`
 
@@ -589,10 +684,26 @@ Nessuna e-mail pubblica reperibile (campo 'n.d.') e nessun sito web aziendale: i
 
 **Correzione proposta:** — nessun valore certo: rilievo lasciato aperto
 
+#### Weissengruber Möbelmanufaktur GmbH — campo `denominazione`
+
+AZIENDA IN INSOLVENZA. Il produttore di mobili Weissengruber (Niederzirking 89, Ried in der Riedmark, ca. 55-60 dipendenti) ha presentato istanza di insolvenza (Sanierungsverfahren ohne Eigenverwaltung) al Landesgericht Linz il 13 gennaio; curatore René Lindner, prosecuzione con Massekredit e voto dei creditori sul piano di risanamento il 29 aprile. Caso identico a HAKA Küche / KAPO Möbel / ADA / Schletterer gia' esclusi. Inoltre l'entita' attiva risulta 'WEISSENGRUBER Möbelproduktion e.U.' (non la GmbH): denominazione e forma giuridica del record non corrispondono.
+
+**Evidenza:** https://www.ksv.at/insolvenzfaelle/weissengruber-moebelproduktion-eu-198251 ; https://www.euwid-holz.de/news/moebel/wohn-und-objektmoebelhersteller-weissengruber-ist-insolvent-140125/ ; https://www.nachrichten.at/wirtschaft/insolvenz-bei-moebelhersteller-weissengruber-fortfuehrung-mit-massekredit;art15,4020792 ; https://firmen.wko.at/weissengruber-m%C3%B6belproduktion-eu/ober%C3%B6sterreich/
+
+**Correzione proposta:** RIMUOVERE il lead (insolvenza in corso)
+
+#### Wittmann Möbelwerkstätten GmbH — campo `referente`
+
+REFERENTE OBSOLETO DI DUE PASSAGGI. Heinz Hofer-Wittmann non e' piu' alla guida: gli e' subentrato Bo Thuesen come CEO, uscito dopo circa un anno e mezzo su sua richiesta, e oggi la Geschäftsführung e' di Alice Wittmann (39 anni, pro-pronipote del fondatore), con responsabilita' su marketing, prodotto e vendite. In Firmenbuch risultano inoltre iscritti Alexander Sova e Ron Vorona.
+
+**Evidenza:** https://www.noen.at/krems/wechsel-ururenkelin-von-firmengruender-neu-an-spitze-von-etsdorfer-unternehmen-508632071 ; https://moebel-guide.at/news/generationswechsel-bei-wittmann-alice-wittmann-ubernimmt-geschaftsfuhrung ; https://www.moebelfertigung.com/branche/bo-thuesen-ist-der-neue-ceo ; https://www.firmenabc.at/wittmann-moebelwerkstaetten-gmbh_NVdS
+
+**Correzione proposta:** Alice Wittmann — Geschäftsführerin
+
 
 ---
 
-## 5. Casi di gravità MEDIA (214)
+## 5. Casi di gravità MEDIA (235)
 
 _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente errato._
 
@@ -654,16 +765,20 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Kiilax Oy | dimensione | Il campo dichiara 'liikevaihto n.d.' ma il dato e' pubblicamente disponibile: 6,7 M€ nell'esercizio chiuso a 03/2025, utile 514 k€, 24 dipendenti, fatturato in calo del 6,8%. Valore al limite inferiore della forbice. | https://www.asiakastieto.fi/yritykset/fi/kiilax-oy/14857945/taloustiedot — frammento: "For the fiscal year ending in 2025/03, Kiilax Oy's revenue was  | Liikevaihto 6,7 M€ / 24 dip. (esercizio chiuso 03/2025, Asiakastieto) |
 | Kiilax Oy | filiera | Descrizione parziale: l'attivita' principale e' la produzione di botole/portelli d'ispezione (tarkastusluukut) e il commercio specializzato di prodotti in compensato, non la produzione di compensato di betulla o di pannelli lamellari. Da riformulare  | https://vainu.io/company/kiilax-oy-taloustiedot-ja-liikevaihto/256569/yritystiedot — frammento: "Kiilax was founded in 1993 and manufactures inspectio | Legno/Arredo — botole d'ispezione e prodotti in compensato (produzione + rivendita specializzata) |
 
-### Danimarca (27)
+### Danimarca (36)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
 | ALL CREATIVE A/S | dimensione | Il campo non contiene alcun dato economico: non riporta ne' fatturato ne' bruttofortjeneste ne' anno di riferimento, ma solo una fascia di dipendenti '11-50' presa da LinkedIn e priva di data. La collocazione nella forbice target 5-40 M€ resta quindi | https://www.proff.dk/firma/all-creative-as/r%C3%B8dovre/producenter/GSG8C7I016D (scheda regnskab della societa', CVR 21124796) |  |
 | BUCHS A/S | dimensione | Il campo non riporta alcun dato di bilancio verificato ma solo una stima ('fascia stimata 5-15 M€'). Il dato pubblicato e' il bruttofortjeneste: 14.746.681 DKK nel 2024 (16.092.571 DKK nel 2023), ~2,0 M€ di margine lordo, con 28 dipendenti. Con quest | https://www.krak.dk/buchs+as+randers+sv/67226095/firma - 'bruttofortjeneste 14.746.681 DKK i 2024, mod 16.092.571 DKK i 2023 ... 28 ansatte' | Bruttofortjeneste 14,75 mio DKK nel 2024 (~2,0 M€ di margine lordo), 28 dipendenti (krak.dk/proff.dk, CVR 29845646). Fat |
+| CAFÉU DENMARK ApS | referente | Campo vuoto: il vertice e' pubblicato e coincide con il titolare della holding gia' citata nel campo dimensione. Steffan Noergaard Tobiesen e' fondatore e direktoer di CaféU Denmark ApS (capogruppo STEFFAN TOBIESEN HOLDING ApS). | https://cvrapi.dk/virksomhed/dk/cafeu-denmark-aps/33243537 e https://www.proff.dk/firma/caf%C3%A9u-denmark-aps/esbjerg-n/n%C3%A6rings-og-nydelsesmidle | Steffan Nørgård Tobiesen — Direktør (fondatore) |
 | COPENHAGEN CHOCOLATE FACTORY ApS | email | L'email pubblicata come recapito ufficiale nelle condizioni di vendita e sulle schede societarie e' kundeservice@simplychocolate.dk (tel. +45 3634 0070). info@simplychocolate.dk, riportata nel foglio, non e' stata ritrovata letteralmente in nessuna f | https://www.simplychocolate.dk/pages/handelsbetingelser e https://www.proff.dk/firma/copenhagen-chocolate-factory-aps/kastrup/producenter/0JI778I016D  | kundeservice@simplychocolate.dk |
+| Copenhagen Coffee Lab ApS | dimensione | Assetto proprietario non dichiarato: la societa' fa parte di un gruppo di 6 societa' con capogruppo Copenhagen Coffee Lab Holding ApS; il 70% e' stato rilevato dagli investitori danesi Steen Skallebaek e Ole Kristoffersen, mentre i fondatori Allan Kr | https://nordic9.com/news/steen-skallebk-and-ole-kristoffersen-acquire-70-of-copenhagen-coffee-lab-news8170860302/ - 'Steen Skallebaek and Ole Kristoff | Aggiungere: capogruppo Copenhagen Coffee Lab Holding ApS (gruppo di 6 societa'); 70% Steen Skallebæk e Ole Kristoffersen |
+| DANSK KAFFE ApS | dimensione | Assetto proprietario non dichiarato: DANSK KAFFE ApS fa parte di un gruppo di 2 societa' con capogruppo KAFFEA ApS. Manca inoltre la data di costituzione (27.11.2013), utile a qualificare la micro-impresa. Corretta invece la segnalazione 'SOTTO IL TA | https://proff.dk/firma/dansk-kaffe-aps/odense-c/kaffe-og-te-agentur-og-engros/0EXL1KI0Z8T - 'CVR 25081544, Filosofgangen 9 5, 5000 Odense C, stiftet 2 | Aggiungere: capogruppo KAFFEA ApS (gruppo di 2 societa'), societa' costituita il 27.11.2013. Micro-impresa MOLTO SOTTO S |
 | EMBALLAGEFABRIKKEN THY PAP | dimensione | Il campo e' 'n.d.'. La verifica mostra che si tratta di THY PAP, enkeltmandsvirksomhed (ditta individuale) con CVR 25352769, registrata in Morsoe Kommune (proff.dk la colloca a Nykoebing M) con unita' produttiva a Industrivej 19 B, 7700 Thisted. Una  | https://www.proff.dk/firma/thy-pap/nyk%C3%B8bing-m/producenter/GNWOAAI016D e https://estatistik.dk/virksomhed/thy-pap/25352769 - 'enkeltmandsvirksomhe | CVR 25352769 (THY PAP, enkeltmandsvirksomhed). Fatturato e addetti non pubblicati per forma giuridica; micro-impresa AMP |
 | EMBALLAGEFABRIKKEN THY PAP | referente | DA CONFERMARE: il nome 'Carsten Boye Steen' come indehaver non e' stato ritrovato in nessuna fonte pubblica raggiungibile (proff, estatistik, degulesider, krak, sito aziendale). Trattandosi di ditta individuale il titolare e' il decisore unico: il da | Ricerche '"Thy Pap" "Carsten" indehaver ejer' e '"Thy Pap" Thisted CVR indehaver': nessun frammento riporta il nome del titolare; le fonti si fermano  |  |
 | Estate Coffee Copenhagen A/S | denominazione | IDENTITA' ANNOTATA CONFERMATA CORRETTA: il CVR 18179407 e' oggi registrato come Smage-Compagniet A/S, Holmevej 10, 5683 Haarby. La cronologia e' ricostruita dall'azienda stessa: fondata nei primi anni '90 (tra i fondatori Claus Meyer) come Chokolade  | https://smage-compagniet.dk/estate-coffee/ - 'Virksomhedens historie gaar tilbage til starten af 1990'erne, hvor den blev grundlagt af blandt andre Cl | Smage-Compagniet A/S (CVR 18179407) - gia' Estate Coffee Copenhagen A/S / Chokolade Compagniet |
+| Estate Coffee Copenhagen A/S | dimensione | Dati di bilancio obsoleti di cinque anni: il campo cita 'bruttofortjeneste 10 mio DKK (bilancio 2021)' e '10-20 dipendenti', mentre le fonti aggiornate danno bruttofortjeneste 11 mio DKK nel 2023 e 15 mio DKK nel 2024 (~2,0 M€ di margine lordo) e una | https://www.proff.dk/firma/smage-compagniet-as/haarby/n%C3%A6rings-og-nydelsesmidler/GLOZ6AI116S - 'I 2023 viste regnskabet en bruttofortjeneste paa 1 | Bruttofortjeneste 15 mio DKK nel 2024 (~2,0 M€ di margine lordo; 11 mio DKK nel 2023), 20-50 dipendenti; fatturato non p |
 | H. EMBALLAGE ApS | dimensione | Il campo scrive 'ricavi/margine lordo dichiarati 9,211 mio DKK' senza dichiarare di quale dato si tratti: per una ApS il bilancio in forma ridotta pubblica il bruttofortjeneste, non il fatturato. La formula ambigua rende non interpretabile il dato (9 | https://www.proff.dk/firma/h.-emballage-aps/glamsbjerg/producenter/GWNSLZI016D - CVR 38528742, 'Papirvarefabrikker og kartonnagefabrikker', Hoejrupvej | Bruttofortjeneste 9,211 mio DKK (~1,2 M€ di margine lordo), 21 dipendenti; fatturato non pubblicato (ApS, bilancio in fo |
 | IKAST ETIKET A/S | referente | Il campo e' vuoto e il campo dimensione afferma che 'nessun adm. direktoer pubblicato': e' falso. Ulrik Lauritsen risulta direktoer della societa' dal 2003 (oltre che membro del consiglio). | https://www.proff.dk/firma/ikast-etiket-as/ikast/engroshandel-annet/GJF022I10N6 - 'Ikast Etiket A/S blev grundlagt i 1986 og har vaeret ledet af Ulrik | Ulrik Lauritsen — Direktør |
 | IKAST ETIKET A/S | dimensione | Dati non allineati alle fonti: il campo riporta 'risultato netto 7,62 mio DKK' e 12 dipendenti, mentre il bilancio 2024 pubblicato indica un bruttofortjeneste di 16 mio DKK e 14 dipendenti. Non e' inoltre dichiarata la capogruppo UL HOLDING IKAST ApS | https://www.proff.dk/firma/ikast-etiket-as/ikast/engroshandel-annet/GJF022I10N6 - 'I 2024 viste regnskabet en bruttofortjeneste paa 16 mio. DKK ... 14 | Bruttofortjeneste 16 mio DKK nel 2024 (~2,1 M€ di margine lordo), 14 dipendenti; fatturato non pubblicato. Capogruppo UL |
@@ -678,15 +793,20 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | LILLEHEDEN A/S | dimensione | Controllata di gruppo: la societa' fa parte di Nordic Wood Industries A/S (CVR 37385603), che dal 12.05.2025 ha un nuovo adm. direktor di gruppo (Holger Carsten Hansen). Il legame e' gia' correttamente dichiarato nel campo, quindi non e' un errore di | https://nowi.dk/limtraesproducent-styrker-produktionen-markant/ ; https://www.proff.dk/firma/nordic-wood-industries-as/hampen/investeringsselskaper/0M | Aggiornare il bruttofortjeneste all'ultimo esercizio disponibile e valutare il lead a livello di Nordic Wood Industries  |
 | MULTIFORM A/S | dimensione | Controllata di gruppo: capogruppo BALLINGSLOV INTERNATIONAL DANMARK A/S (gruppo svedese Ballingslov International / Stena Adactum). Il legame e' gia' dichiarato correttamente nel record, quindi il rilievo riguarda la validita' del lead (compliance EU | https://www.proff.dk/firma/multiform-as/kib%C3%A6k/producenter/GLGFCDI016D - 'Multiform er en del af en koncern, hvor modervirksomheden er BALLINGSLOV |  |
 | NPI (Nordic Panel Import) | referente | Campo referente vuoto pur essendo il direktor reperibile nelle fonti pubbliche: risulta Theis Graves Larsen (uno dei due fondatori, 2002). | https://www.proff.dk/firma/npi-as/l%C3%B8sning/t%C3%B8mmer-tr%C3%A6last-og-byggevarer-agentur-og-engros/0MA0H6I10LA - direktor: Theis Graves Larsen ;  | Theis Graves Larsen, Direktor (da riconfermare al primo contatto) |
+| ODENSE SEGLMÆRKEFABRIK A/S | sito | Il dominio segl.dk non e' piu' il sito operativo: i contenuti sono confluiti su ogn.dk (Optimum Group Nordic), che ospita la pagina di contatto dedicata 'Kontakt_OdenseSeglmaerke'. Di conseguenza anche l'email um@segl.dk va riconfermata sulla nuova p | https://www.ogn.dk/kontaktodenseseglmaerke - pagina 'Kontakt_OdenseSeglmaerke' di Optimum Group Nordic | https://www.ogn.dk/ (pagina contatti: https://www.ogn.dk/kontaktodenseseglmaerke) |
+| SCANLUX PACKAGING A/S | dimensione | Dato di bilancio obsoleto (esercizio 2023, oltre tre anni) e numero di addetti lasciato indeterminato ('28-38, fonti divergenti'). Si chiude invece il dubbio di perimetro sollevato nel campo: Scanlux e' certificata FSC (C126290) e la gamma e' prevale | https://scanlux-packaging.com/sustainability-at-scanlux/ - 'FSC certified (C126290)'; https://scanlux-packaging.com/ - 'gift paper, boxes, ribbons, wi | Aggiornare al bilancio piu' recente disponibile e fissare il numero di addetti; confermato il perimetro EUDR (carta/cart |
 | SIKA DESIGN A/S | dimensione | Dato di bilancio obsoleto: l'utile lordo di 29 M DKK e' riferito al 2021 (cinque esercizi fa) e la stima ricavi '~8-10 M€' non e' verificata. Anche il numero di addetti e' disallineato: le fonti aggiornate riportano 19 dipendenti / 17 FTE a novembre  | https://www.paqle.dk/p/sika-design-a-s/330977 (19 ansatte, 17 FTE nov. 2025) ; https://ownr.dk/companies/public-profile/31476712 | Aggiornare bruttofortjeneste e addetti all'ultimo bilancio disponibile |
+| SKJERN PAPER A/S (già Skjern Papirfabrik A/S | referente | Il nome e la data sono corretti (Nikolaj Bjerre Thybo, adm. direktoer dal 2020) ma, essendo la societa' controllata da Sonoco dal 2022, il referente non e' il decisore finale sulla compliance EUDR. Segnalato per coerenza con il rilievo sull'assetto p | https://dbrs.dk/artikel/skjern-paper-ny-direktør-overtager-en-solid-grøn-virksomhed e https://www.tvmidtvest.dk/fast-arbejde/papirfabrikken-i-skjern-l |  |
 | SOFTLINE A/S | dimensione | Dato di margine lordo riferito al 2023 e stima ricavi '~12-18 M€' non verificata: la collocazione nella forbice target 5-40 M€ resta non dimostrata. DA CONFERMARE su bilancio piu' recente. Referente Finn Herluf Sorensen e stato 'Normal' della societa | https://ownr.dk/companies/public-profile/27266355 (status Normal) ; https://folketidende.dk/erhverv/produktudvikling-er-krumtappen-hos-softline-a-s (' |  |
 | SOMMER-SAVEX A/S | dimensione | Il campo dichiara 'fatturato non verificato / dati di bilancio non accessibili', ma i dati esistono e sono pubblici: bruttofortjeneste 13,06 M DKK nel 2024 (~1,75 M€) contro 14,82 M DKK nel 2023, con esercizio 2024-25 chiuso in perdita (-1,37 M DKK). | https://ownr.dk/companies/public-profile/13923795 ; https://vismarating.dk/firma/13923795-sommer-savex-as - 'bruttofortjeneste i 2024 pa 13.059.301 DK | Bruttofortjeneste 13,06 M DKK (2024, ~1,75 M€), risultato 2024-25 negativo; fatturato non pubblicato (classe B). Taglia  |
+| STIBO COMPLETE A/S (già Rosendahls A/S - Pri | dimensione | Il dato '150 dipendenti; fatturato ~200 mio DKK' e' privo di anno e di fonte verificabile ed e' smentito dalle fonti: paqle classifica Stibo Complete A/S nella fascia 200-500 dipendenti e l'esercizio 2025 (chiusura 30 aprile) e' stato in perdita per  | https://www.paqle.dk/p/stibo-complete-a-s/182143 - 'Stibo Complete A/S · 200-500 ansatte'; https://www.proff.dk/firma/stibo-complete-as/horsens/tryker | 200-500 dipendenti (paqle 2025); esercizio 2025 (1.5.2024-30.4.2025) chiuso con perdita di 33,5 mio DKK; fatturato non p |
+| STIBO COMPLETE A/S (già Rosendahls A/S - Pri | sede | La sede legale del CVR 37120928 e' Saturnvej 65, 8700 Horsens; Esbjerg N (Lammefjordsvej 2) e' una delle unita' operative, come Soeborg. Il campo indica solo Esbjerg N. Inoltre l'URL in 'fonte' punta ancora alla scheda proff della denominazione super | https://virmo.dk/firma/37120928-stibo-complete-as - 'Stibo Complete A/S (37120928) - Saturnvej 65, 8700 Horsens'; schede proff.dk distinte per Esbjerg | Sede legale: Horsens (Saturnvej 65, Midtjylland); unita' operative a Esbjerg N e Søborg. Fonte da aggiornare a https://w |
 | Skagerak Denmark A/S | dimensione | Dati economici obsoleti: utile lordo 53,7 M DKK riferito al 2021 e addetti al dicembre 2022, cioe' antecedenti o coevi all'acquisizione da parte di Fritz Hansen. La stima ricavi '~15-22 M€' non e' verificata e non e' piu' rappresentativa dell'assetto | https://estatistik.dk/virksomhed/skagerak-denmark-as/28855990 ; https://www.dezeen.com/2021/12/15/fritz-hansen-acquires-skagerak/ |  |
 | SØRENSEN LÆDER A/S (Sorensen Leather) | dimensione | Dato obsoleto e non allineato alla fonte: il record indica bruttofortjeneste 23,85 mio DKK (2022) e ca. 20 dipendenti, mentre la scheda proff.dk attuale (CVR 50828514) riporta bruttofortjeneste 13.056 tkr (13,06 mio DKK ≈ 1,75 M€) e 16 dipendenti. In | https://www.proff.dk/regnskab/s%C3%B8rensen-l%C3%A6der-as/lystrup/skind-l%C3%A6der-og-pels/GKJEN4I07RD — frammento: "Bruttofortjeneste: 13.056 tkr ... | Bruttofortjeneste 13,06 mio DKK (~1,75 M€) e 16 dipendenti — proff.dk, CVR 50828514 (ultimo bilancio disponibile); fattu |
 | TJOERNEHOEJ MOELLE A/S | dimensione | Fatturato recente NON reperito: il dato del foglio resta quello del 2003 (80 M DKK). In 3 ricerche l'unico bilancio individuato e' il PDF dell'esercizio 2011 su regnskaber.cvrapi.dk e menzioni di dati fino al 2014; nessuna cifra 2023-2025 emerge dall | https://regnskaber.cvrapi.dk/21057143/Y3ZyLmRrOi8vcGRmcy8zNDE3NTAxMjtBL1M1MDg2MTsyMDExMDEwMTsyMDExMTIzMTtSO1I.pdf - bilancio 01-01-2011/31-12-2011; ht |  |
 | VESTJYSK SPECIALFODER ApS | filiera | Perimetro EUDR DA CONFERMARE: l'oggetto sociale registrato e' generico ('handelsvirksomhed inden for specialfoder'), classificato proff.dk come 'engroshandel - annet'. Nessuna fonte pubblica conferma l'impiego di soia (unica commodity EUDR plausibile | https://royalfireworks.dk/forhandler/vestjysk-specialfoder-aps/ - scheda rivenditore fuochi d'artificio a Vemb; https://www.proff.dk/firma/vestjysk-sp |  |
 
-### Svezia (15)
+### Svezia (22)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -705,6 +825,13 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Glimakra of Sweden AB | dimensione | Lead di dubbia validità (non errore di dato): controllata di Garpco Aktiebolag dal 2007, gruppo di 25 società con 311 addetti e 667,0 MSEK. Il legame è dichiarato ma il record lo sottodimensiona ('controllata di Garpco AB, con 2 sub-controllate'): la | allabolag.se koncern (556120-7837): «moderbolaget är Garpco Aktiebolag ... koncernen omfattar totalt 25 bolag med 311 anställda och 667,0 MSEK i omsät | Controllata di Garpco Aktiebolag (dal 2007), koncern di 25 società / 311 addetti / 667 MSEK |
 | Gärsnäs Aktiebolag | dimensione | Lead di dubbia validità (non errore di dato): controllata di Bordet i Stockholm Aktiebolag, legame già dichiarato correttamente. Esiste inoltre notizia stampa di cambio di proprietà ('Gärsnäs AB får ny ägare') di cui andrebbe verificata la data. Dati | allabolag.se (556044-4746): «moderbolaget är Bordet i Stockholm Aktiebolag»; «37 anställda, resultat 583 KSEK, omsättning 80 711 KSEK (2023)»; https:/ |  |
 | Horreds Möbel Aktiebolag | dimensione | Dato 2022 NON aggiornabile con certezza e anzi CONTRADDETTO. allabolag.se riporta oggi per Horreds Möbel AB (556365-1974) 45 dipendenti (contro i 50 del 2022) e un intervallo di fatturato 50.000-99.999 tkr, cioè 50-99,9 MSEK ≈ 4,4-8,8 M€: sarebbe una | https://www.allabolag.se/foretag/horreds-m%C3%B6bel-aktiebolag/horred/butiksinredningar-butiksutrustningar/2K0GDC6I5YDBD - '45 anställda ... omsättnin |  |
+| Horreds Möbel Aktiebolag | dimensione | Dato di fatturato obsoleto (esercizio 2022, 103 MSEK). L'ultimo bilancio reperibile è il 2023: 93 384 KSEK = 93,4 MSEK ≈ 8,3 M€ (-9,7%), 50 dipendenti. L'azienda è quindi in contrazione e sotto il target ideale 10-20 M€, pur restando dentro la fascia | allabolag.se (org.nr 556365-1974): «Horreds Möbel Aktiebolag har 50 anställda och gjorde ett resultat på 527 KSEK med omsättning 93 384 KSEK under 202 | Fatturato 93 384 KSEK = 93,4 MSEK ≈ 8,3 M€ (2023, -9,7%); 50 dipendenti; org.nr 556365-1974 – fonte allabolag.se |
+| Kvänum Kök AB | dimensione | Controllata di gruppo (legame già dichiarato correttamente nel foglio): Vedena AB. Il gruppo Vedena conta 5 società, ~350 dipendenti e ~1 135 MSEK di fatturato aggregato: la compliance EUDR si decide a livello di capogruppo, non della singola control | allabolag.se (org.nr 556202-3159): «Kvänum Kök AB gjorde ett resultat på 6 307 KSEK med omsättning 297 420 KSEK under 2025 … moderbolag Vedena AB … ko |  |
+| Lammhults Möbel Aktiebolag | dimensione | Controllata di gruppo quotato (legame già dichiarato correttamente nel foglio): Lammhults Design Group AB. Il referente di compliance EUDR è la capogruppo quotata, non la controllata. Dati 2024 confermati (95 362 KSEK, -31 368 KSEK di risultato, 41 d | allabolag.se: «Lammhults Möbel Aktiebolag har 41 anställda och gjorde ett resultat på -31 368 KSEK med omsättning 95 362 KSEK under 2024 … VD Beatrice |  |
+| Lars Carlsson Trävaru Aktiebolag | referente | Referente e ruolo assenti: il lead non è contattabile nominalmente. Le fonti pubbliche indicano Lars Anders Hilding Carlsson come persona di riferimento, Anders Carlsson styrelseordförande e Olof Carlsson styrelseledamot; non risulta un VD registrato | allabolag.se (org.nr 556093-1734): «Lars Anders Hilding Carlsson … Anders Carlsson är ordförande och Olof Carlsson är styrelseledamot» — https://www.a |  |
+| N K Lundströms Trävaror Aktiebolag | dimensione | Controllata di gruppo (legame già dichiarato correttamente nel foglio): moderbolag KGL Trä Aktiebolag, koncern di 2 società. La decisione di compliance EUDR si colloca a livello di capogruppo: questione di selezione del lead. Fatturato 210,5 MSEK 202 | allabolag.se (org.nr 556107-8154): «N K Lundströms Trävaror Aktiebolag ingår i en koncern med totalt 2 bolag, där moderbolaget är KGL Trä Aktiebolag … |  |
+| Nordanå Trä Aktiebolag | dimensione | Controllata di gruppo (legame già dichiarato correttamente nel foglio): moderbolag Green Wood Sverige AB. La compliance EUDR si decide a livello di capogruppo: questione di selezione del lead. Confermati fatturato 117,7 MSEK ≈ 10,4 M€ (2025, -52%) e  | allabolag.se (org.nr 556134-5751): «Moderbolaget är Green Wood Sverige AB … omsättning 117,7 MSEK och resultat 40,7 MSEK under 2025, omsättningstillvä |  |
+| Nydala Trävaru Aktiebolag | dimensione | Dato di fatturato non aggiornato: il foglio riporta l'esercizio 2023 (323 425 KSEK ≈ 28,6 M€, 41 dipendenti). Il bilancio 2024 disponibile indica 381 731 KSEK = 381,7 MSEK ≈ 33,8 M€ (-11,5%), 43 dipendenti, margine 6,1%: l'azienda resta entro la fasc | allabolag.se / ratsit.se (org.nr 556075-2825): «2024 års omsättning 381 731 tkr, 43 anställda, tillväxt -11,5%, vinstmarginal 6,1%» — https://www.alla | ≈33,8 M€ / 43 dip. (allabolag 2024: 381 731 KSEK, -11,5%) |
 
 ### Olanda (50)
 
@@ -834,7 +961,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Vanerum Belgie NV | dimensione | Il legame di gruppo e' dichiarato ma incompleto: i3-Group non e' piu' interamente familiare. WorxInvest ha acquistato circa il 25% per 10 M€ e nel novembre 2023 anche il gruppo americano Steelcase ha preso una partecipazione. La compliance EUDR si de | derijkstebelgen.be 'NIEUW – WorxInvest betaalt 10 miljoen euro voor kwart van Van Erum schoolborden'; holahageland.net 'Na WorxInvest neemt ook Amerik |  |
 | Woodtex NV | dimensione | Dato di fatturato superato. Il record riporta 11.778.466 € (deposito 23-06-2025); l'ultimo bilancio depositato (01-06-2026) indica 12.131.554 € con 35 FTE. | companyweb.be/en/0413744194/woodtex: 'Woodtex recorded a total turnover of €12,131,554.00. The most recent financial statements were filed on 01-06-20 | Fatturato 12.131.554 € - 35 FTE (bilancio NBB depositato 01-06-2026) |
 
-### Austria (12)
+### Austria (17)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -846,14 +973,19 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Ludwig Reiter Schuhmanufaktur GmbH | dimensione | Il fatturato di ca. 15 Mio EUR e i ca. 60 dipendenti attribuiti a Wikipedia/AustriaWiki (2019-2023) non trovano riscontro: la voce Wikipedia riporta solo dati storici di organico (ca. 70 addetti nel 1919, ca. 130 nel 1966) e nessun dato di fatturato  | https://de.wikipedia.org/wiki/Ludwig_Reiter_Schuhmanufaktur - frammento: "In 1919, approximately 70 employees were employed, and in 1966, the company  |  |
 | Mayr - Schulmöbel Gesellschaft m.b.H. | dimensione | Il fatturato di ca. 39,0 Mio EUR (stima Die Deutsche Wirtschaft) e' smentito dai dati di ricavo pubblicati dall'azienda/stampa locale: 21 Mio EUR nel 2013, 22,4 Mio EUR nel 2014, 23,1 Mio EUR nel 2016 (+5%). Cade quindi anche l'avvertenza 'AZIENDA DI | https://www.meinbezirk.at/salzkammergut/c-wirtschaft/50000-schueler-lernen-erfolgreich-auf-sesseln-von-mayr-schulmoebel_a824339 - frammento: "In 2013  | Fatturato ca. 23,1 Mio € (2016, ultimo dato pubblicato), ca. 145 dipendenti |
 | Mayr - Schulmöbel Gesellschaft m.b.H. | dimensione | Il secondo Geschaeftsfuehrer indicato nel campo ('Ing. Florian Huemer') non e' riscontrato: le fonti riportano come coppia di GF Franz Josef Wiener (referente del record, corretto) e Maximilian Auinger. | https://newsroom.kommhaus.com/qualitaetsschulmoebel-made-in-austria/ - frammento: "The two managing directors of Mayr Schulmoebel are Franz Josef Wien | Secondo Geschäftsführer: Maximilian Auinger |
-| Meyer Parkett GmbH | sede | La sede legale/operativa non e' piu' Kalsdorf bei Graz: il Firmenbuch e herold indicano Sternweg 2, 8141 Premstaetten (Graz-Umgebung). Anche firmenabc riporta ora l'azienda 'in Premstaetten'. Trasferimento oggetto di Kundmachung comunale 2024. | https://www.evi.gv.at/f/226133z (titolo: 'Meyer Parkett GmbH 8141 Premstaetten \| Firmenbuch'); https://www.herold.at/gelbe-seiten/premst%C3%A4tten/qS | Premstätten (Steiermark) |
-| Rauchenzauner Möbel GmbH | dimensione | Il fatturato di 18,8 M€ e' una stima Die Deutsche Wirtschaft, non un dato firmenabc: la fonte va attribuita correttamente. Il dato di bilancio reale disponibile e' il totale attivo 4.454.624,41 EUR al 31.03.2025. La societa' e' inoltre di costituzion | https://www.evi.gv.at/f/611446k ('Bilanz zum 31.03.2025 ... Bilanzsumme 4.454.624,41 EUR'; 'eingetragen 06.09.2023'); https://www.firmenabc.at/rauchen | Totale di bilancio 4,45 Mio EUR (31.03.2025, Firmenbuch); 50-99 dipendenti (firmenabc); fatturato non pubblicato — 18,8  |
+| Meiberger Holzbau GmbH | dimensione | Il totale di bilancio 11,33 Mio EUR (31.01.2025) e' confermato, ma non sostiene la stima di fatturato 10-15 Mio EUR: la voce e' composta per 8,67 Mio EUR da immobilizzazioni (Anlagevermögen), con patrimonio netto 3,36 Mio EUR. Trattandosi di una Zimm | https://www.firmenabc.at/meiberger-holzbau-gmbh_cXK ('Bilanzsumme 11.328.315,08 EUR; Eigenkapital 3.358.529,11 EUR; Anlagevermögen 8.673.136,11 EUR',  | Totale di bilancio 11,33 Mio EUR (31.01.2025, firmenabc.at), di cui 8,67 Mio EUR immobilizzazioni; fatturato non pubblic |
+| Meyer Parkett GmbH | sede | La sede non e' piu' Kalsdorf bei Graz: Firmenbuch, herold e firmenabc indicano Sternweg 2, 8141 Premstaetten (Graz-Umgebung). Trasferimento oggetto di Kundmachung comunale 2024. | https://www.evi.gv.at/f/226133z (titolo: 'Meyer Parkett GmbH 8141 Premstaetten \| Firmenbuch'); https://www.herold.at/gelbe-seiten/premst%C3%A4tten/qS | Premstätten (Steiermark) |
+| Rauchenzauner Möbel GmbH | dimensione | Il fatturato di 18,8 M€ e' una stima Die Deutsche Wirtschaft, non un dato firmenabc: la fonte e' attribuita male. L'unico dato di bilancio reale e' il totale attivo 4.454.624,41 EUR al 31.03.2025. La societa' e' inoltre di costituzione recente (FN 61 | https://www.evi.gv.at/f/611446k ('Bilanz zum 31.03.2025, Bilanzsumme 4.454.624,41 EUR'; iscritta 06.09.2023; GF Gerhard Rauchenzauner e Sabine Rauchen | Totale di bilancio 4,45 Mio EUR (31.03.2025, Firmenbuch); 50-99 dipendenti (firmenabc); fatturato non pubblicato (18,8 M |
+| Schösswender Möbel Gesellschaft m.b.H. | dimensione | Il solo dato di fatturato citato e' quello di gruppo del 2012 (28 M€): 13 anni di anzianita', inutilizzabile per il dimensionamento. La stima 15-25 M€ per la sola societa' mobili resta non confermata. Va inoltre tenuto presente il legame di gruppo (S | https://www.firmenabc.at/schoesswender-moebel-gesellschaft-m-b-h_jQF ; https://www.northdata.com/Sch%C3%B6sswender%20M%C3%B6bel%20GmbH,%20Franking/035 |  |
+| Speedmaster GmbH | dimensione | Il campo dichiara 'fatturato e dipendenti non pubblicati', ma entrambi i dati sono pubblici: ca. 29 Mio EUR di fatturato annuo e ca. 300 dipendenti nella sede di Eberstalzell, piu' un secondo stabilimento produttivo a Steinsfeld (Germania). L'azienda | https://www.meinbezirk.at/wels-wels-land/c-wirtschaft/stelzer-bei-speedmaster-in-eberstalzell_a5975977 ('erwirtschaftet einen Jahresumsatz von 29 Mill | Fatturato ca. 29 Mio EUR/anno e ca. 300 dipendenti (meinbezirk.at, Landeshauptmann-Besuch); secondo stabilimento a Stein |
+| Storebest Ladeneinrichtungen GmbH | referente | Gernot Karlsböck risulta Prokurist (authorized signatory) della '"Storebest" Ladeneinrichtungen Gesellschaft m.b.H.', mentre come Geschäftsführer e' indicato Martin Klapka. Il referente dichiarato non e' quindi il vertice statutario. DA CONFERMARE su | https://www.firmenabc.at/storebest-ladeneinrichtungen-gesellschaft-m-b-h_um ('Gernot Karlsböck (Dkfm.) ... Prokurist; Martin Klapka ... Geschäftsführe |  |
 | Tschurtschenthaler Gerberei GmbH | sito | Sito aziendale assente ('n.d.'): nessun dominio proprio individuato nelle fonti pubbliche, solo schede di directory (herold, cylex, europages). | https://www.herold.at/gelbe-seiten/st-stefan-im-gailtal/RZ2RJ/tschurtschenthaler-gerberei-gmbh/ - scheda senza URL aziendale |  |
 | Waldviertler Werkstätten GmbH | dimensione | Dato di fatturato datato (2016-2019) e non riconciliato: le fonti citano 31 Mio EUR di ricavi 2016 riferiti all'universo GEA e, per la controllante Heinrich Staudinger GmbH, un totale di bilancio 2024 di 5,45 Mio EUR. Il perimetro societario del dato | https://www.firmenabc.at/heinrich-staudinger-gmbh-gea-waldviertler_NTLA - frammento: "balance sheet total of EUR 5.454.811,76 as of December 31, 2024" |  |
+| Wittmann Möbelwerkstätten GmbH | dimensione | Conferma dell'incoerenza gia' segnalata: la stima Die Deutsche Wirtschaft di 45,0 Mio EUR e' riferita al 2023, mentre il totale di bilancio 2024 e' 9.611.765,78 EUR. Nessun fatturato ufficiale pubblicato. Esiste inoltre una seconda 'Wittmann Möbelwer | https://die-deutsche-wirtschaft.de/famu_top/oesterreich-wittmann-moebelwerkstaetten-gmbh-etsdorf-am-kamp-umsatz-mitarbeiterzahl/ (stima 45,0 Mio EUR,  |  |
 
 ---
 
-## 6. Casi di gravità BASSA (114)
+## 6. Casi di gravità BASSA (123)
 
 _Refusi formali e incoerenze di stile._
 
@@ -901,12 +1033,13 @@ _Refusi formali e incoerenze di stile._
 | Hollolan Viilu ja Laminaatti Oy (HVL) | dimensione | Il valore 5,4 M€ (2025) e' confermato ma la serie storica e' bassa (4,47 M€ nel 2023, 4,7 M€ nell'esercizio precedente): l'azienda oscilla intorno alla soglia minima di 5 M€ della forbice. Da valutare come lead marginale. | https://search.vainu.com/company/hollolan-viilu-ja-laminaatti-oy-taloustiedot-ja-liikevaihto/FI09821550/yritystiedot — frammento: "2025: 5.4 million e |  |
 | Kankarin Kaluste Oy | dimensione | Serie storica incoerente con le fonti: il record indica 18,8 M€ per il 2024, mentre le fonti riportano oltre 23 M€ nel 2023 e 22 M€ nel 2025 (69 dip.). Il dato 2025 e' corretto; il dato intermedio 2024 va riverificato. | https://puumieslehti.fi/kuukauden-juttu/kankarin-kaluste-oy-kiintokalusteita-kihniosta-40-vuoden-kokemuksella/ e https://vainu.io/company/kankarin-kal | Liikevaihto 22,0 M€ / 69 dip. (2025) — rimuovere o riverificare il valore 18,8 M€ (2024) |
 
-### Danimarca (17)
+### Danimarca (19)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
 | ALL CREATIVE A/S | referente | Nome del referente incompleto: l'adm. direktor registrato e' Mette Juhl Christensen. Email info@allcreative.dk e sede (vendite Islevdalvej 214, Rodovre; produzione Tulipvej 3, Vejle) risultano confermate. | https://www.proff.dk/firma/all-creative-as/r%C3%B8dovre/papir-og-papirprodukter-produktion/GSG8C7I10K1 (adm. direktor Mette Juhl Christensen) ; https: | Mette Juhl Christensen, Adm. direktor |
 | BØJSØ DØRE & VINDUER A/S | dimensione | Organico non allineato: le fonti reperite indicano 43 dipendenti, il record ne indica 41. Inoltre il campo non riporta alcun dato economico verificato (né fatturato né bruttofortjeneste): la collocazione in forbice 5-40 M€ resta una stima non verific | https://www.proff.dk/firma/b%C3%B8js%C3%B8-d%C3%B8re-vinduer-as/vorbasse/producenter/GJL0QJI016D — frammento: "Bøjsø doors and windows was founded in  | 43 dipendenti (proff.dk, CVR 12224494); dato economico da recuperare a bilancio |
+| CAFÉU DENMARK ApS | dimensione | Il bruttofortjeneste di 7,3 mio DKK e' riportato senza anno di riferimento ('ultimo bilancio disponibile'): il mandato richiede tipo di dato + fonte + anno. Corretta invece la segnalazione 'SOTTO IL TARGET' (7,3 mio DKK di margine lordo ~1,0 M€). | https://www.proff.dk/firma/caf%C3%A9u-denmark-aps/esbjerg-n/n%C3%A6rings-og-nydelsesmidler/GT4AIYI116S - CVR 33243537, NACE 463700 'engroshandel med k | Indicare l'anno di bilancio del bruttofortjeneste di 7,3 mio DKK — DA CONFERMARE su regnskab |
 | COLOR LABEL A/S | ruolo | Ruolo generico e non conforme alla nomenclatura danese. Erik Groenning risulta effettivamente in carica ma con il titolo di adm. direktoer. | https://www.colorlabel.dk/om-color-label - 'Color Label ... etableret af Erik Groenning, der fortsat leder virksomheden'; proff.dk CVR 15136901 riport | Adm. direktør (fondatore) |
 | COLOR LABEL A/S | dimensione | Anno di fondazione discordante: il campo indica 'fondata 1991', il sito aziendale indica la fondazione nel 1980 da parte di Erik Groenning (1991 e' verosimilmente la data di registrazione dell'attuale CVR 15136901). | https://www.colorlabel.dk/om-color-label - azienda 'etableret' nel 1980 da Erik Groenning | fondata nel 1980 (attuale CVR 15136901 registrato nel 1991) — DA CONFERMARE |
 | COPENHAGEN CHOCOLATE FACTORY ApS | denominazione | IDENTITA' ANNOTATA CONFERMATA CORRETTA: CVR 32761844, Amager Landevej 123, 2770 Kastrup, costituita il 26-01-2010, ApS; opera con i binavne 'Simply Chocolate Copenhagen' e www.simplychocolate.dk; direttore Niels Ostenkaer; capogruppo SOLSTRA INVESTME | https://cvrapi.dk/virksomhed/dk/copenhagen-chocolate-factory-aps/32761844 ; https://www.simplychocolate.dk/pages/handelsbetingelser - 'www.simplychoco |  |
@@ -915,6 +1048,7 @@ _Refusi formali e incoerenze di stile._
 | INNOVATION LIVING A/S (già Innovation Rander | linkedin | URL LinkedIn con prefisso di locale tedesco (de.linkedin.com) per una società danese. Non è un errore di pagina ma è incoerente con lo standard del dataset (dk. o www.). | Valore del record: https://de.linkedin.com/company/innovation-living-a-s | https://dk.linkedin.com/company/innovation-living-a-s |
 | JOHNSEN GRAPHIC SOLUTIONS A/S (oggi anche Jo | denominazione | La ragione sociale attuale del CVR 18624141 e' JOHNSEN PRINT & DIGITAL MEDIA A/S; 'Johnsen Graphic Solutions A/S' e' la denominazione precedente, non un secondo nome in uso. La formulazione del campo inverte nome storico e nome attuale. | https://virmo.dk/firma/18624141-johnsen-print-digital-media-as e https://cvrapi.dk/virksomhed/dk/johnsen-graphic-solutions-as/18624141 - 'JOHNSEN PRIN | JOHNSEN PRINT & DIGITAL MEDIA A/S (già Johnsen Graphic Solutions A/S) — CVR 18624141 |
 | Just Coffee | sede | La sede registrata al CVR e' Frederiksborgvej 551, 4000 Roskilde, non Jyllinge: il riferimento a Jyllinge deriva dal testo promozionale del sito ('risteriet ligger paa en gaard i Jyllinge lige uden for Roskilde'). Il comune e' comunque Roskilde, Regi | https://www.proff.dk/firma/just-coffee-is/roskilde/producenter/GUO2ZPI016D - 'Frederiksborgvej 551, 4000 Roskilde'; https://estatistik.dk/virksomhed/j | Frederiksborgvej 551, 4000 Roskilde, Regione Sjaelland |
+| MC EMBALLAGE A/S | dimensione | Il dato di bilancio e' riportato senza anno di riferimento (mandato: tipo di dato + fonte + anno). Il bruttofortjeneste di 110 mio DKK e il risultato di 48,257 mio DKK si riferiscono all'esercizio 2025; gli addetti sono 87 (non '79-87'). Confermati i | https://www.proff.dk/firma/mc-emballage-as/hinnerup/engroshandel-andet/06HCM2I10N6 - 'I 2025 viste regnskabet en bruttofortjeneste paa 110 mio. DKK .. | Bruttofortjeneste 110 mio DKK (esercizio 2025, ~14,7 M€ di margine lordo), risultato 48,3 mio DKK, 87 dipendenti (proff. |
 | N. EILERSEN A/S | fonte | Il CVR corretto della societa' e' 35118519 (non indicato nel record, che non riporta il numero) e nel registro esiste anche una omonima 'Eilersen A/S' CVR 42555932: rischio di confusione tra le due entita' in fase di contatto/verifica. | https://ownr.dk/companies/public-profile/35118519 ; https://virmo.dk/firma/42555932-eilersen-as | Indicare esplicitamente CVR 35118519 per N. EILERSEN A/S |
 | NIELAUS A/S | dimensione | Numero di dipendenti non allineato alla fonte citata: la scheda proff.dk (CVR 35480943) riporta 19 addetti, il record ne indica 11. | https://www.proff.dk/firma/nielaus-as/bramming/m%C3%B8bler/GUJZBOI015G — frammento: "NIELAUS A/S is a furniture production company located at Vejrup S | 19 dipendenti (proff.dk, CVR 35480943) — verificare l'anno di riferimento |
 | NIELAUS A/S | email | DA CONFERMARE: l'indirizzo info@nielaus.dk non compare letteralmente in nessuna fonte pubblica reperita; la pagina Kontakt del sito ufficiale protegge l'indirizzo dagli spambot e non lo espone in chiaro nei frammenti. | https://www.nielaus.dk/da/om-os/kontakt — frammento: "Email: Available on their website (protected against spambots)" |  |
@@ -1000,7 +1134,7 @@ _Refusi formali e incoerenze di stile._
 | Silco NV | sito | Nessun sito web proprio reperito per Silco NV in 3 ricerche: l'azienda compare solo su banche dati societarie (trendstop, companyweb, fincheck, northdata, staatsbladmonitor). Coerente con la struttura a 1 FTE. Il campo vuoto e' quindi corretto, ma va | https://www.northdata.com/Silco%20N.V.,%20Antwerpen/KBO%200715.792.692 - solo scheda registro; nessun dominio aziendale nei risultati | n.d. (nessun sito web aziendale) |
 | VC Wood Zottegem NV | linkedin | L'URL LinkedIn indicato (company/vc-wood-zottegem) non corrisponde alla pagina che emerge dalle ricerche, che e' company/vc-wood. DA CONFERMARE quale delle due sia attiva. | https://be.linkedin.com/company/vc-wood (risultato di ricerca per 'VC Wood Zottegem houthandel') | https://be.linkedin.com/company/vc-wood |
 
-### Austria (6)
+### Austria (13)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -1008,8 +1142,15 @@ _Refusi formali e incoerenze di stile._
 | Holzindustrie Schafler GmbH & Co KG | ruolo | Il ruolo riportato ('Gewerberechtlicher Geschaeftsfuehrer') sottostima la posizione: l'Impressum aziendale indica Bernd (Christoph) Schafler come Geschaeftsfuehrer e proprietario, quarta generazione familiare. | https://www.schafler-holz.at/impressum - frammento: "Geschaeftsfuehrer: Bernd Schafler... current managing director and owner Bernd Christoph Schafler | Geschäftsführer / Inhaber |
 | Karnische Massiv Möbel GmbH | denominazione | Ragione sociale a Firmenbuch: 'Karnische-Massiv-Moebel Gesellschaft m.b.H.' (con trattini), FN 094638z, LG Klagenfurt; 'Karnische Massiv Moebel GmbH' e' il nome commerciale. Refuso formale. Confermati invece GF Werner Hohenwarter (fratello Otto Proku | https://www.firmenabc.at/karnische-massiv-moebel-gesellschaft-m-b-h_Xyc e https://www.northdata.de/Karnische-Massiv-M%C3%B6bel%20GmbH,%20Kirchbach/094 | Karnische-Massiv-Möbel Gesellschaft m.b.H. |
 | MAFI Naturholzboden GmbH | dimensione | Il fatturato di 22,3 Mio EUR e' datato al 2017 nel record, ma la fonte (die-deutsche-wirtschaft.de) lo presenta come dato piu' recente disponibile con crescita del 2,8% rispetto a una stima precedente di 20,0 Mio EUR. Anno di riferimento da riconferm | https://die-deutsche-wirtschaft.de/famu_top/oesterreich-mafi-naturholzboden-gmbh-schneegattern-umsatz-mitarbeiterzahl/ - frammento: "The most recent a |  |
-| Mühlbauer Holz GmbH | sede | Himberg e' la sede operativa (Franz-Lehn-Gasse 7, 2325 Himberg), ma la sede legale iscritta al Firmenbuch e' 1080 Wien, Laudongasse 47/52 (anche l'iscrizione WKO e' su Vienna). Da esplicitare per evitare mismatch anagrafico. | https://www.evi.gv.at/f/283235y (titolo: 'Mühlbauer Holz GmbH 1080 Wien \| Firmenbuch'); https://firmen.wko.at/m%C3%BChlbauer-holz-gmbh/wien/ | Himberg (Niederösterreich) — sede operativa; sede legale 1080 Wien |
-| Mühlbauer Holz GmbH | referente | Referente corretto ma da datare: DI Joe Mühlbauer-Elbl e' iscritto come Geschäftsführer dal 04.02.2025, dopo la morte del fondatore/GF Franz Mühlbauer (febbraio 2025). Alcuni siti (Impressum storico) riportano ancora Ing. Franz Mühlbauer. | https://www.holzkurier.com/content/holz/holzkurier/de/holzprodukte/2025/02/franz-muehlbauer-verstorben-.html ; https://www.wirtschaft.at/u/283235y ('v |  |
+| Mühlbauer Holz GmbH | sede | Himberg e' la sede operativa (Franz-Lehn-Gasse 7, 2325 Himberg), ma la sede legale iscritta al Firmenbuch e' 1080 Wien, Laudongasse 47/52 (anche l'iscrizione WKO e' su Vienna). | https://www.evi.gv.at/f/283235y (titolo: 'Mühlbauer Holz GmbH 1080 Wien \| Firmenbuch'); https://firmen.wko.at/m%C3%BChlbauer-holz-gmbh/wien/ | Himberg (Niederösterreich) — sede operativa; sede legale 1080 Wien |
+| Mühlbauer Holz GmbH | referente | Referente corretto ma recentissimo e da datare: DI Joe Mühlbauer-Elbl e' iscritto come Geschäftsführer dal 04.02.2025, dopo la morte del titolare/GF Ing. Franz Mühlbauer (febbraio 2025). Diverse fonti (incl. l'Impressum aziendale indicizzato) riporta | https://www.holzkurier.com/content/holz/holzkurier/de/holzprodukte/2025/02/franz-muehlbauer-verstorben-.html ; https://www.wirtschaft.at/u/283235y ('v |  |
+| SCHAFFER SÄGEWERK-HOLZEXPORT GmbH | ruolo | Markus Schaffer risulta Geschäftsführer a tutti gli effetti dal 01.06.2016 nel Firmenbuch (non solo 'gewerberechtlicher'). Nell'Impressum del sito compare invece come 'Prok. Schaffer Markus'. Il ruolo indicato va semplificato in Geschäftsführer. E-ma | https://www.evi.gv.at/f/137937z ('Markus Schaffer ... seit 01.06.2016'); https://www.schafferholz.com/en/legal-information/ ('Prok. Schaffer Markus, F | Geschäftsführer |
+| Speedmaster GmbH | referente | La societa' ha due Geschäftsführer: Dipl.-Ing. (FH) Hermann Huber e Günther Schweiger (Prokurist: Dr. Philipp Waechter). Hermann Huber e' corretto, ma va indicata la co-gestione con Schweiger, coerente con la nota di scissione da Schweiger GmbH ripor | https://www.evi.gv.at/f/262852y ; https://www.wirtschaft.at/u/262852y (GF: Hermann Huber, Günther Schweiger; Prok. Philipp Waechter) |  |
+| Storebest Ladeneinrichtungen GmbH | denominazione | Ragione sociale esatta a Firmenbuch: '"Storebest" Ladeneinrichtungen Gesellschaft m.b.H.' (FN 117692b); 'Storebest Ladeneinrichtungen GmbH' e' il nome commerciale. | https://www.firmenabc.at/storebest-ladeneinrichtungen-gesellschaft-m-b-h_um ; https://firmen.wko.at/%22storebest%22-ladeneinrichtungen-gesellschaft-mb | "Storebest" Ladeneinrichtungen Gesellschaft m.b.H. |
+| Wallner Holzhandel GmbH | referente | Gerhard Wallner e' Geschäftsführer a pieno titolo (non solo 'gewerberechtlicher') e la gestione e' condivisa con Mag. Hans-Christian Riegler, BWL, secondo Geschäftsführer indicato nell'Impressum aziendale. | https://www.holz-wallner.at/de/impressum ('Geschäftsführung: Gerhard Wallner, Mag. Hans-Christian Riegler BWL; FN 267061m, HG St. Pölten'); https://ww | Geschäftsführer (con Mag. Hans-Christian Riegler) |
+| Wallner Holzhandel GmbH | dimensione | L'organico dichiarato (80 dipendenti da WKO/herold) e' inferiore al dato pubblicato dall'azienda: 90 dipendenti. Il fatturato resta non pubblicato, quindi la fascia stimata 20-30 Mio EUR e' priva di riscontro documentale. | https://www.holz-wallner.at/de/impressum / https://www.holz-wallner.at/de/home ('90 Mitarbeiter', Holzgroß- und -einzelhandel, sedi Porschestraße 13 S | 90 dipendenti (holz-wallner.at); fatturato non pubblicato |
+| steininger.designers gmbh | referente | Dato corretto ma incompleto: la Geschäftsführung e' collegiale. Nell'Impressum figurano Mag. Martin Steininger (GF dal 14.10.2008) e Arch. DI Harrytasch Ahmadian. Nessun rilievo su e-mail, sito e sede, tutti confermati (Weinleiten 1, 4113 St. Martin  | https://www.steiningerdesigners.com/impressum-agbs ('Geschäftsführer: Arch. DI Harrytasch Ahmadian, Mag. Martin Steininger; FN 317900a, Landesgericht  |  |
+| weinberger-holz gmbh | dimensione | Il tribunale del registro e' errato: il Firmenbuch di weinberger-holz gmbh (FN 119447h) e' tenuto dal Bezirksgericht Wolfsberg, non dal 'LG Wolfsberg'. Inoltre anche qui il totale di bilancio (16,77 Mio EUR) non e' un fatturato: il dato di ricavi non | https://www.weinberger-holz.at/en/impressum/ ('FN 119447h, Bezirksgericht Wolfsberg'; gewerberechtliche Geschäftsführung Dipl.Ing. Johann Alfred Weinb | Totale di bilancio 16,77 Mio EUR (31.12.2024, firmenabc.at); fatturato non pubblicato. FN 119447h, BG Wolfsberg |
 
 ### (tutti) (1)
 

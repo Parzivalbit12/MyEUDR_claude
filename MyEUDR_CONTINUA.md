@@ -494,8 +494,14 @@ nel report**, non toccato nei fogli.
     pubblicato». Stesso criterio di Dragsbæk (rimossa a ~255 M€). In più: acquisita da STX Group
     (closing 01/12/2024) e filiera reale = UCO/sottoprodotti per biocarburanti, non olio di palma.
 
-**In totale 56 correzioni applicate**, di cui 2 rimozioni. Il censimento passa da **742 a 740
-aziende** (Belgio 95→94, Olanda 100→99); l'ordine dei fogli è ripristinato.
+  - **Weissengruber Möbelmanufaktur GmbH** (Austria) — **in insolvenza**: Sanierungsverfahren
+    aperto al Landesgericht Linz, curatore nominato, voto dei creditori in aprile (registro KSV,
+    EUWID Holz, Nachrichten.at). È esattamente la regola già applicata dal progetto: escluse
+    HAKA Küche, KAPO Möbel, ADA e Schletterer per insolvenza **in corso**, mentre Franz Hauswirth
+    fu mantenuta proprio perché **risanata**. Qui la procedura è aperta.
+
+**In totale 58 correzioni applicate**, di cui 3 rimozioni. Il censimento passa da **742 a 739
+aziende** (Belgio 95→94, Olanda 100→99, Austria 93→92); l'ordine dei fogli è ripristinato.
 
 **Tre cose NON sono state corrette, di proposito** (il dettaglio è in `REPORT_VERIFICA.md` §0-bis):
 1. **Il maiuscolo integrale del foglio Danimarca** (51 record su 89, stile del registro CVR).

@@ -115,5 +115,140 @@
   "gravita": "media",
   "evidenza": "https://signprintpack.dk/2025/01/06/bording-oger-ejerandelen-af-kls-pureprint-og-knud-erik-larsen-takker-af/ - 'Bording koeber Knud Erik Larsen ud af KLS'; https://signprintpack.dk/2023/06/05/bording-kober-kls-pureprint-og-laegger-ny-strategisk-plan/",
   "correzione_proposta": "Controllata (oggi integralmente) di F. E. BORDING A/S dopo il riacquisto della quota di Knud Erik Larsen a fine 2024. Lead da valutare a livello di capogruppo Bording."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "MC EMBALLAGE A/S",
+  "campo": "dimensione",
+  "problema": "Il dato di bilancio e' riportato senza anno di riferimento (mandato: tipo di dato + fonte + anno). Il bruttofortjeneste di 110 mio DKK e il risultato di 48,257 mio DKK si riferiscono all'esercizio 2025; gli addetti sono 87 (non '79-87'). Confermati invece proprieta' 100% dei dipendenti e il direttore.",
+  "gravita": "bassa",
+  "evidenza": "https://www.proff.dk/firma/mc-emballage-as/hinnerup/engroshandel-andet/06HCM2I10N6 - 'I 2025 viste regnskabet en bruttofortjeneste paa 110 mio. DKK ... resultat paa 48,257 mio. DKK ... 87 ansatte'; https://www.mcemballage.dk/om-os - 'MC emballage er 100% medarbejderejet', Peder Kristian Eriksen direktoer da 20 anni",
+  "correzione_proposta": "Bruttofortjeneste 110 mio DKK (esercizio 2025, ~14,7 M€ di margine lordo), risultato 48,3 mio DKK, 87 dipendenti (proff.dk, CVR 10887194). 100% medarbejderejet."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "ODENSE SEGLMÆRKEFABRIK A/S",
+  "campo": "dimensione",
+  "problema": "AZIENDA NON PIU' AUTONOMA. Il CVR 17620487 risulta con stato 'oploest efter fusion' (sciolta a seguito di fusione) e la capogruppo e' OG NORDIC ApS, ossia Optimum Group Nordic, braccio nordico del gruppo olandese Optimum Group. Il record la presenta invece come unita' produttiva indipendente: e' un lead da decidere a livello di capogruppo estera, non locale.",
+  "gravita": "alta",
+  "evidenza": "https://ownr.dk/companies/public-profile/17620487 e https://profiler.dk/17620487/stamdata - CVR 17620487, stato 'oploest efter fusion', 'del af en koncern med OG Nordic ApS som moderselskab'; https://optimumgroup-printing.com/sites/optimum-group-odense-seglmaerke/ - 'Odense Seglmaerke | Optimum Group'",
+  "correzione_proposta": "Odense Seglmærke — sito produttivo di Optimum Group Nordic (OG NORDIC ApS), gruppo Optimum Group (NL). CVR 17620487 sciolto per fusione. Lead da valutare a livello di capogruppo."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "ODENSE SEGLMÆRKEFABRIK A/S",
+  "campo": "sede",
+  "problema": "Sede superata: nel 2025 Optimum Group Nordic ha deciso di trasferire Odense Seglmaerke da Odense ad Ans By (tra Bjerringbro e Silkeborg, Midtjylland) per condividere lo stabilimento con la consociata Etiflex; il trasferimento e' previsto entro fine 2025.",
+  "gravita": "alta",
+  "evidenza": "https://signprintpack.dk/2025/07/14/odense-seglmaerke-forlader-odense/ - 'Odense Seglmaerke forlader Odense' (14.07.2025)",
+  "correzione_proposta": "Ans By (Silkeborg, Midtjylland) dal 2025 — DA CONFERMARE la data effettiva del trasferimento"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "ODENSE SEGLMÆRKEFABRIK A/S",
+  "campo": "sito",
+  "problema": "Il dominio segl.dk non e' piu' il sito operativo: i contenuti sono confluiti su ogn.dk (Optimum Group Nordic), che ospita la pagina di contatto dedicata 'Kontakt_OdenseSeglmaerke'. Di conseguenza anche l'email um@segl.dk va riconfermata sulla nuova pagina di contatto.",
+  "gravita": "media",
+  "evidenza": "https://www.ogn.dk/kontaktodenseseglmaerke - pagina 'Kontakt_OdenseSeglmaerke' di Optimum Group Nordic",
+  "correzione_proposta": "https://www.ogn.dk/ (pagina contatti: https://www.ogn.dk/kontaktodenseseglmaerke)"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "SKJERN PAPER A/S (già Skjern Papirfabrik A/S)",
+  "campo": "dimensione",
+  "problema": "ASSETTO PROPRIETARIO FALSO. Il campo dichiara 'Proprieta' Buur Invest A/S + dirigenti operativi (indipendente danese dal 2005)'. In realta' Skjern Paper A/S e' stata acquisita dal gruppo statunitense SONOCO Products Company (NYSE: SON) con accordo annunciato il 28.09.2022 per ~88 mio USD / 675 mio DKK, closing nel Q4 2022. Non e' un'azienda indipendente danese: la decisione EUDR si colloca presso la capogruppo USA.",
+  "gravita": "alta",
+  "evidenza": "https://www.globenewswire.com/news-release/2022/09/28/2524051/26553/en/Sonoco-to-Expand-European-Manufacturing-with-the-Acquisition-of-Skjern-Paper-in-Denmark.html e https://denmark.dlapiper.com/en/news/dla-piper-advises-sonoco-its-acquisition-skjern-paper - 'DLA Piper advises Sonoco on its acquisition of Skjern Paper'; dbrs.dk 'Skjern Paper solgt for 675 millioner kroner'",
+  "correzione_proposta": "Controllata di Sonoco Products Company (USA) dal Q4 2022 (acquisizione ~675 mio DKK). Produzione ~75.000 t/anno di cartoncino da riciclo. Lead da escludere o da trattare a livello di capogruppo Sonoco."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "SKJERN PAPER A/S (già Skjern Papirfabrik A/S)",
+  "campo": "referente",
+  "problema": "Il nome e la data sono corretti (Nikolaj Bjerre Thybo, adm. direktoer dal 2020) ma, essendo la societa' controllata da Sonoco dal 2022, il referente non e' il decisore finale sulla compliance EUDR. Segnalato per coerenza con il rilievo sull'assetto proprietario.",
+  "gravita": "media",
+  "evidenza": "https://dbrs.dk/artikel/skjern-paper-ny-direktør-overtager-en-solid-grøn-virksomhed e https://www.tvmidtvest.dk/fast-arbejde/papirfabrikken-i-skjern-laver-din-pringles-daase-og-holder-naboerne-varme - 'Nikolaj Bjerre Thybo ... blev udnaevnt til adm. direktoer i 2020'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "SCANLUX PACKAGING A/S",
+  "campo": "dimensione",
+  "problema": "Dato di bilancio obsoleto (esercizio 2023, oltre tre anni) e numero di addetti lasciato indeterminato ('28-38, fonti divergenti'). Si chiude invece il dubbio di perimetro sollevato nel campo: Scanlux e' certificata FSC (C126290) e la gamma e' prevalentemente carta/cartone (carta regalo, scatole, shopper, nastri, imballaggi e-commerce), quindi rientra nell'Allegato I EUDR.",
+  "gravita": "media",
+  "evidenza": "https://scanlux-packaging.com/sustainability-at-scanlux/ - 'FSC certified (C126290)'; https://scanlux-packaging.com/ - 'gift paper, boxes, ribbons, wine packaging', carrier bags ed e-commerce packaging; https://www.proff.dk/firma/scanlux-packaging-as/fredensborg/engroshandel-annet/16AVGYI10N6",
+  "correzione_proposta": "Aggiornare al bilancio piu' recente disponibile e fissare il numero di addetti; confermato il perimetro EUDR (carta/cartone, FSC C126290). Capogruppo Kornelius II ApS; adm. direktør Jan Kornelius Pedersen confermato."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "STIBO COMPLETE A/S (già Rosendahls A/S - Print Design Media)",
+  "campo": "dimensione",
+  "problema": "Il dato '150 dipendenti; fatturato ~200 mio DKK' e' privo di anno e di fonte verificabile ed e' smentito dalle fonti: paqle classifica Stibo Complete A/S nella fascia 200-500 dipendenti e l'esercizio 2025 (chiusura 30 aprile) e' stato in perdita per 33,5 mio DKK. Con una base addetti di 200-500 il fatturato e' verosimilmente ben oltre i 40 M€ della forbice massima.",
+  "gravita": "media",
+  "evidenza": "https://www.paqle.dk/p/stibo-complete-a-s/182143 - 'Stibo Complete A/S · 200-500 ansatte'; https://www.proff.dk/firma/stibo-complete-as/horsens/trykeritjenester/0M3MOWI07QV - 'Stibo Complete A/S kom ud af 2025 med et underskud paa 33,5 mio. kroner ... regnskabsperiode 1. maj - 30. april'",
+  "correzione_proposta": "200-500 dipendenti (paqle 2025); esercizio 2025 (1.5.2024-30.4.2025) chiuso con perdita di 33,5 mio DKK; fatturato non pubblicato. Controllata del gruppo Stibo (fondazione danese). Probabilmente SOPRA la forbice 5-40 M€."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "STIBO COMPLETE A/S (già Rosendahls A/S - Print Design Media)",
+  "campo": "sede",
+  "problema": "La sede legale del CVR 37120928 e' Saturnvej 65, 8700 Horsens; Esbjerg N (Lammefjordsvej 2) e' una delle unita' operative, come Soeborg. Il campo indica solo Esbjerg N. Inoltre l'URL in 'fonte' punta ancora alla scheda proff della denominazione superata 'Rosendahls A/S - Print Design Media'.",
+  "gravita": "media",
+  "evidenza": "https://virmo.dk/firma/37120928-stibo-complete-as - 'Stibo Complete A/S (37120928) - Saturnvej 65, 8700 Horsens'; schede proff.dk distinte per Esbjerg N, Horsens e Soeborg sullo stesso CVR",
+  "correzione_proposta": "Sede legale: Horsens (Saturnvej 65, Midtjylland); unita' operative a Esbjerg N e Søborg. Fonte da aggiornare a https://www.proff.dk/firma/stibo-complete-as/horsens/trykeritjenester/0M3MOWI07QV"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "STOK EMBALLAGE K/S",
+  "campo": "dimensione",
+  "problema": "CONTROLLO DI GRUPPO NON DICHIARATO E FUORI FORBICE. Il campo indica solo la capogruppo formale STOK Denmark ApS senza dire chi la controlla: dal 30.04.2024 STOK e' partecipata in maggioranza dal fondo di private equity statunitense A&M Capital Europe (Alvarez & Marsal Capital), dopo la morte improvvisa del proprietario e una cessione da ~700 mio DKK. Inoltre il fatturato e' pubblicato ed e' fuori forbice: 686,73 mio DKK nel 2025 (~92 M€), risultato 32,9 mio DKK — non 'verosimilmente >50 M€' come stimato.",
+  "gravita": "alta",
+  "evidenza": "https://www.a-mcapital.com/am-capital-europe-announces-majority-investment-in-stok-emballage/ - 'A&M Capital Europe Announces Majority Investment in STOK Emballage'; https://kapwatch.dk/nyheder/kapitalfonde/article17008882.ece - 'Dansk familievirksomhed solgt til amerikansk kapitalfond'; https://www.proff.dk/firma/stok-emballage-ks/langeskov/producenter/GL8Z7BI016D - 'omsaetning 686.730 t.DKK, resultat 32.895 t.DKK (2025)'; koncern di 11 societa' con STOK Denmark ApS capogruppo",
+  "correzione_proposta": "Fatturato 686,7 mio DKK nel 2025 (~92 M€) — FUORI FORBICE (>40 M€). Controllata di maggioranza del fondo statunitense A&M Capital Europe dal 30.04.2024 tramite STOK Denmark ApS (gruppo di 11 societa'). Lead da escludere o da trattare a livello di capogruppo. Adm. direktør Martin Frederiksen confermato in carica."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Copenhagen Coffee Lab ApS",
+  "campo": "dimensione",
+  "problema": "Assetto proprietario non dichiarato: la societa' fa parte di un gruppo di 6 societa' con capogruppo Copenhagen Coffee Lab Holding ApS; il 70% e' stato rilevato dagli investitori danesi Steen Skallebaek e Ole Kristoffersen, mentre i fondatori Allan Krogsgaard Nielsen e Jacob Karlsen conservano il 30%. Steen Skallebaek risulta titolare effettivo (reelle ejer).",
+  "gravita": "media",
+  "evidenza": "https://nordic9.com/news/steen-skallebk-and-ole-kristoffersen-acquire-70-of-copenhagen-coffee-lab-news8170860302/ - 'Steen Skallebaek and Ole Kristoffersen acquire 70% of Copenhagen Coffee Lab'; https://ownr.dk/companies/public-profile/40207929 - 'del af en koncern med i alt 6 virksomheder, moderselskab Copenhagen Coffee Lab Holding ApS; reel ejer Steen Skallebaek'",
+  "correzione_proposta": "Aggiungere: capogruppo Copenhagen Coffee Lab Holding ApS (gruppo di 6 societa'); 70% Steen Skallebæk e Ole Kristoffersen, 30% i fondatori Allan Krogsgaard Nielsen e Jacob Karlsen. Controllo danese, non estero. Referente Allan Krogsgaard Nielsen (direktør) confermato."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "CAFÉU DENMARK ApS",
+  "campo": "referente",
+  "problema": "Campo vuoto: il vertice e' pubblicato e coincide con il titolare della holding gia' citata nel campo dimensione. Steffan Noergaard Tobiesen e' fondatore e direktoer di CaféU Denmark ApS (capogruppo STEFFAN TOBIESEN HOLDING ApS).",
+  "gravita": "media",
+  "evidenza": "https://cvrapi.dk/virksomhed/dk/cafeu-denmark-aps/33243537 e https://www.proff.dk/firma/caf%C3%A9u-denmark-aps/esbjerg-n/n%C3%A6rings-og-nydelsesmidler/GT4AIYI116S - direktoer Steffan Noergaard Tobiesen; https://cafeu.dk/om-os/ - 'Steffan Tobiesen ... stifter'",
+  "correzione_proposta": "Steffan Nørgård Tobiesen — Direktør (fondatore)"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "CAFÉU DENMARK ApS",
+  "campo": "dimensione",
+  "problema": "Il bruttofortjeneste di 7,3 mio DKK e' riportato senza anno di riferimento ('ultimo bilancio disponibile'): il mandato richiede tipo di dato + fonte + anno. Corretta invece la segnalazione 'SOTTO IL TARGET' (7,3 mio DKK di margine lordo ~1,0 M€).",
+  "gravita": "bassa",
+  "evidenza": "https://www.proff.dk/firma/caf%C3%A9u-denmark-aps/esbjerg-n/n%C3%A6rings-og-nydelsesmidler/GT4AIYI116S - CVR 33243537, NACE 463700 'engroshandel med kaffe, te, kakao og krydderier'; recapiti confermati info@cafeu.dk, tel. +45 70 70 11 28, Storstroemvej 42, 6715 Esbjerg N",
+  "correzione_proposta": "Indicare l'anno di bilancio del bruttofortjeneste di 7,3 mio DKK — DA CONFERMARE su regnskab"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "DANSK KAFFE ApS",
+  "campo": "dimensione",
+  "problema": "Assetto proprietario non dichiarato: DANSK KAFFE ApS fa parte di un gruppo di 2 societa' con capogruppo KAFFEA ApS. Manca inoltre la data di costituzione (27.11.2013), utile a qualificare la micro-impresa. Corretta invece la segnalazione 'SOTTO IL TARGET'.",
+  "gravita": "media",
+  "evidenza": "https://proff.dk/firma/dansk-kaffe-aps/odense-c/kaffe-og-te-agentur-og-engros/0EXL1KI0Z8T - 'CVR 25081544, Filosofgangen 9 5, 5000 Odense C, stiftet 27.11.2013, anpartsselskab ... del af en koncern med i alt 2 virksomheder, moderselskab KAFFEA ApS'; direktoer Jens Erik Nielsen confermato",
+  "correzione_proposta": "Aggiungere: capogruppo KAFFEA ApS (gruppo di 2 societa'), societa' costituita il 27.11.2013. Micro-impresa MOLTO SOTTO SOGLIA rispetto al target 5-40 M€."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Estate Coffee Copenhagen A/S",
+  "campo": "dimensione",
+  "problema": "Dati di bilancio obsoleti di cinque anni: il campo cita 'bruttofortjeneste 10 mio DKK (bilancio 2021)' e '10-20 dipendenti', mentre le fonti aggiornate danno bruttofortjeneste 11 mio DKK nel 2023 e 15 mio DKK nel 2024 (~2,0 M€ di margine lordo) e una classe dimensionale di 20-50 addetti. Non e' inoltre dichiarata la capogruppo Smage-Compagniet Holding A/S (CVR 44432382). L'identita' Estate Coffee = Smage-Compagniet (CVR 18179407) e' confermata corretta.",
+  "gravita": "media",
+  "evidenza": "https://www.proff.dk/firma/smage-compagniet-as/haarby/n%C3%A6rings-og-nydelsesmidler/GLOZ6AI116S - 'I 2023 viste regnskabet en bruttofortjeneste paa 11 mio. DKK ... I 2024 ... 15 mio. DKK'; https://www.paqle.dk/p/smage-compagniet-a-s/208839 - 'Smage-Compagniet A/S · 20-50 ansatte'; https://www.proff.dk/firma/smage-compagniet-holding-as/haarby/holdingselskaper/0QGC8UI06Y4",
+  "correzione_proposta": "Bruttofortjeneste 15 mio DKK nel 2024 (~2,0 M€ di margine lordo; 11 mio DKK nel 2023), 20-50 dipendenti; fatturato non pubblicato. Capogruppo Smage-Compagniet Holding A/S. Resta SOTTO IL TARGET. Referente Anders Laursen (adm. direktør) riconfermato in carica."
  }
 ]
