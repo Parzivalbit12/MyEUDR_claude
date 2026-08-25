@@ -472,8 +472,22 @@ nel report**, non toccato nei fogli.
   `6,5 M DKK (≈0,87 M€)`; **`Just Coffee` → `Just Coffee I/S`** (interessentskab, CVR 35492380 —
   la ragione sociale che la raccolta aveva lasciato non verificata) con la riserva sciolta nel
   campo `dimensione`; prefisso LinkedIn `de.` → `dk.` per Innovation Living.
+- **22 correzioni al foglio Italia** (era il più vecchio e il meno verificato, come sospettato):
+  4 forme giuridiche accertate al Registro Imprese con P.IVA — fra cui **`Fonpelli S.p.A.` →
+  `Fonpelli S.r.l.`**, che era proprio *sbagliata* — più 18 normalizzazioni ortografiche
+  `Srl`/`SpA` → `S.r.l.`/`S.p.A.` (lo stile già usato da 41 record su 59).
 
 Dopo l'applicazione: **742 righe invariate**, ordine dei fogli ripristinato.
+
+**Tre cose NON sono state corrette, di proposito** (il dettaglio è in `REPORT_VERIFICA.md` §0-bis):
+1. **Il maiuscolo integrale del foglio Danimarca** (51 record su 89, stile del registro CVR).
+   Un *title case* automatico rovinerebbe gli acronimi: `JKE DESIGN` → `Jke Design`, e lo stesso
+   per NPI, MC, KLS, H.C., DHS. Serve una decisione caso per caso.
+2. **Conceria Beschin** e **Conceria Daniela**: ciascuna corrisponde a **due entità omonime
+   distinte** al Registro (una S.n.c. e una S.r.l. nello stesso comune). Aggiungere la forma
+   giuridica significherebbe *scegliere* quale sia l'operatore EUDR: va accertato prima.
+3. **Le email dubbie** restano `DA CONFERMARE`: il mandato vieta sia di inventarle sia di
+   cancellarle d'ufficio.
 
 ⚠️ **Attenzione per chi riprende**: `applica_correzioni.py` usa **due percorsi diversi**, perché i
 fogli non hanno tutti la stessa origine:
