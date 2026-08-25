@@ -1,0 +1,47 @@
+[
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Akonkosken Saha Oy",
+  "campo": "email",
+  "problema": "L'indirizzo akonkoskensaha@akonkoskensaha.fi non compare in nessuna fonte pubblica: le fonti (Finder/Fonecta/yrityshakemisto) riportano un dominio di posta diverso (netikka.fi), dominio storico dell'azienda distinto dal sito web.",
+  "gravita": "alta",
+  "evidenza": "https://www.finder.fi/Puutavara/Akonkosken+saha+Oy/T%C3%B6ys%C3%A4/yhteystiedot/124414 — frammento: \"Email (Sähköposti): akonkoskensaha@netikka.fi; Puhelin: 020 773 8585; Ähtärintie 23, 63600 Töysä\"",
+  "correzione_proposta": "akonkoskensaha@netikka.fi (da riconfermare sulla pagina https://www.akonkoskensaha.fi/kontakti.html)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Aureskosken Jalostetehdas Oy",
+  "campo": "dimensione",
+  "problema": "Società appartenente a Tammisto-Yhtiöt (gruppo): il legame è già dichiarato nel campo, ma la compliance EUDR si decide a livello di capogruppo — lead da riqualificare sulla holding Tammisto (stesso CEO di Lapuan Saha).",
+  "gravita": "media",
+  "evidenza": "https://www.asiakastieto.fi/yritykset/fi/aureskosken-jalostetehdas-oy/25116026/yleiskuva — frammento: \"Aureskosken Jalostetehdas Oy ... kuuluu Tammisto-Yhtiöihin\"",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Aureskosken Jalostetehdas Oy",
+  "campo": "dimensione",
+  "problema": "Fatturato riportato (15,8 M€ 2024) superato dal bilancio 2025: 18,9 M€ e 52 dipendenti.",
+  "gravita": "bassa",
+  "evidenza": "https://vainu.io/company/aureskosken-jalostetehdas-oy-taloustiedot-ja-liikevaihto/128104/yritystiedot — frammento: \"In 2025, the company had a revenue of 18.9 million euros and employed 52 people; In 2024, revenue was 15.8 million euros\"",
+  "correzione_proposta": "Liikevaihto 18,9 M€ / 52 dip. (2025, Vainu/Asiakastieto)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "CWP Coloured Wood Products Oy",
+  "campo": "dimensione",
+  "problema": "Azienda ACQUISITA: l'intero capitale è stato rilevato da Auroora Yhtiöt Oyj (serial acquirer finlandese, 131 M€ di fatturato, oltre 20 PMI). Il legame di gruppo non è dichiarato nel record; la decisione di compliance EUDR passa alla capogruppo.",
+  "gravita": "alta",
+  "evidenza": "https://auroora.com/en/auroora-yhtiot-acquires-cwp-coloured-wood-products-a-manufacturer-of-coloured-veneer-materials/ — frammento: \"Auroora Yhtiöt Oyj has acquired the entire share capital of CWP Coloured Wood Products Oy\"",
+  "correzione_proposta": "Controllata di Auroora Yhtiöt Oyj (Tampere) — riqualificare il lead sulla capogruppo o scartare"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "CWP Coloured Wood Products Oy",
+  "campo": "dimensione",
+  "problema": "Fatturato 3,4 M€ (2024, in calo da 4,6 M€ 2022 e 4,1 M€ 2023): sotto la soglia minima tollerabile di 5 M€, senza che il campo lo segnali.",
+  "gravita": "media",
+  "evidenza": "https://www.asiakastieto.fi/yritykset/fi/cwp-coloured-wood-products-oy/18959252/taloustiedot — frammento: \"revenue was 3.4 million euros in 2024; 4.1 million euros in 2023; 4.6 million euros in 2022\"",
+  "correzione_proposta": "Liikevaihto 3,4 M€ (2024) — FUORI FORBICE (sotto i 5 M€)"
+ }
+]

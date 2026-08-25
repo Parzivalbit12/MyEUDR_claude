@@ -75,11 +75,24 @@ I rilievi si concentrano invece su qualità e coerenza redazionale:
 ---
 
 
-## 0-bis. Correzioni già applicate al workbook (54)
+## 0-bis. Correzioni già applicate al workbook (56)
 
 Applicate **solo le correzioni certe**, secondo il mandato: refusi formali, entità HTML, forme giuridiche, filiere fuori Allegato I, aziende cessate. Tutto il resto resta come rilievo aperto in questo report.
 
-Ogni correzione è stata applicata con un **controllo di guardia**: lo script verifica che il valore attuale del campo coincida esattamente con quello atteso, altrimenti salta la correzione. Dopo l'applicazione: **742 righe invariate**, ordine dei fogli ripristinato (Italia, Germania, Finlandia, Danimarca, Svezia, Olanda, Belgio, Austria).
+Ogni correzione di campo è stata applicata con un **controllo di guardia**: lo script verifica che il valore attuale del campo coincida esattamente con quello atteso, altrimenti salta la correzione, così lo script è rieseguibile senza rischi. Dopo l'applicazione le righe sono **740** (due rimozioni motivate, vedi sotto) e l'ordine dei fogli è ripristinato (Italia, Germania, Finlandia, Danimarca, Svezia, Olanda, Belgio, Austria).
+
+
+### Record rimossi dal censimento (2)
+
+Sono le uniche righe **tolte** dai fogli. Entrambe rientrano in una categoria che il mandato autorizza a correggere, e in entrambi i casi il progetto aveva già applicato lo stesso criterio a un caso analogo.
+
+**Helvoet Rubber & Plastic Technologies NV** — foglio Belgio  
+FUORI PERIMETRO EUDR: la gamma elastomeri dichiarata dall'azienda stessa (helvoet.com/rubber) comprende solo polimeri sintetici — IIR, CR, EPDM, NBR, AEM/ACM, AU, VMQ/FMVQ, FKM, HNBR, FFKM — piu' termoplastici e silicone LSR. La gomma naturale non compare. Nessuna commodity dell'Allegato I: stesso criterio gia' applicato a RICO Elastomere (silicone) in Austria e a Immobra (olio di lino) in Belgio. E' inoltre filiale del gruppo olandese Helvoet (Hydratec 2015, poi RF Plast 09/2024), non una PMI belga indipendente.
+
+**Marine Olie Handel Maatschappij B.V.** — foglio Olanda  
+FUORI TAGLIA (stesso criterio di Dragsbaek, rimossa a ~255 M€): il bilancio 2022 riporta un fatturato di quasi 400 M€, dieci volte il tetto della forbice 5-40 M€ — mentre il campo Dimensione affermava che il fatturato «non e' pubblicato». Non e' un caso di confine. Si aggiungono due motivi concordanti: acquisita da STX Group con closing 01/12/2024 (non piu' indipendente) e filiera dichiarata «Olio di palma» mentre le fonti la descrivono come trader di sottoprodotti alimentari e olio da frittura usato (UCO) per biocarburanti.
+
+Il totale del censimento passa quindi da **742 a 740 aziende** (Belgio 95→94, Olanda 100→99).
 
 
 ### Tassonomia `Filiera` (23)
@@ -170,13 +183,13 @@ Tre categorie di rilievi formali sono state lasciate aperte nel report invece ch
 |---|--:|--:|--:|--:|--:|--:|
 | Italia | 95 | 1 | 0 | 4 | 19 | 20% |
 | Germania | 97 | 1 | 0 | 5 | 17 | 18% |
-| Finlandia | 84 | 0 | 0 | 5 | 0 | 0% |
+| Finlandia | 84 | 1 | 0 | 4 | 17 | 20% |
 | Danimarca | 89 | 2 | 0 | 3 | 36 | 40% |
 | Svezia | 89 | 1 | 0 | 4 | 18 | 20% |
 | Olanda | 100 | 2 | 0 | 4 | 34 | 34% |
-| Belgio | 95 | 2 | 1 | 2 | 38 | 40% |
+| Belgio | 95 | 3 | 0 | 2 | 57 | 60% |
 | Austria | 93 | 1 | 0 | 4 | 19 | 20% |
-| **TOTALE** | **742** | **10** | **1** | **31** | **181** | **24%** |
+| **TOTALE** | **742** | **12** | **0** | **30** | **217** | **29%** |
 
 _I **blocchi parziali** sono quelli il cui agente è stato interrotto dal limite di sessione: i rilievi già salvati sono validi e inclusi nel report, ma il blocco non è coperto per intero. Il salvataggio incrementale ogni 3-4 record è ciò che ha evitato di perdere quel lavoro._
 
@@ -188,40 +201,40 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 
 ## 2. Rilievi per foglio
 
-**Totale rilievi Fase B: 337** — alta 46 · media 189 · bassa 102.
+**Totale rilievi Fase B: 346** — alta 48 · media 194 · bassa 104.
 
 | Foglio | Rilievi | alta | media | bassa | Aziende toccate |
 |---|--:|--:|--:|--:|--:|
 | Italia | 25 | 0 | 11 | 14 | 17 |
 | Germania | 29 | 1 | 20 | 8 | 17 |
-| Finlandia | 0 | 0 | 0 | 0 | 0 |
+| Finlandia | 5 | 2 | 2 | 1 | 3 |
 | Danimarca | 46 | 14 | 18 | 14 | 32 |
 | Svezia | 36 | 6 | 15 | 15 | 18 |
-| Olanda | 70 | 9 | 47 | 14 | 32 |
+| Olanda | 74 | 9 | 50 | 15 | 33 |
 | Belgio | 115 | 15 | 68 | 32 | 57 |
 | Austria | 15 | 1 | 10 | 4 | 12 |
 | _(tutti)_ | 1 | 0 | 0 | 1 | 1 |
-| **TOTALE** | **337** | **46** | **189** | **102** | **186** |
+| **TOTALE** | **346** | **48** | **194** | **104** | **190** |
 
 ### Rilievi per campo
 
 | Campo | Rilievi | di cui alta |
 |---|--:|--:|
-| dimensione | 148 | 25 |
+| dimensione | 153 | 26 |
 | referente | 80 | 9 |
 | denominazione | 29 | 7 |
-| email | 22 | 1 |
-| linkedin | 18 | 0 |
+| email | 23 | 2 |
+| linkedin | 19 | 0 |
+| filiera | 10 | 4 |
 | ruolo | 10 | 0 |
 | sito | 9 | 0 |
-| filiera | 9 | 4 |
 | sede | 8 | 0 |
-| fonte | 3 | 0 |
+| fonte | 4 | 0 |
 | esistenza_stato | 1 | 0 |
 
 ---
 
-## 3. Tema trasversale — legami di gruppo (57 rilievi)
+## 3. Tema trasversale — legami di gruppo (58 rilievi)
 
 È il problema **più diffuso e meno atteso** emerso dalla verifica: non era fra i 13 punti noti dell'handoff. Numerose aziende del censimento sono controllate di gruppi, spesso esteri o quotati. Per il criterio già applicato dal progetto — che aveva rimosso Lavazza Kaffee, Segafredo Zanetti Austria e Kaffee Partner Austria perché *«la compliance si decide a livello di gruppo, non nella filiale»* — sono **lead di valore dubbio**.
 
@@ -265,6 +278,7 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 | Danimarca | Skagerak Denmark A/S | **NON dichiarato** | Referente errato e legame di gruppo non dichiarato: Skagerak Denmark A/S e' stata acquisita da Fritz Hansen A/S nel dicembre 2021 ed e' oggi il marchio 'Skagerak by Fritz Hansen'. Josef Theodor Kaiser |
 | Danimarca | TIMBERMAN DENMARK A/S | **dichiarato** | Assetto proprietario errato/obsoleto: il record indica solo 'controllata da Timberman Holding ApS ... azionariato nordico'. In realta' nel dicembre 2024 la societa' e' stata acquistata dal gruppo indu |
 | Danimarca | TJOERNEHOEJ MOELLE A/S | **NON dichiarato** | LEAD NON VALIDO. A/S Tjoernehoej Moelle (CVR 34175012) NON e' un'impresa indipendente: e' stata acquistata da DLG nel 1989 dal mugnaio Sander Petersen ed e' oggi una controllata della cooperativa DLG  |
+| Finlandia | CWP Coloured Wood Products Oy | **NON dichiarato** | Azienda ACQUISITA: l'intero capitale è stato rilevato da Auroora Yhtiöt Oyj (serial acquirer finlandese, 131 M€ di fatturato, oltre 20 PMI). Il legame di gruppo non è dichiarato nel record; la decisio |
 | Germania | H. Heitz Furnierkantenwerk GmbH & Co. KG | **NON dichiarato** | CONTROLLO DI GRUPPO NON DICHIARATO: dal 2016 Heitz e societa del gruppo INDUS Holding AG (holding industriale quotata, Bergisch Gladbach). Il record non riporta alcun legame di gruppo: la decisione di |
 | Germania | Weinheimer Leder GmbH | **NON dichiarato** | Struttura di gruppo non dichiarata: Weinheimer Leder GmbH e collegata a Das Lederband GmbH (Weinheim, HRB 724382), con Uwe Holubeck Geschäftsführer di entrambe; le fonti aperte non chiariscono il vers |
 | Olanda | BeBo Parket B.V. | **dichiarato** | Assetto proprietario incompleto: dal 2022 l'azienda e' partecipata dall'investitore Nobel Capital Partners insieme al management di seconda generazione. La partecipazione di private equity non e' dich |
@@ -293,7 +307,7 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 
 ---
 
-## 4. Casi di gravità ALTA (46)
+## 4. Casi di gravità ALTA (48)
 
 _Dato falso, azienda non contattabile, azienda cessata/fallita/acquisita, oppure fuori dal perimetro dell'Allegato I EUDR._
 
@@ -307,6 +321,25 @@ CONTROLLO DI GRUPPO NON DICHIARATO: dal 2016 Heitz e societa del gruppo INDUS Ho
 **Evidenza:** https://www.h-heitz.de/aktuelles/presse/ - 'Seit 2016 gehoert Heitz zur INDUS, einem weltweit agierenden Unternehmen, das Beteiligungen an mittelstaendischen Hidden Champions haelt'
 
 **Correzione proposta:** Controllata di INDUS Holding AG (gruppo quotato) dal 2016; dato dimensionale da integrare con fonte e anno
+
+
+### Finlandia (2)
+
+#### Akonkosken Saha Oy — campo `email`
+
+L'indirizzo akonkoskensaha@akonkoskensaha.fi non compare in nessuna fonte pubblica: le fonti (Finder/Fonecta/yrityshakemisto) riportano un dominio di posta diverso (netikka.fi), dominio storico dell'azienda distinto dal sito web.
+
+**Evidenza:** https://www.finder.fi/Puutavara/Akonkosken+saha+Oy/T%C3%B6ys%C3%A4/yhteystiedot/124414 — frammento: "Email (Sähköposti): akonkoskensaha@netikka.fi; Puhelin: 020 773 8585; Ähtärintie 23, 63600 Töysä"
+
+**Correzione proposta:** akonkoskensaha@netikka.fi (da riconfermare sulla pagina https://www.akonkoskensaha.fi/kontakti.html)
+
+#### CWP Coloured Wood Products Oy — campo `dimensione`
+
+Azienda ACQUISITA: l'intero capitale è stato rilevato da Auroora Yhtiöt Oyj (serial acquirer finlandese, 131 M€ di fatturato, oltre 20 PMI). Il legame di gruppo non è dichiarato nel record; la decisione di compliance EUDR passa alla capogruppo.
+
+**Evidenza:** https://auroora.com/en/auroora-yhtiot-acquires-cwp-coloured-wood-products-a-manufacturer-of-coloured-veneer-materials/ — frammento: "Auroora Yhtiöt Oyj has acquired the entire share capital of CWP Coloured Wood Products Oy"
+
+**Correzione proposta:** Controllata di Auroora Yhtiöt Oyj (Tampere) — riqualificare il lead sulla capogruppo o scartare
 
 
 ### Danimarca (14)
@@ -686,7 +719,7 @@ Nessuna e-mail pubblica reperibile (campo 'n.d.') e nessun sito web aziendale: i
 
 ---
 
-## 5. Casi di gravità MEDIA (189)
+## 5. Casi di gravità MEDIA (194)
 
 _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente errato._
 
@@ -732,6 +765,13 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Weinheimer Leder GmbH | dimensione | Struttura di gruppo non dichiarata: Weinheimer Leder GmbH e collegata a Das Lederband GmbH (Weinheim, HRB 724382), con Uwe Holubeck Geschäftsführer di entrambe; le fonti aperte non chiariscono il verso del controllo. L'azienda e inoltre nata nel 2003 | https://www.northdata.de/Das%20Lederband%20GmbH,%20Weinheim/Amtsgericht%20Mannheim%20HRB%20724382 - collegamento societario con Weinheimer Leder GmbH, |  |
 | ecopell GmbH | dimensione | Campo privo di dato dimensionale ('Umsatz/MA n.d. (dal 1992)'). Le fonti disponibili indicano una micro-impresa: totale di bilancio 2023 pari a ~900 mila EUR (-20,1% sull'anno precedente), capitale sociale 265.000 EUR. E' quindi molto al di sotto del | https://implisense.com/en/companies/ecopell-gmbh-weitnau-seltmans-DE7L5HN3YI34 - 'last published balance sheet total of Ecopell GmbH in 2023 was 900k  | Totale di bilancio ~0,9 Mio EUR (2023, Bundesanzeiger via Implisense) - micro-impresa, fuori forbice target |
 
+### Finlandia (2)
+
+| Azienda | Campo | Problema | Evidenza | Correzione proposta |
+|---|---|---|---|---|
+| Aureskosken Jalostetehdas Oy | dimensione | Società appartenente a Tammisto-Yhtiöt (gruppo): il legame è già dichiarato nel campo, ma la compliance EUDR si decide a livello di capogruppo — lead da riqualificare sulla holding Tammisto (stesso CEO di Lapuan Saha). | https://www.asiakastieto.fi/yritykset/fi/aureskosken-jalostetehdas-oy/25116026/yleiskuva — frammento: "Aureskosken Jalostetehdas Oy ... kuuluu Tammist |  |
+| CWP Coloured Wood Products Oy | dimensione | Fatturato 3,4 M€ (2024, in calo da 4,6 M€ 2022 e 4,1 M€ 2023): sotto la soglia minima tollerabile di 5 M€, senza che il campo lo segnali. | https://www.asiakastieto.fi/yritykset/fi/cwp-coloured-wood-products-oy/18959252/taloustiedot — frammento: "revenue was 3.4 million euros in 2024; 4.1  | Liikevaihto 3,4 M€ (2024) — FUORI FORBICE (sotto i 5 M€) |
+
 ### Danimarca (18)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
@@ -775,7 +815,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Gärsnäs Aktiebolag | dimensione | Lead di dubbia validità (non errore di dato): controllata di Bordet i Stockholm Aktiebolag, legame già dichiarato correttamente. Esiste inoltre notizia stampa di cambio di proprietà ('Gärsnäs AB får ny ägare') di cui andrebbe verificata la data. Dati | allabolag.se (556044-4746): «moderbolaget är Bordet i Stockholm Aktiebolag»; «37 anställda, resultat 583 KSEK, omsättning 80 711 KSEK (2023)»; https:/ |  |
 | Horreds Möbel Aktiebolag | dimensione | Dato 2022 NON aggiornabile con certezza e anzi CONTRADDETTO. allabolag.se riporta oggi per Horreds Möbel AB (556365-1974) 45 dipendenti (contro i 50 del 2022) e un intervallo di fatturato 50.000-99.999 tkr, cioè 50-99,9 MSEK ≈ 4,4-8,8 M€: sarebbe una | https://www.allabolag.se/foretag/horreds-m%C3%B6bel-aktiebolag/horred/butiksinredningar-butiksutrustningar/2K0GDC6I5YDBD - '45 anställda ... omsättnin |  |
 
-### Olanda (47)
+### Olanda (50)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -819,6 +859,9 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | OTR Oiltrade B.V. | filiera | Esposizione all'olio di palma non dimostrata: le fonti pubbliche descrivono OTR Oiltrade come fornitore di 'plantaardige olien voor de voedingsindustrie' senza specificare la palma. Il campo la deduce dai grassi da frittura. DA CONFERMARE la presenza | https://www.oiltrade.nl/over-ons/ e https://nl.kompass.com/c/otr-oiltrade-b-v/nl821699/ - descrizione come fornitore di oli vegetali per l'industria a |  |
 | Origin Bridge (Barchem) | denominazione | Forma giuridica NON risolta dopo 3 ricerche: nessuna fonte pubblica indicizzata riporta la rechtsvorm né una denominazione legale con suffisso. Restano solo KVK 70878315 e P.IVA NL001587917B24 pubblicati dall'azienda stessa. La struttura del numero I | https://originbridge.coffee/legal-information/ e https://originbridge.coffee/contact/ - 'Heidehoflaan 2B, 7244AG Barchem, The Netherlands ... CoC: 708 |  |
 | Origin Bridge (Barchem) | email | L'email del foglio (info@bridgetoorigin.com) NON è quella principale del sito ufficiale: la pagina di contatto di originbridge.coffee indica come recapito dell'entità olandese europe@originbridge.coffee, tel. +31 85 301 6984. info@bridgetoorigin.com  | https://originbridge.coffee/contact/ - 'Origin Bridge Netherlands, Heidehoflaan 2B, 7244AG Barchem ... +31 85 301 6984 ... europe@originbridge.coffee' | europe@originbridge.coffee |
+| PaBrEm B.V. | fonte | Fonte non pertinente: l'URL indicato e la pagina di categoria 'Cocoa Netherlands' di Europages, un elenco generico di fornitori, non una scheda della societa. Non sostiene alcun dato del record. | https://www.europages.co.uk/companies/netherlands/cocoa.html - pagina di elenco B2B per categoria, non profilo aziendale | https://pabrem.com/product/cocoa-mass (oppure una scheda KVK/company.info della societa) |
+| PaBrEm B.V. | dimensione | Nessun dato dimensionale reperibile (fatturato, dipendenti e KVK restano ignoti dopo ricerca mirata) e forti indizi di micro-impresa: unico recapito pubblicato e un numero di cellulare (+31 653354279). Il record e ben sotto la forbice 5-40 M€ e non e | https://www.openpr.com/news/4338347/pabrem-b-v-emerges-as-a-trusted-fresh-fruits-vegetables-cocoa - 'Rollemastate 11, 8925 DA Leeuwarden ... +31 65335 |  |
+| PaBrEm B.V. | filiera | DUBBIO DI PERIMETRO: le fonti descrivono PaBrEm come esportatore/grossista che porta prodotti agricoli 'dai Paesi Bassi verso i mercati mondiali', non come importatore che immette per primo il cacao sul mercato UE. L'obbligo EUDR come operatore va ve | https://www.openpr.com/news/4338347/pabrem-b-v-emerges-as-a-trusted-fresh-fruits-vegetables-cocoa - 'trusted exporter, supplier and wholesaler bringin |  |
 | Rompa Tanneries B.V. | email | Email e sito legati al vecchio marchio (sales@rompa-tanneries.com / www.rompa-tanneries.com). Con la ridenominazione in Vitelco Leather il dominio di riferimento del gruppo e' vitelco.nl; il vecchio sito hulshof.com rimanda ancora a 'Rompa Tanneries' | http://www.hulshof.com/ (titolo pagina: 'Rompa Tanneries') e https://www.vitelco.nl/en/about-us |  |
 | Rompa Tanneries B.V. | referente | Referente e ruolo vuoti. Le fonti stampa locali citano Twan de Bie come 'directeur leerlooierij' dello stabilimento di Lichtenvoorde. DA CONFERMARE la carica attuale dopo il passaggio a Vitelco Leather. | https://www.gld.nl/nieuws/2414011/directeur-leerlooierij-laat-de-wethouder-bellen-dan-lossen-we-het-als-volwassen-mensen-op - frammento: 'De directeur |  |
 | Smeulders Interieurwerken B.V. | email | Email assente ('n.d.'): il lead non e contattabile via e-mail. Il campo dimensione cita j.mulder@smeulders-ig.nl trovata in directory, ma non e riportata nel campo email ne verificata come casella attiva. DA CONFERMARE una casella generica sul domini | https://smeulders-ig.nl/contact/ - pagina contatti del gruppo; il record stesso riporta 'Non risulta pubblicata una casella info@ generica' |  |
@@ -917,7 +960,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 
 ---
 
-## 6. Casi di gravità BASSA (102)
+## 6. Casi di gravità BASSA (104)
 
 _Refusi formali e incoerenze di stile._
 
@@ -953,6 +996,12 @@ _Refusi formali e incoerenze di stile._
 | PFT Holz in Form GmbH | sede | La sede legale (Sitz) iscritta a registro e Schlüsselfeld, con iscrizione presso l'Amtsgericht Stendal (HRB 26378); Mertendorf OT Görschen (Südring 7) e la sede operativa/stabilimento. Il campo non distingue i due livelli. | https://www.northdata.com/PFT%20Holz%20in%20Form%20GmbH,%20Schl%C3%BCsselfeld/Amtsgericht%20Stendal%20HRB%2026378 - 'PFT Holz in Form GmbH, Schlüsself | Stabilimento: Mertendorf OT Görschen (Sachsen-Anhalt); sede legale: Schlüsselfeld (Bayern), HRB 26378 AG Stendal |
 | Paletten Meyer | denominazione | 'Paletten Meyer' e solo il nome commerciale/dominio. La ditta e iscritta come 'Josef Meyer Palettenbau Inh. Julian Meyer' (impresa individuale, non societa di capitali): la forma giuridica va esplicitata perche incide sulla figura del contraente EUDR | https://www.europages.de/JOSEF-MEYER-PALETTENBAU-INH-JULIAN-MEYER/00000005396426-001.html e https://www.wlw.de/de/firma/josef-meyer-palettenbau-inh-ju | Josef Meyer Palettenbau Inh. Julian Meyer (Paletten Meyer) |
 | RMW Wohnmöbel GmbH & Co. KG (Rietberger Möbe | referente | Geschäftsführung incompleta: oltre a Rudolf Eikenkötter risulta Geschäftsführer anche Volker Klocke (RMW Wohnmöbel Verwaltungs GmbH, HRB 6744 AG Gütersloh, socio accomandatario). | https://www.northdata.com/RMW%20Wohnm%C3%B6bel%20Verwaltungs%20GmbH,%20Rietberg/Amtsgericht%20G%C3%BCtersloh%20HRB%206744 e https://www.rmw-wohnmoebel | Rudolf Eikenkötter, Volker Klocke |
+
+### Finlandia (1)
+
+| Azienda | Campo | Problema | Evidenza | Correzione proposta |
+|---|---|---|---|---|
+| Aureskosken Jalostetehdas Oy | dimensione | Fatturato riportato (15,8 M€ 2024) superato dal bilancio 2025: 18,9 M€ e 52 dipendenti. | https://vainu.io/company/aureskosken-jalostetehdas-oy-taloustiedot-ja-liikevaihto/128104/yritystiedot — frammento: "In 2025, the company had a revenue | Liikevaihto 18,9 M€ / 52 dip. (2025, Vainu/Asiakastieto) |
 
 ### Danimarca (14)
 
@@ -993,7 +1042,7 @@ _Refusi formali e incoerenze di stile._
 | Horreds Möbel Aktiebolag | denominazione | Società CONFERMATA ATTIVA (scheda allabolag corrente, nessuna procedura concorsuale rilevata). Va però esplicitato il legame di gruppo: la capogruppo è Horreds Holding AB (esiste anche Horreds Möbel Utvecklings AB, 559016-3324). Nel foglio si legge g | https://www.allabolag.se/5563651974/koncern e frammento allabolag: 'moderbolag är Horreds Holding AB'; https://www.allabolag.se/5590163324/horreds-mob | Indicare la capogruppo: Horreds Holding AB |
 | Tärnsjö Garveri Aktiebolag | dimensione | Numero dipendenti non allineato alla fonte: il record indica 43 dipendenti (2024), allabolag riporta 46. | allabolag.se: «Tärnsjö Garveri Aktiebolag har 46 anställda». Fatturato 51,9 MSEK 2024 (+6%) confermato. | 46 dipendenti |
 
-### Olanda (14)
+### Olanda (15)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -1008,6 +1057,7 @@ _Refusi formali e incoerenze di stile._
 | Gras Wood Wide B.V. | dimensione | Anno di fondazione errato: il record indica 1921, mentre azienda e stampa di settore datano la fondazione al 1868 (sesta generazione familiare, coerente). Il 1921 corrisponde semmai a una successiva iscrizione societaria. | https://www.houtwereld.nl/bedrijven/gras-wood-wide-b-v/ e https://www.graswoodwide.com/over-ons/ - frammento: 'founded in 1868' | Fondata nel 1868 |
 | Gras Wood Wide B.V. | linkedin | Campo LinkedIn vuoto benche' esista la pagina aziendale ufficiale. | https://nl.linkedin.com/company/graswoodwide - titolo: 'Gras Wood Wide \| LinkedIn' | https://nl.linkedin.com/company/graswoodwide |
 | Houtimport Lekkerkerker B.V. | dimensione | Il campo deduce la fascia 10-20 M EUR dal volume (ca. 200.000 m3/anno) senza alcuna fonte di fatturato: la stima non e' sostenuta e va marcata come tale. Il volume in se' e' l'unico dato dichiarato con tipo e fonte. | https://www.houtimportlekkerkerker.nl/ e https://www.creditsafe.com/business-index/en-us/company/houtimport-lekkerkerker-bv-nl01698016 (nessun fattura |  |
+| PaBrEm B.V. | linkedin | Campo LinkedIn vuoto e nessuna pagina aziendale reperita: il lead non ha canale social verificabile. DA CONFERMARE. | nessun risultato LinkedIn per PaBrEm B.V. nelle ricerche effettuate |  |
 | Smeulders Interieurwerken B.V. | referente | Referente riportato con la sola iniziale ('A. Smeulders'). Il nome completo pubblicato e Anton Smeulders, alla guida dell'azienda dal 1992; la proprieta fa capo a Holding Smeulders B.V. | https://smeulders-ig.nl/over-ons/ - 'Anton Smeulders ... leidt het bedrijf sinds 1992'; proprieta Holding Smeulders B.V. | Anton Smeulders |
 | Van de Stadt Houtimport B.V. | dimensione | Indirizzo di sede indicato nel campo ('sede portuale Noorder IJ- en Zeeweg') non coincide con quello registrato oggi: KVK/Drimble e il sito riportano Rijshoutweg 31, 1505 HL Zaandam. Dato di sede obsoleto. | https://drimble.nl/bedrijf/zaandam/15832708/van-de-stadt-houtimport-bv.html - 'Van de Stadt Houtimport B.V. Rijshoutweg'; https://www.telefoonboek.nl/ | Rijshoutweg 31, 1505 HL Zaandam |
 | Van den Berg Hardhout B.V. | linkedin | URL LinkedIn probabilmente errato: la pagina aziendale reperibile e /company/van-den-berg-hardhout-bv---lopik, non /company/vandenberghardhout. | https://nl.linkedin.com/company/van-den-berg-hardhout-bv---lopik - 'Van den Berg Hardhout BV \| LinkedIn' | https://nl.linkedin.com/company/van-den-berg-hardhout-bv---lopik |

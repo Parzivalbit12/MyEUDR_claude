@@ -340,5 +340,41 @@
   "gravita": "media",
   "evidenza": "https://www.oiltrade.nl/over-ons/ e https://nl.kompass.com/c/otr-oiltrade-b-v/nl821699/ - descrizione come fornitore di oli vegetali per l'industria alimentare, nessuna menzione esplicita di olio di palma",
   "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "PaBrEm B.V.",
+  "campo": "fonte",
+  "problema": "Fonte non pertinente: l'URL indicato e la pagina di categoria 'Cocoa Netherlands' di Europages, un elenco generico di fornitori, non una scheda della societa. Non sostiene alcun dato del record.",
+  "gravita": "media",
+  "evidenza": "https://www.europages.co.uk/companies/netherlands/cocoa.html - pagina di elenco B2B per categoria, non profilo aziendale",
+  "correzione_proposta": "https://pabrem.com/product/cocoa-mass (oppure una scheda KVK/company.info della societa)"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "PaBrEm B.V.",
+  "campo": "dimensione",
+  "problema": "Nessun dato dimensionale reperibile (fatturato, dipendenti e KVK restano ignoti dopo ricerca mirata) e forti indizi di micro-impresa: unico recapito pubblicato e un numero di cellulare (+31 653354279). Il record e ben sotto la forbice 5-40 M€ e non e qualificabile come lead.",
+  "gravita": "media",
+  "evidenza": "https://www.openpr.com/news/4338347/pabrem-b-v-emerges-as-a-trusted-fresh-fruits-vegetables-cocoa - 'Rollemastate 11, 8925 DA Leeuwarden ... +31 653354279 ... info@pabrem.com'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "PaBrEm B.V.",
+  "campo": "filiera",
+  "problema": "DUBBIO DI PERIMETRO: le fonti descrivono PaBrEm come esportatore/grossista che porta prodotti agricoli 'dai Paesi Bassi verso i mercati mondiali', non come importatore che immette per primo il cacao sul mercato UE. L'obbligo EUDR come operatore va verificato (l'export di cacao rientra comunque nel regolamento, ma il profilo di rischio e l'interlocutore cambiano).",
+  "gravita": "media",
+  "evidenza": "https://www.openpr.com/news/4338347/pabrem-b-v-emerges-as-a-trusted-fresh-fruits-vegetables-cocoa - 'trusted exporter, supplier and wholesaler bringing agricultural products from the Netherlands to markets worldwide'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "PaBrEm B.V.",
+  "campo": "linkedin",
+  "problema": "Campo LinkedIn vuoto e nessuna pagina aziendale reperita: il lead non ha canale social verificabile. DA CONFERMARE.",
+  "gravita": "bassa",
+  "evidenza": "nessun risultato LinkedIn per PaBrEm B.V. nelle ricerche effettuate",
+  "correzione_proposta": ""
  }
 ]

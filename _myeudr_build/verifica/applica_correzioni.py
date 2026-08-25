@@ -50,7 +50,7 @@ def main():
             for r in data:
                 if norm(r.get("denominazione")) != norm(c["denominazione"]): continue
                 cur = (r.get(c["campo"]) or "")
-                if c.get("da") and cur.strip() != c["da"].strip():
+                if c.get("da") and str(cur).strip() != c["da"].strip():
                     print(f"  ~ {sh}/{c['denominazione']}: valore attuale «{cur[:60]}» "
                           f"≠ atteso «{c['da'][:60]}» — SALTATA")
                     done = True; break

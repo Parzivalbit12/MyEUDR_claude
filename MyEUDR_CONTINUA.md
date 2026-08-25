@@ -484,8 +484,18 @@ nel report**, non toccato nei fogli.
   registrale KBO); `Paletten Meyer` → `Josef Meyer Palettenbau Inh. Julian Meyer` (impresa
   individuale, non società di capitali).
 
-**In totale 54 correzioni applicate.** Dopo l'applicazione: **742 righe invariate**, ordine dei
-fogli ripristinato.
+- **2 record rimossi**, gli unici tolti dai fogli. Entrambi in una categoria che il mandato
+  autorizza a correggere, ed entrambi con un precedente già applicato dal progetto:
+  - **Helvoet Rubber & Plastic Technologies NV** (Belgio) — **fuori perimetro EUDR**: la gamma
+    elastomeri dichiarata dall'azienda stessa è solo sintetica (IIR, CR, EPDM, NBR, FKM, HNBR,
+    FFKM, silicone LSR); la gomma naturale non compare. Stesso criterio di RICO Elastomere (AT).
+  - **Marine Olie Handel Maatschappij B.V.** (Olanda) — **fuori taglia**: bilancio 2022 a quasi
+    **400 M€**, dieci volte il tetto della forbice, mentre il campo dichiarava il fatturato «non
+    pubblicato». Stesso criterio di Dragsbæk (rimossa a ~255 M€). In più: acquisita da STX Group
+    (closing 01/12/2024) e filiera reale = UCO/sottoprodotti per biocarburanti, non olio di palma.
+
+**In totale 56 correzioni applicate**, di cui 2 rimozioni. Il censimento passa da **742 a 740
+aziende** (Belgio 95→94, Olanda 100→99); l'ordine dei fogli è ripristinato.
 
 **Tre cose NON sono state corrette, di proposito** (il dettaglio è in `REPORT_VERIFICA.md` §0-bis):
 1. **Il maiuscolo integrale del foglio Danimarca** (51 record su 89, stile del registro CVR).

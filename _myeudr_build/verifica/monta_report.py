@@ -73,12 +73,24 @@ if corr:
     h.append("Applicate **solo le correzioni certe**, secondo il mandato: refusi formali, entità "
              "HTML, forme giuridiche, filiere fuori Allegato I, aziende cessate. Tutto il resto "
              "resta come rilievo aperto in questo report.\n")
-    h.append("Ogni correzione è stata applicata con un **controllo di guardia**: lo script verifica "
+    h.append("Ogni correzione di campo è stata applicata con un **controllo di guardia**: lo script verifica "
              "che il valore attuale del campo coincida esattamente con quello atteso, altrimenti "
-             "salta la correzione. Dopo l'applicazione: **742 righe invariate**, ordine dei fogli "
+             "salta la correzione, così lo script è rieseguibile senza rischi. Dopo l'applicazione le "
+             "righe sono **740** (due rimozioni motivate, vedi sotto) e l'ordine dei fogli è "
              "ripristinato (Italia, Germania, Finlandia, Danimarca, Svezia, Olanda, Belgio, Austria).\n")
-    perf = [c for c in corr if c["campo"] == "filiera"]
-    altre = [c for c in corr if c["campo"] != "filiera"]
+    rim  = [c for c in corr if c["a"] is None]
+    perf = [c for c in corr if c["a"] is not None and c["campo"] == "filiera"]
+    altre = [c for c in corr if c["a"] is not None and c["campo"] != "filiera"]
+    if rim:
+        h.append(f"\n### Record rimossi dal censimento ({len(rim)})\n")
+        h.append("Sono le uniche righe **tolte** dai fogli. Entrambe rientrano in una categoria che "
+                 "il mandato autorizza a correggere, e in entrambi i casi il progetto aveva già "
+                 "applicato lo stesso criterio a un caso analogo.\n")
+        for c in rim:
+            h.append(f"**{esc(c['denominazione'])}** — foglio {esc(c['foglio'])}  ")
+            h.append(f"{esc(c['motivo'])}\n")
+        h.append("Il totale del censimento passa quindi da **742 a 740 aziende** "
+                 "(Belgio 95→94, Olanda 100→99).\n")
     h.append(f"\n### Tassonomia `Filiera` ({len(perf)})\n")
     h.append("Il foglio **Finlandia** conteneva varianti storiche della tassonomia "
              "(`Legno/Compensato-Prodotti`, `Legno/Segheria-Piallatura`, `Legno/CLT`, "

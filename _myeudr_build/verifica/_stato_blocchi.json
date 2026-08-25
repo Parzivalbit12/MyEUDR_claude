@@ -37,7 +37,11 @@
   "verificati": 19
  },
  "belgio_04": {
-  "stato": "parziale",
-  "verificati": 0
+  "stato": "completo",
+  "verificati": 19
+ },
+ "olanda_02": {
+  "stato": "completo",
+  "verificati": 17
  }
 }
