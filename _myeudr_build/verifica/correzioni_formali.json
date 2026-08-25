@@ -1,0 +1,34 @@
+[
+ {
+  "foglio": "Danimarca",
+  "denominazione": "FREDERICIA FURNITURE A/S",
+  "campo": "dimensione",
+  "da": "Utile lordo 60,4 M DKK ≈ 8,1 M€ nel 2024 (60,4 M DKK anche nel 2023) / 47 dip. nella sede di Fredericia (lasso.dk/proff.dk 2024); risultato ante imposte 6,5 M€ DKK; fatturato non pubblicato. Stima ricavi ~18-27 M€: da verificare. Capogruppo Thomas Graversen Holding ApS (gruppo indipendente danese)",
+  "a": "Utile lordo 60,4 M DKK ≈ 8,1 M€ nel 2024 (60,4 M DKK anche nel 2023) / 47 dip. nella sede di Fredericia (lasso.dk/proff.dk 2024); risultato ante imposte 6,5 M DKK (≈0,87 M€); fatturato non pubblicato. Stima ricavi ~18-27 M€: da verificare. Capogruppo Thomas Graversen Holding ApS (gruppo indipendente danese)",
+  "motivo": "refuso di unità di misura: «6,5 M€ DKK» mescolava euro e corone danesi"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Just Coffee",
+  "campo": "denominazione",
+  "da": "Just Coffee",
+  "a": "Just Coffee I/S",
+  "motivo": "forma giuridica verificata al registro: interessentskab, CVR 35492380 (cvrapi.dk, proff.dk)"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Just Coffee",
+  "campo": "dimensione",
+  "da": "n.d. - impresa familiare, torrefazione propria; importa direttamente caffè verde certificato bio e sostenibile. Fatturato e dipendenti non pubblicati nelle fonti consultate. Fonte: sito aziendale / drypdryp.dk. Probabilmente SOTTO IL TARGET; operatore EUDR (import diretto). · ragione sociale CVR non verificata",
+  "a": "n.d. - impresa familiare, torrefazione propria; importa direttamente caffè verde certificato bio e sostenibile. Fatturato e dipendenti non pubblicati nelle fonti consultate. Fonte: sito aziendale / drypdryp.dk. Probabilmente SOTTO IL TARGET; operatore EUDR (import diretto). · ragione sociale verificata al CVR: Just Coffee I/S, CVR 35492380 (interessentskab), sede Frederiksborgvej 551, 4000 Roskilde",
+  "motivo": "la riserva «ragione sociale CVR non verificata» è stata sciolta dalla verifica: sostituita col dato accertato"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "INNOVATION LIVING A/S (già Innovation Randers A/S)",
+  "campo": "linkedin",
+  "da": "https://de.linkedin.com/company/innovation-living-a-s",
+  "a": "https://dk.linkedin.com/company/innovation-living-a-s",
+  "motivo": "prefisso di locale tedesco su società danese: stessa pagina, prefisso allineato allo standard del dataset"
+ }
+]

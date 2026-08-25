@@ -34,7 +34,7 @@ _Generato da `_myeudr_build/verifica/controlli_automatici.py` · nessun accesso 
 | 4 | 4 · URL malformati (LinkedIn / sito) | 0 |
 | 4b | 4b · Email sintatticamente non conformi | 0 |
 | 5 | 5 · Entità HTML residue | 0 |
-| 6 | 6 · Tassonomia Filiera fuori elenco | 23 |
+| 6 | 6 · Tassonomia Filiera fuori elenco | 0 |
 | 6b | 6b · Separatore filiera non em-dash | 0 |
 | 7 | 7 · Fonte vuota o non URL | 0 |
 | 7b | 7b · Dimensione vuota o n.d. | 6 |
@@ -42,38 +42,30 @@ _Generato da `_myeudr_build/verifica/controlli_automatici.py` · nessun accesso 
 | 8 | 8 · Dimensione fuori forbice 5–40 M€ senza segnalazione esplicita | 8 |
 | 9 | 9 · Denominazione: registri, spazi, numeri | 0 |
 | 9b | 9b · Forma giuridica incoerente col paese del foglio | 0 |
-| 9c | 9c · Nessuna forma giuridica nel nome | 20 |
+| 9c | 9c · Nessuna forma giuridica nel nome | 19 |
 | 9d | 9d · Maiuscolo/minuscolo incoerente dentro il foglio | 52 |
 | 9e | 9e · Forma giuridica scritta in stile incoerente (foglio Italia) | 18 |
 | 10 | 10 · TLD del sito estraneo al paese del foglio | 7 |
 | 11 | 11 · Divergenze fra JSON di build e foglio Excel | 0 |
 | 11b | 11b · Record presente nei JSON ma assente dal foglio | 0 |
 
-**Totale rilievi automatici: 249**
+**Totale rilievi automatici: 225**
 
 
 ## Macro-filiere osservate
 
 | Macro | Occorrenze | In tassonomia |
 |---|--:|:--:|
-| Legno/Arredo | 187 | ✅ |
+| Legno/Arredo | 202 | ✅ |
 | Carta/Packaging | 130 | ✅ |
-| Caffè | 94 | ✅ |
+| Caffè | 96 | ✅ |
 | Cacao/Cioccolato | 80 | ✅ |
 | Mangimi/Soia | 60 | ✅ |
 | Gomma | 49 | ✅ |
+| Legno/Segheria | 39 | ✅ |
 | Bovini/Carne | 35 | ✅ |
-| Legno/Segheria | 33 | ✅ |
 | Pelle/Concia | 32 | ✅ |
 | Olio di palma | 19 | ✅ |
-| Legno/Compensato-Prodotti | 14 | ❌ |
-| Caffè (import caffè verde) | 2 | ❌ |
-| Legno/Segheria-Piallatura | 2 | ❌ |
-| Legno/Segheria e trasformazione | 1 | ❌ |
-| Legno/Commercio-export sahatavara | 1 | ❌ |
-| Legno/CLT (trasformazione) | 1 | ❌ |
-| Legno/Segheria (betulla) | 1 | ❌ |
-| Legno/Piallatura (pannelli/paneelit) | 1 | ❌ |
 
 ---
 
@@ -244,33 +236,9 @@ _Nessun rilievo._
 
 ---
 
-## 6 · Tassonomia Filiera fuori elenco  (23)
+## 6 · Tassonomia Filiera fuori elenco  (0)
 
-| Foglio | Denominazione | Rilievo | Origine |
-|---|---|---|---|
-| Italia | Imperator S.r.l. | macro fuori tassonomia: «Caffè (import caffè verde)»  (valore intero: «Caffè (import caffè verde)») | xlsx:Italia!r65 |
-| Italia | Sandalj Trading Company S.p.A. | macro fuori tassonomia: «Caffè (import caffè verde)»  (valore intero: «Caffè (import caffè verde)») | xlsx:Italia!r71 |
-| Finlandia | Alavus Ikkunat Oy | macro fuori tassonomia: «Legno/Compensato-Prodotti»  (valore intero: «Legno/Compensato-Prodotti — finestre/porte in legno») | xlsx:Finlandia!r4 |
-| Finlandia | Aureskosken Jalostetehdas Oy | macro fuori tassonomia: «Legno/Segheria e trasformazione»  (valore intero: «Legno/Segheria e trasformazione») | xlsx:Finlandia!r5 |
-| Finlandia | CWP Coloured Wood Products Oy | macro fuori tassonomia: «Legno/Compensato-Prodotti»  (valore intero: «Legno/Compensato-Prodotti — impiallacciatura betulla colorata») | xlsx:Finlandia!r6 |
-| Finlandia | Hoisko CLT (CLT Finland Oy) | macro fuori tassonomia: «Legno/Compensato-Prodotti»  (valore intero: «Legno/Compensato-Prodotti — CLT») | xlsx:Finlandia!r12 |
-| Finlandia | Hollolan Viilu ja Laminaatti Oy (HVL) | macro fuori tassonomia: «Legno/Compensato-Prodotti»  (valore intero: «Legno/Compensato-Prodotti — impiallacciatura/laminati») | xlsx:Finlandia!r13 |
-| Finlandia | Jet-Puu Oy | macro fuori tassonomia: «Legno/Segheria-Piallatura»  (valore intero: «Legno/Segheria-Piallatura») | xlsx:Finlandia!r15 |
-| Finlandia | Kiilax Oy | macro fuori tassonomia: «Legno/Compensato-Prodotti»  (valore intero: «Legno/Compensato-Prodotti — compensato betulla/lamellare») | xlsx:Finlandia!r18 |
-| Finlandia | Kinnaskoski Oy | macro fuori tassonomia: «Legno/Segheria-Piallatura»  (valore intero: «Legno/Segheria-Piallatura») | xlsx:Finlandia!r19 |
-| Finlandia | Lammin Ikkuna Oy | macro fuori tassonomia: «Legno/Compensato-Prodotti»  (valore intero: «Legno/Compensato-Prodotti — finestre/porte in legno-alluminio») | xlsx:Finlandia!r22 |
-| Finlandia | Lappiporras Oy | macro fuori tassonomia: «Legno/Compensato-Prodotti»  (valore intero: «Legno/Compensato-Prodotti — scale in legno») | xlsx:Finlandia!r23 |
-| Finlandia | Late-Rakenteet Oy | macro fuori tassonomia: «Legno/Compensato-Prodotti»  (valore intero: «Legno/Compensato-Prodotti — legno lamellare/glulam») | xlsx:Finlandia!r25 |
-| Finlandia | Mahogany Oy | macro fuori tassonomia: «Legno/Compensato-Prodotti»  (valore intero: «Legno/Compensato-Prodotti — impiallacciatura ed erikoisvaneri») | xlsx:Finlandia!r27 |
-| Finlandia | Ollikaisen Hirsirakenne Oy | macro fuori tassonomia: «Legno/Compensato-Prodotti»  (valore intero: «Legno/Compensato-Prodotti — hirsi/lamellare (glulam)») | xlsx:Finlandia!r30 |
-| Finlandia | Orasko Oy | macro fuori tassonomia: «Legno/Commercio-export sahatavara»  (valore intero: «Legno/Commercio-export sahatavara») | xlsx:Finlandia!r31 |
-| Finlandia | Oy CrossLam Kuhmo Ltd | macro fuori tassonomia: «Legno/CLT (trasformazione)»  (valore intero: «Legno/CLT (trasformazione)») | xlsx:Finlandia!r32 |
-| Finlandia | Oy Haka-Wood Ab | macro fuori tassonomia: «Legno/Segheria (betulla)»  (valore intero: «Legno/Segheria (betulla)») | xlsx:Finlandia!r33 |
-| Finlandia | Piklas Oy | macro fuori tassonomia: «Legno/Compensato-Prodotti»  (valore intero: «Legno/Compensato-Prodotti — finestre/porte in legno-alluminio») | xlsx:Finlandia!r36 |
-| Finlandia | Sepa Oy | macro fuori tassonomia: «Legno/Compensato-Prodotti»  (valore intero: «Legno/Compensato-Prodotti — capriate/prodotti strutturali») | xlsx:Finlandia!r40 |
-| Finlandia | Siparila Oy | macro fuori tassonomia: «Legno/Piallatura (pannelli/paneelit)»  (valore intero: «Legno/Piallatura (pannelli/paneelit)») | xlsx:Finlandia!r41 |
-| Finlandia | Sysmän Ikkuna ja Ovi Oy (Päijänne-Ovet) | macro fuori tassonomia: «Legno/Compensato-Prodotti»  (valore intero: «Legno/Compensato-Prodotti — finestre/porte in legno») | xlsx:Finlandia!r43 |
-| Finlandia | Timberwise Oy | macro fuori tassonomia: «Legno/Compensato-Prodotti»  (valore intero: «Legno/Compensato-Prodotti — parquet/pavimenti in legno») | xlsx:Finlandia!r44 |
+_Nessun rilievo._
 
 ---
 
@@ -359,7 +327,7 @@ _Nessun rilievo._
 
 ---
 
-## 9c · Nessuna forma giuridica nel nome  (20)
+## 9c · Nessuna forma giuridica nel nome  (19)
 
 | Foglio | Denominazione | Rilievo | Origine |
 |---|---|---|---|
@@ -373,7 +341,6 @@ _Nessun rilievo._
 | Germania | Schell Schokoladenmanufaktur (Inh. Eberhard Schell) | nessuna forma giuridica riconoscibile | xlsx:Germania!r72 |
 | Danimarca | NPI (Nordic Panel Import) | nessuna forma giuridica riconoscibile | xlsx:Danimarca!r27 |
 | Danimarca | EMBALLAGEFABRIKKEN THY PAP | nessuna forma giuridica riconoscibile | xlsx:Danimarca!r41 |
-| Danimarca | Just Coffee | nessuna forma giuridica riconoscibile | xlsx:Danimarca!r58 |
 | Danimarca | MEJLING LANDHANDEL / SÆBY FRØSALG | nessuna forma giuridica riconoscibile | xlsx:Danimarca!r81 |
 | Danimarca | Naturli' Foods | nessuna forma giuridica riconoscibile | xlsx:Danimarca!r86 |
 | Danimarca | Grambogård | nessuna forma giuridica riconoscibile | xlsx:Danimarca!r89 |

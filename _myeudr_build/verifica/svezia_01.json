@@ -1,0 +1,110 @@
+[
+ {
+  "foglio": "Svezia",
+  "denominazione": "Tärnsjö Garveri Aktiebolag",
+  "campo": "dimensione",
+  "problema": "Legame di gruppo NON dichiarato: il record definisce l'azienda 'la principale conceria indipendente attiva', ma allabolag indica come moderbolag Axel Bodéns Handels Aktiebolag. L'affermazione di indipendenza è falsa e la compliance EUDR si deciderebbe alla capogruppo.",
+  "gravita": "alta",
+  "evidenza": "allabolag.se (556474-7797): «Tärnsjö Garveri Aktiebolag har 46 anställda och dess moderbolag är Axel Bodéns Handels Aktiebolag» — https://www.allabolag.se/foretag/t%C3%A4rnsj%C3%B6-garveri-aktiebolag/t%C3%A4rnsj%C3%B6/producenter/2K13UVPI63IK3",
+  "correzione_proposta": "Sostituire 'principale conceria indipendente attiva' con: 'controllata di Axel Bodéns Handels Aktiebolag (moderbolag)'"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Tärnsjö Garveri Aktiebolag",
+  "campo": "dimensione",
+  "problema": "Numero dipendenti non allineato alla fonte: il record indica 43 dipendenti (2024), allabolag riporta 46.",
+  "gravita": "bassa",
+  "evidenza": "allabolag.se: «Tärnsjö Garveri Aktiebolag har 46 anställda». Fatturato 51,9 MSEK 2024 (+6%) confermato.",
+  "correzione_proposta": "46 dipendenti"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Abstracta AB",
+  "campo": "denominazione",
+  "problema": "Ragione sociale di registro imprecisa: il registro riporta 'Abstracta Aktiebolag' (org.nr 556046-3852), non 'Abstracta AB'.",
+  "gravita": "bassa",
+  "evidenza": "https://www.allabolag.se/foretag/abstracta-aktiebolag/lammhult/m%C3%B6bler-produktion/2JYK1D8I63IJF — «Abstracta Aktiebolag - Org.nr 556046-3852 - Lammhult»",
+  "correzione_proposta": "Abstracta Aktiebolag"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Abstracta AB",
+  "campo": "dimensione",
+  "problema": "Lead di dubbia validità (non errore di dato): controllata al 100% di Lammhults Design Group AB, gruppo quotato — la compliance EUDR si decide alla capogruppo. Il legame è però già dichiarato correttamente nel campo.",
+  "gravita": "media",
+  "evidenza": "allabolag.se: «Abstracta Aktiebolags moderbolag är Lammhults Design Group AB»; lammhultsdesigngroup.com/en/companies/abstracta/ — parte del gruppo dal 1999. VD Yngvi Fridriksson confermato.",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Aktiebolaget Karlaträ",
+  "campo": "referente",
+  "problema": "Campo referente e ruolo vuoti benché il dato sia pubblico: VD registrato è Bo Anders Ingemar Larsson.",
+  "gravita": "media",
+  "evidenza": "allabolag.se befattningshavare (556081-8782): «VD för Aktiebolaget Karlaträ är Bo Anders Ingemar Larsson» — https://www.allabolag.se/befattningshavare/aktiebolaget-karlatr%C3%A4/bottnaryd/s%C3%A5gverk/2JYRN8EI5YHTM",
+  "correzione_proposta": "Referente: Bo Anders Ingemar Larsson — Ruolo: VD (verkställande direktör)"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Aktiebolaget Karlaträ",
+  "campo": "dimensione",
+  "problema": "Fatturato obsoleto: il record riporta 89 711 KSEK (~7,9 M€); l'ultimo esercizio disponibile (2025) è 100 399 KSEK ≈ 8,9 M€.",
+  "gravita": "media",
+  "evidenza": "hitta.se/allabolag: «AB Karlaträ omsatte 100 399 000,00 kr senaste räkenskapsåret (2025)»; 12 anställda confermati.",
+  "correzione_proposta": "≈8,9 M€ (100 399 KSEK, esercizio 2025) / 12 dipendenti"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Aktiebolaget Karlaträ",
+  "campo": "dimensione",
+  "problema": "Legame di gruppo non dichiarato: la società appartiene a una koncern di 2 società con moderbolag Karlaträ Försäljning Aktiebolag (holding di famiglia/vendita).",
+  "gravita": "media",
+  "evidenza": "allabolag.se: «Aktiebolaget Karlaträ ingår i en koncern med totalt 2 bolag, där moderbolaget är Karlaträ Försäljning Aktiebolag» — https://allabolag.se/5561908947/karlatra-forsaljning-aktiebolag",
+  "correzione_proposta": "Aggiungere: 'koncern di 2 società, moderbolag Karlaträ Försäljning AB (holding di vendita del medesimo gruppo familiare)'"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Balungstrands Sågverk AB",
+  "campo": "dimensione",
+  "problema": "Capogruppo incompleta/superata: il record si ferma a Green Wood Sverige AB. Green Wood Sverige AB (con Bäckebrons e Balungstrands) è stata riacquistata da Profura dopo il fallimento del gruppo tedesco Ziegler; il koncernmoderbolag oggi è Profuragruppen AB (181 società, 1.293 addetti, 7.501 MSEK). Lead non valido: la compliance EUDR si decide a livello Profura.",
+  "gravita": "alta",
+  "evidenza": "allabolag.se: «Balungstrands Sågverk AB är ett dotterbolag med Profuragruppen AB som koncernmoderbolag ... totalt 181 bolag, 1 293 anställda, 7 501 MSEK»; https://www.lesprom.com/en/news/Profura_reacquires_B%C3%A4ckebrons_and_Balungstrands_sawmills_in_Sweden_after_Ziegler_Group%E2%80%99s_bankruptcy_117770/",
+  "correzione_proposta": "Controllata di Green Wood Sverige AB; koncernmoderbolag Profuragruppen AB (dal 2025, dopo il fallimento di Ziegler Group)"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Balungstrands Sågverk AB",
+  "campo": "dimensione",
+  "problema": "Rischio di continuità operativa non segnalato: nuovo 'varsel' (procedura di licenziamento collettivo) alla segheria; il fatturato 2025 di 114.525 KSEK (~10,1 M€) è confermato ma con calo -70,1% e risultato di soli 25 KSEK.",
+  "gravita": "media",
+  "evidenza": "Skogsaktuellt, «Nytt varsel vid Balungstrands sågverk» — https://www.skogsaktuellt.se/artikel/2238122/nytt-varsel-vid-balungstrands-sgverk.html ; allabolag: «38 anställda, 114 525 KSEK, resultat 25 KSEK, -70,1% (2025)»",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Baseco Golv Aktiebolag",
+  "campo": "referente",
+  "problema": "Campo referente e ruolo vuoti benché il dato sia pubblico: VD registrato è Karl Eskil Marcus Abrahamsson.",
+  "gravita": "media",
+  "evidenza": "allabolag.se befattningar (556295-1953): «VD är Karl Eskil Marcus Abrahamsson» — https://www.allabolag.se/5562951953/befattningar",
+  "correzione_proposta": "Referente: Marcus Abrahamsson — Ruolo: VD (verkställande direktör)"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Blå Station Aktiebolag",
+  "campo": "linkedin",
+  "problema": "URL LinkedIn probabilmente errato: la pagina aziendale reperibile è linkedin.com/company/bla_station_ab, non /company/blastation.",
+  "gravita": "bassa",
+  "evidenza": "https://www.linkedin.com/company/bla_station_ab/ («Blå Station AB | LinkedIn») emerso in ricerca; nessun risultato per /company/blastation",
+  "correzione_proposta": "https://www.linkedin.com/company/bla_station_ab/"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Blå Station Aktiebolag",
+  "campo": "sito",
+  "problema": "Dominio ufficiale da verificare: il sito istituzionale che compare nelle fonti è blastation.com (pagina 'Company'), mentre il record indica blastation.se.",
+  "gravita": "bassa",
+  "evidenza": "https://blastation.com/company — «Company | Blå Station»",
+  "correzione_proposta": "https://blastation.com/"
+ }
+]

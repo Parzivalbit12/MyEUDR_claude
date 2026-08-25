@@ -869,7 +869,7 @@
  },
  {
   "denominazione": "Imperator S.r.l.",
-  "filiera": "Caffè (import caffè verde)",
+  "filiera": "Caffè — import caffè verde",
   "dimensione": "Importatore caffè verde; fatturato 12,8 mln € (2024); ~10 dipendenti",
   "referente": "",
   "ruolo": "",
@@ -953,7 +953,7 @@
  },
  {
   "denominazione": "Sandalj Trading Company S.p.A.",
-  "filiera": "Caffè (import caffè verde)",
+  "filiera": "Caffè — import caffè verde",
   "dimensione": "Importatore caffè verde; fatturato ~22 mln € (2020)",
   "referente": "Theresa Sandalj",
   "ruolo": "Titolare/direzione (terza generazione)",
@@ -2703,7 +2703,7 @@
  },
  {
   "denominazione": "Alavus Ikkunat Oy",
-  "filiera": "Legno/Compensato-Prodotti — finestre/porte in legno",
+  "filiera": "Legno/Arredo — finestre/porte in legno",
   "dimensione": "Liikevaihto 21,4 M€ (2024) (Vainu)",
   "referente": "Arto Paalanen",
   "ruolo": "Toimitusjohtaja (CEO)",
@@ -2717,7 +2717,7 @@
  },
  {
   "denominazione": "Aureskosken Jalostetehdas Oy",
-  "filiera": "Legno/Segheria e trasformazione",
+  "filiera": "Legno/Segheria — trasformazione",
   "dimensione": "≈15,8 M€ (2024); gruppo Tammisto (stesso CEO di Lapuan Saha)",
   "referente": "Markku Heinonen",
   "ruolo": "Toimitusjohtaja (CEO)",
@@ -2731,7 +2731,7 @@
  },
  {
   "denominazione": "CWP Coloured Wood Products Oy",
-  "filiera": "Legno/Compensato-Prodotti — impiallacciatura betulla colorata",
+  "filiera": "Legno/Arredo — impiallacciatura betulla colorata",
   "dimensione": "Liikevaihto 3,4 M€ (2024); 19 dip. (Asiakastieto)",
   "referente": "Jussi Helve",
   "ruolo": "Managing Director / Toimitusjohtaja",
@@ -2815,7 +2815,7 @@
  },
  {
   "denominazione": "Hoisko CLT (CLT Finland Oy)",
-  "filiera": "Legno/Compensato-Prodotti — CLT",
+  "filiera": "Legno/Arredo — CLT",
   "dimensione": "Liikevaihto 5,0 M€ (2024); 25 dip. (Finder)",
   "referente": "Tero Yli-Sikkilä",
   "ruolo": "Toimitusjohtaja (CEO)",
@@ -2829,7 +2829,7 @@
  },
  {
   "denominazione": "Hollolan Viilu ja Laminaatti Oy (HVL)",
-  "filiera": "Legno/Compensato-Prodotti — impiallacciatura/laminati",
+  "filiera": "Legno/Arredo — impiallacciatura/laminati",
   "dimensione": "Liikevaihto 5,4 M€ (2025); 19 dip. (Asiakastieto/Vainu)",
   "referente": "Jukka Vuoriheimo",
   "ruolo": "Toimitusjohtaja (CEO)",
@@ -2857,7 +2857,7 @@
  },
  {
   "denominazione": "Jet-Puu Oy",
-  "filiera": "Legno/Segheria-Piallatura",
+  "filiera": "Legno/Segheria — piallatura",
   "dimensione": "≈8,4 M€ (2024, Asiakastieto)",
   "referente": "Jukka Jokela",
   "ruolo": "Toimitusjohtaja (CEO)",
@@ -2899,7 +2899,7 @@
  },
  {
   "denominazione": "Kiilax Oy",
-  "filiera": "Legno/Compensato-Prodotti — compensato betulla/lamellare",
+  "filiera": "Legno/Arredo — compensato betulla/lamellare",
   "dimensione": "PMI (compensato betulla/softwood, pannelli lamellari); liikevaihto n.d.",
   "referente": "Jani Olkkonen",
   "ruolo": "Toimitusjohtaja (CEO)",
@@ -2913,7 +2913,7 @@
  },
  {
   "denominazione": "Kinnaskoski Oy",
-  "filiera": "Legno/Segheria-Piallatura",
+  "filiera": "Legno/Segheria — piallatura",
   "dimensione": "≈24,6 M€ / ~30 dip. (2025, Asiakastieto)",
   "referente": "Joonas Nenonen",
   "ruolo": "Toimitusjohtaja (CEO)",
@@ -2955,7 +2955,7 @@
  },
  {
   "denominazione": "Lammin Ikkuna Oy",
-  "filiera": "Legno/Compensato-Prodotti — finestre/porte in legno-alluminio",
+  "filiera": "Legno/Arredo — finestre/porte in legno-alluminio",
   "dimensione": "Liikevaihto 14,6 M€ (2024); 57 dip. (Asiakastieto/Vainu)",
   "referente": "Hannu Saarinen",
   "ruolo": "Toimitusjohtaja (CEO)",
@@ -2969,7 +2969,7 @@
  },
  {
   "denominazione": "Lappiporras Oy",
-  "filiera": "Legno/Compensato-Prodotti — scale in legno",
+  "filiera": "Legno/Arredo — scale in legno",
   "dimensione": "Liikevaihto 2,92 M€ (2024); ~20 dip. (Vainu/Asiakastieto)",
   "referente": "",
   "ruolo": "",
@@ -2997,7 +2997,7 @@
  },
  {
   "denominazione": "Late-Rakenteet Oy",
-  "filiera": "Legno/Compensato-Prodotti — legno lamellare/glulam",
+  "filiera": "Legno/Arredo — legno lamellare/glulam",
   "dimensione": "Liikevaihto 5,5 M€ (2024); 40 dip. (Asiakastieto/Finder)",
   "referente": "Marko Lehtonen",
   "ruolo": "Toimitusjohtaja (CEO)",
@@ -3025,7 +3025,7 @@
  },
  {
   "denominazione": "Mahogany Oy",
-  "filiera": "Legno/Compensato-Prodotti — impiallacciatura ed erikoisvaneri",
+  "filiera": "Legno/Arredo — impiallacciatura ed erikoisvaneri",
   "dimensione": "Liikevaihto 1,3 M€ (2024); 17 dip. (Vainu/Asiakastieto)",
   "referente": "",
   "ruolo": "",
@@ -3067,7 +3067,7 @@
  },
  {
   "denominazione": "Ollikaisen Hirsirakenne Oy",
-  "filiera": "Legno/Compensato-Prodotti — hirsi/lamellare (glulam)",
+  "filiera": "Legno/Arredo — hirsi/lamellare (glulam)",
   "dimensione": "Liikevaihto 15,8 M€ (2025); 52 dip. (Asiakastieto/Vainu)",
   "referente": "Tero Ollikainen",
   "ruolo": "Toimitusjohtaja (CEO)",
@@ -3081,7 +3081,7 @@
  },
  {
   "denominazione": "Orasko Oy",
-  "filiera": "Legno/Commercio-export sahatavara",
+  "filiera": "Legno/Segheria — commercio/export sahatavara",
   "dimensione": "≈28,6 M€ / ~20 dip. (2024, Asiakastieto); trader/esportatore legname",
   "referente": "Hany Yacoub",
   "ruolo": "Toimitusjohtaja / Myyntijohtaja",
@@ -3095,7 +3095,7 @@
  },
  {
   "denominazione": "Oy CrossLam Kuhmo Ltd",
-  "filiera": "Legno/CLT (trasformazione)",
+  "filiera": "Legno/Arredo — CLT",
   "dimensione": "≈5,6 M€ (2025; 8,1 M€ 2023) / ~22 dip. (Asiakastieto)",
   "referente": "Ville Manninen",
   "ruolo": "Toimitusjohtaja (CEO)",
@@ -3109,7 +3109,7 @@
  },
  {
   "denominazione": "Oy Haka-Wood Ab",
-  "filiera": "Legno/Segheria (betulla)",
+  "filiera": "Legno/Segheria — betulla",
   "dimensione": "≈11,9 M€ / ~30 dip. (2023, Asiakastieto)",
   "referente": "Tuomo Saarisilta",
   "ruolo": "Toimitusjohtaja (CEO)",
@@ -3151,7 +3151,7 @@
  },
  {
   "denominazione": "Piklas Oy",
-  "filiera": "Legno/Compensato-Prodotti — finestre/porte in legno-alluminio",
+  "filiera": "Legno/Arredo — finestre/porte in legno-alluminio",
   "dimensione": "Liikevaihto 11,41 M€ (2023) (Vainu); NB: gruppo PRT-Forest",
   "referente": "Risto Pekkarinen",
   "ruolo": "Toimitusjohtaja (CEO)",
@@ -3207,7 +3207,7 @@
  },
  {
   "denominazione": "Sepa Oy",
-  "filiera": "Legno/Compensato-Prodotti — capriate/prodotti strutturali",
+  "filiera": "Legno/Arredo — capriate/prodotti strutturali",
   "dimensione": "Liikevaihto 20,6 M€ (2025); 82 dip. (Proff)",
   "referente": "Sampsa Pöllänen",
   "ruolo": "Toimitusjohtaja (CEO)",
@@ -3221,7 +3221,7 @@
  },
  {
   "denominazione": "Siparila Oy",
-  "filiera": "Legno/Piallatura (pannelli/paneelit)",
+  "filiera": "Legno/Segheria — piallatura (pannelli/paneelit)",
   "dimensione": "≈31,4 M€ / ~119 dip. (2024, Asiakastieto)",
   "referente": "Janne Seilo",
   "ruolo": "Toimitusjohtaja (CEO, dal 2025)",
@@ -3249,7 +3249,7 @@
  },
  {
   "denominazione": "Sysmän Ikkuna ja Ovi Oy (Päijänne-Ovet)",
-  "filiera": "Legno/Compensato-Prodotti — finestre/porte in legno",
+  "filiera": "Legno/Arredo — finestre/porte in legno",
   "dimensione": "Liikevaihto 3,8 M€ (2025); 19 dip. (Asiakastieto/Vainu)",
   "referente": "Anne Sireni",
   "ruolo": "Toimitusjohtaja (CEO)",
@@ -3263,7 +3263,7 @@
  },
  {
   "denominazione": "Timberwise Oy",
-  "filiera": "Legno/Compensato-Prodotti — parquet/pavimenti in legno",
+  "filiera": "Legno/Arredo — parquet/pavimenti in legno",
   "dimensione": "Liikevaihto 10,1 M€ (2024); 36 dip. (Asiakastieto)",
   "referente": "Markku Mäkitalo",
   "ruolo": "Toimitusjohtaja / omistaja",
@@ -3964,7 +3964,7 @@
  {
   "denominazione": "FREDERICIA FURNITURE A/S",
   "filiera": "Legno/Arredo — mobili in legno massello/imbottiti",
-  "dimensione": "Utile lordo 60,4 M DKK ≈ 8,1 M€ nel 2024 (60,4 M DKK anche nel 2023) / 47 dip. nella sede di Fredericia (lasso.dk/proff.dk 2024); risultato ante imposte 6,5 M€ DKK; fatturato non pubblicato. Stima ricavi ~18-27 M€: da verificare. Capogruppo Thomas Graversen Holding ApS (gruppo indipendente danese)",
+  "dimensione": "Utile lordo 60,4 M DKK ≈ 8,1 M€ nel 2024 (60,4 M DKK anche nel 2023) / 47 dip. nella sede di Fredericia (lasso.dk/proff.dk 2024); risultato ante imposte 6,5 M DKK (≈0,87 M€); fatturato non pubblicato. Stima ricavi ~18-27 M€: da verificare. Capogruppo Thomas Graversen Holding ApS (gruppo indipendente danese)",
   "referente": "Rasmus Lehmann Graversen",
   "ruolo": "Adm. direktør (dal 01.05.2024)",
   "linkedin": "https://www.linkedin.com/company/fredericia-furniture-a-s/",
@@ -4079,7 +4079,7 @@
   "dimensione": "Utile lordo 47,3 M DKK ≈ 6,3 M€ nel 2023 (49,9 M DKK nel 2022) / 57 dip. (proff.dk-lasso.dk, CVR 65699516); risultato 13,7 M DKK; fatturato non pubblicato. Stima ricavi ~15-25 M€: da verificare. Parte del gruppo INNOVATION HOLDING A/S (8 società, controllo familiare danese)",
   "referente": "Morten Lind Mølgaard",
   "ruolo": "Direktør",
-  "linkedin": "https://de.linkedin.com/company/innovation-living-a-s",
+  "linkedin": "https://dk.linkedin.com/company/innovation-living-a-s",
   "email": "info@innovationliving.dk",
   "sito": "https://www.innovationliving.com/",
   "sede": "Randers NØ, Region Midtjylland",
@@ -4634,7 +4634,7 @@
   "_row": 57
  },
  {
-  "denominazione": "Just Coffee",
+  "denominazione": "Just Coffee I/S",
   "filiera": "Caffè — import caffè verde bio + torrefazione",
   "dimensione": "n.d. - impresa familiare, torrefazione propria; importa direttamente caffè verde certificato bio e sostenibile. Fatturato e dipendenti non pubblicati nelle fonti consultate. Fonte: sito aziendale / drypdryp.dk. Probabilmente SOTTO IL TARGET; operatore EUDR (import diretto). · ragione sociale CVR non verificata",
   "referente": "",

@@ -1,0 +1,65 @@
+[
+ {
+  "foglio": "Danimarca",
+  "denominazione": "KRYDSFINER-HANDELEN A/S",
+  "campo": "dimensione",
+  "problema": "Controllata di gruppo estero: dall'autunno 2023 la societa' e' stata venduta da Carsten Rittig a Fritzoe Nordic Holding AS (Norvegia), che ne detiene il controllo. Il record lo accenna in forma dubitativa ('riconducibile a proprieta' nordica/scandinava; fonti di settore citano il gruppo norvegese Fritzoe'): il legame e' invece certo e documentato. Lead non prioritario perche' la compliance EUDR si decide alla capogruppo norvegese.",
+  "gravita": "media",
+  "evidenza": "https://fritzoenordic.no/en/selskap/krydsfiner-handelen-a-s/ ; https://www.wood-supply.dk/article/view/1053393/nordmaend_kober_95_ar_gammelt_dansk_familiefirma - 'I efteraret 2023 solgte Carsten Rittig Krydsfiner-Handelen A/S til Fritzoe Nordic Holding AS'",
+  "correzione_proposta": "Dichiarare in modo esplicito: controllata al 100% da Fritzoe Nordic Holding AS (NO) dall'autunno 2023"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "KVIST INDUSTRIES A/S",
+  "campo": "dimensione",
+  "problema": "Assetto proprietario non dichiarato: la societa' figura nel portafoglio del fondo di private equity danese Dansk Ejerkapital ed e' controllata tramite KVIST HOLDING A/S (CVR 21746886, Esbjerg). Il campo dimensione non menziona il legame di gruppo/partecipazione. Inoltre il fatturato e' solo una stima da addetti ('~15-25 M€: da verificare'), non un dato di bilancio.",
+  "gravita": "media",
+  "evidenza": "https://www.danskejerkapital.dk/portefoelje/kvist-industries/ ; https://www.proff.dk/firma/kvist-industries-as/esbjerg/hovedkontortjenester/GMGAWAI10NZ/ (KVIST HOLDING A/S, CVR 21746886)",
+  "correzione_proposta": "Aggiungere: controllata da KVIST HOLDING A/S, partecipata dal fondo Dansk Ejerkapital; fatturato non pubblicato (bilancio classe B)"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Klim Furniture A/S (gia' Klim Mobelfabrik)",
+  "campo": "referente",
+  "problema": "Referente non attuale: dal 2024 il direktor in carica e' Kasper Hogenhaug (che ha acquisito il 50% della societa'); Jan Middelboe resta comproprietario al 50% ma non e' piu' il vertice operativo indicato dalle fonti. Lo stesso campo dimensione del record segnala Kasper Hogenhaug come 'co-proprietario e direttore (dal 2024)', in contraddizione con il campo referente.",
+  "gravita": "alta",
+  "evidenza": "https://jammerbugtavis.dk/kasper-hoegenhaug-bliver-medejer-i-klim-furniture/ ; https://www.wood-supply.dk/article/view/1092962/traditionsrig_mobelproducent_far_ny_medejer_og_direktor - 'Ejerskabet i Klim Furniture er ligeligt fordelt mellem Kasper Hogenhaug og Jan Middelboe, og Kasper Hogenhaug er direktor i selskabet'",
+  "correzione_proposta": "Kasper Hogenhaug, Direktor"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "LILLEHEDEN A/S",
+  "campo": "dimensione",
+  "problema": "Controllata di gruppo: la societa' fa parte di Nordic Wood Industries A/S (CVR 37385603), che dal 12.05.2025 ha un nuovo adm. direktor di gruppo (Holger Carsten Hansen). Il legame e' gia' correttamente dichiarato nel campo, quindi non e' un errore di dato ma una questione di validita' del lead: la compliance EUDR e' verosimilmente accentrata in capogruppo. Nota accessoria: il bruttofortjeneste citato e' del 2023 (dato ormai vecchio di due esercizi; sono disponibili bilanci 2024/2025).",
+  "gravita": "media",
+  "evidenza": "https://nowi.dk/limtraesproducent-styrker-produktionen-markant/ ; https://www.proff.dk/firma/nordic-wood-industries-as/hampen/investeringsselskaper/0M9AWZI00NW ; https://estatistik.dk/virksomhed/nordic-wood-industries-as/37385603/roller",
+  "correzione_proposta": "Aggiornare il bruttofortjeneste all'ultimo esercizio disponibile e valutare il lead a livello di Nordic Wood Industries A/S"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "MULTIFORM A/S",
+  "campo": "dimensione",
+  "problema": "Controllata di gruppo: capogruppo BALLINGSLOV INTERNATIONAL DANMARK A/S (gruppo svedese Ballingslov International / Stena Adactum). Il legame e' gia' dichiarato correttamente nel record, quindi il rilievo riguarda la validita' del lead (compliance EUDR decisa in capogruppo) e non il dato. Si aggiunge che la taglia e' ben sotto la forbice target (bruttofortjeneste 8,1 M DKK ~1,1 M€ nel 2024, risultato -5,4 M DKK).",
+  "gravita": "media",
+  "evidenza": "https://www.proff.dk/firma/multiform-as/kib%C3%A6k/producenter/GLGFCDI016D - 'Multiform er en del af en koncern, hvor modervirksomheden er BALLINGSLOV INTERNATIONAL DANMARK A/S'; https://ownr.dk/companies/public-profile/18606488",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "N. EILERSEN A/S",
+  "campo": "referente",
+  "problema": "Referente errato: Anders Michael Juul Ejlersen risulta membro del consiglio di amministrazione (bestyrelse) e comproprietario, non direktor. Il direktor registrato di N. EILERSEN A/S (CVR 35118519) e' Marianne Lind Koch-Pedersen. Nota anche la grafia ufficiale al CVR: 'Ejlersen'.",
+  "gravita": "alta",
+  "evidenza": "https://www.proff.dk/roller/n.-eilersen-as/skamby/m%C3%B8bler/GKEJPJI015G ; https://ownr.dk/companies/public-profile/35118519 - direktor: Marianne Lind Koch-Pedersen; bestyrelse: Anders Michael Juul Ejlersen, Bettina Elisabeth Juul Ejlersen, Simon Kristian Frosig",
+  "correzione_proposta": "Marianne Lind Koch-Pedersen, Direktor (Anders Michael Juul Ejlersen resta comproprietario/consigliere)"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "N. EILERSEN A/S",
+  "campo": "fonte",
+  "problema": "Il CVR corretto della societa' e' 35118519 (non indicato nel record, che non riporta il numero) e nel registro esiste anche una omonima 'Eilersen A/S' CVR 42555932: rischio di confusione tra le due entita' in fase di contatto/verifica.",
+  "gravita": "bassa",
+  "evidenza": "https://ownr.dk/companies/public-profile/35118519 ; https://virmo.dk/firma/42555932-eilersen-as",
+  "correzione_proposta": "Indicare esplicitamente CVR 35118519 per N. EILERSEN A/S"
+ }
+]
