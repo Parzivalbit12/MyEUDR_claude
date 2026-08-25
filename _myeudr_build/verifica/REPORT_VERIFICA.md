@@ -184,12 +184,12 @@ Tre categorie di rilievi formali sono state lasciate aperte nel report invece ch
 | Italia | 95 | 1 | 0 | 4 | 19 | 20% |
 | Germania | 97 | 1 | 0 | 5 | 17 | 18% |
 | Finlandia | 84 | 1 | 0 | 4 | 17 | 20% |
-| Danimarca | 89 | 2 | 1 | 2 | 40 | 45% |
+| Danimarca | 89 | 2 | 1 | 2 | 44 | 49% |
 | Svezia | 89 | 1 | 0 | 4 | 18 | 20% |
 | Olanda | 99 | 2 | 0 | 4 | 34 | 34% |
 | Belgio | 94 | 3 | 0 | 2 | 57 | 61% |
 | Austria | 93 | 1 | 1 | 3 | 22 | 24% |
-| **TOTALE** | **740** | **12** | **2** | **28** | **224** | **30%** |
+| **TOTALE** | **740** | **12** | **2** | **28** | **228** | **31%** |
 
 _Un blocco è contato **completo** solo se l'agente ha confermato di aver verificato tutti i record. I **blocchi parziali** sono quelli ancora in corso o interrotti dal limite di sessione: i rilievi già salvati sono validi e inclusi nel report, ma la copertura è conteggiata al ribasso (solo le aziende che compaiono fra i rilievi). Il salvataggio incrementale ogni 3-4 record è ciò che ha evitato di perdere quel lavoro._
 
@@ -201,28 +201,28 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 
 ## 2. Rilievi per foglio
 
-**Totale rilievi Fase B: 374** — alta 52 · media 209 · bassa 113.
+**Totale rilievi Fase B: 381** — alta 53 · media 214 · bassa 114.
 
 | Foglio | Rilievi | alta | media | bassa | Aziende toccate |
 |---|--:|--:|--:|--:|--:|
 | Italia | 25 | 0 | 11 | 14 | 17 |
 | Germania | 29 | 1 | 20 | 8 | 17 |
 | Finlandia | 23 | 6 | 11 | 6 | 15 |
-| Danimarca | 52 | 14 | 22 | 16 | 36 |
+| Danimarca | 59 | 15 | 27 | 17 | 40 |
 | Svezia | 36 | 6 | 15 | 15 | 18 |
 | Olanda | 74 | 9 | 50 | 15 | 33 |
 | Belgio | 115 | 15 | 68 | 32 | 57 |
 | Austria | 19 | 1 | 12 | 6 | 15 |
 | _(tutti)_ | 1 | 0 | 0 | 1 | 1 |
-| **TOTALE** | **374** | **52** | **209** | **113** | **209** |
+| **TOTALE** | **381** | **53** | **214** | **114** | **213** |
 
 ### Rilievi per campo
 
 | Campo | Rilievi | di cui alta |
 |---|--:|--:|
-| dimensione | 168 | 28 |
-| referente | 84 | 11 |
-| denominazione | 29 | 7 |
+| dimensione | 171 | 28 |
+| referente | 87 | 12 |
+| denominazione | 30 | 7 |
 | email | 26 | 2 |
 | linkedin | 19 | 0 |
 | filiera | 12 | 4 |
@@ -234,7 +234,7 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 
 ---
 
-## 3. Tema trasversale — legami di gruppo (59 rilievi)
+## 3. Tema trasversale — legami di gruppo (60 rilievi)
 
 È il problema **più diffuso e meno atteso** emerso dalla verifica: non era fra i 13 punti noti dell'handoff. Numerose aziende del censimento sono controllate di gruppi, spesso esteri o quotati. Per il criterio già applicato dal progetto — che aveva rimosso Lavazza Kaffee, Segafredo Zanetti Austria e Kaffee Partner Austria perché *«la compliance si decide a livello di gruppo, non nella filiale»* — sono **lead di valore dubbio**.
 
@@ -270,6 +270,7 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 | Danimarca | BØJSØ DØRE & VINDUER A/S | **dichiarato** | Lead non indipendente: dal 2017 la società è controllata da INWIDO DENMARK A/S, parte del gruppo quotato svedese Inwido AB (fatturato di gruppo ~9 mld SEK nel 2025). Secondo il mandato una controllata |
 | Danimarca | HVIDBJERG VINDUET A/S | **dichiarato** | Assetto proprietario errato e lead non indipendente: il campo indica come controllante "Hvidbjerg i A/S", ma la società è controllata dal gruppo ACO Nordic, a sua volta parte del gruppo tedesco ACO (f |
 | Danimarca | JKE DESIGN A/S | **dichiarato** | Lead non indipendente: la società appartiene al gruppo BALLINGSLÖV INTERNATIONAL DANMARK A/S / Ballingslöv International AB (gruppo svedese, Stena Adactum), con presidente del CdA e consigliere espres |
+| Danimarca | KLS PUREPRINT A/S | **dichiarato** | Il legame di gruppo e' dichiarato correttamente ma va aggiornato e pesato come criterio di esclusione del lead: F. E. Bording A/S ha rilevato la quota di Knud Erik Larsen a fine 2024/inizio 2025, per  |
 | Danimarca | KRYDSFINER-HANDELEN A/S | **dichiarato** | Controllata di gruppo estero: dall'autunno 2023 la societa' e' stata venduta da Carsten Rittig a Fritzoe Nordic Holding AS (Norvegia), che ne detiene il controllo. Il record lo accenna in forma dubita |
 | Danimarca | KVIST INDUSTRIES A/S | **NON dichiarato** | Assetto proprietario non dichiarato: la societa' figura nel portafoglio del fondo di private equity danese Dansk Ejerkapital ed e' controllata tramite KVIST HOLDING A/S (CVR 21746886, Esbjerg). Il cam |
 | Danimarca | LILLEHEDEN A/S | **dichiarato** | Controllata di gruppo: la societa' fa parte di Nordic Wood Industries A/S (CVR 37385603), che dal 12.05.2025 ha un nuovo adm. direktor di gruppo (Holger Carsten Hansen). Il legame e' gia' correttament |
@@ -308,7 +309,7 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 
 ---
 
-## 4. Casi di gravità ALTA (52)
+## 4. Casi di gravità ALTA (53)
 
 _Dato falso, azienda non contattabile, azienda cessata/fallita/acquisita, oppure fuori dal perimetro dell'Allegato I EUDR._
 
@@ -375,7 +376,7 @@ Referente errato/superato: il toimitusjohtaja in carica e' Jouni Kontkanen (impr
 **Correzione proposta:** Jouni Kontkanen — Toimitusjohtaja (CEO)
 
 
-### Danimarca (14)
+### Danimarca (15)
 
 #### AUBO PRODUCTION A/S — campo `referente`
 
@@ -424,6 +425,14 @@ Lead non indipendente: la società appartiene al gruppo BALLINGSLÖV INTERNATION
 **Evidenza:** https://ballingslovinternational.se/en/businesses/jke-design/ e https://www.proff.dk/firma/jke-design-as/jerslev-j/producenter/GKNXIBI016D — frammento: "The company is part of the Ballingslöv International Danmark A/S and Ballingslöv International AB group ... Björn Friedrich Hauber serves as board chairman and Magnus Hegdal is a board member"
 
 **Correzione proposta:** Escludere o riclassificare il lead: contatto a livello di capogruppo Ballingslöv International AB
+
+#### KAILOW A/S — campo `referente`
+
+REFERENTE SUPERATO. Joergen Kailow non e' piu' al vertice operativo: dal 1 aprile 2025 l'administrerende direktoer di KAILOW A/S e' Per Puch Holm-Larsen, mentre Joergen Kailow e' passato a presidente del consiglio (bestyrelsesformand) dalla stessa data. Il ruolo indicato ('Direktoer della capogruppo') non e' inoltre il vertice della societa' target.
+
+**Evidenza:** https://lasso.dk/firmaer/15945672/ny-administrerende-direktr-i-kailow-as/... 'Ny administrerende direktoer i KAILOW A/S' (evento 01.04.2025); estatistik.dk/virksomhed/kailow-as/15945672/roller - 'Per Puch Holm-Larsen, administrerende direktoer siden 1. april 2025; Joergen Kailow, bestyrelsesformand siden 1. april 2025'
+
+**Correzione proposta:** Per Puch Holm-Larsen — Adm. direktør (dal 01.04.2025)
 
 #### Klim Furniture A/S (gia' Klim Mobelfabrik) — campo `referente`
 
@@ -752,7 +761,7 @@ Nessuna e-mail pubblica reperibile (campo 'n.d.') e nessun sito web aziendale: i
 
 ---
 
-## 5. Casi di gravità MEDIA (209)
+## 5. Casi di gravità MEDIA (214)
 
 _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente errato._
 
@@ -814,7 +823,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Kiilax Oy | dimensione | Il campo dichiara 'liikevaihto n.d.' ma il dato e' pubblicamente disponibile: 6,7 M€ nell'esercizio chiuso a 03/2025, utile 514 k€, 24 dipendenti, fatturato in calo del 6,8%. Valore al limite inferiore della forbice. | https://www.asiakastieto.fi/yritykset/fi/kiilax-oy/14857945/taloustiedot — frammento: "For the fiscal year ending in 2025/03, Kiilax Oy's revenue was  | Liikevaihto 6,7 M€ / 24 dip. (esercizio chiuso 03/2025, Asiakastieto) |
 | Kiilax Oy | filiera | Descrizione parziale: l'attivita' principale e' la produzione di botole/portelli d'ispezione (tarkastusluukut) e il commercio specializzato di prodotti in compensato, non la produzione di compensato di betulla o di pannelli lamellari. Da riformulare  | https://vainu.io/company/kiilax-oy-taloustiedot-ja-liikevaihto/256569/yritystiedot — frammento: "Kiilax was founded in 1993 and manufactures inspectio | Legno/Arredo — botole d'ispezione e prodotti in compensato (produzione + rivendita specializzata) |
 
-### Danimarca (22)
+### Danimarca (27)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -825,9 +834,14 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | EMBALLAGEFABRIKKEN THY PAP | referente | DA CONFERMARE: il nome 'Carsten Boye Steen' come indehaver non e' stato ritrovato in nessuna fonte pubblica raggiungibile (proff, estatistik, degulesider, krak, sito aziendale). Trattandosi di ditta individuale il titolare e' il decisore unico: il da | Ricerche '"Thy Pap" "Carsten" indehaver ejer' e '"Thy Pap" Thisted CVR indehaver': nessun frammento riporta il nome del titolare; le fonti si fermano  |  |
 | Estate Coffee Copenhagen A/S | denominazione | IDENTITA' ANNOTATA CONFERMATA CORRETTA: il CVR 18179407 e' oggi registrato come Smage-Compagniet A/S, Holmevej 10, 5683 Haarby. La cronologia e' ricostruita dall'azienda stessa: fondata nei primi anni '90 (tra i fondatori Claus Meyer) come Chokolade  | https://smage-compagniet.dk/estate-coffee/ - 'Virksomhedens historie gaar tilbage til starten af 1990'erne, hvor den blev grundlagt af blandt andre Cl | Smage-Compagniet A/S (CVR 18179407) - gia' Estate Coffee Copenhagen A/S / Chokolade Compagniet |
 | H. EMBALLAGE ApS | dimensione | Il campo scrive 'ricavi/margine lordo dichiarati 9,211 mio DKK' senza dichiarare di quale dato si tratti: per una ApS il bilancio in forma ridotta pubblica il bruttofortjeneste, non il fatturato. La formula ambigua rende non interpretabile il dato (9 | https://www.proff.dk/firma/h.-emballage-aps/glamsbjerg/producenter/GWNSLZI016D - CVR 38528742, 'Papirvarefabrikker og kartonnagefabrikker', Hoejrupvej | Bruttofortjeneste 9,211 mio DKK (~1,2 M€ di margine lordo), 21 dipendenti; fatturato non pubblicato (ApS, bilancio in fo |
+| IKAST ETIKET A/S | referente | Il campo e' vuoto e il campo dimensione afferma che 'nessun adm. direktoer pubblicato': e' falso. Ulrik Lauritsen risulta direktoer della societa' dal 2003 (oltre che membro del consiglio). | https://www.proff.dk/firma/ikast-etiket-as/ikast/engroshandel-annet/GJF022I10N6 - 'Ikast Etiket A/S blev grundlagt i 1986 og har vaeret ledet af Ulrik | Ulrik Lauritsen — Direktør |
+| IKAST ETIKET A/S | dimensione | Dati non allineati alle fonti: il campo riporta 'risultato netto 7,62 mio DKK' e 12 dipendenti, mentre il bilancio 2024 pubblicato indica un bruttofortjeneste di 16 mio DKK e 14 dipendenti. Non e' inoltre dichiarata la capogruppo UL HOLDING IKAST ApS | https://www.proff.dk/firma/ikast-etiket-as/ikast/engroshandel-annet/GJF022I10N6 - 'I 2024 viste regnskabet en bruttofortjeneste paa 16 mio. DKK ... 14 | Bruttofortjeneste 16 mio DKK nel 2024 (~2,1 M€ di margine lordo), 14 dipendenti; fatturato non pubblicato. Capogruppo UL |
 | INNOVATION LIVING A/S (già Innovation Rander | dimensione | Dato obsoleto: il campo cita il bruttofortjeneste 2023 (47,3 M DKK) mentre l'ultimo bilancio disponibile (2025) riporta 40 M DKK, quindi in calo. Anche la composizione del gruppo è imprecisa: INNOVATION HOLDING A/S conta 10 società, non 8. | https://www.proff.dk/firma/innovation-living-as/randers-n%C3%B8/m%C3%B8bler/13462KI015G — frammento: "In 2025, the company reported a gross profit of  | Bruttofortjeneste 40 mio DKK (~5,4 M€) nel 2025 (proff.dk, CVR 65699516); fatturato non pubblicato; gruppo INNOVATION HO |
 | JKE DESIGN A/S | dimensione | Dato obsoleto: il campo riporta il bruttofortjeneste 2023 (55,6 M DKK) mentre il bilancio 2024 depositato indica 50 M DKK, in ulteriore calo rispetto al 2022 (58,7 M DKK). La stima ricavi "~20-27 M€" resta non verificata. | https://regnskaber.cvrapi.dk/21017236/ (Årsrapport 2024 JKE DESIGN A/S, Gl Klæstrupvej 75, 9740 Jerslev J) — frammento: "In 2024, the company showed a | Bruttofortjeneste 50 mio DKK (~6,7 M€) nel 2024 (årsrapport 2024, CVR 63271012); fatturato non pubblicato |
+| JOHNSEN GRAPHIC SOLUTIONS A/S (oggi anche Jo | referente | Campo vuoto: il vertice e' pubblicato. Steen Johnsen risulta adm. direktoer del CVR 18624141 (Sune Johnsen co-direttore; Peter Bager presidente del consiglio). | https://cvrapi.dk/virksomhed/dk/johnsen-graphic-solutions-as/18624141 - 'CVR: 18624141, adm. dir: Steen Johnsen'; proff.dk roller: 'Steen Johnsen og S | Steen Johnsen — Adm. direktør |
+| JOHNSEN GRAPHIC SOLUTIONS A/S (oggi anche Jo | dimensione | Numero di addetti superato (92 contro 111 nel 2024) e stima di fatturato '10-20 M€' priva di fonte, mentre il dato pubblicato e' disponibile: bruttofortjeneste 51 mio DKK nel 2024 (~6,8 M€ di margine lordo). | https://www.proff.dk/firma/johnsen-print-digital-media-as/grenaa/b%C3%B8ger-aviser-og-blader-engros/GLGJZEI10MF - 'I 2024 viste regnskabet en bruttofo | 111 dipendenti (2024); bruttofortjeneste 51 mio DKK 2024 (~6,8 M€ di margine lordo); fatturato non pubblicato. Capogrupp |
 | Just Coffee | denominazione | Ragione sociale CVR ora VERIFICATA: non e' ne' ApS ne' A/S ne' amba, e' un INTERESSENTSKAB. Denominazione legale 'Just Coffee I/S', CVR 35492380, costituita il 01-01-2014, sede Frederiksborgvej 551, 4000 Roskilde; soci illimitatamente responsabili Ma | https://cvrapi.dk/virksomhed/dk/just-coffee-is/35492380 e https://www.proff.dk/firma/just-coffee-is/roskilde/producenter/GUO2ZPI016D - 'Just Coffee I/ | Just Coffee I/S - CVR 35492380 (forma giuridica: interessentskab) |
+| KLS PUREPRINT A/S | dimensione | Il legame di gruppo e' dichiarato correttamente ma va aggiornato e pesato come criterio di esclusione del lead: F. E. Bording A/S ha rilevato la quota di Knud Erik Larsen a fine 2024/inizio 2025, per cui KLS PurePrint e' oggi controllata integralment | https://signprintpack.dk/2025/01/06/bording-oger-ejerandelen-af-kls-pureprint-og-knud-erik-larsen-takker-af/ - 'Bording koeber Knud Erik Larsen ud af  | Controllata (oggi integralmente) di F. E. BORDING A/S dopo il riacquisto della quota di Knud Erik Larsen a fine 2024. Le |
 | KRYDSFINER-HANDELEN A/S | dimensione | Controllata di gruppo estero: dall'autunno 2023 la societa' e' stata venduta da Carsten Rittig a Fritzoe Nordic Holding AS (Norvegia), che ne detiene il controllo. Il record lo accenna in forma dubitativa ('riconducibile a proprieta' nordica/scandina | https://fritzoenordic.no/en/selskap/krydsfiner-handelen-a-s/ ; https://www.wood-supply.dk/article/view/1053393/nordmaend_kober_95_ar_gammelt_dansk_fam | Dichiarare in modo esplicito: controllata al 100% da Fritzoe Nordic Holding AS (NO) dall'autunno 2023 |
 | KVIST INDUSTRIES A/S | dimensione | Assetto proprietario non dichiarato: la societa' figura nel portafoglio del fondo di private equity danese Dansk Ejerkapital ed e' controllata tramite KVIST HOLDING A/S (CVR 21746886, Esbjerg). Il campo dimensione non menziona il legame di gruppo/par | https://www.danskejerkapital.dk/portefoelje/kvist-industries/ ; https://www.proff.dk/firma/kvist-industries-as/esbjerg/hovedkontortjenester/GMGAWAI10N | Aggiungere: controllata da KVIST HOLDING A/S, partecipata dal fondo Dansk Ejerkapital; fatturato non pubblicato (bilanci |
 | LILLEHEDEN A/S | dimensione | Controllata di gruppo: la societa' fa parte di Nordic Wood Industries A/S (CVR 37385603), che dal 12.05.2025 ha un nuovo adm. direktor di gruppo (Holger Carsten Hansen). Il legame e' gia' correttamente dichiarato nel campo, quindi non e' un errore di | https://nowi.dk/limtraesproducent-styrker-produktionen-markant/ ; https://www.proff.dk/firma/nordic-wood-industries-as/hampen/investeringsselskaper/0M | Aggiornare il bruttofortjeneste all'ultimo esercizio disponibile e valutare il lead a livello di Nordic Wood Industries  |
@@ -1008,7 +1022,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 
 ---
 
-## 6. Casi di gravità BASSA (113)
+## 6. Casi di gravità BASSA (114)
 
 _Refusi formali e incoerenze di stile._
 
@@ -1056,7 +1070,7 @@ _Refusi formali e incoerenze di stile._
 | Hollolan Viilu ja Laminaatti Oy (HVL) | dimensione | Il valore 5,4 M€ (2025) e' confermato ma la serie storica e' bassa (4,47 M€ nel 2023, 4,7 M€ nell'esercizio precedente): l'azienda oscilla intorno alla soglia minima di 5 M€ della forbice. Da valutare come lead marginale. | https://search.vainu.com/company/hollolan-viilu-ja-laminaatti-oy-taloustiedot-ja-liikevaihto/FI09821550/yritystiedot — frammento: "2025: 5.4 million e |  |
 | Kankarin Kaluste Oy | dimensione | Serie storica incoerente con le fonti: il record indica 18,8 M€ per il 2024, mentre le fonti riportano oltre 23 M€ nel 2023 e 22 M€ nel 2025 (69 dip.). Il dato 2025 e' corretto; il dato intermedio 2024 va riverificato. | https://puumieslehti.fi/kuukauden-juttu/kankarin-kaluste-oy-kiintokalusteita-kihniosta-40-vuoden-kokemuksella/ e https://vainu.io/company/kankarin-kal | Liikevaihto 22,0 M€ / 69 dip. (2025) — rimuovere o riverificare il valore 18,8 M€ (2024) |
 
-### Danimarca (16)
+### Danimarca (17)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -1068,6 +1082,7 @@ _Refusi formali e incoerenze di stile._
 | FREDERICIA FURNITURE A/S | dimensione | Refuso nell'unità di misura: "risultato ante imposte 6,5 M€ DKK" mescola euro e corone danesi. Il valore va espresso in una sola valuta. | Testo del campo dimensione del record stesso: "risultato ante imposte 6,5 M€ DKK" | risultato ante imposte 6,5 mio DKK (~0,87 M€) |
 | Farstrup Furniture A/S | ruolo | DA CONFERMARE: i registri elencano due direktør (Jan Andersen e Steen Cederholm-Johansen) senza qualificare esplicitamente Cederholm-Johansen come administrerende direktør. Il ruolo indicato non è riconfermato. | https://www.proff.dk/firma/farstrup-furniture-as/s%C3%B8nders%C3%B8/producenter/GKF1OMI016D — frammento: "The directors are Jan Andersen and Steen Ced |  |
 | INNOVATION LIVING A/S (già Innovation Rander | linkedin | URL LinkedIn con prefisso di locale tedesco (de.linkedin.com) per una società danese. Non è un errore di pagina ma è incoerente con lo standard del dataset (dk. o www.). | Valore del record: https://de.linkedin.com/company/innovation-living-a-s | https://dk.linkedin.com/company/innovation-living-a-s |
+| JOHNSEN GRAPHIC SOLUTIONS A/S (oggi anche Jo | denominazione | La ragione sociale attuale del CVR 18624141 e' JOHNSEN PRINT & DIGITAL MEDIA A/S; 'Johnsen Graphic Solutions A/S' e' la denominazione precedente, non un secondo nome in uso. La formulazione del campo inverte nome storico e nome attuale. | https://virmo.dk/firma/18624141-johnsen-print-digital-media-as e https://cvrapi.dk/virksomhed/dk/johnsen-graphic-solutions-as/18624141 - 'JOHNSEN PRIN | JOHNSEN PRINT & DIGITAL MEDIA A/S (già Johnsen Graphic Solutions A/S) — CVR 18624141 |
 | Just Coffee | sede | La sede registrata al CVR e' Frederiksborgvej 551, 4000 Roskilde, non Jyllinge: il riferimento a Jyllinge deriva dal testo promozionale del sito ('risteriet ligger paa en gaard i Jyllinge lige uden for Roskilde'). Il comune e' comunque Roskilde, Regi | https://www.proff.dk/firma/just-coffee-is/roskilde/producenter/GUO2ZPI016D - 'Frederiksborgvej 551, 4000 Roskilde'; https://estatistik.dk/virksomhed/j | Frederiksborgvej 551, 4000 Roskilde, Regione Sjaelland |
 | N. EILERSEN A/S | fonte | Il CVR corretto della societa' e' 35118519 (non indicato nel record, che non riporta il numero) e nel registro esiste anche una omonima 'Eilersen A/S' CVR 42555932: rischio di confusione tra le due entita' in fase di contatto/verifica. | https://ownr.dk/companies/public-profile/35118519 ; https://virmo.dk/firma/42555932-eilersen-as | Indicare esplicitamente CVR 35118519 per N. EILERSEN A/S |
 | NIELAUS A/S | dimensione | Numero di dipendenti non allineato alla fonte citata: la scheda proff.dk (CVR 35480943) riporta 19 addetti, il record ne indica 11. | https://www.proff.dk/firma/nielaus-as/bramming/m%C3%B8bler/GUJZBOI015G — frammento: "NIELAUS A/S is a furniture production company located at Vejrup S | 19 dipendenti (proff.dk, CVR 35480943) — verificare l'anno di riferimento |

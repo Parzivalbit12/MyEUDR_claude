@@ -52,5 +52,68 @@
   "gravita": "media",
   "evidenza": "https://www.proff.dk/firma/h.-emballage-aps/glamsbjerg/producenter/GWNSLZI016D - CVR 38528742, 'Papirvarefabrikker og kartonnagefabrikker', Hoejrupvej 11, 5620 Glamsbjerg",
   "correzione_proposta": "Bruttofortjeneste 9,211 mio DKK (~1,2 M€ di margine lordo), 21 dipendenti; fatturato non pubblicato (ApS, bilancio in forma ridotta). Anno del bilancio DA CONFERMARE."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "IKAST ETIKET A/S",
+  "campo": "referente",
+  "problema": "Il campo e' vuoto e il campo dimensione afferma che 'nessun adm. direktoer pubblicato': e' falso. Ulrik Lauritsen risulta direktoer della societa' dal 2003 (oltre che membro del consiglio).",
+  "gravita": "media",
+  "evidenza": "https://www.proff.dk/firma/ikast-etiket-as/ikast/engroshandel-annet/GJF022I10N6 - 'Ikast Etiket A/S blev grundlagt i 1986 og har vaeret ledet af Ulrik Lauritsen siden 2003'",
+  "correzione_proposta": "Ulrik Lauritsen — Direktør"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "IKAST ETIKET A/S",
+  "campo": "dimensione",
+  "problema": "Dati non allineati alle fonti: il campo riporta 'risultato netto 7,62 mio DKK' e 12 dipendenti, mentre il bilancio 2024 pubblicato indica un bruttofortjeneste di 16 mio DKK e 14 dipendenti. Non e' inoltre dichiarata la capogruppo UL HOLDING IKAST ApS (holding personale del direttore, gruppo di 2 societa').",
+  "gravita": "media",
+  "evidenza": "https://www.proff.dk/firma/ikast-etiket-as/ikast/engroshandel-annet/GJF022I10N6 - 'I 2024 viste regnskabet en bruttofortjeneste paa 16 mio. DKK ... 14 ansatte'; 'IKAST ETIKET A/S er en del af en koncern med i alt 2 virksomheder ... moderselskab UL HOLDING IKAST ApS'",
+  "correzione_proposta": "Bruttofortjeneste 16 mio DKK nel 2024 (~2,1 M€ di margine lordo), 14 dipendenti; fatturato non pubblicato. Capogruppo UL HOLDING IKAST ApS (holding personale, controllo danese indipendente). SOTTO SOGLIA rispetto al target 5-40 M€."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "JOHNSEN GRAPHIC SOLUTIONS A/S (oggi anche Johnsen Print & Digital Media A/S)",
+  "campo": "denominazione",
+  "problema": "La ragione sociale attuale del CVR 18624141 e' JOHNSEN PRINT & DIGITAL MEDIA A/S; 'Johnsen Graphic Solutions A/S' e' la denominazione precedente, non un secondo nome in uso. La formulazione del campo inverte nome storico e nome attuale.",
+  "gravita": "bassa",
+  "evidenza": "https://virmo.dk/firma/18624141-johnsen-print-digital-media-as e https://cvrapi.dk/virksomhed/dk/johnsen-graphic-solutions-as/18624141 - 'JOHNSEN PRINT & DIGITAL MEDIA A/S - (18624141) - Bakkehegnet 3, 8500 Grenaa'",
+  "correzione_proposta": "JOHNSEN PRINT & DIGITAL MEDIA A/S (già Johnsen Graphic Solutions A/S) — CVR 18624141"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "JOHNSEN GRAPHIC SOLUTIONS A/S (oggi anche Johnsen Print & Digital Media A/S)",
+  "campo": "referente",
+  "problema": "Campo vuoto: il vertice e' pubblicato. Steen Johnsen risulta adm. direktoer del CVR 18624141 (Sune Johnsen co-direttore; Peter Bager presidente del consiglio).",
+  "gravita": "media",
+  "evidenza": "https://cvrapi.dk/virksomhed/dk/johnsen-graphic-solutions-as/18624141 - 'CVR: 18624141, adm. dir: Steen Johnsen'; proff.dk roller: 'Steen Johnsen og Sune Johnsen er direktoerer ... Peter Bager (formand)'",
+  "correzione_proposta": "Steen Johnsen — Adm. direktør"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "JOHNSEN GRAPHIC SOLUTIONS A/S (oggi anche Johnsen Print & Digital Media A/S)",
+  "campo": "dimensione",
+  "problema": "Numero di addetti superato (92 contro 111 nel 2024) e stima di fatturato '10-20 M€' priva di fonte, mentre il dato pubblicato e' disponibile: bruttofortjeneste 51 mio DKK nel 2024 (~6,8 M€ di margine lordo).",
+  "gravita": "media",
+  "evidenza": "https://www.proff.dk/firma/johnsen-print-digital-media-as/grenaa/b%C3%B8ger-aviser-og-blader-engros/GLGJZEI10MF - 'I 2024 viste regnskabet en bruttofortjeneste paa 51 mio. DKK ... 111 ansatte'; paqle.dk classifica la societa' '100-200 ansatte'",
+  "correzione_proposta": "111 dipendenti (2024); bruttofortjeneste 51 mio DKK 2024 (~6,8 M€ di margine lordo); fatturato non pubblicato. Capogruppo Johnsen + Holding A/S (controllo familiare danese)."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "KAILOW A/S",
+  "campo": "referente",
+  "problema": "REFERENTE SUPERATO. Joergen Kailow non e' piu' al vertice operativo: dal 1 aprile 2025 l'administrerende direktoer di KAILOW A/S e' Per Puch Holm-Larsen, mentre Joergen Kailow e' passato a presidente del consiglio (bestyrelsesformand) dalla stessa data. Il ruolo indicato ('Direktoer della capogruppo') non e' inoltre il vertice della societa' target.",
+  "gravita": "alta",
+  "evidenza": "https://lasso.dk/firmaer/15945672/ny-administrerende-direktr-i-kailow-as/... 'Ny administrerende direktoer i KAILOW A/S' (evento 01.04.2025); estatistik.dk/virksomhed/kailow-as/15945672/roller - 'Per Puch Holm-Larsen, administrerende direktoer siden 1. april 2025; Joergen Kailow, bestyrelsesformand siden 1. april 2025'",
+  "correzione_proposta": "Per Puch Holm-Larsen — Adm. direktør (dal 01.04.2025)"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "KLS PUREPRINT A/S",
+  "campo": "dimensione",
+  "problema": "Il legame di gruppo e' dichiarato correttamente ma va aggiornato e pesato come criterio di esclusione del lead: F. E. Bording A/S ha rilevato la quota di Knud Erik Larsen a fine 2024/inizio 2025, per cui KLS PurePrint e' oggi controllata integralmente dal gruppo quotato Bording. La decisione EUDR/acquisto si colloca a livello di capogruppo.",
+  "gravita": "media",
+  "evidenza": "https://signprintpack.dk/2025/01/06/bording-oger-ejerandelen-af-kls-pureprint-og-knud-erik-larsen-takker-af/ - 'Bording koeber Knud Erik Larsen ud af KLS'; https://signprintpack.dk/2023/06/05/bording-kober-kls-pureprint-og-laegger-ny-strategisk-plan/",
+  "correzione_proposta": "Controllata (oggi integralmente) di F. E. BORDING A/S dopo il riacquisto della quota di Knud Erik Larsen a fine 2024. Lead da valutare a livello di capogruppo Bording."
  }
 ]
