@@ -79,5 +79,14 @@
   "gravita": "bassa",
   "evidenza": "https://www.schafler-holz.at/impressum - frammento: \"Geschaeftsfuehrer: Bernd Schafler... current managing director and owner Bernd Christoph Schafler\"",
   "correzione_proposta": "Geschäftsführer / Inhaber"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Jannach Lärchenholz GmbH",
+  "campo": "email",
+  "problema": "Campo e-mail vuoto ('n.d.'): l'Impressum offusca l'indirizzo in chiave anti-spam e nessuna fonte pubblica riporta letteralmente un recapito. Il lead resta contattabile solo via form/telefono. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://jannach.com/kontakt/impressum.html - pagina Impressum senza indirizzo e-mail in chiaro; conferma GF: \"Mag. (FH) Helmut Jannach is the manager of the Saegewerk - Jannach Ges.m.b.H. He is also the manager of the Hobelwerk - Jannach Laerchenholz GmbH\"",
+  "correzione_proposta": ""
  }
 ]

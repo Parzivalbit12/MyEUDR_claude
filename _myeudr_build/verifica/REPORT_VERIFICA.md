@@ -149,7 +149,7 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 
 ## 2. Rilievi per foglio
 
-**Totale rilievi Fase B: 172** — alta 30 · media 87 · bassa 55.
+**Totale rilievi Fase B: 173** — alta 30 · media 88 · bassa 55.
 
 | Foglio | Rilievi | alta | media | bassa | Aziende toccate |
 |---|--:|--:|--:|--:|--:|
@@ -160,9 +160,9 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 | Svezia | 36 | 6 | 15 | 15 | 18 |
 | Olanda | 32 | 5 | 21 | 6 | 16 |
 | Belgio | 32 | 4 | 18 | 10 | 19 |
-| Austria | 9 | 1 | 6 | 2 | 8 |
+| Austria | 10 | 1 | 7 | 2 | 9 |
 | _(tutti)_ | 1 | 0 | 0 | 1 | 1 |
-| **TOTALE** | **172** | **30** | **87** | **55** | **106** |
+| **TOTALE** | **173** | **30** | **88** | **55** | **107** |
 
 ### Rilievi per campo
 
@@ -171,7 +171,7 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 | dimensione | 75 | 14 |
 | referente | 38 | 8 |
 | denominazione | 20 | 6 |
-| email | 13 | 1 |
+| email | 14 | 1 |
 | linkedin | 8 | 0 |
 | sito | 6 | 0 |
 | ruolo | 4 | 0 |
@@ -181,7 +181,7 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 
 ---
 
-## 3. Tema trasversale — legami di gruppo (53 rilievi)
+## 3. Tema trasversale — legami di gruppo (33 rilievi)
 
 È il problema **più diffuso e meno atteso** emerso dalla verifica: non era fra i 13 punti noti dell'handoff. Numerose aziende del censimento sono controllate di gruppi, spesso esteri o quotati. Per il criterio già applicato dal progetto — che aveva rimosso Lavazza Kaffee, Segafredo Zanetti Austria e Kaffee Partner Austria perché *«la compliance si decide a livello di gruppo, non nella filiale»* — sono **lead di valore dubbio**.
 
@@ -193,57 +193,37 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 
 | Foglio | Azienda | Stato nel foglio | Rilievo |
 |---|---|---|---|
-| (tutti) | (controllo di rientro) | — (record non risolto) | nessuna delle 7 aziende rimosse e' rientrata nei fogli. Controllo eseguito su _records.json (742 record, tutti i fogli) cercando in ogni campo, con radici tolleranti alle varianti: 'getama', 'dragsb', |
 | Austria | BRAUN LOCKENHAUS GmbH | **dichiarato** | Filiale di gruppo estero: la societa' e' controllata da SCHNEEWEISS AG / SCHNEEWEISS interior, con sede del gruppo a Kippenheim (Baden-Württemberg, DE), dal 2006. La decisione di compliance EUDR si as |
-| Austria | Holzindustrie Schafler GmbH & Co KG | **NON dichiarato** | Il ruolo riportato ('Gewerberechtlicher Geschaeftsfuehrer') sottostima la posizione: l'Impressum aziendale indica Bernd (Christoph) Schafler come Geschaeftsfuehrer e proprietario, quarta generazione f |
-| Austria | Hrachowina Fenster & Türen GmbH | **NON dichiarato** | Fatturato ca. 25 Mio EUR dichiarato come stima non ufficiale (die-deutsche-wirtschaft.de) e senza anno. Da segnalare inoltre il precedente di insolvenza 2019 della controllata produttiva H&W Holzfenst |
-| Austria | Waldviertler Werkstätten GmbH | **NON dichiarato** | Dato di fatturato datato (2016-2019) e non riconciliato: le fonti citano 31 Mio EUR di ricavi 2016 riferiti all'universo GEA e, per la controllante Heinrich Staudinger GmbH, un totale di bilancio 2024 |
-| Belgio | Belignum NV | **dichiarato** | Discordanza 16,1 vs 14,7 M€ RISOLTA a favore di 14,7 M€: due fonti indipendenti (trendstop NL e trendstop FR/Levif) riportano concordemente EUR 14.746.642 e 10,8 FTE per l'ultimo bilancio depositato i |
-| Belgio | Buzzispace NV | **dichiarato** | Il campo indica la produzione 'in Kempen' (implicitamente Belgio): le fonti aziendali collocano lo stabilimento produttivo a Bladel, nei Paesi Bassi. La sede sociale ad Anversa resta corretta, ma l'at |
 | Belgio | Sas NV (Sas Coffee) | **dichiarato** | CONFERMATO: l'azienda NON e' piu' indipendente ne' familiare. Acquisita da Miko NV (11/2021) e rivenduta il 24-05-2024 al fondo di private equity olandese Nimbus Investments; il sito di Nimbus la elen |
 | Belgio | Silco NV | **NON dichiarato** | RILIEVO NUOVO emerso in verifica: la sede di Silco (Italielei 181, 2000 Antwerpen) e' lo stesso indirizzo di EFICO NV, il grande trader di caffe' verde di Anversa (fatturato ~289 M€), il cui president |
 | Belgio | Tannerie Masure SA | **NON dichiarato** | Societa' non indipendente: dal 2014 Tannerie Masure fa parte del Groupe Saturne insieme alla francese Tannerie Fortier-Beaulieu (Roanne). Il referente indicato, Olivier Lesage, risulta anche dirigente |
 | Danimarca | BØJSØ DØRE & VINDUER A/S | **dichiarato** | Lead non indipendente: dal 2017 la società è controllata da INWIDO DENMARK A/S, parte del gruppo quotato svedese Inwido AB (fatturato di gruppo ~9 mld SEK nel 2025). Secondo il mandato una controllata |
-| Danimarca | COPENHAGEN CHOCOLATE FACTORY ApS | **dichiarato** | IDENTITA' ANNOTATA CONFERMATA CORRETTA: CVR 32761844, Amager Landevej 123, 2770 Kastrup, costituita il 26-01-2010, ApS; opera con i binavne 'Simply Chocolate Copenhagen' e www.simplychocolate.dk; dire |
 | Danimarca | HVIDBJERG VINDUET A/S | **dichiarato** | Assetto proprietario errato e lead non indipendente: il campo indica come controllante "Hvidbjerg i A/S", ma la società è controllata dal gruppo ACO Nordic, a sua volta parte del gruppo tedesco ACO (f |
-| Danimarca | HØRNING PARKET A/S | **NON dichiarato** | Referente e ruolo errati: Peter (Christian Saaby) Mathiasen è presidente del consiglio di amministrazione (bestyrelsesformand), non adm. direktør. Il vertice esecutivo della società è Peter Vissing, d |
-| Danimarca | INNOVATION LIVING A/S (già Innovation Ra | **dichiarato** | Dato obsoleto: il campo cita il bruttofortjeneste 2023 (47,3 M DKK) mentre l'ultimo bilancio disponibile (2025) riporta 40 M DKK, quindi in calo. Anche la composizione del gruppo è imprecisa: INNOVATI |
 | Danimarca | JKE DESIGN A/S | **dichiarato** | Lead non indipendente: la società appartiene al gruppo BALLINGSLÖV INTERNATIONAL DANMARK A/S / Ballingslöv International AB (gruppo svedese, Stena Adactum), con presidente del CdA e consigliere espres |
 | Danimarca | KRYDSFINER-HANDELEN A/S | **dichiarato** | Controllata di gruppo estero: dall'autunno 2023 la societa' e' stata venduta da Carsten Rittig a Fritzoe Nordic Holding AS (Norvegia), che ne detiene il controllo. Il record lo accenna in forma dubita |
 | Danimarca | KVIST INDUSTRIES A/S | **NON dichiarato** | Assetto proprietario non dichiarato: la societa' figura nel portafoglio del fondo di private equity danese Dansk Ejerkapital ed e' controllata tramite KVIST HOLDING A/S (CVR 21746886, Esbjerg). Il cam |
-| Danimarca | Klim Furniture A/S (gia' Klim Mobelfabri | **NON dichiarato** | Referente non attuale: dal 2024 il direktor in carica e' Kasper Hogenhaug (che ha acquisito il 50% della societa'); Jan Middelboe resta comproprietario al 50% ma non e' piu' il vertice operativo indic |
 | Danimarca | LILLEHEDEN A/S | **dichiarato** | Controllata di gruppo: la societa' fa parte di Nordic Wood Industries A/S (CVR 37385603), che dal 12.05.2025 ha un nuovo adm. direktor di gruppo (Holger Carsten Hansen). Il legame e' gia' correttament |
 | Danimarca | MULTIFORM A/S | **dichiarato** | Controllata di gruppo: capogruppo BALLINGSLOV INTERNATIONAL DANMARK A/S (gruppo svedese Ballingslov International / Stena Adactum). Il legame e' gia' dichiarato correttamente nel record, quindi il ril |
-| Danimarca | N. EILERSEN A/S | **dichiarato** | Referente errato: Anders Michael Juul Ejlersen risulta membro del consiglio di amministrazione (bestyrelse) e comproprietario, non direktor. Il direktor registrato di N. EILERSEN A/S (CVR 35118519) e' |
 | Danimarca | Naturli' Foods | **dichiarato** | RILIEVO EMERSO DAL CONTROLLO DI RIENTRO. Il record dichiara esso stesso che Naturli' Foods e' 'parte del gruppo Dragsbaek/Orkla': e' quindi una controllata del gruppo norvegese quotato Orkla ASA, per  |
 | Danimarca | Skagerak Denmark A/S | **NON dichiarato** | Referente errato e legame di gruppo non dichiarato: Skagerak Denmark A/S e' stata acquisita da Fritz Hansen A/S nel dicembre 2021 ed e' oggi il marchio 'Skagerak by Fritz Hansen'. Josef Theodor Kaiser |
-| Danimarca | Skagerak Denmark A/S | **NON dichiarato** | Dati economici obsoleti: utile lordo 53,7 M DKK riferito al 2021 e addetti al dicembre 2022, cioe' antecedenti o coevi all'acquisizione da parte di Fritz Hansen. La stima ricavi '~15-22 M€' non e' ver |
 | Danimarca | TIMBERMAN DENMARK A/S | **dichiarato** | Assetto proprietario errato/obsoleto: il record indica solo 'controllata da Timberman Holding ApS ... azionariato nordico'. In realta' nel dicembre 2024 la societa' e' stata acquistata dal gruppo indu |
-| Danimarca | TJOERNEHOEJ MOELLE A/S | — (record non risolto) | LEAD NON VALIDO. A/S Tjoernehoej Moelle (CVR 34175012) NON e' un'impresa indipendente: e' stata acquistata da DLG nel 1989 dal mugnaio Sander Petersen ed e' oggi una controllata della cooperativa DLG  |
-| Danimarca | VERMUND LARSEN A/S (VELA / VERMUND) | **NON dichiarato** | Disallineamento tra i canali: il sito indicato (vermund.eu) e' quello del solo marchio di design 'Vermund', mentre il sito istituzionale della societa' e del marchio principale e' vela.dk (coerente co |
-| Olanda | Bangma Verpakking B.V. | **dichiarato** | LEAD NON VALIDO — aggravamento rispetto a quanto annotato. Non solo De Jong Verpakking ha acquisito Bangma (closing 30-07-2020), ma nel 2023 l'INTERO De Jong Packaging Group è stato acquisito da STORA |
+| Danimarca | TJOERNEHOEJ MOELLE A/S | **NON dichiarato** | LEAD NON VALIDO. A/S Tjoernehoej Moelle (CVR 34175012) NON e' un'impresa indipendente: e' stata acquistata da DLG nel 1989 dal mugnaio Sander Petersen ed e' oggi una controllata della cooperativa DLG  |
 | Olanda | BeBo Parket B.V. | **dichiarato** | Assetto proprietario incompleto: dal 2022 l'azienda e' partecipata dall'investitore Nobel Capital Partners insieme al management di seconda generazione. La partecipazione di private equity non e' dich |
 | Olanda | GWW Houtimport B.V. | **dichiarato** | Controllata di gruppo: dal 01/01/2026 GWW Houtimport, GWW Agency e Van den Berg Hardhout confluiscono nella holding Van den Berg Houtgroep. Il legame e' gia' dichiarato correttamente nel campo, ma la  |
-| Olanda | Houtimport Reuver B.V. | **dichiarato** | Referente e ruolo assenti (algemeen directeur iscritto e' la persona giuridica Gebrs. Schoolmeesters Holding B.V.). Nelle fonti aperte compare Tim Schoolmeesters in relazione alla direzione dell'azien |
+| Olanda | Houthandel Jos Dennebos B.V. | **NON dichiarato** | Referente e ruolo assenti. Il socio unico e' la persona giuridica Jos Dennebos Exploitatie B.V.; il fondatore storico e' Jos Dennebos (attivo anche in Dennebos Suriname). Nome e carica del directeur a |
 | Olanda | Houtplex B.V. | **dichiarato** | Controllata di gruppo estero: Houtplex appartiene al gruppo Wood United, con sede a Singapore; dal febbraio 2019 le quote sia di Houtplex sia di Wood United sono di Timothy Paul, che ha rilevato la pa |
-| Olanda | L. Verhoeven's Emballagefabriek en Houth | **NON dichiarato** | Appartenenza a gruppo non dichiarata: l'azienda opera in gruppo con la consociata Zagerij Verhoeven (Harskamp) e con Kist&Co (Ridderkerk) e Harskamp Timber (Harskamp). Il campo la presenta come singol |
 | Olanda | Rompa Tanneries B.V. | **dichiarato** | Denominazione obsoleta: la societa' e' stata ridenominata VITELCO LEATHER B.V. Vitelco (gruppo PALI) ha rilevato le quote di Rompa Leather sciogliendo la joint venture ed e' oggi socio unico al 100%.  |
 | Olanda | Rompa Tanneries B.V. | **dichiarato** | Assetto proprietario dichiarato errato: il campo indica ancora 'Soci: PALI Group (Den Bosch, vitello) e Rompa Leather (Rijen)', ma la JV e' stata sciolta e Vitelco (PALI Group) e' socio unico al 100%. |
-| Olanda | Rompa Tanneries B.V. | **dichiarato** | Email e sito legati al vecchio marchio (sales@rompa-tanneries.com / www.rompa-tanneries.com). Con la ridenominazione in Vitelco Leather il dominio di riferimento del gruppo e' vitelco.nl; il vecchio s |
-| Svezia | Abstracta AB | **dichiarato** | Lead di dubbia validità (non errore di dato): controllata al 100% di Lammhults Design Group AB, gruppo quotato — la compliance EUDR si decide alla capogruppo. Il legame è però già dichiarato correttam |
 | Svezia | Aktiebolaget Karlaträ | **NON dichiarato** | Legame di gruppo non dichiarato: la società appartiene a una koncern di 2 società con moderbolag Karlaträ Försäljning Aktiebolag (holding di famiglia/vendita). |
 | Svezia | Balungstrands Sågverk AB | **dichiarato** | Capogruppo incompleta/superata: il record si ferma a Green Wood Sverige AB. Green Wood Sverige AB (con Bäckebrons e Balungstrands) è stata riacquistata da Profura dopo il fallimento del gruppo tedesco |
 | Svezia | Brattby Sågverks AB | **NON dichiarato** | Legame di gruppo non dichiarato: la società fa parte di una koncern con moderbolag Brattby Trading Aktiebolag. Fatturato 143,4 MSEK (~12,7 M€) e 32 dipendenti 2024 confermati. |
 | Svezia | Brännfors Träförädling Aktiebolag | **NON dichiarato** | Legame di gruppo non dichiarato: moderbolag Brännfors Holding AB. Inoltre il dato 2024 confermato dalle fonti è 53.348 KSEK ≈ 4,7 M€ con 15 dipendenti (crescita -4,4%): il fatturato 2025 di 79.011 KSE |
 | Svezia | Bäckebrons Sågverk Aktiebolag | **dichiarato** | Capogruppo SBAGLIATA e superata: il record indica 'capogruppo Ziegler Holding GmbH'. Il gruppo tedesco Ziegler è FALLITO e Profura ha riacquistato Green Wood Sverige AB con Bäckebrons e Balungstrands; |
 | Svezia | Drömtrappor AB | **NON dichiarato** | Legame di gruppo non dichiarato (moderbolag Förvaltnings AB Klätterbjörken) e forte discontinuità del fatturato non segnalata: 126.413 KSEK nel 2024 (~11,2 M€) contro 83.213 KSEK nel 2025 (~7,4 M€), c |
-| Svezia | Ekstrands Dörrar & Fönster AB | **dichiarato** | Lead di dubbia validità (non errore di dato): società di un gruppo di 6 società con capogruppo Ekstrand & Son Aktiebolag, correttamente dichiarata nel record. Tutti gli altri dati (167.769 KSEK 2025 ≈ |
 | Svezia | Fogia Collection Aktiebolag | **dichiarato** | Lead di dubbia validità (non errore di dato): controllata di Scandinavian Design Partners AB, legame già dichiarato correttamente. Tutti i dati (108.304 KSEK 2024 ≈ 9,6 M€, risultato 15.276 KSEK, 18 d |
 | Svezia | Glimakra of Sweden AB | **dichiarato** | Lead di dubbia validità (non errore di dato): controllata di Garpco Aktiebolag dal 2007, gruppo di 25 società con 311 addetti e 667,0 MSEK. Il legame è dichiarato ma il record lo sottodimensiona ('con |
 | Svezia | Gärsnäs Aktiebolag | **dichiarato** | Lead di dubbia validità (non errore di dato): controllata di Bordet i Stockholm Aktiebolag, legame già dichiarato correttamente. Esiste inoltre notizia stampa di cambio di proprietà ('Gärsnäs AB får n |
 | Svezia | Hjältevadshus AB | **dichiarato** | Rischio economico rilevante non segnalato: a fronte dei 140.766 KSEK (~12,5 M€) del 2025 la società ha una marginalità di -32,6% (perdita nell'ordine dei 45 MSEK). Inoltre la koncern è molto più ampia |
-| Svezia | Hjältevadshus AB | **dichiarato** | Referente confermato (Johan Bynell, VD; ordförande Magnus Agervald) ma la nomina è annunciata da Pulsen Group: verificare che sia ancora in carica alla data di uso del lead. |
-| Svezia | Horreds Möbel Aktiebolag | **dichiarato** | Dato 2022 NON aggiornabile con certezza e anzi CONTRADDETTO. allabolag.se riporta oggi per Horreds Möbel AB (556365-1974) 45 dipendenti (contro i 50 del 2022) e un intervallo di fatturato 50.000-99.99 |
 | Svezia | Horreds Möbel Aktiebolag | **dichiarato** | Società CONFERMATA ATTIVA (scheda allabolag corrente, nessuna procedura concorsuale rilevata). Va però esplicitato il legame di gruppo: la capogruppo è Horreds Holding AB (esiste anche Horreds Möbel U |
 | Svezia | Tärnsjö Garveri Aktiebolag | **NON dichiarato** | Legame di gruppo NON dichiarato: il record definisce l'azienda 'la principale conceria indipendente attiva', ma allabolag indica come moderbolag Axel Bodéns Handels Aktiebolag. L'affermazione di indip |
 
@@ -511,7 +491,7 @@ Nessuna e-mail pubblica reperibile (campo 'n.d.') e nessun sito web aziendale: i
 
 ---
 
-## 5. Casi di gravità MEDIA (87)
+## 5. Casi di gravità MEDIA (88)
 
 _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente errato._
 
@@ -622,13 +602,14 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Silco NV | dimensione | Discordanza 4,8 vs 8,4 M€ NON risolta: le due banche dati continuano a riportare cifre diverse per lo stesso ultimo bilancio depositato (14-06-2024). Trendstop: EUR 8.358.215 (23a nel settore 'koffie en thee'); Companyweb/Fincheck: EUR 4.843.986. Sen | https://trendstop.knack.be/nl/detail/715792692/silco.aspx - 'omzet van 8.358.215 euro, 23e in de sector Koffie en thee'; https://www.companyweb.be/en/ |  |
 | Tannerie Masure SA | email | Email 'n.d.'. Il sito masure.be ha una pagina contatti attiva ma l'indirizzo non e' verificabile dai frammenti. DA CONFERMARE. | https://www.masure.be/contact (pagina contatti esistente; indirizzo e-mail non presente nei frammenti) |  |
 
-### Austria (6)
+### Austria (7)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
 | BRAUN LOCKENHAUS GmbH | dimensione | Filiale di gruppo estero: la societa' e' controllata da SCHNEEWEISS AG / SCHNEEWEISS interior, con sede del gruppo a Kippenheim (Baden-Württemberg, DE), dal 2006. La decisione di compliance EUDR si assume a livello di capogruppo tedesca. Il legame e' | https://www.braunlockenhaus.at/en/imprint - frammento: "Geschäftsführer Jochen Joachims und Gesellschafter SCHNEEWEISS AG"; "Braun Lockenhaus is part  |  |
 | Breitschopf Gesellschaft mbH & Co KG | referente | Il referente indicato (Martin Breitschopf) fa parte del 'Fuehrungstrio' familiare dal 2021 con delega a vendite/finanza/strategia, ma il Geschaeftsfuehrer iscritto dal 2001 risulta Dipl.-Ing. Johann Breitschopf. Il ruolo formale di Martin come GF non | https://www.meinbezirk.at/steyr-steyr-land/c-wirtschaft/breitschopf-kuechen-setzt-auf-fuehrungstrio_a6834711 - frammento: "Johann Breitschopf (Dipl.-I |  |
 | Hrachowina Fenster & Türen GmbH | dimensione | Fatturato ca. 25 Mio EUR dichiarato come stima non ufficiale (die-deutsche-wirtschaft.de) e senza anno. Da segnalare inoltre il precedente di insolvenza 2019 della controllata produttiva H&W Holzfensterproduktions-GmbH (JV con Weinzetl), poi rilevata | https://www.holzkurier.com/holzprodukte/2019/06/hrachowina.html - frammento: "H&W Holzfensterproduktions-GmbH had to file for insolvency in late Febru |  |
+| Jannach Lärchenholz GmbH | email | Campo e-mail vuoto ('n.d.'): l'Impressum offusca l'indirizzo in chiave anti-spam e nessuna fonte pubblica riporta letteralmente un recapito. Il lead resta contattabile solo via form/telefono. DA CONFERMARE. | https://jannach.com/kontakt/impressum.html - pagina Impressum senza indirizzo e-mail in chiaro; conferma GF: "Mag. (FH) Helmut Jannach is the manager  |  |
 | Ludwig Reiter Schuhmanufaktur GmbH | email | L'indirizzo office@ludwig-reiter.com non compare nell'Impressum aziendale, che riporta reiter@ludwig-reiter.com come recapito di contatto. | https://www.ludwig-reiter.com/de/impressum - frammento: "telephone +43-1-2559300, fax +43-1-2559300-77, and email reiter@ludwig-reiter.com" | reiter@ludwig-reiter.com |
 | Tschurtschenthaler Gerberei GmbH | sito | Sito aziendale assente ('n.d.'): nessun dominio proprio individuato nelle fonti pubbliche, solo schede di directory (herold, cylex, europages). | https://www.herold.at/gelbe-seiten/st-stefan-im-gailtal/RZ2RJ/tschurtschenthaler-gerberei-gmbh/ - scheda senza URL aziendale |  |
 | Waldviertler Werkstätten GmbH | dimensione | Dato di fatturato datato (2016-2019) e non riconciliato: le fonti citano 31 Mio EUR di ricavi 2016 riferiti all'universo GEA e, per la controllante Heinrich Staudinger GmbH, un totale di bilancio 2024 di 5,45 Mio EUR. Il perimetro societario del dato | https://www.firmenabc.at/heinrich-staudinger-gmbh-gea-waldviertler_NTLA - frammento: "balance sheet total of EUR 5.454.811,76 as of December 31, 2024" |  |

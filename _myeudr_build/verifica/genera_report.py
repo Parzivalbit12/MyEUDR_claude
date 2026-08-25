@@ -111,10 +111,24 @@ def main():
     GRP = re.compile(r"controllat|capogruppo|gruppo|koncern|datterselskab|dotterbolag|moderbolag|"
                      r"onderdeel van|dochter|Tochter|Konzern|part of|acquisit|maggioranza di|"
                      r"holding|ejet af|ägs av", re.I)
-    KEY = re.compile(r"grupp|koncern|controllat|capogruppo|moderbolag|dotterbolag|datterselskab|"
-                     r"indipendent|holding|acquisit|proprietar|assetto|Stora Enso|DLG|Inwido|"
-                     r"Ballingslöv|Orkla|Profura|Pulsen|ACO", re.I)
-    gr = [r for r in R if KEY.search(str(r.get("problema","")) + " " + str(r.get("campo","")))]
+    # solo rilievi il cui MERITO è l'assetto proprietario, non quelli che citano "gruppo" di sfuggita
+    OWN = re.compile(r"non (?:e'|è) (?:piu' |più )?indipendent|lead non indipendent|"
+                     r"controllata (?:di|da|integrale|del)|controllat[oa] (?:dal|dalla)|"
+                     r"capogruppo (?:sbagliat|errat|indicata|non dichiarat|manca)|"
+                     r"appartenenza di gruppo|legame di gruppo|legame non dichiarat|"
+                     r"assetto proprietario|moderbolag|dotterbolag non dichiarat|"
+                     r"filiale di gruppo|controllata di gruppo|societa' non indipendente|"
+                     r"società non indipendente|acquisita da|rilevata da|"
+                     r"fa parte (?:del|della|di) grupp|nel portafoglio del fondo|"
+                     r"socio unico|partecipata (?:da|dal)|koncernmoderbolag", re.I)
+    def is_own(r):
+        t = str(r.get("problema", ""))
+        if not OWN.search(t): return False
+        # esclude i rilievi in cui l'assetto è solo contesto di un rilievo su altro
+        if re.match(r"^\s*(IDENTITA|Dato obsolet|Discordanza|Referente e ruolo errati|"
+                    r"nessuna delle 7)", t, re.I): return False
+        return True
+    gr = [r for r in R if is_own(r)]
     if gr:
         o.append(f"\n---\n\n## 3. Tema trasversale — legami di gruppo ({len(gr)} rilievi)\n")
         o.append("È il problema **più diffuso e meno atteso** emerso dalla verifica: non era fra i "
@@ -136,8 +150,18 @@ def main():
             k = (r.get("foglio"), r.get("denominazione"))
             rec = recs.get(k)
             if rec is None:
+                import unicodedata
+                def fold(x):
+                    x = (x or "").lower().replace("ø","o").replace("æ","ae").replace("å","aa")
+                    x = x.replace("oe","o").replace("ae","a").replace("aa","a")
+                    x = unicodedata.normalize("NFKD", x)
+                    x = "".join(ch for ch in x if not unicodedata.combining(ch))
+                    return re.sub(r"[^a-z0-9]", "", x)
+                target = fold(r.get("denominazione"))
                 for (sh, dn), v in recs.items():
-                    if sh == r.get("foglio") and dn.lower().startswith(str(r.get("denominazione"))[:14].lower()):
+                    if sh != r.get("foglio"): continue
+                    f = fold(dn)
+                    if f.startswith(target[:16]) or target.startswith(f[:16]):
                         rec = v; break
             stato = "— (record non risolto)" if rec is None else (
                 "**dichiarato**" if GRP.search(rec.get("dimensione","")) else "**NON dichiarato**")
