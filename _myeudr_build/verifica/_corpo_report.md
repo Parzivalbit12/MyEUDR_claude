@@ -14,13 +14,13 @@ La verifica si è svolta in due fasi:
 |---|--:|--:|--:|--:|--:|--:|
 | Italia | 95 | 1 | 0 | 4 | 19 | 20% |
 | Germania | 97 | 1 | 0 | 5 | 17 | 18% |
-| Finlandia | 84 | 0 | 1 | 4 | 11 | 13% |
-| Danimarca | 89 | 2 | 0 | 3 | 36 | 40% |
+| Finlandia | 84 | 1 | 0 | 4 | 17 | 20% |
+| Danimarca | 89 | 2 | 1 | 2 | 40 | 45% |
 | Svezia | 89 | 1 | 0 | 4 | 18 | 20% |
 | Olanda | 99 | 2 | 0 | 4 | 34 | 34% |
 | Belgio | 94 | 3 | 0 | 2 | 57 | 61% |
-| Austria | 93 | 1 | 0 | 4 | 19 | 20% |
-| **TOTALE** | **740** | **11** | **1** | **30** | **211** | **29%** |
+| Austria | 93 | 1 | 1 | 3 | 22 | 24% |
+| **TOTALE** | **740** | **12** | **2** | **28** | **224** | **30%** |
 
 _Un blocco è contato **completo** solo se l'agente ha confermato di aver verificato tutti i record. I **blocchi parziali** sono quelli ancora in corso o interrotti dal limite di sessione: i rilievi già salvati sono validi e inclusi nel report, ma la copertura è conteggiata al ribasso (solo le aziende che compaiono fra i rilievi). Il salvataggio incrementale ogni 3-4 record è ciò che ha evitato di perdere quel lavoro._
 
@@ -32,34 +32,34 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 
 ## 2. Rilievi per foglio
 
-**Totale rilievi Fase B: 358** — alta 51 · media 200 · bassa 107.
+**Totale rilievi Fase B: 374** — alta 52 · media 209 · bassa 113.
 
 | Foglio | Rilievi | alta | media | bassa | Aziende toccate |
 |---|--:|--:|--:|--:|--:|
 | Italia | 25 | 0 | 11 | 14 | 17 |
 | Germania | 29 | 1 | 20 | 8 | 17 |
-| Finlandia | 17 | 5 | 8 | 4 | 11 |
-| Danimarca | 46 | 14 | 18 | 14 | 32 |
+| Finlandia | 23 | 6 | 11 | 6 | 15 |
+| Danimarca | 52 | 14 | 22 | 16 | 36 |
 | Svezia | 36 | 6 | 15 | 15 | 18 |
 | Olanda | 74 | 9 | 50 | 15 | 33 |
 | Belgio | 115 | 15 | 68 | 32 | 57 |
-| Austria | 15 | 1 | 10 | 4 | 12 |
+| Austria | 19 | 1 | 12 | 6 | 15 |
 | _(tutti)_ | 1 | 0 | 0 | 1 | 1 |
-| **TOTALE** | **358** | **51** | **200** | **107** | **198** |
+| **TOTALE** | **374** | **52** | **209** | **113** | **209** |
 
 ### Rilievi per campo
 
 | Campo | Rilievi | di cui alta |
 |---|--:|--:|
-| dimensione | 160 | 28 |
-| referente | 81 | 10 |
+| dimensione | 168 | 28 |
+| referente | 84 | 11 |
 | denominazione | 29 | 7 |
-| email | 25 | 2 |
+| email | 26 | 2 |
 | linkedin | 19 | 0 |
-| filiera | 11 | 4 |
+| filiera | 12 | 4 |
+| ruolo | 11 | 0 |
 | sito | 10 | 0 |
-| ruolo | 10 | 0 |
-| sede | 8 | 0 |
+| sede | 10 | 0 |
 | fonte | 4 | 0 |
 | esistenza_stato | 1 | 0 |
 
@@ -139,7 +139,7 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 
 ---
 
-## 4. Casi di gravità ALTA (51)
+## 4. Casi di gravità ALTA (52)
 
 _Dato falso, azienda non contattabile, azienda cessata/fallita/acquisita, oppure fuori dal perimetro dell'Allegato I EUDR._
 
@@ -155,7 +155,7 @@ CONTROLLO DI GRUPPO NON DICHIARATO: dal 2016 Heitz e societa del gruppo INDUS Ho
 **Correzione proposta:** Controllata di INDUS Holding AG (gruppo quotato) dal 2016; dato dimensionale da integrare con fonte e anno
 
 
-### Finlandia (5)
+### Finlandia (6)
 
 #### Akonkosken Saha Oy — campo `email`
 
@@ -196,6 +196,14 @@ Appartenenza a gruppo NON dichiarata: JET-Puu Oy fa parte di JETTA-Korporaatio (
 **Evidenza:** https://vainu.io/company/jet-puu-oy-taloustiedot-ja-liikevaihto/183735/yritystiedot — frammento: "The company is part of the JETTA-Korporaatio group and operates as a sawmill and wood processing facility in Perho... In 2025, JET-Puu Oy had a revenue of 10.7 million euros and employed 27 people. In 2024, the company's revenue was 8.4 million euros"
 
 **Correzione proposta:** Liikevaihto 10,7 M€ / 27 dip. (2025); parte di JETTA-Korporaatio (Jetta-Talo)
+
+#### Kiilax Oy — campo `referente`
+
+Referente errato/superato: il toimitusjohtaja in carica e' Jouni Kontkanen (imprenditore di Joensuu che ha rilevato e rilanciato l'azienda, gia' nota come Palavaneri). Jani Olkkonen non risulta amministratore delegato attuale.
+
+**Evidenza:** https://vainu.io/company/kiilax-oy-taloustiedot-ja-liikevaihto/256569/yritystiedot e https://www.karjalainen.fi/paikalliset/7656099 — frammento: "The company's managing director (toimitusjohtaja) is Jouni Kontkanen"; "Tuore joensuulainen yrittaja Jouni Kontkanen on pistanyt aiemmin Palavanerina tunnettua Kiilaxia iskukuntoon"
+
+**Correzione proposta:** Jouni Kontkanen — Toimitusjohtaja (CEO)
 
 
 ### Danimarca (14)
@@ -575,7 +583,7 @@ Nessuna e-mail pubblica reperibile (campo 'n.d.') e nessun sito web aziendale: i
 
 ---
 
-## 5. Casi di gravità MEDIA (200)
+## 5. Casi di gravità MEDIA (209)
 
 _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente errato._
 
@@ -621,7 +629,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Weinheimer Leder GmbH | dimensione | Struttura di gruppo non dichiarata: Weinheimer Leder GmbH e collegata a Das Lederband GmbH (Weinheim, HRB 724382), con Uwe Holubeck Geschäftsführer di entrambe; le fonti aperte non chiariscono il verso del controllo. L'azienda e inoltre nata nel 2003 | https://www.northdata.de/Das%20Lederband%20GmbH,%20Weinheim/Amtsgericht%20Mannheim%20HRB%20724382 - collegamento societario con Weinheimer Leder GmbH, |  |
 | ecopell GmbH | dimensione | Campo privo di dato dimensionale ('Umsatz/MA n.d. (dal 1992)'). Le fonti disponibili indicano una micro-impresa: totale di bilancio 2023 pari a ~900 mila EUR (-20,1% sull'anno precedente), capitale sociale 265.000 EUR. E' quindi molto al di sotto del | https://implisense.com/en/companies/ecopell-gmbh-weitnau-seltmans-DE7L5HN3YI34 - 'last published balance sheet total of Ecopell GmbH in 2023 was 900k  | Totale di bilancio ~0,9 Mio EUR (2023, Bundesanzeiger via Implisense) - micro-impresa, fuori forbice target |
 
-### Finlandia (8)
+### Finlandia (11)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -633,14 +641,21 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | I.S. Mäkinen Oy (MAKINEN) | email | Email assente ('n.d.'): il lead non e' contattabile via posta elettronica. Nessun indirizzo reperito nei frammenti pubblici consultati. | https://www.finder.fi/Laivasisustus/I+S+M%C3%A4kinen+Oy/Vanhalinna/yhteystiedot/138719 — la scheda contatti non espone un indirizzo email nei framment |  |
 | I.S. Mäkinen Oy (MAKINEN) | filiera | Perimetro EUDR da verificare: l'attivita' principale (laivasisustus) e' allestimento/installazione di interni per navi da crociera, cioe' contract di installazione con pannelli e componenti acquistati gia' sul mercato UE. Non e' detto che l'azienda i | https://vainu.io/company/is-makinen-oy-taloustiedot-ja-liikevaihto/362542/yritystiedot — frammento: "the company operates in ship interior design... s |  |
 | Jet-Puu Oy | email | Email assente ('n.d.'): lead non contattabile via posta elettronica. Esiste una pagina contatti pubblica (jet-puu.fi/en/contacts/) da cui estrarre un indirizzo, ma il dato non e' emerso nei frammenti. | https://www.jet-puu.fi/en/contacts/ — pagina contatti esistente; nessun indirizzo email nei frammenti di ricerca. DA CONFERMARE |  |
+| Kensa Oy | email | Email assente ('n.d.'): lead non contattabile via posta elettronica. Nessun indirizzo emerso dai frammenti pubblici (Finder/Asiakastieto/Nordicnet). | https://www.finder.fi/Keitti%C3%B6kalusteet/Kensa+Oy/Himanka/yhteystiedot/3311123 — frammento con indirizzo e attivita' ("Targantie 9, 68100 Himanka.. |  |
+| Kiilax Oy | dimensione | Il campo dichiara 'liikevaihto n.d.' ma il dato e' pubblicamente disponibile: 6,7 M€ nell'esercizio chiuso a 03/2025, utile 514 k€, 24 dipendenti, fatturato in calo del 6,8%. Valore al limite inferiore della forbice. | https://www.asiakastieto.fi/yritykset/fi/kiilax-oy/14857945/taloustiedot — frammento: "For the fiscal year ending in 2025/03, Kiilax Oy's revenue was  | Liikevaihto 6,7 M€ / 24 dip. (esercizio chiuso 03/2025, Asiakastieto) |
+| Kiilax Oy | filiera | Descrizione parziale: l'attivita' principale e' la produzione di botole/portelli d'ispezione (tarkastusluukut) e il commercio specializzato di prodotti in compensato, non la produzione di compensato di betulla o di pannelli lamellari. Da riformulare  | https://vainu.io/company/kiilax-oy-taloustiedot-ja-liikevaihto/256569/yritystiedot — frammento: "Kiilax was founded in 1993 and manufactures inspectio | Legno/Arredo — botole d'ispezione e prodotti in compensato (produzione + rivendita specializzata) |
 
-### Danimarca (18)
+### Danimarca (22)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
 | ALL CREATIVE A/S | dimensione | Il campo non contiene alcun dato economico: non riporta ne' fatturato ne' bruttofortjeneste ne' anno di riferimento, ma solo una fascia di dipendenti '11-50' presa da LinkedIn e priva di data. La collocazione nella forbice target 5-40 M€ resta quindi | https://www.proff.dk/firma/all-creative-as/r%C3%B8dovre/producenter/GSG8C7I016D (scheda regnskab della societa', CVR 21124796) |  |
+| BUCHS A/S | dimensione | Il campo non riporta alcun dato di bilancio verificato ma solo una stima ('fascia stimata 5-15 M€'). Il dato pubblicato e' il bruttofortjeneste: 14.746.681 DKK nel 2024 (16.092.571 DKK nel 2023), ~2,0 M€ di margine lordo, con 28 dipendenti. Con quest | https://www.krak.dk/buchs+as+randers+sv/67226095/firma - 'bruttofortjeneste 14.746.681 DKK i 2024, mod 16.092.571 DKK i 2023 ... 28 ansatte' | Bruttofortjeneste 14,75 mio DKK nel 2024 (~2,0 M€ di margine lordo), 28 dipendenti (krak.dk/proff.dk, CVR 29845646). Fat |
 | COPENHAGEN CHOCOLATE FACTORY ApS | email | L'email pubblicata come recapito ufficiale nelle condizioni di vendita e sulle schede societarie e' kundeservice@simplychocolate.dk (tel. +45 3634 0070). info@simplychocolate.dk, riportata nel foglio, non e' stata ritrovata letteralmente in nessuna f | https://www.simplychocolate.dk/pages/handelsbetingelser e https://www.proff.dk/firma/copenhagen-chocolate-factory-aps/kastrup/producenter/0JI778I016D  | kundeservice@simplychocolate.dk |
+| EMBALLAGEFABRIKKEN THY PAP | dimensione | Il campo e' 'n.d.'. La verifica mostra che si tratta di THY PAP, enkeltmandsvirksomhed (ditta individuale) con CVR 25352769, registrata in Morsoe Kommune (proff.dk la colloca a Nykoebing M) con unita' produttiva a Industrivej 19 B, 7700 Thisted. Una  | https://www.proff.dk/firma/thy-pap/nyk%C3%B8bing-m/producenter/GNWOAAI016D e https://estatistik.dk/virksomhed/thy-pap/25352769 - 'enkeltmandsvirksomhe | CVR 25352769 (THY PAP, enkeltmandsvirksomhed). Fatturato e addetti non pubblicati per forma giuridica; micro-impresa AMP |
+| EMBALLAGEFABRIKKEN THY PAP | referente | DA CONFERMARE: il nome 'Carsten Boye Steen' come indehaver non e' stato ritrovato in nessuna fonte pubblica raggiungibile (proff, estatistik, degulesider, krak, sito aziendale). Trattandosi di ditta individuale il titolare e' il decisore unico: il da | Ricerche '"Thy Pap" "Carsten" indehaver ejer' e '"Thy Pap" Thisted CVR indehaver': nessun frammento riporta il nome del titolare; le fonti si fermano  |  |
 | Estate Coffee Copenhagen A/S | denominazione | IDENTITA' ANNOTATA CONFERMATA CORRETTA: il CVR 18179407 e' oggi registrato come Smage-Compagniet A/S, Holmevej 10, 5683 Haarby. La cronologia e' ricostruita dall'azienda stessa: fondata nei primi anni '90 (tra i fondatori Claus Meyer) come Chokolade  | https://smage-compagniet.dk/estate-coffee/ - 'Virksomhedens historie gaar tilbage til starten af 1990'erne, hvor den blev grundlagt af blandt andre Cl | Smage-Compagniet A/S (CVR 18179407) - gia' Estate Coffee Copenhagen A/S / Chokolade Compagniet |
+| H. EMBALLAGE ApS | dimensione | Il campo scrive 'ricavi/margine lordo dichiarati 9,211 mio DKK' senza dichiarare di quale dato si tratti: per una ApS il bilancio in forma ridotta pubblica il bruttofortjeneste, non il fatturato. La formula ambigua rende non interpretabile il dato (9 | https://www.proff.dk/firma/h.-emballage-aps/glamsbjerg/producenter/GWNSLZI016D - CVR 38528742, 'Papirvarefabrikker og kartonnagefabrikker', Hoejrupvej | Bruttofortjeneste 9,211 mio DKK (~1,2 M€ di margine lordo), 21 dipendenti; fatturato non pubblicato (ApS, bilancio in fo |
 | INNOVATION LIVING A/S (già Innovation Rander | dimensione | Dato obsoleto: il campo cita il bruttofortjeneste 2023 (47,3 M DKK) mentre l'ultimo bilancio disponibile (2025) riporta 40 M DKK, quindi in calo. Anche la composizione del gruppo è imprecisa: INNOVATION HOLDING A/S conta 10 società, non 8. | https://www.proff.dk/firma/innovation-living-as/randers-n%C3%B8/m%C3%B8bler/13462KI015G — frammento: "In 2025, the company reported a gross profit of  | Bruttofortjeneste 40 mio DKK (~5,4 M€) nel 2025 (proff.dk, CVR 65699516); fatturato non pubblicato; gruppo INNOVATION HO |
 | JKE DESIGN A/S | dimensione | Dato obsoleto: il campo riporta il bruttofortjeneste 2023 (55,6 M DKK) mentre il bilancio 2024 depositato indica 50 M DKK, in ulteriore calo rispetto al 2022 (58,7 M DKK). La stima ricavi "~20-27 M€" resta non verificata. | https://regnskaber.cvrapi.dk/21017236/ (Årsrapport 2024 JKE DESIGN A/S, Gl Klæstrupvej 75, 9740 Jerslev J) — frammento: "In 2024, the company showed a | Bruttofortjeneste 50 mio DKK (~6,7 M€) nel 2024 (årsrapport 2024, CVR 63271012); fatturato non pubblicato |
 | Just Coffee | denominazione | Ragione sociale CVR ora VERIFICATA: non e' ne' ApS ne' A/S ne' amba, e' un INTERESSENTSKAB. Denominazione legale 'Just Coffee I/S', CVR 35492380, costituita il 01-01-2014, sede Frederiksborgvej 551, 4000 Roskilde; soci illimitatamente responsabili Ma | https://cvrapi.dk/virksomhed/dk/just-coffee-is/35492380 e https://www.proff.dk/firma/just-coffee-is/roskilde/producenter/GUO2ZPI016D - 'Just Coffee I/ | Just Coffee I/S - CVR 35492380 (forma giuridica: interessentskab) |
@@ -805,7 +820,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Vanerum Belgie NV | dimensione | Il legame di gruppo e' dichiarato ma incompleto: i3-Group non e' piu' interamente familiare. WorxInvest ha acquistato circa il 25% per 10 M€ e nel novembre 2023 anche il gruppo americano Steelcase ha preso una partecipazione. La compliance EUDR si de | derijkstebelgen.be 'NIEUW – WorxInvest betaalt 10 miljoen euro voor kwart van Van Erum schoolborden'; holahageland.net 'Na WorxInvest neemt ook Amerik |  |
 | Woodtex NV | dimensione | Dato di fatturato superato. Il record riporta 11.778.466 € (deposito 23-06-2025); l'ultimo bilancio depositato (01-06-2026) indica 12.131.554 € con 35 FTE. | companyweb.be/en/0413744194/woodtex: 'Woodtex recorded a total turnover of €12,131,554.00. The most recent financial statements were filed on 01-06-20 | Fatturato 12.131.554 € - 35 FTE (bilancio NBB depositato 01-06-2026) |
 
-### Austria (10)
+### Austria (12)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -817,12 +832,14 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Ludwig Reiter Schuhmanufaktur GmbH | dimensione | Il fatturato di ca. 15 Mio EUR e i ca. 60 dipendenti attribuiti a Wikipedia/AustriaWiki (2019-2023) non trovano riscontro: la voce Wikipedia riporta solo dati storici di organico (ca. 70 addetti nel 1919, ca. 130 nel 1966) e nessun dato di fatturato  | https://de.wikipedia.org/wiki/Ludwig_Reiter_Schuhmanufaktur - frammento: "In 1919, approximately 70 employees were employed, and in 1966, the company  |  |
 | Mayr - Schulmöbel Gesellschaft m.b.H. | dimensione | Il fatturato di ca. 39,0 Mio EUR (stima Die Deutsche Wirtschaft) e' smentito dai dati di ricavo pubblicati dall'azienda/stampa locale: 21 Mio EUR nel 2013, 22,4 Mio EUR nel 2014, 23,1 Mio EUR nel 2016 (+5%). Cade quindi anche l'avvertenza 'AZIENDA DI | https://www.meinbezirk.at/salzkammergut/c-wirtschaft/50000-schueler-lernen-erfolgreich-auf-sesseln-von-mayr-schulmoebel_a824339 - frammento: "In 2013  | Fatturato ca. 23,1 Mio € (2016, ultimo dato pubblicato), ca. 145 dipendenti |
 | Mayr - Schulmöbel Gesellschaft m.b.H. | dimensione | Il secondo Geschaeftsfuehrer indicato nel campo ('Ing. Florian Huemer') non e' riscontrato: le fonti riportano come coppia di GF Franz Josef Wiener (referente del record, corretto) e Maximilian Auinger. | https://newsroom.kommhaus.com/qualitaetsschulmoebel-made-in-austria/ - frammento: "The two managing directors of Mayr Schulmoebel are Franz Josef Wien | Secondo Geschäftsführer: Maximilian Auinger |
+| Meyer Parkett GmbH | sede | La sede legale/operativa non e' piu' Kalsdorf bei Graz: il Firmenbuch e herold indicano Sternweg 2, 8141 Premstaetten (Graz-Umgebung). Anche firmenabc riporta ora l'azienda 'in Premstaetten'. Trasferimento oggetto di Kundmachung comunale 2024. | https://www.evi.gv.at/f/226133z (titolo: 'Meyer Parkett GmbH 8141 Premstaetten \| Firmenbuch'); https://www.herold.at/gelbe-seiten/premst%C3%A4tten/qS | Premstätten (Steiermark) |
+| Rauchenzauner Möbel GmbH | dimensione | Il fatturato di 18,8 M€ e' una stima Die Deutsche Wirtschaft, non un dato firmenabc: la fonte va attribuita correttamente. Il dato di bilancio reale disponibile e' il totale attivo 4.454.624,41 EUR al 31.03.2025. La societa' e' inoltre di costituzion | https://www.evi.gv.at/f/611446k ('Bilanz zum 31.03.2025 ... Bilanzsumme 4.454.624,41 EUR'; 'eingetragen 06.09.2023'); https://www.firmenabc.at/rauchen | Totale di bilancio 4,45 Mio EUR (31.03.2025, Firmenbuch); 50-99 dipendenti (firmenabc); fatturato non pubblicato — 18,8  |
 | Tschurtschenthaler Gerberei GmbH | sito | Sito aziendale assente ('n.d.'): nessun dominio proprio individuato nelle fonti pubbliche, solo schede di directory (herold, cylex, europages). | https://www.herold.at/gelbe-seiten/st-stefan-im-gailtal/RZ2RJ/tschurtschenthaler-gerberei-gmbh/ - scheda senza URL aziendale |  |
 | Waldviertler Werkstätten GmbH | dimensione | Dato di fatturato datato (2016-2019) e non riconciliato: le fonti citano 31 Mio EUR di ricavi 2016 riferiti all'universo GEA e, per la controllante Heinrich Staudinger GmbH, un totale di bilancio 2024 di 5,45 Mio EUR. Il perimetro societario del dato | https://www.firmenabc.at/heinrich-staudinger-gmbh-gea-waldviertler_NTLA - frammento: "balance sheet total of EUR 5.454.811,76 as of December 31, 2024" |  |
 
 ---
 
-## 6. Casi di gravità BASSA (107)
+## 6. Casi di gravità BASSA (113)
 
 _Refusi formali e incoerenze di stile._
 
@@ -859,21 +876,25 @@ _Refusi formali e incoerenze di stile._
 | Paletten Meyer | denominazione | 'Paletten Meyer' e solo il nome commerciale/dominio. La ditta e iscritta come 'Josef Meyer Palettenbau Inh. Julian Meyer' (impresa individuale, non societa di capitali): la forma giuridica va esplicitata perche incide sulla figura del contraente EUDR | https://www.europages.de/JOSEF-MEYER-PALETTENBAU-INH-JULIAN-MEYER/00000005396426-001.html e https://www.wlw.de/de/firma/josef-meyer-palettenbau-inh-ju | Josef Meyer Palettenbau Inh. Julian Meyer (Paletten Meyer) |
 | RMW Wohnmöbel GmbH & Co. KG (Rietberger Möbe | referente | Geschäftsführung incompleta: oltre a Rudolf Eikenkötter risulta Geschäftsführer anche Volker Klocke (RMW Wohnmöbel Verwaltungs GmbH, HRB 6744 AG Gütersloh, socio accomandatario). | https://www.northdata.com/RMW%20Wohnm%C3%B6bel%20Verwaltungs%20GmbH,%20Rietberg/Amtsgericht%20G%C3%BCtersloh%20HRB%206744 e https://www.rmw-wohnmoebel | Rudolf Eikenkötter, Volker Klocke |
 
-### Finlandia (4)
+### Finlandia (6)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
 | Aureskosken Jalostetehdas Oy | dimensione | Fatturato riportato (15,8 M€ 2024) superato dal bilancio 2025: 18,9 M€ e 52 dipendenti. | https://vainu.io/company/aureskosken-jalostetehdas-oy-taloustiedot-ja-liikevaihto/128104/yritystiedot — frammento: "In 2025, the company had a revenue | Liikevaihto 18,9 M€ / 52 dip. (2025, Vainu/Asiakastieto) |
 | Elega Oy | dimensione | Fatturato impreciso e senza fonte/anno certo ('~8,8 M€ 2023-24'): il dato di bilancio 2024 e' 9,5 M€ con 56 dipendenti, in calo del 17,5%. | https://vainu.io/company/elega-oy-taloustiedot-ja-liikevaihto/542365/yritystiedot — frammento: "Elega Oy's revenue was 9.5 million euros in 2024 and e | Liikevaihto 9,5 M€ / 56 dip. (2024, Asiakastieto/Vainu) |
 | Hakola Huonekalu Oy | dimensione | Dato di fatturato non aggiornato (4,82 M€ 2023): il bilancio 2024 riporta 5,0 M€ e 30 dipendenti. Resta comunque al limite inferiore della forbice (5 M€). | https://vainu.io/company/hakola-huonekalu-oy-taloustiedot-ja-liikevaihto/163895/yritystiedot — frammento: "Hakola Huonekalu Oy's revenue was 5 million | Liikevaihto 5,0 M€ / 30 dip. (2024, Asiakastieto/Vainu) — limite inferiore forbice |
+| Hoisko CLT (CLT Finland Oy) | dimensione | Dati anagrafici e finanziari confermati (5,0 M€ 2024, 25 dip., toimitusjohtaja Tero Yli-Sikkila), ma il campo non segnala la fragilita' patrimoniale: omavaraisuusaste (equity ratio) 9% e margine operativo 3,3%. Fatturato al limite inferiore della for | https://www.asiakastieto.fi/yritykset/fi/clt-finland-oy/27245892/taloustiedot — frammento: "turnover of 5 MEUR in 2024 and employed 25 people... opera |  |
 | Hollolan Viilu ja Laminaatti Oy (HVL) | dimensione | Il valore 5,4 M€ (2025) e' confermato ma la serie storica e' bassa (4,47 M€ nel 2023, 4,7 M€ nell'esercizio precedente): l'azienda oscilla intorno alla soglia minima di 5 M€ della forbice. Da valutare come lead marginale. | https://search.vainu.com/company/hollolan-viilu-ja-laminaatti-oy-taloustiedot-ja-liikevaihto/FI09821550/yritystiedot — frammento: "2025: 5.4 million e |  |
+| Kankarin Kaluste Oy | dimensione | Serie storica incoerente con le fonti: il record indica 18,8 M€ per il 2024, mentre le fonti riportano oltre 23 M€ nel 2023 e 22 M€ nel 2025 (69 dip.). Il dato 2025 e' corretto; il dato intermedio 2024 va riverificato. | https://puumieslehti.fi/kuukauden-juttu/kankarin-kaluste-oy-kiintokalusteita-kihniosta-40-vuoden-kokemuksella/ e https://vainu.io/company/kankarin-kal | Liikevaihto 22,0 M€ / 69 dip. (2025) — rimuovere o riverificare il valore 18,8 M€ (2024) |
 
-### Danimarca (14)
+### Danimarca (16)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
 | ALL CREATIVE A/S | referente | Nome del referente incompleto: l'adm. direktor registrato e' Mette Juhl Christensen. Email info@allcreative.dk e sede (vendite Islevdalvej 214, Rodovre; produzione Tulipvej 3, Vejle) risultano confermate. | https://www.proff.dk/firma/all-creative-as/r%C3%B8dovre/papir-og-papirprodukter-produktion/GSG8C7I10K1 (adm. direktor Mette Juhl Christensen) ; https: | Mette Juhl Christensen, Adm. direktor |
 | BØJSØ DØRE & VINDUER A/S | dimensione | Organico non allineato: le fonti reperite indicano 43 dipendenti, il record ne indica 41. Inoltre il campo non riporta alcun dato economico verificato (né fatturato né bruttofortjeneste): la collocazione in forbice 5-40 M€ resta una stima non verific | https://www.proff.dk/firma/b%C3%B8js%C3%B8-d%C3%B8re-vinduer-as/vorbasse/producenter/GJL0QJI016D — frammento: "Bøjsø doors and windows was founded in  | 43 dipendenti (proff.dk, CVR 12224494); dato economico da recuperare a bilancio |
+| COLOR LABEL A/S | ruolo | Ruolo generico e non conforme alla nomenclatura danese. Erik Groenning risulta effettivamente in carica ma con il titolo di adm. direktoer. | https://www.colorlabel.dk/om-color-label - 'Color Label ... etableret af Erik Groenning, der fortsat leder virksomheden'; proff.dk CVR 15136901 riport | Adm. direktør (fondatore) |
+| COLOR LABEL A/S | dimensione | Anno di fondazione discordante: il campo indica 'fondata 1991', il sito aziendale indica la fondazione nel 1980 da parte di Erik Groenning (1991 e' verosimilmente la data di registrazione dell'attuale CVR 15136901). | https://www.colorlabel.dk/om-color-label - azienda 'etableret' nel 1980 da Erik Groenning | fondata nel 1980 (attuale CVR 15136901 registrato nel 1991) — DA CONFERMARE |
 | COPENHAGEN CHOCOLATE FACTORY ApS | denominazione | IDENTITA' ANNOTATA CONFERMATA CORRETTA: CVR 32761844, Amager Landevej 123, 2770 Kastrup, costituita il 26-01-2010, ApS; opera con i binavne 'Simply Chocolate Copenhagen' e www.simplychocolate.dk; direttore Niels Ostenkaer; capogruppo SOLSTRA INVESTME | https://cvrapi.dk/virksomhed/dk/copenhagen-chocolate-factory-aps/32761844 ; https://www.simplychocolate.dk/pages/handelsbetingelser - 'www.simplychoco |  |
 | FREDERICIA FURNITURE A/S | dimensione | Refuso nell'unità di misura: "risultato ante imposte 6,5 M€ DKK" mescola euro e corone danesi. Il valore va espresso in una sola valuta. | Testo del campo dimensione del record stesso: "risultato ante imposte 6,5 M€ DKK" | risultato ante imposte 6,5 mio DKK (~0,87 M€) |
 | Farstrup Furniture A/S | ruolo | DA CONFERMARE: i registri elencano due direktør (Jan Andersen e Steen Cederholm-Johansen) senza qualificare esplicitamente Cederholm-Johansen come administrerende direktør. Il ruolo indicato non è riconfermato. | https://www.proff.dk/firma/farstrup-furniture-as/s%C3%B8nders%C3%B8/producenter/GKF1OMI016D — frammento: "The directors are Jan Andersen and Steen Ced |  |
@@ -964,7 +985,7 @@ _Refusi formali e incoerenze di stile._
 | Silco NV | sito | Nessun sito web proprio reperito per Silco NV in 3 ricerche: l'azienda compare solo su banche dati societarie (trendstop, companyweb, fincheck, northdata, staatsbladmonitor). Coerente con la struttura a 1 FTE. Il campo vuoto e' quindi corretto, ma va | https://www.northdata.com/Silco%20N.V.,%20Antwerpen/KBO%200715.792.692 - solo scheda registro; nessun dominio aziendale nei risultati | n.d. (nessun sito web aziendale) |
 | VC Wood Zottegem NV | linkedin | L'URL LinkedIn indicato (company/vc-wood-zottegem) non corrisponde alla pagina che emerge dalle ricerche, che e' company/vc-wood. DA CONFERMARE quale delle due sia attiva. | https://be.linkedin.com/company/vc-wood (risultato di ricerca per 'VC Wood Zottegem houthandel') | https://be.linkedin.com/company/vc-wood |
 
-### Austria (4)
+### Austria (6)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -972,6 +993,8 @@ _Refusi formali e incoerenze di stile._
 | Holzindustrie Schafler GmbH & Co KG | ruolo | Il ruolo riportato ('Gewerberechtlicher Geschaeftsfuehrer') sottostima la posizione: l'Impressum aziendale indica Bernd (Christoph) Schafler come Geschaeftsfuehrer e proprietario, quarta generazione familiare. | https://www.schafler-holz.at/impressum - frammento: "Geschaeftsfuehrer: Bernd Schafler... current managing director and owner Bernd Christoph Schafler | Geschäftsführer / Inhaber |
 | Karnische Massiv Möbel GmbH | denominazione | Ragione sociale a Firmenbuch: 'Karnische-Massiv-Moebel Gesellschaft m.b.H.' (con trattini), FN 094638z, LG Klagenfurt; 'Karnische Massiv Moebel GmbH' e' il nome commerciale. Refuso formale. Confermati invece GF Werner Hohenwarter (fratello Otto Proku | https://www.firmenabc.at/karnische-massiv-moebel-gesellschaft-m-b-h_Xyc e https://www.northdata.de/Karnische-Massiv-M%C3%B6bel%20GmbH,%20Kirchbach/094 | Karnische-Massiv-Möbel Gesellschaft m.b.H. |
 | MAFI Naturholzboden GmbH | dimensione | Il fatturato di 22,3 Mio EUR e' datato al 2017 nel record, ma la fonte (die-deutsche-wirtschaft.de) lo presenta come dato piu' recente disponibile con crescita del 2,8% rispetto a una stima precedente di 20,0 Mio EUR. Anno di riferimento da riconferm | https://die-deutsche-wirtschaft.de/famu_top/oesterreich-mafi-naturholzboden-gmbh-schneegattern-umsatz-mitarbeiterzahl/ - frammento: "The most recent a |  |
+| Mühlbauer Holz GmbH | sede | Himberg e' la sede operativa (Franz-Lehn-Gasse 7, 2325 Himberg), ma la sede legale iscritta al Firmenbuch e' 1080 Wien, Laudongasse 47/52 (anche l'iscrizione WKO e' su Vienna). Da esplicitare per evitare mismatch anagrafico. | https://www.evi.gv.at/f/283235y (titolo: 'Mühlbauer Holz GmbH 1080 Wien \| Firmenbuch'); https://firmen.wko.at/m%C3%BChlbauer-holz-gmbh/wien/ | Himberg (Niederösterreich) — sede operativa; sede legale 1080 Wien |
+| Mühlbauer Holz GmbH | referente | Referente corretto ma da datare: DI Joe Mühlbauer-Elbl e' iscritto come Geschäftsführer dal 04.02.2025, dopo la morte del fondatore/GF Franz Mühlbauer (febbraio 2025). Alcuni siti (Impressum storico) riportano ancora Ing. Franz Mühlbauer. | https://www.holzkurier.com/content/holz/holzkurier/de/holzprodukte/2025/02/franz-muehlbauer-verstorben-.html ; https://www.wirtschaft.at/u/283235y ('v |  |
 
 ### (tutti) (1)
 

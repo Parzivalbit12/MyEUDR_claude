@@ -1,0 +1,38 @@
+[
+ {
+  "foglio": "Austria",
+  "denominazione": "Meyer Parkett GmbH",
+  "campo": "sede",
+  "problema": "La sede legale/operativa non e' piu' Kalsdorf bei Graz: il Firmenbuch e herold indicano Sternweg 2, 8141 Premstaetten (Graz-Umgebung). Anche firmenabc riporta ora l'azienda 'in Premstaetten'. Trasferimento oggetto di Kundmachung comunale 2024.",
+  "gravita": "media",
+  "evidenza": "https://www.evi.gv.at/f/226133z (titolo: 'Meyer Parkett GmbH 8141 Premstaetten | Firmenbuch'); https://www.herold.at/gelbe-seiten/premst%C3%A4tten/qSRb9/meyer-parkett-gmbh/ ; https://www.premstaetten.gv.at/wp-content/uploads/2024/04/Kundmachung-Meyer-Parkett-GmbH.pdf",
+  "correzione_proposta": "Premstätten (Steiermark)"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Mühlbauer Holz GmbH",
+  "campo": "sede",
+  "problema": "Himberg e' la sede operativa (Franz-Lehn-Gasse 7, 2325 Himberg), ma la sede legale iscritta al Firmenbuch e' 1080 Wien, Laudongasse 47/52 (anche l'iscrizione WKO e' su Vienna). Da esplicitare per evitare mismatch anagrafico.",
+  "gravita": "bassa",
+  "evidenza": "https://www.evi.gv.at/f/283235y (titolo: 'Mühlbauer Holz GmbH 1080 Wien | Firmenbuch'); https://firmen.wko.at/m%C3%BChlbauer-holz-gmbh/wien/",
+  "correzione_proposta": "Himberg (Niederösterreich) — sede operativa; sede legale 1080 Wien"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Mühlbauer Holz GmbH",
+  "campo": "referente",
+  "problema": "Referente corretto ma da datare: DI Joe Mühlbauer-Elbl e' iscritto come Geschäftsführer dal 04.02.2025, dopo la morte del fondatore/GF Franz Mühlbauer (febbraio 2025). Alcuni siti (Impressum storico) riportano ancora Ing. Franz Mühlbauer.",
+  "gravita": "bassa",
+  "evidenza": "https://www.holzkurier.com/content/holz/holzkurier/de/holzprodukte/2025/02/franz-muehlbauer-verstorben-.html ; https://www.wirtschaft.at/u/283235y ('vertritt seit 04.02.2025')",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Rauchenzauner Möbel GmbH",
+  "campo": "dimensione",
+  "problema": "Il fatturato di 18,8 M€ e' una stima Die Deutsche Wirtschaft, non un dato firmenabc: la fonte va attribuita correttamente. Il dato di bilancio reale disponibile e' il totale attivo 4.454.624,41 EUR al 31.03.2025. La societa' e' inoltre di costituzione recente (FN 611446k, iscritta 06.09.2023), quindi la serie storica del fatturato non e' verificabile.",
+  "gravita": "media",
+  "evidenza": "https://www.evi.gv.at/f/611446k ('Bilanz zum 31.03.2025 ... Bilanzsumme 4.454.624,41 EUR'; 'eingetragen 06.09.2023'); https://www.firmenabc.at/rauchenzauner-moebel-gmbh_BBBnb (50-99 Mitarbeiter)",
+  "correzione_proposta": "Totale di bilancio 4,45 Mio EUR (31.03.2025, Firmenbuch); 50-99 dipendenti (firmenabc); fatturato non pubblicato — 18,8 M€ e' solo stima Die Deutsche Wirtschaft"
+ }
+]

@@ -1,0 +1,56 @@
+[
+ {
+  "foglio": "Danimarca",
+  "denominazione": "BUCHS A/S",
+  "campo": "dimensione",
+  "problema": "Il campo non riporta alcun dato di bilancio verificato ma solo una stima ('fascia stimata 5-15 M€'). Il dato pubblicato e' il bruttofortjeneste: 14.746.681 DKK nel 2024 (16.092.571 DKK nel 2023), ~2,0 M€ di margine lordo, con 28 dipendenti. Con questi numeri il fatturato della singola societa' e' verosimilmente sotto la soglia minima di 5 M€: la stima 5-15 M€ 'a livello di gruppo' non e' sostenuta da fonte.",
+  "gravita": "media",
+  "evidenza": "https://www.krak.dk/buchs+as+randers+sv/67226095/firma - 'bruttofortjeneste 14.746.681 DKK i 2024, mod 16.092.571 DKK i 2023 ... 28 ansatte'",
+  "correzione_proposta": "Bruttofortjeneste 14,75 mio DKK nel 2024 (~2,0 M€ di margine lordo), 28 dipendenti (krak.dk/proff.dk, CVR 29845646). Fatturato non pubblicato; il gruppo include Buchs Labels A/S (CVR 44349051). Dimensione probabilmente sotto la forbice 5-40 M€: DA CONFERMARE su regnskab."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "COLOR LABEL A/S",
+  "campo": "ruolo",
+  "problema": "Ruolo generico e non conforme alla nomenclatura danese. Erik Groenning risulta effettivamente in carica ma con il titolo di adm. direktoer.",
+  "gravita": "bassa",
+  "evidenza": "https://www.colorlabel.dk/om-color-label - 'Color Label ... etableret af Erik Groenning, der fortsat leder virksomheden'; proff.dk CVR 15136901 riporta il ruolo 'Adm. direktoer'",
+  "correzione_proposta": "Adm. direktør (fondatore)"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "COLOR LABEL A/S",
+  "campo": "dimensione",
+  "problema": "Anno di fondazione discordante: il campo indica 'fondata 1991', il sito aziendale indica la fondazione nel 1980 da parte di Erik Groenning (1991 e' verosimilmente la data di registrazione dell'attuale CVR 15136901).",
+  "gravita": "bassa",
+  "evidenza": "https://www.colorlabel.dk/om-color-label - azienda 'etableret' nel 1980 da Erik Groenning",
+  "correzione_proposta": "fondata nel 1980 (attuale CVR 15136901 registrato nel 1991) — DA CONFERMARE"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "EMBALLAGEFABRIKKEN THY PAP",
+  "campo": "dimensione",
+  "problema": "Il campo e' 'n.d.'. La verifica mostra che si tratta di THY PAP, enkeltmandsvirksomhed (ditta individuale) con CVR 25352769, registrata in Morsoe Kommune (proff.dk la colloca a Nykoebing M) con unita' produttiva a Industrivej 19 B, 7700 Thisted. Una ditta individuale del settore kartonnage e' strutturalmente molto al di sotto della forbice target 5-40 M€: il campo non lo dichiara.",
+  "gravita": "media",
+  "evidenza": "https://www.proff.dk/firma/thy-pap/nyk%C3%B8bing-m/producenter/GNWOAAI016D e https://estatistik.dk/virksomhed/thy-pap/25352769 - 'enkeltmandsvirksomhed i Morsoe Kommune ... fremstilling af boelgepap og pap samt emballage af papir og pap', CVR 25352769",
+  "correzione_proposta": "CVR 25352769 (THY PAP, enkeltmandsvirksomhed). Fatturato e addetti non pubblicati per forma giuridica; micro-impresa AMPIAMENTE SOTTO SOGLIA rispetto al target 5-40 M€."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "EMBALLAGEFABRIKKEN THY PAP",
+  "campo": "referente",
+  "problema": "DA CONFERMARE: il nome 'Carsten Boye Steen' come indehaver non e' stato ritrovato in nessuna fonte pubblica raggiungibile (proff, estatistik, degulesider, krak, sito aziendale). Trattandosi di ditta individuale il titolare e' il decisore unico: il dato va riconfermato su datacvr.virk.dk prima del contatto.",
+  "gravita": "media",
+  "evidenza": "Ricerche '\"Thy Pap\" \"Carsten\" indehaver ejer' e '\"Thy Pap\" Thisted CVR indehaver': nessun frammento riporta il nome del titolare; le fonti si fermano a 'enkeltmandsvirksomhed' e ai recapiti (tel. 98 26 22 88, Industrivej 19 B, 7700 Thisted)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "H. EMBALLAGE ApS",
+  "campo": "dimensione",
+  "problema": "Il campo scrive 'ricavi/margine lordo dichiarati 9,211 mio DKK' senza dichiarare di quale dato si tratti: per una ApS il bilancio in forma ridotta pubblica il bruttofortjeneste, non il fatturato. La formula ambigua rende non interpretabile il dato (9,2 mio DKK di margine lordo con 21 dipendenti implica un fatturato ben superiore a 1,2 M€).",
+  "gravita": "media",
+  "evidenza": "https://www.proff.dk/firma/h.-emballage-aps/glamsbjerg/producenter/GWNSLZI016D - CVR 38528742, 'Papirvarefabrikker og kartonnagefabrikker', Hoejrupvej 11, 5620 Glamsbjerg",
+  "correzione_proposta": "Bruttofortjeneste 9,211 mio DKK (~1,2 M€ di margine lordo), 21 dipendenti; fatturato non pubblicato (ApS, bilancio in forma ridotta). Anno del bilancio DA CONFERMARE."
+ }
+]

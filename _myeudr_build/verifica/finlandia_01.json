@@ -151,5 +151,59 @@
   "gravita": "media",
   "evidenza": "https://www.jet-puu.fi/en/contacts/ — pagina contatti esistente; nessun indirizzo email nei frammenti di ricerca. DA CONFERMARE",
   "correzione_proposta": ""
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Kankarin Kaluste Oy",
+  "campo": "dimensione",
+  "problema": "Serie storica incoerente con le fonti: il record indica 18,8 M€ per il 2024, mentre le fonti riportano oltre 23 M€ nel 2023 e 22 M€ nel 2025 (69 dip.). Il dato 2025 e' corretto; il dato intermedio 2024 va riverificato.",
+  "gravita": "bassa",
+  "evidenza": "https://puumieslehti.fi/kuukauden-juttu/kankarin-kaluste-oy-kiintokalusteita-kihniosta-40-vuoden-kokemuksella/ e https://vainu.io/company/kankarin-kaluste-oy-taloustiedot-ja-liikevaihto/190847/yritystiedot — frammento: \"In 2025, the company had a revenue of 22 million euros and employed 69 people; In 2023, the revenue was just over 23 million euros\"",
+  "correzione_proposta": "Liikevaihto 22,0 M€ / 69 dip. (2025) — rimuovere o riverificare il valore 18,8 M€ (2024)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Kensa Oy",
+  "campo": "email",
+  "problema": "Email assente ('n.d.'): lead non contattabile via posta elettronica. Nessun indirizzo emerso dai frammenti pubblici (Finder/Asiakastieto/Nordicnet).",
+  "gravita": "media",
+  "evidenza": "https://www.finder.fi/Keitti%C3%B6kalusteet/Kensa+Oy/Himanka/yhteystiedot/3311123 — frammento con indirizzo e attivita' (\"Targantie 9, 68100 Himanka... kitchen cabinet manufacturing (31020)\") ma senza email. DA CONFERMARE su kensa.fi",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Kiilax Oy",
+  "campo": "referente",
+  "problema": "Referente errato/superato: il toimitusjohtaja in carica e' Jouni Kontkanen (imprenditore di Joensuu che ha rilevato e rilanciato l'azienda, gia' nota come Palavaneri). Jani Olkkonen non risulta amministratore delegato attuale.",
+  "gravita": "alta",
+  "evidenza": "https://vainu.io/company/kiilax-oy-taloustiedot-ja-liikevaihto/256569/yritystiedot e https://www.karjalainen.fi/paikalliset/7656099 — frammento: \"The company's managing director (toimitusjohtaja) is Jouni Kontkanen\"; \"Tuore joensuulainen yrittaja Jouni Kontkanen on pistanyt aiemmin Palavanerina tunnettua Kiilaxia iskukuntoon\"",
+  "correzione_proposta": "Jouni Kontkanen — Toimitusjohtaja (CEO)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Kiilax Oy",
+  "campo": "dimensione",
+  "problema": "Il campo dichiara 'liikevaihto n.d.' ma il dato e' pubblicamente disponibile: 6,7 M€ nell'esercizio chiuso a 03/2025, utile 514 k€, 24 dipendenti, fatturato in calo del 6,8%. Valore al limite inferiore della forbice.",
+  "gravita": "media",
+  "evidenza": "https://www.asiakastieto.fi/yritykset/fi/kiilax-oy/14857945/taloustiedot — frammento: \"For the fiscal year ending in 2025/03, Kiilax Oy's revenue was 6.7 million euros with a period result of 514,000 euros... employed 24 employees\"",
+  "correzione_proposta": "Liikevaihto 6,7 M€ / 24 dip. (esercizio chiuso 03/2025, Asiakastieto)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Kiilax Oy",
+  "campo": "filiera",
+  "problema": "Descrizione parziale: l'attivita' principale e' la produzione di botole/portelli d'ispezione (tarkastusluukut) e il commercio specializzato di prodotti in compensato, non la produzione di compensato di betulla o di pannelli lamellari. Da riformulare per evitare un'attesa sbagliata sul profilo EUDR (in parte rivenditore di pannelli).",
+  "gravita": "media",
+  "evidenza": "https://vainu.io/company/kiilax-oy-taloustiedot-ja-liikevaihto/256569/yritystiedot — frammento: \"Kiilax was founded in 1993 and manufactures inspection hatches and is a specialty shop for plywood products\"",
+  "correzione_proposta": "Legno/Arredo — botole d'ispezione e prodotti in compensato (produzione + rivendita specializzata)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Hoisko CLT (CLT Finland Oy)",
+  "campo": "dimensione",
+  "problema": "Dati anagrafici e finanziari confermati (5,0 M€ 2024, 25 dip., toimitusjohtaja Tero Yli-Sikkila), ma il campo non segnala la fragilita' patrimoniale: omavaraisuusaste (equity ratio) 9% e margine operativo 3,3%. Fatturato al limite inferiore della forbice. Nessuna procedura concorsuale rilevata, ma il profilo di rischio va monitorato.",
+  "gravita": "bassa",
+  "evidenza": "https://www.asiakastieto.fi/yritykset/fi/clt-finland-oy/27245892/taloustiedot — frammento: \"turnover of 5 MEUR in 2024 and employed 25 people... operating profit was 162,000 EUR and the profit margin was 3.3%. The company's equity ratio was 9%\"",
+  "correzione_proposta": ""
  }
 ]
