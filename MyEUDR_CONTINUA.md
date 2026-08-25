@@ -477,7 +477,15 @@ nel report**, non toccato nei fogli.
   `Fonpelli S.r.l.`**, che era proprio *sbagliata* — più 18 normalizzazioni ortografiche
   `Srl`/`SpA` → `S.r.l.`/`S.p.A.` (lo stile già usato da 41 record su 59).
 
-Dopo l'applicazione: **742 righe invariate**, ordine dei fogli ripristinato.
+- **5 denominazioni accertate ai registri**: `NPI (Nordic Panel Import)` → **`NPI A/S`** (CVR
+  37418730); `Rompa Tanneries B.V.` → **`Vitelco Leather B.V.`** (sciolta la joint venture, Vitelco
+  socio unico al 100%); `Karnische Massiv Möbel GmbH` → `Karnische-Massiv-Möbel Gesellschaft m.b.H.`
+  (Firmenbuch FN 094638z); `Confiserie Vandenbulcke NV` → `Vandenbulcke Confiserie NV` (ordine
+  registrale KBO); `Paletten Meyer` → `Josef Meyer Palettenbau Inh. Julian Meyer` (impresa
+  individuale, non società di capitali).
+
+**In totale 54 correzioni applicate.** Dopo l'applicazione: **742 righe invariate**, ordine dei
+fogli ripristinato.
 
 **Tre cose NON sono state corrette, di proposito** (il dettaglio è in `REPORT_VERIFICA.md` §0-bis):
 1. **Il maiuscolo integrale del foglio Danimarca** (51 record su 89, stile del registro CVR).
@@ -488,6 +496,11 @@ Dopo l'applicazione: **742 righe invariate**, ordine dei fogli ripristinato.
    giuridica significherebbe *scegliere* quale sia l'operatore EUDR: va accertato prima.
 3. **Le email dubbie** restano `DA CONFERMARE`: il mandato vieta sia di inventarle sia di
    cancellarle d'ufficio.
+
+Non sono state applicate nemmeno le **espansioni di ragioni sociali abbreviate ma corrette**
+(Göbel, Fuhlrott in Germania) né `AB` → `Aktiebolag` in Svezia, dove il foglio **non ha uno stile
+maggioritario** (47 `AB` contro 42 `Aktiebolag`): normalizzare sarebbe stato arbitrario. In Italia
+invece la normalizzazione è stata fatta proprio perché la maggioranza era netta (41 su 59).
 
 ⚠️ **Attenzione per chi riprende**: `applica_correzioni.py` usa **due percorsi diversi**, perché i
 fogli non hanno tutti la stessa origine:

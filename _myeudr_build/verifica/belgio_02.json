@@ -205,5 +205,59 @@
   "gravita": "media",
   "evidenza": "lecercleducacao.be: 'Le Cercle du Cacao, sourcing, négoce et consultance en fèves de cacao'; 'Nico Regout est fondatrice, actionnaire principale et gérante'",
   "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Van De Wiele Rubber NV",
+  "campo": "filiera",
+  "problema": "Perimetro EUDR dubbio. L'azienda si presenta come specialista di 'rubber and plastic extrusion and injection molding' e il suo parco macchine comprende la co-estrusione di kunststof (materie plastiche): non esiste evidenza pubblica che lavori gomma NATURALE (Allegato I EUDR, HS 4001) invece di elastomeri sintetici tipo EPDM/NBR e plastica, che sono fuori Allegato I. Si tratta inoltre di un trasformatore a valle che acquista mescole gia' formulate nell'UE, quindi verosimilmente non e' l'operatore che immette per primo la commodity sul mercato UE. DA CONFERMARE prima di considerarlo un lead EUDR.",
+  "gravita": "media",
+  "evidenza": "rubber-groothandel.be/machinepark: 'kunststof co-extrusie | matrijzenmakerij | Van De Wiele Rubber | Kluisbergen'; vandewiele-gummi.de/rubber.html: 'family owned business and well-known name in the world of rubber and plastic extrusion and injection molding'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Van De Wiele Rubber NV",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti: il record non e' utilizzabile per un contatto commerciale nominale. Le ricerche su fonti pubbliche (trendstop, companyweb, jaarrekening.be, LinkedIn aziendale) non restituiscono il nome del gedelegeerd bestuurder della NV. DA CONFERMARE tramite il Moniteur belge / BCE.",
+  "gravita": "media",
+  "evidenza": "Ricerche 'Van De Wiele Rubber bestuurder/directeur' su trendstop.knack.be/nl/detail/405713386, companyweb.be/en/0405713386/van-de-wiele-rubber e be.linkedin.com/company/van-de-wiele-rubber: nessun nominativo di amministratore pubblicato",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Van De Wiele Rubber NV",
+  "campo": "dimensione",
+  "problema": "Il campo non qualifica la societa' rispetto alla forbice target 5-40 M€. Con 28,4 FTE e un margine lordo di 3.331.259 € (22a nel settore 'rubber en banden'), il fatturato — non pubblicato in bilancio (schema abbreviato, ultimo deposito 03-03-2025) — e' verosimilmente nella fascia bassa e potrebbe collocarsi sotto la soglia minima di 5-10 M€. Dato non verificabile: DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "companyweb.be/en/0405713386/van-de-wiele-rubber: 'the most recent financial statements were filed on 03-03-2025 ... 28.4 FTEs ... Van De Wiele Rubber did not publish any turnover figures'; trendstop: 'Met een brutomarge van 3.331.259 euro is Van De Wiele Rubber uit Berchem 22e in de sector rubber en banden'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Accent NV",
+  "campo": "dimensione",
+  "problema": "La descrizione del legame di gruppo e' rovesciata e fuorviante. Accent non e' la 'capofila' del gruppo Asteria: dal 2018 la famiglia Declerck ha ceduto la MAGGIORANZA al fondo Waterland (prima 18 M€, poi 52 M€ di capitale fresco) e Accent e' oggi una societa' operativa dentro The Asteria Group, che con 17 acquisizioni in tre anni ha raggiunto un fatturato consolidato di 492 M€. Le decisioni di compliance EUDR si prendono a livello di gruppo, non a Gullegem: il record non e' un lead autonomo.",
+  "gravita": "alta",
+  "evidenza": "derijkstebelgen.be 'Asteria wil tegen 2030 met Waterland Europees leider worden': 'In 2018 haalde de West-Vlaamse familie Declerck durfkapitalist Waterland binnen als nieuwe meerderheidsaandeelhouder in hun bedrijf Accent'; 'De eerste geconsolideerde jaarrekening van The Asteria Group toont een omzet van 492 miljoen euro'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Accent NV",
+  "campo": "referente",
+  "problema": "Ives Declerck e' il CEO della capogruppo The Asteria Group, non l'amministratore della sola Accent NV: il mandato esclude di usare l'amministratore di capogruppo come referente della controllata. Va individuato il responsabile del sito di Gullegem.",
+  "gravita": "media",
+  "evidenza": "asteriagroup.eu/asteria-group-interview-with-ives-declerck/ 'The Asteria Group: Interview with CEO Ives Declerck'; linkedin.com/in/ives-declerck-55b38161 'Ives Declerck - AsteriaGroup'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Accent NV",
+  "campo": "dimensione",
+  "problema": "Il fatturato di 33.126.981 € attribuito ad Accent NV e' da riverificare: la crescita del gruppo e' stata rapidissima (da 20 M€ a ~500 M€ in poco piu' di sei anni) e la stampa cita 170 M€ per Asteria gia' prima delle ultime acquisizioni. Il perimetro societario del dato (sola Accent NV o gruppo) e l'anno di riferimento non sono esplicitati. DA CONFERMARE sull'ultimo bilancio NBB della sola BE 0428.014.379.",
+  "gravita": "media",
+  "evidenza": "made-in.be 'Asteria groeit aan hysterisch tempo'; derijkstebelgen.be: 'CEO Ives Declerck bouwde de verpakkingsgroep in iets meer dan zes jaar van 20 miljoen euro omzet naar een half miljard'",
+  "correzione_proposta": ""
  }
 ]
