@@ -17,10 +17,10 @@ La verifica si è svolta in due fasi:
 | Finlandia | 84 | 0 | 0 | 5 | 0 | 0% |
 | Danimarca | 89 | 2 | 0 | 3 | 36 | 40% |
 | Svezia | 89 | 1 | 0 | 4 | 18 | 20% |
-| Olanda | 100 | 1 | 0 | 5 | 17 | 17% |
+| Olanda | 100 | 2 | 0 | 4 | 34 | 34% |
 | Belgio | 95 | 1 | 2 | 2 | 19 | 20% |
 | Austria | 93 | 1 | 0 | 4 | 19 | 20% |
-| **TOTALE** | **742** | **8** | **2** | **32** | **145** | **20%** |
+| **TOTALE** | **742** | **9** | **2** | **31** | **162** | **22%** |
 
 _I **blocchi parziali** sono quelli il cui agente è stato interrotto dal limite di sessione: i rilievi già salvati sono validi e inclusi nel report, ma il blocco non è coperto per intero. Il salvataggio incrementale ogni 3-4 record è ciò che ha evitato di perdere quel lavoro._
 
@@ -32,7 +32,7 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 
 ## 2. Rilievi per foglio
 
-**Totale rilievi Fase B: 248** — alta 33 · media 136 · bassa 79.
+**Totale rilievi Fase B: 275** — alta 36 · media 154 · bassa 85.
 
 | Foglio | Rilievi | alta | media | bassa | Aziende toccate |
 |---|--:|--:|--:|--:|--:|
@@ -41,31 +41,31 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 | Finlandia | 0 | 0 | 0 | 0 | 0 |
 | Danimarca | 46 | 14 | 18 | 14 | 32 |
 | Svezia | 36 | 6 | 15 | 15 | 18 |
-| Olanda | 32 | 5 | 21 | 6 | 16 |
-| Belgio | 64 | 6 | 41 | 17 | 35 |
+| Olanda | 44 | 5 | 30 | 9 | 22 |
+| Belgio | 79 | 9 | 50 | 20 | 42 |
 | Austria | 15 | 1 | 10 | 4 | 12 |
 | _(tutti)_ | 1 | 0 | 0 | 1 | 1 |
-| **TOTALE** | **248** | **33** | **136** | **79** | **148** |
+| **TOTALE** | **275** | **36** | **154** | **85** | **161** |
 
 ### Rilievi per campo
 
 | Campo | Rilievi | di cui alta |
 |---|--:|--:|
-| dimensione | 113 | 16 |
-| referente | 54 | 9 |
-| denominazione | 27 | 6 |
-| email | 16 | 1 |
-| linkedin | 13 | 0 |
+| dimensione | 126 | 19 |
+| referente | 63 | 9 |
+| denominazione | 28 | 6 |
+| email | 18 | 1 |
+| linkedin | 14 | 0 |
 | sito | 8 | 0 |
 | ruolo | 7 | 0 |
-| sede | 3 | 0 |
+| sede | 4 | 0 |
 | filiera | 3 | 1 |
 | fonte | 3 | 0 |
 | esistenza_stato | 1 | 0 |
 
 ---
 
-## 3. Tema trasversale — legami di gruppo (40 rilievi)
+## 3. Tema trasversale — legami di gruppo (47 rilievi)
 
 È il problema **più diffuso e meno atteso** emerso dalla verifica: non era fra i 13 punti noti dell'handoff. Numerose aziende del censimento sono controllate di gruppi, spesso esteri o quotati. Per il criterio già applicato dal progetto — che aveva rimosso Lavazza Kaffee, Segafredo Zanetti Austria e Kaffee Partner Austria perché *«la compliance si decide a livello di gruppo, non nella filiale»* — sono **lead di valore dubbio**.
 
@@ -79,6 +79,10 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 |---|---|---|---|
 | Austria | BRAUN LOCKENHAUS GmbH | **dichiarato** | Filiale di gruppo estero: la societa' e' controllata da SCHNEEWEISS AG / SCHNEEWEISS interior, con sede del gruppo a Kippenheim (Baden-Württemberg, DE), dal 2006. La decisione di compliance EUDR si as |
 | Belgio | A & A Chocolaterie NV | **dichiarato** | Il legame di gruppo e' correttamente dichiarato, ma va valutato l'effetto sul perimetro commerciale: A & A Chocolaterie (22,1 M€) e Pralinart (18,4 M€) sono entrambe controllate al 100% da Hamlet NV,  |
+| Belgio | Corné Port-Royal Chocolatier SA | **NON dichiarato** | LEGAME DI GRUPPO NON DICHIARATO. Corne Port-Royal Chocolatier SA (BE 0433.283.558, denominazione abbreviata registrale 'CPR CHOCOLATIER') e' controllata dal gruppo Neuhaus dal 2013: Neuhaus figura dir |
+| Belgio | Delafaille NV | **dichiarato** | Il legame di gruppo e' dichiarato ma la conclusione tratta nel campo ('resta pero' PMI belga autonoma con obblighi EUDR propri') e' opinabile: Maestrani Schweizer Schokoladen ha acquisito il 100% dell |
+| Belgio | Dolfin SA | **NON dichiarato** | Dato aziendale incompleto e ormai superato dagli eventi: nell'aprile 2026 Dolfin e' diventata azionista di maggioranza della Chocolaterie Galler (rilevata da un consorzio vallone insieme a Wallonie En |
+| Belgio | Koffiebranderij Or BV (OR Coffee Roaster | **dichiarato** | Controllata di gruppo: dall'aprile 2024 la societa' e' stata acquisita da Anaerobic Holding (Anversa), gia' proprietaria di Mister Barish Beans & Machines. Il legame e' dichiarato nel campo, ma va ten |
 | Belgio | Manutti BV | **dichiarato** | Legame di gruppo con Manutti Invest BV (BE 0478.148.434) dichiarato nel record: si tratta della holding familiare che controlla l'operativa. Segnalato come 'media' perche' gia' dichiarato; la decision |
 | Belgio | Mecam NV | **NON dichiarato** | Il record riporta 32.145.268 € e 111,6 FTE per la sola Mecam NV, mentre la stampa parla di 37 M€ cumulati e ~220 dipendenti per l'intero Mecam Group (Mecam + Neo-Style). Il legame di gruppo esiste ed  |
 | Belgio | Sas NV (Sas Coffee) | **dichiarato** | CONFERMATO: l'azienda NON e' piu' indipendente ne' familiare. Acquisita da Miko NV (11/2021) e rivenduta il 24-05-2024 al fondo di private equity olandese Nimbus Investments; il sito di Nimbus la elen |
@@ -103,8 +107,11 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 | Olanda | GWW Houtimport B.V. | **dichiarato** | Controllata di gruppo: dal 01/01/2026 GWW Houtimport, GWW Agency e Van den Berg Hardhout confluiscono nella holding Van den Berg Houtgroep. Il legame e' gia' dichiarato correttamente nel campo, ma la  |
 | Olanda | Houthandel Jos Dennebos B.V. | **NON dichiarato** | Referente e ruolo assenti. Il socio unico e' la persona giuridica Jos Dennebos Exploitatie B.V.; il fondatore storico e' Jos Dennebos (attivo anche in Dennebos Suriname). Nome e carica del directeur a |
 | Olanda | Houtplex B.V. | **dichiarato** | Controllata di gruppo estero: Houtplex appartiene al gruppo Wood United, con sede a Singapore; dal febbraio 2019 le quote sia di Houtplex sia di Wood United sono di Timothy Paul, che ha rilevato la pa |
+| Olanda | Montis B.V. | **NON dichiarato** | Legame di gruppo: Montis e uno dei sei marchi della Lande Groep (con Artifort, Lande, Portner, Zwaardvis, A Lott Of Space), che produce in NL, BE, DE e TR. Il legame e dichiarato nel campo ma senza pr |
 | Olanda | Rompa Tanneries B.V. | **dichiarato** | Denominazione obsoleta: la societa' e' stata ridenominata VITELCO LEATHER B.V. Vitelco (gruppo PALI) ha rilevato le quote di Rompa Leather sciogliendo la joint venture ed e' oggi socio unico al 100%.  |
 | Olanda | Rompa Tanneries B.V. | **dichiarato** | Assetto proprietario dichiarato errato: il campo indica ancora 'Soci: PALI Group (Den Bosch, vitello) e Rompa Leather (Rijen)', ma la JV e' stata sciolta e Vitelco (PALI Group) e' socio unico al 100%. |
+| Olanda | Van Ierssel Houtimport B.V. | **dichiarato** | Controllata di gruppo: Van Ierssel Houtimport e stata rilevata da Boogaerdt Hout nel 1986 e fa parte della Koninklijke Boogaerdt Groep. Il legame e dichiarato nel campo, ma il lead resta una controlla |
+| Olanda | Van den Berg Hardhout B.V. | **dichiarato** | Legame di gruppo dichiarato ma imminente: dal 01/01/2026 la societa e nella holding Van den Berg Houtgroep insieme a GWW Houtimport e GWW Agency. Con 6 dipendenti confermati e fatturato non pubblicato |
 | Svezia | Aktiebolaget Karlaträ | **NON dichiarato** | Legame di gruppo non dichiarato: la società appartiene a una koncern di 2 società con moderbolag Karlaträ Försäljning Aktiebolag (holding di famiglia/vendita). |
 | Svezia | Balungstrands Sågverk AB | **dichiarato** | Capogruppo incompleta/superata: il record si ferma a Green Wood Sverige AB. Green Wood Sverige AB (con Bäckebrons e Balungstrands) è stata riacquistata da Profura dopo il fallimento del gruppo tedesco |
 | Svezia | Brattby Sågverks AB | **NON dichiarato** | Legame di gruppo non dichiarato: la società fa parte di una koncern con moderbolag Brattby Trading Aktiebolag. Fatturato 143,4 MSEK (~12,7 M€) e 32 dipendenti 2024 confermati. |
@@ -120,7 +127,7 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 
 ---
 
-## 4. Casi di gravità ALTA (33)
+## 4. Casi di gravità ALTA (36)
 
 _Dato falso, azienda non contattabile, azienda cessata/fallita/acquisita, oppure fuori dal perimetro dell'Allegato I EUDR._
 
@@ -345,7 +352,23 @@ Assetto proprietario dichiarato errato: il campo indica ancora 'Soci: PALI Group
 **Correzione proposta:** Controllata al 100% di Vitelco B.V. (PALI Group), 's-Hertogenbosch
 
 
-### Belgio (6)
+### Belgio (9)
+
+#### Corné Port-Royal Chocolatier SA — campo `dimensione`
+
+LEGAME DI GRUPPO NON DICHIARATO. Corne Port-Royal Chocolatier SA (BE 0433.283.558, denominazione abbreviata registrale 'CPR CHOCOLATIER') e' controllata dal gruppo Neuhaus dal 2013: Neuhaus figura direttamente fra gli amministratori della societa'. Neuhaus (fatturato ~149 M EUR all'epoca dell'operazione, gruppo che possiede anche Jeff de Bruges) e' a sua volta parte di un gruppo belga quotato. La decisione di compliance EUDR si prende a livello di capogruppo Neuhaus: il lead cosi' com'e' (PMI indipendente da 8,8 M EUR) e' fuorviante.
+
+**Evidenza:** https://www.pappers.be/fr/company/corne-port-royal-chocolatier-0433283558 — dirigeants: NEUHAUS, BELLEGRO (administrateur delegue), Valerie Paquot, Isabel Baert, nomine dal 05-12-2023. Frammento RTBF/RetailDetail: "Neuhaus rachete le chocolatier Corne Port-Royal" (https://www.rtbf.be/article/wavre-corne-port-royal-rachete-par-neuhaus-7994003); "Neuhaus Holding a rachete Corne Port-Royal au groupe Distripar, filiale de la CNP".
+
+**Correzione proposta:** Dichiarare nel campo dimensione: controllata dal gruppo Neuhaus (Neuhaus SA amministratore) dal 2013; valutare l'esclusione del lead perche' la compliance e' decisa dalla capogruppo.
+
+#### Dolfin SA — campo `dimensione`
+
+Dato aziendale incompleto e ormai superato dagli eventi: nell'aprile 2026 Dolfin e' diventata azionista di maggioranza della Chocolaterie Galler (rilevata da un consorzio vallone insieme a Wallonie Entreprendre, investitori privati e Sebastien Desclee). Dolfin non e' piu' una micro-cioccolateria da ~6 M EUR ma la capogruppo di un insieme Dolfin+Galler che si avvicina alla soglia di esclusione. Il legame non e' dichiarato nel campo.
+
+**Evidenza:** Frammento La Libre/QU4TRE: "le capital de la nouvelle societe Galler est desormais majoritairement dans les mains de la chocolaterie familiale Dolfin, basee a Nivelles" — https://www.qu4tre.be/infos/economie/des-actionnaires-wallons-reprennent-la-chocolaterie-galler/2014147 ; https://www.parismatch.be/actualites/societe/2026/04/23/la-chocolaterie-galler-reprise-par-un-consortium-wallon-70-licenciements-prevus-sur-les-170-employes-75IWTID2DVEGDN6O56R2JXHSQQ/
+
+**Correzione proposta:** Dichiarare: dall'aprile 2026 Dolfin SA e' azionista di maggioranza della nuova Chocolaterie Galler; valutare il perimetro dimensionale del gruppo Dolfin+Galler.
 
 #### Extremis NV — campo `referente`
 
@@ -354,6 +377,14 @@ Referente non aggiornato: Dirk Wynants e' oggi owner e chief designer, NON il ve
 **Evidenza:** https://www.lovethatdesign.com/?post_type=news&p=378797 e https://www.linkedin.com/posts/extremis_meet-our-new-ceo-aka-captain-of-the-ship-activity-7046080915592069121-Z6QI - frammento: "Extremis appointed Valentine Batjoens as its new Chief Executive Officer... continue the course of outgoing CEO Yff Vandendriessche. However, Dirk Wynants remains as the owner and chief designer of Extremis"
 
 **Correzione proposta:** Valentine Batjoens — CEO (Dirk Wynants resta fondatore/proprietario e chief designer)
+
+#### La Chocolaterie Galler SA — campo `dimensione`
+
+AZIENDA IN CRISI E CEDUTA. Galler era in procedura di riorganizzazione giudiziaria (PRJ 'silenziosa') ed e' stata rilevata nell'aprile 2026 da un consorzio vallone (chocolaterie Dolfin come azionista di maggioranza, Wallonie Entreprendre, investitori privati, Sebastien Desclee) tramite la costituzione di una 'nuova societa' Galler', con 70 licenziamenti su 170 dipendenti. Il record ne fa un cenno ma non ne trae le conseguenze: la societa' storica BE 0416.169.689 potrebbe non essere piu' l'entita' operativa (cessione di attivi a nuova entita'), il fatturato ~29,5-32 M EUR e i 194 dipendenti sono superati, e la compliance e' ora decisa dal nuovo azionariato (Dolfin). Lead da riqualificare o scartare; il numero d'impresa da usare va riverificato in KBO.
+
+**Evidenza:** Frammento La Libre: "Un projet de relance d'un nouveau Galler entierement entre des mains belges permet d'eviter le choc d'une faillite frontale" (23-04-2026); "L'entreprise chocolatiere liegeoise Galler, qui avait ete placee en procedure de reorganisation judiciaire silencieuse, a ete reprise par des actionnaires entierement wallons ... le capital ... majoritairement dans les mains de la chocolaterie familiale Dolfin" — https://www.qu4tre.be/infos/economie/des-actionnaires-wallons-reprennent-la-chocolaterie-galler/2014147
+
+**Correzione proposta:** — nessun valore certo: rilievo lasciato aperto
 
 #### Sas NV (Sas Coffee) — campo `dimensione`
 
@@ -409,7 +440,7 @@ Nessuna e-mail pubblica reperibile (campo 'n.d.') e nessun sito web aziendale: i
 
 ---
 
-## 5. Casi di gravità MEDIA (136)
+## 5. Casi di gravità MEDIA (154)
 
 _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente errato._
 
@@ -498,7 +529,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Gärsnäs Aktiebolag | dimensione | Lead di dubbia validità (non errore di dato): controllata di Bordet i Stockholm Aktiebolag, legame già dichiarato correttamente. Esiste inoltre notizia stampa di cambio di proprietà ('Gärsnäs AB får ny ägare') di cui andrebbe verificata la data. Dati | allabolag.se (556044-4746): «moderbolaget är Bordet i Stockholm Aktiebolag»; «37 anställda, resultat 583 KSEK, omsättning 80 711 KSEK (2023)»; https:/ |  |
 | Horreds Möbel Aktiebolag | dimensione | Dato 2022 NON aggiornabile con certezza e anzi CONTRADDETTO. allabolag.se riporta oggi per Horreds Möbel AB (556365-1974) 45 dipendenti (contro i 50 del 2022) e un intervallo di fatturato 50.000-99.999 tkr, cioè 50-99,9 MSEK ≈ 4,4-8,8 M€: sarebbe una | https://www.allabolag.se/foretag/horreds-m%C3%B6bel-aktiebolag/horred/butiksinredningar-butiksutrustningar/2K0GDC6I5YDBD - '45 anställda ... omsättnin |  |
 
-### Olanda (21)
+### Olanda (30)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -519,12 +550,21 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Houtimport Reuver B.V. | referente | Referente e ruolo assenti (algemeen directeur iscritto e' la persona giuridica Gebrs. Schoolmeesters Holding B.V.). Nelle fonti aperte compare Tim Schoolmeesters in relazione alla direzione dell'azienda: nome DA CONFERMARE come directeur attuale. | https://companyinfo.nl/organisatieprofiel/groothandel-in-hout-en-plaatmateriaal/houtimport-reuver-b-v-reuver-12024480-000019946104 e https://appartme. |  |
 | Houtplex B.V. | dimensione | Controllata di gruppo estero: Houtplex appartiene al gruppo Wood United, con sede a Singapore; dal febbraio 2019 le quote sia di Houtplex sia di Wood United sono di Timothy Paul, che ha rilevato la partecipazione di Jan Kersten. Il legame di gruppo e | https://www.houtwereld.nl/nieuws/houtplex-en-wood-united-overgenomen/ - frammento: 'Timothy Paul heeft de aandelen in Houtplex (Haaksbergen) en Wood U |  |
 | Houtplex B.V. | referente | Referente e ruolo assenti. Le fonti indicano Timothy Paul come titolare della gestione quotidiana di Houtplex dopo l'uscita del precedente directeur Koen Kersten (passato a Kegro Deuren); Ruud van Oene, commercieel directeur, e' andato in pensione. D | https://www.houtwereld.nl/nieuws/houtplex-en-wood-united-overgenomen/ - frammento: 'Timothy Paul heeft de dagelijkse leiding van Houtplex overgenomen. |  |
+| M.S. Pallets B.V. | referente | Referente assente: il directeur statutario e una persona giuridica (Maso Onroerend B.V.), nessun nome fisico pubblicato. DA CONFERMARE il nome della persona fisica dietro la holding prima di usare il lead per un contatto nominale. | https://companyinfo.nl/organisatieprofiel/vervaardiging-van-houten-emballage/m-s-pallets-b-v-den-ham-05049728-000016563247 - il campo dimensione del r |  |
+| Montis B.V. | dimensione | Legame di gruppo: Montis e uno dei sei marchi della Lande Groep (con Artifort, Lande, Portner, Zwaardvis, A Lott Of Space), che produce in NL, BE, DE e TR. Il legame e dichiarato nel campo ma senza precisare che la compliance EUDR si decide a livello | https://www.landefamily.nl/montis - 'Montis is one of six strong brands under the Lande Groep (along with A Lott Of Space, Artifort, Lande, Portner an |  |
+| Montis B.V. | dimensione | Il fatturato indicato (ca. 24,6 M$ ~ 22 M€) proviene da stime RocketReach/Creditsafe, non da un bilancio depositato: il campo stesso ammette che il fatturato non e depositato. Dato da trattare come stima non verificata, non come fatturato. | https://www.creditsafe.com/business-index/en-ie/company/montis-bv-nl01008091 - il campo dichiara 'Fatturato esatto NON depositato pubblicamente (B.V.  |  |
+| Montis B.V. | referente | Referente e ruolo assenti. DA CONFERMARE il directeur attuale della B.V.: le fonti pubbliche associano Montis alla direzione storica di Paul van den Berg (dal 1975) ma non confermano un vertice in carica oggi sotto Lande Groep. | https://www.landefamily.nl/montis - 'high-quality design furniture from its own factory in Dongen since 1975 under the leadership of Paul van den Berg |  |
 | Origin Bridge (Barchem) | denominazione | Forma giuridica NON risolta dopo 3 ricerche: nessuna fonte pubblica indicizzata riporta la rechtsvorm né una denominazione legale con suffisso. Restano solo KVK 70878315 e P.IVA NL001587917B24 pubblicati dall'azienda stessa. La struttura del numero I | https://originbridge.coffee/legal-information/ e https://originbridge.coffee/contact/ - 'Heidehoflaan 2B, 7244AG Barchem, The Netherlands ... CoC: 708 |  |
 | Origin Bridge (Barchem) | email | L'email del foglio (info@bridgetoorigin.com) NON è quella principale del sito ufficiale: la pagina di contatto di originbridge.coffee indica come recapito dell'entità olandese europe@originbridge.coffee, tel. +31 85 301 6984. info@bridgetoorigin.com  | https://originbridge.coffee/contact/ - 'Origin Bridge Netherlands, Heidehoflaan 2B, 7244AG Barchem ... +31 85 301 6984 ... europe@originbridge.coffee' | europe@originbridge.coffee |
 | Rompa Tanneries B.V. | email | Email e sito legati al vecchio marchio (sales@rompa-tanneries.com / www.rompa-tanneries.com). Con la ridenominazione in Vitelco Leather il dominio di riferimento del gruppo e' vitelco.nl; il vecchio sito hulshof.com rimanda ancora a 'Rompa Tanneries' | http://www.hulshof.com/ (titolo pagina: 'Rompa Tanneries') e https://www.vitelco.nl/en/about-us |  |
 | Rompa Tanneries B.V. | referente | Referente e ruolo vuoti. Le fonti stampa locali citano Twan de Bie come 'directeur leerlooierij' dello stabilimento di Lichtenvoorde. DA CONFERMARE la carica attuale dopo il passaggio a Vitelco Leather. | https://www.gld.nl/nieuws/2414011/directeur-leerlooierij-laat-de-wethouder-bellen-dan-lossen-we-het-als-volwassen-mensen-op - frammento: 'De directeur |  |
+| Smeulders Interieurwerken B.V. | email | Email assente ('n.d.'): il lead non e contattabile via e-mail. Il campo dimensione cita j.mulder@smeulders-ig.nl trovata in directory, ma non e riportata nel campo email ne verificata come casella attiva. DA CONFERMARE una casella generica sul domini | https://smeulders-ig.nl/contact/ - pagina contatti del gruppo; il record stesso riporta 'Non risulta pubblicata una casella info@ generica' |  |
+| Van Ierssel Houtimport B.V. | dimensione | Controllata di gruppo: Van Ierssel Houtimport e stata rilevata da Boogaerdt Hout nel 1986 e fa parte della Koninklijke Boogaerdt Groep. Il legame e dichiarato nel campo, ma il lead resta una controllata: la decisione di compliance EUDR si colloca a l | https://www.boogaerdthout.nl/en/2026/02/04/commercial-manager-member-of-ierssel-houtimport/ - 'In 1986 Van Ierssel Houtimport was taken over by Boogae |  |
+| Van Ierssel Houtimport B.V. | referente | Fred Verver risulta confermato come directeur operativo di Van Ierssel (con werfmanager Ton van Oers), ma nelle fonti compare anche Oscar Smeets come 'Directeur Boogaerdt Hout - Van Ierssel Houtimport': verificare quale sia il vertice statutario dell | https://nl.linkedin.com/in/oscar-smeets-55856411 - 'Oscar Smeets - Directeur \| Boogaerdt Hout - Van Ierssel ...'; https://www.linkedin.com/in/fred-ve |  |
+| Van den Berg Hardhout B.V. | email | Incoerenza di dominio: l'email e su .nl (info@vandenberghardhout.nl) mentre il sito ufficiale e le e-mail nominative del personale sono sul dominio .com (vandenberghardhout.com). Verificare quale dominio di posta sia realmente attivo. | https://rocketreach.co/albert-oudenaarden-email_99038923 - 'a******@vandenberghardhout.com'; https://www.vandenberghardhout.com/en/contact/ | info@vandenberghardhout.com (da confermare) |
+| Van den Berg Hardhout B.V. | dimensione | Legame di gruppo dichiarato ma imminente: dal 01/01/2026 la societa e nella holding Van den Berg Houtgroep insieme a GWW Houtimport e GWW Agency. Con 6 dipendenti confermati e fatturato non pubblicato, l'azienda e sotto la forbice 5-40 M€ e la compli | https://rocketreach.co/van-den-berg-hardhout-bv-profile_b40aa59bff9a461e - 'Van den Berg Hardhout BV employs 6 people and is based in Lopik, Utrecht' |  |
 
-### Belgio (41)
+### Belgio (50)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -542,14 +582,23 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Confiserie De Bie - L'Abeille - Trefin NV | referente | Referente e ruolo vuoti. Le fonti registrali indicano come amministratori Bert Verriet e Lisette Lerno. Fatturato (11.404.101 €), FTE (34,4) e deposito (08-06-2026) risultano confermati. | Frammento FinCheck: "The directors of Confiserie Trefin are Bert Verriet and Lisette Lerno" — https://fincheck.be/nl/confiserie-trefin/0400.120.050/Lo | referente: Bert Verriet — ruolo: gedelegeerd bestuurder (DA CONFERMARE quale dei due amministratori sia il delegato) |
 | Confiserie Vandenbulcke NV | referente | Referente e ruolo vuoti. La terza generazione e' al timone con Jelle Vandenbulcke come CEO, affiancato dai cugini Bert e Luk. Fatturato 13.332.120 € confermato (44° posto di settore). | Frammento Voka/Made-in: "the third generation is now in charge, with CEO Jelle Vandenbulcke and his cousins Bert and Luk at the helm"; https://trendst | referente: Jelle Vandenbulcke — ruolo: CEO / gedelegeerd bestuurder |
 | Confortluxe NV | referente | Referente e ruolo assenti benche' gli amministratori siano pubblici e confermati (Jacqueline Pauwels, Jimmy Ollevier, Heidi Ollevier). Il fondatore Andre Ollevier, storico gedelegeerd bestuurder, e' deceduto: non usarlo come referente. Da attribuire  | https://fincheck.be/en/confortluxe/0412.863.078/Wervik/connections - frammento: "The current board members of Confortluxe are Jacqueline Pauwels, Jimm | Jimmy Ollevier — bestuurder (ruolo di gedelegeerd bestuurder DA CONFERMARE) |
+| Corné Port-Royal Chocolatier SA | referente | Referente e ruolo vuoti ed email 'n.d.'. Dalle fonti registrali l'administrateur delegue e' la societa' di management BELLEGRO (persona fisica non esposta nei frammenti gratuiti); gli altri amministratori nominati il 05-12-2023 sono NEUHAUS SA, Valer | https://www.pappers.be/fr/company/corne-port-royal-chocolatier-0433283558 — "BELLEGRO ... Administrateur, Administrateur delegue ... depuis le 5 decem |  |
 | Decolvenaere BV | dimensione | Fatturato fortemente sottostimato. Il campo riporta 'oltre 10 milioni di euro' (fonte giornalistica Sterck Magazine), ma i dati di bilancio piu' recenti indicano un fatturato totale di 38.585.036 EUR, con altre fonti che collocano l'azienda nella fas | Frammenti di ricerca su Decolvenaere BV (BE 0400.079.171): "The most recent financial statements show a total turnover of EUR 38,585,036.00" e "turnov | Fatturato ~38,6 M EUR (ultimo bilancio depositato NBB) — DA RICONFERMARE sulla fonte NBB primaria |
+| Delafaille NV | referente | Il referente indicato (Paul Daems) e' esplicitamente uscente: le fonti sull'operazione Maestrani (23-06-2025) confermano che Daems, proprietario e CEO, resta solo 'per un periodo limitato' per accompagnare la transizione e che verra' nominato un nuov | Frammento just-food: "Paul Daems, Delafaille's current owner and CEO, [will] stay with the company for a 'limited period' as he aids the transition, b |  |
+| Delafaille NV | dimensione | Il legame di gruppo e' dichiarato ma la conclusione tratta nel campo ('resta pero' PMI belga autonoma con obblighi EUDR propri') e' opinabile: Maestrani Schweizer Schokoladen ha acquisito il 100% delle azioni di Delafaille e della sua controllata cec | Frammento bpv Braun Partners: "Maestrani ... acquisition of Belgian chocolate manufacturer Delafaille with a major Czech subsidiary [Ostrapack]"; "Del |  |
+| Dolfin SA | referente | Referente e ruolo vuoti ed email 'n.d.'. Le fonti pubbliche indicano Jean-Jacques de Gruben come proprietario e Directeur General di Dolfin SA (ha rilevato la cioccolateria nel 2007 insieme a Gilles van der Meerschen). | Frammento: "En 2007, Jean-Jacques de Gruben a repris les renes de la Chocolaterie Dolfin" (https://www.dolfin.be/en/who-are-we/); "Jean-Jacques de Gru | referente: Jean-Jacques de Gruben — ruolo: Administrateur delegue / Directeur general (DA CONFERMARE il titolo statutari |
 | Extremis NV | dimensione | Fatturato potenzialmente obsoleto: il campo riporta 12.900.125 EUR e 24,8 FTE dall'ultimo bilancio, ma risulta gia' depositato un bilancio piu' recente (deposito 02-07-2026) i cui dati non sono riflessi nel record. DA AGGIORNARE. | https://www.companyweb.be/en/0434625128/extremis - frammento: "The most recent financial statements of Extremis were filed on 02-07-2026" |  |
 | Houthandel Denis Luyten NV | referente | Referente e ruolo assenti; il campo dimensione dichiara esplicitamente che il nome del gestore non e' pubblicato. Nemmeno le ricerche mirate restituiscono il gedelegeerd bestuurder in carica (azienda alla 4a generazione della famiglia Luyten). DA CON | https://www.companyweb.be/en/0403778831/houthandel-denis-luyten - frammento: "At the time of its most recent financial statements, Houthandel Denis Lu |  |
 | Hulpiau Hides BV | referente | Referente e ruolo assenti. Le fonti pubbliche citano Raimond Hulpiau come 'current senior manager' (fratello del fondatore Christiaan Hulpiau), ma il ruolo formale (zaakvoerder/gedelegeerd bestuurder) non e' pubblicato: DA CONFERMARE. | https://www.hulpiauhides.com/en/about-us/ - frammento: "Christiaan Hulpiau, brother of current senior manager Raimond Hulpiau, founded Hulpiau Hides" |  |
 | Jori NV | referente | Referente e ruolo assenti e non ricostruibili dalle fonti pubbliche consultate: nessun nome di gedelegeerd bestuurder/CEO emerge per Jori NV (BE 0888.984.313). DA CONFERMARE. Fatturato 16.143.273 EUR, 106,8 FTE e sede Hoogweg 52, 8940 Wervik risultan | https://www.companyweb.be/en/0888984313/jori - frammento: "with a revenue of EUR 16.143.273, Jori from Wervik ranks 19th in the furniture manufacturin |  |
 | Keukenontwerpers NV | filiera | Perimetro EUDR debole. L'azienda opera con l'insegna SieMatic Keukenontwerpers come rivenditore/installatore a valle di cucine prodotte dalla tedesca SieMatic: non e' l'operatore che immette per primo il prodotto in legno sul mercato UE (lo e' il fab | https://www.keukenontwerpers.com/ e https://trustlocal.be/antwerpen/geel/keukenbouwer/siematic-keukenontwerpers/ - frammento: "SieMatic Keukenontwerpe |  |
 | Keukenontwerpers NV | referente | Referente e ruolo assenti; nessuna fonte pubblica restituisce il gedelegeerd bestuurder di Keukenontwerpers NV (BE 0472.648.534). L'email geel@keukenontwerpers.com non e' inoltre riscontrabile letteralmente nei frammenti. DA CONFERMARE entrambi. Fatt | https://trendstop.knack.be/nl/detail/472648534/keukenontwerpers.aspx - frammento: "With a turnover of 16,033,016 euros, Keukenontwerpers is ranked 7th |  |
+| Klingele Chocolade NV | dimensione | Il fatturato di ~8 M€ non e' verificabile: nell'ultimo bilancio depositato alla NBB (24-08-2025) la societa' NON pubblica la cifra d'affari (schema abbreviato). L'unico dato pubblico e' il margine lordo di 3.568.803 €, 44a posizione nel settore 'Choc | jaarrekening.be/nl/KLINGELE-CHOCOLADE/0479.916.606: 'Op het moment van haar meest recente jaarrekening publiceerde Klingele Chocolade geen omzetcijfer |  |
+| Koffiebranderij Or BV (OR Coffee Roasters) | dimensione | La societa' e' molto piu' piccola di quanto lasci intendere l'obiettivo dichiarato di ~6 M€: l'ultimo esercizio (2024) registra 5,00 FTE e nessuna cifra d'affari pubblicata. Con 5 dipendenti e un margine lordo di 785.594 € si tratta di una micro-impr | fincheck.be/nl/koffiebranderij-or/0473.952.589/Wetteren/overzicht: 'In 2024 had het bedrijf 5,00 voltijdse equivalenten (VTE) in dienst'; 'De jaaromze |  |
+| Koffiebranderij Or BV (OR Coffee Roasters) | dimensione | Controllata di gruppo: dall'aprile 2024 la societa' e' stata acquisita da Anaerobic Holding (Anversa), gia' proprietaria di Mister Barish Beans & Machines. Il legame e' dichiarato nel campo, ma va tenuto presente che la decisione di compliance EUDR s | kmoinsider.be/finance/koffiebranderij-or-coffee-roasters-uit-wetteren-overgenomen: 'Anaerobic Holding (Antwerpen), moederbedrijf van koffieautomatenve |  |
+| La Chocolaterie Galler SA | referente | Referente, ruolo, LinkedIn ed email tutti vuoti/'n.d.': il lead non e' contattabile. Dalle cronache dell'operazione 2026 emerge Sebastien Desclee, CEO ad interim di Chocolaterie Galler e ora anche fra gli azionisti della nuova societa'. DA CONFERMARE | Frammento: "Le consortium d'actionnaires est compose de la chocolaterie Dolfin, de Wallonie Entreprendre (WE), d'un groupe d'investisseurs prives et d | referente: Sebastien Desclee — ruolo: CEO (ad interim) / administrateur delegue (DA CONFERMARE) |
 | Lavrijsen Houtbedrijf NV | dimensione | Fatturato obsoleto e indirizzo errato. Il campo riporta 12.763.339 EUR (dato trendstop), mentre l'ultimo bilancio depositato indica 14.093.447 EUR e 23,1 FTE (non '20-49 addetti'). Inoltre la sede legale registrata e' Koning-Albertstraat 123, 2440 Ge | https://www.companyweb.be/en/0407106030/houtbedrijf-lavrijsen - frammento: "Houtbedrijf Lavrijsen recorded a total turnover of EUR 14,093,447.00... Th | Fatturato 14.093.447 EUR e 23,1 FTE (ultimo bilancio NBB); sede Koning-Albertstraat 123, 2440 Geel |
+| Le Cercle du Cacao SRL | dimensione | Micro-impresa di consulenza/sourcing fuori dalla forbice 5-40 M€ (fatturato non pubblicato, struttura sostanzialmente unipersonale attorno al fondatore). La limitazione e' dichiarata nel campo, ma il record non e' un lead commercialmente utilizzabile | lecercleducacao.be: 'Le Cercle du Cacao, sourcing, négoce et consultance en fèves de cacao'; 'Nico Regout est fondatrice, actionnaire principale et gé |  |
 | Manutti BV | dimensione | Il fatturato 15.340.098 € e i 27,4 FTE (bilancio NBB depositato 17-06-2024) sono confermati. Non trova invece riscontro pubblico l'affermazione di uno 'stabilimento produttivo in Indonesia (circa 140 addetti)': le fonti presentano Manutti come design | companyweb.be/en/0476263070/manutti: 'Manutti recorded a total turnover of EUR 15,340,098.00 according to the most recent financial statements filed o |  |
 | Manutti BV | dimensione | Legame di gruppo con Manutti Invest BV (BE 0478.148.434) dichiarato nel record: si tratta della holding familiare che controlla l'operativa. Segnalato come 'media' perche' gia' dichiarato; la decisione di compliance potrebbe collocarsi a livello di h | https://www.companyweb.be/en/0478148434/manutti-invest |  |
 | Mecam NV | referente | Il referente indicato (Inge Meers, CFO) non e' il vertice della societa'. Il gedelegeerd bestuurder / CEO e' il fratello Luc Meers, che ha la direzione generale; Inge cura la parte finanziaria. | meubihome.be / sterck-magazine.be: 'CFO en bestuurder Inge Meers runt samen met haar broer Luc het bedrijf'; wonen360.nl: 'CEO Luc Meers'; trendstop:  | Luc Meers — Gedelegeerd bestuurder / CEO |
@@ -587,7 +636,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 
 ---
 
-## 6. Casi di gravità BASSA (79)
+## 6. Casi di gravità BASSA (85)
 
 _Refusi formali e incoerenze di stile._
 
@@ -663,7 +712,7 @@ _Refusi formali e incoerenze di stile._
 | Horreds Möbel Aktiebolag | denominazione | Società CONFERMATA ATTIVA (scheda allabolag corrente, nessuna procedura concorsuale rilevata). Va però esplicitato il legame di gruppo: la capogruppo è Horreds Holding AB (esiste anche Horreds Möbel Utvecklings AB, 559016-3324). Nel foglio si legge g | https://www.allabolag.se/5563651974/koncern e frammento allabolag: 'moderbolag är Horreds Holding AB'; https://www.allabolag.se/5590163324/horreds-mob | Indicare la capogruppo: Horreds Holding AB |
 | Tärnsjö Garveri Aktiebolag | dimensione | Numero dipendenti non allineato alla fonte: il record indica 43 dipendenti (2024), allabolag riporta 46. | allabolag.se: «Tärnsjö Garveri Aktiebolag har 46 anställda». Fatturato 51,9 MSEK 2024 (+6%) confermato. | 46 dipendenti |
 
-### Olanda (6)
+### Olanda (9)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -673,8 +722,11 @@ _Refusi formali e incoerenze di stile._
 | Gras Wood Wide B.V. | dimensione | Anno di fondazione errato: il record indica 1921, mentre azienda e stampa di settore datano la fondazione al 1868 (sesta generazione familiare, coerente). Il 1921 corrisponde semmai a una successiva iscrizione societaria. | https://www.houtwereld.nl/bedrijven/gras-wood-wide-b-v/ e https://www.graswoodwide.com/over-ons/ - frammento: 'founded in 1868' | Fondata nel 1868 |
 | Gras Wood Wide B.V. | linkedin | Campo LinkedIn vuoto benche' esista la pagina aziendale ufficiale. | https://nl.linkedin.com/company/graswoodwide - titolo: 'Gras Wood Wide \| LinkedIn' | https://nl.linkedin.com/company/graswoodwide |
 | Houtimport Lekkerkerker B.V. | dimensione | Il campo deduce la fascia 10-20 M EUR dal volume (ca. 200.000 m3/anno) senza alcuna fonte di fatturato: la stima non e' sostenuta e va marcata come tale. Il volume in se' e' l'unico dato dichiarato con tipo e fonte. | https://www.houtimportlekkerkerker.nl/ e https://www.creditsafe.com/business-index/en-us/company/houtimport-lekkerkerker-bv-nl01698016 (nessun fattura |  |
+| Smeulders Interieurwerken B.V. | referente | Referente riportato con la sola iniziale ('A. Smeulders'). Il nome completo pubblicato e Anton Smeulders, alla guida dell'azienda dal 1992; la proprieta fa capo a Holding Smeulders B.V. | https://smeulders-ig.nl/over-ons/ - 'Anton Smeulders ... leidt het bedrijf sinds 1992'; proprieta Holding Smeulders B.V. | Anton Smeulders |
+| Van de Stadt Houtimport B.V. | dimensione | Indirizzo di sede indicato nel campo ('sede portuale Noorder IJ- en Zeeweg') non coincide con quello registrato oggi: KVK/Drimble e il sito riportano Rijshoutweg 31, 1505 HL Zaandam. Dato di sede obsoleto. | https://drimble.nl/bedrijf/zaandam/15832708/van-de-stadt-houtimport-bv.html - 'Van de Stadt Houtimport B.V. Rijshoutweg'; https://www.telefoonboek.nl/ | Rijshoutweg 31, 1505 HL Zaandam |
+| Van den Berg Hardhout B.V. | linkedin | URL LinkedIn probabilmente errato: la pagina aziendale reperibile e /company/van-den-berg-hardhout-bv---lopik, non /company/vandenberghardhout. | https://nl.linkedin.com/company/van-den-berg-hardhout-bv---lopik - 'Van den Berg Hardhout BV \| LinkedIn' | https://nl.linkedin.com/company/van-den-berg-hardhout-bv---lopik |
 
-### Belgio (17)
+### Belgio (20)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -684,11 +736,14 @@ _Refusi formali e incoerenze di stile._
 | Callens NV (Callens African Woods) | referente | Thierry Maelfait risulta confermato alla guida, ma dal 2021-2022 e' entrata in azienda la figlia Sam Maelfait, indicata dalle fonti come zaakvoerster/marketingverantwoordelijke: verificare chi sia oggi il rappresentante legale. Nota formale: per una  | https://www.voka.be/nieuws/west-vlaanderen-ondernemers-2024-19/callens-african-woods-heeft-productiefaciliteiten-kameroen - frammento: "Sam Maelfait,  |  |
 | Chocolaterie Ickx NV | dimensione | Fatturato confermato nell'ordine di grandezza ma con cifra leggermente diversa dalla fonte: trendstop/pappers riportano 32.272.193 € (27° posto di settore) contro i 32.746.626 € del record. FTE 139,7 e deposito 26-03-2026 confermati. | Frammento: "With a turnover of 32,272,193 euros, Chocolaterie Ickx is ranked 27th in the chocolate and confectionery sector" — https://www.pappers.be/ |  |
 | Confiserie Vandenbulcke NV | denominazione | La denominazione registrale in KBO/trendstop e' 'Vandenbulcke Confiserie NV' (ordine invertito rispetto al record); il marchio commerciale e' 'Chocolatier Vandenbulcke'. Il sito indicato e' corretto (vandenbulcke.com). | https://trendstop.knack.be/nl/detail/417738319/vandenbulcke-confiserie.aspx — "Vandenbulcke Confiserie NV - BE 0417.738.319 - Heule (8501)" | Vandenbulcke Confiserie NV |
+| Corné Port-Royal Chocolatier SA | denominazione | La denominazione registrale completa e' 'CORNE PORT-ROYAL CHOCOLATIER, en abrege CPR CHOCOLATIER'; companyweb indicizza l'impresa come 'CPR CHOCOLATIER (SA)'. Refuso formale: nel record manca la sigla registrale. | https://www.companyweb.be/en/0433283558/corne-port-royal-chocolatier — titolo "CPR CHOCOLATIER (SA) - Wavre (1300) - BE0433283558"; https://trademarks | Corne Port-Royal Chocolatier SA (in abbreviato CPR Chocolatier SA) |
 | Decadt Houthandel NV | ruolo | Stefaan Decadt e' confermato al vertice, ma il ruolo pubblicato e' 'bedrijfsleider' (LinkedIn) e non 'Algemeen directeur'; per una NV il titolo statutario sarebbe 'gedelegeerd bestuurder'. Inoltre coesistono due siti web riferiti a Decadt a Vlamertin | https://be.linkedin.com/in/stefaan-decadt-8b8144113 - frammento: "Stefaan Decadt - bedrijfsleider bij decadt houthandel nv"; siti concorrenti https:// | Ruolo: Bedrijfsleider / gedelegeerd bestuurder |
 | Decadt Houthandel NV | dimensione | Data di fondazione discordante: il campo indica 01-01-1975 (data di costituzione della NV) mentre le fonti aziendali datano l'attivita' al 1927. Fatturato 13.460.408 EUR confermato. | https://trendstop.knack.be/nl/detail/415284714/decadt-houthandel.aspx - frammento: "With a turnover of 13,460,408 euros, Decadt Houthandel is ranked 4 |  |
 | Denderwood NV | dimensione | Il fatturato non e' pubblicato (schema abbreviato): la collocazione dimensionale resta indeterminata e potenzialmente sotto la soglia dei 5 M EUR. Il campo lo dichiara ('TAGLIA DA VERIFICARE'), ma il dato non e' riscontrabile su NBB. Resto del record | https://www.atibt.org/en/members/24/denderwood e https://www.denderwood.com/over-ons/ - frammento: "Denderwood is located at J. Cardijnstraat, 3 B-942 |  |
 | Hulpiau Hides BV | dimensione | Il campo usa come proxy dimensionale il margine lordo (2.284.726 EUR) di UN'ALTRA entita' giuridica (Hulpiau BV, BE 0429.082.864), non della societa' target BE 0777.875.662, che deposita a schema abbreviato e non pubblica il fatturato. Dato confermat | https://www.companyweb.be/en/0777875662/hulpiau-hides - frammento: "There are 6.1 FTEs working at Hulpiau Hides according to staff figures in the most |  |
+| Klingele Chocolade NV | referente | Referente confermato (Koen Klingele, cofondatore 1995) ma incompleto: la societa' e' co-gestita dalla moglie Eline Blanchaert, indicata dalle fonti come zaakvoerder alla pari. Da notare che le fonti usano 'zaakvoerder', titolo proprio della BV, mentr | vrt.be/vrtnws/nl/2025/11/05: 'Koen Klingele en Eline Blanchaert, zaakvoerders van Klingele Chocolade'; jaarrekening.be/nl/KLINGELE-CHOCOLADE/0479.916. | Koen Klingele (con Eline Blanchaert) — gedelegeerd bestuurder |
 | Lavrijsen Houtbedrijf NV | ruolo | Jan e Bert Lavrijsen sono confermati alla guida dell'azienda, ma per una NV il titolo statutario corretto e' 'gedelegeerd bestuurder / bestuurder', non 'zaakvoerder' (termine proprio delle BV). | https://lavrijsen.be/over-ons/ - frammento: "Jan and Bert Lavrijsen are at the helm of the company with secured succession" | Bestuurders / gedelegeerd bestuurders |
+| Le Cercle du Cacao SRL | sede | Sede incoerente con la fonte aziendale: il sito ufficiale indica Rue des Sables 16, boite 4, 1000 Bruxelles (Bruxelles-Ville), non Schaerbeek 1030. DA CONFERMARE quale sia la sede sociale attuale iscritta alla BCE. | lecercleducacao.be/contact/: 'Le Cercle du Cacao est situé Rue des Sables 16, Boite 4 - 1000 Bruxelles' | Bruxelles-Ville (1000) — Regione di Bruxelles-Capitale |
 | Meubelfabriek Lievens NV | ruolo | Lieven Decoene e' confermato come 'general manager' operativo, ma il mandato statutario della NV e' esercitato da Telinfra (VA Telifra) con rappresentante permanente Andre Ollevier. Il ruolo indicato non e' quello statutario belga (gedelegeerd bestuu | pappers.be/nl/company/meubelfabriek-lievens-0413666990: 'VA Telifra — Andre Ollevier, vaste vertegenwoordiger/zaakvoerder'; wonen360.nl: 'general mana | Lieven Decoene — General Manager (rappresentante legale: Telinfra, rappr. perm. Andre Ollevier) |
 | Passe Partout NV | ruolo | Il titolo 'Zaakvoerder' e' proprio delle BV; per una NV il titolo statutario corretto e' gedelegeerd bestuurder / bestuurder. Dirk Steenbeke e' comunque confermato come fondatore e vertice attuale. | wonen360.nl 'Dirk Steenbeke van Passe Partout' (fondatore/CEO); verhouden.nl/ontwerpers/dirk-steenbeke | Gedelegeerd bestuurder |
 | Radermecker SRL | dimensione | Discordanza sugli addetti: il record indica 9,1 FTE (bilancio BNB), mentre la scheda Europages dichiara 20-49 dipendenti. Il fatturato non e' pubblicato (schema abbreviato): la collocazione dimensionale resta non verificabile. | https://www.europages.fr/TANNERIE-RADERMECKER/BEL069426-000019048001.html - frammento: "The company employs between 20 and 49 people" |  |

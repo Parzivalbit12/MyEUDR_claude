@@ -1,0 +1,42 @@
+[
+ {
+  "foglio": "Danimarca",
+  "denominazione": "NPI (Nordic Panel Import)",
+  "campo": "denominazione",
+  "da": "NPI (Nordic Panel Import)",
+  "a": "NPI A/S (Nordic Panel Import)",
+  "motivo": "forma giuridica mancante: al CVR 37418730 la societa' è registrata come NPI A/S (proff.dk)"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Rompa Tanneries B.V.",
+  "campo": "denominazione",
+  "da": "Rompa Tanneries B.V.",
+  "a": "Vitelco Leather B.V. (già Rompa Tanneries B.V.)",
+  "motivo": "denominazione obsoleta: sciolta la joint venture, Vitelco è socio unico al 100% e la societa' è stata ridenominata Vitelco Leather B.V. (paligroup.nl)"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Karnische Massiv Möbel GmbH",
+  "campo": "denominazione",
+  "da": "Karnische Massiv Möbel GmbH",
+  "a": "Karnische-Massiv-Möbel Gesellschaft m.b.H.",
+  "motivo": "ragione sociale a Firmenbuch FN 094638z (LG Klagenfurt); «Karnische Massiv Möbel GmbH» è il nome commerciale"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Confiserie Vandenbulcke NV",
+  "campo": "denominazione",
+  "da": "Confiserie Vandenbulcke NV",
+  "a": "Vandenbulcke Confiserie NV",
+  "motivo": "ordine dei termini invertito rispetto alla denominazione registrale KBO"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Paletten Meyer",
+  "campo": "denominazione",
+  "da": "Paletten Meyer",
+  "a": "Josef Meyer Palettenbau Inh. Julian Meyer (Paletten Meyer)",
+  "motivo": "«Paletten Meyer» è il solo nome commerciale: la ditta è iscritta come impresa individuale Josef Meyer Palettenbau Inh. Julian Meyer"
+ }
+]

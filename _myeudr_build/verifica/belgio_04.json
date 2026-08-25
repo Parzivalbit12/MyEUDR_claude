@@ -133,5 +133,86 @@
   "gravita": "bassa",
   "evidenza": "https://trendstop.knack.be/nl/detail/417738319/vandenbulcke-confiserie.aspx — \"Vandenbulcke Confiserie NV - BE 0417.738.319 - Heule (8501)\"",
   "correzione_proposta": "Vandenbulcke Confiserie NV"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Corné Port-Royal Chocolatier SA",
+  "campo": "dimensione",
+  "problema": "LEGAME DI GRUPPO NON DICHIARATO. Corne Port-Royal Chocolatier SA (BE 0433.283.558, denominazione abbreviata registrale 'CPR CHOCOLATIER') e' controllata dal gruppo Neuhaus dal 2013: Neuhaus figura direttamente fra gli amministratori della societa'. Neuhaus (fatturato ~149 M EUR all'epoca dell'operazione, gruppo che possiede anche Jeff de Bruges) e' a sua volta parte di un gruppo belga quotato. La decisione di compliance EUDR si prende a livello di capogruppo Neuhaus: il lead cosi' com'e' (PMI indipendente da 8,8 M EUR) e' fuorviante.",
+  "gravita": "alta",
+  "evidenza": "https://www.pappers.be/fr/company/corne-port-royal-chocolatier-0433283558 — dirigeants: NEUHAUS, BELLEGRO (administrateur delegue), Valerie Paquot, Isabel Baert, nomine dal 05-12-2023. Frammento RTBF/RetailDetail: \"Neuhaus rachete le chocolatier Corne Port-Royal\" (https://www.rtbf.be/article/wavre-corne-port-royal-rachete-par-neuhaus-7994003); \"Neuhaus Holding a rachete Corne Port-Royal au groupe Distripar, filiale de la CNP\".",
+  "correzione_proposta": "Dichiarare nel campo dimensione: controllata dal gruppo Neuhaus (Neuhaus SA amministratore) dal 2013; valutare l'esclusione del lead perche' la compliance e' decisa dalla capogruppo."
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Corné Port-Royal Chocolatier SA",
+  "campo": "referente",
+  "problema": "Referente e ruolo vuoti ed email 'n.d.'. Dalle fonti registrali l'administrateur delegue e' la societa' di management BELLEGRO (persona fisica non esposta nei frammenti gratuiti); gli altri amministratori nominati il 05-12-2023 sono NEUHAUS SA, Valerie Paquot e Isabel Baert. Nessuna persona fisica di riferimento confermata. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://www.pappers.be/fr/company/corne-port-royal-chocolatier-0433283558 — \"BELLEGRO ... Administrateur, Administrateur delegue ... depuis le 5 decembre 2023\"",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Corné Port-Royal Chocolatier SA",
+  "campo": "denominazione",
+  "problema": "La denominazione registrale completa e' 'CORNE PORT-ROYAL CHOCOLATIER, en abrege CPR CHOCOLATIER'; companyweb indicizza l'impresa come 'CPR CHOCOLATIER (SA)'. Refuso formale: nel record manca la sigla registrale.",
+  "gravita": "bassa",
+  "evidenza": "https://www.companyweb.be/en/0433283558/corne-port-royal-chocolatier — titolo \"CPR CHOCOLATIER (SA) - Wavre (1300) - BE0433283558\"; https://trademarks.justia.com/owners/corne-port-royal-chocolatier-en-abregecpr-chocolatier-4484529",
+  "correzione_proposta": "Corne Port-Royal Chocolatier SA (in abbreviato CPR Chocolatier SA)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Delafaille NV",
+  "campo": "referente",
+  "problema": "Il referente indicato (Paul Daems) e' esplicitamente uscente: le fonti sull'operazione Maestrani (23-06-2025) confermano che Daems, proprietario e CEO, resta solo 'per un periodo limitato' per accompagnare la transizione e che verra' nominato un nuovo CEO. A oltre un anno dall'acquisizione il nominativo va riconfermato: rischio concreto di referente non piu' in carica.",
+  "gravita": "media",
+  "evidenza": "Frammento just-food: \"Paul Daems, Delafaille's current owner and CEO, [will] stay with the company for a 'limited period' as he aids the transition, but ... a new CEO would be appointed to head Delafaille\" — https://www.just-food.com/news/maestrani-buys-belgian-company-delafaille/",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Delafaille NV",
+  "campo": "dimensione",
+  "problema": "Il legame di gruppo e' dichiarato ma la conclusione tratta nel campo ('resta pero' PMI belga autonoma con obblighi EUDR propri') e' opinabile: Maestrani Schweizer Schokoladen ha acquisito il 100% delle azioni di Delafaille e della sua controllata ceca Ostrapack, quindi Delafaille e' oggi una controllata di un gruppo svizzero e la decisione di compliance EUDR si prende verosimilmente a livello di capogruppo. Va valutata l'esclusione o la riqualificazione del lead.",
+  "gravita": "media",
+  "evidenza": "Frammento bpv Braun Partners: \"Maestrani ... acquisition of Belgian chocolate manufacturer Delafaille with a major Czech subsidiary [Ostrapack]\"; \"Delafaille got acquired by Maestrani on Jun 23, 2025\" (https://www.just-food.com/news/maestrani-buys-belgian-company-delafaille/)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Dolfin SA",
+  "campo": "referente",
+  "problema": "Referente e ruolo vuoti ed email 'n.d.'. Le fonti pubbliche indicano Jean-Jacques de Gruben come proprietario e Directeur General di Dolfin SA (ha rilevato la cioccolateria nel 2007 insieme a Gilles van der Meerschen).",
+  "gravita": "media",
+  "evidenza": "Frammento: \"En 2007, Jean-Jacques de Gruben a repris les renes de la Chocolaterie Dolfin\" (https://www.dolfin.be/en/who-are-we/); \"Jean-Jacques de Gruben is the Directeur General of DOLFIN SA\"",
+  "correzione_proposta": "referente: Jean-Jacques de Gruben — ruolo: Administrateur delegue / Directeur general (DA CONFERMARE il titolo statutario su KBO)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Dolfin SA",
+  "campo": "dimensione",
+  "problema": "Dato aziendale incompleto e ormai superato dagli eventi: nell'aprile 2026 Dolfin e' diventata azionista di maggioranza della Chocolaterie Galler (rilevata da un consorzio vallone insieme a Wallonie Entreprendre, investitori privati e Sebastien Desclee). Dolfin non e' piu' una micro-cioccolateria da ~6 M EUR ma la capogruppo di un insieme Dolfin+Galler che si avvicina alla soglia di esclusione. Il legame non e' dichiarato nel campo.",
+  "gravita": "alta",
+  "evidenza": "Frammento La Libre/QU4TRE: \"le capital de la nouvelle societe Galler est desormais majoritairement dans les mains de la chocolaterie familiale Dolfin, basee a Nivelles\" — https://www.qu4tre.be/infos/economie/des-actionnaires-wallons-reprennent-la-chocolaterie-galler/2014147 ; https://www.parismatch.be/actualites/societe/2026/04/23/la-chocolaterie-galler-reprise-par-un-consortium-wallon-70-licenciements-prevus-sur-les-170-employes-75IWTID2DVEGDN6O56R2JXHSQQ/",
+  "correzione_proposta": "Dichiarare: dall'aprile 2026 Dolfin SA e' azionista di maggioranza della nuova Chocolaterie Galler; valutare il perimetro dimensionale del gruppo Dolfin+Galler."
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "La Chocolaterie Galler SA",
+  "campo": "dimensione",
+  "problema": "AZIENDA IN CRISI E CEDUTA. Galler era in procedura di riorganizzazione giudiziaria (PRJ 'silenziosa') ed e' stata rilevata nell'aprile 2026 da un consorzio vallone (chocolaterie Dolfin come azionista di maggioranza, Wallonie Entreprendre, investitori privati, Sebastien Desclee) tramite la costituzione di una 'nuova societa' Galler', con 70 licenziamenti su 170 dipendenti. Il record ne fa un cenno ma non ne trae le conseguenze: la societa' storica BE 0416.169.689 potrebbe non essere piu' l'entita' operativa (cessione di attivi a nuova entita'), il fatturato ~29,5-32 M EUR e i 194 dipendenti sono superati, e la compliance e' ora decisa dal nuovo azionariato (Dolfin). Lead da riqualificare o scartare; il numero d'impresa da usare va riverificato in KBO.",
+  "gravita": "alta",
+  "evidenza": "Frammento La Libre: \"Un projet de relance d'un nouveau Galler entierement entre des mains belges permet d'eviter le choc d'une faillite frontale\" (23-04-2026); \"L'entreprise chocolatiere liegeoise Galler, qui avait ete placee en procedure de reorganisation judiciaire silencieuse, a ete reprise par des actionnaires entierement wallons ... le capital ... majoritairement dans les mains de la chocolaterie familiale Dolfin\" — https://www.qu4tre.be/infos/economie/des-actionnaires-wallons-reprennent-la-chocolaterie-galler/2014147",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "La Chocolaterie Galler SA",
+  "campo": "referente",
+  "problema": "Referente, ruolo, LinkedIn ed email tutti vuoti/'n.d.': il lead non e' contattabile. Dalle cronache dell'operazione 2026 emerge Sebastien Desclee, CEO ad interim di Chocolaterie Galler e ora anche fra gli azionisti della nuova societa'. DA CONFERMARE il titolo statutario dopo la ristrutturazione.",
+  "gravita": "media",
+  "evidenza": "Frammento: \"Le consortium d'actionnaires est compose de la chocolaterie Dolfin, de Wallonie Entreprendre (WE), d'un groupe d'investisseurs prives et de Sebastien Desclee, CEO ad interim de la Chocolaterie Galler\" — https://www.qu4tre.be/infos/economie/des-actionnaires-wallons-reprennent-la-chocolaterie-galler/2014147",
+  "correzione_proposta": "referente: Sebastien Desclee — ruolo: CEO (ad interim) / administrateur delegue (DA CONFERMARE)"
  }
 ]

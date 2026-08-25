@@ -151,5 +151,59 @@
   "gravita": "media",
   "evidenza": "companyweb.be/en/0413744194/woodtex: 'Woodtex recorded a total turnover of €12,131,554.00. The most recent financial statements were filed on 01-06-2026 ... 35 FTEs'",
   "correzione_proposta": "Fatturato 12.131.554 € - 35 FTE (bilancio NBB depositato 01-06-2026)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Klingele Chocolade NV",
+  "campo": "dimensione",
+  "problema": "Il fatturato di ~8 M€ non e' verificabile: nell'ultimo bilancio depositato alla NBB (24-08-2025) la societa' NON pubblica la cifra d'affari (schema abbreviato). L'unico dato pubblico e' il margine lordo di 3.568.803 €, 44a posizione nel settore 'Chocolade en suikerwaren'. Il valore 8 M€ resta DA CONFERMARE e con un brutomarge di 3,5 M€ l'ordine di grandezza e' plausibile ma non provato.",
+  "gravita": "media",
+  "evidenza": "jaarrekening.be/nl/KLINGELE-CHOCOLADE/0479.916.606: 'Op het moment van haar meest recente jaarrekening publiceerde Klingele Chocolade geen omzetcijfer'; 'Met een brutomarge van 3.568.803 euro is Klingele Chocolade uit Evergem 44e in de sector Chocolade en suikerwaren'; deposito 24-08-2025",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Klingele Chocolade NV",
+  "campo": "referente",
+  "problema": "Referente confermato (Koen Klingele, cofondatore 1995) ma incompleto: la societa' e' co-gestita dalla moglie Eline Blanchaert, indicata dalle fonti come zaakvoerder alla pari. Da notare che le fonti usano 'zaakvoerder', titolo proprio della BV, mentre la forma giuridica registrata e' NV (naamloze vennootschap): il titolo statutario corretto e' gedelegeerd bestuurder, come gia' riportato nel record.",
+  "gravita": "bassa",
+  "evidenza": "vrt.be/vrtnws/nl/2025/11/05: 'Koen Klingele en Eline Blanchaert, zaakvoerders van Klingele Chocolade'; jaarrekening.be/nl/KLINGELE-CHOCOLADE/0479.916.606: 'de juridische vorm is Naamloze vennootschap'",
+  "correzione_proposta": "Koen Klingele (con Eline Blanchaert) — gedelegeerd bestuurder"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Koffiebranderij Or BV (OR Coffee Roasters)",
+  "campo": "dimensione",
+  "problema": "La societa' e' molto piu' piccola di quanto lasci intendere l'obiettivo dichiarato di ~6 M€: l'ultimo esercizio (2024) registra 5,00 FTE e nessuna cifra d'affari pubblicata. Con 5 dipendenti e un margine lordo di 785.594 € si tratta di una micro-impresa ampiamente fuori dalla forbice 5-40 M€. La limitazione e' segnalata nel campo, ma il divario e' molto piu' ampio di quanto scritto.",
+  "gravita": "media",
+  "evidenza": "fincheck.be/nl/koffiebranderij-or/0473.952.589/Wetteren/overzicht: 'In 2024 had het bedrijf 5,00 voltijdse equivalenten (VTE) in dienst'; 'De jaaromzet van Koffiebranderij Or is € 0' (non pubblicata)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Koffiebranderij Or BV (OR Coffee Roasters)",
+  "campo": "dimensione",
+  "problema": "Controllata di gruppo: dall'aprile 2024 la societa' e' stata acquisita da Anaerobic Holding (Anversa), gia' proprietaria di Mister Barish Beans & Machines. Il legame e' dichiarato nel campo, ma va tenuto presente che la decisione di compliance EUDR si colloca a livello di capogruppo e non della branderij di Wetteren.",
+  "gravita": "media",
+  "evidenza": "kmoinsider.be/finance/koffiebranderij-or-coffee-roasters-uit-wetteren-overgenomen: 'Anaerobic Holding (Antwerpen), moederbedrijf van koffieautomatenverdeler Mister Barish, neemt koffiebranderij Or B.V. (Westrem) over'; made-in.be: 'Wouter Helsen is benoemd tot nieuwe manager van de branderij'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Le Cercle du Cacao SRL",
+  "campo": "sede",
+  "problema": "Sede incoerente con la fonte aziendale: il sito ufficiale indica Rue des Sables 16, boite 4, 1000 Bruxelles (Bruxelles-Ville), non Schaerbeek 1030. DA CONFERMARE quale sia la sede sociale attuale iscritta alla BCE.",
+  "gravita": "bassa",
+  "evidenza": "lecercleducacao.be/contact/: 'Le Cercle du Cacao est situé Rue des Sables 16, Boite 4 - 1000 Bruxelles'",
+  "correzione_proposta": "Bruxelles-Ville (1000) — Regione di Bruxelles-Capitale"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Le Cercle du Cacao SRL",
+  "campo": "dimensione",
+  "problema": "Micro-impresa di consulenza/sourcing fuori dalla forbice 5-40 M€ (fatturato non pubblicato, struttura sostanzialmente unipersonale attorno al fondatore). La limitazione e' dichiarata nel campo, ma il record non e' un lead commercialmente utilizzabile per il target del cliente. Il perimetro EUDR (negozio diretto di fave di cacao) e' invece corretto.",
+  "gravita": "media",
+  "evidenza": "lecercleducacao.be: 'Le Cercle du Cacao, sourcing, négoce et consultance en fèves de cacao'; 'Nico Regout est fondatrice, actionnaire principale et gérante'",
+  "correzione_proposta": ""
  }
 ]

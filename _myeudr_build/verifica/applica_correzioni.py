@@ -64,7 +64,11 @@ def main():
                 tocchi[sh] = True; done = True; break
             if done: break
         if not done:
-            print(f"  !! {sh}: «{c['denominazione']}» non trovata nei JSON {pref}_*")
+            gia = any(norm(r.get("denominazione")) == norm(c["a"])
+                      for fp in glob.glob(os.path.join(BUILD, f"{pref}_*.json"))
+                      for r in json.load(open(fp, encoding="utf-8"))) if c["campo"] == "denominazione" else False
+            print(f"  = {sh}: «{c['denominazione']}» già corretta in precedenza" if gia
+                  else f"  !! {sh}: «{c['denominazione']}» non trovata nei JSON {pref}_*")
 
     # ---- 2. rigenerazione dei fogli toccati ----
     for sh in tocchi:
@@ -93,7 +97,10 @@ def main():
             print(f"  ✔ {sh}/{str(den)[:32]} · {c['campo']}: «{str(cur)[:45]}» → «{str(c['a'])[:45]}»")
             changed = True; hit = True; break
         if not hit:
-            print(f"  !! {sh}: «{c['denominazione']}» non trovata nel foglio")
+            gia = c["campo"] == "denominazione" and any(
+                norm(ws.cell(rr, 1).value) == norm(c["a"]) for rr in range(3, ws.max_row + 1))
+            print(f"  = {sh}: «{c['denominazione']}» già corretta in precedenza" if gia
+                  else f"  !! {sh}: «{c['denominazione']}» non trovata nel foglio")
 
     # ---- 4. ripristino dell'ordine dei fogli (add_country.py riaccoda in fondo) ----
     if not DRY and (changed or tocchi):

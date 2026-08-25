@@ -1,0 +1,110 @@
+[
+ {
+  "foglio": "Olanda",
+  "denominazione": "M.S. Pallets B.V.",
+  "campo": "referente",
+  "problema": "Referente assente: il directeur statutario e una persona giuridica (Maso Onroerend B.V.), nessun nome fisico pubblicato. DA CONFERMARE il nome della persona fisica dietro la holding prima di usare il lead per un contatto nominale.",
+  "gravita": "media",
+  "evidenza": "https://companyinfo.nl/organisatieprofiel/vervaardiging-van-houten-emballage/m-s-pallets-b-v-den-ham-05049728-000016563247 - il campo dimensione del record stesso dichiara 'Direttore statutario: persona giuridica Maso Onroerend (nessun nome fisico pubblicato)'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Montis B.V.",
+  "campo": "dimensione",
+  "problema": "Legame di gruppo: Montis e uno dei sei marchi della Lande Groep (con Artifort, Lande, Portner, Zwaardvis, A Lott Of Space), che produce in NL, BE, DE e TR. Il legame e dichiarato nel campo ma senza precisare che la compliance EUDR si decide a livello di capogruppo Lande Groep: il lead va riqualificato o riferito alla capogruppo.",
+  "gravita": "media",
+  "evidenza": "https://www.landefamily.nl/montis - 'Montis is one of six strong brands under the Lande Groep (along with A Lott Of Space, Artifort, Lande, Portner and Zwaardvis)'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Montis B.V.",
+  "campo": "dimensione",
+  "problema": "Il fatturato indicato (ca. 24,6 M$ ~ 22 M€) proviene da stime RocketReach/Creditsafe, non da un bilancio depositato: il campo stesso ammette che il fatturato non e depositato. Dato da trattare come stima non verificata, non come fatturato.",
+  "gravita": "media",
+  "evidenza": "https://www.creditsafe.com/business-index/en-ie/company/montis-bv-nl01008091 - il campo dichiara 'Fatturato esatto NON depositato pubblicamente (B.V. con bilancio abbreviato)'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Montis B.V.",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti. DA CONFERMARE il directeur attuale della B.V.: le fonti pubbliche associano Montis alla direzione storica di Paul van den Berg (dal 1975) ma non confermano un vertice in carica oggi sotto Lande Groep.",
+  "gravita": "media",
+  "evidenza": "https://www.landefamily.nl/montis - 'high-quality design furniture from its own factory in Dongen since 1975 under the leadership of Paul van den Berg'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Smeulders Interieurwerken B.V.",
+  "campo": "referente",
+  "problema": "Referente riportato con la sola iniziale ('A. Smeulders'). Il nome completo pubblicato e Anton Smeulders, alla guida dell'azienda dal 1992; la proprieta fa capo a Holding Smeulders B.V.",
+  "gravita": "bassa",
+  "evidenza": "https://smeulders-ig.nl/over-ons/ - 'Anton Smeulders ... leidt het bedrijf sinds 1992'; proprieta Holding Smeulders B.V.",
+  "correzione_proposta": "Anton Smeulders"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Smeulders Interieurwerken B.V.",
+  "campo": "email",
+  "problema": "Email assente ('n.d.'): il lead non e contattabile via e-mail. Il campo dimensione cita j.mulder@smeulders-ig.nl trovata in directory, ma non e riportata nel campo email ne verificata come casella attiva. DA CONFERMARE una casella generica sul dominio smeulders-ig.nl.",
+  "gravita": "media",
+  "evidenza": "https://smeulders-ig.nl/contact/ - pagina contatti del gruppo; il record stesso riporta 'Non risulta pubblicata una casella info@ generica'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Van Ierssel Houtimport B.V.",
+  "campo": "dimensione",
+  "problema": "Controllata di gruppo: Van Ierssel Houtimport e stata rilevata da Boogaerdt Hout nel 1986 e fa parte della Koninklijke Boogaerdt Groep. Il legame e dichiarato nel campo, ma il lead resta una controllata: la decisione di compliance EUDR si colloca a livello di Koninklijke Boogaerdt Groep (Krimpen aan de Lek).",
+  "gravita": "media",
+  "evidenza": "https://www.boogaerdthout.nl/en/2026/02/04/commercial-manager-member-of-ierssel-houtimport/ - 'In 1986 Van Ierssel Houtimport was taken over by Boogaerdt Hout'; vedi anche https://www.vaniersselhoutimport.nl/historie/",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Van Ierssel Houtimport B.V.",
+  "campo": "referente",
+  "problema": "Fred Verver risulta confermato come directeur operativo di Van Ierssel (con werfmanager Ton van Oers), ma nelle fonti compare anche Oscar Smeets come 'Directeur Boogaerdt Hout - Van Ierssel Houtimport': verificare quale sia il vertice statutario della B.V. prima del contatto.",
+  "gravita": "media",
+  "evidenza": "https://nl.linkedin.com/in/oscar-smeets-55856411 - 'Oscar Smeets - Directeur | Boogaerdt Hout - Van Ierssel ...'; https://www.linkedin.com/in/fred-verver-2bbb2124/ - 'Fred Verver - Van Ierssel Houtimport'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Van de Stadt Houtimport B.V.",
+  "campo": "dimensione",
+  "problema": "Indirizzo di sede indicato nel campo ('sede portuale Noorder IJ- en Zeeweg') non coincide con quello registrato oggi: KVK/Drimble e il sito riportano Rijshoutweg 31, 1505 HL Zaandam. Dato di sede obsoleto.",
+  "gravita": "bassa",
+  "evidenza": "https://drimble.nl/bedrijf/zaandam/15832708/van-de-stadt-houtimport-bv.html - 'Van de Stadt Houtimport B.V. Rijshoutweg'; https://www.telefoonboek.nl/bedrijven/t3019188/zaandam/van-de-stadt-houtimport-b.v./ - 'Rijshoutweg 31, 1505HL, Zaandam'",
+  "correzione_proposta": "Rijshoutweg 31, 1505 HL Zaandam"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Van den Berg Hardhout B.V.",
+  "campo": "email",
+  "problema": "Incoerenza di dominio: l'email e su .nl (info@vandenberghardhout.nl) mentre il sito ufficiale e le e-mail nominative del personale sono sul dominio .com (vandenberghardhout.com). Verificare quale dominio di posta sia realmente attivo.",
+  "gravita": "media",
+  "evidenza": "https://rocketreach.co/albert-oudenaarden-email_99038923 - 'a******@vandenberghardhout.com'; https://www.vandenberghardhout.com/en/contact/",
+  "correzione_proposta": "info@vandenberghardhout.com (da confermare)"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Van den Berg Hardhout B.V.",
+  "campo": "linkedin",
+  "problema": "URL LinkedIn probabilmente errato: la pagina aziendale reperibile e /company/van-den-berg-hardhout-bv---lopik, non /company/vandenberghardhout.",
+  "gravita": "bassa",
+  "evidenza": "https://nl.linkedin.com/company/van-den-berg-hardhout-bv---lopik - 'Van den Berg Hardhout BV | LinkedIn'",
+  "correzione_proposta": "https://nl.linkedin.com/company/van-den-berg-hardhout-bv---lopik"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Van den Berg Hardhout B.V.",
+  "campo": "dimensione",
+  "problema": "Legame di gruppo dichiarato ma imminente: dal 01/01/2026 la societa e nella holding Van den Berg Houtgroep insieme a GWW Houtimport e GWW Agency. Con 6 dipendenti confermati e fatturato non pubblicato, l'azienda e sotto la forbice 5-40 M€ e la compliance si decide a livello di holding.",
+  "gravita": "media",
+  "evidenza": "https://rocketreach.co/van-den-berg-hardhout-bv-profile_b40aa59bff9a461e - 'Van den Berg Hardhout BV employs 6 people and is based in Lopik, Utrecht'",
+  "correzione_proposta": ""
+ }
+]
