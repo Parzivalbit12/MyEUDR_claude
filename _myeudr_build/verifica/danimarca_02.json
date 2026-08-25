@@ -61,5 +61,41 @@
   "gravita": "bassa",
   "evidenza": "https://ownr.dk/companies/public-profile/35118519 ; https://virmo.dk/firma/42555932-eilersen-as",
   "correzione_proposta": "Indicare esplicitamente CVR 35118519 per N. EILERSEN A/S"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "NPI (Nordic Panel Import)",
+  "campo": "denominazione",
+  "problema": "Ragione sociale imprecisa: la societa' e' registrata al CVR 37418730 come 'NPI A/S' (forma giuridica A/S, non ApS). Il record lascia il punto come non verificato.",
+  "gravita": "bassa",
+  "evidenza": "https://www.proff.dk/firma/npi-as/l%C3%B8sning/t%C3%B8mmer-tr%C3%A6last-og-byggevarer-agentur-og-engros/0MA0H6I10LA (NPI A/S - CVR-nr 37418730 - Losning)",
+  "correzione_proposta": "NPI A/S (Nordic Panel Import)"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "NPI (Nordic Panel Import)",
+  "campo": "referente",
+  "problema": "Campo referente vuoto pur essendo il direktor reperibile nelle fonti pubbliche: risulta Theis Graves Larsen (uno dei due fondatori, 2002).",
+  "gravita": "media",
+  "evidenza": "https://www.proff.dk/firma/npi-as/l%C3%B8sning/t%C3%B8mmer-tr%C3%A6last-og-byggevarer-agentur-og-engros/0MA0H6I10LA - direktor: Theis Graves Larsen ; https://www.npi.dk/about-npi/ ('Theis G. Larsen and Michael Schram founded NPI in September 2002')",
+  "correzione_proposta": "Theis Graves Larsen, Direktor (da riconfermare al primo contatto)"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "SIKA DESIGN A/S",
+  "campo": "dimensione",
+  "problema": "Dato di bilancio obsoleto: l'utile lordo di 29 M DKK e' riferito al 2021 (cinque esercizi fa) e la stima ricavi '~8-10 M€' non e' verificata. Anche il numero di addetti e' disallineato: le fonti aggiornate riportano 19 dipendenti / 17 FTE a novembre 2025 contro i 21 indicati.",
+  "gravita": "media",
+  "evidenza": "https://www.paqle.dk/p/sika-design-a-s/330977 (19 ansatte, 17 FTE nov. 2025) ; https://ownr.dk/companies/public-profile/31476712",
+  "correzione_proposta": "Aggiornare bruttofortjeneste e addetti all'ultimo bilancio disponibile"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "SOFTLINE A/S",
+  "campo": "dimensione",
+  "problema": "Dato di margine lordo riferito al 2023 e stima ricavi '~12-18 M€' non verificata: la collocazione nella forbice target 5-40 M€ resta non dimostrata. DA CONFERMARE su bilancio piu' recente. Referente Finn Herluf Sorensen e stato 'Normal' della societa' risultano invece confermati.",
+  "gravita": "media",
+  "evidenza": "https://ownr.dk/companies/public-profile/27266355 (status Normal) ; https://folketidende.dk/erhverv/produktudvikling-er-krumtappen-hos-softline-a-s ('Finn H. Sorensen ... direktor')",
+  "correzione_proposta": ""
  }
 ]

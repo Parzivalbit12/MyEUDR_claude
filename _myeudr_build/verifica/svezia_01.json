@@ -106,5 +106,59 @@
   "gravita": "bassa",
   "evidenza": "https://blastation.com/company — «Company | Blå Station»",
   "correzione_proposta": "https://blastation.com/"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Brattby Sågverks AB",
+  "campo": "dimensione",
+  "problema": "Legame di gruppo non dichiarato: la società fa parte di una koncern con moderbolag Brattby Trading Aktiebolag. Fatturato 143,4 MSEK (~12,7 M€) e 32 dipendenti 2024 confermati.",
+  "gravita": "media",
+  "evidenza": "allabolag.se (556415-5066): «företaget ingår i en koncern med moderbolag Brattby Trading Aktiebolag»; «omsättning 143,4 MSEK, vinst 11,3 MSEK, +26% (2024), 32 anställda»",
+  "correzione_proposta": "Aggiungere: 'koncern con moderbolag Brattby Trading Aktiebolag'"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Brattby Sågverks AB",
+  "campo": "referente",
+  "problema": "Nome del VD incompleto rispetto al registro: risulta Anne Marie Bergstrand (il record riporta solo 'Marie Bergstrand').",
+  "gravita": "bassa",
+  "evidenza": "allabolag.se befattningar: «VD: Anne Marie Bergstrand, 47 år» — https://www.allabolag.se/5564155066/befattningar",
+  "correzione_proposta": "Anne Marie Bergstrand"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Brattby Sågverks AB",
+  "campo": "linkedin",
+  "problema": "URL LinkedIn con slug anomalo (brattby-s-gverks-ab) non riscontrato in nessuna fonte: DA CONFERMARE che la pagina aziendale esista.",
+  "gravita": "bassa",
+  "evidenza": "Nessun risultato LinkedIn nelle ricerche su 'Brattby Sågverks AB'; le fonti reperite sono allabolag, bolagsfakta, byggkatalogen, merinfo.",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Brännfors Träförädling Aktiebolag",
+  "campo": "dimensione",
+  "problema": "Legame di gruppo non dichiarato: moderbolag Brännfors Holding AB. Inoltre il dato 2024 confermato dalle fonti è 53.348 KSEK ≈ 4,7 M€ con 15 dipendenti (crescita -4,4%): il fatturato 2025 di 79.011 KSEK (~7,0 M€) citato nel record non trova riscontro e resta DA CONFERMARE. Con il solo dato 2024 l'azienda è SOTTO la soglia minima di 5 M€.",
+  "gravita": "alta",
+  "evidenza": "allabolag/bolagsfakta (556103-8695): «15 anställda, omsättning 53 348 KSEK, resultat 2 677 KSEK (2024), tillväxt −4,4%»; «moderbolaget är Brännfors Holding AB»",
+  "correzione_proposta": "Dichiarare moderbolag Brännfors Holding AB e riportare il dato certificato 2024 (53.348 KSEK ≈ 4,7 M€, 15 dip.) finché il 2025 non è confermato"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Brännfors Träförädling Aktiebolag",
+  "campo": "email",
+  "problema": "Email indicata come 'n.d.' benché l'azienda abbia una pagina contatti pubblica: dato mancante recuperabile.",
+  "gravita": "media",
+  "evidenza": "https://brannforstraforadling.se/kontakta-oss/ — «Kontakta oss - Brännfors Träförädling»; tel. 0910-71 51 00, Ostvik 152, 934 91 Kåge",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Brännfors Träförädling Aktiebolag",
+  "campo": "referente",
+  "problema": "Referente e ruolo vuoti. Le fonti non indicano un VD registrato ma solo cariche di consiglio (Åsa Kärr; Lars Stefan Edström come ordförande): DA CONFERMARE chi sia il vertice operativo.",
+  "gravita": "media",
+  "evidenza": "allabolag/proff (556103-8695): risultano ordförande/styrelseledamot Åsa Kärr e Lars Stefan Edström; nessun VD riportato.",
+  "correzione_proposta": ""
  }
 ]
