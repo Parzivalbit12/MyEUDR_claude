@@ -10,17 +10,19 @@ La verifica si è svolta in due fasi:
 
 ## 1. Copertura della verifica
 
-| Foglio | Aziende | Blocchi verificati | Aziende verificate | Copertura |
-|---|--:|---|--:|--:|
-| Italia | 95 | 1/5 | 19 | 20% |
-| Germania | 97 | 1/6 | 17 | 18% |
-| Finlandia | 84 | 0/5 | 0 | 0% |
-| Danimarca | 89 | 2/5 | 36 | 40% |
-| Svezia | 89 | 1/5 | 18 | 20% |
-| Olanda | 100 | 1/6 | 17 | 17% |
-| Belgio | 95 | 3/5 | 57 | 60% |
-| Austria | 93 | 1/5 | 19 | 20% |
-| **TOTALE** | **742** | **10/42** | **183** | **25%** |
+| Foglio | Aziende | Blocchi completi | Blocchi parziali | Blocchi da fare | Aziende verificate | Copertura |
+|---|--:|--:|--:|--:|--:|--:|
+| Italia | 95 | 1 | 0 | 4 | 19 | 20% |
+| Germania | 97 | 1 | 0 | 5 | 17 | 18% |
+| Finlandia | 84 | 0 | 0 | 5 | 0 | 0% |
+| Danimarca | 89 | 2 | 0 | 3 | 36 | 40% |
+| Svezia | 89 | 1 | 0 | 4 | 18 | 20% |
+| Olanda | 100 | 1 | 0 | 5 | 17 | 17% |
+| Belgio | 95 | 1 | 2 | 2 | 19 | 20% |
+| Austria | 93 | 1 | 0 | 4 | 19 | 20% |
+| **TOTALE** | **742** | **8** | **2** | **32** | **145** | **20%** |
+
+_I **blocchi parziali** sono quelli il cui agente è stato interrotto dal limite di sessione: i rilievi già salvati sono validi e inclusi nel report, ma il blocco non è coperto per intero. Il salvataggio incrementale ogni 3-4 record è ciò che ha evitato di perdere quel lavoro._
 
 > La Fase A copre invece il **100%** dei 742 record: è un controllo offline e non dipende dal budget di ricerca.
 

@@ -29,19 +29,28 @@ def carica_rilievi():
     return out, files
 
 def blocchi_coperti(files):
-    """quali blocchi di ciascun foglio sono stati verificati"""
-    tot = defaultdict(list); fatti = defaultdict(list)
+    """quali blocchi di ciascun foglio sono stati verificati, distinguendo completi e parziali"""
+    try:
+        stato = json.load(open(os.path.join(HERE, "_stato_blocchi.json"), encoding="utf-8"))
+    except Exception:
+        stato = {}
+    tot = defaultdict(list); fatti = defaultdict(list); parz = defaultdict(list)
     for fp in sorted(glob.glob(os.path.join(HERE, "blocchi", "*.json"))):
         bn = os.path.basename(fp)[:-5]
         sh = bn.rsplit("_", 1)[0].capitalize()
         n = len(json.load(open(fp, encoding="utf-8")))
         tot[sh].append((bn, n))
-        if bn + ".json" in files: fatti[sh].append((bn, n))
-    return tot, fatti
+        if bn + ".json" not in files: continue
+        st = stato.get(bn, {})
+        if st.get("stato") == "parziale":
+            parz[sh].append((bn, int(st.get("verificati") or 0)))
+        else:
+            fatti[sh].append((bn, int(st.get("verificati") or n)))
+    return tot, fatti, parz
 
 def main():
     R, files = carica_rilievi()
-    tot_b, fatti_b = blocchi_coperti(files)
+    tot_b, fatti_b, parz_b = blocchi_coperti(files)
     by_sheet = defaultdict(list)
     for r in R: by_sheet[r.get("foglio", "?")].append(r)
     c_all = Counter(r["gravita"] for r in R)
@@ -62,17 +71,22 @@ def main():
 
     # ---------- copertura ----------
     o.append("\n## 1. Copertura della verifica\n")
-    o.append("| Foglio | Aziende | Blocchi verificati | Aziende verificate | Copertura |")
-    o.append("|---|--:|---|--:|--:|")
+    o.append("| Foglio | Aziende | Blocchi completi | Blocchi parziali | Blocchi da fare | Aziende verificate | Copertura |")
+    o.append("|---|--:|--:|--:|--:|--:|--:|")
     tot_ver = 0
     for sn in SHEETS:
-        nb, nf = tot_b.get(sn, []), fatti_b.get(sn, [])
-        nrec = sum(n for _, n in nf); tot_ver += nrec
-        o.append(f"| {sn} | {ATTESI[sn]} | {len(nf)}/{len(nb)} | {nrec} | "
-                 f"{100*nrec/ATTESI[sn]:.0f}% |")
-    o.append(f"| **TOTALE** | **742** | **{sum(len(v) for v in fatti_b.values())}/"
-             f"{sum(len(v) for v in tot_b.values())}** | **{tot_ver}** | "
-             f"**{100*tot_ver/742:.0f}%** |")
+        nb, nf, npz = tot_b.get(sn, []), fatti_b.get(sn, []), parz_b.get(sn, [])
+        nrec = sum(n for _, n in nf) + sum(n for _, n in npz); tot_ver += nrec
+        o.append(f"| {sn} | {ATTESI[sn]} | {len(nf)} | {len(npz)} | {len(nb)-len(nf)-len(npz)} | "
+                 f"{nrec} | {100*nrec/ATTESI[sn]:.0f}% |")
+    nfa = sum(len(v) for v in fatti_b.values()); npa = sum(len(v) for v in parz_b.values())
+    nto = sum(len(v) for v in tot_b.values())
+    o.append(f"| **TOTALE** | **742** | **{nfa}** | **{npa}** | **{nto-nfa-npa}** | "
+             f"**{tot_ver}** | **{100*tot_ver/742:.0f}%** |")
+    o.append("\n_I **blocchi parziali** sono quelli il cui agente è stato interrotto dal limite di "
+             "sessione: i rilievi già salvati sono validi e inclusi nel report, ma il blocco non è "
+             "coperto per intero. Il salvataggio incrementale ogni 3-4 record è ciò che ha evitato "
+             "di perdere quel lavoro._")
     o.append("\n> La Fase A copre invece il **100%** dei 742 record: è un controllo offline "
              "e non dipende dal budget di ricerca.\n")
     o.append("\n_A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati aperti "
