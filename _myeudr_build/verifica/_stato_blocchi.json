@@ -1,13 +1,43 @@
 {
  "_nota": "Stato di avanzamento della Fase B. 'completo' = l'agente ha confermato di aver verificato tutti i record del blocco. 'parziale' = interrotto dal limite di sessione, i rilievi salvati sono validi ma la copertura del blocco non e' totale.",
- "danimarca_01": {"stato": "completo", "verificati": 18},
- "danimarca_02": {"stato": "completo", "verificati": 18},
- "svezia_01":    {"stato": "completo", "verificati": 18},
- "olanda_01":    {"stato": "completo", "verificati": 17},
- "belgio_01":    {"stato": "completo", "verificati": 19},
- "austria_01":   {"stato": "completo", "verificati": 19},
- "italia_01":    {"stato": "completo", "verificati": 19},
- "germania_01":  {"stato": "completo", "verificati": 17},
- "belgio_02":    {"stato": "parziale", "verificati": 0},
- "belgio_04":    {"stato": "parziale", "verificati": 0}
+ "danimarca_01": {
+  "stato": "completo",
+  "verificati": 18
+ },
+ "danimarca_02": {
+  "stato": "completo",
+  "verificati": 18
+ },
+ "svezia_01": {
+  "stato": "completo",
+  "verificati": 18
+ },
+ "olanda_01": {
+  "stato": "completo",
+  "verificati": 17
+ },
+ "belgio_01": {
+  "stato": "completo",
+  "verificati": 19
+ },
+ "austria_01": {
+  "stato": "completo",
+  "verificati": 19
+ },
+ "italia_01": {
+  "stato": "completo",
+  "verificati": 19
+ },
+ "germania_01": {
+  "stato": "completo",
+  "verificati": 17
+ },
+ "belgio_02": {
+  "stato": "completo",
+  "verificati": 19
+ },
+ "belgio_04": {
+  "stato": "parziale",
+  "verificati": 0
+ }
 }

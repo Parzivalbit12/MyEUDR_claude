@@ -286,5 +286,86 @@
   "gravita": "bassa",
   "evidenza": "https://be.linkedin.com/company/oxfam-fair-trade",
   "correzione_proposta": "https://be.linkedin.com/company/oxfam-fair-trade"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Pierre Marcolini Group SA",
+  "campo": "referente",
+  "problema": "Referente, ruolo, LinkedIn ed email tutti vuoti/'n.d.': il lead non e' contattabile. L'administrateur-delegue della societa' e' Pierre Marcolini stesso (BE 0461.740.982, Rue du Bassin Collecteur 4, 1130 Bruxelles).",
+  "gravita": "media",
+  "evidenza": "https://www.pappers.be/fr/company/pierre-marcolini-group-0461740982 — \"Pierre Marcolin[i] est Administrateur-delegue\"; sede Rue du Bassin Collecteur 4, 1130 Bruxelles (https://www.companyweb.be/en/0461740982/pierre-marcolini-group)",
+  "correzione_proposta": "referente: Pierre Marcolini — ruolo: Administrateur delegue"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Pierre Marcolini Group SA",
+  "campo": "dimensione",
+  "problema": "Fatturato non aggiornato: il record riporta 19.300.806 EUR, mentre l'ultimo bilancio depositato (16-10-2025) indica 21.606.032 EUR con 118,1 FTE. Inoltre l'azionariato non e' dichiarato: nel capitale figurano investitori finanziari (NEO Investment Partners, EverYi Capital, Finance&Invest.Brussels, Florinvest) — Nestle era uscita nel 2011 — e a marzo 2026 sono circolate indiscrezioni di stampa su un possibile disimpegno del fondo di maggioranza con mandato a una banca d'affari. Operazione NON confermata: DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://www.companyweb.be/en/0461740982/pierre-marcolini-group — \"total turnover of EUR 21,606,032.00 ... financial statements filed on October 16, 2025 ... 118.1 FTEs\"; https://pitchbook.com/profiles/company/100206-46 (investitori: EverYi Capital, Finance&Invest.Brussels, Florinvest, NEO Investment Partners, Nestle); https://trends.levif.be/entreprises/les-chocolats-marcolini-a-nouveau-100-belges/",
+  "correzione_proposta": "Fatturato 21.606.032 EUR e 118,1 FTE (bilancio NBB depositato 16-10-2025); aggiungere la composizione dell'azionariato finanziario."
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Hannecard Benelux NV",
+  "campo": "dimensione",
+  "problema": "LEGAME DI GRUPPO NON DICHIARATO. Hannecard Benelux NV (BE 0694.906.812) non e' una societa' indipendente: e' l'entita' Benelux del Gruppo Hannecard, che fa capo a Hannecard NV (BE 0892.311.512, stessa sede di Ronse) e il cui capitale e' entrato nel febbraio 2022 in BNP Paribas Fortis Private Equity. Il gruppo opera a livello mondiale con piu' societa': la decisione di compliance EUDR si prende a livello di gruppo, non della societa' Benelux.",
+  "gravita": "alta",
+  "evidenza": "https://www.bnpparibasfortis.be/en/public/article/bnp-paribas-fortis-private-equity-participates-in-hannecard — \"In February 2022, BNP Paribas Fortis Private Equity acquired [a stake in] Hannecard NV\"; https://fincheck.be/nl/hannecard/0892.311.512/Ronse/bestuurders (entita' distinta Hannecard NV, Ronse); \"the Hannecard Group stands as a worldwide leader in industrial roller coverings\" (https://www.hannecard.com/en/company/)",
+  "correzione_proposta": "Dichiarare: societa' del Gruppo Hannecard (capogruppo Hannecard NV, BE 0892.311.512, Ronse), partecipato da BNP Paribas Fortis Private Equity dal febbraio 2022."
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Hannecard Benelux NV",
+  "campo": "referente",
+  "problema": "Referente e ruolo vuoti, e il quadro dirigenziale e' in transizione: il gedelegeerd bestuurder storico di Hannecard Benelux (Rik De Jo..., in carica dal 1984) risulta pensionato dal 2025. Il CEO di gruppo e' Dirk Vidts — vertice del gruppo, non necessariamente della societa' Benelux. DA CONFERMARE il gedelegeerd bestuurder attuale su KBO/NBB.",
+  "gravita": "media",
+  "evidenza": "https://rocketreach.co/de-jo-rik-email_483835577 — \"De Jo Rik ... HANNECARD Gepensioneerd\", \"Gedelegeerd Bestuurder at Hannecard Benelux 1984-2025\"; \"The CEO of the company is Dirk Vidts\" (https://www.hannecard.com/en/company/)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Hannecard Benelux NV",
+  "campo": "linkedin",
+  "problema": "Il LinkedIn indicato (linkedin.com/company/hannecard-nv) e' la pagina del gruppo Hannecard, non della sola Hannecard Benelux NV: coerente con il rilievo sul legame di gruppo. Non e' un errore grave ma va segnalato che il contatto porta alla capogruppo.",
+  "gravita": "bassa",
+  "evidenza": "https://www.linkedin.com/company/hannecard-nv — pagina unica del gruppo; https://trendstop.knack.be/nl/detail/694906812/hannecard-benelux.aspx (entita' Benelux, fatturato 16.954.714 EUR, 23 posto nel settore gomma e pneumatici)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Helvoet Rubber & Plastic Technologies NV",
+  "campo": "filiera",
+  "problema": "ERRORE DI PERIMETRO EUDR. Helvoet non lavora gomma naturale: la gamma elastomeri dichiarata dall'azienda comprende esclusivamente polimeri sintetici — butile (IIR), cloroprene (CR), EPDM, nitrile (NBR), acrilico (AEM/ACM), poliuretano (AU), siliconi e fluorosiliconi (VMQ/FMVQ), FKM, HNBR, FFKM — oltre a termoplastici e LSR. Il sito di Lommel e' descritto dall'azienda stessa come hub per componenti termoindurenti, termoplastici ad alte prestazioni e silicone liquido (LSR), per automotive/e-mobility/medicale. Caso analogo a RICO Elastomere (Austria), gia' scartata: fuori Allegato I EUDR.",
+  "gravita": "alta",
+  "evidenza": "https://helvoet.com/rubber/ — \"Engineering Elastomers including Butyl Rubber (IIR), Chloroprene Rubber (CR), EPDM and Nitrile Rubber (NBR) ... Acrylate Rubber (AEM, ACM), Polyurethane (AU), Silicone and Fluorosilicone Rubber (VMQ, FMVQ), Fluor rubber (FKM), HNBR and Perfluor Elastomers (FFKM)\"; https://helvoet.com/news/helvoet-strengthens-position-in-high-performance-plastics/ — \"Helvoet's Lommel site serves as a fully integrated hub for thermoset, high-performance thermoplastic and liquid silicone rubber (LSR) components\". Nessuna menzione di gomma naturale (NR).",
+  "correzione_proposta": "Scartare il lead per fuori perimetro EUDR (solo elastomeri sintetici e silicone), salvo prova documentale di impiego di gomma naturale."
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Helvoet Rubber & Plastic Technologies NV",
+  "campo": "dimensione",
+  "problema": "LEGAME DI GRUPPO NON DICHIARATO. La societa' di Lommel e' la filiale belga del gruppo olandese Helvoet (Helvoet Holding B.V., fondata 1939 a Hellevoetsluis, siti in NL, DE, BE, IN, PL), acquisito da Hydratec Industries NV nel luglio 2015 e successivamente passato a RF Plast (settembre 2024). Non e' una PMI belga indipendente e la compliance si decide a livello di capogruppo. Inoltre il dato di 17,48 M EUR non e' accompagnato da FTE: l'ultimo bilancio (giugno 2025) indica 78,4 FTE.",
+  "gravita": "alta",
+  "evidenza": "https://pitchbook.com/profiles/company/40839-13 (\"Helvoet Rubber & Plastic Technologies was acquired on September 1, 2024 by RF Plast\"); https://mergr.com/hydratec-industries-nv-acquires-helvoet-holding-bv (Hydratec Industries acquisisce Helvoet Holding BV, 08-07-2015); https://www.companyweb.be/en/0867662822/helvoet-rubber-plastic-technologies (\"78.4 FTEs ... most recent financial statements filed in June 2025\"); https://nl.wikipedia.org/wiki/Helvoet_Rubber",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Hercorub NV",
+  "campo": "dimensione",
+  "problema": "Il numero di addetti e' riportato come forbice generica ('ca. 67-95 dipendenti, fonte aziendale') invece che come dato NBB: va sostituito con il dato FTE dell'ultimo bilancio depositato. Fatturato (15.240.806 EUR) e numero d'impresa confermati. Da aggiungere che Hercorub ha un secondo stabilimento produttivo a Zlin (Repubblica Ceca), rilevante per la valutazione del perimetro.",
+  "gravita": "bassa",
+  "evidenza": "https://trendstop.knack.be/nl/detail/421767381/hercorub.aspx — \"Hercorub recorded a total turnover of EUR 15,240,806.00\"; https://www.hercorub.be/p/home.html — \"Hercorub, met hoofdzetel in Lanaken (BE) en een tweede productievestiging in Zlin (CZ)\"",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Hercorub NV",
+  "campo": "referente",
+  "problema": "Il referente indicato (Patrick Lenaerts, afgevaardigd bestuurder) e' confermato, ma la societa' ha due gedelegeerd bestuurders: Patrick Lenaerts e Suzy Hermans. Nessun errore, solo integrazione. Confermato anche l'uso di gomma naturale (NR) nelle mescole, quindi il record e' correttamente dentro il perimetro EUDR.",
+  "gravita": "bassa",
+  "evidenza": "https://www.hercorub.be/p/geschiedenis.html — \"Patrick Lenaerts en Suzy Hermans werden gedelegeerd bestuurders van Hercorub\"; https://www.hercorub.be/p/rubber-mengsels.html — \"Natuurrubber (NR) is de oudste rubbersoort, maar is tot op vandaag nog steeds goed voor meer dan 40% van de totale rubberproductie\"",
+  "correzione_proposta": ""
  }
 ]

@@ -250,5 +250,95 @@
   "gravita": "media",
   "evidenza": "https://us.kompass.com/c/gaia-cacao-b-v/nlc0730826/ - profilo societario senza indicazione di dirigenti",
   "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Kargro Banden B.V.",
+  "campo": "filiera",
+  "problema": "DUBBIO DI PERIMETRO EUDR: l'attivita e la raccolta e lavorazione circolare di carcasse di pneumatici gia usati per la loro ricostruzione (loopvlakvernieuwing). Non si tratta dell'immissione per la prima volta sul mercato UE di gomma naturale o di pneumatici nuovi: il materiale ha gia concluso il proprio ciclo di vita e sarebbe altrimenti rifiuto, fattispecie esclusa dall'ambito EUDR. Il ruolo di operatore va dimostrato, altrimenti e un errore di perimetro come per gli operatori di sola logistica.",
+  "gravita": "alta",
+  "evidenza": "https://www.kargrogroep.nl/kargro-banden/ - 'Kargro Group Holding ... circulaire verwerking van gedemonteerde vrachtwagen- en personenautobanden'; https://kargrorecycling.com/nl/over/kargro-groep/ - 'goedgekeurde karkassen voorzien van een nieuw loopvlak'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Kargro Banden B.V.",
+  "campo": "referente",
+  "problema": "Referente assente. Le fonti indicano Jan Driessen come directeur di Kargro (gruppo di Montfoort); il nome va confermato come bestuurder della singola B.V. Kargro Banden e non della sola holding.",
+  "gravita": "media",
+  "evidenza": "https://www.utrechtbusiness.nl/magazine/artikel/579/12352/de-circulaire-ambities-van-marktleider-kargro - 'Kargro-directeur Jan Driessen'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Kargro Banden B.V.",
+  "campo": "dimensione",
+  "problema": "Legame di gruppo confermato e piu ampio di quanto dichiarato: oltre a Kargro International e Lintire, il gruppo comprende Banden Plan Europa BV (Montfoort) e Tyre Plan Europe (Kalmthout, BE) sotto Kargro Group Holding. La compliance si deciderebbe a livello di holding.",
+  "gravita": "media",
+  "evidenza": "https://kargrorecycling.com/nl/over/kargro-groep/ - 'Lintire in Vianen ... Banden Plan Europa in Montfoort ... Tyre Plan Europe, Kalmthout (Belgie)'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Marine Olie Handel Maatschappij B.V.",
+  "campo": "dimensione",
+  "problema": "DATO FALSO: il campo afferma che il fatturato non e pubblicato. Il bilancio 2022 riporta un fatturato di quasi 400 M€, cioe dieci volte il tetto della forbice target 5-40 M€. Il lead e completamente fuori dalla fascia dimensionale del cliente.",
+  "gravita": "alta",
+  "evidenza": "https://mena.nl/artikel/handelshuis-sfx-krijgt-eigen-olie-door-overname - 'Volgens het jaarverslag over 2022 had Marine Olie een omzet van bijna 400 miljoen euro'",
+  "correzione_proposta": "Fatturato ca. 400 M€ (bilancio 2022) - FUORI FORBICE"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Marine Olie Handel Maatschappij B.V.",
+  "campo": "denominazione",
+  "problema": "AZIENDA ACQUISITA: Marine Olie e stata acquisita da STX Group (Amsterdam); l'operazione, approvata dalla Commissione europea, si e chiusa il 01/12/2024. La societa non e piu indipendente e la decisione di compliance EUDR si colloca in STX Group. Lead da scartare o da riferire alla capogruppo.",
+  "gravita": "alta",
+  "evidenza": "https://stxgroup.com/media-release/stx-group-expands-its-biofuels-business-with-strategic-acquisition-of-marine-olie/ - acquisizione annunciata a dicembre 2024, closing 1 dicembre 2024; https://www.maverick-law.com/nl/zaken/maverick-advocaten-begeleidt-marine-olie-bij-goedkeuring-van-europese-commissie-voor-overname-door-stx.html",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Marine Olie Handel Maatschappij B.V.",
+  "campo": "filiera",
+  "problema": "DUBBIO DI PERIMETRO: la filiera dichiarata e 'Olio di palma', ma le fonti descrivono un trader di oli che sono in prevalenza sottoprodotti e scarti alimentari (sottoprodotti dell'olio d'oliva, olio da frittura usato/UCO) destinati ai biocarburanti - proprio la motivazione dell'acquisizione da parte di STX Group, che opera nei biofuels. UCO e biodiesel sono fuori Allegato I. L'esposizione a olio di palma non e dimostrata da alcuna fonte.",
+  "gravita": "alta",
+  "evidenza": "https://mena.nl/artikel/handelshuis-sfx-krijgt-eigen-olie-door-overname - 'handelt in diverse olien die vaak reststromen uit voeding zijn, van bijproducten van olijfolie tot gebruikt frituurvet'; https://fd.nl/bedrijfsleven/1538504/ - 'STX Group koopt Marine Olie om te groeien in handel van biobrandstoffen'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Nijsen company B.V.",
+  "campo": "dimensione",
+  "problema": "Fatturato obsoleto: il dato di ca. 30 M€ risale a un'intervista del 2013 (13 anni fa) e non e stato riconfermato da alcuna fonte recente. Confermati invece 'oltre 100 collaboratori' e volumi di oltre 100.000 t/anno.",
+  "gravita": "media",
+  "evidenza": "https://nijsen.co/en/nijsen/about-nijsen/ - 'over 100 colleagues ... over 100,000 tons of foodstuffs'; nessuna fonte pubblica recente riporta l'omzet",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Nijsen company B.V.",
+  "campo": "filiera",
+  "problema": "DUBBIO DI PERIMETRO da chiarire: il modello attuale dell'azienda e il concetto Food-for-Feed, cioe la trasformazione di flussi residui dell'industria alimentare in mangimi circolari, non l'import di soia. L'esposizione alla soia (Allegato I) deriverebbe solo dal residuo ramo storico di import granaglie e materie prime; da verificare che la soia sia ancora acquistata e immessa sul mercato UE dall'azienda.",
+  "gravita": "media",
+  "evidenza": "https://nijsen.co/en/nijsen/about-nijsen/ - 'Food-for-Feed concept, processing high-quality products from the food industry into ... raw materials for animal feeds'; https://liof.nl/over-liof/testimonials/circulaire-diervoeders-van-nijsen-maken-het-verschil-de-voedselketen",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "OTR Oiltrade B.V.",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti: risulta pubblicamente Lars Schipper come directeur di OTR Oiltrade B.V.",
+  "gravita": "media",
+  "evidenza": "https://www.transfirm.nl/nl/organisatie/24464899-000000435155-otr-oiltrade-b.v. - 'Lars Schipper is directeur'; KVK 24464899, Dieplood 40, 4251 LV Werkendam",
+  "correzione_proposta": "Lars Schipper - Directeur"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "OTR Oiltrade B.V.",
+  "campo": "filiera",
+  "problema": "Esposizione all'olio di palma non dimostrata: le fonti pubbliche descrivono OTR Oiltrade come fornitore di 'plantaardige olien voor de voedingsindustrie' senza specificare la palma. Il campo la deduce dai grassi da frittura. DA CONFERMARE la presenza di olio di palma (Allegato I) fra le materie prime trattate.",
+  "gravita": "media",
+  "evidenza": "https://www.oiltrade.nl/over-ons/ e https://nl.kompass.com/c/otr-oiltrade-b-v/nl821699/ - descrizione come fornitore di oli vegetali per l'industria alimentare, nessuna menzione esplicita di olio di palma",
+  "correzione_proposta": ""
  }
 ]

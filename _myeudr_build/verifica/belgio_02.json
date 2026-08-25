@@ -295,5 +295,86 @@
   "gravita": "bassa",
   "evidenza": "made-in.be/mechelen/bart-de-bie-ceo-antilope-de-bie: 'Bart De Bie (CEO Antilope De Bie) ... Hij en zijn broer Johan zijn de vierde generatie van drukkersfamilie De Bie ... In 1996 namen ze de drukkerij over van hun ouders'",
   "correzione_proposta": "Bart De Bie (con il fratello Johan De Bie) — CEO / gedelegeerd bestuurder"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Autajon Packaging Belgium SA",
+  "campo": "dimensione",
+  "problema": "Controllata di gruppo estero: la societa' e' una filiale del gruppo familiare francese Autajon (guidato da Gerard Autajon), che in Belgio ha due siti (Anderlecht e Arlon). Il legame e' dichiarato nel campo, ma la decisione di compliance EUDR si colloca alla capogruppo francese: come lead autonomo il record ha valore limitato.",
+  "gravita": "media",
+  "evidenza": "autajon.com/en/locations/packaging-belgium-bruxelles/; pappers.be/fr/company/autajon-packaging-belgium-0402682929: amministratori 'ROMAN AUTAJON, GERARD AUTAJON, Jean-Pierre Wilhelm'; ecma.org member list 'Autajon Packaging Belgium sa/nv'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Autajon Packaging Belgium SA",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti. Le fonti pubbliche indicano come amministratori della SA belga Roman Autajon, Gerard Autajon e Jean-Pierre Wilhelm: quest'ultimo e' l'unico non appartenente alla famiglia proprietaria e verosimilmente il riferimento operativo locale, ma il ruolo esatto (administrateur delegue) non e' confermato. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "pappers.be/fr/company/autajon-packaging-belgium-0402682929: 'Les dirigeants de Autajon Packaging Belgium sont ROMAN AUTAJON, GERARD AUTAJAN et Jean-Pierre Wilhelm'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Autajon Packaging Belgium SA",
+  "campo": "email",
+  "problema": "L'e-mail contact@autajon.com e il sito www.autajon.com sono il recapito e il dominio generici della capogruppo francese, non della societa' belga: un contatto inviato li' non raggiunge lo stabilimento di Anderlecht. Esiste una pagina dedicata alla sede belga (autajon.com/en/locations/packaging-belgium-bruxelles/) con i recapiti locali.",
+  "gravita": "bassa",
+  "evidenza": "https://www.autajon.com/en/locations/packaging-belgium-bruxelles/ (scheda della sede di Bruxelles del gruppo Autajon)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Cartonnages Delsaux SA",
+  "campo": "email",
+  "problema": "Il campo e' valorizzato 'n.d.', ma un indirizzo e-mail aziendale esiste ed e' pubblicato sui repertori camerali (CCI Wapi) e su Europages/Kompass insieme al telefono 056/33.12.78; nei risultati di ricerca compare mascherato. DA CONFERMARE l'indirizzo letterale sul sito cartonnagesdelsaux.com o sulla scheda CCI.",
+  "gravita": "media",
+  "evidenza": "catalogue.cciwapi.be/entreprises/cartonnages-delsaux/ e fr.kompass.com/c/cartonnages-delsaux/be0007444/: 'Boulevard du Textile 13, 7700 Mouscron, tel. 056/33.12.78 — e-mail [masked]'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Cartonnages Delsaux SA",
+  "campo": "ruolo",
+  "problema": "'Amministratore' non e' un titolo statutario belga. Per una SA vallona il titolo corretto e' administrateur delegue (o administrateur). La co-direzione familiare con Charles e Sylvie Delsaux e' confermata dalle fonti.",
+  "gravita": "bassa",
+  "evidenza": "ccimag.be/2019/05/28/cartonnages-delsaux-cartons-pousser-fleurs/: 'Christophe Delsaux et Charles Delsaux, avec leur soeur Sylvie, dirigent l'entreprise'",
+  "correzione_proposta": "Administrateur delegue"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Cartonnages Delsaux SA",
+  "campo": "dimensione",
+  "problema": "Conferma del sospetto gia' annotato nel campo: con 20-49 collaboratori dichiarati e un margine lordo di 2.828.246 € (113a nel settore Emballage), il fatturato — non pubblicato nel bilancio abbreviato — e' verosimilmente sotto i 5 M€, quindi FUORI dalla forbice target 5-40 M€. Il record va declassato o scartato salvo verifica sul bilancio integrale NBB.",
+  "gravita": "media",
+  "evidenza": "fr.kompass.com/c/cartonnages-delsaux/be0007444/: 'effectif de 20 à 49 employés'; trendstop.levif.be/fr/detail/401231293/cartonnages-delsaux.aspx: margine lordo 2.828.246 €",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Corpack NV",
+  "campo": "dimensione",
+  "problema": "Il campo dichiara il dato 'NON REPERITO', ma parte dell'informazione e' pubblica: l'ultimo bilancio depositato alla NBB (17-07-2026) riporta 44,3 FTE, e i repertori d'impresa collocano Corpack nella fascia di fatturato 10-25 M€ con 20-49 addetti. Manca inoltre il numero d'impresa, che e' BE 0452.991.978. La stima 'fascia bassa 5-15 M€' scritta nel record e' quindi sottodimensionata.",
+  "gravita": "media",
+  "evidenza": "companyweb.be/en/0452991978/corpack: 'The most recent financial statements of Corpack were filed on 17-07-2026 ... 44.3 FTEs'; be.kompass.com/c/corpack-nv/be0340262/: 'turnover between €10,000,000 - €25,000,000, 20-49 staff'",
+  "correzione_proposta": "N. impresa BE 0452.991.978. 44,3 FTE (bilancio NBB depositato 17-07-2026); fatturato non pubblicato, stimato 10-25 M€ (Kompass)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Corpack NV",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti: il record non e' utilizzabile per un contatto nominale. Ne' trendstop, ne' companyweb, ne' bizzy.org pubblicano il nome del gedelegeerd bestuurder della NV. DA CONFERMARE tramite Moniteur belge / BCE.",
+  "gravita": "media",
+  "evidenza": "Ricerche 'Corpack 0452.991.978 bestuurders/gedelegeerd bestuurder' su trendstop.knack.be/nl/detail/452991978, companyweb.be/en/0452991978/corpack, bizzy.org/nl/be/0452991978/corpack: nessun nominativo pubblicato",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Corpack NV",
+  "campo": "sede",
+  "problema": "Denominazione del comune superata: dopo la fusione del 2025 la sede legale risulta registrata come Doornpark 20, 9120 Beveren-Kruibeke-Zwijndrecht (non piu' 'Beveren-Waas'). Refuso puramente formale, l'indirizzo e la provincia (Oost-Vlaanderen) sono corretti.",
+  "gravita": "bassa",
+  "evidenza": "companyweb.be/en/0452991978/corpack: 'Corpack (NV) - Beveren-Kruibeke-Zwijndrecht (9120)'; trendstop: 'Doornpark(BEV) 20, 9120 Beveren-Kruibeke-Zwijndrecht'",
+  "correzione_proposta": "Beveren-Kruibeke-Zwijndrecht (ex Beveren-Waas), Provincia di Fiandre Orientali (Fiandre)"
  }
 ]
