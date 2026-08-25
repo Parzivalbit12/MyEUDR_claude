@@ -188,7 +188,7 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 
 ## 2. Rilievi per foglio
 
-**Totale rilievi Fase B: 275** — alta 36 · media 154 · bassa 85.
+**Totale rilievi Fase B: 290** — alta 37 · media 165 · bassa 88.
 
 | Foglio | Rilievi | alta | media | bassa | Aziende toccate |
 |---|--:|--:|--:|--:|--:|
@@ -197,31 +197,31 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 | Finlandia | 0 | 0 | 0 | 0 | 0 |
 | Danimarca | 46 | 14 | 18 | 14 | 32 |
 | Svezia | 36 | 6 | 15 | 15 | 18 |
-| Olanda | 44 | 5 | 30 | 9 | 22 |
-| Belgio | 79 | 9 | 50 | 20 | 42 |
+| Olanda | 53 | 5 | 36 | 12 | 25 |
+| Belgio | 85 | 10 | 55 | 20 | 44 |
 | Austria | 15 | 1 | 10 | 4 | 12 |
 | _(tutti)_ | 1 | 0 | 0 | 1 | 1 |
-| **TOTALE** | **275** | **36** | **154** | **85** | **161** |
+| **TOTALE** | **290** | **37** | **165** | **88** | **166** |
 
 ### Rilievi per campo
 
 | Campo | Rilievi | di cui alta |
 |---|--:|--:|
-| dimensione | 126 | 19 |
-| referente | 63 | 9 |
+| dimensione | 132 | 20 |
+| referente | 67 | 9 |
 | denominazione | 28 | 6 |
-| email | 18 | 1 |
-| linkedin | 14 | 0 |
-| sito | 8 | 0 |
+| email | 19 | 1 |
+| linkedin | 15 | 0 |
+| sito | 9 | 0 |
 | ruolo | 7 | 0 |
-| sede | 4 | 0 |
-| filiera | 3 | 1 |
+| sede | 5 | 0 |
+| filiera | 4 | 1 |
 | fonte | 3 | 0 |
 | esistenza_stato | 1 | 0 |
 
 ---
 
-## 3. Tema trasversale — legami di gruppo (47 rilievi)
+## 3. Tema trasversale — legami di gruppo (48 rilievi)
 
 È il problema **più diffuso e meno atteso** emerso dalla verifica: non era fra i 13 punti noti dell'handoff. Numerose aziende del censimento sono controllate di gruppi, spesso esteri o quotati. Per il criterio già applicato dal progetto — che aveva rimosso Lavazza Kaffee, Segafredo Zanetti Austria e Kaffee Partner Austria perché *«la compliance si decide a livello di gruppo, non nella filiale»* — sono **lead di valore dubbio**.
 
@@ -235,6 +235,7 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 |---|---|---|---|
 | Austria | BRAUN LOCKENHAUS GmbH | **dichiarato** | Filiale di gruppo estero: la societa' e' controllata da SCHNEEWEISS AG / SCHNEEWEISS interior, con sede del gruppo a Kippenheim (Baden-Württemberg, DE), dal 2006. La decisione di compliance EUDR si as |
 | Belgio | A & A Chocolaterie NV | **dichiarato** | Il legame di gruppo e' correttamente dichiarato, ma va valutato l'effetto sul perimetro commerciale: A & A Chocolaterie (22,1 M€) e Pralinart (18,4 M€) sono entrambe controllate al 100% da Hamlet NV,  |
+| Belgio | Accent NV | **dichiarato** | La descrizione del legame di gruppo e' rovesciata e fuorviante. Accent non e' la 'capofila' del gruppo Asteria: dal 2018 la famiglia Declerck ha ceduto la MAGGIORANZA al fondo Waterland (prima 18 M€,  |
 | Belgio | Corné Port-Royal Chocolatier SA | **NON dichiarato** | LEGAME DI GRUPPO NON DICHIARATO. Corne Port-Royal Chocolatier SA (BE 0433.283.558, denominazione abbreviata registrale 'CPR CHOCOLATIER') e' controllata dal gruppo Neuhaus dal 2013: Neuhaus figura dir |
 | Belgio | Delafaille NV | **dichiarato** | Il legame di gruppo e' dichiarato ma la conclusione tratta nel campo ('resta pero' PMI belga autonoma con obblighi EUDR propri') e' opinabile: Maestrani Schweizer Schokoladen ha acquisito il 100% dell |
 | Belgio | Dolfin SA | **NON dichiarato** | Dato aziendale incompleto e ormai superato dagli eventi: nell'aprile 2026 Dolfin e' diventata azionista di maggioranza della Chocolaterie Galler (rilevata da un consorzio vallone insieme a Wallonie En |
@@ -283,7 +284,7 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 
 ---
 
-## 4. Casi di gravità ALTA (36)
+## 4. Casi di gravità ALTA (37)
 
 _Dato falso, azienda non contattabile, azienda cessata/fallita/acquisita, oppure fuori dal perimetro dell'Allegato I EUDR._
 
@@ -508,7 +509,15 @@ Assetto proprietario dichiarato errato: il campo indica ancora 'Soci: PALI Group
 **Correzione proposta:** Controllata al 100% di Vitelco B.V. (PALI Group), 's-Hertogenbosch
 
 
-### Belgio (9)
+### Belgio (10)
+
+#### Accent NV — campo `dimensione`
+
+La descrizione del legame di gruppo e' rovesciata e fuorviante. Accent non e' la 'capofila' del gruppo Asteria: dal 2018 la famiglia Declerck ha ceduto la MAGGIORANZA al fondo Waterland (prima 18 M€, poi 52 M€ di capitale fresco) e Accent e' oggi una societa' operativa dentro The Asteria Group, che con 17 acquisizioni in tre anni ha raggiunto un fatturato consolidato di 492 M€. Le decisioni di compliance EUDR si prendono a livello di gruppo, non a Gullegem: il record non e' un lead autonomo.
+
+**Evidenza:** derijkstebelgen.be 'Asteria wil tegen 2030 met Waterland Europees leider worden': 'In 2018 haalde de West-Vlaamse familie Declerck durfkapitalist Waterland binnen als nieuwe meerderheidsaandeelhouder in hun bedrijf Accent'; 'De eerste geconsolideerde jaarrekening van The Asteria Group toont een omzet van 492 miljoen euro'
+
+**Correzione proposta:** — nessun valore certo: rilievo lasciato aperto
 
 #### Corné Port-Royal Chocolatier SA — campo `dimensione`
 
@@ -596,7 +605,7 @@ Nessuna e-mail pubblica reperibile (campo 'n.d.') e nessun sito web aziendale: i
 
 ---
 
-## 5. Casi di gravità MEDIA (154)
+## 5. Casi di gravità MEDIA (165)
 
 _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente errato._
 
@@ -685,16 +694,22 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Gärsnäs Aktiebolag | dimensione | Lead di dubbia validità (non errore di dato): controllata di Bordet i Stockholm Aktiebolag, legame già dichiarato correttamente. Esiste inoltre notizia stampa di cambio di proprietà ('Gärsnäs AB får ny ägare') di cui andrebbe verificata la data. Dati | allabolag.se (556044-4746): «moderbolaget är Bordet i Stockholm Aktiebolag»; «37 anställda, resultat 583 KSEK, omsättning 80 711 KSEK (2023)»; https:/ |  |
 | Horreds Möbel Aktiebolag | dimensione | Dato 2022 NON aggiornabile con certezza e anzi CONTRADDETTO. allabolag.se riporta oggi per Horreds Möbel AB (556365-1974) 45 dipendenti (contro i 50 del 2022) e un intervallo di fatturato 50.000-99.999 tkr, cioè 50-99,9 MSEK ≈ 4,4-8,8 M€: sarebbe una | https://www.allabolag.se/foretag/horreds-m%C3%B6bel-aktiebolag/horred/butiksinredningar-butiksutrustningar/2K0GDC6I5YDBD - '45 anställda ... omsättnin |  |
 
-### Olanda (30)
+### Olanda (36)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
 | Arco Meubelfabriek B.V. | referente | Referente da riconfermare: le fonti pubbliche indicano Jorre van Ast alla guida dell'azienda familiare dal 2011 come creative director, affiancato dal managing director Jan Tichelaar. 'F. van Ast' risulta solo dal dato Company.info (algemeen directeu | https://www.vno-ncw.nl/forum/meubelfabriek-arco-120-jaar-vallen-opstaan-en-weer-doorgaan - frammento: 'In 2011 kwam het familiebedrijf onder leiding v |  |
+| Ascot Amsterdam B.V. | referente | Referente e ruolo assenti: risulta pubblicamente Merijn Bruinse come Managing Director di Ascot Amsterdam B.V. | https://rocketreach.co/merijn-bruinse-email_50707800 - 'Merijn Bruinse ... Ascot Amsterdam BV Managing Director' | Merijn Bruinse - Managing Director (da riconfermare su fonte KVK) |
+| Ascot Amsterdam B.V. | dimensione | Dipendenza estera dichiarata ma sostanziale: Ascot Amsterdam e l'ufficio vendite della Cocoa Abrabopa Association (cooperativa ghanese). La decisione di compliance EUDR e il potere d'acquisto stanno in Ghana, non ad Amsterdam: lead da riqualificare. | https://ascot-amsterdam.com/sales-office/ - 'Ascot Amsterdam \| Sales Office Cocoa Abrabopa Association Ghana' |  |
 | BeBo Parket B.V. | dimensione | Assetto proprietario incompleto: dal 2022 l'azienda e' partecipata dall'investitore Nobel Capital Partners insieme al management di seconda generazione. La partecipazione di private equity non e' dichiarata nel campo (solo il legame con BeBo Groep B. | https://www.vloerenbusiness.nl/vloerenspecialist-bebo-overgenomen-door-tweede-generatie/ - frammento: 'samen met investeerder Nobel Capital Partners' |  |
 | BeBo Parket B.V. | dimensione | Il fatturato di ca. 20 M EUR e' datato 2024 nel record, ma il dato di 20 milioni compare nell'articolo sul passaggio generazionale del 2022 (riferito all'esercizio precedente). Anno del dato DA CONFERMARE. | https://www.vloerenbusiness.nl/vloerenspecialist-bebo-overgenomen-door-tweede-generatie/ - frammento: 'Vorig jaar had Bebo Parket een omzet van 20 mil |  |
 | BeBo Parket B.V. | linkedin | Il link LinkedIn e' il profilo personale di Frans Bolier (nl.linkedin.com/in/frans-bolier-b64b394a), non la pagina aziendale di BeBo Parket. Trattandosi di un ex titolare uscito nel 2022, il link non e' utilizzabile. | https://nl.linkedin.com/in/frans-bolier-b64b394a - titolo: 'Frans Bolier - directeur mede-eigenaar beboparket BV' |  |
 | Beijleveld Houtimport B.V. | referente | Referente e ruolo assenti: il direttore statutario e' la persona giuridica Beyleveld Groep B.V. e nelle fonti aperte non emerge alcun nome fisico. Senza referente il lead non e' azionabile. DA CONFERMARE. | https://www.transfirm.nl/nl/organisatie/24136531-000016457986-beijleveld-houtimport-b.v. e https://drimble.nl/bedrijf/rotterdam/16457986/beijleveld-ho |  |
 | Bruns B.V. | email | Il campo email riporta 'n.d.' ma esiste una casella nominativa pubblica del direttore: jan.burgmans@bruns.nl. Il record e' quindi ingiustificatamente privo di recapito operativo. | http://bergeijk.gevabiz.nl/company/bruns-bv-bergeijk.html - frammento: 'Managing director Jan Burgmans, e-mail: jan.burgmans@bruns.nl' | jan.burgmans@bruns.nl |
+| CocoaSupply B.V. | dimensione | Nessun dato dimensionale verificabile: fatturato, dipendenti e numero KVK restano non reperiti anche dopo ricerca mirata. Il record non permette di collocare l'azienda nella forbice 5-40 M€. DA CONFERMARE. | https://cocoasupply.eu/pages/contact-us - la pagina contatti pubblica indirizzo (van Nelleweg 1, unit 1.H8A, 3044 BC Rotterdam), telefono +31 10 20057 |  |
+| CocoaSupply B.V. | sito | Rischio di confusione con omonima estera: esiste cocoasupply.com (Cocoa Supply, gruppo con base in Ecuador/USA) accanto al cocoasupply.eu della B.V. olandese. Il dominio .eu usato nel record e quello corretto, ma la relazione fra le due entita va chi | https://cocoasupply.com/about-us/ - 'Empowering Direct Trade: CocoaSupply's Commitment...' (sito distinto da https://cocoasupply.eu/) |  |
+| Daarnhouwer & Co B.V. | email | Email indicata come 'n.d.' mentre sono pubblicate caselle attive: cocoa@daarnhouwer.nl (reparto cacao) e caselle nominative @daarnhouwer.nl. Nota: le e-mail sono sul dominio .nl mentre il sito e .com. | https://daarnhouwer.com/cocoa/ - 'cocoa@daarnhouwer.nl'; contatto alternativo 'W.VANGINKEL@DAARNHOUWER.NL' | cocoa@daarnhouwer.nl |
+| Daarnhouwer & Co B.V. | referente | Referente e ruolo assenti. Il sito pubblica una pagina 'Meet our team' ma nessuna fonte consultata identifica il directeur statutario. DA CONFERMARE. | https://daarnhouwer.com/cocoa-stories/meet-our-team/ - pagina team pubblicata, nessun ruolo di directeur esplicitato nei frammenti |  |
 | De Leeuw Huidenhandel N.V. | referente | Referente e ruolo assenti. Il direttore statutario iscritto al KVK e' una persona giuridica (LHST B.V., algemeen directeur dal 2022): manca un nome fisico per il contatto commerciale. Nei frammenti pubblici compare solo Christian Hossu (chossu@deleeu | https://companyinfo.nl/organisatieprofiel/groothandel-in-huiden-en-vellen/de-leeuw-huidenhandel-n-v-winterswijk-08011164-000017531705 - frammento: 'LH |  |
 | GWW Houtimport B.V. | dimensione | Controllata di gruppo: dal 01/01/2026 GWW Houtimport, GWW Agency e Van den Berg Hardhout confluiscono nella holding Van den Berg Houtgroep. Il legame e' gia' dichiarato correttamente nel campo, ma la compliance EUDR si decidera' a livello di capogrup | https://www.houtwereld.nl/nieuws/van-den-berg-en-gww-houtimport-gaan-samen/ - frammento: 'GWW Houtimport, GWW Agency en Van den Berg Hardhout uit Lopi |  |
 | GWW Houtimport B.V. | dimensione | Il campo cita 'Secondo direttore citato: John Hoogendoorn': non trova riscontro. Il comunicato di riorganizzazione indica Arjan de Jong come algemeen directeur (confermato) e Bart van Meuwen come commercieel directeur; Albert Oudenaarden passa agli a | https://www.houtwereld.nl/nieuws/van-den-berg-en-gww-houtimport-gaan-samen/ - frammento: 'Arjan de Jong is benoemd tot algemeen directeur en Bart van  | Bart van Meuwen - commercieel directeur |
@@ -720,7 +735,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Van den Berg Hardhout B.V. | email | Incoerenza di dominio: l'email e su .nl (info@vandenberghardhout.nl) mentre il sito ufficiale e le e-mail nominative del personale sono sul dominio .com (vandenberghardhout.com). Verificare quale dominio di posta sia realmente attivo. | https://rocketreach.co/albert-oudenaarden-email_99038923 - 'a******@vandenberghardhout.com'; https://www.vandenberghardhout.com/en/contact/ | info@vandenberghardhout.com (da confermare) |
 | Van den Berg Hardhout B.V. | dimensione | Legame di gruppo dichiarato ma imminente: dal 01/01/2026 la societa e nella holding Van den Berg Houtgroep insieme a GWW Houtimport e GWW Agency. Con 6 dipendenti confermati e fatturato non pubblicato, l'azienda e sotto la forbice 5-40 M€ e la compli | https://rocketreach.co/van-den-berg-hardhout-bv-profile_b40aa59bff9a461e - 'Van den Berg Hardhout BV employs 6 people and is based in Lopik, Utrecht' |  |
 
-### Belgio (50)
+### Belgio (55)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -728,6 +743,8 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | A & A Chocolaterie NV | sito | Il sito indicato (hamlet.be) e' il dominio della capogruppo/distributore Hamlet NV, non un dominio proprio di A & A Chocolaterie NV. Stesso valore assegnato anche a Pralinart NV: i due record condividono sito, LinkedIn ed email ('n.d.'), quindi nessu | https://www.hamlet.be/pagina/over-hamlet/productiesites-onze-merken-kerncijfers/ — le due societa' vi compaiono come siti produttivi del gruppo Hamlet |  |
 | A & A Chocolaterie NV | referente | Referente e ruolo vuoti ed email 'n.d.': il lead non e' contattabile in modo diretto. L'unico nominativo emerso dalle fonti pubbliche e' Jeroen Van Overloop, indicato come COO di A&A Chocolaterie & Pralin'Art — ruolo operativo, non il titolo statutar | Frammento di ricerca: "Jeroen Van Overloop is the COO of A&A Chocolaterie & Pralin'Art" (https://be.linkedin.com/company/a&a-chocolaterie-pralin'art) |  |
 | A & A Chocolaterie NV | dimensione | Il legame di gruppo e' correttamente dichiarato, ma va valutato l'effetto sul perimetro commerciale: A & A Chocolaterie (22,1 M€) e Pralinart (18,4 M€) sono entrambe controllate al 100% da Hamlet NV, quindi la decisione di compliance EUDR si prende v | https://www.hamlet.be/pagina/over-hamlet/productiesites-onze-merken-kerncijfers/ ; companyweb 0892388320 (22.087.972 €, 35,4 FTE, deposito 22-10-2025) |  |
+| Accent NV | referente | Ives Declerck e' il CEO della capogruppo The Asteria Group, non l'amministratore della sola Accent NV: il mandato esclude di usare l'amministratore di capogruppo come referente della controllata. Va individuato il responsabile del sito di Gullegem. | asteriagroup.eu/asteria-group-interview-with-ives-declerck/ 'The Asteria Group: Interview with CEO Ives Declerck'; linkedin.com/in/ives-declerck-55b38 |  |
+| Accent NV | dimensione | Il fatturato di 33.126.981 € attribuito ad Accent NV e' da riverificare: la crescita del gruppo e' stata rapidissima (da 20 M€ a ~500 M€ in poco piu' di sei anni) e la stampa cita 170 M€ per Asteria gia' prima delle ultime acquisizioni. Il perimetro  | made-in.be 'Asteria groeit aan hysterisch tempo'; derijkstebelgen.be: 'CEO Ives Declerck bouwde de verpakkingsgroep in iets meer dan zes jaar van 20 m |  |
 | Belvas SA | referente | Il referente indicato (Thierry Noesen, fondatore) risulta tuttora amministratore, ma le fonti recenti indicano come CEO operativo Jean-David Couderc. Il vertice esecutivo attuale va riconfermato; inoltre la forma giuridica di Belvas compare in piu' f | Frammento di ricerca: "Thierry Noesens serves as the director of Belvas, with Jean-David Couderc as CEO"; https://hainaut-terredegouts.be/producteur/b |  |
 | Bruyerre Chocolates SA | referente | Referente e ruolo vuoti. Le fonti pubbliche indicano Marc Delsemme come Administrateur Delegue di Bruyerre Chocolates (con Olivier de Macar, coacquirente della cioccolateria e cofondatore di Bruyerre Chocolates SA). Titolo coerente con una SA vallona | https://rocketreach.co/marc-delsemme-email_123029407 ("Marc Delsemme ... Bruyerre Chocolates Administrateur Delegue"); https://bruyerre.eu/en/history/ | referente: Marc Delsemme — ruolo: Administrateur delegue (DA CONFERMARE su KBO/NBB) |
 | Bulo NV | referente | Referente probabilmente non aggiornato. Dirk Busschop risulta CEO in fonti risalenti (2009); l'azienda e' oggi guidata dalla terza generazione, Carlo e Louis Busschop, con Carlo Busschop indicato come Managing Director / CEO in fonti recenti. Da rico | https://www.bulo.com/third_generation/ e https://rocketreach.co/carlo-busschop-email_93406361 - frammento: "Carlo Busschop, based in Mechelen, BE, is  | Carlo Busschop — gedelegeerd bestuurder / Managing Director (DA CONFERMARE) |
@@ -771,6 +788,9 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Silco NV | dimensione | Discordanza 4,8 vs 8,4 M€ NON risolta: le due banche dati continuano a riportare cifre diverse per lo stesso ultimo bilancio depositato (14-06-2024). Trendstop: EUR 8.358.215 (23a nel settore 'koffie en thee'); Companyweb/Fincheck: EUR 4.843.986. Sen | https://trendstop.knack.be/nl/detail/715792692/silco.aspx - 'omzet van 8.358.215 euro, 23e in de sector Koffie en thee'; https://www.companyweb.be/en/ |  |
 | Tannerie Masure SA | email | Email 'n.d.'. Il sito masure.be ha una pagina contatti attiva ma l'indirizzo non e' verificabile dai frammenti. DA CONFERMARE. | https://www.masure.be/contact (pagina contatti esistente; indirizzo e-mail non presente nei frammenti) |  |
 | VC Wood Zottegem NV | referente | Il record afferma che 'il nome del gestore non e' pubblicato in fonti verificabili': non e' vero. I zaakvoerders sono i fratelli Van Cauwenberge (terza generazione): Thomas, Tim e Bart Van Cauwenberge. | managermagazines.be 'Vc Wood Zottegem — Eenvoudig veelzijdig': 'Thomas Van Cauwenberge is een van de zaakvoerders, samen met zijn broers Tim en Bart' | Thomas Van Cauwenberge (con i fratelli Tim e Bart) — zaakvoerder/bestuurder |
+| Van De Wiele Rubber NV | filiera | Perimetro EUDR dubbio. L'azienda si presenta come specialista di 'rubber and plastic extrusion and injection molding' e il suo parco macchine comprende la co-estrusione di kunststof (materie plastiche): non esiste evidenza pubblica che lavori gomma N | rubber-groothandel.be/machinepark: 'kunststof co-extrusie \| matrijzenmakerij \| Van De Wiele Rubber \| Kluisbergen'; vandewiele-gummi.de/rubber.html: |  |
+| Van De Wiele Rubber NV | referente | Referente e ruolo assenti: il record non e' utilizzabile per un contatto commerciale nominale. Le ricerche su fonti pubbliche (trendstop, companyweb, jaarrekening.be, LinkedIn aziendale) non restituiscono il nome del gedelegeerd bestuurder della NV.  | Ricerche 'Van De Wiele Rubber bestuurder/directeur' su trendstop.knack.be/nl/detail/405713386, companyweb.be/en/0405713386/van-de-wiele-rubber e be.li |  |
+| Van De Wiele Rubber NV | dimensione | Il campo non qualifica la societa' rispetto alla forbice target 5-40 M€. Con 28,4 FTE e un margine lordo di 3.331.259 € (22a nel settore 'rubber en banden'), il fatturato — non pubblicato in bilancio (schema abbreviato, ultimo deposito 03-03-2025) —  | companyweb.be/en/0405713386/van-de-wiele-rubber: 'the most recent financial statements were filed on 03-03-2025 ... 28.4 FTEs ... Van De Wiele Rubber  |  |
 | Vanerum Belgie NV | referente | Gert Van Erum e' il CEO della capogruppo i3-Group, non l'amministratore della sola Vanerum Belgie NV: il mandato esclude l'uso dell'amministratore di capogruppo come referente della controllata. Va individuato il responsabile della societa' belga. | trends.knack.be: 'Gert Van Erum (CEO i3 Group)'; cbinsights: 'i3-Group, formerly VANERUM Group, founded 1968, based in Diest' |  |
 | Vanerum Belgie NV | dimensione | Il legame di gruppo e' dichiarato ma incompleto: i3-Group non e' piu' interamente familiare. WorxInvest ha acquistato circa il 25% per 10 M€ e nel novembre 2023 anche il gruppo americano Steelcase ha preso una partecipazione. La compliance EUDR si de | derijkstebelgen.be 'NIEUW – WorxInvest betaalt 10 miljoen euro voor kwart van Van Erum schoolborden'; holahageland.net 'Na WorxInvest neemt ook Amerik |  |
 | Woodtex NV | dimensione | Dato di fatturato superato. Il record riporta 11.778.466 € (deposito 23-06-2025); l'ultimo bilancio depositato (01-06-2026) indica 12.131.554 € con 35 FTE. | companyweb.be/en/0413744194/woodtex: 'Woodtex recorded a total turnover of €12,131,554.00. The most recent financial statements were filed on 01-06-20 | Fatturato 12.131.554 € - 35 FTE (bilancio NBB depositato 01-06-2026) |
@@ -792,7 +812,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 
 ---
 
-## 6. Casi di gravità BASSA (85)
+## 6. Casi di gravità BASSA (88)
 
 _Refusi formali e incoerenze di stile._
 
@@ -868,13 +888,16 @@ _Refusi formali e incoerenze di stile._
 | Horreds Möbel Aktiebolag | denominazione | Società CONFERMATA ATTIVA (scheda allabolag corrente, nessuna procedura concorsuale rilevata). Va però esplicitato il legame di gruppo: la capogruppo è Horreds Holding AB (esiste anche Horreds Möbel Utvecklings AB, 559016-3324). Nel foglio si legge g | https://www.allabolag.se/5563651974/koncern e frammento allabolag: 'moderbolag är Horreds Holding AB'; https://www.allabolag.se/5590163324/horreds-mob | Indicare la capogruppo: Horreds Holding AB |
 | Tärnsjö Garveri Aktiebolag | dimensione | Numero dipendenti non allineato alla fonte: il record indica 43 dipendenti (2024), allabolag riporta 46. | allabolag.se: «Tärnsjö Garveri Aktiebolag har 46 anställda». Fatturato 51,9 MSEK 2024 (+6%) confermato. | 46 dipendenti |
 
-### Olanda (9)
+### Olanda (12)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
+| Ascot Amsterdam B.V. | dimensione | Il campo dichiara 'numero KVK non reperito': il dato e invece pubblico. KVK 55089666, P.IVA NL85156137B01. Da integrare. | https://ascot-amsterdam.com/contact/ - 'Chamber of Commerce: 55089666 - VAT number: NL 85156137B01' | KVK 55089666, P.IVA NL85156137B01 |
 | Bangma Verpakking B.V. | sito | Il sito indicato nel foglio (https://www.bangma.nl) non è il dominio istituzionale usato oggi dall'azienda, che pubblica i propri contenuti su bangmaverpakking.nl (pagina 'Historie Bangma Verpakking'). DA CONFERMARE quale dei due sia il dominio attiv | https://bangmaverpakking.nl/over-ons/historie-bangma-verpakking/ - pagina istituzionale corrente dell'azienda | https://bangmaverpakking.nl/ (DA CONFERMARE) |
 | Beijleveld Houtimport B.V. | sito | Il dominio ufficiale indicato nelle fonti di registro e' www.beyleveld.com (coerente con l'email info@beyleveld.com); beyleveldhoutimport.com risulta un secondo dominio attivo. Verificare quale sia il sito primario. | https://www.telefoonboek.nl/bedrijven/t2585787/rotterdam/beijleveld-houtimport-b.v./ - frammento: 'Email: info@beyleveld.com - Website: www.beyleveld. |  |
 | Bruns B.V. | sede | Indirizzo discordante: il record indica Riethovensedijk 20, 5571 CR Bergeijk, mentre l'anagrafica di settore riporta Stokskesweg 11, 5571 TJ Bergeijk. Il comune (Bergeijk, Noord-Brabant) e' comunque corretto. Indirizzo civico DA CONFERMARE. | http://bergeijk.gevabiz.nl/company/bruns-bv-bergeijk.html - frammento: 'Stokskesweg 11, NL-5571TJ Bergeijk' |  |
+| Daarnhouwer & Co B.V. | linkedin | URL LinkedIn malformato: contiene '&' e un punto finale (/company/daarnhouwer-&-co.), che non e uno slug LinkedIn valido. Da riscrivere con lo slug reale. | valore nel record: 'https://www.linkedin.com/company/daarnhouwer-&-co.' |  |
+| Daarnhouwer & Co B.V. | sede | Indirizzo di sede da precisare: le fonti riportano Korte Hogendijk 18, 1506 MA Zaandam (Panjiva indica anche 1511 Oostzaan). Il campo sede generico 'Zaandam / Zaanstad' e corretto ma non verificato all'indirizzo. | https://es.panjiva.com/Daarnhouwer-Co-B-V/34001367 - 'Daarnhouwer & Co B.V., Zaandam, 1511 Oostzaan, Netherlands'; indirizzo pubblicato Korte Hogendij |  |
 | Gras Wood Wide B.V. | dimensione | Anno di fondazione errato: il record indica 1921, mentre azienda e stampa di settore datano la fondazione al 1868 (sesta generazione familiare, coerente). Il 1921 corrisponde semmai a una successiva iscrizione societaria. | https://www.houtwereld.nl/bedrijven/gras-wood-wide-b-v/ e https://www.graswoodwide.com/over-ons/ - frammento: 'founded in 1868' | Fondata nel 1868 |
 | Gras Wood Wide B.V. | linkedin | Campo LinkedIn vuoto benche' esista la pagina aziendale ufficiale. | https://nl.linkedin.com/company/graswoodwide - titolo: 'Gras Wood Wide \| LinkedIn' | https://nl.linkedin.com/company/graswoodwide |
 | Houtimport Lekkerkerker B.V. | dimensione | Il campo deduce la fascia 10-20 M EUR dal volume (ca. 200.000 m3/anno) senza alcuna fonte di fatturato: la stima non e' sostenuta e va marcata come tale. Il volume in se' e' l'unico dato dichiarato con tipo e fonte. | https://www.houtimportlekkerkerker.nl/ e https://www.creditsafe.com/business-index/en-us/company/houtimport-lekkerkerker-bv-nl01698016 (nessun fattura |  |

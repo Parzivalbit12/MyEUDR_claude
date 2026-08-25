@@ -106,5 +106,86 @@
   "gravita": "media",
   "evidenza": "https://rocketreach.co/van-den-berg-hardhout-bv-profile_b40aa59bff9a461e - 'Van den Berg Hardhout BV employs 6 people and is based in Lopik, Utrecht'",
   "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Ascot Amsterdam B.V.",
+  "campo": "dimensione",
+  "problema": "Il campo dichiara 'numero KVK non reperito': il dato e invece pubblico. KVK 55089666, P.IVA NL85156137B01. Da integrare.",
+  "gravita": "bassa",
+  "evidenza": "https://ascot-amsterdam.com/contact/ - 'Chamber of Commerce: 55089666 - VAT number: NL 85156137B01'",
+  "correzione_proposta": "KVK 55089666, P.IVA NL85156137B01"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Ascot Amsterdam B.V.",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti: risulta pubblicamente Merijn Bruinse come Managing Director di Ascot Amsterdam B.V.",
+  "gravita": "media",
+  "evidenza": "https://rocketreach.co/merijn-bruinse-email_50707800 - 'Merijn Bruinse ... Ascot Amsterdam BV Managing Director'",
+  "correzione_proposta": "Merijn Bruinse - Managing Director (da riconfermare su fonte KVK)"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Ascot Amsterdam B.V.",
+  "campo": "dimensione",
+  "problema": "Dipendenza estera dichiarata ma sostanziale: Ascot Amsterdam e l'ufficio vendite della Cocoa Abrabopa Association (cooperativa ghanese). La decisione di compliance EUDR e il potere d'acquisto stanno in Ghana, non ad Amsterdam: lead da riqualificare.",
+  "gravita": "media",
+  "evidenza": "https://ascot-amsterdam.com/sales-office/ - 'Ascot Amsterdam | Sales Office Cocoa Abrabopa Association Ghana'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "CocoaSupply B.V.",
+  "campo": "dimensione",
+  "problema": "Nessun dato dimensionale verificabile: fatturato, dipendenti e numero KVK restano non reperiti anche dopo ricerca mirata. Il record non permette di collocare l'azienda nella forbice 5-40 M€. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://cocoasupply.eu/pages/contact-us - la pagina contatti pubblica indirizzo (van Nelleweg 1, unit 1.H8A, 3044 BC Rotterdam), telefono +31 10 2005788 ed e-mail, ma nessun dato societario o dimensionale",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "CocoaSupply B.V.",
+  "campo": "sito",
+  "problema": "Rischio di confusione con omonima estera: esiste cocoasupply.com (Cocoa Supply, gruppo con base in Ecuador/USA) accanto al cocoasupply.eu della B.V. olandese. Il dominio .eu usato nel record e quello corretto, ma la relazione fra le due entita va chiarita prima di attribuire il lead all'Olanda.",
+  "gravita": "media",
+  "evidenza": "https://cocoasupply.com/about-us/ - 'Empowering Direct Trade: CocoaSupply's Commitment...' (sito distinto da https://cocoasupply.eu/)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Daarnhouwer & Co B.V.",
+  "campo": "email",
+  "problema": "Email indicata come 'n.d.' mentre sono pubblicate caselle attive: cocoa@daarnhouwer.nl (reparto cacao) e caselle nominative @daarnhouwer.nl. Nota: le e-mail sono sul dominio .nl mentre il sito e .com.",
+  "gravita": "media",
+  "evidenza": "https://daarnhouwer.com/cocoa/ - 'cocoa@daarnhouwer.nl'; contatto alternativo 'W.VANGINKEL@DAARNHOUWER.NL'",
+  "correzione_proposta": "cocoa@daarnhouwer.nl"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Daarnhouwer & Co B.V.",
+  "campo": "linkedin",
+  "problema": "URL LinkedIn malformato: contiene '&' e un punto finale (/company/daarnhouwer-&-co.), che non e uno slug LinkedIn valido. Da riscrivere con lo slug reale.",
+  "gravita": "bassa",
+  "evidenza": "valore nel record: 'https://www.linkedin.com/company/daarnhouwer-&-co.'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Daarnhouwer & Co B.V.",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti. Il sito pubblica una pagina 'Meet our team' ma nessuna fonte consultata identifica il directeur statutario. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://daarnhouwer.com/cocoa-stories/meet-our-team/ - pagina team pubblicata, nessun ruolo di directeur esplicitato nei frammenti",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Daarnhouwer & Co B.V.",
+  "campo": "sede",
+  "problema": "Indirizzo di sede da precisare: le fonti riportano Korte Hogendijk 18, 1506 MA Zaandam (Panjiva indica anche 1511 Oostzaan). Il campo sede generico 'Zaandam / Zaanstad' e corretto ma non verificato all'indirizzo.",
+  "gravita": "bassa",
+  "evidenza": "https://es.panjiva.com/Daarnhouwer-Co-B-V/34001367 - 'Daarnhouwer & Co B.V., Zaandam, 1511 Oostzaan, Netherlands'; indirizzo pubblicato Korte Hogendijk 18, 1506 MA Zaandam",
+  "correzione_proposta": ""
  }
 ]
