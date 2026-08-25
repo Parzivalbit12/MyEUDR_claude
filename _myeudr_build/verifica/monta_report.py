@@ -21,15 +21,18 @@ def esc(s): return str(s or "").replace("|", "\\|").replace("\n", " ").strip()
 
 h = []
 h.append("# REPORT DI VERIFICA — MyEUDR Lead Mapping\n")
-h.append("> Controllo qualità **record per record** del censimento lead (**742 aziende, 8 fogli**), "
+from openpyxl import load_workbook as _lw
+_wb = _lw(os.path.join(os.path.dirname(os.path.dirname(HERE)), "MyEUDR_Lead_Mapping.xlsx"), read_only=True)
+NTOT = sum(sum(1 for r in _wb[sn].iter_rows(min_row=3, values_only=True) if r and r[0]) for sn in _wb.sheetnames)
+h.append(f"> Controllo qualità **record per record** del censimento lead (**{NTOT} aziende, 8 fogli**), "
          "alla ricerca di refusi, attribuzioni errate e ogni altro errore introdotto durante la "
          "raccolta. Non è una ricerca di nuove aziende.\n")
 h.append("\n## Come leggere questo report\n")
 h.append("La verifica si è svolta in due fasi, con budget e coperture diverse:\n")
 h.append("| Fase | Metodo | Copertura |")
 h.append("|---|---|---|")
-h.append("| **A — controlli deterministici** | 26 controlli automatici offline su tutti i JSON di "
-         "build e sul workbook | **100%** dei 742 record |")
+h.append(f"| **A — controlli deterministici** | 26 controlli automatici offline su tutti i JSON di "
+         f"build e sul workbook | **100%** dei {NTOT} record |")
 h.append("| **B — riscontro sul web** | agenti di verifica, blocchi di 15-20 aziende, 2-3 ricerche "
          "per record, ogni rilievo con URL o citazione | vedi §1 |")
 h.append("\nDocumenti di dettaglio:\n")

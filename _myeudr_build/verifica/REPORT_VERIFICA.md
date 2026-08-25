@@ -1,6 +1,6 @@
 # REPORT DI VERIFICA — MyEUDR Lead Mapping
 
-> Controllo qualità **record per record** del censimento lead (**742 aziende, 8 fogli**), alla ricerca di refusi, attribuzioni errate e ogni altro errore introdotto durante la raccolta. Non è una ricerca di nuove aziende.
+> Controllo qualità **record per record** del censimento lead (**740 aziende, 8 fogli**), alla ricerca di refusi, attribuzioni errate e ogni altro errore introdotto durante la raccolta. Non è una ricerca di nuove aziende.
 
 
 ## Come leggere questo report
@@ -9,7 +9,7 @@ La verifica si è svolta in due fasi, con budget e coperture diverse:
 
 | Fase | Metodo | Copertura |
 |---|---|---|
-| **A — controlli deterministici** | 26 controlli automatici offline su tutti i JSON di build e sul workbook | **100%** dei 742 record |
+| **A — controlli deterministici** | 26 controlli automatici offline su tutti i JSON di build e sul workbook | **100%** dei 740 record |
 | **B — riscontro sul web** | agenti di verifica, blocchi di 15-20 aziende, 2-3 ricerche per record, ogni rilievo con URL o citazione | vedi §1 |
 
 Documenti di dettaglio:
@@ -183,17 +183,17 @@ Tre categorie di rilievi formali sono state lasciate aperte nel report invece ch
 |---|--:|--:|--:|--:|--:|--:|
 | Italia | 95 | 1 | 0 | 4 | 19 | 20% |
 | Germania | 97 | 1 | 0 | 5 | 17 | 18% |
-| Finlandia | 84 | 1 | 0 | 4 | 17 | 20% |
+| Finlandia | 84 | 0 | 1 | 4 | 7 | 8% |
 | Danimarca | 89 | 2 | 0 | 3 | 36 | 40% |
 | Svezia | 89 | 1 | 0 | 4 | 18 | 20% |
-| Olanda | 100 | 2 | 0 | 4 | 34 | 34% |
-| Belgio | 95 | 3 | 0 | 2 | 57 | 60% |
+| Olanda | 99 | 2 | 0 | 4 | 34 | 34% |
+| Belgio | 94 | 3 | 0 | 2 | 57 | 61% |
 | Austria | 93 | 1 | 0 | 4 | 19 | 20% |
-| **TOTALE** | **742** | **12** | **0** | **30** | **217** | **29%** |
+| **TOTALE** | **740** | **11** | **1** | **30** | **207** | **28%** |
 
-_I **blocchi parziali** sono quelli il cui agente è stato interrotto dal limite di sessione: i rilievi già salvati sono validi e inclusi nel report, ma il blocco non è coperto per intero. Il salvataggio incrementale ogni 3-4 record è ciò che ha evitato di perdere quel lavoro._
+_Un blocco è contato **completo** solo se l'agente ha confermato di aver verificato tutti i record. I **blocchi parziali** sono quelli ancora in corso o interrotti dal limite di sessione: i rilievi già salvati sono validi e inclusi nel report, ma la copertura è conteggiata al ribasso (solo le aziende che compaiono fra i rilievi). Il salvataggio incrementale ogni 3-4 record è ciò che ha evitato di perdere quel lavoro._
 
-> La Fase A copre invece il **100%** dei 742 record: è un controllo offline e non dipende dal budget di ricerca.
+> La Fase A copre invece il **100%** dei 740 record: è un controllo offline e non dipende dal budget di ricerca.
 
 
 _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati aperti dalla raccolta, condotta separatamente e riportata per intero più sotto._
@@ -201,33 +201,33 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 
 ## 2. Rilievi per foglio
 
-**Totale rilievi Fase B: 346** — alta 48 · media 194 · bassa 104.
+**Totale rilievi Fase B: 351** — alta 49 · media 197 · bassa 105.
 
 | Foglio | Rilievi | alta | media | bassa | Aziende toccate |
 |---|--:|--:|--:|--:|--:|
 | Italia | 25 | 0 | 11 | 14 | 17 |
 | Germania | 29 | 1 | 20 | 8 | 17 |
-| Finlandia | 5 | 2 | 2 | 1 | 3 |
+| Finlandia | 10 | 3 | 5 | 2 | 7 |
 | Danimarca | 46 | 14 | 18 | 14 | 32 |
 | Svezia | 36 | 6 | 15 | 15 | 18 |
 | Olanda | 74 | 9 | 50 | 15 | 33 |
 | Belgio | 115 | 15 | 68 | 32 | 57 |
 | Austria | 15 | 1 | 10 | 4 | 12 |
 | _(tutti)_ | 1 | 0 | 0 | 1 | 1 |
-| **TOTALE** | **346** | **48** | **194** | **104** | **190** |
+| **TOTALE** | **351** | **49** | **197** | **105** | **194** |
 
 ### Rilievi per campo
 
 | Campo | Rilievi | di cui alta |
 |---|--:|--:|
-| dimensione | 153 | 26 |
-| referente | 80 | 9 |
+| dimensione | 156 | 26 |
+| referente | 81 | 10 |
 | denominazione | 29 | 7 |
 | email | 23 | 2 |
 | linkedin | 19 | 0 |
+| sito | 10 | 0 |
 | filiera | 10 | 4 |
 | ruolo | 10 | 0 |
-| sito | 9 | 0 |
 | sede | 8 | 0 |
 | fonte | 4 | 0 |
 | esistenza_stato | 1 | 0 |
@@ -307,7 +307,7 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 
 ---
 
-## 4. Casi di gravità ALTA (48)
+## 4. Casi di gravità ALTA (49)
 
 _Dato falso, azienda non contattabile, azienda cessata/fallita/acquisita, oppure fuori dal perimetro dell'Allegato I EUDR._
 
@@ -323,7 +323,7 @@ CONTROLLO DI GRUPPO NON DICHIARATO: dal 2016 Heitz e societa del gruppo INDUS Ho
 **Correzione proposta:** Controllata di INDUS Holding AG (gruppo quotato) dal 2016; dato dimensionale da integrare con fonte e anno
 
 
-### Finlandia (2)
+### Finlandia (3)
 
 #### Akonkosken Saha Oy — campo `email`
 
@@ -340,6 +340,14 @@ Azienda ACQUISITA: l'intero capitale è stato rilevato da Auroora Yhtiöt Oyj (s
 **Evidenza:** https://auroora.com/en/auroora-yhtiot-acquires-cwp-coloured-wood-products-a-manufacturer-of-coloured-veneer-materials/ — frammento: "Auroora Yhtiöt Oyj has acquired the entire share capital of CWP Coloured Wood Products Oy"
 
 **Correzione proposta:** Controllata di Auroora Yhtiöt Oyj (Tampere) — riqualificare il lead sulla capogruppo o scartare
+
+#### Elega Oy — campo `referente`
+
+Referente errato: Kaj Pellinen non e' il toimitusjohtaja ma il talouspaallikko (direttore amministrativo/finanziario). Il toimitusjohtaja in carica e' Pauli Niinikoski, confermato anche dopo il riassetto azionario.
+
+**Evidenza:** https://elega.fi/ajankohtaista/elegan-osakkaiksi-elegalaisia-avainhenkiloita/ e https://www.asiakastieto.fi/yritykset/fi/elega-oy/24968649/paattajat — frammento: "Pauli Niinikoski continues in his role as CEO and as a shareholder alongside other members of the entrepreneur team... Kaj Pellinen serves as the finance director (talouspaallikko)"
+
+**Correzione proposta:** Pauli Niinikoski — Toimitusjohtaja (CEO)
 
 
 ### Danimarca (14)
@@ -719,7 +727,7 @@ Nessuna e-mail pubblica reperibile (campo 'n.d.') e nessun sito web aziendale: i
 
 ---
 
-## 5. Casi di gravità MEDIA (194)
+## 5. Casi di gravità MEDIA (197)
 
 _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente errato._
 
@@ -765,12 +773,15 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Weinheimer Leder GmbH | dimensione | Struttura di gruppo non dichiarata: Weinheimer Leder GmbH e collegata a Das Lederband GmbH (Weinheim, HRB 724382), con Uwe Holubeck Geschäftsführer di entrambe; le fonti aperte non chiariscono il verso del controllo. L'azienda e inoltre nata nel 2003 | https://www.northdata.de/Das%20Lederband%20GmbH,%20Weinheim/Amtsgericht%20Mannheim%20HRB%20724382 - collegamento societario con Weinheimer Leder GmbH, |  |
 | ecopell GmbH | dimensione | Campo privo di dato dimensionale ('Umsatz/MA n.d. (dal 1992)'). Le fonti disponibili indicano una micro-impresa: totale di bilancio 2023 pari a ~900 mila EUR (-20,1% sull'anno precedente), capitale sociale 265.000 EUR. E' quindi molto al di sotto del | https://implisense.com/en/companies/ecopell-gmbh-weitnau-seltmans-DE7L5HN3YI34 - 'last published balance sheet total of Ecopell GmbH in 2023 was 900k  | Totale di bilancio ~0,9 Mio EUR (2023, Bundesanzeiger via Implisense) - micro-impresa, fuori forbice target |
 
-### Finlandia (2)
+### Finlandia (5)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
 | Aureskosken Jalostetehdas Oy | dimensione | Società appartenente a Tammisto-Yhtiöt (gruppo): il legame è già dichiarato nel campo, ma la compliance EUDR si decide a livello di capogruppo — lead da riqualificare sulla holding Tammisto (stesso CEO di Lapuan Saha). | https://www.asiakastieto.fi/yritykset/fi/aureskosken-jalostetehdas-oy/25116026/yleiskuva — frammento: "Aureskosken Jalostetehdas Oy ... kuuluu Tammist |  |
 | CWP Coloured Wood Products Oy | dimensione | Fatturato 3,4 M€ (2024, in calo da 4,6 M€ 2022 e 4,1 M€ 2023): sotto la soglia minima tollerabile di 5 M€, senza che il campo lo segnali. | https://www.asiakastieto.fi/yritykset/fi/cwp-coloured-wood-products-oy/18959252/taloustiedot — frammento: "revenue was 3.4 million euros in 2024; 4.1  | Liikevaihto 3,4 M€ (2024) — FUORI FORBICE (sotto i 5 M€) |
+| E J Hiipakka Oy | sito | Il sito ufficiale dell'azienda e' www.hiipakka.net (tutte le pagine yhteystiedot/henkilomme/tietosuojaseloste sono su quel dominio); ejh.fi risulta usato solo come dominio di posta. Il valore indicato nel campo 'sito' non e' il sito istituzionale. | https://www.hiipakka.net/kodin-kalusteet/yhteystiedot/ e https://investkurikka.fi/yrityshakemisto/e-j-hiipakka-oy/ — frammento: "Website: https://www. | https://www.hiipakka.net |
+| Esan Levykaluste Oy | dimensione | Il campo segnala 'sotto sweet spot' ma il valore (3,62 M€; 3,7 M€ e 23 dip. nel 2025) e' sotto anche la soglia minima tollerabile di 5 M€: lead fuori forbice, non solo fuori sweet spot. Manca inoltre anno e fonte del dato riportato. | https://search.vainu.com/company/esan-levykaluste-oy-taloustiedot-ja-liikevaihto/FI04807872/yritystiedot — frammento: "The company's revenue was 3.7 m | Liikevaihto 3,7 M€ / 23 dip. (2025, Vainu) — FUORI FORBICE (sotto i 5 M€) |
+| FM Timber Oy | dimensione | Il campo definisce il dato 'fascia alta, vicino al limite', ma 44 M€ e' gia' SOPRA il tetto di 40 M€ della forbice tollerabile (2025: 42,9 M€, 48 dip. — sempre fuori). Inoltre FM Timber e' capogruppo con tre stabilimenti (Pihtipudas, Pyhanta, Kiihtel | https://vainu.io/company/fm-timber-oy-taloustiedot-ja-liikevaihto/157555/yritystiedot e https://fmtimber.fi/konserni/ — frammento: "revenue was 44 MEU | Liikevaihto 42,9 M€ / 48 dip. (2025) — FUORI FORBICE (sopra i 40 M€); gruppo con 3 stabilimenti |
 
 ### Danimarca (18)
 
@@ -960,7 +971,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 
 ---
 
-## 6. Casi di gravità BASSA (104)
+## 6. Casi di gravità BASSA (105)
 
 _Refusi formali e incoerenze di stile._
 
@@ -997,11 +1008,12 @@ _Refusi formali e incoerenze di stile._
 | Paletten Meyer | denominazione | 'Paletten Meyer' e solo il nome commerciale/dominio. La ditta e iscritta come 'Josef Meyer Palettenbau Inh. Julian Meyer' (impresa individuale, non societa di capitali): la forma giuridica va esplicitata perche incide sulla figura del contraente EUDR | https://www.europages.de/JOSEF-MEYER-PALETTENBAU-INH-JULIAN-MEYER/00000005396426-001.html e https://www.wlw.de/de/firma/josef-meyer-palettenbau-inh-ju | Josef Meyer Palettenbau Inh. Julian Meyer (Paletten Meyer) |
 | RMW Wohnmöbel GmbH & Co. KG (Rietberger Möbe | referente | Geschäftsführung incompleta: oltre a Rudolf Eikenkötter risulta Geschäftsführer anche Volker Klocke (RMW Wohnmöbel Verwaltungs GmbH, HRB 6744 AG Gütersloh, socio accomandatario). | https://www.northdata.com/RMW%20Wohnm%C3%B6bel%20Verwaltungs%20GmbH,%20Rietberg/Amtsgericht%20G%C3%BCtersloh%20HRB%206744 e https://www.rmw-wohnmoebel | Rudolf Eikenkötter, Volker Klocke |
 
-### Finlandia (1)
+### Finlandia (2)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
 | Aureskosken Jalostetehdas Oy | dimensione | Fatturato riportato (15,8 M€ 2024) superato dal bilancio 2025: 18,9 M€ e 52 dipendenti. | https://vainu.io/company/aureskosken-jalostetehdas-oy-taloustiedot-ja-liikevaihto/128104/yritystiedot — frammento: "In 2025, the company had a revenue | Liikevaihto 18,9 M€ / 52 dip. (2025, Vainu/Asiakastieto) |
+| Elega Oy | dimensione | Fatturato impreciso e senza fonte/anno certo ('~8,8 M€ 2023-24'): il dato di bilancio 2024 e' 9,5 M€ con 56 dipendenti, in calo del 17,5%. | https://vainu.io/company/elega-oy-taloustiedot-ja-liikevaihto/542365/yritystiedot — frammento: "Elega Oy's revenue was 9.5 million euros in 2024 and e | Liikevaihto 9,5 M€ / 56 dip. (2024, Asiakastieto/Vainu) |
 
 ### Danimarca (14)
 

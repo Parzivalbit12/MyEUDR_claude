@@ -43,5 +43,50 @@
   "gravita": "media",
   "evidenza": "https://www.asiakastieto.fi/yritykset/fi/cwp-coloured-wood-products-oy/18959252/taloustiedot — frammento: \"revenue was 3.4 million euros in 2024; 4.1 million euros in 2023; 4.6 million euros in 2022\"",
   "correzione_proposta": "Liikevaihto 3,4 M€ (2024) — FUORI FORBICE (sotto i 5 M€)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "E J Hiipakka Oy",
+  "campo": "sito",
+  "problema": "Il sito ufficiale dell'azienda e' www.hiipakka.net (tutte le pagine yhteystiedot/henkilomme/tietosuojaseloste sono su quel dominio); ejh.fi risulta usato solo come dominio di posta. Il valore indicato nel campo 'sito' non e' il sito istituzionale.",
+  "gravita": "media",
+  "evidenza": "https://www.hiipakka.net/kodin-kalusteet/yhteystiedot/ e https://investkurikka.fi/yrityshakemisto/e-j-hiipakka-oy/ — frammento: \"Website: https://www.hiipakka.net; Veistokouluntie 2, 66300 Jurva, Kurikka; Email: info@ejh.fi\"",
+  "correzione_proposta": "https://www.hiipakka.net"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Elega Oy",
+  "campo": "referente",
+  "problema": "Referente errato: Kaj Pellinen non e' il toimitusjohtaja ma il talouspaallikko (direttore amministrativo/finanziario). Il toimitusjohtaja in carica e' Pauli Niinikoski, confermato anche dopo il riassetto azionario.",
+  "gravita": "alta",
+  "evidenza": "https://elega.fi/ajankohtaista/elegan-osakkaiksi-elegalaisia-avainhenkiloita/ e https://www.asiakastieto.fi/yritykset/fi/elega-oy/24968649/paattajat — frammento: \"Pauli Niinikoski continues in his role as CEO and as a shareholder alongside other members of the entrepreneur team... Kaj Pellinen serves as the finance director (talouspaallikko)\"",
+  "correzione_proposta": "Pauli Niinikoski — Toimitusjohtaja (CEO)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Elega Oy",
+  "campo": "dimensione",
+  "problema": "Fatturato impreciso e senza fonte/anno certo ('~8,8 M€ 2023-24'): il dato di bilancio 2024 e' 9,5 M€ con 56 dipendenti, in calo del 17,5%.",
+  "gravita": "bassa",
+  "evidenza": "https://vainu.io/company/elega-oy-taloustiedot-ja-liikevaihto/542365/yritystiedot — frammento: \"Elega Oy's revenue was 9.5 million euros in 2024 and employed 56 people. The revenue decreased by 17.5%\"",
+  "correzione_proposta": "Liikevaihto 9,5 M€ / 56 dip. (2024, Asiakastieto/Vainu)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Esan Levykaluste Oy",
+  "campo": "dimensione",
+  "problema": "Il campo segnala 'sotto sweet spot' ma il valore (3,62 M€; 3,7 M€ e 23 dip. nel 2025) e' sotto anche la soglia minima tollerabile di 5 M€: lead fuori forbice, non solo fuori sweet spot. Manca inoltre anno e fonte del dato riportato.",
+  "gravita": "media",
+  "evidenza": "https://search.vainu.com/company/esan-levykaluste-oy-taloustiedot-ja-liikevaihto/FI04807872/yritystiedot — frammento: \"The company's revenue was 3.7 million euros in 2025, and revenue increased by 5.3%... employed 23 people in 2025\"",
+  "correzione_proposta": "Liikevaihto 3,7 M€ / 23 dip. (2025, Vainu) — FUORI FORBICE (sotto i 5 M€)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "FM Timber Oy",
+  "campo": "dimensione",
+  "problema": "Il campo definisce il dato 'fascia alta, vicino al limite', ma 44 M€ e' gia' SOPRA il tetto di 40 M€ della forbice tollerabile (2025: 42,9 M€, 48 dip. — sempre fuori). Inoltre FM Timber e' capogruppo con tre stabilimenti (Pihtipudas, Pyhanta, Kiihtelysvaara), quindi il dato e' di gruppo.",
+  "gravita": "media",
+  "evidenza": "https://vainu.io/company/fm-timber-oy-taloustiedot-ja-liikevaihto/157555/yritystiedot e https://fmtimber.fi/konserni/ — frammento: \"revenue was 44 MEUR in 2024 and it employed 49 people... 42.9 million euros in 2025... mechanical wood processing at three locations: Pihtipudas, Pyhanta, Kiihtelysvaara\"",
+  "correzione_proposta": "Liikevaihto 42,9 M€ / 48 dip. (2025) — FUORI FORBICE (sopra i 40 M€); gruppo con 3 stabilimenti"
  }
 ]

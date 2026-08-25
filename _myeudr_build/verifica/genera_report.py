@@ -5,7 +5,18 @@ from collections import Counter, defaultdict
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SHEETS = ["Italia","Germania","Finlandia","Danimarca","Svezia","Olanda","Belgio","Austria"]
-ATTESI = dict(zip(SHEETS, [95,97,84,89,89,100,95,93]))
+def _conta_fogli():
+    """conta le righe reali del workbook: dopo le rimozioni il totale non e' piu' 742"""
+    try:
+        from openpyxl import load_workbook
+        wb = load_workbook(os.path.join(os.path.dirname(os.path.dirname(HERE)),
+                                        "MyEUDR_Lead_Mapping.xlsx"), read_only=True)
+        return {sn: sum(1 for r in wb[sn].iter_rows(min_row=3, values_only=True) if r and r[0])
+                for sn in SHEETS}
+    except Exception:
+        return dict(zip(SHEETS, [95,97,84,89,89,100,95,93]))
+ATTESI = _conta_fogli()
+NTOT = sum(ATTESI.values())
 GRAV = ["alta","media","bassa"]
 SKIP = ("_records", "correzioni_")
 
@@ -42,10 +53,17 @@ def blocchi_coperti(files):
         tot[sh].append((bn, n))
         if bn + ".json" not in files: continue
         st = stato.get(bn, {})
-        if st.get("stato") == "parziale":
-            parz[sh].append((bn, int(st.get("verificati") or 0)))
-        else:
+        if st.get("stato") == "completo":
             fatti[sh].append((bn, int(st.get("verificati") or n)))
+        else:
+            # blocco non confermato completo (in corso o interrotto): conto come copertura
+            # solo le aziende che compaiono davvero fra i rilievi — è un minimo garantito
+            try:
+                d = json.load(open(os.path.join(HERE, bn + ".json"), encoding="utf-8"))
+                v = len({str(o.get("denominazione", "")) for o in d if isinstance(o, dict)})
+            except Exception:
+                v = int(st.get("verificati") or 0)
+            parz[sh].append((bn, v))
     return tot, fatti, parz
 
 def main():
@@ -57,7 +75,7 @@ def main():
 
     o = []
     o.append("# REPORT DI VERIFICA — MyEUDR Lead Mapping\n")
-    o.append("Controllo qualità record per record del censimento lead (**742 aziende, 8 fogli**). "
+    o.append(f"Controllo qualità record per record del censimento lead (**{NTOT} aziende, 8 fogli**). "
              "Non è una raccolta di nuove aziende: è la verifica del lavoro esistente.\n")
     o.append("La verifica si è svolta in due fasi:\n")
     o.append("- **Fase A — controlli deterministici**, offline, su tutti i JSON di build e sul "
@@ -81,13 +99,14 @@ def main():
                  f"{nrec} | {100*nrec/ATTESI[sn]:.0f}% |")
     nfa = sum(len(v) for v in fatti_b.values()); npa = sum(len(v) for v in parz_b.values())
     nto = sum(len(v) for v in tot_b.values())
-    o.append(f"| **TOTALE** | **742** | **{nfa}** | **{npa}** | **{nto-nfa-npa}** | "
-             f"**{tot_ver}** | **{100*tot_ver/742:.0f}%** |")
-    o.append("\n_I **blocchi parziali** sono quelli il cui agente è stato interrotto dal limite di "
-             "sessione: i rilievi già salvati sono validi e inclusi nel report, ma il blocco non è "
-             "coperto per intero. Il salvataggio incrementale ogni 3-4 record è ciò che ha evitato "
-             "di perdere quel lavoro._")
-    o.append("\n> La Fase A copre invece il **100%** dei 742 record: è un controllo offline "
+    o.append(f"| **TOTALE** | **{NTOT}** | **{nfa}** | **{npa}** | **{nto-nfa-npa}** | "
+             f"**{tot_ver}** | **{100*tot_ver/NTOT:.0f}%** |")
+    o.append("\n_Un blocco è contato **completo** solo se l'agente ha confermato di aver verificato "
+             "tutti i record. I **blocchi parziali** sono quelli ancora in corso o interrotti dal "
+             "limite di sessione: i rilievi già salvati sono validi e inclusi nel report, ma la "
+             "copertura è conteggiata al ribasso (solo le aziende che compaiono fra i rilievi). "
+             "Il salvataggio incrementale ogni 3-4 record è ciò che ha evitato di perdere quel lavoro._")
+    o.append(f"\n> La Fase A copre invece il **100%** dei {NTOT} record: è un controllo offline "
              "e non dipende dal budget di ricerca.\n")
     o.append("\n_A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati aperti "
              "dalla raccolta, condotta separatamente e riportata per intero più sotto._\n")
@@ -220,7 +239,7 @@ def main():
 
     md = "\n".join(o) + "\n"
     open(os.path.join(HERE, "_corpo_report.md"), "w", encoding="utf-8").write(md)
-    print(f"corpo report: {len(R)} rilievi, {len(files)} blocchi, copertura {tot_ver}/742")
+    print(f"corpo report: {len(R)} rilievi, {len(files)} blocchi, copertura {tot_ver}/{NTOT}")
     return R, files, tot_ver
 
 if __name__ == "__main__":
