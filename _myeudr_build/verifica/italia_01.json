@@ -106,5 +106,41 @@
   "gravita": "bassa",
   "evidenza": "Risultato di ricerca: 'CONTATTI — Conceria Italia' → https://www.conceriaitalia.com/nuova-pagina",
   "correzione_proposta": "https://www.conceriaitalia.com/nuova-pagina"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Conceria La Veneta S.p.A.",
+  "campo": "dimensione",
+  "problema": "Dato obsoleto: 12,9M€ è il fatturato 2024; nel 2025 i ricavi sono scesi a 8,68M€ (-32,7%), quindi al limite inferiore della forbice target. Calo rilevante da segnalare al commerciale.",
+  "gravita": "media",
+  "evidenza": "https://registroaziende.it/azienda/conceria-la-veneta-spa-arzignano — 'ricavi 8.681.980 € (2025); 2024: 12,9 mln; 2022: 19.397.025 €; 63 dipendenti'",
+  "correzione_proposta": "≈8,7M€ (fatturato 2025, Registro Imprese) — era 12,9M€ nel 2024"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Conceria Lomar (Lomar Lavorazione Pelli S.r.l.)",
+  "campo": "email",
+  "problema": "L'indirizzo 'lomar@concerialomar.it' non compare nelle fonti pubbliche reperite; le schede aziendali e la certificazione LWG riportano 'info@concerialomar.it'. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://www.reportaziende.it/lomar_lavorazione_pelli_srl_vi_02002810246 — 'Email: info@concerialomar.it; Tel +39 0444625050; PEC lomar@pec-italia.it'",
+  "correzione_proposta": "info@concerialomar.it"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Conceria Lomar (Lomar Lavorazione Pelli S.r.l.)",
+  "campo": "dimensione",
+  "problema": "Valore corretto (6,2M€, bilancio 2024) ma manca l'anno di riferimento nel campo; è comunque il record più vicino al limite inferiore della forbice 5-40M€.",
+  "gravita": "bassa",
+  "evidenza": "https://www.ufficiocamerale.it/1740/lomar-lavorazione-pelli-srl — 'ultimo bilancio depositato 2024: ricavi 6.199.639 €; 20-49 dipendenti'",
+  "correzione_proposta": "≈6,2M€ (fatturato 2024, Registro Imprese)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Conceria Nuova Impala S.r.l.",
+  "campo": "dimensione",
+  "problema": "Valore confermato (22,25M€, bilancio 2024, in calo del 5,39%) ma manca l'anno nel campo.",
+  "gravita": "bassa",
+  "evidenza": "https://www.reportaziende.it/conceria_nuova_impala_srl_pi — 'ultimo bilancio 2024: ricavi 22.248.620 €, -5,39% sul precedente'",
+  "correzione_proposta": "≈22,2M€ (fatturato 2024, Registro Imprese)"
  }
 ]

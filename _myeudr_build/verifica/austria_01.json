@@ -43,5 +43,41 @@
   "gravita": "media",
   "evidenza": "https://www.braunlockenhaus.at/en/imprint - frammento: \"Geschäftsführer Jochen Joachims und Gesellschafter SCHNEEWEISS AG\"; \"Braun Lockenhaus is part of the Schneeweiß Interior corporate group with headquarters in Kippenheim, Baden-Württemberg... since 2006\"",
   "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Breitschopf Gesellschaft mbH & Co KG",
+  "campo": "referente",
+  "problema": "Il referente indicato (Martin Breitschopf) fa parte del 'Fuehrungstrio' familiare dal 2021 con delega a vendite/finanza/strategia, ma il Geschaeftsfuehrer iscritto dal 2001 risulta Dipl.-Ing. Johann Breitschopf. Il ruolo formale di Martin come GF non e' riconfermato: DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://www.meinbezirk.at/steyr-steyr-land/c-wirtschaft/breitschopf-kuechen-setzt-auf-fuehrungstrio_a6834711 - frammento: \"Johann Breitschopf (Dipl.-Ing.) has been serving as Geschaeftsfuehrer since 2001. Additionally, his sons Martin and Johannes are now joining the management, with Martin (age 29) joining in 2021\"",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "HOLZBAU MAIER GmbH & Co KG",
+  "campo": "dimensione",
+  "problema": "Il fatturato di ca. 35,0 Mio EUR e' una stima non ufficiale di die-deutsche-wirtschaft.de e non riporta l'anno di riferimento, come richiesto per i dati dimensionali. Confermati invece FN 525501x/LG Salzburg e la co-GF Hildegund Maier.",
+  "gravita": "bassa",
+  "evidenza": "https://www.maier.at/de/impressum.html - frammento: \"Geschaeftsfuehrer: Hildegund Maier (representing since 07.04.2005) and Dipl.Ing Birgit Maier (07.04.2005); Firmenbuchnummer FN 525501x, Landesgericht Salzburg\"",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Hrachowina Fenster & Türen GmbH",
+  "campo": "dimensione",
+  "problema": "Fatturato ca. 25 Mio EUR dichiarato come stima non ufficiale (die-deutsche-wirtschaft.de) e senza anno. Da segnalare inoltre il precedente di insolvenza 2019 della controllata produttiva H&W Holzfensterproduktions-GmbH (JV con Weinzetl), poi rilevata al 100% da Hrachowina: la capogruppo non e' insolvente, ma il dato dimensionale resta non verificabile su fonte ufficiale.",
+  "gravita": "media",
+  "evidenza": "https://www.holzkurier.com/holzprodukte/2019/06/hrachowina.html - frammento: \"H&W Holzfensterproduktions-GmbH had to file for insolvency in late February 2019... Hrachowina took over the operation entirely at the end of June 2019, which secured 45 jobs\"",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Holzindustrie Schafler GmbH & Co KG",
+  "campo": "ruolo",
+  "problema": "Il ruolo riportato ('Gewerberechtlicher Geschaeftsfuehrer') sottostima la posizione: l'Impressum aziendale indica Bernd (Christoph) Schafler come Geschaeftsfuehrer e proprietario, quarta generazione familiare.",
+  "gravita": "bassa",
+  "evidenza": "https://www.schafler-holz.at/impressum - frammento: \"Geschaeftsfuehrer: Bernd Schafler... current managing director and owner Bernd Christoph Schafler\"",
+  "correzione_proposta": "Geschäftsführer / Inhaber"
  }
 ]

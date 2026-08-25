@@ -138,8 +138,8 @@ Il foglio **Finlandia** conteneva varianti storiche della tassonomia (`Legno/Com
 | Svezia | 89 | 1/5 | 18 | 20% |
 | Olanda | 100 | 1/6 | 17 | 17% |
 | Belgio | 95 | 1/5 | 19 | 20% |
-| Austria | 93 | 0/5 | 0 | 0% |
-| **TOTALE** | **742** | **6/42** | **109** | **15%** |
+| Austria | 93 | 1/5 | 19 | 20% |
+| **TOTALE** | **742** | **7/42** | **128** | **17%** |
 
 > La Fase A copre invece il **100%** dei 742 record: è un controllo offline e non dipende dal budget di ricerca.
 
@@ -149,39 +149,39 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 
 ## 2. Rilievi per foglio
 
-**Totale rilievi Fase B: 148** — alta 28 · media 73 · bassa 47.
+**Totale rilievi Fase B: 172** — alta 30 · media 87 · bassa 55.
 
 | Foglio | Rilievi | alta | media | bassa | Aziende toccate |
 |---|--:|--:|--:|--:|--:|
-| Italia | 8 | 0 | 6 | 2 | 6 |
+| Italia | 16 | 0 | 9 | 7 | 12 |
 | Germania | 0 | 0 | 0 | 0 | 0 |
 | Finlandia | 0 | 0 | 0 | 0 | 0 |
 | Danimarca | 46 | 14 | 18 | 14 | 32 |
 | Svezia | 36 | 6 | 15 | 15 | 18 |
-| Olanda | 25 | 4 | 16 | 5 | 12 |
+| Olanda | 32 | 5 | 21 | 6 | 16 |
 | Belgio | 32 | 4 | 18 | 10 | 19 |
-| Austria | 0 | 0 | 0 | 0 | 0 |
+| Austria | 9 | 1 | 6 | 2 | 8 |
 | _(tutti)_ | 1 | 0 | 0 | 1 | 1 |
-| **TOTALE** | **148** | **28** | **73** | **47** | **88** |
+| **TOTALE** | **172** | **30** | **87** | **55** | **106** |
 
 ### Rilievi per campo
 
 | Campo | Rilievi | di cui alta |
 |---|--:|--:|
-| dimensione | 62 | 13 |
-| referente | 34 | 8 |
-| denominazione | 19 | 6 |
-| email | 10 | 0 |
+| dimensione | 75 | 14 |
+| referente | 38 | 8 |
+| denominazione | 20 | 6 |
+| email | 13 | 1 |
 | linkedin | 8 | 0 |
-| sito | 5 | 0 |
+| sito | 6 | 0 |
+| ruolo | 4 | 0 |
 | filiera | 3 | 1 |
-| ruolo | 3 | 0 |
+| fonte | 3 | 0 |
 | sede | 2 | 0 |
-| fonte | 2 | 0 |
 
 ---
 
-## 3. Tema trasversale — legami di gruppo (46 rilievi)
+## 3. Tema trasversale — legami di gruppo (53 rilievi)
 
 È il problema **più diffuso e meno atteso** emerso dalla verifica: non era fra i 13 punti noti dell'handoff. Numerose aziende del censimento sono controllate di gruppi, spesso esteri o quotati. Per il criterio già applicato dal progetto — che aveva rimosso Lavazza Kaffee, Segafredo Zanetti Austria e Kaffee Partner Austria perché *«la compliance si decide a livello di gruppo, non nella filiale»* — sono **lead di valore dubbio**.
 
@@ -194,6 +194,10 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 | Foglio | Azienda | Stato nel foglio | Rilievo |
 |---|---|---|---|
 | (tutti) | (controllo di rientro) | — (record non risolto) | nessuna delle 7 aziende rimosse e' rientrata nei fogli. Controllo eseguito su _records.json (742 record, tutti i fogli) cercando in ogni campo, con radici tolleranti alle varianti: 'getama', 'dragsb', |
+| Austria | BRAUN LOCKENHAUS GmbH | **dichiarato** | Filiale di gruppo estero: la societa' e' controllata da SCHNEEWEISS AG / SCHNEEWEISS interior, con sede del gruppo a Kippenheim (Baden-Württemberg, DE), dal 2006. La decisione di compliance EUDR si as |
+| Austria | Holzindustrie Schafler GmbH & Co KG | **NON dichiarato** | Il ruolo riportato ('Gewerberechtlicher Geschaeftsfuehrer') sottostima la posizione: l'Impressum aziendale indica Bernd (Christoph) Schafler come Geschaeftsfuehrer e proprietario, quarta generazione f |
+| Austria | Hrachowina Fenster & Türen GmbH | **NON dichiarato** | Fatturato ca. 25 Mio EUR dichiarato come stima non ufficiale (die-deutsche-wirtschaft.de) e senza anno. Da segnalare inoltre il precedente di insolvenza 2019 della controllata produttiva H&W Holzfenst |
+| Austria | Waldviertler Werkstätten GmbH | **NON dichiarato** | Dato di fatturato datato (2016-2019) e non riconciliato: le fonti citano 31 Mio EUR di ricavi 2016 riferiti all'universo GEA e, per la controllante Heinrich Staudinger GmbH, un totale di bilancio 2024 |
 | Belgio | Belignum NV | **dichiarato** | Discordanza 16,1 vs 14,7 M€ RISOLTA a favore di 14,7 M€: due fonti indipendenti (trendstop NL e trendstop FR/Levif) riportano concordemente EUR 14.746.642 e 10,8 FTE per l'ultimo bilancio depositato i |
 | Belgio | Buzzispace NV | **dichiarato** | Il campo indica la produzione 'in Kempen' (implicitamente Belgio): le fonti aziendali collocano lo stabilimento produttivo a Bladel, nei Paesi Bassi. La sede sociale ad Anversa resta corretta, ma l'at |
 | Belgio | Sas NV (Sas Coffee) | **dichiarato** | CONFERMATO: l'azienda NON e' piu' indipendente ne' familiare. Acquisita da Miko NV (11/2021) e rivenduta il 24-05-2024 al fondo di private equity olandese Nimbus Investments; il sito di Nimbus la elen |
@@ -220,6 +224,9 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 | Olanda | Bangma Verpakking B.V. | **dichiarato** | LEAD NON VALIDO — aggravamento rispetto a quanto annotato. Non solo De Jong Verpakking ha acquisito Bangma (closing 30-07-2020), ma nel 2023 l'INTERO De Jong Packaging Group è stato acquisito da STORA |
 | Olanda | BeBo Parket B.V. | **dichiarato** | Assetto proprietario incompleto: dal 2022 l'azienda e' partecipata dall'investitore Nobel Capital Partners insieme al management di seconda generazione. La partecipazione di private equity non e' dich |
 | Olanda | GWW Houtimport B.V. | **dichiarato** | Controllata di gruppo: dal 01/01/2026 GWW Houtimport, GWW Agency e Van den Berg Hardhout confluiscono nella holding Van den Berg Houtgroep. Il legame e' gia' dichiarato correttamente nel campo, ma la  |
+| Olanda | Houtimport Reuver B.V. | **dichiarato** | Referente e ruolo assenti (algemeen directeur iscritto e' la persona giuridica Gebrs. Schoolmeesters Holding B.V.). Nelle fonti aperte compare Tim Schoolmeesters in relazione alla direzione dell'azien |
+| Olanda | Houtplex B.V. | **dichiarato** | Controllata di gruppo estero: Houtplex appartiene al gruppo Wood United, con sede a Singapore; dal febbraio 2019 le quote sia di Houtplex sia di Wood United sono di Timothy Paul, che ha rilevato la pa |
+| Olanda | L. Verhoeven's Emballagefabriek en Houth | **NON dichiarato** | Appartenenza a gruppo non dichiarata: l'azienda opera in gruppo con la consociata Zagerij Verhoeven (Harskamp) e con Kist&Co (Ridderkerk) e Harskamp Timber (Harskamp). Il campo la presenta come singol |
 | Olanda | Rompa Tanneries B.V. | **dichiarato** | Denominazione obsoleta: la societa' e' stata ridenominata VITELCO LEATHER B.V. Vitelco (gruppo PALI) ha rilevato le quote di Rompa Leather sciogliendo la joint venture ed e' oggi socio unico al 100%.  |
 | Olanda | Rompa Tanneries B.V. | **dichiarato** | Assetto proprietario dichiarato errato: il campo indica ancora 'Soci: PALI Group (Den Bosch, vitello) e Rompa Leather (Rijen)', ma la JV e' stata sciolta e Vitelco (PALI Group) e' socio unico al 100%. |
 | Olanda | Rompa Tanneries B.V. | **dichiarato** | Email e sito legati al vecchio marchio (sales@rompa-tanneries.com / www.rompa-tanneries.com). Con la ridenominazione in Vitelco Leather il dominio di riferimento del gruppo e' vitelco.nl; il vecchio s |
@@ -242,7 +249,7 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 
 ---
 
-## 4. Casi di gravità ALTA (28)
+## 4. Casi di gravità ALTA (30)
 
 _Dato falso, azienda non contattabile, azienda cessata/fallita/acquisita, oppure fuori dal perimetro dell'Allegato I EUDR._
 
@@ -413,7 +420,7 @@ Legame di gruppo NON dichiarato: il record definisce l'azienda 'la principale co
 **Correzione proposta:** Sostituire 'principale conceria indipendente attiva' con: 'controllata di Axel Bodéns Handels Aktiebolag (moderbolag)'
 
 
-### Olanda (4)
+### Olanda (5)
 
 #### Bangma Verpakking B.V. — campo `dimensione`
 
@@ -430,6 +437,14 @@ Referente obsoleto: Frans Bolier e Johan van de Beek (fondatori 2006) hanno cedu
 **Evidenza:** https://www.vloerenbusiness.nl/vloerenspecialist-bebo-overgenomen-door-tweede-generatie/ - frammento: 'Kees van de Beek en Marielle Zwolsman maakten al deel uit van het management van Bebo en blijven het bedrijf leiden na de overdracht'
 
 **Correzione proposta:** Kees van de Beek / Marielle Zwolsman - Directeur
+
+#### L. Verhoeven's Emballagefabriek en Houthandel B.V. — campo `dimensione`
+
+Appartenenza a gruppo non dichiarata: l'azienda opera in gruppo con la consociata Zagerij Verhoeven (Harskamp) e con Kist&Co (Ridderkerk) e Harskamp Timber (Harskamp). Il campo la presenta come singola azienda familiare: la struttura di gruppo incide sia sul perimetro EUDR (segheria a monte) sia sul dimensionamento.
+
+**Evidenza:** https://verhoeven-emballage.nl/en/about-us/ - frammento: 'works closely with sister company Zagerij Verhoeven in Harskamp; the group also includes Kist&Co in Ridderkerk and Harskamp Timber in Harskamp'
+
+**Correzione proposta:** Gruppo Verhoeven: Zagerij Verhoeven (Harskamp), Kist&Co (Ridderkerk), Harskamp Timber (Harskamp)
 
 #### Rompa Tanneries B.V. — campo `denominazione`
 
@@ -483,14 +498,25 @@ Societa' non indipendente: dal 2014 Tannerie Masure fa parte del Groupe Saturne 
 **Correzione proposta:** Valutare il lead a livello di capogruppo Groupe Saturne / Financiere Saturne (FR): la societa' belga non e' un centro decisionale autonomo per la compliance EUDR
 
 
+### Austria (1)
+
+#### Tschurtschenthaler Gerberei GmbH — campo `email`
+
+Nessuna e-mail pubblica reperibile (campo 'n.d.') e nessun sito web aziendale: il lead non e' contattabile per via digitale. Le fonti pubbliche (WKO, herold.at, cylex, yelp) riportano solo indirizzo e telefono.
+
+**Evidenza:** https://firmen.wko.at/tschurtschenthaler-gerberei-gmbh/k%C3%A4rnten/ - la scheda WKO riporta solo indirizzo Bach 17, 9623 St. Stefan/Gailtal e telefono 04283 20..., nessuna e-mail ne' sito
+
+**Correzione proposta:** — nessun valore certo: rilievo lasciato aperto
+
+
 ---
 
-## 5. Casi di gravità MEDIA (73)
+## 5. Casi di gravità MEDIA (87)
 
 _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente errato._
 
 
-### Italia (6)
+### Italia (9)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -500,6 +526,9 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Conceria Beschin | dimensione | Campo 'n.d.': impossibile verificare che l'azienda rientri nella forbice target 5-40M€. DA CONFERMARE con bilancio depositato. | Nessun dato di fatturato reperito nei frammenti di ricerca; scheda aziendale https://www.conceriabeschin.com/en/company/ non riporta cifre |  |
 | Conceria Daniela | denominazione | Manca la forma giuridica e il nome è ambiguo: al Registro esistono 'CONCERIA DANIELA S.R.L.' (P.IVA 03948180249) e 'CONCERIA DANIELA DI DAL MONTE GIULIANO E C. S.N.C.' (P.IVA 00601580244), entrambe ad Arzignano. Il sito conceriadaniela.com fa capo al | https://www.ufficiocamerale.it/9084/conceria-daniela-srl e https://www.ufficiocamerale.it/3712/conceria-daniela-di-dal-monte-giuliano-e-c-snc | Conceria Daniela S.r.l. |
 | Conceria Daniela | dimensione | Campo 'n.d.': impossibile verificare la forbice target 5-40M€. DA CONFERMARE. | Nessun dato di fatturato nei frammenti; scheda https://www.ufficiocamerale.it/9084/conceria-daniela-srl senza cifre nei risultati |  |
+| Conceria Emmedue | dimensione | Campo 'n.d.': il fatturato reale è ~4,2M€ (2025), quindi SOTTO la forbice target 5-40M€. Lead sottodimensionato, da declassare. | https://www.reportaziende.it/conceria_emmedue_srl_vi_00793250242 — 'fatturato 4,2 milioni di euro (2025), utile netto 231,6 mila €, +10,2% sull'anno p | ≈4,2M€ (fatturato 2025) — sotto forbice target |
+| Conceria La Veneta S.p.A. | dimensione | Dato obsoleto: 12,9M€ è il fatturato 2024; nel 2025 i ricavi sono scesi a 8,68M€ (-32,7%), quindi al limite inferiore della forbice target. Calo rilevante da segnalare al commerciale. | https://registroaziende.it/azienda/conceria-la-veneta-spa-arzignano — 'ricavi 8.681.980 € (2025); 2024: 12,9 mln; 2022: 19.397.025 €; 63 dipendenti' | ≈8,7M€ (fatturato 2025, Registro Imprese) — era 12,9M€ nel 2024 |
+| Conceria Lomar (Lomar Lavorazione Pelli S.r. | email | L'indirizzo 'lomar@concerialomar.it' non compare nelle fonti pubbliche reperite; le schede aziendali e la certificazione LWG riportano 'info@concerialomar.it'. DA CONFERMARE. | https://www.reportaziende.it/lomar_lavorazione_pelli_srl_vi_02002810246 — 'Email: info@concerialomar.it; Tel +39 0444625050; PEC lomar@pec-italia.it' | info@concerialomar.it |
 
 ### Danimarca (18)
 
@@ -544,7 +573,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Gärsnäs Aktiebolag | dimensione | Lead di dubbia validità (non errore di dato): controllata di Bordet i Stockholm Aktiebolag, legame già dichiarato correttamente. Esiste inoltre notizia stampa di cambio di proprietà ('Gärsnäs AB får ny ägare') di cui andrebbe verificata la data. Dati | allabolag.se (556044-4746): «moderbolaget är Bordet i Stockholm Aktiebolag»; «37 anställda, resultat 583 KSEK, omsättning 80 711 KSEK (2023)»; https:/ |  |
 | Horreds Möbel Aktiebolag | dimensione | Dato 2022 NON aggiornabile con certezza e anzi CONTRADDETTO. allabolag.se riporta oggi per Horreds Möbel AB (556365-1974) 45 dipendenti (contro i 50 del 2022) e un intervallo di fatturato 50.000-99.999 tkr, cioè 50-99,9 MSEK ≈ 4,4-8,8 M€: sarebbe una | https://www.allabolag.se/foretag/horreds-m%C3%B6bel-aktiebolag/horred/butiksinredningar-butiksutrustningar/2K0GDC6I5YDBD - '45 anställda ... omsättnin |  |
 
-### Olanda (16)
+### Olanda (21)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -560,6 +589,11 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Hardhouthandel Hotim B.V. | dimensione | Il campo dichiara 'n. KVK non reperito': il numero risulta invece pubblicato. Creditsafe riporta per Hotim B.V. il KvK-nummer 17051960. Da riconciliare con la denominazione esatta iscritta (Hotim B.V. / Hardhouthandel Hotim B.V.). | https://www.creditsafe.com/business-index/en-us/company/hotim-bv-nl00776206 - frammento: 'Hotim B.V. has KvK-nummer: 17051960' | KVK 17051960 (da riconciliare con la ragione sociale esatta) |
 | Hardhouthandel Hotim B.V. | referente | Referente e ruolo assenti; nelle fonti aperte consultate non emerge il nome del directeur/eigenaar. DA CONFERMARE. | https://www.hotim.nl/contact/ (pubblica solo verkoop@hotim.nl e tel. 013 514 24 44, nessun nome) |  |
 | Houthandel Jos Dennebos B.V. | dimensione | Il numero di dipendenti e' lasciato discordante (20-49 vs 2-5). La fonte aziendale scioglie il dubbio: circa 30 addetti nella produzione di pavimenti in legno a Raalte. Il record va aggiornato. | https://www.dennebosflooring.com/en/about-us/ - frammento: 'About 30 employees produce their wooden floors for various clients, both in and outside Eu | ca. 30 dipendenti (fonte dennebosflooring.com, 2025) |
+| Houthandel Jos Dennebos B.V. | referente | Referente e ruolo assenti. Il socio unico e' la persona giuridica Jos Dennebos Exploitatie B.V.; il fondatore storico e' Jos Dennebos (attivo anche in Dennebos Suriname). Nome e carica del directeur attuale DA CONFERMARE. | https://companyinfo.nl/organisatieprofiel/groothandel-in-hout-en-plaatmateriaal/houthandel-jos-dennebos-b-v-raalte-05073894-000016548884 e https://www |  |
+| Houtimport Reuver B.V. | dimensione | Anno di fondazione errato: il record indica 1987, ma l'azienda e' stata fondata il 1 aprile 1973 dai fratelli Jac e Wiel Schoolmeesters come commercio di pannelli truciolari. | https://www.houtimportreuver.nl/ - frammento: 'opgericht op 1 april 1973 door de gebroeders Jac en Wiel Schoolmeesters' | Fondata il 01/04/1973 |
+| Houtimport Reuver B.V. | referente | Referente e ruolo assenti (algemeen directeur iscritto e' la persona giuridica Gebrs. Schoolmeesters Holding B.V.). Nelle fonti aperte compare Tim Schoolmeesters in relazione alla direzione dell'azienda: nome DA CONFERMARE come directeur attuale. | https://companyinfo.nl/organisatieprofiel/groothandel-in-hout-en-plaatmateriaal/houtimport-reuver-b-v-reuver-12024480-000019946104 e https://appartme. |  |
+| Houtplex B.V. | dimensione | Controllata di gruppo estero: Houtplex appartiene al gruppo Wood United, con sede a Singapore; dal febbraio 2019 le quote sia di Houtplex sia di Wood United sono di Timothy Paul, che ha rilevato la partecipazione di Jan Kersten. Il legame di gruppo e | https://www.houtwereld.nl/nieuws/houtplex-en-wood-united-overgenomen/ - frammento: 'Timothy Paul heeft de aandelen in Houtplex (Haaksbergen) en Wood U |  |
+| Houtplex B.V. | referente | Referente e ruolo assenti. Le fonti indicano Timothy Paul come titolare della gestione quotidiana di Houtplex dopo l'uscita del precedente directeur Koen Kersten (passato a Kegro Deuren); Ruud van Oene, commercieel directeur, e' andato in pensione. D | https://www.houtwereld.nl/nieuws/houtplex-en-wood-united-overgenomen/ - frammento: 'Timothy Paul heeft de dagelijkse leiding van Houtplex overgenomen. |  |
 | Origin Bridge (Barchem) | denominazione | Forma giuridica NON risolta dopo 3 ricerche: nessuna fonte pubblica indicizzata riporta la rechtsvorm né una denominazione legale con suffisso. Restano solo KVK 70878315 e P.IVA NL001587917B24 pubblicati dall'azienda stessa. La struttura del numero I | https://originbridge.coffee/legal-information/ e https://originbridge.coffee/contact/ - 'Heidehoflaan 2B, 7244AG Barchem, The Netherlands ... CoC: 708 |  |
 | Origin Bridge (Barchem) | email | L'email del foglio (info@bridgetoorigin.com) NON è quella principale del sito ufficiale: la pagina di contatto di originbridge.coffee indica come recapito dell'entità olandese europe@originbridge.coffee, tel. +31 85 301 6984. info@bridgetoorigin.com  | https://originbridge.coffee/contact/ - 'Origin Bridge Netherlands, Heidehoflaan 2B, 7244AG Barchem ... +31 85 301 6984 ... europe@originbridge.coffee' | europe@originbridge.coffee |
 | Rompa Tanneries B.V. | email | Email e sito legati al vecchio marchio (sales@rompa-tanneries.com / www.rompa-tanneries.com). Con la ridenominazione in Vitelco Leather il dominio di riferimento del gruppo e' vitelco.nl; il vecchio sito hulshof.com rimanda ancora a 'Rompa Tanneries' | http://www.hulshof.com/ (titolo pagina: 'Rompa Tanneries') e https://www.vitelco.nl/en/about-us |  |
@@ -588,19 +622,35 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Silco NV | dimensione | Discordanza 4,8 vs 8,4 M€ NON risolta: le due banche dati continuano a riportare cifre diverse per lo stesso ultimo bilancio depositato (14-06-2024). Trendstop: EUR 8.358.215 (23a nel settore 'koffie en thee'); Companyweb/Fincheck: EUR 4.843.986. Sen | https://trendstop.knack.be/nl/detail/715792692/silco.aspx - 'omzet van 8.358.215 euro, 23e in de sector Koffie en thee'; https://www.companyweb.be/en/ |  |
 | Tannerie Masure SA | email | Email 'n.d.'. Il sito masure.be ha una pagina contatti attiva ma l'indirizzo non e' verificabile dai frammenti. DA CONFERMARE. | https://www.masure.be/contact (pagina contatti esistente; indirizzo e-mail non presente nei frammenti) |  |
 
+### Austria (6)
+
+| Azienda | Campo | Problema | Evidenza | Correzione proposta |
+|---|---|---|---|---|
+| BRAUN LOCKENHAUS GmbH | dimensione | Filiale di gruppo estero: la societa' e' controllata da SCHNEEWEISS AG / SCHNEEWEISS interior, con sede del gruppo a Kippenheim (Baden-Württemberg, DE), dal 2006. La decisione di compliance EUDR si assume a livello di capogruppo tedesca. Il legame e' | https://www.braunlockenhaus.at/en/imprint - frammento: "Geschäftsführer Jochen Joachims und Gesellschafter SCHNEEWEISS AG"; "Braun Lockenhaus is part  |  |
+| Breitschopf Gesellschaft mbH & Co KG | referente | Il referente indicato (Martin Breitschopf) fa parte del 'Fuehrungstrio' familiare dal 2021 con delega a vendite/finanza/strategia, ma il Geschaeftsfuehrer iscritto dal 2001 risulta Dipl.-Ing. Johann Breitschopf. Il ruolo formale di Martin come GF non | https://www.meinbezirk.at/steyr-steyr-land/c-wirtschaft/breitschopf-kuechen-setzt-auf-fuehrungstrio_a6834711 - frammento: "Johann Breitschopf (Dipl.-I |  |
+| Hrachowina Fenster & Türen GmbH | dimensione | Fatturato ca. 25 Mio EUR dichiarato come stima non ufficiale (die-deutsche-wirtschaft.de) e senza anno. Da segnalare inoltre il precedente di insolvenza 2019 della controllata produttiva H&W Holzfensterproduktions-GmbH (JV con Weinzetl), poi rilevata | https://www.holzkurier.com/holzprodukte/2019/06/hrachowina.html - frammento: "H&W Holzfensterproduktions-GmbH had to file for insolvency in late Febru |  |
+| Ludwig Reiter Schuhmanufaktur GmbH | email | L'indirizzo office@ludwig-reiter.com non compare nell'Impressum aziendale, che riporta reiter@ludwig-reiter.com come recapito di contatto. | https://www.ludwig-reiter.com/de/impressum - frammento: "telephone +43-1-2559300, fax +43-1-2559300-77, and email reiter@ludwig-reiter.com" | reiter@ludwig-reiter.com |
+| Tschurtschenthaler Gerberei GmbH | sito | Sito aziendale assente ('n.d.'): nessun dominio proprio individuato nelle fonti pubbliche, solo schede di directory (herold, cylex, europages). | https://www.herold.at/gelbe-seiten/st-stefan-im-gailtal/RZ2RJ/tschurtschenthaler-gerberei-gmbh/ - scheda senza URL aziendale |  |
+| Waldviertler Werkstätten GmbH | dimensione | Dato di fatturato datato (2016-2019) e non riconciliato: le fonti citano 31 Mio EUR di ricavi 2016 riferiti all'universo GEA e, per la controllante Heinrich Staudinger GmbH, un totale di bilancio 2024 di 5,45 Mio EUR. Il perimetro societario del dato | https://www.firmenabc.at/heinrich-staudinger-gmbh-gea-waldviertler_NTLA - frammento: "balance sheet total of EUR 5.454.811,76 as of December 31, 2024" |  |
+
 ---
 
-## 6. Casi di gravità BASSA (47)
+## 6. Casi di gravità BASSA (55)
 
 _Refusi formali e incoerenze di stile._
 
 
-### Italia (2)
+### Italia (7)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
 | 3C Lavorazione Pelli S.r.l. | denominazione | Ragione sociale al Registro Imprese riportata come '3 C - LAVORAZIONE PELLI S.R.L.' (con spazio e trattino), non '3C Lavorazione Pelli S.r.l.' | https://www.europages.it/3-C-LAVORAZIONE-PELLI-SRL/SEAC000597361-002.html — '3 C - LAVORAZIONE PELLI SRL a Arzignano, Conceria'; idem https://www.pagi | 3 C - Lavorazione Pelli S.r.l. |
 | Conceria Cilp | denominazione | Manca la forma giuridica: la ragione sociale attuale al Registro Imprese è 'CONCERIA CILP S.R.L.' (P.IVA 00190610501), ex 'Conceria Cilp S.n.c. di Poggetti Riccardo e Davide'. | https://www.ufficiocamerale.it/9423/conceria-cilp-snc-di-poggetti-riccardo-e-davide — 'CONCERIA CILP S.R.L., Partita IVA: 00190610501' | Conceria CILP S.r.l. |
+| Conceria Emmedue | denominazione | Manca la forma giuridica: al Registro Imprese la ragione sociale è 'CONCERIA EMMEDUE S.R.L.' (P.IVA 00793250242). | https://www.ufficiocamerale.it/1739/conceria-emmedue-srl — 'CONCERIA EMMEDUE SRL, Partita IVA: 00793250242' | Conceria Emmedue S.r.l. |
+| Conceria Ferrari S.r.l. | dimensione | Manca l'anno di riferimento; il dato aggiornato di bilancio 2023 è 20,52M€ (utile 1,15M€, 20-49 dipendenti), non 19,9M€. | https://registroaziende.it/azienda/conceria-ferrari-srl-chiampo — 'fatturato 2023: 20,52 milioni; utile 1,15 milioni (-28%)'; https://www.aziende.it/c | ≈20,5M€ (fatturato 2023, Registro Imprese) |
+| Conceria Italia S.p.A. | fonte | L'URL indicato (www.conceriaitalia.com/contatti) non risulta essere la pagina contatti del sito: la pagina CONTATTI pubblicata è /nuova-pagina. Link probabilmente non valido. | Risultato di ricerca: 'CONTATTI — Conceria Italia' → https://www.conceriaitalia.com/nuova-pagina | https://www.conceriaitalia.com/nuova-pagina |
+| Conceria Lomar (Lomar Lavorazione Pelli S.r. | dimensione | Valore corretto (6,2M€, bilancio 2024) ma manca l'anno di riferimento nel campo; è comunque il record più vicino al limite inferiore della forbice 5-40M€. | https://www.ufficiocamerale.it/1740/lomar-lavorazione-pelli-srl — 'ultimo bilancio depositato 2024: ricavi 6.199.639 €; 20-49 dipendenti' | ≈6,2M€ (fatturato 2024, Registro Imprese) |
+| Conceria Nuova Impala S.r.l. | dimensione | Valore confermato (22,25M€, bilancio 2024, in calo del 5,39%) ma manca l'anno nel campo. | https://www.reportaziende.it/conceria_nuova_impala_srl_pi — 'ultimo bilancio 2024: ricavi 22.248.620 €, -5,39% sul precedente' | ≈22,2M€ (fatturato 2024, Registro Imprese) |
 
 ### Danimarca (14)
 
@@ -641,7 +691,7 @@ _Refusi formali e incoerenze di stile._
 | Horreds Möbel Aktiebolag | denominazione | Società CONFERMATA ATTIVA (scheda allabolag corrente, nessuna procedura concorsuale rilevata). Va però esplicitato il legame di gruppo: la capogruppo è Horreds Holding AB (esiste anche Horreds Möbel Utvecklings AB, 559016-3324). Nel foglio si legge g | https://www.allabolag.se/5563651974/koncern e frammento allabolag: 'moderbolag är Horreds Holding AB'; https://www.allabolag.se/5590163324/horreds-mob | Indicare la capogruppo: Horreds Holding AB |
 | Tärnsjö Garveri Aktiebolag | dimensione | Numero dipendenti non allineato alla fonte: il record indica 43 dipendenti (2024), allabolag riporta 46. | allabolag.se: «Tärnsjö Garveri Aktiebolag har 46 anställda». Fatturato 51,9 MSEK 2024 (+6%) confermato. | 46 dipendenti |
 
-### Olanda (5)
+### Olanda (6)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -650,6 +700,7 @@ _Refusi formali e incoerenze di stile._
 | Bruns B.V. | sede | Indirizzo discordante: il record indica Riethovensedijk 20, 5571 CR Bergeijk, mentre l'anagrafica di settore riporta Stokskesweg 11, 5571 TJ Bergeijk. Il comune (Bergeijk, Noord-Brabant) e' comunque corretto. Indirizzo civico DA CONFERMARE. | http://bergeijk.gevabiz.nl/company/bruns-bv-bergeijk.html - frammento: 'Stokskesweg 11, NL-5571TJ Bergeijk' |  |
 | Gras Wood Wide B.V. | dimensione | Anno di fondazione errato: il record indica 1921, mentre azienda e stampa di settore datano la fondazione al 1868 (sesta generazione familiare, coerente). Il 1921 corrisponde semmai a una successiva iscrizione societaria. | https://www.houtwereld.nl/bedrijven/gras-wood-wide-b-v/ e https://www.graswoodwide.com/over-ons/ - frammento: 'founded in 1868' | Fondata nel 1868 |
 | Gras Wood Wide B.V. | linkedin | Campo LinkedIn vuoto benche' esista la pagina aziendale ufficiale. | https://nl.linkedin.com/company/graswoodwide - titolo: 'Gras Wood Wide \| LinkedIn' | https://nl.linkedin.com/company/graswoodwide |
+| Houtimport Lekkerkerker B.V. | dimensione | Il campo deduce la fascia 10-20 M EUR dal volume (ca. 200.000 m3/anno) senza alcuna fonte di fatturato: la stima non e' sostenuta e va marcata come tale. Il volume in se' e' l'unico dato dichiarato con tipo e fonte. | https://www.houtimportlekkerkerker.nl/ e https://www.creditsafe.com/business-index/en-us/company/houtimport-lekkerkerker-bv-nl01698016 (nessun fattura |  |
 
 ### Belgio (10)
 
@@ -665,6 +716,13 @@ _Refusi formali e incoerenze di stile._
 | Lavrijsen Houtbedrijf NV | ruolo | Jan e Bert Lavrijsen sono confermati alla guida dell'azienda, ma per una NV il titolo statutario corretto e' 'gedelegeerd bestuurder / bestuurder', non 'zaakvoerder' (termine proprio delle BV). | https://lavrijsen.be/over-ons/ - frammento: "Jan and Bert Lavrijsen are at the helm of the company with secured succession" | Bestuurders / gedelegeerd bestuurders |
 | Radermecker SRL | dimensione | Discordanza sugli addetti: il record indica 9,1 FTE (bilancio BNB), mentre la scheda Europages dichiara 20-49 dipendenti. Il fatturato non e' pubblicato (schema abbreviato): la collocazione dimensionale resta non verificabile. | https://www.europages.fr/TANNERIE-RADERMECKER/BEL069426-000019048001.html - frammento: "The company employs between 20 and 49 people" |  |
 | Silco NV | sito | Nessun sito web proprio reperito per Silco NV in 3 ricerche: l'azienda compare solo su banche dati societarie (trendstop, companyweb, fincheck, northdata, staatsbladmonitor). Coerente con la struttura a 1 FTE. Il campo vuoto e' quindi corretto, ma va | https://www.northdata.com/Silco%20N.V.,%20Antwerpen/KBO%200715.792.692 - solo scheda registro; nessun dominio aziendale nei risultati | n.d. (nessun sito web aziendale) |
+
+### Austria (2)
+
+| Azienda | Campo | Problema | Evidenza | Correzione proposta |
+|---|---|---|---|---|
+| HOLZBAU MAIER GmbH & Co KG | dimensione | Il fatturato di ca. 35,0 Mio EUR e' una stima non ufficiale di die-deutsche-wirtschaft.de e non riporta l'anno di riferimento, come richiesto per i dati dimensionali. Confermati invece FN 525501x/LG Salzburg e la co-GF Hildegund Maier. | https://www.maier.at/de/impressum.html - frammento: "Geschaeftsfuehrer: Hildegund Maier (representing since 07.04.2005) and Dipl.Ing Birgit Maier (07. |  |
+| Holzindustrie Schafler GmbH & Co KG | ruolo | Il ruolo riportato ('Gewerberechtlicher Geschaeftsfuehrer') sottostima la posizione: l'Impressum aziendale indica Bernd (Christoph) Schafler come Geschaeftsfuehrer e proprietario, quarta generazione familiare. | https://www.schafler-holz.at/impressum - frammento: "Geschaeftsfuehrer: Bernd Schafler... current managing director and owner Bernd Christoph Schafler | Geschäftsführer / Inhaber |
 
 ### (tutti) (1)
 
