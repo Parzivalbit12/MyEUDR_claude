@@ -17,10 +17,10 @@ La verifica si è svolta in due fasi:
 | Finlandia | 84 | 0/5 | 0 | 0% |
 | Danimarca | 89 | 2/5 | 36 | 40% |
 | Svezia | 89 | 1/5 | 18 | 20% |
-| Olanda | 100 | 0/6 | 0 | 0% |
+| Olanda | 100 | 1/6 | 17 | 17% |
 | Belgio | 95 | 1/5 | 19 | 20% |
 | Austria | 93 | 0/5 | 0 | 0% |
-| **TOTALE** | **742** | **4/42** | **73** | **10%** |
+| **TOTALE** | **742** | **5/42** | **90** | **12%** |
 
 > La Fase A copre invece il **100%** dei 742 record: è un controllo offline e non dipende dal budget di ricerca.
 
@@ -30,44 +30,104 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 
 ## 2. Rilievi per foglio
 
-**Totale rilievi Fase B: 91** — alta 19 · media 42 · bassa 30.
+**Totale rilievi Fase B: 129** — alta 28 · media 60 · bassa 41.
 
 | Foglio | Rilievi | alta | media | bassa | Aziende toccate |
 |---|--:|--:|--:|--:|--:|
 | Italia | 0 | 0 | 0 | 0 | 0 |
 | Germania | 0 | 0 | 0 | 0 | 0 |
 | Finlandia | 0 | 0 | 0 | 0 | 0 |
-| Danimarca | 33 | 11 | 12 | 10 | 23 |
-| Svezia | 21 | 3 | 10 | 8 | 10 |
-| Olanda | 4 | 1 | 2 | 1 | 2 |
+| Danimarca | 46 | 14 | 18 | 14 | 32 |
+| Svezia | 36 | 6 | 15 | 15 | 18 |
+| Olanda | 14 | 4 | 9 | 1 | 6 |
 | Belgio | 32 | 4 | 18 | 10 | 19 |
 | Austria | 0 | 0 | 0 | 0 | 0 |
 | _(tutti)_ | 1 | 0 | 0 | 1 | 1 |
-| **TOTALE** | **91** | **19** | **42** | **30** | **55** |
+| **TOTALE** | **129** | **28** | **60** | **41** | **76** |
 
 ### Rilievi per campo
 
 | Campo | Rilievi | di cui alta |
 |---|--:|--:|
-| dimensione | 36 | 8 |
-| referente | 21 | 6 |
-| denominazione | 12 | 5 |
-| email | 8 | 0 |
-| sito | 3 | 0 |
+| dimensione | 53 | 13 |
+| referente | 32 | 8 |
+| denominazione | 15 | 6 |
+| email | 9 | 0 |
+| linkedin | 7 | 0 |
+| sito | 4 | 0 |
+| filiera | 3 | 1 |
 | ruolo | 3 | 0 |
-| linkedin | 3 | 0 |
-| filiera | 2 | 0 |
 | fonte | 2 | 0 |
 | sede | 1 | 0 |
 
 ---
 
-## 3. Casi di gravità ALTA (19)
+## 3. Tema trasversale — legami di gruppo (45 rilievi)
+
+È il problema **più diffuso e meno atteso** emerso dalla verifica: non era fra i 13 punti noti dell'handoff. Numerose aziende del censimento sono controllate di gruppi, spesso esteri o quotati. Per il criterio già applicato dal progetto — che aveva rimosso Lavazza Kaffee, Segafredo Zanetti Austria e Kaffee Partner Austria perché *«la compliance si decide a livello di gruppo, non nella filiale»* — sono **lead di valore dubbio**.
+
+La tabella distingue i due casi, che non hanno la stessa gravità:
+
+- **DICHIARATO** — il campo `Dimensione` del foglio già segnala il legame. Non è un errore di dato: la raccolta ha fatto quel che le regole chiedevano (*«segnalare sempre i legami di gruppo»*). È una **decisione di selezione** che spetta al cliente.
+
+- **NON DICHIARATO / ERRATO** — il legame manca del tutto, oppure la capogruppo indicata è sbagliata. Questo **è** un errore di dato.
+
+| Foglio | Azienda | Stato nel foglio | Rilievo |
+|---|---|---|---|
+| (tutti) | (controllo di rientro) | — (record non risolto) | nessuna delle 7 aziende rimosse e' rientrata nei fogli. Controllo eseguito su _records.json (742 record, tutti i fogli) cercando in ogni campo, con radici tolleranti alle varianti: 'getama', 'dragsb', |
+| Belgio | Belignum NV | **dichiarato** | Discordanza 16,1 vs 14,7 M€ RISOLTA a favore di 14,7 M€: due fonti indipendenti (trendstop NL e trendstop FR/Levif) riportano concordemente EUR 14.746.642 e 10,8 FTE per l'ultimo bilancio depositato i |
+| Belgio | Buzzispace NV | **dichiarato** | Il campo indica la produzione 'in Kempen' (implicitamente Belgio): le fonti aziendali collocano lo stabilimento produttivo a Bladel, nei Paesi Bassi. La sede sociale ad Anversa resta corretta, ma l'at |
+| Belgio | Sas NV (Sas Coffee) | **dichiarato** | CONFERMATO: l'azienda NON e' piu' indipendente ne' familiare. Acquisita da Miko NV (11/2021) e rivenduta il 24-05-2024 al fondo di private equity olandese Nimbus Investments; il sito di Nimbus la elen |
+| Belgio | Silco NV | **NON dichiarato** | RILIEVO NUOVO emerso in verifica: la sede di Silco (Italielei 181, 2000 Antwerpen) e' lo stesso indirizzo di EFICO NV, il grande trader di caffe' verde di Anversa (fatturato ~289 M€), il cui president |
+| Belgio | Tannerie Masure SA | **NON dichiarato** | Societa' non indipendente: dal 2014 Tannerie Masure fa parte del Groupe Saturne insieme alla francese Tannerie Fortier-Beaulieu (Roanne). Il referente indicato, Olivier Lesage, risulta anche dirigente |
+| Danimarca | BØJSØ DØRE & VINDUER A/S | **dichiarato** | Lead non indipendente: dal 2017 la società è controllata da INWIDO DENMARK A/S, parte del gruppo quotato svedese Inwido AB (fatturato di gruppo ~9 mld SEK nel 2025). Secondo il mandato una controllata |
+| Danimarca | COPENHAGEN CHOCOLATE FACTORY ApS | **dichiarato** | IDENTITA' ANNOTATA CONFERMATA CORRETTA: CVR 32761844, Amager Landevej 123, 2770 Kastrup, costituita il 26-01-2010, ApS; opera con i binavne 'Simply Chocolate Copenhagen' e www.simplychocolate.dk; dire |
+| Danimarca | HVIDBJERG VINDUET A/S | **dichiarato** | Assetto proprietario errato e lead non indipendente: il campo indica come controllante "Hvidbjerg i A/S", ma la società è controllata dal gruppo ACO Nordic, a sua volta parte del gruppo tedesco ACO (f |
+| Danimarca | HØRNING PARKET A/S | **NON dichiarato** | Referente e ruolo errati: Peter (Christian Saaby) Mathiasen è presidente del consiglio di amministrazione (bestyrelsesformand), non adm. direktør. Il vertice esecutivo della società è Peter Vissing, d |
+| Danimarca | INNOVATION LIVING A/S (già Innovation Ra | **dichiarato** | Dato obsoleto: il campo cita il bruttofortjeneste 2023 (47,3 M DKK) mentre l'ultimo bilancio disponibile (2025) riporta 40 M DKK, quindi in calo. Anche la composizione del gruppo è imprecisa: INNOVATI |
+| Danimarca | JKE DESIGN A/S | **dichiarato** | Lead non indipendente: la società appartiene al gruppo BALLINGSLÖV INTERNATIONAL DANMARK A/S / Ballingslöv International AB (gruppo svedese, Stena Adactum), con presidente del CdA e consigliere espres |
+| Danimarca | KRYDSFINER-HANDELEN A/S | **dichiarato** | Controllata di gruppo estero: dall'autunno 2023 la societa' e' stata venduta da Carsten Rittig a Fritzoe Nordic Holding AS (Norvegia), che ne detiene il controllo. Il record lo accenna in forma dubita |
+| Danimarca | KVIST INDUSTRIES A/S | **NON dichiarato** | Assetto proprietario non dichiarato: la societa' figura nel portafoglio del fondo di private equity danese Dansk Ejerkapital ed e' controllata tramite KVIST HOLDING A/S (CVR 21746886, Esbjerg). Il cam |
+| Danimarca | Klim Furniture A/S (gia' Klim Mobelfabri | **NON dichiarato** | Referente non attuale: dal 2024 il direktor in carica e' Kasper Hogenhaug (che ha acquisito il 50% della societa'); Jan Middelboe resta comproprietario al 50% ma non e' piu' il vertice operativo indic |
+| Danimarca | LILLEHEDEN A/S | **dichiarato** | Controllata di gruppo: la societa' fa parte di Nordic Wood Industries A/S (CVR 37385603), che dal 12.05.2025 ha un nuovo adm. direktor di gruppo (Holger Carsten Hansen). Il legame e' gia' correttament |
+| Danimarca | MULTIFORM A/S | **dichiarato** | Controllata di gruppo: capogruppo BALLINGSLOV INTERNATIONAL DANMARK A/S (gruppo svedese Ballingslov International / Stena Adactum). Il legame e' gia' dichiarato correttamente nel record, quindi il ril |
+| Danimarca | N. EILERSEN A/S | **dichiarato** | Referente errato: Anders Michael Juul Ejlersen risulta membro del consiglio di amministrazione (bestyrelse) e comproprietario, non direktor. Il direktor registrato di N. EILERSEN A/S (CVR 35118519) e' |
+| Danimarca | Naturli' Foods | **dichiarato** | RILIEVO EMERSO DAL CONTROLLO DI RIENTRO. Il record dichiara esso stesso che Naturli' Foods e' 'parte del gruppo Dragsbaek/Orkla': e' quindi una controllata del gruppo norvegese quotato Orkla ASA, per  |
+| Danimarca | Skagerak Denmark A/S | **NON dichiarato** | Referente errato e legame di gruppo non dichiarato: Skagerak Denmark A/S e' stata acquisita da Fritz Hansen A/S nel dicembre 2021 ed e' oggi il marchio 'Skagerak by Fritz Hansen'. Josef Theodor Kaiser |
+| Danimarca | Skagerak Denmark A/S | **NON dichiarato** | Dati economici obsoleti: utile lordo 53,7 M DKK riferito al 2021 e addetti al dicembre 2022, cioe' antecedenti o coevi all'acquisizione da parte di Fritz Hansen. La stima ricavi '~15-22 M€' non e' ver |
+| Danimarca | TIMBERMAN DENMARK A/S | **dichiarato** | Assetto proprietario errato/obsoleto: il record indica solo 'controllata da Timberman Holding ApS ... azionariato nordico'. In realta' nel dicembre 2024 la societa' e' stata acquistata dal gruppo indu |
+| Danimarca | TJOERNEHOEJ MOELLE A/S | — (record non risolto) | LEAD NON VALIDO. A/S Tjoernehoej Moelle (CVR 34175012) NON e' un'impresa indipendente: e' stata acquistata da DLG nel 1989 dal mugnaio Sander Petersen ed e' oggi una controllata della cooperativa DLG  |
+| Danimarca | VERMUND LARSEN A/S (VELA / VERMUND) | **NON dichiarato** | Disallineamento tra i canali: il sito indicato (vermund.eu) e' quello del solo marchio di design 'Vermund', mentre il sito istituzionale della societa' e del marchio principale e' vela.dk (coerente co |
+| Olanda | Bangma Verpakking B.V. | **dichiarato** | LEAD NON VALIDO — aggravamento rispetto a quanto annotato. Non solo De Jong Verpakking ha acquisito Bangma (closing 30-07-2020), ma nel 2023 l'INTERO De Jong Packaging Group è stato acquisito da STORA |
+| Olanda | BeBo Parket B.V. | **dichiarato** | Assetto proprietario incompleto: dal 2022 l'azienda e' partecipata dall'investitore Nobel Capital Partners insieme al management di seconda generazione. La partecipazione di private equity non e' dich |
+| Olanda | Rompa Tanneries B.V. | **dichiarato** | Denominazione obsoleta: la societa' e' stata ridenominata VITELCO LEATHER B.V. Vitelco (gruppo PALI) ha rilevato le quote di Rompa Leather sciogliendo la joint venture ed e' oggi socio unico al 100%.  |
+| Olanda | Rompa Tanneries B.V. | **dichiarato** | Assetto proprietario dichiarato errato: il campo indica ancora 'Soci: PALI Group (Den Bosch, vitello) e Rompa Leather (Rijen)', ma la JV e' stata sciolta e Vitelco (PALI Group) e' socio unico al 100%. |
+| Olanda | Rompa Tanneries B.V. | **dichiarato** | Email e sito legati al vecchio marchio (sales@rompa-tanneries.com / www.rompa-tanneries.com). Con la ridenominazione in Vitelco Leather il dominio di riferimento del gruppo e' vitelco.nl; il vecchio s |
+| Svezia | Abstracta AB | **dichiarato** | Lead di dubbia validità (non errore di dato): controllata al 100% di Lammhults Design Group AB, gruppo quotato — la compliance EUDR si decide alla capogruppo. Il legame è però già dichiarato correttam |
+| Svezia | Aktiebolaget Karlaträ | **NON dichiarato** | Legame di gruppo non dichiarato: la società appartiene a una koncern di 2 società con moderbolag Karlaträ Försäljning Aktiebolag (holding di famiglia/vendita). |
+| Svezia | Balungstrands Sågverk AB | **dichiarato** | Capogruppo incompleta/superata: il record si ferma a Green Wood Sverige AB. Green Wood Sverige AB (con Bäckebrons e Balungstrands) è stata riacquistata da Profura dopo il fallimento del gruppo tedesco |
+| Svezia | Brattby Sågverks AB | **NON dichiarato** | Legame di gruppo non dichiarato: la società fa parte di una koncern con moderbolag Brattby Trading Aktiebolag. Fatturato 143,4 MSEK (~12,7 M€) e 32 dipendenti 2024 confermati. |
+| Svezia | Brännfors Träförädling Aktiebolag | **NON dichiarato** | Legame di gruppo non dichiarato: moderbolag Brännfors Holding AB. Inoltre il dato 2024 confermato dalle fonti è 53.348 KSEK ≈ 4,7 M€ con 15 dipendenti (crescita -4,4%): il fatturato 2025 di 79.011 KSE |
+| Svezia | Bäckebrons Sågverk Aktiebolag | **dichiarato** | Capogruppo SBAGLIATA e superata: il record indica 'capogruppo Ziegler Holding GmbH'. Il gruppo tedesco Ziegler è FALLITO e Profura ha riacquistato Green Wood Sverige AB con Bäckebrons e Balungstrands; |
+| Svezia | Drömtrappor AB | **NON dichiarato** | Legame di gruppo non dichiarato (moderbolag Förvaltnings AB Klätterbjörken) e forte discontinuità del fatturato non segnalata: 126.413 KSEK nel 2024 (~11,2 M€) contro 83.213 KSEK nel 2025 (~7,4 M€), c |
+| Svezia | Ekstrands Dörrar & Fönster AB | **dichiarato** | Lead di dubbia validità (non errore di dato): società di un gruppo di 6 società con capogruppo Ekstrand & Son Aktiebolag, correttamente dichiarata nel record. Tutti gli altri dati (167.769 KSEK 2025 ≈ |
+| Svezia | Fogia Collection Aktiebolag | **dichiarato** | Lead di dubbia validità (non errore di dato): controllata di Scandinavian Design Partners AB, legame già dichiarato correttamente. Tutti i dati (108.304 KSEK 2024 ≈ 9,6 M€, risultato 15.276 KSEK, 18 d |
+| Svezia | Glimakra of Sweden AB | **dichiarato** | Lead di dubbia validità (non errore di dato): controllata di Garpco Aktiebolag dal 2007, gruppo di 25 società con 311 addetti e 667,0 MSEK. Il legame è dichiarato ma il record lo sottodimensiona ('con |
+| Svezia | Gärsnäs Aktiebolag | **dichiarato** | Lead di dubbia validità (non errore di dato): controllata di Bordet i Stockholm Aktiebolag, legame già dichiarato correttamente. Esiste inoltre notizia stampa di cambio di proprietà ('Gärsnäs AB får n |
+| Svezia | Hjältevadshus AB | **dichiarato** | Rischio economico rilevante non segnalato: a fronte dei 140.766 KSEK (~12,5 M€) del 2025 la società ha una marginalità di -32,6% (perdita nell'ordine dei 45 MSEK). Inoltre la koncern è molto più ampia |
+| Svezia | Hjältevadshus AB | **dichiarato** | Referente confermato (Johan Bynell, VD; ordförande Magnus Agervald) ma la nomina è annunciata da Pulsen Group: verificare che sia ancora in carica alla data di uso del lead. |
+| Svezia | Horreds Möbel Aktiebolag | **dichiarato** | Dato 2022 NON aggiornabile con certezza e anzi CONTRADDETTO. allabolag.se riporta oggi per Horreds Möbel AB (556365-1974) 45 dipendenti (contro i 50 del 2022) e un intervallo di fatturato 50.000-99.99 |
+| Svezia | Horreds Möbel Aktiebolag | **dichiarato** | Società CONFERMATA ATTIVA (scheda allabolag corrente, nessuna procedura concorsuale rilevata). Va però esplicitato il legame di gruppo: la capogruppo è Horreds Holding AB (esiste anche Horreds Möbel U |
+| Svezia | Tärnsjö Garveri Aktiebolag | **NON dichiarato** | Legame di gruppo NON dichiarato: il record definisce l'azienda 'la principale conceria indipendente attiva', ma allabolag indica come moderbolag Axel Bodéns Handels Aktiebolag. L'affermazione di indip |
+
+---
+
+## 4. Casi di gravità ALTA (28)
 
 _Dato falso, azienda non contattabile, azienda cessata/fallita/acquisita, oppure fuori dal perimetro dell'Allegato I EUDR._
 
 
-### Danimarca (11)
+### Danimarca (14)
 
 #### AUBO PRODUCTION A/S — campo `referente`
 
@@ -141,6 +201,30 @@ RILIEVO EMERSO DAL CONTROLLO DI RIENTRO. Il record dichiara esso stesso che Natu
 
 **Correzione proposta:** Rimuovere il lead (controllata Dragsbaek/Orkla, stessa motivazione della rimozione di Dragsbaek)
 
+#### SKOVS KORN A/S. KORN- OG FODERSTOFAGENTUR — campo `filiera`
+
+Perimetro EUDR dubbio: la societa' si qualifica pubblicamente come broker/agenzia di intermediazione internazionale ('brokers indenfor international handel med korn, foderstoffer og oliefro' dal 1987) e la ragione sociale stessa e' 'Korn- og Foderstofagentur'. Un agente che non acquista in proprio non immette la commodity sul mercato UE e quindi non e' operatore ai sensi EUDR (analogia con gli operatori di sola logistica). Inoltre le commodity trattate (cereali, mangimi, semi oleosi) ricadono in Allegato I solo per la parte soia, non verificata. Il modesto bruttofortjeneste (12 M DKK ~1,6 M€) e' coerente con un'attivita' di pura intermediazione.
+
+**Evidenza:** http://skovskorn.dk/ - 'Skovs Korn A/S har siden 1987 opereret som brokers indenfor international handel med korn, foderstoffer og oliefro' ; https://www.proff.dk/firma/skovs-korn-as.-korn-og-foderstofagentur/vejle/jordbrugsr%C3%A5varer-levende-dyr-tekstilr%C3%A5varer-og-indsatsvarer-agentur/064Z69I10OL (settore: agentur)
+
+**Correzione proposta:** Escludere o declassare il lead salvo verifica che la societa' operi anche in conto proprio su soia (import fisico nell'UE)
+
+#### Skagerak Denmark A/S — campo `referente`
+
+Referente errato e legame di gruppo non dichiarato: Skagerak Denmark A/S e' stata acquisita da Fritz Hansen A/S nel dicembre 2021 ed e' oggi il marchio 'Skagerak by Fritz Hansen'. Josef Theodor Kaiser indicato come referente e' (era) l'amministratore delegato della capogruppo Fritz Hansen, non il vertice della controllata (all'atto della cessione l'ad di Skagerak era Jesper Panduro). Il campo dimensione non menziona in alcun modo il controllo di Fritz Hansen: lead non valido, la compliance EUDR si decide in capogruppo.
+
+**Evidenza:** https://www.dezeen.com/2021/12/15/fritz-hansen-acquires-skagerak/ ; https://www.hjulmandkaptain.dk/english/news/hjulmandkaptain-has-advised-the-owners-of-skagerak-denmark-on-the-sale-to-fritz-hansen/ - 'Fritz Hansen CEO Josef Kaiser ... Skagerak CEO Jesper Panduro'
+
+**Correzione proposta:** Dichiarare: controllata di Fritz Hansen A/S dal dicembre 2021; referente da riverificare presso la controllata (non l'ad di gruppo)
+
+#### TIMBERMAN DENMARK A/S — campo `dimensione`
+
+Assetto proprietario errato/obsoleto: il record indica solo 'controllata da Timberman Holding ApS ... azionariato nordico'. In realta' nel dicembre 2024 la societa' e' stata acquistata dal gruppo industriale svedese quotato Volati AB (Nasdaq Stockholm, ~2.000 dipendenti, ~7,7 mld SEK di ricavi), che l'ha rilevata dalla portoghese Corticeira Amorim. Controllata di gruppo quotato estero: lead non valido, compliance EUDR accentrata in capogruppo.
+
+**Evidenza:** https://ligeher.nu/mariagerfjord/nyheder/mennesker/svensk-koncern-koeber-hadsund-firma-for-kaempe-millionbeloeb/5355430 ; https://nordjyske.dk/nyheder/erhverv/hadsund-firma-solgt-for-kaempe-millionbeloeb/5355340 - 'Timberman ... blev kobt af den svenske industrikoncern Volati fra portugisiske Corticeira Amorim' (dicembre 2024)
+
+**Correzione proposta:** Controllata del gruppo svedese quotato Volati AB dal dicembre 2024 (in precedenza Corticeira Amorim); Mogens Albaek Fisker resta direktor e comproprietario
+
 #### TJOERNEHOEJ MOELLE A/S — campo `dimensione`
 
 LEAD NON VALIDO. A/S Tjoernehoej Moelle (CVR 34175012) NON e' un'impresa indipendente: e' stata acquistata da DLG nel 1989 dal mugnaio Sander Petersen ed e' oggi una controllata della cooperativa DLG (25.000 agricoltori danesi), che la elenca esplicitamente tra le proprie societa' insieme a Vitfoss e Dangroent; la produzione e' commercializzata sotto il marchio Equsana, brand DLG dal 2012. Coerentemente, la sede legale registrata risulta a Koebenhavn V (sede DLG) e non a Hedehusene (dove resta lo stabilimento, Tingstedvej 47, 2640 Hedehusene). La compliance EUDR si decide a livello di capogruppo DLG.
@@ -158,7 +242,7 @@ Ambiguita' PARZIALMENTE risolta: il fallimento riguarda l'omonima 'VestjyDsk Spe
 **Correzione proposta:** Allineare il record a un unico CVR (38786709 secondo proff.dk) ed eliminare il riferimento a lasso.dk/42242993 se non pertinente
 
 
-### Svezia (3)
+### Svezia (6)
 
 #### Balungstrands Sågverk AB — campo `dimensione`
 
@@ -176,6 +260,30 @@ Legame di gruppo non dichiarato: moderbolag Brännfors Holding AB. Inoltre il da
 
 **Correzione proposta:** Dichiarare moderbolag Brännfors Holding AB e riportare il dato certificato 2024 (53.348 KSEK ≈ 4,7 M€, 15 dip.) finché il 2025 non è confermato
 
+#### Bäckebrons Sågverk Aktiebolag — campo `dimensione`
+
+Capogruppo SBAGLIATA e superata: il record indica 'capogruppo Ziegler Holding GmbH'. Il gruppo tedesco Ziegler è FALLITO e Profura ha riacquistato Green Wood Sverige AB con Bäckebrons e Balungstrands; il koncernmoderbolag attuale è Profuragruppen AB. Lead non valido: la compliance EUDR si decide a livello Profura.
+
+**Evidenza:** https://www.lesprom.com/en/news/Profura_reacquires_B%C3%A4ckebrons_and_Balungstrands_sawmills_in_Sweden_after_Ziegler_Group%E2%80%99s_bankruptcy_117770/ ; Skogsaktuellt «Bäckebrons och Balungstrands Sågverk förvärvas av nygammal ägare» — https://www.skogsaktuellt.se/artikel/2237233/backebrons-och-balungstrands-sagverk-forvarvas-av-nygammal-agare.html
+
+**Correzione proposta:** Controllata di Green Wood Sverige AB; koncernmoderbolag Profuragruppen AB (dopo il fallimento di Ziegler Group)
+
+#### Drömtrappor AB — campo `dimensione`
+
+Legame di gruppo non dichiarato (moderbolag Förvaltnings AB Klätterbjörken) e forte discontinuità del fatturato non segnalata: 126.413 KSEK nel 2024 (~11,2 M€) contro 83.213 KSEK nel 2025 (~7,4 M€), con dipendenti scesi da 96 a 74.
+
+**Evidenza:** allabolag.se (556309-7038): «Omsättning 2024: 126 413 tkr; 2025: 83 213 KSEK»; «96 anställda ... senare data visar 74»; «moderbolaget är Förvaltnings AB Klätterbjörken» — https://www.allabolag.se/organisation/dr%C3%B6mtrappor-ab/norsj%C3%B6/tr%C3%A4varor/2K04H5AI5YI6G
+
+**Correzione proposta:** Aggiungere: 'moderbolag Förvaltnings AB Klätterbjörken; fatturato in calo da 126,4 MSEK (2024) a 83,2 MSEK (2025)'
+
+#### Hjältevadshus AB — campo `dimensione`
+
+Rischio economico rilevante non segnalato: a fronte dei 140.766 KSEK (~12,5 M€) del 2025 la società ha una marginalità di -32,6% (perdita nell'ordine dei 45 MSEK). Inoltre la koncern è molto più ampia di quanto indicato: 56 società con moderbolag Pulsen AB (il record cita solo 'azionista di controllo gruppo Pulsen'), quindi la compliance EUDR si deciderebbe a livello Pulsen.
+
+**Evidenza:** allabolag.se (556232-9135): «omsättning 2025: 140 766 tkr ... vinstmarginal -32,6%»; «ingår i en koncern med 56 bolag, moderbolag Pulsen AB» — https://www.allabolag.se/5562329135/koncern ; pulsen.se/vara-bolag/hjaltevadshus/
+
+**Correzione proposta:** Aggiungere: 'perdita d'esercizio 2025 (marginalità -32,6%); koncern Pulsen AB, 56 società'
+
 #### Tärnsjö Garveri Aktiebolag — campo `dimensione`
 
 Legame di gruppo NON dichiarato: il record definisce l'azienda 'la principale conceria indipendente attiva', ma allabolag indica come moderbolag Axel Bodéns Handels Aktiebolag. L'affermazione di indipendenza è falsa e la compliance EUDR si deciderebbe alla capogruppo.
@@ -185,7 +293,7 @@ Legame di gruppo NON dichiarato: il record definisce l'azienda 'la principale co
 **Correzione proposta:** Sostituire 'principale conceria indipendente attiva' con: 'controllata di Axel Bodéns Handels Aktiebolag (moderbolag)'
 
 
-### Olanda (1)
+### Olanda (4)
 
 #### Bangma Verpakking B.V. — campo `dimensione`
 
@@ -194,6 +302,30 @@ LEAD NON VALIDO — aggravamento rispetto a quanto annotato. Non solo De Jong Ve
 **Evidenza:** https://dejongverpakking.com/en/news/de-jong-packaging-completes-acquisition-of-bangma-verpakking/ ; https://bangmaverpakking.nl/over-ons/historie-bangma-verpakking/ - 'in 2023 werd De Jong Packaging Group overgenomen door Stora Enso ... vandaag maakt Bangma Verpakking deel uit van de De Jong Verpakking en Stora Enso familie'; https://www.agf.nl/article/9238854/de-jong-verpakking-neemt-bangma-verpakking-over/
 
 **Correzione proposta:** Rimuovere il lead (controllata Stora Enso via De Jong Packaging Group dal 2023)
+
+#### BeBo Parket B.V. — campo `referente`
+
+Referente obsoleto: Frans Bolier e Johan van de Beek (fondatori 2006) hanno ceduto l'azienda nel 2022 alla seconda generazione. La direzione e' oggi di Kees van de Beek e Marielle Zwolsman.
+
+**Evidenza:** https://www.vloerenbusiness.nl/vloerenspecialist-bebo-overgenomen-door-tweede-generatie/ - frammento: 'Kees van de Beek en Marielle Zwolsman maakten al deel uit van het management van Bebo en blijven het bedrijf leiden na de overdracht'
+
+**Correzione proposta:** Kees van de Beek / Marielle Zwolsman - Directeur
+
+#### Rompa Tanneries B.V. — campo `denominazione`
+
+Denominazione obsoleta: la societa' e' stata ridenominata VITELCO LEATHER B.V. Vitelco (gruppo PALI) ha rilevato le quote di Rompa Leather sciogliendo la joint venture ed e' oggi socio unico al 100%. Anche la pagina LinkedIn indicata (nl.linkedin.com/company/rompa-tanneries) si presenta ora come 'Vitelco Leather'.
+
+**Evidenza:** https://www.paligroup.nl/uk/news/rompa-tanneries-becomes-vitelco-leather/ - frammento: 'Vitelco and Rompa Leder however decided to dissolve this joint venture and Vitelco took over the Rompa Tanneries shares from Rompa Leder. Vitelco is now 100% owner of the tannery and changes its name to Vitelco Leather B.V.'
+
+**Correzione proposta:** Vitelco Leather B.V.
+
+#### Rompa Tanneries B.V. — campo `dimensione`
+
+Assetto proprietario dichiarato errato: il campo indica ancora 'Soci: PALI Group (Den Bosch, vitello) e Rompa Leather (Rijen)', ma la JV e' stata sciolta e Vitelco (PALI Group) e' socio unico al 100%. La societa' e' quindi una controllata integrale di gruppo (PALI Group, 's-Hertogenbosch): la compliance EUDR si decide a livello di capogruppo, il lead va riqualificato o scartato.
+
+**Evidenza:** https://www.paligroup.nl/uk/news/rompa-tanneries-becomes-vitelco-leather/ - frammento: 'Vitelco is now 100% owner of the tannery'
+
+**Correzione proposta:** Controllata al 100% di Vitelco B.V. (PALI Group), 's-Hertogenbosch
 
 
 ### Belgio (4)
@@ -233,15 +365,16 @@ Societa' non indipendente: dal 2014 Tannerie Masure fa parte del Groupe Saturne 
 
 ---
 
-## 4. Casi di gravità MEDIA (42)
+## 5. Casi di gravità MEDIA (60)
 
 _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente errato._
 
 
-### Danimarca (12)
+### Danimarca (18)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
+| ALL CREATIVE A/S | dimensione | Il campo non contiene alcun dato economico: non riporta ne' fatturato ne' bruttofortjeneste ne' anno di riferimento, ma solo una fascia di dipendenti '11-50' presa da LinkedIn e priva di data. La collocazione nella forbice target 5-40 M€ resta quindi | https://www.proff.dk/firma/all-creative-as/r%C3%B8dovre/producenter/GSG8C7I016D (scheda regnskab della societa', CVR 21124796) |  |
 | COPENHAGEN CHOCOLATE FACTORY ApS | email | L'email pubblicata come recapito ufficiale nelle condizioni di vendita e sulle schede societarie e' kundeservice@simplychocolate.dk (tel. +45 3634 0070). info@simplychocolate.dk, riportata nel foglio, non e' stata ritrovata letteralmente in nessuna f | https://www.simplychocolate.dk/pages/handelsbetingelser e https://www.proff.dk/firma/copenhagen-chocolate-factory-aps/kastrup/producenter/0JI778I016D  | kundeservice@simplychocolate.dk |
 | Estate Coffee Copenhagen A/S | denominazione | IDENTITA' ANNOTATA CONFERMATA CORRETTA: il CVR 18179407 e' oggi registrato come Smage-Compagniet A/S, Holmevej 10, 5683 Haarby. La cronologia e' ricostruita dall'azienda stessa: fondata nei primi anni '90 (tra i fondatori Claus Meyer) come Chokolade  | https://smage-compagniet.dk/estate-coffee/ - 'Virksomhedens historie gaar tilbage til starten af 1990'erne, hvor den blev grundlagt af blandt andre Cl | Smage-Compagniet A/S (CVR 18179407) - gia' Estate Coffee Copenhagen A/S / Chokolade Compagniet |
 | INNOVATION LIVING A/S (già Innovation Rander | dimensione | Dato obsoleto: il campo cita il bruttofortjeneste 2023 (47,3 M DKK) mentre l'ultimo bilancio disponibile (2025) riporta 40 M DKK, quindi in calo. Anche la composizione del gruppo è imprecisa: INNOVATION HOLDING A/S conta 10 società, non 8. | https://www.proff.dk/firma/innovation-living-as/randers-n%C3%B8/m%C3%B8bler/13462KI015G — frammento: "In 2025, the company reported a gross profit of  | Bruttofortjeneste 40 mio DKK (~5,4 M€) nel 2025 (proff.dk, CVR 65699516); fatturato non pubblicato; gruppo INNOVATION HO |
@@ -251,11 +384,16 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | KVIST INDUSTRIES A/S | dimensione | Assetto proprietario non dichiarato: la societa' figura nel portafoglio del fondo di private equity danese Dansk Ejerkapital ed e' controllata tramite KVIST HOLDING A/S (CVR 21746886, Esbjerg). Il campo dimensione non menziona il legame di gruppo/par | https://www.danskejerkapital.dk/portefoelje/kvist-industries/ ; https://www.proff.dk/firma/kvist-industries-as/esbjerg/hovedkontortjenester/GMGAWAI10N | Aggiungere: controllata da KVIST HOLDING A/S, partecipata dal fondo Dansk Ejerkapital; fatturato non pubblicato (bilanci |
 | LILLEHEDEN A/S | dimensione | Controllata di gruppo: la societa' fa parte di Nordic Wood Industries A/S (CVR 37385603), che dal 12.05.2025 ha un nuovo adm. direktor di gruppo (Holger Carsten Hansen). Il legame e' gia' correttamente dichiarato nel campo, quindi non e' un errore di | https://nowi.dk/limtraesproducent-styrker-produktionen-markant/ ; https://www.proff.dk/firma/nordic-wood-industries-as/hampen/investeringsselskaper/0M | Aggiornare il bruttofortjeneste all'ultimo esercizio disponibile e valutare il lead a livello di Nordic Wood Industries  |
 | MULTIFORM A/S | dimensione | Controllata di gruppo: capogruppo BALLINGSLOV INTERNATIONAL DANMARK A/S (gruppo svedese Ballingslov International / Stena Adactum). Il legame e' gia' dichiarato correttamente nel record, quindi il rilievo riguarda la validita' del lead (compliance EU | https://www.proff.dk/firma/multiform-as/kib%C3%A6k/producenter/GLGFCDI016D - 'Multiform er en del af en koncern, hvor modervirksomheden er BALLINGSLOV |  |
+| NPI (Nordic Panel Import) | referente | Campo referente vuoto pur essendo il direktor reperibile nelle fonti pubbliche: risulta Theis Graves Larsen (uno dei due fondatori, 2002). | https://www.proff.dk/firma/npi-as/l%C3%B8sning/t%C3%B8mmer-tr%C3%A6last-og-byggevarer-agentur-og-engros/0MA0H6I10LA - direktor: Theis Graves Larsen ;  | Theis Graves Larsen, Direktor (da riconfermare al primo contatto) |
+| SIKA DESIGN A/S | dimensione | Dato di bilancio obsoleto: l'utile lordo di 29 M DKK e' riferito al 2021 (cinque esercizi fa) e la stima ricavi '~8-10 M€' non e' verificata. Anche il numero di addetti e' disallineato: le fonti aggiornate riportano 19 dipendenti / 17 FTE a novembre  | https://www.paqle.dk/p/sika-design-a-s/330977 (19 ansatte, 17 FTE nov. 2025) ; https://ownr.dk/companies/public-profile/31476712 | Aggiornare bruttofortjeneste e addetti all'ultimo bilancio disponibile |
+| SOFTLINE A/S | dimensione | Dato di margine lordo riferito al 2023 e stima ricavi '~12-18 M€' non verificata: la collocazione nella forbice target 5-40 M€ resta non dimostrata. DA CONFERMARE su bilancio piu' recente. Referente Finn Herluf Sorensen e stato 'Normal' della societa | https://ownr.dk/companies/public-profile/27266355 (status Normal) ; https://folketidende.dk/erhverv/produktudvikling-er-krumtappen-hos-softline-a-s (' |  |
+| SOMMER-SAVEX A/S | dimensione | Il campo dichiara 'fatturato non verificato / dati di bilancio non accessibili', ma i dati esistono e sono pubblici: bruttofortjeneste 13,06 M DKK nel 2024 (~1,75 M€) contro 14,82 M DKK nel 2023, con esercizio 2024-25 chiuso in perdita (-1,37 M DKK). | https://ownr.dk/companies/public-profile/13923795 ; https://vismarating.dk/firma/13923795-sommer-savex-as - 'bruttofortjeneste i 2024 pa 13.059.301 DK | Bruttofortjeneste 13,06 M DKK (2024, ~1,75 M€), risultato 2024-25 negativo; fatturato non pubblicato (classe B). Taglia  |
+| Skagerak Denmark A/S | dimensione | Dati economici obsoleti: utile lordo 53,7 M DKK riferito al 2021 e addetti al dicembre 2022, cioe' antecedenti o coevi all'acquisizione da parte di Fritz Hansen. La stima ricavi '~15-22 M€' non e' verificata e non e' piu' rappresentativa dell'assetto | https://estatistik.dk/virksomhed/skagerak-denmark-as/28855990 ; https://www.dezeen.com/2021/12/15/fritz-hansen-acquires-skagerak/ |  |
 | SØRENSEN LÆDER A/S (Sorensen Leather) | dimensione | Dato obsoleto e non allineato alla fonte: il record indica bruttofortjeneste 23,85 mio DKK (2022) e ca. 20 dipendenti, mentre la scheda proff.dk attuale (CVR 50828514) riporta bruttofortjeneste 13.056 tkr (13,06 mio DKK ≈ 1,75 M€) e 16 dipendenti. In | https://www.proff.dk/regnskab/s%C3%B8rensen-l%C3%A6der-as/lystrup/skind-l%C3%A6der-og-pels/GKJEN4I07RD — frammento: "Bruttofortjeneste: 13.056 tkr ... | Bruttofortjeneste 13,06 mio DKK (~1,75 M€) e 16 dipendenti — proff.dk, CVR 50828514 (ultimo bilancio disponibile); fattu |
 | TJOERNEHOEJ MOELLE A/S | dimensione | Fatturato recente NON reperito: il dato del foglio resta quello del 2003 (80 M DKK). In 3 ricerche l'unico bilancio individuato e' il PDF dell'esercizio 2011 su regnskaber.cvrapi.dk e menzioni di dati fino al 2014; nessuna cifra 2023-2025 emerge dall | https://regnskaber.cvrapi.dk/21057143/Y3ZyLmRrOi8vcGRmcy8zNDE3NTAxMjtBL1M1MDg2MTsyMDExMDEwMTsyMDExMTIzMTtSO1I.pdf - bilancio 01-01-2011/31-12-2011; ht |  |
 | VESTJYSK SPECIALFODER ApS | filiera | Perimetro EUDR DA CONFERMARE: l'oggetto sociale registrato e' generico ('handelsvirksomhed inden for specialfoder'), classificato proff.dk come 'engroshandel - annet'. Nessuna fonte pubblica conferma l'impiego di soia (unica commodity EUDR plausibile | https://royalfireworks.dk/forhandler/vestjysk-specialfoder-aps/ - scheda rivenditore fuochi d'artificio a Vemb; https://www.proff.dk/firma/vestjysk-sp |  |
 
-### Svezia (10)
+### Svezia (15)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -268,14 +406,26 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Brattby Sågverks AB | dimensione | Legame di gruppo non dichiarato: la società fa parte di una koncern con moderbolag Brattby Trading Aktiebolag. Fatturato 143,4 MSEK (~12,7 M€) e 32 dipendenti 2024 confermati. | allabolag.se (556415-5066): «företaget ingår i en koncern med moderbolag Brattby Trading Aktiebolag»; «omsättning 143,4 MSEK, vinst 11,3 MSEK, +26% (2 | Aggiungere: 'koncern con moderbolag Brattby Trading Aktiebolag' |
 | Brännfors Träförädling Aktiebolag | email | Email indicata come 'n.d.' benché l'azienda abbia una pagina contatti pubblica: dato mancante recuperabile. | https://brannforstraforadling.se/kontakta-oss/ — «Kontakta oss - Brännfors Träförädling»; tel. 0910-71 51 00, Ostvik 152, 934 91 Kåge |  |
 | Brännfors Träförädling Aktiebolag | referente | Referente e ruolo vuoti. Le fonti non indicano un VD registrato ma solo cariche di consiglio (Åsa Kärr; Lars Stefan Edström come ordförande): DA CONFERMARE chi sia il vertice operativo. | allabolag/proff (556103-8695): risultano ordförande/styrelseledamot Åsa Kärr e Lars Stefan Edström; nessun VD riportato. |  |
+| Bäckebrons Sågverk Aktiebolag | dimensione | Fatturato 2025 discordante tra le fonti (142.474 KSEK su allabolag vs 148.264 KSEK su altra fonte) e risultato crollato a 28 KSEK (-99,8%): il dato ≈12,6 M€ va indicato come stimato/DA CONFERMARE. Confermato invece il calo -66,7% sul 2024. | allabolag: «142 474 kSEK, -66,7% 2024→2025, resultat 28 kSEK (-99,8%)»; vf.se 31/07/2025 «Omsättningen tar fart – men resultatet sjunker för Bäckebron |  |
+| Ekstrands Dörrar & Fönster AB | dimensione | Lead di dubbia validità (non errore di dato): società di un gruppo di 6 società con capogruppo Ekstrand & Son Aktiebolag, correttamente dichiarata nel record. Tutti gli altri dati (167.769 KSEK 2025 ≈ 14,8 M€, 84 dip., VD Heidi Ekstrand) risultano co | allabolag.se (556570-0621): «84 anställda, resultat 1 565 KSEK, omsättning 167 769 KSEK (2025) ... ingår i en koncern med totalt 6 bolag, moderbolaget |  |
+| Fogia Collection Aktiebolag | dimensione | Lead di dubbia validità (non errore di dato): controllata di Scandinavian Design Partners AB, legame già dichiarato correttamente. Tutti i dati (108.304 KSEK 2024 ≈ 9,6 M€, risultato 15.276 KSEK, 18 dip. da 21 nel 2023, VD Franz Marcus Huber) risulta | allabolag.se (556204-6218): «omsättning 108 304 KSEK, resultat 15 276 KSEK (2024), 18 anställda ... ingår i en koncern där moderbolaget är Scandinavia |  |
+| Glimakra of Sweden AB | dimensione | Lead di dubbia validità (non errore di dato): controllata di Garpco Aktiebolag dal 2007, gruppo di 25 società con 311 addetti e 667,0 MSEK. Il legame è dichiarato ma il record lo sottodimensiona ('controllata di Garpco AB, con 2 sub-controllate'): la | allabolag.se koncern (556120-7837): «moderbolaget är Garpco Aktiebolag ... koncernen omfattar totalt 25 bolag med 311 anställda och 667,0 MSEK i omsät | Controllata di Garpco Aktiebolag (dal 2007), koncern di 25 società / 311 addetti / 667 MSEK |
+| Gärsnäs Aktiebolag | dimensione | Lead di dubbia validità (non errore di dato): controllata di Bordet i Stockholm Aktiebolag, legame già dichiarato correttamente. Esiste inoltre notizia stampa di cambio di proprietà ('Gärsnäs AB får ny ägare') di cui andrebbe verificata la data. Dati | allabolag.se (556044-4746): «moderbolaget är Bordet i Stockholm Aktiebolag»; «37 anställda, resultat 583 KSEK, omsättning 80 711 KSEK (2023)»; https:/ |  |
 | Horreds Möbel Aktiebolag | dimensione | Dato 2022 NON aggiornabile con certezza e anzi CONTRADDETTO. allabolag.se riporta oggi per Horreds Möbel AB (556365-1974) 45 dipendenti (contro i 50 del 2022) e un intervallo di fatturato 50.000-99.999 tkr, cioè 50-99,9 MSEK ≈ 4,4-8,8 M€: sarebbe una | https://www.allabolag.se/foretag/horreds-m%C3%B6bel-aktiebolag/horred/butiksinredningar-butiksutrustningar/2K0GDC6I5YDBD - '45 anställda ... omsättnin |  |
 
-### Olanda (2)
+### Olanda (9)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
+| Arco Meubelfabriek B.V. | referente | Referente da riconfermare: le fonti pubbliche indicano Jorre van Ast alla guida dell'azienda familiare dal 2011 come creative director, affiancato dal managing director Jan Tichelaar. 'F. van Ast' risulta solo dal dato Company.info (algemeen directeu | https://www.vno-ncw.nl/forum/meubelfabriek-arco-120-jaar-vallen-opstaan-en-weer-doorgaan - frammento: 'In 2011 kwam het familiebedrijf onder leiding v |  |
+| BeBo Parket B.V. | dimensione | Assetto proprietario incompleto: dal 2022 l'azienda e' partecipata dall'investitore Nobel Capital Partners insieme al management di seconda generazione. La partecipazione di private equity non e' dichiarata nel campo (solo il legame con BeBo Groep B. | https://www.vloerenbusiness.nl/vloerenspecialist-bebo-overgenomen-door-tweede-generatie/ - frammento: 'samen met investeerder Nobel Capital Partners' |  |
+| BeBo Parket B.V. | dimensione | Il fatturato di ca. 20 M EUR e' datato 2024 nel record, ma il dato di 20 milioni compare nell'articolo sul passaggio generazionale del 2022 (riferito all'esercizio precedente). Anno del dato DA CONFERMARE. | https://www.vloerenbusiness.nl/vloerenspecialist-bebo-overgenomen-door-tweede-generatie/ - frammento: 'Vorig jaar had Bebo Parket een omzet van 20 mil |  |
+| BeBo Parket B.V. | linkedin | Il link LinkedIn e' il profilo personale di Frans Bolier (nl.linkedin.com/in/frans-bolier-b64b394a), non la pagina aziendale di BeBo Parket. Trattandosi di un ex titolare uscito nel 2022, il link non e' utilizzabile. | https://nl.linkedin.com/in/frans-bolier-b64b394a - titolo: 'Frans Bolier - directeur mede-eigenaar beboparket BV' |  |
+| De Leeuw Huidenhandel N.V. | referente | Referente e ruolo assenti. Il direttore statutario iscritto al KVK e' una persona giuridica (LHST B.V., algemeen directeur dal 2022): manca un nome fisico per il contatto commerciale. Nei frammenti pubblici compare solo Christian Hossu (chossu@deleeu | https://companyinfo.nl/organisatieprofiel/groothandel-in-huiden-en-vellen/de-leeuw-huidenhandel-n-v-winterswijk-08011164-000017531705 - frammento: 'LH |  |
 | Origin Bridge (Barchem) | denominazione | Forma giuridica NON risolta dopo 3 ricerche: nessuna fonte pubblica indicizzata riporta la rechtsvorm né una denominazione legale con suffisso. Restano solo KVK 70878315 e P.IVA NL001587917B24 pubblicati dall'azienda stessa. La struttura del numero I | https://originbridge.coffee/legal-information/ e https://originbridge.coffee/contact/ - 'Heidehoflaan 2B, 7244AG Barchem, The Netherlands ... CoC: 708 |  |
 | Origin Bridge (Barchem) | email | L'email del foglio (info@bridgetoorigin.com) NON è quella principale del sito ufficiale: la pagina di contatto di originbridge.coffee indica come recapito dell'entità olandese europe@originbridge.coffee, tel. +31 85 301 6984. info@bridgetoorigin.com  | https://originbridge.coffee/contact/ - 'Origin Bridge Netherlands, Heidehoflaan 2B, 7244AG Barchem ... +31 85 301 6984 ... europe@originbridge.coffee' | europe@originbridge.coffee |
+| Rompa Tanneries B.V. | email | Email e sito legati al vecchio marchio (sales@rompa-tanneries.com / www.rompa-tanneries.com). Con la ridenominazione in Vitelco Leather il dominio di riferimento del gruppo e' vitelco.nl; il vecchio sito hulshof.com rimanda ancora a 'Rompa Tanneries' | http://www.hulshof.com/ (titolo pagina: 'Rompa Tanneries') e https://www.vitelco.nl/en/about-us |  |
+| Rompa Tanneries B.V. | referente | Referente e ruolo vuoti. Le fonti stampa locali citano Twan de Bie come 'directeur leerlooierij' dello stabilimento di Lichtenvoorde. DA CONFERMARE la carica attuale dopo il passaggio a Vitelco Leather. | https://www.gld.nl/nieuws/2414011/directeur-leerlooierij-laat-de-wethouder-bellen-dan-lossen-we-het-als-volwassen-mensen-op - frammento: 'De directeur |  |
 
 ### Belgio (18)
 
@@ -302,15 +452,16 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 
 ---
 
-## 5. Casi di gravità BASSA (30)
+## 6. Casi di gravità BASSA (41)
 
 _Refusi formali e incoerenze di stile._
 
 
-### Danimarca (10)
+### Danimarca (14)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
+| ALL CREATIVE A/S | referente | Nome del referente incompleto: l'adm. direktor registrato e' Mette Juhl Christensen. Email info@allcreative.dk e sede (vendite Islevdalvej 214, Rodovre; produzione Tulipvej 3, Vejle) risultano confermate. | https://www.proff.dk/firma/all-creative-as/r%C3%B8dovre/papir-og-papirprodukter-produktion/GSG8C7I10K1 (adm. direktor Mette Juhl Christensen) ; https: | Mette Juhl Christensen, Adm. direktor |
 | BØJSØ DØRE & VINDUER A/S | dimensione | Organico non allineato: le fonti reperite indicano 43 dipendenti, il record ne indica 41. Inoltre il campo non riporta alcun dato economico verificato (né fatturato né bruttofortjeneste): la collocazione in forbice 5-40 M€ resta una stima non verific | https://www.proff.dk/firma/b%C3%B8js%C3%B8-d%C3%B8re-vinduer-as/vorbasse/producenter/GJL0QJI016D — frammento: "Bøjsø doors and windows was founded in  | 43 dipendenti (proff.dk, CVR 12224494); dato economico da recuperare a bilancio |
 | COPENHAGEN CHOCOLATE FACTORY ApS | denominazione | IDENTITA' ANNOTATA CONFERMATA CORRETTA: CVR 32761844, Amager Landevej 123, 2770 Kastrup, costituita il 26-01-2010, ApS; opera con i binavne 'Simply Chocolate Copenhagen' e www.simplychocolate.dk; direttore Niels Ostenkaer; capogruppo SOLSTRA INVESTME | https://cvrapi.dk/virksomhed/dk/copenhagen-chocolate-factory-aps/32761844 ; https://www.simplychocolate.dk/pages/handelsbetingelser - 'www.simplychoco |  |
 | FREDERICIA FURNITURE A/S | dimensione | Refuso nell'unità di misura: "risultato ante imposte 6,5 M€ DKK" mescola euro e corone danesi. Il valore va espresso in una sola valuta. | Testo del campo dimensione del record stesso: "risultato ante imposte 6,5 M€ DKK" | risultato ante imposte 6,5 mio DKK (~0,87 M€) |
@@ -320,9 +471,12 @@ _Refusi formali e incoerenze di stile._
 | N. EILERSEN A/S | fonte | Il CVR corretto della societa' e' 35118519 (non indicato nel record, che non riporta il numero) e nel registro esiste anche una omonima 'Eilersen A/S' CVR 42555932: rischio di confusione tra le due entita' in fase di contatto/verifica. | https://ownr.dk/companies/public-profile/35118519 ; https://virmo.dk/firma/42555932-eilersen-as | Indicare esplicitamente CVR 35118519 per N. EILERSEN A/S |
 | NIELAUS A/S | dimensione | Numero di dipendenti non allineato alla fonte citata: la scheda proff.dk (CVR 35480943) riporta 19 addetti, il record ne indica 11. | https://www.proff.dk/firma/nielaus-as/bramming/m%C3%B8bler/GUJZBOI015G — frammento: "NIELAUS A/S is a furniture production company located at Vejrup S | 19 dipendenti (proff.dk, CVR 35480943) — verificare l'anno di riferimento |
 | NIELAUS A/S | email | DA CONFERMARE: l'indirizzo info@nielaus.dk non compare letteralmente in nessuna fonte pubblica reperita; la pagina Kontakt del sito ufficiale protegge l'indirizzo dagli spambot e non lo espone in chiaro nei frammenti. | https://www.nielaus.dk/da/om-os/kontakt — frammento: "Email: Available on their website (protected against spambots)" |  |
+| NPI (Nordic Panel Import) | denominazione | Ragione sociale imprecisa: la societa' e' registrata al CVR 37418730 come 'NPI A/S' (forma giuridica A/S, non ApS). Il record lascia il punto come non verificato. | https://www.proff.dk/firma/npi-as/l%C3%B8sning/t%C3%B8mmer-tr%C3%A6last-og-byggevarer-agentur-og-engros/0MA0H6I10LA (NPI A/S - CVR-nr 37418730 - Losni | NPI A/S (Nordic Panel Import) |
 | ONECOLLECTION A/S (House of Finn Juhl) | fonte | DA CONFERMARE: l'ID proff nell'URL citato (GXS757I015G) non coincide con quello della scheda ONECOLLECTION A/S CVR 29787786 reperita (GQYY8HI016D). L'URL potrebbe puntare a una scheda diversa/obsoleta. | https://www.proff.dk/firma/onecollection-as/ringk%C3%B8bing/producenter/GQYY8HI016D — titolo: "ONECOLLECTION A/S - CVR-nr 29787786 - Ringkøbing" | https://www.proff.dk/firma/onecollection-as/ringk%C3%B8bing/producenter/GQYY8HI016D |
+| Skagerak Denmark A/S | linkedin | Il link LinkedIn punta alla vecchia denominazione 'trip-trap-denmark-a-s'; il marchio comunica oggi come Skagerak (by Fritz Hansen). DA CONFERMARE quale pagina sia quella ufficiale attiva. | https://www.linkedin.com/company/trip-trap-denmark-a-s (denominazione storica) ; https://www.dezeen.com/2021/12/15/fritz-hansen-acquires-skagerak/ |  |
+| VERMUND LARSEN A/S (VELA / VERMUND) | sito | Disallineamento tra i canali: il sito indicato (vermund.eu) e' quello del solo marchio di design 'Vermund', mentre il sito istituzionale della societa' e del marchio principale e' vela.dk (coerente con l'email mail@vela.dk e con la pagina LinkedIn 'v | https://www.vela.dk/om-vela ; https://estatistik.dk/virksomhed/vermund-larsen-as/52796628/roller - 'Ny Vela Holding ApS tiltradte som ejer 100% af vir | https://www.vela.dk/ (con vermund.eu come sito del marchio design) |
 
-### Svezia (8)
+### Svezia (15)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -331,7 +485,14 @@ _Refusi formali e incoerenze di stile._
 | Blå Station Aktiebolag | sito | Dominio ufficiale da verificare: il sito istituzionale che compare nelle fonti è blastation.com (pagina 'Company'), mentre il record indica blastation.se. | https://blastation.com/company — «Company \| Blå Station» | https://blastation.com/ |
 | Brattby Sågverks AB | referente | Nome del VD incompleto rispetto al registro: risulta Anne Marie Bergstrand (il record riporta solo 'Marie Bergstrand'). | allabolag.se befattningar: «VD: Anne Marie Bergstrand, 47 år» — https://www.allabolag.se/5564155066/befattningar | Anne Marie Bergstrand |
 | Brattby Sågverks AB | linkedin | URL LinkedIn con slug anomalo (brattby-s-gverks-ab) non riscontrato in nessuna fonte: DA CONFERMARE che la pagina aziendale esista. | Nessun risultato LinkedIn nelle ricerche su 'Brattby Sågverks AB'; le fonti reperite sono allabolag, bolagsfakta, byggkatalogen, merinfo. |  |
+| Bäckebrons Sågverk Aktiebolag | referente | Nome del VD incompleto rispetto al registro: risulta Rolf Stefan Gillberg (extern VD). | allabolag/syna (556099-7008): «extern VD är Rolf Stefan Gillberg» | Rolf Stefan Gillberg |
+| Drömtrappor AB | referente | Nome del VD incompleto rispetto al registro: Johan Ludvig Gösta Jonsson. | allabolag/bolagsfakta (556309-7038): «VD är Johan Ludvig Gösta Jonsson» | Johan Ludvig Gösta Jonsson |
+| Ekstrands Dörrar & Fönster AB | linkedin | Campo LinkedIn vuoto benché esista una pagina aziendale pubblica. | https://se.linkedin.com/company/ekstrand-&-son-ab — titolo «Ekstrands Dörrar & Fönster AB \| LinkedIn» | https://se.linkedin.com/company/ekstrand-&-son-ab |
+| Fegens Sågverk AB | linkedin | URL LinkedIn con prefisso regionale 'ca.' (Canada) su azienda svedese: incoerente e da riportare al dominio se./www. La pagina non è stata riscontrata in nessuna fonte — DA CONFERMARE che esista. | Record: https://ca.linkedin.com/company/fegens-s%C3%A5gverk-ab ; nelle ricerche su 'Fegens Sågverk' non compare alcuna pagina LinkedIn (solo allabolag |  |
+| Fegens Sågverk AB | referente | Nome del VD incompleto rispetto al registro: Lars Johan Andersson. Fatturato 189.377 KSEK (2025) ≈ 16,8 M€ e 28 dipendenti confermati. | allabolag.se befattningar (556080-4857): «Lars Johan Andersson, 38 år, VD»; «omsättning 189 377 KSEK, resultat 1 722 KSEK, 28 anställda (2025)» | Lars Johan Andersson |
+| Gyllsjö Träindustri AB | denominazione | Ragione sociale di registro imprecisa: il registro riporta 'Aktiebolaget Gyllsjö Träindustri' (org.nr 556083-9671). Dati economici confermati (303.142 KSEK ≈ 26,8 M€, risultato 22.414 KSEK, 82 dip. 2024; VD Björn Olsson Lissner). | https://www.bolagsfakta.se/5560839671-Aktiebolaget_Gyllsjo_Traindustri — «Aktiebolaget Gyllsjö Träindustri ... omsättning 303 142 KSEK, resultat 22 41 | Aktiebolaget Gyllsjö Träindustri |
 | Gärsnäs Aktiebolag | referente | RICONFERMATO, nessuna correzione necessaria. Magnus Eriksson risulta tuttora VD di Gärsnäs Aktiebolag (556044-4746) e Dag Klockby styrelseordförande, coerentemente con l'annuncio ufficiale del sito (VD dal 01-01-2023, in precedenza platschef per quas | https://garsnas.se/en/new-ceo-at-garsnas/ ('Ny vd på Gärsnäs'); https://www.bolagsfakta.se/5560444746-Garsnas_Aktiebolag - 'Magnus Eriksson är VD ...  | Magnus Eriksson, VD (confermato) |
+| Hjältevadshus AB | referente | Referente confermato (Johan Bynell, VD; ordförande Magnus Agervald) ma la nomina è annunciata da Pulsen Group: verificare che sia ancora in carica alla data di uso del lead. | https://www.mynewsdesk.com/se/pulsen/pressreleases/johan-bynell-ny-vd-paa-hjaeltevadshus-2948844 ; allabolag befattningar: «VD Johan Bynell, ordförand |  |
 | Horreds Möbel Aktiebolag | denominazione | Società CONFERMATA ATTIVA (scheda allabolag corrente, nessuna procedura concorsuale rilevata). Va però esplicitato il legame di gruppo: la capogruppo è Horreds Holding AB (esiste anche Horreds Möbel Utvecklings AB, 559016-3324). Nel foglio si legge g | https://www.allabolag.se/5563651974/koncern e frammento allabolag: 'moderbolag är Horreds Holding AB'; https://www.allabolag.se/5590163324/horreds-mob | Indicare la capogruppo: Horreds Holding AB |
 | Tärnsjö Garveri Aktiebolag | dimensione | Numero dipendenti non allineato alla fonte: il record indica 43 dipendenti (2024), allabolag riporta 46. | allabolag.se: «Tärnsjö Garveri Aktiebolag har 46 anställda». Fatturato 51,9 MSEK 2024 (+6%) confermato. | 46 dipendenti |
 

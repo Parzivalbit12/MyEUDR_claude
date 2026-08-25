@@ -105,9 +105,48 @@ def main():
     for f, n in fc.most_common():
         o.append(f"| {esc(f)} | {n} | {fa[f]} |")
 
+    # ---------- tema trasversale: legami di gruppo ----------
+    recs = {(r["_sheet"], r["denominazione"]): r
+            for r in json.load(open(os.path.join(HERE, "_records.json"), encoding="utf-8"))}
+    GRP = re.compile(r"controllat|capogruppo|gruppo|koncern|datterselskab|dotterbolag|moderbolag|"
+                     r"onderdeel van|dochter|Tochter|Konzern|part of|acquisit|maggioranza di|"
+                     r"holding|ejet af|ägs av", re.I)
+    KEY = re.compile(r"grupp|koncern|controllat|capogruppo|moderbolag|dotterbolag|datterselskab|"
+                     r"indipendent|holding|acquisit|proprietar|assetto|Stora Enso|DLG|Inwido|"
+                     r"Ballingslöv|Orkla|Profura|Pulsen|ACO", re.I)
+    gr = [r for r in R if KEY.search(str(r.get("problema","")) + " " + str(r.get("campo","")))]
+    if gr:
+        o.append(f"\n---\n\n## 3. Tema trasversale — legami di gruppo ({len(gr)} rilievi)\n")
+        o.append("È il problema **più diffuso e meno atteso** emerso dalla verifica: non era fra i "
+                 "13 punti noti dell'handoff. Numerose aziende del censimento sono controllate di "
+                 "gruppi, spesso esteri o quotati. Per il criterio già applicato dal progetto — che "
+                 "aveva rimosso Lavazza Kaffee, Segafredo Zanetti Austria e Kaffee Partner Austria "
+                 "perché *«la compliance si decide a livello di gruppo, non nella filiale»* — sono "
+                 "**lead di valore dubbio**.\n")
+        o.append("La tabella distingue i due casi, che non hanno la stessa gravità:\n")
+        o.append("- **DICHIARATO** — il campo `Dimensione` del foglio già segnala il legame. "
+                 "Non è un errore di dato: la raccolta ha fatto quel che le regole chiedevano "
+                 "(*«segnalare sempre i legami di gruppo»*). È una **decisione di selezione** "
+                 "che spetta al cliente.\n")
+        o.append("- **NON DICHIARATO / ERRATO** — il legame manca del tutto, oppure la capogruppo "
+                 "indicata è sbagliata. Questo **è** un errore di dato.\n")
+        o.append("| Foglio | Azienda | Stato nel foglio | Rilievo |")
+        o.append("|---|---|---|---|")
+        for r in sorted(gr, key=lambda x: (str(x.get("foglio")), str(x.get("denominazione")))):
+            k = (r.get("foglio"), r.get("denominazione"))
+            rec = recs.get(k)
+            if rec is None:
+                for (sh, dn), v in recs.items():
+                    if sh == r.get("foglio") and dn.lower().startswith(str(r.get("denominazione"))[:14].lower()):
+                        rec = v; break
+            stato = "— (record non risolto)" if rec is None else (
+                "**dichiarato**" if GRP.search(rec.get("dimensione","")) else "**NON dichiarato**")
+            o.append(f"| {esc(r.get('foglio'))} | {esc(r.get('denominazione'))[:40]} | {stato} | "
+                     f"{esc(r.get('problema'))[:200]} |")
+
     # ---------- casi alta ----------
     alte = [r for r in R if r["gravita"] == "alta"]
-    o.append(f"\n---\n\n## 3. Casi di gravità ALTA ({len(alte)})\n")
+    o.append(f"\n---\n\n## 4. Casi di gravità ALTA ({len(alte)})\n")
     o.append("_Dato falso, azienda non contattabile, azienda cessata/fallita/acquisita, "
              "oppure fuori dal perimetro dell'Allegato I EUDR._\n")
     if not alte: o.append("_Nessuno._")
@@ -124,8 +163,8 @@ def main():
 
     # ---------- media / bassa ----------
     for g, tit, nota in (
-        ("media","4. Casi di gravità MEDIA","_Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente errato._"),
-        ("bassa","5. Casi di gravità BASSA","_Refusi formali e incoerenze di stile._")):
+        ("media","5. Casi di gravità MEDIA","_Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente errato._"),
+        ("bassa","6. Casi di gravità BASSA","_Refusi formali e incoerenze di stile._")):
         rs_all = [r for r in R if r["gravita"] == g]
         o.append(f"\n---\n\n## {tit} ({len(rs_all)})\n")
         o.append(nota + "\n")
