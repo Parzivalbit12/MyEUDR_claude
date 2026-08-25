@@ -1,0 +1,47 @@
+[
+ {
+  "foglio": "Austria",
+  "denominazione": "Ludwig Reiter Schuhmanufaktur GmbH",
+  "campo": "email",
+  "problema": "L'indirizzo office@ludwig-reiter.com non compare nell'Impressum aziendale, che riporta reiter@ludwig-reiter.com come recapito di contatto.",
+  "gravita": "media",
+  "evidenza": "https://www.ludwig-reiter.com/de/impressum - frammento: \"telephone +43-1-2559300, fax +43-1-2559300-77, and email reiter@ludwig-reiter.com\"",
+  "correzione_proposta": "reiter@ludwig-reiter.com"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Tschurtschenthaler Gerberei GmbH",
+  "campo": "email",
+  "problema": "Nessuna e-mail pubblica reperibile (campo 'n.d.') e nessun sito web aziendale: il lead non e' contattabile per via digitale. Le fonti pubbliche (WKO, herold.at, cylex, yelp) riportano solo indirizzo e telefono.",
+  "gravita": "alta",
+  "evidenza": "https://firmen.wko.at/tschurtschenthaler-gerberei-gmbh/k%C3%A4rnten/ - la scheda WKO riporta solo indirizzo Bach 17, 9623 St. Stefan/Gailtal e telefono 04283 20..., nessuna e-mail ne' sito",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Tschurtschenthaler Gerberei GmbH",
+  "campo": "sito",
+  "problema": "Sito aziendale assente ('n.d.'): nessun dominio proprio individuato nelle fonti pubbliche, solo schede di directory (herold, cylex, europages).",
+  "gravita": "media",
+  "evidenza": "https://www.herold.at/gelbe-seiten/st-stefan-im-gailtal/RZ2RJ/tschurtschenthaler-gerberei-gmbh/ - scheda senza URL aziendale",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Waldviertler Werkstätten GmbH",
+  "campo": "dimensione",
+  "problema": "Dato di fatturato datato (2016-2019) e non riconciliato: le fonti citano 31 Mio EUR di ricavi 2016 riferiti all'universo GEA e, per la controllante Heinrich Staudinger GmbH, un totale di bilancio 2024 di 5,45 Mio EUR. Il perimetro societario del dato (Waldviertler Werkstätten GmbH vs gruppo GEA) non e' chiarito.",
+  "gravita": "media",
+  "evidenza": "https://www.firmenabc.at/heinrich-staudinger-gmbh-gea-waldviertler_NTLA - frammento: \"balance sheet total of EUR 5.454.811,76 as of December 31, 2024\"; https://noe.orf.at/v2/news/stories/2752834/ - \"31 million euros in annual revenue in 2016\"",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "BRAUN LOCKENHAUS GmbH",
+  "campo": "dimensione",
+  "problema": "Filiale di gruppo estero: la societa' e' controllata da SCHNEEWEISS AG / SCHNEEWEISS interior, con sede del gruppo a Kippenheim (Baden-Württemberg, DE), dal 2006. La decisione di compliance EUDR si assume a livello di capogruppo tedesca. Il legame e' pero' gia' dichiarato nel campo dimensione, quindi il rilievo e' di gravita' media e non alta.",
+  "gravita": "media",
+  "evidenza": "https://www.braunlockenhaus.at/en/imprint - frammento: \"Geschäftsführer Jochen Joachims und Gesellschafter SCHNEEWEISS AG\"; \"Braun Lockenhaus is part of the Schneeweiß Interior corporate group with headquarters in Kippenheim, Baden-Württemberg... since 2006\"",
+  "correzione_proposta": ""
+ }
+]

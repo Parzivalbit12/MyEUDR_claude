@@ -70,5 +70,41 @@
   "gravita": "media",
   "evidenza": "Nessun dato di fatturato nei frammenti; scheda https://www.ufficiocamerale.it/9084/conceria-daniela-srl senza cifre nei risultati",
   "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Conceria Emmedue",
+  "campo": "denominazione",
+  "problema": "Manca la forma giuridica: al Registro Imprese la ragione sociale è 'CONCERIA EMMEDUE S.R.L.' (P.IVA 00793250242).",
+  "gravita": "bassa",
+  "evidenza": "https://www.ufficiocamerale.it/1739/conceria-emmedue-srl — 'CONCERIA EMMEDUE SRL, Partita IVA: 00793250242'",
+  "correzione_proposta": "Conceria Emmedue S.r.l."
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Conceria Emmedue",
+  "campo": "dimensione",
+  "problema": "Campo 'n.d.': il fatturato reale è ~4,2M€ (2025), quindi SOTTO la forbice target 5-40M€. Lead sottodimensionato, da declassare.",
+  "gravita": "media",
+  "evidenza": "https://www.reportaziende.it/conceria_emmedue_srl_vi_00793250242 — 'fatturato 4,2 milioni di euro (2025), utile netto 231,6 mila €, +10,2% sull'anno precedente'",
+  "correzione_proposta": "≈4,2M€ (fatturato 2025) — sotto forbice target"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Conceria Ferrari S.r.l.",
+  "campo": "dimensione",
+  "problema": "Manca l'anno di riferimento; il dato aggiornato di bilancio 2023 è 20,52M€ (utile 1,15M€, 20-49 dipendenti), non 19,9M€.",
+  "gravita": "bassa",
+  "evidenza": "https://registroaziende.it/azienda/conceria-ferrari-srl-chiampo — 'fatturato 2023: 20,52 milioni; utile 1,15 milioni (-28%)'; https://www.aziende.it/conceria-ferrari-s-r-l 'Fascia Fatturato 10-25 milioni'",
+  "correzione_proposta": "≈20,5M€ (fatturato 2023, Registro Imprese)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Conceria Italia S.p.A.",
+  "campo": "fonte",
+  "problema": "L'URL indicato (www.conceriaitalia.com/contatti) non risulta essere la pagina contatti del sito: la pagina CONTATTI pubblicata è /nuova-pagina. Link probabilmente non valido.",
+  "gravita": "bassa",
+  "evidenza": "Risultato di ricerca: 'CONTATTI — Conceria Italia' → https://www.conceriaitalia.com/nuova-pagina",
+  "correzione_proposta": "https://www.conceriaitalia.com/nuova-pagina"
  }
 ]

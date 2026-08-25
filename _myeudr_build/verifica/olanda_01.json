@@ -187,5 +187,68 @@
   "gravita": "media",
   "evidenza": "https://www.dennebosflooring.com/en/about-us/ - frammento: 'About 30 employees produce their wooden floors for various clients, both in and outside Europe'",
   "correzione_proposta": "ca. 30 dipendenti (fonte dennebosflooring.com, 2025)"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Houthandel Jos Dennebos B.V.",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti. Il socio unico e' la persona giuridica Jos Dennebos Exploitatie B.V.; il fondatore storico e' Jos Dennebos (attivo anche in Dennebos Suriname). Nome e carica del directeur attuale DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://companyinfo.nl/organisatieprofiel/groothandel-in-hout-en-plaatmateriaal/houthandel-jos-dennebos-b-v-raalte-05073894-000016548884 e https://www.dennebosflooring.com/en/about-us/ - frammento: 'Dennebos Flooring was set up as a sawmill in Raalte in 1991. The founder's name is Jos Dennebos'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Houtimport Lekkerkerker B.V.",
+  "campo": "dimensione",
+  "problema": "Il campo deduce la fascia 10-20 M EUR dal volume (ca. 200.000 m3/anno) senza alcuna fonte di fatturato: la stima non e' sostenuta e va marcata come tale. Il volume in se' e' l'unico dato dichiarato con tipo e fonte.",
+  "gravita": "bassa",
+  "evidenza": "https://www.houtimportlekkerkerker.nl/ e https://www.creditsafe.com/business-index/en-us/company/houtimport-lekkerkerker-bv-nl01698016 (nessun fatturato pubblicato)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Houtimport Reuver B.V.",
+  "campo": "dimensione",
+  "problema": "Anno di fondazione errato: il record indica 1987, ma l'azienda e' stata fondata il 1 aprile 1973 dai fratelli Jac e Wiel Schoolmeesters come commercio di pannelli truciolari.",
+  "gravita": "media",
+  "evidenza": "https://www.houtimportreuver.nl/ - frammento: 'opgericht op 1 april 1973 door de gebroeders Jac en Wiel Schoolmeesters'",
+  "correzione_proposta": "Fondata il 01/04/1973"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Houtimport Reuver B.V.",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti (algemeen directeur iscritto e' la persona giuridica Gebrs. Schoolmeesters Holding B.V.). Nelle fonti aperte compare Tim Schoolmeesters in relazione alla direzione dell'azienda: nome DA CONFERMARE come directeur attuale.",
+  "gravita": "media",
+  "evidenza": "https://companyinfo.nl/organisatieprofiel/groothandel-in-hout-en-plaatmateriaal/houtimport-reuver-b-v-reuver-12024480-000019946104 e https://appartme.nl/artikel4 (citazione di Tim Schoolmeesters per Hout Import Reuver)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Houtplex B.V.",
+  "campo": "dimensione",
+  "problema": "Controllata di gruppo estero: Houtplex appartiene al gruppo Wood United, con sede a Singapore; dal febbraio 2019 le quote sia di Houtplex sia di Wood United sono di Timothy Paul, che ha rilevato la partecipazione di Jan Kersten. Il legame di gruppo e' gia' dichiarato correttamente nel record, ma la compliance EUDR si decide a livello di capogruppo (extra-UE): il lead va riqualificato.",
+  "gravita": "media",
+  "evidenza": "https://www.houtwereld.nl/nieuws/houtplex-en-wood-united-overgenomen/ - frammento: 'Timothy Paul heeft de aandelen in Houtplex (Haaksbergen) en Wood United (Singapore) overgenomen van Jan Kersten'; https://woodunited.com/over-ons/",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Houtplex B.V.",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti. Le fonti indicano Timothy Paul come titolare della gestione quotidiana di Houtplex dopo l'uscita del precedente directeur Koen Kersten (passato a Kegro Deuren); Ruud van Oene, commercieel directeur, e' andato in pensione. DA CONFERMARE la carica attuale prima del contatto.",
+  "gravita": "media",
+  "evidenza": "https://www.houtwereld.nl/nieuws/houtplex-en-wood-united-overgenomen/ - frammento: 'Timothy Paul heeft de dagelijkse leiding van Houtplex overgenomen. Houtplex-directeur Koen Kersten heeft dit bedrijf inmiddels verlaten'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "L. Verhoeven's Emballagefabriek en Houthandel B.V.",
+  "campo": "dimensione",
+  "problema": "Appartenenza a gruppo non dichiarata: l'azienda opera in gruppo con la consociata Zagerij Verhoeven (Harskamp) e con Kist&Co (Ridderkerk) e Harskamp Timber (Harskamp). Il campo la presenta come singola azienda familiare: la struttura di gruppo incide sia sul perimetro EUDR (segheria a monte) sia sul dimensionamento.",
+  "gravita": "alta",
+  "evidenza": "https://verhoeven-emballage.nl/en/about-us/ - frammento: 'works closely with sister company Zagerij Verhoeven in Harskamp; the group also includes Kist&Co in Ridderkerk and Harskamp Timber in Harskamp'",
+  "correzione_proposta": "Gruppo Verhoeven: Zagerij Verhoeven (Harskamp), Kist&Co (Ridderkerk), Harskamp Timber (Harskamp)"
  }
 ]

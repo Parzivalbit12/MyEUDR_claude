@@ -395,3 +395,110 @@ con copertura 19/19, 17/17 e 16/16.
   **BAG Ölmühle** (33-35 M€ con ~25 addetti) è il maggiore oleificio di soia austriaco: lead primario.
 - Per le segherie il campo `dimensione` riporta spesso i **volumi di taglio (fm/anno)** quando il
   fatturato non è pubblicato: per l'esposizione EUDR è un indicatore più significativo del fatturato.
+
+---
+
+## 16. VERIFICA QUALITÀ — esito (sessione di controllo)
+
+Controllo qualità **record per record** dell'intero censimento, su branch
+`claude/myeudr-lead-quality-check-r1lx7u` (PR #1). Non era una raccolta di nuove aziende:
+era la caccia a refusi, attribuzioni errate ed errori introdotti durante la raccolta.
+Tutti i materiali stanno in **`_myeudr_build/verifica/`**; il documento di sintesi è
+**`REPORT_VERIFICA.md`**.
+
+### Com'è organizzata la verifica
+
+| File | Contenuto |
+|---|---|
+| `REPORT_VERIFICA.md` | **il deliverable**: sintesi per foglio, conteggi per gravità, casi `alta` con evidenza, correzioni proposte |
+| `00_controlli_automatici.md` | Fase A: 26 controlli deterministici offline sul 100% dei 742 record |
+| `01_analisi_dimensione.md` | analisi del campo `Dimensione`: tipo di dato dichiarato, anno, obsolescenza |
+| `00_punti_noti.json` | verifica dei 13 punti lasciati aperti dalla raccolta |
+| `<foglio>_<blocco>.json` | rilievi grezzi di ciascun agente di Fase B |
+| `MANDATO_AGENTE.md` | il mandato dato agli agenti — **riusabile** per completare i blocchi mancanti |
+| `blocchi/` | i 42 blocchi di lavoro (15-20 record ciascuno) in cui è diviso il censimento |
+
+Script (tutti rieseguibili):
+`controlli_automatici.py` (Fase A) · `analisi_dimensione.py` ·
+`aggrega_rilievi.py` / `genera_report.py` / `monta_report.py` (report) ·
+**`applica_correzioni.py`** (applica le correzioni certe).
+
+### Esito della Fase A: l'integrità del censimento regge
+
+Zero duplicati (né fra fogli né fra JSON), zero entità HTML, zero URL malformati, zero email
+sintatticamente errate, zero numeri di registro rimasti nelle denominazioni, zero fonti vuote,
+**zero divergenze fra i JSON di build e i fogli Excel**. La pipeline `add_country.py` è coerente.
+I rilievi riguardano qualità redazionale, non integrità.
+
+### ⚠️ Il problema principale trovato: i legami di gruppo
+
+**Non era fra i 13 punti noti.** Molte aziende del censimento sono **controllate di gruppi**,
+spesso esteri o quotati. Per il criterio che il progetto stesso aveva già applicato — rimuovendo
+Lavazza Kaffee, Segafredo Zanetti Austria e Kaffee Partner Austria perché *«la compliance si decide
+a livello di gruppo, non nella filiale»* — sono lead di valore dubbio.
+
+Vanno però distinti due casi, che **non hanno la stessa gravità**:
+- **legame già dichiarato** nel campo `Dimensione` → non è un errore di dato. La raccolta ha fatto
+  quel che le regole chiedevano (§8: *«segnalare sempre i legami di gruppo»*). È una **decisione di
+  selezione che spetta al cliente**.
+- **legame non dichiarato, o capogruppo sbagliata** → **è** un errore di dato.
+
+Casi accertati con fonte: Tjørnehøj Mølle (gruppo **DLG**, cioè uno dei big esplicitamente esclusi),
+Naturli' Foods (gruppo **Dragsbæk/Orkla**, lo stesso per cui Dragsbæk era stata rimossa),
+Bangma Verpakking (oggi **Stora Enso** via De Jong Packaging), Hvidbjerg Vinduet (gruppo tedesco
+**ACO** — e la capogruppo indicata nel foglio era *sbagliata*), Timberman Denmark (svedese quotato
+**Volati AB** dal 12/2024, non più Corticeira Amorim), Skagerak Denmark (**Fritz Hansen**, tra i big
+esclusi), Sas NV (**Nimbus Investments** dal 05/2024), Tärnsjö Garveri (dichiarata «principale
+conceria indipendente» ma ha moderbolag Axel Bodéns Handels AB), Bäckebrons e Balungstrands Sågverk
+(capogruppo indicata fallita: oggi **Profuragruppen AB**), Tannerie Masure (**Groupe Saturne**, FR).
+
+Il secondo problema ricorrente sono i **referenti superati**: nomi che erano il vertice al momento
+della raccolta e oggi non lo sono più (Aubo Production, Hvidbjerg Vinduet, Hørning Parket,
+Klim Furniture, N. Eilersen, Extremis, Bulo).
+
+### Correzioni applicate al workbook
+
+Applicate **solo le correzioni certe** ammesse dal mandato (refusi formali, entità HTML, forme
+giuridiche, filiere fuori Allegato I, aziende cessate). Tutto il resto è rimasto **rilievo aperto
+nel report**, non toccato nei fogli.
+
+- **21 filiere finlandesi** ricondotte alla tassonomia standard: le varianti storiche
+  (`Legno/Compensato-Prodotti`, `Legno/Segheria-Piallatura`, `Legno/CLT`, `Legno/Commercio-export`,
+  `Legno/Piallatura`) → `Legno/Arredo` e `Legno/Segheria`. La riconduzione non è arbitraria: gli
+  altri **sette fogli sono unanimi** nel classificare compensato, impiallacciature, finestre/porte,
+  parquet, glulam e CLT sotto `Legno/Arredo — <dettaglio>`.
+- **2 filiere italiane**: `Caffè (import caffè verde)` → `Caffè — import caffè verde`.
+- **4 refusi formali danesi**: `6,5 M€ DKK` di Fredericia Furniture (mescolava le due valute) →
+  `6,5 M DKK (≈0,87 M€)`; **`Just Coffee` → `Just Coffee I/S`** (interessentskab, CVR 35492380 —
+  la ragione sociale che la raccolta aveva lasciato non verificata) con la riserva sciolta nel
+  campo `dimensione`; prefisso LinkedIn `de.` → `dk.` per Innovation Living.
+
+Dopo l'applicazione: **742 righe invariate**, ordine dei fogli ripristinato.
+
+⚠️ **Attenzione per chi riprende**: `applica_correzioni.py` usa **due percorsi diversi**, perché i
+fogli non hanno tutti la stessa origine:
+- **DK/SE/NL/BE/AT** hanno i JSON di build → si corregge il JSON e si rigenera con `add_country.py`
+  (rigenerazione verificata **identica** riga per riga).
+- **IT/DE/FI** esistono **solo** come foglio Excel → si corregge **la cella in posto**. Rigenerarli
+  da un JSON esportato **riordinerebbe le righe** già consegnate (verificato: l'ordine interno ai
+  gruppi-filiera non è alfabetico e non si conserva).
+
+Ogni correzione ha un **controllo di guardia**: lo script confronta il valore attuale con quello
+atteso e **salta** la correzione se non coincidono. Così è rieseguibile senza rischi.
+
+### Cosa resta da fare
+
+La Fase A copre il **100%** dei record. La **Fase B è parziale**: il limite di sessione degli agenti
+si è riattivato ancora (uccidendo 2 agenti a metà lavoro), quindi non tutti i 42 blocchi sono stati
+verificati. Lo stato di avanzamento è nella **§1 del `REPORT_VERIFICA.md`**, che elenca blocco per
+blocco quali sono fatti.
+
+**Per continuare:** prendere un blocco non ancora verificato da `_myeudr_build/verifica/blocchi/`,
+lanciare un agente con il testo di `MANDATO_AGENTE.md` + i promemoria specifici del paese, e far
+scrivere `_myeudr_build/verifica/<nome_blocco>.json`. Poi rilanciare `monta_report.py`.
+Regole che hanno funzionato e vanno mantenute:
+1. **massimo 2-3 agenti per volta** (il limite si è riattivato 9 volte in tutto il progetto);
+2. **salvataggio incrementale obbligatorio** nel prompt («scrivi il file ogni 3-4 record»): è ciò
+   che ha salvato il lavoro quando due agenti sono stati interrotti;
+3. dire subito all'agente che **registri e siti sono irraggiungibili** (403 di egress) e che
+   funziona **solo WebSearch**, altrimenti spreca il budget in tentativi WebFetch.
