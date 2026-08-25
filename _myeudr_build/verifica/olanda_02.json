@@ -187,5 +187,68 @@
   "gravita": "bassa",
   "evidenza": "https://es.panjiva.com/Daarnhouwer-Co-B-V/34001367 - 'Daarnhouwer & Co B.V., Zaandam, 1511 Oostzaan, Netherlands'; indirizzo pubblicato Korte Hogendijk 18, 1506 MA Zaandam",
   "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Dietz Cacao Trading B.V.",
+  "campo": "ruolo",
+  "problema": "Il referente indicato non e il vertice statutario: Jordy Kuijpers e Sales Director (sales & purchase), non directeur/bestuurder della B.V. Per un contatto di compliance EUDR serve il directeur statutario, non reperito nelle fonti pubbliche consultate.",
+  "gravita": "media",
+  "evidenza": "https://rocketreach.co/jordy-kuijpers-email_222834060 - 'Jordy Kuijpers ... DIETZ CACAO TRADING Sales Director'; https://nl.linkedin.com/in/jcjkuijpers",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Dietz Cacao Trading B.V.",
+  "campo": "dimensione",
+  "problema": "Azienda sotto la forbice target: 5 dipendenti, fatturato non pubblicato (deposito abbreviato). Il campo dichiara esplicitamente il limite ('Sotto la fascia ideale per organico'), quindi il rilievo e solo di conferma: nessun dato consente di collocarla nella fascia 5-40 M€.",
+  "gravita": "bassa",
+  "evidenza": "https://www.oozo.nl/bedrijven/heerlen/heerlen-centrum/heerlen-centrum/171578/dietz-cacao-trading-b-v",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Facta International B.V.",
+  "campo": "referente",
+  "problema": "Referente da riconfermare: Ben Dekker risulta effettivamente Director di Facta International BV, ma la scheda FCC/Kompass indica come MD/Chief Operating Officer il sig. A.A. Molenaar. Va chiarito chi sia il bestuurder statutario prima del contatto.",
+  "gravita": "media",
+  "evidenza": "https://gb.kompass.com/c/facta-international-b-v/nl507577/ - 'Mr A.A. Molenaar - MD/Chief Operating Officer'; https://www.linkedin.com/in/ben-dekker-9789176/ - 'Ben Dekker - Facta International BV'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Facta International B.V.",
+  "campo": "email",
+  "problema": "Email indicata come 'n.d.' mentre e pubblicata una casella nominativa attiva sul dominio aziendale: a.molenaar@facta-international.com. Il lead e quindi contattabile.",
+  "gravita": "media",
+  "evidenza": "https://gb.kompass.com/c/facta-international-b-v/nl507577/ - 'a.molenaar@facta-international.com'; telefono +31 (0)75 681 80 40",
+  "correzione_proposta": "a.molenaar@facta-international.com"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Gaia Cacao B.V.",
+  "campo": "sede",
+  "problema": "Sede incoerente: il record indica Amsterdam / Duivendrecht (Noord-Holland), ma il registro riporta anche Gaia Cacao B.V. a Nieuwegein (Utrecht) sotto lo stesso KVK 78049636. Possibile trasferimento di sede non recepito.",
+  "gravita": "media",
+  "evidenza": "https://www.northdata.com/Gaia%20Cacao%20B%C2%B7V%C2%B7,%20Nieuwegein/KVK%2078049636 - 'Gaia Cacao B.V., Nieuwegein, Netherlands - KVK 78049636'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Gaia Cacao B.V.",
+  "campo": "dimensione",
+  "problema": "Il campo dichiara 'n. dipendenti non pubblicato': il dato e invece disponibile (ca. 8 dipendenti, Creditsafe/Kompass) e conferma la costituzione nel 2020. Resta comunque un'azienda sotto la forbice 5-40 M€, come gia segnalato nel campo.",
+  "gravita": "bassa",
+  "evidenza": "https://www.creditsafe.com/business-index/en-gb/company/gaia-cacao-bv-nl05437910 - 'Gaia Cacao has approximately 8 employees'; https://us.kompass.com/c/gaia-cacao-b-v/nlc0730826/ - 'Damrak 349, 1012 ZJ Amsterdam, KVK 78049636'",
+  "correzione_proposta": "ca. 8 dipendenti (Creditsafe, 2025); costituita nel 2020"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Gaia Cacao B.V.",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti; nessuna fonte pubblica accessibile via ricerca identifica il directeur/bestuurder. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://us.kompass.com/c/gaia-cacao-b-v/nlc0730826/ - profilo societario senza indicazione di dirigenti",
+  "correzione_proposta": ""
  }
 ]

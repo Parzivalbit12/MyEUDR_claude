@@ -214,5 +214,77 @@
   "gravita": "media",
   "evidenza": "Frammento: \"Le consortium d'actionnaires est compose de la chocolaterie Dolfin, de Wallonie Entreprendre (WE), d'un groupe d'investisseurs prives et de Sebastien Desclee, CEO ad interim de la Chocolaterie Galler\" — https://www.qu4tre.be/infos/economie/des-actionnaires-wallons-reprennent-la-chocolaterie-galler/2014147",
   "correzione_proposta": "referente: Sebastien Desclee — ruolo: CEO (ad interim) / administrateur delegue (DA CONFERMARE)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Gudrun Commercial NV",
+  "campo": "dimensione",
+  "problema": "Legame di gruppo dichiarato ma incompleto e con conseguenze non tratte: Natra ha acquisito il 100% di Gudrun (annuncio ottobre 2024) dal fondo Down2Earth Capital, e Natra e' a sua volta partecipata dal fondo di private equity britannico CapVest. Gudrun non e' quindi una PMI belga autonoma ma parte di una piattaforma internazionale del cioccolato: la compliance EUDR si decide a livello di gruppo Natra/CapVest. Sommato al fatturato di 43,46 M EUR (gia' sopra la fascia 5-40 M EUR) il lead va riqualificato o scartato.",
+  "gravita": "media",
+  "evidenza": "https://www.just-food.com/news/capvest-backed-natra-buys-chocolate-peer-gudrun/ ; https://www.capvest.com/news/gudrun (\"Natra acquired 100% of Gudrun from current owner Down2Earth Capital\"); https://www.foodmanufacture.co.uk/Article/2024/10/04/natra-acquires-gudrun-in-european-chocolate-merger/",
+  "correzione_proposta": "Integrare: acquisita al 100% da Natra (gruppo partecipato da CapVest) nell'ottobre 2024; venditore Down2Earth Capital."
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Libeert NV",
+  "campo": "ruolo",
+  "problema": "Il referente indicato (Lily Libeert, 'Co-directrice') non e' il vertice statutario. Il gedelegeerd bestuurder di Libeert e' Ignace Libeert; Lily Libeert risulta Co-CEO per Sales & Marketing e Pieter Libeert e' fra i proprietari. Per una NV/SA il titolo da censire e' gedelegeerd bestuurder / administrateur delegue.",
+  "gravita": "media",
+  "evidenza": "https://www.linkedin.com/in/ignace-libeert-ba44b8113/ — \"Ignace Libeert - gedelegeerd bestuurder - LIBEERT - Belgian Chocolate Creators\"; frammento: \"Pieter Libeert and Ignace Libeert are listed as Owners, with Lily Libeert serving as Co-CEO for Sales & Marketing\"",
+  "correzione_proposta": "referente: Ignace Libeert — ruolo: gedelegeerd bestuurder (mantenere eventualmente Lily Libeert come secondo contatto commerciale)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Libeert NV",
+  "campo": "sede",
+  "problema": "Refuso formale: la sede registrale e' Avenue des Chateaux 107A, 7780 Comines-Warneton; il record scrive la forma giuridica come NV mentre companyweb indicizza l'impresa come SA (societa' vallona francofona). Coerenza da sistemare fra denominazione (Libeert NV) e sede vallona.",
+  "gravita": "bassa",
+  "evidenza": "https://www.companyweb.be/en/0407026747/libeert — \"Libeert (SA) - Comines-Warneton (7780) - BE0407026747\"",
+  "correzione_proposta": "Libeert SA"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Manufacture Belge de Chocolats SRL",
+  "campo": "dimensione",
+  "problema": "LEGAME DI GRUPPO NON DICHIARATO. MBC non e' una PMI belga indipendente: e' lo stabilimento di produzione bruxellese di Godiva ceduto nel giugno 2019 al fondo MBK Partners insieme alle attivita' Godiva di Giappone, Corea del Sud e Oceania, e ribattezzato 'Manufacture Belge de Chocolats'. La societa' fa parte del gruppo Godiva Japan (CEO di gruppo Jerome Chouchan). La decisione di compliance EUDR si prende a livello di Godiva Japan/MBK Partners: il lead va riqualificato o scartato.",
+  "gravita": "alta",
+  "evidenza": "Frammento mbcchocolates.be/theorg: \"Manufacture Belge de Chocolats is a company being part of Godiva Japan\"; \"In June 2019, MBK Partners acquired Godiva Japan, along with operations in South Korea, Oceania, and the Brussels production plant. The factory is renamed Manufacture Belge de Chocolats (MBC), becoming part of the Godiva Japan Group\" — https://www.mbcchocolates.be/en/about-us ; https://www.prnewswire.com/news-releases/godiva-chocolatier-owned-by-yildiz-holding-completes-the-sale-of-select-godiva-assets-to-mbk-partners-300860576.html",
+  "correzione_proposta": "Dichiarare: controllata del gruppo Godiva Japan (MBK Partners) dal 2019, ex stabilimento Godiva di Bruxelles."
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Manufacture Belge de Chocolats SRL",
+  "campo": "referente",
+  "problema": "Il ruolo 'CEO' attribuito ad Arnaud Verwilghen e' confermato da un'intervista del giugno 2026, ma altre fonti professionali lo indicano come Supply Chain & Finance Director e affiancano un secondo CEO (Jerome Chouchan, vertice di Godiva Japan). Titolo statutario per una SRL belga: gerant / zaakvoerder. Da riconfermare in KBO.",
+  "gravita": "bassa",
+  "evidenza": "https://businessfocusmagazine.com/2026/06/03/manufacture-belge-de-chocolats-belgian-tradition-interview-with-ceo-arnaud-verwilghen/ ; https://www.apollo.io/people/Arnaud/Verwilghen/601e9a9d6716bc0001386cd2 (\"Arnaud Verwilghen - Supply Chain & Finance Director - Manufacture Belge de Chocolats\")",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Manufacture Belge de Chocolats SRL",
+  "campo": "linkedin",
+  "problema": "Campo LinkedIn vuoto: esiste la pagina aziendale belga.",
+  "gravita": "bassa",
+  "evidenza": "https://be.linkedin.com/company/manufacture-belge-de-chocolats",
+  "correzione_proposta": "https://be.linkedin.com/company/manufacture-belge-de-chocolats"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Oxfam Fair Trade CV",
+  "campo": "referente",
+  "problema": "Referente e ruolo vuoti e LinkedIn vuoto. L'unico nominativo emerso e' Luc Van Haute, presentato come direttore generale di Oxfam-Wereldwinkels/Oxfam Fair Trade, ma la fonte risale al 2017: non riconfermato per il 2025-2026. DA CONFERMARE. Fatturato (17.446.343 EUR, 81 posto di settore) e sede (Ververijstraat 15, 9000 Gent) risultano invece confermati.",
+  "gravita": "media",
+  "evidenza": "https://www.otheo.be/nieuws/luc-haute-nieuwe-directeur-oxfam-wereldwinkels (2017); https://trendstop.knack.be/nl/detail/453066016/oxfam-fairtrade.aspx (\"Oxfam Fairtrade from Gent has a turnover of 17,446,343 euros and ranks 81st in the Food and Trade sector\")",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Oxfam Fair Trade CV",
+  "campo": "linkedin",
+  "problema": "Campo LinkedIn vuoto: esiste la pagina aziendale belga.",
+  "gravita": "bassa",
+  "evidenza": "https://be.linkedin.com/company/oxfam-fair-trade",
+  "correzione_proposta": "https://be.linkedin.com/company/oxfam-fair-trade"
  }
 ]

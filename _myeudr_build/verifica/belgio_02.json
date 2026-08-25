@@ -259,5 +259,41 @@
   "gravita": "media",
   "evidenza": "made-in.be 'Asteria groeit aan hysterisch tempo'; derijkstebelgen.be: 'CEO Ives Declerck bouwde de verpakkingsgroep in iets meer dan zes jaar van 20 miljoen euro omzet naar een half miljard'",
   "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Allbox NV",
+  "campo": "dimensione",
+  "problema": "Assetto proprietario NON dichiarato. Il record presenta Allbox come 'azienda familiare', ma il controllo integrale della NV e' stato acquisito da KBC Investco (capitale di rischio) insieme al management familiare, che ha mantenuto solo una partecipazione di minoranza significativa e la direzione operativa. La decisione di compliance EUDR non e' quindi interamente in mano alla famiglia.",
+  "gravita": "alta",
+  "evidenza": "dvo.be/artikel/14427-allbox-nv: 'KBC Investco, verschaffer van risicokapitaal, heeft samen met het familiale management de integrale controle over Allbox N.V. verworven. Het familiale management, dat een belangrijke minderheidsparticipatie in Allbox verwerft, blijft de operationele leiding van de onderneming behouden'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Allbox NV",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti: il record non e' utilizzabile per un contatto nominale. Le fonti pubbliche indicano come amministratori le societa' Y CORR NV (rappr. perm. Yves Vanquaethem) e JC WIBO NV (rappr. perm. Jean-Charles Wibo) piu' Caroline Brouwers, ma il dato risale al febbraio 2018 e va riconfermato sull'attuale albo amministratori.",
+  "gravita": "media",
+  "evidenza": "fincheck.be/nl/allbox/0417.348.339/Harelbeke/bestuurders: 'Y CORR NV (Yves Vanquaethem), JC WIBO NV (Jean-Charles Wibo), Caroline Brouwers' (situazione febbraio 2018)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Antilope De Bie NV",
+  "campo": "dimensione",
+  "problema": "Refuso sull'anno del bilancio: il fatturato 15.593.574 € e i 72,1 FTE sono confermati, ma l'ultimo bilancio e' stato depositato il 10-07-2025, non nel 2024 come indicato. Da segnalare inoltre che l'azienda dichiara alla stampa 85 collaboratori (gruppo grafico), cifra superiore ai 72,1 FTE di bilancio.",
+  "gravita": "bassa",
+  "evidenza": "fincheck.be/nl/antilope-de-bie/0414.535.339/Duffel/overzicht: 'de meest recente jaarrekening werd neergelegd op 10-07-2025 ... 72,1 VTE'; made-in.be: 'uitgegroeid tot een grafische groep met 85 gedreven en bekwame medewerkers'",
+  "correzione_proposta": "Fatturato 15.593.574 € - 72,1 FTE (bilancio NBB depositato 10-07-2025)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Antilope De Bie NV",
+  "campo": "referente",
+  "problema": "Referente confermato (Bart De Bie, CEO, quarta generazione) ma incompleto: la direzione e' condivisa con il fratello Johan De Bie, che ha rilevato la drukkerij insieme a lui nel 1996. Segnalazione puramente formale.",
+  "gravita": "bassa",
+  "evidenza": "made-in.be/mechelen/bart-de-bie-ceo-antilope-de-bie: 'Bart De Bie (CEO Antilope De Bie) ... Hij en zijn broer Johan zijn de vierde generatie van drukkersfamilie De Bie ... In 1996 namen ze de drukkerij over van hun ouders'",
+  "correzione_proposta": "Bart De Bie (con il fratello Johan De Bie) — CEO / gedelegeerd bestuurder"
  }
 ]
