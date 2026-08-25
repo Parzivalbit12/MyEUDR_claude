@@ -1,0 +1,47 @@
+[
+ {
+  "foglio": "Germania",
+  "denominazione": "Gebr. Kilger, Lederfabrik Viechtach KG",
+  "campo": "dimensione",
+  "problema": "Il campo riporta solo '~20 MA, Umsatz n.d.' senza anno ne fonte. Il dato dipendenti e confermabile (fonte 2019) ma nessun dato di fatturato e disponibile; con ~20 addetti e 1.000-1.500 pelli/mese l'azienda e verosimilmente molto sotto la forbice target 5-40 Mio EUR, senza che questo sia segnalato.",
+  "gravita": "media",
+  "evidenza": "https://www.hogn.de/2019/07/02/1-da-hogn-geht-um/nachrichten-im-landkreis-regen/michael-kilger-viechtach-leder-manufaktur-guertel-schuhe-gerbung-sattel/123664 - 'Die rund 20 Mitarbeiter von Kilger verarbeiten monatlich zwischen 1.000 und 1.500 Haeute'",
+  "correzione_proposta": "~20 dipendenti (fonte: hogn.de, 2019); volumi 1.000-1.500 pelli/mese; fatturato non pubblicato (KG non tenuta al deposito) - probabile < 5 Mio EUR, fuori forbice target"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Gebr. Kilger, Lederfabrik Viechtach KG",
+  "campo": "dimensione",
+  "problema": "L'inciso 'marchio Rendenbach' non trova riscontro: Rendenbach (J. Rendenbach jr.) e una conceria di Trier, non risulta alcun legame con Kilger nei risultati di ricerca. DA CONFERMARE.",
+  "gravita": "bassa",
+  "evidenza": "Ricerca '\"Lederfabrik Kilger Viechtach Rendenbach\"': nessun risultato collega Kilger a Rendenbach; kilger.de/en/about-us/ descrive solo il marchio proprio Kilger dal 1856",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Lederfabrik Josef Heinen GmbH & Co. KG (Heinen Leather)",
+  "campo": "dimensione",
+  "problema": "Dato dimensionale obsoleto (2019/2020, 5+ anni) e in conflitto con le fonti: Creditreform/firmeneintrag colloca l'azienda in classe di fatturato 50-100 Mio EUR, non 20-35 Mio EUR. Va riverificato l'anno di riferimento.",
+  "gravita": "media",
+  "evidenza": "https://firmeneintrag.creditreform.de/41844/5230009708/LEDERFABRIK_JOSEF_HEINEN_GMBH_CO_KG - classe di fatturato 50-100 Mio EUR; https://www.kfw.de/stories/wirtschaft/unternehmen/leder-heinen/ - 35 Mio EUR nel 2019",
+  "correzione_proposta": "Fatturato 35 Mio EUR (2019, KfW Stories); classe di fatturato indicata da Creditreform 50-100 Mio EUR - anno piu recente DA CONFERMARE"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Weinheimer Leder GmbH",
+  "campo": "dimensione",
+  "problema": "Campo privo di qualsiasi elemento dimensionale verificabile ('Umsatz/MA n.d.'): non dichiara ne tipo di dato, ne fonte, ne anno. Impossibile collocare il lead nella forbice target 5-40 Mio EUR.",
+  "gravita": "media",
+  "evidenza": "https://www.firmenwissen.de/az/firmeneintrag/69469/7170220020/WEINHEIMER_LEDER_GMBH.html (scheda Firmenauskunft, HRB 432889 Mannheim) - nessun fatturato pubblicato nei frammenti",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "ecopell GmbH",
+  "campo": "dimensione",
+  "problema": "Campo privo di dato dimensionale ('Umsatz/MA n.d. (dal 1992)'). Le fonti disponibili indicano una micro-impresa: totale di bilancio 2023 pari a ~900 mila EUR (-20,1% sull'anno precedente), capitale sociale 265.000 EUR. E' quindi molto al di sotto della forbice target 5-40 Mio EUR e questo non e segnalato.",
+  "gravita": "media",
+  "evidenza": "https://implisense.com/en/companies/ecopell-gmbh-weitnau-seltmans-DE7L5HN3YI34 - 'last published balance sheet total of Ecopell GmbH in 2023 was 900k EUR, -20.1% vs previous year'",
+  "correzione_proposta": "Totale di bilancio ~0,9 Mio EUR (2023, Bundesanzeiger via Implisense) - micro-impresa, fuori forbice target"
+ }
+]
