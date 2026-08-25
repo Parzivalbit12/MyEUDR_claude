@@ -181,7 +181,7 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 
 ## 2. Rilievi per foglio
 
-**Totale rilievi Fase B: 231** — alta 31 · media 126 · bassa 74.
+**Totale rilievi Fase B: 248** — alta 33 · media 136 · bassa 79.
 
 | Foglio | Rilievi | alta | media | bassa | Aziende toccate |
 |---|--:|--:|--:|--:|--:|
@@ -191,22 +191,22 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 | Danimarca | 46 | 14 | 18 | 14 | 32 |
 | Svezia | 36 | 6 | 15 | 15 | 18 |
 | Olanda | 32 | 5 | 21 | 6 | 16 |
-| Belgio | 47 | 4 | 31 | 12 | 26 |
+| Belgio | 64 | 6 | 41 | 17 | 35 |
 | Austria | 15 | 1 | 10 | 4 | 12 |
 | _(tutti)_ | 1 | 0 | 0 | 1 | 1 |
-| **TOTALE** | **231** | **31** | **126** | **74** | **139** |
+| **TOTALE** | **248** | **33** | **136** | **79** | **148** |
 
 ### Rilievi per campo
 
 | Campo | Rilievi | di cui alta |
 |---|--:|--:|
-| dimensione | 109 | 15 |
-| referente | 46 | 8 |
-| denominazione | 26 | 6 |
+| dimensione | 113 | 16 |
+| referente | 54 | 9 |
+| denominazione | 27 | 6 |
 | email | 16 | 1 |
-| linkedin | 11 | 0 |
-| sito | 7 | 0 |
-| ruolo | 6 | 0 |
+| linkedin | 13 | 0 |
+| sito | 8 | 0 |
+| ruolo | 7 | 0 |
 | sede | 3 | 0 |
 | filiera | 3 | 1 |
 | fonte | 3 | 0 |
@@ -214,7 +214,7 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 
 ---
 
-## 3. Tema trasversale — legami di gruppo (38 rilievi)
+## 3. Tema trasversale — legami di gruppo (40 rilievi)
 
 È il problema **più diffuso e meno atteso** emerso dalla verifica: non era fra i 13 punti noti dell'handoff. Numerose aziende del censimento sono controllate di gruppi, spesso esteri o quotati. Per il criterio già applicato dal progetto — che aveva rimosso Lavazza Kaffee, Segafredo Zanetti Austria e Kaffee Partner Austria perché *«la compliance si decide a livello di gruppo, non nella filiale»* — sono **lead di valore dubbio**.
 
@@ -233,6 +233,8 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 | Belgio | Sas NV (Sas Coffee) | **dichiarato** | CONFERMATO: l'azienda NON e' piu' indipendente ne' familiare. Acquisita da Miko NV (11/2021) e rivenduta il 24-05-2024 al fondo di private equity olandese Nimbus Investments; il sito di Nimbus la elen |
 | Belgio | Silco NV | **NON dichiarato** | RILIEVO NUOVO emerso in verifica: la sede di Silco (Italielei 181, 2000 Antwerpen) e' lo stesso indirizzo di EFICO NV, il grande trader di caffe' verde di Anversa (fatturato ~289 M€), il cui president |
 | Belgio | Tannerie Masure SA | **NON dichiarato** | Societa' non indipendente: dal 2014 Tannerie Masure fa parte del Groupe Saturne insieme alla francese Tannerie Fortier-Beaulieu (Roanne). Il referente indicato, Olivier Lesage, risulta anche dirigente |
+| Belgio | Vanerum Belgie NV | **dichiarato** | Il legame di gruppo e' dichiarato ma incompleto: i3-Group non e' piu' interamente familiare. WorxInvest ha acquistato circa il 25% per 10 M€ e nel novembre 2023 anche il gruppo americano Steelcase ha  |
+| Belgio | Vincent Sheppard NV | **NON dichiarato** | Assetto proprietario non dichiarato: dal 2002 la societa' e' controllata dalla famiglia Claeys tramite Cennini Holding e oggi il capitale e' 50/50 tra la famiglia Claeys e Jos Destrooper. Il fatturato |
 | Danimarca | BØJSØ DØRE & VINDUER A/S | **dichiarato** | Lead non indipendente: dal 2017 la società è controllata da INWIDO DENMARK A/S, parte del gruppo quotato svedese Inwido AB (fatturato di gruppo ~9 mld SEK nel 2025). Secondo il mandato una controllata |
 | Danimarca | HVIDBJERG VINDUET A/S | **dichiarato** | Assetto proprietario errato e lead non indipendente: il campo indica come controllante "Hvidbjerg i A/S", ma la società è controllata dal gruppo ACO Nordic, a sua volta parte del gruppo tedesco ACO (f |
 | Danimarca | JKE DESIGN A/S | **dichiarato** | Lead non indipendente: la società appartiene al gruppo BALLINGSLÖV INTERNATIONAL DANMARK A/S / Ballingslöv International AB (gruppo svedese, Stena Adactum), con presidente del CdA e consigliere espres |
@@ -267,7 +269,7 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 
 ---
 
-## 4. Casi di gravità ALTA (31)
+## 4. Casi di gravità ALTA (33)
 
 _Dato falso, azienda non contattabile, azienda cessata/fallita/acquisita, oppure fuori dal perimetro dell'Allegato I EUDR._
 
@@ -492,7 +494,7 @@ Assetto proprietario dichiarato errato: il campo indica ancora 'Soci: PALI Group
 **Correzione proposta:** Controllata al 100% di Vitelco B.V. (PALI Group), 's-Hertogenbosch
 
 
-### Belgio (4)
+### Belgio (6)
 
 #### Extremis NV — campo `referente`
 
@@ -526,6 +528,22 @@ Societa' non indipendente: dal 2014 Tannerie Masure fa parte del Groupe Saturne 
 
 **Correzione proposta:** Valutare il lead a livello di capogruppo Groupe Saturne / Financiere Saturne (FR): la societa' belga non e' un centro decisionale autonomo per la compliance EUDR
 
+#### Vincent Sheppard NV — campo `referente`
+
+Referente errato: Brendan McCarthy risulta Managing Director di Vincent Sheppard USA / Sika Design USA (struttura distributiva statunitense nata nel 2021 con Design Holdings), non della NV belga. Il vertice della societa' belga e' Jos Destrooper, entrato come nuovo CEO e investitore (proveniente da Lotus Bakeries).
+
+**Evidenza:** crunchbase.com/person/brendan-mccarthy: 'Managing Director @ Vincent Sheppard and Sika Design USA'; made-in.be/west-vlaanderen/nieuwe-ceo-en-investeerder-bij-vincent-sheppard: 'Jos Destrooper ... operationeel en als aandeelhouder (fifty-fifty) naast de familie Claeys'
+
+**Correzione proposta:** Jos Destrooper — CEO / gedelegeerd bestuurder
+
+#### Vincent Sheppard NV — campo `dimensione`
+
+Assetto proprietario non dichiarato: dal 2002 la societa' e' controllata dalla famiglia Claeys tramite Cennini Holding e oggi il capitale e' 50/50 tra la famiglia Claeys e Jos Destrooper. Il fatturato 20.832.726 € e i 36,3 FTE sono invece confermati.
+
+**Evidenza:** made-in.be 'Nieuwe CEO en investeerder bij Vincent Sheppard': 'In 2002 werd de familie Claeys (Cennini Holding) 100 procent eigenaar'; trendstop.knack.be/nl/detail/456646801: 'turnover of €20,832,726 ... 36.3 FTEs'
+
+**Correzione proposta:** — nessun valore certo: rilievo lasciato aperto
+
 
 ### Austria (1)
 
@@ -540,7 +558,7 @@ Nessuna e-mail pubblica reperibile (campo 'n.d.') e nessun sito web aziendale: i
 
 ---
 
-## 5. Casi di gravità MEDIA (126)
+## 5. Casi di gravità MEDIA (136)
 
 _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente errato._
 
@@ -655,7 +673,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Rompa Tanneries B.V. | email | Email e sito legati al vecchio marchio (sales@rompa-tanneries.com / www.rompa-tanneries.com). Con la ridenominazione in Vitelco Leather il dominio di riferimento del gruppo e' vitelco.nl; il vecchio sito hulshof.com rimanda ancora a 'Rompa Tanneries' | http://www.hulshof.com/ (titolo pagina: 'Rompa Tanneries') e https://www.vitelco.nl/en/about-us |  |
 | Rompa Tanneries B.V. | referente | Referente e ruolo vuoti. Le fonti stampa locali citano Twan de Bie come 'directeur leerlooierij' dello stabilimento di Lichtenvoorde. DA CONFERMARE la carica attuale dopo il passaggio a Vitelco Leather. | https://www.gld.nl/nieuws/2414011/directeur-leerlooierij-laat-de-wethouder-bellen-dan-lossen-we-het-als-volwassen-mensen-op - frammento: 'De directeur |  |
 
-### Belgio (31)
+### Belgio (41)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -664,9 +682,14 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | A & A Chocolaterie NV | referente | Referente e ruolo vuoti ed email 'n.d.': il lead non e' contattabile in modo diretto. L'unico nominativo emerso dalle fonti pubbliche e' Jeroen Van Overloop, indicato come COO di A&A Chocolaterie & Pralin'Art — ruolo operativo, non il titolo statutar | Frammento di ricerca: "Jeroen Van Overloop is the COO of A&A Chocolaterie & Pralin'Art" (https://be.linkedin.com/company/a&a-chocolaterie-pralin'art) |  |
 | A & A Chocolaterie NV | dimensione | Il legame di gruppo e' correttamente dichiarato, ma va valutato l'effetto sul perimetro commerciale: A & A Chocolaterie (22,1 M€) e Pralinart (18,4 M€) sono entrambe controllate al 100% da Hamlet NV, quindi la decisione di compliance EUDR si prende v | https://www.hamlet.be/pagina/over-hamlet/productiesites-onze-merken-kerncijfers/ ; companyweb 0892388320 (22.087.972 €, 35,4 FTE, deposito 22-10-2025) |  |
 | Belvas SA | referente | Il referente indicato (Thierry Noesen, fondatore) risulta tuttora amministratore, ma le fonti recenti indicano come CEO operativo Jean-David Couderc. Il vertice esecutivo attuale va riconfermato; inoltre la forma giuridica di Belvas compare in piu' f | Frammento di ricerca: "Thierry Noesens serves as the director of Belvas, with Jean-David Couderc as CEO"; https://hainaut-terredegouts.be/producteur/b |  |
+| Bruyerre Chocolates SA | referente | Referente e ruolo vuoti. Le fonti pubbliche indicano Marc Delsemme come Administrateur Delegue di Bruyerre Chocolates (con Olivier de Macar, coacquirente della cioccolateria e cofondatore di Bruyerre Chocolates SA). Titolo coerente con una SA vallona | https://rocketreach.co/marc-delsemme-email_123029407 ("Marc Delsemme ... Bruyerre Chocolates Administrateur Delegue"); https://bruyerre.eu/en/history/ | referente: Marc Delsemme — ruolo: Administrateur delegue (DA CONFERMARE su KBO/NBB) |
 | Bulo NV | referente | Referente probabilmente non aggiornato. Dirk Busschop risulta CEO in fonti risalenti (2009); l'azienda e' oggi guidata dalla terza generazione, Carlo e Louis Busschop, con Carlo Busschop indicato come Managing Director / CEO in fonti recenti. Da rico | https://www.bulo.com/third_generation/ e https://rocketreach.co/carlo-busschop-email_93406361 - frammento: "Carlo Busschop, based in Mechelen, BE, is  | Carlo Busschop — gedelegeerd bestuurder / Managing Director (DA CONFERMARE) |
 | Buzzispace NV | email | Email 'n.d.': record privo di indirizzo di contatto nonostante il sito buzzi.space sia attivo. DA CONFERMARE. | https://www.buzzi.space/brand (sito attivo, nessun indirizzo e-mail nei frammenti) |  |
 | Carlens NV | referente | Referente e ruolo assenti. Le fonti pubbliche citano 'Carl Carlens' in contesto gestionale, mentre il campo dimensione ipotizza 'Luc Carlens' da FinCheck: nomi discordanti, nessuno dei due confermato come gedelegeerd bestuurder. DA CONFERMARE su BCE/ | https://www.limoco-industries.be/referenties/240-houthandel-carlens-keuze-voor-leverancier-dicht-bij-huis - frammento: risultati che referenziano "Car |  |
+| Chocolaterie Ickx NV | sito | Il dominio indicato (ickx.be) non e' quello aziendale. Il sito ufficiale della cioccolateria e' choc-ickx.be — coerente anche con l'email gia' censita nel record (avangastel@choc-ickx.be), che usa lo stesso dominio. | https://www.choc-ickx.be/ compare come sito ufficiale nei risultati per "Chocolaterie Ickx"; sede confermata Rijkmakerlaan 28, 2910 Essen, BE 0421.359 | https://www.choc-ickx.be/ |
+| Chocolaterie Ickx NV | referente | Referente e ruolo vuoti. Emerge solo che nel 2016 Bas Huurman ha lasciato la responsabilita' operativa ai tre figli; i nomi degli attuali gedelegeerd bestuurders non sono esposti nei frammenti gratuiti (dati riservati agli abbonamenti premium di papp | Frammento: "In 2016, Bas Huurman stepped back from operational responsibility and delegated it to his three children" — https://trends.knack.be/econom |  |
+| Confiserie De Bie - L'Abeille - Trefin NV | referente | Referente e ruolo vuoti. Le fonti registrali indicano come amministratori Bert Verriet e Lisette Lerno. Fatturato (11.404.101 €), FTE (34,4) e deposito (08-06-2026) risultano confermati. | Frammento FinCheck: "The directors of Confiserie Trefin are Bert Verriet and Lisette Lerno" — https://fincheck.be/nl/confiserie-trefin/0400.120.050/Lo | referente: Bert Verriet — ruolo: gedelegeerd bestuurder (DA CONFERMARE quale dei due amministratori sia il delegato) |
+| Confiserie Vandenbulcke NV | referente | Referente e ruolo vuoti. La terza generazione e' al timone con Jelle Vandenbulcke come CEO, affiancato dai cugini Bert e Luk. Fatturato 13.332.120 € confermato (44° posto di settore). | Frammento Voka/Made-in: "the third generation is now in charge, with CEO Jelle Vandenbulcke and his cousins Bert and Luk at the helm"; https://trendst | referente: Jelle Vandenbulcke — ruolo: CEO / gedelegeerd bestuurder |
 | Confortluxe NV | referente | Referente e ruolo assenti benche' gli amministratori siano pubblici e confermati (Jacqueline Pauwels, Jimmy Ollevier, Heidi Ollevier). Il fondatore Andre Ollevier, storico gedelegeerd bestuurder, e' deceduto: non usarlo come referente. Da attribuire  | https://fincheck.be/en/confortluxe/0412.863.078/Wervik/connections - frammento: "The current board members of Confortluxe are Jacqueline Pauwels, Jimm | Jimmy Ollevier — bestuurder (ruolo di gedelegeerd bestuurder DA CONFERMARE) |
 | Decolvenaere BV | dimensione | Fatturato fortemente sottostimato. Il campo riporta 'oltre 10 milioni di euro' (fonte giornalistica Sterck Magazine), ma i dati di bilancio piu' recenti indicano un fatturato totale di 38.585.036 EUR, con altre fonti che collocano l'azienda nella fas | Frammenti di ricerca su Decolvenaere BV (BE 0400.079.171): "The most recent financial statements show a total turnover of EUR 38,585,036.00" e "turnov | Fatturato ~38,6 M EUR (ultimo bilancio depositato NBB) — DA RICONFERMARE sulla fonte NBB primaria |
 | Extremis NV | dimensione | Fatturato potenzialmente obsoleto: il campo riporta 12.900.125 EUR e 24,8 FTE dall'ultimo bilancio, ma risulta gia' depositato un bilancio piu' recente (deposito 02-07-2026) i cui dati non sono riflessi nel record. DA AGGIORNARE. | https://www.companyweb.be/en/0434625128/extremis - frammento: "The most recent financial statements of Extremis were filed on 02-07-2026" |  |
@@ -686,10 +709,15 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Pralinart NV | linkedin | Stesso rilievo speculare ad A & A Chocolaterie NV: le due societa' sono distinte (KBO BE 0450.589.051 vs BE 0892.388.320, sedi diverse) ma condividono la medesima pagina LinkedIn congiunta e il medesimo sito di gruppo hamlet.be, con email 'n.d.' in e | https://www.companyweb.be/en/0450589051/pralinart — Pralinart NV, Waaslandlaan 32, 9160 Lokeren, BE 0450.589.051; pagina condivisa https://be.linkedin |  |
 | Radermecker SRL | referente | Referente e ruolo assenti. La conceria e' stata rilevata nell'aprile 2016 da due ingegneri francesi, Loic Honore e Nicolas Quintin, che ne sono gli attuali gestori: candidati referenti (gerant / administrateur delegue) da confermare su fonte societar | https://www.lavenir.net/regions/wallonie-picarde/comines-warneton/2022/01/14/cuirs-selliers-la-specialite-de-la-tannerie-radermecker-a-comines-YLAPU6L |  |
 | Radermecker SRL | email | Email 'n.d.': nessun indirizzo di contatto nel record. Il sito radermecker.com espone una pagina contatti, ma l'indirizzo non e' recuperabile via frammenti di ricerca. DA CONFERMARE. | https://www.radermecker.com/pages/on-parle-de-nous-dans-la-presse (sito attivo, indirizzo e-mail non estraibile dai frammenti) |  |
+| Royal Botania NV | referente | Referente probabilmente superato/impreciso. Kris Van Puyvelde risulta 'hoofddesigner en zaakvoerder' e cofondatore, non CEO; il cofondatore Frank Boschman ha lasciato l'azienda intorno al 2018 e nelle interviste recenti l'azienda e' rappresentata da  | apbc.be/stories/awd-2-kris-van-puyvelde-royal-botania: 'Kris van Puyvelde is hoofddesigner en zaakvoerder van Royal Botania'; wonen360.nl/article/9224 |  |
 | Sas NV (Sas Coffee) | referente | Herman Sas risulta ancora 'gedelegeerd bestuurder' negli estratti KBO pubblicati (pappers.be, insieme a Dominic Sas, Danielle Vanden Eede, Micheline Sas, NV HELFINCO), ma nessuna fonte post-cessione a Nimbus (05/2024) lo riconferma al vertice operati | https://www.pappers.be/nl/company/sas-0404190783 - 'Herman Sas is de gedelegeerd bestuurder; overige bestuurders: Dominic Sas, Danielle Vanden Eede, M |  |
 | Sas NV (Sas Coffee) | email | L'email nel foglio (info@sas-koffie.be) NON e' quella pubblicata sul sito ufficiale sas-coffee.com: la pagina di contatto riporta CUSTOMERSERVICE@SAS-COFFEE.COM, tel. +32 14 61 12 00, indirizzo LILSEDIJK 36 - 2340 BEERSE. info@sas-koffie.be resta rep | https://sas-coffee.com/en/contact/ - 'CUSTOMERSERVICE@SAS-COFFEE.COM \| +32 14 61 12 00 \| LILSEDIJK 36 - 2340 BEERSE - BELGIUM' | customerservice@sas-coffee.com ; sede Lilsedijk 36, 2340 Beerse DA CONFERMARE |
 | Silco NV | dimensione | Discordanza 4,8 vs 8,4 M€ NON risolta: le due banche dati continuano a riportare cifre diverse per lo stesso ultimo bilancio depositato (14-06-2024). Trendstop: EUR 8.358.215 (23a nel settore 'koffie en thee'); Companyweb/Fincheck: EUR 4.843.986. Sen | https://trendstop.knack.be/nl/detail/715792692/silco.aspx - 'omzet van 8.358.215 euro, 23e in de sector Koffie en thee'; https://www.companyweb.be/en/ |  |
 | Tannerie Masure SA | email | Email 'n.d.'. Il sito masure.be ha una pagina contatti attiva ma l'indirizzo non e' verificabile dai frammenti. DA CONFERMARE. | https://www.masure.be/contact (pagina contatti esistente; indirizzo e-mail non presente nei frammenti) |  |
+| VC Wood Zottegem NV | referente | Il record afferma che 'il nome del gestore non e' pubblicato in fonti verificabili': non e' vero. I zaakvoerders sono i fratelli Van Cauwenberge (terza generazione): Thomas, Tim e Bart Van Cauwenberge. | managermagazines.be 'Vc Wood Zottegem — Eenvoudig veelzijdig': 'Thomas Van Cauwenberge is een van de zaakvoerders, samen met zijn broers Tim en Bart' | Thomas Van Cauwenberge (con i fratelli Tim e Bart) — zaakvoerder/bestuurder |
+| Vanerum Belgie NV | referente | Gert Van Erum e' il CEO della capogruppo i3-Group, non l'amministratore della sola Vanerum Belgie NV: il mandato esclude l'uso dell'amministratore di capogruppo come referente della controllata. Va individuato il responsabile della societa' belga. | trends.knack.be: 'Gert Van Erum (CEO i3 Group)'; cbinsights: 'i3-Group, formerly VANERUM Group, founded 1968, based in Diest' |  |
+| Vanerum Belgie NV | dimensione | Il legame di gruppo e' dichiarato ma incompleto: i3-Group non e' piu' interamente familiare. WorxInvest ha acquistato circa il 25% per 10 M€ e nel novembre 2023 anche il gruppo americano Steelcase ha preso una partecipazione. La compliance EUDR si de | derijkstebelgen.be 'NIEUW – WorxInvest betaalt 10 miljoen euro voor kwart van Van Erum schoolborden'; holahageland.net 'Na WorxInvest neemt ook Amerik |  |
+| Woodtex NV | dimensione | Dato di fatturato superato. Il record riporta 11.778.466 € (deposito 23-06-2025); l'ultimo bilancio depositato (01-06-2026) indica 12.131.554 € con 35 FTE. | companyweb.be/en/0413744194/woodtex: 'Woodtex recorded a total turnover of €12,131,554.00. The most recent financial statements were filed on 01-06-20 | Fatturato 12.131.554 € - 35 FTE (bilancio NBB depositato 01-06-2026) |
 
 ### Austria (10)
 
@@ -708,7 +736,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 
 ---
 
-## 6. Casi di gravità BASSA (74)
+## 6. Casi di gravità BASSA (79)
 
 _Refusi formali e incoerenze di stile._
 
@@ -795,13 +823,16 @@ _Refusi formali e incoerenze di stile._
 | Gras Wood Wide B.V. | linkedin | Campo LinkedIn vuoto benche' esista la pagina aziendale ufficiale. | https://nl.linkedin.com/company/graswoodwide - titolo: 'Gras Wood Wide \| LinkedIn' | https://nl.linkedin.com/company/graswoodwide |
 | Houtimport Lekkerkerker B.V. | dimensione | Il campo deduce la fascia 10-20 M EUR dal volume (ca. 200.000 m3/anno) senza alcuna fonte di fatturato: la stima non e' sostenuta e va marcata come tale. Il volume in se' e' l'unico dato dichiarato con tipo e fonte. | https://www.houtimportlekkerkerker.nl/ e https://www.creditsafe.com/business-index/en-us/company/houtimport-lekkerkerker-bv-nl01698016 (nessun fattura |  |
 
-### Belgio (12)
+### Belgio (17)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
 | Belignum NV | dimensione | Discordanza 16,1 vs 14,7 M€ RISOLTA a favore di 14,7 M€: due fonti indipendenti (trendstop NL e trendstop FR/Levif) riportano concordemente EUR 14.746.642 e 10,8 FTE per l'ultimo bilancio depositato il 02-07-2024 (esercizio 2023). La cifra di EUR 16. | https://trendstop.knack.be/nl/detail/405348449/belignum.aspx - 'omzet van 14.746.642 euro, 40e in de sector houthandel... laatst neergelegde jaarreken | Fatturato EUR 14.746.642, esercizio 2023 (bilancio depositato 02-07-2024), 10,8 FTE - eliminare il riferimento a 16.075. |
+| Bruyerre Chocolates SA | linkedin | Campo LinkedIn vuoto: esiste una pagina aziendale belga attiva. Da verificare se copra la sola Bruyerre Chocolates SA o l'intero marchio Bruyerre (che include anche Bruyerre SA distribuzione, BE 0431.703.151). | https://be.linkedin.com/company/bruyerre | https://be.linkedin.com/company/bruyerre (DA CONFERMARE la corrispondenza con l'entita' 0688.794.525) |
 | Buzzispace NV | dimensione | Il campo indica la produzione 'in Kempen' (implicitamente Belgio): le fonti aziendali collocano lo stabilimento produttivo a Bladel, nei Paesi Bassi. La sede sociale ad Anversa resta corretta, ma l'attivita' manifatturiera non e' belga; l'azienda ha  | https://officeinsight.com/officenewswire/buzzispace-appoints-new-ceo-announces-new-role-for-former-ceo-and-founder/ - frammento: "showrooms in Antwerp |  |
 | Callens NV (Callens African Woods) | referente | Thierry Maelfait risulta confermato alla guida, ma dal 2021-2022 e' entrata in azienda la figlia Sam Maelfait, indicata dalle fonti come zaakvoerster/marketingverantwoordelijke: verificare chi sia oggi il rappresentante legale. Nota formale: per una  | https://www.voka.be/nieuws/west-vlaanderen-ondernemers-2024-19/callens-african-woods-heeft-productiefaciliteiten-kameroen - frammento: "Sam Maelfait,  |  |
+| Chocolaterie Ickx NV | dimensione | Fatturato confermato nell'ordine di grandezza ma con cifra leggermente diversa dalla fonte: trendstop/pappers riportano 32.272.193 € (27° posto di settore) contro i 32.746.626 € del record. FTE 139,7 e deposito 26-03-2026 confermati. | Frammento: "With a turnover of 32,272,193 euros, Chocolaterie Ickx is ranked 27th in the chocolate and confectionery sector" — https://www.pappers.be/ |  |
+| Confiserie Vandenbulcke NV | denominazione | La denominazione registrale in KBO/trendstop e' 'Vandenbulcke Confiserie NV' (ordine invertito rispetto al record); il marchio commerciale e' 'Chocolatier Vandenbulcke'. Il sito indicato e' corretto (vandenbulcke.com). | https://trendstop.knack.be/nl/detail/417738319/vandenbulcke-confiserie.aspx — "Vandenbulcke Confiserie NV - BE 0417.738.319 - Heule (8501)" | Vandenbulcke Confiserie NV |
 | Decadt Houthandel NV | ruolo | Stefaan Decadt e' confermato al vertice, ma il ruolo pubblicato e' 'bedrijfsleider' (LinkedIn) e non 'Algemeen directeur'; per una NV il titolo statutario sarebbe 'gedelegeerd bestuurder'. Inoltre coesistono due siti web riferiti a Decadt a Vlamertin | https://be.linkedin.com/in/stefaan-decadt-8b8144113 - frammento: "Stefaan Decadt - bedrijfsleider bij decadt houthandel nv"; siti concorrenti https:// | Ruolo: Bedrijfsleider / gedelegeerd bestuurder |
 | Decadt Houthandel NV | dimensione | Data di fondazione discordante: il campo indica 01-01-1975 (data di costituzione della NV) mentre le fonti aziendali datano l'attivita' al 1927. Fatturato 13.460.408 EUR confermato. | https://trendstop.knack.be/nl/detail/415284714/decadt-houthandel.aspx - frammento: "With a turnover of 13,460,408 euros, Decadt Houthandel is ranked 4 |  |
 | Denderwood NV | dimensione | Il fatturato non e' pubblicato (schema abbreviato): la collocazione dimensionale resta indeterminata e potenzialmente sotto la soglia dei 5 M EUR. Il campo lo dichiara ('TAGLIA DA VERIFICARE'), ma il dato non e' riscontrabile su NBB. Resto del record | https://www.atibt.org/en/members/24/denderwood e https://www.denderwood.com/over-ons/ - frammento: "Denderwood is located at J. Cardijnstraat, 3 B-942 |  |
@@ -810,7 +841,9 @@ _Refusi formali e incoerenze di stile._
 | Meubelfabriek Lievens NV | ruolo | Lieven Decoene e' confermato come 'general manager' operativo, ma il mandato statutario della NV e' esercitato da Telinfra (VA Telifra) con rappresentante permanente Andre Ollevier. Il ruolo indicato non e' quello statutario belga (gedelegeerd bestuu | pappers.be/nl/company/meubelfabriek-lievens-0413666990: 'VA Telifra — Andre Ollevier, vaste vertegenwoordiger/zaakvoerder'; wonen360.nl: 'general mana | Lieven Decoene — General Manager (rappresentante legale: Telinfra, rappr. perm. Andre Ollevier) |
 | Passe Partout NV | ruolo | Il titolo 'Zaakvoerder' e' proprio delle BV; per una NV il titolo statutario corretto e' gedelegeerd bestuurder / bestuurder. Dirk Steenbeke e' comunque confermato come fondatore e vertice attuale. | wonen360.nl 'Dirk Steenbeke van Passe Partout' (fondatore/CEO); verhouden.nl/ontwerpers/dirk-steenbeke | Gedelegeerd bestuurder |
 | Radermecker SRL | dimensione | Discordanza sugli addetti: il record indica 9,1 FTE (bilancio BNB), mentre la scheda Europages dichiara 20-49 dipendenti. Il fatturato non e' pubblicato (schema abbreviato): la collocazione dimensionale resta non verificabile. | https://www.europages.fr/TANNERIE-RADERMECKER/BEL069426-000019048001.html - frammento: "The company employs between 20 and 49 people" |  |
+| Royal Botania NV | ruolo | 'CEO e cofondatore' non e' un titolo statutario belga; per una NV il titolo corretto e' gedelegeerd bestuurder / bestuurder (le fonti usano 'zaakvoerder', incoerente con la forma NV). | https://www.apbc.be/stories/awd-2-kris-van-puyvelde-royal-botania | Gedelegeerd bestuurder |
 | Silco NV | sito | Nessun sito web proprio reperito per Silco NV in 3 ricerche: l'azienda compare solo su banche dati societarie (trendstop, companyweb, fincheck, northdata, staatsbladmonitor). Coerente con la struttura a 1 FTE. Il campo vuoto e' quindi corretto, ma va | https://www.northdata.com/Silco%20N.V.,%20Antwerpen/KBO%200715.792.692 - solo scheda registro; nessun dominio aziendale nei risultati | n.d. (nessun sito web aziendale) |
+| VC Wood Zottegem NV | linkedin | L'URL LinkedIn indicato (company/vc-wood-zottegem) non corrisponde alla pagina che emerge dalle ricerche, che e' company/vc-wood. DA CONFERMARE quale delle due sia attiva. | https://be.linkedin.com/company/vc-wood (risultato di ricerca per 'VC Wood Zottegem houthandel') | https://be.linkedin.com/company/vc-wood |
 
 ### Austria (4)
 

@@ -61,5 +61,77 @@
   "gravita": "media",
   "evidenza": "Frammento di ricerca: \"Thierry Noesens serves as the director of Belvas, with Jean-David Couderc as CEO\"; https://hainaut-terredegouts.be/producteur/belvas-sprl/ (\"CHOCOLATERIE BELVAS SPRL\")",
   "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Bruyerre Chocolates SA",
+  "campo": "referente",
+  "problema": "Referente e ruolo vuoti. Le fonti pubbliche indicano Marc Delsemme come Administrateur Delegue di Bruyerre Chocolates (con Olivier de Macar, coacquirente della cioccolateria e cofondatore di Bruyerre Chocolates SA). Titolo coerente con una SA vallona.",
+  "gravita": "media",
+  "evidenza": "https://rocketreach.co/marc-delsemme-email_123029407 (\"Marc Delsemme ... Bruyerre Chocolates Administrateur Delegue\"); https://bruyerre.eu/en/history/ (\"Olivier de Macar & Marc Delsemme acquired the Bruyerre Chocolate Factory and created Bruyerre Chocolates SA\")",
+  "correzione_proposta": "referente: Marc Delsemme — ruolo: Administrateur delegue (DA CONFERMARE su KBO/NBB)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Bruyerre Chocolates SA",
+  "campo": "linkedin",
+  "problema": "Campo LinkedIn vuoto: esiste una pagina aziendale belga attiva. Da verificare se copra la sola Bruyerre Chocolates SA o l'intero marchio Bruyerre (che include anche Bruyerre SA distribuzione, BE 0431.703.151).",
+  "gravita": "bassa",
+  "evidenza": "https://be.linkedin.com/company/bruyerre",
+  "correzione_proposta": "https://be.linkedin.com/company/bruyerre (DA CONFERMARE la corrispondenza con l'entita' 0688.794.525)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Chocolaterie Ickx NV",
+  "campo": "sito",
+  "problema": "Il dominio indicato (ickx.be) non e' quello aziendale. Il sito ufficiale della cioccolateria e' choc-ickx.be — coerente anche con l'email gia' censita nel record (avangastel@choc-ickx.be), che usa lo stesso dominio.",
+  "gravita": "media",
+  "evidenza": "https://www.choc-ickx.be/ compare come sito ufficiale nei risultati per \"Chocolaterie Ickx\"; sede confermata Rijkmakerlaan 28, 2910 Essen, BE 0421.359.189 (https://www.companyweb.be/en/0421359189/chocolaterie-ickx)",
+  "correzione_proposta": "https://www.choc-ickx.be/"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Chocolaterie Ickx NV",
+  "campo": "referente",
+  "problema": "Referente e ruolo vuoti. Emerge solo che nel 2016 Bas Huurman ha lasciato la responsabilita' operativa ai tre figli; i nomi degli attuali gedelegeerd bestuurders non sono esposti nei frammenti gratuiti (dati riservati agli abbonamenti premium di pappers/trendstop). DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "Frammento: \"In 2016, Bas Huurman stepped back from operational responsibility and delegated it to his three children\" — https://trends.knack.be/economie/family-business/chocolaterie-ickx-een-familiebedrijf-dwingt-je-tot-creativiteit/article-normal-971093.html",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Chocolaterie Ickx NV",
+  "campo": "dimensione",
+  "problema": "Fatturato confermato nell'ordine di grandezza ma con cifra leggermente diversa dalla fonte: trendstop/pappers riportano 32.272.193 € (27° posto di settore) contro i 32.746.626 € del record. FTE 139,7 e deposito 26-03-2026 confermati.",
+  "gravita": "bassa",
+  "evidenza": "Frammento: \"With a turnover of 32,272,193 euros, Chocolaterie Ickx is ranked 27th in the chocolate and confectionery sector\" — https://www.pappers.be/nl/company/chocolaterie-ickx-0421.359.189",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Confiserie De Bie - L'Abeille - Trefin NV",
+  "campo": "referente",
+  "problema": "Referente e ruolo vuoti. Le fonti registrali indicano come amministratori Bert Verriet e Lisette Lerno. Fatturato (11.404.101 €), FTE (34,4) e deposito (08-06-2026) risultano confermati.",
+  "gravita": "media",
+  "evidenza": "Frammento FinCheck: \"The directors of Confiserie Trefin are Bert Verriet and Lisette Lerno\" — https://fincheck.be/nl/confiserie-trefin/0400.120.050/Lokeren/bestuurders",
+  "correzione_proposta": "referente: Bert Verriet — ruolo: gedelegeerd bestuurder (DA CONFERMARE quale dei due amministratori sia il delegato)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Confiserie Vandenbulcke NV",
+  "campo": "referente",
+  "problema": "Referente e ruolo vuoti. La terza generazione e' al timone con Jelle Vandenbulcke come CEO, affiancato dai cugini Bert e Luk. Fatturato 13.332.120 € confermato (44° posto di settore).",
+  "gravita": "media",
+  "evidenza": "Frammento Voka/Made-in: \"the third generation is now in charge, with CEO Jelle Vandenbulcke and his cousins Bert and Luk at the helm\"; https://trendstop.knack.be/nl/detail/417738319/vandenbulcke-confiserie.aspx",
+  "correzione_proposta": "referente: Jelle Vandenbulcke — ruolo: CEO / gedelegeerd bestuurder"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Confiserie Vandenbulcke NV",
+  "campo": "denominazione",
+  "problema": "La denominazione registrale in KBO/trendstop e' 'Vandenbulcke Confiserie NV' (ordine invertito rispetto al record); il marchio commerciale e' 'Chocolatier Vandenbulcke'. Il sito indicato e' corretto (vandenbulcke.com).",
+  "gravita": "bassa",
+  "evidenza": "https://trendstop.knack.be/nl/detail/417738319/vandenbulcke-confiserie.aspx — \"Vandenbulcke Confiserie NV - BE 0417.738.319 - Heule (8501)\"",
+  "correzione_proposta": "Vandenbulcke Confiserie NV"
  }
 ]

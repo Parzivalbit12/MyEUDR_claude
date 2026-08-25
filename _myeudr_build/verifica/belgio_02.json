@@ -70,5 +70,86 @@
   "gravita": "media",
   "evidenza": "interiorbusiness.nl: 'Passe Partout ... produceert sinds 1999 vanuit Hongarije ... kantoor in Temse waar 13 mensen werken'",
   "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Royal Botania NV",
+  "campo": "referente",
+  "problema": "Referente probabilmente superato/impreciso. Kris Van Puyvelde risulta 'hoofddesigner en zaakvoerder' e cofondatore, non CEO; il cofondatore Frank Boschman ha lasciato l'azienda intorno al 2018 e nelle interviste recenti l'azienda e' rappresentata da Pieter Van Puyvelde (seconda generazione). DA CONFERMARE chi e' oggi il gedelegeerd bestuurder.",
+  "gravita": "media",
+  "evidenza": "apbc.be/stories/awd-2-kris-van-puyvelde-royal-botania: 'Kris van Puyvelde is hoofddesigner en zaakvoerder van Royal Botania'; wonen360.nl/article/9224670 'Pieter Van Puyvelde van Royal Botania'; kompass: 'Frank Boschman — MD/Chief Operating Officer (Afgevaardigd Bestuurder)'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Royal Botania NV",
+  "campo": "ruolo",
+  "problema": "'CEO e cofondatore' non e' un titolo statutario belga; per una NV il titolo corretto e' gedelegeerd bestuurder / bestuurder (le fonti usano 'zaakvoerder', incoerente con la forma NV).",
+  "gravita": "bassa",
+  "evidenza": "https://www.apbc.be/stories/awd-2-kris-van-puyvelde-royal-botania",
+  "correzione_proposta": "Gedelegeerd bestuurder"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "VC Wood Zottegem NV",
+  "campo": "referente",
+  "problema": "Il record afferma che 'il nome del gestore non e' pubblicato in fonti verificabili': non e' vero. I zaakvoerders sono i fratelli Van Cauwenberge (terza generazione): Thomas, Tim e Bart Van Cauwenberge.",
+  "gravita": "media",
+  "evidenza": "managermagazines.be 'Vc Wood Zottegem — Eenvoudig veelzijdig': 'Thomas Van Cauwenberge is een van de zaakvoerders, samen met zijn broers Tim en Bart'",
+  "correzione_proposta": "Thomas Van Cauwenberge (con i fratelli Tim e Bart) — zaakvoerder/bestuurder"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "VC Wood Zottegem NV",
+  "campo": "linkedin",
+  "problema": "L'URL LinkedIn indicato (company/vc-wood-zottegem) non corrisponde alla pagina che emerge dalle ricerche, che e' company/vc-wood. DA CONFERMARE quale delle due sia attiva.",
+  "gravita": "bassa",
+  "evidenza": "https://be.linkedin.com/company/vc-wood (risultato di ricerca per 'VC Wood Zottegem houthandel')",
+  "correzione_proposta": "https://be.linkedin.com/company/vc-wood"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Vanerum Belgie NV",
+  "campo": "referente",
+  "problema": "Gert Van Erum e' il CEO della capogruppo i3-Group, non l'amministratore della sola Vanerum Belgie NV: il mandato esclude l'uso dell'amministratore di capogruppo come referente della controllata. Va individuato il responsabile della societa' belga.",
+  "gravita": "media",
+  "evidenza": "trends.knack.be: 'Gert Van Erum (CEO i3 Group)'; cbinsights: 'i3-Group, formerly VANERUM Group, founded 1968, based in Diest'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Vanerum Belgie NV",
+  "campo": "dimensione",
+  "problema": "Il legame di gruppo e' dichiarato ma incompleto: i3-Group non e' piu' interamente familiare. WorxInvest ha acquistato circa il 25% per 10 M€ e nel novembre 2023 anche il gruppo americano Steelcase ha preso una partecipazione. La compliance EUDR si decide quindi a livello di gruppo con azionisti terzi.",
+  "gravita": "media",
+  "evidenza": "derijkstebelgen.be 'NIEUW – WorxInvest betaalt 10 miljoen euro voor kwart van Van Erum schoolborden'; holahageland.net 'Na WorxInvest neemt ook Amerikaanse groep Steelcase een participatie in I3-Group (Vanerum)'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Vincent Sheppard NV",
+  "campo": "referente",
+  "problema": "Referente errato: Brendan McCarthy risulta Managing Director di Vincent Sheppard USA / Sika Design USA (struttura distributiva statunitense nata nel 2021 con Design Holdings), non della NV belga. Il vertice della societa' belga e' Jos Destrooper, entrato come nuovo CEO e investitore (proveniente da Lotus Bakeries).",
+  "gravita": "alta",
+  "evidenza": "crunchbase.com/person/brendan-mccarthy: 'Managing Director @ Vincent Sheppard and Sika Design USA'; made-in.be/west-vlaanderen/nieuwe-ceo-en-investeerder-bij-vincent-sheppard: 'Jos Destrooper ... operationeel en als aandeelhouder (fifty-fifty) naast de familie Claeys'",
+  "correzione_proposta": "Jos Destrooper — CEO / gedelegeerd bestuurder"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Vincent Sheppard NV",
+  "campo": "dimensione",
+  "problema": "Assetto proprietario non dichiarato: dal 2002 la societa' e' controllata dalla famiglia Claeys tramite Cennini Holding e oggi il capitale e' 50/50 tra la famiglia Claeys e Jos Destrooper. Il fatturato 20.832.726 € e i 36,3 FTE sono invece confermati.",
+  "gravita": "alta",
+  "evidenza": "made-in.be 'Nieuwe CEO en investeerder bij Vincent Sheppard': 'In 2002 werd de familie Claeys (Cennini Holding) 100 procent eigenaar'; trendstop.knack.be/nl/detail/456646801: 'turnover of €20,832,726 ... 36.3 FTEs'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Woodtex NV",
+  "campo": "dimensione",
+  "problema": "Dato di fatturato superato. Il record riporta 11.778.466 € (deposito 23-06-2025); l'ultimo bilancio depositato (01-06-2026) indica 12.131.554 € con 35 FTE.",
+  "gravita": "media",
+  "evidenza": "companyweb.be/en/0413744194/woodtex: 'Woodtex recorded a total turnover of €12,131,554.00. The most recent financial statements were filed on 01-06-2026 ... 35 FTEs'",
+  "correzione_proposta": "Fatturato 12.131.554 € - 35 FTE (bilancio NBB depositato 01-06-2026)"
  }
 ]
