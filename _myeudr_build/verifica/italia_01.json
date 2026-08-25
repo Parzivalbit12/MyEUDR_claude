@@ -10,12 +10,39 @@
  },
  {
   "foglio": "Italia",
+  "denominazione": "A. Brivio Compensati SpA",
+  "campo": "denominazione",
+  "problema": "Forma giuridica scritta in modo non conforme: al Registro Imprese la ragione sociale è 'A. BRIVIO COMPENSATI S.P.A.' (non 'SpA').",
+  "gravita": "bassa",
+  "evidenza": "https://www.ufficiocamerale.it/1666/a-brivio-compensati-spa — 'A. BRIVIO COMPENSATI S.P.A., Partita IVA: 02109430153 ... Forma giuridica: SOCIETA' PER AZIONI'",
+  "correzione_proposta": "A. Brivio Compensati S.p.A."
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "A. Brivio Compensati SpA",
+  "campo": "dimensione",
+  "problema": "Dato obsoleto: 15,41M€ è il 2023; il bilancio 2024 riporta ricavi per 12,24M€ (-20%) e una perdita di -365.141€, con 84 dipendenti. L'azienda resta in forbice ma in contrazione.",
+  "gravita": "media",
+  "evidenza": "https://www.companyreports.it/a-brivio-compensati-spa-02109430153 — 'Fatturato € 12.241.471,00 (2024); Utile € -365.141,00 (2024); Dipendenti 84'",
+  "correzione_proposta": "≈12,2M€ (fatturato 2024, Registro Imprese) — perdita netta 2024"
+ },
+ {
+  "foglio": "Italia",
   "denominazione": "Conceria 800 S.p.A.",
   "campo": "dimensione",
   "problema": "Fatturato indicato 11,4M€; il bilancio 2023 riporta 9,12M€ con perdita netta di -547.884€. Dato sovrastimato e società in perdita (20-49 dipendenti).",
   "gravita": "media",
   "evidenza": "https://topaziende.quotidiano.net/toscana/pisa/fatturato-conceria-800-spa/ — 'ricavi 9.118.508 € (2023); utile netto -547.884 €; dipendenti 20-49'",
   "correzione_proposta": "≈9,1M€ (bilancio 2023, Top Aziende) — perdita netta 2023"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Conceria Ambassador S.p.A.",
+  "campo": "linkedin",
+  "problema": "Campo vuoto: la pagina LinkedIn aziendale esiste ed è riscontrata.",
+  "gravita": "bassa",
+  "evidenza": "https://it.linkedin.com/company/conceria-ambassador-spa — 'CONCERIA AMBASSADOR SPA | LinkedIn'",
+  "correzione_proposta": "https://it.linkedin.com/company/conceria-ambassador-spa"
  },
  {
   "foglio": "Italia",
@@ -39,9 +66,9 @@
   "foglio": "Italia",
   "denominazione": "Conceria Beschin",
   "campo": "dimensione",
-  "problema": "Campo 'n.d.': impossibile verificare che l'azienda rientri nella forbice target 5-40M€. DA CONFERMARE con bilancio depositato.",
+  "problema": "Campo 'n.d.': la S.n.c. (P.IVA 00594430241) non deposita bilancio pubblico e risulta avere 10-19 dipendenti, dimensione che rende probabile un fatturato SOTTO la forbice target 5-40M€. DA CONFERMARE prima di lavorare il lead.",
   "gravita": "media",
-  "evidenza": "Nessun dato di fatturato reperito nei frammenti di ricerca; scheda aziendale https://www.conceriabeschin.com/en/company/ non riporta cifre",
+  "evidenza": "https://www.reportaziende.it/conceria_beschin_snc_di_graziano_beschin_c_vi_00594430241 — 'dipendenti 10-19; ultimo bilancio depositato: ricavi **** (dato non pubblico)'",
   "correzione_proposta": ""
  },
  {
@@ -119,20 +146,20 @@
  {
   "foglio": "Italia",
   "denominazione": "Conceria Lomar (Lomar Lavorazione Pelli S.r.l.)",
-  "campo": "email",
-  "problema": "L'indirizzo 'lomar@concerialomar.it' non compare nelle fonti pubbliche reperite; le schede aziendali e la certificazione LWG riportano 'info@concerialomar.it'. DA CONFERMARE.",
-  "gravita": "media",
-  "evidenza": "https://www.reportaziende.it/lomar_lavorazione_pelli_srl_vi_02002810246 — 'Email: info@concerialomar.it; Tel +39 0444625050; PEC lomar@pec-italia.it'",
-  "correzione_proposta": "info@concerialomar.it"
- },
- {
-  "foglio": "Italia",
-  "denominazione": "Conceria Lomar (Lomar Lavorazione Pelli S.r.l.)",
   "campo": "dimensione",
   "problema": "Valore corretto (6,2M€, bilancio 2024) ma manca l'anno di riferimento nel campo; è comunque il record più vicino al limite inferiore della forbice 5-40M€.",
   "gravita": "bassa",
   "evidenza": "https://www.ufficiocamerale.it/1740/lomar-lavorazione-pelli-srl — 'ultimo bilancio depositato 2024: ricavi 6.199.639 €; 20-49 dipendenti'",
   "correzione_proposta": "≈6,2M€ (fatturato 2024, Registro Imprese)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Conceria Lomar (Lomar Lavorazione Pelli S.r.l.)",
+  "campo": "email",
+  "problema": "L'indirizzo 'lomar@concerialomar.it' non compare nelle fonti pubbliche reperite; le schede aziendali e la certificazione LWG riportano 'info@concerialomar.it'. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://www.reportaziende.it/lomar_lavorazione_pelli_srl_vi_02002810246 — 'Email: info@concerialomar.it; Tel +39 0444625050; PEC lomar@pec-italia.it'",
+  "correzione_proposta": "info@concerialomar.it"
  },
  {
   "foglio": "Italia",
@@ -142,5 +169,59 @@
   "gravita": "bassa",
   "evidenza": "https://www.reportaziende.it/conceria_nuova_impala_srl_pi — 'ultimo bilancio 2024: ricavi 22.248.620 €, -5,39% sul precedente'",
   "correzione_proposta": "≈22,2M€ (fatturato 2024, Registro Imprese)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Conceria Nuova Impala S.r.l.",
+  "campo": "referente",
+  "problema": "Campo vuoto. Le fonti pubbliche indicano come figure apicali Gianfranco Caponi (direttore tecnico) e Mauro Vannucci (direttore amministrativo), seconda generazione dei fondatori: non è però confermato chi sia l'amministratore unico/legale rappresentante. DA CONFERMARE su visura.",
+  "gravita": "bassa",
+  "evidenza": "https://www.nuovaimpala.com/ — 'fondata oltre 35 anni fa da Mario Caponi e dal cugino Orlando Vannucci, passata poi ai rispettivi figli, Gianfranco e Mauro, oggi direttore tecnico e direttore amministrativo dell'azienda'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Conceria Tolio S.p.A.",
+  "campo": "dimensione",
+  "problema": "Il numero di dipendenti indicato (~50-249, da Europages) è errato: il Registro Imprese riporta una fascia 20-49 dipendenti. Il fatturato 16,2M€ è confermato ma è del 2023 (utile 91.705€, molto sottile).",
+  "gravita": "bassa",
+  "evidenza": "https://www.ufficiocamerale.it/5218/conceria-tolio-spa — 'fatturato 16.201.421 € (2023); utile 91.705 €; dipendenti 20-49; costo del personale 2.460.336 € (2023)'",
+  "correzione_proposta": "≈16,2M€ (fatturato 2023) / 20-49 dipendenti (Registro Imprese)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Conceria Tolio S.p.A.",
+  "campo": "referente",
+  "problema": "Campo vuoto: il vertice attuale è identificabile con certezza dalle fonti di distretto.",
+  "gravita": "bassa",
+  "evidenza": "https://www.distrettovenetodellapelle.it/soci-distretto-veneto-pelle/concia/conceria-tolio-spa/ — 'Conceria Tolio nasce nel 1962 da un'idea imprenditoriale di Mario Tolio, attuale presidente della società'; i figli Stefano e Monica seguono area commerciale e amministrativa",
+  "correzione_proposta": "Mario Tolio — Presidente"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Cuoificio Bisonte S.p.A.",
+  "campo": "dimensione",
+  "problema": "Fatturato indicato 12,1M€: sottostimato/obsoleto. Il bilancio 2023 riporta ricavi per 15,25M€ e utile 428.879€ (20-49 dipendenti).",
+  "gravita": "media",
+  "evidenza": "https://topaziende.quotidiano.net/toscana/pisa/fatturato-cuoificio-bisonte-spa/ — 'fatturato 2023: 15.247.239 €; utile 428.879 €; dipendenti 20-49; costo personale 2.477.882 € (2023)'",
+  "correzione_proposta": "≈15,2M€ (fatturato 2023, Top Aziende/Registro Imprese)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Fonpelli S.p.A.",
+  "campo": "denominazione",
+  "problema": "Forma giuridica errata: al Registro Imprese la società è 'FONPELLI - S.R.L.' (P.IVA 01705980249), non S.p.A. Anche il sito e le schede camerali riportano S.r.l.",
+  "gravita": "bassa",
+  "evidenza": "https://www.ufficiocamerale.it/2684/fonpelli-spa — 'FONPELLI - S.R.L., Partita IVA: 01705980249'; https://xrayfinance.it/fonpelli-s-p-a — 'FONPELLI S.R.L. ... Forma giuridica: Società a responsabilità limitata'",
+  "correzione_proposta": "Fonpelli S.r.l."
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Fonpelli S.p.A.",
+  "campo": "dimensione",
+  "problema": "Valore confermato (15,32M€) ma manca l'anno: è il bilancio 2024, chiuso però in perdita (-203.123€) con 35 dipendenti. Elemento da segnalare al commerciale.",
+  "gravita": "bassa",
+  "evidenza": "https://xrayfinance.it/fonpelli-s-p-a — 'Fatturato: € 15.322.593,00 (2024); Utile: € -203.123,00 (2024); Dipendenti: 35 (2025)'",
+  "correzione_proposta": "≈15,3M€ (fatturato 2024, Registro Imprese) — esercizio in perdita"
  }
 ]

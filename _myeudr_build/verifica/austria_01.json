@@ -88,5 +88,50 @@
   "gravita": "media",
   "evidenza": "https://jannach.com/kontakt/impressum.html - pagina Impressum senza indirizzo e-mail in chiaro; conferma GF: \"Mag. (FH) Helmut Jannach is the manager of the Saegewerk - Jannach Ges.m.b.H. He is also the manager of the Hobelwerk - Jannach Laerchenholz GmbH\"",
   "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Ludwig Reiter Schuhmanufaktur GmbH",
+  "campo": "dimensione",
+  "problema": "Il fatturato di ca. 15 Mio EUR e i ca. 60 dipendenti attribuiti a Wikipedia/AustriaWiki (2019-2023) non trovano riscontro: la voce Wikipedia riporta solo dati storici di organico (ca. 70 addetti nel 1919, ca. 130 nel 1966) e nessun dato di fatturato recente. DA CONFERMARE. Confermati invece FN 242908v e i due GF (Ludwig Potyka-Reiter, Richard Reiter).",
+  "gravita": "media",
+  "evidenza": "https://de.wikipedia.org/wiki/Ludwig_Reiter_Schuhmanufaktur - frammento: \"In 1919, approximately 70 employees were employed, and in 1966, the company employed around 130 employees\" (nessun dato di fatturato); conferma GF su https://www.evi.gv.at/f/242908v",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "MAFI Naturholzboden GmbH",
+  "campo": "dimensione",
+  "problema": "Il fatturato di 22,3 Mio EUR e' datato al 2017 nel record, ma la fonte (die-deutsche-wirtschaft.de) lo presenta come dato piu' recente disponibile con crescita del 2,8% rispetto a una stima precedente di 20,0 Mio EUR. Anno di riferimento da riconfermare. Confermati i tre GF in carica dal 28.09.2020 (Florian Fillafer, Christiane Lindner, DI (FH) Heidrun Zerbs).",
+  "gravita": "bassa",
+  "evidenza": "https://die-deutsche-wirtschaft.de/famu_top/oesterreich-mafi-naturholzboden-gmbh-schneegattern-umsatz-mitarbeiterzahl/ - frammento: \"The most recent annual revenue in the flooring segment was EUR 22.3 million, representing a 2.8% increase. An older estimate cited EUR 20.0 million\"; \"Florian Fillafer, Christiane Lindner, and DI (FH) Heidrun Zerbs, all representing the company since September 28, 2020\"",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Mayr - Schulmöbel Gesellschaft m.b.H.",
+  "campo": "dimensione",
+  "problema": "Il fatturato di ca. 39,0 Mio EUR (stima Die Deutsche Wirtschaft) e' smentito dai dati di ricavo pubblicati dall'azienda/stampa locale: 21 Mio EUR nel 2013, 22,4 Mio EUR nel 2014, 23,1 Mio EUR nel 2016 (+5%). Cade quindi anche l'avvertenza 'AZIENDA DI CONFINE vicino al limite superiore': l'impresa e' in realta' nel cuore della forbice target (10-20/25 M€).",
+  "gravita": "media",
+  "evidenza": "https://www.meinbezirk.at/salzkammergut/c-wirtschaft/50000-schueler-lernen-erfolgreich-auf-sesseln-von-mayr-schulmoebel_a824339 - frammento: \"In 2013 revenue of 21 million euros; in 2014, 22.4 million euros; in 2016 total revenue increased by five percent to 23.1 million euros\"; 145 dipendenti",
+  "correzione_proposta": "Fatturato ca. 23,1 Mio € (2016, ultimo dato pubblicato), ca. 145 dipendenti"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Mayr - Schulmöbel Gesellschaft m.b.H.",
+  "campo": "dimensione",
+  "problema": "Il secondo Geschaeftsfuehrer indicato nel campo ('Ing. Florian Huemer') non e' riscontrato: le fonti riportano come coppia di GF Franz Josef Wiener (referente del record, corretto) e Maximilian Auinger.",
+  "gravita": "media",
+  "evidenza": "https://newsroom.kommhaus.com/qualitaetsschulmoebel-made-in-austria/ - frammento: \"The two managing directors of Mayr Schulmoebel are Franz Josef Wiener and Maximilian Auinger\"",
+  "correzione_proposta": "Secondo Geschäftsführer: Maximilian Auinger"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Karnische Massiv Möbel GmbH",
+  "campo": "denominazione",
+  "problema": "Ragione sociale a Firmenbuch: 'Karnische-Massiv-Moebel Gesellschaft m.b.H.' (con trattini), FN 094638z, LG Klagenfurt; 'Karnische Massiv Moebel GmbH' e' il nome commerciale. Refuso formale. Confermati invece GF Werner Hohenwarter (fratello Otto Prokurist) ed e-mail info@km-moebel.at.",
+  "gravita": "bassa",
+  "evidenza": "https://www.firmenabc.at/karnische-massiv-moebel-gesellschaft-m-b-h_Xyc e https://www.northdata.de/Karnische-Massiv-M%C3%B6bel%20GmbH,%20Kirchbach/094638z - frammento: \"Werner Hohenwarter serves as managing director and his brother Otto as deputy manager (Prokurist)... email info@km-moebel.at\"",
+  "correzione_proposta": "Karnische-Massiv-Möbel Gesellschaft m.b.H."
  }
 ]

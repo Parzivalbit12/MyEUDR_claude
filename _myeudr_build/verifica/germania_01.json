@@ -43,5 +43,95 @@
   "gravita": "media",
   "evidenza": "https://implisense.com/en/companies/ecopell-gmbh-weitnau-seltmans-DE7L5HN3YI34 - 'last published balance sheet total of Ecopell GmbH in 2023 was 900k EUR, -20.1% vs previous year'",
   "correzione_proposta": "Totale di bilancio ~0,9 Mio EUR (2023, Bundesanzeiger via Implisense) - micro-impresa, fuori forbice target"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Alder Sägewerk & Holzhandlung GmbH",
+  "campo": "dimensione",
+  "problema": "Campo privo di qualsiasi elemento dimensionale ('Umsatz/MA n.d.'): nessun tipo di dato, nessuna fonte, nessun anno. Segheria familiare (HRB 201958 Amtsgericht Stadthagen) verosimilmente molto sotto la forbice target 5-40 Mio EUR, senza segnalazione esplicita.",
+  "gravita": "media",
+  "evidenza": "https://www.northdata.com/Alder%20S%C3%A4gewerk%20&%20Holzhandlung%20GmbH,%20Auhagen/Amtsgericht%20Stadthagen%20HRB%20201958 - scheda registro senza dati di bilancio pubblicati nei frammenti",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Christian Göbel Holzgroßhandlung GmbH & Co. KG",
+  "campo": "email",
+  "problema": "L'Impressum ufficiale riporta l'indirizzo info@goebel-holz.com (dominio .com), non info@goebel-holz.de come indicato nel record. Il sito e invece www.goebel-holz.de.",
+  "gravita": "media",
+  "evidenza": "https://www.goebel-holz.de/impressum/ - 'Telefon: 069 / 95 30 19-18 ... E-Mail: info@goebel-holz.com ... USt-IdNr.: DE112006391'",
+  "correzione_proposta": "info@goebel-holz.com"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Christian Göbel Holzgroßhandlung GmbH & Co. KG",
+  "campo": "dimensione",
+  "problema": "Campo privo di dato dimensionale ('Umsatz/MA n.d.'), sostituito da un elemento non dimensionale ('>85 anni'). Nessun fatturato ne numero addetti con fonte e anno.",
+  "gravita": "media",
+  "evidenza": "https://www.wlw.com/en/company/christian-goebel-holzgrosshandlung-grosshandlung-mit-sperrholz-gmbh-co-kg-755264 e https://www.northdata.com/Christian%20G%C3%B6bel%20Holzgro%C3%9Fhandlung%20GmbH,%20Frankfurt%20a%C2%B7%20Main/Amtsgericht%20Frankfurt%20am%20Main%20HRB%2045236 - nessuna cifra pubblicata nei frammenti",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Christian Göbel Holzgroßhandlung GmbH & Co. KG",
+  "campo": "denominazione",
+  "problema": "Ragione sociale incompleta: la denominazione registrata e 'Christian Göbel Holzgroßhandlung, Großhandlung mit Sperrholz GmbH & Co. KG' (HRA 15605 Amtsgericht Frankfurt/Main).",
+  "gravita": "bassa",
+  "evidenza": "https://www.goebel-holz.de/impressum/ - 'Christian Göbel Holzgroßhandlung, Großhandlung mit Sperrholz GmbH & Co. KG, Anton-Schlüter-Straße 2, 60437 Frankfurt am Main, HRA 15605'",
+  "correzione_proposta": "Christian Göbel Holzgroßhandlung, Großhandlung mit Sperrholz GmbH & Co. KG"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "E. Fuhlrott GmbH & Co. KG (HOLZFUHLROTT)",
+  "campo": "dimensione",
+  "problema": "Il dato '~20-49 MA (wlw.de)' e una fascia di portale senza anno di riferimento e senza alcun dato di fatturato ('Umsatz n.d.'). Non consente di collocare il lead nella forbice 5-40 Mio EUR.",
+  "gravita": "media",
+  "evidenza": "https://www.wlw.de/de/firma/e-fuhlrott-gmbh-co-kg-kistenfabrik-und-holzhandel-483545 (fascia addetti, senza anno); https://www.invest-in-thuringia.de/en/companies-and-technologies/details/e-fuhlrott-gmbh-co-kg-kistenfabrik-und-holzhandel/ - azienda familiare fondata nel 1990",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "E. Fuhlrott GmbH & Co. KG (HOLZFUHLROTT)",
+  "campo": "denominazione",
+  "problema": "Denominazione registrata completa: 'E. Fuhlrott GmbH & Co. KG, Kistenfabrik und Holzhandel' (HRA 400107). Esistono inoltre societa collegate del medesimo gruppo familiare (FUHLROTT Paletten Verpackungen & Logistik GmbH, HRB 510714; Fuhlrott Produktions- und Entwicklungs GmbH, HRB 509549): il perimetro societario del lead va precisato.",
+  "gravita": "bassa",
+  "evidenza": "https://www.unternehmen24.info/Firmeninformationen/Deutschland/Firma/164652 - 'E. Fuhlrott GmbH & Co. KG, Kistenfabrik und Holzhandel, HRA 400107'; https://www.webvalid.de/company/FUHLROTT+Paletten+Verpackungen+&+Logistik+GmbH,+Leinefelde-Worbis/HRB+510714",
+  "correzione_proposta": "E. Fuhlrott GmbH & Co. KG, Kistenfabrik und Holzhandel"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Furnierwerk Bühl GmbH",
+  "campo": "dimensione",
+  "problema": "Campo privo di dato dimensionale ('Umsatz/MA n.d.'). Le fonti danno indicazioni discordanti: classe di fatturato 10-50 Mio EUR ma totale di bilancio 2023 di soli 1,8 Mio EUR. Da riverificare prima di considerare il lead in forbice.",
+  "gravita": "media",
+  "evidenza": "https://implisense.com/de/companies/furnierwerk-buehl-gmbh-buehl-DE7ZGDDBNO95 - 'Bilanzsumme 2023: 1,8 Mio EUR'; https://www.wer-zu-wem.de/firma/furnierwerk-buehl.html - classe di fatturato 10-50 Mio EUR",
+  "correzione_proposta": "Totale di bilancio 1,8 Mio EUR (2023, Bundesanzeiger via Implisense); classe di fatturato 10-50 Mio EUR (wer-zu-wem) - DA CONFERMARE"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "H. Heitz Furnierkantenwerk GmbH & Co. KG",
+  "campo": "dimensione",
+  "problema": "CONTROLLO DI GRUPPO NON DICHIARATO: dal 2016 Heitz e societa del gruppo INDUS Holding AG (holding industriale quotata, Bergisch Gladbach). Il record non riporta alcun legame di gruppo: la decisione di compliance EUDR si colloca a livello di capogruppo, quindi il lead ha valore dubbio. Manca inoltre qualsiasi dato dimensionale ('Umsatz/MA n.d.').",
+  "gravita": "alta",
+  "evidenza": "https://www.h-heitz.de/aktuelles/presse/ - 'Seit 2016 gehoert Heitz zur INDUS, einem weltweit agierenden Unternehmen, das Beteiligungen an mittelstaendischen Hidden Champions haelt'",
+  "correzione_proposta": "Controllata di INDUS Holding AG (gruppo quotato) dal 2016; dato dimensionale da integrare con fonte e anno"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "H. Heitz Furnierkantenwerk GmbH & Co. KG",
+  "campo": "referente",
+  "problema": "Referente CONFERMATO ma di nomina recente: Jürgen Cirkel e subentrato come Geschäftsführer dopo il pensionamento del precedente GF Stefan Wernecke; nelle banche dati compare ancora anche Ralf Heitz come GF. Verificare che l'anagrafica sia aggiornata.",
+  "gravita": "bassa",
+  "evidenza": "https://www.h-heitz.de/aktuelles/presse/ - 'Juergen Cirkel wurde zum neuen Geschaeftsfuehrer bestellt ... nach dem Ausscheiden des langjaehrigen Geschaeftsfuehrers Stefan Wernecke'; https://die-deutsche-wirtschaft.de/inv_unternehmen/heitz-ralf-h-heitz-furnierkantenwerk-gmbh-co-kg-melle-gf/",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "HOFA Holzimport GmbH",
+  "campo": "dimensione",
+  "problema": "'Umsatz >2,5 Mio EUR (Firmenauskunft), cifra esatta n.d.' non e un dato dimensionale utilizzabile: soglia aperta, senza anno e senza fonte puntuale. Non permette di verificare la forbice target 5-40 Mio EUR.",
+  "gravita": "media",
+  "evidenza": "https://firmeneintrag.creditreform.de/22145/2390205389/HOFA_HOLZIMPORT_GMBH - scheda Creditreform senza cifra di fatturato nei frammenti; https://www.northdata.com/HOFA%20Holzimport%20GmbH,%20Stapelfeld/Amtsgericht%20Hamburg%20HRB%2036876",
+  "correzione_proposta": ""
  }
 ]
