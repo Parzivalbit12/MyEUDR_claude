@@ -6,13 +6,13 @@ from collections import defaultdict, Counter
 HERE = os.path.dirname(os.path.abspath(__file__))
 SHEETS = ["Italia","Germania","Finlandia","Danimarca","Svezia","Olanda","Belgio","Austria"]
 GRAV = ["alta","media","bassa"]
-SKIP = {"_records.json"}
+SKIP_PREFIX = ("_records", "correzioni_")
 
 def load():
     out = []
     for fp in sorted(glob.glob(os.path.join(HERE, "*.json"))):
         bn = os.path.basename(fp)
-        if bn in SKIP: continue
+        if bn.startswith(SKIP_PREFIX): continue
         try:
             data = json.load(open(fp, encoding="utf-8"))
         except Exception as e:
