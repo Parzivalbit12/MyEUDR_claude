@@ -42,14 +42,14 @@ _Generato da `_myeudr_build/verifica/controlli_automatici.py` · nessun accesso 
 | 8 | 8 · Dimensione fuori forbice 5–40 M€ senza segnalazione esplicita | 8 |
 | 9 | 9 · Denominazione: registri, spazi, numeri | 0 |
 | 9b | 9b · Forma giuridica incoerente col paese del foglio | 0 |
-| 9c | 9c · Nessuna forma giuridica nel nome | 19 |
+| 9c | 9c · Nessuna forma giuridica nel nome | 17 |
 | 9d | 9d · Maiuscolo/minuscolo incoerente dentro il foglio | 52 |
-| 9e | 9e · Forma giuridica scritta in stile incoerente (foglio Italia) | 18 |
+| 9e | 9e · Forma giuridica scritta in stile incoerente (foglio Italia) | 0 |
 | 10 | 10 · TLD del sito estraneo al paese del foglio | 7 |
 | 11 | 11 · Divergenze fra JSON di build e foglio Excel | 0 |
 | 11b | 11b · Record presente nei JSON ma assente dal foglio | 0 |
 
-**Totale rilievi automatici: 225**
+**Totale rilievi automatici: 205**
 
 
 ## Macro-filiere osservate
@@ -149,9 +149,9 @@ _Nessun rilievo._
 
 | Foglio | Denominazione | Rilievo | Origine |
 |---|---|---|---|
-| Italia | 3C Lavorazione Pelli S.r.l. | [STESSO NOME, TLD DIVERSO] email @conceria3c.it vs sito conceria3c.com  (email: info@conceria3c.it \| sito: https://www.conceria3c.com) | xlsx:Italia!r3 |
-| Italia | Compensati Toro SpA | [STESSO NOME, TLD DIVERSO] email @compensatitoro.com vs sito compensatitoro.it  (email: info@compensatitoro.com \| sito: https://compensatitoro.it) | xlsx:Italia!r29 |
-| Italia | Itlas Srl Società Benefit | [STESSO NOME, TLD DIVERSO] email @itlas.it vs sito itlas.com  (email: info@itlas.it \| sito: https://www.itlas.com) | xlsx:Italia!r32 |
+| Italia | 3 C - Lavorazione Pelli S.r.l. | [STESSO NOME, TLD DIVERSO] email @conceria3c.it vs sito conceria3c.com  (email: info@conceria3c.it \| sito: https://www.conceria3c.com) | xlsx:Italia!r3 |
+| Italia | Compensati Toro S.p.A. | [STESSO NOME, TLD DIVERSO] email @compensatitoro.com vs sito compensatitoro.it  (email: info@compensatitoro.com \| sito: https://compensatitoro.it) | xlsx:Italia!r29 |
+| Italia | Itlas S.r.l. Società Benefit | [STESSO NOME, TLD DIVERSO] email @itlas.it vs sito itlas.com  (email: info@itlas.it \| sito: https://www.itlas.com) | xlsx:Italia!r32 |
 | Italia | Grafica Nappa S.r.l. | [STESSO NOME, TLD DIVERSO] email @graficanappa.com vs sito graficanappa.it  (email: commerciale@graficanappa.com \| sito: https://www.graficanappa.it) | xlsx:Italia!r49 |
 | Italia | Scatolificio Cartotecnica Schiassi S.r.l. | [STEM AFFINE] email @schiassi.it vs sito scatolificioschiassi.it  (email: info@schiassi.it \| sito: https://www.scatolificioschiassi.it) | xlsx:Italia!r52 |
 | Germania | Weinheimer Leder GmbH | [STESSO NOME, TLD DIVERSO] email @weinheimer-leder.de vs sito weinheimer-leder.com  (email: info@weinheimer-leder.de \| sito: https://www.weinheimer-leder.com) | xlsx:Germania!r5 |
@@ -260,8 +260,8 @@ _Nessun rilievo._
 |---|---|---|---|
 | Italia | Conceria Beschin | Dimensione = 'n.d.' | xlsx:Italia!r7 |
 | Italia | Conceria Daniela | Dimensione = 'n.d.' | xlsx:Italia!r9 |
-| Italia | Conceria Emmedue | Dimensione = 'n.d.' | xlsx:Italia!r10 |
-| Italia | Segheria Saccavini Srl | Dimensione = 'n.d.' | xlsx:Italia!r37 |
+| Italia | Conceria Emmedue S.r.l. | Dimensione = 'n.d.' | xlsx:Italia!r10 |
+| Italia | Segheria Saccavini S.r.l. | Dimensione = 'n.d.' | xlsx:Italia!r37 |
 | Germania | Münchner Kaffeerösterei GmbH | Dimensione = 'n.d.' | xlsx:Germania!r52 |
 | Finlandia | Helsingin Kumi Oy | Dimensione = 'n.d.' | xlsx:Finlandia!r77 |
 
@@ -271,10 +271,10 @@ _Nessun rilievo._
 
 | Foglio | Denominazione | Rilievo | Origine |
 |---|---|---|---|
-| Italia | Arko SpA | Sito = '' | xlsx:Italia!r22 |
-| Italia | C.I.M.A. Srl (Compensati Impiallacciature Materiali Affini) | Sito = '' | xlsx:Italia!r26 |
-| Italia | Holzland Fuchs Srl | Sito = '' | xlsx:Italia!r31 |
-| Italia | Zalf SpA (Zalf Industria Mobili Componibili) | Sito = '' | xlsx:Italia!r38 |
+| Italia | Arko S.p.A. | Sito = '' | xlsx:Italia!r22 |
+| Italia | C.I.M.A. S.r.l. (Compensati Impiallacciature Materiali Affin | Sito = '' | xlsx:Italia!r26 |
+| Italia | Holzland Fuchs S.r.l. | Sito = '' | xlsx:Italia!r31 |
+| Italia | Zalf S.p.A. (Zalf Industria Mobili Componibili) | Sito = '' | xlsx:Italia!r38 |
 | Italia | Gambarotta S.r.l. | Sito = '' | xlsx:Italia!r76 |
 | Italia | Diesse Rubber Hoses S.p.A. | Sito = '' | xlsx:Italia!r81 |
 | Italia | Ellegi S.p.A. | Sito = '' | xlsx:Italia!r82 |
@@ -327,14 +327,12 @@ _Nessun rilievo._
 
 ---
 
-## 9c · Nessuna forma giuridica nel nome  (19)
+## 9c · Nessuna forma giuridica nel nome  (17)
 
 | Foglio | Denominazione | Rilievo | Origine |
 |---|---|---|---|
 | Italia | Conceria Beschin | nessuna forma giuridica riconoscibile | xlsx:Italia!r7 |
-| Italia | Conceria Cilp | nessuna forma giuridica riconoscibile | xlsx:Italia!r8 |
 | Italia | Conceria Daniela | nessuna forma giuridica riconoscibile | xlsx:Italia!r9 |
-| Italia | Conceria Emmedue | nessuna forma giuridica riconoscibile | xlsx:Italia!r10 |
 | Germania | Paletten Meyer | nessuna forma giuridica riconoscibile | xlsx:Germania!r17 |
 | Germania | impuls Kaffeemanufaktur | nessuna forma giuridica riconoscibile | xlsx:Germania!r58 |
 | Germania | Confiserie Dengel (Inh. Uwe Dengel) | nessuna forma giuridica riconoscibile | xlsx:Germania!r63 |
@@ -412,28 +410,9 @@ _Nessun rilievo._
 
 ---
 
-## 9e · Forma giuridica scritta in stile incoerente (foglio Italia)  (18)
+## 9e · Forma giuridica scritta in stile incoerente (foglio Italia)  (0)
 
-| Foglio | Denominazione | Rilievo | Origine |
-|---|---|---|---|
-| Italia | A. Brivio Compensati SpA | «SpA» senza punti (il foglio usa in maggioranza «S.p.A.») | xlsx:Italia!r21 |
-| Italia | Arko SpA | «SpA» senza punti (il foglio usa in maggioranza «S.p.A.») | xlsx:Italia!r22 |
-| Italia | Aster Cucine SpA | «SpA» senza punti (il foglio usa in maggioranza «S.p.A.») | xlsx:Italia!r23 |
-| Italia | Basso Legnami Srl | «Srl» senza punti (il foglio usa in maggioranza «S.r.l.») | xlsx:Italia!r24 |
-| Italia | Bedogna F.lli Srl | «Srl» senza punti (il foglio usa in maggioranza «S.r.l.») | xlsx:Italia!r25 |
-| Italia | C.I.M.A. Srl (Compensati Impiallacciature Materiali Affini) | «Srl» senza punti (il foglio usa in maggioranza «S.r.l.») | xlsx:Italia!r26 |
-| Italia | Caccaro Srl | «Srl» senza punti (il foglio usa in maggioranza «S.r.l.») | xlsx:Italia!r27 |
-| Italia | Cadorin Group Srl | «Srl» senza punti (il foglio usa in maggioranza «S.r.l.») | xlsx:Italia!r28 |
-| Italia | Compensati Toro SpA | «SpA» senza punti (il foglio usa in maggioranza «S.p.A.») | xlsx:Italia!r29 |
-| Italia | Fratelli Berti Legnami Srl | «Srl» senza punti (il foglio usa in maggioranza «S.r.l.») | xlsx:Italia!r30 |
-| Italia | Holzland Fuchs Srl | «Srl» senza punti (il foglio usa in maggioranza «S.r.l.») | xlsx:Italia!r31 |
-| Italia | Itlas Srl Società Benefit | «Srl» senza punti (il foglio usa in maggioranza «S.r.l.») | xlsx:Italia!r32 |
-| Italia | Nord Legnami Group Srl | «Srl» senza punti (il foglio usa in maggioranza «S.r.l.») | xlsx:Italia!r33 |
-| Italia | Nuova River Srl | «Srl» senza punti (il foglio usa in maggioranza «S.r.l.») | xlsx:Italia!r34 |
-| Italia | Original Parquet SpA | «SpA» senza punti (il foglio usa in maggioranza «S.p.A.») | xlsx:Italia!r35 |
-| Italia | PALM SpA SB | «SpA» senza punti (il foglio usa in maggioranza «S.p.A.») | xlsx:Italia!r36 |
-| Italia | Segheria Saccavini Srl | «Srl» senza punti (il foglio usa in maggioranza «S.r.l.») | xlsx:Italia!r37 |
-| Italia | Zalf SpA (Zalf Industria Mobili Componibili) | «SpA» senza punti (il foglio usa in maggioranza «S.p.A.») | xlsx:Italia!r38 |
+_Nessun rilievo._
 
 ---
 

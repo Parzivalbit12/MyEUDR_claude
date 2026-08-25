@@ -13,14 +13,14 @@ La verifica si è svolta in due fasi:
 | Foglio | Aziende | Blocchi verificati | Aziende verificate | Copertura |
 |---|--:|---|--:|--:|
 | Italia | 95 | 1/5 | 19 | 20% |
-| Germania | 97 | 0/6 | 0 | 0% |
+| Germania | 97 | 1/6 | 17 | 18% |
 | Finlandia | 84 | 0/5 | 0 | 0% |
 | Danimarca | 89 | 2/5 | 36 | 40% |
 | Svezia | 89 | 1/5 | 18 | 20% |
 | Olanda | 100 | 1/6 | 17 | 17% |
 | Belgio | 95 | 1/5 | 19 | 20% |
 | Austria | 93 | 1/5 | 19 | 20% |
-| **TOTALE** | **742** | **7/42** | **128** | **17%** |
+| **TOTALE** | **742** | **8/42** | **145** | **20%** |
 
 > La Fase A copre invece il **100%** dei 742 record: è un controllo offline e non dipende dal budget di ricerca.
 
@@ -30,39 +30,39 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 
 ## 2. Rilievi per foglio
 
-**Totale rilievi Fase B: 173** — alta 30 · media 88 · bassa 55.
+**Totale rilievi Fase B: 209** — alta 31 · media 108 · bassa 70.
 
 | Foglio | Rilievi | alta | media | bassa | Aziende toccate |
 |---|--:|--:|--:|--:|--:|
-| Italia | 16 | 0 | 9 | 7 | 12 |
-| Germania | 0 | 0 | 0 | 0 | 0 |
+| Italia | 25 | 0 | 11 | 14 | 17 |
+| Germania | 22 | 1 | 15 | 6 | 14 |
 | Finlandia | 0 | 0 | 0 | 0 | 0 |
 | Danimarca | 46 | 14 | 18 | 14 | 32 |
 | Svezia | 36 | 6 | 15 | 15 | 18 |
 | Olanda | 32 | 5 | 21 | 6 | 16 |
 | Belgio | 32 | 4 | 18 | 10 | 19 |
-| Austria | 10 | 1 | 7 | 2 | 9 |
+| Austria | 15 | 1 | 10 | 4 | 12 |
 | _(tutti)_ | 1 | 0 | 0 | 1 | 1 |
-| **TOTALE** | **173** | **30** | **88** | **55** | **107** |
+| **TOTALE** | **209** | **31** | **108** | **70** | **129** |
 
 ### Rilievi per campo
 
 | Campo | Rilievi | di cui alta |
 |---|--:|--:|
-| dimensione | 75 | 14 |
-| referente | 38 | 8 |
-| denominazione | 20 | 6 |
-| email | 14 | 1 |
-| linkedin | 8 | 0 |
+| dimensione | 98 | 15 |
+| referente | 42 | 8 |
+| denominazione | 25 | 6 |
+| email | 16 | 1 |
+| linkedin | 9 | 0 |
 | sito | 6 | 0 |
 | ruolo | 4 | 0 |
+| sede | 3 | 0 |
 | filiera | 3 | 1 |
 | fonte | 3 | 0 |
-| sede | 2 | 0 |
 
 ---
 
-## 3. Tema trasversale — legami di gruppo (33 rilievi)
+## 3. Tema trasversale — legami di gruppo (34 rilievi)
 
 È il problema **più diffuso e meno atteso** emerso dalla verifica: non era fra i 13 punti noti dell'handoff. Numerose aziende del censimento sono controllate di gruppi, spesso esteri o quotati. Per il criterio già applicato dal progetto — che aveva rimosso Lavazza Kaffee, Segafredo Zanetti Austria e Kaffee Partner Austria perché *«la compliance si decide a livello di gruppo, non nella filiale»* — sono **lead di valore dubbio**.
 
@@ -89,6 +89,7 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 | Danimarca | Skagerak Denmark A/S | **NON dichiarato** | Referente errato e legame di gruppo non dichiarato: Skagerak Denmark A/S e' stata acquisita da Fritz Hansen A/S nel dicembre 2021 ed e' oggi il marchio 'Skagerak by Fritz Hansen'. Josef Theodor Kaiser |
 | Danimarca | TIMBERMAN DENMARK A/S | **dichiarato** | Assetto proprietario errato/obsoleto: il record indica solo 'controllata da Timberman Holding ApS ... azionariato nordico'. In realta' nel dicembre 2024 la societa' e' stata acquistata dal gruppo indu |
 | Danimarca | TJOERNEHOEJ MOELLE A/S | **NON dichiarato** | LEAD NON VALIDO. A/S Tjoernehoej Moelle (CVR 34175012) NON e' un'impresa indipendente: e' stata acquistata da DLG nel 1989 dal mugnaio Sander Petersen ed e' oggi una controllata della cooperativa DLG  |
+| Germania | H. Heitz Furnierkantenwerk GmbH & Co. KG | **NON dichiarato** | CONTROLLO DI GRUPPO NON DICHIARATO: dal 2016 Heitz e societa del gruppo INDUS Holding AG (holding industriale quotata, Bergisch Gladbach). Il record non riporta alcun legame di gruppo: la decisione di |
 | Olanda | BeBo Parket B.V. | **dichiarato** | Assetto proprietario incompleto: dal 2022 l'azienda e' partecipata dall'investitore Nobel Capital Partners insieme al management di seconda generazione. La partecipazione di private equity non e' dich |
 | Olanda | GWW Houtimport B.V. | **dichiarato** | Controllata di gruppo: dal 01/01/2026 GWW Houtimport, GWW Agency e Van den Berg Hardhout confluiscono nella holding Van den Berg Houtgroep. Il legame e' gia' dichiarato correttamente nel campo, ma la  |
 | Olanda | Houthandel Jos Dennebos B.V. | **NON dichiarato** | Referente e ruolo assenti. Il socio unico e' la persona giuridica Jos Dennebos Exploitatie B.V.; il fondatore storico e' Jos Dennebos (attivo anche in Dennebos Suriname). Nome e carica del directeur a |
@@ -110,9 +111,20 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 
 ---
 
-## 4. Casi di gravità ALTA (30)
+## 4. Casi di gravità ALTA (31)
 
 _Dato falso, azienda non contattabile, azienda cessata/fallita/acquisita, oppure fuori dal perimetro dell'Allegato I EUDR._
+
+
+### Germania (1)
+
+#### H. Heitz Furnierkantenwerk GmbH & Co. KG — campo `dimensione`
+
+CONTROLLO DI GRUPPO NON DICHIARATO: dal 2016 Heitz e societa del gruppo INDUS Holding AG (holding industriale quotata, Bergisch Gladbach). Il record non riporta alcun legame di gruppo: la decisione di compliance EUDR si colloca a livello di capogruppo, quindi il lead ha valore dubbio. Manca inoltre qualsiasi dato dimensionale ('Umsatz/MA n.d.').
+
+**Evidenza:** https://www.h-heitz.de/aktuelles/presse/ - 'Seit 2016 gehoert Heitz zur INDUS, einem weltweit agierenden Unternehmen, das Beteiligungen an mittelstaendischen Hidden Champions haelt'
+
+**Correzione proposta:** Controllata di INDUS Holding AG (gruppo quotato) dal 2016; dato dimensionale da integrare con fonte e anno
 
 
 ### Danimarca (14)
@@ -372,24 +384,46 @@ Nessuna e-mail pubblica reperibile (campo 'n.d.') e nessun sito web aziendale: i
 
 ---
 
-## 5. Casi di gravità MEDIA (88)
+## 5. Casi di gravità MEDIA (108)
 
 _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente errato._
 
 
-### Italia (9)
+### Italia (11)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
+| A. Brivio Compensati SpA | dimensione | Dato obsoleto: 15,41M€ è il 2023; il bilancio 2024 riporta ricavi per 12,24M€ (-20%) e una perdita di -365.141€, con 84 dipendenti. L'azienda resta in forbice ma in contrazione. | https://www.companyreports.it/a-brivio-compensati-spa-02109430153 — 'Fatturato € 12.241.471,00 (2024); Utile € -365.141,00 (2024); Dipendenti 84' | ≈12,2M€ (fatturato 2024, Registro Imprese) — perdita netta 2024 |
 | Conceria 800 S.p.A. | dimensione | Fatturato indicato 11,4M€; il bilancio 2023 riporta 9,12M€ con perdita netta di -547.884€. Dato sovrastimato e società in perdita (20-49 dipendenti). | https://topaziende.quotidiano.net/toscana/pisa/fatturato-conceria-800-spa/ — 'ricavi 9.118.508 € (2023); utile netto -547.884 €; dipendenti 20-49' | ≈9,1M€ (bilancio 2023, Top Aziende) — perdita netta 2023 |
 | Conceria Belvedere S.r.l. | dimensione | Fatturato indicato 14M€; i bilanci depositati riportano 11,78M€ (2023) e 11,28M€ (2022). Dato sovrastimato o riferito ad anno non dichiarato. | https://www.reportaziende.it/conceria_belvedere_srl_vi_03742800240 — 'ricavi 2023: 11.776.554 €; 2022: 11.280.042 €; dipendenti 20-49' | ≈11,8M€ (fatturato 2023, Registro Imprese/ReportAziende) |
 | Conceria Beschin | denominazione | Manca la forma giuridica e c'è ambiguità di soggetto: al Registro risultano due entità distinte, 'Conceria Beschin S.n.c. di Graziano Beschin & C.' e 'Conceria Beschin S.r.l. (Unipersonale)', entrambe a Chiampo. Va identificato quale è l'operatore EU | https://www.reteimprese.it/concerie-tintorie-pellami-cuoio/chiampo/azienda/1239180 ('Conceria Beschin Snc') e https://www.reteimprese.it/concerie-tint |  |
-| Conceria Beschin | dimensione | Campo 'n.d.': impossibile verificare che l'azienda rientri nella forbice target 5-40M€. DA CONFERMARE con bilancio depositato. | Nessun dato di fatturato reperito nei frammenti di ricerca; scheda aziendale https://www.conceriabeschin.com/en/company/ non riporta cifre |  |
+| Conceria Beschin | dimensione | Campo 'n.d.': la S.n.c. (P.IVA 00594430241) non deposita bilancio pubblico e risulta avere 10-19 dipendenti, dimensione che rende probabile un fatturato SOTTO la forbice target 5-40M€. DA CONFERMARE prima di lavorare il lead. | https://www.reportaziende.it/conceria_beschin_snc_di_graziano_beschin_c_vi_00594430241 — 'dipendenti 10-19; ultimo bilancio depositato: ricavi **** (d |  |
 | Conceria Daniela | denominazione | Manca la forma giuridica e il nome è ambiguo: al Registro esistono 'CONCERIA DANIELA S.R.L.' (P.IVA 03948180249) e 'CONCERIA DANIELA DI DAL MONTE GIULIANO E C. S.N.C.' (P.IVA 00601580244), entrambe ad Arzignano. Il sito conceriadaniela.com fa capo al | https://www.ufficiocamerale.it/9084/conceria-daniela-srl e https://www.ufficiocamerale.it/3712/conceria-daniela-di-dal-monte-giuliano-e-c-snc | Conceria Daniela S.r.l. |
 | Conceria Daniela | dimensione | Campo 'n.d.': impossibile verificare la forbice target 5-40M€. DA CONFERMARE. | Nessun dato di fatturato nei frammenti; scheda https://www.ufficiocamerale.it/9084/conceria-daniela-srl senza cifre nei risultati |  |
 | Conceria Emmedue | dimensione | Campo 'n.d.': il fatturato reale è ~4,2M€ (2025), quindi SOTTO la forbice target 5-40M€. Lead sottodimensionato, da declassare. | https://www.reportaziende.it/conceria_emmedue_srl_vi_00793250242 — 'fatturato 4,2 milioni di euro (2025), utile netto 231,6 mila €, +10,2% sull'anno p | ≈4,2M€ (fatturato 2025) — sotto forbice target |
 | Conceria La Veneta S.p.A. | dimensione | Dato obsoleto: 12,9M€ è il fatturato 2024; nel 2025 i ricavi sono scesi a 8,68M€ (-32,7%), quindi al limite inferiore della forbice target. Calo rilevante da segnalare al commerciale. | https://registroaziende.it/azienda/conceria-la-veneta-spa-arzignano — 'ricavi 8.681.980 € (2025); 2024: 12,9 mln; 2022: 19.397.025 €; 63 dipendenti' | ≈8,7M€ (fatturato 2025, Registro Imprese) — era 12,9M€ nel 2024 |
 | Conceria Lomar (Lomar Lavorazione Pelli S.r. | email | L'indirizzo 'lomar@concerialomar.it' non compare nelle fonti pubbliche reperite; le schede aziendali e la certificazione LWG riportano 'info@concerialomar.it'. DA CONFERMARE. | https://www.reportaziende.it/lomar_lavorazione_pelli_srl_vi_02002810246 — 'Email: info@concerialomar.it; Tel +39 0444625050; PEC lomar@pec-italia.it' | info@concerialomar.it |
+| Cuoificio Bisonte S.p.A. | dimensione | Fatturato indicato 12,1M€: sottostimato/obsoleto. Il bilancio 2023 riporta ricavi per 15,25M€ e utile 428.879€ (20-49 dipendenti). | https://topaziende.quotidiano.net/toscana/pisa/fatturato-cuoificio-bisonte-spa/ — 'fatturato 2023: 15.247.239 €; utile 428.879 €; dipendenti 20-49; co | ≈15,2M€ (fatturato 2023, Top Aziende/Registro Imprese) |
+
+### Germania (15)
+
+| Azienda | Campo | Problema | Evidenza | Correzione proposta |
+|---|---|---|---|---|
+| Alder Sägewerk & Holzhandlung GmbH | dimensione | Campo privo di qualsiasi elemento dimensionale ('Umsatz/MA n.d.'): nessun tipo di dato, nessuna fonte, nessun anno. Segheria familiare (HRB 201958 Amtsgericht Stadthagen) verosimilmente molto sotto la forbice target 5-40 Mio EUR, senza segnalazione e | https://www.northdata.com/Alder%20S%C3%A4gewerk%20&%20Holzhandlung%20GmbH,%20Auhagen/Amtsgericht%20Stadthagen%20HRB%20201958 - scheda registro senza d |  |
+| Christian Göbel Holzgroßhandlung GmbH & Co.  | email | L'Impressum ufficiale riporta l'indirizzo info@goebel-holz.com (dominio .com), non info@goebel-holz.de come indicato nel record. Il sito e invece www.goebel-holz.de. | https://www.goebel-holz.de/impressum/ - 'Telefon: 069 / 95 30 19-18 ... E-Mail: info@goebel-holz.com ... USt-IdNr.: DE112006391' | info@goebel-holz.com |
+| Christian Göbel Holzgroßhandlung GmbH & Co.  | dimensione | Campo privo di dato dimensionale ('Umsatz/MA n.d.'), sostituito da un elemento non dimensionale ('>85 anni'). Nessun fatturato ne numero addetti con fonte e anno. | https://www.wlw.com/en/company/christian-goebel-holzgrosshandlung-grosshandlung-mit-sperrholz-gmbh-co-kg-755264 e https://www.northdata.com/Christian% |  |
+| E. Fuhlrott GmbH & Co. KG (HOLZFUHLROTT) | dimensione | Il dato '~20-49 MA (wlw.de)' e una fascia di portale senza anno di riferimento e senza alcun dato di fatturato ('Umsatz n.d.'). Non consente di collocare il lead nella forbice 5-40 Mio EUR. | https://www.wlw.de/de/firma/e-fuhlrott-gmbh-co-kg-kistenfabrik-und-holzhandel-483545 (fascia addetti, senza anno); https://www.invest-in-thuringia.de/ |  |
+| Furnierwerk Bühl GmbH | dimensione | Campo privo di dato dimensionale ('Umsatz/MA n.d.'). Le fonti danno indicazioni discordanti: classe di fatturato 10-50 Mio EUR ma totale di bilancio 2023 di soli 1,8 Mio EUR. Da riverificare prima di considerare il lead in forbice. | https://implisense.com/de/companies/furnierwerk-buehl-gmbh-buehl-DE7ZGDDBNO95 - 'Bilanzsumme 2023: 1,8 Mio EUR'; https://www.wer-zu-wem.de/firma/furni | Totale di bilancio 1,8 Mio EUR (2023, Bundesanzeiger via Implisense); classe di fatturato 10-50 Mio EUR (wer-zu-wem) - D |
+| Gebr. Kilger, Lederfabrik Viechtach KG | dimensione | Il campo riporta solo '~20 MA, Umsatz n.d.' senza anno ne fonte. Il dato dipendenti e confermabile (fonte 2019) ma nessun dato di fatturato e disponibile; con ~20 addetti e 1.000-1.500 pelli/mese l'azienda e verosimilmente molto sotto la forbice targ | https://www.hogn.de/2019/07/02/1-da-hogn-geht-um/nachrichten-im-landkreis-regen/michael-kilger-viechtach-leder-manufaktur-guertel-schuhe-gerbung-satte | ~20 dipendenti (fonte: hogn.de, 2019); volumi 1.000-1.500 pelli/mese; fatturato non pubblicato (KG non tenuta al deposit |
+| HOFA Holzimport GmbH | dimensione | 'Umsatz >2,5 Mio EUR (Firmenauskunft), cifra esatta n.d.' non e un dato dimensionale utilizzabile: soglia aperta, senza anno e senza fonte puntuale. Non permette di verificare la forbice target 5-40 Mio EUR. | https://firmeneintrag.creditreform.de/22145/2390205389/HOFA_HOLZIMPORT_GMBH - scheda Creditreform senza cifra di fatturato nei frammenti; https://www. |  |
+| Hartmann Möbelwerke GmbH | dimensione | Fatturato di riferimento del 2017 (8 anni fa) e fascia addetti '~140-210' troppo ampia. Il dato piu recente disponibile e il totale di bilancio 2023 di 10 Mio EUR (+5,2% sull'anno precedente); gli addetti confermati sono 'oltre 140'. | https://implisense.com/en/companies/hartmann-moebelwerke-gmbh-beelen-DEZSR23ZJW75 - 'last published balance sheet total 2023: 10 M EUR, +5.2%'; https: | Totale di bilancio 10 Mio EUR (2023, Bundesanzeiger via Implisense); oltre 140 dipendenti (Die Glocke, 2024); fatturato  |
+| Lederfabrik Josef Heinen GmbH & Co. KG (Hein | dimensione | Dato dimensionale obsoleto (2019/2020, 5+ anni) e in conflitto con le fonti: Creditreform/firmeneintrag colloca l'azienda in classe di fatturato 50-100 Mio EUR, non 20-35 Mio EUR. Va riverificato l'anno di riferimento. | https://firmeneintrag.creditreform.de/41844/5230009708/LEDERFABRIK_JOSEF_HEINEN_GMBH_CO_KG - classe di fatturato 50-100 Mio EUR; https://www.kfw.de/st | Fatturato 35 Mio EUR (2019, KfW Stories); classe di fatturato indicata da Creditreform 50-100 Mio EUR - anno piu recente |
+| Max Cropp GmbH & Co. KG (Timber Im- & Export | email | Il campo email e valorizzato con 'n.d.' mentre l'indirizzo compare letteralmente nell'Impressum/contatti aziendali. | https://www.cropp-timber.com/de/kontakt/ e https://www.edelholzshop.de/de/service/about/ - 'Telefon: 040 - 766 235-0; E-Mail: info@cropp-timber.com' | info@cropp-timber.com |
+| Max Cropp GmbH & Co. KG (Timber Im- & Export | dimensione | Il campo riporta '~13 MA' senza fonte ne anno e 'Umsatz n.d.'. Nessun elemento consente di verificare la forbice target 5-40 Mio EUR; l'ordine di grandezza (~13 addetti in un'attivita di import/commercio) resta indeterminato. | https://www.cropp-timber.com/de/unternehmen/ - azienda fondata nel 1919, nessuna cifra dimensionale pubblicata; https://www.cropp-timber.com/de/untern |  |
+| Meisen Holzverarbeitung GmbH & Co. KG | dimensione | Il dato '~20-49 MA (Regiomanager)' e una fascia di portale priva di anno e non e accompagnato da alcun dato di fatturato ('Umsatz n.d.'): il campo non permette di collocare il lead nella forbice 5-40 Mio EUR. | https://www.regiomanager.de/koeln-bonn-aachen/unternehmen/meisen-holzverarbeitung-gmbh-und-co-kg/ (fascia addetti senza anno); https://firmeneintrag.c |  |
+| PFT Holz in Form GmbH | dimensione | Il fatturato e indicato solo come classe '10-50 Mio EUR' senza anno di riferimento: fascia troppo ampia (copre sia il centro sia il limite superiore della forbice target). Anche il dato addetti (~35) e privo di anno. | https://www.wer-zu-wem.de/firma/formsperrholz.html e https://firmeneintrag.creditreform.de/96132/3410092585/PFT_HOLZ_IN_FORM_GMBH - classe di fatturat |  |
+| Weinheimer Leder GmbH | dimensione | Campo privo di qualsiasi elemento dimensionale verificabile ('Umsatz/MA n.d.'): non dichiara ne tipo di dato, ne fonte, ne anno. Impossibile collocare il lead nella forbice target 5-40 Mio EUR. | https://www.firmenwissen.de/az/firmeneintrag/69469/7170220020/WEINHEIMER_LEDER_GMBH.html (scheda Firmenauskunft, HRB 432889 Mannheim) - nessun fattura |  |
+| ecopell GmbH | dimensione | Campo privo di dato dimensionale ('Umsatz/MA n.d. (dal 1992)'). Le fonti disponibili indicano una micro-impresa: totale di bilancio 2023 pari a ~900 mila EUR (-20,1% sull'anno precedente), capitale sociale 265.000 EUR. E' quindi molto al di sotto del | https://implisense.com/en/companies/ecopell-gmbh-weitnau-seltmans-DE7L5HN3YI34 - 'last published balance sheet total of Ecopell GmbH in 2023 was 900k  | Totale di bilancio ~0,9 Mio EUR (2023, Bundesanzeiger via Implisense) - micro-impresa, fuori forbice target |
 
 ### Danimarca (18)
 
@@ -483,7 +517,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Silco NV | dimensione | Discordanza 4,8 vs 8,4 M€ NON risolta: le due banche dati continuano a riportare cifre diverse per lo stesso ultimo bilancio depositato (14-06-2024). Trendstop: EUR 8.358.215 (23a nel settore 'koffie en thee'); Companyweb/Fincheck: EUR 4.843.986. Sen | https://trendstop.knack.be/nl/detail/715792692/silco.aspx - 'omzet van 8.358.215 euro, 23e in de sector Koffie en thee'; https://www.companyweb.be/en/ |  |
 | Tannerie Masure SA | email | Email 'n.d.'. Il sito masure.be ha una pagina contatti attiva ma l'indirizzo non e' verificabile dai frammenti. DA CONFERMARE. | https://www.masure.be/contact (pagina contatti esistente; indirizzo e-mail non presente nei frammenti) |  |
 
-### Austria (7)
+### Austria (10)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -492,27 +526,48 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Hrachowina Fenster & Türen GmbH | dimensione | Fatturato ca. 25 Mio EUR dichiarato come stima non ufficiale (die-deutsche-wirtschaft.de) e senza anno. Da segnalare inoltre il precedente di insolvenza 2019 della controllata produttiva H&W Holzfensterproduktions-GmbH (JV con Weinzetl), poi rilevata | https://www.holzkurier.com/holzprodukte/2019/06/hrachowina.html - frammento: "H&W Holzfensterproduktions-GmbH had to file for insolvency in late Febru |  |
 | Jannach Lärchenholz GmbH | email | Campo e-mail vuoto ('n.d.'): l'Impressum offusca l'indirizzo in chiave anti-spam e nessuna fonte pubblica riporta letteralmente un recapito. Il lead resta contattabile solo via form/telefono. DA CONFERMARE. | https://jannach.com/kontakt/impressum.html - pagina Impressum senza indirizzo e-mail in chiaro; conferma GF: "Mag. (FH) Helmut Jannach is the manager  |  |
 | Ludwig Reiter Schuhmanufaktur GmbH | email | L'indirizzo office@ludwig-reiter.com non compare nell'Impressum aziendale, che riporta reiter@ludwig-reiter.com come recapito di contatto. | https://www.ludwig-reiter.com/de/impressum - frammento: "telephone +43-1-2559300, fax +43-1-2559300-77, and email reiter@ludwig-reiter.com" | reiter@ludwig-reiter.com |
+| Ludwig Reiter Schuhmanufaktur GmbH | dimensione | Il fatturato di ca. 15 Mio EUR e i ca. 60 dipendenti attribuiti a Wikipedia/AustriaWiki (2019-2023) non trovano riscontro: la voce Wikipedia riporta solo dati storici di organico (ca. 70 addetti nel 1919, ca. 130 nel 1966) e nessun dato di fatturato  | https://de.wikipedia.org/wiki/Ludwig_Reiter_Schuhmanufaktur - frammento: "In 1919, approximately 70 employees were employed, and in 1966, the company  |  |
+| Mayr - Schulmöbel Gesellschaft m.b.H. | dimensione | Il fatturato di ca. 39,0 Mio EUR (stima Die Deutsche Wirtschaft) e' smentito dai dati di ricavo pubblicati dall'azienda/stampa locale: 21 Mio EUR nel 2013, 22,4 Mio EUR nel 2014, 23,1 Mio EUR nel 2016 (+5%). Cade quindi anche l'avvertenza 'AZIENDA DI | https://www.meinbezirk.at/salzkammergut/c-wirtschaft/50000-schueler-lernen-erfolgreich-auf-sesseln-von-mayr-schulmoebel_a824339 - frammento: "In 2013  | Fatturato ca. 23,1 Mio € (2016, ultimo dato pubblicato), ca. 145 dipendenti |
+| Mayr - Schulmöbel Gesellschaft m.b.H. | dimensione | Il secondo Geschaeftsfuehrer indicato nel campo ('Ing. Florian Huemer') non e' riscontrato: le fonti riportano come coppia di GF Franz Josef Wiener (referente del record, corretto) e Maximilian Auinger. | https://newsroom.kommhaus.com/qualitaetsschulmoebel-made-in-austria/ - frammento: "The two managing directors of Mayr Schulmoebel are Franz Josef Wien | Secondo Geschäftsführer: Maximilian Auinger |
 | Tschurtschenthaler Gerberei GmbH | sito | Sito aziendale assente ('n.d.'): nessun dominio proprio individuato nelle fonti pubbliche, solo schede di directory (herold, cylex, europages). | https://www.herold.at/gelbe-seiten/st-stefan-im-gailtal/RZ2RJ/tschurtschenthaler-gerberei-gmbh/ - scheda senza URL aziendale |  |
 | Waldviertler Werkstätten GmbH | dimensione | Dato di fatturato datato (2016-2019) e non riconciliato: le fonti citano 31 Mio EUR di ricavi 2016 riferiti all'universo GEA e, per la controllante Heinrich Staudinger GmbH, un totale di bilancio 2024 di 5,45 Mio EUR. Il perimetro societario del dato | https://www.firmenabc.at/heinrich-staudinger-gmbh-gea-waldviertler_NTLA - frammento: "balance sheet total of EUR 5.454.811,76 as of December 31, 2024" |  |
 
 ---
 
-## 6. Casi di gravità BASSA (55)
+## 6. Casi di gravità BASSA (70)
 
 _Refusi formali e incoerenze di stile._
 
 
-### Italia (7)
+### Italia (14)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
 | 3C Lavorazione Pelli S.r.l. | denominazione | Ragione sociale al Registro Imprese riportata come '3 C - LAVORAZIONE PELLI S.R.L.' (con spazio e trattino), non '3C Lavorazione Pelli S.r.l.' | https://www.europages.it/3-C-LAVORAZIONE-PELLI-SRL/SEAC000597361-002.html — '3 C - LAVORAZIONE PELLI SRL a Arzignano, Conceria'; idem https://www.pagi | 3 C - Lavorazione Pelli S.r.l. |
+| A. Brivio Compensati SpA | denominazione | Forma giuridica scritta in modo non conforme: al Registro Imprese la ragione sociale è 'A. BRIVIO COMPENSATI S.P.A.' (non 'SpA'). | https://www.ufficiocamerale.it/1666/a-brivio-compensati-spa — 'A. BRIVIO COMPENSATI S.P.A., Partita IVA: 02109430153 ... Forma giuridica: SOCIETA' PER | A. Brivio Compensati S.p.A. |
+| Conceria Ambassador S.p.A. | linkedin | Campo vuoto: la pagina LinkedIn aziendale esiste ed è riscontrata. | https://it.linkedin.com/company/conceria-ambassador-spa — 'CONCERIA AMBASSADOR SPA \| LinkedIn' | https://it.linkedin.com/company/conceria-ambassador-spa |
 | Conceria Cilp | denominazione | Manca la forma giuridica: la ragione sociale attuale al Registro Imprese è 'CONCERIA CILP S.R.L.' (P.IVA 00190610501), ex 'Conceria Cilp S.n.c. di Poggetti Riccardo e Davide'. | https://www.ufficiocamerale.it/9423/conceria-cilp-snc-di-poggetti-riccardo-e-davide — 'CONCERIA CILP S.R.L., Partita IVA: 00190610501' | Conceria CILP S.r.l. |
 | Conceria Emmedue | denominazione | Manca la forma giuridica: al Registro Imprese la ragione sociale è 'CONCERIA EMMEDUE S.R.L.' (P.IVA 00793250242). | https://www.ufficiocamerale.it/1739/conceria-emmedue-srl — 'CONCERIA EMMEDUE SRL, Partita IVA: 00793250242' | Conceria Emmedue S.r.l. |
 | Conceria Ferrari S.r.l. | dimensione | Manca l'anno di riferimento; il dato aggiornato di bilancio 2023 è 20,52M€ (utile 1,15M€, 20-49 dipendenti), non 19,9M€. | https://registroaziende.it/azienda/conceria-ferrari-srl-chiampo — 'fatturato 2023: 20,52 milioni; utile 1,15 milioni (-28%)'; https://www.aziende.it/c | ≈20,5M€ (fatturato 2023, Registro Imprese) |
 | Conceria Italia S.p.A. | fonte | L'URL indicato (www.conceriaitalia.com/contatti) non risulta essere la pagina contatti del sito: la pagina CONTATTI pubblicata è /nuova-pagina. Link probabilmente non valido. | Risultato di ricerca: 'CONTATTI — Conceria Italia' → https://www.conceriaitalia.com/nuova-pagina | https://www.conceriaitalia.com/nuova-pagina |
 | Conceria Lomar (Lomar Lavorazione Pelli S.r. | dimensione | Valore corretto (6,2M€, bilancio 2024) ma manca l'anno di riferimento nel campo; è comunque il record più vicino al limite inferiore della forbice 5-40M€. | https://www.ufficiocamerale.it/1740/lomar-lavorazione-pelli-srl — 'ultimo bilancio depositato 2024: ricavi 6.199.639 €; 20-49 dipendenti' | ≈6,2M€ (fatturato 2024, Registro Imprese) |
 | Conceria Nuova Impala S.r.l. | dimensione | Valore confermato (22,25M€, bilancio 2024, in calo del 5,39%) ma manca l'anno nel campo. | https://www.reportaziende.it/conceria_nuova_impala_srl_pi — 'ultimo bilancio 2024: ricavi 22.248.620 €, -5,39% sul precedente' | ≈22,2M€ (fatturato 2024, Registro Imprese) |
+| Conceria Nuova Impala S.r.l. | referente | Campo vuoto. Le fonti pubbliche indicano come figure apicali Gianfranco Caponi (direttore tecnico) e Mauro Vannucci (direttore amministrativo), seconda generazione dei fondatori: non è però confermato chi sia l'amministratore unico/legale rappresenta | https://www.nuovaimpala.com/ — 'fondata oltre 35 anni fa da Mario Caponi e dal cugino Orlando Vannucci, passata poi ai rispettivi figli, Gianfranco e  |  |
+| Conceria Tolio S.p.A. | dimensione | Il numero di dipendenti indicato (~50-249, da Europages) è errato: il Registro Imprese riporta una fascia 20-49 dipendenti. Il fatturato 16,2M€ è confermato ma è del 2023 (utile 91.705€, molto sottile). | https://www.ufficiocamerale.it/5218/conceria-tolio-spa — 'fatturato 16.201.421 € (2023); utile 91.705 €; dipendenti 20-49; costo del personale 2.460.3 | ≈16,2M€ (fatturato 2023) / 20-49 dipendenti (Registro Imprese) |
+| Conceria Tolio S.p.A. | referente | Campo vuoto: il vertice attuale è identificabile con certezza dalle fonti di distretto. | https://www.distrettovenetodellapelle.it/soci-distretto-veneto-pelle/concia/conceria-tolio-spa/ — 'Conceria Tolio nasce nel 1962 da un'idea imprendito | Mario Tolio — Presidente |
+| Fonpelli S.p.A. | denominazione | Forma giuridica errata: al Registro Imprese la società è 'FONPELLI - S.R.L.' (P.IVA 01705980249), non S.p.A. Anche il sito e le schede camerali riportano S.r.l. | https://www.ufficiocamerale.it/2684/fonpelli-spa — 'FONPELLI - S.R.L., Partita IVA: 01705980249'; https://xrayfinance.it/fonpelli-s-p-a — 'FONPELLI S. | Fonpelli S.r.l. |
+| Fonpelli S.p.A. | dimensione | Valore confermato (15,32M€) ma manca l'anno: è il bilancio 2024, chiuso però in perdita (-203.123€) con 35 dipendenti. Elemento da segnalare al commerciale. | https://xrayfinance.it/fonpelli-s-p-a — 'Fatturato: € 15.322.593,00 (2024); Utile: € -203.123,00 (2024); Dipendenti: 35 (2025)' | ≈15,3M€ (fatturato 2024, Registro Imprese) — esercizio in perdita |
+
+### Germania (6)
+
+| Azienda | Campo | Problema | Evidenza | Correzione proposta |
+|---|---|---|---|---|
+| Christian Göbel Holzgroßhandlung GmbH & Co.  | denominazione | Ragione sociale incompleta: la denominazione registrata e 'Christian Göbel Holzgroßhandlung, Großhandlung mit Sperrholz GmbH & Co. KG' (HRA 15605 Amtsgericht Frankfurt/Main). | https://www.goebel-holz.de/impressum/ - 'Christian Göbel Holzgroßhandlung, Großhandlung mit Sperrholz GmbH & Co. KG, Anton-Schlüter-Straße 2, 60437 Fr | Christian Göbel Holzgroßhandlung, Großhandlung mit Sperrholz GmbH & Co. KG |
+| E. Fuhlrott GmbH & Co. KG (HOLZFUHLROTT) | denominazione | Denominazione registrata completa: 'E. Fuhlrott GmbH & Co. KG, Kistenfabrik und Holzhandel' (HRA 400107). Esistono inoltre societa collegate del medesimo gruppo familiare (FUHLROTT Paletten Verpackungen & Logistik GmbH, HRB 510714; Fuhlrott Produktio | https://www.unternehmen24.info/Firmeninformationen/Deutschland/Firma/164652 - 'E. Fuhlrott GmbH & Co. KG, Kistenfabrik und Holzhandel, HRA 400107'; ht | E. Fuhlrott GmbH & Co. KG, Kistenfabrik und Holzhandel |
+| Gebr. Kilger, Lederfabrik Viechtach KG | dimensione | L'inciso 'marchio Rendenbach' non trova riscontro: Rendenbach (J. Rendenbach jr.) e una conceria di Trier, non risulta alcun legame con Kilger nei risultati di ricerca. DA CONFERMARE. | Ricerca '"Lederfabrik Kilger Viechtach Rendenbach"': nessun risultato collega Kilger a Rendenbach; kilger.de/en/about-us/ descrive solo il marchio pro |  |
+| H. Heitz Furnierkantenwerk GmbH & Co. KG | referente | Referente CONFERMATO ma di nomina recente: Jürgen Cirkel e subentrato come Geschäftsführer dopo il pensionamento del precedente GF Stefan Wernecke; nelle banche dati compare ancora anche Ralf Heitz come GF. Verificare che l'anagrafica sia aggiornata. | https://www.h-heitz.de/aktuelles/presse/ - 'Juergen Cirkel wurde zum neuen Geschaeftsfuehrer bestellt ... nach dem Ausscheiden des langjaehrigen Gesch |  |
+| Hartmann Möbelwerke GmbH | referente | Compagine della Geschäftsführung incompleta: oltre a Katharina Hartmann e Holger Hanhardt ne fa parte anche Bernhard Hartmann, che ha ceduto la guida alla figlia ma resta in Geschäftsführung. | https://www.die-glocke.de/lokalnachrichten/katharina-hartmann-uebernimmt-beelener-moebelhersteller-1709910613 - 'Katharina Hartmann ist in die Geschae | Katharina Hartmann, Bernhard Hartmann, Holger Hanhardt |
+| PFT Holz in Form GmbH | sede | La sede legale (Sitz) iscritta a registro e Schlüsselfeld, con iscrizione presso l'Amtsgericht Stendal (HRB 26378); Mertendorf OT Görschen (Südring 7) e la sede operativa/stabilimento. Il campo non distingue i due livelli. | https://www.northdata.com/PFT%20Holz%20in%20Form%20GmbH,%20Schl%C3%BCsselfeld/Amtsgericht%20Stendal%20HRB%2026378 - 'PFT Holz in Form GmbH, Schlüsself | Stabilimento: Mertendorf OT Görschen (Sachsen-Anhalt); sede legale: Schlüsselfeld (Bayern), HRB 26378 AG Stendal |
 
 ### Danimarca (14)
 
@@ -579,12 +634,14 @@ _Refusi formali e incoerenze di stile._
 | Radermecker SRL | dimensione | Discordanza sugli addetti: il record indica 9,1 FTE (bilancio BNB), mentre la scheda Europages dichiara 20-49 dipendenti. Il fatturato non e' pubblicato (schema abbreviato): la collocazione dimensionale resta non verificabile. | https://www.europages.fr/TANNERIE-RADERMECKER/BEL069426-000019048001.html - frammento: "The company employs between 20 and 49 people" |  |
 | Silco NV | sito | Nessun sito web proprio reperito per Silco NV in 3 ricerche: l'azienda compare solo su banche dati societarie (trendstop, companyweb, fincheck, northdata, staatsbladmonitor). Coerente con la struttura a 1 FTE. Il campo vuoto e' quindi corretto, ma va | https://www.northdata.com/Silco%20N.V.,%20Antwerpen/KBO%200715.792.692 - solo scheda registro; nessun dominio aziendale nei risultati | n.d. (nessun sito web aziendale) |
 
-### Austria (2)
+### Austria (4)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
 | HOLZBAU MAIER GmbH & Co KG | dimensione | Il fatturato di ca. 35,0 Mio EUR e' una stima non ufficiale di die-deutsche-wirtschaft.de e non riporta l'anno di riferimento, come richiesto per i dati dimensionali. Confermati invece FN 525501x/LG Salzburg e la co-GF Hildegund Maier. | https://www.maier.at/de/impressum.html - frammento: "Geschaeftsfuehrer: Hildegund Maier (representing since 07.04.2005) and Dipl.Ing Birgit Maier (07. |  |
 | Holzindustrie Schafler GmbH & Co KG | ruolo | Il ruolo riportato ('Gewerberechtlicher Geschaeftsfuehrer') sottostima la posizione: l'Impressum aziendale indica Bernd (Christoph) Schafler come Geschaeftsfuehrer e proprietario, quarta generazione familiare. | https://www.schafler-holz.at/impressum - frammento: "Geschaeftsfuehrer: Bernd Schafler... current managing director and owner Bernd Christoph Schafler | Geschäftsführer / Inhaber |
+| Karnische Massiv Möbel GmbH | denominazione | Ragione sociale a Firmenbuch: 'Karnische-Massiv-Moebel Gesellschaft m.b.H.' (con trattini), FN 094638z, LG Klagenfurt; 'Karnische Massiv Moebel GmbH' e' il nome commerciale. Refuso formale. Confermati invece GF Werner Hohenwarter (fratello Otto Proku | https://www.firmenabc.at/karnische-massiv-moebel-gesellschaft-m-b-h_Xyc e https://www.northdata.de/Karnische-Massiv-M%C3%B6bel%20GmbH,%20Kirchbach/094 | Karnische-Massiv-Möbel Gesellschaft m.b.H. |
+| MAFI Naturholzboden GmbH | dimensione | Il fatturato di 22,3 Mio EUR e' datato al 2017 nel record, ma la fonte (die-deutsche-wirtschaft.de) lo presenta come dato piu' recente disponibile con crescita del 2,8% rispetto a una stima precedente di 20,0 Mio EUR. Anno di riferimento da riconferm | https://die-deutsche-wirtschaft.de/famu_top/oesterreich-mafi-naturholzboden-gmbh-schneegattern-umsatz-mitarbeiterzahl/ - frammento: "The most recent a |  |
 
 ### (tutti) (1)
 

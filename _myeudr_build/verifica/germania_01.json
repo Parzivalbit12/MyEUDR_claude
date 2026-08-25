@@ -133,5 +133,68 @@
   "gravita": "media",
   "evidenza": "https://firmeneintrag.creditreform.de/22145/2390205389/HOFA_HOLZIMPORT_GMBH - scheda Creditreform senza cifra di fatturato nei frammenti; https://www.northdata.com/HOFA%20Holzimport%20GmbH,%20Stapelfeld/Amtsgericht%20Hamburg%20HRB%2036876",
   "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Hartmann Möbelwerke GmbH",
+  "campo": "dimensione",
+  "problema": "Fatturato di riferimento del 2017 (8 anni fa) e fascia addetti '~140-210' troppo ampia. Il dato piu recente disponibile e il totale di bilancio 2023 di 10 Mio EUR (+5,2% sull'anno precedente); gli addetti confermati sono 'oltre 140'.",
+  "gravita": "media",
+  "evidenza": "https://implisense.com/en/companies/hartmann-moebelwerke-gmbh-beelen-DEZSR23ZJW75 - 'last published balance sheet total 2023: 10 M EUR, +5.2%'; https://www.die-glocke.de/lokalnachrichten/katharina-hartmann-uebernimmt-beelener-moebelhersteller-1709910613 - 'mittelstaendisches Unternehmen mit ueber 140 Mitarbeitenden'",
+  "correzione_proposta": "Totale di bilancio 10 Mio EUR (2023, Bundesanzeiger via Implisense); oltre 140 dipendenti (Die Glocke, 2024); fatturato 30 Mio EUR riferito al 2017 - da aggiornare"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Hartmann Möbelwerke GmbH",
+  "campo": "referente",
+  "problema": "Compagine della Geschäftsführung incompleta: oltre a Katharina Hartmann e Holger Hanhardt ne fa parte anche Bernhard Hartmann, che ha ceduto la guida alla figlia ma resta in Geschäftsführung.",
+  "gravita": "bassa",
+  "evidenza": "https://www.die-glocke.de/lokalnachrichten/katharina-hartmann-uebernimmt-beelener-moebelhersteller-1709910613 - 'Katharina Hartmann ist in die Geschaeftsfuehrung aufgestiegen, der weiterhin Bernhard Hartmann und Holger Hanhardt angehoeren'",
+  "correzione_proposta": "Katharina Hartmann, Bernhard Hartmann, Holger Hanhardt"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Max Cropp GmbH & Co. KG (Timber Im- & Export)",
+  "campo": "email",
+  "problema": "Il campo email e valorizzato con 'n.d.' mentre l'indirizzo compare letteralmente nell'Impressum/contatti aziendali.",
+  "gravita": "media",
+  "evidenza": "https://www.cropp-timber.com/de/kontakt/ e https://www.edelholzshop.de/de/service/about/ - 'Telefon: 040 - 766 235-0; E-Mail: info@cropp-timber.com'",
+  "correzione_proposta": "info@cropp-timber.com"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Max Cropp GmbH & Co. KG (Timber Im- & Export)",
+  "campo": "dimensione",
+  "problema": "Il campo riporta '~13 MA' senza fonte ne anno e 'Umsatz n.d.'. Nessun elemento consente di verificare la forbice target 5-40 Mio EUR; l'ordine di grandezza (~13 addetti in un'attivita di import/commercio) resta indeterminato.",
+  "gravita": "media",
+  "evidenza": "https://www.cropp-timber.com/de/unternehmen/ - azienda fondata nel 1919, nessuna cifra dimensionale pubblicata; https://www.cropp-timber.com/de/unternehmen/impressum/",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Meisen Holzverarbeitung GmbH & Co. KG",
+  "campo": "dimensione",
+  "problema": "Il dato '~20-49 MA (Regiomanager)' e una fascia di portale priva di anno e non e accompagnato da alcun dato di fatturato ('Umsatz n.d.'): il campo non permette di collocare il lead nella forbice 5-40 Mio EUR.",
+  "gravita": "media",
+  "evidenza": "https://www.regiomanager.de/koeln-bonn-aachen/unternehmen/meisen-holzverarbeitung-gmbh-und-co-kg/ (fascia addetti senza anno); https://firmeneintrag.creditreform.de/52349/5010042629/MEISEN_HOLZVERARBEITUNG_GMBH_CO_KG - nessun fatturato nei frammenti",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "PFT Holz in Form GmbH",
+  "campo": "dimensione",
+  "problema": "Il fatturato e indicato solo come classe '10-50 Mio EUR' senza anno di riferimento: fascia troppo ampia (copre sia il centro sia il limite superiore della forbice target). Anche il dato addetti (~35) e privo di anno.",
+  "gravita": "media",
+  "evidenza": "https://www.wer-zu-wem.de/firma/formsperrholz.html e https://firmeneintrag.creditreform.de/96132/3410092585/PFT_HOLZ_IN_FORM_GMBH - classe di fatturato 10-50 Mio EUR, senza esercizio di riferimento",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "PFT Holz in Form GmbH",
+  "campo": "sede",
+  "problema": "La sede legale (Sitz) iscritta a registro e Schlüsselfeld, con iscrizione presso l'Amtsgericht Stendal (HRB 26378); Mertendorf OT Görschen (Südring 7) e la sede operativa/stabilimento. Il campo non distingue i due livelli.",
+  "gravita": "bassa",
+  "evidenza": "https://www.northdata.com/PFT%20Holz%20in%20Form%20GmbH,%20Schl%C3%BCsselfeld/Amtsgericht%20Stendal%20HRB%2026378 - 'PFT Holz in Form GmbH, Schlüsselfeld'; https://formsperrholz.de/kontakt - 'Südring 7, 06618 Mertendorf OT Görschen'",
+  "correzione_proposta": "Stabilimento: Mertendorf OT Görschen (Sachsen-Anhalt); sede legale: Schlüsselfeld (Bayern), HRB 26378 AG Stendal"
  }
 ]

@@ -1,0 +1,178 @@
+[
+ {
+  "foglio": "Italia",
+  "denominazione": "Fonpelli S.p.A.",
+  "campo": "denominazione",
+  "da": "Fonpelli S.p.A.",
+  "a": "Fonpelli S.r.l.",
+  "motivo": "forma giuridica errata: al Registro Imprese è FONPELLI - S.R.L., P.IVA 01705980249"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Conceria Cilp",
+  "campo": "denominazione",
+  "da": "Conceria Cilp",
+  "a": "Conceria CILP S.r.l.",
+  "motivo": "forma giuridica mancante: al Registro Imprese è CONCERIA CILP S.R.L., P.IVA 00190610501"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Conceria Emmedue",
+  "campo": "denominazione",
+  "da": "Conceria Emmedue",
+  "a": "Conceria Emmedue S.r.l.",
+  "motivo": "forma giuridica mancante: al Registro Imprese è CONCERIA EMMEDUE S.R.L., P.IVA 00793250242"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "3C Lavorazione Pelli S.r.l.",
+  "campo": "denominazione",
+  "da": "3C Lavorazione Pelli S.r.l.",
+  "a": "3 C - Lavorazione Pelli S.r.l.",
+  "motivo": "ragione sociale a registro: «3 C - LAVORAZIONE PELLI S.R.L.» (due fonti concordi)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "A. Brivio Compensati SpA",
+  "campo": "denominazione",
+  "da": "A. Brivio Compensati SpA",
+  "a": "A. Brivio Compensati S.p.A.",
+  "motivo": "normalizzazione ortografica della forma giuridica allo stile del foglio (S.r.l./S.p.A.)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Arko SpA",
+  "campo": "denominazione",
+  "da": "Arko SpA",
+  "a": "Arko S.p.A.",
+  "motivo": "normalizzazione ortografica della forma giuridica allo stile del foglio (S.r.l./S.p.A.)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Aster Cucine SpA",
+  "campo": "denominazione",
+  "da": "Aster Cucine SpA",
+  "a": "Aster Cucine S.p.A.",
+  "motivo": "normalizzazione ortografica della forma giuridica allo stile del foglio (S.r.l./S.p.A.)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Basso Legnami Srl",
+  "campo": "denominazione",
+  "da": "Basso Legnami Srl",
+  "a": "Basso Legnami S.r.l.",
+  "motivo": "normalizzazione ortografica della forma giuridica allo stile del foglio (S.r.l./S.p.A.)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Bedogna F.lli Srl",
+  "campo": "denominazione",
+  "da": "Bedogna F.lli Srl",
+  "a": "Bedogna F.lli S.r.l.",
+  "motivo": "normalizzazione ortografica della forma giuridica allo stile del foglio (S.r.l./S.p.A.)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "C.I.M.A. Srl (Compensati Impiallacciature Materiali Affini)",
+  "campo": "denominazione",
+  "da": "C.I.M.A. Srl (Compensati Impiallacciature Materiali Affini)",
+  "a": "C.I.M.A. S.r.l. (Compensati Impiallacciature Materiali Affini)",
+  "motivo": "normalizzazione ortografica della forma giuridica allo stile del foglio (S.r.l./S.p.A.)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Caccaro Srl",
+  "campo": "denominazione",
+  "da": "Caccaro Srl",
+  "a": "Caccaro S.r.l.",
+  "motivo": "normalizzazione ortografica della forma giuridica allo stile del foglio (S.r.l./S.p.A.)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Cadorin Group Srl",
+  "campo": "denominazione",
+  "da": "Cadorin Group Srl",
+  "a": "Cadorin Group S.r.l.",
+  "motivo": "normalizzazione ortografica della forma giuridica allo stile del foglio (S.r.l./S.p.A.)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Compensati Toro SpA",
+  "campo": "denominazione",
+  "da": "Compensati Toro SpA",
+  "a": "Compensati Toro S.p.A.",
+  "motivo": "normalizzazione ortografica della forma giuridica allo stile del foglio (S.r.l./S.p.A.)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Fratelli Berti Legnami Srl",
+  "campo": "denominazione",
+  "da": "Fratelli Berti Legnami Srl",
+  "a": "Fratelli Berti Legnami S.r.l.",
+  "motivo": "normalizzazione ortografica della forma giuridica allo stile del foglio (S.r.l./S.p.A.)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Holzland Fuchs Srl",
+  "campo": "denominazione",
+  "da": "Holzland Fuchs Srl",
+  "a": "Holzland Fuchs S.r.l.",
+  "motivo": "normalizzazione ortografica della forma giuridica allo stile del foglio (S.r.l./S.p.A.)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Itlas Srl Società Benefit",
+  "campo": "denominazione",
+  "da": "Itlas Srl Società Benefit",
+  "a": "Itlas S.r.l. Società Benefit",
+  "motivo": "normalizzazione ortografica della forma giuridica allo stile del foglio (S.r.l./S.p.A.)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Nord Legnami Group Srl",
+  "campo": "denominazione",
+  "da": "Nord Legnami Group Srl",
+  "a": "Nord Legnami Group S.r.l.",
+  "motivo": "normalizzazione ortografica della forma giuridica allo stile del foglio (S.r.l./S.p.A.)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Nuova River Srl",
+  "campo": "denominazione",
+  "da": "Nuova River Srl",
+  "a": "Nuova River S.r.l.",
+  "motivo": "normalizzazione ortografica della forma giuridica allo stile del foglio (S.r.l./S.p.A.)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Original Parquet SpA",
+  "campo": "denominazione",
+  "da": "Original Parquet SpA",
+  "a": "Original Parquet S.p.A.",
+  "motivo": "normalizzazione ortografica della forma giuridica allo stile del foglio (S.r.l./S.p.A.)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "PALM SpA SB",
+  "campo": "denominazione",
+  "da": "PALM SpA SB",
+  "a": "PALM S.p.A. SB",
+  "motivo": "normalizzazione ortografica della forma giuridica allo stile del foglio (S.r.l./S.p.A.)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Segheria Saccavini Srl",
+  "campo": "denominazione",
+  "da": "Segheria Saccavini Srl",
+  "a": "Segheria Saccavini S.r.l.",
+  "motivo": "normalizzazione ortografica della forma giuridica allo stile del foglio (S.r.l./S.p.A.)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Zalf SpA (Zalf Industria Mobili Componibili)",
+  "campo": "denominazione",
+  "da": "Zalf SpA (Zalf Industria Mobili Componibili)",
+  "a": "Zalf S.p.A. (Zalf Industria Mobili Componibili)",
+  "motivo": "normalizzazione ortografica della forma giuridica allo stile del foglio (S.r.l./S.p.A.)"
+ }
+]
