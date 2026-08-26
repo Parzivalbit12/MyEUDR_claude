@@ -1,0 +1,299 @@
+[
+ {
+  "foglio": "Italia",
+  "denominazione": "Arko SpA",
+  "campo": "denominazione",
+  "problema": "Forma giuridica errata: con la stessa P.IVA 03278760263 le fonti camerali riportano ARKO S.R.L., non S.p.A.",
+  "gravita": "bassa",
+  "evidenza": "https://www.ufficiocamerale.it/4331/arko-spa titolo 'ARKO S.R.L., Partita IVA: 03278760263'; https://registroaziende.it/azienda/arko-srl-motta-di-livenza 'Fatturato e utile/perdita di Arko Srl (03278760263)'; aziende.it 'Arko S.r.l.: fatturato 2024 e P.IVA 03278760263'",
+  "correzione_proposta": "Arko S.r.l."
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Arko SpA",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti; dalla ricerca emerge il vertice attuale.",
+  "gravita": "media",
+  "evidenza": "Frammento: 'Luca Visentin is the CEO/Amministratore Delegato'; consiglieri Marco Montali e Simone Grandis (kompass.com/c/arko-s-p-a/it0164330/, impresaitalia.info/kk03402897/arko-spa)",
+  "correzione_proposta": "Luca Visentin — Amministratore Delegato (DA CONFERMARE su visura)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Arko SpA",
+  "campo": "email",
+  "problema": "Email 'n.d.', sito e LinkedIn vuoti: record non contattabile. Nessuna email pubblica reperita; disponibili solo i telefoni 0422 867830 / 0422 867801 (Via Istria 22, Motta di Livenza).",
+  "gravita": "media",
+  "evidenza": "https://www.paginebianche.it/motta-di-livenza/arko.780879 (solo numeri di telefono, nessuna email)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Aster Cucine SpA",
+  "campo": "dimensione",
+  "problema": "Dato obsoleto: disponibile il bilancio 2024 (17,31M€, -1,74% su 2023) e organico ~70 dipendenti, non ~92.",
+  "gravita": "bassa",
+  "evidenza": "https://www.aziende.it/aster-cucine-s-p-a 'ricavi 2024 € 17.312.732 ... 70 dipendenti'; https://topaziende.quotidiano.net/marche/pesaro-urbino/fatturato-aster-cucine-spa/",
+  "correzione_proposta": "≈17,3M€ (2024) / ~70 dip. (Aziende.it, bilancio 2024)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Bedogna F.lli Srl",
+  "campo": "dimensione",
+  "problema": "Dato del 2019 e non aggiornato: il bilancio 2024 riporta ricavi per 20,91M€ (in calo del 37,2% sul 2023) e organico 20-49 dipendenti.",
+  "gravita": "media",
+  "evidenza": "https://topaziende.quotidiano.net/lombardia/mantova/fatturato-bedogna-f-lli-s-r-l/ e https://www.aziende.it/bedogna-f-lli-s-r-l 'ricavi 2024 € 20.912.035 ... 20-49 dipendenti'",
+  "correzione_proposta": "≈20,9M€ (2024) / 20-49 dip. (bilancio 2024, Aziende.it/TopAziende)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Bedogna F.lli Srl",
+  "campo": "email",
+  "problema": "Email 'n.d.'. Sul sito l'indirizzo e' offuscato via JavaScript e non compare in chiaro nei frammenti pubblici; reperiti solo tel. +39 0375 838112 e fax +39 0375 89894. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://www.misterimprese.it/lombardia/mantova/dosolo/pallets/610146.html (solo telefono); https://imballaggi.bedogna.it/it/ (email protetta da JavaScript)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "C.I.M.A. Srl (Compensati Impiallacciature Materiali Affini)",
+  "campo": "sito",
+  "problema": "Campo sito vuoto: il sito aziendale esiste ed e' www.cima-srl.com.",
+  "gravita": "bassa",
+  "evidenza": "https://www.reportaziende.it/compensati_impiallacciature_materiali_affini_cima_srl_in_sigla_cima_srl_pd_00227040284 'Sito: www.cima-srl.com'",
+  "correzione_proposta": "https://www.cima-srl.com"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "C.I.M.A. Srl (Compensati Impiallacciature Materiali Affini)",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti: dalle fonti camerali risulta Alessandro Dal Soglio come Presidente.",
+  "gravita": "media",
+  "evidenza": "Frammento reportaziende/ufficiocamerale su P.IVA 00227040284: 'Key Contact: Alessandro Dal Soglio (President)'",
+  "correzione_proposta": "Alessandro Dal Soglio — Presidente (DA CONFERMARE su visura)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "C.I.M.A. Srl (Compensati Impiallacciature Materiali Affini)",
+  "campo": "dimensione",
+  "problema": "Valore sostanzialmente corretto ma organico impreciso: le fonti indicano fascia 50-99 dipendenti, non '~95'.",
+  "gravita": "bassa",
+  "evidenza": "https://www.reportaziende.it/compensati_impiallacciature_materiali_affini_cima_srl_in_sigla_cima_srl_pd_00227040284 'Ricavi 2024 € 28.186.985; 2023 € 27.946.151; dipendenti 50-99'",
+  "correzione_proposta": "≈28,2M€ (2024) / 50-99 dip. (bilancio 2024, ReportAziende)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Caccaro Srl",
+  "campo": "dimensione",
+  "problema": "Dato datato (2022): il bilancio 2024 riporta ricavi 22,87M€ (23 mln secondo la stampa di settore) e organico 100-199 dipendenti, non indicato nel campo.",
+  "gravita": "bassa",
+  "evidenza": "https://design.pambianconews.com/caccaro-23-mln-di-fatturato-nel-2024/ e https://www.reportaziende.it/caccaro_srl_pd_02325900286 'ricavi 2024 € 22.871.370; utile € 1.273.056; 100-199 dipendenti'",
+  "correzione_proposta": "≈22,9M€ (2024) / 100-199 dip. (bilancio 2024, ReportAziende; Pambianco Design)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Caccaro Srl",
+  "campo": "email",
+  "problema": "Email 'n.d.' e LinkedIn vuoto: nessun indirizzo reperito in chiaro nei frammenti pubblici (solo tel. 049 9318911). DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://www.informazione-aziende.it/Azienda_CACCARO-SRL (telefono 0499318911, sito www.caccaro.com; nessuna email)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Compensati Toro SpA",
+  "campo": "email",
+  "problema": "TLD errato: l'indirizzo pubblicato dall'azienda e' info@compensatitoro.it (dominio .it, coerente col sito), non info@compensatitoro.com.",
+  "gravita": "bassa",
+  "evidenza": "https://compensatitoro.it/en/contatti/ e https://vetrina.federlegnoarredo.it/it/aziende-associate/compensati-toro-spa/2121251922 'E-mail: info@compensatitoro.it'",
+  "correzione_proposta": "info@compensatitoro.it"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Compensati Toro SpA",
+  "campo": "denominazione",
+  "problema": "Denominazione formale al Registro Imprese: 'COMPENSATI *TORO - S.P.A.' (P.IVA 00506540012); il nome d'uso e' Compensati Toro S.p.A. Segnalato solo per precisione formale.",
+  "gravita": "bassa",
+  "evidenza": "https://www.ufficiocamerale.it/2719/compensati-toro-spa 'COMPENSATI *TORO - S.P.A., Partita IVA: 00506540012'",
+  "correzione_proposta": "Compensati Toro S.p.A. (ragione sociale registrata: COMPENSATI *TORO - S.P.A.)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Fratelli Berti Legnami Srl",
+  "campo": "dimensione",
+  "problema": "Dato discordante rispetto ad Atoka, che indica ~5,9M€ e 18 dipendenti; valore comunque al limite inferiore della forbice target 5-40M€. Anno del dato da riconfermare.",
+  "gravita": "bassa",
+  "evidenza": "https://atoka.io/public/it/azienda/fratelli-berti-legnami-srl/4735010f740f '18 employees and a turnover of 5.9 million euros'",
+  "correzione_proposta": "≈5,9M€ / 18 dip. (Atoka) — anno da confermare"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Holzland Fuchs Srl",
+  "campo": "filiera",
+  "problema": "Possibile errore di perimetro EUDR: l'attivita' registrata e' 'Commercio al dettaglio di mobili per la casa' e l'insegna commerciale e' AVANTI Latsch (negozio di mobili/articoli per la casa). Va verificato se importa direttamente legname (operatore EUDR) oppure se rivende beni gia' immessi sul mercato UE (commerciante a valle, come il caso Hausberger in Germania). Il campo filiera dichiara 'import/commercio legname' senza riscontro.",
+  "gravita": "media",
+  "evidenza": "https://atoka.io/public/it/azienda/holzland-fuchs-srl/7eeff574a86b 'Commercio al dettaglio di mobili per la casa a Laces'; https://bnbvv.it/company/avanti-latsch-holzland-fuchs-gmbh-914196/ 'AVANTI Latsch - Holzland Fuchs GmbH ... negozio di mobili'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Holzland Fuchs Srl",
+  "campo": "sito",
+  "problema": "Campo sito vuoto: l'azienda opera con il sito avantishop.it (insegna AVANTI Latsch).",
+  "gravita": "bassa",
+  "evidenza": "https://atoka.io/public/it/azienda/holzland-fuchs-srl/7eeff574a86b 'Website: avantishop.it'",
+  "correzione_proposta": "https://www.avantishop.it"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Holzland Fuchs Srl",
+  "campo": "dimensione",
+  "problema": "Il dato Atoka (15,1M€ / 60 dip.) non riporta l'anno di bilancio nella fonte; l'anno '2024' indicato nel campo non e' verificabile dai frammenti. DA CONFERMARE.",
+  "gravita": "bassa",
+  "evidenza": "https://atoka.io/public/it/azienda/holzland-fuchs-srl/7eeff574a86b '60 employees and a revenue of 15.1 M €' (senza anno)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Itlas Srl Societa Benefit",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti: il vertice e' Patrizio Dei Tos, fondatore e Presidente del Consiglio di Amministrazione.",
+  "gravita": "media",
+  "evidenza": "https://www.edilportale.com/aziende/itlas_619529.html 'fondata da Patrizio Dei Tos, oggi presidente del Consiglio di Amministrazione'",
+  "correzione_proposta": "Patrizio Dei Tos — Presidente del CdA"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Itlas Srl Societa Benefit",
+  "campo": "dimensione",
+  "problema": "Dato da riconfermare: le fonti di stampa indicano ~17 mln € di fatturato al 2023 per Itlas, mentre il campo riporta 16,0M€ (2024). Da segnalare inoltre che Itlas e' capofila di un gruppo (nel 2018 il gruppo contava oltre 300 addetti e 50 mln € di ricavi): il perimetro del dato (societa' singola vs gruppo) non e' dichiarato.",
+  "gravita": "media",
+  "evidenza": "https://www.reportaziende.it/itlas_spa e frammento 'As of 2023, Itlas had a total turnover of approximately 17 million euros'; 'In 2018, the Itlas group in Cordignano had over 300 employees and 50 million euros in revenue'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Nord Legnami Group Srl",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti: risulta amministratore delegato Marica Emilia Benedetto.",
+  "gravita": "media",
+  "evidenza": "Frammento su P.IVA 06812230016 (ufficiocamerale/visurissima): 'Un amministratore delegato e' Marica Emilia Benedetto'",
+  "correzione_proposta": "Marica Emilia Benedetto — Amministratore Delegato (DA CONFERMARE su visura)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Nord Legnami Group Srl",
+  "campo": "denominazione",
+  "problema": "Ambiguita' di soggetto giuridico: a San Mauro Torinese esiste anche 'Nord Legnami Fai Da Te S.r.l.', entita' distinta con lo stesso marchio. Verificare che il lead sia riferito a Nord Legnami Group S.r.l. (P.IVA 06812230016). Inoltre le fonti indicano sedi diverse (Strada San Giorgio 23 / Via Domodossola 21 San Mauro Torinese; alcune banche dati riportano Settimo Torinese).",
+  "gravita": "media",
+  "evidenza": "https://www.legno.cc/azienda-nord-legnami-fai-da-te-san-mauro-torinese-2416 'Nord Legnami Fai Da Te S.r.l. | San Mauro Torinese'; https://m.fatturatoitalia.it/nord_legnami_group_srl-06812230016 'Nord Legnami Group S.r.l. ... Settimo Torinese'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Nord Legnami Group Srl",
+  "campo": "dimensione",
+  "problema": "Il dato 2024 e' corretto (10,15M€) ma va segnalato il forte calo: -34,4% sul 2023 (15,46M€). Utile 2023 598.911€, 43 dipendenti nel 2024.",
+  "gravita": "bassa",
+  "evidenza": "https://www.aziende.it/nord-legnami-group-s-r-l 'fatturato 2024 10.150.524 euro, -34,4%; 2023 15.463.954 euro; 43 dipendenti'",
+  "correzione_proposta": "≈10,2M€ (2024, -34,4% sul 2023) / 43 dip. (Aziende.it, bilancio 2024)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Nuova River Srl",
+  "campo": "dimensione",
+  "problema": "Fatturato dichiarato (4,9M€) sotto la forbice target 5-40M€ senza segnalazione esplicita; inoltre l'organico indicato (10-15 dip.) contrasta con le fonti che riportano 20-49 dipendenti. Dato di fatturato non riconfermato dai frammenti.",
+  "gravita": "media",
+  "evidenza": "https://www.europages.it/NUOVA-RIVER-SRL/SEAC002463786-001.html e https://www.ufficiocamerale.it/1345/nuova-river-srl 'struttura di circa 20-49 dipendenti'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Nuova River Srl",
+  "campo": "email",
+  "problema": "Email 'n.d.': la pagina contatti del sito esiste (nuovariversrl.it/contatti) ma nei frammenti pubblici compare solo il telefono +39 039 2018555, nessun indirizzo in chiaro. DA CONFERMARE.",
+  "gravita": "bassa",
+  "evidenza": "https://www.nuovariversrl.it/contatti (nessuna email nei frammenti); https://www.infobel.com/it/italy/nuova_river/sovico/IT109953693-0392018555/businessdetails.aspx",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Original Parquet SpA",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti: nelle fonti di stampa locale il vertice/titolare indicato e' Giovanni Ballardini.",
+  "gravita": "media",
+  "evidenza": "https://www.inmagazineromagna.it/original-parquet/ (Giovanni Ballardini, titolare di Original Parquet)",
+  "correzione_proposta": "Giovanni Ballardini — Titolare/Presidente (ruolo esatto DA CONFERMARE su visura)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "PALM SpA SB",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti: Primo Barzoni e' Presidente e Amministratore Delegato di PALM S.p.A. SB.",
+  "gravita": "media",
+  "evidenza": "https://www.pefc.it/news/primo-barzoni-di-palm-s-p-a-e-il-nuovo-vice-presidente-di-pefc-italia e https://www.thedotcultura.it/40-anni-di-palm-spa-il-pallet-a-servizio-delle-imprese-parla-primo-barzoni/ 'Primo Barzoni is president and CEO'",
+  "correzione_proposta": "Primo Barzoni — Presidente e Amministratore Delegato"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "PALM SpA SB",
+  "campo": "dimensione",
+  "problema": "Dato confermato ma da precisare: fatturato 2024 13,3 mln €, 48 tra dipendenti e collaboratori, capacita' produttiva 1.800.000 pallet/anno (fonte aziendale).",
+  "gravita": "bassa",
+  "evidenza": "https://palm.it/ 'fatturato 2024 13.300.000 €; 48 dipendenti e collaboratori; 1.800.000 pallet'",
+  "correzione_proposta": "≈13,3M€ (2024) / 48 dip. e collaboratori (fonte aziendale palm.it)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Segheria Saccavini Srl",
+  "campo": "dimensione",
+  "problema": "Campo valorizzato 'n.d.': nessun dato dimensionale (fatturato/dipendenti) dichiarato, quindi impossibile verificare la forbice target 5-40M€. Dai frammenti emergono solo dati di capacita': ~20.000 mc di tronchi/anno su 60.000 mq di area (15.000 coperti).",
+  "gravita": "media",
+  "evidenza": "https://en.saccavini.it/firm/ 'produces about 20,000 cubic metres of logs each year ... area of about 60,000 square metres, of which over 15,000 are covered'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Segheria Saccavini Srl",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti: risulta Nella De Sabbata come Presidente della societa'.",
+  "gravita": "media",
+  "evidenza": "Frammento ZoomInfo/legno.cc su Saccavini S.r.l. Premariacco: 'Nella De Sabbata is the Presidente (President) of the company'",
+  "correzione_proposta": "Nella De Sabbata — Presidente (DA CONFERMARE su visura)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Segheria Saccavini Srl",
+  "campo": "denominazione",
+  "problema": "Possibile difformita' formale: al Registro la societa' risulta come 'Saccavini S.r.l.' (nata come ditta individuale nel 1973, trasformata in societa' di capitali nel 1986); 'Segheria Saccavini' e' l'insegna commerciale. Da riconfermare la ragione sociale esatta.",
+  "gravita": "bassa",
+  "evidenza": "https://www.legno.cc/azienda-saccavini-premariacco-10740 'Saccavini S.r.l. | Premariacco'; https://www.saccavini.it/contatti/ 'Saccavini srl Premariacco'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Zalf SpA (Zalf Industria Mobili Componibili)",
+  "campo": "dimensione",
+  "problema": "CONTROLLATA DI GRUPPO NON DICHIARATA: Zalf e' una societa' del Gruppo Euromobil (famiglia Lucchetta, holding a Falze' di Piave/Susegana TV), insieme ai marchi Euromobil e Desiree. La compliance EUDR si decide a livello di capogruppo: il lead va riqualificato o riferito a Gruppo Euromobil.",
+  "gravita": "alta",
+  "evidenza": "https://www.gruppoeuromobil.com/en/group/history e https://www.zalf.com/en/company 'Today Zalf is a company of Gruppo Euromobil ... three brands - Euromobil, Zalf and Desiree - founded and led by the four Lucchetta brothers'",
+  "correzione_proposta": "Aggiungere in dimensione/note: 'societa' del Gruppo Euromobil (marchi Euromobil, Zalf, Desiree) - decisione EUDR a livello di capogruppo'"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Zalf SpA (Zalf Industria Mobili Componibili)",
+  "campo": "email",
+  "problema": "Email 'n.d.', sito e LinkedIn vuoti: record non contattabile, benche' esistano il sito di marchio www.zalf.com (con pagina contatti) e la pagina LinkedIn del Gruppo Euromobil.",
+  "gravita": "media",
+  "evidenza": "https://www.zalf.com/en/contacts ; https://it.linkedin.com/company/gruppo-euromobil",
+  "correzione_proposta": "sito: https://www.zalf.com (email da confermare sulla pagina contatti)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Zalf SpA (Zalf Industria Mobili Componibili)",
+  "campo": "dimensione",
+  "problema": "Dato di fatturato confermato ma da completare con anno e utile: 27,52M€ nel 2024 con utile 1,59M€; manca il dato dipendenti.",
+  "gravita": "bassa",
+  "evidenza": "https://www.reportaziende.it/zalf_industria_mobili_componibili_spa_in_breve_zalf_spa_zalf_mobili_spa_oppure_tv_00319860268 'fatturato 2024 € 27.515.600, utile € 1.589.216'",
+  "correzione_proposta": "≈27,5M€ (2024, utile 1,59M€) (ReportAziende, bilancio 2024)"
+ }
+]

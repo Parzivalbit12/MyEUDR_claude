@@ -12,15 +12,15 @@ La verifica si è svolta in due fasi:
 
 | Foglio | Aziende | Blocchi completi | Blocchi parziali | Blocchi da fare | Aziende verificate | Copertura |
 |---|--:|--:|--:|--:|--:|--:|
-| Italia | 95 | 1 | 0 | 4 | 19 | 20% |
+| Italia | 95 | 1 | 1 | 3 | 34 | 36% |
 | Germania | 97 | 2 | 0 | 4 | 34 | 35% |
 | Finlandia | 84 | 1 | 0 | 4 | 17 | 20% |
 | Danimarca | 88 | 3 | 0 | 2 | 54 | 61% |
 | Svezia | 89 | 2 | 0 | 3 | 36 | 40% |
-| Olanda | 99 | 2 | 0 | 4 | 34 | 34% |
+| Olanda | 99 | 3 | 0 | 3 | 51 | 52% |
 | Belgio | 94 | 3 | 0 | 2 | 57 | 61% |
 | Austria | 92 | 2 | 0 | 3 | 38 | 41% |
-| **TOTALE** | **738** | **16** | **0** | **26** | **289** | **39%** |
+| **TOTALE** | **738** | **17** | **1** | **24** | **321** | **43%** |
 
 _Un blocco è contato **completo** solo se l'agente ha confermato di aver verificato tutti i record. I **blocchi parziali** sono quelli ancora in corso o interrotti dal limite di sessione: i rilievi già salvati sono validi e inclusi nel report, ma la copertura è conteggiata al ribasso (solo le aziende che compaiono fra i rilievi). Il salvataggio incrementale ogni 3-4 record è ciò che ha evitato di perdere quel lavoro._
 
@@ -32,40 +32,40 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 
 ## 2. Rilievi per foglio
 
-**Totale rilievi Fase B: 460** — alta 66 · media 259 · bassa 135.
+**Totale rilievi Fase B: 515** — alta 70 · media 290 · bassa 155.
 
 | Foglio | Rilievi | alta | media | bassa | Aziende toccate |
 |---|--:|--:|--:|--:|--:|
-| Italia | 25 | 0 | 11 | 14 | 17 |
+| Italia | 58 | 1 | 28 | 29 | 32 |
 | Germania | 56 | 3 | 38 | 15 | 34 |
 | Finlandia | 23 | 6 | 11 | 6 | 15 |
 | Danimarca | 74 | 19 | 36 | 19 | 49 |
 | Svezia | 58 | 10 | 28 | 20 | 32 |
-| Olanda | 74 | 9 | 50 | 15 | 33 |
+| Olanda | 96 | 12 | 64 | 20 | 44 |
 | Belgio | 115 | 15 | 68 | 32 | 57 |
 | Austria | 34 | 4 | 17 | 13 | 25 |
 | _(tutti)_ | 1 | 0 | 0 | 1 | 1 |
-| **TOTALE** | **460** | **66** | **259** | **135** | **263** |
+| **TOTALE** | **515** | **70** | **290** | **155** | **289** |
 
 ### Rilievi per campo
 
 | Campo | Rilievi | di cui alta |
 |---|--:|--:|
-| dimensione | 222 | 36 |
-| referente | 102 | 14 |
-| denominazione | 35 | 9 |
-| email | 28 | 2 |
-| linkedin | 19 | 0 |
+| dimensione | 244 | 39 |
+| referente | 114 | 15 |
+| denominazione | 39 | 9 |
+| email | 38 | 2 |
+| linkedin | 20 | 0 |
+| sito | 14 | 0 |
+| filiera | 14 | 4 |
 | sede | 13 | 1 |
-| filiera | 13 | 4 |
-| ruolo | 12 | 0 |
-| sito | 11 | 0 |
-| fonte | 4 | 0 |
+| ruolo | 13 | 0 |
+| fonte | 5 | 0 |
 | esistenza_stato | 1 | 0 |
 
 ---
 
-## 3. Tema trasversale — legami di gruppo (75 rilievi)
+## 3. Tema trasversale — legami di gruppo (79 rilievi)
 
 È il problema **più diffuso e meno atteso** emerso dalla verifica: non era fra i 13 punti noti dell'handoff. Numerose aziende del censimento sono controllate di gruppi, spesso esteri o quotati. Per il criterio già applicato dal progetto — che aveva rimosso Lavazza Kaffee, Segafredo Zanetti Austria e Kaffee Partner Austria perché *«la compliance si decide a livello di gruppo, non nella filiale»* — sono **lead di valore dubbio**.
 
@@ -121,6 +121,9 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 | Germania | Die Pharmadrucker GmbH | **NON dichiarato** | Appartenenza a gruppo dichiarata ma da qualificare: la società è controllata dalla Bernecker-Gruppe (Druckerei Bernecker GmbH, stessa sede) dal 2016; la decisione di compliance EUDR si prende a livell |
 | Germania | H. Heitz Furnierkantenwerk GmbH & Co. KG | **NON dichiarato** | CONTROLLO DI GRUPPO NON DICHIARATO: dal 2016 Heitz e societa del gruppo INDUS Holding AG (holding industriale quotata, Bergisch Gladbach). Il record non riporta alcun legame di gruppo: la decisione di |
 | Germania | Weinheimer Leder GmbH | **NON dichiarato** | Struttura di gruppo non dichiarata: Weinheimer Leder GmbH e collegata a Das Lederband GmbH (Weinheim, HRB 724382), con Uwe Holubeck Geschäftsführer di entrambe; le fonti aperte non chiariscono il vers |
+| Italia | Zalf SpA (Zalf Industria Mobili Componib | **NON dichiarato** | CONTROLLATA DI GRUPPO NON DICHIARATA: Zalf e' una societa' del Gruppo Euromobil (famiglia Lucchetta, holding a Falze' di Piave/Susegana TV), insieme ai marchi Euromobil e Desiree. La compliance EUDR s |
+| Olanda | Bangma Verpakking B.V. | **dichiarato** | CAPOGRUPPO NON DICHIARATA/OBSOLETA. Il campo indica come controllante De Jong Verpakking, definita 'maggior produttore indipendente olandese': non è più vero. De Jong Packaging Group è stata acquisita |
+| Olanda | Bannink Packaging B.V. | **dichiarato** | Contraddizione interna e legame di gruppo: il campo definisce l'azienda 'uno dei pochi trasformatori ancora indipendenti' e poco dopo dichiara che dal 2021 l'amministratore statutario è la tedesca Gau |
 | Olanda | BeBo Parket B.V. | **dichiarato** | Assetto proprietario incompleto: dal 2022 l'azienda e' partecipata dall'investitore Nobel Capital Partners insieme al management di seconda generazione. La partecipazione di private equity non e' dich |
 | Olanda | GWW Houtimport B.V. | **dichiarato** | Controllata di gruppo: dal 01/01/2026 GWW Houtimport, GWW Agency e Van den Berg Hardhout confluiscono nella holding Van den Berg Houtgroep. Il legame e' gia' dichiarato correttamente nel campo, ma la  |
 | Olanda | Houthandel Jos Dennebos B.V. | **NON dichiarato** | Referente e ruolo assenti. Il socio unico e' la persona giuridica Jos Dennebos Exploitatie B.V.; il fondatore storico e' Jos Dennebos (attivo anche in Dennebos Suriname). Nome e carica del directeur a |
@@ -128,6 +131,7 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 | Olanda | Kargro Banden B.V. | **dichiarato** | Legame di gruppo confermato e piu ampio di quanto dichiarato: oltre a Kargro International e Lintire, il gruppo comprende Banden Plan Europa BV (Montfoort) e Tyre Plan Europe (Kalmthout, BE) sotto Kar |
 | Olanda | Marine Olie Handel Maatschappij B.V. | **dichiarato** | AZIENDA ACQUISITA: Marine Olie e stata acquisita da STX Group (Amsterdam); l'operazione, approvata dalla Commissione europea, si e chiusa il 01/12/2024. La societa non e piu indipendente e la decision |
 | Olanda | Montis B.V. | **NON dichiarato** | Legame di gruppo: Montis e uno dei sei marchi della Lande Groep (con Artifort, Lande, Portner, Zwaardvis, A Lott Of Space), che produce in NL, BE, DE e TR. Il legame e dichiarato nel campo ma senza pr |
+| Olanda | Papierfabriek Schut B.V. | **NON dichiarato** | CONTROLLATA DI GRUPPO ESTERO NON DICHIARATA. Il campo la descrive come 'cartiera indipendente attiva dal 1618': in realtà dal 1° luglio 1998 Papierfabriek Schut B.V. fa parte del gruppo francese quota |
 | Olanda | Rompa Tanneries B.V. | **dichiarato** | Denominazione obsoleta: la societa' e' stata ridenominata VITELCO LEATHER B.V. Vitelco (gruppo PALI) ha rilevato le quote di Rompa Leather sciogliendo la joint venture ed e' oggi socio unico al 100%.  |
 | Olanda | Rompa Tanneries B.V. | **dichiarato** | Assetto proprietario dichiarato errato: il campo indica ancora 'Soci: PALI Group (Den Bosch, vitello) e Rompa Leather (Rijen)', ma la JV e' stata sciolta e Vitelco (PALI Group) e' socio unico al 100%. |
 | Olanda | Van Ierssel Houtimport B.V. | **dichiarato** | Controllata di gruppo: Van Ierssel Houtimport e stata rilevata da Boogaerdt Hout nel 1986 e fa parte della Koninklijke Boogaerdt Groep. Il legame e dichiarato nel campo, ma il lead resta una controlla |
@@ -155,9 +159,20 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 
 ---
 
-## 4. Casi di gravità ALTA (66)
+## 4. Casi di gravità ALTA (70)
 
 _Dato falso, azienda non contattabile, azienda cessata/fallita/acquisita, oppure fuori dal perimetro dell'Allegato I EUDR._
+
+
+### Italia (1)
+
+#### Zalf SpA (Zalf Industria Mobili Componibili) — campo `dimensione`
+
+CONTROLLATA DI GRUPPO NON DICHIARATA: Zalf e' una societa' del Gruppo Euromobil (famiglia Lucchetta, holding a Falze' di Piave/Susegana TV), insieme ai marchi Euromobil e Desiree. La compliance EUDR si decide a livello di capogruppo: il lead va riqualificato o riferito a Gruppo Euromobil.
+
+**Evidenza:** https://www.gruppoeuromobil.com/en/group/history e https://www.zalf.com/en/company 'Today Zalf is a company of Gruppo Euromobil ... three brands - Euromobil, Zalf and Desiree - founded and led by the four Lucchetta brothers'
+
+**Correzione proposta:** Aggiungere in dimensione/note: 'societa' del Gruppo Euromobil (marchi Euromobil, Zalf, Desiree) - decisione EUDR a livello di capogruppo'
 
 
 ### Germania (3)
@@ -476,7 +491,7 @@ Legame di gruppo NON dichiarato: il record definisce l'azienda 'la principale co
 **Correzione proposta:** Sostituire 'principale conceria indipendente attiva' con: 'controllata di Axel Bodéns Handels Aktiebolag (moderbolag)'
 
 
-### Olanda (9)
+### Olanda (12)
 
 #### Bangma Verpakking B.V. — campo `dimensione`
 
@@ -486,6 +501,14 @@ LEAD NON VALIDO — aggravamento rispetto a quanto annotato. Non solo De Jong Ve
 
 **Correzione proposta:** Rimuovere il lead (controllata Stora Enso via De Jong Packaging Group dal 2023)
 
+#### Bangma Verpakking B.V. — campo `dimensione`
+
+CAPOGRUPPO NON DICHIARATA/OBSOLETA. Il campo indica come controllante De Jong Verpakking, definita 'maggior produttore indipendente olandese': non è più vero. De Jong Packaging Group è stata acquisita da STORA ENSO (annuncio 08/09/2022, closing inizio gennaio 2023), quindi Bangma è dal 2023 parte di un gruppo quotato finlandese. Non è un lead valido: la compliance EUDR si decide a livello Stora Enso.
+
+**Evidenza:** https://bangmaverpakking.nl/2023/01/09/stora-enso-officieel-eigenaar-van-bangma-verpakking-en-de-jong-packaging-group/ — 'Stora Enso officieel eigenaar van Bangma Verpakking en de Jong Packaging Group'; 'Bangma Verpakking is now part of the De Jong Packaging Group, which has been part of Stora Enso since 2023'
+
+**Correzione proposta:** Rimuovere il record (controllata Stora Enso) oppure riportare esplicitamente la catena Bangma → De Jong Packaging Group → Stora Enso Oyj
+
 #### BeBo Parket B.V. — campo `referente`
 
 Referente obsoleto: Frans Bolier e Johan van de Beek (fondatori 2006) hanno ceduto l'azienda nel 2022 alla seconda generazione. La direzione e' oggi di Kees van de Beek e Marielle Zwolsman.
@@ -493,6 +516,14 @@ Referente obsoleto: Frans Bolier e Johan van de Beek (fondatori 2006) hanno cedu
 **Evidenza:** https://www.vloerenbusiness.nl/vloerenspecialist-bebo-overgenomen-door-tweede-generatie/ - frammento: 'Kees van de Beek en Marielle Zwolsman maakten al deel uit van het management van Bebo en blijven het bedrijf leiden na de overdracht'
 
 **Correzione proposta:** Kees van de Beek / Marielle Zwolsman - Directeur
+
+#### De Groot Drukkerij B.V. — campo `referente`
+
+Referente non più attuale. Anton de Groot non è l'attuale vertice: dal settembre 2024 l'azienda è guidata da Wim Everts come algemeen directeur (fonte di settore, ottobre 2025).
+
+**Evidenza:** https://www.printmedianieuws.nl/2025/10/grootsgedrukt-nl-goudriaan-vol-ijverige-aandacht/ — frammento: 'Wim Everts has led the family business since September of last year as general director'
+
+**Correzione proposta:** Wim Everts — Algemeen directeur (DA CONFERMARE su fonte primaria)
 
 #### Kargro Banden B.V. — campo `filiera`
 
@@ -533,6 +564,14 @@ DUBBIO DI PERIMETRO: la filiera dichiarata e 'Olio di palma', ma le fonti descri
 **Evidenza:** https://mena.nl/artikel/handelshuis-sfx-krijgt-eigen-olie-door-overname - 'handelt in diverse olien die vaak reststromen uit voeding zijn, van bijproducten van olijfolie tot gebruikt frituurvet'; https://fd.nl/bedrijfsleven/1538504/ - 'STX Group koopt Marine Olie om te groeien in handel van biobrandstoffen'
 
 **Correzione proposta:** — nessun valore certo: rilievo lasciato aperto
+
+#### Papierfabriek Schut B.V. — campo `dimensione`
+
+CONTROLLATA DI GRUPPO ESTERO NON DICHIARATA. Il campo la descrive come 'cartiera indipendente attiva dal 1618': in realtà dal 1° luglio 1998 Papierfabriek Schut B.V. fa parte del gruppo francese quotato Exacompta Clairefontaine S.A., che vi investe ed è direttamente coinvolto. La compliance EUDR si decide a livello di capogruppo francese: lead non valido come PMI indipendente.
+
+**Evidenza:** https://www.papiergeschiedenis.nl/geschiedenis-firma-schut-papier/ — 'sinds 1 juli 1998 maakt Papierfabriek Schut B.V. deel uit van de Franse groep Exacompta Clairefontaine S.A.'; https://schutpapier.nl/en/schut-papier/about-us — 'part of the French group Exacompta Clairefontaine S.A. ... one of four independently operating paper mills, the only one outside France'
+
+**Correzione proposta:** Eliminare il record oppure dichiarare la capogruppo: Exacompta Clairefontaine S.A. (Francia, quotata) dal 1998
 
 #### Rompa Tanneries B.V. — campo `denominazione`
 
@@ -711,16 +750,22 @@ REFERENTE OBSOLETO DI DUE PASSAGGI. Heinz Hofer-Wittmann non e' piu' alla guida:
 
 ---
 
-## 5. Casi di gravità MEDIA (259)
+## 5. Casi di gravità MEDIA (290)
 
 _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente errato._
 
 
-### Italia (11)
+### Italia (28)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
 | A. Brivio Compensati SpA | dimensione | Dato obsoleto: 15,41M€ è il 2023; il bilancio 2024 riporta ricavi per 12,24M€ (-20%) e una perdita di -365.141€, con 84 dipendenti. L'azienda resta in forbice ma in contrazione. | https://www.companyreports.it/a-brivio-compensati-spa-02109430153 — 'Fatturato € 12.241.471,00 (2024); Utile € -365.141,00 (2024); Dipendenti 84' | ≈12,2M€ (fatturato 2024, Registro Imprese) — perdita netta 2024 |
+| Arko SpA | referente | Referente e ruolo assenti; dalla ricerca emerge il vertice attuale. | Frammento: 'Luca Visentin is the CEO/Amministratore Delegato'; consiglieri Marco Montali e Simone Grandis (kompass.com/c/arko-s-p-a/it0164330/, impres | Luca Visentin — Amministratore Delegato (DA CONFERMARE su visura) |
+| Arko SpA | email | Email 'n.d.', sito e LinkedIn vuoti: record non contattabile. Nessuna email pubblica reperita; disponibili solo i telefoni 0422 867830 / 0422 867801 (Via Istria 22, Motta di Livenza). | https://www.paginebianche.it/motta-di-livenza/arko.780879 (solo numeri di telefono, nessuna email) |  |
+| Bedogna F.lli Srl | dimensione | Dato del 2019 e non aggiornato: il bilancio 2024 riporta ricavi per 20,91M€ (in calo del 37,2% sul 2023) e organico 20-49 dipendenti. | https://topaziende.quotidiano.net/lombardia/mantova/fatturato-bedogna-f-lli-s-r-l/ e https://www.aziende.it/bedogna-f-lli-s-r-l 'ricavi 2024 € 20.912. | ≈20,9M€ (2024) / 20-49 dip. (bilancio 2024, Aziende.it/TopAziende) |
+| Bedogna F.lli Srl | email | Email 'n.d.'. Sul sito l'indirizzo e' offuscato via JavaScript e non compare in chiaro nei frammenti pubblici; reperiti solo tel. +39 0375 838112 e fax +39 0375 89894. DA CONFERMARE. | https://www.misterimprese.it/lombardia/mantova/dosolo/pallets/610146.html (solo telefono); https://imballaggi.bedogna.it/it/ (email protetta da JavaSc |  |
+| C.I.M.A. Srl (Compensati Impiallacciature Ma | referente | Referente e ruolo assenti: dalle fonti camerali risulta Alessandro Dal Soglio come Presidente. | Frammento reportaziende/ufficiocamerale su P.IVA 00227040284: 'Key Contact: Alessandro Dal Soglio (President)' | Alessandro Dal Soglio — Presidente (DA CONFERMARE su visura) |
+| Caccaro Srl | email | Email 'n.d.' e LinkedIn vuoto: nessun indirizzo reperito in chiaro nei frammenti pubblici (solo tel. 049 9318911). DA CONFERMARE. | https://www.informazione-aziende.it/Azienda_CACCARO-SRL (telefono 0499318911, sito www.caccaro.com; nessuna email) |  |
 | Conceria 800 S.p.A. | dimensione | Fatturato indicato 11,4M€; il bilancio 2023 riporta 9,12M€ con perdita netta di -547.884€. Dato sovrastimato e società in perdita (20-49 dipendenti). | https://topaziende.quotidiano.net/toscana/pisa/fatturato-conceria-800-spa/ — 'ricavi 9.118.508 € (2023); utile netto -547.884 €; dipendenti 20-49' | ≈9,1M€ (bilancio 2023, Top Aziende) — perdita netta 2023 |
 | Conceria Belvedere S.r.l. | dimensione | Fatturato indicato 14M€; i bilanci depositati riportano 11,78M€ (2023) e 11,28M€ (2022). Dato sovrastimato o riferito ad anno non dichiarato. | https://www.reportaziende.it/conceria_belvedere_srl_vi_03742800240 — 'ricavi 2023: 11.776.554 €; 2022: 11.280.042 €; dipendenti 20-49' | ≈11,8M€ (fatturato 2023, Registro Imprese/ReportAziende) |
 | Conceria Beschin | denominazione | Manca la forma giuridica e c'è ambiguità di soggetto: al Registro risultano due entità distinte, 'Conceria Beschin S.n.c. di Graziano Beschin & C.' e 'Conceria Beschin S.r.l. (Unipersonale)', entrambe a Chiampo. Va identificato quale è l'operatore EU | https://www.reteimprese.it/concerie-tintorie-pellami-cuoio/chiampo/azienda/1239180 ('Conceria Beschin Snc') e https://www.reteimprese.it/concerie-tint |  |
@@ -731,6 +776,17 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Conceria La Veneta S.p.A. | dimensione | Dato obsoleto: 12,9M€ è il fatturato 2024; nel 2025 i ricavi sono scesi a 8,68M€ (-32,7%), quindi al limite inferiore della forbice target. Calo rilevante da segnalare al commerciale. | https://registroaziende.it/azienda/conceria-la-veneta-spa-arzignano — 'ricavi 8.681.980 € (2025); 2024: 12,9 mln; 2022: 19.397.025 €; 63 dipendenti' | ≈8,7M€ (fatturato 2025, Registro Imprese) — era 12,9M€ nel 2024 |
 | Conceria Lomar (Lomar Lavorazione Pelli S.r. | email | L'indirizzo 'lomar@concerialomar.it' non compare nelle fonti pubbliche reperite; le schede aziendali e la certificazione LWG riportano 'info@concerialomar.it'. DA CONFERMARE. | https://www.reportaziende.it/lomar_lavorazione_pelli_srl_vi_02002810246 — 'Email: info@concerialomar.it; Tel +39 0444625050; PEC lomar@pec-italia.it' | info@concerialomar.it |
 | Cuoificio Bisonte S.p.A. | dimensione | Fatturato indicato 12,1M€: sottostimato/obsoleto. Il bilancio 2023 riporta ricavi per 15,25M€ e utile 428.879€ (20-49 dipendenti). | https://topaziende.quotidiano.net/toscana/pisa/fatturato-cuoificio-bisonte-spa/ — 'fatturato 2023: 15.247.239 €; utile 428.879 €; dipendenti 20-49; co | ≈15,2M€ (fatturato 2023, Top Aziende/Registro Imprese) |
+| Holzland Fuchs Srl | filiera | Possibile errore di perimetro EUDR: l'attivita' registrata e' 'Commercio al dettaglio di mobili per la casa' e l'insegna commerciale e' AVANTI Latsch (negozio di mobili/articoli per la casa). Va verificato se importa direttamente legname (operatore E | https://atoka.io/public/it/azienda/holzland-fuchs-srl/7eeff574a86b 'Commercio al dettaglio di mobili per la casa a Laces'; https://bnbvv.it/company/av |  |
+| Itlas Srl Societa Benefit | referente | Referente e ruolo assenti: il vertice e' Patrizio Dei Tos, fondatore e Presidente del Consiglio di Amministrazione. | https://www.edilportale.com/aziende/itlas_619529.html 'fondata da Patrizio Dei Tos, oggi presidente del Consiglio di Amministrazione' | Patrizio Dei Tos — Presidente del CdA |
+| Itlas Srl Societa Benefit | dimensione | Dato da riconfermare: le fonti di stampa indicano ~17 mln € di fatturato al 2023 per Itlas, mentre il campo riporta 16,0M€ (2024). Da segnalare inoltre che Itlas e' capofila di un gruppo (nel 2018 il gruppo contava oltre 300 addetti e 50 mln € di ric | https://www.reportaziende.it/itlas_spa e frammento 'As of 2023, Itlas had a total turnover of approximately 17 million euros'; 'In 2018, the Itlas gro |  |
+| Nord Legnami Group Srl | referente | Referente e ruolo assenti: risulta amministratore delegato Marica Emilia Benedetto. | Frammento su P.IVA 06812230016 (ufficiocamerale/visurissima): 'Un amministratore delegato e' Marica Emilia Benedetto' | Marica Emilia Benedetto — Amministratore Delegato (DA CONFERMARE su visura) |
+| Nord Legnami Group Srl | denominazione | Ambiguita' di soggetto giuridico: a San Mauro Torinese esiste anche 'Nord Legnami Fai Da Te S.r.l.', entita' distinta con lo stesso marchio. Verificare che il lead sia riferito a Nord Legnami Group S.r.l. (P.IVA 06812230016). Inoltre le fonti indican | https://www.legno.cc/azienda-nord-legnami-fai-da-te-san-mauro-torinese-2416 'Nord Legnami Fai Da Te S.r.l. \| San Mauro Torinese'; https://m.fatturato |  |
+| Nuova River Srl | dimensione | Fatturato dichiarato (4,9M€) sotto la forbice target 5-40M€ senza segnalazione esplicita; inoltre l'organico indicato (10-15 dip.) contrasta con le fonti che riportano 20-49 dipendenti. Dato di fatturato non riconfermato dai frammenti. | https://www.europages.it/NUOVA-RIVER-SRL/SEAC002463786-001.html e https://www.ufficiocamerale.it/1345/nuova-river-srl 'struttura di circa 20-49 dipend |  |
+| Original Parquet SpA | referente | Referente e ruolo assenti: nelle fonti di stampa locale il vertice/titolare indicato e' Giovanni Ballardini. | https://www.inmagazineromagna.it/original-parquet/ (Giovanni Ballardini, titolare di Original Parquet) | Giovanni Ballardini — Titolare/Presidente (ruolo esatto DA CONFERMARE su visura) |
+| PALM SpA SB | referente | Referente e ruolo assenti: Primo Barzoni e' Presidente e Amministratore Delegato di PALM S.p.A. SB. | https://www.pefc.it/news/primo-barzoni-di-palm-s-p-a-e-il-nuovo-vice-presidente-di-pefc-italia e https://www.thedotcultura.it/40-anni-di-palm-spa-il-p | Primo Barzoni — Presidente e Amministratore Delegato |
+| Segheria Saccavini Srl | dimensione | Campo valorizzato 'n.d.': nessun dato dimensionale (fatturato/dipendenti) dichiarato, quindi impossibile verificare la forbice target 5-40M€. Dai frammenti emergono solo dati di capacita': ~20.000 mc di tronchi/anno su 60.000 mq di area (15.000 coper | https://en.saccavini.it/firm/ 'produces about 20,000 cubic metres of logs each year ... area of about 60,000 square metres, of which over 15,000 are c |  |
+| Segheria Saccavini Srl | referente | Referente e ruolo assenti: risulta Nella De Sabbata come Presidente della societa'. | Frammento ZoomInfo/legno.cc su Saccavini S.r.l. Premariacco: 'Nella De Sabbata is the Presidente (President) of the company' | Nella De Sabbata — Presidente (DA CONFERMARE su visura) |
+| Zalf SpA (Zalf Industria Mobili Componibili) | email | Email 'n.d.', sito e LinkedIn vuoti: record non contattabile, benche' esistano il sito di marchio www.zalf.com (con pagina contatti) e la pagina LinkedIn del Gruppo Euromobil. | https://www.zalf.com/en/contacts ; https://it.linkedin.com/company/gruppo-euromobil | sito: https://www.zalf.com (email da confermare sulla pagina contatti) |
 
 ### Germania (38)
 
@@ -865,13 +921,19 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Rörvikshus Sweden AB | dimensione | Controllata di gruppo: capogruppo Munio Sweden Aktiebolag (org.nr 556509-3449), gruppo di 4 società con 52 dipendenti e 229,0 MSEK di fatturato. Legame già dichiarato correttamente nel foglio: resta una questione di selezione del lead, perché la deci | https://www.bolagsfakta.se/5566220926-Rorvikshus_Sweden_AB — «Rörvikshus Sweden AB had 49 employees and achieved a result of 1,195 KSEK with a turnove | Fatturato 154 918 KSEK ≈ 13,7 M€ (2024, -30,8%); 49 dipendenti; capogruppo Munio Sweden Aktiebolag (gruppo di 4 società, |
 | Sjöbergs Workbenches AB | dimensione | Il legame di gruppo è dichiarato (capogruppo Idun Woodcraft AB, acquisizione 2018) ma ne è sottostimata la portata: allabolag indica che l'azienda appartiene a un gruppo di 74 società facente capo a Idun Woodcraft AB (piattaforma legno del gruppo ind | https://www.allabolag.se/organisation/sj%C3%B6bergs-workbenches-ab/stockaryd/tr%C3%A4varor-produktion/2JYSCQ9I63IL3 — «Sjöbergs Workbenches AB is part | Aggiungere: gruppo Idun Woodcraft AB, 74 società (gruppo Idun) |
 
-### Olanda (50)
+### Olanda (64)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
+| Acket Drukkerij Kartonnage B.V. | dimensione | Il fatturato di ca. 25 M€ e i 115 dipendenti derivano da un articolo del 2015 (printmedianieuws): dato di 10+ anni fa. Le fonti recenti indicano una dimensione molto minore (ca. 8,3 M$ di fatturato e 69 dipendenti, RocketReach 2025). Da riverificare  | https://rocketreach.co/acket-drukkerij-kartonnage-bv-profile_b5ce41bcf42e0979 — frammento: 'Acket Drukkerij Kartonnage B.V. is a Packaging and Contain |  |
+| Akarton B.V. | referente | Referente e ruolo vuoti, ma il directeur persona fisica è pubblicamente noto: Mike Noldus (M. Noldus, in direzione dal 2006, anche nella holding Atlas Packaging Group B.V.). Compilabile. | https://shiftlimburg.nl/en/kennis-innovatie/akarton-first-and-only-european-producer-patented-sustainable-packaging-material — frammento: 'According t | Mike Noldus — Directeur |
+| Akarton B.V. | dimensione | Controllata al 100% della holding Atlas Packaging Group B.V. (Venlo): il legame è dichiarato nel campo, ma la decisione di compliance EUDR si prende a livello di gruppo. Lead da qualificare sulla capogruppo. | https://companyinfo.nl/organisatieprofiel/activiteiten-van-financiele-holdings/atlas-packaging-group-b-v-venlo-12064407-000000425265 — 'Akarton B.V. i |  |
 | Arco Meubelfabriek B.V. | referente | Referente da riconfermare: le fonti pubbliche indicano Jorre van Ast alla guida dell'azienda familiare dal 2011 come creative director, affiancato dal managing director Jan Tichelaar. 'F. van Ast' risulta solo dal dato Company.info (algemeen directeu | https://www.vno-ncw.nl/forum/meubelfabriek-arco-120-jaar-vallen-opstaan-en-weer-doorgaan - frammento: 'In 2011 kwam het familiebedrijf onder leiding v |  |
 | Ascot Amsterdam B.V. | referente | Referente e ruolo assenti: risulta pubblicamente Merijn Bruinse come Managing Director di Ascot Amsterdam B.V. | https://rocketreach.co/merijn-bruinse-email_50707800 - 'Merijn Bruinse ... Ascot Amsterdam BV Managing Director' | Merijn Bruinse - Managing Director (da riconfermare su fonte KVK) |
 | Ascot Amsterdam B.V. | dimensione | Dipendenza estera dichiarata ma sostanziale: Ascot Amsterdam e l'ufficio vendite della Cocoa Abrabopa Association (cooperativa ghanese). La decisione di compliance EUDR e il potere d'acquisto stanno in Ghana, non ad Amsterdam: lead da riqualificare. | https://ascot-amsterdam.com/sales-office/ - 'Ascot Amsterdam \| Sales Office Cocoa Abrabopa Association Ghana' |  |
+| Bannink Packaging B.V. | email | Il campo riporta 'n.d.' sostenendo che nessuna e-mail sia pubblicata, ma l'indirizzo generale info@bannink.nl compare in fonti pubbliche. | https://www.cylex.nl/bedrijf/bannink-golfkarton-10687870.html — frammento: 'Bannink Golfkarton is located at Vosmatenweg 1 in Coevorden with phone num | info@bannink.nl (DA CONFERMARE sul sito bannink.nl) |
+| Bannink Packaging B.V. | referente | Referente e ruolo vuoti, ma le fonti pubbliche indicano D.W. (Dick) Bannink come algemeen directeur / MD. DA CONFERMARE perché l'amministratore statutario iscritto è la tedesca Gauses GmbH. | https://us.kompass.com/c/bannink-packaging-b-v/nl405401/ — frammento: 'D.W. Bannink is listed as MD/Chief Operating Officer (Algemeen directeur)' |  |
+| Bannink Packaging B.V. | dimensione | Contraddizione interna e legame di gruppo: il campo definisce l'azienda 'uno dei pochi trasformatori ancora indipendenti' e poco dopo dichiara che dal 2021 l'amministratore statutario è la tedesca Gauses GmbH. Il legame è dichiarato (gravità media) m | Campo 'dimensione' del record stesso; ricerca su Bannink/Gausepohl: 'Dick Bannink built a factory in Schüttorf, Germany together with his partner Fran |  |
 | BeBo Parket B.V. | dimensione | Assetto proprietario incompleto: dal 2022 l'azienda e' partecipata dall'investitore Nobel Capital Partners insieme al management di seconda generazione. La partecipazione di private equity non e' dichiarata nel campo (solo il legame con BeBo Groep B. | https://www.vloerenbusiness.nl/vloerenspecialist-bebo-overgenomen-door-tweede-generatie/ - frammento: 'samen met investeerder Nobel Capital Partners' |  |
 | BeBo Parket B.V. | dimensione | Il fatturato di ca. 20 M EUR e' datato 2024 nel record, ma il dato di 20 milioni compare nell'articolo sul passaggio generazionale del 2022 (riferito all'esercizio precedente). Anno del dato DA CONFERMARE. | https://www.vloerenbusiness.nl/vloerenspecialist-bebo-overgenomen-door-tweede-generatie/ - frammento: 'Vorig jaar had Bebo Parket een omzet van 20 mil |  |
 | BeBo Parket B.V. | linkedin | Il link LinkedIn e' il profilo personale di Frans Bolier (nl.linkedin.com/in/frans-bolier-b64b394a), non la pagina aziendale di BeBo Parket. Trattandosi di un ex titolare uscito nel 2022, il link non e' utilizzabile. | https://nl.linkedin.com/in/frans-bolier-b64b394a - titolo: 'Frans Bolier - directeur mede-eigenaar beboparket BV' |  |
@@ -881,10 +943,13 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | CocoaSupply B.V. | sito | Rischio di confusione con omonima estera: esiste cocoasupply.com (Cocoa Supply, gruppo con base in Ecuador/USA) accanto al cocoasupply.eu della B.V. olandese. Il dominio .eu usato nel record e quello corretto, ma la relazione fra le due entita va chi | https://cocoasupply.com/about-us/ - 'Empowering Direct Trade: CocoaSupply's Commitment...' (sito distinto da https://cocoasupply.eu/) |  |
 | Daarnhouwer & Co B.V. | email | Email indicata come 'n.d.' mentre sono pubblicate caselle attive: cocoa@daarnhouwer.nl (reparto cacao) e caselle nominative @daarnhouwer.nl. Nota: le e-mail sono sul dominio .nl mentre il sito e .com. | https://daarnhouwer.com/cocoa/ - 'cocoa@daarnhouwer.nl'; contatto alternativo 'W.VANGINKEL@DAARNHOUWER.NL' | cocoa@daarnhouwer.nl |
 | Daarnhouwer & Co B.V. | referente | Referente e ruolo assenti. Il sito pubblica una pagina 'Meet our team' ma nessuna fonte consultata identifica il directeur statutario. DA CONFERMARE. | https://daarnhouwer.com/cocoa-stories/meet-our-team/ - pagina team pubblicata, nessun ruolo di directeur esplicitato nei frammenti |  |
+| De Groot Drukkerij B.V. | dimensione | Dimensione probabilmente FUORI forbice verso l'alto: fonti 2025 indicano 125 dipendenti in produzione su tre turni e 180 persone nell'intera organizzazione (il record ne indica 121/164). Con questi numeri il fatturato supera verosimilmente i 40 M€. I | https://www.printmedianieuws.nl/2025/10/grootsgedrukt-nl-goudriaan-vol-ijverige-aandacht/ — frammento: 'De Groot Drukkerij prints approximately 50-60% |  |
 | De Leeuw Huidenhandel N.V. | referente | Referente e ruolo assenti. Il direttore statutario iscritto al KVK e' una persona giuridica (LHST B.V., algemeen directeur dal 2022): manca un nome fisico per il contatto commerciale. Nei frammenti pubblici compare solo Christian Hossu (chossu@deleeu | https://companyinfo.nl/organisatieprofiel/groothandel-in-huiden-en-vellen/de-leeuw-huidenhandel-n-v-winterswijk-08011164-000017531705 - frammento: 'LH |  |
 | Dietz Cacao Trading B.V. | ruolo | Il referente indicato non e il vertice statutario: Jordy Kuijpers e Sales Director (sales & purchase), non directeur/bestuurder della B.V. Per un contatto di compliance EUDR serve il directeur statutario, non reperito nelle fonti pubbliche consultate | https://rocketreach.co/jordy-kuijpers-email_222834060 - 'Jordy Kuijpers ... DIETZ CACAO TRADING Sales Director'; https://nl.linkedin.com/in/jcjkuijper |  |
+| Drukkerij Van der Eems B.V. | email | L'e-mail indicata (sjoukje@vandereems.nl) è la casella personale di una collaboratrice, non l'indirizzo del referente né una casella generale. Per il directeur è pubblicato dj@vandereems.nl. | https://us.kompass.com/c/drukkerij-van-der-eems-b-v/nl465957/ — frammento: 'Durk-Jorrit van der Eems - Director - Email: dj@vandereems.nl - Phone: +31 | dj@vandereems.nl |
 | Facta International B.V. | referente | Referente da riconfermare: Ben Dekker risulta effettivamente Director di Facta International BV, ma la scheda FCC/Kompass indica come MD/Chief Operating Officer il sig. A.A. Molenaar. Va chiarito chi sia il bestuurder statutario prima del contatto. | https://gb.kompass.com/c/facta-international-b-v/nl507577/ - 'Mr A.A. Molenaar - MD/Chief Operating Officer'; https://www.linkedin.com/in/ben-dekker-9 |  |
 | Facta International B.V. | email | Email indicata come 'n.d.' mentre e pubblicata una casella nominativa attiva sul dominio aziendale: a.molenaar@facta-international.com. Il lead e quindi contattabile. | https://gb.kompass.com/c/facta-international-b-v/nl507577/ - 'a.molenaar@facta-international.com'; telefono +31 (0)75 681 80 40 | a.molenaar@facta-international.com |
+| Fris Karton B.V. | referente | Referente da confermare: oltre a Moniek van Steensel (Eigenaar su LinkedIn), le fonti indicano R.F.M.A. (Rob) Smets come algemeen directeur/eigenaar. Non è chiaro chi sia il vertice decisionale attuale. | https://us.kompass.com/c/fris-karton-b-v/nl241951/ — frammento: 'Rob Smets is the Owner of Fris Karton; R.F.M.A. Smets serves as MD/Chief Operating Of |  |
 | GWW Houtimport B.V. | dimensione | Controllata di gruppo: dal 01/01/2026 GWW Houtimport, GWW Agency e Van den Berg Hardhout confluiscono nella holding Van den Berg Houtgroep. Il legame e' gia' dichiarato correttamente nel campo, ma la compliance EUDR si decidera' a livello di capogrup | https://www.houtwereld.nl/nieuws/van-den-berg-en-gww-houtimport-gaan-samen/ - frammento: 'GWW Houtimport, GWW Agency en Van den Berg Hardhout uit Lopi |  |
 | GWW Houtimport B.V. | dimensione | Il campo cita 'Secondo direttore citato: John Hoogendoorn': non trova riscontro. Il comunicato di riorganizzazione indica Arjan de Jong come algemeen directeur (confermato) e Bart van Meuwen come commercieel directeur; Albert Oudenaarden passa agli a | https://www.houtwereld.nl/nieuws/van-den-berg-en-gww-houtimport-gaan-samen/ - frammento: 'Arjan de Jong is benoemd tot algemeen directeur en Bart van  | Bart van Meuwen - commercieel directeur |
 | Gaia Cacao B.V. | sede | Sede incoerente: il record indica Amsterdam / Duivendrecht (Noord-Holland), ma il registro riporta anche Gaia Cacao B.V. a Nieuwegein (Utrecht) sotto lo stesso KVK 78049636. Possibile trasferimento di sede non recepito. | https://www.northdata.com/Gaia%20Cacao%20B%C2%B7V%C2%B7,%20Nieuwegein/KVK%2078049636 - 'Gaia Cacao B.V., Nieuwegein, Netherlands - KVK 78049636' |  |
@@ -915,10 +980,15 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Rompa Tanneries B.V. | email | Email e sito legati al vecchio marchio (sales@rompa-tanneries.com / www.rompa-tanneries.com). Con la ridenominazione in Vitelco Leather il dominio di riferimento del gruppo e' vitelco.nl; il vecchio sito hulshof.com rimanda ancora a 'Rompa Tanneries' | http://www.hulshof.com/ (titolo pagina: 'Rompa Tanneries') e https://www.vitelco.nl/en/about-us |  |
 | Rompa Tanneries B.V. | referente | Referente e ruolo vuoti. Le fonti stampa locali citano Twan de Bie come 'directeur leerlooierij' dello stabilimento di Lichtenvoorde. DA CONFERMARE la carica attuale dopo il passaggio a Vitelco Leather. | https://www.gld.nl/nieuws/2414011/directeur-leerlooierij-laat-de-wethouder-bellen-dan-lossen-we-het-als-volwassen-mensen-op - frammento: 'De directeur |  |
 | Smeulders Interieurwerken B.V. | email | Email assente ('n.d.'): il lead non e contattabile via e-mail. Il campo dimensione cita j.mulder@smeulders-ig.nl trovata in directory, ma non e riportata nel campo email ne verificata come casella attiva. DA CONFERMARE una casella generica sul domini | https://smeulders-ig.nl/contact/ - pagina contatti del gruppo; il record stesso riporta 'Non risulta pubblicata una casella info@ generica' |  |
+| Snel Industrie voor Karton en Papierveredeli | sito | Il campo sito è vuoto e il campo dimensione afferma che 'nessun sito web è pubblicato': esiste invece www.snelbv.nl indicizzato nelle directory di settore. | https://nl.kompass.com/c/snel-industrie-voor-karton-en-papierveredeling-b-v/nl135304/ — frammento: 'The website is www.snelbv.nl ... Phone number: 026 | https://www.snelbv.nl (DA CONFERMARE che il dominio sia attivo) |
+| Snel Industrie voor Karton en Papierveredeli | email | Lead non contattabile per iscritto: nessuna e-mail, nessun referente e nessuna pagina LinkedIn. Dopo tre query restano disponibili solo telefono e (ora) il dominio snelbv.nl. DA CONFERMARE via sito/telefono prima di inserire il lead in campagna. | https://www.nederlandinbedrijf.nl/Bedrijf/64930/Kartonnen-verpakkingen-Snel-Ind.-v.-Karton-en-Papierveredeling-BV/Nijverheidstraat-22-6681LN-Bemmel-02 |  |
+| Van Gennip Verpakking B.V. | ruolo | Il campo referente contiene due nomi ('Michelle en Nick Verdaasdonk') e un ruolo generico ('Eigenaren, quarta generazione') non coerente con la qualifica pubblicata: Nick Verdaasdonk risulta commercieel directeur (nick@gennip.nl). Per un contatto dir | https://www.linkedin.com/in/nick-verdaasdonk-75524060/ e https://www.paper-world.com/en/company/van-gennip-verpakking-bv-eindhoven-1260570 — frammento | Nick Verdaasdonk — Commercieel directeur (referente unico); e-mail diretta nick@gennip.nl |
 | Van Ierssel Houtimport B.V. | dimensione | Controllata di gruppo: Van Ierssel Houtimport e stata rilevata da Boogaerdt Hout nel 1986 e fa parte della Koninklijke Boogaerdt Groep. Il legame e dichiarato nel campo, ma il lead resta una controllata: la decisione di compliance EUDR si colloca a l | https://www.boogaerdthout.nl/en/2026/02/04/commercial-manager-member-of-ierssel-houtimport/ - 'In 1986 Van Ierssel Houtimport was taken over by Boogae |  |
 | Van Ierssel Houtimport B.V. | referente | Fred Verver risulta confermato come directeur operativo di Van Ierssel (con werfmanager Ton van Oers), ma nelle fonti compare anche Oscar Smeets come 'Directeur Boogaerdt Hout - Van Ierssel Houtimport': verificare quale sia il vertice statutario dell | https://nl.linkedin.com/in/oscar-smeets-55856411 - 'Oscar Smeets - Directeur \| Boogaerdt Hout - Van Ierssel ...'; https://www.linkedin.com/in/fred-ve |  |
 | Van den Berg Hardhout B.V. | email | Incoerenza di dominio: l'email e su .nl (info@vandenberghardhout.nl) mentre il sito ufficiale e le e-mail nominative del personale sono sul dominio .com (vandenberghardhout.com). Verificare quale dominio di posta sia realmente attivo. | https://rocketreach.co/albert-oudenaarden-email_99038923 - 'a******@vandenberghardhout.com'; https://www.vandenberghardhout.com/en/contact/ | info@vandenberghardhout.com (da confermare) |
 | Van den Berg Hardhout B.V. | dimensione | Legame di gruppo dichiarato ma imminente: dal 01/01/2026 la societa e nella holding Van den Berg Houtgroep insieme a GWW Houtimport e GWW Agency. Con 6 dipendenti confermati e fatturato non pubblicato, l'azienda e sotto la forbice 5-40 M€ e la compli | https://rocketreach.co/van-den-berg-hardhout-bv-profile_b40aa59bff9a461e - 'Van den Berg Hardhout BV employs 6 people and is based in Lopik, Utrecht' |  |
+| Veldhuis Media B.V. | dimensione | Dato di fatturato obsoleto e numero dipendenti errato. Il fatturato citato (ca. 15,5 M€) è del 2017 (8 anni fa). Il numero di dipendenti indicato (21-50) è smentito dalle fonti recenti: l'azienda conta ca. 111 addetti dopo il trasferimento Raalte→Mep | https://www.kijkopoostnederland.nl/veldhuis-media-houdt-focus-en-dat-levert-veel-op/ e https://pitchbook.com/profiles/company/540017-29 — frammenti: ' |  |
+| Zaadhof's Cartonnage Fabrieken B.V. | fonte | La fonte citata NON sostiene il dato riportato. Il campo dimensione attribuisce a RTV Noord un 'fatturato ca. 6 M€/anno', ma l'articolo parla di 'tientallen miljoenen verpakkingen' all'anno, cioè decine di milioni di IMBALLAGGI prodotti, non di euro  | https://www.rtvnoord.nl/economie/1416341/made-in-grunn-winschoter-familiebedrijf-maakt-jaarlijks-tientallen-miljoenen-verpakkingen — titolo: 'Winschot | Rimuovere il fatturato di 6 M€ o indicarne la fonte reale; dichiarare che il fatturato non è pubblicato |
 
 ### Belgio (68)
 
@@ -1017,17 +1087,24 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 
 ---
 
-## 6. Casi di gravità BASSA (135)
+## 6. Casi di gravità BASSA (155)
 
 _Refusi formali e incoerenze di stile._
 
 
-### Italia (14)
+### Italia (29)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
 | 3C Lavorazione Pelli S.r.l. | denominazione | Ragione sociale al Registro Imprese riportata come '3 C - LAVORAZIONE PELLI S.R.L.' (con spazio e trattino), non '3C Lavorazione Pelli S.r.l.' | https://www.europages.it/3-C-LAVORAZIONE-PELLI-SRL/SEAC000597361-002.html — '3 C - LAVORAZIONE PELLI SRL a Arzignano, Conceria'; idem https://www.pagi | 3 C - Lavorazione Pelli S.r.l. |
 | A. Brivio Compensati SpA | denominazione | Forma giuridica scritta in modo non conforme: al Registro Imprese la ragione sociale è 'A. BRIVIO COMPENSATI S.P.A.' (non 'SpA'). | https://www.ufficiocamerale.it/1666/a-brivio-compensati-spa — 'A. BRIVIO COMPENSATI S.P.A., Partita IVA: 02109430153 ... Forma giuridica: SOCIETA' PER | A. Brivio Compensati S.p.A. |
+| Arko SpA | denominazione | Forma giuridica errata: con la stessa P.IVA 03278760263 le fonti camerali riportano ARKO S.R.L., non S.p.A. | https://www.ufficiocamerale.it/4331/arko-spa titolo 'ARKO S.R.L., Partita IVA: 03278760263'; https://registroaziende.it/azienda/arko-srl-motta-di-live | Arko S.r.l. |
+| Aster Cucine SpA | dimensione | Dato obsoleto: disponibile il bilancio 2024 (17,31M€, -1,74% su 2023) e organico ~70 dipendenti, non ~92. | https://www.aziende.it/aster-cucine-s-p-a 'ricavi 2024 € 17.312.732 ... 70 dipendenti'; https://topaziende.quotidiano.net/marche/pesaro-urbino/fattura | ≈17,3M€ (2024) / ~70 dip. (Aziende.it, bilancio 2024) |
+| C.I.M.A. Srl (Compensati Impiallacciature Ma | sito | Campo sito vuoto: il sito aziendale esiste ed e' www.cima-srl.com. | https://www.reportaziende.it/compensati_impiallacciature_materiali_affini_cima_srl_in_sigla_cima_srl_pd_00227040284 'Sito: www.cima-srl.com' | https://www.cima-srl.com |
+| C.I.M.A. Srl (Compensati Impiallacciature Ma | dimensione | Valore sostanzialmente corretto ma organico impreciso: le fonti indicano fascia 50-99 dipendenti, non '~95'. | https://www.reportaziende.it/compensati_impiallacciature_materiali_affini_cima_srl_in_sigla_cima_srl_pd_00227040284 'Ricavi 2024 € 28.186.985; 2023 €  | ≈28,2M€ (2024) / 50-99 dip. (bilancio 2024, ReportAziende) |
+| Caccaro Srl | dimensione | Dato datato (2022): il bilancio 2024 riporta ricavi 22,87M€ (23 mln secondo la stampa di settore) e organico 100-199 dipendenti, non indicato nel campo. | https://design.pambianconews.com/caccaro-23-mln-di-fatturato-nel-2024/ e https://www.reportaziende.it/caccaro_srl_pd_02325900286 'ricavi 2024 € 22.871 | ≈22,9M€ (2024) / 100-199 dip. (bilancio 2024, ReportAziende; Pambianco Design) |
+| Compensati Toro SpA | email | TLD errato: l'indirizzo pubblicato dall'azienda e' info@compensatitoro.it (dominio .it, coerente col sito), non info@compensatitoro.com. | https://compensatitoro.it/en/contatti/ e https://vetrina.federlegnoarredo.it/it/aziende-associate/compensati-toro-spa/2121251922 'E-mail: info@compens | info@compensatitoro.it |
+| Compensati Toro SpA | denominazione | Denominazione formale al Registro Imprese: 'COMPENSATI *TORO - S.P.A.' (P.IVA 00506540012); il nome d'uso e' Compensati Toro S.p.A. Segnalato solo per precisione formale. | https://www.ufficiocamerale.it/2719/compensati-toro-spa 'COMPENSATI *TORO - S.P.A., Partita IVA: 00506540012' | Compensati Toro S.p.A. (ragione sociale registrata: COMPENSATI *TORO - S.P.A.) |
 | Conceria Ambassador S.p.A. | linkedin | Campo vuoto: la pagina LinkedIn aziendale esiste ed è riscontrata. | https://it.linkedin.com/company/conceria-ambassador-spa — 'CONCERIA AMBASSADOR SPA \| LinkedIn' | https://it.linkedin.com/company/conceria-ambassador-spa |
 | Conceria Cilp | denominazione | Manca la forma giuridica: la ragione sociale attuale al Registro Imprese è 'CONCERIA CILP S.R.L.' (P.IVA 00190610501), ex 'Conceria Cilp S.n.c. di Poggetti Riccardo e Davide'. | https://www.ufficiocamerale.it/9423/conceria-cilp-snc-di-poggetti-riccardo-e-davide — 'CONCERIA CILP S.R.L., Partita IVA: 00190610501' | Conceria CILP S.r.l. |
 | Conceria Emmedue | denominazione | Manca la forma giuridica: al Registro Imprese la ragione sociale è 'CONCERIA EMMEDUE S.R.L.' (P.IVA 00793250242). | https://www.ufficiocamerale.it/1739/conceria-emmedue-srl — 'CONCERIA EMMEDUE SRL, Partita IVA: 00793250242' | Conceria Emmedue S.r.l. |
@@ -1040,6 +1117,14 @@ _Refusi formali e incoerenze di stile._
 | Conceria Tolio S.p.A. | referente | Campo vuoto: il vertice attuale è identificabile con certezza dalle fonti di distretto. | https://www.distrettovenetodellapelle.it/soci-distretto-veneto-pelle/concia/conceria-tolio-spa/ — 'Conceria Tolio nasce nel 1962 da un'idea imprendito | Mario Tolio — Presidente |
 | Fonpelli S.p.A. | denominazione | Forma giuridica errata: al Registro Imprese la società è 'FONPELLI - S.R.L.' (P.IVA 01705980249), non S.p.A. Anche il sito e le schede camerali riportano S.r.l. | https://www.ufficiocamerale.it/2684/fonpelli-spa — 'FONPELLI - S.R.L., Partita IVA: 01705980249'; https://xrayfinance.it/fonpelli-s-p-a — 'FONPELLI S. | Fonpelli S.r.l. |
 | Fonpelli S.p.A. | dimensione | Valore confermato (15,32M€) ma manca l'anno: è il bilancio 2024, chiuso però in perdita (-203.123€) con 35 dipendenti. Elemento da segnalare al commerciale. | https://xrayfinance.it/fonpelli-s-p-a — 'Fatturato: € 15.322.593,00 (2024); Utile: € -203.123,00 (2024); Dipendenti: 35 (2025)' | ≈15,3M€ (fatturato 2024, Registro Imprese) — esercizio in perdita |
+| Fratelli Berti Legnami Srl | dimensione | Dato discordante rispetto ad Atoka, che indica ~5,9M€ e 18 dipendenti; valore comunque al limite inferiore della forbice target 5-40M€. Anno del dato da riconfermare. | https://atoka.io/public/it/azienda/fratelli-berti-legnami-srl/4735010f740f '18 employees and a turnover of 5.9 million euros' | ≈5,9M€ / 18 dip. (Atoka) — anno da confermare |
+| Holzland Fuchs Srl | sito | Campo sito vuoto: l'azienda opera con il sito avantishop.it (insegna AVANTI Latsch). | https://atoka.io/public/it/azienda/holzland-fuchs-srl/7eeff574a86b 'Website: avantishop.it' | https://www.avantishop.it |
+| Holzland Fuchs Srl | dimensione | Il dato Atoka (15,1M€ / 60 dip.) non riporta l'anno di bilancio nella fonte; l'anno '2024' indicato nel campo non e' verificabile dai frammenti. DA CONFERMARE. | https://atoka.io/public/it/azienda/holzland-fuchs-srl/7eeff574a86b '60 employees and a revenue of 15.1 M €' (senza anno) |  |
+| Nord Legnami Group Srl | dimensione | Il dato 2024 e' corretto (10,15M€) ma va segnalato il forte calo: -34,4% sul 2023 (15,46M€). Utile 2023 598.911€, 43 dipendenti nel 2024. | https://www.aziende.it/nord-legnami-group-s-r-l 'fatturato 2024 10.150.524 euro, -34,4%; 2023 15.463.954 euro; 43 dipendenti' | ≈10,2M€ (2024, -34,4% sul 2023) / 43 dip. (Aziende.it, bilancio 2024) |
+| Nuova River Srl | email | Email 'n.d.': la pagina contatti del sito esiste (nuovariversrl.it/contatti) ma nei frammenti pubblici compare solo il telefono +39 039 2018555, nessun indirizzo in chiaro. DA CONFERMARE. | https://www.nuovariversrl.it/contatti (nessuna email nei frammenti); https://www.infobel.com/it/italy/nuova_river/sovico/IT109953693-0392018555/busine |  |
+| PALM SpA SB | dimensione | Dato confermato ma da precisare: fatturato 2024 13,3 mln €, 48 tra dipendenti e collaboratori, capacita' produttiva 1.800.000 pallet/anno (fonte aziendale). | https://palm.it/ 'fatturato 2024 13.300.000 €; 48 dipendenti e collaboratori; 1.800.000 pallet' | ≈13,3M€ (2024) / 48 dip. e collaboratori (fonte aziendale palm.it) |
+| Segheria Saccavini Srl | denominazione | Possibile difformita' formale: al Registro la societa' risulta come 'Saccavini S.r.l.' (nata come ditta individuale nel 1973, trasformata in societa' di capitali nel 1986); 'Segheria Saccavini' e' l'insegna commerciale. Da riconfermare la ragione soc | https://www.legno.cc/azienda-saccavini-premariacco-10740 'Saccavini S.r.l. \| Premariacco'; https://www.saccavini.it/contatti/ 'Saccavini srl Premaria |  |
+| Zalf SpA (Zalf Industria Mobili Componibili) | dimensione | Dato di fatturato confermato ma da completare con anno e utile: 27,52M€ nel 2024 con utile 1,59M€; manca il dato dipendenti. | https://www.reportaziende.it/zalf_industria_mobili_componibili_spa_in_breve_zalf_spa_zalf_mobili_spa_oppure_tv_00319860268 'fatturato 2024 € 27.515.60 | ≈27,5M€ (2024, utile 1,59M€) (ReportAziende, bilancio 2024) |
 
 ### Germania (15)
 
@@ -1121,17 +1206,19 @@ _Refusi formali e incoerenze di stile._
 | Rödins Trä AB | dimensione | Il valore riportato (380 291 KSEK ≈ 33,7 M€, 2025) è il fatturato CONSOLIDATO di gruppo: Rödins Trä AB è koncernmoderbolag con la controllata Ålsta Sågverk Nord AB, e il gruppo di 2 società fattura 370,0 MSEK con 37 dipendenti. Il campo non specifica | https://allabolag.se/organisation/rc3b6dins-trc3a4-ab/svenstavik/sc3a5gverk/2K092UXI5YHTM — «Rödins Trä AB är ett koncernmoderbolag med ett dotterbola | ≈33,7 M€ consolidato di gruppo (allabolag 2025: 380,3 MSEK koncern, +3%); capogruppo essa stessa, controllata Ålsta Sågv |
 | Tärnsjö Garveri Aktiebolag | dimensione | Numero dipendenti non allineato alla fonte: il record indica 43 dipendenti (2024), allabolag riporta 46. | allabolag.se: «Tärnsjö Garveri Aktiebolag har 46 anställda». Fatturato 51,9 MSEK 2024 (+6%) confermato. | 46 dipendenti |
 
-### Olanda (15)
+### Olanda (20)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
 | Ascot Amsterdam B.V. | dimensione | Il campo dichiara 'numero KVK non reperito': il dato e invece pubblico. KVK 55089666, P.IVA NL85156137B01. Da integrare. | https://ascot-amsterdam.com/contact/ - 'Chamber of Commerce: 55089666 - VAT number: NL 85156137B01' | KVK 55089666, P.IVA NL85156137B01 |
 | Bangma Verpakking B.V. | sito | Il sito indicato nel foglio (https://www.bangma.nl) non è il dominio istituzionale usato oggi dall'azienda, che pubblica i propri contenuti su bangmaverpakking.nl (pagina 'Historie Bangma Verpakking'). DA CONFERMARE quale dei due sia il dominio attiv | https://bangmaverpakking.nl/over-ons/historie-bangma-verpakking/ - pagina istituzionale corrente dell'azienda | https://bangmaverpakking.nl/ (DA CONFERMARE) |
+| Bannink Packaging B.V. | linkedin | Campo LinkedIn vuoto: non verificata l'esistenza di una pagina aziendale. | Record stesso: campo 'linkedin' = '' |  |
 | Beijleveld Houtimport B.V. | sito | Il dominio ufficiale indicato nelle fonti di registro e' www.beyleveld.com (coerente con l'email info@beyleveld.com); beyleveldhoutimport.com risulta un secondo dominio attivo. Verificare quale sia il sito primario. | https://www.telefoonboek.nl/bedrijven/t2585787/rotterdam/beijleveld-houtimport-b.v./ - frammento: 'Email: info@beyleveld.com - Website: www.beyleveld. |  |
 | Bruns B.V. | sede | Indirizzo discordante: il record indica Riethovensedijk 20, 5571 CR Bergeijk, mentre l'anagrafica di settore riporta Stokskesweg 11, 5571 TJ Bergeijk. Il comune (Bergeijk, Noord-Brabant) e' comunque corretto. Indirizzo civico DA CONFERMARE. | http://bergeijk.gevabiz.nl/company/bruns-bv-bergeijk.html - frammento: 'Stokskesweg 11, NL-5571TJ Bergeijk' |  |
 | Daarnhouwer & Co B.V. | linkedin | URL LinkedIn malformato: contiene '&' e un punto finale (/company/daarnhouwer-&-co.), che non e uno slug LinkedIn valido. Da riscrivere con lo slug reale. | valore nel record: 'https://www.linkedin.com/company/daarnhouwer-&-co.' |  |
 | Daarnhouwer & Co B.V. | sede | Indirizzo di sede da precisare: le fonti riportano Korte Hogendijk 18, 1506 MA Zaandam (Panjiva indica anche 1511 Oostzaan). Il campo sede generico 'Zaandam / Zaanstad' e corretto ma non verificato all'indirizzo. | https://es.panjiva.com/Daarnhouwer-Co-B-V/34001367 - 'Daarnhouwer & Co B.V., Zaandam, 1511 Oostzaan, Netherlands'; indirizzo pubblicato Korte Hogendij |  |
 | Dietz Cacao Trading B.V. | dimensione | Azienda sotto la forbice target: 5 dipendenti, fatturato non pubblicato (deposito abbreviato). Il campo dichiara esplicitamente il limite ('Sotto la fascia ideale per organico'), quindi il rilievo e solo di conferma: nessun dato consente di collocarl | https://www.oozo.nl/bedrijven/heerlen/heerlen-centrum/heerlen-centrum/171578/dietz-cacao-trading-b-v |  |
+| Drukkerij Van der Eems B.V. | dimensione | Contraddizione interna: il campo dimensione afferma «Nessun nome pubblicato con la qualifica esplicita di 'directeur': referente lasciato vuoto», mentre il campo referente riporta Durk-Jorrit van der Eems (peraltro corretto e confermato dalle fonti). | Campo 'dimensione' del record stesso vs campo 'referente'; conferma referente: https://us.kompass.com/c/drukkerij-van-der-eems-b-v/nl465957/ | Eliminare la frase sul referente vuoto dal campo dimensione |
 | Gaia Cacao B.V. | dimensione | Il campo dichiara 'n. dipendenti non pubblicato': il dato e invece disponibile (ca. 8 dipendenti, Creditsafe/Kompass) e conferma la costituzione nel 2020. Resta comunque un'azienda sotto la forbice 5-40 M€, come gia segnalato nel campo. | https://www.creditsafe.com/business-index/en-gb/company/gaia-cacao-bv-nl05437910 - 'Gaia Cacao has approximately 8 employees'; https://us.kompass.com/ | ca. 8 dipendenti (Creditsafe, 2025); costituita nel 2020 |
 | Gras Wood Wide B.V. | dimensione | Anno di fondazione errato: il record indica 1921, mentre azienda e stampa di settore datano la fondazione al 1868 (sesta generazione familiare, coerente). Il 1921 corrisponde semmai a una successiva iscrizione societaria. | https://www.houtwereld.nl/bedrijven/gras-wood-wide-b-v/ e https://www.graswoodwide.com/over-ons/ - frammento: 'founded in 1868' | Fondata nel 1868 |
 | Gras Wood Wide B.V. | linkedin | Campo LinkedIn vuoto benche' esista la pagina aziendale ufficiale. | https://nl.linkedin.com/company/graswoodwide - titolo: 'Gras Wood Wide \| LinkedIn' | https://nl.linkedin.com/company/graswoodwide |
@@ -1140,6 +1227,9 @@ _Refusi formali e incoerenze di stile._
 | Smeulders Interieurwerken B.V. | referente | Referente riportato con la sola iniziale ('A. Smeulders'). Il nome completo pubblicato e Anton Smeulders, alla guida dell'azienda dal 1992; la proprieta fa capo a Holding Smeulders B.V. | https://smeulders-ig.nl/over-ons/ - 'Anton Smeulders ... leidt het bedrijf sinds 1992'; proprieta Holding Smeulders B.V. | Anton Smeulders |
 | Van de Stadt Houtimport B.V. | dimensione | Indirizzo di sede indicato nel campo ('sede portuale Noorder IJ- en Zeeweg') non coincide con quello registrato oggi: KVK/Drimble e il sito riportano Rijshoutweg 31, 1505 HL Zaandam. Dato di sede obsoleto. | https://drimble.nl/bedrijf/zaandam/15832708/van-de-stadt-houtimport-bv.html - 'Van de Stadt Houtimport B.V. Rijshoutweg'; https://www.telefoonboek.nl/ | Rijshoutweg 31, 1505 HL Zaandam |
 | Van den Berg Hardhout B.V. | linkedin | URL LinkedIn probabilmente errato: la pagina aziendale reperibile e /company/van-den-berg-hardhout-bv---lopik, non /company/vandenberghardhout. | https://nl.linkedin.com/company/van-den-berg-hardhout-bv---lopik - 'Van den Berg Hardhout BV \| LinkedIn' | https://nl.linkedin.com/company/van-den-berg-hardhout-bv---lopik |
+| Veldhuis Media B.V. | dimensione | Partecipazione Wadinko NV non datata: l'ingresso dell'investitore risale a dicembre 2023 (partecipazione di minoranza). Precisare data e quota nel campo, perché incide sulla catena decisionale della compliance. | https://www.wadinko.nl/nieuws/wadinko-neemt-belang-in-veldhuis-media-in-meppel — 'In 2023 nam participatiemaatschappij Wadinko NV een belang in Veldhu | Aggiungere: partecipazione di minoranza Wadinko NV dal dicembre 2023 |
+| Veldhuis Media B.V. | email | Incoerenza formale tra e-mail e dominio del sito: e-mail info@veldhuis.nl ma sito www.veldhuismedia.nl. DA CONFERMARE quale dei due domini sia la casella attiva. | Campi 'email' e 'sito' del record stesso (info@veldhuis.nl vs https://www.veldhuismedia.nl) |  |
+| Zaadhof's Cartonnage Fabrieken B.V. | referente | Referente incompleto e ruolo impreciso: l'attuale vertice è Jan Meindert Zaadhof (54), directeur, che guida l'azienda insieme alla sorella Karina Wessels (55), quarta generazione. Inoltre il campo dimensione data l'attività al 1951, mentre l'azienda  | https://www.rtvnoord.nl/economie/1416341/made-in-grunn-winschoter-familiebedrijf-maakt-jaarlijks-tientallen-miljoenen-verpakkingen — 'Jan Meindert Zaa | Jan Meindert Zaadhof — Directeur (co-gestione con Karina Wessels); fondazione 1910, sede Winschoten dal 1951 |
 
 ### Belgio (32)
 

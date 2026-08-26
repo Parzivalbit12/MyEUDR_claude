@@ -1,0 +1,200 @@
+[
+ {
+  "foglio": "Olanda",
+  "denominazione": "Acket Drukkerij Kartonnage B.V.",
+  "campo": "dimensione",
+  "problema": "Il fatturato di ca. 25 M€ e i 115 dipendenti derivano da un articolo del 2015 (printmedianieuws): dato di 10+ anni fa. Le fonti recenti indicano una dimensione molto minore (ca. 8,3 M$ di fatturato e 69 dipendenti, RocketReach 2025). Da riverificare prima del contatto: l'azienda potrebbe essere fuori (sotto) la forbice 5-40 M€ o comunque molto lontana dal dato riportato.",
+  "gravita": "media",
+  "evidenza": "https://rocketreach.co/acket-drukkerij-kartonnage-bv-profile_b5ce41bcf42e0979 — frammento: 'Acket Drukkerij Kartonnage B.V. is a Packaging and Containers Manufacturing company located in Oss, North Brabant with $8.3 million in revenue and 69 employees'; fonte del record datata 2015: https://www.printmedianieuws.nl/2015/02/acket-drukkerij-kartonnage-vijfde-generatie-aan-het-roer/",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Akarton B.V.",
+  "campo": "referente",
+  "problema": "Referente e ruolo vuoti, ma il directeur persona fisica è pubblicamente noto: Mike Noldus (M. Noldus, in direzione dal 2006, anche nella holding Atlas Packaging Group B.V.). Compilabile.",
+  "gravita": "media",
+  "evidenza": "https://shiftlimburg.nl/en/kennis-innovatie/akarton-first-and-only-european-producer-patented-sustainable-packaging-material — frammento: 'According to director Mike Noldus, Akarton in Venlo is the European producer of the patented Hexpand packaging material'; company.info Atlas Packaging Group B.V.: 'M. Noldus in management sinds 2006'",
+  "correzione_proposta": "Mike Noldus — Directeur"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Akarton B.V.",
+  "campo": "dimensione",
+  "problema": "Controllata al 100% della holding Atlas Packaging Group B.V. (Venlo): il legame è dichiarato nel campo, ma la decisione di compliance EUDR si prende a livello di gruppo. Lead da qualificare sulla capogruppo.",
+  "gravita": "media",
+  "evidenza": "https://companyinfo.nl/organisatieprofiel/activiteiten-van-financiele-holdings/atlas-packaging-group-b-v-venlo-12064407-000000425265 — 'Akarton B.V. in Venlo is owned by Atlas Packaging Group B.V.'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Bangma Verpakking B.V.",
+  "campo": "dimensione",
+  "problema": "CAPOGRUPPO NON DICHIARATA/OBSOLETA. Il campo indica come controllante De Jong Verpakking, definita 'maggior produttore indipendente olandese': non è più vero. De Jong Packaging Group è stata acquisita da STORA ENSO (annuncio 08/09/2022, closing inizio gennaio 2023), quindi Bangma è dal 2023 parte di un gruppo quotato finlandese. Non è un lead valido: la compliance EUDR si decide a livello Stora Enso.",
+  "gravita": "alta",
+  "evidenza": "https://bangmaverpakking.nl/2023/01/09/stora-enso-officieel-eigenaar-van-bangma-verpakking-en-de-jong-packaging-group/ — 'Stora Enso officieel eigenaar van Bangma Verpakking en de Jong Packaging Group'; 'Bangma Verpakking is now part of the De Jong Packaging Group, which has been part of Stora Enso since 2023'",
+  "correzione_proposta": "Rimuovere il record (controllata Stora Enso) oppure riportare esplicitamente la catena Bangma → De Jong Packaging Group → Stora Enso Oyj"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Bannink Packaging B.V.",
+  "campo": "email",
+  "problema": "Il campo riporta 'n.d.' sostenendo che nessuna e-mail sia pubblicata, ma l'indirizzo generale info@bannink.nl compare in fonti pubbliche.",
+  "gravita": "media",
+  "evidenza": "https://www.cylex.nl/bedrijf/bannink-golfkarton-10687870.html — frammento: 'Bannink Golfkarton is located at Vosmatenweg 1 in Coevorden with phone number 0524-599599. The general email contact is info@bannink.nl'",
+  "correzione_proposta": "info@bannink.nl (DA CONFERMARE sul sito bannink.nl)"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Bannink Packaging B.V.",
+  "campo": "referente",
+  "problema": "Referente e ruolo vuoti, ma le fonti pubbliche indicano D.W. (Dick) Bannink come algemeen directeur / MD. DA CONFERMARE perché l'amministratore statutario iscritto è la tedesca Gauses GmbH.",
+  "gravita": "media",
+  "evidenza": "https://us.kompass.com/c/bannink-packaging-b-v/nl405401/ — frammento: 'D.W. Bannink is listed as MD/Chief Operating Officer (Algemeen directeur)'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Bannink Packaging B.V.",
+  "campo": "dimensione",
+  "problema": "Contraddizione interna e legame di gruppo: il campo definisce l'azienda 'uno dei pochi trasformatori ancora indipendenti' e poco dopo dichiara che dal 2021 l'amministratore statutario è la tedesca Gauses GmbH. Il legame è dichiarato (gravità media) ma la qualifica di 'indipendente' va corretta e la titolarità tedesca va verificata prima del contatto.",
+  "gravita": "media",
+  "evidenza": "Campo 'dimensione' del record stesso; ricerca su Bannink/Gausepohl: 'Dick Bannink built a factory in Schüttorf, Germany together with his partner Frank Gausepohl' (https://bannink.nl/)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Bannink Packaging B.V.",
+  "campo": "linkedin",
+  "problema": "Campo LinkedIn vuoto: non verificata l'esistenza di una pagina aziendale.",
+  "gravita": "bassa",
+  "evidenza": "Record stesso: campo 'linkedin' = ''",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "De Groot Drukkerij B.V.",
+  "campo": "referente",
+  "problema": "Referente non più attuale. Anton de Groot non è l'attuale vertice: dal settembre 2024 l'azienda è guidata da Wim Everts come algemeen directeur (fonte di settore, ottobre 2025).",
+  "gravita": "alta",
+  "evidenza": "https://www.printmedianieuws.nl/2025/10/grootsgedrukt-nl-goudriaan-vol-ijverige-aandacht/ — frammento: 'Wim Everts has led the family business since September of last year as general director'",
+  "correzione_proposta": "Wim Everts — Algemeen directeur (DA CONFERMARE su fonte primaria)"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "De Groot Drukkerij B.V.",
+  "campo": "dimensione",
+  "problema": "Dimensione probabilmente FUORI forbice verso l'alto: fonti 2025 indicano 125 dipendenti in produzione su tre turni e 180 persone nell'intera organizzazione (il record ne indica 121/164). Con questi numeri il fatturato supera verosimilmente i 40 M€. Inoltre il record cita un investimento/riorganizzazione senza fonte finanziaria: nessun dato di fatturato pubblicato.",
+  "gravita": "media",
+  "evidenza": "https://www.printmedianieuws.nl/2025/10/grootsgedrukt-nl-goudriaan-vol-ijverige-aandacht/ — frammento: 'De Groot Drukkerij prints approximately 50-60% for fellow printers in the three-shift company with 125 employees, with the total organization providing work for 180 people'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Drukkerij Van der Eems B.V.",
+  "campo": "email",
+  "problema": "L'e-mail indicata (sjoukje@vandereems.nl) è la casella personale di una collaboratrice, non l'indirizzo del referente né una casella generale. Per il directeur è pubblicato dj@vandereems.nl.",
+  "gravita": "media",
+  "evidenza": "https://us.kompass.com/c/drukkerij-van-der-eems-b-v/nl465957/ — frammento: 'Durk-Jorrit van der Eems - Director - Email: dj@vandereems.nl - Phone: +31515429214'",
+  "correzione_proposta": "dj@vandereems.nl"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Drukkerij Van der Eems B.V.",
+  "campo": "dimensione",
+  "problema": "Contraddizione interna: il campo dimensione afferma «Nessun nome pubblicato con la qualifica esplicita di 'directeur': referente lasciato vuoto», mentre il campo referente riporta Durk-Jorrit van der Eems (peraltro corretto e confermato dalle fonti). Testo residuo da ripulire.",
+  "gravita": "bassa",
+  "evidenza": "Campo 'dimensione' del record stesso vs campo 'referente'; conferma referente: https://us.kompass.com/c/drukkerij-van-der-eems-b-v/nl465957/",
+  "correzione_proposta": "Eliminare la frase sul referente vuoto dal campo dimensione"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Fris Karton B.V.",
+  "campo": "referente",
+  "problema": "Referente da confermare: oltre a Moniek van Steensel (Eigenaar su LinkedIn), le fonti indicano R.F.M.A. (Rob) Smets come algemeen directeur/eigenaar. Non è chiaro chi sia il vertice decisionale attuale.",
+  "gravita": "media",
+  "evidenza": "https://us.kompass.com/c/fris-karton-b-v/nl241951/ — frammento: 'Rob Smets is the Owner of Fris Karton; R.F.M.A. Smets serves as MD/Chief Operating Officer (Algemeen directeur)'; https://nl.linkedin.com/in/moniek-van-steensel-0ab87023 'Eigenaar Fris Karton bv'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Papierfabriek Schut B.V.",
+  "campo": "dimensione",
+  "problema": "CONTROLLATA DI GRUPPO ESTERO NON DICHIARATA. Il campo la descrive come 'cartiera indipendente attiva dal 1618': in realtà dal 1° luglio 1998 Papierfabriek Schut B.V. fa parte del gruppo francese quotato Exacompta Clairefontaine S.A., che vi investe ed è direttamente coinvolto. La compliance EUDR si decide a livello di capogruppo francese: lead non valido come PMI indipendente.",
+  "gravita": "alta",
+  "evidenza": "https://www.papiergeschiedenis.nl/geschiedenis-firma-schut-papier/ — 'sinds 1 juli 1998 maakt Papierfabriek Schut B.V. deel uit van de Franse groep Exacompta Clairefontaine S.A.'; https://schutpapier.nl/en/schut-papier/about-us — 'part of the French group Exacompta Clairefontaine S.A. ... one of four independently operating paper mills, the only one outside France'",
+  "correzione_proposta": "Eliminare il record oppure dichiarare la capogruppo: Exacompta Clairefontaine S.A. (Francia, quotata) dal 1998"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Snel Industrie voor Karton en Papierveredeling B.V.",
+  "campo": "sito",
+  "problema": "Il campo sito è vuoto e il campo dimensione afferma che 'nessun sito web è pubblicato': esiste invece www.snelbv.nl indicizzato nelle directory di settore.",
+  "gravita": "media",
+  "evidenza": "https://nl.kompass.com/c/snel-industrie-voor-karton-en-papierveredeling-b-v/nl135304/ — frammento: 'The website is www.snelbv.nl ... Phone number: 026-3250863 ... KvK number 09059215 ... Between 51 and 100 people are employed'",
+  "correzione_proposta": "https://www.snelbv.nl (DA CONFERMARE che il dominio sia attivo)"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Snel Industrie voor Karton en Papierveredeling B.V.",
+  "campo": "email",
+  "problema": "Lead non contattabile per iscritto: nessuna e-mail, nessun referente e nessuna pagina LinkedIn. Dopo tre query restano disponibili solo telefono e (ora) il dominio snelbv.nl. DA CONFERMARE via sito/telefono prima di inserire il lead in campagna.",
+  "gravita": "media",
+  "evidenza": "https://www.nederlandinbedrijf.nl/Bedrijf/64930/Kartonnen-verpakkingen-Snel-Ind.-v.-Karton-en-Papierveredeling-BV/Nijverheidstraat-22-6681LN-Bemmel-026-3250863 — riporta solo indirizzo e telefono 026-3250863, nessuna e-mail",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Van Gennip Verpakking B.V.",
+  "campo": "ruolo",
+  "problema": "Il campo referente contiene due nomi ('Michelle en Nick Verdaasdonk') e un ruolo generico ('Eigenaren, quarta generazione') non coerente con la qualifica pubblicata: Nick Verdaasdonk risulta commercieel directeur (nick@gennip.nl). Per un contatto diretto serve un solo referente con ruolo verificato.",
+  "gravita": "media",
+  "evidenza": "https://www.linkedin.com/in/nick-verdaasdonk-75524060/ e https://www.paper-world.com/en/company/van-gennip-verpakking-bv-eindhoven-1260570 — frammento: 'Nick Verdaasdonk is the Commercial Director, and can be reached at nick@gennip.nl'",
+  "correzione_proposta": "Nick Verdaasdonk — Commercieel directeur (referente unico); e-mail diretta nick@gennip.nl"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Veldhuis Media B.V.",
+  "campo": "dimensione",
+  "problema": "Dato di fatturato obsoleto e numero dipendenti errato. Il fatturato citato (ca. 15,5 M€) è del 2017 (8 anni fa). Il numero di dipendenti indicato (21-50) è smentito dalle fonti recenti: l'azienda conta ca. 111 addetti dopo il trasferimento Raalte→Meppel e il raddoppio della superficie produttiva (da 4.000 a 8.000 m²). Con 111 addetti il fatturato attuale è verosimilmente ben superiore ai 15,5 M€.",
+  "gravita": "media",
+  "evidenza": "https://www.kijkopoostnederland.nl/veldhuis-media-houdt-focus-en-dat-levert-veel-op/ e https://pitchbook.com/profiles/company/540017-29 — frammenti: 'Veldhuis Media has 111 total employees'; 'moved from Raalte to Meppel ... nearly doubled the production floor space from just over 4,000 to 8,000 m²'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Veldhuis Media B.V.",
+  "campo": "dimensione",
+  "problema": "Partecipazione Wadinko NV non datata: l'ingresso dell'investitore risale a dicembre 2023 (partecipazione di minoranza). Precisare data e quota nel campo, perché incide sulla catena decisionale della compliance.",
+  "gravita": "bassa",
+  "evidenza": "https://www.wadinko.nl/nieuws/wadinko-neemt-belang-in-veldhuis-media-in-meppel — 'In 2023 nam participatiemaatschappij Wadinko NV een belang in Veldhuis Media' (ripreso da publish.nl/PRINTmatters, 27/12/2023)",
+  "correzione_proposta": "Aggiungere: partecipazione di minoranza Wadinko NV dal dicembre 2023"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Veldhuis Media B.V.",
+  "campo": "email",
+  "problema": "Incoerenza formale tra e-mail e dominio del sito: e-mail info@veldhuis.nl ma sito www.veldhuismedia.nl. DA CONFERMARE quale dei due domini sia la casella attiva.",
+  "gravita": "bassa",
+  "evidenza": "Campi 'email' e 'sito' del record stesso (info@veldhuis.nl vs https://www.veldhuismedia.nl)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Zaadhof's Cartonnage Fabrieken B.V.",
+  "campo": "fonte",
+  "problema": "La fonte citata NON sostiene il dato riportato. Il campo dimensione attribuisce a RTV Noord un 'fatturato ca. 6 M€/anno', ma l'articolo parla di 'tientallen miljoenen verpakkingen' all'anno, cioè decine di milioni di IMBALLAGGI prodotti, non di euro di fatturato. Il fatturato non risulta pubblicato (BV con bilancio abbreviato).",
+  "gravita": "media",
+  "evidenza": "https://www.rtvnoord.nl/economie/1416341/made-in-grunn-winschoter-familiebedrijf-maakt-jaarlijks-tientallen-miljoenen-verpakkingen — titolo: 'Winschoter familiebedrijf maakt jaarlijks tientallen miljoenen verpakkingen'",
+  "correzione_proposta": "Rimuovere il fatturato di 6 M€ o indicarne la fonte reale; dichiarare che il fatturato non è pubblicato"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Zaadhof's Cartonnage Fabrieken B.V.",
+  "campo": "referente",
+  "problema": "Referente incompleto e ruolo impreciso: l'attuale vertice è Jan Meindert Zaadhof (54), directeur, che guida l'azienda insieme alla sorella Karina Wessels (55), quarta generazione. Inoltre il campo dimensione data l'attività al 1951, mentre l'azienda è stata fondata nel 1910 a Nieuwe Pekela (nel 1951 si è solo trasferita a Winschoten).",
+  "gravita": "bassa",
+  "evidenza": "https://www.rtvnoord.nl/economie/1416341/made-in-grunn-winschoter-familiebedrijf-maakt-jaarlijks-tientallen-miljoenen-verpakkingen — 'Jan Meindert Zaadhof (54) is directeur van Zaadhof Cartonnage en runt het familiebedrijf samen met zijn zus Karina Wessels (55)'; 'overgrootvader begon in 1910 in Nieuwe Pekela ... in 1951 op de huidige locatie aan de Industrieweg'",
+  "correzione_proposta": "Jan Meindert Zaadhof — Directeur (co-gestione con Karina Wessels); fondazione 1910, sede Winschoten dal 1951"
+ }
+]
