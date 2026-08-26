@@ -1,0 +1,74 @@
+[
+ {
+  "foglio": "Svezia",
+  "denominazione": "Skaraborgs Träförädling Aktiebolag",
+  "campo": "dimensione",
+  "problema": "Dato di bilancio fermo al 2023 (341 232 KSEK, -12,4%): a metà 2026 non risulta aggiornato all'esercizio 2024/2025. Il calo del -12,4% è correttamente dichiarato. Conversione KSEK->M€ corretta (341,2 MSEK / 11,3 = 30,2 M€). Da riverificare l'ultimo esercizio disponibile.",
+  "gravita": "media",
+  "evidenza": "allabolag/bolagsfakta: «Under 2023 hade Skaraborgs Träförädling Aktiebolag en omsättning på 341 232 KSEK... 29 anställda... resultat 572 KSEK» — https://www.allabolag.se/foretag/skaraborgs-tr%C3%A4f%C3%B6r%C3%A4dling-aktiebolag/t%C3%B6reboda/s%C3%A5gverk/2JZU5PLI5YHTM",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Skaraborgs Träförädling Aktiebolag",
+  "campo": "dimensione",
+  "problema": "Incoerenza interna sul numero di dipendenti: il campo riporta contemporaneamente «29 dip.» e «28 dip. dato aziendale». Le fonti pubbliche indicano 29.",
+  "gravita": "bassa",
+  "evidenza": "bolagsfakta.se/5562615657-Skaraborgs_Traforadling_Aktiebolag: «29 anställda»",
+  "correzione_proposta": "29 dipendenti (allabolag 2023)"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Småland Timber AB",
+  "campo": "dimensione",
+  "problema": "CONTROLLO DI GRUPPO NON DICHIARATO. Il campo descrive l'azienda come target autonomo (menziona solo l'ex denominazione Rydaholms Träförädling AB) ma Småland Timber AB ha come moderbolag Green Wood Sverige AB (org.nr 559248-6616, Sunne/Västra Ämtervik), holding di partecipazioni nel settore del legno (VD esterno Stefan Gillberg, ordförande Ronney Jarl). La decisione di compliance EUDR si colloca a livello di capogruppo.",
+  "gravita": "alta",
+  "evidenza": "allabolag/bolagsfakta: «Småland Timber AB ... moderbolag Green Wood Sverige AB» — https://www.allabolag.se/5561360248/smaland-timber-aktiebolag ; https://www.bolagsfakta.se/5592486616-Green_Wood_Sverige_AB",
+  "correzione_proposta": "Aggiungere: «controllata da Green Wood Sverige AB (org.nr 559248-6616), holding del legno con sede a Sunne»"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Småland Timber AB",
+  "campo": "referente",
+  "problema": "VD non riconfermato: le fonti divergono fra Bernt Göte Martinsson e Per Johnas Martinsson come verkställande direktör; possibile avvicendamento recente. DA CONFERMARE prima del contatto.",
+  "gravita": "media",
+  "evidenza": "allabolag/proff: «Bernt Göte Martinsson ... VD» in una scheda, «Per Johnas Martinsson ... Verkställande direktör» in un'altra — https://www.allabolag.se/foretag/sm%C3%A5land-timber-ab/rydaholm/s%C3%A5gverk/2JZ3914I5YHTM",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Småland Timber AB",
+  "campo": "dimensione",
+  "problema": "Dato obsoleto: il campo riporta l'esercizio 2023 (164 742 KSEK). L'esercizio 2024 è disponibile e mostra 157,5 MSEK (~13,9 M€), risultato negativo -5,0 MSEK e 24 dipendenti (-5% sul 2023). Resta in target ma il trend calante e la perdita non sono segnalati.",
+  "gravita": "media",
+  "evidenza": "allabolag: «Under 2024 hade bolaget en omsättning på 157,5 MSEK och ett resultat på −5,0 MSEK ... 24 anställda» — https://www.allabolag.se/5561360248",
+  "correzione_proposta": "≈13,9 M€ / 24 dip. (allabolag 2024: 157,5 MSEK, -5%; risultato -5,0 MSEK)"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Stockhult Glommers Timber AB",
+  "campo": "dimensione",
+  "problema": "CONTROLLO DI GRUPPO NON DICHIARATO. Il campo presenta l'azienda come impresa autonoma in forte crescita, ma la società (org.nr 556579-8435) è oggi parte del gruppo Stockhult: moderbolag Stockhult Timber AB, koncernmoder Stockhult Group AB / Stockhult Holding AB (investment company privata attiva nel wood processing, proprietaria anche di Rolfs Såg & Hyvleri AB), gruppo di 9 società. La ridenominazione da «Glommers Timber AB» a «Stockhult Glommers Timber AB» riflette proprio l'acquisizione.",
+  "gravita": "alta",
+  "evidenza": "allabolag organisation: «moderbolag Stockhult Timber AB ... koncern med totalt 9 bolag ... Stockhult Group AB» — https://www.allabolag.se/organisation/stockhult-glommers-timber-ab/glommerstr%C3%A4sk/s%C3%A5gverk/2K1QDK3I5YHTM ; stockhult.com: «owner of Glommers Timber AB and Rolfs Såg & Hyvleri AB»",
+  "correzione_proposta": "Aggiungere: «controllata dal gruppo Stockhult (Stockhult Timber AB / Stockhult Holding AB)»"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Stockhult Glommers Timber AB",
+  "campo": "dimensione",
+  "problema": "Dato non aggiornato: il campo cita 296,6 MSEK e un bilancio 2020 (98 352 KSEK). L'esercizio 2024 registra 315 530 KSEK (~27,9 M€), 14 dipendenti, risultato 2 956 KSEK. Conversione KSEK corretta.",
+  "gravita": "media",
+  "evidenza": "allabolag: «Under 2024 hade Stockhult Glommers Timber AB 14 anställda, omsättning 315 530 KSEK och resultat 2 956 KSEK» — https://www.allabolag.se/5565798435/stockhult-glommers-timber-ab",
+  "correzione_proposta": "≈27,9 M€ / 14 dip. (allabolag 2024: 315 530 KSEK)"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Stockhult Glommers Timber AB",
+  "campo": "sede",
+  "problema": "La sede legale registrata risulta a Luleå (Norrbottens län) nelle schede più recenti; Glommersträsk (Arvidsjaur) è la sede operativa/segheria. Entrambe in Norrbottens län: refuso formale, non sostanziale.",
+  "gravita": "bassa",
+  "evidenza": "https://www.allabolag.se/5565798435/stockhult-glommers-timber-ab — «Stockhult Glommers Timber AB - Org.nr 556579-8435 - Luleå»",
+  "correzione_proposta": "Glommersträsk (Arvidsjaur) — sede legale Luleå, Norrbottens län"
+ }
+]

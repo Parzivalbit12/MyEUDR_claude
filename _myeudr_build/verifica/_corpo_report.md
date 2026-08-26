@@ -14,13 +14,13 @@ La verifica si è svolta in due fasi:
 |---|--:|--:|--:|--:|--:|--:|
 | Italia | 95 | 2 | 0 | 3 | 38 | 40% |
 | Germania | 97 | 3 | 0 | 3 | 51 | 53% |
-| Finlandia | 84 | 1 | 1 | 3 | 31 | 37% |
-| Danimarca | 88 | 3 | 1 | 1 | 70 | 80% |
-| Svezia | 89 | 2 | 0 | 3 | 36 | 40% |
+| Finlandia | 84 | 2 | 0 | 3 | 34 | 40% |
+| Danimarca | 88 | 4 | 0 | 1 | 72 | 82% |
+| Svezia | 89 | 2 | 1 | 2 | 39 | 44% |
 | Olanda | 99 | 3 | 0 | 3 | 51 | 52% |
 | Belgio | 93 | 4 | 0 | 1 | 76 | 82% |
 | Austria | 91 | 3 | 0 | 2 | 57 | 63% |
-| **TOTALE** | **736** | **21** | **2** | **19** | **410** | **56%** |
+| **TOTALE** | **736** | **23** | **1** | **18** | **418** | **57%** |
 
 _Un blocco è contato **completo** solo se l'agente ha confermato di aver verificato tutti i record. I **blocchi parziali** sono quelli ancora in corso o interrotti dal limite di sessione: i rilievi già salvati sono validi e inclusi nel report, ma la copertura è conteggiata al ribasso (solo le aziende che compaiono fra i rilievi). Il salvataggio incrementale ogni 3-4 record è ciò che ha evitato di perdere quel lavoro._
 
@@ -32,40 +32,40 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 
 ## 2. Rilievi per foglio
 
-**Totale rilievi Fase B: 668** — alta 92 · media 377 · bassa 199.
+**Totale rilievi Fase B: 680** — alta 95 · media 382 · bassa 203.
 
 | Foglio | Rilievi | alta | media | bassa | Aziende toccate |
 |---|--:|--:|--:|--:|--:|
 | Italia | 69 | 1 | 33 | 35 | 36 |
 | Germania | 90 | 5 | 57 | 28 | 51 |
-| Finlandia | 48 | 12 | 26 | 10 | 29 |
-| Danimarca | 95 | 20 | 50 | 25 | 63 |
-| Svezia | 58 | 10 | 28 | 20 | 32 |
+| Finlandia | 50 | 12 | 26 | 12 | 29 |
+| Danimarca | 97 | 21 | 51 | 25 | 64 |
+| Svezia | 66 | 12 | 32 | 22 | 35 |
 | Olanda | 96 | 12 | 64 | 20 | 44 |
 | Belgio | 148 | 23 | 83 | 42 | 71 |
 | Austria | 63 | 9 | 36 | 18 | 44 |
 | _(tutti)_ | 1 | 0 | 0 | 1 | 1 |
-| **TOTALE** | **668** | **92** | **377** | **199** | **371** |
+| **TOTALE** | **680** | **95** | **382** | **203** | **375** |
 
 ### Rilievi per campo
 
 | Campo | Rilievi | di cui alta |
 |---|--:|--:|
-| dimensione | 323 | 51 |
-| referente | 143 | 18 |
+| dimensione | 330 | 53 |
+| referente | 144 | 18 |
 | email | 53 | 4 |
 | denominazione | 46 | 10 |
-| linkedin | 25 | 0 |
-| filiera | 19 | 7 |
+| linkedin | 26 | 0 |
+| filiera | 20 | 8 |
 | ruolo | 19 | 0 |
 | sito | 18 | 1 |
-| sede | 16 | 1 |
+| sede | 18 | 1 |
 | fonte | 5 | 0 |
 | esistenza_stato | 1 | 0 |
 
 ---
 
-## 3. Tema trasversale — legami di gruppo (91 rilievi)
+## 3. Tema trasversale — legami di gruppo (93 rilievi)
 
 È il problema **più diffuso e meno atteso** emerso dalla verifica: non era fra i 13 punti noti dell'handoff. Numerose aziende del censimento sono controllate di gruppi, spesso esteri o quotati. Per il criterio già applicato dal progetto — che aveva rimosso Lavazza Kaffee, Segafredo Zanetti Austria e Kaffee Partner Austria perché *«la compliance si decide a livello di gruppo, non nella filiale»* — sono **lead di valore dubbio**.
 
@@ -167,11 +167,13 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 | Svezia | Rödins Trä AB | **dichiarato** | Il valore riportato (380 291 KSEK ≈ 33,7 M€, 2025) è il fatturato CONSOLIDATO di gruppo: Rödins Trä AB è koncernmoderbolag con la controllata Ålsta Sågverk Nord AB, e il gruppo di 2 società fattura 37 |
 | Svezia | Rörvikshus Sweden AB | **dichiarato** | Controllata di gruppo: capogruppo Munio Sweden Aktiebolag (org.nr 556509-3449), gruppo di 4 società con 52 dipendenti e 229,0 MSEK di fatturato. Legame già dichiarato correttamente nel foglio: resta u |
 | Svezia | Sjöbergs Workbenches AB | **dichiarato** | Il legame di gruppo è dichiarato (capogruppo Idun Woodcraft AB, acquisizione 2018) ma ne è sottostimata la portata: allabolag indica che l'azienda appartiene a un gruppo di 74 società facente capo a I |
+| Svezia | Småland Timber AB | **NON dichiarato** | CONTROLLO DI GRUPPO NON DICHIARATO. Il campo descrive l'azienda come target autonomo (menziona solo l'ex denominazione Rydaholms Träförädling AB) ma Småland Timber AB ha come moderbolag Green Wood Sve |
+| Svezia | Stockhult Glommers Timber AB | **NON dichiarato** | CONTROLLO DI GRUPPO NON DICHIARATO. Il campo presenta l'azienda come impresa autonoma in forte crescita, ma la società (org.nr 556579-8435) è oggi parte del gruppo Stockhult: moderbolag Stockhult Timb |
 | Svezia | Tärnsjö Garveri Aktiebolag | **NON dichiarato** | Legame di gruppo NON dichiarato: il record definisce l'azienda 'la principale conceria indipendente attiva', ma allabolag indica come moderbolag Axel Bodéns Handels Aktiebolag. L'affermazione di indip |
 
 ---
 
-## 4. Casi di gravità ALTA (92)
+## 4. Casi di gravità ALTA (95)
 
 _Dato falso, azienda non contattabile, azienda cessata/fallita/acquisita, oppure fuori dal perimetro dell'Allegato I EUDR._
 
@@ -329,7 +331,7 @@ Struttura societaria superata: il 28.2.2025 la vecchia Piklas Oy si e' FUSA nell
 **Correzione proposta:** Piklas Oy (Y 0189227-4, ex PRT-Forest Oy) — capogruppo dopo la fusione del 28.2.2025, con controllata PRT-Wood Oy
 
 
-### Danimarca (20)
+### Danimarca (21)
 
 #### AUBO PRODUCTION A/S — campo `referente`
 
@@ -435,6 +437,14 @@ Controllo societario non dichiarato: la societa e in portafoglio del fondo di pr
 
 **Correzione proposta:** Aggiungere: controllata tramite RGDE ApS, societa in portafoglio del fondo Dansk Ejerkapital
 
+#### Rubberproff ApS — campo `filiera`
+
+Lead non qualificabile su due fronti. (a) Perimetro: e un rivenditore/e-commerce di prodotti in gomma finiti ('trade in rubber and related business'), non un trasformatore ne un importatore che immette la commodity sul mercato UE - stesso profilo dei broker puri gia rimossi. (b) Dimensione: 1 solo dipendente (non 2-10 come dichiarato) e bruttofortjeneste 1.995.355 DKK nel 2023 (~0,27 M EUR), contro 1.767.447 DKK nel 2022. Molto lontano dalla forbice 5-40 M EUR. Da valutare la rimozione dal foglio.
+
+**Evidenza:** https://estatistik.dk/virksomhed/rubberproff-aps/40465790 - frammento: "The company's purpose is to trade in rubber and related business activities ... Number of employees: 1 ... In 2023, gross profit was 1,995,355 DKK, compared to 1,767,447 DKK in 2022 ... The parent company is Mp17 Holding ApS"
+
+**Correzione proposta:** — nessun valore certo: rilievo lasciato aperto
+
 #### SKJERN PAPER A/S (già Skjern Papirfabrik A/S) — campo `dimensione`
 
 ASSETTO PROPRIETARIO FALSO. Il campo dichiara 'Proprieta' Buur Invest A/S + dirigenti operativi (indipendente danese dal 2005)'. In realta' Skjern Paper A/S e' stata acquisita dal gruppo statunitense SONOCO Products Company (NYSE: SON) con accordo annunciato il 28.09.2022 per ~88 mio USD / 675 mio DKK, closing nel Q4 2022. Non e' un'azienda indipendente danese: la decisione EUDR si colloca presso la capogruppo USA.
@@ -492,7 +502,7 @@ Ambiguita' PARZIALMENTE risolta: il fallimento riguarda l'omonima 'VestjyDsk Spe
 **Correzione proposta:** Allineare il record a un unico CVR (38786709 secondo proff.dk) ed eliminare il riferimento a lasso.dk/42242993 se non pertinente
 
 
-### Svezia (10)
+### Svezia (12)
 
 #### Balungstrands Sågverk AB — campo `dimensione`
 
@@ -565,6 +575,22 @@ CONTROLLO DI GRUPPO NON DICHIARATO: Nydala Trävaru Aktiebolag fa parte di un gr
 **Evidenza:** https://www.allabolag.se/organisation/nydala-trc3a4varu-aktiebolag/vrigstad/sc3a5gverk/2JYQ8C9I5YHTM — «The parent company is Nydala Trä Holding AB. Nydala Trävaru Aktiebolag is part of a group with a total of 2 companies»
 
 **Correzione proposta:** Aggiungere: capogruppo Nydala Trä Holding AB (gruppo di 2 società)
+
+#### Småland Timber AB — campo `dimensione`
+
+CONTROLLO DI GRUPPO NON DICHIARATO. Il campo descrive l'azienda come target autonomo (menziona solo l'ex denominazione Rydaholms Träförädling AB) ma Småland Timber AB ha come moderbolag Green Wood Sverige AB (org.nr 559248-6616, Sunne/Västra Ämtervik), holding di partecipazioni nel settore del legno (VD esterno Stefan Gillberg, ordförande Ronney Jarl). La decisione di compliance EUDR si colloca a livello di capogruppo.
+
+**Evidenza:** allabolag/bolagsfakta: «Småland Timber AB ... moderbolag Green Wood Sverige AB» — https://www.allabolag.se/5561360248/smaland-timber-aktiebolag ; https://www.bolagsfakta.se/5592486616-Green_Wood_Sverige_AB
+
+**Correzione proposta:** Aggiungere: «controllata da Green Wood Sverige AB (org.nr 559248-6616), holding del legno con sede a Sunne»
+
+#### Stockhult Glommers Timber AB — campo `dimensione`
+
+CONTROLLO DI GRUPPO NON DICHIARATO. Il campo presenta l'azienda come impresa autonoma in forte crescita, ma la società (org.nr 556579-8435) è oggi parte del gruppo Stockhult: moderbolag Stockhult Timber AB, koncernmoder Stockhult Group AB / Stockhult Holding AB (investment company privata attiva nel wood processing, proprietaria anche di Rolfs Såg & Hyvleri AB), gruppo di 9 società. La ridenominazione da «Glommers Timber AB» a «Stockhult Glommers Timber AB» riflette proprio l'acquisizione.
+
+**Evidenza:** allabolag organisation: «moderbolag Stockhult Timber AB ... koncern med totalt 9 bolag ... Stockhult Group AB» — https://www.allabolag.se/organisation/stockhult-glommers-timber-ab/glommerstr%C3%A4sk/s%C3%A5gverk/2K1QDK3I5YHTM ; stockhult.com: «owner of Glommers Timber AB and Rolfs Såg & Hyvleri AB»
+
+**Correzione proposta:** Aggiungere: «controllata dal gruppo Stockhult (Stockhult Timber AB / Stockhult Holding AB)»
 
 #### Tärnsjö Garveri Aktiebolag — campo `dimensione`
 
@@ -938,7 +964,7 @@ REFERENTE OBSOLETO DI DUE PASSAGGI. Heinz Hofer-Wittmann non e' piu' alla guida:
 
 ---
 
-## 5. Casi di gravità MEDIA (377)
+## 5. Casi di gravità MEDIA (382)
 
 _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente errato._
 
@@ -1074,7 +1100,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Oy Haka-Wood Ab | dimensione | Dato obsoleto: il record riporta 11,9 M€ (2023); l'ultimo bilancio disponibile indica 10,7 M€ (2024, -9,7%) con 29 dipendenti. | 'liikevaihto 2024 oli 10,7 miljoonaa euroa, laski 9,7%, 29 tyontekijaa; liikevoitto 1,1 miljoonaa (10,4%)' — https://www.asiakastieto.fi/yritykset/fi/ | Liikevaihto 10,7 M€ (2024), 29 dip. (Asiakastieto) |
 | Piklas Oy | dimensione | Dato di fatturato obsoleto e riferito alla vecchia persona giuridica: 11,41 M€ (2023). L'esercizio 2025 chiude a 10,2 M€ con risultato negativo (-44,1 k€), 65 dipendenti. | 'Piklas Oy liikevaihto 10,2 miljoonaa euroa (tilikausi 2025), tilikauden tulos -44,1 tuhatta; 65 tyontekijaa' — https://search.vainu.com/company/pikla | Liikevaihto 10,2 M€ (2025), risultato -44 k€, 65 dip. |
 
-### Danimarca (50)
+### Danimarca (51)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -1093,6 +1119,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Estate Coffee Copenhagen A/S | dimensione | Dati di bilancio obsoleti di cinque anni: il campo cita 'bruttofortjeneste 10 mio DKK (bilancio 2021)' e '10-20 dipendenti', mentre le fonti aggiornate danno bruttofortjeneste 11 mio DKK nel 2023 e 15 mio DKK nel 2024 (~2,0 M€ di margine lordo) e una | https://www.proff.dk/firma/smage-compagniet-as/haarby/n%C3%A6rings-og-nydelsesmidler/GLOZ6AI116S - 'I 2023 viste regnskabet en bruttofortjeneste paa 1 | Bruttofortjeneste 15 mio DKK nel 2024 (~2,0 M€ di margine lordo; 11 mio DKK nel 2023), 20-50 dipendenti; fatturato non p |
 | H. EMBALLAGE ApS | dimensione | Il campo scrive 'ricavi/margine lordo dichiarati 9,211 mio DKK' senza dichiarare di quale dato si tratti: per una ApS il bilancio in forma ridotta pubblica il bruttofortjeneste, non il fatturato. La formula ambigua rende non interpretabile il dato (9 | https://www.proff.dk/firma/h.-emballage-aps/glamsbjerg/producenter/GWNSLZI016D - CVR 38528742, 'Papirvarefabrikker og kartonnagefabrikker', Hoejrupvej | Bruttofortjeneste 9,211 mio DKK (~1,2 M€ di margine lordo), 21 dipendenti; fatturato non pubblicato (ApS, bilancio in fo |
 | H.C. JACOBSEN A/S | dimensione | Micro-impresa molto al di sotto della soglia minima: bruttofortjeneste 3,2 mio. DKK (~0,43 M EUR). Il core business e la distribuzione di imballaggi (HC Emballage: nastri, film estensibile, reggette, spago, cartellini) con gli elastici in gomma come  | https://estatistik.dk/virksomhed/hc-jacobsen-as/75144911 - frammento: 'H.C. Jacobsen A/S is Denmark's largest supplier of rubber bands ... delivers ru | Aggiungere: capogruppo BEA HOLDING ApS; presidente CdA Pernille Andersen; distributore di imballaggi ed elastici, FUORI  |
+| I.M. FRELLSEN K/S (Frellsen Kaffe & Te / Fre | dimensione | Il fatturato di ~300 mio. DKK (~40 M EUR) attribuito al 2022 non e un dato pubblicato: la societa non rende noto il fatturato, si limita a dichiarare che e superiore a quello dell'anno precedente. La cifra su cui poggia il posizionamento 'al limite s | https://www.sn.dk/art6507860/roskilde-kommune/erhverv/hoeje-raavarepriser-er-med-til-at-tage-en-bid-af-frellsens-overskud/ - frammento: 'The company d | Fatturato non pubblicato. Utile es. 2024/25 18,3 mio. DKK (2023/24: 30,8 mio. DKK); 582 dipendenti (rete retail inclusa) |
 | IKAST ETIKET A/S | referente | Il campo e' vuoto e il campo dimensione afferma che 'nessun adm. direktoer pubblicato': e' falso. Ulrik Lauritsen risulta direktoer della societa' dal 2003 (oltre che membro del consiglio). | https://www.proff.dk/firma/ikast-etiket-as/ikast/engroshandel-annet/GJF022I10N6 - 'Ikast Etiket A/S blev grundlagt i 1986 og har vaeret ledet af Ulrik | Ulrik Lauritsen — Direktør |
 | IKAST ETIKET A/S | dimensione | Dati non allineati alle fonti: il campo riporta 'risultato netto 7,62 mio DKK' e 12 dipendenti, mentre il bilancio 2024 pubblicato indica un bruttofortjeneste di 16 mio DKK e 14 dipendenti. Non e' inoltre dichiarata la capogruppo UL HOLDING IKAST ApS | https://www.proff.dk/firma/ikast-etiket-as/ikast/engroshandel-annet/GJF022I10N6 - 'I 2024 viste regnskabet en bruttofortjeneste paa 16 mio. DKK ... 14 | Bruttofortjeneste 16 mio DKK nel 2024 (~2,1 M€ di margine lordo), 14 dipendenti; fatturato non pubblicato. Capogruppo UL |
 | INNOVATION LIVING A/S (già Innovation Rander | dimensione | Dato obsoleto: il campo cita il bruttofortjeneste 2023 (47,3 M DKK) mentre l'ultimo bilancio disponibile (2025) riporta 40 M DKK, quindi in calo. Anche la composizione del gruppo è imprecisa: INNOVATION HOLDING A/S conta 10 società, non 8. | https://www.proff.dk/firma/innovation-living-as/randers-n%C3%B8/m%C3%B8bler/13462KI015G — frammento: "In 2025, the company reported a gross profit of  | Bruttofortjeneste 40 mio DKK (~5,4 M€) nel 2025 (proff.dk, CVR 65699516); fatturato non pubblicato; gruppo INNOVATION HO |
@@ -1129,7 +1156,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | The Coffee Collective A/S | referente | Referente non e il vertice attuale della societa: dal 2024 l'amministratore delegato (CEO / adm. direktør) e Rebecca Vang, subentrata a Peter Dupont. Klaus Thomsen resta co-fondatore e comproprietario con ruolo operativo sulla qualita, non e il verti | https://coffeecollective.dk/blogs/stories/new-ceo e https://www.gcrmag.com/coffee-collective-announces-new-ceo/ - frammento: 'Rebecca Vang joined as C | Rebecca Vang - Adm. direktør (CEO), dal 2024 |
 | VESTJYSK SPECIALFODER ApS | filiera | Perimetro EUDR DA CONFERMARE: l'oggetto sociale registrato e' generico ('handelsvirksomhed inden for specialfoder'), classificato proff.dk come 'engroshandel - annet'. Nessuna fonte pubblica conferma l'impiego di soia (unica commodity EUDR plausibile | https://royalfireworks.dk/forhandler/vestjysk-specialfoder-aps/ - scheda rivenditore fuochi d'artificio a Vemb; https://www.proff.dk/firma/vestjysk-sp |  |
 
-### Svezia (28)
+### Svezia (32)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -1161,6 +1188,10 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Nydala Trävaru Aktiebolag | dimensione | Dato di fatturato fermo all'esercizio 2023 (323 425 KSEK ≈ 28,6 M€, 41 dipendenti), mentre l'årsredovisning 2024 risulta già depositata e disponibile su allabolag. Il valore va aggiornato: l'azienda è sulla fascia alta del range tollerabile e un'ulte | https://www.allabolag.se/5560752825/bokslut — «Nydala Trävaru Aktiebolag had 41 employees and made a result of 14,794 KSEK with a turnover of 323,425  |  |
 | Rörvikshus Sweden AB | dimensione | Controllata di gruppo: capogruppo Munio Sweden Aktiebolag (org.nr 556509-3449), gruppo di 4 società con 52 dipendenti e 229,0 MSEK di fatturato. Legame già dichiarato correttamente nel foglio: resta una questione di selezione del lead, perché la deci | https://www.bolagsfakta.se/5566220926-Rorvikshus_Sweden_AB — «Rörvikshus Sweden AB had 49 employees and achieved a result of 1,195 KSEK with a turnove | Fatturato 154 918 KSEK ≈ 13,7 M€ (2024, -30,8%); 49 dipendenti; capogruppo Munio Sweden Aktiebolag (gruppo di 4 società, |
 | Sjöbergs Workbenches AB | dimensione | Il legame di gruppo è dichiarato (capogruppo Idun Woodcraft AB, acquisizione 2018) ma ne è sottostimata la portata: allabolag indica che l'azienda appartiene a un gruppo di 74 società facente capo a Idun Woodcraft AB (piattaforma legno del gruppo ind | https://www.allabolag.se/organisation/sj%C3%B6bergs-workbenches-ab/stockaryd/tr%C3%A4varor-produktion/2JYSCQ9I63IL3 — «Sjöbergs Workbenches AB is part | Aggiungere: gruppo Idun Woodcraft AB, 74 società (gruppo Idun) |
+| Skaraborgs Träförädling Aktiebolag | dimensione | Dato di bilancio fermo al 2023 (341 232 KSEK, -12,4%): a metà 2026 non risulta aggiornato all'esercizio 2024/2025. Il calo del -12,4% è correttamente dichiarato. Conversione KSEK->M€ corretta (341,2 MSEK / 11,3 = 30,2 M€). Da riverificare l'ultimo es | allabolag/bolagsfakta: «Under 2023 hade Skaraborgs Träförädling Aktiebolag en omsättning på 341 232 KSEK... 29 anställda... resultat 572 KSEK» — https |  |
+| Småland Timber AB | referente | VD non riconfermato: le fonti divergono fra Bernt Göte Martinsson e Per Johnas Martinsson come verkställande direktör; possibile avvicendamento recente. DA CONFERMARE prima del contatto. | allabolag/proff: «Bernt Göte Martinsson ... VD» in una scheda, «Per Johnas Martinsson ... Verkställande direktör» in un'altra — https://www.allabolag. |  |
+| Småland Timber AB | dimensione | Dato obsoleto: il campo riporta l'esercizio 2023 (164 742 KSEK). L'esercizio 2024 è disponibile e mostra 157,5 MSEK (~13,9 M€), risultato negativo -5,0 MSEK e 24 dipendenti (-5% sul 2023). Resta in target ma il trend calante e la perdita non sono seg | allabolag: «Under 2024 hade bolaget en omsättning på 157,5 MSEK och ett resultat på −5,0 MSEK ... 24 anställda» — https://www.allabolag.se/5561360248 | ≈13,9 M€ / 24 dip. (allabolag 2024: 157,5 MSEK, -5%; risultato -5,0 MSEK) |
+| Stockhult Glommers Timber AB | dimensione | Dato non aggiornato: il campo cita 296,6 MSEK e un bilancio 2020 (98 352 KSEK). L'esercizio 2024 registra 315 530 KSEK (~27,9 M€), 14 dipendenti, risultato 2 956 KSEK. Conversione KSEK corretta. | allabolag: «Under 2024 hade Stockhult Glommers Timber AB 14 anställda, omsättning 315 530 KSEK och resultat 2 956 KSEK» — https://www.allabolag.se/556 | ≈27,9 M€ / 14 dip. (allabolag 2024: 315 530 KSEK) |
 
 ### Olanda (64)
 
@@ -1362,7 +1393,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 
 ---
 
-## 6. Casi di gravità BASSA (199)
+## 6. Casi di gravità BASSA (203)
 
 _Refusi formali e incoerenze di stile._
 
@@ -1440,7 +1471,7 @@ _Refusi formali e incoerenze di stile._
 | Schmidt & Thürmer Holzhandlung, Säge- und Ho | referente | Elenco dei Geschäftsführer incompleto: l'Impressum ne indica due, il record ne riporta uno solo. Da valutare anche Peter-Uwe Winkel, nominato Geschäftsführer nel 2019 (EUWID): verificare se sia ancora in carica. | https://www.schmidt-thuermer.de/impressum/ — Geschäftsführer: Mathias Mörke, Andreas Helmrich; cfr. https://www.euwid-holz.de/news/handel/winkel-neuer | Mathias Mörke, Andreas Helmrich |
 | Spiegel Verpackungen AG | referente | Il Vorstand e' collegiale: oltre a Inga Spiegel risulta anche Michael Spiegel (Andreas Lutz e' Prokurist). Indicare un solo nome puo' portare a contattare il vertice sbagliato. | Companyhouse/Impressum Spiegel Verpackungen AG, HRB 16960 Amtsgericht Wuerzburg: «Vorstand: Inga Spiegel, Michael Spiegel; Prokurist: Andreas Lutz» —  | Inga Spiegel, Michael Spiegel (Vorstand) |
 
-### Finlandia (10)
+### Finlandia (12)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -1452,7 +1483,9 @@ _Refusi formali e incoerenze di stile._
 | Kankarin Kaluste Oy | dimensione | Serie storica incoerente con le fonti: il record indica 18,8 M€ per il 2024, mentre le fonti riportano oltre 23 M€ nel 2023 e 22 M€ nel 2025 (69 dip.). Il dato 2025 e' corretto; il dato intermedio 2024 va riverificato. | https://puumieslehti.fi/kuukauden-juttu/kankarin-kaluste-oy-kiintokalusteita-kihniosta-40-vuoden-kokemuksella/ e https://vainu.io/company/kankarin-kal | Liikevaihto 22,0 M€ / 69 dip. (2025) — rimuovere o riverificare il valore 18,8 M€ (2024) |
 | Mahogany Oy | email | Email assente ('n.d.'). Esiste pagina contatti (mahogany.fi/?page_id=88) da cui reperire l'indirizzo. | https://mahogany.fi/?page_id=88 (pagina Yhteystiedot presente; indirizzo non visibile nei frammenti) |  |
 | Mellano Oy | dimensione | Il fatturato e' in forte contrazione (-28,2% nel 2024) e resta sotto il minimo della forbice: 8,6 M€ (2024) / 8,9 M€ (2025). Il dato del record e' corretto ma non evidenzia il trend; NB: Mellano NON e' piu' nel gruppo PRT-Forest (uscita 2019), quindi | '2024 liikevaihto 8,6 miljoonaa euroa, laski 28,2%; 2025 liikevaihto 8,9 MEUR' — https://www.asiakastieto.fi/yritykset/fi/mellano-oy/08719888/talousti | Liikevaihto 8,6 M€ (2024, -28,2%); 8,9 M€ (2025); 56 dip. — indipendente dal 2019 (ex PRT-Forest) |
+| Orasko Oy | sede | Sede imprecisa: la sede legale/uffici della societa' e' a Kuopio (Minna Canthin katu 4 A, 70100 Kuopio, Pohjois-Savo); Utajarvi (Mustikkakangas) e' lo stabilimento produttivo. | 'Orasko Oy... osoite Minna Canthin katu 4 A, 70100 Kuopio; info@orasko.fi; Hany Yacoub hany@orasko.fi, +358 400 574 909' — https://orasko.fi/en-eu/pag | Kuopio (Pohjois-Savo) — sede legale; stabilimento a Utajarvi (Pohjois-Pohjanmaa) |
 | Oy CrossLam Kuhmo Ltd | dimensione | Dato confermato ma in forte calo rispetto al 2023 (8,1 M€ -> 5,6 M€ nel 2025, 22 dip.): l'azienda e' al limite inferiore della forbice tollerabile. Redditivita' buona (EBIT 552 k€, 9,7%). | 'liikevaihto 5,6 miljoonaa euroa 2025, 22 tyontekijaa; 2023: 8,1 miljoonaa, 26 tyontekijaa; liikevoitto 552 tuhatta (9,7%)' — https://www.asiakastieto | Liikevaihto 5,6 M€ (2025), 22 dip. — al limite inferiore della forbice |
+| Oy Haka-Wood Ab | linkedin | Il campo LinkedIn contiene il profilo PERSONALE del toimitusjohtaja, non la pagina aziendale. | 'Tuomo Saarisilta - Toimitusjohtaja, Oy Haka-Wood Ab' — https://fi.linkedin.com/in/tuomo-saarisilta-207ab484 (profilo individuale) |  |
 | Piiroinen Oy | denominazione | Ragione sociale imprecisa: la persona giuridica e' 'Arvo Piiroinen Oy' (Y-tunnus 0139391-8), Salo. 'Piiroinen' e' solo il marchio commerciale. | 'Arvo Piiroinen Oy - 0139391-8 - Salo... paatoimiala julkisten tilojen huonekalut' — https://www.proff.fi/yrityksen/arvo-piiroinen-oy/salo/metalliteol | Arvo Piiroinen Oy |
 
 ### Danimarca (25)
@@ -1485,7 +1518,7 @@ _Refusi formali e incoerenze di stile._
 | VERMUND LARSEN A/S (VELA / VERMUND) | sito | Disallineamento tra i canali: il sito indicato (vermund.eu) e' quello del solo marchio di design 'Vermund', mentre il sito istituzionale della societa' e del marchio principale e' vela.dk (coerente con l'email mail@vela.dk e con la pagina LinkedIn 'v | https://www.vela.dk/om-vela ; https://estatistik.dk/virksomhed/vermund-larsen-as/52796628/roller - 'Ny Vela Holding ApS tiltradte som ejer 100% af vir | https://www.vela.dk/ (con vermund.eu come sito del marchio design) |
 | Xocolatl Christiansfeld ApS | linkedin | L'URL LinkedIn indicato e un profilo personale (percorso /in/xocolatl-christiansfeld-aps-837b35b4/), non la pagina aziendale (/company/). Dati societari per il resto confermati: 56 dipendenti, capogruppo MINKO INVEST ApS, direktør Gitte Kohls (uscita | https://ownr.dk/companies/public-profile/34458375 - frammento: 'Gitte Kohls is the administrative director (direktør) ... left the board ... but conti |  |
 
-### Svezia (20)
+### Svezia (22)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -1508,6 +1541,8 @@ _Refusi formali e incoerenze di stile._
 | Norrgavel AB | dimensione | Dato aggiornabile: il foglio riporta l'esercizio 2024 (127 986 KSEK ≈ 11,3 M€, 62 dipendenti), mentre è già disponibile il 2025 con 135 118 KSEK ≈ 12,0 M€ e 59 dipendenti. L'azienda resta pienamente in target e la conversione KSEK del foglio è corret | https://www.bolagsfakta.se/5564913381-Norrgavel_AB — «The 2025 revenue is 135,118 thousand SEK ... The company has 59 employees»; email e co-CEO: http | Fatturato 135 118 KSEK = 135,1 MSEK ≈ 12,0 M€ (2025); 59 dipendenti |
 | Norrlands Trä Aktiebolag | dimensione | Lieve scostamento sul fatturato 2025: il foglio riporta 275 049 KSEK, allabolag/bolagsfakta riportano 274 677 KSEK (≈24,3 M€, +7,6%, risultato 17 561 KSEK, 41 dipendenti). Differenza marginale, ma il valore va allineato alla fonte. Confermati VD Jan  | https://www.bolagsfakta.se/5560924077-Norrlands_Tra_Aktiebolag — «omsättning of 274,677 KSEK during 2025 ... 41 employees ... result of 17,561 KSEK .. | ≈24,3 M€ / 41 dip. (allabolag 2025: 274 677 KSEK, +7,6%) |
 | Rödins Trä AB | dimensione | Il valore riportato (380 291 KSEK ≈ 33,7 M€, 2025) è il fatturato CONSOLIDATO di gruppo: Rödins Trä AB è koncernmoderbolag con la controllata Ålsta Sågverk Nord AB, e il gruppo di 2 società fattura 370,0 MSEK con 37 dipendenti. Il campo non specifica | https://allabolag.se/organisation/rc3b6dins-trc3a4-ab/svenstavik/sc3a5gverk/2K092UXI5YHTM — «Rödins Trä AB är ett koncernmoderbolag med ett dotterbola | ≈33,7 M€ consolidato di gruppo (allabolag 2025: 380,3 MSEK koncern, +3%); capogruppo essa stessa, controllata Ålsta Sågv |
+| Skaraborgs Träförädling Aktiebolag | dimensione | Incoerenza interna sul numero di dipendenti: il campo riporta contemporaneamente «29 dip.» e «28 dip. dato aziendale». Le fonti pubbliche indicano 29. | bolagsfakta.se/5562615657-Skaraborgs_Traforadling_Aktiebolag: «29 anställda» | 29 dipendenti (allabolag 2023) |
+| Stockhult Glommers Timber AB | sede | La sede legale registrata risulta a Luleå (Norrbottens län) nelle schede più recenti; Glommersträsk (Arvidsjaur) è la sede operativa/segheria. Entrambe in Norrbottens län: refuso formale, non sostanziale. | https://www.allabolag.se/5565798435/stockhult-glommers-timber-ab — «Stockhult Glommers Timber AB - Org.nr 556579-8435 - Luleå» | Glommersträsk (Arvidsjaur) — sede legale Luleå, Norrbottens län |
 | Tärnsjö Garveri Aktiebolag | dimensione | Numero dipendenti non allineato alla fonte: il record indica 43 dipendenti (2024), allabolag riporta 46. | allabolag.se: «Tärnsjö Garveri Aktiebolag har 46 anställda». Fatturato 51,9 MSEK 2024 (+6%) confermato. | 46 dipendenti |
 
 ### Olanda (20)
