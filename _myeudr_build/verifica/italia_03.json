@@ -3,34 +3,25 @@
   "foglio": "Italia",
   "denominazione": "Cartabox S.r.l.",
   "campo": "dimensione",
-  "problema": "Dato di fatturato obsoleto (2022). Bilancio 2023 depositato: 14.534.496 EUR, utile 544.523 EUR. Anche la classe dipendenti nel foglio manca: Atoka indica 50-99 addetti (il foglio non riporta dipendenti).",
+  "problema": "Dato di fatturato obsoleto (2022). Il bilancio 2023 depositato riporta 14.534.496 EUR con utile 544.523 EUR; la classe dipendenti (50-99) non e indicata nel campo. Forma giuridica S.R.L. verificata e corretta (P.IVA 01634200933, Meduna di Livenza TV).",
   "gravita": "media",
   "evidenza": "https://atoka.io/public/it/azienda/cartabox-srl/4907b277c3fd — 'Ricavi 2023: 14.534.496 EUR; Risultato netto 544.523 EUR; dipendenti 50-99'",
-  "correzione_proposta": "Fatturato ~14,5 mln € (bilancio 2023, Atoka/Registro Imprese); 50-99 dipendenti"
- },
- {
-  "foglio": "Italia",
-  "denominazione": "Cartabox S.r.l.",
-  "campo": "denominazione",
-  "problema": "Forma giuridica verificata e CORRETTA: S.R.L. confermata al Registro Imprese con P.IVA 01634200933, sede Via Enrico Fermi 20, Meduna di Livenza (TV). Nessuna rettifica necessaria.",
-  "gravita": "bassa",
-  "evidenza": "https://www.fatturatoitalia.it/cartabox_srl-01634200933 — 'CARTABOX S.R.L. ... P.Iva 01634200933 ... Meduna Di Livenza (TV)'",
-  "correzione_proposta": ""
+  "correzione_proposta": "Fatturato ~14,5 mln € (bilancio 2023, Registro Imprese); 50-99 dipendenti"
  },
  {
   "foglio": "Italia",
   "denominazione": "Cartiera Mantovana S.r.l.",
   "campo": "dimensione",
-  "problema": "Fatturato obsoleto e sovrastimato: il foglio riporta ~13,4 mln € (2022), mentre il bilancio 2024 depositato indica 12.018.679 EUR e il 2025 è indicato a ~12,2 mln € (+1,3%). Azienda in leggera contrazione, ancora dentro la forbice 5-40 mln ma vicino al limite basso della fascia utile.",
+  "problema": "Fatturato obsoleto e sovrastimato: il foglio indica ~13,4 mln € (2022), mentre il bilancio 2024 depositato riporta 12.018.679 EUR e il 2025 e stimato a ~12,2 mln € (+1,3%). Forma giuridica S.R.L. verificata e corretta (P.IVA 00152840203).",
   "gravita": "media",
-  "evidenza": "https://www.companyreports.it/cartiera_mantovana_srl-00152840203 — 'l'ultimo fatturato disponibile si riferisce al 2024 ed è pari a 12.018.679 EUR'",
+  "evidenza": "https://www.companyreports.it/cartiera_mantovana_srl-00152840203 — 'l'ultimo fatturato disponibile si riferisce al 2024 ed e pari a 12.018.679 EUR'; 21-50 dipendenti",
   "correzione_proposta": "Fatturato ~12,0 mln € (bilancio 2024); ~12,2 mln € (2025); 21-50 dipendenti"
  },
  {
   "foglio": "Italia",
   "denominazione": "Cartiera Mantovana S.r.l.",
   "campo": "referente",
-  "problema": "Referente e ruolo assenti nel foglio. Il vertice attuale è individuabile: Alberto Marenghi, Amministratore Delegato (la sede è in Piazza Franco Marenghi 18, Maglio di Goito - azienda familiare). Da inserire.",
+  "problema": "Referente e ruolo assenti. Il vertice attuale e individuabile: Alberto Marenghi, Amministratore Delegato (azienda familiare: la sede legale e in Piazza Franco Marenghi 18, Maglio di Goito). E il contributo piu utile su questo record.",
   "gravita": "media",
   "evidenza": "https://www.reportaziende.it/cartiera_mantovana_srl_mn_00152840203 — 'Amministratore delegato: Alberto Marenghi'; sede 'Piazza Franco Marenghi, 18, 46044 Maglio di Goito (MN)'",
   "correzione_proposta": "Referente: Alberto Marenghi — Ruolo: Amministratore Delegato"
@@ -39,16 +30,16 @@
   "foglio": "Italia",
   "denominazione": "Cartiera S. Rocco S.p.A.",
   "campo": "denominazione",
-  "problema": "Forma giuridica S.p.A. CONFERMATA (P.IVA 00996740460, Villa Basilica LU). Solo refuso formale: la denominazione al Registro Imprese è 'CARTIERA S.ROCCO S.P.A.' (senza spazio dopo il punto); alcune fonti la riportano come 'Cartiera San Rocco S.p.A.'. Il dato di fatturato del foglio (~19,2 mln € 2024) è confermato: 19.156.947 EUR nel 2024.",
+  "problema": "Refuso formale sulla denominazione: al Registro Imprese la ragione sociale e 'CARTIERA S.ROCCO S.P.A.' (senza spazio dopo il punto), mentre altre fonti la riportano estesa come 'Cartiera San Rocco S.p.A.'. La forma giuridica S.p.A. e stata verificata sulla P.IVA 00996740460 ed e CORRETTA; anche il fatturato del foglio e confermato (19.156.947 EUR nel 2024, utile 1.283.005 EUR).",
   "gravita": "bassa",
-  "evidenza": "https://www.ufficiocamerale.it/3259/cartiera-srocco-spa — 'CARTIERA S.ROCCO S.P.A., Partita IVA: 00996740460'; fatturato 2024 19.156.947 EUR, utile 1.283.005 EUR",
+  "evidenza": "https://www.ufficiocamerale.it/3259/cartiera-srocco-spa — 'CARTIERA S.ROCCO S.P.A., Partita IVA: 00996740460'; https://www.companyreports.it/cartiera_srocco_spa-00996740460 — fatturato 2024 19.156.947 EUR",
   "correzione_proposta": "Denominazione da Registro Imprese: CARTIERA S.ROCCO S.P.A."
  },
  {
   "foglio": "Italia",
   "denominazione": "Cartiera San Martino S.p.A.",
   "campo": "dimensione",
-  "problema": "Fatturato del foglio errato e obsoleto: indica ~15,4 mln € (2022, 'da riverificare'), mentre il bilancio 2024 riporta 18.307.340 EUR, in calo del 27,8% rispetto al 2022 (quindi il 2022 era ~25,3 mln €, non 15,4). Il dato del foglio non corrisponde ad alcun esercizio.",
+  "problema": "Fatturato errato e non riconducibile ad alcun esercizio: il foglio indica ~15,4 mln € (2022, 'da riverificare'), ma il bilancio 2024 riporta 18.307.340 EUR, in calo del 27,8% sul 2022 (che era quindi ~25,3 mln €). Ne il 2022 ne il 2024 corrispondono al valore del foglio.",
   "gravita": "media",
   "evidenza": "https://www.companyreports.it/cartiera-san-martino-spa-00090270604 — 'fatturato 2024 pari a 18.307.340 EUR, in calo del 27,8% rispetto al 2022, chiudendo con un utile di 983.610 EUR'; 50-99 dipendenti",
   "correzione_proposta": "Fatturato ~18,3 mln € (bilancio 2024, P.IVA 00090270604); 50-99 dipendenti"
@@ -57,70 +48,70 @@
   "foglio": "Italia",
   "denominazione": "Cartiera San Martino S.p.A.",
   "campo": "denominazione",
-  "problema": "AMBIGUITA DI SOGGETTO GIURIDICO: esistono due società distinte con denominazione quasi identica — CARTIERA SAN MARTINO S.P.A. (P.IVA 00090270604, Broccostella FR, quella del foglio) e CARTIERA SAN MARTINO S.R.L. (P.IVA 00619950603). Da sciogliere prima del contatto: verificare che email, sito e LinkedIn si riferiscano alla S.p.A. di Broccostella e non alla S.r.l. omonima. La forma giuridica S.p.A. del foglio è comunque corretta per la P.IVA 00090270604.",
+  "problema": "AMBIGUITA DI SOGGETTO GIURIDICO: esistono due societa distinte con denominazione quasi identica — CARTIERA SAN MARTINO S.P.A. (P.IVA 00090270604, Broccostella FR, che e quella del foglio) e CARTIERA SAN MARTINO S.R.L. (P.IVA 00619950603). Va sciolta prima del contatto verificando che email, sito e LinkedIn (company/11091550) puntino alla S.p.A. di Broccostella. La forma giuridica S.p.A. del foglio e comunque corretta per la P.IVA 00090270604.",
   "gravita": "media",
-  "evidenza": "https://www.ufficiocamerale.it/6490/cartiera-san-martino-srl — 'CARTIERA SAN MARTINO S.R.L., Partita IVA: 00619950603' vs https://www.ufficiocamerale.it/4777/cartiera-san-martino-spa — 'CARTIERA SAN MARTINO S.P.A., Partita IVA: 00090270604'",
+  "evidenza": "https://www.ufficiocamerale.it/6490/cartiera-san-martino-srl — 'CARTIERA SAN MARTINO S.R.L., Partita IVA: 00619950603'; https://www.ufficiocamerale.it/4777/cartiera-san-martino-spa — 'CARTIERA SAN MARTINO S.P.A., Partita IVA: 00090270604'",
   "correzione_proposta": ""
  },
  {
   "foglio": "Italia",
   "denominazione": "Cartonificio Sandreschi S.r.l.",
   "campo": "referente",
-  "problema": "Referente assente. Il legale rappresentante è Ernesto Sandreschi (azienda familiare, iscritta dal 1963). Forma giuridica S.r.l. e fatturato del foglio (~14,1 mln € 2024) CONFERMATI: 14.087.375 EUR nel 2024, utile 55.309 EUR, P.IVA 00132980467.",
+  "problema": "Referente e ruolo assenti. Il legale rappresentante e Ernesto Sandreschi (azienda familiare iscritta dal 01/02/1963). Forma giuridica S.R.L. verificata e corretta e fatturato del foglio confermato: 14.087.375 EUR nel 2024, utile 55.309 EUR, P.IVA 00132980467.",
   "gravita": "media",
-  "evidenza": "https://www.companyreports.it/cartonificio_sandreschi_srl-00132980467 — 'rappresentante legale Ernesto Sandreschi'; 'nel 2024 Cartonificio Sandreschi Srl ha raggiunto un fatturato di 14.087.375 EUR con un utile di 55.309 EUR'",
-  "correzione_proposta": "Referente: Ernesto Sandreschi — Ruolo: Legale rappresentante / Amministratore (da confermare la qualifica esatta in visura)"
+  "evidenza": "https://www.reportaziende.it/cartonificio_sandreschi_srl_lu — 'rappresentante legale Ernesto Sandreschi'; https://www.fatturatoitalia.it/cartonificio-sandreschi-srl-00132980467 — 'nel 2024 fatturato 14.087.375 EUR, utile 55.309 EUR'",
+  "correzione_proposta": "Referente: Ernesto Sandreschi — Ruolo: Legale rappresentante (qualifica esatta — Amministratore Unico o Presidente — da confermare in visura)"
  },
  {
   "foglio": "Italia",
   "denominazione": "Cartotecnica Licini S.r.l.",
   "campo": "filiera",
-  "problema": "CONTROLLO DI GRUPPO gia dichiarato nel campo dimensione ('dir./coord. Gruppo Spreafin'): la societa e soggetta a direzione e coordinamento di terzi, quindi la decisione di compliance EUDR potrebbe essere presa a livello di capogruppo e non autonomamente. Da valutare prima del contatto. Forma giuridica S.r.l. e fatturato ~6,0 mln € (2024) CONFERMATI: 6.054.164 EUR, P.IVA 03621290133.",
+  "problema": "CONTROLLO DI GRUPPO gia dichiarato nel campo dimensione ('dir./coord. Gruppo Spreafin'): la societa e soggetta ad altrui direzione e coordinamento, quindi la decisione di compliance EUDR potrebbe non essere autonoma ma presa a livello di capogruppo. Da valutare prima del contatto. Il legame e dichiarato, quindi gravita media e non alta. Forma giuridica S.R.L. e fatturato ~6,0 mln € (2024) confermati (6.054.164 EUR, P.IVA 03621290133).",
   "gravita": "media",
-  "evidenza": "https://www.companyreports.it/cartotecnica-licini-srl-03621290133 — 'fatturato 2024: 6.054.164 EUR'; campo dimensione del foglio: '(dir./coord. Gruppo Spreafin)'",
+  "evidenza": "https://www.companyreports.it/cartotecnica-licini-srl-03621290133 — 'fatturato 2024: 6.054.164 EUR; 2023: 5,37 mln EUR'; campo dimensione del foglio: '(dir./coord. Gruppo Spreafin)'",
   "correzione_proposta": ""
  },
  {
   "foglio": "Italia",
   "denominazione": "Cartotecnica Montebello S.p.A.",
   "campo": "dimensione",
-  "problema": "Dato aggiornabile: il foglio riporta ~12,8 mln € (2023), esatto per quell'esercizio, ma il bilancio 2024 e gia disponibile a 12.557.877 EUR. Manca inoltre la classe dipendenti (50-99). Forma giuridica S.p.A. CONFERMATA (P.IVA 02718680248, C.F. 12162100155, Sarego VI).",
+  "problema": "Dato aggiornabile: il foglio riporta ~12,8 mln € (2023), esatto per quell'esercizio (12.800.331 EUR), ma il bilancio 2024 e gia disponibile a 12.557.877 EUR; manca inoltre la classe dipendenti (50-99). Forma giuridica S.p.A. verificata e corretta (P.IVA 02718680248, C.F. 12162100155, Sarego VI).",
   "gravita": "bassa",
-  "evidenza": "https://www.reportaziende.it/cartotecnica_montebello_spa_vi_02718680248 — 'Fatturato 2024: 12.557.877 EUR; Fatturato 2023: 12.800.331 EUR'; https://www.ufficiocamerale.it/4303/cartotecnica-montebello-spa — 'CARTOTECNICA MONTEBELLO S.P.A., Partita IVA: 02718680248'",
+  "evidenza": "https://www.reportaziende.it/cartotecnica_montebello_spa_vi_02718680248 — 'Fatturato 2024: 12.557.877 EUR; Fatturato 2023: 12.800.331 EUR'",
   "correzione_proposta": "Fatturato ~12,6 mln € (bilancio 2024); 50-99 dipendenti"
  },
  {
   "foglio": "Italia",
   "denominazione": "Cartotecnica Montebello S.p.A.",
   "campo": "email",
-  "problema": "VERIFICA POSITIVA (nessuna correzione): l'email info@cartomontebello.com e confermata letteralmente in fonte pubblica nonostante il dominio sia diverso da quello del sito (cartotecnicamontebello.it). La discrepanza dominio-email e reale e non un refuso. PEC: cartotecnicamontebello@pec.confindustriavicenza.it.",
+  "problema": "NON e un errore, ma va annotato per evitare 'correzioni' errate a valle: l'email info@cartomontebello.com ha dominio diverso dal sito (cartotecnicamontebello.it) ed e confermata letteralmente in fonte pubblica. La discrepanza e reale, entrambi i domini appartengono alla stessa societa. PEC: cartotecnicamontebello@pec.confindustriavicenza.it.",
   "gravita": "bassa",
-  "evidenza": "https://www.paginebianche.it/scheda/sarego/cartotecnica-montebello.5668029 — 'info@cartomontebello.com'; 'cartotecnicamontebello@pec.confindustriavicenza.it'",
+  "evidenza": "https://www.paginebianche.it/scheda/sarego/cartotecnica-montebello.5668029 — 'info@cartomontebello.com'; 'cartotecnicamontebello@pec.confindustriavicenza.it'; tel. 0444 436387",
   "correzione_proposta": ""
  },
  {
   "foglio": "Italia",
   "denominazione": "Fustelgraf S.p.A.",
   "campo": "dimensione",
-  "problema": "Fatturato del foglio fortemente sottostimato e obsoleto: indica ~13,6 mln € (2022) e ~80 dipendenti, mentre il bilancio 2023 riporta 20.400.709 EUR con utile 1.970.039 EUR e 72 dipendenti (2025). Fascia di fatturato dichiarata dalle banche dati: 10-25 mln €. Forma giuridica S.p.A. CONFERMATA (P.IVA 01820810164).",
+  "problema": "Fatturato fortemente sottostimato e obsoleto: il foglio indica ~13,6 mln € (2022) e ~80 dipendenti, mentre il bilancio 2023 riporta 20.400.709 EUR con utile 1.970.039 EUR e 72 dipendenti (2025); le banche dati classificano l'azienda in fascia 10-25 mln €. Scarto di oltre 6,8 mln € sul valore riportato. Forma giuridica S.p.A. verificata e corretta (P.IVA 01820810164).",
   "gravita": "media",
-  "evidenza": "https://www.reportaziende.it/fustelgraf_spa_bg_01820810164 — 'l'ultimo bilancio depositato nel 2023 riporta un fatturato di 20.400.709 EUR ... utile 1.970.039 EUR ... 72 dipendenti (2025)'; https://www.ufficiocamerale.it/1490/fustelgraf-spa — 'FUSTELGRAF S.P.A., Partita IVA: 01820810164'",
+  "evidenza": "https://www.reportaziende.it/fustelgraf_spa_bg_01820810164 — 'ultimo bilancio depositato 2023: fatturato 20.400.709 EUR, utile 1.970.039 EUR, 72 dipendenti (2025)'; https://www.aziende.it/fustelgraf-s-p-a — 'Fascia Fatturato 10-25 milioni'",
   "correzione_proposta": "Fatturato ~20,4 mln € (bilancio 2023); 72 dipendenti (2025)"
  },
  {
   "foglio": "Italia",
   "denominazione": "Grafica Nappa S.r.l.",
   "campo": "dimensione",
-  "problema": "Dato obsoleto e trend in discesa: il foglio riporta ~5,9 mln € (2023), corretto per quell'anno (5.912.030 EUR), ma il 2024 scende a ~5,4 mln €, portando l'azienda al limite inferiore della forbice target 5-40 mln €. Da rivalutare la priorita del lead. Forma giuridica S.r.l. CONFERMATA (P.IVA 00100450618).",
+  "problema": "Dato obsoleto e trend in discesa: il foglio riporta ~5,9 mln € (2023), corretto per quell'anno (5.912.030 EUR; 2022: 6.380.950 EUR), ma il 2024 scende a ~5,4 mln €, portando l'azienda al limite inferiore della forbice target 5-40 mln €. Da rivalutare la priorita del lead. Forma giuridica S.R.L. verificata e corretta (P.IVA 00100450618).",
   "gravita": "media",
-  "evidenza": "https://www.fatturatoitalia.it/grafica_nappa_srl-00100450618 — 'Fatturato 2023: 5.912.030 EUR; Fatturato 2022: 6.380.950 EUR; Fatturato 2024: 5,4 mln'; 20-49 dipendenti",
+  "evidenza": "https://www.fatturatoitalia.it/grafica_nappa_srl-00100450618 — 'Fatturato 2023: 5.912.030 €; Fatturato 2022: 6.380.950 €; Fatturato 2024: 5,4 M'; 20-49 dipendenti",
   "correzione_proposta": "Fatturato ~5,4 mln € (2024); 20-49 dipendenti"
  },
  {
   "foglio": "Italia",
   "denominazione": "Grafica Nappa S.r.l.",
   "campo": "email",
-  "problema": "DA CONFERMARE: l'indirizzo commerciale@graficanappa.com non e stato ritrovato letteralmente in alcuna fonte pubblica; le fonti camerali e gli elenchi riportano solo i telefoni (081 8906430 / 081 8906734) e il sito www.graficanappa.it. Il dominio dell'email (.com) non coincide con quello del sito (.it). Non proporre cancellazione: va solo riscontrata.",
+  "problema": "DA CONFERMARE: l'indirizzo commerciale@graficanappa.com non e stato ritrovato letteralmente in nessuna fonte pubblica; gli elenchi camerali e le pagine bianche riportano solo i telefoni (081 8906430 / 081 8906734) e il sito www.graficanappa.it. Il dominio dell'email (.com) non coincide con quello del sito (.it). Non proporre cancellazione: va riscontrata.",
   "gravita": "media",
   "evidenza": "https://www.informazione-aziende.it/Azienda_GRAFICA-NAPPA-SRL — 'Tel. 0818906430, Tel. 0818906734, www.graficanappa.it' (nessuna email pubblicata)",
   "correzione_proposta": ""
@@ -128,44 +119,26 @@
  {
   "foglio": "Italia",
   "denominazione": "Grafiche Milani S.p.A.",
-  "campo": "sede",
-  "problema": "VERIFICA POSITIVA con precisazione: forma giuridica S.p.A. CONFERMATA (P.IVA 06753940151) e fatturato 2023 confermato (29.753.845 EUR, foglio ~29,8 mln €). Attenzione pero: le banche dati registrano la sede come 'Milano (MI)' mentre l'indirizzo operativo/legale e Via Guglielmo Marconi 17, 20054 Segrate (MI). La sede del foglio e corretta ma nelle ricerche camerali l'azienda compare sotto Milano.",
-  "gravita": "bassa",
-  "evidenza": "https://www.informazione-aziende.it/Azienda_GRAFICHE-MILANI-SPA — 'L'azienda Grafiche Milani Spa si trova in VIA GUGLIELMO MARCONI 17, 20054, Segrate, Milano'; https://www.reportaziende.it/grafiche_milani_spa_mi_06753940151 — 'fatturato 29.753.845 euro (bilancio 2023)'",
-  "correzione_proposta": ""
- },
- {
-  "foglio": "Italia",
-  "denominazione": "Grafiche Milani S.p.A.",
   "campo": "dimensione",
-  "problema": "Incoerenza interna del campo: 29,8 mln € di fatturato con soli '20-49 dipendenti' e un rapporto anomalo per una industria grafica. Il dato dipendenti va riverificato in visura; inoltre il fatturato e fermo al 2023 (ultimo bilancio reperito nei frammenti). DA CONFERMARE.",
+  "problema": "Incoerenza interna del campo: 29,8 mln € di fatturato (2023: 29.753.845 EUR, confermato) associati a soli '20-49 dipendenti' e un rapporto ricavi/addetti anomalo per un'industria grafica; la classe dipendenti va riverificata in visura. Il dato e inoltre fermo al 2023. DA CONFERMARE. Forma giuridica S.p.A. verificata e corretta (P.IVA 06753940151). Nota: le banche dati registrano la sede sotto 'Milano (MI)' mentre l'indirizzo e Via G. Marconi 17, 20054 Segrate (MI) — la sede del foglio e corretta.",
   "gravita": "media",
-  "evidenza": "https://www.aziende.it/grafiche-milani-s-p-a — 'Grafiche Milani S.p.a. - P. iva 06753940151'; ultimo bilancio nei frammenti: 2023, 29.753.845 EUR",
+  "evidenza": "https://www.reportaziende.it/grafiche_milani_spa_mi_06753940151 — 'bilancio 2023: fatturato 29.753.845 euro'; https://www.informazione-aziende.it/Azienda_GRAFICHE-MILANI-SPA — 'VIA GUGLIELMO MARCONI 17, 20054, Segrate, Milano'",
   "correzione_proposta": ""
  },
  {
   "foglio": "Italia",
   "denominazione": "Industria Cartaria Fenili S.p.A. (I.C.F.)",
   "campo": "email",
-  "problema": "Email mancante nel foglio ('n.d.') ma REPERIBILE pubblicamente: info@icfenili.it. Il lead risultava non contattabile via email senza motivo. Nota: il dominio dell'email (icfenili.it) e diverso da quello del sito (industriacartaria.it), entrambi riconducibili alla stessa societa.",
+  "problema": "Email mancante nel foglio ('n.d.') ma pubblicamente reperibile: info@icfenili.it. Il lead risultava non contattabile via email senza ragione. Da notare che il dominio dell'email (icfenili.it) e diverso da quello del sito (industriacartaria.it): entrambi riconducibili alla stessa societa (P.IVA 02104220468). Fatturato 2023 del foglio confermato (20.758.883 EUR, 20-49 dipendenti); forma giuridica S.p.A. verificata e corretta; azienda certificata PEFC, coerente con il perimetro EUDR.",
   "gravita": "media",
-  "evidenza": "https://atoka.io/public/it/azienda/industria-cartaria-fenili-spa-abbreviabile-in-icf-spa/b42eb03ab60f — 'Tel 0583.947736, Fax 0583.403053, Email: info@icfenili.it, Web: http://www.industriacartaria.it/'",
+  "evidenza": "https://atoka.io/public/it/azienda/industria-cartaria-fenili-spa-abbreviabile-in-icf-spa/b42eb03ab60f — 'Tel 0583.947736 - Fax 0583.403053 - Email: info@icfenili.it - Web: http://www.industriacartaria.it/'; https://aziende.pefc.it/aziende_online/scheda?ID=920",
   "correzione_proposta": "info@icfenili.it"
- },
- {
-  "foglio": "Italia",
-  "denominazione": "Industria Cartaria Fenili S.p.A. (I.C.F.)",
-  "campo": "dimensione",
-  "problema": "VERIFICA POSITIVA: fatturato 2023 confermato a 20.758.883 EUR (foglio ~20,8 mln € 2023), 20-49 dipendenti, utile operativo 366.028 EUR. Forma giuridica S.P.A. CONFERMATA (denominazione integrale 'INDUSTRIA CARTARIA FENILI S.P.A. ABBREVIABILE IN I.C.F. S.P.A.', P.IVA 02104220468). Azienda certificata PEFC: coerente con il perimetro EUDR (carta da cellulosa e riciclo).",
-  "gravita": "bassa",
-  "evidenza": "https://www.ufficiocamerale.it/2372/industria-cartaria-fenili-spa-abbreviabile-in-icf-spa — P.IVA 02104220468; https://aziende.pefc.it/aziende_online/scheda?ID=920 — certificazione PEFC",
-  "correzione_proposta": ""
  },
  {
   "foglio": "Italia",
   "denominazione": "Scatolificio Cartotecnica Schiassi S.r.l.",
   "campo": "ruolo",
-  "problema": "Il ruolo indicato ('Imprenditrice alla guida dell'azienda') non e una qualifica societaria. La carica reale di Silvia Magnoni e Presidente e Amministratore Unico. Il nome del referente e corretto, va corretta solo la qualifica.",
+  "problema": "Il ruolo indicato ('Imprenditrice alla guida dell'azienda') non e una qualifica societaria e non rispetta il formato richiesto per l'Italia. La carica reale di Silvia Magnoni e Presidente e Amministratore Unico. Il nome del referente e corretto: va corretta solo la qualifica.",
   "gravita": "media",
   "evidenza": "https://www.impresaitalia.info/ik02748011/scatolificio-cartotecnica-schiassi-srl/castenaso.aspx — 'sotto la guida della presidente e amministratore unico Silvia Magnoni'",
   "correzione_proposta": "Ruolo: Presidente e Amministratore Unico"
@@ -174,7 +147,7 @@
   "foglio": "Italia",
   "denominazione": "Scatolificio Cartotecnica Schiassi S.r.l.",
   "campo": "dimensione",
-  "problema": "Il dato ~11,8 mln € (2024) e CONFERMATO (11.807.087 EUR) ma va segnalato il forte calo rispetto al 2023 (14.756.673 EUR, -20%). Forma giuridica S.r.l. CONFERMATA (P.IVA 00803241207).",
+  "problema": "Il valore ~11,8 mln € (2024) e confermato (11.807.087 EUR) ma il campo non segnala il forte calo rispetto al 2023 (14.756.673 EUR, -20%): l'azienda si sta avvicinando alla meta bassa della forbice. Forma giuridica S.R.L. verificata e corretta (P.IVA 00803241207).",
   "gravita": "bassa",
   "evidenza": "https://www.aziende.it/scatolificio-cartotecnica-schiassi-s-r-l — 'nel 2024 fatturato 11.807.087 euro; 2023: 14.756.673 euro'; P.IVA 00803241207",
   "correzione_proposta": "Fatturato ~11,8 mln € (2024), in calo del 20% sul 2023 (14,8 mln €)"
@@ -183,9 +156,108 @@
   "foglio": "Italia",
   "denominazione": "Scatolificio Medicinese S.r.l.",
   "campo": "dimensione",
-  "problema": "VERIFICA POSITIVA: fatturato 2024 confermato a 12.769.820 EUR (foglio ~12,8 mln € 2024), 20-49 dipendenti; in calo rispetto al 2022 (15.486.746 EUR). Forma giuridica S.r.l. CONFERMATA (P.IVA 01685571208, REA BO-361748). Manca solo la classe dipendenti nel campo.",
+  "problema": "Valore confermato (12.769.820 EUR nel 2024) ma il campo non riporta la classe dipendenti ne il trend: il fatturato e in calo rispetto al 2022 (15.486.746 EUR). Forma giuridica S.R.L. verificata e corretta (P.IVA 01685571208, REA BO-361748).",
   "gravita": "bassa",
-  "evidenza": "https://www.reportaziende.it/scatolificio_medicinese_srl_bo_01685571208 — 'fatturato 2024: 12.769.820 EUR; 2022: 15.486.746 EUR; 20-49 dipendenti'",
-  "correzione_proposta": "Fatturato ~12,8 mln € (2024); 20-49 dipendenti"
+  "evidenza": "https://www.reportaziende.it/scatolificio_medicinese_srl_bo_01685571208 — 'fatturato 2024: 12.769.820 €; 2022: 15.486.746 €; 20-49 dipendenti'",
+  "correzione_proposta": "Fatturato ~12,8 mln € (2024); 20-49 dipendenti; in calo sul 2022 (15,5 mln €)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Scatolificio Pozzi S.r.l.",
+  "campo": "dimensione",
+  "problema": "Classe dipendenti errata: il foglio indica '50-249 dip.', le banche dati camerali riportano 50-99. Il fatturato ~17,1 mln € (2024) e confermato (17.054.519 EUR, utile 799.792 EUR) ma il campo non segnala il calo del 22,96% rispetto all'esercizio precedente. Forma giuridica S.R.L. verificata e corretta (P.IVA 02051930234).",
+  "gravita": "bassa",
+  "evidenza": "https://www.companyreports.it/scatolificio-pozzi-srl-02051930234 — 'ultimo bilancio depositato 2024: fatturato 17.054.519 euro, risultato netto 799.792 euro, -22,96% rispetto all'anno precedente; 50-99 dipendenti'",
+  "correzione_proposta": "Fatturato ~17,1 mln € (2024, -23% sul 2023); 50-99 dipendenti"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Angelo Morettino S.r.l. (Caffè Morettino)",
+  "campo": "dimensione",
+  "problema": "Numero di dipendenti sottostimato: il foglio indica ~31 dipendenti, mentre la stampa 2024 parla di 'una quarantina di dipendenti' e le banche dati classificano 20-49. Il fatturato 8,3 mln € (2024) e plausibile e coerente con il 2023 (7.354.356 EUR, +34,19% sul 2022). Forma giuridica S.R.L. verificata e corretta (P.IVA 03240610828).",
+  "gravita": "bassa",
+  "evidenza": "https://www.fortuneita.com/2024/09/14/chicchi-al-profumo-di-sicilia-la-storia-di-morettino-primo-caffe-italiano-a-km-zero/ — 'oggi l'azienda conta una quarantina di dipendenti'; https://www.reportaziende.it/angelo_morettino_srl_pa — 'fatturato 2023: 7.354.356 euro (+34,19%)'",
+  "correzione_proposta": "Fatturato 8,3 mln € (2024); ~40 dipendenti (fonte stampa 2024)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Angelo Morettino S.r.l. (Caffè Morettino)",
+  "campo": "referente",
+  "problema": "Referente assente. ATTENZIONE a non inserire il nome piu visibile: Andrea Morettino, quarta generazione e volto pubblico dell'azienda, e direttore vendite e marketing, NON il legale rappresentante. Il vertice societario e riconducibile ad Arturo Morettino (terza generazione, padre di Andrea), ma la carica formale non e confermata nei frammenti. DA CONFERMARE in visura prima dell'uso.",
+  "gravita": "media",
+  "evidenza": "https://palermomediterranea.it/persone/andrea-morettino/ — 'Andrea Morettino, responsabile vendite e marketing dell'azienda'; https://www.fortuneita.com/2024/09/14/chicchi-al-profumo-di-sicilia-la-storia-di-morettino-primo-caffe-italiano-a-km-zero/ — 'i nipoti di Arturo... Arturo e il padre di Andrea, quarta generazione'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Caffè Cagliari S.p.A.",
+  "campo": "email",
+  "problema": "Email assente ('n.d.') e NON reperibile: il sito ufficiale espone solo un form di contatto (caffecagliari.it/contattaci) e gli elenchi pubblici riportano solo telefoni (059 376811 / 059 376837 / 059 376876, WhatsApp 370 3271430) e fax. Il lead al momento non e contattabile via email. DA CONFERMARE: recuperare un indirizzo diretto o usare il canale telefonico/PEC.",
+  "gravita": "media",
+  "evidenza": "https://www.caffecagliari.it/contattaci (solo form); https://www.paginebianche.it/caffecagliarispatorrefazionecaffe-modena — 'tel 059 376811, 059 376837, 059 376876; fax 059 376836' (nessuna email)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Caffè Cagliari S.p.A.",
+  "campo": "dimensione",
+  "problema": "Fatturato confermato (17.777.820 EUR nel 2024, foglio 17,8 mln €) ma il campo omette un dato rilevante: l'esercizio 2024 si e chiuso in PERDITA per 48.395 EUR. Da segnalare come contesto commerciale. Denominazione ufficiale a Registro Imprese: 'CAFFE' CAGLIARI - S.P.A.' (con trattino); forma giuridica S.p.A. verificata e corretta (P.IVA 01344940364).",
+  "gravita": "bassa",
+  "evidenza": "https://www.companyreports.it/caffe-cagliari-spa-01344940364 — 'fatturato 2024: 17.777.820 €; risultato di esercizio 2024: perdita di 48.395 €'; https://www.ufficiocamerale.it/1050/caffe-cagliari-spa — 'CAFFE CAGLIARI - S.P.A., Partita IVA: 01344940364'",
+  "correzione_proposta": "Fatturato 17,8 mln € (2024, perdita d'esercizio 48.395 €); 20-49 dipendenti"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Caffè Moak S.p.A.",
+  "campo": "email",
+  "problema": "Email assente ('n.d.') e non ritrovata in fonte pubblica nei frammenti disponibili. Il record ha un referente valido (Alessandro Spadola, CEO — carica CONFERMATA) ma nessun canale email: va colmato prima del contatto. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://www.comunicaffe.it/alessandro-spadola-moak-prevediamo-di-accrescere-il-fatturato/ — 'Alessandro Spadola, primogenito della seconda generazione della famiglia Spadola, oggi CEO del gruppo'; nessun indirizzo email pubblicato nelle fonti consultate",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Caffè Moak S.p.A.",
+  "campo": "dimensione",
+  "problema": "Fatturato 2024 confermato (24.536.413 EUR) ma il campo omette il contesto: il 2023 era stato chiuso a ~25 mln € (+36,8% sul 2022), quindi il 2024 e in leggera flessione e non in crescita come annunciato dall'azienda. Da verificare anche la classe '20-49 dipendenti', bassa per 24,5 mln € di ricavi. Forma giuridica S.p.A. verificata e corretta (P.IVA 01529740886).",
+  "gravita": "bassa",
+  "evidenza": "https://www.fatturatoitalia.it/caffe_moak_spa-01529740886 — 'Il fatturato Caffe' Moak Spa nel 2024 raggiunge 24.536.413 €'; https://www.gdonews.it/2024/03/18/caffe-moak-chiude-il-2023-con-25-milioni-di-euro-di-fatturato-un-aumento-del-36-82-rispetto-allanno-precedente/",
+  "correzione_proposta": "Fatturato 24,5 mln € (2024); 25 mln € (2023, +36,8%)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Caffè River S.p.A.",
+  "campo": "dimensione",
+  "problema": "FUORI FORBICE TARGET: il bilancio 2024 riporta 4.041.633 EUR di ricavi con una PERDITA di 254.359 EUR (2023: 3,74 mln €). Il foglio indica genericamente 'fascia 3-6 mln €', che maschera il fatto che l'azienda e sotto la soglia minima di 5 mln € del cliente. Lead da declassare o escludere. Forma giuridica S.p.A. verificata e corretta (P.IVA 01162620510).",
+  "gravita": "media",
+  "evidenza": "https://www.companyreports.it/caffe-river-spa-01162620510 — 'per il 2024 il fatturato raggiunge 4.041.633 €, con una perdita netta di 254.359 €; 2023: 3,74 mln €'",
+  "correzione_proposta": "Fatturato 4,0 mln € (bilancio 2024, perdita 254.359 €) — sotto la forbice target 5-40 mln €"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Caffè River S.p.A.",
+  "campo": "email",
+  "problema": "Email assente ('n.d.') e non reperita nelle fonti consultate. Sommata al fatturato sotto soglia, rende il lead poco lavorabile allo stato attuale. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://www.informazione-aziende.it/Azienda_CAFFE-RIVER-SPA — scheda con P.IVA, telefono e indirizzo (Via P. Gobetti 64, Arezzo), nessuna email pubblicata",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Cesare Trucillo S.p.A. (Caffè Trucillo)",
+  "campo": "dimensione",
+  "problema": "Il valore '~10,5 mln € (2025)' NON trova riscontro: le fonti camerali confermano 6.162.175 EUR nel 2023 e per il 2024 indicano un +23% (quindi ~7,6 mln €), con fascia dichiarata 6-30 mln €. Nessuna fonte pubblica sostiene 10,5 mln € per il 2025. Il dato va rimosso o riportato a quello verificabile. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://www.reportaziende.it/cesare_trucillo_spa_sa_00181880659 — 'nel 2023 il fatturato di Cesare Trucillo Spa raggiunge 6.162.175 €'; 'l'ultimo bilancio 2024 riporta ricavi nella fascia tra 6.000.000 e 30.000.000 euro, +23% rispetto al 2023'",
+  "correzione_proposta": "Fatturato ~7,6 mln € (2024, stimato da +23% sul 2023); 6,2 mln € (2023, bilancio depositato)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Cesare Trucillo S.p.A. (Caffè Trucillo)",
+  "campo": "referente",
+  "problema": "Referente assente e ad alto rischio di errore: la denominazione sociale porta il nome 'Cesare Trucillo', ma Cesare Trucillo e la quarta generazione che segue brand e sviluppo, mentre l'Amministratore Delegato e il padre Matteo Trucillo. Chi compilasse il referente dal nome della societa sbaglierebbe persona. Forma giuridica S.p.A. verificata e corretta (P.IVA 00181880659).",
+  "gravita": "media",
+  "evidenza": "https://www.quotidiano.net/economia/made-in-italy/il-caffe-salernitano-ora-sbarca-b288be41 — 'Cesare Trucillo guida i processi di consolidamento ed espansione del brand nell'azienda di famiglia, mentre il padre Matteo e amministratore delegato'",
+  "correzione_proposta": "Referente: Matteo Trucillo — Ruolo: Amministratore Delegato (da riconfermare in visura)"
  }
 ]
