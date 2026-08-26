@@ -1,6 +1,6 @@
 # REPORT DI VERIFICA — MyEUDR Lead Mapping
 
-> Controllo qualità **record per record** del censimento lead (**737 aziende, 8 fogli**), alla ricerca di refusi, attribuzioni errate e ogni altro errore introdotto durante la raccolta. Non è una ricerca di nuove aziende.
+> Controllo qualità **record per record** del censimento lead (**736 aziende, 8 fogli**), alla ricerca di refusi, attribuzioni errate e ogni altro errore introdotto durante la raccolta. Non è una ricerca di nuove aziende.
 
 
 ## Come leggere questo report
@@ -9,7 +9,7 @@ La verifica si è svolta in due fasi, con budget e coperture diverse:
 
 | Fase | Metodo | Copertura |
 |---|---|---|
-| **A — controlli deterministici** | 26 controlli automatici offline su tutti i JSON di build e sul workbook | **100%** dei 737 record |
+| **A — controlli deterministici** | 26 controlli automatici offline su tutti i JSON di build e sul workbook | **100%** dei 736 record |
 | **B — riscontro sul web** | agenti di verifica, blocchi di 15-20 aziende, 2-3 ricerche per record, ogni rilievo con URL o citazione | vedi §1 |
 
 Documenti di dettaglio:
@@ -75,14 +75,14 @@ I rilievi si concentrano invece su qualità e coerenza redazionale:
 ---
 
 
-## 0-bis. Correzioni già applicate al workbook (60)
+## 0-bis. Correzioni già applicate al workbook (61)
 
 Applicate **solo le correzioni certe**, secondo il mandato: refusi formali, entità HTML, forme giuridiche, filiere fuori Allegato I, aziende cessate. Tutto il resto resta come rilievo aperto in questo report.
 
 Ogni correzione di campo è stata applicata con un **controllo di guardia**: lo script verifica che il valore attuale del campo coincida esattamente con quello atteso, altrimenti salta la correzione, così lo script è rieseguibile senza rischi. Dopo l'applicazione le righe sono **740** (due rimozioni motivate, vedi sotto) e l'ordine dei fogli è ripristinato (Italia, Germania, Finlandia, Danimarca, Svezia, Olanda, Belgio, Austria).
 
 
-### Record rimossi dal censimento (5)
+### Record rimossi dal censimento (6)
 
 Sono le uniche righe **tolte** dai fogli. Ciascuna rientra in una categoria che il mandato autorizza a correggere — filiere fuori Allegato I, aziende cessate — e in ogni caso il progetto aveva già applicato lo stesso criterio a un caso analogo, che viene citato nella motivazione.
 
@@ -101,7 +101,10 @@ SOCIETÀ ESTINTA: il CVR 17620487 risulta «opløst efter fusion» (sciolta a se
 **Covera Packaging NV** — foglio Belgio  
 FUORI PERIMETRO EUDR: il foglio la classifica «Carta/Packaging — imballaggi cartone ondulato», ma l'azienda si presenta sul proprio sito come «Groothandel glas- en kunststofverpakkingen», grossista di imballaggi in vetro e plastica rigida (bottiglie, vasi, secchi, taniche, fusti). Nata nel 1946 come Comptoir Verrier Anversois, passata alla plastica negli anni '60. Vetro e plastica non sono commodity dell'Allegato I: il record è nel censimento su un presupposto falso. Stesso criterio già applicato a Immobra (olio di lino), RICO Elastomere (silicone) e k-tec (plastica). Fonte: covera.be/en/about-us-2.
 
-Il totale del censimento passa quindi da **742 a 737 aziende** (Belgio 95→94, Olanda 100→99, Austria 93→92).
+**Bayer Kartonagen GmbH** — foglio Austria  
+NON PIÙ UN PRODUTTORE: a gennaio 2025 Schwarzach Packaging GmbH ha rilevato Bayer Kartonagen con un ASSET DEAL (macchine e portafoglio prodotti) nell'ambito di una Nachfolgeregelung; la produzione è stata trasferita da Lustenau a Schwarzach e Josef Bayer, terza generazione, si è ritirato. È esattamente il precedente di Getama Danmark, rimossa perché «non è più un produttore, quindi non è un operatore EUDR» dopo che il portafoglio era stato rilevato da terzi. Il referente indicato non è più contattabile in quel ruolo e la sede di Lustenau non è più il sito produttivo. Fonti: euwid-verpackung.de 10.01.2025; wirtschaftszeit.at.
+
+Il totale del censimento passa quindi da **742 a 736 aziende** (Belgio 95→94, Olanda 100→99, Austria 93→92).
 
 
 ### Tassonomia `Filiera` (23)
@@ -201,12 +204,12 @@ Tre categorie di rilievi formali sono state lasciate aperte nel report invece ch
 | Svezia | 89 | 2 | 0 | 3 | 36 | 40% |
 | Olanda | 99 | 3 | 0 | 3 | 51 | 52% |
 | Belgio | 93 | 4 | 0 | 1 | 76 | 82% |
-| Austria | 92 | 3 | 0 | 2 | 57 | 62% |
-| **TOTALE** | **737** | **20** | **0** | **22** | **363** | **49%** |
+| Austria | 91 | 3 | 0 | 2 | 57 | 63% |
+| **TOTALE** | **736** | **20** | **0** | **22** | **363** | **49%** |
 
 _Un blocco è contato **completo** solo se l'agente ha confermato di aver verificato tutti i record. I **blocchi parziali** sono quelli ancora in corso o interrotti dal limite di sessione: i rilievi già salvati sono validi e inclusi nel report, ma la copertura è conteggiata al ribasso (solo le aziende che compaiono fra i rilievi). Il salvataggio incrementale ogni 3-4 record è ciò che ha evitato di perdere quel lavoro._
 
-> La Fase A copre invece il **100%** dei 737 record: è un controllo offline e non dipende dal budget di ricerca.
+> La Fase A copre invece il **100%** dei 736 record: è un controllo offline e non dipende dal budget di ricerca.
 
 
 _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati aperti dalla raccolta, condotta separatamente e riportata per intero più sotto._

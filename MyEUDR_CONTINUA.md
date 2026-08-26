@@ -505,16 +505,32 @@ nel report**, non toccato nei fogli.
     trasferito da Odense ad Ans By nel 2025. La persona giuridica censita non esiste più. Stesso
     criterio di Getama Danmark, Magnus Olesen e Bent Krogh.
 
-**In totale 59 correzioni applicate**, di cui 4 rimozioni. Il censimento passa da **742 a 738
-aziende** (Danimarca 89→88, Olanda 100→99, Belgio 95→94, Austria 93→92); l'ordine dei fogli è
+  - **Covera Packaging NV** (Belgio) — **fuori perimetro**: censita come «imballaggi cartone
+    ondulato», si presenta sul proprio sito come grossista di imballaggi in **vetro e plastica
+    rigida**. Il record era nel censimento su un presupposto falso.
+  - **Bayer Kartonagen GmbH** (Austria) — **non più un produttore**: asset deal del gennaio 2025,
+    Schwarzach Packaging ha rilevato macchine e portafoglio, produzione trasferita a Schwarzach,
+    il titolare si è ritirato. Precedente identico: Getama Danmark.
+
+**In totale 62 correzioni applicate**, di cui 6 rimozioni. Il censimento passa da **742 a 736
+aziende** (Danimarca 89→88, Olanda 100→99, Belgio 95→93, Austria 93→91); l'ordine dei fogli è
 ripristinato.
 
 ⚠️ **Nota sul criterio di rimozione.** Ho tolto una riga **solo** quando ricadeva in una delle
 categorie che il mandato autorizza a correggere (filiere fuori Allegato I, aziende cessate) **e**
 il progetto aveva già applicato lo stesso criterio a un caso analogo, citato nella motivazione.
 Il **fuori taglia da solo non basta**: STOK Emballage (92 M€ reali contro una stima «>50 M€» nel
-foglio, e maggioranza al fondo USA A&M Capital) è rimasta nel foglio come rilievo `alta`, perché
-la taglia non è fra le categorie correggibili d'ufficio.
+foglio, e maggioranza al fondo USA A&M Capital) e Flatz (72 M€ e 320 addetti contro i ~17 M€ del
+foglio) restano nei fogli come rilievi `alta`, perché la taglia non è fra le categorie correggibili
+d'ufficio.
+
+Sono rimasti nei fogli, come rilievi aperti, anche i casi in cui l'argomento di perimetro è
+**inferenza e non evidenza**: **Varia-Pack** e **Hausberger** (il cartone *è* Allegato I; l'argomento
+è solo che commerciano invece di immettere per primi — è la distinzione operatore/commerciante),
+**TEGUM** (l'agente stesso scrive «da verificare»), **Kargro Banden** (ricostruzione di pneumatici:
+i ricostruttori applicano mescola nuova al battistrada) e **Galler** (in riorganizzazione
+giudiziaria, ma l'attività prosegue in una nuova società e nessuna fonte accerta l'estinzione della
+vecchia).
 
 **Tre cose NON sono state corrette, di proposito** (il dettaglio è in `REPORT_VERIFICA.md` §0-bis):
 1. **Il maiuscolo integrale del foglio Danimarca** (51 record su 89, stile del registro CVR).
