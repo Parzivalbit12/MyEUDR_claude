@@ -129,7 +129,12 @@ h.append("\n> ⚠️ **Limite della normalizzazione ortografica del foglio Itali
          "03278760263 — e la normalizzazione l'aveva resa `Arko S.p.A.`, cioè aveva reso più "
          "autorevole una forma sbagliata. Il record è stato corretto dopo la verifica di merito. "
          "Lo stesso può valere per i record dei blocchi Italia **non ancora verificati**: solo il "
-         "controllo record per record distingue un refuso di scrittura da una forma giuridica errata.\n")
+         "controllo record per record distingue un refuso di scrittura da una forma giuridica errata.\n>\n"
+         "> **Quanto è esteso il problema, per ora.** Tre blocchi Italia verificati (57 record, "
+         "tutte le P.IVA confrontate al Registro): **2 forme giuridiche sbagliate**, Fonpelli e "
+         "Arko, entrambe nei primi due blocchi. Il terzo blocco ne ha trovate **zero su 19**. "
+         "Sembrano quindi casi isolati e non un difetto sistematico del foglio — ma i due blocchi "
+         "Italia rimanenti non sono ancora stati controllati.\n")
 
 h.append("\n### Correzioni deliberatamente NON applicate\n")
 h.append("Tre categorie di rilievi formali sono state lasciate aperte nel report invece che "
