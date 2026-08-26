@@ -71,5 +71,13 @@
  "italia_02": {
   "stato": "completo",
   "verificati": 19
+ },
+ "belgio_03": {
+  "stato": "completo",
+  "verificati": 19
+ },
+ "austria_03": {
+  "stato": "completo",
+  "verificati": 19
  }
 }

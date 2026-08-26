@@ -12,7 +12,7 @@
   "foglio": "Belgio",
   "denominazione": "Covera Packaging NV",
   "campo": "dimensione",
-  "problema": "Il fatturato non e' pubblicato (schema abbreviato): la fascia 10-25 M€ e' solo il bracket dichiarativo di trendstop, non un dato di bilancio. Il dato realmente depositato e' il margine lordo di € 1.939.893 con 9,3 FTE (bilancio depositato 06-06-2025), che suggerisce una taglia ben distante dal target.",
+  "problema": "Il fatturato non e' pubblicato (schema abbreviato): la fascia 10-25 M€ e' solo il bracket dichiarativo delle banche dati, non un dato di bilancio. Il dato realmente depositato e' il margine lordo di € 1.939.893 con 9,3 FTE (bilancio depositato 06-06-2025).",
   "gravita": "media",
   "evidenza": "https://fincheck.be/nl/covera-packaging/0462.810.754/Antwerpen/overzicht — 'gross margin of €1,939,893.25', '9.3 FTEs', 'most recent financial statements were filed on 06-06-2025'",
   "correzione_proposta": ""
@@ -30,7 +30,7 @@
   "foglio": "Belgio",
   "denominazione": "Desmedt Labels BV",
   "campo": "dimensione",
-  "problema": "Fatturato indicato (6,5 M€ con 32 dipendenti, fonte made-in.be/Voka) e organico 'ca. 21 persone' contraddetti dalle banche dati: bracket dichiarato 10.000.000-25.000.000 € con 20-49 addetti e 40,5 FTE nell'ultimo bilancio depositato. Il dato del foglio e' obsoleto e sottostima l'azienda.",
+  "problema": "Fatturato indicato (6,5 M€ con 32 dipendenti, fonte made-in.be/Voka) e organico 'ca. 21 persone' contraddetti dalle banche dati NBB: bracket dichiarato 10.000.000-25.000.000 € con 20-49 addetti e 40,5 FTE nell'ultimo bilancio depositato. Il dato del foglio e' obsoleto e sottostima l'azienda.",
   "gravita": "media",
   "evidenza": "https://www.companyweb.be/en/0405891946/desmedt — 'turnover is between €10,000,000 - €25,000,000, with 20-49 staff members'; '40.5 FTEs according to the most recent financial statements'",
   "correzione_proposta": ""
@@ -39,9 +39,261 @@
   "foglio": "Belgio",
   "denominazione": "Desmedt Labels BV",
   "campo": "sede",
-  "problema": "Indirizzo non riportato nel record; per completezza la sede operativa pubblicata e' Cesar Van Kerckhovenstraat 110, 2880 Bornem (n. impresa BE 0405.891.946, non citato nel campo dimensione a differenza degli altri record del blocco).",
+  "problema": "Il record non riporta ne' indirizzo ne' numero d'impresa, a differenza degli altri record del blocco. Sede pubblicata: Cesar Van Kerckhovenstraat 110, 2880 Bornem; n. impresa BE 0405.891.946.",
   "gravita": "bassa",
   "evidenza": "https://www.bsearch.be/companyinfo/2/9080776953493421/G10/SE/desmedt-labels-bornem-en.html — 'Bornem, 2880, Cesar Van Kerckhovenstraat 110'; https://www.companyweb.be/en/0405891946/desmedt",
-  "correzione_proposta": "Bornem, Provincia di Anversa (Fiandre) — BE 0405.891.946"
+  "correzione_proposta": "Bornem (C. Van Kerckhovenstraat 110), Provincia di Anversa (Fiandre) — BE 0405.891.946"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Emballages Gruselle SRL",
+  "campo": "dimensione",
+  "problema": "Confermato FUORI FORBICE per difetto, e con ampio margine: margine lordo € 142.075 e 113ª posizione nel settore carta/cartone. Non e' un'azienda 'di confine' a 5 M€ ma una micro-impresa artigianale (produzione su misura da 1 a 20.000 pezzi). Nessuna prospettiva di rientrare nel target 5-40 M€.",
+  "gravita": "alta",
+  "evidenza": "https://trendstop.levif.be/fr/detail/448350331/gruselle-emballages.aspx — 'ranks 113th in the Paper and cardboard manufacturing and trading sector with a gross margin of 142,075 euros'",
+  "correzione_proposta": "Rimuovere il record (micro-impresa fuori forbice)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Emballages Gruselle SRL",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti: l'azienda non e' contattabile nominativamente. Le fonti pubbliche accessibili (pappers.be, companyweb, trendstop) riportano la scheda dirigenti ma il nome non emerge nei frammenti. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://www.pappers.be/fr/company/emballages-gruselle-0448350331 — scheda 'Chiffre d'affaires & dirigeants' presente ma nominativo non esposto nei risultati",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Etilux SA",
+  "campo": "referente",
+  "problema": "REFERENTE NON PIU' IN CARICA. Quentin Gemoets, entrato a fine 2018 per accompagnare la transizione generazionale, ha lasciato l'incarico a FINE 2023. Olivier Bronne, azionista e CEO, ha assunto da solo la direzione dell'azienda e l'azionista ha deciso di NON sostituire Gemoets, appoggiandosi al CdA e a un Comitato di direzione rafforzato. La fonte citata nel record (ccimag 05-01-2024) e' proprio l'articolo che documenta l'uscita.",
+  "gravita": "alta",
+  "evidenza": "https://ccimag.be/2024/01/05/la-transition-generationnelle-se-finalise-chez-etilux/ — 'Quentin Gemoets... a quitté ses fonctions fin 2023'; 'Olivier Bronne, actuel propriétaire et co-CEO, a décidé de reprendre seul la direction'",
+  "correzione_proposta": "Olivier Bronne — Administrateur délégué / CEO"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Etilux SA",
+  "campo": "linkedin",
+  "problema": "Campo vuoto benche' la pagina aziendale LinkedIn esista.",
+  "gravita": "bassa",
+  "evidenza": "https://be.linkedin.com/company/etilux",
+  "correzione_proposta": "https://be.linkedin.com/company/etilux"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Imprimerie Bietlot SA",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti. Le fonti pubbliche associano alla societa' i nominativi Eric Guillaume, Philippe Thomas e Bernard Guilmin, ma senza qualifica chiara di administrateur delegue: DA CONFERMARE prima del contatto.",
+  "gravita": "media",
+  "evidenza": "https://fr.kompass.com/c/imprimerie-bietlot-sa/be0031404/ — 'Mr. Eric Guillaume, Mr. Philippe Thomas, Mr. Bernard Guilmin' senza titoli espliciti",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Imprimerie Bietlot SA",
+  "campo": "dimensione",
+  "problema": "Il legame con l'invest pubblico vallone Sambrinvest e' definito 'partecipata storica' ma non e' quantificato: Bietlot compare nella 'galaxie' delle partecipate Sambrinvest. Se la quota fosse di controllo, la decisione di compliance non sarebbe autonoma. DA CONFERMARE l'entita' della partecipazione.",
+  "gravita": "media",
+  "evidenza": "https://www.sambrinvest.be/fr/galaxie/Bietlot/ — Imprimerie Bietlot inserita nel portafoglio partecipate Sambrinvest",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Kartonnage Lefevere-Beel NV",
+  "campo": "dimensione",
+  "problema": "Fatturato obsoleto: il record indica € 26.865.930, mentre l'ultimo bilancio depositato riporta € 36.368.478 (49ª nel settore imballaggi), sempre con 69,2 FTE. Il dato aggiornato porta l'azienda a ridosso del tetto tollerabile di 40 M€ e ben oltre il target ideale 10-20 M€.",
+  "gravita": "media",
+  "evidenza": "https://www.pappers.be/nl/company/kartonnage-lefevere-beel-0413759339 — 'turnover of 36.368.478 euros and ranks 49th in the packaging sector'; '69.2 FTEs'",
+  "correzione_proposta": "Fatturato € 36.368.478 - 69,2 FTE (ultimo bilancio depositato NBB)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Kartonnage Lefevere-Beel NV",
+  "campo": "ruolo",
+  "problema": "Ruolo impreciso: Didier Lefevere non figura come bestuurder in proprio ma come RAPPRESENTANTE PERMANENTE (vaste vertegenwoordiger) dal 01-07-2021 della persona giuridica amministratrice; bestuurder nominata il 22-12-2023 e' Marieke Lannoo, accanto alla societa' BellRock. 'CEO' non e' una qualifica statutaria belga.",
+  "gravita": "bassa",
+  "evidenza": "https://fincheck.be/nl/kartonnage-lefevere---beel/0413.759.339/Wielsbeke/bestuurders — 'Marieke Lannoo (appointed as director on 22/12/2023), Didier Lefevere (permanent representative since 01/07/2021), and BellRock'",
+  "correzione_proposta": "Vaste vertegenwoordiger / Bestuurder"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Kartonnage Lefevere-Beel NV",
+  "campo": "dimensione",
+  "problema": "Possibile struttura di gruppo NON dichiarata: fra gli amministratori figura la societa' BellRock e a Wielsbeke esiste una seconda entita' collegata, Lefevere Packaging (BE 0722.616.247), con scheda azionisti/amministratori incrociata. Da chiarire chi sia la capofila prima di trattare la societa' come indipendente. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://fincheck.be/en/lefevere-packaging/0722.616.247/Wielsbeke/connections — 'Lefevere Packaging - 0722.616.247 - Wielsbeke - Shareholder and administrator report'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Snel Grafics SA",
+  "campo": "linkedin",
+  "problema": "Il campo contiene il profilo PERSONALE del referente (in/roland-soubras-63aa1560) e non la pagina aziendale, come richiesto dal tracciato.",
+  "gravita": "bassa",
+  "evidenza": "https://be.linkedin.com/in/roland-soubras-63aa1560 — 'Roland SOUBRAS - Administrateur délégué SNEL Grafics'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Label-Pak-Int'l Co SA",
+  "campo": "dimensione",
+  "problema": "Segnale di rischio non colto: l'ULTIMO bilancio depositato risale al 01-07-2023. Ad agosto 2026 non risultano depositi successivi presso la NBB, il che e' anomalo per una SA attiva: verificare che la societa' non sia in liquidazione o inattiva prima di qualificarla. Margine lordo € 1.920.400 con 27,2 FTE, coerente con un fatturato attorno ai 5-6 M€, cioe' al limite inferiore della forbice.",
+  "gravita": "media",
+  "evidenza": "https://fincheck.be/en/label-pak-int'l-co/0402.690.550/Wavre/overview — '27.2 FTEs... most recent financial statements, which were filed on 01-07-2023'; 'gross margin of €1,920,400.00'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Label-Pak-Int'l Co SA",
+  "campo": "sito",
+  "problema": "Record privo di ogni canale di contatto digitale: sito 'n.d.', email 'n.d.', LinkedIn vuoto, referente vuoto. Le ricerche non fanno emergere alcun sito web proprietario: l'azienda e' presente solo su directory terze (europages, pagesdor, Facebook, YouTube). Nel suo stato attuale il lead non e' azionabile.",
+  "gravita": "alta",
+  "evidenza": "Ricerca '\"Label-Pak\" Wavre étiquettes autocollantes site web contact' — nessun dominio proprietario nei risultati; presenza solo su https://m.europages.fr/LABELPAKT-INTL/BEL004241-00101.html, https://www.pagesdor.be/entreprise/Wavre/L11095522/LABEL-PAK-INT'L+CO/ e https://www.facebook.com/p/Label-Pak-intl-co-sa-100093528312122/",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Van de Velde Packaging NV",
+  "campo": "ruolo",
+  "problema": "Ruolo sottodimensionato e in contraddizione con il campo dimensione: il testo afferma che 'il gedelegeerd bestuurder iscritto in KBO e' la persona giuridica P. Van de Velde NV', mentre le banche dati indicano Carl Mourisse come GEDELEGEERD BESTUURDER in proprio dal 28-02-2014 (P. Van de Velde figura come bestuurder accanto a lui).",
+  "gravita": "bassa",
+  "evidenza": "https://fincheck.be/nl/van-de-velde-packaging/0444.255.050/Lichtervelde/bestuurders — 'Carl Mourisse has been in the role of Gedelegeerd bestuurder since 28/02/2014'; 'directors... along with P. Van de Velde'",
+  "correzione_proposta": "Gedelegeerd bestuurder"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Van de Velde Packaging NV",
+  "campo": "dimensione",
+  "problema": "CONTROLLATA DI GRUPPO (legame gia' dichiarato nel campo): e' una societa' operativa del gruppo P. Van de Velde / Van de Velde Packaging (HQ Wetteren, ~309 M€ di fatturato consolidato, Kartesia entrata nel capitale nel 2025). La decisione di compliance EUDR si prende a livello di capogruppo: il fatturato locale di 15 M€ non rende il sito di Lichtervelde un decisore autonomo.",
+  "gravita": "media",
+  "evidenza": "https://www.vandeveldepackaging.com/en/van-de-velde-packaging-lichtervelde — sito di gruppo che elenca Lichtervelde come una delle sedi; https://fincheck.be/nl/van-de-velde-packaging/0444.255.050/Lichtervelde/bestuurders — 'P. Van de Velde' bestuurder",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Varia-Pack NV",
+  "campo": "filiera",
+  "problema": "ERRORE DI PERIMETRO (stesso schema gia' intercettato con Hausberger in Germania): Variapack e' un GROSSISTA di materiale d'imballaggio per retail, logistica, horeca e foodservice — film estensibile, scatole di cartone, bicchieri di plastica, monouso — non un trasformatore. Rivende cartone gia' immesso sul mercato UE da terzi: non e' 'operatore' che immette per primo la commodity.",
+  "gravita": "alta",
+  "evidenza": "https://variapack.be/nl/over-ons — 'toonaangevende specialist in verpakkingsmaterialen'; 'uitgegroeid tot een gevestigde groothandel'; assortimento 'wrapping film, cardboard boxes, plastic cups, and various disposables'",
+  "correzione_proposta": "Rimuovere il record (distributore a valle, non immettitore)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Varia-Pack NV",
+  "campo": "dimensione",
+  "problema": "CONTROLLATA DI GRUPPO (legame gia' dichiarato nel campo): parte del gruppo britannico Bunzl plc DAL 2007 (il record non data l'acquisizione). Bunzl fattura ~11 miliardi € nel mondo: la compliance EUDR e' materia di capogruppo, il lead locale non e' un decisore.",
+  "gravita": "media",
+  "evidenza": "https://variapack.be/nl/over-ons — 'Sinds 2007 maakt Variapack deel uit van de internationale Bunzl Group'; 'de Britse multinational... wereldwijd zo'n elf miljard euro omzet'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Varia-Pack NV",
+  "campo": "linkedin",
+  "problema": "Campo vuoto benche' la pagina aziendale LinkedIn esista.",
+  "gravita": "bassa",
+  "evidenza": "https://be.linkedin.com/company/varia-pack-nv — 'Variapack nv | LinkedIn'",
+  "correzione_proposta": "https://be.linkedin.com/company/varia-pack-nv"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Cafés Delahaut SRL",
+  "campo": "ruolo",
+  "problema": "Ruolo generico e non statutario ('Dirigente (4ª generazione)'). La qualifica formale iscritta in KBO/BCE per Francois Delahaut e' Administrateur et Gerant, in carica dal 15-05-2013.",
+  "gravita": "bassa",
+  "evidenza": "https://www.pappers.be/fr/company/cafes-delahaut-0418920135 — 'Francois Delahaut est Administrateur et Gerant en poste depuis le 15/05/2013'",
+  "correzione_proposta": "Administrateur / Gérant"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Cafés Delahaut SRL",
+  "campo": "dimensione",
+  "problema": "Taglia con ogni probabilita' SOTTO la soglia minima di 5 M€, non 'intorno ai 5 M€': margine lordo € 1.648.475 con 22,3 FTE e volumi dichiarati passati in cinque anni da 40 a 100 tonnellate di caffe' torrefatto a Namur. Il riferimento ai 5 M€ proviene da un'intervista del 2022, non da un bilancio. DA CONFERMARE sul deposito integrale NBB.",
+  "gravita": "media",
+  "evidenza": "https://www.rtbf.be/article/namur-les-cafes-delahaut-voient-grand-ils-investissent-45-millions-d-euros-10282493 — 'En cinq ans, a Namur, on est passe de 40 tonnes a 100 tonnes de cafe torrefie'; margine lordo e FTE da https://trendstop.levif.be/fr/detail/418920135/cafes-delahaut.aspx",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Koffie St.-Michel NV",
+  "campo": "dimensione",
+  "problema": "FUORI FORBICE per difetto, confermato: non e' un dubbio ma un dato. Una pubblicazione settoriale documenta che Hendrik Hanssens (°1958) guida una nv che nel 2017, CON 3 DIPENDENTI, ha realizzato un margine lordo di € 575.000; l'ultimo bilancio depositato porta il margine a € 686.005 e non pubblica il fatturato. Si tratta di una micro-torrefazione, incompatibile con la forbice 5-40 M€. La descrizione 'la piu' grande torrefazione di Anversa, ~60% del mercato locale' e' claim di marketing e contraddice i numeri.",
+  "gravita": "alta",
+  "evidenza": "https://www.kenniswest.be/file/article/74859/74858/26_HANSSENS_West-Vlaanderen_Werkt_2018-04_181495_LowRes.pdf — 'Hendrik Hanssens (°1958) leidt een nv die in 2017 met 3 werknemers een brutomarge van 575.000 euro realiseerde'",
+  "correzione_proposta": "Rimuovere il record (micro-impresa fuori forbice)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Koffie St.-Michel NV",
+  "campo": "ruolo",
+  "problema": "'Bedrijfsleider' non e' una qualifica statutaria belga per una NV: il mandato formale e' gedelegeerd bestuurder (o bestuurder). Refuso di forma.",
+  "gravita": "bassa",
+  "evidenza": "https://www.companyweb.be/en/0406919552/koffie-st-michel — forma giuridica NV/SA; https://stmichel.be/en/about-us/ presenta Hendrik Hanssens come 'current manager... fifth generation'",
+  "correzione_proposta": "Gedelegeerd bestuurder"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Rucquoy Frères NV",
+  "campo": "referente",
+  "problema": "Referente NON riscontrato: 'Steven De Punt' non compare in nessuna fonte pubblica collegata a Rucquoy Freres (ne' sito, ne' LinkedIn aziendale, ne' stampa). L'unico nominativo pubblicato con ruolo commerciale e' Stephanie Jocquet. DA CONFERMARE in KBO/BCE prima del contatto.",
+  "gravita": "media",
+  "evidenza": "Ricerca '\"Steven De Punt\" Rucquoy coffee Antwerp' — nessun risultato pertinente; https://be.linkedin.com/in/stephaniejocquet 'Rucquoy Freres - Green Coffee Trader'; https://rucquoy.com/the-company/ non nomina il vertice",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Sas NV (Sas Coffee)",
+  "campo": "dimensione",
+  "problema": "CONTROLLATA DI FONDO (legame gia' dichiarato nel campo): dal 24-05-2024 Sas Koffie e' di proprieta' dell'investitore olandese Nimbus Investments, che l'ha rilevata da Miko Group. Non e' un'azienda familiare indipendente e la decisione EUDR non e' presa a Beerse. Confermata anche la ragione della cessione (calo del retail post-2022).",
+  "gravita": "media",
+  "evidenza": "https://www.foodholland.nl/nieuws/256615/ — 'Investeringsmaatschappij Nimbus Investments neemt de Belgische koffiebrander SAS Koffie uit Beerse over van de Belgische Miko Group'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Sas NV (Sas Coffee)",
+  "campo": "referente",
+  "problema": "Referente superato: Herman Sas appartiene alla gestione familiare pre-cessione (Miko 2021, poi Nimbus 2024). Nessun nuovo gedelegeerd bestuurder risulta pubblicato dopo il passaggio a Nimbus; contattare Herman Sas come vertice attuale e' un rischio concreto.",
+  "gravita": "media",
+  "evidenza": "https://www.foodpro-network.nl/nieuws/16839/miko-group-verkoopt-sas-koffie-aan-nimbus-investments — cessione maggio 2024; nessuna fonte pubblica indica Herman Sas come amministratore in carica dopo il 2024",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Silco NV",
+  "campo": "dimensione",
+  "problema": "Possibile appartenenza al gruppo EFICO non dichiarata come tale (nel record e' registrata solo la coincidenza di indirizzo). L'amministratore Philip Van Gestel risulta presidente dell'operatore di caffe' verde di Italielei ad Anversa che movimenta ~72.000 tonnellate di caffe' verde l'anno — volumi da gruppo, non da societa' con 1 FTE. Se Silco e' un veicolo del gruppo Efico (289 M€, gia' escluso per soglia), il lead non e' indipendente. DA CONFERMARE.",
+  "gravita": "alta",
+  "evidenza": "https://made-in.be/antwerpen/antwerpen-is-de-koffiehaven-bij-uitstek-bedrijf-dat-koffiebonen-voor-grootste-spelers-selecteert-bestaat-100-jaar/ — 'Philip Van Gestel... als voorzitter... 72.000 ton groene koffiebonen per jaar'; https://www.northdata.com/Silco%20N.V.,%20Antwerpen/KBO%200715.792.692 — 'managers and directors Katrien Delaet and Philip Van Gestel', capitale € 175.000, costituita 13-12-2018",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Silco NV",
+  "campo": "email",
+  "problema": "Lead non azionabile: email 'n.d.', sito vuoto, LinkedIn vuoto, e la societa' dichiara 1 FTE. Nessun canale di contatto verificabile in fonte pubblica.",
+  "gravita": "alta",
+  "evidenza": "https://www.northdata.com/Silco%20N.V.,%20Antwerpen/KBO%200715.792.692 — scheda societaria priva di sito e recapiti; nessun dominio proprietario emerso in ricerca",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "coffeeRoots NV",
+  "campo": "linkedin",
+  "problema": "Prefisso regionale LinkedIn errato: la pagina e' indicizzata con 'fr.' (Francia) per un'azienda belga. Refuso formale, la pagina risolve comunque.",
+  "gravita": "bassa",
+  "evidenza": "https://fr.linkedin.com/company/coffeeroots — record; il prefisso coerente per il Belgio e' be.linkedin.com",
+  "correzione_proposta": "https://be.linkedin.com/company/coffeeroots"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "coffeeRoots NV",
+  "campo": "ruolo",
+  "problema": "Ruolo impreciso su due punti: (a) 'Bedrijfsleider' non e' qualifica statutaria per una NV (il mandato formale e' gedelegeerd bestuurder); (b) il record descrive Camille Willems come 'co-guida', mentre le fonti lo indicano come VOORZITTER (presidente) accanto a Chantal Hoorens CEO. Confermato inoltre che Chantal Hoorens e' imprenditrice di SECONDA generazione, non discendente diretta delle radici 1907 citate nel campo dimensione.",
+  "gravita": "bassa",
+  "evidenza": "https://www.sterck-magazine.be/oost-vlaanderen/editie-18/van-koffiemoleken-tot-wereldspeler-4000/ — 'tweede generatie ondernemer Chantal Hoorens en voorzitter Camille Willems'",
+  "correzione_proposta": "Gedelegeerd bestuurder (CEO)"
  }
 ]

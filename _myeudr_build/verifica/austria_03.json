@@ -43,5 +43,221 @@
   "gravita": "media",
   "evidenza": "trend.at/unternehmen/rechtzeitig-vor-ostern-hauswirth-mit-neuem-eigentuemer; registro: 'Landgarten GmbH 100%'",
   "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "KUK-Austria GmbH",
+  "campo": "ruolo",
+  "problema": "Il campo riporta il ruolo minore 'Gewerberechtliche Geschäftsführerin' (responsabile ai fini della licenza commerciale). Le fonti aziendali/istituzionali indicano Mag. Claudia Neuhold come CEO/Geschäftsführerin a pieno titolo: il ruolo va allineato.",
+  "gravita": "bassa",
+  "evidenza": "firmen.wko.at/kuk-austria-gmbh/oberösterreich (gewerberechtliche GF: Mag. Claudia Luzia Neuhold); advantageaustria.org/al/company/en/kuk-austria-gmbh e Bloomberg profile 5563089Z:AV ('Claudia Neuhold ... CEO')",
+  "correzione_proposta": "Geschäftsführerin (CEO)"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "KUK-Austria GmbH",
+  "campo": "dimensione",
+  "problema": "Nessun dato dimensionale pubblicato (né fatturato né organico): impossibile stabilire se l'azienda rientra nella forbice 5-40 M€. DA CONFERMARE prima del contatto. Il perimetro EUDR (olio di palma via RSPO Supply Chain Associate) è invece plausibile, ma KUK opera come distributore/agente di materie prime, non come primo immettente: verificare se è operatore o solo trader a valle.",
+  "gravita": "media",
+  "evidenza": "firmeneintrag.creditreform.de/4910/9070166411/KUK_AUSTRIA_GMBH e northdata.com/KUK-Austria GmbH, Ried im Innkreis/278142h: nessun Umsatz/Mitarbeiter pubblicato; kuk.com: 'Großhandel mit Rohstoffen für die Lebensmittelindustrie'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Soy Austria Produktions GmbH",
+  "campo": "dimensione",
+  "problema": "Nessun dato dimensionale pubblicato (fatturato e organico assenti in tutte le fonti aperte): non è verificabile l'appartenenza alla forbice 5-40 M€. DA CONFERMARE. Nelle fonti l'unico Geschäftsführer citato esplicitamente è Ing. Josef Bamberger (gewerberechtliche Geschäftsführung); Georg Bamberger come referente principale non è riconfermato dai frammenti disponibili.",
+  "gravita": "media",
+  "evidenza": "firmen.wko.at/soy-austria-produktions-gmbh/niederösterreich: 'Gewerberechtliche Geschäftsführung: Ing. Josef Bamberger'; herold.at/gelbe-seiten/prinzersdorf/p4s1K/soy-austria-produktions-gmbh (nessun dato di fatturato)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "TEGUM Technische Gummiwaren Gesellschaft m.b.H. & Co.",
+  "campo": "dimensione",
+  "problema": "Il campo non contiene alcun dato dimensionale (né fatturato né dipendenti né anno): non è verificabile che l'azienda rientri nella forbice 5-40 M€. Si tratta di una micro/piccola realtà familiare di Hallein, verosimilmente sotto la soglia minima di 5 M€. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "firmenabc.at/tegum-technische-gummiwaren-gesellschaft-m-b-h-co_lgH e at.kompass.com/c/tegum-technische-gummiwaren-gesmbh-co/at038351/: nessun Umsatz/Beschäftigte pubblicato",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "TEGUM Technische Gummiwaren Gesellschaft m.b.H. & Co.",
+  "campo": "filiera",
+  "problema": "Perimetro EUDR da verificare: l'oggetto è 'Erzeugung und Groß-/Einzelhandel mit technischen Gummiwaren (Fördergurte, Verschleißschutzgummi) sowie Polyurethanverarbeitung'; il sito si presenta come 'Gummi & Kunststoffwerk' e commercializza anche nastri in plastica. Gli articoli tecnici sono tipicamente in elastomeri sintetici (come Helvoet/RICO già scartate) e una quota rilevante è rivendita di prodotti già immessi sul mercato UE. La presenza di gomma naturale (Allegato I) non è dimostrata.",
+  "gravita": "alta",
+  "evidenza": "at.kompass.com/c/tegum-technische-gummiwaren-gesmbh-co/at038351/: 'Erzeugung und Groß- und Einzelhandel mit technischen Gummiwaren wie Transportbändern und Verschleißschutzgummi sowie Polyurethanverarbeitung'; tegum.at/en/rubber-synthetics/products.html; go-finder.info: 'Förderbänder aus Kunststoff, modulare'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Bayer Kartonagen GmbH",
+  "campo": "denominazione",
+  "problema": "AZIENDA NON PIÙ LEAD AUTONOMO. A gennaio 2025 Schwarzach Packaging GmbH (Schwarzach, Vorarlberg) ha rilevato Bayer Kartonagen tramite ASSET DEAL (macchine e portafoglio prodotti) nell'ambito di una Nachfolgeregelung; la produzione è stata trasferita da Lustenau a Schwarzach nei mesi successivi. Josef Bayer, terza generazione, si è ritirato: il referente indicato non è più contattabile in quel ruolo e la sede di Lustenau non è più operativa. Il lead va sostituito con Schwarzach Packaging (GF Johannes Knapp e Ralph Joser) o eliminato.",
+  "gravita": "alta",
+  "evidenza": "euwid-verpackung.de/news/unternehmen/schwarzach-packaging-uebernimmt-bayer-kartonagen-100125/ e wirtschaftszeit.at: 'Im Zuge eines Asset Deals kauft Schwarzach Packaging die Maschinen und das Leistungsportfolio ... Die Produktion werde in den kommenden Monaten von Lustenau ins nahegelegene Schwarzach verlagert ... Josef Bayer führt das Unternehmen in dritter Generation und gibt es nun in den Ruhestand ab.'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Bayer Kartonagen GmbH",
+  "campo": "dimensione",
+  "problema": "Dati incoerenti e superati: 12 Mio. €/80 dipendenti è un'intervista del 2019, la stima 27,3 Mio. € di die-deutsche-wirtschaft.de non è un dato di bilancio. Alla cessione (gennaio 2025) la stampa parlava di ca. 90 dipendenti a Lustenau, oggi assorbiti nel perimetro Schwarzach Packaging.",
+  "gravita": "media",
+  "evidenza": "euwid-verpackung.de (01/2025): 'Bayer Kartonagen produziert mit rund 90 Mitarbeitenden in Lustenau Faltschachteln aus Karton und Wellpappe sowie Displays'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Bösmüller Print Management GesmbH & Co KG",
+  "campo": "dimensione",
+  "problema": "Il campo sottostima l'azienda ('verosimilmente vicino o inferiore alla soglia dei 10 M€'): il fatturato è in realtà pubblicato e colloca Bösmüller PERFETTAMENTE IN TARGET. 12,5 Mio. € nel 2019 e 14,6 Mio. € con ca. 65 dipendenti su tre sedi (Wien, Stockerau, Krems). Referente e ruolo confermati: Ing. Doris Wallner-Bösmüller guida l'azienda dal 2009.",
+  "gravita": "media",
+  "evidenza": "inara.at/interview-the-power-of-print/ e medianet.at/markets/printing/boesmueller-print-management-gesmbh-co-kg-8130.html: 'mit rund 65 Mitarbeitern an den Standorten Wien, Stockerau und Krems ... 14,6 Mio. Euro Umsatz'; 'Seit 2009 leitet Ing. Doris Wallner-Bösmüller ... das Unternehmen'",
+  "correzione_proposta": "Fatturato ca. 14,6 Mio. € con ca. 65 dipendenti su 3 sedi (Wien, Stockerau, Krems) - fonti medianet.at / inara.at, dato 2019-2020. In target 10-20 M€."
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "CARINI GmbH",
+  "campo": "referente",
+  "problema": "REFERENTE NON PIÙ IN CARICA. Con il cambio d'anno 2025/26 è stato completato il passaggio generazionale: la quarta generazione ha assunto per intero la Geschäftsführung. Come rappresentanti risultano Simon Sohm e Michael Dür; Edgar Sohm si è ritirato dalla guida operativa.",
+  "gravita": "alta",
+  "evidenza": "vpack.at/p/wechsel-der-unternehmensleitung-von-etiketten-carini: 'Mit dem Jahreswechsel 2025/26 vollzieht CARINI den Generationenwechsel in der Geschäftsführung ... die vierte Generation übernimmt die Leitung zur Gänze'; wirtschaftszeit.at/news/thomas-sohm-steigt-in-die-geschaeftsfuehrung-von-carini-ein/",
+  "correzione_proposta": "Simon Sohm (Geschäftsführer), con Michael Dür"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "CARINI GmbH",
+  "campo": "dimensione",
+  "problema": "DATO FALSO. La stima RocketReach (5,2 Mio. USD / 33 dipendenti) è clamorosamente errata: CARINI occupa ca. 150 dipendenti nella sola sede di Lustenau e ha investito nello stabilimento. Il fatturato reale è quindi molto sopra la soglia minima di 5 M€ e va ristimato (verosimilmente 25-35 M€, comunque dentro il range tollerabile). Da non usare come motivo di scarto.",
+  "gravita": "alta",
+  "evidenza": "neue.at/vorarlberg/2021/09/01/etikettierer-carini-investiert-in-den-standort.neue e carini.at/de/unternehmen: 'rund 150 Mitarbeiter am Standort Lustenau'; rocketreach.co/etiketten-carini-gmbh-profile (stima non attendibile)",
+  "correzione_proposta": "Ca. 150 dipendenti nella sede di Lustenau (fonte carini.at / neue.at, 2021-2025); fatturato non pubblicato - stimato ben sopra i 5 M€, DA CONFERMARE."
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Flatz GmbH",
+  "campo": "dimensione",
+  "problema": "FUORI TAGLIA. Il dato RocketReach usato nel campo (~17 Mio. € / 96 dipendenti) è errato di un fattore 4: Flatz dichiara ca. 72 Mio. € di fatturato e ca. 320 dipendenti più 30 apprendisti. Supera nettamente la soglia di esclusione ~50 M€ indicata dal cliente. Inoltre una parte rilevante del portafoglio è EPS/styrofoam (flapor, flaporplus) e pezzi stampati EPP, fuori Allegato I: la quota carta/cartone ondulato è solo una parte del business.",
+  "gravita": "alta",
+  "evidenza": "wirtschaftsforum.de/interviews/flatz-gmbh/vielseitig-verpackt: 'Jahresumsatz von 72 Millionen EUR'; '320 Mitarbeiter und 30 Lehrlinge'; portafoglio: 'Wellpappe ... Dämmstoffe aus Styropor (flapor und flaporplus) ... Formteile (EPS-Styropor oder EPP)'",
+  "correzione_proposta": "Fatturato ca. 72 Mio. € - ca. 320 dipendenti + 30 apprendisti (fonte wirtschaftsforum.de). FUORI TAGLIA: sopra la soglia ~50 M€, da escludere."
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Flatz GmbH",
+  "campo": "dimensione",
+  "problema": "Refuso informativo: la nota 'Hans-Peter Flatz indicato come co-Geschäftsführer in fonti di stampa' è superata. Stefan Flatz ha rilevato la guida dell'azienda dal padre Hans-Peter con effetto 1° gennaio 2018, in terza generazione (non 4a).",
+  "gravita": "bassa",
+  "evidenza": "wirtschaftszeit.at/news/stefan-flatz-uebernimmt-vorarlberger-familienunternehmen-flatz-in-3-generation/: 'Stefan Flatz übernimmt mit 1. Jänner 2018 die Geschäftsführung von seinem Vater Hans-Peter Flatz'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Gruber Karton Kreativ GmbH",
+  "campo": "dimensione",
+  "problema": "Nessun dato dimensionale pubblicato: non è verificabile la forbice 5-40 M€ e la società è verosimilmente sotto la soglia minima. Da segnalare inoltre la riorganizzazione societaria: la vecchia 'Gruber Kartonagen GmbH' (FN Pbr su firmenabc) risulta oggi rinominata 'Gruber Immo GmbH' e l'operativo è passato alla nuova Gruber Karton Kreativ GmbH (FN 643739a, iscrizione recente). Verificare che non si tratti dell'esito di una ristrutturazione/risanamento prima del contatto. Referente Janin Simader e sede Frankenburger Straße 17 confermati.",
+  "gravita": "media",
+  "evidenza": "wirtschaft.at/u/643739a e firmenabc.at/gruber-karton-kreativ-gmbh_BBYKk (nessun Umsatz/Mitarbeiter); firmenabc.at/gruber-kartonagen-gmbh_Pbr risolve oggi in 'Gruber Immo GmbH in Ried im Innkreis'; herold.at/gelbe-seiten/ried-im-innkreis/gSSvX/gruber-kartonagen-gmbh/ mostra 'Gruber Immo GmbH'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Kliemstein Papierverarbeitungs GmbH",
+  "campo": "dimensione",
+  "problema": "La stima Dun & Bradstreet (~7 Mio. USD / 24 dipendenti) non è confermata da alcuna fonte ufficiale. L'unico dato di bilancio reperibile è una Bilanzsumme di 3,0 Mio. € con Eigenkapitalquote 82,6%: compatibile con una micro/piccola impresa il cui fatturato è verosimilmente SOTTO la soglia minima di 5 M€. Da verificare prima del contatto, alto rischio di scarto per taglia. Referente Thomas Kliemstein (GF dal 2001) e sede Bahnhofstraße 6, Feldbach confermati.",
+  "gravita": "media",
+  "evidenza": "firmenatlas.com/firma/229062g: 'Bilanzsumme 3,0 Mio. € - Eigenkapitalquote 82,6%'; firmen.wko.at/kliemstein-papierverarbeitungs-gmbh/steiermark (nessun Umsatz pubblicato)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Margarethner Verpackungsgesellschaft m.b.H.",
+  "campo": "dimensione",
+  "problema": "Assetto proprietario riportato al contrario: le fonti registrali indicano che è MARGARETHNER a detenere il 100% di Inter Carton Gesellschaft m.b.H. (Wien), non il viceversa. Va inoltre confermato che DI Richard Höfer sia Geschäftsführer a pieno titolo e non solo 'Gewerberechtliche Geschäftsführung' come lo classifica la WKO. Resta aperto il dato dimensionale: solo '>30 dipendenti', fatturato n.d., verosimilmente sotto la soglia minima di 5-10 M€.",
+  "gravita": "media",
+  "evidenza": "firmenabc.at/margarethner-verpackungsgesellschaft-m-b-h_bKh e firmenabc.at/inter-carton-gesellschaft-m-b-h_UrG: 'Margarethner Verpackungsgesellschaft m.b.H. hält 100% an Inter Carton Gesellschaft m.b.H.'; firmen.wko.at/...margarethner...: 'Gewerberechtliche Geschäftsführung: DI Richard Höfer'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "MÜROLL GmbH",
+  "campo": "referente",
+  "problema": "Referente non riconfermato. Le fonti aggiornate indicano Heidrun Müller come Geschäftsführerin dal 2023, accanto a Uwe Müller e Kurt Pichler; Michael Müller non compare nella compagine attuale citata dalle fonti. DA CONFERMARE prima del contatto.",
+  "gravita": "media",
+  "evidenza": "chancenland.at/en/company/mueroll-gmbh/ e firmen.wko.at/müroll-gmbh.../vorarlberg: 'Heidrun Müller ... Geschäftsführerin seit 2023'; altri manager citati: Kurt Pichler, Uwe Müller",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "MÜROLL GmbH",
+  "campo": "dimensione",
+  "problema": "Dati corretti disponibili e diversi da quelli riportati: 130 dipendenti a Frastanz (non 140) e 200 nel gruppo, con 70 addetti negli stabilimenti di Ungheria e Bulgaria; fatturato 32,5 Mio. € per Frastanz e ca. 50 Mio. € per il gruppo (dato 2013, da aggiornare). Il gruppo è quindi AL LIMITE DELLA SOGLIA DI ESCLUSIONE ~50 M€. Rilevante per il perimetro EUDR: ca. l'80% del fatturato viene dai nastri adesivi e solo il 20% dalla lavorazione della carta (ca. 5.000 t/anno di carta in rotoli) - la quota Allegato I è minoritaria e va verificata (supporto dei nastri: carta o film plastico).",
+  "gravita": "media",
+  "evidenza": "vn.at/markt/2014/10/17/produkte-die-man-ueberall-braucht.vn: 'rund 80 Prozent des Umsatzes ... Klebebänder, 20 Prozent Papierverarbeitung ... 32,5 Millionen Euro ... rund 50 Millionen Euro in der gesamten Gruppe'; 'insgesamt 200 Mitarbeiter, davon 130 in Frastanz'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Print Alliance HAV Produktions GmbH",
+  "campo": "dimensione",
+  "problema": "Il dato dimensionale è ora ricostruibile e va corretto: ca. 38 Mio. € di fatturato con ca. 150 dipendenti nella sede di Bad Vöslau (dato 2020), non 'oltre 180 dipendenti'. Resta al limite superiore del range tollerabile 5-40 M€. Va inoltre esplicitato l'ASSETTO DI GRUPPO, oggi assente dal campo: la società è controllata da PAG Holding GmbH dal 24.10.2018 ed è nata dalla fusione di agensketterl, AV+Astoria Druckzentrum e Grasl Druck und Neue Medien; la decisione di compliance si colloca a livello di holding.",
+  "gravita": "media",
+  "evidenza": "leitbetriebe.at/leitbetriebe/print-alliance-hav-gmbh/ e wirtschaft.at/u/426711t: 'PAG Holding GmbH ... Gesellschafter seit 24.10.2018'; 'rund 38 Millionen Euro Umsatz mit 150 Mitarbeitern am Standort Bad Vöslau'",
+  "correzione_proposta": "Fatturato ca. 38 Mio. € - ca. 150 dipendenti a Bad Vöslau (fonte leitbetriebe.at, dato 2020). Controllata da PAG Holding GmbH (AT)."
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Print Alliance HAV Produktions GmbH",
+  "campo": "referente",
+  "problema": "Referente da riconfermare: Christoph Preitler risulta rappresentante iscritto con ultima variazione al 24.06.2026, ma la stampa di settore riporta che Martin Wlacil ha assunto la Geschäftsleitung di Print Alliance. Verificare chi sia oggi l'interlocutore corretto.",
+  "gravita": "media",
+  "evidenza": "wirtschaft.at/u/426711t: 'Christoph Preitler ... vertreten seit 24.06.2026'; printernet.at/pg/de/content/leute_events/martin_wlacil_übernimmt_geschäftsleitung.html",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Salzer Papier GmbH",
+  "campo": "dimensione",
+  "problema": "Numero di Firmenbuch errato: il campo indica FN 312367p, mentre Salzer Papier GmbH (3100 St. Pölten) risulta iscritta con FN 211554i. Da correggere. Aggiornamento organi: oltre a Thomas Salzer (rappresentante dal 26.07.2001) risultano iscritti Lucas Mott dal 01.12.2024 e Dr. Harald Egger dal 01.01.2025. La proprietà è 100% familiare via Tosaco GmbH (Thomas Salzer).",
+  "gravita": "bassa",
+  "evidenza": "evi.gv.at/f/211554i: 'Salzer Papier GmbH 3100 St. Pölten ... Thomas Salzer vertritt seit 26.07.2001; Lucas Mott seit 01.12.2024; Dr. Harald Egger seit 01.01.2025'",
+  "correzione_proposta": "FN 211554i, LG St. Pölten"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Samson-Druck Gesellschaft m.b.H.",
+  "campo": "dimensione",
+  "problema": "Dato leggermente da aggiornare: le fonti di settore riportano oltre 19 Mio. € di fatturato con ca. 110 dipendenti (non 18 Mio. €/120). Assetto direttivo riorganizzato a novembre 2024: Markus Ramsbacher resta Geschäftsführer, Tibor Valentin ha assunto l'intera area vendite e la socia Lisa Frost lo sviluppo strategico. Nessuna traccia di insolvenza o procedura concorsuale.",
+  "gravita": "bassa",
+  "evidenza": "die-salzburger-industrie.at/unternehmen/samson-druck-gesellschaft-m-b-h/ e sn.at/salzburg/wirtschaft/samson-druck-lungau-geschaeftsleitung-168052363: '110 Mitarbeiter und über 19 Millionen Euro Jahresumsatz'",
+  "correzione_proposta": "Fatturato oltre 19 Mio. € - ca. 110 dipendenti (fonte die-salzburger-industrie.at / SN.at, 2024)"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Steirerpack GmbH",
+  "campo": "dimensione",
+  "problema": "Il campo dichiara fatturato e dipendenti 'non pubblicati', ma il dato esiste ed è ottimo per il target: ca. 100 dipendenti e quasi 17 Mio. € di fatturato annuo, con l'azienda nata da un management buy-out del 2014 dei due attuali Geschäftsführer Wolfgang Habenberger e Franz Grafendorfer (quindi indipendente, non controllata da gruppi). PERFETTAMENTE IN TARGET 10-20 M€.",
+  "gravita": "media",
+  "evidenza": "meinbezirk.at/murtal/c-wirtschaft/moederbrugg-kartonhersteller-steirerpack-ist-gut-ausgelastet_a2322165: 'rund 100 Mitarbeiter und einen Jahresumsatz von knapp 17 Millionen Euro ... 2014 durch einen Management-Buy-out der Industriellen Wolfgang Habenberger und Franz Grafendorfer'",
+  "correzione_proposta": "Fatturato ca. 17 Mio. € - ca. 100 dipendenti (fonte meinbezirk.at/Murtal). Indipendente dal 2014 (MBO Habenberger/Grafendorfer). In target 10-20 M€."
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Ulrich Etiketten Gesellschaft m.b.H.",
+  "campo": "sito",
+  "problema": "Il dominio istituzionale dell'azienda è ulrich-etiketten.at (sito, news e sezione jobs), non ulrich.at come riportato nel campo sito e nel campo fonte. Di conseguenza anche l'e-mail ulrich@ulrich.at va riverificata: non è ritrovata letteralmente nelle fonti pubbliche consultate. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "ulrich-etiketten.at/ulrich-news/ e ulrich-etiketten.at/jobs/; karriere.at/f/ulrich-etiketten; at.linkedin.com/company/ulrich-etiketten-gesmbh",
+  "correzione_proposta": "https://www.ulrich-etiketten.at"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Ulrich Etiketten Gesellschaft m.b.H.",
+  "campo": "dimensione",
+  "problema": "Il fatturato è sottostimato e la fonte è debole: già nel 2020 la stampa locale riportava 38 Mio. € (non 33 Mio. € nel 2023), con un investimento di 20 Mio. € nel nuovo sito di Höbersdorf su 60.000 m². Con questi numeri l'azienda è al limite superiore del range tollerabile e vicina alla soglia di esclusione ~50 M€: verificare il dato aggiornato prima del contatto. Inoltre Dr. Rainer Ulrich risulta ALLEINIGER Geschäftsführer: la nota 'Co-Geschäftsführer: Florian Ulrich' non è confermata.",
+  "gravita": "media",
+  "evidenza": "meinbezirk.at/korneuburg/c-wirtschaft/20-millionen-werden-in-hoebersdorf-investiert_a5096194: '38 Millionen Euro Umsatz (2020) ... 20 Millionen Euro Investition ... 60.000 m²'; evi.gv.at/f/89306h (Dr. Rainer Ulrich alleiniger Geschäftsführer)",
+  "correzione_proposta": ""
  }
 ]

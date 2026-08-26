@@ -1,6 +1,6 @@
 # REPORT DI VERIFICA — MyEUDR Lead Mapping
 
-> Controllo qualità **record per record** del censimento lead (**738 aziende, 8 fogli**), alla ricerca di refusi, attribuzioni errate e ogni altro errore introdotto durante la raccolta. Non è una ricerca di nuove aziende.
+> Controllo qualità **record per record** del censimento lead (**737 aziende, 8 fogli**), alla ricerca di refusi, attribuzioni errate e ogni altro errore introdotto durante la raccolta. Non è una ricerca di nuove aziende.
 
 
 ## Come leggere questo report
@@ -9,7 +9,7 @@ La verifica si è svolta in due fasi, con budget e coperture diverse:
 
 | Fase | Metodo | Copertura |
 |---|---|---|
-| **A — controlli deterministici** | 26 controlli automatici offline su tutti i JSON di build e sul workbook | **100%** dei 738 record |
+| **A — controlli deterministici** | 26 controlli automatici offline su tutti i JSON di build e sul workbook | **100%** dei 737 record |
 | **B — riscontro sul web** | agenti di verifica, blocchi di 15-20 aziende, 2-3 ricerche per record, ogni rilievo con URL o citazione | vedi §1 |
 
 Documenti di dettaglio:
@@ -75,14 +75,14 @@ I rilievi si concentrano invece su qualità e coerenza redazionale:
 ---
 
 
-## 0-bis. Correzioni già applicate al workbook (59)
+## 0-bis. Correzioni già applicate al workbook (60)
 
 Applicate **solo le correzioni certe**, secondo il mandato: refusi formali, entità HTML, forme giuridiche, filiere fuori Allegato I, aziende cessate. Tutto il resto resta come rilievo aperto in questo report.
 
 Ogni correzione di campo è stata applicata con un **controllo di guardia**: lo script verifica che il valore attuale del campo coincida esattamente con quello atteso, altrimenti salta la correzione, così lo script è rieseguibile senza rischi. Dopo l'applicazione le righe sono **740** (due rimozioni motivate, vedi sotto) e l'ordine dei fogli è ripristinato (Italia, Germania, Finlandia, Danimarca, Svezia, Olanda, Belgio, Austria).
 
 
-### Record rimossi dal censimento (4)
+### Record rimossi dal censimento (5)
 
 Sono le uniche righe **tolte** dai fogli. Ciascuna rientra in una categoria che il mandato autorizza a correggere — filiere fuori Allegato I, aziende cessate — e in ogni caso il progetto aveva già applicato lo stesso criterio a un caso analogo, che viene citato nella motivazione.
 
@@ -98,7 +98,10 @@ AZIENDA IN INSOLVENZA: Sanierungsverfahren ohne Eigenverwaltung aperto al Landes
 **ODENSE SEGLMÆRKEFABRIK A/S** — foglio Danimarca  
 SOCIETÀ ESTINTA: il CVR 17620487 risulta «opløst efter fusion» (sciolta a seguito di fusione); l'attività è oggi un sito di Optimum Group Nordic (OG Nordic ApS, gruppo olandese) e nel 2025 è stata trasferita da Odense ad Ans By per condividere lo stabilimento con la consociata Etiflex. La persona giuridica censita non esiste più e il lead non è più un'impresa danese autonoma: stesso criterio già applicato a Getama Danmark (non più produttore autonomo), Magnus Olesen (fallita) e Bent Krogh (cessata). Fonti: ownr.dk e profiler.dk su CVR 17620487; signprintpack.dk 14.07.2025.
 
-Il totale del censimento passa quindi da **742 a 738 aziende** (Belgio 95→94, Olanda 100→99, Austria 93→92).
+**Covera Packaging NV** — foglio Belgio  
+FUORI PERIMETRO EUDR: il foglio la classifica «Carta/Packaging — imballaggi cartone ondulato», ma l'azienda si presenta sul proprio sito come «Groothandel glas- en kunststofverpakkingen», grossista di imballaggi in vetro e plastica rigida (bottiglie, vasi, secchi, taniche, fusti). Nata nel 1946 come Comptoir Verrier Anversois, passata alla plastica negli anni '60. Vetro e plastica non sono commodity dell'Allegato I: il record è nel censimento su un presupposto falso. Stesso criterio già applicato a Immobra (olio di lino), RICO Elastomere (silicone) e k-tec (plastica). Fonte: covera.be/en/about-us-2.
+
+Il totale del censimento passa quindi da **742 a 737 aziende** (Belgio 95→94, Olanda 100→99, Austria 93→92).
 
 
 ### Tassonomia `Filiera` (23)
@@ -197,13 +200,13 @@ Tre categorie di rilievi formali sono state lasciate aperte nel report invece ch
 | Danimarca | 88 | 3 | 0 | 2 | 54 | 61% |
 | Svezia | 89 | 2 | 0 | 3 | 36 | 40% |
 | Olanda | 99 | 3 | 0 | 3 | 51 | 52% |
-| Belgio | 94 | 3 | 1 | 1 | 59 | 63% |
-| Austria | 92 | 2 | 1 | 2 | 41 | 45% |
-| **TOTALE** | **738** | **18** | **2** | **22** | **330** | **45%** |
+| Belgio | 93 | 4 | 0 | 1 | 76 | 82% |
+| Austria | 92 | 3 | 0 | 2 | 57 | 62% |
+| **TOTALE** | **737** | **20** | **0** | **22** | **363** | **49%** |
 
 _Un blocco è contato **completo** solo se l'agente ha confermato di aver verificato tutti i record. I **blocchi parziali** sono quelli ancora in corso o interrotti dal limite di sessione: i rilievi già salvati sono validi e inclusi nel report, ma la copertura è conteggiata al ribasso (solo le aziende che compaiono fra i rilievi). Il salvataggio incrementale ogni 3-4 record è ciò che ha evitato di perdere quel lavoro._
 
-> La Fase A copre invece il **100%** dei 738 record: è un controllo offline e non dipende dal budget di ricerca.
+> La Fase A copre invece il **100%** dei 737 record: è un controllo offline e non dipende dal budget di ricerca.
 
 
 _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati aperti dalla raccolta, condotta separatamente e riportata per intero più sotto._
@@ -211,7 +214,7 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 
 ## 2. Rilievi per foglio
 
-**Totale rilievi Fase B: 536** — alta 71 · media 302 · bassa 163.
+**Totale rilievi Fase B: 588** — alta 83 · media 329 · bassa 176.
 
 | Foglio | Rilievi | alta | media | bassa | Aziende toccate |
 |---|--:|--:|--:|--:|--:|
@@ -221,30 +224,30 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 | Danimarca | 74 | 19 | 36 | 19 | 49 |
 | Svezia | 58 | 10 | 28 | 20 | 32 |
 | Olanda | 96 | 12 | 64 | 20 | 44 |
-| Belgio | 120 | 16 | 71 | 33 | 59 |
-| Austria | 39 | 4 | 21 | 14 | 28 |
+| Belgio | 148 | 23 | 83 | 42 | 71 |
+| Austria | 63 | 9 | 36 | 18 | 44 |
 | _(tutti)_ | 1 | 0 | 0 | 1 | 1 |
-| **TOTALE** | **536** | **71** | **302** | **163** | **298** |
+| **TOTALE** | **588** | **83** | **329** | **176** | **326** |
 
 ### Rilievi per campo
 
 | Campo | Rilievi | di cui alta |
 |---|--:|--:|
-| dimensione | 252 | 39 |
-| referente | 119 | 15 |
-| email | 41 | 2 |
-| denominazione | 40 | 9 |
-| linkedin | 20 | 0 |
-| sito | 15 | 0 |
+| dimensione | 280 | 44 |
+| referente | 127 | 17 |
+| email | 42 | 3 |
+| denominazione | 41 | 10 |
+| linkedin | 24 | 0 |
+| ruolo | 19 | 0 |
+| sito | 17 | 1 |
+| filiera | 17 | 7 |
 | sede | 15 | 1 |
-| filiera | 15 | 5 |
-| ruolo | 13 | 0 |
 | fonte | 5 | 0 |
 | esistenza_stato | 1 | 0 |
 
 ---
 
-## 3. Tema trasversale — legami di gruppo (79 rilievi)
+## 3. Tema trasversale — legami di gruppo (86 rilievi)
 
 È il problema **più diffuso e meno atteso** emerso dalla verifica: non era fra i 13 punti noti dell'handoff. Numerose aziende del censimento sono controllate di gruppi, spesso esteri o quotati. Per il criterio già applicato dal progetto — che aveva rimosso Lavazza Kaffee, Segafredo Zanetti Austria e Kaffee Partner Austria perché *«la compliance si decide a livello di gruppo, non nella filiale»* — sono **lead di valore dubbio**.
 
@@ -257,7 +260,10 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 | Foglio | Azienda | Stato nel foglio | Rilievo |
 |---|---|---|---|
 | Austria | BRAUN LOCKENHAUS GmbH | **dichiarato** | Filiale di gruppo estero: la societa' e' controllata da SCHNEEWEISS AG / SCHNEEWEISS interior, con sede del gruppo a Kippenheim (Baden-Württemberg, DE), dal 2006. La decisione di compliance EUDR si as |
+| Austria | Margarethner Verpackungsgesellschaft m.b | **dichiarato** | Assetto proprietario riportato al contrario: le fonti registrali indicano che è MARGARETHNER a detenere il 100% di Inter Carton Gesellschaft m.b.H. (Wien), non il viceversa. Va inoltre confermato che  |
+| Austria | Print Alliance HAV Produktions GmbH | **NON dichiarato** | Il dato dimensionale è ora ricostruibile e va corretto: ca. 38 Mio. € di fatturato con ca. 150 dipendenti nella sede di Bad Vöslau (dato 2020), non 'oltre 180 dipendenti'. Resta al limite superiore de |
 | Austria | Schösswender Möbel Gesellschaft m.b.H. | **dichiarato** | Il solo dato di fatturato citato e' quello di gruppo del 2012 (28 M€): 13 anni di anzianita', inutilizzabile per il dimensionamento. La stima 15-25 M€ per la sola societa' mobili resta non confermata. |
+| Austria | Steirerpack GmbH | **NON dichiarato** | Il campo dichiara fatturato e dipendenti 'non pubblicati', ma il dato esiste ed è ottimo per il target: ca. 100 dipendenti e quasi 17 Mio. € di fatturato annuo, con l'azienda nata da un management buy |
 | Austria | Storebest Ladeneinrichtungen GmbH | **NON dichiarato** | FILIALE DI GRUPPO ESTERO NON DICHIARATA. STOREBEST Österreich e' parte della Kesseböhmer Holding KG di Bad Essen (Germania), gruppo con ca. 3.500 dipendenti su dodici siti; esiste anche la consorella  |
 | Belgio | A & A Chocolaterie NV | **dichiarato** | Il legame di gruppo e' correttamente dichiarato, ma va valutato l'effetto sul perimetro commerciale: A & A Chocolaterie (22,1 M€) e Pralinart (18,4 M€) sono entrambe controllate al 100% da Hamlet NV,  |
 | Belgio | Accent NV | **dichiarato** | La descrizione del legame di gruppo e' rovesciata e fuorviante. Accent non e' la 'capofila' del gruppo Asteria: dal 2018 la famiglia Declerck ha ceduto la MAGGIORANZA al fondo Waterland (prima 18 M€,  |
@@ -275,9 +281,13 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 | Belgio | Manutti BV | **dichiarato** | Legame di gruppo con Manutti Invest BV (BE 0478.148.434) dichiarato nel record: si tratta della holding familiare che controlla l'operativa. Segnalato come 'media' perche' gia' dichiarato; la decision |
 | Belgio | Mecam NV | **NON dichiarato** | Il record riporta 32.145.268 € e 111,6 FTE per la sola Mecam NV, mentre la stampa parla di 37 M€ cumulati e ~220 dipendenti per l'intero Mecam Group (Mecam + Neo-Style). Il legame di gruppo esiste ed  |
 | Belgio | Sas NV (Sas Coffee) | **dichiarato** | CONFERMATO: l'azienda NON e' piu' indipendente ne' familiare. Acquisita da Miko NV (11/2021) e rivenduta il 24-05-2024 al fondo di private equity olandese Nimbus Investments; il sito di Nimbus la elen |
+| Belgio | Sas NV (Sas Coffee) | **dichiarato** | CONTROLLATA DI FONDO (legame gia' dichiarato nel campo): dal 24-05-2024 Sas Koffie e' di proprieta' dell'investitore olandese Nimbus Investments, che l'ha rilevata da Miko Group. Non e' un'azienda fam |
 | Belgio | Silco NV | **NON dichiarato** | RILIEVO NUOVO emerso in verifica: la sede di Silco (Italielei 181, 2000 Antwerpen) e' lo stesso indirizzo di EFICO NV, il grande trader di caffe' verde di Anversa (fatturato ~289 M€), il cui president |
+| Belgio | Silco NV | **NON dichiarato** | Possibile appartenenza al gruppo EFICO non dichiarata come tale (nel record e' registrata solo la coincidenza di indirizzo). L'amministratore Philip Van Gestel risulta presidente dell'operatore di caf |
 | Belgio | Tannerie Masure SA | **NON dichiarato** | Societa' non indipendente: dal 2014 Tannerie Masure fa parte del Groupe Saturne insieme alla francese Tannerie Fortier-Beaulieu (Roanne). Il referente indicato, Olivier Lesage, risulta anche dirigente |
+| Belgio | Van de Velde Packaging NV | **dichiarato** | CONTROLLATA DI GRUPPO (legame gia' dichiarato nel campo): e' una societa' operativa del gruppo P. Van de Velde / Van de Velde Packaging (HQ Wetteren, ~309 M€ di fatturato consolidato, Kartesia entrata |
 | Belgio | Vanerum Belgie NV | **dichiarato** | Il legame di gruppo e' dichiarato ma incompleto: i3-Group non e' piu' interamente familiare. WorxInvest ha acquistato circa il 25% per 10 M€ e nel novembre 2023 anche il gruppo americano Steelcase ha  |
+| Belgio | Varia-Pack NV | **dichiarato** | CONTROLLATA DI GRUPPO (legame gia' dichiarato nel campo): parte del gruppo britannico Bunzl plc DAL 2007 (il record non data l'acquisizione). Bunzl fattura ~11 miliardi € nel mondo: la compliance EUDR |
 | Belgio | Vincent Sheppard NV | **NON dichiarato** | Assetto proprietario non dichiarato: dal 2002 la societa' e' controllata dalla famiglia Claeys tramite Cennini Holding e oggi il capitale e' 50/50 tra la famiglia Claeys e Jos Destrooper. Il fatturato |
 | Danimarca | BØJSØ DØRE & VINDUER A/S | **dichiarato** | Lead non indipendente: dal 2017 la società è controllata da INWIDO DENMARK A/S, parte del gruppo quotato svedese Inwido AB (fatturato di gruppo ~9 mld SEK nel 2025). Secondo il mandato una controllata |
 | Danimarca | Copenhagen Coffee Lab ApS | **NON dichiarato** | Assetto proprietario non dichiarato: la societa' fa parte di un gruppo di 6 societa' con capogruppo Copenhagen Coffee Lab Holding ApS; il 70% e' stato rilevato dagli investitori danesi Steen Skallebae |
@@ -338,7 +348,7 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 
 ---
 
-## 4. Casi di gravità ALTA (71)
+## 4. Casi di gravità ALTA (83)
 
 _Dato falso, azienda non contattabile, azienda cessata/fallita/acquisita, oppure fuori dal perimetro dell'Allegato I EUDR._
 
@@ -769,7 +779,7 @@ Assetto proprietario dichiarato errato: il campo indica ancora 'Soci: PALI Group
 **Correzione proposta:** Controllata al 100% di Vitelco B.V. (PALI Group), 's-Hertogenbosch
 
 
-### Belgio (16)
+### Belgio (23)
 
 #### Accent NV — campo `dimensione`
 
@@ -811,6 +821,22 @@ Dato aziendale incompleto e ormai superato dagli eventi: nell'aprile 2026 Dolfin
 
 **Correzione proposta:** Dichiarare: dall'aprile 2026 Dolfin SA e' azionista di maggioranza della nuova Chocolaterie Galler; valutare il perimetro dimensionale del gruppo Dolfin+Galler.
 
+#### Emballages Gruselle SRL — campo `dimensione`
+
+Confermato FUORI FORBICE per difetto, e con ampio margine: margine lordo € 142.075 e 113ª posizione nel settore carta/cartone. Non e' un'azienda 'di confine' a 5 M€ ma una micro-impresa artigianale (produzione su misura da 1 a 20.000 pezzi). Nessuna prospettiva di rientrare nel target 5-40 M€.
+
+**Evidenza:** https://trendstop.levif.be/fr/detail/448350331/gruselle-emballages.aspx — 'ranks 113th in the Paper and cardboard manufacturing and trading sector with a gross margin of 142,075 euros'
+
+**Correzione proposta:** Rimuovere il record (micro-impresa fuori forbice)
+
+#### Etilux SA — campo `referente`
+
+REFERENTE NON PIU' IN CARICA. Quentin Gemoets, entrato a fine 2018 per accompagnare la transizione generazionale, ha lasciato l'incarico a FINE 2023. Olivier Bronne, azionista e CEO, ha assunto da solo la direzione dell'azienda e l'azionista ha deciso di NON sostituire Gemoets, appoggiandosi al CdA e a un Comitato di direzione rafforzato. La fonte citata nel record (ccimag 05-01-2024) e' proprio l'articolo che documenta l'uscita.
+
+**Evidenza:** https://ccimag.be/2024/01/05/la-transition-generationnelle-se-finalise-chez-etilux/ — 'Quentin Gemoets... a quitté ses fonctions fin 2023'; 'Olivier Bronne, actuel propriétaire et co-CEO, a décidé de reprendre seul la direction'
+
+**Correzione proposta:** Olivier Bronne — Administrateur délégué / CEO
+
 #### Extremis NV — campo `referente`
 
 Referente non aggiornato: Dirk Wynants e' oggi owner e chief designer, NON il vertice esecutivo. L'amministratore delegato in carica e' Valentine Batjoens, nominata CEO in successione a Yff Vandendriessche. Il campo attribuisce erroneamente a Wynants la funzione di vertice.
@@ -843,11 +869,27 @@ LEGAME DI GRUPPO NON DICHIARATO. La societa' di Lommel e' la filiale belga del g
 
 **Correzione proposta:** — nessun valore certo: rilievo lasciato aperto
 
+#### Koffie St.-Michel NV — campo `dimensione`
+
+FUORI FORBICE per difetto, confermato: non e' un dubbio ma un dato. Una pubblicazione settoriale documenta che Hendrik Hanssens (°1958) guida una nv che nel 2017, CON 3 DIPENDENTI, ha realizzato un margine lordo di € 575.000; l'ultimo bilancio depositato porta il margine a € 686.005 e non pubblica il fatturato. Si tratta di una micro-torrefazione, incompatibile con la forbice 5-40 M€. La descrizione 'la piu' grande torrefazione di Anversa, ~60% del mercato locale' e' claim di marketing e contraddice i numeri.
+
+**Evidenza:** https://www.kenniswest.be/file/article/74859/74858/26_HANSSENS_West-Vlaanderen_Werkt_2018-04_181495_LowRes.pdf — 'Hendrik Hanssens (°1958) leidt een nv die in 2017 met 3 werknemers een brutomarge van 575.000 euro realiseerde'
+
+**Correzione proposta:** Rimuovere il record (micro-impresa fuori forbice)
+
 #### La Chocolaterie Galler SA — campo `dimensione`
 
 AZIENDA IN CRISI E CEDUTA. Galler era in procedura di riorganizzazione giudiziaria (PRJ 'silenziosa') ed e' stata rilevata nell'aprile 2026 da un consorzio vallone (chocolaterie Dolfin come azionista di maggioranza, Wallonie Entreprendre, investitori privati, Sebastien Desclee) tramite la costituzione di una 'nuova societa' Galler', con 70 licenziamenti su 170 dipendenti. Il record ne fa un cenno ma non ne trae le conseguenze: la societa' storica BE 0416.169.689 potrebbe non essere piu' l'entita' operativa (cessione di attivi a nuova entita'), il fatturato ~29,5-32 M EUR e i 194 dipendenti sono superati, e la compliance e' ora decisa dal nuovo azionariato (Dolfin). Lead da riqualificare o scartare; il numero d'impresa da usare va riverificato in KBO.
 
 **Evidenza:** Frammento La Libre: "Un projet de relance d'un nouveau Galler entierement entre des mains belges permet d'eviter le choc d'une faillite frontale" (23-04-2026); "L'entreprise chocolatiere liegeoise Galler, qui avait ete placee en procedure de reorganisation judiciaire silencieuse, a ete reprise par des actionnaires entierement wallons ... le capital ... majoritairement dans les mains de la chocolaterie familiale Dolfin" — https://www.qu4tre.be/infos/economie/des-actionnaires-wallons-reprennent-la-chocolaterie-galler/2014147
+
+**Correzione proposta:** — nessun valore certo: rilievo lasciato aperto
+
+#### Label-Pak-Int'l Co SA — campo `sito`
+
+Record privo di ogni canale di contatto digitale: sito 'n.d.', email 'n.d.', LinkedIn vuoto, referente vuoto. Le ricerche non fanno emergere alcun sito web proprietario: l'azienda e' presente solo su directory terze (europages, pagesdor, Facebook, YouTube). Nel suo stato attuale il lead non e' azionabile.
+
+**Evidenza:** Ricerca '"Label-Pak" Wavre étiquettes autocollantes site web contact' — nessun dominio proprietario nei risultati; presenza solo su https://m.europages.fr/LABELPAKT-INTL/BEL004241-00101.html, https://www.pagesdor.be/entreprise/Wavre/L11095522/LABEL-PAK-INT'L+CO/ e https://www.facebook.com/p/Label-Pak-intl-co-sa-100093528312122/
 
 **Correzione proposta:** — nessun valore certo: rilievo lasciato aperto
 
@@ -875,6 +917,22 @@ RILIEVO NUOVO emerso in verifica: la sede di Silco (Italielei 181, 2000 Antwerpe
 
 **Correzione proposta:** — nessun valore certo: rilievo lasciato aperto
 
+#### Silco NV — campo `dimensione`
+
+Possibile appartenenza al gruppo EFICO non dichiarata come tale (nel record e' registrata solo la coincidenza di indirizzo). L'amministratore Philip Van Gestel risulta presidente dell'operatore di caffe' verde di Italielei ad Anversa che movimenta ~72.000 tonnellate di caffe' verde l'anno — volumi da gruppo, non da societa' con 1 FTE. Se Silco e' un veicolo del gruppo Efico (289 M€, gia' escluso per soglia), il lead non e' indipendente. DA CONFERMARE.
+
+**Evidenza:** https://made-in.be/antwerpen/antwerpen-is-de-koffiehaven-bij-uitstek-bedrijf-dat-koffiebonen-voor-grootste-spelers-selecteert-bestaat-100-jaar/ — 'Philip Van Gestel... als voorzitter... 72.000 ton groene koffiebonen per jaar'; https://www.northdata.com/Silco%20N.V.,%20Antwerpen/KBO%200715.792.692 — 'managers and directors Katrien Delaet and Philip Van Gestel', capitale € 175.000, costituita 13-12-2018
+
+**Correzione proposta:** — nessun valore certo: rilievo lasciato aperto
+
+#### Silco NV — campo `email`
+
+Lead non azionabile: email 'n.d.', sito vuoto, LinkedIn vuoto, e la societa' dichiara 1 FTE. Nessun canale di contatto verificabile in fonte pubblica.
+
+**Evidenza:** https://www.northdata.com/Silco%20N.V.,%20Antwerpen/KBO%200715.792.692 — scheda societaria priva di sito e recapiti; nessun dominio proprietario emerso in ricerca
+
+**Correzione proposta:** — nessun valore certo: rilievo lasciato aperto
+
 #### Tannerie Masure SA — campo `denominazione`
 
 Societa' non indipendente: dal 2014 Tannerie Masure fa parte del Groupe Saturne insieme alla francese Tannerie Fortier-Beaulieu (Roanne). Il referente indicato, Olivier Lesage, risulta anche dirigente della holding francese FINANCIERE SATURNE: le decisioni di compliance EUDR si giocano a livello di capogruppo francese, non sulla controllata belga.
@@ -882,6 +940,14 @@ Societa' non indipendente: dal 2014 Tannerie Masure fa parte del Groupe Saturne 
 **Evidenza:** https://groupe-saturne.com/en/saturne-group/ - frammento: "In 2014, Fortier-Beaulieu associated with the Masure tannery in Estaimbourg (Belgium) to form the independent Groupe Saturne"; https://www.societe.com/manager/Olivier.LESAGE.s8sT-HgWTfO.html (Olivier LESAGE - FINANCIERE SATURNE)
 
 **Correzione proposta:** Valutare il lead a livello di capogruppo Groupe Saturne / Financiere Saturne (FR): la societa' belga non e' un centro decisionale autonomo per la compliance EUDR
+
+#### Varia-Pack NV — campo `filiera`
+
+ERRORE DI PERIMETRO (stesso schema gia' intercettato con Hausberger in Germania): Variapack e' un GROSSISTA di materiale d'imballaggio per retail, logistica, horeca e foodservice — film estensibile, scatole di cartone, bicchieri di plastica, monouso — non un trasformatore. Rivende cartone gia' immesso sul mercato UE da terzi: non e' 'operatore' che immette per primo la commodity.
+
+**Evidenza:** https://variapack.be/nl/over-ons — 'toonaangevende specialist in verpakkingsmaterialen'; 'uitgegroeid tot een gevestigde groothandel'; assortimento 'wrapping film, cardboard boxes, plastic cups, and various disposables'
+
+**Correzione proposta:** Rimuovere il record (distributore a valle, non immettitore)
 
 #### Vincent Sheppard NV — campo `referente`
 
@@ -900,13 +966,53 @@ Assetto proprietario non dichiarato: dal 2002 la societa' e' controllata dalla f
 **Correzione proposta:** — nessun valore certo: rilievo lasciato aperto
 
 
-### Austria (4)
+### Austria (9)
+
+#### Bayer Kartonagen GmbH — campo `denominazione`
+
+AZIENDA NON PIÙ LEAD AUTONOMO. A gennaio 2025 Schwarzach Packaging GmbH (Schwarzach, Vorarlberg) ha rilevato Bayer Kartonagen tramite ASSET DEAL (macchine e portafoglio prodotti) nell'ambito di una Nachfolgeregelung; la produzione è stata trasferita da Lustenau a Schwarzach nei mesi successivi. Josef Bayer, terza generazione, si è ritirato: il referente indicato non è più contattabile in quel ruolo e la sede di Lustenau non è più operativa. Il lead va sostituito con Schwarzach Packaging (GF Johannes Knapp e Ralph Joser) o eliminato.
+
+**Evidenza:** euwid-verpackung.de/news/unternehmen/schwarzach-packaging-uebernimmt-bayer-kartonagen-100125/ e wirtschaftszeit.at: 'Im Zuge eines Asset Deals kauft Schwarzach Packaging die Maschinen und das Leistungsportfolio ... Die Produktion werde in den kommenden Monaten von Lustenau ins nahegelegene Schwarzach verlagert ... Josef Bayer führt das Unternehmen in dritter Generation und gibt es nun in den Ruhestand ab.'
+
+**Correzione proposta:** — nessun valore certo: rilievo lasciato aperto
+
+#### CARINI GmbH — campo `referente`
+
+REFERENTE NON PIÙ IN CARICA. Con il cambio d'anno 2025/26 è stato completato il passaggio generazionale: la quarta generazione ha assunto per intero la Geschäftsführung. Come rappresentanti risultano Simon Sohm e Michael Dür; Edgar Sohm si è ritirato dalla guida operativa.
+
+**Evidenza:** vpack.at/p/wechsel-der-unternehmensleitung-von-etiketten-carini: 'Mit dem Jahreswechsel 2025/26 vollzieht CARINI den Generationenwechsel in der Geschäftsführung ... die vierte Generation übernimmt die Leitung zur Gänze'; wirtschaftszeit.at/news/thomas-sohm-steigt-in-die-geschaeftsfuehrung-von-carini-ein/
+
+**Correzione proposta:** Simon Sohm (Geschäftsführer), con Michael Dür
+
+#### CARINI GmbH — campo `dimensione`
+
+DATO FALSO. La stima RocketReach (5,2 Mio. USD / 33 dipendenti) è clamorosamente errata: CARINI occupa ca. 150 dipendenti nella sola sede di Lustenau e ha investito nello stabilimento. Il fatturato reale è quindi molto sopra la soglia minima di 5 M€ e va ristimato (verosimilmente 25-35 M€, comunque dentro il range tollerabile). Da non usare come motivo di scarto.
+
+**Evidenza:** neue.at/vorarlberg/2021/09/01/etikettierer-carini-investiert-in-den-standort.neue e carini.at/de/unternehmen: 'rund 150 Mitarbeiter am Standort Lustenau'; rocketreach.co/etiketten-carini-gmbh-profile (stima non attendibile)
+
+**Correzione proposta:** Ca. 150 dipendenti nella sede di Lustenau (fonte carini.at / neue.at, 2021-2025); fatturato non pubblicato - stimato ben sopra i 5 M€, DA CONFERMARE.
+
+#### Flatz GmbH — campo `dimensione`
+
+FUORI TAGLIA. Il dato RocketReach usato nel campo (~17 Mio. € / 96 dipendenti) è errato di un fattore 4: Flatz dichiara ca. 72 Mio. € di fatturato e ca. 320 dipendenti più 30 apprendisti. Supera nettamente la soglia di esclusione ~50 M€ indicata dal cliente. Inoltre una parte rilevante del portafoglio è EPS/styrofoam (flapor, flaporplus) e pezzi stampati EPP, fuori Allegato I: la quota carta/cartone ondulato è solo una parte del business.
+
+**Evidenza:** wirtschaftsforum.de/interviews/flatz-gmbh/vielseitig-verpackt: 'Jahresumsatz von 72 Millionen EUR'; '320 Mitarbeiter und 30 Lehrlinge'; portafoglio: 'Wellpappe ... Dämmstoffe aus Styropor (flapor und flaporplus) ... Formteile (EPS-Styropor oder EPP)'
+
+**Correzione proposta:** Fatturato ca. 72 Mio. € - ca. 320 dipendenti + 30 apprendisti (fonte wirtschaftsforum.de). FUORI TAGLIA: sopra la soglia ~50 M€, da escludere.
 
 #### Storebest Ladeneinrichtungen GmbH — campo `denominazione`
 
 FILIALE DI GRUPPO ESTERO NON DICHIARATA. STOREBEST Österreich e' parte della Kesseböhmer Holding KG di Bad Essen (Germania), gruppo con ca. 3.500 dipendenti su dodici siti; esiste anche la consorella tedesca STOREbest GmbH & Co. KG di Lübeck. La compliance EUDR si decide alla capogruppo tedesca: lead da declassare o rimuovere secondo il criterio gia' applicato a Segafredo Zanetti Austria / Lavazza Kaffee / BRAUN LOCKENHAUS.
 
 **Evidenza:** https://www.storebest.at/unternehmen/ ('STOREBEST Österreich ist Teil der inhabergeführten, international tätigen Kesseböhmer Holding KG mit Sitz in Bad Essen'; 'rund 3.500 Mitarbeiter an zwölf Standorten'); https://www.handelsverband.at/mitglieder/unsere-partner/detail/storebest-ladeneinrichtungen-gmbh/
+
+**Correzione proposta:** — nessun valore certo: rilievo lasciato aperto
+
+#### TEGUM Technische Gummiwaren Gesellschaft m.b.H. & Co. — campo `filiera`
+
+Perimetro EUDR da verificare: l'oggetto è 'Erzeugung und Groß-/Einzelhandel mit technischen Gummiwaren (Fördergurte, Verschleißschutzgummi) sowie Polyurethanverarbeitung'; il sito si presenta come 'Gummi & Kunststoffwerk' e commercializza anche nastri in plastica. Gli articoli tecnici sono tipicamente in elastomeri sintetici (come Helvoet/RICO già scartate) e una quota rilevante è rivendita di prodotti già immessi sul mercato UE. La presenza di gomma naturale (Allegato I) non è dimostrata.
+
+**Evidenza:** at.kompass.com/c/tegum-technische-gummiwaren-gesmbh-co/at038351/: 'Erzeugung und Groß- und Einzelhandel mit technischen Gummiwaren wie Transportbändern und Verschleißschutzgummi sowie Polyurethanverarbeitung'; tegum.at/en/rubber-synthetics/products.html; go-finder.info: 'Förderbänder aus Kunststoff, modulare'
 
 **Correzione proposta:** — nessun valore certo: rilievo lasciato aperto
 
@@ -937,7 +1043,7 @@ REFERENTE OBSOLETO DI DUE PASSAGGI. Heinz Hofer-Wittmann non e' piu' alla guida:
 
 ---
 
-## 5. Casi di gravità MEDIA (302)
+## 5. Casi di gravità MEDIA (329)
 
 _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente errato._
 
@@ -1182,7 +1288,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Veldhuis Media B.V. | dimensione | Dato di fatturato obsoleto e numero dipendenti errato. Il fatturato citato (ca. 15,5 M€) è del 2017 (8 anni fa). Il numero di dipendenti indicato (21-50) è smentito dalle fonti recenti: l'azienda conta ca. 111 addetti dopo il trasferimento Raalte→Mep | https://www.kijkopoostnederland.nl/veldhuis-media-houdt-focus-en-dat-levert-veel-op/ e https://pitchbook.com/profiles/company/540017-29 — frammenti: ' |  |
 | Zaadhof's Cartonnage Fabrieken B.V. | fonte | La fonte citata NON sostiene il dato riportato. Il campo dimensione attribuisce a RTV Noord un 'fatturato ca. 6 M€/anno', ma l'articolo parla di 'tientallen miljoenen verpakkingen' all'anno, cioè decine di milioni di IMBALLAGGI prodotti, non di euro  | https://www.rtvnoord.nl/economie/1416341/made-in-grunn-winschoter-familiebedrijf-maakt-jaarlijks-tientallen-miljoenen-verpakkingen — titolo: 'Winschot | Rimuovere il fatturato di 6 M€ o indicarne la fonte reale; dichiarare che il fatturato non è pubblicato |
 
-### Belgio (71)
+### Belgio (83)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -1199,6 +1305,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Bruyerre Chocolates SA | referente | Referente e ruolo vuoti. Le fonti pubbliche indicano Marc Delsemme come Administrateur Delegue di Bruyerre Chocolates (con Olivier de Macar, coacquirente della cioccolateria e cofondatore di Bruyerre Chocolates SA). Titolo coerente con una SA vallona | https://rocketreach.co/marc-delsemme-email_123029407 ("Marc Delsemme ... Bruyerre Chocolates Administrateur Delegue"); https://bruyerre.eu/en/history/ | referente: Marc Delsemme — ruolo: Administrateur delegue (DA CONFERMARE su KBO/NBB) |
 | Bulo NV | referente | Referente probabilmente non aggiornato. Dirk Busschop risulta CEO in fonti risalenti (2009); l'azienda e' oggi guidata dalla terza generazione, Carlo e Louis Busschop, con Carlo Busschop indicato come Managing Director / CEO in fonti recenti. Da rico | https://www.bulo.com/third_generation/ e https://rocketreach.co/carlo-busschop-email_93406361 - frammento: "Carlo Busschop, based in Mechelen, BE, is  | Carlo Busschop — gedelegeerd bestuurder / Managing Director (DA CONFERMARE) |
 | Buzzispace NV | email | Email 'n.d.': record privo di indirizzo di contatto nonostante il sito buzzi.space sia attivo. DA CONFERMARE. | https://www.buzzi.space/brand (sito attivo, nessun indirizzo e-mail nei frammenti) |  |
+| Cafés Delahaut SRL | dimensione | Taglia con ogni probabilita' SOTTO la soglia minima di 5 M€, non 'intorno ai 5 M€': margine lordo € 1.648.475 con 22,3 FTE e volumi dichiarati passati in cinque anni da 40 a 100 tonnellate di caffe' torrefatto a Namur. Il riferimento ai 5 M€ proviene | https://www.rtbf.be/article/namur-les-cafes-delahaut-voient-grand-ils-investissent-45-millions-d-euros-10282493 — 'En cinq ans, a Namur, on est passe  |  |
 | Carlens NV | referente | Referente e ruolo assenti. Le fonti pubbliche citano 'Carl Carlens' in contesto gestionale, mentre il campo dimensione ipotizza 'Luc Carlens' da FinCheck: nomi discordanti, nessuno dei due confermato come gedelegeerd bestuurder. DA CONFERMARE su BCE/ | https://www.limoco-industries.be/referenties/240-houthandel-carlens-keuze-voor-leverancier-dicht-bij-huis - frammento: risultati che referenziano "Car |  |
 | Cartonnages Delsaux SA | email | Il campo e' valorizzato 'n.d.', ma un indirizzo e-mail aziendale esiste ed e' pubblicato sui repertori camerali (CCI Wapi) e su Europages/Kompass insieme al telefono 056/33.12.78; nei risultati di ricerca compare mascherato. DA CONFERMARE l'indirizzo | catalogue.cciwapi.be/entreprises/cartonnages-delsaux/ e fr.kompass.com/c/cartonnages-delsaux/be0007444/: 'Boulevard du Textile 13, 7700 Mouscron, tel. |  |
 | Cartonnages Delsaux SA | dimensione | Conferma del sospetto gia' annotato nel campo: con 20-49 collaboratori dichiarati e un margine lordo di 2.828.246 € (113a nel settore Emballage), il fatturato — non pubblicato nel bilancio abbreviato — e' verosimilmente sotto i 5 M€, quindi FUORI dal | fr.kompass.com/c/cartonnages-delsaux/be0007444/: 'effectif de 20 à 49 employés'; trendstop.levif.be/fr/detail/401231293/cartonnages-delsaux.aspx: marg |  |
@@ -1210,25 +1317,31 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Corné Port-Royal Chocolatier SA | referente | Referente e ruolo vuoti ed email 'n.d.'. Dalle fonti registrali l'administrateur delegue e' la societa' di management BELLEGRO (persona fisica non esposta nei frammenti gratuiti); gli altri amministratori nominati il 05-12-2023 sono NEUHAUS SA, Valer | https://www.pappers.be/fr/company/corne-port-royal-chocolatier-0433283558 — "BELLEGRO ... Administrateur, Administrateur delegue ... depuis le 5 decem |  |
 | Corpack NV | dimensione | Il campo dichiara il dato 'NON REPERITO', ma parte dell'informazione e' pubblica: l'ultimo bilancio depositato alla NBB (17-07-2026) riporta 44,3 FTE, e i repertori d'impresa collocano Corpack nella fascia di fatturato 10-25 M€ con 20-49 addetti. Man | companyweb.be/en/0452991978/corpack: 'The most recent financial statements of Corpack were filed on 17-07-2026 ... 44.3 FTEs'; be.kompass.com/c/corpac | N. impresa BE 0452.991.978. 44,3 FTE (bilancio NBB depositato 17-07-2026); fatturato non pubblicato, stimato 10-25 M€ (K |
 | Corpack NV | referente | Referente e ruolo assenti: il record non e' utilizzabile per un contatto nominale. Ne' trendstop, ne' companyweb, ne' bizzy.org pubblicano il nome del gedelegeerd bestuurder della NV. DA CONFERMARE tramite Moniteur belge / BCE. | Ricerche 'Corpack 0452.991.978 bestuurders/gedelegeerd bestuurder' su trendstop.knack.be/nl/detail/452991978, companyweb.be/en/0452991978/corpack, biz |  |
-| Covera Packaging NV | dimensione | Il fatturato non e' pubblicato (schema abbreviato): la fascia 10-25 M€ e' solo il bracket dichiarativo di trendstop, non un dato di bilancio. Il dato realmente depositato e' il margine lordo di € 1.939.893 con 9,3 FTE (bilancio depositato 06-06-2025) | https://fincheck.be/nl/covera-packaging/0462.810.754/Antwerpen/overzicht — 'gross margin of €1,939,893.25', '9.3 FTEs', 'most recent financial stateme |  |
+| Covera Packaging NV | dimensione | Il fatturato non e' pubblicato (schema abbreviato): la fascia 10-25 M€ e' solo il bracket dichiarativo delle banche dati, non un dato di bilancio. Il dato realmente depositato e' il margine lordo di € 1.939.893 con 9,3 FTE (bilancio depositato 06-06- | https://fincheck.be/nl/covera-packaging/0462.810.754/Antwerpen/overzicht — 'gross margin of €1,939,893.25', '9.3 FTEs', 'most recent financial stateme |  |
 | Decolvenaere BV | dimensione | Fatturato fortemente sottostimato. Il campo riporta 'oltre 10 milioni di euro' (fonte giornalistica Sterck Magazine), ma i dati di bilancio piu' recenti indicano un fatturato totale di 38.585.036 EUR, con altre fonti che collocano l'azienda nella fas | Frammenti di ricerca su Decolvenaere BV (BE 0400.079.171): "The most recent financial statements show a total turnover of EUR 38,585,036.00" e "turnov | Fatturato ~38,6 M EUR (ultimo bilancio depositato NBB) — DA RICONFERMARE sulla fonte NBB primaria |
 | Delafaille NV | referente | Il referente indicato (Paul Daems) e' esplicitamente uscente: le fonti sull'operazione Maestrani (23-06-2025) confermano che Daems, proprietario e CEO, resta solo 'per un periodo limitato' per accompagnare la transizione e che verra' nominato un nuov | Frammento just-food: "Paul Daems, Delafaille's current owner and CEO, [will] stay with the company for a 'limited period' as he aids the transition, b |  |
 | Delafaille NV | dimensione | Il legame di gruppo e' dichiarato ma la conclusione tratta nel campo ('resta pero' PMI belga autonoma con obblighi EUDR propri') e' opinabile: Maestrani Schweizer Schokoladen ha acquisito il 100% delle azioni di Delafaille e della sua controllata cec | Frammento bpv Braun Partners: "Maestrani ... acquisition of Belgian chocolate manufacturer Delafaille with a major Czech subsidiary [Ostrapack]"; "Del |  |
 | Desmedt Labels BV | email | Campo valorizzato 'n.d.' mentre l'indirizzo generico e' pubblicato sulla pagina contatti del sito aziendale. | https://www.desmedt.be/en/contact — 'info@desmedt.be', tel. +32 3 283 33 33 | info@desmedt.be |
-| Desmedt Labels BV | dimensione | Fatturato indicato (6,5 M€ con 32 dipendenti, fonte made-in.be/Voka) e organico 'ca. 21 persone' contraddetti dalle banche dati: bracket dichiarato 10.000.000-25.000.000 € con 20-49 addetti e 40,5 FTE nell'ultimo bilancio depositato. Il dato del fogl | https://www.companyweb.be/en/0405891946/desmedt — 'turnover is between €10,000,000 - €25,000,000, with 20-49 staff members'; '40.5 FTEs according to t |  |
+| Desmedt Labels BV | dimensione | Fatturato indicato (6,5 M€ con 32 dipendenti, fonte made-in.be/Voka) e organico 'ca. 21 persone' contraddetti dalle banche dati NBB: bracket dichiarato 10.000.000-25.000.000 € con 20-49 addetti e 40,5 FTE nell'ultimo bilancio depositato. Il dato del  | https://www.companyweb.be/en/0405891946/desmedt — 'turnover is between €10,000,000 - €25,000,000, with 20-49 staff members'; '40.5 FTEs according to t |  |
 | Dolfin SA | referente | Referente e ruolo vuoti ed email 'n.d.'. Le fonti pubbliche indicano Jean-Jacques de Gruben come proprietario e Directeur General di Dolfin SA (ha rilevato la cioccolateria nel 2007 insieme a Gilles van der Meerschen). | Frammento: "En 2007, Jean-Jacques de Gruben a repris les renes de la Chocolaterie Dolfin" (https://www.dolfin.be/en/who-are-we/); "Jean-Jacques de Gru | referente: Jean-Jacques de Gruben — ruolo: Administrateur delegue / Directeur general (DA CONFERMARE il titolo statutari |
+| Emballages Gruselle SRL | referente | Referente e ruolo assenti: l'azienda non e' contattabile nominativamente. Le fonti pubbliche accessibili (pappers.be, companyweb, trendstop) riportano la scheda dirigenti ma il nome non emerge nei frammenti. DA CONFERMARE. | https://www.pappers.be/fr/company/emballages-gruselle-0448350331 — scheda 'Chiffre d'affaires & dirigeants' presente ma nominativo non esposto nei ris |  |
 | Extremis NV | dimensione | Fatturato potenzialmente obsoleto: il campo riporta 12.900.125 EUR e 24,8 FTE dall'ultimo bilancio, ma risulta gia' depositato un bilancio piu' recente (deposito 02-07-2026) i cui dati non sono riflessi nel record. DA AGGIORNARE. | https://www.companyweb.be/en/0434625128/extremis - frammento: "The most recent financial statements of Extremis were filed on 02-07-2026" |  |
 | Gudrun Commercial NV | dimensione | Legame di gruppo dichiarato ma incompleto e con conseguenze non tratte: Natra ha acquisito il 100% di Gudrun (annuncio ottobre 2024) dal fondo Down2Earth Capital, e Natra e' a sua volta partecipata dal fondo di private equity britannico CapVest. Gudr | https://www.just-food.com/news/capvest-backed-natra-buys-chocolate-peer-gudrun/ ; https://www.capvest.com/news/gudrun ("Natra acquired 100% of Gudrun  | Integrare: acquisita al 100% da Natra (gruppo partecipato da CapVest) nell'ottobre 2024; venditore Down2Earth Capital. |
 | Hannecard Benelux NV | referente | Referente e ruolo vuoti, e il quadro dirigenziale e' in transizione: il gedelegeerd bestuurder storico di Hannecard Benelux (Rik De Jo..., in carica dal 1984) risulta pensionato dal 2025. Il CEO di gruppo e' Dirk Vidts — vertice del gruppo, non neces | https://rocketreach.co/de-jo-rik-email_483835577 — "De Jo Rik ... HANNECARD Gepensioneerd", "Gedelegeerd Bestuurder at Hannecard Benelux 1984-2025"; " |  |
 | Houthandel Denis Luyten NV | referente | Referente e ruolo assenti; il campo dimensione dichiara esplicitamente che il nome del gestore non e' pubblicato. Nemmeno le ricerche mirate restituiscono il gedelegeerd bestuurder in carica (azienda alla 4a generazione della famiglia Luyten). DA CON | https://www.companyweb.be/en/0403778831/houthandel-denis-luyten - frammento: "At the time of its most recent financial statements, Houthandel Denis Lu |  |
 | Hulpiau Hides BV | referente | Referente e ruolo assenti. Le fonti pubbliche citano Raimond Hulpiau come 'current senior manager' (fratello del fondatore Christiaan Hulpiau), ma il ruolo formale (zaakvoerder/gedelegeerd bestuurder) non e' pubblicato: DA CONFERMARE. | https://www.hulpiauhides.com/en/about-us/ - frammento: "Christiaan Hulpiau, brother of current senior manager Raimond Hulpiau, founded Hulpiau Hides" |  |
+| Imprimerie Bietlot SA | referente | Referente e ruolo assenti. Le fonti pubbliche associano alla societa' i nominativi Eric Guillaume, Philippe Thomas e Bernard Guilmin, ma senza qualifica chiara di administrateur delegue: DA CONFERMARE prima del contatto. | https://fr.kompass.com/c/imprimerie-bietlot-sa/be0031404/ — 'Mr. Eric Guillaume, Mr. Philippe Thomas, Mr. Bernard Guilmin' senza titoli espliciti |  |
+| Imprimerie Bietlot SA | dimensione | Il legame con l'invest pubblico vallone Sambrinvest e' definito 'partecipata storica' ma non e' quantificato: Bietlot compare nella 'galaxie' delle partecipate Sambrinvest. Se la quota fosse di controllo, la decisione di compliance non sarebbe autono | https://www.sambrinvest.be/fr/galaxie/Bietlot/ — Imprimerie Bietlot inserita nel portafoglio partecipate Sambrinvest |  |
 | Jori NV | referente | Referente e ruolo assenti e non ricostruibili dalle fonti pubbliche consultate: nessun nome di gedelegeerd bestuurder/CEO emerge per Jori NV (BE 0888.984.313). DA CONFERMARE. Fatturato 16.143.273 EUR, 106,8 FTE e sede Hoogweg 52, 8940 Wervik risultan | https://www.companyweb.be/en/0888984313/jori - frammento: "with a revenue of EUR 16.143.273, Jori from Wervik ranks 19th in the furniture manufacturin |  |
+| Kartonnage Lefevere-Beel NV | dimensione | Fatturato obsoleto: il record indica € 26.865.930, mentre l'ultimo bilancio depositato riporta € 36.368.478 (49ª nel settore imballaggi), sempre con 69,2 FTE. Il dato aggiornato porta l'azienda a ridosso del tetto tollerabile di 40 M€ e ben oltre il  | https://www.pappers.be/nl/company/kartonnage-lefevere-beel-0413759339 — 'turnover of 36.368.478 euros and ranks 49th in the packaging sector'; '69.2 F | Fatturato € 36.368.478 - 69,2 FTE (ultimo bilancio depositato NBB) |
+| Kartonnage Lefevere-Beel NV | dimensione | Possibile struttura di gruppo NON dichiarata: fra gli amministratori figura la societa' BellRock e a Wielsbeke esiste una seconda entita' collegata, Lefevere Packaging (BE 0722.616.247), con scheda azionisti/amministratori incrociata. Da chiarire chi | https://fincheck.be/en/lefevere-packaging/0722.616.247/Wielsbeke/connections — 'Lefevere Packaging - 0722.616.247 - Wielsbeke - Shareholder and admini |  |
 | Keukenontwerpers NV | filiera | Perimetro EUDR debole. L'azienda opera con l'insegna SieMatic Keukenontwerpers come rivenditore/installatore a valle di cucine prodotte dalla tedesca SieMatic: non e' l'operatore che immette per primo il prodotto in legno sul mercato UE (lo e' il fab | https://www.keukenontwerpers.com/ e https://trustlocal.be/antwerpen/geel/keukenbouwer/siematic-keukenontwerpers/ - frammento: "SieMatic Keukenontwerpe |  |
 | Keukenontwerpers NV | referente | Referente e ruolo assenti; nessuna fonte pubblica restituisce il gedelegeerd bestuurder di Keukenontwerpers NV (BE 0472.648.534). L'email geel@keukenontwerpers.com non e' inoltre riscontrabile letteralmente nei frammenti. DA CONFERMARE entrambi. Fatt | https://trendstop.knack.be/nl/detail/472648534/keukenontwerpers.aspx - frammento: "With a turnover of 16,033,016 euros, Keukenontwerpers is ranked 7th |  |
 | Klingele Chocolade NV | dimensione | Il fatturato di ~8 M€ non e' verificabile: nell'ultimo bilancio depositato alla NBB (24-08-2025) la societa' NON pubblica la cifra d'affari (schema abbreviato). L'unico dato pubblico e' il margine lordo di 3.568.803 €, 44a posizione nel settore 'Choc | jaarrekening.be/nl/KLINGELE-CHOCOLADE/0479.916.606: 'Op het moment van haar meest recente jaarrekening publiceerde Klingele Chocolade geen omzetcijfer |  |
 | Koffiebranderij Or BV (OR Coffee Roasters) | dimensione | La societa' e' molto piu' piccola di quanto lasci intendere l'obiettivo dichiarato di ~6 M€: l'ultimo esercizio (2024) registra 5,00 FTE e nessuna cifra d'affari pubblicata. Con 5 dipendenti e un margine lordo di 785.594 € si tratta di una micro-impr | fincheck.be/nl/koffiebranderij-or/0473.952.589/Wetteren/overzicht: 'In 2024 had het bedrijf 5,00 voltijdse equivalenten (VTE) in dienst'; 'De jaaromze |  |
 | Koffiebranderij Or BV (OR Coffee Roasters) | dimensione | Controllata di gruppo: dall'aprile 2024 la societa' e' stata acquisita da Anaerobic Holding (Anversa), gia' proprietaria di Mister Barish Beans & Machines. Il legame e' dichiarato nel campo, ma va tenuto presente che la decisione di compliance EUDR s | kmoinsider.be/finance/koffiebranderij-or-coffee-roasters-uit-wetteren-overgenomen: 'Anaerobic Holding (Antwerpen), moederbedrijf van koffieautomatenve |  |
 | La Chocolaterie Galler SA | referente | Referente, ruolo, LinkedIn ed email tutti vuoti/'n.d.': il lead non e' contattabile. Dalle cronache dell'operazione 2026 emerge Sebastien Desclee, CEO ad interim di Chocolaterie Galler e ora anche fra gli azionisti della nuova societa'. DA CONFERMARE | Frammento: "Le consortium d'actionnaires est compose de la chocolaterie Dolfin, de Wallonie Entreprendre (WE), d'un groupe d'investisseurs prives et d | referente: Sebastien Desclee — ruolo: CEO (ad interim) / administrateur delegue (DA CONFERMARE) |
+| Label-Pak-Int'l Co SA | dimensione | Segnale di rischio non colto: l'ULTIMO bilancio depositato risale al 01-07-2023. Ad agosto 2026 non risultano depositi successivi presso la NBB, il che e' anomalo per una SA attiva: verificare che la societa' non sia in liquidazione o inattiva prima  | https://fincheck.be/en/label-pak-int'l-co/0402.690.550/Wavre/overview — '27.2 FTEs... most recent financial statements, which were filed on 01-07-2023 |  |
 | Lavrijsen Houtbedrijf NV | dimensione | Fatturato obsoleto e indirizzo errato. Il campo riporta 12.763.339 EUR (dato trendstop), mentre l'ultimo bilancio depositato indica 14.093.447 EUR e 23,1 FTE (non '20-49 addetti'). Inoltre la sede legale registrata e' Koning-Albertstraat 123, 2440 Ge | https://www.companyweb.be/en/0407106030/houtbedrijf-lavrijsen - frammento: "Houtbedrijf Lavrijsen recorded a total turnover of EUR 14,093,447.00... Th | Fatturato 14.093.447 EUR e 23,1 FTE (ultimo bilancio NBB); sede Koning-Albertstraat 123, 2440 Geel |
 | Le Cercle du Cacao SRL | dimensione | Micro-impresa di consulenza/sourcing fuori dalla forbice 5-40 M€ (fatturato non pubblicato, struttura sostanzialmente unipersonale attorno al fondatore). La limitazione e' dichiarata nel campo, ma il record non e' un lead commercialmente utilizzabile | lecercleducacao.be: 'Le Cercle du Cacao, sourcing, négoce et consultance en fèves de cacao'; 'Nico Regout est fondatrice, actionnaire principale et gé |  |
 | Libeert NV | ruolo | Il referente indicato (Lily Libeert, 'Co-directrice') non e' il vertice statutario. Il gedelegeerd bestuurder di Libeert e' Ignace Libeert; Lily Libeert risulta Co-CEO per Sales & Marketing e Pieter Libeert e' fra i proprietari. Per una NV/SA il tito | https://www.linkedin.com/in/ignace-libeert-ba44b8113/ — "Ignace Libeert - gedelegeerd bestuurder - LIBEERT - Belgian Chocolate Creators"; frammento: " | referente: Ignace Libeert — ruolo: gedelegeerd bestuurder (mantenere eventualmente Lily Libeert come secondo contatto co |
@@ -1246,47 +1359,67 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Radermecker SRL | referente | Referente e ruolo assenti. La conceria e' stata rilevata nell'aprile 2016 da due ingegneri francesi, Loic Honore e Nicolas Quintin, che ne sono gli attuali gestori: candidati referenti (gerant / administrateur delegue) da confermare su fonte societar | https://www.lavenir.net/regions/wallonie-picarde/comines-warneton/2022/01/14/cuirs-selliers-la-specialite-de-la-tannerie-radermecker-a-comines-YLAPU6L |  |
 | Radermecker SRL | email | Email 'n.d.': nessun indirizzo di contatto nel record. Il sito radermecker.com espone una pagina contatti, ma l'indirizzo non e' recuperabile via frammenti di ricerca. DA CONFERMARE. | https://www.radermecker.com/pages/on-parle-de-nous-dans-la-presse (sito attivo, indirizzo e-mail non estraibile dai frammenti) |  |
 | Royal Botania NV | referente | Referente probabilmente superato/impreciso. Kris Van Puyvelde risulta 'hoofddesigner en zaakvoerder' e cofondatore, non CEO; il cofondatore Frank Boschman ha lasciato l'azienda intorno al 2018 e nelle interviste recenti l'azienda e' rappresentata da  | apbc.be/stories/awd-2-kris-van-puyvelde-royal-botania: 'Kris van Puyvelde is hoofddesigner en zaakvoerder van Royal Botania'; wonen360.nl/article/9224 |  |
+| Rucquoy Frères NV | referente | Referente NON riscontrato: 'Steven De Punt' non compare in nessuna fonte pubblica collegata a Rucquoy Freres (ne' sito, ne' LinkedIn aziendale, ne' stampa). L'unico nominativo pubblicato con ruolo commerciale e' Stephanie Jocquet. DA CONFERMARE in KB | Ricerca '"Steven De Punt" Rucquoy coffee Antwerp' — nessun risultato pertinente; https://be.linkedin.com/in/stephaniejocquet 'Rucquoy Freres - Green C |  |
 | Sas NV (Sas Coffee) | referente | Herman Sas risulta ancora 'gedelegeerd bestuurder' negli estratti KBO pubblicati (pappers.be, insieme a Dominic Sas, Danielle Vanden Eede, Micheline Sas, NV HELFINCO), ma nessuna fonte post-cessione a Nimbus (05/2024) lo riconferma al vertice operati | https://www.pappers.be/nl/company/sas-0404190783 - 'Herman Sas is de gedelegeerd bestuurder; overige bestuurders: Dominic Sas, Danielle Vanden Eede, M |  |
 | Sas NV (Sas Coffee) | email | L'email nel foglio (info@sas-koffie.be) NON e' quella pubblicata sul sito ufficiale sas-coffee.com: la pagina di contatto riporta CUSTOMERSERVICE@SAS-COFFEE.COM, tel. +32 14 61 12 00, indirizzo LILSEDIJK 36 - 2340 BEERSE. info@sas-koffie.be resta rep | https://sas-coffee.com/en/contact/ - 'CUSTOMERSERVICE@SAS-COFFEE.COM \| +32 14 61 12 00 \| LILSEDIJK 36 - 2340 BEERSE - BELGIUM' | customerservice@sas-coffee.com ; sede Lilsedijk 36, 2340 Beerse DA CONFERMARE |
+| Sas NV (Sas Coffee) | dimensione | CONTROLLATA DI FONDO (legame gia' dichiarato nel campo): dal 24-05-2024 Sas Koffie e' di proprieta' dell'investitore olandese Nimbus Investments, che l'ha rilevata da Miko Group. Non e' un'azienda familiare indipendente e la decisione EUDR non e' pre | https://www.foodholland.nl/nieuws/256615/ — 'Investeringsmaatschappij Nimbus Investments neemt de Belgische koffiebrander SAS Koffie uit Beerse over v |  |
+| Sas NV (Sas Coffee) | referente | Referente superato: Herman Sas appartiene alla gestione familiare pre-cessione (Miko 2021, poi Nimbus 2024). Nessun nuovo gedelegeerd bestuurder risulta pubblicato dopo il passaggio a Nimbus; contattare Herman Sas come vertice attuale e' un rischio c | https://www.foodpro-network.nl/nieuws/16839/miko-group-verkoopt-sas-koffie-aan-nimbus-investments — cessione maggio 2024; nessuna fonte pubblica indic |  |
 | Silco NV | dimensione | Discordanza 4,8 vs 8,4 M€ NON risolta: le due banche dati continuano a riportare cifre diverse per lo stesso ultimo bilancio depositato (14-06-2024). Trendstop: EUR 8.358.215 (23a nel settore 'koffie en thee'); Companyweb/Fincheck: EUR 4.843.986. Sen | https://trendstop.knack.be/nl/detail/715792692/silco.aspx - 'omzet van 8.358.215 euro, 23e in de sector Koffie en thee'; https://www.companyweb.be/en/ |  |
 | Tannerie Masure SA | email | Email 'n.d.'. Il sito masure.be ha una pagina contatti attiva ma l'indirizzo non e' verificabile dai frammenti. DA CONFERMARE. | https://www.masure.be/contact (pagina contatti esistente; indirizzo e-mail non presente nei frammenti) |  |
 | VC Wood Zottegem NV | referente | Il record afferma che 'il nome del gestore non e' pubblicato in fonti verificabili': non e' vero. I zaakvoerders sono i fratelli Van Cauwenberge (terza generazione): Thomas, Tim e Bart Van Cauwenberge. | managermagazines.be 'Vc Wood Zottegem — Eenvoudig veelzijdig': 'Thomas Van Cauwenberge is een van de zaakvoerders, samen met zijn broers Tim en Bart' | Thomas Van Cauwenberge (con i fratelli Tim e Bart) — zaakvoerder/bestuurder |
 | Van De Wiele Rubber NV | filiera | Perimetro EUDR dubbio. L'azienda si presenta come specialista di 'rubber and plastic extrusion and injection molding' e il suo parco macchine comprende la co-estrusione di kunststof (materie plastiche): non esiste evidenza pubblica che lavori gomma N | rubber-groothandel.be/machinepark: 'kunststof co-extrusie \| matrijzenmakerij \| Van De Wiele Rubber \| Kluisbergen'; vandewiele-gummi.de/rubber.html: |  |
 | Van De Wiele Rubber NV | referente | Referente e ruolo assenti: il record non e' utilizzabile per un contatto commerciale nominale. Le ricerche su fonti pubbliche (trendstop, companyweb, jaarrekening.be, LinkedIn aziendale) non restituiscono il nome del gedelegeerd bestuurder della NV.  | Ricerche 'Van De Wiele Rubber bestuurder/directeur' su trendstop.knack.be/nl/detail/405713386, companyweb.be/en/0405713386/van-de-wiele-rubber e be.li |  |
 | Van De Wiele Rubber NV | dimensione | Il campo non qualifica la societa' rispetto alla forbice target 5-40 M€. Con 28,4 FTE e un margine lordo di 3.331.259 € (22a nel settore 'rubber en banden'), il fatturato — non pubblicato in bilancio (schema abbreviato, ultimo deposito 03-03-2025) —  | companyweb.be/en/0405713386/van-de-wiele-rubber: 'the most recent financial statements were filed on 03-03-2025 ... 28.4 FTEs ... Van De Wiele Rubber  |  |
+| Van de Velde Packaging NV | dimensione | CONTROLLATA DI GRUPPO (legame gia' dichiarato nel campo): e' una societa' operativa del gruppo P. Van de Velde / Van de Velde Packaging (HQ Wetteren, ~309 M€ di fatturato consolidato, Kartesia entrata nel capitale nel 2025). La decisione di complianc | https://www.vandeveldepackaging.com/en/van-de-velde-packaging-lichtervelde — sito di gruppo che elenca Lichtervelde come una delle sedi; https://finch |  |
 | Vanerum Belgie NV | referente | Gert Van Erum e' il CEO della capogruppo i3-Group, non l'amministratore della sola Vanerum Belgie NV: il mandato esclude l'uso dell'amministratore di capogruppo come referente della controllata. Va individuato il responsabile della societa' belga. | trends.knack.be: 'Gert Van Erum (CEO i3 Group)'; cbinsights: 'i3-Group, formerly VANERUM Group, founded 1968, based in Diest' |  |
 | Vanerum Belgie NV | dimensione | Il legame di gruppo e' dichiarato ma incompleto: i3-Group non e' piu' interamente familiare. WorxInvest ha acquistato circa il 25% per 10 M€ e nel novembre 2023 anche il gruppo americano Steelcase ha preso una partecipazione. La compliance EUDR si de | derijkstebelgen.be 'NIEUW – WorxInvest betaalt 10 miljoen euro voor kwart van Van Erum schoolborden'; holahageland.net 'Na WorxInvest neemt ook Amerik |  |
+| Varia-Pack NV | dimensione | CONTROLLATA DI GRUPPO (legame gia' dichiarato nel campo): parte del gruppo britannico Bunzl plc DAL 2007 (il record non data l'acquisizione). Bunzl fattura ~11 miliardi € nel mondo: la compliance EUDR e' materia di capogruppo, il lead locale non e' u | https://variapack.be/nl/over-ons — 'Sinds 2007 maakt Variapack deel uit van de internationale Bunzl Group'; 'de Britse multinational... wereldwijd zo' |  |
 | Woodtex NV | dimensione | Dato di fatturato superato. Il record riporta 11.778.466 € (deposito 23-06-2025); l'ultimo bilancio depositato (01-06-2026) indica 12.131.554 € con 35 FTE. | companyweb.be/en/0413744194/woodtex: 'Woodtex recorded a total turnover of €12,131,554.00. The most recent financial statements were filed on 01-06-20 | Fatturato 12.131.554 € - 35 FTE (bilancio NBB depositato 01-06-2026) |
 
-### Austria (21)
+### Austria (36)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
 | Alvorada Kaffeerösterei GmbH | dimensione | Filiale nazionale di gruppo estero: la GmbH viennese è controllata al 100% da Minges Kaffeerösterei GmbH (Kißlegg, DE) e il GF è lo stesso Ulli Minges. La compliance EUDR si decide alla capogruppo tedesca. Legame già dichiarato nel campo, quindi grav | wirtschaft.at/u/507244y: 'Alvorada Kaffeerösterei GmbH ... vertreten seit 02.03.2019 durch Ulli Minges'; minges-kaffee.de/en/collections/alvorada; mom |  |
 | BAG Ölmühle BetriebsgmbH | dimensione | Il fatturato 33-35 Mio. € risale a dichiarazioni del GF Willim del 2019 (non 2024): dato con oltre 6 anni, da riconfermare. Il campo lo presenta come 'dati 2019-2024'. Nota di merito EUDR: circa l'80% dell'olio di soia prodotto va al settore energeti | meinbezirk.at/guessing/c-wirtschaft/sojamuehle-guessing-baut-weiter-aus_a2984919 (2019): 'Willim ... Jahresumsatz von 33 bis 35 Millionen Euro'; bagoi |  |
 | BRAUN LOCKENHAUS GmbH | dimensione | Filiale di gruppo estero: la societa' e' controllata da SCHNEEWEISS AG / SCHNEEWEISS interior, con sede del gruppo a Kippenheim (Baden-Württemberg, DE), dal 2006. La decisione di compliance EUDR si assume a livello di capogruppo tedesca. Il legame e' | https://www.braunlockenhaus.at/en/imprint - frammento: "Geschäftsführer Jochen Joachims und Gesellschafter SCHNEEWEISS AG"; "Braun Lockenhaus is part  |  |
+| Bayer Kartonagen GmbH | dimensione | Dati incoerenti e superati: 12 Mio. €/80 dipendenti è un'intervista del 2019, la stima 27,3 Mio. € di die-deutsche-wirtschaft.de non è un dato di bilancio. Alla cessione (gennaio 2025) la stampa parlava di ca. 90 dipendenti a Lustenau, oggi assorbiti | euwid-verpackung.de (01/2025): 'Bayer Kartonagen produziert mit rund 90 Mitarbeitenden in Lustenau Faltschachteln aus Karton und Wellpappe sowie Displ |  |
 | Breitschopf Gesellschaft mbH & Co KG | referente | Il referente indicato (Martin Breitschopf) fa parte del 'Fuehrungstrio' familiare dal 2021 con delega a vendite/finanza/strategia, ma il Geschaeftsfuehrer iscritto dal 2001 risulta Dipl.-Ing. Johann Breitschopf. Il ruolo formale di Martin come GF non | https://www.meinbezirk.at/steyr-steyr-land/c-wirtschaft/breitschopf-kuechen-setzt-auf-fuehrungstrio_a6834711 - frammento: "Johann Breitschopf (Dipl.-I |  |
+| Bösmüller Print Management GesmbH & Co KG | dimensione | Il campo sottostima l'azienda ('verosimilmente vicino o inferiore alla soglia dei 10 M€'): il fatturato è in realtà pubblicato e colloca Bösmüller PERFETTAMENTE IN TARGET. 12,5 Mio. € nel 2019 e 14,6 Mio. € con ca. 65 dipendenti su tre sedi (Wien, St | inara.at/interview-the-power-of-print/ e medianet.at/markets/printing/boesmueller-print-management-gesmbh-co-kg-8130.html: 'mit rund 65 Mitarbeitern a | Fatturato ca. 14,6 Mio. € con ca. 65 dipendenti su 3 sedi (Wien, Stockerau, Krems) - fonti medianet.at / inara.at, dato  |
 | Franz Hauswirth Ges.m.b.H. | referente | Dopo il risanamento la direzione operativa è cambiata di nuovo: la stampa locale (2025) indica Kerstin Stava e Lisa-Marie Dormayer alla Betriebsleitung dello stabilimento di Kittsee, mentre Kühbacher e Stava restano iscritti come rappresentanti in Fi | bvz.at/neusiedl/neue-betriebsleitung-brucker-duo-soll-schokofirma-hauswirth-wieder-auf-kurs-bringen-475190819 e meinbezirk.at/neusiedl-am-see/c-wirtsc |  |
 | Franz Hauswirth Ges.m.b.H. | dimensione | Assetto: 100% delle quote in capo a Landgarten GmbH (Bruck an der Leitha, AT). Non è un gruppo estero e il legame è già dichiarato nel campo, ma la decisione di compliance EUDR si concentra sulla capogruppo Landgarten: valutare il contatto a quel liv | trend.at/unternehmen/rechtzeitig-vor-ostern-hauswirth-mit-neuem-eigentuemer; registro: 'Landgarten GmbH 100%' |  |
+| Gruber Karton Kreativ GmbH | dimensione | Nessun dato dimensionale pubblicato: non è verificabile la forbice 5-40 M€ e la società è verosimilmente sotto la soglia minima. Da segnalare inoltre la riorganizzazione societaria: la vecchia 'Gruber Kartonagen GmbH' (FN Pbr su firmenabc) risulta og | wirtschaft.at/u/643739a e firmenabc.at/gruber-karton-kreativ-gmbh_BBYKk (nessun Umsatz/Mitarbeiter); firmenabc.at/gruber-kartonagen-gmbh_Pbr risolve o |  |
 | Hrachowina Fenster & Türen GmbH | dimensione | Fatturato ca. 25 Mio EUR dichiarato come stima non ufficiale (die-deutsche-wirtschaft.de) e senza anno. Da segnalare inoltre il precedente di insolvenza 2019 della controllata produttiva H&W Holzfensterproduktions-GmbH (JV con Weinzetl), poi rilevata | https://www.holzkurier.com/holzprodukte/2019/06/hrachowina.html - frammento: "H&W Holzfensterproduktions-GmbH had to file for insolvency in late Febru |  |
 | Jannach Lärchenholz GmbH | email | Campo e-mail vuoto ('n.d.'): l'Impressum offusca l'indirizzo in chiave anti-spam e nessuna fonte pubblica riporta letteralmente un recapito. Il lead resta contattabile solo via form/telefono. DA CONFERMARE. | https://jannach.com/kontakt/impressum.html - pagina Impressum senza indirizzo e-mail in chiaro; conferma GF: "Mag. (FH) Helmut Jannach is the manager  |  |
+| KUK-Austria GmbH | dimensione | Nessun dato dimensionale pubblicato (né fatturato né organico): impossibile stabilire se l'azienda rientra nella forbice 5-40 M€. DA CONFERMARE prima del contatto. Il perimetro EUDR (olio di palma via RSPO Supply Chain Associate) è invece plausibile, | firmeneintrag.creditreform.de/4910/9070166411/KUK_AUSTRIA_GMBH e northdata.com/KUK-Austria GmbH, Ried im Innkreis/278142h: nessun Umsatz/Mitarbeiter p |  |
+| Kliemstein Papierverarbeitungs GmbH | dimensione | La stima Dun & Bradstreet (~7 Mio. USD / 24 dipendenti) non è confermata da alcuna fonte ufficiale. L'unico dato di bilancio reperibile è una Bilanzsumme di 3,0 Mio. € con Eigenkapitalquote 82,6%: compatibile con una micro/piccola impresa il cui fatt | firmenatlas.com/firma/229062g: 'Bilanzsumme 3,0 Mio. € - Eigenkapitalquote 82,6%'; firmen.wko.at/kliemstein-papierverarbeitungs-gmbh/steiermark (nessu |  |
 | Ludwig Reiter Schuhmanufaktur GmbH | email | L'indirizzo office@ludwig-reiter.com non compare nell'Impressum aziendale, che riporta reiter@ludwig-reiter.com come recapito di contatto. | https://www.ludwig-reiter.com/de/impressum - frammento: "telephone +43-1-2559300, fax +43-1-2559300-77, and email reiter@ludwig-reiter.com" | reiter@ludwig-reiter.com |
 | Ludwig Reiter Schuhmanufaktur GmbH | dimensione | Il fatturato di ca. 15 Mio EUR e i ca. 60 dipendenti attribuiti a Wikipedia/AustriaWiki (2019-2023) non trovano riscontro: la voce Wikipedia riporta solo dati storici di organico (ca. 70 addetti nel 1919, ca. 130 nel 1966) e nessun dato di fatturato  | https://de.wikipedia.org/wiki/Ludwig_Reiter_Schuhmanufaktur - frammento: "In 1919, approximately 70 employees were employed, and in 1966, the company  |  |
+| Margarethner Verpackungsgesellschaft m.b.H. | dimensione | Assetto proprietario riportato al contrario: le fonti registrali indicano che è MARGARETHNER a detenere il 100% di Inter Carton Gesellschaft m.b.H. (Wien), non il viceversa. Va inoltre confermato che DI Richard Höfer sia Geschäftsführer a pieno titol | firmenabc.at/margarethner-verpackungsgesellschaft-m-b-h_bKh e firmenabc.at/inter-carton-gesellschaft-m-b-h_UrG: 'Margarethner Verpackungsgesellschaft  |  |
 | Mayr - Schulmöbel Gesellschaft m.b.H. | dimensione | Il fatturato di ca. 39,0 Mio EUR (stima Die Deutsche Wirtschaft) e' smentito dai dati di ricavo pubblicati dall'azienda/stampa locale: 21 Mio EUR nel 2013, 22,4 Mio EUR nel 2014, 23,1 Mio EUR nel 2016 (+5%). Cade quindi anche l'avvertenza 'AZIENDA DI | https://www.meinbezirk.at/salzkammergut/c-wirtschaft/50000-schueler-lernen-erfolgreich-auf-sesseln-von-mayr-schulmoebel_a824339 - frammento: "In 2013  | Fatturato ca. 23,1 Mio € (2016, ultimo dato pubblicato), ca. 145 dipendenti |
 | Mayr - Schulmöbel Gesellschaft m.b.H. | dimensione | Il secondo Geschaeftsfuehrer indicato nel campo ('Ing. Florian Huemer') non e' riscontrato: le fonti riportano come coppia di GF Franz Josef Wiener (referente del record, corretto) e Maximilian Auinger. | https://newsroom.kommhaus.com/qualitaetsschulmoebel-made-in-austria/ - frammento: "The two managing directors of Mayr Schulmoebel are Franz Josef Wien | Secondo Geschäftsführer: Maximilian Auinger |
 | Meiberger Holzbau GmbH | dimensione | Il totale di bilancio 11,33 Mio EUR (31.01.2025) e' confermato, ma non sostiene la stima di fatturato 10-15 Mio EUR: la voce e' composta per 8,67 Mio EUR da immobilizzazioni (Anlagevermögen), con patrimonio netto 3,36 Mio EUR. Trattandosi di una Zimm | https://www.firmenabc.at/meiberger-holzbau-gmbh_cXK ('Bilanzsumme 11.328.315,08 EUR; Eigenkapital 3.358.529,11 EUR; Anlagevermögen 8.673.136,11 EUR',  | Totale di bilancio 11,33 Mio EUR (31.01.2025, firmenabc.at), di cui 8,67 Mio EUR immobilizzazioni; fatturato non pubblic |
 | Meyer Parkett GmbH | sede | La sede non e' piu' Kalsdorf bei Graz: Firmenbuch, herold e firmenabc indicano Sternweg 2, 8141 Premstaetten (Graz-Umgebung). Trasferimento oggetto di Kundmachung comunale 2024. | https://www.evi.gv.at/f/226133z (titolo: 'Meyer Parkett GmbH 8141 Premstaetten \| Firmenbuch'); https://www.herold.at/gelbe-seiten/premst%C3%A4tten/qS | Premstätten (Steiermark) |
+| MÜROLL GmbH | referente | Referente non riconfermato. Le fonti aggiornate indicano Heidrun Müller come Geschäftsführerin dal 2023, accanto a Uwe Müller e Kurt Pichler; Michael Müller non compare nella compagine attuale citata dalle fonti. DA CONFERMARE prima del contatto. | chancenland.at/en/company/mueroll-gmbh/ e firmen.wko.at/müroll-gmbh.../vorarlberg: 'Heidrun Müller ... Geschäftsführerin seit 2023'; altri manager cit |  |
+| MÜROLL GmbH | dimensione | Dati corretti disponibili e diversi da quelli riportati: 130 dipendenti a Frastanz (non 140) e 200 nel gruppo, con 70 addetti negli stabilimenti di Ungheria e Bulgaria; fatturato 32,5 Mio. € per Frastanz e ca. 50 Mio. € per il gruppo (dato 2013, da a | vn.at/markt/2014/10/17/produkte-die-man-ueberall-braucht.vn: 'rund 80 Prozent des Umsatzes ... Klebebänder, 20 Prozent Papierverarbeitung ... 32,5 Mil |  |
+| Print Alliance HAV Produktions GmbH | dimensione | Il dato dimensionale è ora ricostruibile e va corretto: ca. 38 Mio. € di fatturato con ca. 150 dipendenti nella sede di Bad Vöslau (dato 2020), non 'oltre 180 dipendenti'. Resta al limite superiore del range tollerabile 5-40 M€. Va inoltre esplicitat | leitbetriebe.at/leitbetriebe/print-alliance-hav-gmbh/ e wirtschaft.at/u/426711t: 'PAG Holding GmbH ... Gesellschafter seit 24.10.2018'; 'rund 38 Milli | Fatturato ca. 38 Mio. € - ca. 150 dipendenti a Bad Vöslau (fonte leitbetriebe.at, dato 2020). Controllata da PAG Holding |
+| Print Alliance HAV Produktions GmbH | referente | Referente da riconfermare: Christoph Preitler risulta rappresentante iscritto con ultima variazione al 24.06.2026, ma la stampa di settore riporta che Martin Wlacil ha assunto la Geschäftsleitung di Print Alliance. Verificare chi sia oggi l'interlocu | wirtschaft.at/u/426711t: 'Christoph Preitler ... vertreten seit 24.06.2026'; printernet.at/pg/de/content/leute_events/martin_wlacil_übernimmt_geschäft |  |
 | Rauchenzauner Möbel GmbH | dimensione | Il fatturato di 18,8 M€ e' una stima Die Deutsche Wirtschaft, non un dato firmenabc: la fonte e' attribuita male. L'unico dato di bilancio reale e' il totale attivo 4.454.624,41 EUR al 31.03.2025. La societa' e' inoltre di costituzione recente (FN 61 | https://www.evi.gv.at/f/611446k ('Bilanz zum 31.03.2025, Bilanzsumme 4.454.624,41 EUR'; iscritta 06.09.2023; GF Gerhard Rauchenzauner e Sabine Rauchen | Totale di bilancio 4,45 Mio EUR (31.03.2025, Firmenbuch); 50-99 dipendenti (firmenabc); fatturato non pubblicato (18,8 M |
 | Schösswender Möbel Gesellschaft m.b.H. | dimensione | Il solo dato di fatturato citato e' quello di gruppo del 2012 (28 M€): 13 anni di anzianita', inutilizzabile per il dimensionamento. La stima 15-25 M€ per la sola societa' mobili resta non confermata. Va inoltre tenuto presente il legame di gruppo (S | https://www.firmenabc.at/schoesswender-moebel-gesellschaft-m-b-h_jQF ; https://www.northdata.com/Sch%C3%B6sswender%20M%C3%B6bel%20GmbH,%20Franking/035 |  |
+| Soy Austria Produktions GmbH | dimensione | Nessun dato dimensionale pubblicato (fatturato e organico assenti in tutte le fonti aperte): non è verificabile l'appartenenza alla forbice 5-40 M€. DA CONFERMARE. Nelle fonti l'unico Geschäftsführer citato esplicitamente è Ing. Josef Bamberger (gewe | firmen.wko.at/soy-austria-produktions-gmbh/niederösterreich: 'Gewerberechtliche Geschäftsführung: Ing. Josef Bamberger'; herold.at/gelbe-seiten/prinze |  |
 | Speedmaster GmbH | dimensione | Il campo dichiara 'fatturato e dipendenti non pubblicati', ma entrambi i dati sono pubblici: ca. 29 Mio EUR di fatturato annuo e ca. 300 dipendenti nella sede di Eberstalzell, piu' un secondo stabilimento produttivo a Steinsfeld (Germania). L'azienda | https://www.meinbezirk.at/wels-wels-land/c-wirtschaft/stelzer-bei-speedmaster-in-eberstalzell_a5975977 ('erwirtschaftet einen Jahresumsatz von 29 Mill | Fatturato ca. 29 Mio EUR/anno e ca. 300 dipendenti (meinbezirk.at, Landeshauptmann-Besuch); secondo stabilimento a Stein |
+| Steirerpack GmbH | dimensione | Il campo dichiara fatturato e dipendenti 'non pubblicati', ma il dato esiste ed è ottimo per il target: ca. 100 dipendenti e quasi 17 Mio. € di fatturato annuo, con l'azienda nata da un management buy-out del 2014 dei due attuali Geschäftsführer Wolf | meinbezirk.at/murtal/c-wirtschaft/moederbrugg-kartonhersteller-steirerpack-ist-gut-ausgelastet_a2322165: 'rund 100 Mitarbeiter und einen Jahresumsatz  | Fatturato ca. 17 Mio. € - ca. 100 dipendenti (fonte meinbezirk.at/Murtal). Indipendente dal 2014 (MBO Habenberger/Grafen |
 | Storebest Ladeneinrichtungen GmbH | referente | Gernot Karlsböck risulta Prokurist (authorized signatory) della '"Storebest" Ladeneinrichtungen Gesellschaft m.b.H.', mentre come Geschäftsführer e' indicato Martin Klapka. Il referente dichiarato non e' quindi il vertice statutario. DA CONFERMARE su | https://www.firmenabc.at/storebest-ladeneinrichtungen-gesellschaft-m-b-h_um ('Gernot Karlsböck (Dkfm.) ... Prokurist; Martin Klapka ... Geschäftsführe |  |
+| TEGUM Technische Gummiwaren Gesellschaft m.b | dimensione | Il campo non contiene alcun dato dimensionale (né fatturato né dipendenti né anno): non è verificabile che l'azienda rientri nella forbice 5-40 M€. Si tratta di una micro/piccola realtà familiare di Hallein, verosimilmente sotto la soglia minima di 5 | firmenabc.at/tegum-technische-gummiwaren-gesellschaft-m-b-h-co_lgH e at.kompass.com/c/tegum-technische-gummiwaren-gesmbh-co/at038351/: nessun Umsatz/B |  |
 | Tschurtschenthaler Gerberei GmbH | sito | Sito aziendale assente ('n.d.'): nessun dominio proprio individuato nelle fonti pubbliche, solo schede di directory (herold, cylex, europages). | https://www.herold.at/gelbe-seiten/st-stefan-im-gailtal/RZ2RJ/tschurtschenthaler-gerberei-gmbh/ - scheda senza URL aziendale |  |
+| Ulrich Etiketten Gesellschaft m.b.H. | sito | Il dominio istituzionale dell'azienda è ulrich-etiketten.at (sito, news e sezione jobs), non ulrich.at come riportato nel campo sito e nel campo fonte. Di conseguenza anche l'e-mail ulrich@ulrich.at va riverificata: non è ritrovata letteralmente nell | ulrich-etiketten.at/ulrich-news/ e ulrich-etiketten.at/jobs/; karriere.at/f/ulrich-etiketten; at.linkedin.com/company/ulrich-etiketten-gesmbh | https://www.ulrich-etiketten.at |
+| Ulrich Etiketten Gesellschaft m.b.H. | dimensione | Il fatturato è sottostimato e la fonte è debole: già nel 2020 la stampa locale riportava 38 Mio. € (non 33 Mio. € nel 2023), con un investimento di 20 Mio. € nel nuovo sito di Höbersdorf su 60.000 m². Con questi numeri l'azienda è al limite superiore | meinbezirk.at/korneuburg/c-wirtschaft/20-millionen-werden-in-hoebersdorf-investiert_a5096194: '38 Millionen Euro Umsatz (2020) ... 20 Millionen Euro I |  |
 | Waldviertler Werkstätten GmbH | dimensione | Dato di fatturato datato (2016-2019) e non riconciliato: le fonti citano 31 Mio EUR di ricavi 2016 riferiti all'universo GEA e, per la controllante Heinrich Staudinger GmbH, un totale di bilancio 2024 di 5,45 Mio EUR. Il perimetro societario del dato | https://www.firmenabc.at/heinrich-staudinger-gmbh-gea-waldviertler_NTLA - frammento: "balance sheet total of EUR 5.454.811,76 as of December 31, 2024" |  |
 | Wittmann Möbelwerkstätten GmbH | dimensione | Conferma dell'incoerenza gia' segnalata: la stima Die Deutsche Wirtschaft di 45,0 Mio EUR e' riferita al 2023, mentre il totale di bilancio 2024 e' 9.611.765,78 EUR. Nessun fatturato ufficiale pubblicato. Esiste inoltre una seconda 'Wittmann Möbelwer | https://die-deutsche-wirtschaft.de/famu_top/oesterreich-wittmann-moebelwerkstaetten-gmbh-etsdorf-am-kamp-umsatz-mitarbeiterzahl/ (stima 45,0 Mio EUR,  |  |
 
 ---
 
-## 6. Casi di gravità BASSA (163)
+## 6. Casi di gravità BASSA (176)
 
 _Refusi formali e incoerenze di stile._
 
@@ -1436,7 +1569,7 @@ _Refusi formali e incoerenze di stile._
 | Veldhuis Media B.V. | email | Incoerenza formale tra e-mail e dominio del sito: e-mail info@veldhuis.nl ma sito www.veldhuismedia.nl. DA CONFERMARE quale dei due domini sia la casella attiva. | Campi 'email' e 'sito' del record stesso (info@veldhuis.nl vs https://www.veldhuismedia.nl) |  |
 | Zaadhof's Cartonnage Fabrieken B.V. | referente | Referente incompleto e ruolo impreciso: l'attuale vertice è Jan Meindert Zaadhof (54), directeur, che guida l'azienda insieme alla sorella Karina Wessels (55), quarta generazione. Inoltre il campo dimensione data l'attività al 1951, mentre l'azienda  | https://www.rtvnoord.nl/economie/1416341/made-in-grunn-winschoter-familiebedrijf-maakt-jaarlijks-tientallen-miljoenen-verpakkingen — 'Jan Meindert Zaa | Jan Meindert Zaadhof — Directeur (co-gestione con Karina Wessels); fondazione 1910, sede Winschoten dal 1951 |
 
-### Belgio (33)
+### Belgio (42)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -1446,6 +1579,7 @@ _Refusi formali e incoerenze di stile._
 | Belignum NV | dimensione | Discordanza 16,1 vs 14,7 M€ RISOLTA a favore di 14,7 M€: due fonti indipendenti (trendstop NL e trendstop FR/Levif) riportano concordemente EUR 14.746.642 e 10,8 FTE per l'ultimo bilancio depositato il 02-07-2024 (esercizio 2023). La cifra di EUR 16. | https://trendstop.knack.be/nl/detail/405348449/belignum.aspx - 'omzet van 14.746.642 euro, 40e in de sector houthandel... laatst neergelegde jaarreken | Fatturato EUR 14.746.642, esercizio 2023 (bilancio depositato 02-07-2024), 10,8 FTE - eliminare il riferimento a 16.075. |
 | Bruyerre Chocolates SA | linkedin | Campo LinkedIn vuoto: esiste una pagina aziendale belga attiva. Da verificare se copra la sola Bruyerre Chocolates SA o l'intero marchio Bruyerre (che include anche Bruyerre SA distribuzione, BE 0431.703.151). | https://be.linkedin.com/company/bruyerre | https://be.linkedin.com/company/bruyerre (DA CONFERMARE la corrispondenza con l'entita' 0688.794.525) |
 | Buzzispace NV | dimensione | Il campo indica la produzione 'in Kempen' (implicitamente Belgio): le fonti aziendali collocano lo stabilimento produttivo a Bladel, nei Paesi Bassi. La sede sociale ad Anversa resta corretta, ma l'attivita' manifatturiera non e' belga; l'azienda ha  | https://officeinsight.com/officenewswire/buzzispace-appoints-new-ceo-announces-new-role-for-former-ceo-and-founder/ - frammento: "showrooms in Antwerp |  |
+| Cafés Delahaut SRL | ruolo | Ruolo generico e non statutario ('Dirigente (4ª generazione)'). La qualifica formale iscritta in KBO/BCE per Francois Delahaut e' Administrateur et Gerant, in carica dal 15-05-2013. | https://www.pappers.be/fr/company/cafes-delahaut-0418920135 — 'Francois Delahaut est Administrateur et Gerant en poste depuis le 15/05/2013' | Administrateur / Gérant |
 | Callens NV (Callens African Woods) | referente | Thierry Maelfait risulta confermato alla guida, ma dal 2021-2022 e' entrata in azienda la figlia Sam Maelfait, indicata dalle fonti come zaakvoerster/marketingverantwoordelijke: verificare chi sia oggi il rappresentante legale. Nota formale: per una  | https://www.voka.be/nieuws/west-vlaanderen-ondernemers-2024-19/callens-african-woods-heeft-productiefaciliteiten-kameroen - frammento: "Sam Maelfait,  |  |
 | Cartonnages Delsaux SA | ruolo | 'Amministratore' non e' un titolo statutario belga. Per una SA vallona il titolo corretto e' administrateur delegue (o administrateur). La co-direzione familiare con Charles e Sylvie Delsaux e' confermata dalle fonti. | ccimag.be/2019/05/28/cartonnages-delsaux-cartons-pousser-fleurs/: 'Christophe Delsaux et Charles Delsaux, avec leur soeur Sylvie, dirigent l'entrepris | Administrateur delegue |
 | Chocolaterie Ickx NV | dimensione | Fatturato confermato nell'ordine di grandezza ma con cifra leggermente diversa dalla fonte: trendstop/pappers riportano 32.272.193 € (27° posto di settore) contro i 32.746.626 € del record. FTE 139,7 e deposito 26-03-2026 confermati. | Frammento: "With a turnover of 32,272,193 euros, Chocolaterie Ickx is ranked 27th in the chocolate and confectionery sector" — https://www.pappers.be/ |  |
@@ -1455,12 +1589,15 @@ _Refusi formali e incoerenze di stile._
 | Decadt Houthandel NV | ruolo | Stefaan Decadt e' confermato al vertice, ma il ruolo pubblicato e' 'bedrijfsleider' (LinkedIn) e non 'Algemeen directeur'; per una NV il titolo statutario sarebbe 'gedelegeerd bestuurder'. Inoltre coesistono due siti web riferiti a Decadt a Vlamertin | https://be.linkedin.com/in/stefaan-decadt-8b8144113 - frammento: "Stefaan Decadt - bedrijfsleider bij decadt houthandel nv"; siti concorrenti https:// | Ruolo: Bedrijfsleider / gedelegeerd bestuurder |
 | Decadt Houthandel NV | dimensione | Data di fondazione discordante: il campo indica 01-01-1975 (data di costituzione della NV) mentre le fonti aziendali datano l'attivita' al 1927. Fatturato 13.460.408 EUR confermato. | https://trendstop.knack.be/nl/detail/415284714/decadt-houthandel.aspx - frammento: "With a turnover of 13,460,408 euros, Decadt Houthandel is ranked 4 |  |
 | Denderwood NV | dimensione | Il fatturato non e' pubblicato (schema abbreviato): la collocazione dimensionale resta indeterminata e potenzialmente sotto la soglia dei 5 M EUR. Il campo lo dichiara ('TAGLIA DA VERIFICARE'), ma il dato non e' riscontrabile su NBB. Resto del record | https://www.atibt.org/en/members/24/denderwood e https://www.denderwood.com/over-ons/ - frammento: "Denderwood is located at J. Cardijnstraat, 3 B-942 |  |
-| Desmedt Labels BV | sede | Indirizzo non riportato nel record; per completezza la sede operativa pubblicata e' Cesar Van Kerckhovenstraat 110, 2880 Bornem (n. impresa BE 0405.891.946, non citato nel campo dimensione a differenza degli altri record del blocco). | https://www.bsearch.be/companyinfo/2/9080776953493421/G10/SE/desmedt-labels-bornem-en.html — 'Bornem, 2880, Cesar Van Kerckhovenstraat 110'; https://w | Bornem, Provincia di Anversa (Fiandre) — BE 0405.891.946 |
+| Desmedt Labels BV | sede | Il record non riporta ne' indirizzo ne' numero d'impresa, a differenza degli altri record del blocco. Sede pubblicata: Cesar Van Kerckhovenstraat 110, 2880 Bornem; n. impresa BE 0405.891.946. | https://www.bsearch.be/companyinfo/2/9080776953493421/G10/SE/desmedt-labels-bornem-en.html — 'Bornem, 2880, Cesar Van Kerckhovenstraat 110'; https://w | Bornem (C. Van Kerckhovenstraat 110), Provincia di Anversa (Fiandre) — BE 0405.891.946 |
+| Etilux SA | linkedin | Campo vuoto benche' la pagina aziendale LinkedIn esista. | https://be.linkedin.com/company/etilux | https://be.linkedin.com/company/etilux |
 | Hannecard Benelux NV | linkedin | Il LinkedIn indicato (linkedin.com/company/hannecard-nv) e' la pagina del gruppo Hannecard, non della sola Hannecard Benelux NV: coerente con il rilievo sul legame di gruppo. Non e' un errore grave ma va segnalato che il contatto porta alla capogrupp | https://www.linkedin.com/company/hannecard-nv — pagina unica del gruppo; https://trendstop.knack.be/nl/detail/694906812/hannecard-benelux.aspx (entita |  |
 | Hercorub NV | dimensione | Il numero di addetti e' riportato come forbice generica ('ca. 67-95 dipendenti, fonte aziendale') invece che come dato NBB: va sostituito con il dato FTE dell'ultimo bilancio depositato. Fatturato (15.240.806 EUR) e numero d'impresa confermati. Da ag | https://trendstop.knack.be/nl/detail/421767381/hercorub.aspx — "Hercorub recorded a total turnover of EUR 15,240,806.00"; https://www.hercorub.be/p/ho |  |
 | Hercorub NV | referente | Il referente indicato (Patrick Lenaerts, afgevaardigd bestuurder) e' confermato, ma la societa' ha due gedelegeerd bestuurders: Patrick Lenaerts e Suzy Hermans. Nessun errore, solo integrazione. Confermato anche l'uso di gomma naturale (NR) nelle mes | https://www.hercorub.be/p/geschiedenis.html — "Patrick Lenaerts en Suzy Hermans werden gedelegeerd bestuurders van Hercorub"; https://www.hercorub.be/ |  |
 | Hulpiau Hides BV | dimensione | Il campo usa come proxy dimensionale il margine lordo (2.284.726 EUR) di UN'ALTRA entita' giuridica (Hulpiau BV, BE 0429.082.864), non della societa' target BE 0777.875.662, che deposita a schema abbreviato e non pubblica il fatturato. Dato confermat | https://www.companyweb.be/en/0777875662/hulpiau-hides - frammento: "There are 6.1 FTEs working at Hulpiau Hides according to staff figures in the most |  |
+| Kartonnage Lefevere-Beel NV | ruolo | Ruolo impreciso: Didier Lefevere non figura come bestuurder in proprio ma come RAPPRESENTANTE PERMANENTE (vaste vertegenwoordiger) dal 01-07-2021 della persona giuridica amministratrice; bestuurder nominata il 22-12-2023 e' Marieke Lannoo, accanto al | https://fincheck.be/nl/kartonnage-lefevere---beel/0413.759.339/Wielsbeke/bestuurders — 'Marieke Lannoo (appointed as director on 22/12/2023), Didier L | Vaste vertegenwoordiger / Bestuurder |
 | Klingele Chocolade NV | referente | Referente confermato (Koen Klingele, cofondatore 1995) ma incompleto: la societa' e' co-gestita dalla moglie Eline Blanchaert, indicata dalle fonti come zaakvoerder alla pari. Da notare che le fonti usano 'zaakvoerder', titolo proprio della BV, mentr | vrt.be/vrtnws/nl/2025/11/05: 'Koen Klingele en Eline Blanchaert, zaakvoerders van Klingele Chocolade'; jaarrekening.be/nl/KLINGELE-CHOCOLADE/0479.916. | Koen Klingele (con Eline Blanchaert) — gedelegeerd bestuurder |
+| Koffie St.-Michel NV | ruolo | 'Bedrijfsleider' non e' una qualifica statutaria belga per una NV: il mandato formale e' gedelegeerd bestuurder (o bestuurder). Refuso di forma. | https://www.companyweb.be/en/0406919552/koffie-st-michel — forma giuridica NV/SA; https://stmichel.be/en/about-us/ presenta Hendrik Hanssens come 'cur | Gedelegeerd bestuurder |
 | Lavrijsen Houtbedrijf NV | ruolo | Jan e Bert Lavrijsen sono confermati alla guida dell'azienda, ma per una NV il titolo statutario corretto e' 'gedelegeerd bestuurder / bestuurder', non 'zaakvoerder' (termine proprio delle BV). | https://lavrijsen.be/over-ons/ - frammento: "Jan and Bert Lavrijsen are at the helm of the company with secured succession" | Bestuurders / gedelegeerd bestuurders |
 | Le Cercle du Cacao SRL | sede | Sede incoerente con la fonte aziendale: il sito ufficiale indica Rue des Sables 16, boite 4, 1000 Bruxelles (Bruxelles-Ville), non Schaerbeek 1030. DA CONFERMARE quale sia la sede sociale attuale iscritta alla BCE. | lecercleducacao.be/contact/: 'Le Cercle du Cacao est situé Rue des Sables 16, Boite 4 - 1000 Bruxelles' | Bruxelles-Ville (1000) — Regione di Bruxelles-Capitale |
 | Libeert NV | sede | Refuso formale: la sede registrale e' Avenue des Chateaux 107A, 7780 Comines-Warneton; il record scrive la forma giuridica come NV mentre companyweb indicizza l'impresa come SA (societa' vallona francofona). Coerenza da sistemare fra denominazione (L | https://www.companyweb.be/en/0407026747/libeert — "Libeert (SA) - Comines-Warneton (7780) - BE0407026747" | Libeert SA |
@@ -1472,20 +1609,29 @@ _Refusi formali e incoerenze di stile._
 | Radermecker SRL | dimensione | Discordanza sugli addetti: il record indica 9,1 FTE (bilancio BNB), mentre la scheda Europages dichiara 20-49 dipendenti. Il fatturato non e' pubblicato (schema abbreviato): la collocazione dimensionale resta non verificabile. | https://www.europages.fr/TANNERIE-RADERMECKER/BEL069426-000019048001.html - frammento: "The company employs between 20 and 49 people" |  |
 | Royal Botania NV | ruolo | 'CEO e cofondatore' non e' un titolo statutario belga; per una NV il titolo corretto e' gedelegeerd bestuurder / bestuurder (le fonti usano 'zaakvoerder', incoerente con la forma NV). | https://www.apbc.be/stories/awd-2-kris-van-puyvelde-royal-botania | Gedelegeerd bestuurder |
 | Silco NV | sito | Nessun sito web proprio reperito per Silco NV in 3 ricerche: l'azienda compare solo su banche dati societarie (trendstop, companyweb, fincheck, northdata, staatsbladmonitor). Coerente con la struttura a 1 FTE. Il campo vuoto e' quindi corretto, ma va | https://www.northdata.com/Silco%20N.V.,%20Antwerpen/KBO%200715.792.692 - solo scheda registro; nessun dominio aziendale nei risultati | n.d. (nessun sito web aziendale) |
+| Snel Grafics SA | linkedin | Il campo contiene il profilo PERSONALE del referente (in/roland-soubras-63aa1560) e non la pagina aziendale, come richiesto dal tracciato. | https://be.linkedin.com/in/roland-soubras-63aa1560 — 'Roland SOUBRAS - Administrateur délégué SNEL Grafics' |  |
 | VC Wood Zottegem NV | linkedin | L'URL LinkedIn indicato (company/vc-wood-zottegem) non corrisponde alla pagina che emerge dalle ricerche, che e' company/vc-wood. DA CONFERMARE quale delle due sia attiva. | https://be.linkedin.com/company/vc-wood (risultato di ricerca per 'VC Wood Zottegem houthandel') | https://be.linkedin.com/company/vc-wood |
+| Van de Velde Packaging NV | ruolo | Ruolo sottodimensionato e in contraddizione con il campo dimensione: il testo afferma che 'il gedelegeerd bestuurder iscritto in KBO e' la persona giuridica P. Van de Velde NV', mentre le banche dati indicano Carl Mourisse come GEDELEGEERD BESTUURDER | https://fincheck.be/nl/van-de-velde-packaging/0444.255.050/Lichtervelde/bestuurders — 'Carl Mourisse has been in the role of Gedelegeerd bestuurder si | Gedelegeerd bestuurder |
+| Varia-Pack NV | linkedin | Campo vuoto benche' la pagina aziendale LinkedIn esista. | https://be.linkedin.com/company/varia-pack-nv — 'Variapack nv \| LinkedIn' | https://be.linkedin.com/company/varia-pack-nv |
+| coffeeRoots NV | linkedin | Prefisso regionale LinkedIn errato: la pagina e' indicizzata con 'fr.' (Francia) per un'azienda belga. Refuso formale, la pagina risolve comunque. | https://fr.linkedin.com/company/coffeeroots — record; il prefisso coerente per il Belgio e' be.linkedin.com | https://be.linkedin.com/company/coffeeroots |
+| coffeeRoots NV | ruolo | Ruolo impreciso su due punti: (a) 'Bedrijfsleider' non e' qualifica statutaria per una NV (il mandato formale e' gedelegeerd bestuurder); (b) il record descrive Camille Willems come 'co-guida', mentre le fonti lo indicano come VOORZITTER (presidente) | https://www.sterck-magazine.be/oost-vlaanderen/editie-18/van-koffiemoleken-tot-wereldspeler-4000/ — 'tweede generatie ondernemer Chantal Hoorens en vo | Gedelegeerd bestuurder (CEO) |
 
-### Austria (14)
+### Austria (18)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
 | Alvorada Kaffeerösterei GmbH | sito | Il dominio istituzionale del marchio è alvorada.com (con shop my-alvorada.com), coerente con l'e-mail sales@alvorada.com; alvorada.wien è un dominio secondario e il link è in http non sicuro. | http://www.alvorada.com/cn/3/Kontakt e https://www.my-alvorada.com/ ; e-mail pubblicata sales@alvorada.com | https://www.alvorada.com |
+| Flatz GmbH | dimensione | Refuso informativo: la nota 'Hans-Peter Flatz indicato come co-Geschäftsführer in fonti di stampa' è superata. Stefan Flatz ha rilevato la guida dell'azienda dal padre Hans-Peter con effetto 1° gennaio 2018, in terza generazione (non 4a). | wirtschaftszeit.at/news/stefan-flatz-uebernimmt-vorarlberger-familienunternehmen-flatz-in-3-generation/: 'Stefan Flatz übernimmt mit 1. Jänner 2018 di |  |
 | HOLZBAU MAIER GmbH & Co KG | dimensione | Il fatturato di ca. 35,0 Mio EUR e' una stima non ufficiale di die-deutsche-wirtschaft.de e non riporta l'anno di riferimento, come richiesto per i dati dimensionali. Confermati invece FN 525501x/LG Salzburg e la co-GF Hildegund Maier. | https://www.maier.at/de/impressum.html - frammento: "Geschaeftsfuehrer: Hildegund Maier (representing since 07.04.2005) and Dipl.Ing Birgit Maier (07. |  |
 | Holzindustrie Schafler GmbH & Co KG | ruolo | Il ruolo riportato ('Gewerberechtlicher Geschaeftsfuehrer') sottostima la posizione: l'Impressum aziendale indica Bernd (Christoph) Schafler come Geschaeftsfuehrer e proprietario, quarta generazione familiare. | https://www.schafler-holz.at/impressum - frammento: "Geschaeftsfuehrer: Bernd Schafler... current managing director and owner Bernd Christoph Schafler | Geschäftsführer / Inhaber |
+| KUK-Austria GmbH | ruolo | Il campo riporta il ruolo minore 'Gewerberechtliche Geschäftsführerin' (responsabile ai fini della licenza commerciale). Le fonti aziendali/istituzionali indicano Mag. Claudia Neuhold come CEO/Geschäftsführerin a pieno titolo: il ruolo va allineato. | firmen.wko.at/kuk-austria-gmbh/oberösterreich (gewerberechtliche GF: Mag. Claudia Luzia Neuhold); advantageaustria.org/al/company/en/kuk-austria-gmbh  | Geschäftsführerin (CEO) |
 | Karnische Massiv Möbel GmbH | denominazione | Ragione sociale a Firmenbuch: 'Karnische-Massiv-Moebel Gesellschaft m.b.H.' (con trattini), FN 094638z, LG Klagenfurt; 'Karnische Massiv Moebel GmbH' e' il nome commerciale. Refuso formale. Confermati invece GF Werner Hohenwarter (fratello Otto Proku | https://www.firmenabc.at/karnische-massiv-moebel-gesellschaft-m-b-h_Xyc e https://www.northdata.de/Karnische-Massiv-M%C3%B6bel%20GmbH,%20Kirchbach/094 | Karnische-Massiv-Möbel Gesellschaft m.b.H. |
 | MAFI Naturholzboden GmbH | dimensione | Il fatturato di 22,3 Mio EUR e' datato al 2017 nel record, ma la fonte (die-deutsche-wirtschaft.de) lo presenta come dato piu' recente disponibile con crescita del 2,8% rispetto a una stima precedente di 20,0 Mio EUR. Anno di riferimento da riconferm | https://die-deutsche-wirtschaft.de/famu_top/oesterreich-mafi-naturholzboden-gmbh-schneegattern-umsatz-mitarbeiterzahl/ - frammento: "The most recent a |  |
 | Mühlbauer Holz GmbH | sede | Himberg e' la sede operativa (Franz-Lehn-Gasse 7, 2325 Himberg), ma la sede legale iscritta al Firmenbuch e' 1080 Wien, Laudongasse 47/52 (anche l'iscrizione WKO e' su Vienna). | https://www.evi.gv.at/f/283235y (titolo: 'Mühlbauer Holz GmbH 1080 Wien \| Firmenbuch'); https://firmen.wko.at/m%C3%BChlbauer-holz-gmbh/wien/ | Himberg (Niederösterreich) — sede operativa; sede legale 1080 Wien |
 | Mühlbauer Holz GmbH | referente | Referente corretto ma recentissimo e da datare: DI Joe Mühlbauer-Elbl e' iscritto come Geschäftsführer dal 04.02.2025, dopo la morte del titolare/GF Ing. Franz Mühlbauer (febbraio 2025). Diverse fonti (incl. l'Impressum aziendale indicizzato) riporta | https://www.holzkurier.com/content/holz/holzkurier/de/holzprodukte/2025/02/franz-muehlbauer-verstorben-.html ; https://www.wirtschaft.at/u/283235y ('v |  |
 | SCHAFFER SÄGEWERK-HOLZEXPORT GmbH | ruolo | Markus Schaffer risulta Geschäftsführer a tutti gli effetti dal 01.06.2016 nel Firmenbuch (non solo 'gewerberechtlicher'). Nell'Impressum del sito compare invece come 'Prok. Schaffer Markus'. Il ruolo indicato va semplificato in Geschäftsführer. E-ma | https://www.evi.gv.at/f/137937z ('Markus Schaffer ... seit 01.06.2016'); https://www.schafferholz.com/en/legal-information/ ('Prok. Schaffer Markus, F | Geschäftsführer |
+| Salzer Papier GmbH | dimensione | Numero di Firmenbuch errato: il campo indica FN 312367p, mentre Salzer Papier GmbH (3100 St. Pölten) risulta iscritta con FN 211554i. Da correggere. Aggiornamento organi: oltre a Thomas Salzer (rappresentante dal 26.07.2001) risultano iscritti Lucas  | evi.gv.at/f/211554i: 'Salzer Papier GmbH 3100 St. Pölten ... Thomas Salzer vertritt seit 26.07.2001; Lucas Mott seit 01.12.2024; Dr. Harald Egger seit | FN 211554i, LG St. Pölten |
+| Samson-Druck Gesellschaft m.b.H. | dimensione | Dato leggermente da aggiornare: le fonti di settore riportano oltre 19 Mio. € di fatturato con ca. 110 dipendenti (non 18 Mio. €/120). Assetto direttivo riorganizzato a novembre 2024: Markus Ramsbacher resta Geschäftsführer, Tibor Valentin ha assunto | die-salzburger-industrie.at/unternehmen/samson-druck-gesellschaft-m-b-h/ e sn.at/salzburg/wirtschaft/samson-druck-lungau-geschaeftsleitung-168052363:  | Fatturato oltre 19 Mio. € - ca. 110 dipendenti (fonte die-salzburger-industrie.at / SN.at, 2024) |
 | Speedmaster GmbH | referente | La societa' ha due Geschäftsführer: Dipl.-Ing. (FH) Hermann Huber e Günther Schweiger (Prokurist: Dr. Philipp Waechter). Hermann Huber e' corretto, ma va indicata la co-gestione con Schweiger, coerente con la nota di scissione da Schweiger GmbH ripor | https://www.evi.gv.at/f/262852y ; https://www.wirtschaft.at/u/262852y (GF: Hermann Huber, Günther Schweiger; Prok. Philipp Waechter) |  |
 | Storebest Ladeneinrichtungen GmbH | denominazione | Ragione sociale esatta a Firmenbuch: '"Storebest" Ladeneinrichtungen Gesellschaft m.b.H.' (FN 117692b); 'Storebest Ladeneinrichtungen GmbH' e' il nome commerciale. | https://www.firmenabc.at/storebest-ladeneinrichtungen-gesellschaft-m-b-h_um ; https://firmen.wko.at/%22storebest%22-ladeneinrichtungen-gesellschaft-mb | "Storebest" Ladeneinrichtungen Gesellschaft m.b.H. |
 | Wallner Holzhandel GmbH | referente | Gerhard Wallner e' Geschäftsführer a pieno titolo (non solo 'gewerberechtlicher') e la gestione e' condivisa con Mag. Hans-Christian Riegler, BWL, secondo Geschäftsführer indicato nell'Impressum aziendale. | https://www.holz-wallner.at/de/impressum ('Geschäftsführung: Gerhard Wallner, Mag. Hans-Christian Riegler BWL; FN 267061m, HG St. Pölten'); https://ww | Geschäftsführer (con Mag. Hans-Christian Riegler) |
