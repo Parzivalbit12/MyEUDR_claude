@@ -1,0 +1,47 @@
+[
+ {
+  "foglio": "Austria",
+  "denominazione": "Alvorada Kaffeerösterei GmbH",
+  "campo": "dimensione",
+  "problema": "Filiale nazionale di gruppo estero: la GmbH viennese è controllata al 100% da Minges Kaffeerösterei GmbH (Kißlegg, DE) e il GF è lo stesso Ulli Minges. La compliance EUDR si decide alla capogruppo tedesca. Legame già dichiarato nel campo, quindi gravità media, ma il lead va riqualificato o spostato su Minges (DE).",
+  "gravita": "media",
+  "evidenza": "wirtschaft.at/u/507244y: 'Alvorada Kaffeerösterei GmbH ... vertreten seit 02.03.2019 durch Ulli Minges'; minges-kaffee.de/en/collections/alvorada; momentum.wien/pressemitteilung/minges-kaffee/",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Alvorada Kaffeerösterei GmbH",
+  "campo": "sito",
+  "problema": "Il dominio istituzionale del marchio è alvorada.com (con shop my-alvorada.com), coerente con l'e-mail sales@alvorada.com; alvorada.wien è un dominio secondario e il link è in http non sicuro.",
+  "gravita": "bassa",
+  "evidenza": "http://www.alvorada.com/cn/3/Kontakt e https://www.my-alvorada.com/ ; e-mail pubblicata sales@alvorada.com",
+  "correzione_proposta": "https://www.alvorada.com"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "BAG Ölmühle BetriebsgmbH",
+  "campo": "dimensione",
+  "problema": "Il fatturato 33-35 Mio. € risale a dichiarazioni del GF Willim del 2019 (non 2024): dato con oltre 6 anni, da riconfermare. Il campo lo presenta come 'dati 2019-2024'. Nota di merito EUDR: circa l'80% dell'olio di soia prodotto va al settore energetico rinnovabile (biodiesel), quindi la quota food/feed rilevante per l'Allegato I è soprattutto il Sojaextraktionsschrot; il perimetro resta valido (soia = Allegato I) ma la ragione del contatto va calibrata.",
+  "gravita": "media",
+  "evidenza": "meinbezirk.at/guessing/c-wirtschaft/sojamuehle-guessing-baut-weiter-aus_a2984919 (2019): 'Willim ... Jahresumsatz von 33 bis 35 Millionen Euro'; bagoil.at: '80% des produzierten Sojaöls ... erneuerbare Energie'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Franz Hauswirth Ges.m.b.H.",
+  "campo": "referente",
+  "problema": "Dopo il risanamento la direzione operativa è cambiata di nuovo: la stampa locale (2025) indica Kerstin Stava e Lisa-Marie Dormayer alla Betriebsleitung dello stabilimento di Kittsee, mentre Kühbacher e Stava restano iscritti come rappresentanti in Firmenbuch. Referente da riconfermare prima del contatto.",
+  "gravita": "media",
+  "evidenza": "bvz.at/neusiedl/neue-betriebsleitung-brucker-duo-soll-schokofirma-hauswirth-wieder-auf-kurs-bringen-475190819 e meinbezirk.at/neusiedl-am-see/c-wirtschaft/hauswirth-startet-mit-neuer-fuehrung-durch_a7319913",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Franz Hauswirth Ges.m.b.H.",
+  "campo": "dimensione",
+  "problema": "Assetto: 100% delle quote in capo a Landgarten GmbH (Bruck an der Leitha, AT). Non è un gruppo estero e il legame è già dichiarato nel campo, ma la decisione di compliance EUDR si concentra sulla capogruppo Landgarten: valutare il contatto a quel livello.",
+  "gravita": "media",
+  "evidenza": "trend.at/unternehmen/rechtzeitig-vor-ostern-hauswirth-mit-neuem-eigentuemer; registro: 'Landgarten GmbH 100%'",
+  "correzione_proposta": ""
+ }
+]

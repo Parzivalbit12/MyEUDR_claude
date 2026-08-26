@@ -122,6 +122,15 @@ if corr:
             h.append(f"| {esc(c['foglio'])} | {esc(c['denominazione'])[:32]} | {esc(c['campo'])} | "
                      f"{testo[:170]} | {esc(c['motivo'])[:110]} |")
 
+h.append("\n> ⚠️ **Limite della normalizzazione ortografica del foglio Italia — da tenere presente.** "
+         "Le 18 riscritture `Srl`→`S.r.l.` e `SpA`→`S.p.A.` correggono **come è scritta** la forma "
+         "giuridica, non **quale** sia: assumono che il foglio l'avesse indovinata. Su **Arko** "
+         "l'assunzione era falsa — le fonti camerali danno `ARKO S.R.L.` con la stessa P.IVA "
+         "03278760263 — e la normalizzazione l'aveva resa `Arko S.p.A.`, cioè aveva reso più "
+         "autorevole una forma sbagliata. Il record è stato corretto dopo la verifica di merito. "
+         "Lo stesso può valere per i record dei blocchi Italia **non ancora verificati**: solo il "
+         "controllo record per record distingue un refuso di scrittura da una forma giuridica errata.\n")
+
 h.append("\n### Correzioni deliberatamente NON applicate\n")
 h.append("Tre categorie di rilievi formali sono state lasciate aperte nel report invece che "
          "corrette nei fogli. Il motivo è sempre lo stesso: la correzione automatica avrebbe "

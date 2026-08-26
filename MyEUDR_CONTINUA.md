@@ -526,6 +526,14 @@ la taglia non è fra le categorie correggibili d'ufficio.
 3. **Le email dubbie** restano `DA CONFERMARE`: il mandato vieta sia di inventarle sia di
    cancellarle d'ufficio.
 
+⚠️ **Limite della normalizzazione ortografica italiana, scoperto strada facendo.** Le 18 riscritture
+`Srl`→`S.r.l.` e `SpA`→`S.p.A.` correggono **come è scritta** la forma giuridica, non **quale** sia:
+assumono che il foglio l'avesse indovinata. Su **Arko** l'assunzione era falsa (le fonti camerali
+danno `ARKO S.R.L.` con la stessa P.IVA 03278760263), e la normalizzazione aveva reso più autorevole
+una forma sbagliata. Corretto dopo la verifica di merito. **Lo stesso può valere per i blocchi Italia
+non ancora verificati**: solo il controllo record per record distingue un refuso di scrittura da una
+forma giuridica errata.
+
 Non sono state applicate nemmeno le **espansioni di ragioni sociali abbreviate ma corrette**
 (Göbel, Fuhlrott in Germania) né `AB` → `Aktiebolag` in Svezia, dove il foglio **non ha uno stile
 maggioritario** (47 `AB` contro 42 `Aktiebolag`): normalizzare sarebbe stato arbitrario. In Italia

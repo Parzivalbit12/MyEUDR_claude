@@ -41,11 +41,11 @@
  },
  {
   "foglio": "Italia",
-  "denominazione": "Arko SpA",
+  "denominazione": "Arko S.p.A.",
   "campo": "denominazione",
-  "da": "Arko SpA",
-  "a": "Arko S.p.A.",
-  "motivo": "normalizzazione ortografica della forma giuridica allo stile del foglio (S.r.l./S.p.A.)"
+  "da": "Arko S.p.A.",
+  "a": "Arko S.r.l.",
+  "motivo": "forma giuridica ERRATA in origine, non solo scritta male: con la stessa P.IVA 03278760263 le fonti camerali (ufficiocamerale, registroaziende, aziende.it) riportano ARKO S.R.L. La prima normalizzazione ortografica l'aveva resa «Arko S.p.A.», conservando la forma sbagliata: corretta dopo la verifica di merito."
  },
  {
   "foglio": "Italia",

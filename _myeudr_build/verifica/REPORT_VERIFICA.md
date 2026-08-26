@@ -150,7 +150,7 @@ Il foglio **Finlandia** conteneva varianti storiche della tassonomia (`Legno/Com
 | Italia | Conceria Emmedue | denominazione | «Conceria Emmedue» → «Conceria Emmedue S.r.l.» | forma giuridica mancante: al Registro Imprese è CONCERIA EMMEDUE S.R.L., P.IVA 00793250242 |
 | Italia | 3C Lavorazione Pelli S.r.l. | denominazione | «3C Lavorazione Pelli S.r.l.» → «3 C - Lavorazione Pelli S.r.l.» | ragione sociale a registro: «3 C - LAVORAZIONE PELLI S.R.L.» (due fonti concordi) |
 | Italia | A. Brivio Compensati SpA | denominazione | «A. Brivio Compensati SpA» → «A. Brivio Compensati S.p.A.» | normalizzazione ortografica della forma giuridica allo stile del foglio (S.r.l./S.p.A.) |
-| Italia | Arko SpA | denominazione | «Arko SpA» → «Arko S.p.A.» | normalizzazione ortografica della forma giuridica allo stile del foglio (S.r.l./S.p.A.) |
+| Italia | Arko S.p.A. | denominazione | «Arko S.p.A.» → «Arko S.r.l.» | forma giuridica ERRATA in origine, non solo scritta male: con la stessa P.IVA 03278760263 le fonti camerali (u |
 | Italia | Aster Cucine SpA | denominazione | «Aster Cucine SpA» → «Aster Cucine S.p.A.» | normalizzazione ortografica della forma giuridica allo stile del foglio (S.r.l./S.p.A.) |
 | Italia | Basso Legnami Srl | denominazione | «Basso Legnami Srl» → «Basso Legnami S.r.l.» | normalizzazione ortografica della forma giuridica allo stile del foglio (S.r.l./S.p.A.) |
 | Italia | Bedogna F.lli Srl | denominazione | «Bedogna F.lli Srl» → «Bedogna F.lli S.r.l.» | normalizzazione ortografica della forma giuridica allo stile del foglio (S.r.l./S.p.A.) |
@@ -167,6 +167,9 @@ Il foglio **Finlandia** conteneva varianti storiche della tassonomia (`Legno/Com
 | Italia | PALM SpA SB | denominazione | «PALM SpA SB» → «PALM S.p.A. SB» | normalizzazione ortografica della forma giuridica allo stile del foglio (S.r.l./S.p.A.) |
 | Italia | Segheria Saccavini Srl | denominazione | «Segheria Saccavini Srl» → «Segheria Saccavini S.r.l.» | normalizzazione ortografica della forma giuridica allo stile del foglio (S.r.l./S.p.A.) |
 | Italia | Zalf SpA (Zalf Industria Mobili  | denominazione | «Zalf SpA (Zalf Industria Mobili Componibili)» → «Zalf S.p.A. (Zalf Industria Mobili Componibili)» | normalizzazione ortografica della forma giuridica allo stile del foglio (S.r.l./S.p.A.) |
+
+> ⚠️ **Limite della normalizzazione ortografica del foglio Italia — da tenere presente.** Le 18 riscritture `Srl`→`S.r.l.` e `SpA`→`S.p.A.` correggono **come è scritta** la forma giuridica, non **quale** sia: assumono che il foglio l'avesse indovinata. Su **Arko** l'assunzione era falsa — le fonti camerali danno `ARKO S.R.L.` con la stessa P.IVA 03278760263 — e la normalizzazione l'aveva resa `Arko S.p.A.`, cioè aveva reso più autorevole una forma sbagliata. Il record è stato corretto dopo la verifica di merito. Lo stesso può valere per i record dei blocchi Italia **non ancora verificati**: solo il controllo record per record distingue un refuso di scrittura da una forma giuridica errata.
+
 
 ### Correzioni deliberatamente NON applicate
 
@@ -188,15 +191,15 @@ Tre categorie di rilievi formali sono state lasciate aperte nel report invece ch
 
 | Foglio | Aziende | Blocchi completi | Blocchi parziali | Blocchi da fare | Aziende verificate | Copertura |
 |---|--:|--:|--:|--:|--:|--:|
-| Italia | 95 | 1 | 1 | 3 | 34 | 36% |
+| Italia | 95 | 2 | 0 | 3 | 38 | 40% |
 | Germania | 97 | 2 | 0 | 4 | 34 | 35% |
 | Finlandia | 84 | 1 | 0 | 4 | 17 | 20% |
 | Danimarca | 88 | 3 | 0 | 2 | 54 | 61% |
 | Svezia | 89 | 2 | 0 | 3 | 36 | 40% |
 | Olanda | 99 | 3 | 0 | 3 | 51 | 52% |
-| Belgio | 94 | 3 | 0 | 2 | 57 | 61% |
-| Austria | 92 | 2 | 0 | 3 | 38 | 41% |
-| **TOTALE** | **738** | **17** | **1** | **24** | **321** | **43%** |
+| Belgio | 94 | 3 | 1 | 1 | 59 | 63% |
+| Austria | 92 | 2 | 1 | 2 | 41 | 45% |
+| **TOTALE** | **738** | **18** | **2** | **22** | **330** | **45%** |
 
 _Un blocco è contato **completo** solo se l'agente ha confermato di aver verificato tutti i record. I **blocchi parziali** sono quelli ancora in corso o interrotti dal limite di sessione: i rilievi già salvati sono validi e inclusi nel report, ma la copertura è conteggiata al ribasso (solo le aziende che compaiono fra i rilievi). Il salvataggio incrementale ogni 3-4 record è ciò che ha evitato di perdere quel lavoro._
 
@@ -208,33 +211,33 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 
 ## 2. Rilievi per foglio
 
-**Totale rilievi Fase B: 515** — alta 70 · media 290 · bassa 155.
+**Totale rilievi Fase B: 536** — alta 71 · media 302 · bassa 163.
 
 | Foglio | Rilievi | alta | media | bassa | Aziende toccate |
 |---|--:|--:|--:|--:|--:|
-| Italia | 58 | 1 | 28 | 29 | 32 |
+| Italia | 69 | 1 | 33 | 35 | 36 |
 | Germania | 56 | 3 | 38 | 15 | 34 |
 | Finlandia | 23 | 6 | 11 | 6 | 15 |
 | Danimarca | 74 | 19 | 36 | 19 | 49 |
 | Svezia | 58 | 10 | 28 | 20 | 32 |
 | Olanda | 96 | 12 | 64 | 20 | 44 |
-| Belgio | 115 | 15 | 68 | 32 | 57 |
-| Austria | 34 | 4 | 17 | 13 | 25 |
+| Belgio | 120 | 16 | 71 | 33 | 59 |
+| Austria | 39 | 4 | 21 | 14 | 28 |
 | _(tutti)_ | 1 | 0 | 0 | 1 | 1 |
-| **TOTALE** | **515** | **70** | **290** | **155** | **289** |
+| **TOTALE** | **536** | **71** | **302** | **163** | **298** |
 
 ### Rilievi per campo
 
 | Campo | Rilievi | di cui alta |
 |---|--:|--:|
-| dimensione | 244 | 39 |
-| referente | 114 | 15 |
-| denominazione | 39 | 9 |
-| email | 38 | 2 |
+| dimensione | 252 | 39 |
+| referente | 119 | 15 |
+| email | 41 | 2 |
+| denominazione | 40 | 9 |
 | linkedin | 20 | 0 |
-| sito | 14 | 0 |
-| filiera | 14 | 4 |
-| sede | 13 | 1 |
+| sito | 15 | 0 |
+| sede | 15 | 1 |
+| filiera | 15 | 5 |
 | ruolo | 13 | 0 |
 | fonte | 5 | 0 |
 | esistenza_stato | 1 | 0 |
@@ -335,7 +338,7 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 
 ---
 
-## 4. Casi di gravità ALTA (70)
+## 4. Casi di gravità ALTA (71)
 
 _Dato falso, azienda non contattabile, azienda cessata/fallita/acquisita, oppure fuori dal perimetro dell'Allegato I EUDR._
 
@@ -766,7 +769,7 @@ Assetto proprietario dichiarato errato: il campo indica ancora 'Soci: PALI Group
 **Correzione proposta:** Controllata al 100% di Vitelco B.V. (PALI Group), 's-Hertogenbosch
 
 
-### Belgio (15)
+### Belgio (16)
 
 #### Accent NV — campo `dimensione`
 
@@ -791,6 +794,14 @@ LEGAME DI GRUPPO NON DICHIARATO. Corne Port-Royal Chocolatier SA (BE 0433.283.55
 **Evidenza:** https://www.pappers.be/fr/company/corne-port-royal-chocolatier-0433283558 — dirigeants: NEUHAUS, BELLEGRO (administrateur delegue), Valerie Paquot, Isabel Baert, nomine dal 05-12-2023. Frammento RTBF/RetailDetail: "Neuhaus rachete le chocolatier Corne Port-Royal" (https://www.rtbf.be/article/wavre-corne-port-royal-rachete-par-neuhaus-7994003); "Neuhaus Holding a rachete Corne Port-Royal au groupe Distripar, filiale de la CNP".
 
 **Correzione proposta:** Dichiarare nel campo dimensione: controllata dal gruppo Neuhaus (Neuhaus SA amministratore) dal 2013; valutare l'esclusione del lead perche' la compliance e' decisa dalla capogruppo.
+
+#### Covera Packaging NV — campo `filiera`
+
+ERRORE DI PERIMETRO EUDR: non produce imballaggi in cartone ondulato. Il sito aziendale si presenta come 'Groothandel glas- en kunststofverpakkingen' (grossista di imballaggi in vetro e plastica rigida): bottiglie, vasi, secchi, taniche e fusti in vetro e plastica. Nata nel 1946 come Comptoir Verrier Anversois (commercio vetro), svolta sulla plastica negli anni '60. Nessuna commodity Allegato I; in piu' e' un distributore, non un immettitore.
+
+**Evidenza:** https://covera.be/en/ — titolo pagina 'Covera Packaging: Groothandel glas- en kunststofverpakkingen'; https://covera.be/en/about-us-2/ 'Covera Packaging is een groothandel in harde plastiek en glasverpakking'; europages classifica 'Glass hollowware, Plastics - packaging, glass, plastic pails'
+
+**Correzione proposta:** Rimuovere il record dal dataset (fuori Allegato I EUDR)
 
 #### Dolfin SA — campo `dimensione`
 
@@ -926,20 +937,25 @@ REFERENTE OBSOLETO DI DUE PASSAGGI. Heinz Hofer-Wittmann non e' piu' alla guida:
 
 ---
 
-## 5. Casi di gravità MEDIA (290)
+## 5. Casi di gravità MEDIA (302)
 
 _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente errato._
 
 
-### Italia (28)
+### Italia (33)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
 | A. Brivio Compensati SpA | dimensione | Dato obsoleto: 15,41M€ è il 2023; il bilancio 2024 riporta ricavi per 12,24M€ (-20%) e una perdita di -365.141€, con 84 dipendenti. L'azienda resta in forbice ma in contrazione. | https://www.companyreports.it/a-brivio-compensati-spa-02109430153 — 'Fatturato € 12.241.471,00 (2024); Utile € -365.141,00 (2024); Dipendenti 84' | ≈12,2M€ (fatturato 2024, Registro Imprese) — perdita netta 2024 |
 | Arko SpA | referente | Referente e ruolo assenti; dalla ricerca emerge il vertice attuale. | Frammento: 'Luca Visentin is the CEO/Amministratore Delegato'; consiglieri Marco Montali e Simone Grandis (kompass.com/c/arko-s-p-a/it0164330/, impres | Luca Visentin — Amministratore Delegato (DA CONFERMARE su visura) |
 | Arko SpA | email | Email 'n.d.', sito e LinkedIn vuoti: record non contattabile. Nessuna email pubblica reperita; disponibili solo i telefoni 0422 867830 / 0422 867801 (Via Istria 22, Motta di Livenza). | https://www.paginebianche.it/motta-di-livenza/arko.780879 (solo numeri di telefono, nessuna email) |  |
+| Bartoli S.p.A. | dimensione | Dato obsoleto (2022): il bilancio 2024 riporta ricavi 12,1 mln € in calo del 17,9% sul 2023 (14,8 mln €); organico confermato a ~60 dipendenti. | https://www.reportaziende.it/bartoli_societa_per_azioni_lu_01753090461 'fatturato 2024 € 12,1 mln, -17,9%; 2023 € 14,8 mln'; https://atoka.io/public/i | ≈12,1M€ (2024, -17,9% sul 2023) / ~60 dip. (ReportAziende/Atoka) |
+| Bartoli S.p.A. | email | Nel campo e' indicata una PEC (bartolispa@pec.it), non riscontrata letteralmente nei frammenti pubblici e comunque non adatta al contatto commerciale: l'indirizzo operativo pubblicato dall'associazione di categoria e' info@bartolispa.it. | https://www.assocarta.it/it/aziende-associate/17-b/822-bartoli.html 'Email: info@bartolispa.it - Tel. 0583/980196' | info@bartolispa.it |
+| Bartoli S.p.A. | referente | Referente e ruolo assenti: il legale rappresentante indicato dalle fonti e' Giorgio Giovanni Bartoli. | https://www.luccaimprese.it/imprese/bartoli-spa e https://www.dnb.com/business-directory/company-profiles.bartoli_spa.d87e01b4d7329d49978e25034bccb739 | Giorgio Giovanni Bartoli — Presidente/Legale rappresentante (ruolo esatto DA CONFERMARE su visura) |
 | Bedogna F.lli Srl | dimensione | Dato del 2019 e non aggiornato: il bilancio 2024 riporta ricavi per 20,91M€ (in calo del 37,2% sul 2023) e organico 20-49 dipendenti. | https://topaziende.quotidiano.net/lombardia/mantova/fatturato-bedogna-f-lli-s-r-l/ e https://www.aziende.it/bedogna-f-lli-s-r-l 'ricavi 2024 € 20.912. | ≈20,9M€ (2024) / 20-49 dip. (bilancio 2024, Aziende.it/TopAziende) |
 | Bedogna F.lli Srl | email | Email 'n.d.'. Sul sito l'indirizzo e' offuscato via JavaScript e non compare in chiaro nei frammenti pubblici; reperiti solo tel. +39 0375 838112 e fax +39 0375 89894. DA CONFERMARE. | https://www.misterimprese.it/lombardia/mantova/dosolo/pallets/610146.html (solo telefono); https://imballaggi.bedogna.it/it/ (email protetta da JavaSc |  |
+| Box Marche S.p.A. | referente | Referente e ruolo assenti: Tonino Dominici e' Presidente e Amministratore Delegato di Box Marche. | https://www.este.it/relatori-eventi/tonino-dominici/ e https://www.quotidiano.net/economia/made-in-italy/sostenibilita-e-fattore-umano-fanno-la-differ | Tonino Dominici — Presidente e Amministratore Delegato |
+| Box Marche S.p.A. | email | Email 'n.d.' e LinkedIn vuoto. Nei frammenti pubblici compare solo la PEC amministrazioneboxmarche@sicurezzapostale.it; nessun indirizzo commerciale in chiaro. DA CONFERMARE sul sito boxmarche.it. | https://www.ufficiocamerale.it/6215/box-marche-spa 'PEC: amministrazioneboxmarche@sicurezzapostale.it' |  |
 | C.I.M.A. Srl (Compensati Impiallacciature Ma | referente | Referente e ruolo assenti: dalle fonti camerali risulta Alessandro Dal Soglio come Presidente. | Frammento reportaziende/ufficiocamerale su P.IVA 00227040284: 'Key Contact: Alessandro Dal Soglio (President)' | Alessandro Dal Soglio — Presidente (DA CONFERMARE su visura) |
 | Caccaro Srl | email | Email 'n.d.' e LinkedIn vuoto: nessun indirizzo reperito in chiaro nei frammenti pubblici (solo tel. 049 9318911). DA CONFERMARE. | https://www.informazione-aziende.it/Azienda_CACCARO-SRL (telefono 0499318911, sito www.caccaro.com; nessuna email) |  |
 | Conceria 800 S.p.A. | dimensione | Fatturato indicato 11,4M€; il bilancio 2023 riporta 9,12M€ con perdita netta di -547.884€. Dato sovrastimato e società in perdita (20-49 dipendenti). | https://topaziende.quotidiano.net/toscana/pisa/fatturato-conceria-800-spa/ — 'ricavi 9.118.508 € (2023); utile netto -547.884 €; dipendenti 20-49' | ≈9,1M€ (bilancio 2023, Top Aziende) — perdita netta 2023 |
@@ -1166,7 +1182,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Veldhuis Media B.V. | dimensione | Dato di fatturato obsoleto e numero dipendenti errato. Il fatturato citato (ca. 15,5 M€) è del 2017 (8 anni fa). Il numero di dipendenti indicato (21-50) è smentito dalle fonti recenti: l'azienda conta ca. 111 addetti dopo il trasferimento Raalte→Mep | https://www.kijkopoostnederland.nl/veldhuis-media-houdt-focus-en-dat-levert-veel-op/ e https://pitchbook.com/profiles/company/540017-29 — frammenti: ' |  |
 | Zaadhof's Cartonnage Fabrieken B.V. | fonte | La fonte citata NON sostiene il dato riportato. Il campo dimensione attribuisce a RTV Noord un 'fatturato ca. 6 M€/anno', ma l'articolo parla di 'tientallen miljoenen verpakkingen' all'anno, cioè decine di milioni di IMBALLAGGI prodotti, non di euro  | https://www.rtvnoord.nl/economie/1416341/made-in-grunn-winschoter-familiebedrijf-maakt-jaarlijks-tientallen-miljoenen-verpakkingen — titolo: 'Winschot | Rimuovere il fatturato di 6 M€ o indicarne la fonte reale; dichiarare che il fatturato non è pubblicato |
 
-### Belgio (68)
+### Belgio (71)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -1194,9 +1210,12 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Corné Port-Royal Chocolatier SA | referente | Referente e ruolo vuoti ed email 'n.d.'. Dalle fonti registrali l'administrateur delegue e' la societa' di management BELLEGRO (persona fisica non esposta nei frammenti gratuiti); gli altri amministratori nominati il 05-12-2023 sono NEUHAUS SA, Valer | https://www.pappers.be/fr/company/corne-port-royal-chocolatier-0433283558 — "BELLEGRO ... Administrateur, Administrateur delegue ... depuis le 5 decem |  |
 | Corpack NV | dimensione | Il campo dichiara il dato 'NON REPERITO', ma parte dell'informazione e' pubblica: l'ultimo bilancio depositato alla NBB (17-07-2026) riporta 44,3 FTE, e i repertori d'impresa collocano Corpack nella fascia di fatturato 10-25 M€ con 20-49 addetti. Man | companyweb.be/en/0452991978/corpack: 'The most recent financial statements of Corpack were filed on 17-07-2026 ... 44.3 FTEs'; be.kompass.com/c/corpac | N. impresa BE 0452.991.978. 44,3 FTE (bilancio NBB depositato 17-07-2026); fatturato non pubblicato, stimato 10-25 M€ (K |
 | Corpack NV | referente | Referente e ruolo assenti: il record non e' utilizzabile per un contatto nominale. Ne' trendstop, ne' companyweb, ne' bizzy.org pubblicano il nome del gedelegeerd bestuurder della NV. DA CONFERMARE tramite Moniteur belge / BCE. | Ricerche 'Corpack 0452.991.978 bestuurders/gedelegeerd bestuurder' su trendstop.knack.be/nl/detail/452991978, companyweb.be/en/0452991978/corpack, biz |  |
+| Covera Packaging NV | dimensione | Il fatturato non e' pubblicato (schema abbreviato): la fascia 10-25 M€ e' solo il bracket dichiarativo di trendstop, non un dato di bilancio. Il dato realmente depositato e' il margine lordo di € 1.939.893 con 9,3 FTE (bilancio depositato 06-06-2025) | https://fincheck.be/nl/covera-packaging/0462.810.754/Antwerpen/overzicht — 'gross margin of €1,939,893.25', '9.3 FTEs', 'most recent financial stateme |  |
 | Decolvenaere BV | dimensione | Fatturato fortemente sottostimato. Il campo riporta 'oltre 10 milioni di euro' (fonte giornalistica Sterck Magazine), ma i dati di bilancio piu' recenti indicano un fatturato totale di 38.585.036 EUR, con altre fonti che collocano l'azienda nella fas | Frammenti di ricerca su Decolvenaere BV (BE 0400.079.171): "The most recent financial statements show a total turnover of EUR 38,585,036.00" e "turnov | Fatturato ~38,6 M EUR (ultimo bilancio depositato NBB) — DA RICONFERMARE sulla fonte NBB primaria |
 | Delafaille NV | referente | Il referente indicato (Paul Daems) e' esplicitamente uscente: le fonti sull'operazione Maestrani (23-06-2025) confermano che Daems, proprietario e CEO, resta solo 'per un periodo limitato' per accompagnare la transizione e che verra' nominato un nuov | Frammento just-food: "Paul Daems, Delafaille's current owner and CEO, [will] stay with the company for a 'limited period' as he aids the transition, b |  |
 | Delafaille NV | dimensione | Il legame di gruppo e' dichiarato ma la conclusione tratta nel campo ('resta pero' PMI belga autonoma con obblighi EUDR propri') e' opinabile: Maestrani Schweizer Schokoladen ha acquisito il 100% delle azioni di Delafaille e della sua controllata cec | Frammento bpv Braun Partners: "Maestrani ... acquisition of Belgian chocolate manufacturer Delafaille with a major Czech subsidiary [Ostrapack]"; "Del |  |
+| Desmedt Labels BV | email | Campo valorizzato 'n.d.' mentre l'indirizzo generico e' pubblicato sulla pagina contatti del sito aziendale. | https://www.desmedt.be/en/contact — 'info@desmedt.be', tel. +32 3 283 33 33 | info@desmedt.be |
+| Desmedt Labels BV | dimensione | Fatturato indicato (6,5 M€ con 32 dipendenti, fonte made-in.be/Voka) e organico 'ca. 21 persone' contraddetti dalle banche dati: bracket dichiarato 10.000.000-25.000.000 € con 20-49 addetti e 40,5 FTE nell'ultimo bilancio depositato. Il dato del fogl | https://www.companyweb.be/en/0405891946/desmedt — 'turnover is between €10,000,000 - €25,000,000, with 20-49 staff members'; '40.5 FTEs according to t |  |
 | Dolfin SA | referente | Referente e ruolo vuoti ed email 'n.d.'. Le fonti pubbliche indicano Jean-Jacques de Gruben come proprietario e Directeur General di Dolfin SA (ha rilevato la cioccolateria nel 2007 insieme a Gilles van der Meerschen). | Frammento: "En 2007, Jean-Jacques de Gruben a repris les renes de la Chocolaterie Dolfin" (https://www.dolfin.be/en/who-are-we/); "Jean-Jacques de Gru | referente: Jean-Jacques de Gruben — ruolo: Administrateur delegue / Directeur general (DA CONFERMARE il titolo statutari |
 | Extremis NV | dimensione | Fatturato potenzialmente obsoleto: il campo riporta 12.900.125 EUR e 24,8 FTE dall'ultimo bilancio, ma risulta gia' depositato un bilancio piu' recente (deposito 02-07-2026) i cui dati non sono riflessi nel record. DA AGGIORNARE. | https://www.companyweb.be/en/0434625128/extremis - frammento: "The most recent financial statements of Extremis were filed on 02-07-2026" |  |
 | Gudrun Commercial NV | dimensione | Legame di gruppo dichiarato ma incompleto e con conseguenze non tratte: Natra ha acquisito il 100% di Gudrun (annuncio ottobre 2024) dal fondo Down2Earth Capital, e Natra e' a sua volta partecipata dal fondo di private equity britannico CapVest. Gudr | https://www.just-food.com/news/capvest-backed-natra-buys-chocolate-peer-gudrun/ ; https://www.capvest.com/news/gudrun ("Natra acquired 100% of Gudrun  | Integrare: acquisita al 100% da Natra (gruppo partecipato da CapVest) nell'ottobre 2024; venditore Down2Earth Capital. |
@@ -1239,12 +1258,16 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Vanerum Belgie NV | dimensione | Il legame di gruppo e' dichiarato ma incompleto: i3-Group non e' piu' interamente familiare. WorxInvest ha acquistato circa il 25% per 10 M€ e nel novembre 2023 anche il gruppo americano Steelcase ha preso una partecipazione. La compliance EUDR si de | derijkstebelgen.be 'NIEUW – WorxInvest betaalt 10 miljoen euro voor kwart van Van Erum schoolborden'; holahageland.net 'Na WorxInvest neemt ook Amerik |  |
 | Woodtex NV | dimensione | Dato di fatturato superato. Il record riporta 11.778.466 € (deposito 23-06-2025); l'ultimo bilancio depositato (01-06-2026) indica 12.131.554 € con 35 FTE. | companyweb.be/en/0413744194/woodtex: 'Woodtex recorded a total turnover of €12,131,554.00. The most recent financial statements were filed on 01-06-20 | Fatturato 12.131.554 € - 35 FTE (bilancio NBB depositato 01-06-2026) |
 
-### Austria (17)
+### Austria (21)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
+| Alvorada Kaffeerösterei GmbH | dimensione | Filiale nazionale di gruppo estero: la GmbH viennese è controllata al 100% da Minges Kaffeerösterei GmbH (Kißlegg, DE) e il GF è lo stesso Ulli Minges. La compliance EUDR si decide alla capogruppo tedesca. Legame già dichiarato nel campo, quindi grav | wirtschaft.at/u/507244y: 'Alvorada Kaffeerösterei GmbH ... vertreten seit 02.03.2019 durch Ulli Minges'; minges-kaffee.de/en/collections/alvorada; mom |  |
+| BAG Ölmühle BetriebsgmbH | dimensione | Il fatturato 33-35 Mio. € risale a dichiarazioni del GF Willim del 2019 (non 2024): dato con oltre 6 anni, da riconfermare. Il campo lo presenta come 'dati 2019-2024'. Nota di merito EUDR: circa l'80% dell'olio di soia prodotto va al settore energeti | meinbezirk.at/guessing/c-wirtschaft/sojamuehle-guessing-baut-weiter-aus_a2984919 (2019): 'Willim ... Jahresumsatz von 33 bis 35 Millionen Euro'; bagoi |  |
 | BRAUN LOCKENHAUS GmbH | dimensione | Filiale di gruppo estero: la societa' e' controllata da SCHNEEWEISS AG / SCHNEEWEISS interior, con sede del gruppo a Kippenheim (Baden-Württemberg, DE), dal 2006. La decisione di compliance EUDR si assume a livello di capogruppo tedesca. Il legame e' | https://www.braunlockenhaus.at/en/imprint - frammento: "Geschäftsführer Jochen Joachims und Gesellschafter SCHNEEWEISS AG"; "Braun Lockenhaus is part  |  |
 | Breitschopf Gesellschaft mbH & Co KG | referente | Il referente indicato (Martin Breitschopf) fa parte del 'Fuehrungstrio' familiare dal 2021 con delega a vendite/finanza/strategia, ma il Geschaeftsfuehrer iscritto dal 2001 risulta Dipl.-Ing. Johann Breitschopf. Il ruolo formale di Martin come GF non | https://www.meinbezirk.at/steyr-steyr-land/c-wirtschaft/breitschopf-kuechen-setzt-auf-fuehrungstrio_a6834711 - frammento: "Johann Breitschopf (Dipl.-I |  |
+| Franz Hauswirth Ges.m.b.H. | referente | Dopo il risanamento la direzione operativa è cambiata di nuovo: la stampa locale (2025) indica Kerstin Stava e Lisa-Marie Dormayer alla Betriebsleitung dello stabilimento di Kittsee, mentre Kühbacher e Stava restano iscritti come rappresentanti in Fi | bvz.at/neusiedl/neue-betriebsleitung-brucker-duo-soll-schokofirma-hauswirth-wieder-auf-kurs-bringen-475190819 e meinbezirk.at/neusiedl-am-see/c-wirtsc |  |
+| Franz Hauswirth Ges.m.b.H. | dimensione | Assetto: 100% delle quote in capo a Landgarten GmbH (Bruck an der Leitha, AT). Non è un gruppo estero e il legame è già dichiarato nel campo, ma la decisione di compliance EUDR si concentra sulla capogruppo Landgarten: valutare il contatto a quel liv | trend.at/unternehmen/rechtzeitig-vor-ostern-hauswirth-mit-neuem-eigentuemer; registro: 'Landgarten GmbH 100%' |  |
 | Hrachowina Fenster & Türen GmbH | dimensione | Fatturato ca. 25 Mio EUR dichiarato come stima non ufficiale (die-deutsche-wirtschaft.de) e senza anno. Da segnalare inoltre il precedente di insolvenza 2019 della controllata produttiva H&W Holzfensterproduktions-GmbH (JV con Weinzetl), poi rilevata | https://www.holzkurier.com/holzprodukte/2019/06/hrachowina.html - frammento: "H&W Holzfensterproduktions-GmbH had to file for insolvency in late Febru |  |
 | Jannach Lärchenholz GmbH | email | Campo e-mail vuoto ('n.d.'): l'Impressum offusca l'indirizzo in chiave anti-spam e nessuna fonte pubblica riporta letteralmente un recapito. Il lead resta contattabile solo via form/telefono. DA CONFERMARE. | https://jannach.com/kontakt/impressum.html - pagina Impressum senza indirizzo e-mail in chiaro; conferma GF: "Mag. (FH) Helmut Jannach is the manager  |  |
 | Ludwig Reiter Schuhmanufaktur GmbH | email | L'indirizzo office@ludwig-reiter.com non compare nell'Impressum aziendale, che riporta reiter@ludwig-reiter.com come recapito di contatto. | https://www.ludwig-reiter.com/de/impressum - frammento: "telephone +43-1-2559300, fax +43-1-2559300-77, and email reiter@ludwig-reiter.com" | reiter@ludwig-reiter.com |
@@ -1263,12 +1286,12 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 
 ---
 
-## 6. Casi di gravità BASSA (155)
+## 6. Casi di gravità BASSA (163)
 
 _Refusi formali e incoerenze di stile._
 
 
-### Italia (29)
+### Italia (35)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -1276,9 +1299,15 @@ _Refusi formali e incoerenze di stile._
 | A. Brivio Compensati SpA | denominazione | Forma giuridica scritta in modo non conforme: al Registro Imprese la ragione sociale è 'A. BRIVIO COMPENSATI S.P.A.' (non 'SpA'). | https://www.ufficiocamerale.it/1666/a-brivio-compensati-spa — 'A. BRIVIO COMPENSATI S.P.A., Partita IVA: 02109430153 ... Forma giuridica: SOCIETA' PER | A. Brivio Compensati S.p.A. |
 | Arko SpA | denominazione | Forma giuridica errata: con la stessa P.IVA 03278760263 le fonti camerali riportano ARKO S.R.L., non S.p.A. | https://www.ufficiocamerale.it/4331/arko-spa titolo 'ARKO S.R.L., Partita IVA: 03278760263'; https://registroaziende.it/azienda/arko-srl-motta-di-live | Arko S.r.l. |
 | Aster Cucine SpA | dimensione | Dato obsoleto: disponibile il bilancio 2024 (17,31M€, -1,74% su 2023) e organico ~70 dipendenti, non ~92. | https://www.aziende.it/aster-cucine-s-p-a 'ricavi 2024 € 17.312.732 ... 70 dipendenti'; https://topaziende.quotidiano.net/marche/pesaro-urbino/fattura | ≈17,3M€ (2024) / ~70 dip. (Aziende.it, bilancio 2024) |
+| Bartoli S.p.A. | denominazione | Ragione sociale registrata: 'BARTOLI SOCIETA' PER AZIONI' (P.IVA 01753090461). Attenzione all'omonimia locale: a Capannori risulta anche 'F.LLI BARTOLI SPA' (schede camerali distinte) e la storica cartiera F.lli Bartoli Srl del 1972. | https://www.reportaziende.it/bartoli_societa_per_azioni_lu_01753090461 'BARTOLI SOCIETA' PER AZIONI (LU) \| 01753090461'; https://www.impresaitalia.in | Bartoli S.p.A. (ragione sociale registrata: BARTOLI SOCIETA' PER AZIONI, P.IVA 01753090461) |
+| Bartoli S.p.A. | sede | Sede indicata genericamente 'Capannori (LU)': l'indirizzo operativo e' Via Traversa di Parezzana 16, fraz. Carraia, 55012 Capannori (LU); l'azienda ha piu' unita' locali nello stesso comune. | https://www.assocarta.it/it/aziende-associate/17-b/822-bartoli.html 'Via Traversa di Parezzana, 16 - 55012 Carraia - Lucca' | Capannori (LU) - fraz. Carraia, Via Traversa di Parezzana 16 |
+| Basso Legnami Srl | referente | Referente e ruolo assenti e non reperibili nei frammenti pubblici (nessun nome di amministratore emerge da ufficiocamerale/visura.pro/PEFC). DA CONFERMARE su visura camerale. Email e sede sono invece confermate. | https://bassolegnami.com/contatti/ 'basso@bassolegnami.com - Via dell'artigianato, 6 - 13040 Rovasenda (VC) - tel. 0161.879797'; nessun referente indi |  |
+| Basso Legnami Srl | dimensione | Serie storica volatile: 16,56M€ nel 2020 e 28,44M€ nel 2022 contro i 24,8M€ (2024) riportati nel campo. Il dato 2024 non e' riconfermato dai frammenti: DA CONFERMARE l'anno di riferimento. | https://registroaziende.it/azienda/basso-legnami-srl-rovasenda 'fatturato 2022 € 28.435.267; 2020 € 16.558.172' |  |
+| Box Marche S.p.A. | dimensione | Fatturato 2024 confermato (15,12M€); l'organico esatto e' 61 dipendenti, piu' preciso della fascia '50-99' riportata. | https://www.fatturatoitalia.it/box_marche_spa-00132720426 'fatturato 2024 € 15.122.190'; https://www.aziende.it/box-marche-s-p-a '61 dipendenti' | ≈15,1M€ (2024) / 61 dip. (FatturatoItalia/Aziende.it, bilancio 2024) |
 | C.I.M.A. Srl (Compensati Impiallacciature Ma | sito | Campo sito vuoto: il sito aziendale esiste ed e' www.cima-srl.com. | https://www.reportaziende.it/compensati_impiallacciature_materiali_affini_cima_srl_in_sigla_cima_srl_pd_00227040284 'Sito: www.cima-srl.com' | https://www.cima-srl.com |
 | C.I.M.A. Srl (Compensati Impiallacciature Ma | dimensione | Valore sostanzialmente corretto ma organico impreciso: le fonti indicano fascia 50-99 dipendenti, non '~95'. | https://www.reportaziende.it/compensati_impiallacciature_materiali_affini_cima_srl_in_sigla_cima_srl_pd_00227040284 'Ricavi 2024 € 28.186.985; 2023 €  | ≈28,2M€ (2024) / 50-99 dip. (bilancio 2024, ReportAziende) |
 | Caccaro Srl | dimensione | Dato datato (2022): il bilancio 2024 riporta ricavi 22,87M€ (23 mln secondo la stampa di settore) e organico 100-199 dipendenti, non indicato nel campo. | https://design.pambianconews.com/caccaro-23-mln-di-fatturato-nel-2024/ e https://www.reportaziende.it/caccaro_srl_pd_02325900286 'ricavi 2024 € 22.871 | ≈22,9M€ (2024) / 100-199 dip. (bilancio 2024, ReportAziende; Pambianco Design) |
+| Cadorin Group Srl | referente | Record verificato e corretto su email, sito, sede e dimensione (7,69M€ 2024, utile 769.012€, 20-49 dip.); manca solo il referente, non reperibile nei frammenti pubblici. DA CONFERMARE su visura. | https://www.reportaziende.it/cadorin_group_srl_tv_03625330265 'ricavi 2024 € 7.688.272; utile € 769.012; 20-49 dipendenti'; https://www.cadoringroup.c |  |
 | Compensati Toro SpA | email | TLD errato: l'indirizzo pubblicato dall'azienda e' info@compensatitoro.it (dominio .it, coerente col sito), non info@compensatitoro.com. | https://compensatitoro.it/en/contatti/ e https://vetrina.federlegnoarredo.it/it/aziende-associate/compensati-toro-spa/2121251922 'E-mail: info@compens | info@compensatitoro.it |
 | Compensati Toro SpA | denominazione | Denominazione formale al Registro Imprese: 'COMPENSATI *TORO - S.P.A.' (P.IVA 00506540012); il nome d'uso e' Compensati Toro S.p.A. Segnalato solo per precisione formale. | https://www.ufficiocamerale.it/2719/compensati-toro-spa 'COMPENSATI *TORO - S.P.A., Partita IVA: 00506540012' | Compensati Toro S.p.A. (ragione sociale registrata: COMPENSATI *TORO - S.P.A.) |
 | Conceria Ambassador S.p.A. | linkedin | Campo vuoto: la pagina LinkedIn aziendale esiste ed è riscontrata. | https://it.linkedin.com/company/conceria-ambassador-spa — 'CONCERIA AMBASSADOR SPA \| LinkedIn' | https://it.linkedin.com/company/conceria-ambassador-spa |
@@ -1407,7 +1436,7 @@ _Refusi formali e incoerenze di stile._
 | Veldhuis Media B.V. | email | Incoerenza formale tra e-mail e dominio del sito: e-mail info@veldhuis.nl ma sito www.veldhuismedia.nl. DA CONFERMARE quale dei due domini sia la casella attiva. | Campi 'email' e 'sito' del record stesso (info@veldhuis.nl vs https://www.veldhuismedia.nl) |  |
 | Zaadhof's Cartonnage Fabrieken B.V. | referente | Referente incompleto e ruolo impreciso: l'attuale vertice è Jan Meindert Zaadhof (54), directeur, che guida l'azienda insieme alla sorella Karina Wessels (55), quarta generazione. Inoltre il campo dimensione data l'attività al 1951, mentre l'azienda  | https://www.rtvnoord.nl/economie/1416341/made-in-grunn-winschoter-familiebedrijf-maakt-jaarlijks-tientallen-miljoenen-verpakkingen — 'Jan Meindert Zaa | Jan Meindert Zaadhof — Directeur (co-gestione con Karina Wessels); fondazione 1910, sede Winschoten dal 1951 |
 
-### Belgio (32)
+### Belgio (33)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -1426,6 +1455,7 @@ _Refusi formali e incoerenze di stile._
 | Decadt Houthandel NV | ruolo | Stefaan Decadt e' confermato al vertice, ma il ruolo pubblicato e' 'bedrijfsleider' (LinkedIn) e non 'Algemeen directeur'; per una NV il titolo statutario sarebbe 'gedelegeerd bestuurder'. Inoltre coesistono due siti web riferiti a Decadt a Vlamertin | https://be.linkedin.com/in/stefaan-decadt-8b8144113 - frammento: "Stefaan Decadt - bedrijfsleider bij decadt houthandel nv"; siti concorrenti https:// | Ruolo: Bedrijfsleider / gedelegeerd bestuurder |
 | Decadt Houthandel NV | dimensione | Data di fondazione discordante: il campo indica 01-01-1975 (data di costituzione della NV) mentre le fonti aziendali datano l'attivita' al 1927. Fatturato 13.460.408 EUR confermato. | https://trendstop.knack.be/nl/detail/415284714/decadt-houthandel.aspx - frammento: "With a turnover of 13,460,408 euros, Decadt Houthandel is ranked 4 |  |
 | Denderwood NV | dimensione | Il fatturato non e' pubblicato (schema abbreviato): la collocazione dimensionale resta indeterminata e potenzialmente sotto la soglia dei 5 M EUR. Il campo lo dichiara ('TAGLIA DA VERIFICARE'), ma il dato non e' riscontrabile su NBB. Resto del record | https://www.atibt.org/en/members/24/denderwood e https://www.denderwood.com/over-ons/ - frammento: "Denderwood is located at J. Cardijnstraat, 3 B-942 |  |
+| Desmedt Labels BV | sede | Indirizzo non riportato nel record; per completezza la sede operativa pubblicata e' Cesar Van Kerckhovenstraat 110, 2880 Bornem (n. impresa BE 0405.891.946, non citato nel campo dimensione a differenza degli altri record del blocco). | https://www.bsearch.be/companyinfo/2/9080776953493421/G10/SE/desmedt-labels-bornem-en.html — 'Bornem, 2880, Cesar Van Kerckhovenstraat 110'; https://w | Bornem, Provincia di Anversa (Fiandre) — BE 0405.891.946 |
 | Hannecard Benelux NV | linkedin | Il LinkedIn indicato (linkedin.com/company/hannecard-nv) e' la pagina del gruppo Hannecard, non della sola Hannecard Benelux NV: coerente con il rilievo sul legame di gruppo. Non e' un errore grave ma va segnalato che il contatto porta alla capogrupp | https://www.linkedin.com/company/hannecard-nv — pagina unica del gruppo; https://trendstop.knack.be/nl/detail/694906812/hannecard-benelux.aspx (entita |  |
 | Hercorub NV | dimensione | Il numero di addetti e' riportato come forbice generica ('ca. 67-95 dipendenti, fonte aziendale') invece che come dato NBB: va sostituito con il dato FTE dell'ultimo bilancio depositato. Fatturato (15.240.806 EUR) e numero d'impresa confermati. Da ag | https://trendstop.knack.be/nl/detail/421767381/hercorub.aspx — "Hercorub recorded a total turnover of EUR 15,240,806.00"; https://www.hercorub.be/p/ho |  |
 | Hercorub NV | referente | Il referente indicato (Patrick Lenaerts, afgevaardigd bestuurder) e' confermato, ma la societa' ha due gedelegeerd bestuurders: Patrick Lenaerts e Suzy Hermans. Nessun errore, solo integrazione. Confermato anche l'uso di gomma naturale (NR) nelle mes | https://www.hercorub.be/p/geschiedenis.html — "Patrick Lenaerts en Suzy Hermans werden gedelegeerd bestuurders van Hercorub"; https://www.hercorub.be/ |  |
@@ -1444,10 +1474,11 @@ _Refusi formali e incoerenze di stile._
 | Silco NV | sito | Nessun sito web proprio reperito per Silco NV in 3 ricerche: l'azienda compare solo su banche dati societarie (trendstop, companyweb, fincheck, northdata, staatsbladmonitor). Coerente con la struttura a 1 FTE. Il campo vuoto e' quindi corretto, ma va | https://www.northdata.com/Silco%20N.V.,%20Antwerpen/KBO%200715.792.692 - solo scheda registro; nessun dominio aziendale nei risultati | n.d. (nessun sito web aziendale) |
 | VC Wood Zottegem NV | linkedin | L'URL LinkedIn indicato (company/vc-wood-zottegem) non corrisponde alla pagina che emerge dalle ricerche, che e' company/vc-wood. DA CONFERMARE quale delle due sia attiva. | https://be.linkedin.com/company/vc-wood (risultato di ricerca per 'VC Wood Zottegem houthandel') | https://be.linkedin.com/company/vc-wood |
 
-### Austria (13)
+### Austria (14)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
+| Alvorada Kaffeerösterei GmbH | sito | Il dominio istituzionale del marchio è alvorada.com (con shop my-alvorada.com), coerente con l'e-mail sales@alvorada.com; alvorada.wien è un dominio secondario e il link è in http non sicuro. | http://www.alvorada.com/cn/3/Kontakt e https://www.my-alvorada.com/ ; e-mail pubblicata sales@alvorada.com | https://www.alvorada.com |
 | HOLZBAU MAIER GmbH & Co KG | dimensione | Il fatturato di ca. 35,0 Mio EUR e' una stima non ufficiale di die-deutsche-wirtschaft.de e non riporta l'anno di riferimento, come richiesto per i dati dimensionali. Confermati invece FN 525501x/LG Salzburg e la co-GF Hildegund Maier. | https://www.maier.at/de/impressum.html - frammento: "Geschaeftsfuehrer: Hildegund Maier (representing since 07.04.2005) and Dipl.Ing Birgit Maier (07. |  |
 | Holzindustrie Schafler GmbH & Co KG | ruolo | Il ruolo riportato ('Gewerberechtlicher Geschaeftsfuehrer') sottostima la posizione: l'Impressum aziendale indica Bernd (Christoph) Schafler come Geschaeftsfuehrer e proprietario, quarta generazione familiare. | https://www.schafler-holz.at/impressum - frammento: "Geschaeftsfuehrer: Bernd Schafler... current managing director and owner Bernd Christoph Schafler | Geschäftsführer / Inhaber |
 | Karnische Massiv Möbel GmbH | denominazione | Ragione sociale a Firmenbuch: 'Karnische-Massiv-Moebel Gesellschaft m.b.H.' (con trattini), FN 094638z, LG Klagenfurt; 'Karnische Massiv Moebel GmbH' e' il nome commerciale. Refuso formale. Confermati invece GF Werner Hohenwarter (fratello Otto Proku | https://www.firmenabc.at/karnische-massiv-moebel-gesellschaft-m-b-h_Xyc e https://www.northdata.de/Karnische-Massiv-M%C3%B6bel%20GmbH,%20Kirchbach/094 | Karnische-Massiv-Möbel Gesellschaft m.b.H. |
