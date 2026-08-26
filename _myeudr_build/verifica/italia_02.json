@@ -295,5 +295,104 @@
   "gravita": "bassa",
   "evidenza": "https://www.reportaziende.it/zalf_industria_mobili_componibili_spa_in_breve_zalf_spa_zalf_mobili_spa_oppure_tv_00319860268 'fatturato 2024 € 27.515.600, utile € 1.589.216'",
   "correzione_proposta": "≈27,5M€ (2024, utile 1,59M€) (ReportAziende, bilancio 2024)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Bartoli S.p.A.",
+  "campo": "dimensione",
+  "problema": "Dato obsoleto (2022): il bilancio 2024 riporta ricavi 12,1 mln € in calo del 17,9% sul 2023 (14,8 mln €); organico confermato a ~60 dipendenti.",
+  "gravita": "media",
+  "evidenza": "https://www.reportaziende.it/bartoli_societa_per_azioni_lu_01753090461 'fatturato 2024 € 12,1 mln, -17,9%; 2023 € 14,8 mln'; https://atoka.io/public/it/azienda/bartoli-societa-per-azioni/4c1aca164a68 '60 employees, turnover 12.1 million euros'",
+  "correzione_proposta": "≈12,1M€ (2024, -17,9% sul 2023) / ~60 dip. (ReportAziende/Atoka)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Bartoli S.p.A.",
+  "campo": "email",
+  "problema": "Nel campo e' indicata una PEC (bartolispa@pec.it), non riscontrata letteralmente nei frammenti pubblici e comunque non adatta al contatto commerciale: l'indirizzo operativo pubblicato dall'associazione di categoria e' info@bartolispa.it.",
+  "gravita": "media",
+  "evidenza": "https://www.assocarta.it/it/aziende-associate/17-b/822-bartoli.html 'Email: info@bartolispa.it - Tel. 0583/980196'",
+  "correzione_proposta": "info@bartolispa.it"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Bartoli S.p.A.",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti: il legale rappresentante indicato dalle fonti e' Giorgio Giovanni Bartoli.",
+  "gravita": "media",
+  "evidenza": "https://www.luccaimprese.it/imprese/bartoli-spa e https://www.dnb.com/business-directory/company-profiles.bartoli_spa.d87e01b4d7329d49978e25034bccb739.html 'key principal / legale rappresentante: Giorgio Giovanni Bartoli'",
+  "correzione_proposta": "Giorgio Giovanni Bartoli — Presidente/Legale rappresentante (ruolo esatto DA CONFERMARE su visura)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Bartoli S.p.A.",
+  "campo": "denominazione",
+  "problema": "Ragione sociale registrata: 'BARTOLI SOCIETA' PER AZIONI' (P.IVA 01753090461). Attenzione all'omonimia locale: a Capannori risulta anche 'F.LLI BARTOLI SPA' (schede camerali distinte) e la storica cartiera F.lli Bartoli Srl del 1972.",
+  "gravita": "bassa",
+  "evidenza": "https://www.reportaziende.it/bartoli_societa_per_azioni_lu_01753090461 'BARTOLI SOCIETA' PER AZIONI (LU) | 01753090461'; https://www.impresaitalia.info/kk04296525/flli-bartoli-spa/capannori.aspx 'FLLI BARTOLI SPA CAPANNORI'",
+  "correzione_proposta": "Bartoli S.p.A. (ragione sociale registrata: BARTOLI SOCIETA' PER AZIONI, P.IVA 01753090461)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Bartoli S.p.A.",
+  "campo": "sede",
+  "problema": "Sede indicata genericamente 'Capannori (LU)': l'indirizzo operativo e' Via Traversa di Parezzana 16, fraz. Carraia, 55012 Capannori (LU); l'azienda ha piu' unita' locali nello stesso comune.",
+  "gravita": "bassa",
+  "evidenza": "https://www.assocarta.it/it/aziende-associate/17-b/822-bartoli.html 'Via Traversa di Parezzana, 16 - 55012 Carraia - Lucca'",
+  "correzione_proposta": "Capannori (LU) - fraz. Carraia, Via Traversa di Parezzana 16"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Box Marche S.p.A.",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti: Tonino Dominici e' Presidente e Amministratore Delegato di Box Marche.",
+  "gravita": "media",
+  "evidenza": "https://www.este.it/relatori-eventi/tonino-dominici/ e https://www.quotidiano.net/economia/made-in-italy/sostenibilita-e-fattore-umano-fanno-la-differenza-nel-packaging-7d8a0075 'Tonino Dominici, presidente e amministratore delegato di Box Marche'",
+  "correzione_proposta": "Tonino Dominici — Presidente e Amministratore Delegato"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Box Marche S.p.A.",
+  "campo": "email",
+  "problema": "Email 'n.d.' e LinkedIn vuoto. Nei frammenti pubblici compare solo la PEC amministrazioneboxmarche@sicurezzapostale.it; nessun indirizzo commerciale in chiaro. DA CONFERMARE sul sito boxmarche.it.",
+  "gravita": "media",
+  "evidenza": "https://www.ufficiocamerale.it/6215/box-marche-spa 'PEC: amministrazioneboxmarche@sicurezzapostale.it'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Box Marche S.p.A.",
+  "campo": "dimensione",
+  "problema": "Fatturato 2024 confermato (15,12M€); l'organico esatto e' 61 dipendenti, piu' preciso della fascia '50-99' riportata.",
+  "gravita": "bassa",
+  "evidenza": "https://www.fatturatoitalia.it/box_marche_spa-00132720426 'fatturato 2024 € 15.122.190'; https://www.aziende.it/box-marche-s-p-a '61 dipendenti'",
+  "correzione_proposta": "≈15,1M€ (2024) / 61 dip. (FatturatoItalia/Aziende.it, bilancio 2024)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Basso Legnami Srl",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti e non reperibili nei frammenti pubblici (nessun nome di amministratore emerge da ufficiocamerale/visura.pro/PEFC). DA CONFERMARE su visura camerale. Email e sede sono invece confermate.",
+  "gravita": "bassa",
+  "evidenza": "https://bassolegnami.com/contatti/ 'basso@bassolegnami.com - Via dell'artigianato, 6 - 13040 Rovasenda (VC) - tel. 0161.879797'; nessun referente indicato in https://www.ufficiocamerale.it/7206/basso-legnami-srl",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Basso Legnami Srl",
+  "campo": "dimensione",
+  "problema": "Serie storica volatile: 16,56M€ nel 2020 e 28,44M€ nel 2022 contro i 24,8M€ (2024) riportati nel campo. Il dato 2024 non e' riconfermato dai frammenti: DA CONFERMARE l'anno di riferimento.",
+  "gravita": "bassa",
+  "evidenza": "https://registroaziende.it/azienda/basso-legnami-srl-rovasenda 'fatturato 2022 € 28.435.267; 2020 € 16.558.172'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Cadorin Group Srl",
+  "campo": "referente",
+  "problema": "Record verificato e corretto su email, sito, sede e dimensione (7,69M€ 2024, utile 769.012€, 20-49 dip.); manca solo il referente, non reperibile nei frammenti pubblici. DA CONFERMARE su visura.",
+  "gravita": "bassa",
+  "evidenza": "https://www.reportaziende.it/cadorin_group_srl_tv_03625330265 'ricavi 2024 € 7.688.272; utile € 769.012; 20-49 dipendenti'; https://www.cadoringroup.com/contacts/ 'info@cadoringroup.it - +39 0423 544.019'",
+  "correzione_proposta": ""
  }
 ]
