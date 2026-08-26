@@ -70,5 +70,266 @@
   "gravita": "bassa",
   "evidenza": "https://www.allabolag.se/5565798435/stockhult-glommers-timber-ab — «Stockhult Glommers Timber AB - Org.nr 556579-8435 - Luleå»",
   "correzione_proposta": "Glommersträsk (Arvidsjaur) — sede legale Luleå, Norrbottens län"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Stolab Möbel AB",
+  "campo": "dimensione",
+  "problema": "Capogruppo non dichiarata: il campo cita solo l'acquisizione di Albin i Hyssna, ma Stolab Möbel AB fa parte di un gruppo di 4 società con moderbolag Martinvest i Smålandsstenar AB e koncernmoder Moid AB. Si tratta di holding riconducibili alla proprietà familiare (il VD è Martin Johansson), quindi il lead resta contattabile, ma la struttura va esplicitata.",
+  "gravita": "media",
+  "evidenza": "allabolag/bolagsfakta: «Moderbolag är Martinvest i Smålandsstenar AB och koncernmoderbolag är Moid AB ... koncern med totalt 4 bolag» — https://www.allabolag.se/5561825224/stolab-mobel-ab",
+  "correzione_proposta": "Aggiungere: «capogruppo Martinvest i Smålandsstenar AB / Moid AB (holding familiare, 4 società)»"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Stolab Möbel AB",
+  "campo": "dimensione",
+  "problema": "Fatturato 83,3 MSEK 2024 e conversione (~7,4 M€) confermati, ma il campo non evidenzia che si tratta di un esercizio in perdita (risultato -5,6 MSEK): dato commercialmente rilevante. Il valore è sotto il target 10-20 M€, correttamente segnalato.",
+  "gravita": "bassa",
+  "evidenza": "allabolag: «Under 2024 hade bolaget en omsättning på 83,3 MSEK och gjorde ett resultat på -5,6 MSEK» — https://www.allabolag.se/5561825224/stolab-mobel-ab",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Sunnerbo Fönster AB",
+  "campo": "dimensione",
+  "problema": "CONTROLLO DI GRUPPO NON DICHIARATO. Il campo non menziona alcuna capogruppo, ma Sunnerbo Fönster AB (org.nr 556708-7282) ha come moderbolag Sunnerbo Windows & Doors AB (org.nr 556986-4902). Inoltre l'esercizio 2024 chiude in perdita (-1 332 KSEK), circostanza non segnalata.",
+  "gravita": "alta",
+  "evidenza": "allabolag: «Moderbolaget är Sunnerbo Windows & Doors AB ... 40 anställda och gjorde ett resultat på -1 332 KSEK» (2024) — https://www.allabolag.se/foretag/sunnerbo-f%C3%B6nster-ab/nybro/f%C3%B6nster/2K2I01EI5YE6S",
+  "correzione_proposta": "Aggiungere: «controllata da Sunnerbo Windows & Doors AB (org.nr 556986-4902); esercizio 2024 in perdita -1,3 MSEK»"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Swedese Möbler Aktiebolag",
+  "campo": "dimensione",
+  "problema": "Capogruppo non dichiarata: il moderbolag è Patino Group AB. È la holding della proprietà (attuali soci Anna Johansson e Julio Patino, quest'ultimo anche VD e ordförande della società), quindi il referente indicato resta il decisore effettivo; va comunque esplicitato. Fatturato 165 761 KSEK 2024, -1,3%, risultato 4 153 KSEK, 87 dipendenti: tutti i dati e la conversione (~14,7 M€) risultano confermati.",
+  "gravita": "media",
+  "evidenza": "allabolag/merinfo: «Moderbolaget är Patino Group AB ... Nuvarande ägare Anna Johansson och Julio Patino» — https://www.allabolag.se/foretag/swedese-m%C3%B6bler-aktiebolag/vaggeryd/m%C3%B6bler/2JZY4YZI5YGJV",
+  "correzione_proposta": "Aggiungere: «capogruppo Patino Group AB (holding della proprietà)»"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "VårgårdaHus AB",
+  "campo": "dimensione",
+  "problema": "CAPOGRUPPO INDICATA IN MODO INCOMPLETO/FUORVIANTE. Il campo dichiara l'appartenenza a «SVENSKA HUSCOMPAGNIET AB (7 società)», che è solo la holding svedese intermedia: dal 2016 VårgårdaHus è di proprietà del gruppo danese HusCompagniet (all'epoca dell'acquisizione partecipato da EQT), venduta da TB-Gruppen. È quindi una controllata di gruppo estero e non un lead EUDR autonomo: la decisione di compliance si colloca presso la capogruppo danese.",
+  "gravita": "alta",
+  "evidenza": "mynewsdesk/TB-Gruppen: «TB-Gruppen säljer VårgårdaHus till EQT-ägda HusCompagniet» — https://www.mynewsdesk.com/se/tb-gruppen/pressreleases/tb-gruppen-saeljer-vaargaardahus-till-eqt-aegda-huscompagniet-1941087 ; «VårgårdaHus har sedan 2016 ägts av HusCompagniet, Danmarks största hustillverkare»",
+  "correzione_proposta": "Aggiungere: «controllata del gruppo danese HusCompagniet A/S tramite Svenska HusCompagniet AB — lead da valutare a livello di capogruppo»"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "VårgårdaHus AB",
+  "campo": "referente",
+  "problema": "Referente dubbio: Martin Ravn-Nielsen risulta nelle schede allabolag come ordförande/styrelseledamot ed è la figura apicale del gruppo danese HusCompagniet, non necessariamente il VD operativo svedese (nel 2021 era stata nominata VD Anna Hernefrid). Va confermato chi sia oggi il verkställande direktör della società svedese prima del contatto.",
+  "gravita": "media",
+  "evidenza": "allabolag befattningshavare: «Martin Ravn-Nielsen ... Ordförande, Styrelseledamot» — https://www.allabolag.se/befattningshavare/v%C3%A5rg%C3%A5rdahus-ab/v%C3%A5rg%C3%A5rda/hus/2K14HCFI5YF6Z ; byggvarlden.se «VårgårdaHus anställer ny vd» (Anna Hernefrid, 2021)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "VårgårdaHus AB",
+  "campo": "dimensione",
+  "problema": "Variazione di fatturato rilevante non segnalata: sull'esercizio 2024 (151 086 KSEK, 53 dipendenti) le fonti indicano una variazione del 63,3% rispetto all'anno precedente. Il campo presenta il dato come stabile «pienamente in target». Segno e ampiezza della variazione DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "allabolag/bolagsfakta: «VårgårdaHus Aktiebolag hade 53 anställda och en omsättning på 151 086 KSEK under 2024 ... 63,3 %» — https://www.allabolag.se/5564776911/bokslut",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Willa Nordic AB",
+  "campo": "dimensione",
+  "problema": "Capogruppo non dichiarata e calo di fatturato non segnalato. Moderbolag: WINO Holding AB; koncernmoder: Nordh Invest i Stockaryd AB (holding riconducibile alla proprietà; Klas Fridsäll è VD esterno). Inoltre l'esercizio 2024 (208 856 KSEK) segna -31% sul 2023 e -30% dal 2020, con risultato negativo -742 KSEK: il campo lo descrive invece come «pienamente in target» senza alcun avvertimento sul trend.",
+  "gravita": "alta",
+  "evidenza": "allabolag: «Moderbolaget är WINO Holding AB och koncernmoderbolag är Nordh Invest i Stockaryd AB ... omsättning 208 856 KSEK under 2024 ... -31 % ... 63 anställda ... resultat -742 KSEK» — https://www.allabolag.se/5563619161/willa-nordic-aktiebolag",
+  "correzione_proposta": "≈18,5 M€ / 63 dip. (allabolag 2024: 208 856 KSEK, -31%; risultato -742 KSEK) · capogruppo WINO Holding AB / Nordh Invest i Stockaryd AB"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Woodsafe Timber Protection AB",
+  "campo": "dimensione",
+  "problema": "CONTROLLO DI GRUPPO NON DICHIARATO. Il campo non menziona alcuna capogruppo, ma allabolag indica come moderbolag Fågelbacken Förvaltning AB (altra fonte riporta Woodsafe Research & Development AB): la struttura di controllo va accertata e dichiarata.",
+  "gravita": "alta",
+  "evidenza": "allabolag koncernstruktur: «Moderbolaget är Fågelbacken Förvaltning AB» — https://www.allabolag.se/5566305321/koncern",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Woodsafe Timber Protection AB",
+  "campo": "dimensione",
+  "problema": "Dato incoerente con le fonti: il campo indica 76 742 KSEK (~6,8 M€) per il 2024, mentre allabolag riporta per il 2023 105 188 KSEK (~9,3 M€), 24 dipendenti, risultato 18 944 KSEK e crescita -10,9%. Se il valore 2024 è corretto si tratta di un ulteriore calo di circa -27% non segnalato; l'anno e il calo vanno riverificati. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "allabolag: «Woodsafe Timber Protection AB hade 24 anställda och gjorde ett resultat på 18 944 KSEK med omsättning 105 188 KSEK under 2023 ... omsättningstillväxt -10,9 %» — https://www.allabolag.se/5566305321/bokslut",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Woodsafe Timber Protection AB",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti: il lead non è nominativo. Nelle fonti pubbliche non risulta un VD registrato; figura Thomas Bengtsson come ordförande/styrelseledamot. Da usare come riferimento in attesa di conferma del VD.",
+  "gravita": "media",
+  "evidenza": "allabolag befattningshavare: «Thomas Bengtsson ... Ordförande, Styrelseledamot» — https://www.allabolag.se/5566305321/befattningar",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "ZilenZio AB",
+  "campo": "dimensione",
+  "problema": "CONTROLLO DI GRUPPO NON DICHIARATO. Il campo cita un perimetro «di gruppo» (28 dipendenti) ma non nomina la catena di controllo: moderbolag ZilenZio Selling Silence AB (org.nr 559240-5640) e koncernmoderbolag Easier AB. I dati economici (123,4 MSEK es. 2025, rörelseresultat 9,1 MSEK) e il VD Hans Bergström risultano invece confermati.",
+  "gravita": "alta",
+  "evidenza": "allabolag: «Moderbolag är ZilenZio Selling Silence AB och koncernmoderbolag är Easier AB» ; «ZilenZio AB omsatte 123,4 Mkr räkenskapsåret 2025, rörelseresultat 9,1 Mkr» — https://www.allabolag.se/foretag/zilenzio-ab/%C3%B6rebro/kontorsinredningar/2K25QZTI5YF48",
+  "correzione_proposta": "Aggiungere: «capogruppo ZilenZio Selling Silence AB / Easier AB»"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Älgsjö Såg AB",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti: lead non nominativo (il campo dimensione lo dichiara correttamente). Le fonti confermano che non è registrato alcun VD; gli unici nominativi sono Jörgen Törnqvist (styrelseledamot) e Åke Törnqvist (styrelsesuppleant). Tutti gli altri dati (137,4 MSEK es. 2025, +13%, 12 dipendenti, capogruppo Älgsjö Invest AB dichiarata) risultano confermati.",
+  "gravita": "media",
+  "evidenza": "allabolag: «Styrelseledamot: Jörgen Törnqvist, Styrelsesuppleant: Åke Törnqvist ... Moderbolaget är Älgsjö Invest AB ... omsättning 137,4 MSEK, +13 %, 12 anställda» — https://www.allabolag.se/5563411577/algsjo-sag-ab",
+  "correzione_proposta": "Jörgen Törnqvist — styrelseledamot (in assenza di VD registrato)"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Åsljunga Pallen Aktiebolag",
+  "campo": "dimensione",
+  "problema": "Capogruppo non dichiarata: moderbolag Åsljunga-Pallen Service Aktiebolag (org.nr 556398-3211), gruppo di 2 società con 81 dipendenti e 255,0 MSEK complessivi. È una holding di servizio interna alla stessa realtà, quindi il lead resta valido, ma il legame va esplicitato. Fatturato 255 909 KSEK 2024, 80 dipendenti e VD Stefan Nilsson risultano confermati; conversione ~22,6 M€ corretta.",
+  "gravita": "media",
+  "evidenza": "allabolag/bolagsfakta: «Moderbolaget är Åsljunga-Pallen Service Aktiebolag ... koncernen omfattar 2 bolag ... 255 909 KSEK under 2024, 80 anställda» — https://www.allabolag.se/foretag/%C3%A5sljunga-pallen-aktiebolag/%C3%B6rkelljunga/tr%C3%A4varor-produktion/2JYU510I63IL3",
+  "correzione_proposta": "Aggiungere: «capogruppo Åsljunga-Pallen Service Aktiebolag (org.nr 556398-3211)»"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Aktiebolaget Halmstads Gummifabrik",
+  "campo": "dimensione",
+  "problema": "CONTROLLO DI GRUPPO NON DICHIARATO. Il campo non menziona alcuna capogruppo, ma il moderbolag è Janmon AB (la società ha inoltre una controllata). VD Christian Kiks (extern VD) e 81 dipendenti risultano confermati.",
+  "gravita": "alta",
+  "evidenza": "allabolag: «Moderbolaget är Janmon AB ... Aktiebolaget Halmstads Gummifabrik har 1 dotterbolag ... Lars Christian Kiks (f. 1972) Extern VD» — https://www.allabolag.se/5560516188/aktiebolaget-halmstads-gummifabrik",
+  "correzione_proposta": "Aggiungere: «capogruppo Janmon AB»"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Aktiebolaget Halmstads Gummifabrik",
+  "campo": "filiera",
+  "problema": "Perimetro EUDR da confermare: l'azienda si descrive come produttore di articoli stampati «in rubber and TPE». L'Allegato I EUDR copre la sola gomma NATURALE e i suoi derivati, non gli elastomeri sintetici né il TPE. Va accertato che utilizzi mescole di gomma naturale in quantità rilevante, altrimenti è fuori perimetro. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "bigsciencesweden.se/suppliers-partners/halmstads-gummifabrik/: «HGF is a manufacturer of advanced moulded products in rubber and TPE»",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Däckteam i Sverige Aktiebolag",
+  "campo": "filiera",
+  "problema": "ERRORE DI PERIMETRO EUDR. Non è un operatore che immette gomma sul mercato UE: l'oggetto sociale è «främja Däckteam-konceptet anslutna bolags ekonomiska intressen genom att sluta samarbetsavtal med leverantörer samt att i övrigt tillhandahålla varor, servicetjänster, marknadsföring, utbildning och verkstadsutveckling» — è la centrale acquisti/franchising di una catena di oltre 100 officine, con soli 6 dipendenti. Acquista pneumatici da produttori/importatori che li hanno già immessi sul mercato UE e li rigira alle officine affiliate: è un commerciante a valle, come i casi Hausberger (DE) e Skovs Korn (DK) già rimossi.",
+  "gravita": "alta",
+  "evidenza": "allabolag verksamhet: «...har till ändamål att främja Däckteam-konceptet anslutna bolags ekonomiska intressen genom att sluta samarbetsavtal med leverantörer...» — https://www.allabolag.se/5563904837/dackteam-i-sverige-aktiebolag",
+  "correzione_proposta": "Rimuovere il lead (commerciante a valle, non immette per primo sul mercato UE)"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Däckteam i Sverige Aktiebolag",
+  "campo": "sede",
+  "problema": "Sede errata: il campo indica Malmö, Skåne län, mentre la sede legale e operativa è a Borås (Arlagatan 12C, Västra Götalands län).",
+  "gravita": "alta",
+  "evidenza": "allabolag: «Däckteam i Sverige Aktiebolag - Org.nr 556390-4837 - Borås» — https://www.allabolag.se/5563904837/dackteam-i-sverige-aktiebolag ; hitta.se: «Däckteam i Sverige AB - 556390-4837 - Arlagatan 12C i Borås»",
+  "correzione_proposta": "Borås, Västra Götalands län"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Däckteam i Sverige Aktiebolag",
+  "campo": "dimensione",
+  "problema": "Capogruppo/struttura non dichiarata correttamente: la società è koncernmoderbolag con una controllata, DT Däckverkstäder AB. Fatturato 173,0 MSEK 2024 (risultato 2,8 MSEK) confermato; VD Martin Tillsten confermato (nominato circa dicembre 2023), ordförande Fredrik Hansson.",
+  "gravita": "bassa",
+  "evidenza": "allabolag: «Däckteam i Sverige Aktiebolag är ett koncernmoderbolag med ett dotterbolag, DT Däckverkstäder AB ... omsättning 173,0 MSEK, resultat 2,8 MSEK (2024)» — https://www.allabolag.se/5563904837/bokslut",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Puratos Sweden AB",
+  "campo": "filiera",
+  "problema": "ERRORE DI PERIMETRO EUDR. La società è la filiale commerciale svedese del gruppo belga Puratos: importa e distribuisce cioccolato (Belcolade) e cacao prodotti dal gruppo in Belgio. La prima immissione sul mercato UE avviene a monte, presso Puratos NV; la controllata svedese svolge distribuzione intra-UE ed è quindi un operatore a valle, non un soggetto EUDR autonomo. Coerente con i casi già rimossi (Hausberger DE, Skovs Korn DK). L'oggetto sociale registrato è di commercio/marketing di prodotti alimentari, non di produzione in Svezia.",
+  "gravita": "alta",
+  "evidenza": "allabolag: «tillverkning, försäljning, handel och marknadsföring av livsmedel, råvaror, produkter, maskiner...» ; 9 dipendenti — https://www.allabolag.se/foretag/puratos-sweden-ab/vellinge/livsmedel/2K3ARV7I5YFWD",
+  "correzione_proposta": "Rimuovere il lead (filiale distributiva di gruppo estero, non immette per prima sul mercato UE)"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Puratos Sweden AB",
+  "campo": "email",
+  "problema": "Lead non contattabile: il campo email riporta «n.d.» e i campi referente/ruolo sono vuoti. Nelle fonti pubbliche non risulta un VD registrato per la società svedese; gli unici nominativi sono dirigenti del gruppo belga (Olivier Luc R Tilkens, ordförande; Roel Lodewijk M Straetmans, styrelseledamot).",
+  "gravita": "alta",
+  "evidenza": "allabolag befattningshavare: «Ordförande Olivier Luc R Tilkens; Styrelseledamot Roel Lodewijk M Straetmans» — https://www.allabolag.se/befattningshavare/puratos-sweden-ab/vellinge/livsmedel/2K3ARV7I5YFWD",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Puratos Sweden AB",
+  "campo": "dimensione",
+  "problema": "Dati economici confermati (121,5 MSEK e +9% nel 2024, risultato 4,6 MSEK, 9 dipendenti; conversione ~10,8 M€ corretta), ma il campo tratta l'appartenenza al gruppo Puratos come semplice annotazione: trattandosi di controllata di gruppo estero la decisione di compliance EUDR è a livello di capogruppo belga, quindi il lead non è autonomo.",
+  "gravita": "media",
+  "evidenza": "allabolag: «Under 2024 hade företaget en omsättning på 121,5 MSEK och gjorde ett resultat på 4,6 MSEK ... +9 %» — https://www.allabolag.se/5568429715/koncern",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Rubber Company, R. Holmquist Aktiebolag",
+  "campo": "dimensione",
+  "problema": "CONTROLLO DI GRUPPO NON DICHIARATO. Il campo non menziona alcuna capogruppo, ma la società fa parte di un gruppo di 5 società con moderbolag Rubber Förvaltning Aktiebolag. Fatturato 118 377 KSEK (es. 2025), 39 dipendenti e VD Per Vilhelm Robert Holmqvist risultano confermati; conversione ~10,5 M€ corretta.",
+  "gravita": "alta",
+  "evidenza": "allabolag organisation: «...ingår i en koncern med totalt 5 bolag ... Moderbolaget är Rubber Förvaltning Aktiebolag» — https://www.allabolag.se/organisation/rubber-company-r.-holmquist-aktiebolag/vallentuna/insatsvaror-grossister/2JYOOHSI63IHF",
+  "correzione_proposta": "Aggiungere: «capogruppo Rubber Förvaltning Aktiebolag (gruppo di 5 società)»"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Rubber Company, R. Holmquist Aktiebolag",
+  "campo": "filiera",
+  "problema": "Perimetro EUDR da confermare: l'oggetto sociale registrato è «handels- och agenturverksamhet, huvudsakligen inom gummibranschen» e allabolag la classifica fra i grossisti di insatsvaror. Se rivende articoli in gomma già immessi sul mercato UE da altri, è un commerciante a valle (fuori perimetro come operatore); resterebbe operatore solo per la quota importata direttamente da paesi extra-UE o per la produzione propria (vulcanizzazione). Va accertato. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "allabolag: «...bedriver handels- och agenturverksamhet, huvudsakligen inom gummibranschen» ; categoria «insatsvaror-grossister» — https://www.allabolag.se/foretag/rubber-company-r.-holmquist-aktiebolag/vallentuna/insatsvaror/2JYOOHSI63IHE",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Billes Tryckeri AB",
+  "campo": "dimensione",
+  "problema": "AFFERMAZIONE DI INDIPENDENZA ERRATA E CAPOGRUPPO SBAGLIATA. Il campo definisce l'azienda «tipografia indipendente a controllo familiare (collegata a Billes Tryckeri Förvaltning AB, org.nr 556259-9034)». In realtà il moderbolag è Billes Tryckeri Holding AB e la società appartiene a un gruppo di 4 società con 122 dipendenti e 264,0 MSEK di fatturato aggregato; Billes Tryckeri Förvaltning AB è invece una società immobiliare (categoria allabolag «fastighetsbolag-lokaler»), non la capogruppo.",
+  "gravita": "alta",
+  "evidenza": "allabolag: «Moderbolaget är Billes Tryckeri Holding AB ... hela koncernen omfattar totalt 4 bolag med 122 anställda och 264,0 MSEK» — https://www.allabolag.se/foretag/billes-tryckeri-ab/m%C3%B6lndal/tryckerier/2KGISXHI5YI3L ; scheda «Billes Tryckeri Förvaltning AB ... fastighetsbolag-lokaler» — https://www.allabolag.se/foretag/billes-tryckeri-f%C3%B6rvaltning-ab/m%C3%B6lndal/fastighetsbolag-lokaler/2JZTSVUI5YDUJ",
+  "correzione_proposta": "Sostituire con: «capogruppo Billes Tryckeri Holding AB (gruppo di 4 società, 122 dip., 264,0 MSEK)»"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Billes Tryckeri AB",
+  "campo": "dimensione",
+  "problema": "Dettagli da correggere: dipendenti 98 (non 99) e risultato d'esercizio 2024 pressoché nullo (0,1 MSEK su 248,0 MSEK di fatturato), circostanza non segnalata benché rilevante. Fatturato 248 036 KSEK e conversione ~22,0 M€ risultano corretti; VD Niklas Wilhelm Bille confermato.",
+  "gravita": "bassa",
+  "evidenza": "allabolag: «Billes Tryckeri AB ... 98 anställda ... omsättning 248,0 MSEK och gjorde ett resultat på 0,1 MSEK (2024)» — https://www.allabolag.se/foretag/billes-tryckeri-ab/m%C3%B6lndal/tryckerier/2KGISXHI5YI3L",
+  "correzione_proposta": "≈22,0 M€ / 98 dip. (allabolag 2024: 248 036 KSEK; risultato 0,1 MSEK)"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Bording AB",
+  "campo": "referente",
+  "problema": "REFERENTE ERRATO. Il VD registrato di Bording AB (org.nr 556239-7090) è Bo Magnus Stefan Gustafsson, non Björn Andersson; ordförande è Bernt Johan Therp.",
+  "gravita": "alta",
+  "evidenza": "allabolag/bolagsfakta: «Bolagets VD är Bo Magnus Stefan Gustafsson ... styrelseordförande Bernt Johan Therp» — https://www.allabolag.se/foretag/bording-ab/bor%C3%A5s/tryckerier/2JZPH2AI5YI3L",
+  "correzione_proposta": "Stefan Gustafsson — VD (verkställande direktör)"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Bording AB",
+  "campo": "dimensione",
+  "problema": "CONTROLLATA DI GRUPPO ESTERO, dichiarata in modo elusivo. Il campo parla genericamente di «legame con il gruppo danese Bording»: in realtà il moderbolag è F E Bording A/S (Danimarca), con quartier generale e produzione a Hvidovre. È una controllata di gruppo estero, quindi la decisione di compliance EUDR si colloca presso la capogruppo danese e il lead non è autonomo.",
+  "gravita": "alta",
+  "evidenza": "allabolag/bolagsfakta: «Moderbolaget är F E Bording A/S ... Bordings hovedkontor og produktion ligger i danske Hvidovre» — https://www.bolagsfakta.se/5562397090-Bording_AB",
+  "correzione_proposta": "Aggiungere: «controllata di F E Bording A/S (DK) — lead da valutare a livello di capogruppo danese»"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Bording AB",
+  "campo": "dimensione",
+  "problema": "Dati obsoleti e numero di dipendenti errato: il campo riporta 91 326 KSEK e 42 dipendenti (es. 2023). L'esercizio 2025 registra 93 079 KSEK (~8,2 M€), risultato 2 145 KSEK e soltanto 25 dipendenti, con fatturato in calo dell'8% sull'anno precedente. Il ridimensionamento dell'organico (da 42 a 25) e il calo non sono segnalati.",
+  "gravita": "media",
+  "evidenza": "allabolag: «Bording AB har 25 anställda och gjorde ett resultat på 2 145 KSEK med omsättning 93 079 KSEK under 2025 ... omsättningen sjönk med 8 %» — https://www.allabolag.se/foretag/bording-ab/bor%C3%A5s/tryckerier/2JZPH2AI5YI3L",
+  "correzione_proposta": "≈8,2 M€ / 25 dip. (allabolag 2025: 93 079 KSEK, -8%; risultato 2 145 KSEK)"
  }
 ]

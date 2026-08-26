@@ -177,6 +177,31 @@ def main():
                  "che spetta al cliente.\n")
         o.append("- **NON DICHIARATO / ERRATO** — il legame manca del tutto, oppure la capogruppo "
                  "indicata è sbagliata. Questo **è** un errore di dato.\n")
+        o.append("\n> ⚠️ **Non tutti i legami di gruppo pesano allo stesso modo — leggere questa "
+                 "tabella con questo filtro.** Vanno distinti due casi che il conteggio grezzo "
+                 "confonde:\n>\n"
+                 "> - **Holding di proprietà** — la società è posseduta dal veicolo dei suoi stessi "
+                 "soci (`X Holding AB`, `X Förvaltning AB`, `X Invest`). In Svezia e Danimarca è la "
+                 "struttura **normale** di un'impresa familiare, e in Olanda il *directeur* "
+                 "statutario è spesso una holding proprio per questo. **Non sposta la decisione di "
+                 "compliance fuori dall'azienda**: il lead resta valido. Rientrano qui, per esempio, "
+                 "Sunnerbo Fönster, Rubber Company, Halmstads Gummifabrik, Woodsafe, ZilenZio, "
+                 "Willa Nordic, Nydala Trävaru.\n>\n"
+                 "> - **Controllo di terzi** — la società è dentro un gruppo industriale o un fondo "
+                 "che decide altrove, spesso all'estero. **Qui il lead perde valore**, ed è il caso "
+                 "che il progetto aveva già trattato rimuovendo Lavazza Kaffee e Segafredo Zanetti "
+                 "Austria. Rientrano qui Tjørnehøj Mølle (DLG), Skjern Paper (Sonoco, USA), "
+                 "Papierfabriek Schut (Exacompta Clairefontaine, FR), Bangma (Stora Enso), "
+                 "Timberman (Volati AB), JKE Design (Ballingslöv/Stena Adactum), Bøjsø (Inwido), "
+                 "VårgårdaHus (HusCompagniet, DK), Bording (F E Bording, DK), Benecke Coffee "
+                 "(Sucafina, CH), Corné Port-Royal (Neuhaus), Sas NV (Nimbus), H. Heitz (INDUS "
+                 "Holding), CWP (Auroora Yhtiöt).\n>\n"
+                 "> **Il sottoinsieme più grave** non è nessuno dei due, ma i record che "
+                 "**affermano un'indipendenza che non c'è**: Tärnsjö Garveri («principale conceria "
+                 "indipendente»), Papierfabriek Schut («cartiera indipendente dal 1618»), Billes "
+                 "Tryckeri («tipografia indipendente»), Skjern Paper («indipendente danese dal "
+                 "2005»), Allbox («azienda familiare»). Lì il foglio non tace un dato: ne afferma "
+                 "uno falso.\n")
         o.append("| Foglio | Azienda | Stato nel foglio | Rilievo |")
         o.append("|---|---|---|---|")
         for r in sorted(gr, key=lambda x: (str(x.get("foglio")), str(x.get("denominazione")))):

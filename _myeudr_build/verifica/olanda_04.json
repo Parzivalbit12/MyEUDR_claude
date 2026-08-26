@@ -1,0 +1,245 @@
+[
+ {
+  "foglio": "Olanda",
+  "denominazione": "Zalsman B.V.",
+  "campo": "ruolo",
+  "problema": "Herman Verlind non e' il 'Directeur' operativo ma il DGA / eigenaar (azionista di maggioranza); il directeur indicato dalla stampa di settore e' Gerwin de Vries.",
+  "gravita": "media",
+  "evidenza": "https://printmatters.nl/nieuws/2023/01/06/inclusiekampioen-zalsman-bij-ons-doet-iedereen-ertoe - frammento: 'Herman Verlind serves as DGA (majority shareholder) along with director Gerwin de Vries'; LinkedIn https://nl.linkedin.com/in/herman-verlind-12025719 'Herman Verlind - Owner at Zalsman b.v.'",
+  "correzione_proposta": "Herman Verlind - DGA / eigenaar (directeur operativo: Gerwin de Vries)"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Zalsman B.V.",
+  "campo": "dimensione",
+  "problema": "Il dato '50 dipendenti nella sede di Steinfurtstraat 1' sottostima largamente l'azienda: PRINTmatters riporta 148 dipendenti su tre sedi (Zwolle, Kampen, Heerenveen). Il campo va riferito all'intera societa', non alla singola sede.",
+  "gravita": "media",
+  "evidenza": "https://printmatters.nl/nieuws/2023/01/06/inclusiekampioen-zalsman-bij-ons-doet-iedereen-ertoe - frammento: 'Of the 148 employees, 40 have barriers to employment'; 'family business with locations in Zwolle, Kampen and Heerenveen'",
+  "correzione_proposta": "Fatturato non pubblicato (BV, bilancio abbreviato). ~148 dipendenti su tre sedi (Zwolle, Kampen, Heerenveen), fonte PRINTmatters 2023. KVK 05044422."
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Blanche Dael B.V. (Maison Blanche Dael)",
+  "campo": "email",
+  "problema": "Campo valorizzato 'n.d.' mentre un indirizzo pubblico esiste ed e' citato letteralmente dalle fonti aperte.",
+  "gravita": "media",
+  "evidenza": "https://www.blanchedael.nl/contact - frammento di ricerca: 'Email: office@blanchedael.nl ... Wolfstraat 28, 6211 GN Maastricht, +31 43 321 3475'",
+  "correzione_proposta": "office@blanchedael.nl"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Blanche Dael B.V. (Maison Blanche Dael)",
+  "campo": "fonte",
+  "problema": "La fonte Creditsafe citata si riferisce all'identificativo nl05333583, che non corrisponde al KVK 76979229 riportato nel campo dimensione: la fonte non sostiene il dato anagrafico indicato.",
+  "gravita": "bassa",
+  "evidenza": "URL in scheda: https://www.creditsafe.com/business-index/en-us/company/blanche-dael-bv-nl05333583 vs. KVK dichiarato 76979229 nel campo dimensione",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Bocca Coffee B.V.",
+  "campo": "dimensione",
+  "problema": "Operazione societaria non dichiarata: Bocca Coffee ha rilevato da Cavesco la torrefazione Single Estate Coffee Roasters. Il perimetro e la taglia (~4,8 M€ / 40 addetti da articolo New10) sono quindi superati.",
+  "gravita": "media",
+  "evidenza": "https://www.singleestatecoffee.nl/cavesco-verkoopt-single-estate-aan-bocca-coffee/ - frammento: 'Bocca Coffee has taken over Single Estate Coffee Roasters ... Single Estate continues to operate independently under the same name'",
+  "correzione_proposta": "Aggiungere: acquisizione di Single Estate Coffee Roasters da Cavesco; fatturato e organico da riaggiornare post-operazione."
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Bocca Coffee B.V.",
+  "campo": "dimensione",
+  "problema": "Il legame con Trabocca e' descritto solo come 'stesso fondatore', ma Trabocca e' passata in mani canadesi/americane (SunOpta): il rapporto va qualificato correttamente per non far apparire il gruppo come indipendente.",
+  "gravita": "media",
+  "evidenza": "https://www.thuisbarista.nl/nieuws/trabocca-in-canadees-amerikaanse-handen/ - titolo: 'Trabocca in Canadees-Amerikaanse handen'; frammento: 'the subsidiary Bocca ... remains outside the Trabocca takeover'",
+  "correzione_proposta": "Precisare: Trabocca B.V. e' stata ceduta a SunOpta (CA/US); Bocca Coffee B.V. e' rimasta fuori dall'operazione."
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Brandsma Koffie B.V.",
+  "campo": "email",
+  "problema": "Campo valorizzato 'n.d.' mentre la pagina contatti pubblica riporta letteralmente piu' indirizzi.",
+  "gravita": "media",
+  "evidenza": "https://www.brandsmakoffie.nl/contact-brandsma-koffie/ - frammento: 'General Email: info@brandsmakoffie.nl, Sales Email: verkoop@brandsmakoffie.nl ... Hichtumerweg 13, 8701 PG Bolsward, +31 515 572561'",
+  "correzione_proposta": "info@brandsmakoffie.nl"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Fleur de Café B.V.",
+  "campo": "dimensione",
+  "problema": "Il campo dichiara 'numero KVK non reperito', ma il KVK e' pubblicamente disponibile: 60984643 (Hamburgweg 10, Deventer), societa' attiva dal 2014.",
+  "gravita": "bassa",
+  "evidenza": "https://www.bedrijvenregister.nl/deventer/fleur-de-cafe-bv - frammento: 'Fleur de Café B.V. is located at Hamburgweg 10 in Deventer and is registered under KVK number 60984643 ... roastery established since 2014'",
+  "correzione_proposta": "KVK 60984643; societa' attiva dal 2014."
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Fleur de Café B.V.",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti. Le fonti aperte consultate (sito 'Over ons', bedrijvenregister, europages) non espongono il nome del directeur/eigenaar. DA CONFERMARE presso KVK prima del contatto.",
+  "gravita": "media",
+  "evidenza": "https://www.fleurdecafe.nl/over-ons e https://www.bedrijvenregister.nl/deventer/fleur-de-cafe-bv - frammento: 'the search results do not provide specific information about the current director or owner's name'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Giraffe Coffee B.V.",
+  "campo": "email",
+  "problema": "Campo valorizzato 'n.d.' mentre la pagina contatti pubblica riporta letteralmente l'indirizzo aziendale.",
+  "gravita": "media",
+  "evidenza": "https://giraffecoffee.com/en/pages/contact - frammento: 'Email: info@giraffecoffee.com, Phone: +31 (0)10 307 03 44, Address: Ratelaarweg 11, 3053JP Rotterdam'",
+  "correzione_proposta": "info@giraffecoffee.com"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Giraffe Coffee B.V.",
+  "campo": "sede",
+  "problema": "La sede operativa/torrefazione e' Ratelaarweg 11, 3053 JP Rotterdam; il campo dimensione indica solo l'indirizzo del Coffee Bar & Academy (Hoogstraat 46a), che non e' la sede della torrefazione.",
+  "gravita": "bassa",
+  "evidenza": "https://giraffecoffee.com/en/pages/contact - frammento: 'Address: Ratelaarweg 11, 3053JP Rotterdam; Coffee Bar & Academy: Hoogstraat 46a'",
+  "correzione_proposta": "Rotterdam (Zuid-Holland) — branderij Ratelaarweg 11; Coffee Bar & Academy Hoogstraat 46a"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Greencof B.V.",
+  "campo": "dimensione",
+  "problema": "Anno di fondazione discordante: la scheda indica 2006, le fonti aziendali/di stampa indicano 2007.",
+  "gravita": "bassa",
+  "evidenza": "https://www.greencof.com/en/over-ons/ - frammento: 'Greencof was founded by Leon Zaal in 2007'",
+  "correzione_proposta": "fondata 2007"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Hesselink Koffiesystemen B.V.",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti benche' il vertice sia pubblicamente noto: Gerrit Hesselink, directeur-eigenaar, quarta generazione.",
+  "gravita": "media",
+  "evidenza": "https://www.achterhoeknieuwswinterswijk.nl/nieuws/algemeen/116924/hesselink-koffie-loopt-voorop-in-duurzaamheid- - frammento: 'Directeur-eigenaar Gerrit Hesselink ... fourth generation owner of this family business'",
+  "correzione_proposta": "Gerrit Hesselink — Directeur / eigenaar"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Hesselink Koffiesystemen B.V.",
+  "campo": "email",
+  "problema": "L'email indicata usa il TLD .eu (info@hesselinkkoffie.eu) mentre il sito aziendale e il dominio in uso sono hesselinkkoffie.nl. Indirizzo non ritrovato letteralmente nelle fonti consultate: DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "Sito ufficiale https://hesselinkkoffie.nl/ (dominio .nl) contro email in scheda 'info@hesselinkkoffie.eu'; nessun riscontro letterale del .eu nei risultati di ricerca",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Kaldi Koffie en Thee B.V.",
+  "campo": "dimensione",
+  "problema": "Il numero di punti vendita ('oltre 30 negozi') non e' sostenuto dalle fonti: la stampa di settore parla di 25 sedi in NL. Manca inoltre il passaggio di proprieta' di gennaio 2025 (Hans Tietema ha ceduto Kaldi a Martijn Bas e Guus Groeneveld, operazione MBI assistita da Marktlink).",
+  "gravita": "media",
+  "evidenza": "https://denationalefranchisegids.nl/franchisenieuws/hans-tietema-draagt-kaldi-over-na-25-jaar-visie-en-innovatie-in-de-koffie-industrie/ - frammento: 'Kaldi started with a single store in Zwolle in 2000 and has since expanded to 25 locations in the Netherlands'; 'In January 2025, Hans Tietema transferred Kaldi to Martijn Bas and Guus Groeneveld'",
+  "correzione_proposta": "~25 punti vendita in franchising; proprieta' trasferita nel gennaio 2025 da Hans Tietema a Martijn Bas e Guus Groeneveld (MBI, advisor Marktlink)."
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Kaldi Koffie en Thee B.V.",
+  "campo": "fonte",
+  "problema": "La fonte Creditsafe citata riporta l'identificativo nl01235350, che non corrisponde al KVK 24310514 indicato nel campo dimensione.",
+  "gravita": "bassa",
+  "evidenza": "URL in scheda: https://www.creditsafe.com/business-index/en-us/company/kaldi-koffie-en-thee-bv-nl01235350 vs. KVK dichiarato 24310514",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Koffiebranderij G. Peeze B.V.",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti benche' il vertice sia pubblicamente noto: Myriam Lufting e' directeur di Peeze (ed entrata nella direzione di Coffee Growth Group).",
+  "gravita": "media",
+  "evidenza": "https://www.consultancy.nl/nieuws/60839/nieuwe-koffie-alliantie-coffee-growth-group-neemt-peeze-over - frammento: 'Myriam Lufting has joined the management of Coffee Growth Group alongside Wouter Jansen van Velsen. Myriam Lufting is the director of Peeze'",
+  "correzione_proposta": "Myriam Lufting — Directeur"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Koffiebranderij G. Peeze B.V.",
+  "campo": "dimensione",
+  "problema": "Controllata di gruppo (legame correttamente dichiarato): da maggio 2025 Berk Partners detiene il 100% delle azioni tramite la piattaforma Coffee Growth Group (che include Mocca d'Or, Santas, EARTH Coffee, Cafe Del Mar, YesPlease). Il lead non e' autonomo: la decisione di compliance EUDR si colloca a livello di Coffee Growth Group.",
+  "gravita": "media",
+  "evidenza": "https://www.berkpartners.nl/koffiebranderij-peeze-sluit-zich-aan-bij-coffee-growth-group/ - frammento: 'In May 2025, investment firm Berk Partners acquired all shares in the Arnhem-based coffee roastery Peeze through its Coffee Growth Group platform'",
+  "correzione_proposta": "Riqualificare il lead a livello di Coffee Growth Group (Berk Partners) anziche' della singola torrefazione."
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Hesselink Koffiesystemen B.V.",
+  "campo": "denominazione",
+  "problema": "Entita' giuridica probabilmente non corretta ai fini EUDR: 'Hesselink Koffiesystemen B.V.' e' l'entita' groothandel/attrezzature del gruppo, mentre la torrefazione che immette il caffe' sul mercato e' 'Hesselink Koffiebranders' (sito e comunicazione ufficiale). DA CONFERMARE quale societa' del gruppo sia l'operatore EUDR.",
+  "gravita": "media",
+  "evidenza": "https://hesselinkkoffie.nl/blogs/140-jaar-hesselink-koffiebranders/ - 'Hesselink Koffiebranders viert 140 jaar vakmanschap'; https://nl.wikipedia.org/wiki/Hesselink_Koffie - 'From 1922 onwards the business continued under the name Koffiebranderij J.W. Hesselink & Zn.'; SBI della BV in scheda: 'groothandel in koffie, thee, cacao en specerijen'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Kaldi Koffie en Thee B.V.",
+  "campo": "filiera",
+  "problema": "Il campo indica 'torrefazione + engros/wholesale', ma le fonti descrivono Kaldi come formula di dettaglio in franchising (SBI: gespecialiseerde detailhandel) con marchi propri, non come torrefattore/importatore diretto. Da verificare se sia operatore o solo commerciante a valle ai fini EUDR.",
+  "gravita": "media",
+  "evidenza": "https://denationalefranchisegids.nl/franchisenieuws/hans-tietema-draagt-kaldi-over-na-25-jaar-visie-en-innovatie-in-de-koffie-industrie/ - 'Kaldi started with a single store in Zwolle in 2000 ... expand the franchise formula'; SBI company.info 'gespecialiseerde detailhandel'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Neuteboom Koffiebranders B.V.",
+  "campo": "denominazione",
+  "problema": "Ragione sociale attuale registrata: 'Neuteboom Coffeeroasters B.V.' (Aadijk 41, Almelo). La forma 'Neuteboom Koffiebranders B.V.' e' la denominazione storica, ancora usata solo da directory datate.",
+  "gravita": "bassa",
+  "evidenza": "https://drimble.nl/bedrijf/almelo/16359704/neuteboom-coffeeroasters-bv.html e https://www.bedrijvenregister.nl/almelo/neuteboom-coffeeroasters-bv - 'Neuteboom Coffeeroasters B.V. is located at Aadijk 41, 7602 PP, Almelo'; https://www.creditsafe.com/business-index/en-us/company/neuteboom-coffeeroasters-bv-nl00318877",
+  "correzione_proposta": "Neuteboom Coffeeroasters B.V."
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Neuteboom Koffiebranders B.V.",
+  "campo": "dimensione",
+  "problema": "Il posizionamento 'tra le cinque maggiori torrefazioni olandesi' poggia su un dato Wikipedia del 2013 (13 anni fa) e la capacita' di 10.000 t/anno non e' aggiornata; l'affermazione di indipendenza va contestualizzata (la societa' fu di Spar negli anni '50, MBO nel 1983, acquisita nel 2003 da Gilbert Willemsen e Jan Willem Top).",
+  "gravita": "media",
+  "evidenza": "https://nl.wikipedia.org/wiki/Neuteboom_koffiebranders - 'as of 2013 was among the five largest coffee roasteries in the Netherlands'; 'In the 1950s the company was taken over by Spar, after which a management buy-out followed in 1983 ... In 2003 the company came into the hands of Gilbert Willemsen and Jan Willem Top'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Origin Bridge (Barchem)",
+  "campo": "denominazione",
+  "problema": "Confermato il sospetto in scheda: il KVK 70878315 e' intestato a un'impresa individuale (eenmanszaak) registrata a Barchem con denominazione BENZU; 'Origin Bridge' e' un nome commerciale, NON una B.V. Il referente statutario resta ignoto nelle fonti aperte.",
+  "gravita": "media",
+  "evidenza": "https://originbridge.coffee/legal-information/ - 'Heidehoflaan 2B in Barchem, 7244AG, Chamber of Commerce Number 70878315'; frammento di ricerca: 'BENZU (Eenmanszaak) is registered in Barchem under KvK-number 70878315 and specializes in import/export and sales of raw/green coffee'",
+  "correzione_proposta": "BENZU (eenmanszaak) — handelsnaam 'Origin Bridge'"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Origin Bridge (Barchem)",
+  "campo": "email",
+  "problema": "Disallineamento fra il dominio dell'email (bridgetoorigin.com) e il dominio del sito aziendale (originbridge.coffee). Non ritrovata letteralmente nelle fonti consultate: DA CONFERMARE prima dell'invio.",
+  "gravita": "media",
+  "evidenza": "Sito ufficiale https://originbridge.coffee/ vs. email in scheda 'info@bridgetoorigin.com'; la pagina https://originbridge.coffee/legal-information/ citata come fonte non riporta l'indirizzo nei frammenti indicizzati",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Simon Levelt B.V.",
+  "campo": "dimensione",
+  "problema": "Dati obsoleti e conclusione non sostenuta: la scheda cita fatturati del 2011 (11,5 M€) e del 2016 (>20 M€ al consumo) e ipotizza il superamento dei 40 M€. La fonte piu' recente indica invece 8,5 M€ di fatturato, 43 FTE e 29 negozi: l'azienda e' SOTTO la forbice 5-40 M€ nella parte bassa, non sopra.",
+  "gravita": "media",
+  "evidenza": "https://managementscope.nl/magazine/artikel/265-interview-mikkel-levelt - frammento: 'Simon Lévelt is a food and beverage company based in Haarlem with a turnover of 8.5 million euros, 43 full-time employees, and 29 stores'",
+  "correzione_proposta": "Fatturato ~8,5 M€, 43 FTE, 29 punti vendita (fonte Managementscope, intervista a Mikkel Levelt). Rimuovere l'ipotesi di superamento dei 40 M€."
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Smit & Dorlas Koffiebranders B.V.",
+  "campo": "dimensione",
+  "problema": "Numero KVK errato: la scheda riporta 31022124, mentre i registri indicano KVK 33239607 (Nijverheidsweg 1, 3641 RP Mijdrecht). Discordante anche la data di costituzione (scheda: 28-03-1978; registri: 1992).",
+  "gravita": "media",
+  "evidenza": "https://companyinfo.nl/organisatieprofiel/verwerking-van-thee-en-koffie/smit-dorlas-koffiebranders-b-v-mijdrecht-33239607-000018873669 e https://drimble.nl/bedrijf/mijdrecht/19906935/smit-dorlas-koffiebranders-bv.html - frammento: 'KVK-nummer: 33239607 ... Nijverheidsweg 1, 3641RP Mijdrecht ... incorporated in 1992 ... Aantal werknemers: 88'",
+  "correzione_proposta": "KVK 33239607; verificare la data di costituzione."
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Smit & Dorlas Koffiebranders B.V.",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti; le fonti aperte consultate (drimble, company.info, sito 'Bedrijfsinformatie', LinkedIn aziendale) non espongono il nome del directeur. DA CONFERMARE presso KVK.",
+  "gravita": "media",
+  "evidenza": "https://www.smitdorlas.nl/bedrijfsinformatie/ e https://drimble.nl/bedrijf/mijdrecht/19906935/smit-dorlas-koffiebranders-bv.html - frammento: 'the search results do not contain specific information about the company directors'",
+  "correzione_proposta": ""
+ }
+]
