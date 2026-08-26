@@ -1,0 +1,308 @@
+[
+ {
+  "foglio": "Germania",
+  "denominazione": "Lindner Kartonagen GmbH",
+  "campo": "referente",
+  "problema": "Il secondo referente 'Emanuel Dick' non trova riscontro in nessuna fonte pubblica. Le fonti aziendali e i portali indicano come titolari/Geschaeftsfuehrer Jutta Summann e Johannes Kunze (subentrati nel 2002). DA CONFERMARE sull'Impressum.",
+  "gravita": "media",
+  "evidenza": "wer-zu-wem.de / lindner-kartonagen.de: «Das Unternehmen wurde 1957 als Walter Lindner Kartonagen in Espelkamp gegruendet, 1969 nach Diepenau verlegt und 2002 an Jutta Summann und Johannes Kunze uebergeben» — https://www.wer-zu-wem.de/firma/lindner-kartonagen.html",
+  "correzione_proposta": "Jutta Summann, Johannes Kunze (Geschaeftsfuehrer) — da riconfermare su https://lindner-kartonagen.de/impressum/"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Lindner Kartonagen GmbH",
+  "campo": "dimensione",
+  "problema": "Campo inutilizzabile: 'Umsatz/MA n.d.', nessun tipo di dato, nessun anno, nessuna fonte. Il dato pubblicato piu' recente reperibile e' la Bilanzsumme, che colloca l'azienda sotto la forbice target 5-40 Mio EUR.",
+  "gravita": "media",
+  "evidenza": "Implisense (dati Bundesanzeiger): «Die zuletzt veroeffentlichte Bilanzsumme der Lindner Kartonagen GmbH betrug 3,3 Mio. EUR im Jahr 2019» — https://implisense.com/de/companies/lindner-kartonagen-gmbh-diepenau-DE8876XR9Q30",
+  "correzione_proposta": "Bilanzsumme 3,3 Mio EUR (2019, Bundesanzeiger via Implisense); Umsatz e MA non pubblicati. NB: dimensione probabilmente sotto la forbice target 5-40 Mio EUR"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "NEUDEL Kartonagen & Schachteln GmbH",
+  "campo": "dimensione",
+  "problema": "Il campo indica 'Bilanzsumme ~5 Mio EUR (2022)' ma le fonti consultabili riportano ~5 Mio EUR come UMSATZ stimato, non come totale di bilancio: il tipo di dato dichiarato e' probabilmente errato. Mancano i dipendenti. Valore comunque al limite inferiore della forbice target.",
+  "gravita": "media",
+  "evidenza": "Creditreform/Implisense — «Umsatz (geschaetzt): 5 Mio. EUR» — https://firmeneintrag.creditreform.de/74924/8270358386/NEUDEL_KARTONAGEN_SCHACHTELN_GMBH ; scheda northdata HRB 731840 Amtsgericht Mannheim",
+  "correzione_proposta": "Umsatz stimato ~5 Mio EUR (Creditreform, stima non datata); Mitarbeiter n.d. — specificare che si tratta di stima di portale e non di bilancio"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "NEUDEL Kartonagen & Schachteln GmbH",
+  "campo": "denominazione",
+  "problema": "Rischio di confusione con l'omonima 'Neudel Verpackungen GmbH' (stessa sede Neckarbischofsheim, GF Michael Neudel), che e' entita' distinta. Il sito neudel-verpackungen.de e' pero' intestato nell'Impressum a NEUDEL Kartonagen & Schachteln GmbH: verificare quale delle due sia l'operatore EUDR.",
+  "gravita": "bassa",
+  "evidenza": "https://die-deutsche-wirtschaft.de/inv_unternehmen/neudel-michael-neudel-verpackungen-gmbh-neckarbischofsheim-gf/ (Neudel, Michael — Neudel Verpackungen GmbH, GF) vs https://neudel-verpackungen.de/impressum.html (NEUDEL Kartonagen & Schachteln GmbH, GF Jens Roedig)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Papier Karl GmbH & Co. Vertriebs-KG",
+  "campo": "dimensione",
+  "problema": "Campo privo di qualsiasi dato quantitativo: 'Umsatz/MA n.d.', nessun anno, nessuna fonte. La KG non deposita bilancio pubblico e i portali non espongono cifre. Impossibile stabilire se rientri nella forbice target 5-40 Mio EUR. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "Scheda northdata Papier Karl GmbH & Co. Vertriebs-KG, Amtsgericht Muenchen HRA 41450 — nessun dato finanziario esposto: https://www.northdata.com/Papier%20Karl%20GmbH%20&%20Co%C2%B7%20Vertriebs-KG,%20W%C3%B6rth/Amtsgericht%20M%C3%BCnchen%20HRA%2041450",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "SAF Kartonagen GmbH",
+  "campo": "dimensione",
+  "problema": "Campo inutilizzabile: 'KMU; Umsatz/MA n.d.' non dichiara alcun tipo di dato, anno o fonte. Le fonti registrali confermano solo un capitale sociale di 25.000 EUR e nessun dato di fatturato pubblicato; nulla permette di collocarla nella forbice 5-40 Mio EUR. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "Creditreform/Companyhouse, HRB 10443 Amtsgericht Bad Oeynhausen — «Stammkapital 25.000 EUR; keine Angaben zum Umsatz verfuegbar»: https://firmeneintrag.creditreform.de/32584/4170280034/SAF_KARTONAGEN_GMBH_VERPACKUNGEN_AUS_VOLL_UND_WELLPAPPE",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "SAF Kartonagen GmbH",
+  "campo": "denominazione",
+  "problema": "Denominazione registrale completa: 'SAF Kartonagen GmbH Verpackungen aus Voll- und Wellpappe' (HRB 10443, Amtsgericht Bad Oeynhausen). Refuso formale di troncamento.",
+  "gravita": "bassa",
+  "evidenza": "https://openregister.de/company/DE-HRB-R2108-10443 — «SAF Kartonagen GmbH Verpackungen aus Voll- und Wellpappe, Loehne»",
+  "correzione_proposta": "SAF Kartonagen GmbH Verpackungen aus Voll- und Wellpappe"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Spiegel Verpackungen AG",
+  "campo": "referente",
+  "problema": "Il Vorstand e' collegiale: oltre a Inga Spiegel risulta anche Michael Spiegel (Andreas Lutz e' Prokurist). Indicare un solo nome puo' portare a contattare il vertice sbagliato.",
+  "gravita": "bassa",
+  "evidenza": "Companyhouse/Impressum Spiegel Verpackungen AG, HRB 16960 Amtsgericht Wuerzburg: «Vorstand: Inga Spiegel, Michael Spiegel; Prokurist: Andreas Lutz» — https://www.companyhouse.de/en/Spiegel-Verpackungen-AG-Hoechberg",
+  "correzione_proposta": "Inga Spiegel, Michael Spiegel (Vorstand)"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Spiegel Verpackungen AG",
+  "campo": "dimensione",
+  "problema": "Il dato ('~40 MA, Umsatz ~7 Mio EUR') e' privo di anno di riferimento: si tratta di una cifra di autodescrizione aziendale ripresa dai portali, non di un bilancio datato. Valore comunque appena sopra la soglia minima della forbice target.",
+  "gravita": "media",
+  "evidenza": "Fonti concordi ma non datate: «Spiegel Verpackungen erzielt mit seinen Produkten fuer den Health-, Kosmetik- und Lebensmittelbereich einen Jahresumsatz von rund 7 Mio. Euro, mehr als 40 Mitarbeiter, ueber 80 Mio. Faltschachteln pro Jahr» — https://www.wer-zu-wem.de/firma/martin-spiegel.html e https://www.companyhouse.de/en/Spiegel-Verpackungen-AG-Hoechberg",
+  "correzione_proposta": "Umsatz ~7 Mio EUR e >40 MA (dato aziendale non datato, ripreso da wer-zu-wem/companyhouse); produzione >80 Mio Faltschachteln/anno — indicare l'anno o qualificarlo come dato aziendale non datato"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Benecke Coffee GmbH & Co. KG",
+  "campo": "dimensione",
+  "problema": "CONTROLLO DI GRUPPO SOTTOSTIMATO. Il campo dichiara che e' entrato in Sucafina solo il 'marchio Rehm & Co.', ma l'operazione (luglio 2026) riguarda l'intera societa': Rehm & Co. E' Benecke Coffee GmbH & Co. KG, che si presenta oggi come 'Rehm & Co. Benecke Coffee GmbH & Co. KG'. La compliance EUDR si decide quindi a livello del gruppo svizzero Sucafina, non della societa' di Amburgo: il lead come tale non e' piu' valido/autonomo. Da verificare inoltre la segnalazione '(liq)' su northdata per HRA 89109.",
+  "gravita": "alta",
+  "evidenza": "Daily Coffee News 07/07/2026 «German Coffee Trader Rehm & Co. Now Part of Sucafina Group» — https://dailycoffeenews.com/2026/07/07/german-coffee-trader-rehm-co-now-part-of-sucafina-group/ ; Global Coffee Report «Sucafina announces German importer acquisition» — https://www.gcrmag.com/sucafina-announces-german-importer-acquisition ; sito societario intestato 'Rehm & Co. Benecke Coffee GmbH & Co. KG' — https://shop.rehmcoffee.de/contact/ ; northdata «Benecke Coffee GmbH & Co. KG, Hamburg, Germany (liq)» HRA 89109",
+  "correzione_proposta": "Societa' del gruppo Sucafina (Svizzera) da luglio 2026 — lead da riclassificare o rimuovere: decisione EUDR a livello di capogruppo"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Benecke Coffee GmbH & Co. KG",
+  "campo": "email",
+  "problema": "L'e-mail info@benecke-coffee.de non compare letteralmente nell'Impressum, che pubblica invece info@rehmcoffee.de (dominio operativo del gruppo dopo il rebranding Rehm & Co.).",
+  "gravita": "media",
+  "evidenza": "Impressum benecke-coffee.de: «Admiralitaetsstrasse 10, 20459 Hamburg, vertreten durch den Geschaeftsfuehrer Clemens von Storch, Tel. +49 40 37 86 15 0, E-Mail: info@rehmcoffee.de» — https://www.benecke-coffee.de/en/imprint",
+  "correzione_proposta": "info@rehmcoffee.de"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Benecke Coffee GmbH & Co. KG",
+  "campo": "denominazione",
+  "problema": "Denominazione commerciale attuale: 'Rehm & Co. Benecke Coffee GmbH & Co. KG'. Il record usa la sola forma storica.",
+  "gravita": "bassa",
+  "evidenza": "https://www.rehmcoffee.de/en/faq-en.html e https://shop.rehmcoffee.de/contact/ — «Rehm & Co. Benecke Coffee GmbH & Co. KG»",
+  "correzione_proposta": "Rehm & Co. Benecke Coffee GmbH & Co. KG"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Coffee Circle (Circle Products GmbH)",
+  "campo": "dimensione",
+  "problema": "Dato obsoleto di 7 anni: 'Umsatz ~16 Mio EUR, ~65 MA (2019, Business Insider)'. Nel frattempo la societa' ha depositato bilanci piu' recenti (ultimo Jahresabschluss pubblicato il 29/04/2025) mai recepiti nel foglio. Il valore 2019 non e' piu' utilizzabile per collocare l'azienda nella forbice 5-40 Mio EUR.",
+  "gravita": "media",
+  "evidenza": "northdata / Implisense — Circle Products GmbH, HRB 128185 B Amtsgericht Charlottenburg: «Der letzte Jahresabschluss wurde am 29.04.2025 veroeffentlicht» — https://www.northdata.com/Circle%20Products%20GmbH,%20Berlin/Amtsgericht%20Charlottenburg%20(Berlin)%20HRB%20128185%20B",
+  "correzione_proposta": "Aggiornare dal Jahresabschluss depositato in Bundesanzeiger (ultimo deposito 29/04/2025); cifra 2019 da marcare come storica"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "DINZLER Kaffeerösterei AG",
+  "campo": "dimensione",
+  "problema": "Il dato ('Umsatz ~27,8 Mio EUR stima, 193 MA') e' privo di anno di riferimento ed e' una STIMA di portale (Die Deutsche Wirtschaft), non un bilancio: nessuna fonte pubblica espone il fatturato reale. Con 27,8 Mio EUR l'azienda sarebbe nella meta' alta della forbice, ma il dato non e' verificabile. Da segnalare inoltre che una quota rilevante del giro d'affari e dei 193 dipendenti deriva dalla ristorazione (Rasthaus/caffetterie), non dalla torrefazione: il volume di caffe' verde immesso sul mercato UE e' quindi inferiore a quanto il fatturato suggerisce.",
+  "gravita": "media",
+  "evidenza": "Die Deutsche Wirtschaft, scheda Dinzler Kaffeeroesterei AG (valori dichiaratamente stimati, senza anno) — https://die-deutsche-wirtschaft.de/unternehmen/dinzler-kaffeeroesterei-ag-irschenberg/ ; Creditreform non espone Umsatz — https://firmeneintrag.creditreform.de/83737/8250241278/DINZLER_KAFFEEROESTEREI_AG ; «betreibt seit 2008 mehrere gastronomische Betriebe»",
+  "correzione_proposta": "Qualificare come 'Umsatz stimato ~27,8 Mio EUR (stima Die Deutsche Wirtschaft, anno non dichiarato), 193 MA incl. gastronomia' — dato di bilancio non pubblicato"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "DINZLER Kaffeerösterei AG",
+  "campo": "referente",
+  "problema": "Franz Richter e' confermato Vorstandsvorsitzender, ma il Vorstand e' composto da 5 membri (Franz Richter, Rolf Fischer, Matthias Richter, Katrin Richter, Thomas Steinke) con Aufsichtsratsvorsitzender Prof. Peter Matthias Astner. Nessun errore, solo informazione da completare.",
+  "gravita": "bassa",
+  "evidenza": "Companyhouse Dinzler Kaffeeroesterei AG: «Das Unternehmen wird derzeit von 9 Managern gefuehrt (5 Vorstaende, 1 Prokurist, 3 Aufsichtsraete)» — https://www.companyhouse.de/Dinzler-Kaffeeroesterei-AG-Irschenberg",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Dresdner Kaffee und Kakao Rösterei (K+M Kaffee und Maschinen GmbH)",
+  "campo": "dimensione",
+  "problema": "Campo vuoto ('n.d.'), ma la ricerca fornisce un dato di VOLUME che colloca l'azienda molto sotto la forbice target 5-40 Mio EUR: circa 40.000 kg di caffe' torrefatto all'anno (~40 t), tipico di una micro-torrefazione artigianale. Il lead va probabilmente declassato per dimensione.",
+  "gravita": "media",
+  "evidenza": "wer-zu-wem.de / profilo torrefazione: «Die Roesterei roestet im Durchschnitt rund 40.000 Kilogramm Kaffee pro Jahr» — https://www.wer-zu-wem.de/firma/dresden-kaffee.html ; societa' fondata nel 2001 a Grumbach, HRB 22937 Dresden — https://www.northdata.com/K+M%20%C2%B7%20Kaffee%20und%20Maschinen%20GmbH,%20Dresden/HRB%2022937",
+  "correzione_proposta": "Volume: ~40.000 kg caffe' torrefatto/anno (fonte wer-zu-wem, anno non dichiarato); Umsatz/MA non pubblicati. NB: dimensione nettamente sotto la forbice target 5-40 Mio EUR"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Dresdner Kaffee und Kakao Rösterei (K+M Kaffee und Maschinen GmbH)",
+  "campo": "referente",
+  "problema": "Karsten Lehmann e' confermato Geschaeftsfuehrer, ma la societa' ha due Geschaeftsfuehrer: risulta anche Stefan Meyer-Goetz. Informazione da completare.",
+  "gravita": "bassa",
+  "evidenza": "Registri societari K+M . Kaffee und Maschinen GmbH, HRB 22937 Dresden: «Geschaeftsfuehrer: Karsten Lehmann, Stefan Meyer-Goetz» — https://www.northdata.com/K+M%20%C2%B7%20Kaffee%20und%20Maschinen%20GmbH,%20Dresden/HRB%2022937",
+  "correzione_proposta": "Karsten Lehmann, Stefan Meyer-Goetz (Geschaeftsfuehrer)"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Gebr. Westhoff GmbH & Co. KG",
+  "campo": "dimensione",
+  "problema": "Il dato ('~60 MA, Umsatz ~30 Mio EUR stima, Die Deutsche Wirtschaft) e' privo di anno: e' una stima di portale non datata, non un bilancio. La KG non pubblica conto economico. Il valore, se corretto, e' al limite superiore della forbice target.",
+  "gravita": "media",
+  "evidenza": "Die Deutsche Wirtschaft, scheda Gebr. Westhoff GmbH & Co.KG: «60 Mitarbeiter, geschaetzter Jahresumsatz 30 Mio. Euro» (nessun anno indicato) — https://die-deutsche-wirtschaft.de/unternehmen/gebr-westhoff-gmbh-co-kg-bremen/",
+  "correzione_proposta": "Umsatz stimato ~30 Mio EUR e ~60 MA (stima Die Deutsche Wirtschaft, anno non dichiarato) — esplicitare che e' stima di portale"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Gebr. Westhoff GmbH & Co. KG",
+  "campo": "referente",
+  "problema": "Max J.W. Ueltzen e' confermato Geschaeftsfuehrer, ma dal 2019 la Geschaeftsfuehrung e' condivisa con Werner Schulte. Informazione da completare per non contattare un solo vertice.",
+  "gravita": "bassa",
+  "evidenza": "Lebensmittelpraxis.de 17/04/2019 «Gebr. Westhoff - Werner Schulte neuer Geschaeftsfuehrer» — https://lebensmittelpraxis.de/industrie-aktuell/24407-gebr-westhoff-werner-schulte-neuer-geschaeftsfuehrer-2019-04-17-08-17-56.html",
+  "correzione_proposta": "Max J.W. Ueltzen, Werner Schulte (Geschaeftsfuehrer) — da riconfermare su Impressum westhoff.de"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Hoppenworth & Ploch (Food Products GmbH)",
+  "campo": "email",
+  "problema": "L'e-mail indicata (orders@hoppenworth-ploch.de) non e' quella pubblicata nell'Impressum, che riporta info@hoppenworth-ploch.de. 'orders@' e' un indirizzo d'ordine shop, non il contatto legale/aziendale: inadatto a un contatto commerciale sulla compliance EUDR.",
+  "gravita": "media",
+  "evidenza": "Legal notice hoppenworth-ploch.de — «Hoppenworth & Ploch Food Products GmbH, Laenderweg 21, 60599 Frankfurt am Main, HRB 129212, E-Mail: info@hoppenworth-ploch.de, USt-IdNr. DE 357241791» — https://hoppenworth-ploch.de/en/policies/legal-notice",
+  "correzione_proposta": "info@hoppenworth-ploch.de"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Hoppenworth & Ploch (Food Products GmbH)",
+  "campo": "referente",
+  "problema": "L'Impressum indica TRE soci con potere di rappresentanza: Matthias Hoppenworth, Julian Ploch e Joris Kohnen. Indicare il solo Julian Ploch e' incompleto.",
+  "gravita": "bassa",
+  "evidenza": "Impressum/Companyhouse Hoppenworth & Ploch Food Products GmbH, HRB 129212 Amtsgericht Frankfurt am Main: «Vertretungsberechtigte Gesellschafter: Matthias Hoppenworth, Julian Ploch, Joris Kohnen» — https://www.companyhouse.de/en/Hoppenworth-Ploch-Food-Products-GmbH-Frankfurt-am-Main",
+  "correzione_proposta": "Matthias Hoppenworth, Julian Ploch, Joris Kohnen (Geschaeftsfuehrer)"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Hoppenworth & Ploch (Food Products GmbH)",
+  "campo": "dimensione",
+  "problema": "Il campo riporta solo '~100 MA incl. 4 caffetterie (Firmenangabe); Umsatz n.d.', senza anno ne' fonte verificabile. Inoltre non e' dichiarata la struttura di gruppo: la Food Products GmbH e' sotto Hoppenworth & Ploch Holding GmbH (HRB 125409), accanto alla storica Hoppenworth & Ploch OHG (HRA 52005). Va precisato quale entita' immette effettivamente il caffe' verde sul mercato UE. Con 100 dipendenti in gran parte impiegati nelle caffetterie, il volume di commodity e' verosimilmente modesto.",
+  "gravita": "media",
+  "evidenza": "Baeckerwelt: «Die Gruender Matthias Hoppenworth und Julian Ploch [...] beschaeftigt heute 100 Mitarbeiter an vier Verkaufsstandorten» — https://baeckerwelt.de/news/hoppenworth-ploch-food-products-gmbh/ ; struttura di gruppo: Hoppenworth & Ploch Holding GmbH HRB 125409 — https://www.northdata.de/Hoppenworth%20&%20Ploch%20Holding%20GmbH,%20Frankfurt%20a%C2%B7%20Main/Amtsgericht%20Frankfurt%20am%20Main%20HRB%20125409",
+  "correzione_proposta": "~100 MA su 4 punti vendita (Baeckerwelt, anno non dichiarato); Umsatz non pubblicato. Aggiungere: societa' del gruppo Hoppenworth & Ploch Holding GmbH (HRB 125409)"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Langen Kaffee GmbH & Co. KG",
+  "campo": "dimensione",
+  "problema": "Campo privo di qualsiasi dato ('n.d.'). La KG (HRA 3356 Amtsgericht Arnsberg) non pubblica conto economico e i portali non espongono ne' Umsatz ne' Mitarbeiter in accesso libero: impossibile stabilire se rientri nella forbice 5-40 Mio EUR. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "northdata Langen Kaffee GmbH & Co. KG, Amtsgericht Arnsberg HRA 3356 — «Umsatz und Mitarbeiterzahl nur fuer Premium-Nutzer»: https://www.northdata.com/Langen%20Kaffee%20GmbH%20&%20Co%C2%B7%20KG,%20Medebach/Amtsgericht%20Arnsberg%20HRA%203356 ; Creditreform: https://firmeneintrag.creditreform.de/59964/4270055567/LANGEN_KAFFEE_GMBH_CO_KG",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "List + Beisler GmbH",
+  "campo": "denominazione",
+  "problema": "Denominazione registrale con la 'e' commerciale: 'List & Beisler GmbH' (HRB 24480, Amtsgericht Hamburg). Il segno '+' e' solo il logotipo commerciale.",
+  "gravita": "bassa",
+  "evidenza": "Companyhouse / northdata: «List & Beisler Gesellschaft mit beschraenkter Haftung, Hamburg, HRB 24480» — https://www.northdata.com/List%20&%20Beisler%20GmbH,%20Hamburg/HRB%2024480 ; «Im September 1979 wurde List & Heineken in List & Beisler GmbH umbenannt»",
+  "correzione_proposta": "List & Beisler GmbH"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "List + Beisler GmbH",
+  "campo": "dimensione",
+  "problema": "Campo senza tipo di dato datato: '~15 MA (Firmenangabe); Umsatz n.d.'. Nessuna fonte pubblica espone il fatturato di un importatore di caffe' verde, il cui giro d'affari e' pero' tipicamente molto superiore a quanto suggerirebbero 15 dipendenti (attivita' di trading). Il dato attuale non permette di collocare l'azienda nella forbice 5-40 Mio EUR. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "northdata List & Beisler GmbH HRB 24480 — nessun dato di Umsatz esposto: https://www.northdata.com/List%20&%20Beisler%20GmbH,%20Hamburg/HRB%2024480 ; profilo aziendale «import and distribution of premium green coffee since 1901» — https://www.list-beisler.coffee/us/company.php",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "List + Beisler GmbH",
+  "campo": "referente",
+  "problema": "Robert Heuveldop e' confermato geschaeftsfuehrender Gesellschafter, ma la societa' e' guidata da tre soci: Robert Heuveldop, Jan Walter e Philip von der Goltz. Informazione da completare.",
+  "gravita": "bassa",
+  "evidenza": "Kaffeemacher.ch, intervista Coffea Economica: «List & Beisler wird heute von Robert Heuveldop, Jan Walter und Philip von der Goltz gefuehrt» — https://www.kaffeemacher.ch/blog/coffea-economica-podcast-robert-heuveldop/ ; LinkedIn «Robert Heuveldop - Director/Partner List & Beisler GmbH» — https://de.linkedin.com/in/robert-heuveldop-31b5a015",
+  "correzione_proposta": "Robert Heuveldop, Jan Walter, Philip von der Goltz (geschaeftsfuehrende Gesellschafter)"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Lloyd Caffee GmbH",
+  "campo": "dimensione",
+  "problema": "Il campo non dichiara alcun dato economico: '~15 MA (Bremen); Umsatz n.d.; marchio dal 1930'. I 15 dipendenti sono confermati dalla stampa locale (2023) ma non e' pubblicato alcun fatturato; con questa struttura l'azienda e' verosimilmente sotto la forbice target 5-40 Mio EUR.",
+  "gravita": "media",
+  "evidenza": "Weser-Report 01/2023 «Lloyd Caffee auf neuem Kurs» / Weser-Kurier «Die Marke mit dem Kapitaen: Bremer Lloyd Caffee unter neuer Flagge»: il precedente proprietario Christian Ritschel «arbeitet nun als einer der 15 Mitarbeiter» — https://weserreport.de/2023/01/bremen-bremen/wirtschaft/lloyd-caffee-auf-neuem-kurs/",
+  "correzione_proposta": "~15 dipendenti (Weser-Report, gennaio 2023); Umsatz non pubblicato. NB: dimensione verosimilmente sotto la forbice target"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Lloyd Caffee GmbH",
+  "campo": "referente",
+  "problema": "CAMBIO DI PROPRIETA' RECENTE non dichiarato nel foglio: Andreas Berndt (indicato correttamente come Geschaeftsfuehrer) ha rilevato l'azienda nel 2022/2023 dal precedente titolare Christian Ritschel. Il referente e' corretto, ma l'informazione sul passaggio di mano e' rilevante per il contatto commerciale e va annotata.",
+  "gravita": "bassa",
+  "evidenza": "Weser-Report 01/2023: «Andreas Berndt ist der aktuelle Geschaeftsfuehrer; Christian Ritschel ist nicht mehr Geschaeftsfuehrer [...] der vorherige Eigentuemer arbeitet nun als einer der 15 Mitarbeiter» — https://weserreport.de/2023/01/bremen-bremen/wirtschaft/lloyd-caffee-auf-neuem-kurs/ ; Impressum https://lloyd-caffee.de/policies/legal-notice (HRB 23066 HB)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Minges Kaffeerösterei GmbH",
+  "campo": "dimensione",
+  "problema": "STORIA DI INSOLVENZA E CAMBIO DI PROPRIETA' NON DICHIARATI. La precedente Minges Kaffee GmbH & Co. KG (HRA 8818) fini' in insolvenza dopo la perdita di un grande cliente; il curatore Volker Boehm vendette l'azienda a un gruppo privato di investitori del settore e l'attuale Minges Kaffeeroesterei GmbH (HRB 7608 Bamberg) e' una societa' NUOVA, iscritta il 18.06.2013 con capitale 1.000.000 EUR. Nel salvataggio furono conservati 35 posti di lavoro: il dato '90 MA' riportato nel foglio e' quindi incoerente con i fatti documentati. Il foglio la presenta come impresa familiare indipendente: l'assetto proprietario reale (gruppo di investitori) va verificato.",
+  "gravita": "alta",
+  "evidenza": "Schultze & Braun, comunicato «Minges Kaffeeroesterei ist gerettet»: «Der Insolvenzverwalter hat die Minges Kaffeeroesterei an eine private Investorengruppe aus der Branche verkauft; alle 35 Arbeitsplaetze und der Produktionsstandort Breitengueszbach bleiben erhalten» — https://www.schultze-braun.de/newsroom/pressemitteilungen/show/minges-kaffeeroesterei-ist-gerettet-3939/ ; inFranken «Produktion bei Minges laeuft trotz Insolvenz wieder an» — https://www.infranken.de/lk/bamberg/produktion-bei-minges-laeuft-trotz-insolvenz-wieder-an-art-499875 ; Companyhouse: «GmbH mit Stammkapital 1.000.000 EUR, eingetragen am 18.06.2013» — https://www.companyhouse.de/Minges-Kaffeeroesterei-GmbH-Breitenguessbach",
+  "correzione_proposta": "Segnalare: nuova societa' costituita 18.06.2013 dopo l'insolvenza della Minges Kaffee GmbH & Co. KG (HRA 8818), rilevata da un gruppo privato di investitori; 35 posti conservati alla ripartenza. Assetto proprietario attuale DA CONFERMARE"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Minges Kaffeerösterei GmbH",
+  "campo": "dimensione",
+  "problema": "Dato economico obsoleto di 9 anni: 'Umsatz ~10,5 Mio EUR (2017), 90 MA (Die Deutsche Wirtschaft)'. Si tratta inoltre di una stima di portale, non di un bilancio, e il numero di dipendenti contrasta con i 35 posti conservati alla ripartenza post-insolvenza.",
+  "gravita": "media",
+  "evidenza": "Die Deutsche Wirtschaft, scheda Minges Kaffeeroesterei GmbH (valori stimati): https://die-deutsche-wirtschaft.de/unternehmen/minges-kaffeeroesterei-gmbh-breitenguessbach/ ; northdata HRB 7608 Amtsgericht Bamberg: https://www.northdata.com/Minges%20Kaffeer%C3%B6sterei%20GmbH,%20Breiteng%C3%BC%C3%9Fbach/Amtsgericht%20Bamberg%20HRB%207608",
+  "correzione_proposta": "Aggiornare dal Jahresabschluss depositato in Bundesanzeiger (HRB 7608 Bamberg); marcare 10,5 Mio EUR / 90 MA come stima Die Deutsche Wirtschaft riferita al 2017"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Münchner Kaffeerösterei GmbH",
+  "campo": "dimensione",
+  "problema": "Campo completamente vuoto ('n.d.'): nessun tipo di dato, nessun anno, nessuna fonte. Nessuna fonte pubblica (northdata HRB 241458, Implisense) espone Umsatz, Mitarbeiter o Roestmenge. Il profilo aziendale (barista bar mobili, talk, workshop oltre alla torrefazione) suggerisce una realta' piccola, probabilmente sotto la forbice target 5-40 Mio EUR. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "northdata Muenchner Kaffeeroesterei GmbH, HRB 241458 Muenchen — nessun dato finanziario esposto: https://www.northdata.de/M%C3%BCnchner+Kaffeer%C3%B6sterei+GmbH,+M%C3%BCnchen/HRB+241458 ; Implisense: https://implisense.com/en/companies/muenchner-kaffeeroesterei-gmbh-muenchen-DE09JSV9ZI92",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Münchner Kaffeerösterei GmbH",
+  "campo": "referente",
+  "problema": "L'Impressum indica QUATTRO Geschaeftsfuehrer: Steven Mc Auley, Benjamin Groeschel, Michael Stransky e Viktoria Hentzschel. Indicare solo Steven Mc Auley e' incompleto (ed e' anche una figura molto attiva come speaker su temi IA, quindi non necessariamente l'interlocutore operativo sul caffe').",
+  "gravita": "bassa",
+  "evidenza": "Impressum kaffeemuenchen.de: «Muenchner Kaffeeroesterei GmbH, Ganghoferstr. 68, 80339 Muenchen — Vertretungsberechtigte Geschaeftsfuehrer: Steven Mc Auley, Benjamin Groeschel, Michael Stransky, Viktoria Hentzschel» — https://kaffeemuenchen.de/impressum/",
+  "correzione_proposta": "Steven Mc Auley, Benjamin Groeschel, Michael Stransky, Viktoria Hentzschel (Geschaeftsfuehrer)"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Münchner Kaffeerösterei GmbH",
+  "campo": "sito",
+  "problema": "Rischio di confusione con un'omonima di piazza: esiste a Monaco anche la 'Kaffeeroesterei Viktualienmarkt' sul dominio quasi identico kaffee-muenchen.de. Il dominio del record (kaffeemuenchen.de) e' corretto e confermato dall'Impressum, ma va evitato l'errore di trascrizione col trattino.",
+  "gravita": "bassa",
+  "evidenza": "https://kaffeemuenchen.de/impressum/ (Muenchner Kaffeeroesterei GmbH) vs https://www.kaffee-muenchen.de/impressum/ (Kaffeeroesterei Viktualienmarkt, societa' diversa)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Niehoffs Kaffeerösterei GmbH",
+  "campo": "dimensione",
+  "problema": "Il campo mette in fila due cifre incompatibili senza scegliere: '~17,2 Mio EUR (2020)' e '~25 Mio EUR (stima)'. La prima e' un dato di bilancio vecchio di 6 anni, la seconda una stima di portale senza anno. Con 50 dipendenti la coerenza fra le due va chiarita: il dato come scritto non e' utilizzabile per collocare l'azienda nella forbice target.",
+  "gravita": "media",
+  "evidenza": "Die Deutsche Wirtschaft, scheda Niehoffs Kaffeeroesterei GmbH (stima ~25 Mio EUR, ~50 MA, senza anno) — https://die-deutsche-wirtschaft.de/unternehmen/niehoffs-kaffeeroesterei-gmbh-gronau-westf/ ; northdata HRB 5566 Amtsgericht Coesfeld (bilanci depositati) — https://www.northdata.com/Niehoffs%20Kaffeer%C3%B6sterei%20GmbH,%20Gronau/Amtsgericht%20Coesfeld%20HRB%205566",
+  "correzione_proposta": "Tenere il dato di bilancio con anno esplicito (Umsatz 17,2 Mio EUR, 2020) e aggiornarlo dall'ultimo Jahresabschluss in Bundesanzeiger (HRB 5566 Coesfeld); espungere o etichettare chiaramente come stima il valore di 25 Mio EUR"
+ }
+]

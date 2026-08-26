@@ -1,0 +1,227 @@
+[
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Kiteen Huonekalutehdas Oy",
+  "campo": "dimensione",
+  "problema": "Liikevaihto 3,1 M€ (2024, 25 dip.): e' sotto la soglia minima della forbice (5 M€), non solo 'sotto sweet spot' come dichiara il campo. La formulazione attuale sottostima l'entita' dello scostamento.",
+  "gravita": "media",
+  "evidenza": "Asiakastieto/Vainu: 'Kiteen Huonekalutehdas Oy liikevaihto 2024: 3,1 miljoonaa euroa, 25 tyontekijaa' — https://www.asiakastieto.fi/yritykset/fi/kiteen-huonekalutehdas-oy/08364546/taloustiedot",
+  "correzione_proposta": "Liikevaihto 3,1 M€ (2024), 25 dip. — FUORI FORBICE (sotto il minimo di 5 M€)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Kuopion Woodi Oy",
+  "campo": "email",
+  "problema": "Email assente ('n.d.'): il record non e' contattabile via email. Da reperire su woodi.fi/yhteystiedot.",
+  "gravita": "media",
+  "evidenza": "Campo email = 'n.d.' nel record; nessun indirizzo nei frammenti (fonte del record: https://www.finder.fi/Julkitilakalusteet/Kuopion+Woodi+Oy/Kuopio/yhteystiedot/150025)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Lappiporras Oy",
+  "campo": "dimensione",
+  "problema": "Liikevaihto 2,92 M€ (esercizio chiuso 05/2024, -28,8%) con 16 dipendenti: ampiamente FUORI dalla forbice 5-40 M€ e il campo non lo segnala.",
+  "gravita": "alta",
+  "evidenza": "'Lappiporras Oy liikevaihto oli 2,92 miljoonaa ja tilikauden tulos 62 tuhatta. Liikevaihto laski 28,8%... 05/2024 paattyneella tilikaudella yhtiolla oli 16 tyontekijaa' — https://www.asiakastieto.fi/yritykset/fi/lappiporras-oy/10897317/taloustiedot",
+  "correzione_proposta": "Liikevaihto 2,92 M€ (2024), 16 dip. — FUORI FORBICE (sotto il minimo di 5 M€); valutare l'esclusione del lead"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Lappiporras Oy",
+  "campo": "referente",
+  "problema": "Referente e ruolo vuoti; la toimitusjohtaja e' identificabile nei registri.",
+  "gravita": "media",
+  "evidenza": "'Yhtion toimitusjohtaja on Anne Mirjami Juopperi' — https://www.asiakastieto.fi/yritykset/fi/lappiporras-oy/10897317/paattajat",
+  "correzione_proposta": "Anne Juopperi — Toimitusjohtaja (CEO)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Lapuan Saha Oy",
+  "campo": "dimensione",
+  "problema": "Controllo di gruppo GIA' DICHIARATO ('gruppo Tammisto'): il lead non e' indipendente, la decisione di compliance EUDR si prende a livello di capogruppo (Tammisto). Da tenere presente in fase di contatto. Dati economici confermati (14,8 M€ 2024; 12,6 M€ 2025, -15,1%).",
+  "gravita": "media",
+  "evidenza": "'liikevaihto oli 14,8 miljoonaa euroa 2024 (+17,0%); 2025 12,6 miljoonaa (-15,1%)' e Markku Matias Heinonen tj. anche di Tammisto Center — https://www.asiakastieto.fi/yritykset/fi/lapuan-saha-oy/24471245/taloustiedot",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Lapuan Saha Oy",
+  "campo": "email",
+  "problema": "DA CONFERMARE: l'indirizzo office@lapuansaha.fi non compare letteralmente in nessuna fonte pubblica reperita; i contatti pubblicati sono nominativi personali.",
+  "gravita": "media",
+  "evidenza": "Frammenti da https://lapuansaha.fi/laskutustiedot/ e https://puuteollisuus.fi/puuportaali/lapuan-saha-oy/ riportano indirizzo e recapiti nominativi, non office@lapuansaha.fi",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Luopajärven Saha Oy",
+  "campo": "dimensione",
+  "problema": "Il dato piu' recente e' 4,9 M€ (2025, 18 dip.), in calo: l'azienda e' appena SOTTO il minimo della forbice tollerabile (5 M€) e il campo non lo segnala.",
+  "gravita": "media",
+  "evidenza": "'2025 liikevaihto 4,9 miljoonaa euroa, 18 tyontekijaa, laski 2,3%; 2024: 5 miljoonaa, 21 tyontekijaa' — https://www.asiakastieto.fi/yritykset/fi/luopajarven-saha-oy/06647833/taloustiedot",
+  "correzione_proposta": "Liikevaihto 4,9 M€ (2025), 18 dip. — al limite inferiore/sotto la forbice"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Luopajärven Saha Oy",
+  "campo": "email",
+  "problema": "Email assente ('n.d.'): record non contattabile via email. Esiste una pagina contatti (luopajarvensaha.fi/yhteydenotto_fi.html) da cui estrarre l'indirizzo.",
+  "gravita": "media",
+  "evidenza": "https://luopajarvensaha.fi/yhteydenotto_fi.html (pagina contatti presente nei risultati; indirizzo non visibile nel frammento)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Mahogany Oy",
+  "campo": "dimensione",
+  "problema": "Liikevaihto 1,3 M€ (2024) con 17 dip. e perdita operativa di 183 k€ (-14,5%): micro-impresa molto al di sotto della forbice 5-40 M€, senza segnalazione nel campo. Lead non in target.",
+  "gravita": "alta",
+  "evidenza": "'liikevaihto 1,3 MEUR 2024, 17 tyontekijaa, laski 2,7%, liiketappio 183 tuhatta (-14,5%)' — https://www.asiakastieto.fi/yritykset/fi/mahogany-oy/24059920/yleiskuva",
+  "correzione_proposta": "Liikevaihto 1,3 M€ (2024), 17 dip., risultato operativo negativo — FUORI FORBICE, valutare esclusione"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Mahogany Oy",
+  "campo": "referente",
+  "problema": "Referente e ruolo vuoti; la toimitusjohtaja e' identificabile nei registri.",
+  "gravita": "media",
+  "evidenza": "'Toimitusjohtaja on Markku Johannes Tamminen' — https://www.asiakastieto.fi/yritykset/fi/mahogany-oy/24059920/paattajat",
+  "correzione_proposta": "Markku Tamminen — Toimitusjohtaja (CEO)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Mahogany Oy",
+  "campo": "email",
+  "problema": "Email assente ('n.d.'). Esiste pagina contatti (mahogany.fi/?page_id=88) da cui reperire l'indirizzo.",
+  "gravita": "bassa",
+  "evidenza": "https://mahogany.fi/?page_id=88 (pagina Yhteystiedot presente; indirizzo non visibile nei frammenti)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Mellano Oy",
+  "campo": "dimensione",
+  "problema": "Il fatturato e' in forte contrazione (-28,2% nel 2024) e resta sotto il minimo della forbice: 8,6 M€ (2024) / 8,9 M€ (2025). Il dato del record e' corretto ma non evidenzia il trend; NB: Mellano NON e' piu' nel gruppo PRT-Forest (uscita 2019), quindi e' un lead indipendente valido.",
+  "gravita": "bassa",
+  "evidenza": "'2024 liikevaihto 8,6 miljoonaa euroa, laski 28,2%; 2025 liikevaihto 8,9 MEUR' — https://www.asiakastieto.fi/yritykset/fi/mellano-oy/08719888/taloustiedot ; 'Mellano oli aiemmin osa PRT-Forest-konsernia, mutta vuodesta 2019 omistajat ovat toimitusjohtaja Janne Lehtonen ja Marika Pehkonen' — https://mellano.fi/mellano/",
+  "correzione_proposta": "Liikevaihto 8,6 M€ (2024, -28,2%); 8,9 M€ (2025); 56 dip. — indipendente dal 2019 (ex PRT-Forest)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Mellano Oy",
+  "campo": "email",
+  "problema": "Email assente ('n.d.'): record non contattabile via email.",
+  "gravita": "media",
+  "evidenza": "Campo email = 'n.d.'; fonte del record https://www.finder.fi/Ovet+ja+ovien+valmistus/Mellano+Oy/Lapinlahti/yhteystiedot/156990 non riporta indirizzo nei frammenti",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Orasko Oy",
+  "campo": "referente",
+  "problema": "DA CONFERMARE - rischio reputazionale/di continuita' sul referente: la stampa regionale riporta la condanna del toimitusjohtaja della societa' di segheria di Utajarvi per gravi frodi fiscali (torkea veropetos). Verificare che Hany Yacoub sia tuttora in carica e valutare l'idoneita' del lead.",
+  "gravita": "alta",
+  "evidenza": "'Utajarvisen sahafirman toimitusjohtaja tuomittiin torkeista veropetoksista - kiistaa syyllistyneensa mihinkaan rikokseen' — https://www.kaleva.fi/utajarvisen-sahafirman-toimitusjohtaja-tuomittiin/11784619",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Orasko Oy",
+  "campo": "filiera",
+  "problema": "Attenzione al perimetro: la societa' nasce (2010) come puro brokeraggio/export di segati ed e' tuttora classificata 'Agentuuriliike' (agenzia); esporta anche legname estone e russo. Produzione propria solo dal 2017 (acquisto dello stabilimento di Mustikkakangas, Utajarvi). Il campo va precisato: e' produttore + trader, con quota rilevante di merce di terzi e di origine extra-UE (rischio EUDR/sanzioni legname russo).",
+  "gravita": "media",
+  "evidenza": "'Orasko Oy on osakeyhtio, paatoimiala Agentuuriliike... perustettu 2010, keskittyi aluksi pelkastaan sahatavaran vientiin ja valitykseen... suomalaista, virolaista ja venalaista sahatavaraa viedaan Lahi-idan ja Pohjois-Euroopan markkinoille... 2017 Yacoub osti kokonaisen sahatuotantolaitoksen Utajarven Mustikkakankaalta' — https://www.finder.fi/Agentuuriliike/Orasko+Oy/Kuopio/yhteystiedot/2271046 e https://sahateollisuus.com/2021/04/21/6359/",
+  "correzione_proposta": "Legno/Segheria + commercio-export sahatavara (quota di merce di terzi, anche extra-UE)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Oy CrossLam Kuhmo Ltd",
+  "campo": "dimensione",
+  "problema": "Dato confermato ma in forte calo rispetto al 2023 (8,1 M€ -> 5,6 M€ nel 2025, 22 dip.): l'azienda e' al limite inferiore della forbice tollerabile. Redditivita' buona (EBIT 552 k€, 9,7%).",
+  "gravita": "bassa",
+  "evidenza": "'liikevaihto 5,6 miljoonaa euroa 2025, 22 tyontekijaa; 2023: 8,1 miljoonaa, 26 tyontekijaa; liikevoitto 552 tuhatta (9,7%)' — https://www.asiakastieto.fi/yritykset/fi/oy-crosslam-kuhmo-ltd/25897678/taloustiedot",
+  "correzione_proposta": "Liikevaihto 5,6 M€ (2025), 22 dip. — al limite inferiore della forbice"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Oy CrossLam Kuhmo Ltd",
+  "campo": "email",
+  "problema": "Email assente ('n.d.'): record non contattabile via email.",
+  "gravita": "media",
+  "evidenza": "Campo email = 'n.d.'; fonte del record https://www.finder.fi/Rakennustarvikkeet+rakennusmateriaalit/CrossLam+Kuhmo+Ltd+Oy/Kuhmo/yhteystiedot/2859191 non riporta indirizzo nei frammenti",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Oy Haka-Wood Ab",
+  "campo": "dimensione",
+  "problema": "Dato obsoleto: il record riporta 11,9 M€ (2023); l'ultimo bilancio disponibile indica 10,7 M€ (2024, -9,7%) con 29 dipendenti.",
+  "gravita": "media",
+  "evidenza": "'liikevaihto 2024 oli 10,7 miljoonaa euroa, laski 9,7%, 29 tyontekijaa; liikevoitto 1,1 miljoonaa (10,4%)' — https://www.asiakastieto.fi/yritykset/fi/oy-haka-wood-ab/08141027/taloustiedot",
+  "correzione_proposta": "Liikevaihto 10,7 M€ (2024), 29 dip. (Asiakastieto)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Pantsarin Saha Oy",
+  "campo": "email",
+  "problema": "DA CONFERMARE: rauno@kivilompolo.fi non compare in alcuna fonte pubblica reperita e usa un dominio (kivilompolo.fi) diverso da quello aziendale (pantsarinsaha.fi). Le fonti pubbliche riportano solo il telefono +358 400 666342.",
+  "gravita": "alta",
+  "evidenza": "'Toimitusjohtaja Rauno Petri Kivilompolo; puhelin +358 40 0666342; osoite Teollisuustie 12, 95700 Pello; www.pantsarinsaha.fi' — https://www.finder.fi/Puutavara/Pantsarin+Saha+Oy/Pello/yhteystiedot/166085 (nessuna email nei risultati)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Piiroinen Oy",
+  "campo": "denominazione",
+  "problema": "Ragione sociale imprecisa: la persona giuridica e' 'Arvo Piiroinen Oy' (Y-tunnus 0139391-8), Salo. 'Piiroinen' e' solo il marchio commerciale.",
+  "gravita": "bassa",
+  "evidenza": "'Arvo Piiroinen Oy - 0139391-8 - Salo... paatoimiala julkisten tilojen huonekalut' — https://www.proff.fi/yrityksen/arvo-piiroinen-oy/salo/metalliteollisuus/0139391-8I00BP",
+  "correzione_proposta": "Arvo Piiroinen Oy"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Piiroinen Oy",
+  "campo": "dimensione",
+  "problema": "Dato sovrastimato: il record indica ~11 M€ e ~110 dip.; il bilancio 2024 di Arvo Piiroinen Oy segna 6,52 M€ (-14,3%) e 50 dipendenti. Il valore di ~11 M€ sembra sommare la consorella Metalli Piiroinen Oy (5,47 M€ 2024), che e' un'altra persona giuridica. Cosi' com'e', il lead risulta sotto la forbice 5-40 M€.",
+  "gravita": "alta",
+  "evidenza": "'liikevaihto oli 6,52 miljoonaa euroa ja tilikauden tulos 27 tuhatta, liikevaihto laski 14,3%... 02/2024 paattyneella tilikaudella 50 tyontekijaa' — https://vainu.io/company/arvo-piiroinen-oy-taloustiedot-ja-liikevaihto/125384/yritystiedot ; 'Metalli Piiroinen Oy liikevaihto 5,47 miljoonaa 2024' — https://www.finder.fi/Metallin+alihankintateollisuus/Metalli+Piiroinen+Oy/Salo/yhteystiedot/157392",
+  "correzione_proposta": "Liikevaihto 6,52 M€ (2024, -14,3%), 50 dip. (Arvo Piiroinen Oy, esclusa Metalli Piiroinen Oy)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Piklas Oy",
+  "campo": "dimensione",
+  "problema": "Struttura societaria superata: il 28.2.2025 la vecchia Piklas Oy si e' FUSA nella capogruppo PRT-Forest Oy, che ha contestualmente assunto il nome 'Piklas Oy' (Y-tunnus 0189227-4). Dopo la scissione del gruppo (Kontiotuote separato), l'odierna Piklas Oy e' essa stessa capogruppo, con la controllata PRT-Wood Oy, e redige bilancio consolidato. Il record la descrive ancora come controllata del 'gruppo PRT-Forest': indicazione non piu' corretta.",
+  "gravita": "alta",
+  "evidenza": "'Piklas sulautuu emoyhtioonsa' — https://prt-forest.fi/wp-content/uploads/2024/12/Piklas-sulautuu-emoyhtioonsa-tiedote-31102024.pdf ; 'Piklas Oy, Ouluntie 14 Pyhanta, 0189227-4 — Konsernitilinpaatos 2025' — https://prt-forest.fi/wp-content/uploads/2026/03/Piklas-Konsernitilinpaatos-2025.pdf",
+  "correzione_proposta": "Piklas Oy (Y 0189227-4, ex PRT-Forest Oy) — capogruppo dopo la fusione del 28.2.2025, con controllata PRT-Wood Oy"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Piklas Oy",
+  "campo": "dimensione",
+  "problema": "Dato di fatturato obsoleto e riferito alla vecchia persona giuridica: 11,41 M€ (2023). L'esercizio 2025 chiude a 10,2 M€ con risultato negativo (-44,1 k€), 65 dipendenti.",
+  "gravita": "media",
+  "evidenza": "'Piklas Oy liikevaihto 10,2 miljoonaa euroa (tilikausi 2025), tilikauden tulos -44,1 tuhatta; 65 tyontekijaa' — https://search.vainu.com/company/piklas-oy-taloustiedot-ja-liikevaihto/FI01892274/yritystiedot",
+  "correzione_proposta": "Liikevaihto 10,2 M€ (2025), risultato -44 k€, 65 dip."
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Kuopion Woodi Oy",
+  "campo": "dimensione",
+  "problema": "Il campo presenta ~13 M€ (2025) come fatturato, ma e' una PREVISIONE/obiettivo comunicato dall'azienda; l'ultimo consuntivo depositato e' 9,6 M€ (2024, -10,0%) con 66 dipendenti, dopo i 12,47 M€ del 2023. Il record sovrastima quindi la dimensione reale e la colloca sotto la forbice.",
+  "gravita": "media",
+  "evidenza": "'Vuonna 2024 yhtio tyollisti 66 henkiloa ja liikevaihto oli 9,6 miljoonaa euroa, laski 10,0%; liikevoitto 638 tuhatta (6,6%)' — https://www.asiakastieto.fi/yritykset/fi/kuopion-woodi-oy/09744444/taloustiedot ; il ~13 M€ 2025 e' dichiarato in comunicato aziendale — https://www.sttinfo.fi/tiedote/71532544/woodi-investoi-merkittavasti-kotimaiseen-valmistukseen",
+  "correzione_proposta": "Liikevaihto 9,6 M€ (2024, consuntivo), 66 dip.; ~13 M€ stima aziendale 2025"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Late-Rakenteet Oy",
+  "campo": "email",
+  "problema": "DA CONFERMARE: sales@late.fi non compare letteralmente nelle fonti reperite (le directory mostrano un indirizzo generico oscurato). Dati aziendali per il resto confermati (tj. Marko Lehtonen; 5,5 M€ 2024, 40 dip.).",
+  "gravita": "media",
+  "evidenza": "'Late-Rakenteet Oy... Osoite: Pansiontie 67, 20240 Turku... Sahkoposti: [oscurato]; Puhelin: 020 755 1320' — https://www.finder.fi/Puutavara/Late-Rakenteet+Oy/Turku/yhteystiedot/152508",
+  "correzione_proposta": ""
+ }
+]

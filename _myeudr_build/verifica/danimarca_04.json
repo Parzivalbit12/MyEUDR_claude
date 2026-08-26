@@ -1,0 +1,191 @@
+[
+ {
+  "foglio": "Danimarca",
+  "denominazione": "I.M. FRELLSEN K/S (Frellsen Kaffe & Te / Frellsen Chokoladefabrik)",
+  "campo": "dimensione",
+  "problema": "Numero di dipendenti sottostimato: proff.dk/eStatistik su CVR 25340604 riportano 582 dipendenti, il campo dichiara 476-550. Resta confermato che l'azienda e al limite superiore della forbice (~40 M EUR).",
+  "gravita": "bassa",
+  "evidenza": "https://estatistik.dk/virksomhed/im-frellsen-ks/25340604 - frammento: 'I.M. FRELLSEN K/S ... Industrivej 14, 4000 Roskilde ... 582 employees'",
+  "correzione_proposta": "582 dipendenti (proff.dk / eStatistik, CVR 25340604)"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Just Coffee",
+  "campo": "sede",
+  "problema": "Sede indicata a Jyllinge (CAP 4040), ma l'indirizzo registrato di Just Coffee I/S (CVR 35492380) e Frederiksborgvej 551, 4000 Roskilde.",
+  "gravita": "bassa",
+  "evidenza": "https://www.proff.dk/firma/just-coffee-is/roskilde/producenter/GUO2ZPI016D - frammento: 'Just Coffee, Frederiksborgvej 551, 4000 Roskilde ... +45 4091 7945 ... info@justcoffee.dk'",
+  "correzione_proposta": "Roskilde (Frederiksborgvej 551, 4000), Regione Sjaelland"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Just Coffee",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti: il lead non ha un interlocutore nominativo. Just Coffee I/S e un interessentskab, i responsabili non emergono dai frammenti consultati.",
+  "gravita": "media",
+  "evidenza": "https://ownr.dk/companies/public-profile/35492380 - profilo Just Coffee I/S senza direktør indicato nei frammenti",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Kontra A/S (KONTRA Coffee)",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti. proff.dk indica come adm. direktør Henrik Aagaard (bestyrelsesformand Jais Stampe Li Valeur).",
+  "gravita": "media",
+  "evidenza": "https://www.proff.dk/firma/kontra-as/hvidovre/producenter/H0B8BKI016D - frammento: 'adm. direktør Henrik Aagaard ... bestyrelsesformand Jais Stampe Li Valeur ... Jernholmen 45E, 2650 Hvidovre'",
+  "correzione_proposta": "Henrik Aagaard - Adm. direktør"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "La Cabra Risteri ApS (gruppo La Cabra)",
+  "campo": "email",
+  "problema": "Email assente ('n.d.'): il lead non e contattabile via e-mail. Nessun indirizzo reperito nei frammenti pubblici consultati.",
+  "gravita": "media",
+  "evidenza": "https://www.krak.dk/la+cabra+risteri+aps+nordhavn/169908117/firma - scheda senza indirizzo e-mail nei frammenti",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "La Cabra Risteri ApS (gruppo La Cabra)",
+  "campo": "dimensione",
+  "problema": "Dato di gruppo fermo all'esercizio 2023/24. L'esercizio 2025 di La Cabra Risteri ApS chiude in perdita (-2,668 mio. DKK): il quadro dimensionale/di solidita va aggiornato.",
+  "gravita": "media",
+  "evidenza": "https://virmo.dk/firma/43681176-la-cabra-risteri-aps - frammento: 'For the fiscal year 2025, La Cabra Risteri ApS had a result of -2,668 thousand DKK'",
+  "correzione_proposta": "Aggiungere: risultato es. 2025 -2,7 mio. DKK (virmo.dk, CVR 43681176)"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Nordic Coffee House ApS",
+  "campo": "dimensione",
+  "problema": "Taglia ora quantificata e ampiamente fuori forbice: 5-10 dipendenti e bruttofortjeneste 3,3 mio. DKK (~0,44 M EUR) nell'esercizio 01/07/2023-30/06/2024, utile 1,5 mio. DKK. Micro-impresa molto sotto la soglia dei 5 M EUR. Fa inoltre parte di un gruppo di 2 societa con capogruppo M. Molbaek Holding ApS (non dichiarato).",
+  "gravita": "media",
+  "evidenza": "https://www.proff.dk/firma/nordic-coffee-house-aps/kolding/kaffe-og-te-agentur-og-engros/GXLJKUI0Z8T - frammento: 'I 2024 viste regnskabet en bruttofortjeneste pa DKK 3,3 mio ... Overskud pa DKK 1,5 mio ... 5-10 ansatte ... Moderselskabet er M. Molbaek Holding ApS'",
+  "correzione_proposta": "Bruttofortjeneste 3,3 mio. DKK (~0,44 M EUR) es. 2023/24; utile 1,5 mio. DKK; 5-10 dipendenti; capogruppo M. Molbaek Holding ApS. MICRO-IMPRESA, fuori dalla forbice 5-40 M EUR."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Nordic Coffee House ApS",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti. Il direktør e proprietario al 100% e Michael Molbaek.",
+  "gravita": "media",
+  "evidenza": "https://www.proff.dk/roller/nordic-coffee-house-aps/-/-/39807122/ - frammento: 'Direktør: Michael Molbaek ... Michael Molbaek er ejer 100%'",
+  "correzione_proposta": "Michael Molbaek - Direktør"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "The Coffee Collective A/S",
+  "campo": "referente",
+  "problema": "Referente non e il vertice attuale della societa: dal 2024 l'amministratore delegato (CEO / adm. direktør) e Rebecca Vang, subentrata a Peter Dupont. Klaus Thomsen resta co-fondatore e comproprietario con ruolo operativo sulla qualita, non e il vertice.",
+  "gravita": "media",
+  "evidenza": "https://coffeecollective.dk/blogs/stories/new-ceo e https://www.gcrmag.com/coffee-collective-announces-new-ceo/ - frammento: 'Rebecca Vang joined as CEO in 2024 while the three operating founders retained 100% ownership. Peter Dupont had served as CEO of Coffee Collective for 16 years'",
+  "correzione_proposta": "Rebecca Vang - Adm. direktør (CEO), dal 2024"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "COPENHAGEN CHOCOLATE FACTORY ApS",
+  "campo": "dimensione",
+  "problema": "Il fatturato di 48,3 mio. DKK e riferito genericamente all'ultimo esercizio disponibile senza indicare l'anno, contro la regola che impone tipo di dato + fonte + anno. Confermati invece CVR 32761844, adm. direktør Niels Ostenkaer, capogruppo SOLSTRA INVESTMENTS ApS e organico (22 dipendenti nell'ultimo periodo, contro la forchetta 20-50 dichiarata).",
+  "gravita": "bassa",
+  "evidenza": "https://search.vainu.com/company/copenhagen-chocolate-factory-aps-omsaetning-og-noegletal/DK32761844/virksomhedsoplysninger - frammento: 'Copenhagen Chocolate Factory ApS has CVR: DK32761844 and recorded revenue of 48.3 million DKK in the previous fiscal year ... 22 employees ... parent company is SOLSTRA INVESTMENTS ApS'",
+  "correzione_proposta": "Indicare l'anno di riferimento del fatturato 48,3 mio. DKK e precisare 22 dipendenti"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "PETER BEIER CHOKOLADE A/S",
+  "campo": "dimensione",
+  "problema": "Dato dimensionale incoerente e non verificabile: le fonti su CVR 26058007 riportano organici radicalmente diversi (143 dipendenti su una scheda, '1 medarbejder (0 arsvaerk)' su un'altra) contro i 64 dichiarati, e il fatturato non e pubblicato. Inoltre la societa e classificata con branchekode 77.39.10 'Udlejning og leasing af andet materiel' (noleggio), non produzione di cioccolato: l'attivita operativa potrebbe essere in un'altra entita del gruppo (4 societa, capogruppo PETER BEIER HOLDING ApS). DA CONFERMARE quale entita del gruppo sia l'operatore EUDR.",
+  "gravita": "media",
+  "evidenza": "https://ownr.dk/companies/public-profile/26058007 - frammento: 'The company has 143 employees, though other sources indicate 1 medarbejder (0 arsvaerk) as of December 2021 ... branch code is 77.39.10 - Udlejning og leasing ... part of a group with a total of 4 companies, and the parent company is PETER BEIER HOLDING ApS'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "PR CHOKOLADE A/S",
+  "campo": "dimensione",
+  "problema": "Dato di organico e di risultato da aggiornare: le fonti riportano 51 dipendenti su due stabilimenti nello Jutland meridionale (non 46) e un risultato netto 2025 di 182.238 DKK, in forte calo rispetto a 569.547 DKK dell'esercizio precedente. Confermato comunque il posizionamento sotto la forbice target.",
+  "gravita": "bassa",
+  "evidenza": "https://ownr.dk/companies/public-profile/25391462 - frammento: 'their latest 2025 accounts, the company had a bottom line profit of 182,238 DKK ... previous year when it was 569,547 DKK ... 51 employees distributed across two facilities in South Jutland'",
+  "correzione_proposta": "51 dipendenti; risultato netto 2025 182 mila DKK (2024: 570 mila DKK); bruttofortjeneste 17 mio. DKK (2024)"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "SPANGSBERG CHOKOLADE A/S / Spangsberg Chokoladefabrik A/S",
+  "campo": "dimensione",
+  "problema": "Due punti: (a) il fatturato non e pubblicato e l'affermazione 'coerente con il target 10-20 M EUR' e un'inferenza non sostenuta da alcuna fonte (il bruttofortjeneste di 38 mio. DKK vale ~5,1 M EUR); (b) non e dichiarato che la societa appartiene a un gruppo di 5 societa con capogruppo MISP HOLDING A/S, proprietaria al 100% dal 07/02/2002 (holding familiare Spangsberg, non gruppo industriale terzo). Confermati direktør Michael Spangsberg e presidente CdA Peter Ernst Wengler-Jorgensen.",
+  "gravita": "media",
+  "evidenza": "https://estatistik.dk/virksomhed/spangsberg-chokolade-as/26458005/roller - frammento: 'Direktør: Michael Spangsberg ... Bestyrelsesformand: Peter Ernst Wengler-Jorgensen ... MISP HOLDING A/S is the legal owner with 100% ... part of a group with a total of 5 companies'",
+  "correzione_proposta": "Eliminare la stima di fatturato non verificata e aggiungere: controllata al 100% da MISP HOLDING A/S (holding familiare, gruppo di 5 societa)"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Summerbird A/S",
+  "campo": "dimensione",
+  "problema": "Presidente del CdA errato/obsoleto: il campo indica Peter Eriksen Jensen, mentre dal 30/06/2023 il bestyrelsesformand e Steen Halbye. Confermati invece Mikael Gronlykke come direktør dal 03/08/2009 e l'assetto proprietario (GRONLYKKE LANDBRUG ApS 66,66-89,99%).",
+  "gravita": "media",
+  "evidenza": "https://estatistik.dk/virksomhed/summerbird-as/24209644/roller - frammento: 'Mikael Gronlykke has been director of the company since August 3, 2009, and Steen Halbye has been chairman of the board since June 30, 2023'",
+  "correzione_proposta": "Presidente CdA: Steen Halbye (dal 30/06/2023). Proprieta: GRONLYKKE LANDBRUG ApS 66,66-89,99%"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Xocolatl Christiansfeld ApS",
+  "campo": "linkedin",
+  "problema": "L'URL LinkedIn indicato e un profilo personale (percorso /in/xocolatl-christiansfeld-aps-837b35b4/), non la pagina aziendale (/company/). Dati societari per il resto confermati: 56 dipendenti, capogruppo MINKO INVEST ApS, direktør Gitte Kohls (uscita dal CdA ma tuttora amministratore).",
+  "gravita": "bassa",
+  "evidenza": "https://ownr.dk/companies/public-profile/34458375 - frammento: 'Gitte Kohls is the administrative director (direktør) ... left the board ... but continues in her role as administrative director ... 56 employees. The parent company is MINKO INVEST ApS'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "AVK GUMMI A/S",
+  "campo": "filiera",
+  "problema": "Perimetro EUDR DA CONFERMARE: le mescole documentate da AVK Gummi sono tutte sintetiche (silicone, fluorosilicone, poliisoprene, butile, EPDM, gomma fluorurata, HNBR) per componenti destinati ad acqua potabile, alimentare, healthcare, energia e meccanica. Nessuna evidenza pubblica di impiego di gomma naturale (caucciu): se lavora solo elastomeri sintetici e silicone e fuori Allegato I EUDR.",
+  "gravita": "media",
+  "evidenza": "https://www.avkgummi.dk/ - frammento: 'AVK GUMMI develops a range of mixtures for the healthcare segment, including silicone, fluorosilicone, polyisopren, butyl, EPDM, fluorine rubber and HNBR'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "AVK GUMMI A/S",
+  "campo": "dimensione",
+  "problema": "Dati superati e questione capogruppo: l'esercizio 2025 riporta bruttofortjeneste 120 mio. DKK (~16,1 M EUR) e 231 dipendenti, contro i 91,99 mio. DKK / 229 dipendenti (2024) indicati. Resta il nodo gia segnalato nel campo: la societa e controllata dal gruppo AVK Holding A/S (gruppo industriale danese di grandi dimensioni), quindi la compliance EUDR si decide a livello di capogruppo e il lead va valutato di conseguenza. Da segnalare anche il secondo direktør Anders Guldbaek Christensen.",
+  "gravita": "media",
+  "evidenza": "https://virmo.dk/firma/55375313-avk-gummi-as - frammento: 'The directors are Peter Lorentzen and Anders Guldbaek Christensen. Peter Lorentzen is the Adm. direktør ... AVK GUMMI A/S employs 231 employees ... In 2025, the accounts showed a gross profit of DKK 120 million'",
+  "correzione_proposta": "Bruttofortjeneste 120 mio. DKK (~16,1 M EUR) es. 2025; 231 dipendenti; controllata di AVK Holding A/S"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "DANSK GUMMI INDUSTRI A/S",
+  "campo": "dimensione",
+  "problema": "Campo incompleto e in parte incoerente: non riporta alcun indicatore che consenta di collocare l'azienda nella forbice 5-40 M EUR, e l'utile 'ca. 16 mio DKK (2025)' non trova riscontro nei bilanci pubblicati (2024: risultato ante imposte 6,48 mio. DKK, EBITDA 8,97 mio. DKK). I dati pubblicati su CVR 35405909 sono: bruttofortjeneste 42,265 mio. DKK (~5,7 M EUR) nel 2024, in crescita da 37,750 mio. DKK nel 2023; 62 dipendenti. Non e dichiarata la capogruppo KRONBERG HOLDING ApS (holding della famiglia proprietaria).",
+  "gravita": "media",
+  "evidenza": "https://www.proff.dk/firma/dansk-gummi-industri-as/kolding/producenter/GUH82GI016D - frammento: 'Bruttofortjeneste 2024: 42.265 (t.DKK) ... Resultat for skat 2024: 6.480 ... EBITDA 2024: 8.969 ... Antal ansatte: 62 ... Moderselskabet: KRONBERG HOLDING ApS'",
+  "correzione_proposta": "Bruttofortjeneste 42,3 mio. DKK (~5,7 M EUR) 2024 (2023: 37,8 mio. DKK); risultato ante imposte 6,5 mio. DKK; 62 dipendenti; capogruppo KRONBERG HOLDING ApS. Fatturato non pubblicato (A/S in forma ridotta)."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "RG ROM GUMMI A/S",
+  "campo": "dimensione",
+  "problema": "Controllo societario non dichiarato: la societa e in portafoglio del fondo di private equity danese Dansk Ejerkapital (scheda dedicata sul sito del fondo) e ha come capogruppo diretta RGDE ApS. Il campo la presenta invece come impresa a se stante. Da valutare come per gli altri casi di controllo da fondo gia emersi nel foglio (cfr. Kvist Industries).",
+  "gravita": "alta",
+  "evidenza": "https://www.danskejerkapital.dk/portefoelje/rom-gummi-a-s/ (scheda di portafoglio) e https://ownr.dk/companies/public-profile/76653313 - frammento: 'The parent company is RGDE ApS'",
+  "correzione_proposta": "Aggiungere: controllata tramite RGDE ApS, societa in portafoglio del fondo Dansk Ejerkapital"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "RG ROM GUMMI A/S",
+  "campo": "dimensione",
+  "problema": "Dati fermi al 2023 mentre e disponibile il bilancio 2024: risultato netto 7,287 mio. DKK, risultato ante imposte 9,650 mio. DKK, patrimonio netto 29,438 mio. DKK, 72 dipendenti. Il fatturato resta non pubblicato.",
+  "gravita": "bassa",
+  "evidenza": "https://virmo.dk/firma/76653313-rg-rom-gummi-as - frammento: 'In the most recent financial year (2024), RG ROM GUMMI A/S had a result of 7.287 million DKK, with pre-tax results of 9.650 million DKK and equity capital of 29.438 million DKK ... employs 72 employees'",
+  "correzione_proposta": "Aggiornare con dati 2024: risultato netto 7,3 mio. DKK, ante imposte 9,7 mio. DKK, patrimonio netto 29,4 mio. DKK, 72 dipendenti"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "H.C. JACOBSEN A/S",
+  "campo": "dimensione",
+  "problema": "Micro-impresa molto al di sotto della soglia minima: bruttofortjeneste 3,2 mio. DKK (~0,43 M EUR). Il core business e la distribuzione di imballaggi (HC Emballage: nastri, film estensibile, reggette, spago, cartellini) con gli elastici in gomma come linea storica; l'azienda e un distributore/importatore, non un trasformatore. Non e dichiarata la capogruppo BEA HOLDING ApS ne la presidente del CdA Pernille Andersen. Il lead e da considerarsi non qualificabile per la forbice target.",
+  "gravita": "media",
+  "evidenza": "https://estatistik.dk/virksomhed/hc-jacobsen-as/75144911 - frammento: 'H.C. Jacobsen A/S is Denmark's largest supplier of rubber bands ... delivers rubber bands, tape, stretch film, strap, string and manila tags ... Bjarni Engelhardt Andersen is the director ... Pernille Andersen is the chairman of the board ... The parent company is BEA HOLDING ApS'",
+  "correzione_proposta": "Aggiungere: capogruppo BEA HOLDING ApS; presidente CdA Pernille Andersen; distributore di imballaggi ed elastici, FUORI dalla forbice 5-40 M EUR"
+ }
+]
