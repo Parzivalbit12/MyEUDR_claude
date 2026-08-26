@@ -500,8 +500,21 @@ nel report**, non toccato nei fogli.
     HAKA Küche, KAPO Möbel, ADA e Schletterer per insolvenza **in corso**, mentre Franz Hauswirth
     fu mantenuta proprio perché **risanata**. Qui la procedura è aperta.
 
-**In totale 58 correzioni applicate**, di cui 3 rimozioni. Il censimento passa da **742 a 739
-aziende** (Belgio 95→94, Olanda 100→99, Austria 93→92); l'ordine dei fogli è ripristinato.
+  - **Odense Seglmærkefabrik A/S** (Danimarca) — **società estinta**: il CVR 17620487 risulta
+    «opløst efter fusion». L'attività è oggi un sito di Optimum Group Nordic (gruppo olandese),
+    trasferito da Odense ad Ans By nel 2025. La persona giuridica censita non esiste più. Stesso
+    criterio di Getama Danmark, Magnus Olesen e Bent Krogh.
+
+**In totale 59 correzioni applicate**, di cui 4 rimozioni. Il censimento passa da **742 a 738
+aziende** (Danimarca 89→88, Olanda 100→99, Belgio 95→94, Austria 93→92); l'ordine dei fogli è
+ripristinato.
+
+⚠️ **Nota sul criterio di rimozione.** Ho tolto una riga **solo** quando ricadeva in una delle
+categorie che il mandato autorizza a correggere (filiere fuori Allegato I, aziende cessate) **e**
+il progetto aveva già applicato lo stesso criterio a un caso analogo, citato nella motivazione.
+Il **fuori taglia da solo non basta**: STOK Emballage (92 M€ reali contro una stima «>50 M€» nel
+foglio, e maggioranza al fondo USA A&M Capital) è rimasta nel foglio come rilievo `alta`, perché
+la taglia non è fra le categorie correggibili d'ufficio.
 
 **Tre cose NON sono state corrette, di proposito** (il dettaglio è in `REPORT_VERIFICA.md` §0-bis):
 1. **Il maiuscolo integrale del foglio Danimarca** (51 record su 89, stile del registro CVR).

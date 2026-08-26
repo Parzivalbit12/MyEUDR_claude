@@ -13,7 +13,7 @@
   "campo": "denominazione",
   "da": null,
   "a": null,
-  "motivo": "FUORI TAGLIA (stesso criterio di Dragsbaek, rimossa a ~255 M€): il bilancio 2022 riporta un fatturato di quasi 400 M€, dieci volte il tetto della forbice 5-40 M€ — mentre il campo Dimensione affermava che il fatturato «non e' pubblicato». Non e' un caso di confine. Si aggiungono due motivi concordanti: acquisita da STX Group con closing 01/12/2024 (non piu' indipendente) e filiera dichiarata «Olio di palma» mentre le fonti la descrivono come trader di sottoprodotti alimentari e olio da frittura usato (UCO) per biocarburanti."
+  "motivo": "FUORI PERIMETRO EUDR: la filiera dichiarata è «Olio di palma», ma le fonti descrivono un trader di sottoprodotti alimentari e olio da frittura usato (UCO) destinati ai biocarburanti — è la motivazione stessa dell'acquisizione da parte di STX Group, che opera nei biofuels. UCO e biodiesel sono fuori dall'Allegato I: stesso criterio già applicato a Münzer/ABID (biodiesel da colza e oli esausti) in Austria. Due motivi concordanti: il bilancio 2022 riporta quasi 400 M€ — dieci volte il tetto della forbice 5-40 M€, e il campo Dimensione affermava invece che il fatturato «non è pubblicato» (stesso caso di Dragsbæk, rimossa a ~255 M€) — ed è stata acquisita da STX Group con closing 01/12/2024, quindi non più indipendente."
  },
  {
   "foglio": "Austria",
@@ -22,5 +22,13 @@
   "da": null,
   "a": null,
   "motivo": "AZIENDA IN INSOLVENZA: Sanierungsverfahren ohne Eigenverwaltung aperto al Landesgericht Linz il 13 gennaio, curatore René Lindner, prosecuzione con Massekredit e voto dei creditori il 29 aprile (fonti: registro insolvenze KSV, EUWID Holz, Nachrichten.at). Il progetto applica gia' questo criterio: escluse HAKA Küche, KAPO Möbel, ADA e Schletterer per insolvenza in corso, mentre Franz Hauswirth e' stata mantenuta proprio perche' risanata. Qui la procedura e' aperta. Si aggiunge che l'entita' operativa risulta «WEISSENGRUBER Möbelproduktion e.U.», non la GmbH censita."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "ODENSE SEGLMÆRKEFABRIK A/S",
+  "campo": "denominazione",
+  "da": null,
+  "a": null,
+  "motivo": "SOCIETÀ ESTINTA: il CVR 17620487 risulta «opløst efter fusion» (sciolta a seguito di fusione); l'attività è oggi un sito di Optimum Group Nordic (OG Nordic ApS, gruppo olandese) e nel 2025 è stata trasferita da Odense ad Ans By per condividere lo stabilimento con la consociata Etiflex. La persona giuridica censita non esiste più e il lead non è più un'impresa danese autonoma: stesso criterio già applicato a Getama Danmark (non più produttore autonomo), Magnus Olesen (fallita) e Bent Krogh (cessata). Fonti: ownr.dk e profiler.dk su CVR 17620487; signprintpack.dk 14.07.2025."
  }
 ]

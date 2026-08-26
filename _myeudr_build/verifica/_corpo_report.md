@@ -1,6 +1,6 @@
 # REPORT DI VERIFICA — MyEUDR Lead Mapping
 
-Controllo qualità record per record del censimento lead (**739 aziende, 8 fogli**). Non è una raccolta di nuove aziende: è la verifica del lavoro esistente.
+Controllo qualità record per record del censimento lead (**738 aziende, 8 fogli**). Non è una raccolta di nuove aziende: è la verifica del lavoro esistente.
 
 La verifica si è svolta in due fasi:
 
@@ -15,16 +15,16 @@ La verifica si è svolta in due fasi:
 | Italia | 95 | 1 | 0 | 4 | 19 | 20% |
 | Germania | 97 | 1 | 0 | 5 | 17 | 18% |
 | Finlandia | 84 | 1 | 0 | 4 | 17 | 20% |
-| Danimarca | 89 | 2 | 1 | 2 | 54 | 61% |
-| Svezia | 89 | 1 | 1 | 3 | 28 | 31% |
+| Danimarca | 88 | 3 | 0 | 2 | 54 | 61% |
+| Svezia | 89 | 1 | 1 | 3 | 29 | 33% |
 | Olanda | 99 | 2 | 0 | 4 | 34 | 34% |
 | Belgio | 94 | 3 | 0 | 2 | 57 | 61% |
 | Austria | 92 | 2 | 0 | 3 | 38 | 41% |
-| **TOTALE** | **739** | **13** | **2** | **27** | **264** | **36%** |
+| **TOTALE** | **738** | **14** | **1** | **27** | **265** | **36%** |
 
 _Un blocco è contato **completo** solo se l'agente ha confermato di aver verificato tutti i record. I **blocchi parziali** sono quelli ancora in corso o interrotti dal limite di sessione: i rilievi già salvati sono validi e inclusi nel report, ma la copertura è conteggiata al ribasso (solo le aziende che compaiono fra i rilievi). Il salvataggio incrementale ogni 3-4 record è ciò che ha evitato di perdere quel lavoro._
 
-> La Fase A copre invece il **100%** dei 739 record: è un controllo offline e non dipende dal budget di ricerca.
+> La Fase A copre invece il **100%** dei 738 record: è un controllo offline e non dipende dal budget di ricerca.
 
 
 _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati aperti dalla raccolta, condotta separatamente e riportata per intero più sotto._
@@ -32,7 +32,7 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 
 ## 2. Rilievi per foglio
 
-**Totale rilievi Fase B: 423** — alta 65 · media 235 · bassa 123.
+**Totale rilievi Fase B: 425** — alta 65 · media 236 · bassa 124.
 
 | Foglio | Rilievi | alta | media | bassa | Aziende toccate |
 |---|--:|--:|--:|--:|--:|
@@ -40,23 +40,23 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 | Germania | 29 | 1 | 20 | 8 | 17 |
 | Finlandia | 23 | 6 | 11 | 6 | 15 |
 | Danimarca | 74 | 19 | 36 | 19 | 49 |
-| Svezia | 48 | 11 | 22 | 15 | 27 |
+| Svezia | 50 | 11 | 23 | 16 | 28 |
 | Olanda | 74 | 9 | 50 | 15 | 33 |
 | Belgio | 115 | 15 | 68 | 32 | 57 |
 | Austria | 34 | 4 | 17 | 13 | 25 |
 | _(tutti)_ | 1 | 0 | 0 | 1 | 1 |
-| **TOTALE** | **423** | **65** | **235** | **123** | **241** |
+| **TOTALE** | **425** | **65** | **236** | **124** | **242** |
 
 ### Rilievi per campo
 
 | Campo | Rilievi | di cui alta |
 |---|--:|--:|
-| dimensione | 198 | 36 |
+| dimensione | 199 | 36 |
 | referente | 95 | 13 |
 | denominazione | 33 | 9 |
 | email | 26 | 2 |
 | linkedin | 19 | 0 |
-| sede | 12 | 1 |
+| sede | 13 | 1 |
 | filiera | 12 | 4 |
 | ruolo | 12 | 0 |
 | sito | 11 | 0 |
@@ -65,7 +65,7 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 
 ---
 
-## 3. Tema trasversale — legami di gruppo (75 rilievi)
+## 3. Tema trasversale — legami di gruppo (76 rilievi)
 
 È il problema **più diffuso e meno atteso** emerso dalla verifica: non era fra i 13 punti noti dell'handoff. Numerose aziende del censimento sono controllate di gruppi, spesso esteri o quotati. Per il criterio già applicato dal progetto — che aveva rimosso Lavazza Kaffee, Segafredo Zanetti Austria e Kaffee Partner Austria perché *«la compliance si decide a livello di gruppo, non nella filiale»* — sono **lead di valore dubbio**.
 
@@ -151,6 +151,7 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 | Svezia | Nola Industrier AB | **NON dichiarato** | Controllo di gruppo NON dichiarato: Nola Industrier AB fa parte di una koncern di 3 società il cui moderbolag è Sentensen Aktiebolag (gruppo: 22 dipendenti, 88,0 MSEK). Il foglio la presenta come indi |
 | Svezia | Nordanå Trä Aktiebolag | **dichiarato** | Controllata di gruppo (legame già dichiarato correttamente nel foglio): moderbolag Green Wood Sverige AB. La compliance EUDR si decide a livello di capogruppo: questione di selezione del lead. Conferm |
 | Svezia | Nydala Trävaru Aktiebolag | **NON dichiarato** | Controllo di gruppo NON dichiarato: Nydala Trävaru Aktiebolag fa parte di una koncern di 2 società con moderbolag Nydala Trä Holding AB. Il foglio la presenta come segheria familiare indipendente. |
+| Svezia | Rörvikshus Sweden AB | **dichiarato** | Controllata di gruppo (legame già dichiarato correttamente nel foglio): moderbolag Munio Sweden Aktiebolag, koncern di 4 società con 52 dipendenti e 229,0 MSEK di fatturato aggregato — la compliance E |
 | Svezia | Tärnsjö Garveri Aktiebolag | **NON dichiarato** | Legame di gruppo NON dichiarato: il record definisce l'azienda 'la principale conceria indipendente attiva', ma allabolag indica come moderbolag Axel Bodéns Handels Aktiebolag. L'affermazione di indip |
 
 ---
@@ -703,7 +704,7 @@ REFERENTE OBSOLETO DI DUE PASSAGGI. Heinz Hofer-Wittmann non e' piu' alla guida:
 
 ---
 
-## 5. Casi di gravità MEDIA (235)
+## 5. Casi di gravità MEDIA (236)
 
 _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente errato._
 
@@ -806,7 +807,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | TJOERNEHOEJ MOELLE A/S | dimensione | Fatturato recente NON reperito: il dato del foglio resta quello del 2003 (80 M DKK). In 3 ricerche l'unico bilancio individuato e' il PDF dell'esercizio 2011 su regnskaber.cvrapi.dk e menzioni di dati fino al 2014; nessuna cifra 2023-2025 emerge dall | https://regnskaber.cvrapi.dk/21057143/Y3ZyLmRrOi8vcGRmcy8zNDE3NTAxMjtBL1M1MDg2MTsyMDExMDEwMTsyMDExMTIzMTtSO1I.pdf - bilancio 01-01-2011/31-12-2011; ht |  |
 | VESTJYSK SPECIALFODER ApS | filiera | Perimetro EUDR DA CONFERMARE: l'oggetto sociale registrato e' generico ('handelsvirksomhed inden for specialfoder'), classificato proff.dk come 'engroshandel - annet'. Nessuna fonte pubblica conferma l'impiego di soia (unica commodity EUDR plausibile | https://royalfireworks.dk/forhandler/vestjysk-specialfoder-aps/ - scheda rivenditore fuochi d'artificio a Vemb; https://www.proff.dk/firma/vestjysk-sp |  |
 
-### Svezia (22)
+### Svezia (23)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -832,6 +833,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | N K Lundströms Trävaror Aktiebolag | dimensione | Controllata di gruppo (legame già dichiarato correttamente nel foglio): moderbolag KGL Trä Aktiebolag, koncern di 2 società. La decisione di compliance EUDR si colloca a livello di capogruppo: questione di selezione del lead. Fatturato 210,5 MSEK 202 | allabolag.se (org.nr 556107-8154): «N K Lundströms Trävaror Aktiebolag ingår i en koncern med totalt 2 bolag, där moderbolaget är KGL Trä Aktiebolag … |  |
 | Nordanå Trä Aktiebolag | dimensione | Controllata di gruppo (legame già dichiarato correttamente nel foglio): moderbolag Green Wood Sverige AB. La compliance EUDR si decide a livello di capogruppo: questione di selezione del lead. Confermati fatturato 117,7 MSEK ≈ 10,4 M€ (2025, -52%) e  | allabolag.se (org.nr 556134-5751): «Moderbolaget är Green Wood Sverige AB … omsättning 117,7 MSEK och resultat 40,7 MSEK under 2025, omsättningstillvä |  |
 | Nydala Trävaru Aktiebolag | dimensione | Dato di fatturato non aggiornato: il foglio riporta l'esercizio 2023 (323 425 KSEK ≈ 28,6 M€, 41 dipendenti). Il bilancio 2024 disponibile indica 381 731 KSEK = 381,7 MSEK ≈ 33,8 M€ (-11,5%), 43 dipendenti, margine 6,1%: l'azienda resta entro la fasc | allabolag.se / ratsit.se (org.nr 556075-2825): «2024 års omsättning 381 731 tkr, 43 anställda, tillväxt -11,5%, vinstmarginal 6,1%» — https://www.alla | ≈33,8 M€ / 43 dip. (allabolag 2024: 381 731 KSEK, -11,5%) |
+| Rörvikshus Sweden AB | dimensione | Controllata di gruppo (legame già dichiarato correttamente nel foglio): moderbolag Munio Sweden Aktiebolag, koncern di 4 società con 52 dipendenti e 229,0 MSEK di fatturato aggregato — la compliance EUDR si decide a livello di capogruppo. Da segnalar | allabolag.se (org.nr 556622-0926): «Rörvikshus Sweden AB har 49 anställda och gjorde ett resultat på 1 195 KSEK med omsättning 154 918 KSEK under 2024 |  |
 
 ### Olanda (50)
 
@@ -985,7 +987,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 
 ---
 
-## 6. Casi di gravità BASSA (123)
+## 6. Casi di gravità BASSA (124)
 
 _Refusi formali e incoerenze di stile._
 
@@ -1057,7 +1059,7 @@ _Refusi formali e incoerenze di stile._
 | Skagerak Denmark A/S | linkedin | Il link LinkedIn punta alla vecchia denominazione 'trip-trap-denmark-a-s'; il marchio comunica oggi come Skagerak (by Fritz Hansen). DA CONFERMARE quale pagina sia quella ufficiale attiva. | https://www.linkedin.com/company/trip-trap-denmark-a-s (denominazione storica) ; https://www.dezeen.com/2021/12/15/fritz-hansen-acquires-skagerak/ |  |
 | VERMUND LARSEN A/S (VELA / VERMUND) | sito | Disallineamento tra i canali: il sito indicato (vermund.eu) e' quello del solo marchio di design 'Vermund', mentre il sito istituzionale della societa' e del marchio principale e' vela.dk (coerente con l'email mail@vela.dk e con la pagina LinkedIn 'v | https://www.vela.dk/om-vela ; https://estatistik.dk/virksomhed/vermund-larsen-as/52796628/roller - 'Ny Vela Holding ApS tiltradte som ejer 100% af vir | https://www.vela.dk/ (con vermund.eu come sito del marchio design) |
 
-### Svezia (15)
+### Svezia (16)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -1075,6 +1077,7 @@ _Refusi formali e incoerenze di stile._
 | Gärsnäs Aktiebolag | referente | RICONFERMATO, nessuna correzione necessaria. Magnus Eriksson risulta tuttora VD di Gärsnäs Aktiebolag (556044-4746) e Dag Klockby styrelseordförande, coerentemente con l'annuncio ufficiale del sito (VD dal 01-01-2023, in precedenza platschef per quas | https://garsnas.se/en/new-ceo-at-garsnas/ ('Ny vd på Gärsnäs'); https://www.bolagsfakta.se/5560444746-Garsnas_Aktiebolag - 'Magnus Eriksson är VD ...  | Magnus Eriksson, VD (confermato) |
 | Hjältevadshus AB | referente | Referente confermato (Johan Bynell, VD; ordförande Magnus Agervald) ma la nomina è annunciata da Pulsen Group: verificare che sia ancora in carica alla data di uso del lead. | https://www.mynewsdesk.com/se/pulsen/pressreleases/johan-bynell-ny-vd-paa-hjaeltevadshus-2948844 ; allabolag befattningar: «VD Johan Bynell, ordförand |  |
 | Horreds Möbel Aktiebolag | denominazione | Società CONFERMATA ATTIVA (scheda allabolag corrente, nessuna procedura concorsuale rilevata). Va però esplicitato il legame di gruppo: la capogruppo è Horreds Holding AB (esiste anche Horreds Möbel Utvecklings AB, 559016-3324). Nel foglio si legge g | https://www.allabolag.se/5563651974/koncern e frammento allabolag: 'moderbolag är Horreds Holding AB'; https://www.allabolag.se/5590163324/horreds-mob | Indicare la capogruppo: Horreds Holding AB |
+| Rörvikshus Sweden AB | sede | Il foglio indica come sede Rörvik (Sävsjö), Jönköpings län: è corretto come indirizzo operativo/stabilimento (Bygdegårdsgatan 8, 576 93 Rörvik), ma la sede legale (säte) registrata è Helsingborg (Skåne län). Da precisare per non sbagliare l'indirizzo | allabolag.se (org.nr 556622-0926): «Rörvikshus Sweden är baserat i Helsingborg, med verksamhet på Bygdegårdsgatan 8, 576 93 Rörvik» — https://www.alla | Rörvik (Sävsjö), Jönköpings län – stabilimento; säte legale Helsingborg, Skåne län |
 | Tärnsjö Garveri Aktiebolag | dimensione | Numero dipendenti non allineato alla fonte: il record indica 43 dipendenti (2024), allabolag riporta 46. | allabolag.se: «Tärnsjö Garveri Aktiebolag har 46 anställda». Fatturato 51,9 MSEK 2024 (+6%) confermato. | 46 dipendenti |
 
 ### Olanda (15)

@@ -106,5 +106,23 @@
   "gravita": "media",
   "evidenza": "allabolag.se / ratsit.se (org.nr 556075-2825): «2024 års omsättning 381 731 tkr, 43 anställda, tillväxt -11,5%, vinstmarginal 6,1%» — https://www.allabolag.se/5560752825/bokslut",
   "correzione_proposta": "≈33,8 M€ / 43 dip. (allabolag 2024: 381 731 KSEK, -11,5%)"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Rörvikshus Sweden AB",
+  "campo": "dimensione",
+  "problema": "Controllata di gruppo (legame già dichiarato correttamente nel foglio): moderbolag Munio Sweden Aktiebolag, koncern di 4 società con 52 dipendenti e 229,0 MSEK di fatturato aggregato — la compliance EUDR si decide a livello di capogruppo. Da segnalare inoltre che il fatturato 2024 (154 918 KSEK ≈ 13,7 M€, confermato) è in calo del -30,8%: il posizionamento «pienamente in target» va rivisto al prossimo bilancio.",
+  "gravita": "media",
+  "evidenza": "allabolag.se (org.nr 556622-0926): «Rörvikshus Sweden AB har 49 anställda och gjorde ett resultat på 1 195 KSEK med omsättning 154 918 KSEK under 2024, omsättningstillväxt -30,8% … moderbolaget är Munio Sweden Aktiebolag, koncernen omfattar 4 bolag, 52 anställda, 229,0 MSEK» — https://www.allabolag.se/foretag/r%C3%B6rvikshus-sweden-ab/r%C3%B6rvik/hus/2K1ZFJYI5YF6Z",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Rörvikshus Sweden AB",
+  "campo": "sede",
+  "problema": "Il foglio indica come sede Rörvik (Sävsjö), Jönköpings län: è corretto come indirizzo operativo/stabilimento (Bygdegårdsgatan 8, 576 93 Rörvik), ma la sede legale (säte) registrata è Helsingborg (Skåne län). Da precisare per non sbagliare l'indirizzo del contatto formale.",
+  "gravita": "bassa",
+  "evidenza": "allabolag.se (org.nr 556622-0926): «Rörvikshus Sweden är baserat i Helsingborg, med verksamhet på Bygdegårdsgatan 8, 576 93 Rörvik» — https://www.allabolag.se/foretag/r%C3%B6rvikshus-sweden-ab/r%C3%B6rvik/hus/2K1ZFJYI5YF6Z",
+  "correzione_proposta": "Rörvik (Sävsjö), Jönköpings län – stabilimento; säte legale Helsingborg, Skåne län"
  }
 ]
