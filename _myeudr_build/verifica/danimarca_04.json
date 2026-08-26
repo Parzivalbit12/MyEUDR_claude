@@ -187,5 +187,23 @@
   "gravita": "media",
   "evidenza": "https://estatistik.dk/virksomhed/hc-jacobsen-as/75144911 - frammento: 'H.C. Jacobsen A/S is Denmark's largest supplier of rubber bands ... delivers rubber bands, tape, stretch film, strap, string and manila tags ... Bjarni Engelhardt Andersen is the director ... Pernille Andersen is the chairman of the board ... The parent company is BEA HOLDING ApS'",
   "correzione_proposta": "Aggiungere: capogruppo BEA HOLDING ApS; presidente CdA Pernille Andersen; distributore di imballaggi ed elastici, FUORI dalla forbice 5-40 M EUR"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "I.M. FRELLSEN K/S (Frellsen Kaffe & Te / Frellsen Chokoladefabrik)",
+  "campo": "dimensione",
+  "problema": "Il fatturato di ~300 mio. DKK (~40 M EUR) attribuito al 2022 non e un dato pubblicato: la societa non rende noto il fatturato, si limita a dichiarare che e superiore a quello dell'anno precedente. La cifra su cui poggia il posizionamento 'al limite superiore del range' non e quindi verificabile. Dati effettivamente pubblicati: utile 18,3 mio. DKK nell'esercizio ottobre 2024-ottobre 2025, in calo di circa il 40% dai 30,8 mio. DKK precedenti, con attesa di 20-30 mio. DKK nel 2025/26.",
+  "gravita": "media",
+  "evidenza": "https://www.sn.dk/art6507860/roskilde-kommune/erhverv/hoeje-raavarepriser-er-med-til-at-tage-en-bid-af-frellsens-overskud/ - frammento: 'The company does not disclose its revenue figure, only stating it is higher than the previous year ... Frellsen earned 18.3 million Danish kroner in profit, approximately 40% less than the previous year when the profit was 30.8 million kroner'",
+  "correzione_proposta": "Fatturato non pubblicato. Utile es. 2024/25 18,3 mio. DKK (2023/24: 30,8 mio. DKK); 582 dipendenti (rete retail inclusa)"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Rubberproff ApS",
+  "campo": "filiera",
+  "problema": "Lead non qualificabile su due fronti. (a) Perimetro: e un rivenditore/e-commerce di prodotti in gomma finiti ('trade in rubber and related business'), non un trasformatore ne un importatore che immette la commodity sul mercato UE - stesso profilo dei broker puri gia rimossi. (b) Dimensione: 1 solo dipendente (non 2-10 come dichiarato) e bruttofortjeneste 1.995.355 DKK nel 2023 (~0,27 M EUR), contro 1.767.447 DKK nel 2022. Molto lontano dalla forbice 5-40 M EUR. Da valutare la rimozione dal foglio.",
+  "gravita": "alta",
+  "evidenza": "https://estatistik.dk/virksomhed/rubberproff-aps/40465790 - frammento: \"The company's purpose is to trade in rubber and related business activities ... Number of employees: 1 ... In 2023, gross profit was 1,995,355 DKK, compared to 1,767,447 DKK in 2022 ... The parent company is Mp17 Holding ApS\"",
+  "correzione_proposta": ""
  }
 ]

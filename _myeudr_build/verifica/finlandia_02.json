@@ -223,5 +223,23 @@
   "gravita": "media",
   "evidenza": "'Late-Rakenteet Oy... Osoite: Pansiontie 67, 20240 Turku... Sahkoposti: [oscurato]; Puhelin: 020 755 1320' — https://www.finder.fi/Puutavara/Late-Rakenteet+Oy/Turku/yhteystiedot/152508",
   "correzione_proposta": ""
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Oy Haka-Wood Ab",
+  "campo": "linkedin",
+  "problema": "Il campo LinkedIn contiene il profilo PERSONALE del toimitusjohtaja, non la pagina aziendale.",
+  "gravita": "bassa",
+  "evidenza": "'Tuomo Saarisilta - Toimitusjohtaja, Oy Haka-Wood Ab' — https://fi.linkedin.com/in/tuomo-saarisilta-207ab484 (profilo individuale)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Orasko Oy",
+  "campo": "sede",
+  "problema": "Sede imprecisa: la sede legale/uffici della societa' e' a Kuopio (Minna Canthin katu 4 A, 70100 Kuopio, Pohjois-Savo); Utajarvi (Mustikkakangas) e' lo stabilimento produttivo.",
+  "gravita": "bassa",
+  "evidenza": "'Orasko Oy... osoite Minna Canthin katu 4 A, 70100 Kuopio; info@orasko.fi; Hany Yacoub hany@orasko.fi, +358 400 574 909' — https://orasko.fi/en-eu/pages/yhteystiedot e https://www.proff.fi/yrityksen/orasko-oy/kuopio/tukkukauppa-%E2%80%93-muut/2325828-2I10LK",
+  "correzione_proposta": "Kuopio (Pohjois-Savo) — sede legale; stabilimento a Utajarvi (Pohjois-Pohjanmaa)"
  }
 ]
