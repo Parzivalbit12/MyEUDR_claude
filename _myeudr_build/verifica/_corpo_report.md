@@ -17,10 +17,10 @@ La verifica si è svolta in due fasi:
 | Finlandia | 84 | 2 | 0 | 3 | 34 | 40% |
 | Danimarca | 88 | 4 | 0 | 1 | 72 | 82% |
 | Svezia | 89 | 3 | 0 | 2 | 54 | 61% |
-| Olanda | 99 | 3 | 1 | 2 | 65 | 66% |
+| Olanda | 99 | 4 | 0 | 2 | 68 | 69% |
 | Belgio | 93 | 4 | 0 | 1 | 76 | 82% |
 | Austria | 91 | 3 | 0 | 2 | 57 | 63% |
-| **TOTALE** | **736** | **24** | **2** | **16** | **460** | **62%** |
+| **TOTALE** | **736** | **25** | **1** | **16** | **463** | **63%** |
 
 _Un blocco è contato **completo** solo se l'agente ha confermato di aver verificato tutti i record. I **blocchi parziali** sono quelli ancora in corso o interrotti dal limite di sessione: i rilievi già salvati sono validi e inclusi nel report, ma la copertura è conteggiata al ribasso (solo le aziende che compaiono fra i rilievi). Il salvataggio incrementale ogni 3-4 record è ciò che ha evitato di perdere quel lavoro._
 
