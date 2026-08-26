@@ -1,0 +1,245 @@
+[
+ {
+  "foglio": "Germania",
+  "denominazione": "Schmidt & Thürmer Holzhandlung, Säge- und Hobelwerk GmbH & Co. KG",
+  "campo": "dimensione",
+  "problema": "Campo inutilizzabile: fatturato dichiarato come «~5 Mio € (stima)» senza fonte né anno, e numero dipendenti superato. Il sito aziendale e Die Deutsche Wirtschaft indicano 130 dipendenti, non ~100. Con 130 addetti e 5 sedi un fatturato di 5 Mio € è implausibile: il record rischia di collocare l'azienda fuori dalla forbice 5-40 Mio € su un dato inventato.",
+  "gravita": "media",
+  "evidenza": "https://die-deutsche-wirtschaft.de/unternehmen/schmidt-thuermer-holzhandlung-saege-und-hobelwerk-gmbh-co-kg-behrenhoff/ — «betreibt seit 30 Jahren einen Holzhandel in Mecklenburg-Vorpommern mit derzeit 130 Mitarbeitern»; 5 Standorte",
+  "correzione_proposta": "«~130 dipendenti (2024, Die Deutsche Wirtschaft / sito aziendale); fatturato non pubblicato (GmbH & Co. KG, nessun bilancio in Bundesanzeiger) — DA CONFERMARE»"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Schmidt & Thürmer Holzhandlung, Säge- und Hobelwerk GmbH & Co. KG",
+  "campo": "referente",
+  "problema": "Elenco dei Geschäftsführer incompleto: l'Impressum ne indica due, il record ne riporta uno solo. Da valutare anche Peter-Uwe Winkel, nominato Geschäftsführer nel 2019 (EUWID): verificare se sia ancora in carica.",
+  "gravita": "bassa",
+  "evidenza": "https://www.schmidt-thuermer.de/impressum/ — Geschäftsführer: Mathias Mörke, Andreas Helmrich; cfr. https://www.euwid-holz.de/news/handel/winkel-neuer-geschaeftsfuehrer-bei-schmidt-thuermer/",
+  "correzione_proposta": "Mathias Mörke, Andreas Helmrich"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Schorn & Groh GmbH",
+  "campo": "dimensione",
+  "problema": "Campo privo di anno e di fatturato: «~80 MA (Creditreform); Umsatz n.d.». Il sito aziendale indica ~85 dipendenti. Nessun elemento consente di collocare l'azienda nella forbice 5-40 Mio €. Attenzione: alcuni aggregatori (RocketReach) riportano «14,2 M$ / 13 dipendenti», dato palesemente incoerente e da non usare.",
+  "gravita": "media",
+  "evidenza": "https://www.sg-veneers.com/unternehmen/ueber-uns.html — «in zweiter Generation geführt, beschäftigt rund 85 Mitarbeiter, seit mehreren Jahren PEFC- und FSC-zertifiziert»",
+  "correzione_proposta": "«~85 dipendenti (sito aziendale, 2025); fatturato non pubblicato — DA CONFERMARE su Bundesanzeiger (HRB 103479, AG Mannheim)»"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Wimmer Wohnkollektionen GmbH",
+  "campo": "dimensione",
+  "problema": "Il dato «~40 Mio € Umsatz, ~60 MA» è privo di anno: risale a una fonte del 2018 (8 anni fa). Inoltre 60 dipendenti per 40 Mio € è un rapporto anomalo, mentre LinkedIn indica oggi 51-200 dipendenti. Essendo il valore al limite superiore della forbice cliente (40 Mio €), l'assenza dell'anno rende il record non utilizzabile per la segmentazione.",
+  "gravita": "media",
+  "evidenza": "https://www.moebelindustrie.de/presse/2336/wimmer-wohnkollektionen-tritt-massivholzverband-bei.html — «Das Unternehmen produziert mit seinen 60 Mitarbeitern einen Jahresumsatz von knapp 40 Millionen Euro» (fonte del 2018)",
+  "correzione_proposta": "«~40 Mio € fatturato e ~60 dipendenti (2018, moebelindustrie.de) — dato da aggiornare»"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Winter & Freis GmbH & Co. KG",
+  "campo": "dimensione",
+  "problema": "Campo privo di qualsiasi dato verificabile: «Umsatz/MA n.d.». Non è possibile stabilire se l'azienda rientri nella forbice 5-40 Mio €. Inoltre l'anno di fondazione indicato (1927) non coincide con le fonti aziendali, che riportano 1926.",
+  "gravita": "media",
+  "evidenza": "https://holzkiste-palette.de/wir-sind-winter-freis/ — «1926 in Bayern gegründet ... seit über 90 Jahren in Familienbesitz, heute in dritter und vierter Generation von Johannes und Julian Ostermeier geführt»",
+  "correzione_proposta": "«Impresa familiare fondata nel 1926, imballaggi in legno/casse da export; fatturato e dipendenti non pubblicati (GmbH & Co. KG senza obbligo di deposito) — DA CONFERMARE»"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Büttenpapierfabrik Gmund GmbH & Co. KG",
+  "campo": "email",
+  "problema": "Il campo è vuoto («n.d.») pur essendo l'indirizzo pubblicato letteralmente nell'Impressum del sito aziendale, obbligatorio per legge in Germania.",
+  "gravita": "media",
+  "evidenza": "https://de.gmund.com/impressum.html/ — Mangfallstr. 5, 83703 Gmund a. Tegernsee; Tel. +49 8022 7500-0; E-Mail: info@gmund.com; AG München HRB 114639, Geschäftsführer Florian Kohler",
+  "correzione_proposta": "info@gmund.com"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Büttenpapierfabrik Gmund GmbH & Co. KG",
+  "campo": "dimensione",
+  "problema": "Il dato è datato 2022 (4 anni) e proviene da un portale aggregatore (wer-zu-wem.de), non da bilancio depositato. Va riconfermato o sostituito con il dato più recente.",
+  "gravita": "bassa",
+  "evidenza": "https://www.wer-zu-wem.de/firma/buettenpapierfabrik.html (dato 2022: ~120 MA, ~20 Mio € Umsatz)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Die Pharmadrucker GmbH",
+  "campo": "referente",
+  "problema": "Referente errato: «Ingo Hofmeier» non risulta Geschäftsführer della società. L'Impressum attuale indica Felix Fischer e Alexander Storck (una pagina più vecchia riportava Conrad Fischer).",
+  "gravita": "alta",
+  "evidenza": "https://www.diepharmadrucker.de/impressum/ — «Geschäftsführer: Felix Fischer, Alexander Storck», Unter dem Schöneberg 1, 34212 Melsungen, AG Fritzlar HRB 12160",
+  "correzione_proposta": "Felix Fischer, Alexander Storck"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Die Pharmadrucker GmbH",
+  "campo": "dimensione",
+  "problema": "Appartenenza a gruppo dichiarata ma da qualificare: la società è controllata dalla Bernecker-Gruppe (Druckerei Bernecker GmbH, stessa sede) dal 2016; la decisione di compliance EUDR si prende a livello di capogruppo, quindi il lead va indirizzato lì. Inoltre il campo non contiene alcun dato di fatturato né anno: solo una fascia di portale «50-99 MA (wlw.com)» priva di data.",
+  "gravita": "media",
+  "evidenza": "https://www.diepharmadrucker.de/unternehmen/ — società del gruppo Bernecker dal 2016, stessa sede di Druckerei Bernecker GmbH (Unter dem Schöneberg 1, Melsungen); https://www.bernecker.de/",
+  "correzione_proposta": "«Controllata di Bernecker-Gruppe (Melsungen) dal 2016; 50-99 dipendenti (wlw.com, senza anno) — fatturato non pubblicato, DA CONFERMARE. Valutare il contatto a livello di capogruppo Bernecker»"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Druckerei Siepmann GmbH",
+  "campo": "dimensione",
+  "problema": "Campo inutilizzabile: «KMU; Umsatz/MA n.d.», nessun dato quantitativo, nessuna fonte, nessun anno. Il numero di dipendenti è invece pubblicato dall'azienda (~65).",
+  "gravita": "media",
+  "evidenza": "https://siepmanndruck.de/ — «ein Team von rund 65 Mitarbeitern»; AG Hamburg HRB 25539",
+  "correzione_proposta": "«~65 dipendenti (sito aziendale, 2025); fatturato non pubblicato (GmbH, deposito abbreviato) — DA CONFERMARE su Bundesanzeiger, AG Hamburg HRB 25539»"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Druckerei Siepmann GmbH",
+  "campo": "filiera",
+  "problema": "La filiera è dichiarata «Verpackungsdruck/Faltschachteln», ma l'azienda si presenta come tipografia commerciale generalista di Amburgo (stampati, cataloghi), non come produttore di astucci pieghevoli. Va inoltre valutato il perimetro EUDR: un tipografo che acquista carta già immessa sul mercato UE è operatore a valle, non chi immette per primo la commodity. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://siepmanndruck.de/ — «Druckerei Siepmann | Ihre Hamburger Druckerei»; https://www.wer-zu-wem.de/firma/siepmanndruck.html",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "EGGER Druck + Medien GmbH",
+  "campo": "referente",
+  "problema": "Elenco Geschäftsführer incompleto: l'Impressum indica tre amministratori, il record ne riporta due (manca Axel Schreiner).",
+  "gravita": "media",
+  "evidenza": "https://www.eggerdruck.de/impressum.html — «Geschäftsführer: Franz Xaver Egger, Josef Maximilian Egger, Axel Schreiner»; AG Augsburg HRB 9915",
+  "correzione_proposta": "Franz Xaver Egger, Josef Maximilian Egger, Axel Schreiner"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "EGGER Druck + Medien GmbH",
+  "campo": "email",
+  "problema": "L'e-mail indicata (service@madika.de) è quella del negozio online madika.de, non l'indirizzo aziendale dell'Impressum di EGGER Druck + Medien. Per un contatto commerciale B2B è preferibile l'indirizzo societario.",
+  "gravita": "media",
+  "evidenza": "https://www.eggerdruck.de/impressum.html — Lechwiesenstraße 23, D-86899 Landsberg am Lech, Tel. +49 8191 9180-0, E-Mail: egger@eggerdruck.de",
+  "correzione_proposta": "egger@eggerdruck.de"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "EGGER Druck + Medien GmbH",
+  "campo": "dimensione",
+  "problema": "Campo privo di qualsiasi dato («Umsatz/MA n.d.»). Le fonti disponibili indicano 11-50 dipendenti: con questa dimensione l'azienda è verosimilmente SOTTO la soglia minima di 5 Mio € della forbice cliente, e il record andrebbe riqualificato o escluso. Va inoltre verificata la filiera: l'attività prevalente è stampa commerciale/online-print (madika.de), non produzione di astucci pieghevoli.",
+  "gravita": "media",
+  "evidenza": "https://firmeneintrag.creditreform.de/86899/8030017156/EGGER_DRUCK_MEDIEN_GMBH e https://www.wer-zu-wem.de/firma/egger-druck-medien.html — 11-50 Mitarbeiter; shop online www.madika.de",
+  "correzione_proposta": "«11-50 dipendenti (Creditreform / wer-zu-wem, 2025); fatturato non pubblicato — probabile sotto-soglia rispetto alla forbice 5-40 Mio €, DA CONFERMARE»"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Ebro Color GmbH",
+  "campo": "dimensione",
+  "problema": "Campo senza fonte, senza anno e senza dato di fatturato («~40 MA, familiengeführt; Umsatz n.d.»). È invece disponibile il bilancio 2023 depositato: totale di bilancio 5 Mio €, in calo del 20,2% sull'anno precedente — informazione rilevante anche perché segnala una contrazione.",
+  "gravita": "media",
+  "evidenza": "https://www.northdata.com/Ebro%20Color%20GmbH,%20Albstadt/Amtsgericht%20Stuttgart%20HRB%20400380 — «Bilanzsumme 2023: 5 Mio EUR (-20,2%)»; https://www.dmpi-bw.de/news/2023/mitgliederportraet-ebro-color-albstadt.php",
+  "correzione_proposta": "«Totale di bilancio 5 Mio € (2023, Bundesanzeiger via Northdata, -20,2% a/a); ~40 dipendenti; fatturato non pubblicato (deposito abbreviato)»"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "FMS AG",
+  "campo": "dimensione",
+  "problema": "Il campo riporta solo una fascia di portale senza anno e senza fatturato («>60 MA (wer-zu-wem); Umsatz n.d.»). Il numero è confermato dal sito aziendale ma resta impossibile collocare l'azienda nella forbice 5-40 Mio €. Trattandosi di una AG con registro ad Ansbach HRB 5384, i conti sono depositabili in Bundesanzeiger.",
+  "gravita": "media",
+  "evidenza": "https://fmsag.de/ihre-fms/ — «über 60 Mitarbeiterinnen, Mitarbeiter und Auszubildende»; https://www.northdata.com/FMS%20AG%20-%20Druck,%20Verpackungen,%20Displays,%20Leutershausen/Amtsgericht%20Ansbach%20HRB%205384",
+  "correzione_proposta": "«>60 dipendenti (sito aziendale, 2025); fatturato non pubblicato — DA CONFERMARE su Bundesanzeiger, AG Ansbach HRB 5384»"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Falt Schachtel Hamburg dyecut GmbH",
+  "campo": "denominazione",
+  "problema": "Refuso nella ragione sociale: la denominazione registrata è «Faltschachtel Hamburg dyecut GmbH» (una parola), non «Falt Schachtel».",
+  "gravita": "bassa",
+  "evidenza": "https://www.northdata.com/Faltschachtel%20Hamburg%20dyecut%20GmbH,%20Hamburg/HRB%2096405 e https://www.faltschachtelhamburg.de/impressum/ — AG Hamburg HRB 96405",
+  "correzione_proposta": "Faltschachtel Hamburg dyecut GmbH"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Falt Schachtel Hamburg dyecut GmbH",
+  "campo": "dimensione",
+  "problema": "Campo inutilizzabile: «KMU; Umsatz/MA n.d.», nessun dato, nessuna fonte, nessun anno. Referente (Martin Lemcke), e-mail e sede risultano invece corretti da Impressum.",
+  "gravita": "media",
+  "evidenza": "https://www.faltschachtelhamburg.de/impressum/ — Wördemanns Weg 58, 22527 Hamburg; Geschäftsführer Martin Lemcke; info@faltschachtelhamburg.de; AG Hamburg HRB 96405; USt-IdNr. DE247509629",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Graphische Betriebe Kip GmbH + Co. KG",
+  "campo": "dimensione",
+  "problema": "Dato dipendenti obsoleto (2020, sei anni fa) e nessun dato di fatturato. Le fonti attuali indicano oltre 100 dipendenti a tempo pieno / fascia 51-200 (LinkedIn), quindi il campo non consente di collocare l'azienda nella forbice 5-40 Mio €.",
+  "gravita": "media",
+  "evidenza": "https://www.emsachse.de/unternehmen/graphische-betriebe-kip-gmbh-co-kg — azienda familiare fondata nel 1951, «mehr als 100 Vollzeitbeschäftigte», produzione in due turni; https://de.linkedin.com/company/graphische-betriebe-kip-gmbh-co.-kg (51-200 dipendenti)",
+  "correzione_proposta": "«>100 dipendenti a tempo pieno (2025, emsachse.de); fatturato non pubblicato (GmbH & Co. KG, AG Osnabrück HRA 130316) — DA CONFERMARE»"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "H.-J. Dres GmbH",
+  "campo": "dimensione",
+  "problema": "Dato gravemente obsoleto: «~19 MA (2010, lieferanten.de)» ha 16 anni ed è tratto da un portale di elenchi, non da bilancio. Inoltre, se il dato fosse ancora attuale, con ~19 addetti l'azienda sarebbe ampiamente SOTTO la soglia minima di 5 Mio € della forbice cliente: il record va riqualificato o escluso. Nessun dato di fatturato disponibile.",
+  "gravita": "media",
+  "evidenza": "https://www.lieferanten.de/lieferant-8453-h-j-dres-gmbh.html (dato 2010: 19 dipendenti); https://www.northdata.com/H%C2%B7-J%C2%B7%20Dres%20GmbH,%20Speyer/Amtsgericht%20Ludwigshafen%20a.Rhein%20HRB%2052133",
+  "correzione_proposta": "«~19 dipendenti (2010, lieferanten.de) — dato non aggiornato; fatturato non pubblicato. Verificare l'attuale dimensione: se confermata, azienda sotto-soglia rispetto alla forbice 5-40 Mio €»"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "H.-J. Dres GmbH",
+  "campo": "referente",
+  "problema": "Referenti (Jürgen e Petra Dres) confermati dall'Impressum, ma si segnala il passaggio generazionale in corso: Nathalie Dres (dal 2018) e Christoph Dres (dal 2018) sono operativi in azienda. Verificare prima del contatto se la rappresentanza legale sia cambiata.",
+  "gravita": "bassa",
+  "evidenza": "https://www.dres-faltschachteln.de/impressum.html — «vertreten durch die Geschäftsführer Jürgen Dres und Petra Dres»; https://www.dres-faltschachteln.de/kontakt/ansprechpartner.html (Nathalie Dres dal maggio 2018, Christoph Dres dal luglio 2018)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Hannoversche Kartonagenfabrik GmbH & Co. KG",
+  "campo": "dimensione",
+  "problema": "Campo privo di dati verificabili («Umsatz/MA n.d.»). Le fonti indicano ~30 dipendenti: con questa dimensione l'azienda è al limite inferiore o sotto la forbice 5-40 Mio €, elemento che il campo deve rendere esplicito.",
+  "gravita": "media",
+  "evidenza": "https://www.wer-zu-wem.de/firma/hannoversche-karton.html — «mittelständisches Familienunternehmen, gegründet 1958, rund 30 Mitarbeiter»; AG Hannover HRA 26344; https://www.hannoverschekartonagen.de/ueber-uns",
+  "correzione_proposta": "«~30 dipendenti (wer-zu-wem.de, 2025); fatturato non pubblicato (GmbH & Co. KG, AG Hannover HRA 26344) — verosimilmente al limite inferiore della forbice 5-40 Mio €, DA CONFERMARE»"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Hausberger GmbH & Co. KG",
+  "campo": "dimensione",
+  "problema": "Campo senza alcun dato («Umsatz/MA n.d.»), ma le fonti disponibili indicano una micro-impresa da 1-4 dipendenti: sarebbe di un ordine di grandezza fuori dalla forbice 5-40 Mio €. Va inoltre verificato il perimetro: la società opera anche come Vertriebs-KG di Wellkisten e materiale d'imballaggio (rivendita), e un puro rivenditore di cartone già immesso sul mercato UE non è l'operatore che immette per primo la commodity. Se confermato, il lead va escluso.",
+  "gravita": "alta",
+  "evidenza": "https://www.wlw.de/de/firma/hausberger-gmbh-co-kg-382731 — «1-4 Mitarbeiter»; ragione sociale collegata: «Hausberger GmbH & Co. Vertriebs-KG, Wellkisten und Verpackungsmaterial, Oberasbach» (https://firmeneintrag.creditreform.de/90522/8190035516/HAUSBERGER_GMBH_CO_VERTRIEBS_KG_WELLKISTEN_UND_VERPACKUNGSMATERIAL)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Horn Verpackung GmbH",
+  "campo": "dimensione",
+  "problema": "Campo privo di dati («Mittelstand; Umsatz/MA n.d.») nonostante sia disponibile il bilancio depositato 2023: totale di bilancio 10 Mio €, in calo dell'8,2% sull'anno precedente.",
+  "gravita": "media",
+  "evidenza": "https://www.northdata.com/Horn%20Verpackung%20GmbH,%20Winnenden/Amtsgericht%20Stuttgart%20HRB%20263833 — «Bilanzsumme 2023: 10 Mio EUR (-8,2%)»; AG Stuttgart HRB 263833",
+  "correzione_proposta": "«Totale di bilancio 10 Mio € (2023, Bundesanzeiger via Northdata, -8,2% a/a); fatturato non pubblicato (deposito abbreviato); sedi Winnenden e Stuttgart»"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Horn Verpackung GmbH",
+  "campo": "referente",
+  "problema": "Ferdinand Horn è indicato come Geschäftsführer: la nomina a secondo amministratore risulta da un comunicato aziendale, ma l'Impressum e i portali continuano a riportarlo come «Assistenz der Geschäftsleitung / Prokurist» e indicano un solo Geschäftsführer (Alexander Horn). Da riconfermare su Handelsregister prima del contatto.",
+  "gravita": "bassa",
+  "evidenza": "https://www.horn-verpackung.de/ferdinand-horn-wird-zusatzlicher-geschaftsfuhrer-starkung-fur-kontinuitat-und-zukunft (comunicato) vs. https://www.horn-verpackung.de/impressum (solo Alexander Horn) e https://implisense.com/en/companies/horn-verpackung-gmbh-winnenden-DEZ1E1FTPG32 («3 Manager: 2 Prokuristen, 1 Geschäftsführer»)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Josef Schulte GmbH",
+  "campo": "dimensione",
+  "problema": "Il dato (116 dipendenti, ~36 Mio € di fatturato) è confermato dalla fonte citata, ma il campo non riporta l'anno di riferimento: è l'unico elemento mancante per un record altrimenti utilizzabile. Il valore è al limite superiore della forbice cliente (5-40 Mio €), quindi l'anno è determinante.",
+  "gravita": "bassa",
+  "evidenza": "https://www.wirtschaftsforum.de/news/josef-schulte-gmbh/hochwertig-und-nachhaltig — «beschäftigt derzeit 116 Mitarbeiter ... mehr als 3.500 Kunden ... Jahresumsatz von 36 Millionen EUR»",
+  "correzione_proposta": "«~36 Mio € di fatturato e 116 dipendenti (wirtschaftsforum.de) — aggiungere l'anno del servizio; verificare l'aggiornamento su Bundesanzeiger»"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Josef Schulte GmbH",
+  "campo": "denominazione",
+  "problema": "La ragione sociale iscritta al registro è «Josef Schulte Gesellschaft mit beschränkter Haftung»; «Josef Schulte GmbH» è la forma d'uso. Refuso formale, non bloccante.",
+  "gravita": "bassa",
+  "evidenza": "https://firmeneintrag.creditreform.de/33129/4290014288/JOSEF_SCHULTE_GESELLSCHAFT_MIT_BESCHRAENKTER_HAFTUNG e https://www.companyhouse.de/en/Josef-Schulte-GmbH-Delbrueck",
+  "correzione_proposta": "Josef Schulte Gesellschaft mit beschränkter Haftung"
+ }
+]

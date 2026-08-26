@@ -3,126 +3,198 @@
   "foglio": "Svezia",
   "denominazione": "Horreds Möbel Aktiebolag",
   "campo": "dimensione",
-  "problema": "Dato di fatturato obsoleto (esercizio 2022, 103 MSEK). L'ultimo bilancio reperibile è il 2023: 93 384 KSEK = 93,4 MSEK ≈ 8,3 M€ (-9,7%), 50 dipendenti. L'azienda è quindi in contrazione e sotto il target ideale 10-20 M€, pur restando dentro la fascia tollerabile 5-40 M€. Nessun errore di conversione KSEK/MSEK.",
+  "problema": "Dato di fatturato obsoleto (esercizio 2022, 103 MSEK). L'ultimo bilancio disponibile su allabolag/bolagsfakta indica 93 384 KSEK = 93,4 MSEK ≈ 8,3 M€ (2023, -9,7%) e ~92,9 MSEK nell'ultimo esercizio, con 50 dipendenti. L'azienda resta dentro la fascia tollerabile 5-40 M€ (nessuna micro-impresa, nessun errore KSEK/MSEK), ma il valore riportato sovrastima di circa il 10% ed è vecchio di due esercizi.",
   "gravita": "media",
-  "evidenza": "allabolag.se (org.nr 556365-1974): «Horreds Möbel Aktiebolag har 50 anställda och gjorde ett resultat på 527 KSEK med omsättning 93 384 KSEK under 2023» — https://www.allabolag.se/5563651974/bokslut",
-  "correzione_proposta": "Fatturato 93 384 KSEK = 93,4 MSEK ≈ 8,3 M€ (2023, -9,7%); 50 dipendenti; org.nr 556365-1974 – fonte allabolag.se"
+  "evidenza": "https://www.bolagsfakta.se/5563651974-Horreds_Mobel_Aktiebolag — «Horreds Möbel Aktiebolag had a turnover of 93,384 KSEK in 2023 ... revenue decline of 9.7% ... 50 employees»; https://www.allabolag.se/5563651974/bokslut",
+  "correzione_proposta": "Fatturato 93 384 KSEK = 93,4 MSEK ≈ 8,3 M€ (2023, -9,7%); 50 dipendenti; org.nr 556365-1974 – fonte allabolag.se/bolagsfakta.se"
  },
  {
   "foglio": "Svezia",
   "denominazione": "Horreds Möbel Aktiebolag",
   "campo": "dimensione",
-  "problema": "Controllo di gruppo non dichiarato. Il campo dice genericamente «Fa parte di un gruppo di 3 società» ma non nomina la capogruppo: il moderbolag è Horreds Holding AB e il koncernmoderbolag è Horreds Möbel Utvecklings AB (org.nr 559016-3324). La decisione di compliance EUDR si colloca a livello di capogruppo.",
+  "problema": "Legame di gruppo indicato solo genericamente («Fa parte di un gruppo di 3 società») senza nominare la capogruppo. Allabolag indica Horreds Holding AB come società madre e Horreds Möbel Utvecklings AB (org.nr 559016-3324) come capogruppo del gruppo. Rilevante per EUDR: la compliance si decide a livello di capogruppo.",
+  "gravita": "media",
+  "evidenza": "https://www.allabolag.se/5563651974/koncern — «Horreds Möbel AB is part of a group with 3 companies, where Horreds Holding AB is the parent company and Horreds Möbel Utvecklings AB is the group parent company»",
+  "correzione_proposta": "Aggiungere: capogruppo Horreds Holding AB / Horreds Möbel Utvecklings AB (org.nr 559016-3324), gruppo di 3 società"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Johanson Design Aktiebolag",
+  "campo": "dimensione",
+  "problema": "CONTROLLO DI GRUPPO NON DICHIARATO: Johanson Design Aktiebolag fa parte di un gruppo di 5 società la cui capogruppo è Johanson Design Invest Aktiebolag (org.nr 556691-6457, stessa sede a Markaryd); la stessa Johanson Design AB ha 3 controllate. Il foglio non ne fa menzione. Attenuante: Dan Mikael Johansson è VD e ordförande della società operativa e ordförande anche della holding, quindi il referente indicato resta il decisore corretto. Dati confermati: 251 117 KSEK = 22,2 M€ (2024), 70 dipendenti, conversione KSEK corretta.",
   "gravita": "alta",
-  "evidenza": "allabolag.se – Koncernstruktur: «Horreds Möbel Aktiebolags moderbolag är Horreds Holding AB och koncernmoderbolag är Horreds Möbel Utvecklings AB» — https://www.allabolag.se/5563651974/koncern",
-  "correzione_proposta": "Legame di gruppo: moderbolag Horreds Holding AB; koncernmoderbolag Horreds Möbel Utvecklings AB (org.nr 559016-3324)"
+  "evidenza": "https://www.allabolag.se/5563585206/koncern — «Johanson Design Aktiebolag is part of a group with a total of 5 companies, with Johanson Design Invest Aktiebolag as the parent company ... Johanson Design Aktiebolag has 3 subsidiaries»",
+  "correzione_proposta": "Aggiungere: capogruppo Johanson Design Invest Aktiebolag (org.nr 556691-6457), gruppo di 5 società; 3 controllate dirette"
  },
  {
   "foglio": "Svezia",
   "denominazione": "Kvänum Kök AB",
   "campo": "dimensione",
-  "problema": "Controllata di gruppo (legame già dichiarato correttamente nel foglio): Vedena AB. Il gruppo Vedena conta 5 società, ~350 dipendenti e ~1 135 MSEK di fatturato aggregato: la compliance EUDR si decide a livello di capogruppo, non della singola controllata. Questione di selezione del lead. Dati economici e VD confermati (297 420 KSEK, esercizio 2025; VD Johan Niklas Efraimsson).",
+  "problema": "Controllata di gruppo: capogruppo Vedena AB, gruppo di 5 società con 350 dipendenti e 1 135,0 MSEK di fatturato. Il legame è già dichiarato correttamente nel foglio, ma la decisione di compliance EUDR si prende a livello Vedena AB: si tratta di una questione di selezione del lead (referente da valutare a livello di capogruppo).",
   "gravita": "media",
-  "evidenza": "allabolag.se (org.nr 556202-3159): «Kvänum Kök AB gjorde ett resultat på 6 307 KSEK med omsättning 297 420 KSEK under 2025 … moderbolag Vedena AB … koncernen omfattar 5 bolag, 350 anställda, 1 135,0 MSEK» — https://www.allabolag.se/foretag/kv%C3%A4num-k%C3%B6k-ab/kv%C3%A4num/m%C3%B6bler/2JZHGJBI5YGJV",
+  "evidenza": "https://www.allabolag.se/foretag/kv%C3%A4num-k%C3%B6k-ab/kv%C3%A4num/m%C3%B6bler/2JZHGJBI5YGJV — «Kvänum Kök Aktiebolag is a subsidiary that is part of the Vedena AB group, which encompasses 5 companies in total with 350 employees and revenue of 1,135.0 MSEK per year»",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Kvänum Kök AB",
+  "campo": "dimensione",
+  "problema": "Numero di dipendenti discordante: il foglio riporta 127 dipendenti, mentre allabolag/bolagsfakta registrano 0 dipendenti sull'ultimo esercizio a fronte di 297 420 KSEK di fatturato (2025). Verosimilmente il personale è impiegato in altra società del gruppo Vedena: da chiarire, perché incide sulla qualificazione dell'operatore. Il fatturato 297 420 KSEK ≈ 26,3 M€ è invece confermato (conversione KSEK corretta).",
+  "gravita": "media",
+  "evidenza": "https://www.bolagsfakta.se/5562023159-Kvanum_Kok_Aktiebolag — «Kvänum Kök Aktiebolag had 0 employees and achieved a result of 6,307 KSEK with revenue of 297,420 KSEK in 2025»",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Lammhults Möbel Aktiebolag",
+  "campo": "referente",
+  "problema": "Beatrice Kortner Henriksson è stata nominata VD ad interim (tillförordnad) dopo l'uscita di Åsa van Drumpt dal gruppo il 17 giugno 2024, arrivando dalla posizione di CSO di Lammhults Design Group. Allabolag la riporta tuttora come VD, ma la natura interim del mandato va riconfermata prima del contatto.",
+  "gravita": "media",
+  "evidenza": "https://lammhultsdesigngroup.com/tidings/forandringar-i-vd-positionen-i-lammhults-mobel-ab/ ; https://www.allabolag.se/5560582602/lammhults-mobel-aktiebolag — «The current CEO for Lammhults Möbel Aktiebolag is Beatrice Kortner Henriksson ... appointed interim CEO ... after serving as CSO for Lammhults Design Group»",
   "correzione_proposta": ""
  },
  {
   "foglio": "Svezia",
   "denominazione": "Lammhults Möbel Aktiebolag",
   "campo": "dimensione",
-  "problema": "Controllata di gruppo quotato (legame già dichiarato correttamente nel foglio): Lammhults Design Group AB. Il referente di compliance EUDR è la capogruppo quotata, non la controllata. Dati 2024 confermati (95 362 KSEK, -31 368 KSEK di risultato, 41 dipendenti) e VD Beatrice Kortner Henriksson riconfermata come attuale (la precedente VD Åsa van Drumpt ha lasciato il gruppo il 17 giugno 2024).",
+  "problema": "Controllata del gruppo quotato Lammhults Design Group AB: legame già dichiarato correttamente nel foglio, ma il lead è una controllata di gruppo quotato e la compliance EUDR si decide a livello di capogruppo (questione di selezione del lead). Dati 2024 (95 362 KSEK ≈ 8,4 M€, risultato -31 368 KSEK, 41 dipendenti) confermati.",
   "gravita": "media",
-  "evidenza": "allabolag.se: «Lammhults Möbel Aktiebolag har 41 anställda och gjorde ett resultat på -31 368 KSEK med omsättning 95 362 KSEK under 2024 … VD Beatrice Kortner Henriksson, styrelseordförande Susanna Hilleskog» — https://www.allabolag.se/foretag/lammhults-m%C3%B6bel-aktiebolag/lammhult/m%C3%B6bler/2JYMKZUI5YGJV",
+  "evidenza": "https://www.bolagsfakta.se/5560582602-Lammhults_Mobel_Aktiebolag — «For the full year 2024, Lammhults Möbel Aktiebolag had 41 employees and achieved a result of -31,368 KSEK with revenue of 95,362 KSEK»",
   "correzione_proposta": ""
  },
  {
   "foglio": "Svezia",
   "denominazione": "Lars Carlsson Trävaru Aktiebolag",
   "campo": "referente",
-  "problema": "Referente e ruolo assenti: il lead non è contattabile nominalmente. Le fonti pubbliche indicano Lars Anders Hilding Carlsson come persona di riferimento, Anders Carlsson styrelseordförande e Olof Carlsson styrelseledamot; non risulta un VD registrato distinto. DA CONFERMARE quale sia il vertice operativo attuale.",
+  "problema": "Referente e ruolo assenti: il record non è contattabile a livello nominativo. Allabolag indica Anders Carlsson come styrelseordförande e Olof Carlsson come styrelseledamot; non risulta un VD registrato distinto. Dati dimensionali confermati (70 552 KSEK = 70,6 MSEK ≈ 6,2 M€, +15,6%, 14 dipendenti, 2024): conversione KSEK corretta.",
   "gravita": "media",
-  "evidenza": "allabolag.se (org.nr 556093-1734): «Lars Anders Hilding Carlsson … Anders Carlsson är ordförande och Olof Carlsson är styrelseledamot» — https://www.allabolag.se/foretag/lars-carlsson-tr%C3%A4varu-aktiebolag/%C3%A4lmeboda/s%C3%A5gverk/2JYU2DYI5YHTM",
-  "correzione_proposta": ""
- },
- {
-  "foglio": "Svezia",
-  "denominazione": "Leksandsdörren AB",
-  "campo": "dimensione",
-  "problema": "Controllo di gruppo NON dichiarato: il moderbolag è TräMasen AB e il gruppo comprende 3 società con 51 dipendenti e ~102,0 MSEK di fatturato aggregato. Il foglio presenta l'azienda come indipendente. La compliance EUDR si decide a livello di capogruppo. Dati economici e VD invece confermati (69 543 KSEK 2024, 30 dipendenti, VD Per Anders Jäderberg).",
-  "gravita": "alta",
-  "evidenza": "allabolag.se (org.nr 556651-7891): «Moderbolaget är TräMasen AB … koncernen omfattar 3 bolag med totalt 51 anställda och 102,0 MSEK i omsättning» — https://www.allabolag.se/foretag/leksandsd%C3%B6rren-ab/leksand/d%C3%B6rrar-portar/2K25SOZI5YDRN",
-  "correzione_proposta": "Aggiungere: Legame di gruppo — moderbolag TräMasen AB (koncern di 3 società, 51 dipendenti, 102,0 MSEK)"
+  "evidenza": "https://www.allabolag.se/foretag/lars-carlsson-tr%C3%A4varu-aktiebolag/%C3%A4lmeboda/s%C3%A5gverk/2JYU2DYI5YHTM — «14 employees ... omsättning of 70,552 KSEK during 2024 ... Anders Carlsson as chairman and Olof Carlsson as board member»",
+  "correzione_proposta": "Anders Carlsson – styrelseordförande (DA CONFERMARE l'esistenza di un VD)"
  },
  {
   "foglio": "Svezia",
   "denominazione": "N K Lundströms Trävaror Aktiebolag",
   "campo": "dimensione",
-  "problema": "Controllata di gruppo (legame già dichiarato correttamente nel foglio): moderbolag KGL Trä Aktiebolag, koncern di 2 società. La decisione di compliance EUDR si colloca a livello di capogruppo: questione di selezione del lead. Fatturato 210,5 MSEK 2024 ≈ 18,6 M€ e VD Karl Ulf Peter Lundström confermati.",
+  "problema": "Controllata di gruppo: capogruppo KGL Trä Aktiebolag, gruppo di 2 società con 34 dipendenti e 203,0 MSEK di fatturato. Il legame è già dichiarato correttamente nel foglio; resta una questione di selezione del lead, perché la decisione EUDR si prende a livello di capogruppo. Dati confermati: 210 533 KSEK = 210,5 MSEK ≈ 18,6 M€ (2024), 34 dipendenti, VD Karl Ulf Peter Lundström (conversione KSEK corretta).",
   "gravita": "media",
-  "evidenza": "allabolag.se (org.nr 556107-8154): «N K Lundströms Trävaror Aktiebolag ingår i en koncern med totalt 2 bolag, där moderbolaget är KGL Trä Aktiebolag … Verkställande direktör: Lundström, Karl Ulf Peter … omsättning 210,5 MSEK under 2024» — https://www.allabolag.se/foretag/n-k-lundstr%C3%B6ms-tr%C3%A4varor-aktiebolag/v%C3%A4nn%C3%A4s/s%C3%A5gverk/2JYX7D6I5YHTM",
+  "evidenza": "https://www.allabolag.se/5561078154/n-k-lundstroms-travaror-aktiebolag — «N K Lundströms Trävaror Aktiebolag is part of a group with a total of 2 companies, with the parent company being KGL Trä Aktiebolag ... turnover of 210,533 KSEK during 2024»",
   "correzione_proposta": ""
  },
  {
   "foglio": "Svezia",
   "denominazione": "NC Nordic Care AB",
   "campo": "dimensione",
-  "problema": "Controllo di gruppo NON dichiarato: il moderbolag risulta Materia Group AB. Il foglio presenta l'azienda come indipendente. La compliance EUDR si decide a livello di capogruppo. Dati economici e VD confermati (79 707 KSEK esercizio 2025, -7,8%, risultato 166 KSEK, 14 dipendenti; VD Thomas Jörgen Johannesson).",
+  "problema": "CONTROLLO DI GRUPPO NON DICHIARATO: la capogruppo di NC Nordic Care AB è Materia Group AB. Il foglio presenta l'azienda come autonoma e non menziona alcun legame societario. Ai fini EUDR la compliance si decide a livello di capogruppo: il lead va riqualificato o riassegnato a Materia Group AB.",
   "gravita": "alta",
-  "evidenza": "allabolag.se (org.nr 556249-9177): «Moderbolaget: Materia Group AB … NC Nordic Care AB har 14 anställda och gjorde ett resultat på 166 KSEK med omsättning 79 707 KSEK under 2025 (-7,8%). Verkställande direktör Thomas Jörgen Johannesson» — https://www.allabolag.se/foretag/nc-nordic-care-ab/valdemarsvik/m%C3%B6bler/2JZRNU1I5YGJV",
-  "correzione_proposta": "Aggiungere: Legame di gruppo — moderbolag Materia Group AB"
+  "evidenza": "https://www.allabolag.se/foretag/nc-nordic-care-ab/valdemarsvik/m%C3%B6bler/2JZRNU1I5YGJV — «The parent company (moderbolaget) is Materia Group AB»",
+  "correzione_proposta": "Aggiungere: capogruppo Materia Group AB (gruppo di arredo); lead da valutare a livello di capogruppo"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "NC Nordic Care AB",
+  "campo": "sede",
+  "problema": "Indirizzo operativo/registrato discordante: allabolag colloca l'azienda a Grännäs, 615 95 Valdemarsvik (Östergötlands län), con indirizzo postale Box 30, 573 21 Tranås e säte formale a Tranås. Il foglio riporta solo «Tranås, Jönköpings län». Da precisare quale sia la sede produttiva effettiva. Dati dimensionali confermati (79 707 KSEK ≈ 7,1 M€, risultato 166 KSEK, 14 dipendenti, 2025) e VD Thomas Jörgen Johannesson confermato (ordförande Jenny Hörberg).",
+  "gravita": "bassa",
+  "evidenza": "https://www.allabolag.se/foretag/nc-nordic-care-ab/valdemarsvik/m%C3%B6bler/2JZRNU1I5YGJV — «NC Nordic Care AB is located at Grännäs, 615 95 Valdemarsvik, with postal address Box 30, 573 21 Tranås ... official seat (säte) in Tranås»",
+  "correzione_proposta": "Tranås, Jönköpings län (säte); stabilimento/indirizzo Grännäs, Valdemarsvik, Östergötlands län"
  },
  {
   "foglio": "Svezia",
   "denominazione": "Nola Industrier AB",
   "campo": "dimensione",
-  "problema": "Controllo di gruppo NON dichiarato: Nola Industrier AB fa parte di una koncern di 3 società il cui moderbolag è Sentensen Aktiebolag (gruppo: 22 dipendenti, 88,0 MSEK). Il foglio la presenta come indipendente. Dati economici e VD confermati (86 155 KSEK 2024, risultato 2 629 KSEK, 22 dipendenti; VD Claes Henrik Edlund, in carica dal 2019 al posto di Agneta Stake).",
+  "problema": "CONTROLLO DI GRUPPO NON DICHIARATO: Nola Industrier AB fa parte di un gruppo di 3 società la cui capogruppo è Sentensen Aktiebolag (22 dipendenti, 88,0 MSEK di fatturato consolidato). Il foglio non ne fa menzione. Dati economici confermati (86 155 KSEK ≈ 7,6 M€, 2024; 22 dipendenti): conversione KSEK corretta.",
   "gravita": "alta",
-  "evidenza": "allabolag.se (org.nr 556207-4442): «Nola Industrier AB ingår i en koncern med totalt 3 bolag, moderbolaget är Sentensen Aktiebolag … koncernen har 22 anställda och 88,0 MSEK i omsättning» — https://www.allabolag.se/foretag/nola-industrier-ab/stockholm/kontorsinredningar/2JZIK3UI5YF48",
-  "correzione_proposta": "Aggiungere: Legame di gruppo — moderbolag Sentensen Aktiebolag (koncern di 3 società)"
+  "evidenza": "https://www.allabolag.se/foretag/nola-industrier-ab/stockholm/kontorsinredningar/2JZIK3UI5YF48 — «Nola Industrier AB ingår i en koncern med totalt 3 bolag, där moderbolaget är Sentensen Aktiebolag»",
+  "correzione_proposta": "Aggiungere: capogruppo Sentensen Aktiebolag (gruppo di 3 società, 88,0 MSEK)"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Nola Industrier AB",
+  "campo": "referente",
+  "problema": "Il nome completo registrato è Claes Henrik Edlund, ma le fonti pubbliche e aziendali lo indicano come Henrik Edlund (VD dal 2019, subentrato alla zia Agneta Stake). Il dato non è errato ma va usato nella forma d'uso corrente nei contatti.",
+  "gravita": "bassa",
+  "evidenza": "https://sv.wikipedia.org/wiki/Nola_Industrier — «Agneta Stake lämnade över vd-skapet till systersonen Henrik Edlund år 2019»; allabolag: «VD för Nola Industrier Aktiebolag är Henrik Edlund»",
+  "correzione_proposta": "Henrik Edlund (Claes Henrik Edlund)"
  },
  {
   "foglio": "Svezia",
   "denominazione": "Nordanå Trä Aktiebolag",
   "campo": "dimensione",
-  "problema": "Controllata di gruppo (legame già dichiarato correttamente nel foglio): moderbolag Green Wood Sverige AB. La compliance EUDR si decide a livello di capogruppo: questione di selezione del lead. Confermati fatturato 117,7 MSEK ≈ 10,4 M€ (2025, -52%) e VD esterno Patrik Siljemark; resta anomalo il rapporto risultato/fatturato (risultato 40,7 MSEK, margine 38,9%), coerente con un esercizio di durata non standard — l'avvertenza già presente nel foglio va mantenuta.",
+  "problema": "Legame di gruppo dichiarato (controllata di Green Wood Sverige AB) e confermato da allabolag, ma Ratsit riporta l'azienda come NON appartenente ad alcun koncern: informazione discordante fra le fonti, da riconfermare. In ogni caso, se il controllo Green Wood Sverige AB è attuale, la compliance EUDR si decide a livello di capogruppo (questione di selezione del lead).",
   "gravita": "media",
-  "evidenza": "allabolag.se (org.nr 556134-5751): «Moderbolaget är Green Wood Sverige AB … omsättning 117,7 MSEK och resultat 40,7 MSEK under 2025, omsättningstillväxt -52% … Patrik Siljemark är extern VD» — https://www.allabolag.se/bokslut/nordan%C3%A5-tr%C3%A4-aktiebolag/alfta/s%C3%A5gverk/2JZ2XUFI5YHTM",
+  "evidenza": "https://www.allabolag.se/organisation/nordan%C3%A5-tr%C3%A4-aktiebolag/alfta/s%C3%A5gverk/2JZ2XUFI5YHTM — «Allabolag indicates that the parent company is Green Wood Sverige AB. However, Ratsit states that Nordanå Trä Aktiebolag does not belong to any koncern»",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Nordanå Trä Aktiebolag",
+  "campo": "dimensione",
+  "problema": "Il dato 2025 (117 660/117,7 MSEK ≈ 10,4 M€) è confermato ma è in calo del 52% sull'esercizio precedente, con un risultato di 40,7 MSEK sproporzionato rispetto al fatturato: forte indizio di esercizio di durata anomala o di operazione straordinaria (cessione di ramo/attivi). Il fatturato ricorrente reale potrebbe collocarsi sotto la soglia dei 5 M€ o, all'opposto, essere il doppio. DA CONFERMARE sull'årsredovisning.",
+  "gravita": "media",
+  "evidenza": "https://www.allabolag.se/bokslut/nordan%C3%A5-tr%C3%A4-aktiebolag/alfta/s%C3%A5gverk/2JZ2XUFI5YHTM — «Under 2025 the company had a turnover of 117.7 MSEK and made a result of 40.7 MSEK ... revenue has decreased by −52% compared to the previous year»",
   "correzione_proposta": ""
  },
  {
   "foglio": "Svezia",
   "denominazione": "Nydala Trävaru Aktiebolag",
   "campo": "dimensione",
-  "problema": "Controllo di gruppo NON dichiarato: Nydala Trävaru Aktiebolag fa parte di una koncern di 2 società con moderbolag Nydala Trä Holding AB. Il foglio la presenta come segheria familiare indipendente.",
+  "problema": "CONTROLLO DI GRUPPO NON DICHIARATO: Nydala Trävaru Aktiebolag fa parte di un gruppo di 2 società la cui capogruppo è Nydala Trä Holding AB. Il foglio la presenta come «segheria familiare» senza indicare la holding. Rilevante per EUDR: la compliance si decide a livello di capogruppo.",
   "gravita": "alta",
-  "evidenza": "allabolag.se (org.nr 556075-2825): «Nydala Trävaru Aktiebolag ingår i en koncern med totalt 2 bolag … moderbolaget är Nydala Trä Holding AB» — https://www.allabolag.se/foretag/nydala-tr%C3%A4varu-aktiebolag/vrigstad/s%C3%A5gverk/2JYQ8C9I5YHTM",
-  "correzione_proposta": "Aggiungere: Legame di gruppo — moderbolag Nydala Trä Holding AB (koncern di 2 società)"
+  "evidenza": "https://www.allabolag.se/organisation/nydala-trc3a4varu-aktiebolag/vrigstad/sc3a5gverk/2JYQ8C9I5YHTM — «The parent company is Nydala Trä Holding AB. Nydala Trävaru Aktiebolag is part of a group with a total of 2 companies»",
+  "correzione_proposta": "Aggiungere: capogruppo Nydala Trä Holding AB (gruppo di 2 società)"
  },
  {
   "foglio": "Svezia",
   "denominazione": "Nydala Trävaru Aktiebolag",
   "campo": "dimensione",
-  "problema": "Dato di fatturato non aggiornato: il foglio riporta l'esercizio 2023 (323 425 KSEK ≈ 28,6 M€, 41 dipendenti). Il bilancio 2024 disponibile indica 381 731 KSEK = 381,7 MSEK ≈ 33,8 M€ (-11,5%), 43 dipendenti, margine 6,1%: l'azienda resta entro la fascia tollerabile 5-40 M€ ma si colloca ancora più in alto rispetto al target ideale 10-20 M€. Conversione KSEK/MSEK del foglio corretta.",
+  "problema": "Dato di fatturato fermo all'esercizio 2023 (323 425 KSEK ≈ 28,6 M€, 41 dipendenti), mentre l'årsredovisning 2024 risulta già depositata e disponibile su allabolag. Il valore va aggiornato: l'azienda è sulla fascia alta del range tollerabile e un'ulteriore variazione può portarla sopra i 40 M€. Conversione KSEK corretta. VD Karl Ingemar Lindman confermato.",
   "gravita": "media",
-  "evidenza": "allabolag.se / ratsit.se (org.nr 556075-2825): «2024 års omsättning 381 731 tkr, 43 anställda, tillväxt -11,5%, vinstmarginal 6,1%» — https://www.allabolag.se/5560752825/bokslut",
-  "correzione_proposta": "≈33,8 M€ / 43 dip. (allabolag 2024: 381 731 KSEK, -11,5%)"
+  "evidenza": "https://www.allabolag.se/5560752825/bokslut — «Nydala Trävaru Aktiebolag had 41 employees and made a result of 14,794 KSEK with a turnover of 323,425 KSEK during 2023 ... The search results reference available annual reports for 2024»",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Norrlands Trä Aktiebolag",
+  "campo": "dimensione",
+  "problema": "Lieve scostamento sul fatturato 2025: il foglio riporta 275 049 KSEK, allabolag/bolagsfakta riportano 274 677 KSEK (≈24,3 M€, +7,6%, risultato 17 561 KSEK, 41 dipendenti). Differenza marginale, ma il valore va allineato alla fonte. Confermati VD Jan Anders Nivfors e assenza di legami di gruppo.",
+  "gravita": "bassa",
+  "evidenza": "https://www.bolagsfakta.se/5560924077-Norrlands_Tra_Aktiebolag — «omsättning of 274,677 KSEK during 2025 ... 41 employees ... result of 17,561 KSEK ... revenue growth of 7.6% ... not part of any group/koncern»",
+  "correzione_proposta": "≈24,3 M€ / 41 dip. (allabolag 2025: 274 677 KSEK, +7,6%)"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Rödins Trä AB",
+  "campo": "dimensione",
+  "problema": "Il valore riportato (380 291 KSEK ≈ 33,7 M€, 2025) è il fatturato CONSOLIDATO di gruppo: Rödins Trä AB è koncernmoderbolag con la controllata Ålsta Sågverk Nord AB, e il gruppo di 2 società fattura 370,0 MSEK con 37 dipendenti. Il campo non specifica che si tratta del consolidato. Nessun errore KSEK/MSEK. VD Markus Rödin (Lars Gunnar Markus Rödin) e 37 dipendenti confermati; ordförande Gunnar Rödin. Azienda indipendente (è lei la capogruppo).",
+  "gravita": "bassa",
+  "evidenza": "https://allabolag.se/organisation/rc3b6dins-trc3a4-ab/svenstavik/sc3a5gverk/2K092UXI5YHTM — «Rödins Trä AB är ett koncernmoderbolag med ett dotterbolag, Ålsta Sågverk Nord AB. Under 2025 hade koncernen en omsättning på 380,3 MSEK ... koncernen omfattar totalt 2 företag som tillsammans har 37 anställda och omsätter 370,0 MSEK om året»",
+  "correzione_proposta": "≈33,7 M€ consolidato di gruppo (allabolag 2025: 380,3 MSEK koncern, +3%); capogruppo essa stessa, controllata Ålsta Sågverk Nord AB"
  },
  {
   "foglio": "Svezia",
   "denominazione": "Rörvikshus Sweden AB",
   "campo": "dimensione",
-  "problema": "Controllata di gruppo (legame già dichiarato correttamente nel foglio): moderbolag Munio Sweden Aktiebolag, koncern di 4 società con 52 dipendenti e 229,0 MSEK di fatturato aggregato — la compliance EUDR si decide a livello di capogruppo. Da segnalare inoltre che il fatturato 2024 (154 918 KSEK ≈ 13,7 M€, confermato) è in calo del -30,8%: il posizionamento «pienamente in target» va rivisto al prossimo bilancio.",
+  "problema": "Controllata di gruppo: capogruppo Munio Sweden Aktiebolag (org.nr 556509-3449), gruppo di 4 società con 52 dipendenti e 229,0 MSEK di fatturato. Legame già dichiarato correttamente nel foglio: resta una questione di selezione del lead, perché la decisione EUDR si prende a livello Munio. Inoltre il campo non data l'esercizio: il dato 154 918 KSEK ≈ 13,7 M€ con 49 dipendenti è del 2024 ed è in calo del 30,8% sull'anno precedente (risultato 1 195 KSEK), quindi l'esercizio successivo potrebbe scendere sotto la soglia dei 5-10 M€.",
   "gravita": "media",
-  "evidenza": "allabolag.se (org.nr 556622-0926): «Rörvikshus Sweden AB har 49 anställda och gjorde ett resultat på 1 195 KSEK med omsättning 154 918 KSEK under 2024, omsättningstillväxt -30,8% … moderbolaget är Munio Sweden Aktiebolag, koncernen omfattar 4 bolag, 52 anställda, 229,0 MSEK» — https://www.allabolag.se/foretag/r%C3%B6rvikshus-sweden-ab/r%C3%B6rvik/hus/2K1ZFJYI5YF6Z",
-  "correzione_proposta": ""
+  "evidenza": "https://www.bolagsfakta.se/5566220926-Rorvikshus_Sweden_AB — «Rörvikshus Sweden AB had 49 employees and achieved a result of 1,195 KSEK with a turnover of 154,918 KSEK during 2024 ... revenue growth of −30.8% ... part of the Munio Sweden Aktiebolag group, which comprises a total of 4 companies ... 229.0 MSEK in annual revenue»",
+  "correzione_proposta": "Fatturato 154 918 KSEK ≈ 13,7 M€ (2024, -30,8%); 49 dipendenti; capogruppo Munio Sweden Aktiebolag (gruppo di 4 società, 229,0 MSEK)"
  },
  {
   "foglio": "Svezia",
-  "denominazione": "Rörvikshus Sweden AB",
-  "campo": "sede",
-  "problema": "Il foglio indica come sede Rörvik (Sävsjö), Jönköpings län: è corretto come indirizzo operativo/stabilimento (Bygdegårdsgatan 8, 576 93 Rörvik), ma la sede legale (säte) registrata è Helsingborg (Skåne län). Da precisare per non sbagliare l'indirizzo del contatto formale.",
+  "denominazione": "Sjöbergs Workbenches AB",
+  "campo": "dimensione",
+  "problema": "Il legame di gruppo è dichiarato (capogruppo Idun Woodcraft AB, acquisizione 2018) ma ne è sottostimata la portata: allabolag indica che l'azienda appartiene a un gruppo di 74 società facente capo a Idun Woodcraft AB (piattaforma legno del gruppo industriale Idun). Con una struttura di quel tipo la compliance EUDR e la decisione d'acquisto si accentrano a livello di capogruppo: il lead va valutato lì. Dati 2024 confermati (67 063 KSEK ≈ 5,9 M€, +10,8%, 29 dipendenti; conversione KSEK corretta) e VD Anders Olsson confermato (subentrato a Jan Möllefors, ordförande Emil Henrik Mella).",
+  "gravita": "media",
+  "evidenza": "https://www.allabolag.se/organisation/sj%C3%B6bergs-workbenches-ab/stockaryd/tr%C3%A4varor-produktion/2JYSCQ9I63IL3 — «Sjöbergs Workbenches AB is part of a group with a total of 74 companies, with Idun Woodcraft AB as the parent company»; conferma VD: https://sjobergs.se/en/new-ceo-at-sjobergs-workbenches-ab/",
+  "correzione_proposta": "Aggiungere: gruppo Idun Woodcraft AB, 74 società (gruppo Idun)"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Norrgavel AB",
+  "campo": "dimensione",
+  "problema": "Dato aggiornabile: il foglio riporta l'esercizio 2024 (127 986 KSEK ≈ 11,3 M€, 62 dipendenti), mentre è già disponibile il 2025 con 135 118 KSEK ≈ 12,0 M€ e 59 dipendenti. L'azienda resta pienamente in target e la conversione KSEK del foglio è corretta. Email sofie.richter@norrgavel.se e ruolo di co-VD con David Richter verificati su fonte pubblica.",
   "gravita": "bassa",
-  "evidenza": "allabolag.se (org.nr 556622-0926): «Rörvikshus Sweden är baserat i Helsingborg, med verksamhet på Bygdegårdsgatan 8, 576 93 Rörvik» — https://www.allabolag.se/foretag/r%C3%B6rvikshus-sweden-ab/r%C3%B6rvik/hus/2K1ZFJYI5YF6Z",
-  "correzione_proposta": "Rörvik (Sävsjö), Jönköpings län – stabilimento; säte legale Helsingborg, Skåne län"
+  "evidenza": "https://www.bolagsfakta.se/5564913381-Norrgavel_AB — «The 2025 revenue is 135,118 thousand SEK ... The company has 59 employees»; email e co-CEO: https://norrgavel.se/kontaktuppgifter e https://se.linkedin.com/in/sofie-richter-4999b4203 («Co-CEO – Norrgavel AB»)",
+  "correzione_proposta": "Fatturato 135 118 KSEK = 135,1 MSEK ≈ 12,0 M€ (2025); 59 dipendenti"
  }
 ]
