@@ -1,0 +1,47 @@
+[
+ {
+  "foglio": "Austria",
+  "denominazione": "Wellpappenfabrik TEWA Gesellschaft m.b.H.",
+  "campo": "dimensione",
+  "problema": "Refuso nell'indirizzo riportato: la via e' 'Buchscheiden 9', non 'Buscheiden 9'. Inoltre il fatturato di 12,5 Mio. EUR e' riferito al 2012 (oltre 10 anni fa): dato obsoleto, non riconfermato da fonti recenti.",
+  "gravita": "media",
+  "evidenza": "https://www.tewa.com/impressum - 'Buchscheiden 9, A-9560 Feldkirchen ... wirmachendas@tewa.com'",
+  "correzione_proposta": "Buchscheiden 9, 9560 Feldkirchen; fatturato DA CONFERMARE con dato recente"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Wograndl Druck GmbH",
+  "campo": "referente",
+  "problema": "La societa' ha due Geschaeftsfuehrer, Bernd Wograndl e Jochen Wograndl: il record indica solo Jochen. Da valutare chi sia il referente commerciale corretto.",
+  "gravita": "bassa",
+  "evidenza": "firmen.wko.at / wograndl.com/kontakt: 'Bernd Wograndl und Jochen Wograndl sind Geschaeftsfuehrer'; Jochen Wograndl e' il gewerberechtlicher Geschaeftsfuehrer",
+  "correzione_proposta": "Jochen Wograndl (co-GF con Bernd Wograndl)"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Wograndl Druck GmbH",
+  "campo": "dimensione",
+  "problema": "Fatturato non pubblicato e stima 'sotto i 10 M EUR' non verificabile: con ~48 addetti l'azienda e' probabilmente sotto la forbice target 5-40 M EUR o al limite inferiore. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://www.firmenabc.at/wograndl-druck-gmbh_BBoZ - nessun dato di fatturato esposto; WKO riporta solo l'anagrafica (FN 272989f, LG Eisenstadt)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "pack it! Verpackungen GmbH",
+  "campo": "dimensione",
+  "problema": "Il Prokurist indicato ('Karl Oemmer') non trova riscontro: le fonti Firmenbuch riportano come Prokurist Stefan Bergmair-Russmann (dal 01.07.2000). Inoltre il fatturato di 25,5 Mio. EUR risale al bilancio successivo al 2011: dato obsoleto.",
+  "gravita": "media",
+  "evidenza": "https://firmenbuch.ai/pack-it-verpackungen-gmbh-196751s - '3 Manager (1 Prokurist, 2 Geschaeftsfuehrer): Dipl.Ing. Walter Freimueller GF dal 01.07.2000; Stefan Bergmair-Russmann Prokurist dal 01.07.2000'",
+  "correzione_proposta": "Prokurist: Stefan Bergmair-Russmann; fatturato DA CONFERMARE"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "pratopac GmbH",
+  "campo": "dimensione",
+  "problema": "Il fatturato di 18 Mio. EUR (2020-2021) non trova riscontro nelle fonti: i dati pubblicati indicano 14 Mio. EUR (2015), 15 Mio. EUR (2016) e 15 Mio. EUR (esercizio 2018). Dato DA CONFERMARE. Mancano inoltre il secondo GF Jochen Schoergenhofer e l'origine della societa' (management buy-out di GIKO Verpackungen GmbH nel 2014).",
+  "gravita": "media",
+  "evidenza": "https://www.wirtschaftszeit.at/news/verpackungsexperte-pratopac-aus-klaus-verzeichnete-2015-deutliches-umsatzplus/ e vol.at: 'pratopac erzielte 2015 14 Mio. Euro Umsatz'; 'im Geschaeftsjahr 2018 15 Mio. Euro'; 'Geschaeftsfuehrer Alexander Abbrederis ... Co-Geschaeftsfuehrer Jochen Schoergenhofer'",
+  "correzione_proposta": "Fatturato 15 Mio. EUR (2018) - DA CONFERMARE dato piu' recente; GF: Alexander Abbrederis e Jochen Schoergenhofer"
+ }
+]

@@ -1,0 +1,56 @@
+[
+ {
+  "foglio": "Belgio",
+  "denominazione": "Hexpol Compounding BV",
+  "campo": "dimensione",
+  "problema": "Controllata di gruppo estero non dichiarata: lo stabilimento di Eupen appartiene al gruppo quotato svedese HEXPOL AB (business area HEXPOL Compounding), che in Belgio detiene anche Hexpol Compounding HQ SA (BE 0477.831.205). La compliance EUDR si decide a livello di capogruppo: non e' un lead PMI indipendente.",
+  "gravita": "alta",
+  "evidenza": "https://www.hexpol.com/rubber/plant-locations/hexpol-compounding-sprl/ (sito di gruppo HEXPOL) + https://www.companyweb.be/en/0477831205/hexpol-compounding-hq (Hexpol Compounding Hq (SA) - Eupen 4700)",
+  "correzione_proposta": "Indicare nel campo dimensione: «controllata del gruppo HEXPOL AB (Svezia, Nasdaq Stockholm)» oppure rimuovere il lead"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Hexpol Compounding BV",
+  "campo": "denominazione",
+  "problema": "Forma giuridica errata: la societa' BE 0430.105.126 ha sede a Eupen (regione di lingua tedesca/Vallonia) ed e' registrata come SRL (ex SPRL), non BV. Anche l'URL del sito riporta 'hexpol-compounding-sprl'.",
+  "gravita": "bassa",
+  "evidenza": "https://www.companyweb.be/en/0430105126/hexpol-compounding — «Hexpol Compounding (SRL) - Eupen (4700) - BE0430105126»",
+  "correzione_proposta": "Hexpol Compounding SRL"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Hexpol Compounding BV",
+  "campo": "email",
+  "problema": "Nessun punto di contatto: email 'n.d.', referente, ruolo e LinkedIn vuoti. Il lead non e' direttamente contattabile. Nessun indirizzo e-mail aziendale reperito su fonte pubblica (DA CONFERMARE).",
+  "gravita": "media",
+  "evidenza": "https://be.kompass.com/c/hexpol-compounding/be0101149/ e https://trendstop.knack.be/nl/detail/430105126/hexpol-compounding.aspx — nessuna e-mail pubblicata",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Hexpol Compounding BV",
+  "campo": "dimensione",
+  "problema": "Dato di organico mancante: il bilancio NBB piu' recente (depositato 20-05-2025) riporta 53,9 FTE, informazione utile e assente. Il fatturato indicato (31.327.285 EUR) risulta invece confermato.",
+  "gravita": "bassa",
+  "evidenza": "https://trendstop.knack.be/nl/detail/430105126/hexpol-compounding.aspx — «omzet 31.327.285 euro, 14e in de sector Rubber en banden; 53,9 VTE; laatste jaarrekening neergelegd op 20-05-2025»",
+  "correzione_proposta": "Fatturato 31.327.285 EUR e 53,9 FTE (bilancio NBB depositato 20-05-2025)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Vanrobaeys Granen & Zaden NV",
+  "campo": "filiera",
+  "problema": "Descrizione filiera imprecisa: l'azienda non e' un produttore generico di 'granaglie e semi per mangimi' ma un miscelatore di mangimi per colombi viaggiatori (duivenvoeders) dal 1965. Il perimetro EUDR regge comunque: piu' miscele contengono soia tostata (es. 'getoaste sojabonen 5%').",
+  "gravita": "bassa",
+  "evidenza": "https://www.vanrobaeysbelgium.com/nl-BE — «Vanrobaeys mengt duivenvoeders sinds 1965»; composizione Power Rui con «getoaste sojabonen 5%»",
+  "correzione_proposta": "Mangimi/Soia — mangimi per colombi (duivenvoer) a base di granaglie, semi e soia tostata"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Vanrobaeys Granen & Zaden NV",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti: nessun vertice attuale individuato. Le ricerche pubbliche restituiscono solo il co-fondatore storico Robrecht 'Robert' Vanrobaeys. DA CONFERMARE sul deposito bestuurders NBB/KBO.",
+  "gravita": "media",
+  "evidenza": "https://www.vanrobaeysbelgium.com/nl-BE/nieuws/categorie/vanrobaeys — «Robrecht 'Robert' Vanrobaeys was medestichter van NV Vanrobaeys granen en zaden»",
+  "correzione_proposta": ""
+ }
+]
