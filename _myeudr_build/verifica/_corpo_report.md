@@ -1,6 +1,6 @@
 # REPORT DI VERIFICA — MyEUDR Lead Mapping
 
-Controllo qualità record per record del censimento lead (**730 aziende, 8 fogli**). Non è una raccolta di nuove aziende: è la verifica del lavoro esistente.
+Controllo qualità record per record del censimento lead (**729 aziende, 8 fogli**). Non è una raccolta di nuove aziende: è la verifica del lavoro esistente.
 
 La verifica si è svolta in due fasi:
 
@@ -16,15 +16,15 @@ La verifica si è svolta in due fasi:
 | Germania | 97 | 4 | 0 | 2 | 68 | 70% |
 | Finlandia | 84 | 2 | 0 | 3 | 34 | 40% |
 | Danimarca | 85 | 5 | 0 | 0 | 89 | 105% |
-| Svezia | 89 | 3 | 1 | 1 | 66 | 74% |
+| Svezia | 88 | 4 | 0 | 1 | 72 | 82% |
 | Olanda | 98 | 5 | 0 | 1 | 85 | 87% |
 | Belgio | 92 | 5 | 0 | 0 | 95 | 103% |
 | Austria | 90 | 4 | 0 | 1 | 76 | 84% |
-| **TOTALE** | **730** | **31** | **1** | **10** | **570** | **78%** |
+| **TOTALE** | **729** | **32** | **0** | **10** | **576** | **79%** |
 
 _Un blocco è contato **completo** solo se l'agente ha confermato di aver verificato tutti i record. I **blocchi parziali** sono quelli ancora in corso o interrotti dal limite di sessione: i rilievi già salvati sono validi e inclusi nel report, ma la copertura è conteggiata al ribasso (solo le aziende che compaiono fra i rilievi). Il salvataggio incrementale ogni 3-4 record è ciò che ha evitato di perdere quel lavoro._
 
-> La Fase A copre invece il **100%** dei 730 record: è un controllo offline e non dipende dal budget di ricerca.
+> La Fase A copre invece il **100%** dei 729 record: è un controllo offline e non dipende dal budget di ricerca.
 
 
 _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati aperti dalla raccolta, condotta separatamente e riportata per intero più sotto._

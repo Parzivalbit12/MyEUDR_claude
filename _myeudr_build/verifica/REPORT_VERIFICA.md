@@ -1,6 +1,6 @@
 # REPORT DI VERIFICA — MyEUDR Lead Mapping
 
-> Controllo qualità **record per record** del censimento lead (**730 aziende, 8 fogli**), alla ricerca di refusi, attribuzioni errate e ogni altro errore introdotto durante la raccolta. Non è una ricerca di nuove aziende.
+> Controllo qualità **record per record** del censimento lead (**729 aziende, 8 fogli**), alla ricerca di refusi, attribuzioni errate e ogni altro errore introdotto durante la raccolta. Non è una ricerca di nuove aziende.
 
 
 ## Come leggere questo report
@@ -9,7 +9,7 @@ La verifica si è svolta in due fasi, con budget e coperture diverse:
 
 | Fase | Metodo | Copertura |
 |---|---|---|
-| **A — controlli deterministici** | 26 controlli automatici offline su tutti i JSON di build e sul workbook | **100%** dei 730 record |
+| **A — controlli deterministici** | 26 controlli automatici offline su tutti i JSON di build e sul workbook | **100%** dei 729 record |
 | **B — riscontro sul web** | agenti di verifica, blocchi di 15-20 aziende, 2-3 ricerche per record, ogni rilievo con URL o citazione | vedi §1 |
 
 Documenti di dettaglio:
@@ -75,14 +75,14 @@ I rilievi si concentrano invece su qualità e coerenza redazionale:
 ---
 
 
-## 0-bis. Correzioni già applicate al workbook (68)
+## 0-bis. Correzioni già applicate al workbook (69)
 
 Applicate **solo le correzioni certe**, secondo il mandato: refusi formali, entità HTML, forme giuridiche, filiere fuori Allegato I, aziende cessate. Tutto il resto resta come rilievo aperto in questo report.
 
 Ogni correzione di campo è stata applicata con un **controllo di guardia**: lo script verifica che il valore attuale del campo coincida esattamente con quello atteso, altrimenti salta la correzione, così lo script è rieseguibile senza rischi. Dopo l'applicazione le righe sono **740** (due rimozioni motivate, vedi sotto) e l'ordine dei fogli è ripristinato (Italia, Germania, Finlandia, Danimarca, Svezia, Olanda, Belgio, Austria).
 
 
-### Record rimossi dal censimento (12)
+### Record rimossi dal censimento (13)
 
 Sono le uniche righe **tolte** dai fogli. Ciascuna rientra in una categoria che il mandato autorizza a correggere — filiere fuori Allegato I, aziende cessate — e in ogni caso il progetto aveva già applicato lo stesso criterio a un caso analogo, che viene citato nella motivazione.
 
@@ -122,7 +122,10 @@ FUORI PERIMETRO EUDR **e** attività cessata. Il perimetro non è dimostrato sot
 **Chocolade- en Suikerwerkfabriek Marandi B.V.** — foglio Olanda  
 NON PIÙ UN PRODUTTORE: Marandi è stata rilevata da Lonka nel 2010 e la produzione di nougat e cioccolato a Lunteren è **cessata a inizio 2014**, trasferita alla capogruppo Lonka a Roosendaal. La fabbrica di Klomperweg 69 è stata **demolita nel 2022** e sull'area sorge oggi il complesso residenziale «Marandi Staete». Il record riporta invece «21-50 dipendenti (2025)» e la sede di Klomperweg 69, cioè un sito produttivo che non esiste più. Nessuna attività produttiva né perimetro EUDR autonomo: è il precedente di Getama Danmark, rimossa perché «non è più un produttore, quindi non è un operatore EUDR». Fonti: edestad.nl (demolizione e cronologia Lonka), lunteren.com.
 
-Il totale del censimento passa quindi da **742 a 730 aziende** (Belgio 95→94, Olanda 100→99, Austria 93→92).
+**Kaffekompaniet Din Pauspartner AB** — foglio Svezia  
+SOCIETÀ ESTINTA: org.nr 556317-9554 «upplöst genom fusion 2024-05-13», incorporata nel gruppo belga Miko; l'attività di Göteborg è passata a Miko Sweden AB. La persona giuridica censita non esiste più e il lead non è contattabile come entità autonoma. Stesso criterio già applicato a Odense Seglmærkefabrik (CVR «opløst efter fusion») e, nella raccolta, a Getama Danmark, Magnus Olesen e Bent Krogh. Si aggiunge che il fatturato riportato è dell'esercizio 2022 e che l'attività — office coffee service — è distribuzione a valle. Fonti: krafman.se/5563179554, mynewsdesk.com (IMAP: «Belgiska Miko förvärvar Kaffekompaniet Din Pauspartner AB»).
+
+Il totale del censimento passa quindi da **742 a 729 aziende** (Belgio 95→94, Olanda 100→99, Austria 93→92).
 
 
 ### Tassonomia `Filiera` (24)
@@ -222,15 +225,15 @@ Tre categorie di rilievi formali sono state lasciate aperte nel report invece ch
 | Germania | 97 | 4 | 0 | 2 | 68 | 70% |
 | Finlandia | 84 | 2 | 0 | 3 | 34 | 40% |
 | Danimarca | 85 | 5 | 0 | 0 | 89 | 105% |
-| Svezia | 89 | 3 | 1 | 1 | 66 | 74% |
+| Svezia | 88 | 4 | 0 | 1 | 72 | 82% |
 | Olanda | 98 | 5 | 0 | 1 | 85 | 87% |
 | Belgio | 92 | 5 | 0 | 0 | 95 | 103% |
 | Austria | 90 | 4 | 0 | 1 | 76 | 84% |
-| **TOTALE** | **730** | **31** | **1** | **10** | **570** | **78%** |
+| **TOTALE** | **729** | **32** | **0** | **10** | **576** | **79%** |
 
 _Un blocco è contato **completo** solo se l'agente ha confermato di aver verificato tutti i record. I **blocchi parziali** sono quelli ancora in corso o interrotti dal limite di sessione: i rilievi già salvati sono validi e inclusi nel report, ma la copertura è conteggiata al ribasso (solo le aziende che compaiono fra i rilievi). Il salvataggio incrementale ogni 3-4 record è ciò che ha evitato di perdere quel lavoro._
 
-> La Fase A copre invece il **100%** dei 730 record: è un controllo offline e non dipende dal budget di ricerca.
+> La Fase A copre invece il **100%** dei 729 record: è un controllo offline e non dipende dal budget di ricerca.
 
 
 _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati aperti dalla raccolta, condotta separatamente e riportata per intero più sotto._
