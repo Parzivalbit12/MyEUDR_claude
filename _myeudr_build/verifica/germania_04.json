@@ -1,0 +1,353 @@
+[
+ {
+  "foglio": "Germania",
+  "denominazione": "Röstfein Kaffee GmbH",
+  "campo": "denominazione",
+  "problema": "Controllata al 100% da terzi non dichiarata: socio unico è Zentralkonsum eG (gruppo cooperativo). La decisione di compliance EUDR si prende a livello di capogruppo; il lead va qualificato o riportato su Zentralkonsum eG.",
+  "gravita": "alta",
+  "evidenza": "northdata/wer-zu-wem, Röstfein Kaffee GmbH, Magdeburg, HRB 107856: «The sole shareholder of Röstfein Kaffee GmbH is Zentralkonsum eG» — cfr. https://www.zentralkonsum.de/roestfein-kaffee-gmbh/",
+  "correzione_proposta": "Aggiungere nota: «controllata al 100% da Zentralkonsum eG (Berlino)»"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Röstfein Kaffee GmbH",
+  "campo": "dimensione",
+  "problema": "Campo inutilizzabile: 'n.d. (torrefazione media, gegr. 1908)' non dichiara né tipo di dato, né fonte, né anno. Dato dipendenti reperibile.",
+  "gravita": "media",
+  "evidenza": "roestfein.de / de.wikipedia.org/wiki/Röstfein: «Die Magdeburger Kaffeefabrik hat über 150 Mitarbeiter»",
+  "correzione_proposta": "Dipendenti: oltre 150 (fonte azienda/Wikipedia, s.d. — anno da confermare); fatturato non pubblicato (bilanci depositati 2020-2024 su northdata, HRB 107856 Stendal)"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Röstfein Kaffee GmbH",
+  "campo": "fonte",
+  "problema": "URL fonte errato: la pagina è /impressum.html, non /impressum. Inoltre l'Impressum del marchio Rondo (rondokaffee.de) riporta ancora Eike-Jens König come Geschäftsführer: dato incoerente, il registro conferma André Hankel (iscritto 02.06.2025).",
+  "gravita": "bassa",
+  "evidenza": "https://www.roestfein.de/impressum.html ; https://www.rondokaffee.de/impressum (Eike-Jens König) ; registro: «André Hankel (nato 20.10.1979) Geschäftsführer con firma individuale dal 02.06.2025»",
+  "correzione_proposta": "https://www.roestfein.de/impressum.html"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Speicherstadt Kaffeerösterei (Hacienda San Nicolás GmbH)",
+  "campo": "referente",
+  "problema": "Indicato un solo referente: i Geschäftsführer sono due (Thimo Drews e Andreas Wessel-Ellermann). Wessel-Ellermann è anche il responsabile ai sensi del § 18 Abs. 2 MStV nell'Impressum.",
+  "gravita": "media",
+  "evidenza": "https://speicherstadt-kaffee.de/impressum/ : «Geschäftsführer: Thimo Drews und Andreas Wessel-Ellermann; Amtsgericht Hamburg HRB 55940»",
+  "correzione_proposta": "Thimo Drews e Andreas Wessel-Ellermann (Geschäftsführer)"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Speicherstadt Kaffeerösterei (Hacienda San Nicolás GmbH)",
+  "campo": "dimensione",
+  "problema": "'~50 MA (Firmenangabe); Umsatz n.d.': dato senza anno né fonte citabile; nessun dato di fatturato o volumi. DA CONFERMARE su northdata HRB 55940.",
+  "gravita": "media",
+  "evidenza": "https://www.northdata.com/Hacienda%20San%20Nicol%C3%A0s%20GmbH,%20Hamburg/HRB%2055940 (bilanci depositati, cifre non pubbliche nei frammenti)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Speicherstadt Kaffeerösterei (Hacienda San Nicolás GmbH)",
+  "campo": "denominazione",
+  "problema": "Refuso formale: la ragione sociale registrata è 'Hacienda San Nicolàs GmbH' (accento grave), non 'San Nicolás'.",
+  "gravita": "bassa",
+  "evidenza": "https://www.northdata.com/Hacienda%20San%20Nicol%C3%A0s%20GmbH,%20Hamburg/HRB%2055940 ; wlw.com «Hacienda San Nicolàs GmbH»",
+  "correzione_proposta": "Speicherstadt Kaffeerösterei (Hacienda San Nicolàs GmbH)"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "W. Machwitz GmbH (Machwitz Kaffee)",
+  "campo": "referente",
+  "problema": "Indicato un solo referente: l'Impressum riporta due Geschäftsführer, Jörg-Walter Koch e Maximilian Koch (2ª e 3ª generazione).",
+  "gravita": "media",
+  "evidenza": "https://www.machwitz-kaffee.de/impressum/ : «Vertretungsberechtigte Geschäftsführer: Jörg-Walter Koch, Maximilian Koch»",
+  "correzione_proposta": "Jörg-Walter Koch e Maximilian Koch (Geschäftsführer)"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "W. Machwitz GmbH (Machwitz Kaffee)",
+  "campo": "dimensione",
+  "problema": "Campo inutilizzabile ('n.d.'). Il dato dipendenti è pubblico (~40) e colloca l'azienda presumibilmente sotto la forbice target 5-40 M€: va segnalato esplicitamente.",
+  "gravita": "media",
+  "evidenza": "city-immobilienmakler.de/niedersachsen/hannover/machwitz-kaffee/ : «Der Familienbetrieb hat im Laufe der Jahre rund 40 Arbeitsplätze geschaffen»",
+  "correzione_proposta": "Dipendenti: ~40 (fonte stampa/azienda, anno n.d.); fatturato non pubblicato — probabile sotto forbice target"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Willy Hagen GmbH (Hagen Kaffee)",
+  "campo": "referente",
+  "problema": "Indicato un solo referente: i Geschäftsführer sono due, Hanspeter Hagen e Antonia Hagen-Kettemann.",
+  "gravita": "media",
+  "evidenza": "https://www.hagen-onlineshop.de/impressum : «Geschäftsführer: Hanspeter Hagen, Antonia Hagen-Kettemann; Amtsgericht Stuttgart HRB 104035»",
+  "correzione_proposta": "Hanspeter Hagen e Antonia Hagen-Kettemann (Geschäftsführer)"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Willy Hagen GmbH (Hagen Kaffee)",
+  "campo": "dimensione",
+  "problema": "'~45 MA (Firmenangabe)' senza fonte né anno; i dati di portale disponibili sono fasce larghe e prive di anno (11-50 dipendenti; 10-50 Mio € di fatturato), non un dato utilizzabile per il posizionamento nella forbice 5-40 M€.",
+  "gravita": "media",
+  "evidenza": "https://www.wlw.de/de/firma/willy-hagen-gmbh-921947 : «11-50 Mitarbeiter», «Umsatz 10-50 Mio. €» (fascia di portale, senza anno)",
+  "correzione_proposta": "Dipendenti: fascia 11-50; fatturato: fascia 10-50 Mio € (wlw.de, fasce di portale senza anno) — dato puntuale DA CONFERMARE"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "impuls Kaffeemanufaktur",
+  "campo": "dimensione",
+  "problema": "Campo inutilizzabile ('n.d.'): nessun tipo di dato, fonte o anno. Si tratta di una ditta individuale (Einzelunternehmen di Rainer Burkhardt, non una società di capitali) con torrefazione e caffetteria a Kiel: presumibilmente molto al di sotto della forbice target 5-40 M€ — va segnalato esplicitamente.",
+  "gravita": "media",
+  "evidenza": "https://impuls-kaffeemanufaktur.de/pages/impressum : «Rainer Burkhardt, Küterstrasse 7-9, 24103 Kiel» (nessuna forma societaria, nessun HRB); foerdefraeulein.de: torrefazione/caffè in Kiel dal 2015",
+  "correzione_proposta": "Micro-impresa/ditta individuale (Einzelunternehmen); nessun dato di fatturato o dipendenti pubblicato — verosimilmente sotto forbice target"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "impuls Kaffeemanufaktur",
+  "campo": "ruolo",
+  "problema": "Il ruolo 'Inhaber / Geschäftsführer' è impreciso: non esiste una GmbH, quindi non esiste un Geschäftsführer. Il ruolo corretto è solo 'Inhaber'.",
+  "gravita": "bassa",
+  "evidenza": "https://impuls-kaffeemanufaktur.de/pages/impressum : l'Impressum riporta la sola persona fisica «Rainer Burkhardt», senza forma giuridica né registro imprese",
+  "correzione_proposta": "Inhaber"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Albrecht & Dill Trading GmbH",
+  "campo": "dimensione",
+  "problema": "Dato non pertinente: lo 'Stammkapital 500.000 €' è il capitale sociale, non una misura dimensionale. Il dato utile esiste ed è pubblicato: totale di bilancio 2023 ~80 Mio € (+10,5% sull'anno precedente), quindi azienda ben SOPRA la forbice target 5-40 M€ — circostanza non segnalata nel campo.",
+  "gravita": "media",
+  "evidenza": "northdata/implisense, HRB 18309 Hamburg: «The last published balance sheet total of Albrecht & Dill Trading GmbH is 2023 at 80 M €, with an increase of +10.5% compared to the previous year» — https://www.northdata.com/Albrecht%20&%20Dill%20Trading%20GmbH,%20Hamburg/HRB%2018309",
+  "correzione_proposta": "Totale di bilancio 2023: ~80 Mio € (northdata, HRB 18309) — sopra la forbice target; Umsatz non pubblicato"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Bohnkaf-Kolonial GmbH & Co. KG",
+  "campo": "dimensione",
+  "problema": "Campo inutilizzabile ('n.d. (PMI...)'): nessun tipo di dato, fonte o anno. Trattandosi di una GmbH & Co. KG (HRA 5357 KI) i dati di bilancio non sono facilmente pubblici. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://www.companyhouse.de/Bohnkaf-Kolonial-GmbH-Co-KG-Neumuenster ; https://firmeneintrag.creditreform.de/24539/2290238310/BOHNKAF_KOLONIAL_GMBH_CO_KG (nessuna cifra nei frammenti pubblici)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Bohnkaf-Kolonial GmbH & Co. KG",
+  "campo": "sito",
+  "problema": "Il gruppo usa due domini: bohnkaf-kolonial.de e bohnkaf.de (quest'ultimo ospita Impressum e pagina 'Über uns' in tedesco/inglese). Verificare quale sia il dominio istituzionale attuale e la coerenza dell'e-mail info@bohnkaf-kolonial.de, che non compare letteralmente nei frammenti pubblici reperiti.",
+  "gravita": "bassa",
+  "evidenza": "https://www.bohnkaf.de/en/impressum/ e https://www.bohnkaf.de/en/ueber-uns/ accanto a https://www.bohnkaf-kolonial.de/allgemeine-geschaeftsbedingungen-2/",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Confiserie Burg Lauenstein GmbH",
+  "campo": "referente",
+  "problema": "Indicato un solo referente: i Geschäftsführer sono due, Thomas Luger e Maximilian Kaub.",
+  "gravita": "media",
+  "evidenza": "https://www.lauensteiner.de/de/impressum/ e registro AG Coburg HRB 1536: «Geschäftsführer: Thomas Luger, Maximilian Kaub»",
+  "correzione_proposta": "Thomas Luger e Maximilian Kaub (Geschäftsführer)"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Confiserie Burg Lauenstein GmbH",
+  "campo": "dimensione",
+  "problema": "Il campo riporta solo i dipendenti senza anno e dichiara 'Umsatz n.d.', mentre il fatturato è pubblicato: ~14 Mio € (Die Deutsche Wirtschaft; altra stima 11 Mio €). Dato dentro la forbice target: va inserito.",
+  "gravita": "media",
+  "evidenza": "https://die-deutsche-wirtschaft.de/unternehmen/confiserie-burg-lauenstein-gmbh-ludwigsstadt/ : fatturato ~14,0 Mio €; 130 dipendenti fissi + ~50 stagionali natalizi",
+  "correzione_proposta": "Fatturato ~14 Mio € (Die Deutsche Wirtschaft, stima; anno da confermare); 130 dipendenti fissi + ~50 stagionali"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Confiserie Coppeneur et Compagnon GmbH",
+  "campo": "referente",
+  "problema": "Indicato un solo referente: la società è rappresentata da due Geschäftsführer, Oliver Coppeneur e Oliver Tölge (in passato anche Alexander Mehnert, nominato nel 2018 e non più in carica).",
+  "gravita": "media",
+  "evidenza": "northdata / companyhouse, AG Siegburg HRB 6958: «represented by the managers Oliver Coppeneur and Oliver Tölge»; lebensmittelpraxis.de 2018 su Alexander Mehnert (predecessore)",
+  "correzione_proposta": "Oliver Coppeneur e Oliver Tölge (Geschäftsführer)"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Confiserie Dengel (Inh. Uwe Dengel)",
+  "campo": "dimensione",
+  "problema": "Dato obsoleto di 11 anni ('~120 dip. (2015)') e privo di fonte citabile; nessun dato di fatturato. Essendo una ditta individuale (Einzelunternehmer) non deposita bilanci: il posizionamento nella forbice 5-40 M€ resta non verificabile. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://confiserie-dengel.de/impressum/ : «Einzelunternehmer Uwe Dengel, Am Eckfeld 18, 83543 Rott am Inn, USt-IdNr. DE131609407» (nessun dato dimensionale pubblicato); https://www.wer-zu-wem.de/firma/confiserie-dengel.html",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Confiserie Felicitas GmbH",
+  "campo": "referente",
+  "problema": "Indicato un solo referente: i Geschäftsführer sono due, la coppia di fondatori belga Goedele Matthyssen e Peter Bienstman.",
+  "gravita": "media",
+  "evidenza": "Impressum Confiserie Felicitas GmbH (AG Cottbus HRB 2349 CB): «Geschäftsführer: Goedele Matthyssen, Peter Bienstman» — https://www.felicitas-schokolade.de/impressum",
+  "correzione_proposta": "Goedele Matthyssen e Peter Bienstman (Geschäftsführer)"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Confiserie Felicitas GmbH",
+  "campo": "dimensione",
+  "problema": "'classe Umsatz 10–50 Mio €' è una fascia di portale senza anno né fonte primaria, inutilizzabile per collocare l'azienda nella forbice 5-40 M€; anche il dato dipendenti è privo di anno. Un dato dipendenti datato è invece disponibile (75, dicembre 2024).",
+  "gravita": "media",
+  "evidenza": "https://bb-br.de/erfolgsstory/2024/12/03/confiserie-felicitas-im-schoko-himmel/ : «heute hat das Unternehmen 75 Mitarbeiter» (dic. 2024); fascia 10-50 Mio € da wer-zu-wem.de senza anno",
+  "correzione_proposta": "Dipendenti: 75 (Bürgschaftsbank Brandenburg, dic. 2024); fatturato: solo fascia di portale 10-50 Mio € senza anno — dato puntuale DA CONFERMARE"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Confiserie Felicitas GmbH",
+  "campo": "email",
+  "problema": "E-mail dichiarata 'n.d.' ma un indirizzo esiste nell'Impressum (mascherato nei risultati di ricerca). Verificare sul sito; l'Impressum indica inoltre come dominio istituzionale www.confiserie-felicitas.de, diverso da quello censito (felicitas-schokolade.de).",
+  "gravita": "bassa",
+  "evidenza": "Impressum Confiserie Felicitas GmbH: «Schokoladenweg 1, 03130 Spremberg OT Hornow, Tel. +49 35698 80 555 0 ... www.confiserie-felicitas.de, E-Mail: [mascherata]»",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "EcoFinia GmbH (VIVANI / iChoc)",
+  "campo": "sede",
+  "problema": "Sede legale incerta: le fonti registrali riportano EcoFinia GmbH con sede a Herford (Amtsgericht Bad Oeynhausen HRB 5604), mentre altre fonti e il sito indicano Bochum. Verificare quale sia la sede legale attuale e quale l'unità operativa.",
+  "gravita": "bassa",
+  "evidenza": "https://www.firmenwissen.de/az/firmeneintrag/32051/4170196708/ECOFINIA_GMBH.html : «EcoFinia GmbH mit Sitz in Herford ... Amtsgericht Bad Oeynhausen HRB 5604»; contro: «Die Firma EcoFinia GmbH hat ihren Sitz in Bochum»",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "EcoFinia GmbH (VIVANI / iChoc)",
+  "campo": "referente",
+  "problema": "Referente probabilmente incompleto: Gerrit Wiezoreck è Geschäftsführer dall'ottobre 2021 affiancato al fondatore Andreas Meyer nell'ambito di un passaggio generazionale; la società è inoltre rappresentata dai soci Andreas Meyer e Cord Budde e ha annunciato un ampliamento della Führungsspitze. Verificare l'elenco completo dei Geschäftsführer.",
+  "gravita": "media",
+  "evidenza": "https://vivani.de/ecofinia-erweitert-fuehrungsspitze/ : «steht EcoFinia-Gründer Andreas Meyer mit Gerrit Wiezoreck bereits seit Oktober 2021 ein junger, neuer Geschäftsführer ... zur Seite»; «wird von den Gesellschaftern Andreas Meyer und Cord Budde vertreten»",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "EcoFinia GmbH (VIVANI / iChoc)",
+  "campo": "dimensione",
+  "problema": "Solo totale di bilancio 2023 (~5 Mio €), nessun dato di fatturato o dipendenti; il totale di bilancio non consente di collocare l'azienda nella forbice target. Dato di fatturato/dipendenti non reperito nelle fonti pubbliche.",
+  "gravita": "media",
+  "evidenza": "northdata / firmenwissen (HRB 5604); oekolandbau.de: «EcoFinia ... Marken Vivani, iChoc und björnsted in mehr als 50 Ländern» — nessuna cifra di Umsatz o Mitarbeiter pubblicata",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Edelmond Chocolatiers GmbH",
+  "campo": "dimensione",
+  "problema": "Campo inutilizzabile ('n.d.'): nessun tipo di dato, fonte o anno. Gli unici indicatori pubblici sono il capitale sociale di 25.000 € e la natura di manifattura artigianale bean-to-bar: micro-impresa verosimilmente molto sotto la forbice target 5-40 M€, circostanza da segnalare esplicitamente.",
+  "gravita": "media",
+  "evidenza": "https://www.firminform.de/unternehmen/Edelmond-Chocolatiers-GmbH-Luckau : «Firmenkapital 25.000 EUR; das Unternehmen wird von 1 Person geführt; aktiv» (AG Cottbus HRB 9347)",
+  "correzione_proposta": "Micro-manifattura: capitale sociale 25.000 € (AG Cottbus HRB 9347); fatturato e dipendenti non pubblicati — verosimilmente sotto forbice target"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "H.C.C.O Hanseatic Cocoa & Commodity Office GmbH",
+  "campo": "filiera",
+  "problema": "Possibile problema di perimetro: l'oggetto sociale è la sola INTERMEDIAZIONE (Vermittlung, Beschaffung und Vermarktung) di materie prime e la progettazione di impianti di lavorazione. Un broker che non acquisisce la titolarità della merce non è né operatore né trader ai sensi EUDR e non immette la commodity sul mercato UE: da verificare se HCCO tratti in conto proprio.",
+  "gravita": "media",
+  "evidenza": "https://www.companyhouse.de/en/HCCO-Hanseatic-Cocoa-Commodity-Office-GmbH-Hamburg (HRB 145593): «object: the brokerage, procurement and marketing of natural raw materials, in particular cocoa and cocoa products, green coffee, nuts and dried fruits, as well as ... consulting activities»",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "H.C.C.O Hanseatic Cocoa & Commodity Office GmbH",
+  "campo": "email",
+  "problema": "E-mail dichiarata 'n.d.' benché l'azienda pubblichi un Impressum e una pagina Kontakt (obbligo di legge): il dato è recuperabile e non è stato raccolto.",
+  "gravita": "bassa",
+  "evidenza": "https://hcco.de/de/impressum.html e https://hcco.de/de/kontakt.html (Große Reichenstraße 27 / Afrikahaus, 20457 Hamburg, tel. 040/1804738-0)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "H.C.C.O Hanseatic Cocoa & Commodity Office GmbH",
+  "campo": "referente",
+  "problema": "Referente confermato (Albert Christian Henry Schönbrunn, Geschäftsführer e presidente dell'associazione KAKAO), ma probabilmente incompleto: le fonti citano come persone chiave anche Felix Andreas Christiansen e Sebastian Lembke, e la collegata C.C.O. Cocoa & Commodity Office GmbH (ex H.C.C.O Hamburg Cocoa & Commodity Office GmbH) ha come GF Andreas Christiansen e Hans-Werner Lembke. Verificare il numero di Geschäftsführer e la relazione tra le due società.",
+  "gravita": "media",
+  "evidenza": "northdata id 3341665052: «C.C.O. Cocoa & Commodity Office GmbH - MD: Andreas Christiansen, Hans-Werner Lembke · Change of headquarters: H.C.C.O Hamburg Cocoa & Commodity Office GmbH»; hamburg.de branchenbuch: contatti «Felix Andreas Christiansen e Sebastian Lembke»",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "H.C.C.O Hanseatic Cocoa & Commodity Office GmbH",
+  "campo": "dimensione",
+  "problema": "Campo inutilizzabile ('n.d.'): nessun tipo di dato, fonte o anno; l'affermazione di indipendenza ('broker/intermediario indip.') non è supportata da fonte.",
+  "gravita": "media",
+  "evidenza": "https://www.northdata.com/H%C2%B7C%C2%B7C%C2%B7O%20Hanseatic%20Cocoa%20&%20Commodity%20Office%20GmbH,%20Hamburg/HRB%20145593 (nessuna cifra nei frammenti pubblici)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "HCS Hamburg Cocoa Services GmbH",
+  "campo": "referente",
+  "problema": "Referente non attuale: l'ultima iscrizione registrale (21.02.2025) nomina Geschäftsführer con firma individuale Nathaniel Durant (Maplewood, USA, nato 08.02.1970). Edmund Agyapong-Poku compare solo in fonti anteriori. La nomina di un GF residente negli USA suggerisce inoltre un controllo estero non dichiarato: da verificare la compagine sociale.",
+  "gravita": "alta",
+  "evidenza": "Handelsregister AG Hamburg HRB 89478, iscrizione 21.02.2025: «Nathaniel Durant, Maplewood, Vereinigte Staaten, geb. 08.02.1970, Geschäftsführer, einzelvertretungsberechtigt» (webvalid.de / unternehmen24.info)",
+  "correzione_proposta": "Nathaniel Durant (Geschäftsführer dal 21.02.2025) — da riconfermare"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "HCS Hamburg Cocoa Services GmbH",
+  "campo": "sito",
+  "problema": "Campo sito vuoto benché l'azienda abbia un sito pubblicato (www.cocoaservices.de); mancano anche e-mail e LinkedIn, quindi il lead risulta di fatto non contattabile così com'è.",
+  "gravita": "media",
+  "evidenza": "https://implisense.com/en/companies/hcs-hamburg-cocoa-services-gmbh-hamburg-DEPDDRJOVX01 : «Ellerholzdamm 38, 20457 Hamburg, Tel. +49 40 5379950-73, www.cocoaservices.de»",
+  "correzione_proposta": "https://www.cocoaservices.de"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "HCS Hamburg Cocoa Services GmbH",
+  "campo": "dimensione",
+  "problema": "Campo inutilizzabile ('n.d. (socio Kakaoverein; HRB 89478)'). Il dato esiste: totale di bilancio 2023 pari a ~2 Mio €, quindi micro-impresa ben SOTTO la forbice target 5-40 M€ — il record andrebbe declassato o escluso.",
+  "gravita": "media",
+  "evidenza": "https://implisense.com/en/companies/hcs-hamburg-cocoa-services-gmbh-hamburg-DEPDDRJOVX01 : «The last published balance sheet total of HCS Hamburg Cocoa Services GmbH is 2023 at 2 M €»",
+  "correzione_proposta": "Totale di bilancio 2023: ~2 Mio € (implisense/northdata, HRB 89478) — sotto forbice target"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "HCS Hamburg Cocoa Services GmbH",
+  "campo": "denominazione",
+  "problema": "Rischio di omonimia: a Hamburg esiste anche 'HCS Hamburger Cocoa Service GmbH' (AG Hamburg HRB 97581), società distinta. Verificare che i dati raccolti (e la fonte companyhouse) si riferiscano alla HRB 89478 e non all'omonima.",
+  "gravita": "bassa",
+  "evidenza": "https://www.northdata.com/HCS%20Hamburger%20Cocoa%20Service%20GmbH,%20Hamburg/HRB%2097581 vs https://www.northdata.com/HCS%20Hamburg%20Cocoa%20Services%20GmbH,%20Hamburg/HRB%2089478",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Paul Reber GmbH & Co. KG",
+  "campo": "dimensione",
+  "problema": "Campo inutilizzabile ('n.d.'): nessun tipo di dato, fonte o anno. Le uniche cifre reperibili sono un dato di VOLUME (500.000 Mozartkugeln/giorno, export in oltre 50 paesi) e stime di portali di dubbia affidabilità (rocketreach: 31 dipendenti e 28,3 Mio $ 'nel 2026' — incoerenti fra loro e non citabili). Fatturato/dipendenti DA CONFERMARE (KG, HRA 701 Traunstein: non deposita conti pubblici completi).",
+  "gravita": "media",
+  "evidenza": "https://de.wikipedia.org/wiki/Paul_Reber_(Unternehmen) : «produziert nach eigenen Angaben 500.000 Mozartkugeln pro Tag ... Export in mehr als 50 Länder»; rocketreach.co/paul-reber-gmbh-co-kg-profile (stime non affidabili)",
+  "correzione_proposta": "Volumi: ~500.000 Mozartkugeln/giorno, export in 50+ paesi (Wikipedia/azienda); fatturato e dipendenti non pubblicati — DA CONFERMARE"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Paul Reber GmbH & Co. KG",
+  "campo": "referente",
+  "problema": "Referente confermato (Bernhard Pfaff, Geschäftsführer della complementare), ma va precisato che la proprietà è della famiglia Botzleiner-Reber: nel record il vertice familiare non compare. Verificare se vi siano altri Geschäftsführer della Reber Verwaltungsgesellschaft.",
+  "gravita": "bassa",
+  "evidenza": "https://www.reber.com/impressum : «vertreten durch den Geschäftsführer Bernhard Pfaff; Registergericht Traunstein HRA 701»; https://de.wikipedia.org/wiki/Paul_Reber_(Unternehmen) : «seit der Gründung 1865 im Besitz der Familie Botzleiner-Reber»",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "SINTAG GmbH & Co. KG",
+  "campo": "referente",
+  "problema": "Campi referente e ruolo VUOTI: il lead non è utilizzabile così. Il registro indica come persona iscritta Ingolf Christian Jacob (Rosengarten, nato 29.10.1971), coerente con l'e-mail censita jacob@sintag.eu; è Geschäftsführer della complementare SINTAG Verwaltungs GmbH.",
+  "gravita": "alta",
+  "evidenza": "https://www.unternehmen24.info/Firmeninformationen/Deutschland/Firma/4708283 (SINTAG GmbH & Co. KG, HRA 204176 Tostedt): «registered person Ingolf Christian Jacob, Rosengarten, geb. 29.10.1971 ... jacob@sintag.eu»; https://firmeneintrag.creditreform.de/21224/2151946166/SINTAG_VERWALTUNGS_GMBH",
+  "correzione_proposta": "Ingolf Christian Jacob — Geschäftsführer (della complementare SINTAG Verwaltungs GmbH)"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "SINTAG GmbH & Co. KG",
+  "campo": "filiera",
+  "problema": "Perimetro da verificare: l'oggetto sociale registrato è molto ampio e include la sola 'Vermittlung' (intermediazione) oltre a compravendita di prodotti agricoli e alimentari, ma anche compravendita e gestione/locazione di IMMOBILI. Sede in un indirizzo residenziale (Stieglitzweg 28a, Rosengarten) e unico contatto un cellulare: struttura da micro-intermediario, non da operatore che immette cacao sul mercato UE.",
+  "gravita": "media",
+  "evidenza": "https://www.companyhouse.de/en/SINTAG-GmbH-Co-KG-Rosengarten : «production, mediation and purchase and sale of agricultural products, food items and supermarket assortment goods, as well as purchase and sale of real estate, and administration, rental and leasing of properties»; contatto «+49-176 276 91 673»",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "SINTAG GmbH & Co. KG",
+  "campo": "dimensione",
+  "problema": "Campo inutilizzabile ('n.d. (piccola società trading cacao...)'): nessun tipo di dato, fonte o anno. Nessuna cifra pubblicata reperita per la KG (HRA 204176). Verosimilmente micro-impresa, molto sotto la forbice target 5-40 M€.",
+  "gravita": "media",
+  "evidenza": "https://www.webvalid.de/company/SINTAG+GmbH+&+Co.+KG,+Rosengarten/HRA+204176 (nessun dato economico pubblico nei frammenti)",
+  "correzione_proposta": ""
+ }
+]

@@ -1,0 +1,218 @@
+[
+ {
+  "foglio": "Olanda",
+  "denominazione": "Chocolade- en Suikerwerkfabriek Marandi B.V.",
+  "campo": "denominazione",
+  "problema": "Azienda non piu operativa: rilevata da Lonka nel 2010, produzione di nougat/cioccolato a Lunteren cessata a inizio 2014 con trasferimento alla capogruppo Lonka a Roosendaal. La fabbrica di Klomperweg 69 e stata demolita nel 2022 e sull'area sorge il complesso residenziale 'Marandi Staete'. Lead non valido: nessuna attivita produttiva ne perimetro EUDR autonomo.",
+  "gravita": "alta",
+  "evidenza": "https://www.edestad.nl/lokaal/nieuwbouw/837476/sloop-oude-nougat-fabriek-lunteren-is-gestart - 'In 2010 werd Marandi overgenomen door Lonka, begin 2014 eindigde de nougatproductie in Lunteren toen die verhuisde naar moederbedrijf Lonka in Roosendaal'; https://www.edestad.nl/lokaal/lokaal/145246/tien-tot-vijftien-woningen-op-voormalig-marandi-terrein-516784",
+  "correzione_proposta": "Rimuovere il record dal dataset (azienda cessata/assorbita in Lonka, Roosendaal)"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Chocolade- en Suikerwerkfabriek Marandi B.V.",
+  "campo": "sede",
+  "problema": "Indirizzo Klomperweg 69, Lunteren non piu esistente come sito produttivo: edificio demolito nel 2022, area riconvertita a nuove abitazioni ('Marandi Staete'). Il dato di sede riportato in 'dimensione' e obsoleto.",
+  "gravita": "alta",
+  "evidenza": "https://www.lunteren.com/nieuws/sloop-van-nougat-fabriek-in-lunteren-gestart/ - sloop van de oude nougatfabriek aan de Klomperweg; https://www.edestad.nl/lokaal/nieuwbouw/879182/nieuwbouw-marandi-staete-klomperweg-lunteren-is-gestart",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Chocolatemakers B.V.",
+  "campo": "denominazione",
+  "problema": "Operazione straordinaria recente non dichiarata: Chocolatemakers (Amsterdam) si e fusa con Hands Off (Hilversum) dando vita a The Chocolate Impact Group (annuncio 31 marzo 2026). La compliance EUDR si decide ora a livello del nuovo gruppo, non della singola B.V.",
+  "gravita": "alta",
+  "evidenza": "https://www.doen.nl/en/nieuws/dutch-chocolate-companies-hands-off-and-chocolatemakers-are-merging-to-form-the-chocolate-impact-group/ ; https://mtsprout.nl/groei/groeistrategie/chocolatemakers-hands-off-fusie - 'Hands Off uit Hilversum en Chocolatemakers uit Amsterdam fuseren en gaan verder onder de naam The Chocolate Impact Group'",
+  "correzione_proposta": "Denominazione/gruppo: The Chocolate Impact Group (brand: Chocolatemakers, Hands Off, CLARO)"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Chocolatemakers B.V.",
+  "campo": "referente",
+  "problema": "Enver Loke non e l'attuale vertice: e co-fondatore ritirato dall'azienda da alcuni anni. Il fondatore/uomo azienda citato dalle fonti 2026 e Rodney Nikkels; dopo la fusione la guida e del nuovo gruppo. Ruolo 'oprichter' non e comunque una carica statutaria.",
+  "gravita": "alta",
+  "evidenza": "https://mtsprout.nl/groei/groeistrategie/chocolatemakers-hands-off-fusie - 'Chocolatemakers werd in 2011 gestart als biologisch chocolademerk door Rodney Nikkels met zijn partner Enver Loke, die zich enkele jaren geleden terugtrok'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Chocolatemakers B.V.",
+  "campo": "dimensione",
+  "problema": "Il dato ~4 M€ e corretto come fatturato stand-alone ma superato: dopo la fusione il fatturato combinato del gruppo e ~8,5 M€, con obiettivo di 20 M€ al 2030. Da aggiornare al perimetro attuale.",
+  "gravita": "media",
+  "evidenza": "https://mtsprout.nl/groei/groeistrategie/chocolatemakers-hands-off-fusie - 'Hands Off en Chocolatemakers hadden elk een omzet van ongeveer 4 miljoen euro; de gecombineerde omzet is nu circa 8,5 miljoen euro'",
+  "correzione_proposta": "Fatturato combinato ~8,5 M€ (The Chocolate Impact Group, 2026)"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Continental Chocolate B.V.",
+  "campo": "dimensione",
+  "problema": "Controllo di terzi non dichiarato: Continental Chocolate e stata acquisita nel maggio 2009 dal gruppo belga Baronie (Baronie-de Heer B.V., Rotterdam, stessa sede Galvanistraat). Lo stabilimento originario di Amsterdam e stato chiuso e la produzione trasferita a Veurne (BE) e Rotterdam. Non e quindi un operatore indipendente: la compliance EUDR si decide presso la capogruppo Baronie.",
+  "gravita": "alta",
+  "evidenza": "https://evmi.nl/nieuws/baronie-neemt-continal-chocolate-over - 'De Rotterdamse chocoladefabrikant Baronie-De Heer neemt branchegenoot Continental Chocolate over'; https://nl.wikipedia.org/wiki/Baronie_(onderneming) - acquisizione Continental Chocolate nel maggio 2009",
+  "correzione_proposta": "Segnalare appartenenza al gruppo Baronie (BE) / Baronie-de Heer B.V.; valutare esclusione come lead autonomo"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Continental Chocolate B.V.",
+  "campo": "sede",
+  "problema": "Numero civico discordante: le fonti registrali indicano Galvanistraat 14, 3029 AD Rotterdam (indirizzo condiviso con Baronie-de Heer), non Galvanistraat 10 come riportato nel campo dimensione.",
+  "gravita": "bassa",
+  "evidenza": "https://nl.kompass.com/c/continental-chocolate-b-v/nl223469/ e https://drimble.nl/adres/rotterdam/3029AD/galvanistraat-14.html - 'Galvanistraat 14, 3029 AD Rotterdam'",
+  "correzione_proposta": "Galvanistraat 14, 3029 AD Rotterdam"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Continental Chocolate B.V.",
+  "campo": "referente",
+  "problema": "Johannes M.C.G. van Logtestijn risulta solo come 'key principal' in banche dati commerciali (D&B/TransFirm), non come directeur statutario riconfermato; probabile dirigente del gruppo Baronie-de Heer. Ruolo 'Bestuurder / key principal' non e una carica olandese verificata. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://www.dnb.com/business-directory/company-profiles.continental_chocolate_bv.b2ffbdabb13280a25145cce29c23632f.html - 'The key principal is Johannes M. C.G. van Logtestijn'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "De Chocoladefabriek B.V.",
+  "campo": "referente",
+  "problema": "Hans Neef e effettivamente directeur/eigenaar (con il co-titolare Henk Bijma, che rilevo' Rijkenberg insieme a lui nel 2012), ma dal 1 gennaio 2025 ha ridotto il proprio ruolo nell'operativita quotidiana per dedicarsi a progetti strategici, finanza e new business. Referente da riconfermare come interlocutore operativo per la compliance.",
+  "gravita": "media",
+  "evidenza": "https://bakerynext.nl/hans-neef-over-zijn-chocoladefabriek-niet-te-groot-en-niet-te-klein/ - 'eind 2024 besloot Hans Neef zijn rol te veranderen: vanaf 1 januari minder in de dagelijkse operatie'; https://www.bakkerswereld.nl/56440/chocoladespecialist-rijkenberg-heet-voortaan-de-chocoladefabriek - 'In 2012 namen Henk Bijma en Hans Neef chocoladespecialist Rijkenberg over'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "De Euforij Chocolade B.V.",
+  "campo": "referente",
+  "problema": "Campo referente/ruolo vuoto benche il dato sia pubblico: directeur e Wouter Koopdonk, che con Isabel Koelewijn detiene il 73% della societa (il resto e distribuito tra investitori privati da crowdfunding).",
+  "gravita": "media",
+  "evidenza": "https://www.crowdfundmarkt.nl/projecten/de-euforij-chocolade-b-v/ - 'De Euforij Chocolade B.V. is voor 73% in handen van ondernemer Wouter Koopdonk en Isabel Koelewijn'; https://www.euforij.nl/over-ons/",
+  "correzione_proposta": "Wouter Koopdonk - Directeur (medeoprichter/eigenaar)"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Martinez Chocolade B.V.",
+  "campo": "email",
+  "problema": "Email indicata come 'n.d.' benche sia pubblicata sul sito aziendale e in elenchi pubblici: info@martinezchocolade.nl (tel. +31 20 643 41 07).",
+  "gravita": "bassa",
+  "evidenza": "https://www.martinezchocolade.nl/contact/ - contatto 'info@martinezchocolade.nl, +31 20 643 41 07'",
+  "correzione_proposta": "info@martinezchocolade.nl"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Original Beans B.V.",
+  "campo": "referente",
+  "problema": "Campo referente vuoto benche il vertice sia pubblico: Philipp Kauffmann, fondatore (2008) e membro del board di Original Beans. DA CONFERMARE come directeur statutario presso il KVK, poiche il ruolo pubblicizzato e 'founder / chief grower' e la societa ha anche un Commercial Director distinto.",
+  "gravita": "media",
+  "evidenza": "https://cocoarunners.com/maker/original-beans/ e https://originalbeans.fr/team-member/philipp-kauffmann/ - 'Philipp Kauffmann, founder and member of the Board of Directors of Original Beans'; https://topofminds.com/en/vacancy-commercial-director-original-beans/",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Ringers' Import B.V.",
+  "campo": "denominazione",
+  "problema": "Stato societario DA CONFERMARE: una fonte aggregata segnala un fallimento della societa nel 2015, ma non e stato possibile riscontrarlo nel registro insolvenze in 2 query; i profili commerciali (GraydonGo, oozo) restano attivi. Da verificare su rechtspraak.nl/KVK prima di usare il lead.",
+  "gravita": "media",
+  "evidenza": "Frammento di ricerca su 'Ringers Import Haarlem': 'The company filed for bankruptcy in 2015, so you may want to verify current operational status before contacting them'; profilo attivo su https://graydongo.nl/nl/nl-voeding-ringers-import-bv-haarlem-18049029",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Ringers' Import B.V.",
+  "campo": "email",
+  "problema": "Email 'n.d.' e referente/ruolo vuoti: nelle fonti pubbliche consultate (europages, graydongo, nederlandinbedrijf, oozo) compare solo il recapito telefonico +31 (0)23 512 29 50 all'indirizzo Ir. Lelyweg 49, 2031 CD Haarlem. Nessun indirizzo email ne nome del directeur reperibile. Lead di fatto non contattabile via e-mail.",
+  "gravita": "media",
+  "evidenza": "https://www.nederlandinbedrijf.nl/Bedrijf/30470/Suiker-Ringers-Import-BV/Ir.-Lelyweg-49-2031CD-Haarlem-023-5122950 - 'Ir. Lelyweg 49, 2031CD Haarlem, 023-5122950' (nessuna e-mail pubblicata)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Rousseau Chocolade B.V.",
+  "campo": "sito",
+  "problema": "Sito indicato come 'n.d.' benche l'azienda abbia un sito attivo: www.rousseau.nl (con pagina contatti e rete di negozi in franchising, formula affiliata alla Nederlandse Franchise Vereniging).",
+  "gravita": "media",
+  "evidenza": "https://www.rousseau.nl/contact/ ; https://www.nfv.nl/formule/rousseau-chocolade-b-v/",
+  "correzione_proposta": "https://www.rousseau.nl/"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Rousseau Chocolade B.V.",
+  "campo": "referente",
+  "problema": "Campo referente/ruolo vuoto: le fonti pubbliche indicano Paul Diepstraten come directeur di Rousseau Chocolade B.V. (tel. 046 45 19 282). DA CONFERMARE come directeur statutario KVK 14002870.",
+  "gravita": "media",
+  "evidenza": "https://www.nfv.nl/formule/rousseau-chocolade-b-v/ e https://www.goudengids.nl/nl/bedrijf/Sittard/L119985201/Rousseau+Chocolade/ - 'Directeur: Paul Diepstraten, 046 - 45 19 282'",
+  "correzione_proposta": "Paul Diepstraten - Directeur (DA CONFERMARE su KVK)"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Steenland Chocolate B.V.",
+  "campo": "dimensione",
+  "problema": "Controllo estero correttamente dichiarato ma va pesato: dal 18 agosto 2017 Steenland e interamente controllata da Sino-Pacific Trading (Thailand) Co. Ltd., che l'ha rilevata da Halloren International Holding. Trattandosi di controllata di gruppo extra-UE, la decisione sulla compliance EUDR si prende presso la capogruppo: lead da qualificare come tale.",
+  "gravita": "media",
+  "evidenza": "https://www.sg-network.org/en/news/20171019-sino-pacific-trading-thailand-acquires-steenland-chocolate ; https://www.lincolninternational.com/transactions/halloren-has-sold-steenland-chocolate-to-sino-pacific/ - acquisizione perfezionata il 18 agosto 2017",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Steenland Chocolate B.V.",
+  "campo": "referente",
+  "problema": "Campo referente/ruolo vuoto benche il dato registrale sia disponibile: come Directeur al 2026 risulta P. De Abadal Coulet. Presenti anche recapiti diretti (Burg. van Reenensingel 127, 2803 PA Gouda, tel. +31 182 590 700) mentre il campo email resta 'n.d.'.",
+  "gravita": "media",
+  "evidenza": "https://companyinfo.nl/organisatieprofiel/vervaardiging-van-chocolade-en-suikerwerk/steenland-chocolate-b-v-gouda-24354029-000018029809 - 'P. De Abadal Coulet, Directeur (2026)'; https://www.steenland.nl/contact/",
+  "correzione_proposta": "P. De Abadal Coulet - Directeur"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Chocoladefabriek \"De Beemster\" B.V.",
+  "campo": "dimensione",
+  "problema": "Il dato di taglia proviene da un aggregatore (ZoomInfo) ed e espresso in dollari ('meno di 5 M$') senza conversione in euro come richiesto per il foglio Olanda; e inoltre una stima, non un dato di bilancio. Il resto (fatturato non depositato, KVK 37109862, sotto soglia) e dichiarato correttamente. Sede confermata: Insulindeweg 29, 1462 MJ Middenbeemster.",
+  "gravita": "bassa",
+  "evidenza": "https://companyinfo.nl/organisatieprofiel/vervaardiging-van-chocolade-en-suikerwerk/chocoladefabriek-de-beemster-b-v-middenbeemster-37109862-000020449763 ; https://nl.kompass.com/c/chocoladefabriek-de-beemster-b-v/nl501003/ - 'Insulindeweg 29, 1462 MJ Middenbeemster, KvK 37109862'",
+  "correzione_proposta": "Esprimere la stima in euro (<5 M€ ca.) e qualificarla come stima di aggregatore"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Trianon Chocolatiers B.V.",
+  "campo": "referente",
+  "problema": "Referente/ruolo assenti perche i bestuurders statutari sono persone giuridiche: dal 21 dicembre 2017 la societa e amministrata da Supremo B.V. e Trianon Holding B.V. (KVK 17151352), che funge da management company. Nessuna persona fisica risulta pubblicamente come directeur. DA CONFERMARE presso KVK il nome del bestuurder della holding; non inventare un nominativo. Il legame con Trianon Holding e un veicolo di proprieta familiare, non un controllo di terzi.",
+  "gravita": "media",
+  "evidenza": "https://drimble.nl/bedrijf/oss/17814731/trianon-chocolatiers-bv.html - 'per 21-12-2017 zijn Supremo B.V. en Trianon Holding B.V. bestuurder'; https://companyinfo.nl/organisatieprofiel/activiteiten-van-financiele-holdings/trianon-holding-b-v-oss-17151352-000018705359",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "RIS Rubber N.V.",
+  "campo": "referente",
+  "problema": "Campo referente/ruolo vuoto benche il vertice sia pubblico: W. (Wouter) Rietdijk, algemeen directeur/eigenaar, subentrato a Henk Rietdijk (algemeen directeur nel 2007). Azienda familiare.",
+  "gravita": "media",
+  "evidenza": "https://www.dnb.com/business-directory/company-profiles.ris_rubber_nv.d013a99cd92044b0abeaf033f700b9cb.html - 'W. Rietdijk, MD/Chief Operating Officer'; https://prisma-advies.nl/succes/ris-rubber/ - Wouter Rietdijk directeur van RIS; https://www.omroepflevoland.nl/nieuws/53273/chartbeat - Henk Rietdijk algemeen directeur (2007)",
+  "correzione_proposta": "W. (Wouter) Rietdijk - Algemeen directeur"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "RIS Rubber N.V.",
+  "campo": "email",
+  "problema": "L'email indicata e la casella nominativa di una sales manager (bwestmaas@risrubber.com), non un recapito aziendale generico; il sito espone una pagina contatti con modulo e centralino. Recapito personale a rischio obsolescenza in caso di turnover; da riconfermare sulla pagina contatti.",
+  "gravita": "bassa",
+  "evidenza": "https://www.risrubber.com/over-ris/ e https://www.risrubber.com/ - contatti aziendali, sede Pekstraat 7, 8211 AB Lelystad",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Rubber Design B.V.",
+  "campo": "filiera",
+  "problema": "La classificazione registrale della societa su Company.info/KVK 23044439 e 'activiteiten van ingenieurs en overig technisch ontwerp en advies' (ingegneria e progettazione), non fabbricazione di articoli in gomma. Da confermare se Rubber Design immetta effettivamente prodotti in gomma naturale sul mercato UE (operatore/trader EUDR) o svolga solo progettazione e calcolo con produzione affidata a terzi: nel secondo caso il perimetro EUDR andrebbe rivisto. Directeur M. Klijn dal 2020 confermato.",
+  "gravita": "media",
+  "evidenza": "https://companyinfo.nl/organisatieprofiel/activiteiten-van-ingenieurs-en-overig-technisch-ontwerp-en-advies/rubber-design-b-v-heerjansdam-23044439-000001084011 - SBI 'activiteiten van ingenieurs en overig technisch ontwerp en advies'; https://www.rubberdesign.nl/corporate-profile/organisation-2/",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Ruma Rubber B.V.",
+  "campo": "ruolo",
+  "problema": "Il ruolo 'Key principal / Directeur' e una formula da banca dati anglosassone: la carica corretta e algemeen directeur di Ruma Rubber B.V. (John van Haaren, che e anche CEO di Ruma Group). Va inoltre segnalato che Ruma Rubber fa parte di Ruma Group (holding del gruppo familiare, con sedi a Olkusz PL e Dubai): veicolo proprietario dei soci, non controllo di terzi. Il fatturato ~15 M$ resta un dato stimato D&B, non un bilancio depositato.",
+  "gravita": "bassa",
+  "evidenza": "https://hoogeveenschecourant.nl/zakelijk-nieuws/Ruma-Group-stelt-deuren-open-voor-publiek-We-zijn-de-Champions-League-in-de-wereld-van-rubber-29199540.html - 'John van Haaren, algemeen directeur van Ruma Rubber en CEO van Ruma Group'; https://www.dnb.com/business-directory/company-profiles.ruma_rubber_bv.8b91dcdabf64a6f6e9fbc7005f6b7b30.html",
+  "correzione_proposta": "John (Johannes C.) van Haaren - Algemeen directeur (CEO Ruma Group)"
+ }
+]

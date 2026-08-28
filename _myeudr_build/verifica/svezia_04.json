@@ -1,0 +1,155 @@
+[
+ {
+  "foglio": "Svezia",
+  "denominazione": "Econopack Aktiebolag",
+  "campo": "dimensione",
+  "problema": "Controllo di terzi sottodimensionato: la capogruppo dichiarata (S-Pack AB) e' a sua volta controllata da Lameja Invest AB; il gruppo S-Pack (famiglia Lindgren) conta 8 societa', 100 addetti e 930,0 MSEK di fatturato. Econopack e' una delle tre controllate operative (con aPak AB e Crispo Paper AB): la decisione di compliance EUDR si prende a livello di gruppo, non della singola societa'.",
+  "gravita": "media",
+  "evidenza": "https://www.allabolag.se/foretag/s-pack-ab/m%C3%B6lndal/kontorstj%C3%A4nster/2K47B5VI63II9 - 'S-Pack AB is the parent company of Econopack Aktiebolag... S-Pack AB's parent company is Lameja Invest AB, koncern parent of a group of 8 companies... 100 employees, 930,0 MSEK'; https://news.cision.com/se/apak/r/evelina-lindgren-ny-koncernchef-i-familjeagda-forpackningskoncernen-s-pack,c3947413",
+  "correzione_proposta": "Capogruppo operativa S-Pack AB (aPak AB, Crispo Paper AB, Econopack AB); capogruppo ultima Lameja Invest AB; gruppo 8 societa', 100 dip., 930 MSEK. Interlocutore compliance da valutare a livello S-Pack."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Econopack Aktiebolag",
+  "campo": "filiera",
+  "problema": "Incoerenza di classificazione, non errore di perimetro: allabolag registra SNI 46860 'partihandel med andra insatsvaror' (commercio all'ingrosso) mentre l'oggetto sociale e il sito indicano 'tillverkning och tryckning av emballage- och utstallningsmaterial samt handel' (produzione e stampa di imballaggi, oltre al commercio). Con 9 dipendenti su 127,6 MSEK il peso della componente commerciale resta alto: da verificare, ai fini EUDR, se l'azienda sia operatore (immissione/import) o solo trader a valle.",
+  "gravita": "bassa",
+  "evidenza": "https://www.allabolag.se/5562629211/econopack-aktiebolag - 'SNI-bransch: 46860 Partihandel med andra insatsvaror; 9 anstallda'; https://upplysningar.syna.se/foretag/5562629211/econopack-aktiebolag - 'tillverkning och tryckning av emballage- och utstallningsmaterial samt handel med emballage'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Jinnestål Etikett AB",
+  "campo": "dimensione",
+  "problema": "Il campo definisce l'azienda 'etichettificio indipendente' ma la societa' appartiene a un gruppo di 6 societa' con capogruppo Peter Klingberg Invest AB (veicolo di proprieta' dei soci, struttura familiare normale: non sposta la decisione di compliance, ma l'affermazione di indipendenza va corretta). Fatturato 68.020 KSEK confermato, conversione ~6,0 M€ corretta, ma in calo del 10% sul 2023 - dato commerciale non segnalato.",
+  "gravita": "bassa",
+  "evidenza": "https://www.bolagsfakta.se/5566543418-Jinnestal_Etikett_AB - 'Revenue: 68 020 KSEK with a 10% decrease from 2023 to 2024'; 'part of a group with 6 companies, Peter Klingberg Invest AB as the parent company'",
+  "correzione_proposta": "Gruppo di 6 societa', capogruppo (holding dei soci) Peter Klingberg Invest AB. Fatturato 68.020 KSEK (~6,0 M€) es. 2024, -10% sul 2023."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Klippans Bruk AB",
+  "campo": "dimensione",
+  "problema": "Non e' indicata la capogruppo: allabolag/merinfo riportano moderbolag Sundh Center AB (holding della famiglia Sundh, il cui esponente Stefan Uno Sundh e' gia' citato come presidente). Holding di proprieta', non controllo di terzi: non invalida il lead. Fatturato 264.323 KSEK (~23,4 M€) es. 2024 e VD Jan Mauritzson (dal 1/11/2021) confermati.",
+  "gravita": "bassa",
+  "evidenza": "https://www.merinfo.se/foretag/Klippans-Bruk-AB-5565303228/2k1frgc-f5r8/styrelse-koncern - 'Parent company: Sundh Center AB'; https://klippansbruk.se/jan-mauritzson-new-ceo-at-klippan-bruk-ab/",
+  "correzione_proposta": "Aggiungere: capogruppo Sundh Center AB (holding di proprieta' della famiglia Sundh)."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Lenanders Grafiska AB",
+  "campo": "dimensione",
+  "problema": "Org.nr ERRATO: 556323-6776 non e' di Lenanders Grafiska AB ma di Scandinavian Print Group Sweden AB (Skarpnack), cioe' della capogruppo. Il numero identificativo del lead punta a un'altra societa'.",
+  "gravita": "alta",
+  "evidenza": "https://www.allabolag.se/foretag/scandinavian-print-group-sweden-ab/skarpn%C3%A4ck/tryckerier/2K07GYWI5YI3L - 'Scandinavian Print Group Sweden AB - Org.nr 556323-6776 - Skarpnack'",
+  "correzione_proposta": "Rimuovere l'org.nr 556323-6776 (appartiene a Scandinavian Print Group Sweden AB); org.nr di Lenanders Grafiska AB DA CONFERMARE su allabolag."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Lenanders Grafiska AB",
+  "campo": "dimensione",
+  "problema": "Rapporto di gruppo sottodimensionato: non e' 'collegata' ma controllata al 100% dal gruppo danese Scandinavian Print Group, che l'ha rilevata con effetto 1 settembre 2021 (quarta tipografia svedese acquisita dal gruppo, insieme a EO Grafiska, E-Print, Ostertalje Tryckeri, Lasertryck.se). La decisione di compliance EUDR si prende presso la capogruppo danese.",
+  "gravita": "media",
+  "evidenza": "https://grafkom.io/2021/08/30/scandinavian-print-group-acquires-its-fourth-swedish-print-house/ ; https://signprint.se/2021/07/08/spg-gor-nytt-forvarv-for-att-vaxa-i-sverige/ - 'Scandinavian Print Group tog over som ny agare fran 1 september 2021'",
+  "correzione_proposta": "Controllata (100%) di Scandinavian Print Group (DK) dal 1/9/2021; capogruppo di riferimento per la compliance: Scandinavian Print Group."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Lenanders Grafiska AB",
+  "campo": "referente",
+  "problema": "Referente e ruolo vuoti: il lead non ha un interlocutore. Il VD storico Svante Oledal e' andato in pensione al momento dell'acquisizione 2021; i nomi citati nel campo dimensione (Henrik Corvenius Frydendahl, Esben Mols Kabell) sono amministratori della capogruppo danese, non il vertice locale. VD attuale DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://www.branschkoll.se/de-koper-koper-lenanders-grafiska/ - 'Svante Oledal gick i pension i samband med affaren'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Lessebo Paper AB",
+  "campo": "dimensione",
+  "problema": "Il campo definisce la societa' 'cartiera indipendente' pur dichiarando nella stessa riga la capogruppo Lessebo Finance AB (gruppo di 3 societa'): l'affermazione di indipendenza va rimossa (cfr. casi Tarnsjo Garveri e Billes Tryckeri). Inoltre non e' segnalato il calo di fatturato del -10,7% nel 2024 e l'utile ridotto a 826 KSEK su 376 MSEK: elementi commercialmente rilevanti.",
+  "gravita": "media",
+  "evidenza": "https://www.bolagsfakta.se/5569551616-Lessebo_Paper_AB - '91 employees, result of 826 KSEK with a turnover of 376 018 KSEK in 2024, turnover growth of -10,7%'; https://www.allabolag.se/5569551616/koncern - 'moderbolag Lessebo Finance AB, koncern om 3 bolag'",
+  "correzione_proposta": "Fatturato 376.018 KSEK (~33,3 M€) es. 2024, -10,7% sul 2023, utile 826 KSEK; controllata di Lessebo Finance AB (gruppo di 3 societa'). VD Jens Olsson e presidente Karl Goran Johansson confermati."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Norbag AB",
+  "campo": "dimensione",
+  "problema": "Controllo di terzi (non holding dei soci): Norbag e' stata acquisita dal suo principale cliente, il gruppo Tingstad (AB Tingstad Papper / Tingstad Group AB), capogruppo ultima Danti Invest AB, gruppo di 18 societa'. Il dato e' dichiarato correttamente nel campo, ma la decisione di compliance EUDR si prende presso Tingstad Group: il lead va trattato come contatto di stabilimento, non come decisore.",
+  "gravita": "media",
+  "evidenza": "https://packnews.se/storsta-kunden-koper-upp-pastillverkaren-norbag-ab/ - 'Storsta kunden koper upp pastillverkaren Norbag AB'; https://www.allabolag.se/organisation/norbag-ab/t%C3%B6cksfors/pappersvaror/2K26QK6I5YG1W - 'moderbolag Tingstad Group AB'",
+  "correzione_proposta": "Segnalare esplicitamente che il decisore compliance e' Tingstad Group AB (Goteborg). Fatturato 357.159 KSEK (~31,6 M€) es. 2024 (+13,1%), 121 dip., VD Torbjorn Rodhe: confermati."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Pappersgrossisten i Jönköping Aktiebolag",
+  "campo": "filiera",
+  "problema": "Perimetro EUDR: si tratta di un grossista (partihandel med forpackningar och pappersvaror), 14 dipendenti su 80,7 MSEK, che rivende carta/imballaggi gia' immessi sul mercato UE. Come nei casi Hausberger (DE), Dackteam e Puratos Sweden (SE), un puro rivenditore a valle non e' 'operatore' EUDR e ha obblighi solo da trader non-PMI: il valore commerciale del lead va declassato salvo prova di import diretto da paesi terzi.",
+  "gravita": "alta",
+  "evidenza": "https://www.bolagsfakta.se/5563231132-Pappersgrossisten_i_Jonkoping_Aktiebolag - 'verksamhet: partihandel huvudsakligen med forpackningar och pappersvaror'; 14 anstallda, omsattning 80 655 KSEK",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Pappersgrossisten i Jönköping Aktiebolag",
+  "campo": "dimensione",
+  "problema": "Calo di fatturato non segnalato: -12,3% dal 2023 al 2024 (80.655 KSEK, utile 2.623 KSEK). Conversione ~7,1 M€ corretta; VD Jan Olof Helge Larsson e capogruppo LOLAB Forvaltnings AB (holding dei soci, presidente Daniel Larsson) confermati.",
+  "gravita": "bassa",
+  "evidenza": "https://www.bolagsfakta.se/5563231132-Pappersgrossisten_i_Jonkoping_Aktiebolag - 'Revenue 80 655 KSEK... declined by 12,3% compared to the previous year'",
+  "correzione_proposta": "Fatturato 80.655 KSEK (~7,1 M€) es. 2024, -12,3% sul 2023."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "TMG Tabergs AB",
+  "campo": "dimensione",
+  "problema": "Dato obsoleto: il campo riporta il fatturato dell'esercizio 2023 (101.130 KSEK). Il bilancio 2024, gia' pubblicato, indica 95.761 KSEK (~8,5 M€), -5% sul 2023. Il lead resta sotto il target ideale e in contrazione.",
+  "gravita": "media",
+  "evidenza": "https://krafman.se/tmg-tabergs-ab/5562884113/sammanfattning - 'har 42 anstallda och omsattning 95 761 tkr 2024'; https://www.allabolag.se/foretag/tmg-tabergs-ab/taberg/tryckerier/2JZZWUPI5YI3L - 'omsattning 95,8 MSEK 2024, -5%'",
+  "correzione_proposta": "Fatturato 95.761 KSEK (~8,5 M€) es. 2024, -5% sul 2023, 42 dipendenti."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Johan & Nyström Kafferostare & Tehandlare AB",
+  "campo": "dimensione",
+  "problema": "Controllo di terzi: la societa' e' controllata da EH Group AB (Espresso House) dal 2016 - dato dichiarato correttamente - ma la catena di controllo risale a Espresso House Group, a sua volta del gruppo JAB Holding: la decisione di compliance EUDR (e la due diligence sul caffe' verde) si prende a livello di gruppo, non a Skogas. Il lead va trattato come contatto operativo. Confermati: 196.802 KSEK (~17,4 M€) es. 2024, -2,9%, 54 dipendenti, VD Johan Erhard Moren, presidente Thomas Carr Kelly.",
+  "gravita": "media",
+  "evidenza": "https://www.bolagsfakta.se/5566579446-Johan_&_Nystrom_Kafferostare_&_Tehandlare_AB - 'sedan 2016 agd av Espresso House... moderbolag EH Group AB'; 'result 9 439 KSEK, omsattning 196 802 KSEK 2024, -2,9%'",
+  "correzione_proposta": "Precisare la catena di controllo: EH Group AB / Espresso House Group (gruppo JAB) come decisore compliance."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Kaffekompaniet Din Pauspartner AB",
+  "campo": "denominazione",
+  "problema": "AZIENDA CESSATA: la societa' (org.nr 556317-9554) e' stata sciolta per fusione il 13 maggio 2024, incorporata nel gruppo belga Miko (attivita' di Goteborg trasferite a Miko Sweden AB). Il lead non e' piu' contattabile come entita' autonoma: va rimosso o sostituito con Miko Sweden AB. Si aggiunga che il fatturato riportato e' dell'esercizio 2022 (dato di 3 anni fa) e che l'attivita' - office coffee service, vendita e assistenza macchine - e' comunque quella di un distributore a valle, non di un operatore che immette caffe' sul mercato UE.",
+  "gravita": "alta",
+  "evidenza": "https://krafman.se/kaffekompaniet-din-pauspartner-ab/5563179554/sammanfattning - 'upplost genom fusion 2024-05-13'; https://www.mynewsdesk.com/se/imap-sverige/pressreleases/imap-raadgivare-daa-belgiska-miko-foervaervar-kaffekompaniet-din-pauspartner-ab-850741",
+  "correzione_proposta": "Rimuovere il record (societa' estinta per fusione 13/05/2024). Eventuale successore: Miko Sweden AB, org.nr 556133-1637 - controllata di Miko Koffie NV (BE), decisore compliance in Belgio."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Lindvalls Kaffe Aktiebolag",
+  "campo": "dimensione",
+  "problema": "Da integrare: nonostante il fatturato in crescita (192,6 MSEK nel 2024), il risultato operativo e' passato in perdita per l'aumento del costo del caffe' verde, con risultato finale prossimo allo zero; i dipendenti sono 20 (non 19). Elemento commercialmente rilevante insieme al gia' segnalato obbligo di lasciare l'immobile di Uppsala entro il 2026.",
+  "gravita": "bassa",
+  "evidenza": "https://veckomagasinet.com/vad-har-hant-med-lindvalls-kaffe-senaste-tiden/ - 'rorelseresultatet gick fran vinst till forlust... slutresultatet nara noll'; https://www.allabolag.se/5560495284/lindvalls-kaffe-aktiebolag - '20 anstallda'",
+  "correzione_proposta": "Fatturato 192,6 MSEK (~17,0 M€) 2024, 20 dipendenti, risultato operativo in perdita; VD Ulf Eric Lindvall confermato."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Lykke Coffee Farms AB",
+  "campo": "referente",
+  "problema": "Referente e ruolo vuoti: il lead non ha interlocutore. Nel registro non risulta un VD nominato; la carica di vertice e' il presidente/fondatore Johan Wellander (ordforande & grundare), con Pontus Wretman come COO. Da valutare come referente in assenza di VD.",
+  "gravita": "media",
+  "evidenza": "https://www.allabolag.se/foretag/lykke-coffee-farms-ab/farsta/jordbruk/2K2TVQFI63IHJ - 'Johan Wellander ordforande och styrelseledamot'; https://www.linkedin.com/in/johan-wellander-55046745/ - 'Ordforande & Grundare - LYKKE KAFFEGARDAR'",
+  "correzione_proposta": "Johan Wellander - Ordforande/grundare (nessun VD registrato); in alternativa Pontus Wretman, COO."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Lykke Coffee Farms AB",
+  "campo": "email",
+  "problema": "Email 'oj@lykkegardar.se' non ritrovata letteralmente in alcuna fonte pubblica (sito, pagine contatti, elenchi). Le pagine di contatto del sito espongono un form e l'indirizzo del locale (nytorget@lykkegardar.se). DA CONFERMARE: non si propone la cancellazione, ma l'indirizzo va riscontrato prima dell'uso.",
+  "gravita": "media",
+  "evidenza": "https://www.lykkegardar.se/pages/contactform (solo form di contatto); https://www.lusha.com/business/cde8706307295140/ - 'nytorget@lykkegardar.se'",
+  "correzione_proposta": ""
+ }
+]
