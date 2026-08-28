@@ -517,9 +517,20 @@ nel report**, non toccato nei fogli.
     to linseed (around 100.000 ton annually)»*, per vernici, inchiostri, linoleum e trattamento del
     legno. Il gruppo Vandeputte è un riferimento mondiale del **lino**, che non è Allegato I.
 
-**In totale 63 correzioni applicate**, di cui 7 rimozioni. Il censimento passa da **742 a 735
-aziende** (Danimarca 89→88, Olanda 100→99, Belgio 95→92, Austria 93→91); l'ordine dei fogli è
+  - **Helmut Sachers Kaffee GmbH** (Austria) — **in fallimento**: Konkursverfahren aperto il
+    09/10.07.2026 al LG Wiener Neustadt, passivo ~1,4 M€, 23 dipendenti, curatore nominato
+    (registri ufficiali AKV e KSV). È un fallimento, non un risanamento. Precedente diretto:
+    Alexander Schärf & Söhne, anch'essa torrefazione austriaca esclusa per insolvenza.
+
+**In totale 65 correzioni applicate**, di cui 8 rimozioni. Il censimento passa da **742 a 734
+aziende** (Danimarca 89→88, Olanda 100→99, Belgio 95→92, Austria 93→90); l'ordine dei fogli è
 ripristinato.
+
+Una correzione di **commodity** invece che di rimozione: **Repro NV** era censita sotto «Olio di
+palma», ma il Group Vandamme non raffina palma — è leader europeo dell'olio di **mais** e produce
+girasole alto oleico e **soia non-OGM**. La soia *è* Allegato I, quindi il lead resta valido: è la
+filiera a essere sbagliata, riclassificata in `Mangimi/Soia`. È il caso opposto a Vandeputte, dove
+il perimetro cadeva del tutto.
 
 ⚠️ **Nota sul criterio di rimozione.** Ho tolto una riga **solo** quando ricadeva in una delle
 categorie che il mandato autorizza a correggere (filiere fuori Allegato I, aziende cessate) **e**

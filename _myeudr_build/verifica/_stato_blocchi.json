@@ -103,5 +103,13 @@
  "italia_03": {
   "stato": "completo",
   "verificati": 19
+ },
+ "austria_04": {
+  "stato": "completo",
+  "verificati": 19
+ },
+ "belgio_05": {
+  "stato": "completo",
+  "verificati": 19
  }
 }

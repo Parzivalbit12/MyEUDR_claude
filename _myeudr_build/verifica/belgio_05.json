@@ -70,5 +70,239 @@
   "gravita": "media",
   "evidenza": "https://www.groupvandamme.com/ e https://derijkstebelgen.be/vermogende/familie-vandamme — «Repro verzorgt de raffinage en verpakking van plantaardige oliën»; il gruppo Vandamme nasce nel 1903 da un mulino per olio a Zulte",
   "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Voeders Debaillie NV",
+  "campo": "dimensione",
+  "problema": "Fatturato confermato (11.114.628 EUR) ma manca il dato di organico e l'anno del deposito: il bilancio NBB piu' recente e' stato depositato l'08-07-2025 e riporta 26,8 FTE. Con 26,8 FTE su 11,1 M€ e' l'unica delle quattro mangimistiche del blocco con un rapporto fatturato/addetti normale.",
+  "gravita": "bassa",
+  "evidenza": "https://trendstop.knack.be/nl/detail/405174839/voeders-debaillie.aspx — «omzet 11.114.628 euro, 71e in de sector landbouwgrondstoffen en veevoeders; 26,8 VTE; laatste jaarrekening neergelegd op 08-07-2025»",
+  "correzione_proposta": "Fatturato 11.114.628 EUR e 26,8 FTE (bilancio NBB depositato 08-07-2025); n. impresa BE 0405.174.839"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Voeders Mellaerts NV",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti mentre il vertice e' pubblicamente identificabile: Dirk Mellaerts e' bestuurder della NV (entrato in azienda nel 1978 dopo il servizio militare, subentrato al fondatore Alfons Mellaerts); risulta anche Bart Webers come vaste vertegenwoordiger. Da riportare la forma belga corretta (gedelegeerd bestuurder / bestuurder).",
+  "gravita": "media",
+  "evidenza": "https://voedersmellaerts.eu/nl/about-us/historique/ e https://www.staatsbladmonitor.be/bedrijfsfiche.html?ondernemingsnummer=0455669079 — «Dirk Mellaerts, bestuurder; Bart Webers, vaste vertegenwoordiger»; «na zijn legerdienst in 1978 kwam Dirk Mellaerts in het familiebedrijf»",
+  "correzione_proposta": "Dirk Mellaerts — Gedelegeerd bestuurder (DA CONFERMARE la qualifica esatta sul deposito bestuurders NBB/KBO)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Voeders Scherrens NV",
+  "campo": "dimensione",
+  "problema": "Fatturato confermato (36.374.114 EUR) ma manca l'avvertenza sulla taglia, che qui e' il caso piu' estremo del blocco mangimi: solo 9,7 FTE per 36,4 M€ di ricavi. Il foglio riporta l'avvertenza per Baert e Mellaerts ma non per Scherrens: incoerenza interna.",
+  "gravita": "bassa",
+  "evidenza": "https://trendstop.knack.be/nl/detail/421626732/scherrens-voeders.aspx — «omzet 36.374.114 euro, 42e in de sector landbouwgrondstoffen en veevoeders (excl. zaden); 9,7 VTE»",
+  "correzione_proposta": "Fatturato 36.374.114 EUR; 9,7 FTE — taglia gonfiata dal costo materia prima; n. impresa BE 0421.626.732"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Voeders Scherrens NV",
+  "campo": "filiera",
+  "problema": "PERIMETRO EUDR CONFERMATO (verifica specifica richiesta sulla filiera mangimi): l'azienda impiega esplicitamente soia tostata (getoaste sojabonen) tra le materie prime dei mangimi su misura, quindi immette soia — commodity dell'Allegato I — sul mercato UE. Non e' un caso da scartare come i lavoratori di solo colza/lino/girasole.",
+  "gravita": "bassa",
+  "evidenza": "https://www.scherrensvoeders.be/ — «hoogwaardige grondstoffen zoals getoaste sojabonen en vetten (kokosolie, zalmolie)»",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Baeten & Co NV",
+  "campo": "filiera",
+  "problema": "PERIMETRO EUDR CONFERMATO ma descrizione incompleta (verifica specifica sulle tre raffinerie di oli). Diversamente da Vandeputte Oleochemicals (solo lino, rimossa), Baeten raffina davvero olio di palma: combina grassi animali con grassi vegetali «palm oil, corn oil, coconut oil». In piu' e' specializzata in grasso bovino e suino (rundvet, ossenvet, premier jus): il sego bovino e' esso stesso in Allegato I sotto la commodity bovini (HS 1502). Doppia esposizione EUDR palma + bovini, oggi non evidenziata nel foglio.",
+  "gravita": "bassa",
+  "evidenza": "https://baetennv.be/eng/our-products e http://www.baetennv.be/nl/info/locatie/ — «Baeten & Co is specialised in beef and pork fat… They combine their animal fats with fats derived from plants (palm oil, corn oil, coconut oil etc.)»; «raffinage, vetten, olien, rundvet, ossenvet, premier jus, reuzel»",
+  "correzione_proposta": "Olio di palma + Bovini — raffinazione di grassi animali (sego bovino/suino) e oli vegetali (palma, cocco, mais) per uso alimentare: doppia esposizione EUDR"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Baeten & Co NV",
+  "campo": "referente",
+  "problema": "Referente, ruolo e LinkedIn assenti: l'unico canale e' info@baetennv.be. Le ricerche pubbliche non restituiscono il gedelegeerd bestuurder attuale della NV (le fonti gratuite non espongono i bestuurders). DA CONFERMARE sul deposito bestuurders NBB/KBO. Il fatturato 42.810.588 EUR e i 13,7 FTE con deposito 15-07-2025 risultano invece esatti.",
+  "gravita": "media",
+  "evidenza": "https://trendstop.knack.be/nl/detail/447081908/baeten-co.aspx — «omzet 42.810.588 euro, 15e in de sector olien en vetten; 13,7 VTE; laatste jaarrekening neergelegd op 15-07-2025»; nessun bestuurder pubblicato",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Ameloot BV",
+  "campo": "referente",
+  "problema": "Referente, ruolo e LinkedIn assenti. L'e-mail petra@ameloot.org e' invece confermata alla lettera su fonte pubblica. Come vertice emerge Maxime Ameloot indicato come «eigenaar» di Omer Ameloot en zonen, ma solo su aggregatore di contatti non affidabile: DA CONFERMARE su fonte primaria. Da segnalare inoltre che il fatturato di 49.298.205 EUR corrisponde a 33,6 FTE.",
+  "gravita": "media",
+  "evidenza": "https://www.harelbeke.be/bedrijvengids/omer-ameloot-en-zonen — «petra@ameloot.org, 056 41 17 53, Spoorwegstraat 61a, 8530 Harelbeke»; https://trendstop.knack.be/nl/detail/413029562/ameloot.aspx — «omzet 49.298.205 euro, 22e in de sector vleeswaren handel; 33,6 VTE»",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Dierickx NV",
+  "campo": "referente",
+  "problema": "REFERENTE ATTRIBUITO ALLA SOCIETA' SBAGLIATA. «Cis van den Broeck» non e' lo zaakvoerder di Dierickx NV (BE 0422.204.673) ma il titolare di un'altra impresa di carne, Vleeshandel Cis & Seppe Van den Broeck, fondata nel 1972 da Emil van den Broeck e guidata da Cis van den Broeck dal 1994, con sito proprio cisvandenbroeck.eu. Inoltre Dierickx e' una NV (bestuurder / gedelegeerd bestuurder), non una BV: anche il ruolo «zaakvoerder» sarebbe incoerente. Nessun bestuurder di Dierickx NV emerge dalle fonti gratuite: DA CONFERMARE su NBB/KBO.",
+  "gravita": "alta",
+  "evidenza": "https://www.cisvandenbroeck.eu/nl e https://www.flandersmeat.com/nl/supplier/vleeshandel-cis-seppe-van-den-broeck — «familiebedrijf opgericht in 1972 door Emil van den Broeck, met Cis van den Broeck als zaakvoerder sinds 1994»; https://trendstop.knack.be/nl/detail/422204673/dierickx.aspx — Dierickx NV, Zele, omzet 40.843.827 euro, senza alcun riferimento a van den Broeck",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Euro Meat Group NV",
+  "campo": "dimensione",
+  "problema": "Controllo di terzi: la societa' non e' indipendente, e' una delle unita' della holding Cadus, che gestisce quattro macelli bovini (Moeskroen, Rochefort, Zottegem, Liegi) e copre circa un quarto della macellazione bovina belga (2.750 bovini/settimana per conto terzi). Il legame e' gia' dichiarato nel foglio, quindi non e' un dato falso, ma la decisione di compliance EUDR si colloca a livello Cadus. ATTENZIONE: la stessa capogruppo Cadus controlla anche Slachthuis Velzeke, altro lead dello stesso blocco (riga 94): i due record sono lo stesso decisore.",
+  "gravita": "media",
+  "evidenza": "https://www.boerderij.nl/vion-draagt-slachtactiviteiten-in-belgisch-zottegem-over-aan-cadus — «Vion draagt de slachtactiviteiten in Zottegem per 1 januari 2025 over aan Cadus, aandeelhouder van Euro Meat Group»; «de Cadus-holding met vier slachthuizen — Moeskroen, Rochefort, Zottegem en Luik — goed voor circa een kwart van de Belgische runderslachtingen»",
+  "correzione_proposta": "Segnalare esplicitamente: «unita' della holding Cadus (4 macelli BE, ~25% delle macellazioni bovine belghe) — stesso decisore di Slachthuis Velzeke»"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Euro Meat Group NV",
+  "campo": "dimensione",
+  "problema": "Numero d'impresa mancante (il record dichiara «BE non verificato su fonte pubblica»): risulta invece pubblicato, BE 0832.292.464. Il fatturato di ca. 11 M€ e' ripreso da un articolo di stampa (VILT) senza anno di riferimento e non da un bilancio NBB: e' un dato non databile, mentre il sito aziendale indica una capacita' di ca. 1.600 bovini/settimana.",
+  "gravita": "media",
+  "evidenza": "https://exporteursdatabank.vlam.be/nl/exporter/809/euro-meat-group e https://www.flandersmeat.com/nl/supplier/98f7237b-8431-4236-a48c-608671d2f679 — «BTW-NR. BE 0832.292.464; Rue de l'Abattoir 46, B-7700 Mouscron; EU-nummer 129»; http://www.euromeatgroup.be/nl/bedrijf-diensten/ — «ca. 1.600 runderen per week»",
+  "correzione_proposta": "n. impresa BE 0832.292.464; indicare anno del fatturato o sostituirlo con il dato di bilancio NBB"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Jos Leemput BV",
+  "campo": "ruolo",
+  "problema": "Ruolo non conforme alla forma societaria belga: il record scrive «Titolare, responsabile acquisto e selezione bestiame (sito aziendale)», che e' una descrizione di mansione tratta dal sito, non una carica. Per una BV la carica corretta e' zaakvoerder (o gedelegeerd bestuurder se organo collegiale). Il fatturato 44.954.796 EUR e' confermato dall'ultimo bilancio depositato.",
+  "gravita": "bassa",
+  "evidenza": "https://www.companyweb.be/en/0424110724/jos-leemput — «Jos Leemput (SRL) - Tienen (3300) - BE0424110724; total turnover 44.954.796,00 EUR»; https://www.leemput.be/nl/professionele-vleeshandel-volgens-de-familietraditie — «familiebedrijf, twee generaties in de vleeshandel»",
+  "correzione_proposta": "Zaakvoerder"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Jos Leemput BV",
+  "campo": "email",
+  "problema": "Email 'n.d.' e LinkedIn assente: il lead non ha un canale scritto diretto. Nessun indirizzo e-mail aziendale reperito alla lettera su fonte pubblica (il sito espone solo modulo di contatto e telefono). DA CONFERMARE — non proporre indirizzi dedotti.",
+  "gravita": "media",
+  "evidenza": "https://www.leemput.be/ e https://www.febev.be/nl/leden/376/jos-leemput — nessun indirizzo e-mail pubblicato; https://www.companyweb.be/en/0424110724/jos-leemput",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Slachthuis Swaegers NV",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti. Dalla stampa economica emerge Jan Swaegers, con la figlia Charlotte Swaegers, alla guida del gruppo familiare: nel 2024-2025 padre e figlia hanno rilevato il macello di Bastogne, ampliando il perimetro del gruppo oltre Hoogstraten. Il nome va confermato come bestuurder della NV 0436.764.571 prima di inserirlo. Fatturato 4.287.787 EUR confermato.",
+  "gravita": "media",
+  "evidenza": "https://derijkstebelgen.be/nieuws/vader-en-dochter-swaegers-nemen-slachthuis-van-bastogne-over — «Vader en dochter Swaegers nemen slachthuis van Bastogne over»; https://trendstop.knack.be/nl/detail/436764571/swaegers-slachthuis.aspx — «omzet 4.287.787 euro, 112e in de sector vleesindustrie»",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Slachthuis Swaegers NV",
+  "campo": "dimensione",
+  "problema": "Perimetro del gruppo incompleto: oltre al macello di Hoogstraten (70.000 bovini/anno, 22.000 t) la famiglia Swaegers ha rilevato il macello di Bastogne, quindi i volumi EUDR del decisore sono ancora superiori a quanto indicato. Resta valida l'osservazione che la singola entita' 0436.764.571 sta sotto i 5 M€ perche' fattura solo il servizio di macellazione.",
+  "gravita": "bassa",
+  "evidenza": "https://derijkstebelgen.be/nieuws/vader-en-dochter-swaegers-nemen-slachthuis-van-bastogne-over; https://www.swaegers.be/en — «own slaughterhouse with a capacity of 70.000 cattle per year… annual slaughter capacity 22.000 tons»",
+  "correzione_proposta": "Aggiungere: «il gruppo familiare ha rilevato anche il macello di Bastogne»"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Slachthuis Velzeke BV",
+  "campo": "dimensione",
+  "problema": "CONTROLLO DI TERZI NON DICHIARATO. Il record parla genericamente di «cambio di proprieta' nel 2025» senza nominare l'acquirente: in realta' Vion Food Group ha ceduto le attivita' di macellazione di Zottegem alla holding belga CADUS con effetto dal 1 gennaio 2025 (da cui la costituzione della BV 1018.071.121 il 30-12-2024). Slachthuis Velzeke non e' quindi una PMI indipendente ma il quarto macello del gruppo Cadus, lo stesso che controlla Euro Meat Group (riga 91 dello stesso foglio): due lead, un solo decisore di compliance.",
+  "gravita": "alta",
+  "evidenza": "https://www.vionfoodgroup.com/en/statement-slaughter-activities-zottegem e https://www.boerderij.nl/vion-draagt-slachtactiviteiten-in-belgisch-zottegem-over-aan-cadus — «Vion draagt de slachtactiviteiten in Zottegem per 1 januari 2025 over aan Cadus, aandeelhouder van Euro Meat Group»",
+  "correzione_proposta": "Indicare: «dal 01-01-2025 controllata dalla holding Cadus (rilevata da Vion Food Group) — stesso decisore di Euro Meat Group»"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Slachthuis Velzeke BV",
+  "campo": "sito",
+  "problema": "Azienda non contattabile per iscritto: sito 'n.d.', e-mail 'n.d.', LinkedIn assente. La verifica conferma che non esiste un sito web proprio di Slachthuis Velzeke: l'entita' compare solo su elenchi terzi (Febev, VLAM/Fresh from Flanders, Goudengids) con indirizzo Slachthuisstraat 1, 9620 Zottegem. L'unico canale praticabile e' quello della capogruppo Cadus / Euro Meat Group.",
+  "gravita": "alta",
+  "evidenza": "https://www.febev.be/nl/members/610/slachthuis-velzeke e https://www.freshfromflanders.com/nl/supplier/2f1d7ca8-93f3-459f-b319-ee0683442d55 e https://www.goudengids.be/bedrijf/Zottegem/L620145973/Slachthuis+Velzeke/ — indirizzo e telefono, nessun sito ne' e-mail",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Royale Lacroix SA",
+  "campo": "filiera",
+  "problema": "PERIMETRO EUDR CONFERMATO (verifica specifica sulle tre raffinerie di oli del blocco). A differenza di Vandeputte Oleochemicals (solo lino, rimossa) Royale Lacroix usa davvero olio di palma: e' membro RSPO e acquista palma certificata per margarine, grassi composti e oli destinati a industria alimentare, biscotteria, pasticceria e panificazione. Il record e' inoltre corretto su referente (Patrice Lacroix, administrateur delegue), e-mail (info@royalelacroix.be, confermata alla lettera) e sede (Avenue Theodule Gonda 4, 4400 Flemalle). Fatturato 49,3 M€ con 18,6 FTE: resta sotto i 50 M€, coerente con l'avvertenza gia' presente nel foglio.",
+  "gravita": "bassa",
+  "evidenza": "https://www.royalelacroix.com/?lang=en e https://unifa.be/fr/membres/royale-lacroix/ — «Royale Lacroix fait partie de la RSPO et achete de l'huile de palme certifiee RSPO»; «margarines pour la table et la cuisson… industrie alimentaire, biscuiterie, patisserie, boulangerie artisanale et industrielle»; https://www.pappers.be/fr/company/royale-lacroix-0404423583 — «Patrice LACROIX, administrateur delegue»",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Repro NV",
+  "campo": "filiera",
+  "problema": "COMMODITY SBAGLIATA, PERIMETRO SALVO (completa il rilievo DA CONFERMARE gia' aperto su questo record). Repro e' la raffineria del Group Vandamme a Deinze e il gruppo non raffina palma: e' leader europeo nella produzione e raffinazione di OLIO DI MAIS e produttore rilevante di olio di girasole alto oleico e di OLIO DI SOIA non-OGM. Mais e girasole sono fuori Allegato I, ma l'olio di soia e' commodity dell'Allegato I: il lead resta quindi dentro perimetro, ma va riclassificato da «Olio di palma» a «Soia». Nessuna evidenza di lavorazione del lino, quindi non e' il caso Vandeputte/Immobra.",
+  "gravita": "media",
+  "evidenza": "https://www.groupvandamme.com/en/about-us/facilities/ e https://www.groupvandamme.com/ — «Deinze accommodates a refinery for Group Vandamme»; «European market leader in the production and refining of corn oil and an important producer of high-oleic sunflower oil and GMO-free soya oil»",
+  "correzione_proposta": "Soia — raffinazione di oli vegetali alimentari (soia non-OGM, mais, girasole alto oleico)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Sopraco NV",
+  "campo": "dimensione",
+  "problema": "Dimensione non rappresentativa del decisore: gli 8.889.508 EUR e i 45,5 FTE sono della sola NV 0507.988.901, mentre il perimetro EUDR e' quello del gruppo Sopraco, che comprende un macello proprio, Norenca NV (carne bovina), Lornoy NV (vitello) e dal luglio 2017 Rompa Leder (pelle). Il foglio cita il legame con Rompa Leder ma non le altre societa' operative, per cui il lead appare come una micro-impresa da 8,9 M€ quando il volume trattato e' molto superiore.",
+  "gravita": "media",
+  "evidenza": "https://www.sopraco.eu/ , https://www.sopraco.eu/nl/rundvlees-norenca-nv , https://www.sopraco.eu/nl/kalfsvlees-lornoy-nv , https://www.sopraco.eu/nl/leder — «De groep Sopraco levert vlees op maat… rund, kalf, varken, geit, wild en gevogelte»; «In juli 2017 werd Rompa Leder deel van de groep Sopraco»; https://www.companyweb.be/en/0507988901/sopraco — «total turnover 8.889.508,00 EUR; 45,5 FTE»",
+  "correzione_proposta": "Precisare che la cifra e' della sola capofila Sopraco NV e che il gruppo comprende il macello proprio, Norenca NV (bovino), Lornoy NV (vitello) e Rompa Leder (pelle)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Sopraco NV",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti; il campo LinkedIn e' vuoto benche' la pagina aziendale esista (Sopraco Groep). Nessun gedelegeerd bestuurder della NV emerge dalle fonti gratuite: DA CONFERMARE su NBB/KBO. L'e-mail info@sopraco.eu e il sito sopraco.eu risultano invece corretti.",
+  "gravita": "media",
+  "evidenza": "https://be.linkedin.com/company/sopraco-nv — pagina «Sopraco Groep»; https://www.sopraco.eu/ — nessun nome di vertice pubblicato",
+  "correzione_proposta": "LinkedIn: https://be.linkedin.com/company/sopraco-nv ; referente DA CONFERMARE"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Van De Walle SRL",
+  "campo": "email",
+  "problema": "E-mail non confermata alla lettera. L'indirizzo riportato nel foglio (info@vdw-grossisteenviande.be) non compare in nessuna fonte pubblica: l'unico indirizzo pubblicato e' vdwgrossiste@skynet.be, nell'annuario ufficiale del comune di Les Bons Villers. Da segnalare inoltre che l'azienda usa due domini paralleli, vdw-grossisteenviande.be e vdw-grossisteenviande.com.",
+  "gravita": "media",
+  "evidenza": "https://www.les-bons-villers.be/annuaire/van-de-walle-sprl — «VAN DE WALLE SPRL, Rue de Gosselies 30, 6210 Wayaux — Tel. 071/88 51 57 — vdwgrossiste@skynet.be — BE 0893.625.564»",
+  "correzione_proposta": "vdwgrossiste@skynet.be"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Van De Walle SRL",
+  "campo": "sito",
+  "problema": "Verifica di contattabilita' richiesta dal controllo automatico: il sito ESISTE ed e' raggiungibile e indicizzato (vdw-grossisteenviande.be, con pagina contatti, piu' il gemello .com). Sede confermata a Rue de Gosselies 30, 6210 Wayaux (Les Bons Villers, Hainaut). L'azienda e' quindi contattabile; resta scoperto solo il referente, mai pubblicato.",
+  "gravita": "bassa",
+  "evidenza": "https://vdw-grossisteenviande.be/contact/contact.html e https://vdw-grossisteenviande.com/ — «Grossiste en viande de qualite en Belgique, viande belge a Wayaux»; https://www.europages.fr/VAN-DE-WALLE/BEL107615-00101.html",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Van De Walle SRL",
+  "campo": "dimensione",
+  "problema": "Dimensione tuttora non verificabile: la societa' deposita in schema abbreviato e nessuna fonte pubblica (Trends Top, Europages, annuario comunale) espone fatturato o organico. Non e' quindi possibile confermare che il lead rientri nella forbice 5-40 M€: date le dimensioni apparenti (grossista locale con clientela di macellerie, ristoranti e traiteur nella regione di Charleroi/Namur/Liegi) c'e' un rischio concreto che stia sotto la soglia minima. DA CONFERMARE sul bilancio NBB.",
+  "gravita": "media",
+  "evidenza": "https://trendstop.levif.be/fr/detail/893625564/van-de-walle.aspx e https://www.europages.fr/VAN-DE-WALLE/BEL107615-00101.html — nessun dato di fatturato o organico pubblicato; https://vdw-grossisteenviande.com/grossiste-en-viande/namur — raggio d'azione regionale",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Vleeshandel Vens NV",
+  "campo": "email",
+  "problema": "E-mail dichiarata 'n.d.' ma esistente e pubblicata: info@vleeshandelvens.be, sulla pagina contatti del sito aziendale e nell'annuario del comune di Lendelede. Il lead risulta quindi contattabile, contrariamente a quanto indicato.",
+  "gravita": "media",
+  "evidenza": "https://vleeshandelvens.be/contact/ e https://www.lendelede.be/companyguide/2143058216 — «info@vleeshandelvens.be — +32 51 32 19 59 — Burgemeester R. Vandemaeleplein 8, 8860 Lendelede»",
+  "correzione_proposta": "info@vleeshandelvens.be"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Vleeshandel Vens NV",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti mentre la conduzione familiare e' dichiarata sul sito: l'azienda, fondata nel 1975 dal nonno Vens, e' oggi guidata dal figlio Luc e dai nipoti Steven e Tom. I cognomi e la carica formale (bestuurder / gedelegeerd bestuurder, trattandosi di NV) non sono pero' pubblicati: DA CONFERMARE sul deposito bestuurders NBB/KBO prima di inserire il nome.",
+  "gravita": "media",
+  "evidenza": "https://vleeshandelvens.be/over-ons/ — «de gerenommeerde slagerij werd in 1975 opgericht door grootvader Vens… wordt gerund door zoon Luc en kleinzonen Steven en Tom»",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Vleeshandel Vens NV",
+  "campo": "filiera",
+  "problema": "Descrizione filiera parzialmente inesatta: il foglio la qualifica come «ingrosso e sezionamento», ma il modello e' in buona parte macelleria/vendita diretta — negozio proprio e cinque punti di ritiro (Lendelede, Kortrijk, Moeskroen, Ieper, Famiflora), oltre a piatti pronti e salumi. Il perimetro EUDR regge (acquisto, sezionamento e immissione di carne bovina di provenienza locale), ma la sede legale corretta e' Burgemeester R. Vandemaeleplein 8 e il posizionamento va riscritto; questo spiega anche perche' il fatturato non sia pubblicato e il margine lordo si fermi a 1,95 M€ con 32 FTE.",
+  "gravita": "bassa",
+  "evidenza": "https://vleeshandelvens.be/afhaalpunten/ e https://vleeshandelvens.be/winkel/ — «vijf afhaalpunten: Lendelede, Kortrijk, Moeskroen, Ieper of bij Famiflora»; https://www.handelsgids.be/lendelede/vleeshandel-vens-nv-/ — categoria «Supermarkten»",
+  "correzione_proposta": "Bovini/Carne — sezionamento e commercio di carne (macelleria con negozio proprio e punti di ritiro, oltre alla vendita all'ingrosso)"
  }
 ]

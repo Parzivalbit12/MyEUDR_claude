@@ -266,7 +266,7 @@
   "_row": 21
  },
  {
-  "denominazione": "Arko S.p.A.",
+  "denominazione": "Arko S.r.l.",
   "filiera": "Legno/Arredo — mobili/componenti d'arredo",
   "dimensione": "≈35,8M€ (2024) / 100-199 dip. (CompanyReports/Ufficiocamerale)",
   "referente": "",
@@ -1526,7 +1526,7 @@
   "_row": 16
  },
  {
-  "denominazione": "Paletten Meyer",
+  "denominazione": "Josef Meyer Palettenbau Inh. Julian Meyer (Paletten Meyer)",
   "filiera": "Legno/Arredo — Holzverpackung/Paletten/Exportkisten",
   "dimensione": "Umsatz/MA n.d.",
   "referente": "Julian Meyer",
@@ -4200,7 +4200,7 @@
   "_row": 26
  },
  {
-  "denominazione": "NPI (Nordic Panel Import)",
+  "denominazione": "NPI A/S (Nordic Panel Import)",
   "filiera": "Legno/Arredo — import pannelli a base legno",
   "dimensione": "9 dipendenti (dato dichiarato sul sito aziendale). Fatturato non pubblicato nelle fonti consultate: verosimilmente sotto o attorno alla soglia dei 5 M€, mantenuta per copertura in quanto importatore puro di pannelli a base legno da paesi extra-UE, cioè operatore EUDR in senso stretto ad alta priorità. Fondata nel settembre 2002 da Theis G. Larsen e Michael Schram; sede Helge Nielsens Alle 7, 1G, 8723 Løsning — STESSO INDIRIZZO di SOMMER-SAVEX A/S, possibile prossimità/legame tra le due realtà da verificare. Centralino +45 76 69 41 41, apertura feriali 7:00-17:00. ATTENZIONE: la ragione sociale esatta registrata al CVR (forma giuridica ApS/A/S) non è stata verificabile in questa sessione; verificato solo il numero CVR 37418730. I fondatori non risultano formalmente confermati come direttori in carica, quindi il campo referente è lasciato vuoto (nome del direttore da chiedere al primo contatto).",
   "referente": "",
@@ -4494,20 +4494,6 @@
   "_row": 47
  },
  {
-  "denominazione": "ODENSE SEGLMÆRKEFABRIK A/S",
-  "filiera": "Carta/Packaging — etichette",
-  "dimensione": "15 dipendenti (unità produttiva). CVR 17620487, Cikorievej 8, fondata 1964, settore papir og papirprodukter (sigilli/etichette in carta). SOTTO SOGLIA: dimensione ampiamente sotto i 5 M€ - lead piccolo, incluso per completezza della filiera etichette/carta.",
-  "referente": "",
-  "ruolo": "",
-  "linkedin": "",
-  "email": "um@segl.dk",
-  "sito": "http://www.segl.dk",
-  "sede": "Odense SØ (Syddanmark)",
-  "fonte": "https://www.proff.dk/firma/odense-seglm%C3%A6rkefabrik-as/odense-s%C3%B8/papir-og-papirprodukter/GKEKGVI0ZDH",
-  "_sheet": "Danimarca",
-  "_row": 48
- },
- {
   "denominazione": "SCANLUX PACKAGING A/S",
   "filiera": "Carta/Packaging — imballaggi",
   "dimensione": "28-38 dipendenti (fonti divergenti); bruttofortjeneste 22,0 mio DKK 2023 vs 19,4 mio DKK 2022 (~2,9 M€ di margine lordo). CVR 71051218, Kratbjerg 308, attività registrata come engroshandel/imballaggi. Capogruppo Kornelius II ApS. DA VERIFICARE: quota effettiva di imballaggi in carta/cartone rispetto ad altri materiali; fatturato non pubblicato.",
@@ -4519,7 +4505,7 @@
   "sede": "Fredensborg (Hovedstaden)",
   "fonte": "https://www.proff.dk/firma/scanlux-packaging-as/fredensborg/engroshandel-annet/16AVGYI10N6",
   "_sheet": "Danimarca",
-  "_row": 49
+  "_row": 48
  },
  {
   "denominazione": "SKJERN PAPER A/S (già Skjern Papirfabrik A/S)",
@@ -4533,7 +4519,7 @@
   "sede": "Skjern, Ringkøbing-Skjern (Midtjylland)",
   "fonte": "https://energiforskning.dk/medlemmer/skjern-papirfabrik-as",
   "_sheet": "Danimarca",
-  "_row": 50
+  "_row": 49
  },
  {
   "denominazione": "STIBO COMPLETE A/S (già Rosendahls A/S - Print Design Media)",
@@ -4547,7 +4533,7 @@
   "sede": "Esbjerg N (Syddanmark)",
   "fonte": "https://www.proff.dk/firma/rosendahls-as-print-design-media/esbjerg-n/trykeritjenester/GKF0WAI07QV/",
   "_sheet": "Danimarca",
-  "_row": 51
+  "_row": 50
  },
  {
   "denominazione": "STOK EMBALLAGE K/S",
@@ -4561,7 +4547,7 @@
   "sede": "Langeskov, Kerteminde (Syddanmark); stabilimento bølgepap a Middelfart",
   "fonte": "https://www.proff.dk/firma/stok-emballage-ks/langeskov/papir-og-papirprodukter/09S3DGI0ZDH",
   "_sheet": "Danimarca",
-  "_row": 52
+  "_row": 51
  },
  {
   "denominazione": "CAFÉU DENMARK ApS",
@@ -4575,7 +4561,7 @@
   "sede": "Esbjerg N (Storstrømsvej 42, 6715), Regione Syddanmark",
   "fonte": "https://www.proff.dk/firma/caf%C3%A9u-denmark-aps/esbjerg-n/kaffe-og-te-agentur-og-engros/GT4AIYI0Z8T",
   "_sheet": "Danimarca",
-  "_row": 53
+  "_row": 52
  },
  {
   "denominazione": "Copenhagen Coffee Lab ApS",
@@ -4589,7 +4575,7 @@
   "sede": "København SV (Bådehavnsgade 44F, 2450), Regione Hovedstaden",
   "fonte": "https://www.proff.dk/firma/copenhagen-coffee-lab-aps/k%C3%B8benhavn-sv/producenter/GXVBRXI016D",
   "_sheet": "Danimarca",
-  "_row": 54
+  "_row": 53
  },
  {
   "denominazione": "DANSK KAFFE ApS",
@@ -4603,7 +4589,7 @@
   "sede": "Odense C (Filosofgangen 9, 5000), Regione Syddanmark",
   "fonte": "https://proff.dk/firma/dansk-kaffe-aps/odense-c/kaffe-og-te-agentur-og-engros/0EXL1KI0Z8T",
   "_sheet": "Danimarca",
-  "_row": 55
+  "_row": 54
  },
  {
   "denominazione": "Estate Coffee Copenhagen A/S",
@@ -4617,7 +4603,7 @@
   "sede": "Haarby (Assens), Regione Syddanmark",
   "fonte": "https://www.proff.dk/roller/estate-coffee-copenhagen-as/haarby/producenter/GLOZ6AI016D/",
   "_sheet": "Danimarca",
-  "_row": 56
+  "_row": 55
  },
  {
   "denominazione": "I.M. FRELLSEN K/S (Frellsen Kaffe & Te / Frellsen Chokoladefabrik)",
@@ -4631,7 +4617,7 @@
   "sede": "Roskilde (Industrivej 14, 4000), Regione Sjælland",
   "fonte": "https://www.proff.dk/firma/i-m-frellsen-kaffe-te/roskilde/n%C3%A6rings-og-nydelsesmidler-produktion/GM5KIDI10JW",
   "_sheet": "Danimarca",
-  "_row": 57
+  "_row": 56
  },
  {
   "denominazione": "Just Coffee I/S",
@@ -4645,7 +4631,7 @@
   "sede": "Jyllinge (Roskilde), Regione Sjælland",
   "fonte": "https://www.justcoffee.dk/",
   "_sheet": "Danimarca",
-  "_row": 58
+  "_row": 57
  },
  {
   "denominazione": "Kontra A/S (KONTRA Coffee)",
@@ -4659,7 +4645,7 @@
   "sede": "Hvidovre (Jernholmen 45E, 2650) - punto vendita København Ø, Regione Hovedstaden",
   "fonte": "https://www.proff.dk/firma/kontra-as/hvidovre/kaffe-og-te-agentur-og-engros/H0B8BKI0Z8T",
   "_sheet": "Danimarca",
-  "_row": 59
+  "_row": 58
  },
  {
   "denominazione": "La Cabra Risteri ApS (gruppo La Cabra)",
@@ -4673,7 +4659,7 @@
   "sede": "Nordhavn, København (Århusgade 118X, 2150), Regione Hovedstaden",
   "fonte": "https://www.proff.dk/firma/la-cabra-risteri-aps/nordhavn/producenter/0Q08M0I016D",
   "_sheet": "Danimarca",
-  "_row": 60
+  "_row": 59
  },
  {
   "denominazione": "Nordic Coffee House ApS",
@@ -4687,7 +4673,7 @@
   "sede": "Kolding, Regione Syddanmark",
   "fonte": "https://www.proff.dk/firma/nordic-coffee-house-aps/kolding/kaffe-og-te-agentur-og-engros/GXLJKUI0Z8T",
   "_sheet": "Danimarca",
-  "_row": 61
+  "_row": 60
  },
  {
   "denominazione": "The Coffee Collective A/S",
@@ -4701,7 +4687,7 @@
   "sede": "Frederiksberg / København, Regione Hovedstaden",
   "fonte": "https://find-virksomhed.dk/firma/the-coffee-collective-a-s-30706595",
   "_sheet": "Danimarca",
-  "_row": 62
+  "_row": 61
  },
  {
   "denominazione": "AALBORG CHOKOLADEN ApS",
@@ -4715,7 +4701,7 @@
   "sede": "Aalborg Øst (Troensevej 4M, 9220), Regione Nordjylland",
   "fonte": "https://www.proff.dk/firma/aalborg-chokoladen-aps/aalborg-%C3%B8st/n%C3%A6rings-og-nydelsesmidler/GQUFGRI116S",
   "_sheet": "Danimarca",
-  "_row": 63
+  "_row": 62
  },
  {
   "denominazione": "COPENHAGEN CHOCOLATE FACTORY ApS",
@@ -4729,7 +4715,7 @@
   "sede": "Kastrup (Tårnby), Regione Hovedstaden",
   "fonte": "https://search.vainu.com/company/copenhagen-chocolate-factory-aps-omsaetning-og-noegletal/DK32761844/virksomhedsoplysninger",
   "_sheet": "Danimarca",
-  "_row": 64
+  "_row": 63
  },
  {
   "denominazione": "PETER BEIER CHOKOLADE A/S",
@@ -4743,7 +4729,7 @@
   "sede": "Helsingør (Ørsholtvej 35A, 3000), Regione Hovedstaden",
   "fonte": "https://www.proff.dk/firma/peter-beier-chokolade-as/helsing%C3%B8r/udleje/0FIIHJI01TD",
   "_sheet": "Danimarca",
-  "_row": 65
+  "_row": 64
  },
  {
   "denominazione": "PR CHOKOLADE A/S",
@@ -4757,7 +4743,7 @@
   "sede": "Kolding (Kokbjerg 29A, 6000), Regione Syddanmark",
   "fonte": "https://www.proff.dk/firma/pr-chokolade-as/kolding/producenter/GLUG9CI016D",
   "_sheet": "Danimarca",
-  "_row": 66
+  "_row": 65
  },
  {
   "denominazione": "SPANGSBERG CHOKOLADE A/S / Spangsberg Chokoladefabrik A/S",
@@ -4771,7 +4757,7 @@
   "sede": "Taastrup (Taastrupgårdsvej 16-22, 2630), Regione Hovedstaden - unità anche a Esbjerg N",
   "fonte": "https://www.proff.dk/firma/spangsberg-chokoladefabrik-as/taastrup/producenter/GSWDT2I016D",
   "_sheet": "Danimarca",
-  "_row": 67
+  "_row": 66
  },
  {
   "denominazione": "Summerbird A/S",
@@ -4785,7 +4771,7 @@
   "sede": "Assens (Fyn), Regione Syddanmark",
   "fonte": "https://www.proff.dk/firma/summerbird-as/assens/producenter/GN6UXHI016D",
   "_sheet": "Danimarca",
-  "_row": 68
+  "_row": 67
  },
  {
   "denominazione": "Xocolatl Christiansfeld ApS",
@@ -4799,7 +4785,7 @@
   "sede": "Haderslev (Storegade 11A, 6100) - produzione a Hejls, Regione Syddanmark",
   "fonte": "https://www.proff.dk/firma/xocolatl-christiansfeld-aps/haderslev/producenter/0KIK93I016D",
   "_sheet": "Danimarca",
-  "_row": 69
+  "_row": 68
  },
  {
   "denominazione": "AVK GUMMI A/S",
@@ -4813,7 +4799,7 @@
   "sede": "Låsby (area Galten/Skanderborg), Region Midtjylland",
   "fonte": "https://www.proff.dk/firma/avk-gummi-as/l%C3%A5sby/gummi-og-plastprodukter/GKL15SI10NU",
   "_sheet": "Danimarca",
-  "_row": 70
+  "_row": 69
  },
  {
   "denominazione": "DANSK GUMMI INDUSTRI A/S",
@@ -4827,7 +4813,7 @@
   "sede": "Kolding (Profilvej 18, 6000), Region Syddanmark",
   "fonte": "https://www.proff.dk/firma/dansk-gummi-industri-as/kolding/gummi-og-plastprodukter/GUH82GI10NU",
   "_sheet": "Danimarca",
-  "_row": 71
+  "_row": 70
  },
  {
   "denominazione": "H.C. JACOBSEN A/S",
@@ -4841,7 +4827,7 @@
   "sede": "Ganløse/Stenløse (Sandbakken 5, 3660), Region Hovedstaden",
   "fonte": "https://www.proff.dk/firma/h.c.-jacobsen-as/stenl%C3%B8se/gummi-og-plastprodukter/GKU06AI10NU",
   "_sheet": "Danimarca",
-  "_row": 72
+  "_row": 71
  },
  {
   "denominazione": "RG ROM GUMMI A/S",
@@ -4855,7 +4841,7 @@
   "sede": "Lemvig, Region Midtjylland",
   "fonte": "https://www.proff.dk/firma/rg-rom-gummi-as/lemvig/gummi-og-plastprodukter/19MY2PI10NU",
   "_sheet": "Danimarca",
-  "_row": 73
+  "_row": 72
  },
  {
   "denominazione": "Rubberproff ApS",
@@ -4869,7 +4855,7 @@
   "sede": "Hals (Ulstedvej 36, 9370), Region Nordjylland",
   "fonte": "https://www.proff.dk/firma/rubberproff-aps/n%C3%B8rresundby/engroshandel-annet/GY1KTSI10N6",
   "_sheet": "Danimarca",
-  "_row": 74
+  "_row": 73
  },
  {
   "denominazione": "SKANDINAVISK DÆK IMPORT A/S",
@@ -4883,7 +4869,7 @@
   "sede": "Havdrup (Industrivænget 14, 4622), Region Sjælland",
   "fonte": "https://sdi.dk/kontakt/",
   "_sheet": "Danimarca",
-  "_row": 75
+  "_row": 74
  },
  {
   "denominazione": "A-ONE DANMARK ApS",
@@ -4897,7 +4883,7 @@
   "sede": "Skive, Region Midtjylland",
   "fonte": "https://www.proff.dk/firma/a-one-danmark-aps/skive/korn-r%C3%A5tobak-s%C3%A5varer-og-fodervarer-engros/GT8V6GI10P1",
   "_sheet": "Danimarca",
-  "_row": 76
+  "_row": 75
  },
  {
   "denominazione": "AB NEO A/S (già AGRO KORN A/S)",
@@ -4911,7 +4897,7 @@
   "sede": "Videbæk (Ringkøbing-Skjern), Region Midtjylland",
   "fonte": "https://www.proff.dk/firma/ab-neo-as/videb%C3%A6k/foder/0M9PAPI00FB ; sito gruppo https://ab-neo.com/",
   "_sheet": "Danimarca",
-  "_row": 77
+  "_row": 76
  },
  {
   "denominazione": "CEBECO FOURAGE A/S",
@@ -4925,7 +4911,7 @@
   "sede": "Kibæk (Herning), Region Midtjylland",
   "fonte": "https://www.proff.dk/firma/cebeco-fourage-as/kib%C3%A6k/korn-r%C3%A5tobak-s%C3%A5varer-og-fodervarer-engros/0BOPPLI10P1 ; email da https://cebeco.dk/kontakt/",
   "_sheet": "Danimarca",
-  "_row": 78
+  "_row": 77
  },
  {
   "denominazione": "COMPEX ApS",
@@ -4939,7 +4925,7 @@
   "sede": "Bolderslev (Aabenraa), Region Syddanmark",
   "fonte": "https://www.proff.dk/firma/compex-aps/bolderslev/n%C3%A6rings-og-nydelsesmidler/0K3CGYI116S/ ; email da https://compex.dk/kontakt/",
   "_sheet": "Danimarca",
-  "_row": 79
+  "_row": 78
  },
  {
   "denominazione": "CR FODERSERVICE K/S",
@@ -4953,7 +4939,7 @@
   "sede": "Bogense (Nordfyn), Region Syddanmark",
   "fonte": "https://www.proff.dk/firma/cr-foderservice-ks/bogense/jordbrug/GT1OQ7I10OF/ ; email da https://118.dk/firma/Cr+Foderservice+KS/5400-Bogense",
   "_sheet": "Danimarca",
-  "_row": 80
+  "_row": 79
  },
  {
   "denominazione": "MEJLING LANDHANDEL / SÆBY FRØSALG",
@@ -4967,7 +4953,7 @@
   "sede": "Frederikshavn (Hjørringvej 305, 9900), Region Nordjylland",
   "fonte": "https://www.proff.dk/firma/mejling-landhandel/frederikshavn/n%C3%A6rings-og-nydelsesmidler/H259ZYI116S ; https://mejlinglandhandel.dk/Kontakt.html",
   "_sheet": "Danimarca",
-  "_row": 81
+  "_row": 80
  },
  {
   "denominazione": "NORDVEST FODER A/S",
@@ -4981,7 +4967,7 @@
   "sede": "Vestervig (Thisted, Thy), Region Nordjylland",
   "fonte": "https://www.proff.dk/firma/nordvest-foder-as/vestervig/n%C3%A6rings-og-nydelsesmidler/GJSZAMI116S ; email da https://www.nordvestfoder.dk/kontakt/",
   "_sheet": "Danimarca",
-  "_row": 82
+  "_row": 81
  },
  {
   "denominazione": "NUTRIMIN A/S",
@@ -4995,7 +4981,7 @@
   "sede": "Ans By (Silkeborg), Region Midtjylland",
   "fonte": "https://www.proff.dk/firma/nutrimin-as/ans-by/foder/0GZ566I00FB ; email da https://www.nutrimin.dk/en/contact/",
   "_sheet": "Danimarca",
-  "_row": 83
+  "_row": 82
  },
  {
   "denominazione": "TJØRNEHØJ MØLLE A/S",
@@ -5009,7 +4995,7 @@
   "sede": "Hedehusene (Høje-Taastrup), Region Hovedstaden — DA CONFERMARE",
   "fonte": "https://www.maskinbladet.dk/artikel/20250-foderspecialisten-til-smaagrise",
   "_sheet": "Danimarca",
-  "_row": 84
+  "_row": 83
  },
  {
   "denominazione": "VESTJYSK SPECIALFODER ApS",
@@ -5023,7 +5009,7 @@
   "sede": "Vemb (Holstebro), Region Midtjylland",
   "fonte": "https://www.proff.dk/firma/vestjysk-specialfoder-aps/vemb/engroshandel-annet/GYZVKCI10N6/ ; https://lasso.dk/firmaer/42242993/vestjysk-specialfoder-aps",
   "_sheet": "Danimarca",
-  "_row": 85
+  "_row": 84
  },
  {
   "denominazione": "Naturli' Foods",
@@ -5037,7 +5023,7 @@
   "sede": "Vejen, Region Syddanmark",
   "fonte": "https://www.naturli-foods.com/faq/oils/",
   "_sheet": "Danimarca",
-  "_row": 86
+  "_row": 85
  },
  {
   "denominazione": "TBC INGREDIENTS ApS",
@@ -5051,7 +5037,7 @@
   "sede": "Odder (Knudsminde 3B, 8300), Region Midtjylland",
   "fonte": "https://etiskhandel.dk/wp-content/uploads/Palmeoliehandlingsplan-tbc-ingredients-2021.pdf",
   "_sheet": "Danimarca",
-  "_row": 87
+  "_row": 86
  },
  {
   "denominazione": "BØJE KØD ENGROS ApS (Bøje & David Kød Engros)",
@@ -5065,7 +5051,7 @@
   "sede": "Kastrup (Kirstinehøj 75, 2770), Region Hovedstaden",
   "fonte": "https://www.proff.dk/firma/b%C3%B8je-k%C3%B8d-engros-aps/kastrup/k%C3%B8d-og-vildt-engros/GO2BIII10OV",
   "_sheet": "Danimarca",
-  "_row": 88
+  "_row": 87
  },
  {
   "denominazione": "Grambogård",
@@ -5079,7 +5065,7 @@
   "sede": "Tommerup (Fyn), Region Syddanmark",
   "fonte": "https://effektivtlandbrug.landbrugnet.dk/artikler/svin/85640/-det-handler-om-smag-og-kvalitet",
   "_sheet": "Danimarca",
-  "_row": 89
+  "_row": 88
  },
  {
   "denominazione": "JN Meat International",
@@ -5093,7 +5079,7 @@
   "sede": "Slagelse, Region Sjælland",
   "fonte": "https://jnmeat.dk/en",
   "_sheet": "Danimarca",
-  "_row": 90
+  "_row": 89
  },
  {
   "denominazione": "Randers Kød Engros ApS",
@@ -5107,7 +5093,7 @@
   "sede": "Randers, Region Midtjylland",
   "fonte": "https://randerskoed.dk/",
   "_sheet": "Danimarca",
-  "_row": 91
+  "_row": 90
  },
  {
   "denominazione": "Tärnsjö Garveri Aktiebolag",
@@ -6370,7 +6356,7 @@
   "_row": 3
  },
  {
-  "denominazione": "Rompa Tanneries B.V.",
+  "denominazione": "Vitelco Leather B.V. (già Rompa Tanneries B.V.)",
   "filiera": "Pelle/Concia — leerlooierij pelli bovine",
   "dimensione": "Fatturato NON pubblicato. 21-50 dipendenti (fonte Oozo.nl / Kompass, dato Handelsregister 2024-2025). KVK 60235608. Sede Aaltenseweg 4, 7131 ND Lichtenvoorde. SBI 1511 (leerlooierijen). Nata nel marzo 2014 dall'acquisizione da parte del gruppo Rompa (Rijen/Boxtel) della storica conceria Hulshof Royal Dutch Tanneries (attiva a Lichtenvoorde dal 1876, fallita nel novembre 2013). Concia pelli di toro e vitello pesante di origine locale per arredamento, automotive e aviazione. Commodity EUDR: bovini (derivato pelle). Contatti pubblicati: sales@rompa-tanneries.com, tel. +31 544 392600. Soci: PALI Group (Den Bosch, vitello) e Rompa Leather (Rijen).",
   "referente": "",
@@ -6776,20 +6762,6 @@
   "_row": 32
  },
  {
-  "denominazione": "Marine Olie Handel Maatschappij B.V.",
-  "filiera": "Olio di palma — import/trading oli vegetali",
-  "dimensione": "Fatturato non pubblicato (company.info espone il profilo, i dati finanziari solo a pagamento). KVK 24107203. Società di trading internazionale di oli e grassi vegetali con tank farm e laboratorio propri a Wormer; fondata nel 1965 come commercio di olio di pesce. Organico limitato (trader, tecnici di laboratorio e logistica; numero esatto non pubblicato). Importatore/commerciante di oli vegetali inclusi palma e cocco: operatore EUDR. ATTENZIONE: la societa e stata acquisita dal gruppo di trading STX (Amsterdam) - non piu indipendente (fonte: mena.nl).",
-  "referente": "",
-  "ruolo": "",
-  "linkedin": "https://nl.linkedin.com/company/marine-olie-handel-maatschappij-b.v.",
-  "email": "MOHcommercie@marine-olie.nl",
-  "sito": "https://marine-olie.nl/",
-  "sede": "Moerdijk (Noord-Brabant), depositi a Wormer",
-  "fonte": "https://companyinfo.nl/organisatieprofiel/groothandel-in-ruwe-plantaardige-en-dierlijke-olien-en-vetten-en-oliehoudende-grondstoffen/marine-olie-handel-maatschappij-b-v-moerdijk-24107203-000016359224",
-  "_sheet": "Olanda",
-  "_row": 33
- },
- {
   "denominazione": "Nijsen company B.V.",
   "filiera": "Mangimi/Soia — trading granaglie e mangimificio",
   "dimensione": "Fatturato ca. 30 M€ con ca. 100 addetti (fonte: Pigbusiness.nl, intervista aziendale 2013; dato più recente non pubblicato — bilancio abbreviato). Il sito aziendale indica oggi un team di oltre 100-125 persone. KVK 14015971. SBI 1091 (vervaardiging van veevoeders). Ex Nijsen/Granico B.V., azienda familiare dal 1938: import/export di granaglie, farine e materie prime (inclusa soia) per mengvoeders + produzione mangimi da flussi residui alimentari. Taglia leggermente sopra il target ma indipendente.",
@@ -6801,7 +6773,7 @@
   "sede": "Veulen / Venray (Limburg)",
   "fonte": "https://companyinfo.nl/organisatieprofiel/vervaardiging-van-veevoeders/nijsen-company-b-v-veulen-14015971-000015817172",
   "_sheet": "Olanda",
-  "_row": 34
+  "_row": 33
  },
  {
   "denominazione": "OTR Oiltrade B.V.",
@@ -6815,7 +6787,7 @@
   "sede": "Werkendam (Noord-Brabant); impianto collegato a Heijningen",
   "fonte": "https://companyinfo.nl/organisatieprofiel/groothandel-in-ruwe-plantaardige-en-dierlijke-olien-en-vetten-en-oliehoudende-grondstoffen/otr-oiltrade-b-v-werkendam-244648990000",
   "_sheet": "Olanda",
-  "_row": 35
+  "_row": 34
  },
  {
   "denominazione": "PaBrEm B.V.",
@@ -6829,7 +6801,7 @@
   "sede": "Leeuwarden (Fryslân)",
   "fonte": "https://www.europages.co.uk/companies/netherlands/cocoa.html",
   "_sheet": "Olanda",
-  "_row": 36
+  "_row": 35
  },
  {
   "denominazione": "Speerstra Feed Ingredients B.V.",
@@ -6843,7 +6815,7 @@
   "sede": "Eesterga / De Fryske Marren (Friesland)",
   "fonte": "https://companyinfo.nl/organisatieprofiel/groothandel-in-akkerbouwproducten-en-veevoeder-algemeen-assortiment/speerstra-feed-ingredients-b-v-eesterga-01085923-000019415834",
   "_sheet": "Olanda",
-  "_row": 37
+  "_row": 36
  },
  {
   "denominazione": "Acket Drukkerij Kartonnage B.V.",
@@ -6857,7 +6829,7 @@
   "sede": "Oss, Noord-Brabant",
   "fonte": "https://www.printmedianieuws.nl/2015/02/acket-drukkerij-kartonnage-vijfde-generatie-aan-het-roer/",
   "_sheet": "Olanda",
-  "_row": 38
+  "_row": 37
  },
  {
   "denominazione": "Akarton B.V.",
@@ -6871,7 +6843,7 @@
   "sede": "Venlo, Limburg",
   "fonte": "https://companyinfo.nl/organisatieprofiel/vervaardiging-van-golfpapier-en-karton/akarton-b-v-venlo-12029719",
   "_sheet": "Olanda",
-  "_row": 39
+  "_row": 38
  },
  {
   "denominazione": "Bangma Verpakking B.V.",
@@ -6885,7 +6857,7 @@
   "sede": "Dronten, Flevoland",
   "fonte": "https://companyinfo.nl/organisatieprofiel/groothandel-in-emballage-voor-industrieel-gebruik/bangma-verpakking-b-v-dronten-39027421-000017208963",
   "_sheet": "Olanda",
-  "_row": 40
+  "_row": 39
  },
  {
   "denominazione": "Bannink Packaging B.V.",
@@ -6899,7 +6871,7 @@
   "sede": "Coevorden, Drenthe",
   "fonte": "https://companyinfo.nl/organisatieprofiel/vervaardiging-van-verpakkingsmiddelen-van-papier-en-karton/bannink-packaging-b-v-coevorden-04075356-000018424015",
   "_sheet": "Olanda",
-  "_row": 41
+  "_row": 40
  },
  {
   "denominazione": "De Groot Drukkerij B.V.",
@@ -6913,7 +6885,7 @@
   "sede": "Goudriaan (Molenlanden), Zuid-Holland",
   "fonte": "https://drukkerij-gids.nl/goudriaan/de-groot-drukkerij-bv/",
   "_sheet": "Olanda",
-  "_row": 42
+  "_row": 41
  },
  {
   "denominazione": "Drukkerij Van der Eems B.V.",
@@ -6927,7 +6899,7 @@
   "sede": "Easterein (Súdwest-Fryslân), Friesland",
   "fonte": "https://www.goudengids.nl/nl/bedrijf/Easterein/L120000030/Drukkerij+Van+der+Eems/",
   "_sheet": "Olanda",
-  "_row": 43
+  "_row": 42
  },
  {
   "denominazione": "Dutch Boxx Golfkarton B.V.",
@@ -6941,7 +6913,7 @@
   "sede": "Heerenveen, Friesland",
   "fonte": "https://drimble.nl/bedrijf/heerenveen/20219695/dutch-boxx-golfkarton-bv.html",
   "_sheet": "Olanda",
-  "_row": 44
+  "_row": 43
  },
  {
   "denominazione": "Fris Karton B.V.",
@@ -6955,7 +6927,7 @@
   "sede": "Bladel, Noord-Brabant",
   "fonte": "https://graydongo.nl/nl/nl-grafisch-fris-karton-bv-bladel-17059632",
   "_sheet": "Olanda",
-  "_row": 45
+  "_row": 44
  },
  {
   "denominazione": "Intrapec Verpakkingen B.V.",
@@ -6969,7 +6941,7 @@
   "sede": "Spankeren (Rheden), Gelderland",
   "fonte": "https://kartoflex.nl/lidmaatschap/onze-leden/intrapec-verpakkingen-b.v.html",
   "_sheet": "Olanda",
-  "_row": 46
+  "_row": 45
  },
  {
   "denominazione": "Panhuijsen Verpakkingen B.V.",
@@ -6983,7 +6955,7 @@
   "sede": "Tilburg, Noord-Brabant",
   "fonte": "https://companyinfo.nl/organisatieprofiel/groothandel-in-emballage-voor-industrieel-gebruik/panhuijsen-verpakking-tilburg-18026915-000016660757",
   "_sheet": "Olanda",
-  "_row": 47
+  "_row": 46
  },
  {
   "denominazione": "Papierfabriek Schut B.V.",
@@ -6997,7 +6969,7 @@
   "sede": "Heelsum (Renkum), Gelderland",
   "fonte": "https://drimble.nl/bedrijf/heelsum/000019015402/papierfabriek-schut-bv.html",
   "_sheet": "Olanda",
-  "_row": 48
+  "_row": 47
  },
  {
   "denominazione": "Snel Industrie voor Karton en Papierveredeling B.V.",
@@ -7011,7 +6983,7 @@
   "sede": "Bemmel (Lingewaard), Gelderland",
   "fonte": "https://www.oozo.nl/bedrijven/lingewaard/bemmel/verspreide-huizen-angeren/367302/snel-industrie-voor-karton-en-papierveredeling-b-v",
   "_sheet": "Olanda",
-  "_row": 49
+  "_row": 48
  },
  {
   "denominazione": "Van Gennip Verpakking B.V.",
@@ -7025,7 +6997,7 @@
   "sede": "Eindhoven, Noord-Brabant",
   "fonte": "https://www.transfirm.nl/nl/organisatie/17046790-000000000000-papiergroothandel-van-gennip-b.v.",
   "_sheet": "Olanda",
-  "_row": 50
+  "_row": 49
  },
  {
   "denominazione": "Veldhuis Media B.V.",
@@ -7039,7 +7011,7 @@
   "sede": "Meppel, Drenthe (già Raalte, Overijssel)",
   "fonte": "https://www.bedrijvenregister.nl/raalte/veldhuis-media-bv",
   "_sheet": "Olanda",
-  "_row": 51
+  "_row": 50
  },
  {
   "denominazione": "Vermijs Kartonnage B.V.",
@@ -7053,7 +7025,7 @@
   "sede": "Oosterhout, Noord-Brabant",
   "fonte": "https://companyinfo.nl/organisatieprofiel/vervaardiging-van-verpakkingsmiddelen-van-papier-en-karton/vermijs-kartonnage-b-v-oosterhout-20054190-000020066678",
   "_sheet": "Olanda",
-  "_row": 52
+  "_row": 51
  },
  {
   "denominazione": "Zaadhof's Cartonnage Fabrieken B.V.",
@@ -7067,7 +7039,7 @@
   "sede": "Winschoten, Groningen",
   "fonte": "https://www.rtvnoord.nl/economie/1416341/made-in-grunn-winschoter-familiebedrijf-maakt-jaarlijks-tientallen-miljoenen-verpakkingen",
   "_sheet": "Olanda",
-  "_row": 53
+  "_row": 52
  },
  {
   "denominazione": "Zalsman B.V.",
@@ -7081,7 +7053,7 @@
   "sede": "Zwolle, Overijssel",
   "fonte": "https://companyinfo.nl/organisatieprofiel/overige-activiteiten-op-het-gebied-van-drukwerk-rest/zalsman-b-v-zwolle-05044422-000017223881",
   "_sheet": "Olanda",
-  "_row": 54
+  "_row": 53
  },
  {
   "denominazione": "Blanche Dael B.V. (Maison Blanche Dael)",
@@ -7095,7 +7067,7 @@
   "sede": "Maastricht (Limburg)",
   "fonte": "https://www.creditsafe.com/business-index/en-us/company/blanche-dael-bv-nl05333583",
   "_sheet": "Olanda",
-  "_row": 55
+  "_row": 54
  },
  {
   "denominazione": "Bocca Coffee B.V.",
@@ -7109,7 +7081,7 @@
   "sede": "Amsterdam (Noord-Holland) — torrefazione a Dronten (Flevoland)",
   "fonte": "https://new10.com/blog/bocca-coffee-bliksemstart-verandering-groei",
   "_sheet": "Olanda",
-  "_row": 56
+  "_row": 55
  },
  {
   "denominazione": "Brandsma Koffie B.V.",
@@ -7123,7 +7095,7 @@
   "sede": "Bolsward (Friesland)",
   "fonte": "https://grachtenbeans.nl/koffiebrander/brandsma-koffie/",
   "_sheet": "Olanda",
-  "_row": 57
+  "_row": 56
  },
  {
   "denominazione": "Fleur de Café B.V.",
@@ -7137,7 +7109,7 @@
   "sede": "Deventer (Overijssel)",
   "fonte": "https://www.fleurdecafe.nl/klantenservice",
   "_sheet": "Olanda",
-  "_row": 58
+  "_row": 57
  },
  {
   "denominazione": "G. Bijdendijk B.V. (Koffiehandelshuis G. Bijdendijk)",
@@ -7151,7 +7123,7 @@
   "sede": "Nunspeet (Gelderland)",
   "fonte": "https://www.oozo.nl/bedrijven/nunspeet/nunspeet/hulshorst/145458/g-bijdendijk-b-v",
   "_sheet": "Olanda",
-  "_row": 59
+  "_row": 58
  },
  {
   "denominazione": "Giraffe Coffee B.V.",
@@ -7165,7 +7137,7 @@
   "sede": "Rotterdam (Zuid-Holland)",
   "fonte": "https://giraffecoffee.com/en/pages/over",
   "_sheet": "Olanda",
-  "_row": 60
+  "_row": 59
  },
  {
   "denominazione": "Greencof B.V.",
@@ -7179,7 +7151,7 @@
   "sede": "Hoorn (Noord-Holland)",
   "fonte": "https://companyinfo.nl/organisatieprofiel/groothandel-in-koffie-thee-cacao-en-specerijen/greencof-b-v-zaandam-37123582",
   "_sheet": "Olanda",
-  "_row": 61
+  "_row": 60
  },
  {
   "denominazione": "Hesselink Koffiesystemen B.V.",
@@ -7193,7 +7165,7 @@
   "sede": "Winterswijk (Gelderland)",
   "fonte": "https://www.oozo.nl/bedrijven/winterswijk/stad/winterswijk-zuidwest/171483/hesselink-koffiesystemen-b-v",
   "_sheet": "Olanda",
-  "_row": 62
+  "_row": 61
  },
  {
   "denominazione": "Kaldi Koffie en Thee B.V.",
@@ -7207,7 +7179,7 @@
   "sede": "Zwolle (Overijssel)",
   "fonte": "https://www.creditsafe.com/business-index/en-us/company/kaldi-koffie-en-thee-bv-nl01235350",
   "_sheet": "Olanda",
-  "_row": 63
+  "_row": 62
  },
  {
   "denominazione": "Koffiebranderij G. Peeze B.V.",
@@ -7221,7 +7193,7 @@
   "sede": "Arnhem (Gelderland)",
   "fonte": "https://www.transfirm.nl/nl/organisatie/090265260000-koffiebranderij-g.-peeze-b.v.",
   "_sheet": "Olanda",
-  "_row": 64
+  "_row": 63
  },
  {
   "denominazione": "Moyee Nederland B.V.",
@@ -7235,7 +7207,7 @@
   "sede": "Amsterdam (Noord-Holland)",
   "fonte": "https://companyinfo.nl/organisatieprofiel/groothandel-in-koffie-thee-cacao-en-specerijen/moyee-nederland-b-v-amsterdam-61730556-000030807255",
   "_sheet": "Olanda",
-  "_row": 65
+  "_row": 64
  },
  {
   "denominazione": "Neuteboom Koffiebranders B.V.",
@@ -7249,7 +7221,7 @@
   "sede": "Almelo (Overijssel)",
   "fonte": "https://nl.wikipedia.org/wiki/Neuteboom_koffiebranders",
   "_sheet": "Olanda",
-  "_row": 66
+  "_row": 65
  },
  {
   "denominazione": "Origin Bridge (Barchem)",
@@ -7263,7 +7235,7 @@
   "sede": "Barchem, gem. Lochem (Gelderland)",
   "fonte": "https://originbridge.coffee/legal-information/",
   "_sheet": "Olanda",
-  "_row": 67
+  "_row": 66
  },
  {
   "denominazione": "Simon Levelt B.V.",
@@ -7277,7 +7249,7 @@
   "sede": "Haarlem (Noord-Holland)",
   "fonte": "https://companyinfo.nl/organisatieprofiel/gespecialiseerde-detailhandel-in-overige-voedings-en-genotmiddelen-rest/simon-levelt-b-v-haarlem-34093465-000020025106",
   "_sheet": "Olanda",
-  "_row": 68
+  "_row": 67
  },
  {
   "denominazione": "Smit & Dorlas Koffiebranders B.V.",
@@ -7291,7 +7263,7 @@
   "sede": "Mijdrecht (Utrecht)",
   "fonte": "https://www.smitdorlas.nl/bedrijfsinformatie/",
   "_sheet": "Olanda",
-  "_row": 69
+  "_row": 68
  },
  {
   "denominazione": "TSU Trade B.V. (This Side Up Coffees)",
@@ -7305,7 +7277,7 @@
   "sede": "Amsterdam (Noord-Holland)",
   "fonte": "https://thissideup.coffee/contact",
   "_sheet": "Olanda",
-  "_row": 70
+  "_row": 69
  },
  {
   "denominazione": "Van Duijnen Koffie B.V.",
@@ -7319,7 +7291,7 @@
   "sede": "Almere (Flevoland)",
   "fonte": "https://www.oozo.nl/bedrijven/almere/almere-stad/gooisekant/171540/van-duijnen-koffie-b-v",
   "_sheet": "Olanda",
-  "_row": 71
+  "_row": 70
  },
  {
   "denominazione": "Chocolade- en Suikerwerkfabriek Marandi B.V.",
@@ -7333,7 +7305,7 @@
   "sede": "Lunteren / Ede (Gelderland)",
   "fonte": "https://www.oozo.nl/bedrijven/ede/lunteren/centrum-lunteren/365228/chocolade-en-suikerwerkfabriek-marandi-b-v",
   "_sheet": "Olanda",
-  "_row": 72
+  "_row": 71
  },
  {
   "denominazione": "Chocoladefabriek \"De Beemster\" B.V.",
@@ -7347,7 +7319,7 @@
   "sede": "Middenbeemster / Purmerend (Noord-Holland)",
   "fonte": "https://companyinfo.nl/organisatieprofiel/vervaardiging-van-chocolade-en-suikerwerk/chocoladefabriek-de-beemster-b-v-middenbeemster-37109862-000020449763",
   "_sheet": "Olanda",
-  "_row": 73
+  "_row": 72
  },
  {
   "denominazione": "Chocolatemakers B.V.",
@@ -7361,7 +7333,7 @@
   "sede": "Amsterdam (Noord-Holland)",
   "fonte": "https://companyinfo.nl/organisatieprofiel/verwerking-van-cacao/chocolatemakers-b-v-amsterdam-57652066-000022805583",
   "_sheet": "Olanda",
-  "_row": 74
+  "_row": 73
  },
  {
   "denominazione": "Continental Chocolate B.V.",
@@ -7375,7 +7347,7 @@
   "sede": "Rotterdam (Zuid-Holland)",
   "fonte": "https://transfirm.nl/nl/organisatie/341462920000-continental-chocolate-b.v.?lang=en",
   "_sheet": "Olanda",
-  "_row": 75
+  "_row": 74
  },
  {
   "denominazione": "De Chocoladefabriek B.V.",
@@ -7389,7 +7361,7 @@
   "sede": "Heerhugowaard / Dijk en Waard (Noord-Holland)",
   "fonte": "https://www.ondernemersbelang.nl/nieuws/de-chocoladefabriek-naar-npex-beurs-met-certificaten/",
   "_sheet": "Olanda",
-  "_row": 76
+  "_row": 75
  },
  {
   "denominazione": "De Euforij Chocolade B.V.",
@@ -7403,7 +7375,7 @@
   "sede": "Wormerveer / Zaanstad (Noord-Holland)",
   "fonte": "https://www.bedrijvenregister.nl/wormerveer/de-euforij-chocolade-bv",
   "_sheet": "Olanda",
-  "_row": 77
+  "_row": 76
  },
  {
   "denominazione": "Martinez Chocolade B.V.",
@@ -7417,7 +7389,7 @@
   "sede": "Amstelveen (Noord-Holland)",
   "fonte": "https://www.transfirm.nl/nl/organisatie/341285660000-martinez-chocolade-b.v.",
   "_sheet": "Olanda",
-  "_row": 78
+  "_row": 77
  },
  {
   "denominazione": "Original Beans B.V.",
@@ -7431,7 +7403,7 @@
   "sede": "Amsterdam (Noord-Holland)",
   "fonte": "https://www.bedrijvenregister.nl/amsterdam/original-beans",
   "_sheet": "Olanda",
-  "_row": 79
+  "_row": 78
  },
  {
   "denominazione": "Ringers' Import B.V.",
@@ -7445,7 +7417,7 @@
   "sede": "Haarlem (Noord-Holland)",
   "fonte": "https://www.oozo.nl/bedrijven/haarlem/waarder-en-veerpolder/waarderpolder/171566/ringers-import-b-v",
   "_sheet": "Olanda",
-  "_row": 80
+  "_row": 79
  },
  {
   "denominazione": "Rousseau Chocolade B.V.",
@@ -7459,7 +7431,7 @@
   "sede": "Sittard / Sittard-Geleen (Limburg)",
   "fonte": "https://www.oozo.nl/bedrijven/sittard-geleen/overhoven/industrieterrein-noord/365188/rousseau-chocolade-b-v",
   "_sheet": "Olanda",
-  "_row": 81
+  "_row": 80
  },
  {
   "denominazione": "Steenland Chocolate B.V.",
@@ -7473,7 +7445,7 @@
   "sede": "Gouda (Zuid-Holland)",
   "fonte": "https://companyinfo.nl/organisatieprofiel/vervaardiging-van-chocolade-en-suikerwerk/steenland-chocolate-b-v-gouda-24354029-000018029809",
   "_sheet": "Olanda",
-  "_row": 82
+  "_row": 81
  },
  {
   "denominazione": "Trianon Chocolatiers B.V.",
@@ -7487,7 +7459,7 @@
   "sede": "Oss (Noord-Brabant)",
   "fonte": "https://nl.kompass.com/c/trianon-chocolatiers-b-v/nl196607/",
   "_sheet": "Olanda",
-  "_row": 83
+  "_row": 82
  },
  {
   "denominazione": "RIS Rubber N.V.",
@@ -7501,7 +7473,7 @@
   "sede": "Lelystad, Flevoland",
   "fonte": "https://www.risrubber.com/over-ris/",
   "_sheet": "Olanda",
-  "_row": 84
+  "_row": 83
  },
  {
   "denominazione": "Rubber Design B.V.",
@@ -7515,7 +7487,7 @@
   "sede": "Heerjansdam (Zwijndrecht), Zuid-Holland",
   "fonte": "https://drimble.nl/bedrijf/heerjansdam/1084011/rubber-design-bv.html",
   "_sheet": "Olanda",
-  "_row": 85
+  "_row": 84
  },
  {
   "denominazione": "Ruma Rubber B.V.",
@@ -7529,7 +7501,7 @@
   "sede": "Hoogeveen, Drenthe",
   "fonte": "https://www.dnb.com/business-directory/company-profiles.ruma_rubber_bv.8b91dcdabf64a6f6e9fbc7005f6b7b30.html",
   "_sheet": "Olanda",
-  "_row": 86
+  "_row": 85
  },
  {
   "denominazione": "Beijer Mengvoeders B.V.",
@@ -7543,7 +7515,7 @@
   "sede": "Driel / Overbetuwe (Gelderland)",
   "fonte": "https://www.adhocdata.nl/bedrijven/ADH000000CCECEG/Driel/Beijer-Mengvoeders-BV",
   "_sheet": "Olanda",
-  "_row": 87
+  "_row": 86
  },
  {
   "denominazione": "Booijink Veevoeders B.V.",
@@ -7557,7 +7529,7 @@
   "sede": "Raalte (Overijssel), sedi anche a Luttenberg e Rijssen",
   "fonte": "https://graydongo.nl/nl/voeding-booijink-veevoeders-bv-raalte-38014671",
   "_sheet": "Olanda",
-  "_row": 88
+  "_row": 87
  },
  {
   "denominazione": "Doens Food Ingredients B.V.",
@@ -7571,7 +7543,7 @@
   "sede": "IJzendijke / Sluis (Zeeland), impianto a Sas van Gent",
   "fonte": "https://drimble.nl/bedrijf/ijzendijke/17334179/doens-food-ingredients-bv.html",
   "_sheet": "Olanda",
-  "_row": 89
+  "_row": 88
  },
  {
   "denominazione": "Garvo B.V.",
@@ -7585,7 +7557,7 @@
   "sede": "Drempt / Bronckhorst (Gelderland)",
   "fonte": "https://vainu.io/company/garvo-bv-omzet-en-financiele/16180270/bedrijfsinformatie",
   "_sheet": "Olanda",
-  "_row": 90
+  "_row": 89
  },
  {
   "denominazione": "Gunnewick Mengvoeders B.V.",
@@ -7599,7 +7571,7 @@
   "sede": "Vragender / Oost Gelre (Gelderland)",
   "fonte": "https://www.oozo.nl/bedrijven/oost-gelre/vragender/bebouwde-kom-vragender/438727/gunnewick-mengvoeders-b-v",
   "_sheet": "Olanda",
-  "_row": 91
+  "_row": 90
  },
  {
   "denominazione": "P. Bos Mengvoeder- en Kunstmesthandel B.V.",
@@ -7613,7 +7585,7 @@
   "sede": "Ederveen / Ede (Gelderland)",
   "fonte": "https://companyinfo.nl/organisatieprofiel/vervaardiging-van-veevoeders/p-bos-mengvoeder-en-kunstmesthandel-b-v-ederveen-09056076-000016850459",
   "_sheet": "Olanda",
-  "_row": 92
+  "_row": 91
  },
  {
   "denominazione": "Van Benthem Diervoeders Vollenhove B.V.",
@@ -7627,7 +7599,7 @@
   "sede": "Vollenhove / Steenwijkerland (Overijssel)",
   "fonte": "https://www.vbvoer.nl/van-benthem/",
   "_sheet": "Olanda",
-  "_row": 93
+  "_row": 92
  },
  {
   "denominazione": "Van Gorp Diervoeders B.V.",
@@ -7641,7 +7613,7 @@
   "sede": "Waalwijk (Noord-Brabant)",
   "fonte": "https://www.oozo.nl/bedrijven/waalwijk/waalwijk/industrieterrein-haven/43305/van-gorp-diervoeders-b-v",
   "_sheet": "Olanda",
-  "_row": 94
+  "_row": 93
  },
  {
   "denominazione": "DO IT Organic Food Ingredients B.V.",
@@ -7655,7 +7627,7 @@
   "sede": "Barneveld (Gelderland)",
   "fonte": "https://companyinfo.nl/organisatieprofiel/groothandel-in-voedingsmiddelen-dranken-en-overige-genotmiddelen-algemeen-assortiment/do-it-organic-food-ingredients-b-v-barneveld-75119048-000043017282",
   "_sheet": "Olanda",
-  "_row": 95
+  "_row": 94
  },
  {
   "denominazione": "S.R.C. (Special Refining Company) B.V.",
@@ -7669,7 +7641,7 @@
   "sede": "Zaandam / Zaanstad (Noord-Holland)",
   "fonte": "https://mvo.nl/organisatie/leden/src",
   "_sheet": "Olanda",
-  "_row": 96
+  "_row": 95
  },
  {
   "denominazione": "Spack B.V.",
@@ -7683,7 +7655,7 @@
   "sede": "Nieuwe-Tonge / Goeree-Overflakkee (Zuid-Holland)",
   "fonte": "https://regiobedrijf.nl/groothandel-in-ruwe-plantaardige-en-dierlijke-olien-en-vetten-en-oliehoudende-grondstoffen/spack-bv-74891.html",
   "_sheet": "Olanda",
-  "_row": 97
+  "_row": 96
  },
  {
   "denominazione": "G & A Wennekers Vleesgroothandel B.V.",
@@ -7697,7 +7669,7 @@
   "sede": "Rotterdam, Zuid-Holland",
   "fonte": "https://www.transfirm.nl/nl/organisatie/243158720000-g-&-a-wennekers-vleesgroothandel-b.v",
   "_sheet": "Olanda",
-  "_row": 98
+  "_row": 97
  },
  {
   "denominazione": "Kroon Vlees B.V.",
@@ -7711,7 +7683,7 @@
   "sede": "Groningen, Groningen",
   "fonte": "https://www.kroonvlees.nl/over-kroon-vlees",
   "_sheet": "Olanda",
-  "_row": 99
+  "_row": 98
  },
  {
   "denominazione": "Randstad Vleesgroothandel B.V.",
@@ -7725,7 +7697,7 @@
   "sede": "Barendrecht, Zuid-Holland",
   "fonte": "https://www.creditsafe.com/business-index/en-gb/company/randstad-vleesgroothandel-bv-nl01183286",
   "_sheet": "Olanda",
-  "_row": 100
+  "_row": 99
  },
  {
   "denominazione": "Van Kooten Vleesgroothandel B.V.",
@@ -7739,7 +7711,7 @@
   "sede": "Montfoort, Utrecht",
   "fonte": "https://companyinfo.nl/organisatieprofiel/groothandel-in-vlees-en-vleesproducten/van-kooten-vleesgroothandel-b-v-montfoort-30112737-000018814379",
   "_sheet": "Olanda",
-  "_row": 101
+  "_row": 100
  },
  {
   "denominazione": "Vleesbedrijf Bolscher B.V.",
@@ -7753,7 +7725,7 @@
   "sede": "Enschede, Overijssel",
   "fonte": "https://drimble.nl/bedrijf/enschede/19259131/vleesbedrijf-bolscher-bv.html",
   "_sheet": "Olanda",
-  "_row": 102
+  "_row": 101
  },
  {
   "denominazione": "Hulpiau Hides BV",
@@ -8288,20 +8260,6 @@
   "_row": 40
  },
  {
-  "denominazione": "Covera Packaging NV",
-  "filiera": "Carta/Packaging — imballaggi cartone ondulato",
-  "dimensione": "Fatturato nella fascia 10.000.000-25.000.000 € - 9,3 FTE (fonte companyweb.be / fincheck.be, ultimo bilancio depositato NBB; l'azienda deposita in schema abbreviato e non pubblica la cifra d'affari esatta). N. impresa BE 0462.810.754. Produzione e distribuzione di imballaggi in cartone ondulato e materiali d'imballaggio; sede Smallandlaan 37, 2660 Hoboken (Antwerpen). Origine familiare come Comptoir Verrier Anversois. IN TARGET stimato ma verificare il fatturato esatto.",
-  "referente": "Johan Stouten",
-  "ruolo": "COO",
-  "linkedin": "https://be.linkedin.com/company/covera-packaging",
-  "email": "sales@covera.be",
-  "sito": "https://covera.be",
-  "sede": "Hoboken (Anversa), Provincia di Anversa (Fiandre)",
-  "fonte": "https://fincheck.be/nl/covera-packaging/0462.810.754/Antwerpen/overzicht",
-  "_sheet": "Belgio",
-  "_row": 41
- },
- {
   "denominazione": "Desmedt Labels BV",
   "filiera": "Carta/Packaging — etichette",
   "dimensione": "Fatturato 6.500.000 € con 32 dipendenti secondo l'ultimo dato pubblicato (fonte made-in.be / Voka Ondernemers); organico più recente indicato in ca. 21 persone a Bornem. Azienda familiare fondata nel 1889 da François Desmedt, oggi alla quinta generazione (Henri Kökler); trasferita da Bruxelles a Bornem nel 2012. Etichette autoadesive prodotte in modo CO2-neutro. SOTTO il target 10-20 M€ ma dentro la fascia tollerabile 5-40 M€; dato di fatturato non recentissimo, da riverificare sul bilancio NBB.",
@@ -8313,7 +8271,7 @@
   "sede": "Bornem, Provincia di Anversa (Fiandre)",
   "fonte": "https://www.made-in.be/antwerpen/desmedt-labels-neemt-nieuwe-start/",
   "_sheet": "Belgio",
-  "_row": 42
+  "_row": 41
  },
  {
   "denominazione": "Emballages Gruselle SRL",
@@ -8327,7 +8285,7 @@
   "sede": "Fleurus, Provincia di Hainaut (Vallonia)",
   "fonte": "https://trendstop.levif.be/fr/detail/448350331/gruselle-emballages.aspx",
   "_sheet": "Belgio",
-  "_row": 43
+  "_row": 42
  },
  {
   "denominazione": "Etilux SA",
@@ -8341,7 +8299,7 @@
   "sede": "Liegi, Provincia di Liegi (Vallonia)",
   "fonte": "https://ccimag.be/2024/01/05/la-transition-generationnelle-se-finalise-chez-etilux/",
   "_sheet": "Belgio",
-  "_row": 44
+  "_row": 43
  },
  {
   "denominazione": "Imprimerie Bietlot SA",
@@ -8355,7 +8313,7 @@
   "sede": "Gilly (Charleroi), Provincia di Hainaut (Vallonia)",
   "fonte": "https://www.companyweb.be/fr/0473613485/imprimerie-bietlot",
   "_sheet": "Belgio",
-  "_row": 45
+  "_row": 44
  },
  {
   "denominazione": "Kartonnage Lefevere-Beel NV",
@@ -8369,7 +8327,7 @@
   "sede": "Wielsbeke, Provincia di Fiandre Occidentali (Fiandre)",
   "fonte": "https://www.pappers.be/nl/company/kartonnage-lefevere-beel-0413759339",
   "_sheet": "Belgio",
-  "_row": 46
+  "_row": 45
  },
  {
   "denominazione": "Label-Pak-Int'l Co SA",
@@ -8383,7 +8341,7 @@
   "sede": "Wavre, Provincia del Brabante Vallone (Vallonia)",
   "fonte": "https://www.companyweb.be/en/0402690550/label-pak-int-l-co",
   "_sheet": "Belgio",
-  "_row": 47
+  "_row": 46
  },
  {
   "denominazione": "Snel Grafics SA",
@@ -8397,7 +8355,7 @@
   "sede": "Vottem (Herstal), Provincia di Liegi (Vallonia)",
   "fonte": "https://trendstop.levif.be/fr/detail/440957842/snel-grafics.aspx",
   "_sheet": "Belgio",
-  "_row": 48
+  "_row": 47
  },
  {
   "denominazione": "Van de Velde Packaging NV",
@@ -8411,7 +8369,7 @@
   "sede": "Lichtervelde, Provincia di Fiandre Occidentali (Fiandre)",
   "fonte": "https://fincheck.be/en/van-de-velde-packaging/0444.255.050/Lichtervelde/overview",
   "_sheet": "Belgio",
-  "_row": 49
+  "_row": 48
  },
  {
   "denominazione": "Varia-Pack NV",
@@ -8425,7 +8383,7 @@
   "sede": "Wilsele (Leuven), Provincia del Brabante Fiammingo (Fiandre)",
   "fonte": "https://fincheck.be/nl/varia-pack/0407.977.446/Leuven/overzicht",
   "_sheet": "Belgio",
-  "_row": 50
+  "_row": 49
  },
  {
   "denominazione": "Belmoca NV",
@@ -8439,7 +8397,7 @@
   "sede": "Londerzeel (Fiandre, prov. Vlaams-Brabant)",
   "fonte": "https://trendstop.knack.be/nl/detail/842626627/belmoca.aspx",
   "_sheet": "Belgio",
-  "_row": 51
+  "_row": 50
  },
  {
   "denominazione": "Cafés Delahaut SRL",
@@ -8453,7 +8411,7 @@
   "sede": "Rhisnes-Suarlée / Namur (Vallonia, prov. Namur)",
   "fonte": "https://trendstop.levif.be/fr/detail/418920135/cafes-delahaut.aspx",
   "_sheet": "Belgio",
-  "_row": 52
+  "_row": 51
  },
  {
   "denominazione": "Koffie St.-Michel NV",
@@ -8467,7 +8425,7 @@
   "sede": "Anversa / Antwerpen (Fiandre, prov. Antwerpen)",
   "fonte": "https://trendstop.knack.be/nl/detail/406919552/koffie-st-michel.aspx",
   "_sheet": "Belgio",
-  "_row": 53
+  "_row": 52
  },
  {
   "denominazione": "Mokafina NV",
@@ -8481,7 +8439,7 @@
   "sede": "Wijnegem (Fiandre, prov. Antwerpen)",
   "fonte": "https://trendstop.knack.be/nl/detail/443804001/mokafina.aspx",
   "_sheet": "Belgio",
-  "_row": 54
+  "_row": 53
  },
  {
   "denominazione": "Rucquoy Frères NV",
@@ -8495,7 +8453,7 @@
   "sede": "Anversa / Antwerpen (Fiandre, prov. Antwerpen)",
   "fonte": "https://www.companyweb.be/en/0404850383/rucquoy-freres",
   "_sheet": "Belgio",
-  "_row": 55
+  "_row": 54
  },
  {
   "denominazione": "Sas NV (Sas Coffee)",
@@ -8509,7 +8467,7 @@
   "sede": "Beerse (Fiandre, prov. Antwerpen)",
   "fonte": "https://trendstop.knack.be/nl/detail/404190783/sas.aspx",
   "_sheet": "Belgio",
-  "_row": 56
+  "_row": 55
  },
  {
   "denominazione": "Silco NV",
@@ -8523,7 +8481,7 @@
   "sede": "Anversa / Antwerpen (Fiandre, prov. Antwerpen)",
   "fonte": "https://trendstop.knack.be/nl/detail/715792692/silco.aspx",
   "_sheet": "Belgio",
-  "_row": 57
+  "_row": 56
  },
  {
   "denominazione": "The Java Coffee Company NV",
@@ -8537,7 +8495,7 @@
   "sede": "Rotselaar (Fiandre, prov. Vlaams-Brabant)",
   "fonte": "https://www.companyweb.be/en/0406874220/the-java-coffee-company",
   "_sheet": "Belgio",
-  "_row": 58
+  "_row": 57
  },
  {
   "denominazione": "coffeeRoots NV",
@@ -8551,7 +8509,7 @@
   "sede": "Schilde (sede sociale) / Kruibeke (torrefazione) (Fiandre, prov. Antwerpen e Oost-Vlaanderen)",
   "fonte": "https://www.companyweb.be/en/0429473636/coffee-roots",
   "_sheet": "Belgio",
-  "_row": 59
+  "_row": 58
  },
  {
   "denominazione": "A & A Chocolaterie NV",
@@ -8565,7 +8523,7 @@
   "sede": "Lokeren (Oost-Vlaanderen) — Fiandre",
   "fonte": "https://www.companyweb.be/en/0892388320/a-a-chocolaterie",
   "_sheet": "Belgio",
-  "_row": 60
+  "_row": 59
  },
  {
   "denominazione": "Belvas SA",
@@ -8579,7 +8537,7 @@
   "sede": "Ghislenghien / Meslin-l'Évêque (Ath), Hainaut — Vallonia",
   "fonte": "https://www.pappers.be/fr/company/belvas-0472516692",
   "_sheet": "Belgio",
-  "_row": 61
+  "_row": 60
  },
  {
   "denominazione": "Bruyerre Chocolates SA",
@@ -8593,7 +8551,7 @@
   "sede": "Gosselies (Charleroi), Hainaut — Vallonia",
   "fonte": "https://trendstop.levif.be/fr/detail/688794525/bruyerre-chocolates.aspx",
   "_sheet": "Belgio",
-  "_row": 62
+  "_row": 61
  },
  {
   "denominazione": "Chocolaterie Ickx NV",
@@ -8607,7 +8565,7 @@
   "sede": "Essen (Anversa) — Fiandre",
   "fonte": "https://www.companyweb.be/en/0421359189/chocolaterie-ickx",
   "_sheet": "Belgio",
-  "_row": 63
+  "_row": 62
  },
  {
   "denominazione": "Confiserie De Bie - L'Abeille - Trefin NV",
@@ -8621,21 +8579,7 @@
   "sede": "Lokeren (Oost-Vlaanderen) — Fiandre",
   "fonte": "https://www.companyweb.be/en/0400120050/confiserie-de-bie-l-abeille-trefin",
   "_sheet": "Belgio",
-  "_row": 64
- },
- {
-  "denominazione": "Confiserie Vandenbulcke NV",
-  "filiera": "Cacao/Cioccolato — praline e tavolette",
-  "dimensione": "Fatturato 13.332.120 € e 31,5 FTE (fonte: companyweb.be, ultimo bilancio depositato NBB, deposito 26-12-2024). N. impresa BE 0417.738.319. Fondata 1949; export in oltre 50 paesi. In pieno target 10-20 M€.",
-  "referente": "",
-  "ruolo": "",
-  "linkedin": "https://be.linkedin.com/company/chocolatiervandenbulcke",
-  "email": "info@vandenbulcke.com",
-  "sito": "https://www.vandenbulcke.com/",
-  "sede": "Heule, Kortrijk (West-Vlaanderen) — Fiandre",
-  "fonte": "https://www.companyweb.be/en/0417738319/confiserie-vandenbulcke",
-  "_sheet": "Belgio",
-  "_row": 65
+  "_row": 63
  },
  {
   "denominazione": "Corné Port-Royal Chocolatier SA",
@@ -8649,7 +8593,7 @@
   "sede": "Wavre (Brabant wallon) — Vallonia",
   "fonte": "https://www.companyweb.be/en/0433283558/corne-port-royal-chocolatier",
   "_sheet": "Belgio",
-  "_row": 66
+  "_row": 64
  },
  {
   "denominazione": "Delafaille NV",
@@ -8663,7 +8607,7 @@
   "sede": "Melsele, Beveren-Kruibeke-Zwijndrecht (Oost-Vlaanderen) — Fiandre",
   "fonte": "https://trendstop.knack.be/nl/detail/467502683/delafaille.aspx",
   "_sheet": "Belgio",
-  "_row": 67
+  "_row": 65
  },
  {
   "denominazione": "Dolfin SA",
@@ -8677,7 +8621,7 @@
   "sede": "Baulers, Nivelles (Brabant wallon) — Vallonia",
   "fonte": "https://www.companyweb.be/en/0437332220/dolfin",
   "_sheet": "Belgio",
-  "_row": 68
+  "_row": 66
  },
  {
   "denominazione": "Gudrun Commercial NV",
@@ -8691,7 +8635,7 @@
   "sede": "Lier (Anversa) — Fiandre",
   "fonte": "https://www.companyweb.be/en/0476530118/gudrun-commercial",
   "_sheet": "Belgio",
-  "_row": 69
+  "_row": 67
  },
  {
   "denominazione": "La Chocolaterie Galler SA",
@@ -8705,7 +8649,7 @@
   "sede": "Vaux-sous-Chèvremont (Chaudfontaine), Liegi — Vallonia",
   "fonte": "https://www.pappers.be/fr/company/la-chocolaterie-galler-0416169689",
   "_sheet": "Belgio",
-  "_row": 70
+  "_row": 68
  },
  {
   "denominazione": "Libeert NV",
@@ -8719,7 +8663,7 @@
   "sede": "Comines-Warneton (Komen-Waasten), Hainaut — Vallonia",
   "fonte": "https://www.companyweb.be/en/0407026747/libeert",
   "_sheet": "Belgio",
-  "_row": 71
+  "_row": 69
  },
  {
   "denominazione": "Manufacture Belge de Chocolats SRL",
@@ -8733,7 +8677,7 @@
   "sede": "Koekelberg, Bruxelles (1081) — Regione di Bruxelles-Capitale",
   "fonte": "https://trendstop.levif.be/fr/detail/722764519/manufacture-belge-de-chocolats.aspx",
   "_sheet": "Belgio",
-  "_row": 72
+  "_row": 70
  },
  {
   "denominazione": "Oxfam Fair Trade CV",
@@ -8747,7 +8691,7 @@
   "sede": "Gent (Oost-Vlaanderen) — Fiandre",
   "fonte": "https://trendstop.knack.be/nl/detail/453066016/oxfam-fairtrade.aspx",
   "_sheet": "Belgio",
-  "_row": 73
+  "_row": 71
  },
  {
   "denominazione": "Pierre Marcolini Group SA",
@@ -8761,7 +8705,7 @@
   "sede": "Bruxelles (Haren, 1130) — Regione di Bruxelles-Capitale",
   "fonte": "https://www.pappers.be/fr/company/pierre-marcolini-group-0461740982",
   "_sheet": "Belgio",
-  "_row": 74
+  "_row": 72
  },
  {
   "denominazione": "Pralinart NV",
@@ -8775,7 +8719,21 @@
   "sede": "Lokeren (Oost-Vlaanderen) — Fiandre",
   "fonte": "https://www.companyweb.be/en/0450589051/pralinart",
   "_sheet": "Belgio",
-  "_row": 75
+  "_row": 73
+ },
+ {
+  "denominazione": "Vandenbulcke Confiserie NV",
+  "filiera": "Cacao/Cioccolato — praline e tavolette",
+  "dimensione": "Fatturato 13.332.120 € e 31,5 FTE (fonte: companyweb.be, ultimo bilancio depositato NBB, deposito 26-12-2024). N. impresa BE 0417.738.319. Fondata 1949; export in oltre 50 paesi. In pieno target 10-20 M€.",
+  "referente": "",
+  "ruolo": "",
+  "linkedin": "https://be.linkedin.com/company/chocolatiervandenbulcke",
+  "email": "info@vandenbulcke.com",
+  "sito": "https://www.vandenbulcke.com/",
+  "sede": "Heule, Kortrijk (West-Vlaanderen) — Fiandre",
+  "fonte": "https://www.companyweb.be/en/0417738319/confiserie-vandenbulcke",
+  "_sheet": "Belgio",
+  "_row": 74
  },
  {
   "denominazione": "Hannecard Benelux NV",
@@ -8789,21 +8747,7 @@
   "sede": "Ronse / Renaix (Oost-Vlaanderen)",
   "fonte": "https://trendstop.knack.be/nl/detail/694906812/hannecard-benelux.aspx",
   "_sheet": "Belgio",
-  "_row": 76
- },
- {
-  "denominazione": "Helvoet Rubber & Plastic Technologies NV",
-  "filiera": "Gomma — articoli tecnici in gomma stampata",
-  "dimensione": "Fatturato ca. 17,48 M EUR (Trends Top/NBB, ultimo esercizio pubblicato); n. impresa BE 0867.662.822",
-  "referente": "",
-  "ruolo": "",
-  "linkedin": "",
-  "email": "info.lommel@helvoet.com",
-  "sito": "https://www.helvoet.com/",
-  "sede": "Lommel (Limburg, Vlaanderen)",
-  "fonte": "https://trendstop.knack.be/nl/detail/867662822/helvoet-rubber-plastic-technolog-.aspx",
-  "_sheet": "Belgio",
-  "_row": 77
+  "_row": 75
  },
  {
   "denominazione": "Hercorub NV",
@@ -8817,7 +8761,7 @@
   "sede": "Lanaken (Limburg, Vlaanderen)",
   "fonte": "https://trendstop.knack.be/nl/detail/421767381/hercorub.aspx",
   "_sheet": "Belgio",
-  "_row": 78
+  "_row": 76
  },
  {
   "denominazione": "Hexpol Compounding BV",
@@ -8831,7 +8775,7 @@
   "sede": "Eupen (Liège, Wallonie – Ostbelgien)",
   "fonte": "https://trendstop.knack.be/nl/detail/430105126/hexpol-compounding.aspx",
   "_sheet": "Belgio",
-  "_row": 79
+  "_row": 77
  },
  {
   "denominazione": "Baert Mengvoeders NV",
@@ -8845,7 +8789,21 @@
   "sede": "Zele (Oost-Vlaanderen)",
   "fonte": "https://trendstop.knack.be/nl/detail/455400845/baert-mengvoeders.aspx",
   "_sheet": "Belgio",
-  "_row": 80
+  "_row": 78
+ },
+ {
+  "denominazione": "Repro NV",
+  "filiera": "Mangimi/Soia — raffinazione olio di soia non-OGM (con mais e girasole alto oleico)",
+  "dimensione": "Fatturato 14.157.353 EUR (Trends Top/NBB, ultimo esercizio pubblicato); 1-5 dipendenti (societa' di raffinazione del Group Vandamme); n. impresa BE 0439.000.818",
+  "referente": "",
+  "ruolo": "",
+  "linkedin": "",
+  "email": "n.d.",
+  "sito": "https://www.groupvandamme.com/",
+  "sede": "Deinze (Oost-Vlaanderen)",
+  "fonte": "https://trendstop.knack.be/nl/detail/439000818/repro.aspx",
+  "_sheet": "Belgio",
+  "_row": 79
  },
  {
   "denominazione": "Vanrobaeys Granen & Zaden NV",
@@ -8859,7 +8817,7 @@
   "sede": "Menen-Rekkem (West-Vlaanderen)",
   "fonte": "https://trendstop.knack.be/nl/detail/452220037/vanrobaeys-granen-zaden.aspx",
   "_sheet": "Belgio",
-  "_row": 81
+  "_row": 80
  },
  {
   "denominazione": "Voeders Debaillie NV",
@@ -8873,7 +8831,7 @@
   "sede": "Roeselare (West-Vlaanderen)",
   "fonte": "https://trendstop.knack.be/nl/detail/405174839/voeders-debaillie.aspx",
   "_sheet": "Belgio",
-  "_row": 82
+  "_row": 81
  },
  {
   "denominazione": "Voeders Mellaerts NV",
@@ -8887,7 +8845,7 @@
   "sede": "Tielt-Winge (Sint-Joris-Winge, Vlaams-Brabant)",
   "fonte": "https://trendstop.knack.be/nl/detail/455669079/voeders-mellaerts.aspx",
   "_sheet": "Belgio",
-  "_row": 83
+  "_row": 82
  },
  {
   "denominazione": "Voeders Scherrens NV",
@@ -8901,21 +8859,7 @@
   "sede": "Wingene (West-Vlaanderen)",
   "fonte": "https://trendstop.knack.be/nl/detail/421626732/voeders-scherrens.aspx",
   "_sheet": "Belgio",
-  "_row": 84
- },
- {
-  "denominazione": "Vandeputte Oleochemicals SA",
-  "filiera": "Olio di palma — raffinazione oli vegetali (soia, lino)",
-  "dimensione": "Fatturato 34.266.885 EUR (Trends Top/NBB, ultimo esercizio pubblicato); 18 FTE — taglia gonfiata dal costo materia prima; n. impresa BE 0471.546.593",
-  "referente": "",
-  "ruolo": "",
-  "linkedin": "",
-  "email": "n.d.",
-  "sito": "https://www.vandeputte.com/en/oleochemicals/",
-  "sede": "Mouscron (Hainaut, Wallonie)",
-  "fonte": "https://trendstop.levif.be/fr/detail/471546593/vandeputte-oleochemicals.aspx",
-  "_sheet": "Belgio",
-  "_row": 85
+  "_row": 83
  },
  {
   "denominazione": "Baeten & Co NV",
@@ -8929,21 +8873,7 @@
   "sede": "Berlare (Overmere, Oost-Vlaanderen)",
   "fonte": "https://www.companyweb.be/en/0447081908/baeten-co",
   "_sheet": "Belgio",
-  "_row": 86
- },
- {
-  "denominazione": "Repro NV",
-  "filiera": "Olio di palma — raffinazione oli e grassi vegetali",
-  "dimensione": "Fatturato 14.157.353 EUR (Trends Top/NBB, ultimo esercizio pubblicato); 1-5 dipendenti (societa' di raffinazione del Group Vandamme); n. impresa BE 0439.000.818",
-  "referente": "",
-  "ruolo": "",
-  "linkedin": "",
-  "email": "n.d.",
-  "sito": "https://www.groupvandamme.com/",
-  "sede": "Deinze (Oost-Vlaanderen)",
-  "fonte": "https://trendstop.knack.be/nl/detail/439000818/repro.aspx",
-  "_sheet": "Belgio",
-  "_row": 87
+  "_row": 84
  },
  {
   "denominazione": "Royale Lacroix SA",
@@ -8957,7 +8887,7 @@
   "sede": "Flémalle (Liège, Wallonie)",
   "fonte": "https://www.companyweb.be/en/0404423583/royale-lacroix",
   "_sheet": "Belgio",
-  "_row": 88
+  "_row": 85
  },
  {
   "denominazione": "Ameloot BV",
@@ -8971,7 +8901,7 @@
   "sede": "Harelbeke (West-Vlaanderen, Fiandre)",
   "fonte": "https://trendstop.knack.be/nl/detail/413029562/ameloot.aspx",
   "_sheet": "Belgio",
-  "_row": 89
+  "_row": 86
  },
  {
   "denominazione": "Dierickx NV",
@@ -8985,7 +8915,7 @@
   "sede": "Zele (Oost-Vlaanderen, Fiandre)",
   "fonte": "https://trendstop.knack.be/nl/detail/422204673/dierickx.aspx",
   "_sheet": "Belgio",
-  "_row": 90
+  "_row": 87
  },
  {
   "denominazione": "Euro Meat Group NV",
@@ -8999,7 +8929,7 @@
   "sede": "Moeskroen / Mouscron (Hainaut, Vallonia)",
   "fonte": "https://vilt.be/nl/nieuws/vijf-vleesspecialisten-nemen-familiebedrijf-derwa-over",
   "_sheet": "Belgio",
-  "_row": 91
+  "_row": 88
  },
  {
   "denominazione": "Jos Leemput BV",
@@ -9013,7 +8943,7 @@
   "sede": "Tienen / Hakendover (Vlaams-Brabant, Fiandre)",
   "fonte": "https://trendstop.knack.be/nl/detail/424110724/leemput-jos.aspx",
   "_sheet": "Belgio",
-  "_row": 92
+  "_row": 89
  },
  {
   "denominazione": "Slachthuis Swaegers NV",
@@ -9027,7 +8957,7 @@
   "sede": "Hoogstraten (Antwerpen, Fiandre)",
   "fonte": "https://trendstop.knack.be/nl/detail/436764571/swaegers-slachthuis.aspx",
   "_sheet": "Belgio",
-  "_row": 93
+  "_row": 90
  },
  {
   "denominazione": "Slachthuis Velzeke BV",
@@ -9041,7 +8971,7 @@
   "sede": "Velzeke-Ruddershove, Zottegem (Oost-Vlaanderen, Fiandre)",
   "fonte": "https://www.companyweb.be/nl/1018071121/slachthuis-velzeke",
   "_sheet": "Belgio",
-  "_row": 94
+  "_row": 91
  },
  {
   "denominazione": "Sopraco NV",
@@ -9055,7 +8985,7 @@
   "sede": "Geel (Antwerpen, Fiandre)",
   "fonte": "https://trendstop.knack.be/en/detail/507988901/sopraco.aspx",
   "_sheet": "Belgio",
-  "_row": 95
+  "_row": 92
  },
  {
   "denominazione": "Van De Walle SRL",
@@ -9069,7 +8999,7 @@
   "sede": "Wayaux / Villers-Perwin, Les Bons Villers (Hainaut, Vallonia)",
   "fonte": "https://trendstop.levif.be/fr/detail/893625564/van-de-walle.aspx",
   "_sheet": "Belgio",
-  "_row": 96
+  "_row": 93
  },
  {
   "denominazione": "Vleeshandel Vens NV",
@@ -9083,7 +9013,7 @@
   "sede": "Lendelede (West-Vlaanderen, Fiandre)",
   "fonte": "https://www.companyweb.be/en/0468329064/vleeshandel-vens",
   "_sheet": "Belgio",
-  "_row": 97
+  "_row": 94
  },
  {
   "denominazione": "Ludwig Reiter Schuhmanufaktur GmbH",
@@ -9128,6 +9058,20 @@
   "_row": 5
  },
  {
+  "denominazione": "\"Storebest\" Ladeneinrichtungen Gesellschaft m.b.H.",
+  "filiera": "Legno/Arredo — arredi negozi",
+  "dimensione": "50-60 dipendenti (firmenabc.at / herold.at, 2024); fatturato non pubblicato. Grande falegnameria industriale interna per arredi negozi e retail; fondata 1960.",
+  "referente": "Gernot Karlsböck",
+  "ruolo": "Geschäftsführer",
+  "linkedin": "",
+  "email": "office@storebest.at",
+  "sito": "https://www.storebest.at",
+  "sede": "Aschach an der Steyr, Oberösterreich",
+  "fonte": "https://www.firmenabc.at/storebest-ladeneinrichtungen-gesellschaft-m-b-h_um",
+  "_sheet": "Austria",
+  "_row": 6
+ },
+ {
   "denominazione": "ANREI-Reisinger Gesellschaft m.b.H.",
   "filiera": "Legno/Arredo — mobili massello",
   "dimensione": "100-249 dipendenti (Kompass/karriere.at, 2024); fatturato non pubblicato. Produttore di mobili in legno massello (soggiorno, zona notte, sala da pranzo).",
@@ -9139,7 +9083,7 @@
   "sede": "Pabneukirchen, Oberösterreich",
   "fonte": "https://www.firmenabc.at/anrei-reisinger-gesellschaft-m-b-h_DId",
   "_sheet": "Austria",
-  "_row": 6
+  "_row": 7
  },
  {
   "denominazione": "BRAUN LOCKENHAUS GmbH",
@@ -9153,7 +9097,7 @@
   "sede": "Lockenhaus (Hammerteich), Burgenland",
   "fonte": "https://www.firmenabc.at/braun-lockenhaus-gmbh_Foy",
   "_sheet": "Austria",
-  "_row": 7
+  "_row": 8
  },
  {
   "denominazione": "Breitschopf Gesellschaft mbH & Co KG",
@@ -9167,7 +9111,7 @@
   "sede": "Dietach, Oberösterreich",
   "fonte": "https://www.breitschopf.at/impressum/",
   "_sheet": "Austria",
-  "_row": 8
+  "_row": 9
  },
  {
   "denominazione": "CONFORM Badmöbel GmbH",
@@ -9181,7 +9125,7 @@
   "sede": "Imst, Tirol",
   "fonte": "https://www.firmenabc.at/conform-badmoebel-gesellschaft-m-b-h_GrLx",
   "_sheet": "Austria",
-  "_row": 9
+  "_row": 10
  },
  {
   "denominazione": "HOLZBAU MAIER GmbH & Co KG",
@@ -9195,7 +9139,7 @@
   "sede": "Bramberg am Wildkogel (Salzburg)",
   "fonte": "https://die-deutsche-wirtschaft.de/famu_top/oesterreich-holzbau-maier-gmbh-co-kg-bramberg-umsatz-mitarbeiterzahl/",
   "_sheet": "Austria",
-  "_row": 10
+  "_row": 11
  },
  {
   "denominazione": "Holzindustrie Kaml & Huber Gesellschaft m.b.H.",
@@ -9209,7 +9153,7 @@
   "sede": "Rottenmann (Steiermark)",
   "fonte": "https://www.kaml-huber.com/impressum",
   "_sheet": "Austria",
-  "_row": 11
+  "_row": 12
  },
  {
   "denominazione": "Holzindustrie Schafler GmbH & Co KG",
@@ -9223,7 +9167,7 @@
   "sede": "Hirnsdorf (Steiermark)",
   "fonte": "https://holzindustrie-steiermark.industrielandkarte.com/betriebe/holzindustrie-schafler",
   "_sheet": "Austria",
-  "_row": 12
+  "_row": 13
  },
  {
   "denominazione": "Hrachowina Fenster & Türen GmbH",
@@ -9237,7 +9181,7 @@
   "sede": "Wien (Wien)",
   "fonte": "https://www.firmenabc.at/hrachowina-fenster-tueren-gmbh_Gzxo",
   "_sheet": "Austria",
-  "_row": 13
+  "_row": 14
  },
  {
   "denominazione": "J.C. Bawart & Söhne GmbH & Co KG",
@@ -9251,7 +9195,7 @@
   "sede": "Sulz (Vorarlberg)",
   "fonte": "https://www.bawart.at/willkommen/firmenprofil/",
   "_sheet": "Austria",
-  "_row": 14
+  "_row": 15
  },
  {
   "denominazione": "Jannach Lärchenholz GmbH",
@@ -9265,7 +9209,7 @@
   "sede": "Thalheim (Steiermark)",
   "fonte": "https://jannach.com/kontakt/impressum.html",
   "_sheet": "Austria",
-  "_row": 15
+  "_row": 16
  },
  {
   "denominazione": "Josef Speckner GmbH",
@@ -9279,7 +9223,7 @@
   "sede": "Schwand im Innkreis (Oberösterreich)",
   "fonte": "https://www.speckner.at/impressum/",
   "_sheet": "Austria",
-  "_row": 16
+  "_row": 17
  },
  {
   "denominazione": "Kager Fenster GmbH",
@@ -9293,10 +9237,10 @@
   "sede": "Vorau (Steiermark)",
   "fonte": "https://die-deutsche-wirtschaft.de/famu_top/oesterreich-kager-fenster-gmbh-vorau-umsatz-mitarbeiterzahl/",
   "_sheet": "Austria",
-  "_row": 17
+  "_row": 18
  },
  {
-  "denominazione": "Karnische Massiv Möbel GmbH",
+  "denominazione": "Karnische-Massiv-Möbel Gesellschaft m.b.H.",
   "filiera": "Legno/Arredo — mobili e cucine massello",
   "dimensione": "ca. 40 dipendenti (km-moebel.at / meinbezirk.at, 2024); fatturato non pubblicato. AZIENDA DI CONFINE: taglia probabilmente sotto i 10 M€. Produce cucine, mobili in massello, imbottiti e porte interne.",
   "referente": "Werner Hohenwarter",
@@ -9307,7 +9251,7 @@
   "sede": "Kirchbach, Kärnten",
   "fonte": "https://www.gewerbeverzeichnis-oesterreich.at/karnische_massiv_moebel_gmbh/2225.html",
   "_sheet": "Austria",
-  "_row": 18
+  "_row": 19
  },
  {
   "denominazione": "Kienpointner GmbH",
@@ -9321,7 +9265,7 @@
   "sede": "Waidring, Tirol",
   "fonte": "https://www.firmenabc.at/kienpointner-gmbh_KKyx",
   "_sheet": "Austria",
-  "_row": 19
+  "_row": 20
  },
  {
   "denominazione": "MAFI Naturholzboden GmbH",
@@ -9335,7 +9279,7 @@
   "sede": "Schneegattern, Lengau (Oberösterreich)",
   "fonte": "https://www.firmenabc.at/mafi-naturholzboden-gmbh_aTw",
   "_sheet": "Austria",
-  "_row": 20
+  "_row": 21
  },
  {
   "denominazione": "Mayr - Schulmöbel Gesellschaft m.b.H.",
@@ -9349,7 +9293,7 @@
   "sede": "Scharnstein, Oberösterreich",
   "fonte": "https://www.firmenabc.at/mayr-schulmoebel-gesellschaft-m-b-h_cOe",
   "_sheet": "Austria",
-  "_row": 21
+  "_row": 22
  },
  {
   "denominazione": "Meiberger Holzbau GmbH",
@@ -9363,7 +9307,7 @@
   "sede": "Lofer (Salzburg)",
   "fonte": "https://www.firmenabc.at/meiberger-holzbau-gmbh_cXK",
   "_sheet": "Austria",
-  "_row": 22
+  "_row": 23
  },
  {
   "denominazione": "Meyer Parkett GmbH",
@@ -9377,7 +9321,7 @@
   "sede": "Kalsdorf bei Graz (Steiermark)",
   "fonte": "https://die-deutsche-wirtschaft.de/famu_top/oesterreich-meyer-parkett-gmbh-kalsdorf-bei-graz-umsatz-mitarbeiterzahl/",
   "_sheet": "Austria",
-  "_row": 23
+  "_row": 24
  },
  {
   "denominazione": "Mühlbauer Holz GmbH",
@@ -9391,7 +9335,7 @@
   "sede": "Himberg (Niederösterreich)",
   "fonte": "https://www.firmenabc.at/muehlbauer-holz-gmbh_NJFw",
   "_sheet": "Austria",
-  "_row": 24
+  "_row": 25
  },
  {
   "denominazione": "Pußwald Holz GmbH",
@@ -9405,7 +9349,7 @@
   "sede": "Sinabelkirchen (Steiermark)",
   "fonte": "https://pusswald-holz.at/kontakt/impressum/",
   "_sheet": "Austria",
-  "_row": 25
+  "_row": 26
  },
  {
   "denominazione": "RELAX Natürlich Wohnen GmbH",
@@ -9419,7 +9363,7 @@
   "sede": "Obertrum am See, Salzburg",
   "fonte": "https://www.firmenabc.at/relax-natuerlich-wohnen-gmbh_DcBP",
   "_sheet": "Austria",
-  "_row": 26
+  "_row": 27
  },
  {
   "denominazione": "Rauchenzauner Möbel GmbH",
@@ -9433,7 +9377,7 @@
   "sede": "Frankenmarkt, Oberösterreich",
   "fonte": "https://www.firmenabc.at/rauchenzauner-moebel-gmbh_BBBnb",
   "_sheet": "Austria",
-  "_row": 27
+  "_row": 28
  },
  {
   "denominazione": "SAMINA Produktions- und Handels GmbH",
@@ -9447,7 +9391,7 @@
   "sede": "Frastanz, Vorarlberg",
   "fonte": "https://www.firmenabc.at/samina-produktions-und-handels-gmbh_iqg",
   "_sheet": "Austria",
-  "_row": 28
+  "_row": 29
  },
  {
   "denominazione": "SCHAFFER SÄGEWERK-HOLZEXPORT GmbH",
@@ -9461,7 +9405,7 @@
   "sede": "Eppenstein, Weißkirchen in Steiermark (Steiermark)",
   "fonte": "https://holzindustrie-steiermark.industrielandkarte.com/betriebe/schaffer-sagewerk-holzexport-gmbh",
   "_sheet": "Austria",
-  "_row": 29
+  "_row": 30
  },
  {
   "denominazione": "Schösswender Möbel Gesellschaft m.b.H.",
@@ -9475,7 +9419,7 @@
   "sede": "Franking, Oberösterreich",
   "fonte": "https://www.firmenabc.at/schoesswender-moebel-gesellschaft-m-b-h_jQF",
   "_sheet": "Austria",
-  "_row": 30
+  "_row": 31
  },
  {
   "denominazione": "Sohm HolzBautechnik GmbH",
@@ -9489,7 +9433,7 @@
   "sede": "Alberschwende (Vorarlberg)",
   "fonte": "https://www.sohm-holzbau.at/impressum",
   "_sheet": "Austria",
-  "_row": 31
+  "_row": 32
  },
  {
   "denominazione": "Speedmaster GmbH",
@@ -9502,20 +9446,6 @@
   "sito": "https://www.speedmaster.at",
   "sede": "Eberstalzell, Oberösterreich",
   "fonte": "https://www.firmenabc.at/speedmaster-gmbh_kRv",
-  "_sheet": "Austria",
-  "_row": 32
- },
- {
-  "denominazione": "Storebest Ladeneinrichtungen GmbH",
-  "filiera": "Legno/Arredo — arredi negozi",
-  "dimensione": "50-60 dipendenti (firmenabc.at / herold.at, 2024); fatturato non pubblicato. Grande falegnameria industriale interna per arredi negozi e retail; fondata 1960.",
-  "referente": "Gernot Karlsböck",
-  "ruolo": "Geschäftsführer",
-  "linkedin": "",
-  "email": "office@storebest.at",
-  "sito": "https://www.storebest.at",
-  "sede": "Aschach an der Steyr, Oberösterreich",
-  "fonte": "https://www.firmenabc.at/storebest-ladeneinrichtungen-gesellschaft-m-b-h_um",
   "_sheet": "Austria",
   "_row": 33
  },
@@ -9548,20 +9478,6 @@
   "_row": 35
  },
  {
-  "denominazione": "Weissengruber Möbelmanufaktur GmbH",
-  "filiera": "Legno/Arredo — mobili e arredi hotel",
-  "dimensione": "ca. 60 dipendenti (weissengruber.at, 2024); fatturato non pubblicato. Produzione di mobili di alta gamma per rivenditori specializzati e per l'ospitalità. Possibile taglia sotto i 10 M€.",
-  "referente": "Klaus Weissengruber",
-  "ruolo": "Geschäftsführer",
-  "linkedin": "",
-  "email": "office@weissengruber.at",
-  "sito": "https://www.weissengruber.at",
-  "sede": "Ried in der Riedmark, Oberösterreich",
-  "fonte": "https://www.firmenabc.at/weissengruber-moebelmanufaktur-gmbh_BBdYe",
-  "_sheet": "Austria",
-  "_row": 36
- },
- {
   "denominazione": "Wittmann Möbelwerkstätten GmbH",
   "filiera": "Legno/Arredo — mobili imbottiti",
   "dimensione": "120 dipendenti (firmenabc.at, 2024); totale attivo di bilancio 9,6 M€ al 31.12.2024. Fatturato non pubblicato: 23,5 M€ nel 2005 (MÖBELMARKT); una stima Die Deutsche Wirtschaft indica 45 M€ ma appare incoerente con il bilancio. AZIENDA DI CONFINE sul lato alto. Imbottiti di alta gamma in legno + pelle (doppia rilevanza EUDR), export ca. 70%.",
@@ -9573,7 +9489,7 @@
   "sede": "Etsdorf am Kamp, Niederösterreich",
   "fonte": "https://www.firmenabc.at/wittmann-moebelwerkstaetten-gmbh_NVdS",
   "_sheet": "Austria",
-  "_row": 37
+  "_row": 36
  },
  {
   "denominazione": "Zöchling-Holz GmbH & Co. KG",
@@ -9587,7 +9503,7 @@
   "sede": "Gerasdorf bei Wien (Niederösterreich)",
   "fonte": "https://firmen.wko.at/z%C3%B6chling-holz-gmbh---co-kg-der-holzfachmarkt/nieder%C3%B6sterreich/?firmaid=6dae60ea-74f3-4abe-b47c-6d66fe0f4ef6",
   "_sheet": "Austria",
-  "_row": 38
+  "_row": 37
  },
  {
   "denominazione": "steininger.designers gmbh",
@@ -9601,7 +9517,7 @@
   "sede": "St. Martin im Mühlkreis, Oberösterreich",
   "fonte": "https://www.firmenabc.at/steininger-designers-gmbh_Eqjo",
   "_sheet": "Austria",
-  "_row": 39
+  "_row": 38
  },
  {
   "denominazione": "weinberger-holz gmbh",
@@ -9615,7 +9531,7 @@
   "sede": "Reichenfels (Kärnten)",
   "fonte": "https://www.firmenabc.at/weinberger-holz-gmbh_IPdi",
   "_sheet": "Austria",
-  "_row": 40
+  "_row": 39
  },
  {
   "denominazione": "Alvorada Kaffeerösterei GmbH",
@@ -9629,7 +9545,7 @@
   "sede": "Vienna (Wien), Leopoldstadt",
   "fonte": "https://www.firmenabc.at/alvorada-kaffeeroesterei-gmbh_OibN",
   "_sheet": "Austria",
-  "_row": 41
+  "_row": 40
  },
  {
   "denominazione": "BAG Ölmühle BetriebsgmbH",
@@ -9643,7 +9559,7 @@
   "sede": "Güssing, Burgenland",
   "fonte": "https://www.bagoil.at/en/impressum/",
   "_sheet": "Austria",
-  "_row": 42
+  "_row": 41
  },
  {
   "denominazione": "Franz Hauswirth Ges.m.b.H.",
@@ -9657,7 +9573,7 @@
   "sede": "Kittsee, Burgenland",
   "fonte": "https://www.firmenabc.at/franz-hauswirth-ges-m-b-h_EukA",
   "_sheet": "Austria",
-  "_row": 43
+  "_row": 42
  },
  {
   "denominazione": "KUK-Austria GmbH",
@@ -9671,7 +9587,7 @@
   "sede": "Ried im Innkreis (Auleiten 4), Alta Austria (Oberösterreich)",
   "fonte": "https://www.rspo.org/members/3170/kuk-austria-gmbh",
   "_sheet": "Austria",
-  "_row": 44
+  "_row": 43
  },
  {
   "denominazione": "Soy Austria Produktions GmbH",
@@ -9685,7 +9601,7 @@
   "sede": "Uttendorf / Prinzersdorf (Bezirk St. Pölten-Land), Bassa Austria (Niederösterreich)",
   "fonte": "https://soyaustria.com/de/impressum/",
   "_sheet": "Austria",
-  "_row": 45
+  "_row": 44
  },
  {
   "denominazione": "TEGUM Technische Gummiwaren Gesellschaft m.b.H. & Co.",
@@ -9699,21 +9615,7 @@
   "sede": "Hallein, Salzburg",
   "fonte": "https://www.firmenabc.at/tegum-technische-gummiwaren-gesellschaft-m-b-h-co_lgH",
   "_sheet": "Austria",
-  "_row": 46
- },
- {
-  "denominazione": "Bayer Kartonagen GmbH",
-  "filiera": "Carta/Packaging — cartotecnica",
-  "dimensione": "Fatturato 12 Mio. € con 80 dipendenti (fonte Vorarlberger Nachrichten VN.at, intervista 08.11.2019); stima successiva 27,3 Mio. € (die-deutsche-wirtschaft.de ranking, dato stimato). Firmenbuch FN 388412w. Impresa familiare di 3a generazione, Schillerstraße 16. IN TARGET 10-20 M€ secondo il dato pubblicato. ATTENZIONE LEGAME DI GRUPPO: la produzione è stata rilevata da Schwarzach Packaging (Schwarzach, Vorarlberg) con effetto retroattivo dal 1° gennaio - verificare l'assetto attuale prima del contatto.",
-  "referente": "Josef Andreas Bayer",
-  "ruolo": "Geschäftsführer",
-  "linkedin": "https://at.linkedin.com/company/bayer-kartonagen-gmbh",
-  "email": "office@bayer-kartonagen.com",
-  "sito": "https://www.bayer-kartonagen.com",
-  "sede": "Lustenau, Vorarlberg",
-  "fonte": "https://www.firmenabc.at/bayer-kartonagen-gmbh_IPzn",
-  "_sheet": "Austria",
-  "_row": 47
+  "_row": 45
  },
  {
   "denominazione": "Bösmüller Print Management GesmbH & Co KG",
@@ -9727,7 +9629,7 @@
   "sede": "Stockerau, Bassa Austria (Niederösterreich)",
   "fonte": "https://boesmueller.at/impressum/",
   "_sheet": "Austria",
-  "_row": 48
+  "_row": 46
  },
  {
   "denominazione": "CARINI GmbH",
@@ -9741,7 +9643,7 @@
   "sede": "Lustenau, Vorarlberg",
   "fonte": "https://www.carini.at/unternehmen-karriere/impressum/",
   "_sheet": "Austria",
-  "_row": 49
+  "_row": 47
  },
  {
   "denominazione": "Flatz GmbH",
@@ -9755,7 +9657,7 @@
   "sede": "Lauterach, Vorarlberg",
   "fonte": "https://www.flatz.com/de/karriere/kontakt/",
   "_sheet": "Austria",
-  "_row": 50
+  "_row": 48
  },
  {
   "denominazione": "Gruber Karton Kreativ GmbH",
@@ -9769,7 +9671,7 @@
   "sede": "Ried im Innkreis, Alta Austria (Oberösterreich)",
   "fonte": "https://firmen.wko.at/gruber-karton-kreativ-gmbh-hersteller-von-kartonagen-karton-und-wellpappverpackungen/ober%C3%B6sterreich/?firmaid=d38297c8-65cd-4957-b852-3e53194f9fbd",
   "_sheet": "Austria",
-  "_row": 51
+  "_row": 49
  },
  {
   "denominazione": "Kliemstein Papierverarbeitungs GmbH",
@@ -9783,7 +9685,7 @@
   "sede": "Feldbach, Stiria (Steiermark)",
   "fonte": "https://www.kliemstein.co.at/impressum/",
   "_sheet": "Austria",
-  "_row": 52
+  "_row": 50
  },
  {
   "denominazione": "Margarethner Verpackungsgesellschaft m.b.H.",
@@ -9797,7 +9699,7 @@
   "sede": "Margarethen am Moos, Bassa Austria (Niederösterreich)",
   "fonte": "https://mvg.co.at/impressum",
   "_sheet": "Austria",
-  "_row": 53
+  "_row": 51
  },
  {
   "denominazione": "MÜROLL GmbH",
@@ -9811,7 +9713,7 @@
   "sede": "Frastanz, Vorarlberg",
   "fonte": "https://www.mueroll.com/en/imprint",
   "_sheet": "Austria",
-  "_row": 54
+  "_row": 52
  },
  {
   "denominazione": "Print Alliance HAV Produktions GmbH",
@@ -9825,7 +9727,7 @@
   "sede": "Bad Vöslau, Bassa Austria (Niederösterreich)",
   "fonte": "https://printalliance.at/impressum",
   "_sheet": "Austria",
-  "_row": 55
+  "_row": 53
  },
  {
   "denominazione": "Salzer Papier GmbH",
@@ -9839,7 +9741,7 @@
   "sede": "St. Pölten (Stattersdorf), Bassa Austria (Niederösterreich)",
   "fonte": "https://www.salzer.at/en/gruppe/kontakt/impressum/",
   "_sheet": "Austria",
-  "_row": 56
+  "_row": 54
  },
  {
   "denominazione": "Samson-Druck Gesellschaft m.b.H.",
@@ -9853,7 +9755,7 @@
   "sede": "St. Margarethen im Lungau, Salisburgo (Salzburg)",
   "fonte": "https://www.samsondruck.at/impressum",
   "_sheet": "Austria",
-  "_row": 57
+  "_row": 55
  },
  {
   "denominazione": "Steirerpack GmbH",
@@ -9867,7 +9769,7 @@
   "sede": "Pölstal (Möderbrugg), Stiria (Steiermark)",
   "fonte": "https://steirerpack.at/impressum/",
   "_sheet": "Austria",
-  "_row": 58
+  "_row": 56
  },
  {
   "denominazione": "Ulrich Etiketten Gesellschaft m.b.H.",
@@ -9881,7 +9783,7 @@
   "sede": "Höbersdorf (Sierndorf), Bassa Austria (Niederösterreich)",
   "fonte": "https://ulrich.at/impressum/",
   "_sheet": "Austria",
-  "_row": 59
+  "_row": 57
  },
  {
   "denominazione": "Wellpappenfabrik TEWA Gesellschaft m.b.H.",
@@ -9895,7 +9797,7 @@
   "sede": "Feldkirchen in Kärnten, Carinzia (Kärnten)",
   "fonte": "https://www.tewa.com/team-1",
   "_sheet": "Austria",
-  "_row": 60
+  "_row": 58
  },
  {
   "denominazione": "Wograndl Druck GmbH",
@@ -9909,7 +9811,7 @@
   "sede": "Mattersburg (Walbersdorf), Burgenland",
   "fonte": "https://www.wograndl.com/kontakt",
   "_sheet": "Austria",
-  "_row": 61
+  "_row": 59
  },
  {
   "denominazione": "pack it! Verpackungen GmbH",
@@ -9923,7 +9825,7 @@
   "sede": "Waldneukirchen, Alta Austria (Oberösterreich)",
   "fonte": "https://www.propak.at/mitglieder/item/pack-it-verpackungen-gmbh",
   "_sheet": "Austria",
-  "_row": 62
+  "_row": 60
  },
  {
   "denominazione": "pratopac GmbH",
@@ -9937,7 +9839,7 @@
   "sede": "Klaus, Vorarlberg",
   "fonte": "https://www.pratopac.at/impressum/",
   "_sheet": "Austria",
-  "_row": 63
+  "_row": 61
  },
  {
   "denominazione": "Amann Kaffee GmbH",
@@ -9951,7 +9853,7 @@
   "sede": "Lustenau (torrefazione a Schwarzenberg), Vorarlberg",
   "fonte": "https://www.amann-kaffee.at/impressum/",
   "_sheet": "Austria",
-  "_row": 64
+  "_row": 62
  },
  {
   "denominazione": "EZA Fairer Handel GmbH",
@@ -9965,21 +9867,7 @@
   "sede": "Köstendorf bei Salzburg, Salisburgo (Salzburg)",
   "fonte": "https://www.eza.cc/impressum",
   "_sheet": "Austria",
-  "_row": 65
- },
- {
-  "denominazione": "Helmut Sachers Kaffee GmbH",
-  "filiera": "Caffè — torrefazione + import/export",
-  "dimensione": "Fatturato ca. 5,2 Mio. € - ca. 26 dipendenti (ultimo dato pubblico 2016/2017, fonte faq-genuss.com / firmenabc.at). Firmenbuch FN 105466y, HG Wien. AZIENDA DI CONFINE (limite inferiore ~5 M€ della forbice tollerabile). Fondata nel 1929 a Vienna; ha attraversato un Sanierungsverfahren (2017) ed è oggi risanata e ATTIVA sotto nuova proprietà: SAWE Holding GmbH 80% + COFFEETREE S.r.l. 20%, GF dal 14.07.2020. Circa 450 t di caffè lavorate/anno, quota export ~20%; oggetto sociale include esplicitamente import/export di prodotti alimentari. Considerata la maggiore torrefazione bio dell'Austria.",
-  "referente": "Hannes Schlögl",
-  "ruolo": "Geschäftsführer",
-  "linkedin": "",
-  "email": "office@helmutsachers.at",
-  "sito": "https://www.helmutsachers.at",
-  "sede": "Oeynhausen, Bassa Austria (Niederösterreich)",
-  "fonte": "https://www.helmutsachers.at/en/impressum/",
-  "_sheet": "Austria",
-  "_row": 66
+  "_row": 63
  },
  {
   "denominazione": "J. Hornig GmbH",
@@ -9993,7 +9881,7 @@
   "sede": "Kalsdorf bei Graz, Stiria (Steiermark)",
   "fonte": "https://www.jhornig.com/impressum/",
   "_sheet": "Austria",
-  "_row": 67
+  "_row": 64
  },
  {
   "denominazione": "Naber Kaffee Manufaktur GmbH",
@@ -10007,7 +9895,7 @@
   "sede": "Vienna (Wien), Strebersdorf; seconda sede Klagenfurt",
   "fonte": "https://naberkaffee.com/en/legal/imprint/",
   "_sheet": "Austria",
-  "_row": 68
+  "_row": 65
  },
  {
   "denominazione": "Testa Rossa Caffe GmbH",
@@ -10021,7 +9909,7 @@
   "sede": "Mils bei Hall in Tirol, Tirolo (Tirol)",
   "fonte": "https://www.testarossacaffe.com/impressum",
   "_sheet": "Austria",
-  "_row": 69
+  "_row": 66
  },
  {
   "denominazione": "Berger Feinste Confiserie GmbH",
@@ -10035,7 +9923,7 @@
   "sede": "Lofer, Salisburgo (Salzburg)",
   "fonte": "https://www.confiserie-berger.at/en/imprint",
   "_sheet": "Austria",
-  "_row": 70
+  "_row": 67
  },
  {
   "denominazione": "Confiserie Wenschitz GmbH",
@@ -10049,7 +9937,7 @@
   "sede": "Allhaming, Alta Austria (Oberösterreich)",
   "fonte": "https://www.wenschitz.at/impressum/",
   "_sheet": "Austria",
-  "_row": 71
+  "_row": 68
  },
  {
   "denominazione": "Fürst GmbH",
@@ -10063,7 +9951,7 @@
   "sede": "Salisburgo (Salzburg), produzione a Elsbethen",
   "fonte": "https://www.original-mozartkugel.com/en/imprint",
   "_sheet": "Austria",
-  "_row": 72
+  "_row": 69
  },
  {
   "denominazione": "Heidi Chocolat AG",
@@ -10077,7 +9965,7 @@
   "sede": "Wiener Neudorf, Bassa Austria (Niederösterreich)",
   "fonte": "https://niemetz.at/impressum/",
   "_sheet": "Austria",
-  "_row": 73
+  "_row": 70
  },
  {
   "denominazione": "Landgarten GmbH & Co KG",
@@ -10091,7 +9979,7 @@
   "sede": "Bruck an der Leitha, Bassa Austria (Niederösterreich)",
   "fonte": "https://landgarten.at/en/impressum/",
   "_sheet": "Austria",
-  "_row": 74
+  "_row": 71
  },
  {
   "denominazione": "Deisenhammer Gesellschaft m.b.H.",
@@ -10105,7 +9993,7 @@
   "sede": "Gunskirchen, Oberösterreich",
   "fonte": "https://www.firmenabc.at/deisenhammer-gesellschaft-m-b-h_How",
   "_sheet": "Austria",
-  "_row": 75
+  "_row": 72
  },
  {
   "denominazione": "Gummiwerk Czermak & Feger, Gesellschaft m.b.H. & Co KG",
@@ -10119,7 +10007,7 @@
   "sede": "Imst (Brennbichl), Tirol",
   "fonte": "https://www.firmenabc.at/gummiwerk-czermak-feger-gesellschaft-m-b-h-co-kg_Pho",
   "_sheet": "Austria",
-  "_row": 76
+  "_row": 73
  },
  {
   "denominazione": "Persicaner & Co. Gesellschaft m.b.H.",
@@ -10133,7 +10021,7 @@
   "sede": "Wien (Favoriten, 10. Bezirk), Wien",
   "fonte": "https://www.firmenabc.at/persicaner-co-gesellschaft-m-b-h_fFv",
   "_sheet": "Austria",
-  "_row": 77
+  "_row": 74
  },
  {
   "denominazione": "Zrunek Gummiwaren Gesellschaft m.b.H.",
@@ -10147,7 +10035,7 @@
   "sede": "Wien (Döbling, 19. Bezirk), Wien",
   "fonte": "https://www.firmenabc.at/zrunek-gummiwaren-gesellschaft-m-b-h_plo",
   "_sheet": "Austria",
-  "_row": 78
+  "_row": 75
  },
  {
   "denominazione": "\"Sojarei\" Vollwertkost-Gesellschaft m.b.H.",
@@ -10161,7 +10049,7 @@
   "sede": "Traiskirchen, Bassa Austria (Niederösterreich)",
   "fonte": "https://www.northdata.com/Sojarei%20Vollwertkost-GmbH,%20Traiskirchen/118580h",
   "_sheet": "Austria",
-  "_row": 79
+  "_row": 76
  },
  {
   "denominazione": "Gsellmann Mischfuttererzeugung GmbH",
@@ -10175,7 +10063,7 @@
   "sede": "Kohlberg / Gnas, Stiria (Steiermark)",
   "fonte": "https://www.gsellmann.com/impressum/",
   "_sheet": "Austria",
-  "_row": 80
+  "_row": 77
  },
  {
   "denominazione": "Ignaz Göweil GmbH & Co KG",
@@ -10189,7 +10077,7 @@
   "sede": "Engerwitzdorf (Engerwitzberg), Alta Austria (Oberösterreich)",
   "fonte": "https://www.goeweil-muehle.at/kontakt/",
   "_sheet": "Austria",
-  "_row": 81
+  "_row": 78
  },
  {
   "denominazione": "Königshofer GmbH",
@@ -10203,7 +10091,7 @@
   "sede": "Ebergassing, Bassa Austria (Niederösterreich)",
   "fonte": "https://www.koenigshofer-futtermittel.at/impressum/",
   "_sheet": "Austria",
-  "_row": 82
+  "_row": 79
  },
  {
   "denominazione": "Mischfutterwerk Großschedl GmbH",
@@ -10217,7 +10105,7 @@
   "sede": "Blaindorf / Feistritztal (Hofing), Stiria (Steiermark)",
   "fonte": "http://www.grosschedl-futter.at/impressum/",
   "_sheet": "Austria",
-  "_row": 83
+  "_row": 80
  },
  {
   "denominazione": "Reitbauer Betriebs- u. Handels GmbH",
@@ -10231,7 +10119,7 @@
   "sede": "Vestenthal / Haidershofen, Bassa Austria (Niederösterreich)",
   "fonte": "https://www.reitbauer.co.at/impressum",
   "_sheet": "Austria",
-  "_row": 84
+  "_row": 81
  },
  {
   "denominazione": "Rickl - Mühle GmbH",
@@ -10245,7 +10133,7 @@
   "sede": "Groß-Schweinbarth (Bezirk Gänserndorf), Bassa Austria (Niederösterreich)",
   "fonte": "https://www.rickl.at/produkt/sojaschrot/",
   "_sheet": "Austria",
-  "_row": 85
+  "_row": 82
  },
  {
   "denominazione": "Vorarlberger Mühlen und Mischfutterwerke GmbH",
@@ -10259,7 +10147,7 @@
   "sede": "Dornbirn (sede legale Feldkirch), Vorarlberg",
   "fonte": "https://www.laendlefutter.at/impressum",
   "_sheet": "Austria",
-  "_row": 86
+  "_row": 83
  },
  {
   "denominazione": "Wieshofermühle Betriebs GmbH",
@@ -10273,7 +10161,7 @@
   "sede": "St. Johann in Tirol, Tirolo (Tirol)",
   "fonte": "https://www.wieshofermuehle.at/de/impressum",
   "_sheet": "Austria",
-  "_row": 87
+  "_row": 84
  },
  {
   "denominazione": "BIOSERVICE Zach Ges.m.b.H.",
@@ -10287,7 +10175,7 @@
   "sede": "Schrems (Wirtschaftspark 1), Bassa Austria (Niederösterreich)",
   "fonte": "https://www.bioservice.at/en/products/organic-palm-fat-oil/",
   "_sheet": "Austria",
-  "_row": 88
+  "_row": 85
  },
  {
   "denominazione": "Natural Products & Drugs GmbH",
@@ -10301,7 +10189,7 @@
   "sede": "Spittal an der Drau, Carinzia (Kärnten)",
   "fonte": "https://www.wlw.at/de/firma/natural-products-drugs-gmbh-958203",
   "_sheet": "Austria",
-  "_row": 89
+  "_row": 86
  },
  {
   "denominazione": "Andrä Hörtnagl Produktion und Handel GmbH",
@@ -10315,7 +10203,7 @@
   "sede": "Hall in Tirol, Tirol",
   "fonte": "https://www.firmenabc.at/andrae-hoertnagl-produktion-und-handel-gmbh_Cgt",
   "_sheet": "Austria",
-  "_row": 90
+  "_row": 87
  },
  {
   "denominazione": "Fleischwaren Höllerschmid GmbH",
@@ -10329,7 +10217,7 @@
   "sede": "Walkersdorf am Kamp (Grafenegg), Niederösterreich",
   "fonte": "https://www.firmenabc.at/fleischwaren-hoellerschmid-gmbh_HbCr",
   "_sheet": "Austria",
-  "_row": 91
+  "_row": 88
  },
  {
   "denominazione": "M. Feköhrer GmbH & Co KG",
@@ -10343,7 +10231,7 @@
   "sede": "Mühlheim am Inn, Oberösterreich",
   "fonte": "https://www.fekoehrer.at/impressum/",
   "_sheet": "Austria",
-  "_row": 92
+  "_row": 89
  },
  {
   "denominazione": "Rudolf Frierss & Söhne Fleisch- und Wurstspezialitäten Gesellschaft m.b.H.",
@@ -10357,7 +10245,7 @@
   "sede": "Villach, Kärnten",
   "fonte": "https://www.firmenabc.at/rudolf-frierss-soehne-fleisch-und-wurstspezialitaeten-gmbh_BAtZF",
   "_sheet": "Austria",
-  "_row": 93
+  "_row": 90
  },
  {
   "denominazione": "Schwaninger Vieh Export GmbH",
@@ -10371,7 +10259,7 @@
   "sede": "Weer, Tirol",
   "fonte": "https://www.firmenabc.at/schwaninger-vieh-export-gmbh_EBAU",
   "_sheet": "Austria",
-  "_row": 94
+  "_row": 91
  },
  {
   "denominazione": "WIESTRADING Gesellschaft m.b.H.",
@@ -10385,6 +10273,6 @@
   "sede": "Steegen (Peuerbach), Oberösterreich",
   "fonte": "https://www.firmenabc.at/wiestrading-ges-m-b-h_KDpS",
   "_sheet": "Austria",
-  "_row": 95
+  "_row": 92
  }
 ]

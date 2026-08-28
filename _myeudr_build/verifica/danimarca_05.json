@@ -1,0 +1,308 @@
+[
+ {
+  "foglio": "Danimarca",
+  "denominazione": "VESTJYSK SPECIALFODER ApS",
+  "campo": "denominazione",
+  "problema": "Il record cita al proprio interno DUE CVR diversi: 38786709 (nel testo e nella fonte proff) e 42242993 (nella fonte lasso). Sono due entita' distinte, entrambe a Industrivej 2, 7570 Vemb. Quella con referente Julia Ott e' la 42242993 (lasso: 'Julia Ott left the board of directors of Vestjysk Specialfoder ApS' - CVR 42242993, 2021). Il CVR corretto per il referente censito e' quindi 42242993, non 38786709. Da riallineare a un solo CVR prima dell'uso.",
+  "gravita": "alta",
+  "evidenza": "https://www.proff.dk/firma/vestjysk-specialfoder-aps/vemb/engroshandel-annet/GYZVKCI10N6/ (CVR 38786709) vs https://lasso.dk/firmaer/42242993/vestjysk-specialfoder-aps (CVR 42242993)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "VESTJYSK SPECIALFODER ApS",
+  "campo": "referente",
+  "problema": "Referente superato. Julia Ott ha lasciato la carica nel 2021; nuovo direktor Torben Ryan Olsen dal 02.09.2021 (CVR 42242993), a sua volta uscito dopo pochi mesi. Nessun vertice attualmente riconfermato.",
+  "gravita": "alta",
+  "evidenza": "https://lasso.dk/firmaer/42242993/torben-ryan-olsen-er-ny-direktr-i-vestjysk-specialfoder-aps - 'Torben Ryan Olsen er ny direktor i Vestjysk Specialfoder ApS' (02.09.2021); 'Julia Ott left the board of directors of Vestjysk Specialfoder ApS in 2021'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "VESTJYSK SPECIALFODER ApS",
+  "campo": "dimensione",
+  "problema": "Stato societario compromesso, e NON solo per l'omonima 'Vestjydsk Specialfoder ApS' CVR 39680718 (under konkurs). La stampa locale documenta un SECONDO fallimento del negozio di mangimi di Industrivej, Vemb: 'Konkurs for anden gang paa knap tre aar - der er ikke kunder nok til saadan en landhandel derude'. Coerente con l'uscita del direktor Torben Ryan Olsen e il passaggio a UNDER KONKURS a fine 2022 per CVR 42242993. Verificare in CVR/datacvr se esista ancora un'entita' operativa prima del contatto.",
+  "gravita": "alta",
+  "evidenza": "https://dbrs.dk/erhverv/konkurs-for-anden-gang-paa-knap-tre-aar-der-er-ikke-kunder-nok-til-saadan-en-landhandel-derude ; https://dagbladet-holstebro-struer.dk/artikel/sælger-ud-specialbutik-med-foder-er-gået-konkurs",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "VESTJYSK SPECIALFODER ApS",
+  "campo": "filiera",
+  "problema": "Perimetro EUDR non dimostrato. L'attivita' descritta dalle fonti e' una landhandel/negozio specializzato (mangimi, caccia, pesca, giardino, perfino fuochi d'artificio come rivenditore Royal Fireworks), non un operatore che immette soia sul mercato UE. Nessuna fonte documenta l'impiego di soia. Registrata come 'engroshandel annet' con oggetto sociale generico.",
+  "gravita": "alta",
+  "evidenza": "https://royalfireworks.dk/forhandler/vestjysk-specialfoder-aps/ ; https://www.proff.dk/firma/vestjysk-specialfoder-aps/vemb/engroshandel-annet/GYZVKCI10N6/ ('engroshandel annet'); descrizione krak.dk: 'produkter inden for landbrug, dyr, jagt, fiskeri og have'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "NUTRIMIN A/S",
+  "campo": "dimensione",
+  "problema": "ACQUISIZIONE NON DICHIARATA: Nutrimin A/S e' stata acquisita dal gruppo olandese Nutreco (SHV Holdings) ed e' parte della divisione Trouw Nutrition con effetto dal 1 dicembre 2021 (closing completato a gennaio 2022). Non e' quindi un'azienda danese indipendente: la compliance EUDR si decide a livello Nutreco/SHV. Il campo la descrive come PMI danese e cita ancora 'Nutrimin Holding ApS' come contesto proprietario.",
+  "gravita": "alta",
+  "evidenza": "https://www.nutreco.com/en/news/nutreco-finalises-acquisition-of-danish-nutrimin/ ; https://agritradenews.co.uk/news/2022/01/12/nutreco-completes-nutrimin-acquisition/ - 'Nutrimin becoming part of Nutreco's animal nutrition division Trouw Nutrition effective from December 1'",
+  "correzione_proposta": "Controllata di Nutreco N.V. (gruppo SHV, Paesi Bassi) - Trouw Nutrition, dal 01/12/2021"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "NUTRIMIN A/S",
+  "campo": "dimensione",
+  "problema": "Dati economici obsoleti: bruttofortjeneste 41,98 M DKK e risultato 8,82 M DKK sono dell'esercizio 2022 (4 anni fa) e comunque anteriori/coevi all'integrazione in Trouw Nutrition. Da aggiornare all'ultimo bilancio depositato.",
+  "gravita": "media",
+  "evidenza": "https://www.proff.dk/regnskab/nutrimin-as/ans-by/producenter/0GZ566I016D/",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "NUTRIMIN A/S",
+  "campo": "sito",
+  "problema": "VERIFICA OK (nessun errore): il sito indicato e' www.nutrimin.dk, il dominio danese corretto. Non e' stato usato per errore nutrimin.com (canadese). Segnalazione a chiusura del rilievo aperto.",
+  "gravita": "bassa",
+  "evidenza": "https://www.nutrimin.dk/en/about-nutrimin-2/ ; https://www.nutrimin.dk/en/contact/ - Bodalen 11, 8643 Ans By, tel. 87 50 08 80",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "SKANDINAVISK DÆK IMPORT A/S",
+  "campo": "dimensione",
+  "problema": "Il campo dichiara 'n.d.' ma i dati sono pubblici e collocano l'azienda MOLTO SOTTO la forbice target 5-40 M EUR: bruttofortjeneste 8,06 M DKK (2023, era 9,46 M DKK nel 2022) ~ 1,1 M EUR, risultato 2,56 M DKK, 7 dipendenti. Micro-impresa.",
+  "gravita": "media",
+  "evidenza": "https://lasso.dk/firmaer/87222810/skandinavisk-dk-import-as - 'gross profit was 8,060,704 DKK in 2023, compared to 9,459,094 DKK in 2022 ... staff consists of 7 employees'",
+  "correzione_proposta": "Bruttofortjeneste 8,06 M DKK (2023) ~ 1,1 M EUR; 7 dipendenti. FUORI FORBICE (sotto target)"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "A-ONE DANMARK ApS",
+  "campo": "dimensione",
+  "problema": "Confermato che NON e' un lead indipendente: A-One Danmark ApS fa parte del gruppo nordirlandese Devenish Nutrition. La compliance EUDR si decide a livello di capogruppo. Il campo lo dichiara correttamente, ma il record va comunque declassato come lead.",
+  "gravita": "media",
+  "evidenza": "https://www.a-one-danmark.dk/ e https://landbrugsavisen.dk/irsk-foderproducent-overvejer-fabrik-i-skive-efter-brexit - 'A-One is part of Devenish Nutrition'; 'Irsk foderproducent overvejer fabrik i Skive'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "A-ONE DANMARK ApS",
+  "campo": "email",
+  "problema": "Email assente ('n.d.') e nessun indirizzo aziendale reperito nelle fonti pubbliche consultate. Azienda non contattabile via e-mail con i dati del foglio. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://www.proff.dk/firma/a-one-danmark-aps/skive/korn-r%C3%A5tobak-s%C3%A5varer-og-fodervarer-engros/GT8V6GI10P1 ; https://www.a-one-danmark.dk/ (nessuna e-mail nei frammenti)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "AB NEO A/S (già AGRO KORN A/S)",
+  "campo": "dimensione",
+  "problema": "Confermato: AB Neo A/S (CVR 37404241, Skjernvej 42, Videbaek) e' la divisione danese del gruppo britannico AB Agri / Associated British Foods. Non e' un lead indipendente - la compliance EUDR si decide a livello ABF. Il campo lo dichiara correttamente. Da notare inoltre che il managing director della divisione AB Neo e' Heidi Burrows (dal 15/04/2024), mentre Jesper Riisgaard Nielsen e' il direktor della sola entita' danese.",
+  "gravita": "media",
+  "evidenza": "https://www.abagri.com/our-ab-agri-family/ab-neo ; https://farming.co.uk/news/ab-agri-announces-new-ab-neo-managing-director - 'Heidi Burrows ... assumed the role on April 15, 2024'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "AB NEO A/S (già AGRO KORN A/S)",
+  "campo": "referente",
+  "problema": "VERIFICA OK: Jesper Riisgaard Nielsen risulta tuttora Direktor di AB Neo A/S (in carica dal 2023, ruolo attivo). Il ruolo corretto in DK sarebbe 'adm. direktor'. Nessuna correzione sostanziale necessaria.",
+  "gravita": "bassa",
+  "evidenza": "https://ownr.dk/users/public-profile/7001297155 - 'Director (Direktor) of AB Neo A/S ... started in his role in 2023 ... remains active in the role today'; https://ab-neo.com/da/blog/jesper-riisgaard-nielsen-ny-salgsdirektoer",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "CEBECO FOURAGE A/S",
+  "campo": "filiera",
+  "problema": "PERIMETRO EUDR DUBBIO. Il sito (Tjoelker Cebeco) descrive un'attivita' di fouragehandel: compravendita di grovfoder (insilato d'erba e di mais, balle wrappate, paglia) e distribuzione di kraftfoder PRODOTTO IN COLLABORAZIONE CON ForFarmers. Non e' quindi l'operatore che immette soia sul mercato UE, ma un rivenditore/intermediario locale con 1 dipendente - profilo analogo al caso Skovs Korn gia' scartato.",
+  "gravita": "alta",
+  "evidenza": "https://cebeco.dk/ e https://cebeco.dk/kontakt/om-os/ - 'kob og salg af grovfoder som graesensilage, majsensilage, wrapballer og halm, samt taet samarbejde med ForFarmers om produktion af kvalitetskraftfoder'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "COMPEX ApS",
+  "campo": "filiera",
+  "problema": "ERRORE DI PERIMETRO EUDR. Le fonti confermano che Compex ApS importa e distribuisce: minerali e integratori del tedesco B&K, impianti di mungitura Milkrite/Interpuls, plastiche e reti per insilato VisscherHollands, sistemi di lavaggio capezzoli FutureCow. Nessuna commodity dell'Allegato I: nessuna soia, nessun mangime a base proteica vegetale. Fornitore di minerali e attrezzature per allevamenti da latte, non operatore EUDR.",
+  "gravita": "alta",
+  "evidenza": "https://compex.dk/ e https://compex.dk/fodring/ - 'Compex importerer og forhandler mineralprodukter fra B&K ... importor af Milkrite/Interpuls ... VisscherHollands plast til ensilage ... FutureCow'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "COMPEX ApS",
+  "campo": "dimensione",
+  "problema": "Numero di telefono discordante: il campo riporta +45 73 64 70 60, le fonti aziendali indicano +45 73 64 70 20. Inoltre l'e-mail generale pubblicata dall'azienda e' info@compex.dk (il foglio usa jh@compex.dk, indirizzo di un singolo addetto amministrativo).",
+  "gravita": "bassa",
+  "evidenza": "https://compex.dk/ - 'Industrivej 13, 6392 Bolderslev, +45 73 64 70 20, info@compex.dk'",
+  "correzione_proposta": "tel. +45 73 64 70 20; e-mail generale info@compex.dk"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "CR FODERSERVICE K/S",
+  "campo": "dimensione",
+  "problema": "Taglia sotto la forbice target: bruttofortjeneste 8,94 M DKK (2024) ~ 1,2 M EUR con 16 dipendenti e sette unita' mobili. Il campo ipotizza che 'il giro d'affari sia verosimilmente superiore' ma questa stima non e' documentata da alcuna fonte: da trattare come fuori forbice finche' non emerge un dato di fatturato.",
+  "gravita": "media",
+  "evidenza": "https://www.proff.dk/firma/cr-foderservice-ks/bogense/jordbrug/GT1OQ7I10OF/ ; https://www.maskinbladet.dk/partners/virksomhed/278-cr-foderservice-k.s.-hjemmeblanding-uden-investeringer - 'syv mobile enheder'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "CR FODERSERVICE K/S",
+  "campo": "filiera",
+  "problema": "VERIFICA OK sul perimetro EUDR: le fonti confermano l'impiego effettivo di SOIA - il camion-mangimificio aggiunge sojaolie dal proprio serbatoio alle miscele di svezzamento formulate con DK-Svineraadgivning. L'olio di soia rientra nell'Allegato I. Nessuna correzione necessaria.",
+  "gravita": "bassa",
+  "evidenza": "https://cr-f.dk/nyt-samarbejde-om-hjemmeblandet-fravaenningsfoder/ - 'med tilsaetning af sojaolie fra fodervognens tank ... CR Foderservice blander det hele efter recept og tilsaetter sojaolie'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "MEJLING LANDHANDEL / SÆBY FRØSALG",
+  "campo": "filiera",
+  "problema": "ERRORE DI PERIMETRO EUDR. CVR 51620968 e' una DITTA INDIVIDUALE (enkeltmandsvirksomhed) 'Mejling Landhandel/Hjemmeservice/Maskinudlejning v/Lisbeth Hansen', attiva dal 01/08/1985, classificata nel commercio al dettaglio di generi alimentari. Il sito vende mangimi per conigli/cani/gatti, articoli antiparassitari, biglietti della lotteria agricola, servizi di noleggio macchine, fresatura ceppi e gestisce perfino un chiosco (polsevogn). Nessun ruolo di operatore su soia o su altra commodity dell'Allegato I.",
+  "gravita": "alta",
+  "evidenza": "https://www.proff.dk/firma/mejling-landhandel-hjemmeservicemaskinudlejning-vlisbeth-hansen/frederikshavn/nærings-og-nydelsesmidler/GKJQ7DI116S/ - 'detailhandel med dagligvarer ... enkeltmandsvirksomhed, stiftet 01.08.1985'; https://www.mejlinglandhandel.dk/p%c3%b8lsevogn.html",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "MEJLING LANDHANDEL / SÆBY FRØSALG",
+  "campo": "denominazione",
+  "problema": "Ragione sociale incompleta: la denominazione registrata al CVR e' 'Mejling Landhandel/ Hjemmeservice/Maskinudlejning v/Lisbeth Hansen'. Titolare/referente (assente nel foglio): Lisbeth Hansen.",
+  "gravita": "bassa",
+  "evidenza": "https://virmo.dk/firma/51620968-mejling-landhandel-hjemmeservicemaskinudlejning-vlisbeth-hansen",
+  "correzione_proposta": "Mejling Landhandel/Hjemmeservice/Maskinudlejning v/Lisbeth Hansen — titolare Lisbeth Hansen"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "NORDVEST FODER A/S",
+  "campo": "referente",
+  "problema": "Campo referente/ruolo VUOTO benche' il dato sia pubblico: Rasmus Toft e' direktor e comproprietario, terza generazione, subentrato con il ricambio generazionale del 01/07/2024. Contatto diretto pubblicato: rasmus@nordvestfoder.dk, mob. 27 29 80 04.",
+  "gravita": "media",
+  "evidenza": "https://www.nordvestfoder.dk/kontakt/ e https://www.nordvestfoder.dk/om-os/historien-bag-nvf/ - 'Rasmus Toft, 3. generation og ny direktor ... rasmus@nordvestfoder.dk, 27 29 80 04'",
+  "correzione_proposta": "Rasmus Toft — adm. direktør (e comproprietario); e-mail rasmus@nordvestfoder.dk"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "NORDVEST FODER A/S",
+  "campo": "dimensione",
+  "problema": "Assetto proprietario da riverificare: il campo indica il controllo di Jysk Agri Holding A/S, ma dal 01/07/2024 e' avvenuto un ricambio generazionale con nuovo assetto societario (Rasmus Toft comproprietario, con riferimento a Frandsbjerg Group nelle fonti). Il dato del foglio potrebbe essere superato. DA CONFERMARE su datacvr.virk.dk. Resta inoltre assente qualunque dato dimensionale (omsaetning '-'), quindi la posizione nella forbice 5-40 M EUR non e' verificabile.",
+  "gravita": "media",
+  "evidenza": "https://www.nordvestfoder.dk/om-os/historien-bag-nvf/ - 'generationsskifte pr. 1. juli 2024 ... nyt ejerskab'; https://www.proff.dk/firma/nordvest-foder-as/vestervig/n%C3%A6rings-og-nydelsesmidler/GJSZAMI116S",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "TJØRNEHØJ MØLLE A/S",
+  "campo": "dimensione",
+  "problema": "NON E' UN LEAD INDIPENDENTE: Tjornehoj Molle (Tingstedvej 47, Hedehusene) fa parte del GRUPPO DLG, cioe' di uno dei grandi operatori gia' esclusi dal perimetro dei lead. La compliance EUDR si decide a livello DLG. Il record non lo dichiara affatto.",
+  "gravita": "alta",
+  "evidenza": "https://travservice.dk/velkommen-til-tjornehoj-molle/ e https://www.dlg.dk/Foder - 'Tjornehoj Molle ... indgar i DLG-koncernen'; molino di mangimi per cavalli e suini, Tingstedvej 47, Hedehusene",
+  "correzione_proposta": "Controllata del gruppo DLG (grande operatore, fuori target lead)"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "TJØRNEHØJ MØLLE A/S",
+  "campo": "dimensione",
+  "problema": "Record inutilizzabile allo stato: unico dato economico e' un fatturato lordo del 2003 (80 M DKK), vecchio di 23 anni; CVR, dipendenti, sito, e-mail, referente e ruolo tutti assenti o 'n.d.'; la sede stessa e' marcata 'DA CONFERMARE'. Nessuna via di contatto.",
+  "gravita": "alta",
+  "evidenza": "https://www.maskinbladet.dk/artikel/20250-foderspecialisten-til-smaagrise (articolo del 2003, unica fonte del record)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Naturli' Foods",
+  "campo": "dimensione",
+  "problema": "NON indipendente, confermato: NATURLI' FOODS A/S (CVR 25476573, Vejen) e' controllata al 100% da Dragsbaek A/S, a sua volta partecipata dal gruppo norvegese Orkla. La compliance EUDR sull'olio di palma si decide a livello di capogruppo. Il campo lo dichiara, ma il lead va declassato. Restano inoltre del tutto assenti fatturato e dipendenti: posizione nella forbice 5-40 M EUR non verificabile.",
+  "gravita": "media",
+  "evidenza": "https://estatistik.dk/virksomhed/naturli-foods-as/25476573/roller - 'DRAGSBAEK A/S er 100% ejer af Naturli Foods'; https://landbrugsavisen.dk/dansk-vegetarfirma-solgt-til-norsk-k%C3%A6mpe",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Naturli' Foods",
+  "campo": "referente",
+  "problema": "Campo referente/ruolo VUOTO benche' il dato sia pubblico: adm. direktor di Naturli' Foods A/S e' Henrik Lund; bestyrelsesformand e' Christian Munk (adm. direktor di Dragsbaek).",
+  "gravita": "media",
+  "evidenza": "https://estatistik.dk/virksomhed/naturli-foods-as/25476573/roller ; https://www.altinget.dk/foedevarer/artikel/naturli-foods-faar-ny-bestyrelsesformand",
+  "correzione_proposta": "Henrik Lund — adm. direktør"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "TBC INGREDIENTS ApS",
+  "campo": "dimensione",
+  "problema": "Taglia MOLTO SOTTO la forbice target 5-40 M EUR: bruttofortjeneste 10,27 M DKK ~ 1,4 M EUR con 4-5 addetti. Il campo riporta i numeri ma non segnala esplicitamente il fuori-forbice. Confermato invece il perimetro EUDR (importatore/rivenditore di oli vegetali, cocco, chips di banana e cacao; membro RSPO con trader licence da settembre 2015).",
+  "gravita": "media",
+  "evidenza": "https://tbcingr.com/main-about-tbc/ - 'imports and sells vegetable oils, coconut, banana chips and cocoa ... member of RSPO and has held trader license since September 2015'; https://lasso.dk/firmaer/28119666/tbc-ingredients-aps",
+  "correzione_proposta": "Bruttofortjeneste 10,27 M DKK ~ 1,4 M EUR; 4-5 addetti. FUORI FORBICE (sotto target)"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "TBC INGREDIENTS ApS",
+  "campo": "referente",
+  "problema": "VERIFICA OK sul referente: Jens Aksel Christensen risulta Direktor, mentre Trine Birk Christensen e' la fondatrice (stifter, 2004). Nota informativa: l'assetto proprietario e' cambiato nel 2025 con l'ingresso di S.B.C. Invest ApS (Stine Birk Christensen) e SUBI Holding ApS (Sune Birk Christensen) al 20-25% ciascuna - si tratta pero' di holding familiari dei soci, non di controllo di terzi.",
+  "gravita": "bassa",
+  "evidenza": "https://www.proff.dk/firma/tbc-ingredients-aps/odder/n%C3%A6rings-og-nydelsesmidler/GPT39OI116S ; https://lasso.dk/firmaer/28119666/ndringer-i-tbc-ingredients-aps-ejerforhold/",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "BØJE KØD ENGROS ApS (Bøje & David Kød Engros)",
+  "campo": "dimensione",
+  "problema": "Taglia molto sotto la forbice target: le banche dati riportano cifre nell'ordine di 3,0-8,1 M DKK (~0,4-1,1 M EUR) e 15 dipendenti (il foglio ne indica 17). Micro-impresa. Da segnalare anche che la sede registrata e' 'c/o KBh Kod, Kirstinehoj 75' - l'azienda opera presso il mercato carni di Copenaghen, non in stabilimento proprio.",
+  "gravita": "media",
+  "evidenza": "https://vainu.io/company/boje-kod-engros-aps-omsaetning-og-noegletal/DK25588037/virksomhedsoplysninger ; https://dk.kompass.com/c/bøje-kød-engros-aps/dk132617/ - 'C/O KBh Kod, Kirstinehoj 75, 2770 Kastrup ... 15 employees ... NACE 463210'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Grambogård",
+  "campo": "dimensione",
+  "problema": "ACQUISIZIONE NON DICHIARATA - rilievo grave. Grambogaard e' stata venduta dal fondatore/proprietario Alex Lysemose a FOODSERVICE DANMARK, societa' del gruppo DAGROFA (a sua volta partecipato da NorgesGruppen 48,9% e KFI Erhvervsdrivende Fond 42,5%). Il sito aziendale pubblica ormai 'koncernnyheder' su FoodService Danmark. Non e' quindi un lead indipendente: la compliance EUDR si decide a livello di gruppo.",
+  "gravita": "alta",
+  "evidenza": "https://www.tv2fyn.dk/assens/okoslagteri-solgt-dagrofa-kober-grambogard ; https://fodevarewatch.dk/Fodevarer/article9610914.ece ('Foodservice Danmark overtager Grambogaard'); https://grambogaard.dk/nyheder/koncernnyheder/foodservice-danmark-i-rekordfremgang/",
+  "correzione_proposta": "Controllata di FoodService Danmark A/S (gruppo Dagrofa)"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Grambogård",
+  "campo": "dimensione",
+  "problema": "Dato dimensionale datato e privo di identificativo societario: 'ca. 45 mio DKK (~6,0 M EUR)' proviene da un articolo del gennaio 2023 che riferisce anche di una crescita del 40-50% nel periodo, quindi il valore e' gia' superato. Manca il CVR e le fonti ne mostrano due possibili (GRAMBOGAARD A/S CVR 30920406 su ownr; 'Grambogaard' CVR 27626904 su proff, Tommerup): da disambiguare.",
+  "gravita": "media",
+  "evidenza": "https://effektivtlandbrug.landbrugnet.dk/artikler/svin/85640/-det-handler-om-smag-og-kvalitet (art. 2023) ; https://ownr.dk/companies/public-profile/30920406 ; https://www.proff.dk/firma/grambog%C3%A5rd/tommerup/producenter/GYJB0ZI016D",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "JN Meat International",
+  "campo": "referente",
+  "problema": "Referente e ruolo imprecisi: il direktor in carica risulta JOHN SASHI NIELSEN (non semplicemente 'John Nielsen'), e il ruolo censito e' 'Stifter (fondatore)', che non e' la carica di vertice richiesta. Il ruolo corretto in DK e' adm. direktor.",
+  "gravita": "media",
+  "evidenza": "https://www.proff.dk/roller/j.n.-meat-international-aps/slagelse/producenter/GLH1KVI016D - 'John Sashi Nielsen ... direktor'; https://ownr.dk/users/public-profile/4003916379",
+  "correzione_proposta": "John Sashi Nielsen — adm. direktør"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "JN Meat International",
+  "campo": "dimensione",
+  "problema": "Il campo dichiara 'fatturato non pubblicato (n.d.)' e 70 dipendenti, ma il dato economico e' pubblico e colloca l'azienda PIENAMENTE NEL TARGET: bruttofortjeneste 94,30 M DKK (2024) ~ 12,6 M EUR (era 92,97 M DKK nel 2023), risultato 29,47 M DKK, 80-82 dipendenti. Da aggiornare. Denominazione registrata: J.N. MEAT International ApS, CVR 10820871. Capogruppo JOHN NIELSEN FINANS ApS (holding familiare del socio, non controllo di terzi).",
+  "gravita": "media",
+  "evidenza": "https://lasso.dk/firmaer/10820871/jn-meat-international-aps - 'bruttofortjeneste 94.295.092 DKK (2024), 92.969.880 DKK (2023), resultat 29.467.097 DKK, 82 ansatte'; https://www.proff.dk/firma/j.n.-meat-international-aps/slagelse/k%C3%B8d-og-vildt-engros/GLH1KVI10OV",
+  "correzione_proposta": "Bruttofortjeneste 94,3 M DKK (2024) ~ 12,6 M€; ca. 80-82 dipendenti. Fonte: proff.dk / lasso.dk, CVR 10820871"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Randers Kød Engros ApS",
+  "campo": "dimensione",
+  "problema": "Il campo dichiara 'fatturato non pubblicato (n.d.)' ma il dato economico e' pubblico: bruttofortjeneste 24,0 M DKK (2024) ~ 3,2 M EUR, era 26,51 M DKK (2023) e 22,15 M DKK (2022); 51 dipendenti. Il fatturato resta non pubblicato (ApS), quindi il posizionamento nella forbice 5-40 M EUR non e' dimostrato: va indicato il tipo di dato con anno e fonte.",
+  "gravita": "media",
+  "evidenza": "https://lasso.dk/firmaer/25539222/randers-kd-engros-aps ; https://www.proff.dk/firma/randers-k%C3%B8d-engros-aps/randers-s%C3%B8/k%C3%B8d-og-vildt-engros/GO9MODI10OV - 'bruttofortjeneste 24 mio DKK (2024), 26.512.226 (2023), 22.154.051 (2022); 51 ansatte'",
+  "correzione_proposta": "Bruttofortjeneste 24,0 M DKK (2024) ~ 3,2 M€; 51 dipendenti. Fonte: proff.dk/lasso.dk, CVR 25539222"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Randers Kød Engros ApS",
+  "campo": "sede",
+  "problema": "Sede da precisare: il CVR e le banche dati registrano l'azienda a Randers SO (Randers Soender), non genericamente 'Randers'. Referente Kaspar Kaerskov Jakobsen confermato come direktor in carica.",
+  "gravita": "bassa",
+  "evidenza": "https://www.krak.dk/randers+k%C3%B8d+engros+aps+randers+s%C3%B8/66907640/firma ; https://virmo.dk/firma/25539222-randers-k%C3%B8d-engros-aps",
+  "correzione_proposta": "Randers SØ, Region Midtjylland"
+ }
+]

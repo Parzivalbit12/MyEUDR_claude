@@ -182,5 +182,13 @@
   "da": "Caffè (import caffè verde)",
   "a": "Caffè — import caffè verde",
   "motivo": "tassonomia: separatore em-dash invece della parentesi, macro «Caffè»"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Repro NV",
+  "campo": "filiera",
+  "da": "Olio di palma — raffinazione oli e grassi vegetali",
+  "a": "Mangimi/Soia — raffinazione olio di soia non-OGM (con mais e girasole alto oleico)",
+  "motivo": "commodity errata, perimetro salvo: Repro è la raffineria del Group Vandamme a Deinze e il gruppo NON raffina palma — è leader europeo dell'olio di MAIS e produttore di girasole alto oleico e di olio di SOIA non-OGM. Mais e girasole sono fuori Allegato I, ma la soia è commodity dell'Allegato I: il lead resta valido, cambia la filiera. Macro «Mangimi/Soia» perché è l'unica della tassonomia che copre la soia. Fonte: groupvandamme.com/en/about-us/facilities."
  }
 ]

@@ -43,5 +43,149 @@
   "gravita": "media",
   "evidenza": "https://www.wirtschaftszeit.at/news/verpackungsexperte-pratopac-aus-klaus-verzeichnete-2015-deutliches-umsatzplus/ e vol.at: 'pratopac erzielte 2015 14 Mio. Euro Umsatz'; 'im Geschaeftsjahr 2018 15 Mio. Euro'; 'Geschaeftsfuehrer Alexander Abbrederis ... Co-Geschaeftsfuehrer Jochen Schoergenhofer'",
   "correzione_proposta": "Fatturato 15 Mio. EUR (2018) - DA CONFERMARE dato piu' recente; GF: Alexander Abbrederis e Jochen Schoergenhofer"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Helmut Sachers Kaffee GmbH",
+  "campo": "denominazione",
+  "problema": "AZIENDA INSOLVENTE: il 09/10.07.2026 e' stato aperto il Konkursverfahren (fallimento con curatore) sul patrimonio di Helmut Sachers Kaffee GmbH (FN 105466y) presso il Landesgericht Wiener Neustadt. Passivo ca. 1,4 Mio. EUR, 23 dipendenti e 42 creditori coinvolti; curatore RA Michael Lentsch, udienza di verifica l'08.09.2026. E' la seconda crisi dopo il Sanierungsverfahren del 2017. Lead da rimuovere.",
+  "gravita": "alta",
+  "evidenza": "https://www.akv.at/insolvenz/1542119-helmut-sachers-kaffee-gmbh e https://www.ksv.at/insolvenzfaelle/helmut-sachers-kaffee-gmbh-208860 - 'Konkursverfahren, Landesgericht Wiener Neustadt, Passiva ca. 1,4 Mio. Euro, 23 Dienstnehmer, 42 Glaeubiger'; leadersnet.at: 'Sachers in Konkurs - beruehmte Kaffeeroesterei schlittert in Millionenpleite'",
+  "correzione_proposta": "Rimuovere il record: societa' in Konkurs dal luglio 2026"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "J. Hornig GmbH",
+  "campo": "dimensione",
+  "problema": "Numero di Firmenbuch errato: il record indica FN 91930p, mentre J. Hornig GmbH e' iscritta con FN 58642p presso il Landesgericht fuer ZRS Graz (Handelsgericht Graz). Il resto dei dati (fatturato 18,2 Mio. EUR, sede, GF) e' confermato.",
+  "gravita": "bassa",
+  "evidenza": "https://www.evi.gv.at/f/58642p e https://www.wirtschaft.at/u/058642p - 'J. Hornig GmbH (FN 058642p), 8401 Kalsdorf bei Graz'; jhornig.com/impressum: 'Firmenbuchnummer 58642p, UID ATU28619803'",
+  "correzione_proposta": "Firmenbuch FN 58642p, LG fuer ZRS Graz"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Naber Kaffee Manufaktur GmbH",
+  "campo": "ruolo",
+  "problema": "Il co-Geschaeftsfuehrer indicato ('Bernd Nitschmann') non trova riscontro: le fonti attuali riportano come secondo GF Gerald Matzner-Holsmer accanto a Marco Salvatori.",
+  "gravita": "media",
+  "evidenza": "cafeplusco.com / cash.at: 'Naber wird von den Geschaeftsfuehrern Marco Salvatori und Gerald Matzner-Holsmer geleitet'",
+  "correzione_proposta": "Geschaeftsfuehrer (con Gerald Matzner-Holsmer)"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Naber Kaffee Manufaktur GmbH",
+  "campo": "dimensione",
+  "problema": "FILIALE DI GRUPPO: la societa' e' controllata al 95% da cafe+co International Holding GmbH (gruppo del vending, sede Wien) dal 2015. Il dato e' correttamente dichiarato nel record, ma la decisione di compliance EUDR si prende a livello di capogruppo cafe+co: lead da declassare. Si aggiunge che il fatturato (ca. 3,5 Mio. EUR) e' molto sotto la forbice 5-40 Mio. EUR.",
+  "gravita": "media",
+  "evidenza": "https://www.cafeplusco.com/presse/naber-uebernimmt-kaerntner-traditionsroesterei - 'seit 2015 mehrheitlich im Eigentum der cafe+co International Holding'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Testa Rossa Caffe GmbH",
+  "campo": "filiera",
+  "problema": "PERIMETRO DA CONFERMARE: Testa Rossa Caffe GmbH si qualifica nel proprio Impressum come 'Franchise Head Office' del sistema TESTA ROSSA caffebar. La torrefazione NON e' sua: il caffe' a marchio Testa Rossa e' tostato dalle due torrefazioni del Handelshaus Wedl (Mils in Tirolo e Belluno tramite la controllata italiana Procaffe, oltre 6.000 t/anno). L'operatore EUDR che importa e tosta il caffe' verde e' quindi il Handelshaus Wedl, non questa societa', che gestisce il franchising e la licenza di marchio.",
+  "gravita": "media",
+  "evidenza": "https://www.testarossacaffe.com/impressum ('TESTA ROSSA CAFFE GMBH ... Franchise Head Office') e https://www.markant-magazin.com/strategie/wedls-gespuer-fuer-kaffee - 'Mehr als 6.000 Tonnen Kaffee verlassen jaehrlich die beiden hauseigenen Roestereien in Belluno und Mils in Tirol'",
+  "correzione_proposta": "Valutare come lead il Handelshaus Wedl (torrefazione) al posto di Testa Rossa Caffe GmbH"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Confiserie Wenschitz GmbH",
+  "campo": "dimensione",
+  "problema": "La stima di fatturato 'probabile 5-8 Mio. EUR' non e' supportata: con ca. 30 dipendenti e un totale di bilancio di 4,4 Mio. EUR (2025) l'azienda si colloca verosimilmente SOTTO i 5 Mio. EUR, cioe' fuori dalla forbice target 5-40 Mio. EUR. Il resto dell'anagrafica (FN 273013s, Allhaming 47, office@wenschitz.at, GF Helmut Wenschitz) e' confermato.",
+  "gravita": "media",
+  "evidenza": "https://www.firmenatlas.com/firma/273013s - 'Geschaeftsjahr 2025: Bilanzsumme 4,4 Mio. EUR, Eigenkapital 2,0 Mio. EUR'; https://www.evi.gv.at/f/273013s",
+  "correzione_proposta": "Fatturato stimato sotto 5 Mio. EUR - fuori forbice target"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Fürst GmbH",
+  "campo": "denominazione",
+  "problema": "Denominazione sociale incompleta: la ragione sociale iscritta al Firmenbuch (FN 257955x, LG Salzburg) e' 'Cafe-Konditorei Fuerst GmbH', non 'Fuerst GmbH'.",
+  "gravita": "bassa",
+  "evidenza": "https://firmen.wko.at/cafe-konditorei-f%C3%BCrst-gmbh-cafe-konditorei/salzburg/ - 'Cafe-Konditorei Fuerst GmbH, Firmenbuchnummer 257955x, Firmenbuchgericht Landesgericht Salzburg'",
+  "correzione_proposta": "Cafe-Konditorei Fürst GmbH"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Heidi Chocolat AG",
+  "campo": "denominazione",
+  "problema": "FILIALE DI GRUPPO ESTERO NON DICHIARATA: l'entita' austriaca e' la 'Heidi Chocolat AG Niemetz Schwedenbomben - Niederlassung Oesterreich', cioe' la succursale austriaca di Heidi Chocolat SA con sede a Zug (Svizzera); il gruppo appartiene dal 2013 alla famiglia Julius Meinl ed e' inquadrato nella holding rumena Kex Confectionery (ca. 1.000 dipendenti). Non e' una societa' austriaca autonoma: la decisione di compliance EUDR si prende a livello di capogruppo svizzero/rumeno.",
+  "gravita": "alta",
+  "evidenza": "https://www.herold.at/gelbe-seiten/wiener-neudorf/N5JW6/heidi-chocolat-ag-niemetz-schwedenbomben-niederlassung-%C3%B6sterreich/ e cash.at: 'Heidi Chocolat SA hat ihren Hauptsitz in Zug in der Schweiz und betreibt in Oesterreich die Heidi Chocolat AG Niemetz Schwedenbomben Niederlassung Oesterreich'; 'Seit 2013 ist das Unternehmen Mitglied der rumaenischen Holding Kex Confectionery'",
+  "correzione_proposta": "Rimuovere o declassare: succursale austriaca di Heidi Chocolat SA (Zug, CH), gruppo Kex Confectionery (RO)"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Heidi Chocolat AG",
+  "campo": "referente",
+  "problema": "Referente non riconfermato: nel 2024 la guida della sede di Wiener Neudorf e' passata a Bernhard Kletzmair, subentrato a Gerhard Schaller (GF dal 2014). Il nome 'Alexander Grund' indicato nel record non trova riscontro nelle fonti stampa recenti. DA CONFERMARE sull'Impressum aggiornato.",
+  "gravita": "media",
+  "evidenza": "https://www.cash.at/industrie/koepfe/heidi-chocolat-niemetz-schwedenbomben-heidi-wechselt-den-geschaeftsfuehrer-aus-26974 - 'Bernhard Kletzmair uebernimmt die Verantwortung fuer die Standorte und Mitarbeiter in Wiener Neudorf und Salzburg inklusive der Produktion'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Heidi Chocolat AG",
+  "campo": "dimensione",
+  "problema": "Fatturato di 18 Mio. EUR riferito al 2018: dato vecchio di oltre sette anni e non riconfermato. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "Nessuna fonte recente espone il fatturato: cash.at e karriere.at riportano solo notizie qualitative; l'unico dato numerico circolante e' quello 2018 di Wikipedia",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Landgarten GmbH & Co KG",
+  "campo": "referente",
+  "problema": "Referente non attuale: l'Impressum ufficiale di landgarten.at indica come Geschaeftsfuehrer Florian Kuehbacher (FN 128998d, LG Korneuburg, UID ATU40152507). Herbert Stava e' il fondatore dell'azienda (1989) ma non risulta l'attuale vertice; nella Landgarten GmbH i GF registrati sono Kerstin Stava e Lisa-Marie Dormayer.",
+  "gravita": "media",
+  "evidenza": "https://landgarten.at/en/impressum/ - 'Geschaeftsfuehrer: Florian Kuehbacher, Landgarten GmbH & Co. KG, Alte Wiener Strasse 25, A-2460 Bruck/Leitha, Firmenbuchnummer 128998d, Landesgericht Korneuburg'",
+  "correzione_proposta": "Florian Kühbacher"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Persicaner & Co. Gesellschaft m.b.H.",
+  "campo": "filiera",
+  "problema": "PERIMETRO DUBBIO: Persicaner e' un GROSSISTA (Grosshandel) di articoli tecnici in gomma - guarnizioni, tappeti, tubi, cinghie trapezoidali, O-ring, gommapiuma - che rifornisce industria e artigianato da magazzino a Vienna. E' quindi un rivenditore a valle di prodotti gia' immessi sul mercato UE (al piu' 'commerciante' EUDR, non operatore) e la gamma e' prevalentemente in elastomeri sintetici: non risulta dichiarato l'impiego di gomma naturale. Stesso profilo dei casi gia' scartati. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://www.persicaner.at/ueber-uns/ - 'Als Grosshandelsbetrieb beliefern wir Industrie und Gewerbe mit einem umfassenden Lager verschiedenster technischer Gummiwaren in unserer Verkaufsstelle in der Leebgasse 64'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Persicaner & Co. Gesellschaft m.b.H.",
+  "campo": "dimensione",
+  "problema": "Il campo non contiene alcun dato dimensionale: ne' fatturato ne' organico sono pubblicati e non e' indicata nemmeno una stima con fonte e anno. Un grossista viennese monopunto vendita e' verosimilmente sotto il minimo della forbice 5-40 Mio. EUR. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://www.firmenabc.at/persicaner-co-gesellschaft-m-b-h_fFv e https://firmeneintrag.creditreform.de/1100/9110111668/PERSICANER_CO_GESELLSCHAFT_M_B_H - solo anagrafica (FN 129338d, HG Wien, 2 Geschaeftsfuehrer), nessun dato di fatturato o dipendenti",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Zrunek Gummiwaren Gesellschaft m.b.H.",
+  "campo": "filiera",
+  "problema": "PERIMETRO DUBBIO: l'attivita' dichiarata e' la produzione di articoli in FLUOROELASTOMERI (Viton/FPM/FKM) e il commercio di articoli tecnici in elastomero (profili, O-ring, guarnizioni, PTFE, PU, sostituti dell'amianto, nastri trasportatori). Sono polimeri sintetici e materiali plastici: non risulta lavorazione di gomma naturale (caucciu'), quindi il caso e' assimilabile a RICO Elastomere (silicone), gia' scartata. DA CONFERMARE prima di tenere il lead.",
+  "gravita": "media",
+  "evidenza": "https://www.zrunek.at/ - 'Ihr Kompetenzzentrum fuer Gummi, Fluorelastomere (Viton, FPM, FKM) und Elastomere'; kompass.com: 'Herstellung von Gummiartikeln, insbesondere aus Fluorelastomeren (Viton); Handel mit technischen Elastomer-Erzeugnissen ... PTFE, PU, Asbestersatz'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Zrunek Gummiwaren Gesellschaft m.b.H.",
+  "campo": "referente",
+  "problema": "Referente da correggere: i Geschaeftsfuehrer iscritti sono Mag. Dr. Ulrich Zrunek (terza generazione, alla guida dell'azienda) e Dipl.-Ing. Marja Helena Zrunek. Il nome indicato nel record, 'Dipl.-Ing. Max Zrunek', non trova riscontro nelle fonti e sembra una confusione con Marja Zrunek; il vertice operativo e' Ulrich Zrunek.",
+  "gravita": "media",
+  "evidenza": "https://www.evi.gv.at/f/233214m e https://www.northdata.com/Zrunek%20Gummiwaren%20GmbH,%20Wien/233214m - 'Geschaeftsfuehrer: Mag.Dr. Ulrich Zrunek, Dipl.Ing. Marja Helena Zrunek'; zrunek.at: 'heute in dritter Generation von Dr. Ulrich Zrunek gefuehrt'",
+  "correzione_proposta": "Mag. Dr. Ulrich Zrunek"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Zrunek Gummiwaren Gesellschaft m.b.H.",
+  "campo": "dimensione",
+  "problema": "Micro-impresa molto lontana dalla forbice: 10-19 dipendenti e Bilanzsumme 1,74 Mio. EUR al 31.12.2024, cioe' un ordine di grandezza sotto il minimo di 5 Mio. EUR di fatturato richiesto dal cliente. Il record lo segnala ma il lead resta di fatto fuori target. Manca inoltre il numero di Firmenbuch: e' FN 233214m, HG Wien.",
+  "gravita": "media",
+  "evidenza": "https://www.firmenabc.at/zrunek-gummiwaren-gesellschaft-m-b-h_plo (10-19 Mitarbeiter, Umsatzklasse 0-10 Mio.) e https://www.evi.gv.at/f/233214m (FN 233214m, 1190 Wien)",
+  "correzione_proposta": "Firmenbuch FN 233214m, HG Wien; azienda fuori forbice target"
  }
 ]
