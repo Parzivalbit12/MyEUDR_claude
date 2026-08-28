@@ -12,7 +12,7 @@ La verifica si è svolta in due fasi:
 
 | Foglio | Aziende | Blocchi completi | Blocchi parziali | Blocchi da fare | Aziende verificate | Copertura |
 |---|--:|--:|--:|--:|--:|--:|
-| Italia | 95 | 3 | 0 | 2 | 57 | 60% |
+| Italia | 95 | 3 | 1 | 1 | 60 | 63% |
 | Germania | 97 | 4 | 0 | 2 | 68 | 70% |
 | Finlandia | 84 | 2 | 0 | 3 | 34 | 40% |
 | Danimarca | 85 | 5 | 0 | 0 | 89 | 105% |
@@ -20,7 +20,7 @@ La verifica si è svolta in due fasi:
 | Olanda | 98 | 5 | 0 | 1 | 85 | 87% |
 | Belgio | 92 | 5 | 0 | 0 | 95 | 103% |
 | Austria | 90 | 4 | 0 | 1 | 76 | 84% |
-| **TOTALE** | **729** | **32** | **0** | **10** | **576** | **79%** |
+| **TOTALE** | **729** | **32** | **1** | **9** | **579** | **79%** |
 
 _Un blocco è contato **completo** solo se l'agente ha confermato di aver verificato tutti i record. I **blocchi parziali** sono quelli ancora in corso o interrotti dal limite di sessione: i rilievi già salvati sono validi e inclusi nel report, ma la copertura è conteggiata al ribasso (solo le aziende che compaiono fra i rilievi). Il salvataggio incrementale ogni 3-4 record è ciò che ha evitato di perdere quel lavoro._
 
@@ -32,11 +32,11 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 
 ## 2. Rilievi per foglio
 
-**Totale rilievi Fase B: 934** — alta 138 · media 534 · bassa 262.
+**Totale rilievi Fase B: 939** — alta 138 · media 538 · bassa 263.
 
 | Foglio | Rilievi | alta | media | bassa | Aziende toccate |
 |---|--:|--:|--:|--:|--:|
-| Italia | 98 | 1 | 53 | 44 | 55 |
+| Italia | 103 | 1 | 57 | 45 | 58 |
 | Germania | 129 | 8 | 84 | 37 | 68 |
 | Finlandia | 50 | 12 | 26 | 12 | 29 |
 | Danimarca | 131 | 32 | 67 | 32 | 79 |
@@ -45,15 +45,15 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 | Belgio | 182 | 28 | 100 | 54 | 89 |
 | Austria | 84 | 11 | 52 | 21 | 58 |
 | _(tutti)_ | 1 | 0 | 0 | 1 | 1 |
-| **TOTALE** | **934** | **138** | **534** | **262** | **513** |
+| **TOTALE** | **939** | **138** | **538** | **263** | **516** |
 
 ### Rilievi per campo
 
 | Campo | Rilievi | di cui alta |
 |---|--:|--:|
-| dimensione | 444 | 71 |
-| referente | 196 | 24 |
-| email | 76 | 5 |
+| dimensione | 445 | 71 |
+| referente | 199 | 24 |
+| email | 77 | 5 |
 | denominazione | 64 | 17 |
 | filiera | 46 | 16 |
 | linkedin | 26 | 0 |
@@ -1351,12 +1351,12 @@ REFERENTE OBSOLETO DI DUE PASSAGGI. Heinz Hofer-Wittmann non e' piu' alla guida:
 
 ---
 
-## 5. Casi di gravità MEDIA (534)
+## 5. Casi di gravità MEDIA (538)
 
 _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente errato._
 
 
-### Italia (53)
+### Italia (57)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -1395,7 +1395,11 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Conceria Emmedue | dimensione | Campo 'n.d.': il fatturato reale è ~4,2M€ (2025), quindi SOTTO la forbice target 5-40M€. Lead sottodimensionato, da declassare. | https://www.reportaziende.it/conceria_emmedue_srl_vi_00793250242 — 'fatturato 4,2 milioni di euro (2025), utile netto 231,6 mila €, +10,2% sull'anno p | ≈4,2M€ (fatturato 2025) — sotto forbice target |
 | Conceria La Veneta S.p.A. | dimensione | Dato obsoleto: 12,9M€ è il fatturato 2024; nel 2025 i ricavi sono scesi a 8,68M€ (-32,7%), quindi al limite inferiore della forbice target. Calo rilevante da segnalare al commerciale. | https://registroaziende.it/azienda/conceria-la-veneta-spa-arzignano — 'ricavi 8.681.980 € (2025); 2024: 12,9 mln; 2022: 19.397.025 €; 63 dipendenti' | ≈8,7M€ (fatturato 2025, Registro Imprese) — era 12,9M€ nel 2024 |
 | Conceria Lomar (Lomar Lavorazione Pelli S.r. | email | L'indirizzo 'lomar@concerialomar.it' non compare nelle fonti pubbliche reperite; le schede aziendali e la certificazione LWG riportano 'info@concerialomar.it'. DA CONFERMARE. | https://www.reportaziende.it/lomar_lavorazione_pelli_srl_vi_02002810246 — 'Email: info@concerialomar.it; Tel +39 0444625050; PEC lomar@pec-italia.it' | info@concerialomar.it |
+| Costadoro S.p.A. Societa Benefit | referente | Referente e ruolo vuoti. L'attuale vertice e Giulio Trombetta, Amministratore Delegato (famiglia Trombetta, con i figli Carlotta e Umberto e la nipote Federica in azienda). | https://www.torinocronaca.it/news/torino/578588/torino-costadoro-celebra-135-anni-e-prepara-un-piano-di-crescita-fino-a-40-milioni-entro-il-2029.html  | referente: Giulio Trombetta; ruolo: Amministratore Delegato |
+| Costadoro S.p.A. Societa Benefit | email | Email indicata come 'n.d.' ma l'indirizzo generale compare letteralmente sul sito aziendale. | https://costadoro.it/informazioni/ e https://costadoro.it/en/contacts/ - 'infoespresso@costadoro.it', tel. +39 011 2483804, Lungo Dora Colletta 113/6, | infoespresso@costadoro.it |
 | Cuoificio Bisonte S.p.A. | dimensione | Fatturato indicato 12,1M€: sottostimato/obsoleto. Il bilancio 2023 riporta ricavi per 15,25M€ e utile 428.879€ (20-49 dipendenti). | https://topaziende.quotidiano.net/toscana/pisa/fatturato-cuoificio-bisonte-spa/ — 'fatturato 2023: 15.247.239 €; utile 428.879 €; dipendenti 20-49; co | ≈15,2M€ (fatturato 2023, Top Aziende/Registro Imprese) |
+| Dersut Caffe S.p.A. | referente | Referente e ruolo vuoti. Vertice: Giorgio Caballini di Sassoferrato, Presidente del CdA e Amministratore Delegato; la figlia Lara Caballini di Sassoferrato e anch'essa Amministratore Delegato. | https://www.welfarecare.org/2019/08/02/intervista-all-avv-lara-caballini-di-sassoferrato-amministratore-delegato-dersut-caffe/ ; https://www.ilgazzett | referente: Giorgio Caballini di Sassoferrato; ruolo: Presidente e Amministratore Delegato (in alternativa Lara Caballini |
+| Diemme - Industria Caffe Torrefatti S.p.A. ( | referente | Referente e ruolo vuoti. Vertice: Giannandrea Dubbini, Presidente e Amministratore Delegato. | Risultati di ricerca su ufficiocamerale.it / beverfood.com: 'Giannandrea Dubbini e Presidente e Amministratore Delegato'; fatturato 2024 32.709.888 EU | referente: Giannandrea Dubbini; ruolo: Presidente e Amministratore Delegato |
 | Fustelgraf S.p.A. | dimensione | Fatturato fortemente sottostimato e obsoleto: il foglio indica ~13,6 mln € (2022) e ~80 dipendenti, mentre il bilancio 2023 riporta 20.400.709 EUR con utile 1.970.039 EUR e 72 dipendenti (2025); le banche dati classificano l'azienda in fascia 10-25 m | https://www.reportaziende.it/fustelgraf_spa_bg_01820810164 — 'ultimo bilancio depositato 2023: fatturato 20.400.709 EUR, utile 1.970.039 EUR, 72 dipen | Fatturato ~20,4 mln € (bilancio 2023); 72 dipendenti (2025) |
 | Grafica Nappa S.r.l. | dimensione | Dato obsoleto e trend in discesa: il foglio riporta ~5,9 mln € (2023), corretto per quell'anno (5.912.030 EUR; 2022: 6.380.950 EUR), ma il 2024 scende a ~5,4 mln €, portando l'azienda al limite inferiore della forbice target 5-40 mln €. Da rivalutare | https://www.fatturatoitalia.it/grafica_nappa_srl-00100450618 — 'Fatturato 2023: 5.912.030 €; Fatturato 2022: 6.380.950 €; Fatturato 2024: 5,4 M'; 20-4 | Fatturato ~5,4 mln € (2024); 20-49 dipendenti |
 | Grafica Nappa S.r.l. | email | DA CONFERMARE: l'indirizzo commerciale@graficanappa.com non e stato ritrovato letteralmente in nessuna fonte pubblica; gli elenchi camerali e le pagine bianche riportano solo i telefoni (081 8906430 / 081 8906734) e il sito www.graficanappa.it. Il do | https://www.informazione-aziende.it/Azienda_GRAFICA-NAPPA-SRL — 'Tel. 0818906430, Tel. 0818906734, www.graficanappa.it' (nessuna email pubblicata) |  |
@@ -1932,12 +1936,12 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 
 ---
 
-## 6. Casi di gravità BASSA (262)
+## 6. Casi di gravità BASSA (263)
 
 _Refusi formali e incoerenze di stile._
 
 
-### Italia (44)
+### Italia (45)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -1972,6 +1976,7 @@ _Refusi formali e incoerenze di stile._
 | Conceria Nuova Impala S.r.l. | referente | Campo vuoto. Le fonti pubbliche indicano come figure apicali Gianfranco Caponi (direttore tecnico) e Mauro Vannucci (direttore amministrativo), seconda generazione dei fondatori: non è però confermato chi sia l'amministratore unico/legale rappresenta | https://www.nuovaimpala.com/ — 'fondata oltre 35 anni fa da Mario Caponi e dal cugino Orlando Vannucci, passata poi ai rispettivi figli, Gianfranco e  |  |
 | Conceria Tolio S.p.A. | dimensione | Il numero di dipendenti indicato (~50-249, da Europages) è errato: il Registro Imprese riporta una fascia 20-49 dipendenti. Il fatturato 16,2M€ è confermato ma è del 2023 (utile 91.705€, molto sottile). | https://www.ufficiocamerale.it/5218/conceria-tolio-spa — 'fatturato 16.201.421 € (2023); utile 91.705 €; dipendenti 20-49; costo del personale 2.460.3 | ≈16,2M€ (fatturato 2023) / 20-49 dipendenti (Registro Imprese) |
 | Conceria Tolio S.p.A. | referente | Campo vuoto: il vertice attuale è identificabile con certezza dalle fonti di distretto. | https://www.distrettovenetodellapelle.it/soci-distretto-veneto-pelle/concia/conceria-tolio-spa/ — 'Conceria Tolio nasce nel 1962 da un'idea imprendito | Mario Tolio — Presidente |
+| Costadoro S.p.A. Societa Benefit | dimensione | Il fatturato 19,9 mln EUR (2024) e confermato dal bilancio, ma la stampa 2025 indica ricavi 'attuali' a 24 mln EUR con piano a 40 mln entro il 2029 e ~60 dipendenti (non ~55). Dato da aggiornare. | https://www.torinocronaca.it/news/torino/578588/... - 'aumentare il fatturato dagli attuali 24 milioni di euro a 40 milioni in quattro anni'; bilancio | Fatturato 19,9 mln EUR (bilancio 2024); ~24 mln EUR dichiarati 2025; ~60 dipendenti |
 | Fonpelli S.p.A. | denominazione | Forma giuridica errata: al Registro Imprese la società è 'FONPELLI - S.R.L.' (P.IVA 01705980249), non S.p.A. Anche il sito e le schede camerali riportano S.r.l. | https://www.ufficiocamerale.it/2684/fonpelli-spa — 'FONPELLI - S.R.L., Partita IVA: 01705980249'; https://xrayfinance.it/fonpelli-s-p-a — 'FONPELLI S. | Fonpelli S.r.l. |
 | Fonpelli S.p.A. | dimensione | Valore confermato (15,32M€) ma manca l'anno: è il bilancio 2024, chiuso però in perdita (-203.123€) con 35 dipendenti. Elemento da segnalare al commerciale. | https://xrayfinance.it/fonpelli-s-p-a — 'Fatturato: € 15.322.593,00 (2024); Utile: € -203.123,00 (2024); Dipendenti: 35 (2025)' | ≈15,3M€ (fatturato 2024, Registro Imprese) — esercizio in perdita |
 | Fratelli Berti Legnami Srl | dimensione | Dato discordante rispetto ad Atoka, che indica ~5,9M€ e 18 dipendenti; valore comunque al limite inferiore della forbice target 5-40M€. Anno del dato da riconfermare. | https://atoka.io/public/it/azienda/fratelli-berti-legnami-srl/4735010f740f '18 employees and a turnover of 5.9 million euros' | ≈5,9M€ / 18 dip. (Atoka) — anno da confermare |

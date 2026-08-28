@@ -1,0 +1,47 @@
+[
+ {
+  "foglio": "Italia",
+  "denominazione": "Costadoro S.p.A. Societa Benefit",
+  "campo": "referente",
+  "problema": "Referente e ruolo vuoti. L'attuale vertice e Giulio Trombetta, Amministratore Delegato (famiglia Trombetta, con i figli Carlotta e Umberto e la nipote Federica in azienda).",
+  "gravita": "media",
+  "evidenza": "https://www.torinocronaca.it/news/torino/578588/torino-costadoro-celebra-135-anni-e-prepara-un-piano-di-crescita-fino-a-40-milioni-entro-il-2029.html - 'Giulio Trombetta, che ha illustrato la strategia aziendale nella sede storica della torrefazione'",
+  "correzione_proposta": "referente: Giulio Trombetta; ruolo: Amministratore Delegato"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Costadoro S.p.A. Societa Benefit",
+  "campo": "email",
+  "problema": "Email indicata come 'n.d.' ma l'indirizzo generale compare letteralmente sul sito aziendale.",
+  "gravita": "media",
+  "evidenza": "https://costadoro.it/informazioni/ e https://costadoro.it/en/contacts/ - 'infoespresso@costadoro.it', tel. +39 011 2483804, Lungo Dora Colletta 113/6, 10153 Torino",
+  "correzione_proposta": "infoespresso@costadoro.it"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Costadoro S.p.A. Societa Benefit",
+  "campo": "dimensione",
+  "problema": "Il fatturato 19,9 mln EUR (2024) e confermato dal bilancio, ma la stampa 2025 indica ricavi 'attuali' a 24 mln EUR con piano a 40 mln entro il 2029 e ~60 dipendenti (non ~55). Dato da aggiornare.",
+  "gravita": "bassa",
+  "evidenza": "https://www.torinocronaca.it/news/torino/578588/... - 'aumentare il fatturato dagli attuali 24 milioni di euro a 40 milioni in quattro anni'; bilancio 2024: 19.917.170 EUR (fatturatoitalia.it)",
+  "correzione_proposta": "Fatturato 19,9 mln EUR (bilancio 2024); ~24 mln EUR dichiarati 2025; ~60 dipendenti"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Dersut Caffe S.p.A.",
+  "campo": "referente",
+  "problema": "Referente e ruolo vuoti. Vertice: Giorgio Caballini di Sassoferrato, Presidente del CdA e Amministratore Delegato; la figlia Lara Caballini di Sassoferrato e anch'essa Amministratore Delegato.",
+  "gravita": "media",
+  "evidenza": "https://www.welfarecare.org/2019/08/02/intervista-all-avv-lara-caballini-di-sassoferrato-amministratore-delegato-dersut-caffe/ ; https://www.ilgazzettino.it/nordest/treviso/caffe_dersut_conegliano-4842571.html",
+  "correzione_proposta": "referente: Giorgio Caballini di Sassoferrato; ruolo: Presidente e Amministratore Delegato (in alternativa Lara Caballini di Sassoferrato, Amministratore Delegato)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Diemme - Industria Caffe Torrefatti S.p.A. (Caffe Diemme)",
+  "campo": "referente",
+  "problema": "Referente e ruolo vuoti. Vertice: Giannandrea Dubbini, Presidente e Amministratore Delegato.",
+  "gravita": "media",
+  "evidenza": "Risultati di ricerca su ufficiocamerale.it / beverfood.com: 'Giannandrea Dubbini e Presidente e Amministratore Delegato'; fatturato 2024 32.709.888 EUR confermato",
+  "correzione_proposta": "referente: Giannandrea Dubbini; ruolo: Presidente e Amministratore Delegato"
+ }
+]
