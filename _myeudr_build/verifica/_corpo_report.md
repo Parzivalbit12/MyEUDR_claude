@@ -12,7 +12,7 @@ La verifica si è svolta in due fasi:
 
 | Foglio | Aziende | Blocchi completi | Blocchi parziali | Blocchi da fare | Aziende verificate | Copertura |
 |---|--:|--:|--:|--:|--:|--:|
-| Italia | 95 | 3 | 1 | 1 | 76 | 80% |
+| Italia | 95 | 4 | 0 | 1 | 76 | 80% |
 | Germania | 97 | 4 | 0 | 2 | 68 | 70% |
 | Finlandia | 83 | 3 | 0 | 2 | 51 | 61% |
 | Danimarca | 85 | 5 | 0 | 0 | 89 | 105% |
@@ -20,7 +20,7 @@ La verifica si è svolta in due fasi:
 | Olanda | 98 | 5 | 0 | 1 | 85 | 87% |
 | Belgio | 92 | 5 | 0 | 0 | 95 | 103% |
 | Austria | 90 | 5 | 0 | 0 | 93 | 103% |
-| **TOTALE** | **728** | **34** | **1** | **7** | **629** | **86%** |
+| **TOTALE** | **728** | **35** | **0** | **7** | **629** | **86%** |
 
 _Un blocco è contato **completo** solo se l'agente ha confermato di aver verificato tutti i record. I **blocchi parziali** sono quelli ancora in corso o interrotti dal limite di sessione: i rilievi già salvati sono validi e inclusi nel report, ma la copertura è conteggiata al ribasso (solo le aziende che compaiono fra i rilievi). Il salvataggio incrementale ogni 3-4 record è ciò che ha evitato di perdere quel lavoro._
 
