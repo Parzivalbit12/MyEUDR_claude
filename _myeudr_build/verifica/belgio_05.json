@@ -52,5 +52,23 @@
   "gravita": "media",
   "evidenza": "https://www.vanrobaeysbelgium.com/nl-BE/nieuws/categorie/vanrobaeys — «Robrecht 'Robert' Vanrobaeys was medestichter van NV Vanrobaeys granen en zaden»",
   "correzione_proposta": ""
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Vandeputte Oleochemicals SA",
+  "campo": "filiera",
+  "problema": "ERRORE DI PERIMETRO EUDR — caso identico a Immobra. Il record la classifica sotto la macro «Olio di palma», ma l'azienda non tratta palma: limita la propria attività di spremitura al LINO (~100.000 t/anno) e produce oli di lino cotti, standoli, oli soffiati, solventi e diluenti vegetali destinati a vernici, inchiostri, linoleum, adesivi, resine e trattamento del legno. Il gruppo Vandeputte è un riferimento mondiale del lino, con oltre il 10% della produzione mondiale. Il lino NON è commodity dell'Allegato I: è esattamente il motivo per cui la raccolta aveva già scartato Immobra e Oliefabriek Lichtervelde. La soia compare solo come standolio e olio emulsionabile, cioè prodotti derivati acquistati e modificati, non spremitura propria.",
+  "gravita": "alta",
+  "evidenza": "https://www.vandeputte.com/en/oleochemicals/our-oleochemistry-products/ e https://www.essenscia.be/en/member_company/vandeputte-oleochemicals/ — «The firm limits its seed-pressing activity to linseed (around 100,000 ton annually) to obtain linseed oil and its derivatives»; «more than 10% of the world's linseed production coming through them»; impieghi «paints, inks, linoleum, adhesives, resins, varnishes, and wood treatment»",
+  "correzione_proposta": "Rimuovere il lead: fuori perimetro EUDR, stesso criterio di Immobra e Oliefabriek Lichtervelde"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Repro NV",
+  "campo": "dimensione",
+  "problema": "Legame di gruppo correttamente dichiarato (società di raffinazione del Group Vandamme), quindi non è un errore di dato. Va però segnalato che la capogruppo è la stessa famiglia Vandamme attiva nella raffinazione di oli vegetali, e che il record dichiara 1-5 dipendenti a fronte di 14,2 M€ di fatturato: la decisione di compliance si colloca verosimilmente a livello di gruppo. DA CONFERMARE inoltre quali oli raffini: se solo lino, sarebbe fuori Allegato I come Vandeputte.",
+  "gravita": "media",
+  "evidenza": "https://www.groupvandamme.com/ e https://derijkstebelgen.be/vermogende/familie-vandamme — «Repro verzorgt de raffinage en verpakking van plantaardige oliën»; il gruppo Vandamme nasce nel 1903 da un mulino per olio a Zulte",
+  "correzione_proposta": ""
  }
 ]

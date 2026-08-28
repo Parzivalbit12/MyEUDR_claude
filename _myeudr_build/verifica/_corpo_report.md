@@ -1,6 +1,6 @@
 # REPORT DI VERIFICA — MyEUDR Lead Mapping
 
-Controllo qualità record per record del censimento lead (**736 aziende, 8 fogli**). Non è una raccolta di nuove aziende: è la verifica del lavoro esistente.
+Controllo qualità record per record del censimento lead (**735 aziende, 8 fogli**). Non è una raccolta di nuove aziende: è la verifica del lavoro esistente.
 
 La verifica si è svolta in due fasi:
 
@@ -18,13 +18,13 @@ La verifica si è svolta in due fasi:
 | Danimarca | 88 | 4 | 0 | 1 | 72 | 82% |
 | Svezia | 89 | 3 | 0 | 2 | 54 | 61% |
 | Olanda | 99 | 4 | 0 | 2 | 68 | 69% |
-| Belgio | 93 | 4 | 1 | 0 | 78 | 84% |
+| Belgio | 92 | 4 | 1 | 0 | 80 | 87% |
 | Austria | 91 | 3 | 1 | 1 | 61 | 67% |
-| **TOTALE** | **736** | **26** | **2** | **14** | **475** | **65%** |
+| **TOTALE** | **735** | **26** | **2** | **14** | **477** | **65%** |
 
 _Un blocco è contato **completo** solo se l'agente ha confermato di aver verificato tutti i record. I **blocchi parziali** sono quelli ancora in corso o interrotti dal limite di sessione: i rilievi già salvati sono validi e inclusi nel report, ma la copertura è conteggiata al ribasso (solo le aziende che compaiono fra i rilievi). Il salvataggio incrementale ogni 3-4 record è ciò che ha evitato di perdere quel lavoro._
 
-> La Fase A copre invece il **100%** dei 736 record: è un controllo offline e non dipende dal budget di ricerca.
+> La Fase A copre invece il **100%** dei 735 record: è un controllo offline e non dipende dal budget di ricerca.
 
 
 _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati aperti dalla raccolta, condotta separatamente e riportata per intero più sotto._
@@ -32,7 +32,7 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 
 ## 2. Rilievi per foglio
 
-**Totale rilievi Fase B: 776** — alta 110 · media 441 · bassa 225.
+**Totale rilievi Fase B: 778** — alta 111 · media 442 · bassa 225.
 
 | Foglio | Rilievi | alta | media | bassa | Aziende toccate |
 |---|--:|--:|--:|--:|--:|
@@ -42,20 +42,20 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 | Danimarca | 97 | 21 | 51 | 25 | 64 |
 | Svezia | 95 | 26 | 44 | 25 | 50 |
 | Olanda | 123 | 12 | 85 | 26 | 57 |
-| Belgio | 154 | 24 | 85 | 45 | 73 |
+| Belgio | 156 | 25 | 86 | 45 | 75 |
 | Austria | 68 | 9 | 40 | 19 | 48 |
 | _(tutti)_ | 1 | 0 | 0 | 1 | 1 |
-| **TOTALE** | **776** | **110** | **441** | **225** | **428** |
+| **TOTALE** | **778** | **111** | **442** | **225** | **430** |
 
 ### Rilievi per campo
 
 | Campo | Rilievi | di cui alta |
 |---|--:|--:|
-| dimensione | 380 | 63 |
+| dimensione | 381 | 63 |
 | referente | 158 | 19 |
 | email | 66 | 5 |
 | denominazione | 52 | 10 |
-| filiera | 27 | 10 |
+| filiera | 28 | 11 |
 | linkedin | 26 | 0 |
 | ruolo | 21 | 0 |
 | sede | 20 | 2 |
@@ -65,7 +65,7 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 
 ---
 
-## 3. Tema trasversale — legami di gruppo (109 rilievi)
+## 3. Tema trasversale — legami di gruppo (110 rilievi)
 
 È il problema **più diffuso e meno atteso** emerso dalla verifica: non era fra i 13 punti noti dell'handoff. Numerose aziende del censimento sono controllate di gruppi, spesso esteri o quotati. Per il criterio già applicato dal progetto — che aveva rimosso Lavazza Kaffee, Segafredo Zanetti Austria e Kaffee Partner Austria perché *«la compliance si decide a livello di gruppo, non nella filiale»* — sono **lead di valore dubbio**.
 
@@ -108,6 +108,7 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 | Belgio | Manufacture Belge de Chocolats SRL | **NON dichiarato** | LEGAME DI GRUPPO NON DICHIARATO. MBC non e' una PMI belga indipendente: e' lo stabilimento di produzione bruxellese di Godiva ceduto nel giugno 2019 al fondo MBK Partners insieme alle attivita' Godiva |
 | Belgio | Manutti BV | **dichiarato** | Legame di gruppo con Manutti Invest BV (BE 0478.148.434) dichiarato nel record: si tratta della holding familiare che controlla l'operativa. Segnalato come 'media' perche' gia' dichiarato; la decision |
 | Belgio | Mecam NV | **NON dichiarato** | Il record riporta 32.145.268 € e 111,6 FTE per la sola Mecam NV, mentre la stampa parla di 37 M€ cumulati e ~220 dipendenti per l'intero Mecam Group (Mecam + Neo-Style). Il legame di gruppo esiste ed  |
+| Belgio | Repro NV | **NON dichiarato** | Legame di gruppo correttamente dichiarato (società di raffinazione del Group Vandamme), quindi non è un errore di dato. Va però segnalato che la capogruppo è la stessa famiglia Vandamme attiva nella r |
 | Belgio | Sas NV (Sas Coffee) | **dichiarato** | CONFERMATO: l'azienda NON e' piu' indipendente ne' familiare. Acquisita da Miko NV (11/2021) e rivenduta il 24-05-2024 al fondo di private equity olandese Nimbus Investments; il sito di Nimbus la elen |
 | Belgio | Sas NV (Sas Coffee) | **dichiarato** | CONTROLLATA DI FONDO (legame gia' dichiarato nel campo): dal 24-05-2024 Sas Koffie e' di proprieta' dell'investitore olandese Nimbus Investments, che l'ha rilevata da Miko Group. Non e' un'azienda fam |
 | Belgio | Silco NV | **NON dichiarato** | RILIEVO NUOVO emerso in verifica: la sede di Silco (Italielei 181, 2000 Antwerpen) e' lo stesso indirizzo di EFICO NV, il grande trader di caffe' verde di Anversa (fatturato ~289 M€), il cui president |
@@ -198,7 +199,7 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 
 ---
 
-## 4. Casi di gravità ALTA (110)
+## 4. Casi di gravità ALTA (111)
 
 _Dato falso, azienda non contattabile, azienda cessata/fallita/acquisita, oppure fuori dal perimetro dell'Allegato I EUDR._
 
@@ -837,7 +838,7 @@ Assetto proprietario dichiarato errato: il campo indica ancora 'Soci: PALI Group
 **Correzione proposta:** Controllata al 100% di Vitelco B.V. (PALI Group), 's-Hertogenbosch
 
 
-### Belgio (24)
+### Belgio (25)
 
 #### Accent NV — campo `dimensione`
 
@@ -1007,6 +1008,14 @@ Societa' non indipendente: dal 2014 Tannerie Masure fa parte del Groupe Saturne 
 
 **Correzione proposta:** Valutare il lead a livello di capogruppo Groupe Saturne / Financiere Saturne (FR): la societa' belga non e' un centro decisionale autonomo per la compliance EUDR
 
+#### Vandeputte Oleochemicals SA — campo `filiera`
+
+ERRORE DI PERIMETRO EUDR — caso identico a Immobra. Il record la classifica sotto la macro «Olio di palma», ma l'azienda non tratta palma: limita la propria attività di spremitura al LINO (~100.000 t/anno) e produce oli di lino cotti, standoli, oli soffiati, solventi e diluenti vegetali destinati a vernici, inchiostri, linoleum, adesivi, resine e trattamento del legno. Il gruppo Vandeputte è un riferimento mondiale del lino, con oltre il 10% della produzione mondiale. Il lino NON è commodity dell'Allegato I: è esattamente il motivo per cui la raccolta aveva già scartato Immobra e Oliefabriek Lichtervelde. La soia compare solo come standolio e olio emulsionabile, cioè prodotti derivati acquistati e modificati, non spremitura propria.
+
+**Evidenza:** https://www.vandeputte.com/en/oleochemicals/our-oleochemistry-products/ e https://www.essenscia.be/en/member_company/vandeputte-oleochemicals/ — «The firm limits its seed-pressing activity to linseed (around 100,000 ton annually) to obtain linseed oil and its derivatives»; «more than 10% of the world's linseed production coming through them»; impieghi «paints, inks, linoleum, adhesives, resins, varnishes, and wood treatment»
+
+**Correzione proposta:** Rimuovere il lead: fuori perimetro EUDR, stesso criterio di Immobra e Oliefabriek Lichtervelde
+
 #### Varia-Pack NV — campo `filiera`
 
 ERRORE DI PERIMETRO (stesso schema gia' intercettato con Hausberger in Germania): Variapack e' un GROSSISTA di materiale d'imballaggio per retail, logistica, horeca e foodservice — film estensibile, scatole di cartone, bicchieri di plastica, monouso — non un trasformatore. Rivende cartone gia' immesso sul mercato UE da terzi: non e' 'operatore' che immette per primo la commodity.
@@ -1109,7 +1118,7 @@ REFERENTE OBSOLETO DI DUE PASSAGGI. Heinz Hofer-Wittmann non e' piu' alla guida:
 
 ---
 
-## 5. Casi di gravità MEDIA (441)
+## 5. Casi di gravità MEDIA (442)
 
 _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente errato._
 
@@ -1460,7 +1469,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Zalsman B.V. | ruolo | Herman Verlind non e' il 'Directeur' operativo ma il DGA / eigenaar (azionista di maggioranza); il directeur indicato dalla stampa di settore e' Gerwin de Vries. | https://printmatters.nl/nieuws/2023/01/06/inclusiekampioen-zalsman-bij-ons-doet-iedereen-ertoe - frammento: 'Herman Verlind serves as DGA (majority sh | Herman Verlind - DGA / eigenaar (directeur operativo: Gerwin de Vries) |
 | Zalsman B.V. | dimensione | Il dato '50 dipendenti nella sede di Steinfurtstraat 1' sottostima largamente l'azienda: PRINTmatters riporta 148 dipendenti su tre sedi (Zwolle, Kampen, Heerenveen). Il campo va riferito all'intera societa', non alla singola sede. | https://printmatters.nl/nieuws/2023/01/06/inclusiekampioen-zalsman-bij-ons-doet-iedereen-ertoe - frammento: 'Of the 148 employees, 40 have barriers to | Fatturato non pubblicato (BV, bilancio abbreviato). ~148 dipendenti su tre sedi (Zwolle, Kampen, Heerenveen), fonte PRIN |
 
-### Belgio (85)
+### Belgio (86)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -1531,6 +1540,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Pralinart NV | linkedin | Stesso rilievo speculare ad A & A Chocolaterie NV: le due societa' sono distinte (KBO BE 0450.589.051 vs BE 0892.388.320, sedi diverse) ma condividono la medesima pagina LinkedIn congiunta e il medesimo sito di gruppo hamlet.be, con email 'n.d.' in e | https://www.companyweb.be/en/0450589051/pralinart — Pralinart NV, Waaslandlaan 32, 9160 Lokeren, BE 0450.589.051; pagina condivisa https://be.linkedin |  |
 | Radermecker SRL | referente | Referente e ruolo assenti. La conceria e' stata rilevata nell'aprile 2016 da due ingegneri francesi, Loic Honore e Nicolas Quintin, che ne sono gli attuali gestori: candidati referenti (gerant / administrateur delegue) da confermare su fonte societar | https://www.lavenir.net/regions/wallonie-picarde/comines-warneton/2022/01/14/cuirs-selliers-la-specialite-de-la-tannerie-radermecker-a-comines-YLAPU6L |  |
 | Radermecker SRL | email | Email 'n.d.': nessun indirizzo di contatto nel record. Il sito radermecker.com espone una pagina contatti, ma l'indirizzo non e' recuperabile via frammenti di ricerca. DA CONFERMARE. | https://www.radermecker.com/pages/on-parle-de-nous-dans-la-presse (sito attivo, indirizzo e-mail non estraibile dai frammenti) |  |
+| Repro NV | dimensione | Legame di gruppo correttamente dichiarato (società di raffinazione del Group Vandamme), quindi non è un errore di dato. Va però segnalato che la capogruppo è la stessa famiglia Vandamme attiva nella raffinazione di oli vegetali, e che il record dichi | https://www.groupvandamme.com/ e https://derijkstebelgen.be/vermogende/familie-vandamme — «Repro verzorgt de raffinage en verpakking van plantaardige  |  |
 | Royal Botania NV | referente | Referente probabilmente superato/impreciso. Kris Van Puyvelde risulta 'hoofddesigner en zaakvoerder' e cofondatore, non CEO; il cofondatore Frank Boschman ha lasciato l'azienda intorno al 2018 e nelle interviste recenti l'azienda e' rappresentata da  | apbc.be/stories/awd-2-kris-van-puyvelde-royal-botania: 'Kris van Puyvelde is hoofddesigner en zaakvoerder van Royal Botania'; wonen360.nl/article/9224 |  |
 | Rucquoy Frères NV | referente | Referente NON riscontrato: 'Steven De Punt' non compare in nessuna fonte pubblica collegata a Rucquoy Freres (ne' sito, ne' LinkedIn aziendale, ne' stampa). L'unico nominativo pubblicato con ruolo commerciale e' Stephanie Jocquet. DA CONFERMARE in KB | Ricerca '"Steven De Punt" Rucquoy coffee Antwerp' — nessun risultato pertinente; https://be.linkedin.com/in/stephaniejocquet 'Rucquoy Freres - Green C |  |
 | Sas NV (Sas Coffee) | referente | Herman Sas risulta ancora 'gedelegeerd bestuurder' negli estratti KBO pubblicati (pappers.be, insieme a Dominic Sas, Danielle Vanden Eede, Micheline Sas, NV HELFINCO), ma nessuna fonte post-cessione a Nimbus (05/2024) lo riconferma al vertice operati | https://www.pappers.be/nl/company/sas-0404190783 - 'Herman Sas is de gedelegeerd bestuurder; overige bestuurders: Dominic Sas, Danielle Vanden Eede, M |  |

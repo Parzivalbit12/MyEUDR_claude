@@ -512,8 +512,13 @@ nel report**, non toccato nei fogli.
     Schwarzach Packaging ha rilevato macchine e portafoglio, produzione trasferita a Schwarzach,
     il titolare si è ritirato. Precedente identico: Getama Danmark.
 
-**In totale 62 correzioni applicate**, di cui 6 rimozioni. Il censimento passa da **742 a 736
-aziende** (Danimarca 89→88, Olanda 100→99, Belgio 95→93, Austria 93→91); l'ordine dei fogli è
+  - **Vandeputte Oleochemicals SA** (Belgio) — **fuori perimetro**, caso identico a Immobra.
+    Censita sotto la macro «Olio di palma», ma non tratta palma: *«limits its seed-pressing activity
+    to linseed (around 100.000 ton annually)»*, per vernici, inchiostri, linoleum e trattamento del
+    legno. Il gruppo Vandeputte è un riferimento mondiale del **lino**, che non è Allegato I.
+
+**In totale 63 correzioni applicate**, di cui 7 rimozioni. Il censimento passa da **742 a 735
+aziende** (Danimarca 89→88, Olanda 100→99, Belgio 95→92, Austria 93→91); l'ordine dei fogli è
 ripristinato.
 
 ⚠️ **Nota sul criterio di rimozione.** Ho tolto una riga **solo** quando ricadeva in una delle
