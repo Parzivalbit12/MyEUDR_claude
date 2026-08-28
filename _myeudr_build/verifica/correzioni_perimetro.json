@@ -62,5 +62,29 @@
   "da": null,
   "a": null,
   "motivo": "AZIENDA IN FALLIMENTO: Konkursverfahren aperto il 09/10.07.2026 sul patrimonio di Helmut Sachers Kaffee GmbH (FN 105466y) presso il Landesgericht Wiener Neustadt — passivo ~1,4 Mio EUR, 23 dipendenti, 42 creditori, curatore RA Michael Lentsch, udienza di verifica l'08.09.2026. Confermato dai due registri ufficiali austriaci delle insolvenze (AKV e KSV). È un Konkursverfahren, non un risanamento: seconda crisi dopo il Sanierungsverfahren del 2017. Precedente diretto già applicato dal progetto: Alexander Schärf & Söhne, anch'essa torrefazione austriaca esclusa per insolvenza, insieme a HAKA Küche, KAPO Möbel, ADA, Schletterer, SBG-Verpackung e Lederfabrik Vogl. Fonti: akv.at/insolvenz/1542119, ksv.at/insolvenzfaelle/helmut-sachers-kaffee-gmbh-208860, leadersnet.at."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "COMPEX ApS",
+  "campo": "denominazione",
+  "da": null,
+  "a": null,
+  "motivo": "FUORI PERIMETRO EUDR: Compex importa e distribuisce minerali e integratori del tedesco B&K, impianti di mungitura Milkrite/Interpuls, plastiche e reti per insilato VisscherHollands e sistemi di lavaggio capezzoli FutureCow. Nessuna commodity dell'Allegato I: nessuna soia, nessun mangime a base proteica vegetale. È fornitura di attrezzature e additivi zootecnici, non immissione di una commodity sul mercato UE. Fonte: compex.dk e compex.dk/fodring."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "MEJLING LANDHANDEL / SÆBY FRØSALG",
+  "campo": "denominazione",
+  "da": null,
+  "a": null,
+  "motivo": "FUORI PERIMETRO EUDR: il CVR 51620968 è una ditta individuale (enkeltmandsvirksomhed) attiva dal 1985, classificata nel **commercio al dettaglio di generi alimentari**. Il sito vende mangimi per conigli, cani e gatti, articoli antiparassitari e biglietti della lotteria: è un negozio rurale al dettaglio, non un operatore che immette una commodity dell'Allegato I sul mercato UE. Fonte: proff.dk (CVR 51620968), mejlinglandhandel.dk."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "VESTJYSK SPECIALFODER ApS",
+  "campo": "denominazione",
+  "da": null,
+  "a": null,
+  "motivo": "FUORI PERIMETRO EUDR **e** attività cessata. Il perimetro non è dimostrato sotto nessuno dei due CVR: l'attività descritta dalle fonti è una landhandel — negozio specializzato in mangimi, caccia, pesca e giardinaggio, perfino rivenditore di fuochi d'artificio — registrata come «engroshandel annet»; nessuna fonte documenta l'immissione di soia sul mercato UE. Si aggiunge che la stampa locale documenta un **secondo fallimento** del negozio di Industrivej a Vemb («konkurs for anden gang på knap tre år»), distinto dal konkurs 2020 dell'omonima «Vestjy*d*sk Specialfoder ApS» CVR 39680718. Il record è inoltre internamente incoerente: cita due CVR diversi (38786709 e 42242993), che sono due entità distinte allo stesso indirizzo, e il referente Julia Ott ha lasciato la carica nel 2021 senza un vertice riconfermato. L'ambiguità di identità non è dirimente perché il perimetro cade per entrambe le entità. Fonti: proff.dk, lasso.dk/firmaer/42242993, dbrs.dk, dagbladet-holstebro-struer.dk, royalfireworks.dk."
  }
 ]

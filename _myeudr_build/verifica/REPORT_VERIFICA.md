@@ -1,6 +1,6 @@
 # REPORT DI VERIFICA — MyEUDR Lead Mapping
 
-> Controllo qualità **record per record** del censimento lead (**734 aziende, 8 fogli**), alla ricerca di refusi, attribuzioni errate e ogni altro errore introdotto durante la raccolta. Non è una ricerca di nuove aziende.
+> Controllo qualità **record per record** del censimento lead (**731 aziende, 8 fogli**), alla ricerca di refusi, attribuzioni errate e ogni altro errore introdotto durante la raccolta. Non è una ricerca di nuove aziende.
 
 
 ## Come leggere questo report
@@ -9,7 +9,7 @@ La verifica si è svolta in due fasi, con budget e coperture diverse:
 
 | Fase | Metodo | Copertura |
 |---|---|---|
-| **A — controlli deterministici** | 26 controlli automatici offline su tutti i JSON di build e sul workbook | **100%** dei 734 record |
+| **A — controlli deterministici** | 26 controlli automatici offline su tutti i JSON di build e sul workbook | **100%** dei 731 record |
 | **B — riscontro sul web** | agenti di verifica, blocchi di 15-20 aziende, 2-3 ricerche per record, ogni rilievo con URL o citazione | vedi §1 |
 
 Documenti di dettaglio:
@@ -75,14 +75,14 @@ I rilievi si concentrano invece su qualità e coerenza redazionale:
 ---
 
 
-## 0-bis. Correzioni già applicate al workbook (64)
+## 0-bis. Correzioni già applicate al workbook (67)
 
 Applicate **solo le correzioni certe**, secondo il mandato: refusi formali, entità HTML, forme giuridiche, filiere fuori Allegato I, aziende cessate. Tutto il resto resta come rilievo aperto in questo report.
 
 Ogni correzione di campo è stata applicata con un **controllo di guardia**: lo script verifica che il valore attuale del campo coincida esattamente con quello atteso, altrimenti salta la correzione, così lo script è rieseguibile senza rischi. Dopo l'applicazione le righe sono **740** (due rimozioni motivate, vedi sotto) e l'ordine dei fogli è ripristinato (Italia, Germania, Finlandia, Danimarca, Svezia, Olanda, Belgio, Austria).
 
 
-### Record rimossi dal censimento (8)
+### Record rimossi dal censimento (11)
 
 Sono le uniche righe **tolte** dai fogli. Ciascuna rientra in una categoria che il mandato autorizza a correggere — filiere fuori Allegato I, aziende cessate — e in ogni caso il progetto aveva già applicato lo stesso criterio a un caso analogo, che viene citato nella motivazione.
 
@@ -110,7 +110,16 @@ FUORI PERIMETRO EUDR — caso identico a Immobra, già scartata dalla raccolta p
 **Helmut Sachers Kaffee GmbH** — foglio Austria  
 AZIENDA IN FALLIMENTO: Konkursverfahren aperto il 09/10.07.2026 sul patrimonio di Helmut Sachers Kaffee GmbH (FN 105466y) presso il Landesgericht Wiener Neustadt — passivo ~1,4 Mio EUR, 23 dipendenti, 42 creditori, curatore RA Michael Lentsch, udienza di verifica l'08.09.2026. Confermato dai due registri ufficiali austriaci delle insolvenze (AKV e KSV). È un Konkursverfahren, non un risanamento: seconda crisi dopo il Sanierungsverfahren del 2017. Precedente diretto già applicato dal progetto: Alexander Schärf & Söhne, anch'essa torrefazione austriaca esclusa per insolvenza, insieme a HAKA Küche, KAPO Möbel, ADA, Schletterer, SBG-Verpackung e Lederfabrik Vogl. Fonti: akv.at/insolvenz/1542119, ksv.at/insolvenzfaelle/helmut-sachers-kaffee-gmbh-208860, leadersnet.at.
 
-Il totale del censimento passa quindi da **742 a 734 aziende** (Belgio 95→94, Olanda 100→99, Austria 93→92).
+**COMPEX ApS** — foglio Danimarca  
+FUORI PERIMETRO EUDR: Compex importa e distribuisce minerali e integratori del tedesco B&K, impianti di mungitura Milkrite/Interpuls, plastiche e reti per insilato VisscherHollands e sistemi di lavaggio capezzoli FutureCow. Nessuna commodity dell'Allegato I: nessuna soia, nessun mangime a base proteica vegetale. È fornitura di attrezzature e additivi zootecnici, non immissione di una commodity sul mercato UE. Fonte: compex.dk e compex.dk/fodring.
+
+**MEJLING LANDHANDEL / SÆBY FRØSALG** — foglio Danimarca  
+FUORI PERIMETRO EUDR: il CVR 51620968 è una ditta individuale (enkeltmandsvirksomhed) attiva dal 1985, classificata nel **commercio al dettaglio di generi alimentari**. Il sito vende mangimi per conigli, cani e gatti, articoli antiparassitari e biglietti della lotteria: è un negozio rurale al dettaglio, non un operatore che immette una commodity dell'Allegato I sul mercato UE. Fonte: proff.dk (CVR 51620968), mejlinglandhandel.dk.
+
+**VESTJYSK SPECIALFODER ApS** — foglio Danimarca  
+FUORI PERIMETRO EUDR **e** attività cessata. Il perimetro non è dimostrato sotto nessuno dei due CVR: l'attività descritta dalle fonti è una landhandel — negozio specializzato in mangimi, caccia, pesca e giardinaggio, perfino rivenditore di fuochi d'artificio — registrata come «engroshandel annet»; nessuna fonte documenta l'immissione di soia sul mercato UE. Si aggiunge che la stampa locale documenta un **secondo fallimento** del negozio di Industrivej a Vemb («konkurs for anden gang på knap tre år»), distinto dal konkurs 2020 dell'omonima «Vestjy*d*sk Specialfoder ApS» CVR 39680718. Il record è inoltre internamente incoerente: cita due CVR diversi (38786709 e 42242993), che sono due entità distinte allo stesso indirizzo, e il referente Julia Ott ha lasciato la carica nel 2021 senza un vertice riconfermato. L'ambiguità di identità non è dirimente perché il perimetro cade per entrambe le entità. Fonti: proff.dk, lasso.dk/firmaer/42242993, dbrs.dk, dagbladet-holstebro-struer.dk, royalfireworks.dk.
+
+Il totale del censimento passa quindi da **742 a 731 aziende** (Belgio 95→94, Olanda 100→99, Austria 93→92).
 
 
 ### Tassonomia `Filiera` (24)
@@ -209,16 +218,16 @@ Tre categorie di rilievi formali sono state lasciate aperte nel report invece ch
 | Italia | 95 | 3 | 0 | 2 | 57 | 60% |
 | Germania | 97 | 3 | 0 | 3 | 51 | 53% |
 | Finlandia | 84 | 2 | 0 | 3 | 34 | 40% |
-| Danimarca | 88 | 4 | 1 | 0 | 89 | 101% |
+| Danimarca | 85 | 5 | 0 | 0 | 89 | 105% |
 | Svezia | 89 | 3 | 0 | 2 | 54 | 61% |
 | Olanda | 99 | 4 | 0 | 2 | 68 | 69% |
 | Belgio | 92 | 5 | 0 | 0 | 95 | 103% |
 | Austria | 90 | 4 | 0 | 1 | 76 | 84% |
-| **TOTALE** | **734** | **28** | **1** | **13** | **524** | **71%** |
+| **TOTALE** | **731** | **29** | **0** | **13** | **524** | **72%** |
 
 _Un blocco è contato **completo** solo se l'agente ha confermato di aver verificato tutti i record. I **blocchi parziali** sono quelli ancora in corso o interrotti dal limite di sessione: i rilievi già salvati sono validi e inclusi nel report, ma la copertura è conteggiata al ribasso (solo le aziende che compaiono fra i rilievi). Il salvataggio incrementale ogni 3-4 record è ciò che ha evitato di perdere quel lavoro._
 
-> La Fase A copre invece il **100%** dei 734 record: è un controllo offline e non dipende dal budget di ricerca.
+> La Fase A copre invece il **100%** dei 731 record: è un controllo offline e non dipende dal budget di ricerca.
 
 
 _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati aperti dalla raccolta, condotta separatamente e riportata per intero più sotto._

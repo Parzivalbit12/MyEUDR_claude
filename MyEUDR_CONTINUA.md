@@ -522,8 +522,21 @@ nel report**, non toccato nei fogli.
     (registri ufficiali AKV e KSV). È un fallimento, non un risanamento. Precedente diretto:
     Alexander Schärf & Söhne, anch'essa torrefazione austriaca esclusa per insolvenza.
 
-**In totale 65 correzioni applicate**, di cui 8 rimozioni. Il censimento passa da **742 a 734
-aziende** (Danimarca 89→88, Olanda 100→99, Belgio 95→92, Austria 93→90); l'ordine dei fogli è
+  - **Compex ApS** (Danimarca) — **fuori perimetro**: importa minerali e integratori, impianti di
+    mungitura, plastiche per insilato e sistemi di lavaggio capezzoli. Nessuna commodity
+    dell'Allegato I: è fornitura di attrezzature zootecniche.
+  - **Mejling Landhandel / Sæby Frøsalg** (Danimarca) — **fuori perimetro**: ditta individuale
+    classificata nel commercio **al dettaglio** di generi alimentari; vende mangime per conigli,
+    cani e gatti, antiparassitari e biglietti della lotteria.
+  - **Vestjysk Specialfoder ApS** (Danimarca) — **fuori perimetro e cessata**. Era uno dei 13 punti
+    noti. Il perimetro non regge sotto nessuno dei due CVR che il record cita al proprio interno
+    (38786709 e 42242993, due entità distinte allo stesso indirizzo): l'attività è una *landhandel*
+    — mangimi, caccia, pesca, giardinaggio, perfino fuochi d'artificio — e nessuna fonte documenta
+    l'immissione di soia. In più la stampa locale documenta un **secondo fallimento** del negozio di
+    Vemb, distinto dal konkurs 2020 dell'omonima «Vestjy*d*sk».
+
+**In totale 68 correzioni applicate**, di cui 11 rimozioni. Il censimento passa da **742 a 731
+aziende** (Danimarca 89→85, Olanda 100→99, Belgio 95→92, Austria 93→90); l'ordine dei fogli è
 ripristinato.
 
 Una correzione di **commodity** invece che di rimozione: **Repro NV** era censita sotto «Olio di
