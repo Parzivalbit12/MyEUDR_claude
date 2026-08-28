@@ -231,8 +231,8 @@ Tre categorie di rilievi formali sono state lasciate aperte nel report invece ch
 | Svezia | 88 | 4 | 0 | 1 | 72 | 82% |
 | Olanda | 98 | 5 | 0 | 1 | 85 | 87% |
 | Belgio | 92 | 5 | 0 | 0 | 95 | 103% |
-| Austria | 90 | 4 | 1 | 0 | 89 | 99% |
-| **TOTALE** | **728** | **33** | **2** | **7** | **625** | **86%** |
+| Austria | 90 | 5 | 0 | 0 | 93 | 103% |
+| **TOTALE** | **728** | **34** | **1** | **7** | **629** | **86%** |
 
 _Un blocco è contato **completo** solo se l'agente ha confermato di aver verificato tutti i record. I **blocchi parziali** sono quelli ancora in corso o interrotti dal limite di sessione: i rilievi già salvati sono validi e inclusi nel report, ma la copertura è conteggiata al ribasso (solo le aziende che compaiono fra i rilievi). Il salvataggio incrementale ogni 3-4 record è ciò che ha evitato di perdere quel lavoro._
 
