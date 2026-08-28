@@ -1,47 +1,299 @@
 [
  {
   "foglio": "Italia",
-  "denominazione": "Costadoro S.p.A. Societa Benefit",
+  "denominazione": "Costadoro S.p.A. Società Benefit",
   "campo": "referente",
-  "problema": "Referente e ruolo vuoti. L'attuale vertice e Giulio Trombetta, Amministratore Delegato (famiglia Trombetta, con i figli Carlotta e Umberto e la nipote Federica in azienda).",
+  "problema": "Referente e ruolo assenti. Il vertice attuale è Giulio Trombetta, amministratore delegato (famiglia Trombetta: figli Carlotta e Umberto, nipote Federica in azienda).",
   "gravita": "media",
-  "evidenza": "https://www.torinocronaca.it/news/torino/578588/torino-costadoro-celebra-135-anni-e-prepara-un-piano-di-crescita-fino-a-40-milioni-entro-il-2029.html - 'Giulio Trombetta, che ha illustrato la strategia aziendale nella sede storica della torrefazione'",
-  "correzione_proposta": "referente: Giulio Trombetta; ruolo: Amministratore Delegato"
+  "evidenza": "https://www.torinocronaca.it/news/torino/578588/torino-costadoro-celebra-135-anni-e-prepara-un-piano-di-crescita-fino-a-40-milioni-entro-il-2029.html — «Giulio Trombetta, amministratore delegato ... ha illustrato la strategia»",
+  "correzione_proposta": "referente: Giulio Trombetta — ruolo: Amministratore Delegato"
  },
  {
   "foglio": "Italia",
-  "denominazione": "Costadoro S.p.A. Societa Benefit",
-  "campo": "email",
-  "problema": "Email indicata come 'n.d.' ma l'indirizzo generale compare letteralmente sul sito aziendale.",
+  "denominazione": "Dersut Caffè S.p.A.",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti. L'AD è l'avv. Lara Caballini di Sassoferrato; il padre Giorgio Caballini di Sassoferrato è Presidente del CdA.",
   "gravita": "media",
-  "evidenza": "https://costadoro.it/informazioni/ e https://costadoro.it/en/contacts/ - 'infoespresso@costadoro.it', tel. +39 011 2483804, Lungo Dora Colletta 113/6, 10153 Torino",
-  "correzione_proposta": "infoespresso@costadoro.it"
+  "evidenza": "https://www.welfarecare.org/2019/08/02/intervista-all-avv-lara-caballini-di-sassoferrato-amministratore-delegato-dersut-caffe/ ; https://www.comunicaffe.it/lara-caballini/",
+  "correzione_proposta": "referente: Lara Caballini di Sassoferrato — ruolo: Amministratore Delegato (Presidente CdA: Giorgio Caballini di Sassoferrato)"
  },
  {
   "foglio": "Italia",
-  "denominazione": "Costadoro S.p.A. Societa Benefit",
+  "denominazione": "Diemme - Industria Caffè Torrefatti S.p.A. (Caffè Diemme)",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti. Il vertice è Gianandrea Dubbini, presidente e amministratore delegato (terza generazione).",
+  "gravita": "media",
+  "evidenza": "https://www.comunicaffe.it/un-sodalizio-al-caffe-caffe-diemme-incorpora-moka-sirs-per-fusione-per-superare-i-30-milioni/ — «Gianandrea Dubbini, presidente e amministratore delegato di Diemme»",
+  "correzione_proposta": "referente: Gianandrea Dubbini — ruolo: Presidente e Amministratore Delegato"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Diemme - Industria Caffè Torrefatti S.p.A. (Caffè Diemme)",
   "campo": "dimensione",
-  "problema": "Il fatturato 19,9 mln EUR (2024) e confermato dal bilancio, ma la stampa 2025 indica ricavi 'attuali' a 24 mln EUR con piano a 40 mln entro il 2029 e ~60 dipendenti (non ~55). Dato da aggiornare.",
+  "problema": "L'indicazione «famiglia Dubbini (indipendente)» è imprecisa: nel 2021-22 Diemme ha incorporato per fusione Torrefazione Moka Sir's S.p.A. (Pavia), acquisendone il 100%, e la famiglia Migliorini è entrata nel capitale di Diemme. La società resta l'operatore EUDR e la gestione è condivisa dalle due famiglie, ma la compagine non è solo Dubbini.",
+  "gravita": "media",
+  "evidenza": "https://www.bargiornale.it/caffe/fusione-tra-diemme-caffe-e-moka-sirs-piu-forti-sul-mercato/ ; https://wine.pambianconews.com/2021/11/diemme-acquisisce-il-caffe-di-mokasirs/199777/ — «continuità gestionale da parte di entrambe le famiglie Dubbini e Migliorini, con quest'ultima che entra nel capitale di Diemme»",
+  "correzione_proposta": "Fatturato 32,7 mln € (2024, bilancio); 50-99 dipendenti; compagine familiare Dubbini + Migliorini dopo l'incorporazione di Moka Sir's S.p.A."
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Goppion Caffè S.p.A.",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti. AD è Silvia Goppion (terza generazione), insieme ai cugini Paola e Mario; il padre Sergio Goppion è presidente.",
+  "gravita": "media",
+  "evidenza": "https://www.ilgazzettino.it/economia/news/goppion_25_milioni_fatturato_magazzino_investimenti-9030753.html — «Silvia Goppion ... amministratore delegato dell'azienda di famiglia insieme ai cugini Paola e Mario, mentre il padre Sergio è presidente»",
+  "correzione_proposta": "referente: Silvia Goppion — ruolo: Amministratore Delegato (Presidente: Sergio Goppion)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Guglielmo S.p.A. (Caffè Guglielmo)",
+  "campo": "dimensione",
+  "problema": "Il dato «~17 mln € (2025)» non trova conferma nei dati di bilancio: reportaziende riporta per Guglielmo S.p.A. (P.IVA 00050720796) un fatturato 2023 di ~11,45 mln €. Il valore di 17 mln € sembra un obiettivo/proiezione riportata dalla stampa, non un bilancio depositato. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://www.reportaziende.it/guglielmo_spa_cz_00050720796 — fatturato 2023 ~11,45 mln €; il dato «17 milioni» compare solo nell'articolo de L'Imprenditore usato come fonte",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Guglielmo S.p.A. (Caffè Guglielmo)",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti. Il vertice attuale è Daniele Rossi, amministratore delegato dell'azienda di famiglia, che guida insieme allo zio Roberto Volpi (presidente) e ai cugini Matteo Tubertini e Beatrice Volpi.",
+  "gravita": "media",
+  "evidenza": "https://www.beverfood.com/torrefazione/guglielmo-spa — «Daniele Rossi è l'amministratore delegato dell'azienda di famiglia, che guida insieme allo zio Roberto Volpi e ai cugini Matteo Tubertini e Beatrice Volpi»; https://en.wikipedia.org/wiki/Guglielmo_Caff%C3%A8 (chairman Roberto Volpi)",
+  "correzione_proposta": "referente: Daniele Rossi — ruolo: Amministratore Delegato (Presidente: Roberto Volpi)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Imperator S.r.l.",
+  "campo": "sito",
+  "problema": "Dominio errato: il sito ufficiale dell'importatore triestino di caffè verde è imperator.cc, non imperator.it.",
+  "gravita": "media",
+  "evidenza": "https://www.imperator.cc/ («Home - Imperator»); https://www.imperator.cc/en/our-coffees/ ; scheda Beverfood https://www.beverfood.com/azienda/imperator-s-r-l",
+  "correzione_proposta": "https://www.imperator.cc"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Milani S.p.A. (Caffè Milani)",
+  "campo": "referente",
+  "problema": "Il referente indicato (Elisabetta Milani) è responsabile marketing, non il legale rappresentante. Il vertice della società è Pierluigi Milani, presidente e amministratore delegato (terza generazione).",
+  "gravita": "media",
+  "evidenza": "https://www.caffemilani.it/approfondimenti/un-caffe-con-pierluigi-milani/ ; scheda torrefattore https://www.beverfood.com/torrefazione/milani-s-p-a",
+  "correzione_proposta": "referente: Pierluigi Milani — ruolo: Presidente / Amministratore Delegato (Elisabetta Milani resta utile come contatto marketing)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Musetti S.p.A. (Caffè Musetti)",
+  "campo": "ruolo",
+  "problema": "Il referente indicato (Guido Sicuro Musetti, Presidente) è confermato e attuale, ma l'amministratore delegato operativo del gruppo è Marcello Malguzzi: utile indicarlo come secondo contatto per la decisione di compliance.",
   "gravita": "bassa",
-  "evidenza": "https://www.torinocronaca.it/news/torino/578588/... - 'aumentare il fatturato dagli attuali 24 milioni di euro a 40 milioni in quattro anni'; bilancio 2024: 19.917.170 EUR (fatturatoitalia.it)",
-  "correzione_proposta": "Fatturato 19,9 mln EUR (bilancio 2024); ~24 mln EUR dichiarati 2025; ~60 dipendenti"
+  "evidenza": "https://www.comunicaffe.it/guido-sicuro-musetti-dopo-hostmilano-2025-nel-caffe-serve-piu-cultura-piu-trasparenza-e-una-filiera-pronta-alle-nuove-sfide-globali (Guido Sicuro Musetti presidente, nov. 2025); https://www.alimentando.info/caffe-musetti-acquisisce-il-100-di-caffe-bonomi/ (Marcello Malguzzi AD)",
+  "correzione_proposta": "referente: Guido Sicuro Musetti — ruolo: Presidente (AD: Marcello Malguzzi)"
  },
  {
   "foglio": "Italia",
-  "denominazione": "Dersut Caffe S.p.A.",
-  "campo": "referente",
-  "problema": "Referente e ruolo vuoti. Vertice: Giorgio Caballini di Sassoferrato, Presidente del CdA e Amministratore Delegato; la figlia Lara Caballini di Sassoferrato e anch'essa Amministratore Delegato.",
-  "gravita": "media",
-  "evidenza": "https://www.welfarecare.org/2019/08/02/intervista-all-avv-lara-caballini-di-sassoferrato-amministratore-delegato-dersut-caffe/ ; https://www.ilgazzettino.it/nordest/treviso/caffe_dersut_conegliano-4842571.html",
-  "correzione_proposta": "referente: Giorgio Caballini di Sassoferrato; ruolo: Presidente e Amministratore Delegato (in alternativa Lara Caballini di Sassoferrato, Amministratore Delegato)"
+  "denominazione": "Oro Caffè S.r.l.",
+  "campo": "ruolo",
+  "problema": "Il ruolo dichiarato («Fondatori/titolari») non è la carica sociale: Stefano Toppano è amministratore delegato di Oro Caffè S.r.l.",
+  "gravita": "bassa",
+  "evidenza": "https://www.comunicaffe.it/stefano-toppano-orocaffe/ — «Stefano Toppano, amministratore delegato di Oro Caffè srl di Tavagnacco»; https://www.confindustria.ud.it/schede/scheda/8149/stefano-toppano-nuovo-capogruppo-delle-industrie-alimentari-e-bevande-di-confindustria-udine",
+  "correzione_proposta": "referente: Stefano Toppano — ruolo: Amministratore Delegato"
  },
  {
   "foglio": "Italia",
-  "denominazione": "Diemme - Industria Caffe Torrefatti S.p.A. (Caffe Diemme)",
-  "campo": "referente",
-  "problema": "Referente e ruolo vuoti. Vertice: Giannandrea Dubbini, Presidente e Amministratore Delegato.",
+  "denominazione": "Oro Caffè S.r.l.",
+  "campo": "dimensione",
+  "problema": "Dato di fatturato fermo al 2023 (9,4 mln €) e non riconfermato per gli esercizi successivi; è anche il valore più vicino alla soglia inferiore della forbice cliente (5-40 mln €). DA CONFERMARE con bilancio recente.",
   "gravita": "media",
-  "evidenza": "Risultati di ricerca su ufficiocamerale.it / beverfood.com: 'Giannandrea Dubbini e Presidente e Amministratore Delegato'; fatturato 2024 32.709.888 EUR confermato",
-  "correzione_proposta": "referente: Giannandrea Dubbini; ruolo: Presidente e Amministratore Delegato"
+  "evidenza": "https://www.fatturatoitalia.it/oro_caffe_srl-01312260308 (dato 2023); https://www.ufficiocamerale.it/5820/oro-caffe-srl",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Quarta Caffè S.p.A.",
+  "campo": "ruolo",
+  "problema": "Il ruolo dichiarato («Titolare») non è la carica sociale: Antonio Quarta è amministratore unico della società (terza generazione; i figli Gaetano ed Edoardo sono la quarta). È inoltre presidente dell'Associazione italiana torrefattori.",
+  "gravita": "bassa",
+  "evidenza": "https://www.quartacaffe.com/azienda ; https://www.cibotoday.it/storie/quarta-caffe-torrefazione-lecce-edoardo-quarta.html — «Antonio Quarta, amministratore unico»",
+  "correzione_proposta": "ruolo: Amministratore Unico"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Quarta Caffè S.p.A.",
+  "campo": "dimensione",
+  "problema": "La fascia dipendenti indicata (50-99) è sottostimata: l'azienda dichiara circa 105 dipendenti.",
+  "gravita": "bassa",
+  "evidenza": "https://www.quartacaffe.com/azienda — «105 dipendenti»; https://www.cibotoday.it/storie/quarta-caffe-torrefazione-lecce-edoardo-quarta.html",
+  "correzione_proposta": "Fatturato 27,3 mln € (2024); ~105 dipendenti"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "S. Passalacqua S.p.A.",
+  "campo": "dimensione",
+  "problema": "Fatturato obsoleto e nettamente sottostimato: il dato riportato è 12,8 mln € (2023), mentre il bilancio 2025 registra ricavi per 18.510.129 € (+29,2% sull'anno precedente) e un utile di 999.811 €.",
+  "gravita": "media",
+  "evidenza": "https://www.aziende.it/s-passalacqua-s-p-a — «nell'esercizio 2025 S. Passalacqua S.p.a. ha registrato ricavi per 18.510.129 €, in crescita del 29,2%»",
+  "correzione_proposta": "Fatturato 18,5 mln € (2025, bilancio depositato); utile 1,0 mln €"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "S. Passalacqua S.p.A.",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti. Non è emerso da fonti pubbliche il nome dell'amministratore delegato/presidente; l'unico manager identificato è Francesco Lo Vasto, CFO & Strategy Director, che non è il legale rappresentante. DA CONFERMARE da visura.",
+  "gravita": "media",
+  "evidenza": "https://www.reputationreview.org/caffe-passalacqua-dalla-storica-torrefazione-napoletana-a-protagonista-globale-del-caffe/ (Francesco Lo Vasto, CFO & Strategy Director)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Sandalj Trading Company S.p.A.",
+  "campo": "dimensione",
+  "problema": "Dato di fatturato vecchio di cinque esercizi e fortemente sottostimato: il record riporta ~22 mln € (2020), mentre il 2024 chiude a 30.857.386 €. Dipendenti ~14 (2025).",
+  "gravita": "media",
+  "evidenza": "https://www.ufficiocamerale.it/8366/sandalj-trading-company-spa — fatturato 2024 30.857.386 €; https://www.ilpiccolo.it/cronaca/sandalj-continua-la-crescita-nel-caffe-evi7ez6l",
+  "correzione_proposta": "Importatore caffè verde; fatturato 30,9 mln € (2024); ~14 dipendenti"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Sandalj Trading Company S.p.A.",
+  "campo": "referente",
+  "problema": "Il referente indicato (Theresa Sandalj, «Titolare/direzione») non risulta essere il legale rappresentante: le fonti indicano Enrico Venuti come presidente e amministratore della società.",
+  "gravita": "media",
+  "evidenza": "https://www.ufficiocamerale.it/8366/sandalj-trading-company-spa ; https://imagazine.it/home_desk/a-enrico-venuti-la-stella-al-merito-del-lavoro/ — «Enrico Venuti, presidente e amministratore della Sandalj Trading Company»",
+  "correzione_proposta": "referente: Enrico Venuti — ruolo: Presidente / Amministratore (Theresa Sandalj resta contatto della famiglia proprietaria)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Zicaffè S.p.A.",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti. La società è amministrata collegialmente da otto cugini della terza generazione Zichittella; l'unica figura identificata con nome è Vito Michele Zichittella, che però è vicepresidente del CdA e direttore marketing, non il presidente/AD. Nome del presidente DA CONFERMARE da visura.",
+  "gravita": "media",
+  "evidenza": "https://www.comunicaffe.it/intervista-a-vito-michele-zichittella-vice-presidente-c-d-a-e-direttore-marketing-zicaffe/ — «Vito Michele Zichittella, vice presidente C.d.A. e direttore marketing»; «gli amministratori attuali sono otto cugini della terza generazione»",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Zicaffè S.p.A.",
+  "campo": "denominazione",
+  "problema": "Denominazione legale completa: «ZICAFFE S.P.A. o più brevemente I.T.Z. - S.P.A.» (P.IVA 00116680810). La forma abbreviata usata nel foglio è corretta ma incompleta rispetto al Registro Imprese.",
+  "gravita": "bassa",
+  "evidenza": "https://www.ufficiocamerale.it/1651/zicaffe-spa-o-piu-brevemente-itz-spa ; https://www.reportaziende.it/zicaffe_spa_o_piu_brevemente_itz_spa_tp_00116680810",
+  "correzione_proposta": "Zicaffè S.p.A. (denominazione a registro: ZICAFFE S.P.A. o più brevemente I.T.Z. - S.P.A.)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Amedei S.r.l.",
+  "campo": "dimensione",
+  "problema": "CONTROLLO DI TERZI NON DICHIARATO. Amedei S.r.l. non è indipendente: dall'agosto 2017 il 99% del capitale è di Ferrarelle S.p.A. (gruppo Ferrarelle Società Benefit), che ha rilevato sia le quote del fondo Octopus Europe Limited sia quelle della fondatrice. La decisione di compliance EUDR si prende a livello di capogruppo Ferrarelle, non in Amedei.",
+  "gravita": "alta",
+  "evidenza": "https://www.ilsole24ore.com/art/ferrarelle-compra-99percento-marchio-toscano-cioccolato-amedei--AEzF8r9B ; https://www.beverfood.com/ferrarelle-compra-99-amedei-azienda-produttrice-cioccolato-premium-wd89992/ — «Ferrarelle acquisisce il 99% di Amedei; Cecilia Tessieri mantiene l'1%»",
+  "correzione_proposta": "~5,5 mln € (2024); ~28 dip.; bean-to-bar (importa cacao); controllata al 99% da Ferrarelle S.p.A. dal 2017 — decisione di compliance a livello di gruppo"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Amedei S.r.l.",
+  "campo": "referente",
+  "problema": "Cecilia Tessieri è la fondatrice ma detiene solo l'1% del capitale dal 2017 e non risulta essere il legale rappresentante della società: dopo l'acquisizione l'amministrazione fa capo a Ferrarelle S.p.A. Referente decisionale DA CONFERMARE presso la capogruppo.",
+  "gravita": "media",
+  "evidenza": "https://www.comunicaffe.it/cioccolato-amedei-ferrarelle/ — «Cecilia Tessieri ha mantenuto l'1% ed è rimasta in azienda per garantire la continuità»",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Antica Dolceria Bonajuto S.r.l.",
+  "campo": "dimensione",
+  "problema": "FUORI FORBICE. Il campo dichiara solo «n.d. (PMI artigianale)», ma il fatturato reale è di circa 2,7 mln € (esercizio 2025, +7,8%; utile netto 74,7 mila €), cioè meno della metà della soglia minima di 5 mln € richiesta dal cliente. Micro-impresa: lead da riclassificare o scartare.",
+  "gravita": "alta",
+  "evidenza": "https://www.reportaziende.it/antica_dolceria_bonajuto_srl_rg (P.IVA 01218510889) — «fatturato 2,7 milioni di euro, +7,8%; utile netto 2025 74,7 mila €»",
+  "correzione_proposta": "Fatturato ~2,7 mln € (2025) — sotto la forbice target 5-40 mln €"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Antica Dolceria Bonajuto S.r.l.",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti. Il titolare/legale rappresentante è Pierpaolo Ruta (sesta generazione della famiglia Bonajuto-Ruta), affiancato dal padre Franco Ruta.",
+  "gravita": "media",
+  "evidenza": "https://en.wikipedia.org/wiki/Antica_Dolceria_Bonajuto ; https://www.bonajuto.it/magazine/fattojo-bonajuto/ — «Pierpaolo Ruta, titolare dell'Antica Dolceria Bonajuto»",
+  "correzione_proposta": "referente: Pierpaolo Ruta — ruolo: Titolare / Amministratore"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Antica Dolceria Bonajuto S.r.l.",
+  "campo": "email",
+  "problema": "L'indirizzo indicato (bonajuto@pec.it) è una casella PEC di registro, non un recapito commerciale: inadatta al contatto di prospezione e non verificata come pubblicata sul sito aziendale. DA CONFERMARE un'email ordinaria dal sito bonajuto.it.",
+  "gravita": "bassa",
+  "evidenza": "https://www.ufficiocamerale.it/3784/antica-dolceria-bonajuto-srl (la PEC è il dato pubblicato dal registro camerale); sito ufficiale https://www.bonajuto.it/",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Domori S.p.A.",
+  "campo": "dimensione",
+  "problema": "Il fatturato ~30 mln € (2024) è corretto (29,5 mln, +12%) ma il campo omette che il 2024 si è chiuso con una perdita di oltre 5,7 mln € (caro-cacao e costi del nuovo stabilimento Streglio) e con due ricapitalizzazioni dell'azionista Polo del Gusto (5 mln € di nuove risorse). Il controllo del gruppo Polo del Gusto/illy è correttamente dichiarato, ma va ricordato che la decisione EUDR si prende in capogruppo (presidente Riccardo Illy).",
+  "gravita": "media",
+  "evidenza": "https://www.alimentando.info/domori-polo-del-gusto-bilancio-2024-chiuso-con-una-perdita-di-oltre-cinque-milioni/ ; https://www.milanofinanza.it/news/il-polo-del-gusto-chiude-il-2024-in-perdita-con-il-caro-cacao-ma-illy-prepara-il-riscatto-nel-2025-202507182125343734 ; https://distribuzionemoderna.info/imprese/il-cioccolato-domori-aumenta-i-ricavi-del-12-lazionista-inietta-5-milioni",
+  "correzione_proposta": "Fatturato 29,5 mln € (2024, +12%) con perdita 5,7 mln € e ricapitalizzazioni; importatore diretto di cacao; controllata da Polo del Gusto S.p.A. (gruppo illy) — compliance decisa in capogruppo"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Domori S.p.A.",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti. L'AD in carica è Giacomo Biviano, nominato dal CdA in sostituzione di Janluca de Waijer (in carica 16 mesi). Attenzione: Domori ha avuto cinque AD in tre anni, quindi il dato va riconfermato prima del contatto. Riccardo Illy è presidente della controllante Polo del Gusto.",
+  "gravita": "media",
+  "evidenza": "https://www.alimentando.info/riccardo-illy-polo-del-gusto-domori-cinque-ad-in-tre-anni-ma-ora-siamo-sereni/ ; https://www.comunicaffe.it/riccardo-illy-presidente-del-polo-del-gusto-fa-il-bilancio/",
+  "correzione_proposta": "referente: Giacomo Biviano — ruolo: Amministratore Delegato (DA RICONFERMARE: forte turnover; presidente capogruppo Polo del Gusto: Riccardo Illy)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Gambarotta S.r.l.",
+  "campo": "sito",
+  "problema": "Campo sito vuoto: l'azienda ha un sito ufficiale, www.gambarotta.eu (tel. +39 0143 329844, Strada di Serravalle 99, Novi Ligure).",
+  "gravita": "media",
+  "evidenza": "https://atoka.io/public/it/azienda/gambarotta-srl/cbf6b01d32e6 ; https://www.coobiz.it/azienda/gambarotta-srl-novi-ligure/co1498973/contatti — «Website: www.gambarotta.eu»",
+  "correzione_proposta": "https://www.gambarotta.eu"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Gambarotta S.r.l.",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti. Le fonti camerali indicano la famiglia Falla Roch alla guida (presidente del CdA: Lorella Falla Roch), ma i nomi riportati dagli aggregatori sono incoerenti tra loro. DA CONFERMARE da visura.",
+  "gravita": "media",
+  "evidenza": "https://atoka.io/public/it/azienda/gambarotta-srl/cbf6b01d32e6 ; https://aziende.money.it/aziende/gambarotta-srl-02511770063 (P.IVA 02511770063)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Gambarotta S.r.l.",
+  "campo": "dimensione",
+  "problema": "Forbice indicata (~17-19 mln €) leggermente sovrastimata: il bilancio 2024 registra ricavi per 16,7 mln € (utile netto 711.557 €) e 42 dipendenti.",
+  "gravita": "bassa",
+  "evidenza": "https://www.fatturatoitalia.it/gambarotta_srl-02511770063 ; https://registroaziende.it/azienda/gambarotta-srl-novi-ligure — fatturato 2024 16.694.859 €, utile 711.557 €",
+  "correzione_proposta": "Fatturato 16,7 mln € (2024); 42 dipendenti"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Guido Gobino S.r.l.",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti. Guido Gobino è fondatore, socio unico e amministratore della società omonima; il fatturato 2024 di 7.878.481 € conferma il dato del foglio.",
+  "gravita": "media",
+  "evidenza": "https://www.ufficiocamerale.it/1632/guido-gobino-srl (P.IVA 02646140018; fatturato 2024 7.878.481 €, utile 276.760 €) ; https://wine.pambianconews.com/2024/05/guido-gobino-ricavi-in-crescita-a-12-mln-e-e-nuovi-investimenti/227293/",
+  "correzione_proposta": "referente: Guido Gobino — ruolo: Fondatore e Amministratore (socio unico)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Majani 1796 S.p.A.",
+  "campo": "dimensione",
+  "problema": "Il dato «~13 mln €» è privo di anno e di fonte contabile: l'ultimo bilancio reperito (2023) indica ricavi per 12.206.875 € e utile netto 1.560.741 €. Va inoltre precisato che la società è controllata al 100% dalla famiglia Majani tramite la holding di famiglia VMM Finanziaria (veicolo dei soci, non controllo di terzi).",
+  "gravita": "media",
+  "evidenza": "https://topaziende.quotidiano.net/emilia-romagna/bologna/fatturato-majani-1796-spa/ ; https://www.companyreports.it/majani-1796-spa-02691991208 (P.IVA 02691991208) — fatturato 2023 12.206.875 €",
+  "correzione_proposta": "Fatturato 12,2 mln € (2023, bilancio); PMI familiare controllata al 100% dalla famiglia Majani via VMM Finanziaria"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Majani 1796 S.p.A.",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti. L'azienda è guidata da Francesco Mezzadri Majani (settima generazione della famiglia).",
+  "gravita": "media",
+  "evidenza": "https://www.comunicaffe.it/cioccolata-majani-1796-storia-lunga-220-anni/ — «guidata da Francesco Mezzadri Majani»; https://it.wikipedia.org/wiki/Majani",
+  "correzione_proposta": "referente: Francesco Mezzadri Majani — ruolo: Amministratore Delegato / titolare (DA CONFERMARE la carica esatta da visura)"
  }
 ]

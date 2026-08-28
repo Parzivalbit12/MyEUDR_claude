@@ -1,0 +1,173 @@
+[
+ {
+  "foglio": "Austria",
+  "denominazione": "\"Sojarei\" Vollwertkost-Gesellschaft m.b.H.",
+  "campo": "email",
+  "problema": "L'indirizzo info@sojarei.at non compare in alcuna fonte pubblica; il Kontakt/Impressum aziendale riporta letteralmente office@sojarei.at",
+  "gravita": "media",
+  "evidenza": "https://sojarei.at/kontakt.php — 'Tel. +43 (0) 2252 - 55901 ... E-Mail: office@sojarei.at'",
+  "correzione_proposta": "office@sojarei.at"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "\"Sojarei\" Vollwertkost-Gesellschaft m.b.H.",
+  "campo": "referente",
+  "problema": "Il referente indicato (Mag. Ernst Ternon) non risulta l'attuale vertice operativo: il sito aziendale indica Christoph Eschner, BSc come Geschaeftsfuehrer; Ernst Ternon compare invece come Rechnungspruefer del Verein Soja aus Oesterreich. DA CONFERMARE la compagine attuale dei Geschaeftsfuehrer sul Firmenbuch.",
+  "gravita": "media",
+  "evidenza": "https://sojarei.at/kontakt.php — 'Geschäftsführer: Christoph Eschner, BSc'; https://soja-aus-oesterreich.at/vorstand/ (Ternon come Rechnungsprüfer)",
+  "correzione_proposta": "Christoph Eschner, BSc"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Rickl - Mühle GmbH",
+  "campo": "filiera",
+  "problema": "Perimetro debole: Rickl e' un Landhandel/mulino di cereali con annessi distributore di carburanti e Baumarkt; la soia compare solo come Sojaschrot acquistato e rivenduto. E' quindi un rivenditore a valle (caso analogo a Skovs Korn / Cebeco Fourage gia' scartati), non un trasformatore di soia. Da qualificare prima del contatto.",
+  "gravita": "media",
+  "evidenza": "https://www.rickl.at/ueber-uns/ — 'Landhandel mit konventionellem und biologischem Getreide, Tankstelle, Mineralölhandel und Baumarkt'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Vorarlberger Mühlen und Mischfutterwerke GmbH",
+  "campo": "dimensione",
+  "problema": "Data errata sull'uscita di Raiffeisenlandesbank Vorarlberg: il passaggio a proprietà puramente familiare (acquisto quote da parte di Franz Rhomberg e Bernd Hagen) è del 2019, non del 2021.",
+  "gravita": "bassa",
+  "evidenza": "https://www.vn.at/markt/2019/05/29/mehl-ist-jetzt-familiensache.vn e https://www.raiffeisen.at/vorarlberg/rlb/de/presse/vorarlberger-muehlen-und-mischfutterwerke-werden-reiner-familien.html (comunicato 2019)",
+  "correzione_proposta": "dal 2019 azienda a controllo puramente familiare (Rhomberg/Hagen 100%)"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "BIOSERVICE Zach Ges.m.b.H.",
+  "campo": "ruolo",
+  "problema": "Titoli accademici del referente imprecisi: le fonti riportano 'Mag. DI (FH) Dr. Robert Zach' come Geschäftsführer, non 'Ing. Mag. Robert Zach'. Nome e funzione confermati.",
+  "gravita": "bassa",
+  "evidenza": "https://www.firmenabc.at/bioservice-zach-ges-m-b-h_BBRcB / https://www.bioservice.at/en/contact/ — 'Mag. DI (FH) Dr. Robert Zach, Geschäftsführer'",
+  "correzione_proposta": "Mag. DI (FH) Dr. Robert Zach"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Natural Products & Drugs GmbH",
+  "campo": "email",
+  "problema": "Email indicata come 'n.d.': il lead risulta non contattabile, ma l'indirizzo office@np-d.com compare letteralmente nelle fonti pubbliche (Creditreform, firmenabc, imprint aziendale).",
+  "gravita": "alta",
+  "evidenza": "https://firmeneintrag.creditreform.de/9800/9090098935/NATURAL_PRODUCTS_DRUGS_GMBH e https://www.np-d.com/en/company-information.html — 'E-Mail: office@np-d.com'",
+  "correzione_proposta": "office@np-d.com"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Natural Products & Drugs GmbH",
+  "campo": "referente",
+  "problema": "Referente e ruolo lasciati vuoti: i Geschäftsführer risultano Mag. Dr. Antonius Dominik Schantl (farmacista, fondatore 2003) e il fratello Josef Schantl (dal 2005).",
+  "gravita": "media",
+  "evidenza": "https://firmeneintrag.creditreform.de/9800/9090098935/NATURAL_PRODUCTS_DRUGS_GMBH — 'Geschäftsführer: Mag Dr Antonius Dominik Schantl, Josef Schantl'",
+  "correzione_proposta": "Mag. Dr. Antonius Dominik Schantl — Geschäftsführer"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Natural Products & Drugs GmbH",
+  "campo": "filiera",
+  "problema": "Perimetro EUDR NON confermato (trappola olio di palma): nessuna fonte aziendale documenta olio di palma o palmisto: il catalogo descrive oli vegetali e essenziali, integratori e cosmetica. L'unico riscontro è la directory B2B wlw.at. DA CONFERMARE prima di considerarlo lead olio di palma.",
+  "gravita": "media",
+  "evidenza": "Ricerche su np-d.com/benenaturalproducts: 'leading provider of natural and organic products including plant oils and fats, essential oils, nutritional supplements, and cosmetics' — nessuna menzione di Palmöl/Palmkernöl",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Natural Products & Drugs GmbH",
+  "campo": "sito",
+  "problema": "Dominio superato: np-d.com presenta ora il marchio 'Bene Naturalproducts' e le fonti indicano come sito aziendale https://www.benenaturalproducts.com.",
+  "gravita": "bassa",
+  "evidenza": "http://www.np-d.com/ — titolo 'Bene Naturalproducts'; scheda azienda: 'website: https://www.benenaturalproducts.com'",
+  "correzione_proposta": "https://www.benenaturalproducts.com"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Gsellmann Mischfuttererzeugung GmbH",
+  "campo": "dimensione",
+  "problema": "Nel campo si citano come ulteriori Geschäftsführer 'Josef Gsellmann, Maria Gsellmann': il Firmenbuch (evi.gv.at, FN 317883a) riporta come rappresentanti attuali solo Andreas Gsellmann (dal 11.10.2016) e Maria Gsellmann (dal 05.11.2008). Josef Gsellmann è il fondatore/denominazione storica, non risulta GF in carica.",
+  "gravita": "bassa",
+  "evidenza": "https://www.evi.gv.at/f/317883a — 'Andreas Gsellmann vertritt seit 11.10.2016, Maria Gsellmann seit 05.11.2008'",
+  "correzione_proposta": "Altra Geschäftsführerin: Maria Gsellmann"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Königshofer GmbH",
+  "campo": "dimensione",
+  "problema": "Assetto proprietario non dichiarato: la società è detenuta al 90% da PI Vermögensverwaltung und Finanzierungsgesellschaft m.b.H. (veicolo della famiglia Pieler) e per il restante 10% da Ing. Andreas Pieler e Helga Pieler. Si tratta di holding di famiglia, non di controllo di terzi: non sposta la compliance, ma va annotato.",
+  "gravita": "bassa",
+  "evidenza": "https://www.wirtschaft.at/u/442776t — 'PI Vermögensverwaltung und Finanzierungsgesellschaft m.b.H. 90% (EUR 31.500), Ing. Andreas Pieler 9%, Helga Pieler 1%'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Mischfutterwerk Großschedl GmbH",
+  "campo": "sito",
+  "problema": "URL indicato in http; il sito risponde su https (https://www.grosschedl-futter.at/). Refuso formale.",
+  "gravita": "bassa",
+  "evidenza": "https://www.grosschedl-futter.at/ (risultato di ricerca 'Großschedl Futter, Mischfutterwerk Großschedl')",
+  "correzione_proposta": "https://www.grosschedl-futter.at"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Wieshofermühle Betriebs GmbH",
+  "campo": "dimensione",
+  "problema": "Nessun dato dimensionale disponibile (né fatturato né organico né volumi): impossibile verificare la collocazione nella forbice 5-40 M€; per un mulino/mangimificio di paese il rischio di essere sotto soglia è concreto. DA CONFERMARE. Perimetro EUDR invece verificato: il Futterwerk lavora Sojabohnen e Sojaschrot.",
+  "gravita": "media",
+  "evidenza": "https://www.wieshofermuehle.at/de/unsere-produkte/futterprodukte-sonstiges/28-einzelfuttermittel — 'Sojabohnen, Sojaschrot' (perimetro ok); nessuna fonte pubblica con fatturato/dipendenti",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Rudolf Frierss & Söhne Fleisch- und Wurstspezialitäten Gesellschaft m.b.H.",
+  "campo": "referente",
+  "problema": "Referente non riconfermato: le fonti indicano Mag. Christoph Frierss come Geschäftsführer con nomina 29.07.2024 (5ª generazione, subentrata insieme a Kurt Frierss jun.). 'Rudolf Frierss' corrisponde alla denominazione storica/generazione precedente. DA CONFERMARE sul Firmenbuch se sia ancora in carica.",
+  "gravita": "media",
+  "evidenza": "https://www.firmenabc.at/rudolf-frierss-soehne-fleisch-und-wurstspezialitaeten-gmbh_BAtZF — 'Mag. Christoph Frierss, Geschäftsführer, Funktion seit 29.07.2024'",
+  "correzione_proposta": "Mag. Christoph Frierss"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Rudolf Frierss & Söhne Fleisch- und Wurstspezialitäten Gesellschaft m.b.H.",
+  "campo": "dimensione",
+  "problema": "Il campo dichiara 'fatturato non pubblicato' senza riportare l'unico dato di bilancio disponibile: Bilanzsumme 13,3 Mio. € al 31.03.2025. Nessun segnale di insolvenza (verificato su fonti AKV/KSV e stampa locale).",
+  "gravita": "bassa",
+  "evidenza": "https://www.firmenabc.at/rudolf-frierss-soehne-fleisch-und-wurstspezialitaeten-gmbh_BAtZF — 'Bilanzsumme 13,3 Mio. € (31.03.2025)'",
+  "correzione_proposta": "aggiungere: Bilanzsumme 13,3 Mio. € al 31.03.2025 (firmenabc.at)"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "M. Feköhrer GmbH & Co KG",
+  "campo": "dimensione",
+  "problema": "Numero di Firmenbuch da riverificare: le fonti riportano per M. Feköhrer GmbH la FN 662980x presso il LG Ried im Innkreis, mentre il record indica FN 663491y. Le due FN, entrambe di registrazione recentissima, indicano una riorganizzazione societaria (nuova GmbH complementare + KG): va chiarito quale FN appartenga alla KG operativa. DA CONFERMARE.",
+  "gravita": "bassa",
+  "evidenza": "https://www.fekoehrer.at/impressum/ — 'M. Feköhrer GmbH ... Landesgericht Ried im Innkreis, FN 662980 x'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Schwaninger Vieh Export GmbH",
+  "campo": "dimensione",
+  "problema": "Dato di fatturato obsoleto (esercizi 2021 e 2022, quindi 4-5 anni fa) e organico sottostimato: le fonti aziendali descrivono, oltre a Erwin Schwaninger e ai figli Erwin jr. e Kathrin, 'acht weitere Mitarbeiter' (ca. 10-11 addetti, non 5). Resta un puro intermediario/esportatore di bestiame vivo: fatturato interamente pass-through.",
+  "gravita": "media",
+  "evidenza": "https://www.viehexport.com/uber-uns — 'Sohn Erwin jun. ... Schwester Kathrin und acht weiteren Mitarbeitern'; dati di fatturato firmenabc.at riferiti al 2021/2022",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "WIESTRADING Gesellschaft m.b.H.",
+  "campo": "referente",
+  "problema": "Da precisare la generazione: il Geschäftsführer in carica è Kurt Wiesinger jun. (acquisto/vendita di vitelli e bovini da allevamento); Kurt Wiesinger senior risulta ex-Geschäftsführer. Email wiesingerviehhandel@aon.at verificata.",
+  "gravita": "bassa",
+  "evidenza": "https://www.wiestrading.at/ueber-uns/team/ — 'Kurt Wiesinger jun., Geschäftsführer'; northdata FN 143186v (Kurt Wiesinger sen. ehemaliger Geschäftsführer)",
+  "correzione_proposta": "Kurt Wiesinger jun."
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "WIESTRADING Gesellschaft m.b.H.",
+  "campo": "dimensione",
+  "problema": "Nessun dato economico o di organico in alcuna fonte pubblica: il campo riporta solo i capi commercializzati. Impossibile collocare l'azienda nella forbice 5-40 M€; si tratta inoltre di puro commerciante/esportatore di bovini vivi (ruolo EUDR di trader, non di trasformatore). DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://www.firmenabc.at/wiestrading-ges-m-b-h_KDpS e https://www.evi.gv.at/f/143186v — nessun fatturato né numero di dipendenti pubblicati",
+  "correzione_proposta": ""
+ }
+]

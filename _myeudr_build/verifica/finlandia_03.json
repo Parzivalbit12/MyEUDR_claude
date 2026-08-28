@@ -1,0 +1,164 @@
+[
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Sahakuutio Oy",
+  "campo": "dimensione",
+  "problema": "Numero di dipendenti fortemente sottostimato: il campo indica ~17 dip., ma le fonti riportano ~34-35 addetti alla sola segheria di Kerimäki più ~27 alla segheria di Hammaslahti (Joensuu), cioè ~60 in totale. Anche la sequenza dei ricavi è incoerente (22,6 M€ 2025 dato come crescita rispetto a 17 M€ 2024, mentre le fonti indicano un calo del 22,1% nel 2025).",
+  "gravita": "media",
+  "evidenza": "\"Sahakuutio operates two sawmills: the Kerimäki sawmill currently employs 34 people and the Joensuu Hammaslahti sawmill employs 27 people\" — https://www.puumieslehti.fi / https://www.asiakastieto.fi/yritykset/fi/sahakuutio-oy/01679086/taloustiedot",
+  "correzione_proposta": "Liikevaihto 17,0 M€ (2024, Asiakastieto); ~60 dip. su due segherie (Kerimäki + Hammaslahti) — DA CONFERMARE il dato 2025"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Selka Oy",
+  "campo": "dimensione",
+  "problema": "Il campo dichiara 'liikevaihto non pubblicato', ma il dato è pubblico e colloca l'azienda MOLTO sotto la forbice dimensionale: 1,7 M€ di liikevaihto e 14 dipendenti (2024), con perdita operativa di 45 k€. Micro-impresa, fuori target (5-40 M€) di un ordine di grandezza.",
+  "gravita": "alta",
+  "evidenza": "\"In 2024, Selka Oy had a revenue of 1.7 million euros and employed 14 people. Revenue increased by 8.2%, but the company had an operating loss of 45,000 euros\" — https://www.proff.fi/yrityksen/selka-oy/nastola/huonekalut/3090931-1I015G",
+  "correzione_proposta": "Liikevaihto 1,7 M€ (2024), 14 dip. — FUORI FORBICE, da rimuovere dalla lista"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Selka Oy",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti. Le fonti pubbliche indicano Juha Tapio Nevalainen come presidente del consiglio (hallituksen puheenjohtaja); il toimitusjohtaja non emerge dai frammenti.",
+  "gravita": "media",
+  "evidenza": "\"Juha Tapio Nevalainen serves as the board chairman (puheenjohtaja)\" — https://www.asiakastieto.fi/yritykset/fi/selka-oy/30909311/paattajat",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Siparila Oy",
+  "campo": "dimensione",
+  "problema": "CONTROLLO DI GRUPPO NON DICHIARATO: Siparila è stata acquisita dal gruppo estone Thermory (Livonia Partners), che detiene il 63% delle azioni; il sito stesso ha una pagina 'Thermory Group'. La decisione di compliance EUDR si sposta sulla capogruppo estone. Inoltre il liikevaihto 2025 è 34,3 M€ (+9,3%), non 31,4 M€.",
+  "gravita": "alta",
+  "evidenza": "\"Thermory acquiring 63% of Siparila's shares\" — https://www.livoniapartners.com/article/global-leader-in-thermowood-production-thermory-acquired-painted-products-specialist-siparila ; https://www.siparila.com/en/siparila/thermory-group/ ; https://www.pwc.com/ee/en/press-room/news-and-articles/pwc-teams-in-finland-and-estonia-advised-the-sale-of-siparila-to.html",
+  "correzione_proposta": "Liikevaihto 34,3 M€ (2025); ~119 dip.; controllata al 63% dal gruppo estone Thermory"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Siparila Oy",
+  "campo": "referente",
+  "problema": "Vertice non riconfermato: le fonti riportano Juha Sojakka (fondatore/proprietario) come toimitusjohtaja e un comunicato 'Siparilan toimitusjohtaja vaihtuu' con Pekka Ijäs come toimitusjohtaja ad interim fino a fine 2026. Il nome indicato (Janne Seilo) non trova riscontro nei frammenti.",
+  "gravita": "media",
+  "evidenza": "\"Pekka Ijäs toimii väliaikaisena toimitusjohtajana vuoden 2026 loppuun saakka\" — https://www.siparila.com/tiedote-siparilan-toimitusjohtaja-vaihtuu/",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Sisuwood Oy",
+  "campo": "denominazione",
+  "problema": "AZIENDA FALLITA. Dopo un tentativo di yrityssaneeraus, Sisuwood Oy è stata dichiarata in konkurssi dal tribunale del Pohjois-Savo (agosto 2025); tutti i 38 dipendenti sono stati licenziati e il curatore nominato è l'avv. Jari Karhinen. Esiste ora solo il 'Sisuwood Oy konkurssipesä' (Y-tunnus 3561295-5). Lead non valido.",
+  "gravita": "alta",
+  "evidenza": "\"Sisuwood asetettiin konkurssiin, ja yhtiölle määrättiin pesänhoitajaksi Jari Karhinen - Maanantaina irtisanottiin kaikki 38 työntekijää\" — https://www.juvanlehti.fi/paikalliset/8812560 ; https://www.asiakastieto.fi/yritykset/fi/sisuwood-oy-konkurssipesa/35612955/rekisteritiedot",
+  "correzione_proposta": "Rimuovere il record: società fallita, attività cessata"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Sisuwood Oy",
+  "campo": "referente",
+  "problema": "Il nome del toimitusjohtaja è Juha Pekka Koponen (citato nella stampa come 'Pekka Koponen'), non 'Juha Koponen'. Rilievo comunque assorbito dal fallimento della società.",
+  "gravita": "bassa",
+  "evidenza": "\"Sisuwood hoitaa projektinsa loppuun, arvioi toimitusjohtaja Pekka Koponen\" — https://www.juvanlehti.fi/paikalliset/8804796",
+  "correzione_proposta": "Pekka Koponen"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Sysmän Ikkuna ja Ovi Oy (Päijänne-Ovet)",
+  "campo": "dimensione",
+  "problema": "Il dato è corretto (3,8 M€ nel 2025, +13,6%, 19 dip.) ma colloca l'azienda SOTTO la soglia minima della forbice target (5-40 M€) senza che il campo lo segnali.",
+  "gravita": "media",
+  "evidenza": "\"Liikevaihto 3,8 miljoonaa euroa vuonna 2025, liikevaihto nousi 13,6 %\"; 19 henkilöä — https://www.asiakastieto.fi/yritykset/fi/sysman-ikkuna-ja-ovi-oy/01673282/taloustiedot",
+  "correzione_proposta": "Liikevaihto 3,8 M€ (2025); 19 dip. — SOTTO FORBICE (<5 M€)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Topi-Keittiöt Oy",
+  "campo": "ruolo",
+  "problema": "Il ruolo indicato è ancora quello transitorio ('Vt. toimitusjohtaja / Operatiivinen johtaja'). Il passaggio di consegne si è concluso: Iiro Ojala è il toimitusjohtaja in carica, subentrato a Juha Nurmimäki.",
+  "gravita": "bassa",
+  "evidenza": "\"Topi-Keittiöiden johto vaihtui – Uusi toimitusjohtaja uskoo rakennusalan piristymiseen\" — https://www.kalajokilaakso.fi/artikkeli/topi-keittioiden-johto-vaihtui-uusi-toimitusjohtaja-uskoo-rakennusalan-piristymiseen",
+  "correzione_proposta": "Toimitusjohtaja (CEO)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Topi-Keittiöt Oy",
+  "campo": "dimensione",
+  "problema": "Il campo lascia aperta l'incertezza ('fonti variano: ~13 M€ 2023'). Le fonti registrali sono concordi: 20,4 M€ e 152 dip. nel 2024, 23,1 M€ e 134 dip. nel 2025 (+13,5%).",
+  "gravita": "bassa",
+  "evidenza": "\"In 2025, the company's revenue was 23.1 million euros and employed 134 people, with revenue increasing by 13.5%\" — https://www.asiakastieto.fi/yritykset/fi/topi-keittiot-oy/26989339/taloustiedot",
+  "correzione_proposta": "Liikevaihto 23,1 M€ (2025, Asiakastieto); 134 dip. (20,4 M€ / 152 dip. nel 2024)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Unico Finland Oy",
+  "campo": "dimensione",
+  "problema": "Il numero di dipendenti (>100) non trova riscontro: l'ultimo bilancio disponibile riporta 86 dipendenti. Confermati invece i 3 stabilimenti (Kauhava, Lapua, Kankaanpää) e il liikevaihto 23,1 M€ (2024).",
+  "gravita": "bassa",
+  "evidenza": "\"In the fiscal period ending 01/2024, the company had 86 employees\" — https://www.asiakastieto.fi/yritykset/fi/unico-finland-oy/09668074/taloustiedot",
+  "correzione_proposta": "Liikevaihto 23,1 M€ (2024); 86 dip.; 3 stabilimenti (Kauhava, Lapua, Kankaanpää)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Veljekset Vaara Oy",
+  "campo": "dimensione",
+  "problema": "Dato di fatturato non aggiornato: le fonti riportano 30,1 M€ nel 2025 (25,9 M€ nel 2023, 45 M€ nel 2022), contro i 24,4 M€ (2024) indicati nel campo. L'azienda resta in forbice ma il valore va aggiornato.",
+  "gravita": "media",
+  "evidenza": "\"Yrityksen liikevaihto oli 30,1 miljoonaa euroa 2025\" — https://www.asiakastieto.fi/yritykset/fi/veljekset-vaara-oy/04167078/taloustiedot",
+  "correzione_proposta": "Liikevaihto 30,1 M€ (2025, Asiakastieto); ~65-71 dip."
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Ålands Skogsindustrier Ab",
+  "campo": "referente",
+  "problema": "Refuso nel cognome: il vd si chiama Anders Mattsson (doppia s), in carica dall'ottobre 2019, proveniente dalla controllata svedese di Nordkalk.",
+  "gravita": "bassa",
+  "evidenza": "\"Ålands Skogsindustriers verkställande direktör är Anders Mattsson\" — https://www.nyan.ax/nyheter/ny-vd-pa-skogsindustrier/ ; https://handel.ax/oppen/alands-skogsindutrier/",
+  "correzione_proposta": "Anders Mattsson"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Ålands Skogsindustrier Ab",
+  "campo": "dimensione",
+  "problema": "Fatturato obsoleto di 4 anni (2022). Il gruppo dichiara 13,2 M€ nel solo primo semestre 2026 (+14% su base annua), quindi un giro d'affari annuo ormai nettamente superiore ai 18,5 M€ indicati.",
+  "gravita": "media",
+  "evidenza": "\"Ålands Skogsindustrier-koncernen redovisar en omsättning på 13,2 miljoner euro för första halvåret 2026, en ökning med 14 procent jämfört med samma period i fjol\" — https://www.alandstidningen.ax/naeringsliv/stormen-johannes-blaste-upp-omsaettningen/1366643",
+  "correzione_proposta": "Omsättning koncernen 13,2 M€ nel 1° semestre 2026 (+14%); dato annuo 2025 DA CONFERMARE"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "BestPak Oy",
+  "campo": "dimensione",
+  "problema": "La società è una micro-impresa MOLTO sotto la forbice: liikevaihto ~2,0 M€ con 28 dipendenti. Il campo si limita a 'liikevaihto n.d.' senza segnalare il fuori-forbice. Inoltre la capogruppo Oy Orapac Ab (Oravais) detiene il controllo: la decisione EUDR si prende lì, e sarebbe Orapac (unità produttive a Oravais, Pirkkala e Kihniö) il lead corretto.",
+  "gravita": "alta",
+  "evidenza": "\"in the previous fiscal year, BestPak Oy's liikevaihto was 2.0 million euros with 28 employees\"; \"BestPak is part of the Orapac group, with its parent company Oy Orapac Ab located in Oravais\" — https://www.asiakastieto.fi/yritykset/fi/bestpak-oy/19949582/taloustiedot ; https://www.proff.fi/yrityksen/bestpak-oy/pirkkala/paperi-ja-paperituotteet/1994958-2I0ZDH",
+  "correzione_proposta": "Liikevaihto ~2,0 M€, 28 dip. — FUORI FORBICE; valutare la capogruppo Oy Orapac Ab come lead"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "BestPak Oy",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti: il toimitusjohtaja risulta Jyri Juhani Weiste.",
+  "gravita": "media",
+  "evidenza": "\"BestPak Oy (Y-tunnus 1994958-2) is located in Pirkkala, and its toimitusjohtaja is Weiste Jyri Juhani\" — https://www.asiakastieto.fi/yritykset/fi/bestpak-oy/19949582/paattajat",
+  "correzione_proposta": "Jyri Weiste — Toimitusjohtaja (CEO)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Bong Suomi Oy",
+  "campo": "dimensione",
+  "problema": "Fatturato non aggiornato e in calo: 5,5 M€ nel 2024 (contro i 6,5 M€ del 2023 indicati nel campo). La società scende così a ridosso della soglia minima della forbice (5 M€). Il controllo del gruppo svedese Bong è invece già correttamente dichiarato.",
+  "gravita": "media",
+  "evidenza": "\"yrityksen liikevaihto oli 5,5 miljoonaa euroa 2024 ... yrityksen liikevaihto oli 6,5 MEUR vuonna 2023\" — https://www.asiakastieto.fi/yritykset/fi/bong-suomi-oy/14876636/taloustiedot",
+  "correzione_proposta": "Liikevaihto 5,5 M€ (2024, Asiakastieto); parte del gruppo svedese Bong — al limite inferiore della forbice"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Havi Oy",
+  "campo": "dimensione",
+  "problema": "Numero di dipendenti gravemente sovrastimato: il campo indica ~106 dip., le fonti registrali riportano 22 dipendenti sul liikevaihto 10,8 M€ (2025, +16,6%, EBIT 1,3 M€). Confermato invece che Havi Oy è il nuovo nome di Suomen Kerta Oy (stesso Y-tunnus 0648171-4), quindi la nota 'da verificare' può essere chiusa.",
+  "gravita": "media",
+  "evidenza": "\"Havi Oy (0648171-4) had a revenue of 10.8 million euros in 2025 and employed 22 people\" — https://www.asiakastieto.fi/yritykset/fi/havi-oy/06481714/taloustiedot ; https://www.finder.fi/Paperia,+paperituotteita,+kartonkeja/Suomen+Kerta+Oy+P%C3%A4%C3%A4konttori/IMATRA/taloustiedot/320537",
+  "correzione_proposta": "Liikevaihto 10,8 M€ (2025, Asiakastieto); 22 dip.; ex Suomen Kerta Oy (Y-tunnus 0648171-4, denominazione confermata)"
+ }
+]
