@@ -2,289 +2,397 @@
  {
   "foglio": "Italia",
   "denominazione": "Slitti S.r.l.",
-  "campo": "denominazione",
-  "problema": "Forma giuridica errata: al Registro l'impresa di Monsummano Terme risulta 'SLITTI LUCIANO SNC DI SLITTI ANDREA E DANIELE' (societa' in nome collettivo), P.IVA 00204690473, non una S.r.l.",
-  "gravita": "bassa",
-  "evidenza": "https://www.informazione-aziende.it/Azienda_SLITTI-LUCIANO-SNC-DI-SLITTI-ANDREA-E-DANIELE — 'Slitti Luciano Snc Di Slitti Andrea E Daniele ... SOCIETA' IN NOME COLLETTIVO ... P.IVA 00204690473, Via Francesca Vergine dei Pini 1268, Monsummano Terme (PT)'",
-  "correzione_proposta": "Slitti Luciano S.n.c. di Slitti Andrea e Daniele (P.IVA 00204690473)"
+  "campo": "dimensione",
+  "problema": "Fatturato ~4 mln € (2024) sotto la forbice target 5-40 M€ senza segnalazione esplicita nel campo. Dato confermato dalla stampa di settore: 2,5 mln (2022), ~4,2 mln stimati (2023), ~4 mln (2024). Micro/piccola impresa in forte crescita, ma oggi fuori forbice.",
+  "gravita": "media",
+  "evidenza": "https://www.agrisole.ilsole24ore.com/art/imprese/2024-06-11/obiettivo-50-milioni-fatturato-otto-anni-slitti-fabbrica-cioccolato-184001.php - \"Obiettivo 50 milioni di fatturato in otto anni per Slitti, Fabbrica di cioccolato\"; https://wine.pambianconews.com/2023/07/il-cioccolato-slitti-punta-a-40-mln-di-fatturato-entro-il-2028/",
+  "correzione_proposta": "~4 mln € (fatturato 2024, fonte stampa) - SOTTO SOGLIA 5 M€; bean-to-bar, obiettivo dichiarato 40 mln entro il 2028"
  },
  {
   "foglio": "Italia",
   "denominazione": "Slitti S.r.l.",
-  "campo": "dimensione",
-  "problema": "Micro/piccola impresa sotto la forbice target 5-40 mln EUR: il fatturato 2024 e' di 4 mln EUR (2,5 mln nel 2022). Il campo riporta il dato ma non segnala che e' fuori forbice.",
+  "campo": "email",
+  "problema": "Campo valorizzato 'n.d.' ma l'indirizzo aziendale e pubblicato letteralmente sulla pagina contatti del sito ufficiale.",
   "gravita": "media",
-  "evidenza": "https://www.comunicaffe.it/andrea-slitti-puntiamo-a-50-mln-di-fatturato-entro-8-anni/ — 'chiuso il 2024 con un fatturato di 4 milioni di euro ... obiettivo 50 milioni entro otto anni'",
-  "correzione_proposta": "~4,0 mln EUR (2024, fonte Comunicaffe) — SOTTO SOGLIA 5 mln, valutare esclusione"
- },
- {
-  "foglio": "Italia",
-  "denominazione": "A.T. Gomma Guarnizioni Industriali S.r.l.",
-  "campo": "filiera",
-  "problema": "PERIMETRO EUDR DA CONFERMARE: la gamma pubblicata comprende esclusivamente elastomeri sintetici (O-ring e guarnizioni in EPDM, NBR, FKM) per riscaldamento, automotive, pneumatica, elettrodomestici, idraulica. Nessuna evidenza pubblica di uso di gomma naturale (NR/caucciu'), come nel caso Helvoet rimosso in Belgio.",
-  "gravita": "media",
-  "evidenza": "https://it.kompass.com/c/a-t-gomma-guarnizioni-industriali-s-r-l/it0385273/ e https://www.federazionegommaplastica.it/en/aziende-associate/a-t-gomma-guarnizioni-industriali-srl/ — 'portfolio of standard O-rings in EPDM, NBR, FKM'",
-  "correzione_proposta": ""
+  "evidenza": "https://en.slitti.it/pages/contact - \"via Francesca Vergine dei Pini 1268 - 51015 Monsummano Terme (PT) ... info@slitti.it ... +39 0572 640240\"",
+  "correzione_proposta": "info@slitti.it"
  },
  {
   "foglio": "Italia",
   "denominazione": "Diesse Rubber Hoses S.p.A.",
   "campo": "sito",
-  "problema": "Campo sito vuoto: l'azienda ha un sito web attivo.",
+  "problema": "Campo sito vuoto: l'azienda ha un sito istituzionale attivo.",
   "gravita": "bassa",
-  "evidenza": "https://www.coobiz.it/azienda/filago-produzione-lavorazione/co1803832 — 'Website: diesserubber.com'; anche europages riporta lo stesso dominio",
+  "evidenza": "https://www.reteimprese.it/tubi-gomma/filago/azienda/844892 - \"Il sito ufficiale e http://diesserubber.com\"",
   "correzione_proposta": "https://www.diesserubber.com"
  },
  {
   "foglio": "Italia",
-  "denominazione": "Ellegi S.p.A.",
-  "campo": "sito",
-  "problema": "Campo sito vuoto: l'azienda ha un sito web attivo.",
+  "denominazione": "Diesse Rubber Hoses S.p.A.",
+  "campo": "filiera",
+  "problema": "DA CONFERMARE il perimetro EUDR: la gamma pubblicata e costituita da tubi flessibili idraulici per alta e altissima pressione (treccia tessile, treccia metallica, spiralati), tipologia realizzata di norma con elastomeri sintetici (NBR/SBR/EPDM). Occorre verificare la presenza di gomma naturale nelle mescole prima di considerarla in perimetro (cfr. caso Helvoet, rimossa in Belgio).",
+  "gravita": "media",
+  "evidenza": "https://www.europages.co.uk/DIESSE-RUBBER-HOSES-SPA/ITA105929-00101.html - \"uno dei principali produttori europei di tubi flessibili in gomma con treccia tessile, treccia metallica e spiralati per basse, medie, alte e altissime pressioni di esercizio\"",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Diesse Rubber Hoses S.p.A.",
+  "campo": "dimensione",
+  "problema": "Il valore (~32,2 mln €) non riporta l'anno e la fonte indicata e una pagina di categoria ATECO, non la scheda dell'azienda. L'organico reperibile e di 168 dipendenti, coerente con una societa di quella taglia.",
   "gravita": "bassa",
-  "evidenza": "https://www.ufficiocamerale.it/8473/ellegi-spa — 'telefono 0354495511 ... sito ellegi.com' (P.IVA 01838400164)",
-  "correzione_proposta": "https://www.ellegi.com"
+  "evidenza": "https://www.europages.co.uk/DIESSE-RUBBER-HOSES-SPA/ITA105929-00101.html - \"L'azienda conta attualmente 168 dipendenti\"; scheda: https://topaziende.quotidiano.net/lombardia/bergamo/fatturato-diesse-rubber-hoses-s-p-a/",
+  "correzione_proposta": "indicare fatturato con anno e usare come fonte https://topaziende.quotidiano.net/lombardia/bergamo/fatturato-diesse-rubber-hoses-s-p-a/ ; ~168 dipendenti"
  },
  {
   "foglio": "Italia",
   "denominazione": "Ellegi S.p.A.",
   "campo": "dimensione",
-  "problema": "Dato di fatturato senza anno e leggermente sottostimato: il bilancio 2023 riporta 30.487.715 EUR (utile netto 841.780 EUR), non ~29,8 mln.",
+  "problema": "Il fatturato indicato (~29,8 mln €) e privo di anno e disallineato: l'ultimo bilancio reperibile riporta 30.487.715 € (2023), utile 841.780 €, 50-99 dipendenti.",
   "gravita": "bassa",
-  "evidenza": "https://www.reportaziende.it/ellegi_spa_bg_01838400164 — 'fatturato 2023: 30.487.715 EUR; risultato netto 841.780 EUR; 50-99 dipendenti; ATECO 22.19.09'",
-  "correzione_proposta": "~30,5 mln EUR (bilancio 2023); 50-99 dip.; articoli in gomma (ATECO 22.19.09)"
+  "evidenza": "https://www.reportaziende.it/ellegi_spa_bg_01838400164 - \"fatturato 2023: 30.487.715 €, risultato netto 841.780 €, 50-99 dipendenti, ATECO 22.19.09\"",
+  "correzione_proposta": "~30,5 mln € (fatturato 2023, bilancio depositato); 50-99 dip.; articoli in gomma (ATECO 22.19.09)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "F.lli Paris S.r.l.",
+  "campo": "dimensione",
+  "problema": "Valore corretto ma privo di anno e con fonte non specifica (pagina di categoria ATECO). Bilancio 2024: ricavi 29.106.837 €, utile 5.389.192 €, 50-99 dipendenti.",
+  "gravita": "bassa",
+  "evidenza": "https://www.reportaziende.it/flli_paris_srl_bg_02739730162 - \"2024: fatturato 29.106.837 €, utile 5.389.192 €; 50-99 dipendenti; ATECO 22.19.09\"",
+  "correzione_proposta": "~29,1 mln € (fatturato 2024, bilancio depositato); 50-99 dip.; P.IVA 02739730162"
  },
  {
   "foglio": "Italia",
   "denominazione": "Insit Industria S.p.A.",
   "campo": "dimensione",
-  "problema": "Fatturato senza anno e sottostimato: il bilancio 2023 riporta 30.736.566 EUR con 175 dipendenti, non ~29,1 mln.",
-  "gravita": "bassa",
-  "evidenza": "https://www.fatturatoazienda.it/azienda/insit-industria-spa-03790920015 — 'Insit Industria — Fatturato 30,7 Mln EUR, 175 dipendenti — Bilancio 2023'",
-  "correzione_proposta": "~30,7 mln EUR (bilancio 2023); 175 dip.; articoli tecnici in gomma stampata ed elastomero termoplastico"
+  "problema": "Fatturato sottostimato e senza anno: il bilancio 2023 riporta 30.736.566 € con 175 dipendenti, contro i ~29,1 mln € indicati.",
+  "gravita": "media",
+  "evidenza": "https://www.fatturatoazienda.it/azienda/insit-industria-spa-03790920015 - \"Insit Industria - Fatturato 30,7 Mln €, 175 dipendenti - Bilancio 2023\"",
+  "correzione_proposta": "~30,7 mln € (fatturato 2023, bilancio depositato); 175 dip."
  },
  {
   "foglio": "Italia",
   "denominazione": "Insit Industria S.p.A.",
   "campo": "referente",
-  "problema": "Campo referente vuoto: risulta pubblicamente un Presidente in carica.",
+  "problema": "Referente e ruolo assenti. Societa familiare Debenedetti: risulta Presidente Guglielmo Debenedetti; Anna Debenedetti figura come titolare/General Manager. DA CONFERMARE in visura quale sia il legale rappresentante attuale.",
   "gravita": "media",
-  "evidenza": "https://atoka.io/public/it/azienda/insit-industria-societa-per-azioni/5864125aa840 — 'Guglielmo Debenedetti — Presidente'",
-  "correzione_proposta": "Guglielmo Debenedetti — Presidente (DA CONFERMARE su visura aggiornata)"
- },
- {
-  "foglio": "Italia",
-  "denominazione": "Insit Industria S.p.A.",
-  "campo": "sito",
-  "problema": "Campo sito vuoto: l'azienda ha un sito web attivo (insitindustria.com).",
-  "gravita": "bassa",
-  "evidenza": "https://www.insitindustria.com/ (dominio aziendale emerso in ricerca) e scheda Kompass https://it.kompass.com/c/insit-industria/it0027937/",
-  "correzione_proposta": "https://www.insitindustria.com"
+  "evidenza": "https://atoka.io/public/it/azienda/insit-industria-societa-per-azioni/5864125aa840 - \"Guglielmo Debenedetti - Presidente\"; https://www.linkedin.com/in/anna-debenedetti-10427b35/ - \"Anna DEBENEDETTI - INSIT INDUSTRIA SPA\"",
+  "correzione_proposta": "Guglielmo Debenedetti - Presidente (DA CONFERMARE in visura; Anna Debenedetti titolare/General Manager)"
  },
  {
   "foglio": "Italia",
   "denominazione": "Insit Industria S.p.A.",
   "campo": "filiera",
-  "problema": "PERIMETRO EUDR DA CONFERMARE: la produzione dichiarata e' di guarnizioni di tenuta per motore e cuffie per giunti di trasmissione in gomma stampata e elastomero termoplastico (automotive); non e' documentato l'impiego di gomma naturale.",
+  "problema": "DA CONFERMARE il perimetro EUDR: la gamma dichiarata sono articoli tecnici in gomma stampata E in elastomero termoplastico per l'automotive, comparto in cui prevalgono le mescole sintetiche (EPDM/NBR/TPE). Verificare l'impiego di gomma naturale prima di tenerla in lista.",
   "gravita": "media",
-  "evidenza": "https://atoka.io/public/it/azienda/insit-industria-societa-per-azioni/5864125aa840 — 'INSIT designs, develops and manufactures technical articles in molded rubber and thermoplastic elastomer for the automotive industries ... rubber sealing gaskets for engine applications and protective boots for transmission joints'",
-  "correzione_proposta": ""
- },
- {
-  "foglio": "Italia",
-  "denominazione": "F.lli Paris S.r.l.",
-  "campo": "dimensione",
-  "problema": "Dato privo di anno: il fatturato 29.106.837 EUR e' il bilancio 2024 (utile 5.389.192 EUR, 50-99 dipendenti). Va esplicitato anno e classe dipendenti.",
-  "gravita": "bassa",
-  "evidenza": "https://www.reportaziende.it/flli_paris_srl_bg_02739730162 — 'F.lli Paris S.r.l., P.IVA 02739730162, Castelli Calepio: fatturato 2024 29.106.837 EUR, utile 5.389.192 EUR, 50-99 dipendenti'",
-  "correzione_proposta": "~29,1 mln EUR (bilancio 2024); 50-99 dip.; fabbricazione di altri prodotti in gomma"
- },
- {
-  "foglio": "Italia",
-  "denominazione": "F.lli Paris S.r.l.",
-  "campo": "filiera",
-  "problema": "PERIMETRO EUDR DA CONFERMARE: l'unica descrizione pubblica disponibile e' generica ('fabbricazione di altri articoli in gomma'), non c'e' sito aziendale ne' gamma prodotti pubblicata; impossibile accertare l'uso di gomma naturale.",
-  "gravita": "media",
-  "evidenza": "https://registroaziende.it/azienda/flli-paris-srl-castelli-calepio — attivita' 'fabbricazione di altri prodotti in gomma'; nessun sito aziendale reperito nelle ricerche",
-  "correzione_proposta": ""
- },
- {
-  "foglio": "Italia",
-  "denominazione": "Spaggiari Industria Gomma S.r.l.",
-  "campo": "sito",
-  "problema": "TLD errato: il sito ufficiale reperibile e' spaggiarigomma.com, non .it.",
-  "gravita": "bassa",
-  "evidenza": "https://spaggiarigomma.com/ — 'Spaggiari Industria Gomma, Rubber Professional Solutions'",
-  "correzione_proposta": "https://spaggiarigomma.com"
- },
- {
-  "foglio": "Italia",
-  "denominazione": "Spaggiari Industria Gomma S.r.l.",
-  "campo": "fonte",
-  "problema": "Discrepanza di identificativo fiscale: la fonte citata usa 00728860347, mentre ufficiocamerale e registroaziende riferiscono la stessa ragione sociale a Luzzara con P.IVA 00924770357. Verificare quale sia il soggetto giuridico corretto (possibile omonimia / CF storico).",
-  "gravita": "media",
-  "evidenza": "https://www.ufficiocamerale.it/3406/spaggiari-industria-gomma-srl — 'SPAGGIARI INDUSTRIA GOMMA S.R.L., Partita IVA: 00924770357'; contro https://www.fatturatoitalia.it/spaggiari_industria_gomma_srl-00728860347/",
+  "evidenza": "https://atoka.io/public/it/azienda/insit-industria-societa-per-azioni/5864125aa840 - \"INSIT progetta, sviluppa e realizza articoli tecnici in gomma stampata ed in elastomero termoplastico per le industrie dell'automotive\"",
   "correzione_proposta": ""
  },
  {
   "foglio": "Italia",
   "denominazione": "Lecont S.r.l.",
   "campo": "referente",
-  "problema": "Campo referente vuoto: l'azienda e' stata fondata e resta guidata dai fratelli Cont. Non e' stato possibile accertare da fonte pubblica chi sia l'attuale amministratore unico.",
+  "problema": "Referente e ruolo assenti. Azienda familiare fondata nel 1994 dai fratelli Valter e Sergio Cont, tuttora alla guida. DA CONFERMARE in visura chi dei due sia l'amministratore unico/legale rappresentante.",
   "gravita": "media",
-  "evidenza": "https://www.lecont.com/storia/ — 'LeCont nasce nel 1994 dalla passione dei fratelli Valter e Sergio Cont'; https://www.confindustria.tn.it/it/imprese/lecont/",
-  "correzione_proposta": "DA CONFERMARE (probabile Valter Cont o Sergio Cont, Amministratore)"
+  "evidenza": "https://www.lecont.com/storia/ - \"nei primi giorni del 1994 ... i fratelli Valter e Sergio Cont decidono di trasformare la loro passione per il mondo del kart in un vero e proprio lavoro\"",
+  "correzione_proposta": "Valter Cont (o Sergio Cont) - Fondatore / Amministratore (DA CONFERMARE in visura)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Lecont S.r.l.",
+  "campo": "dimensione",
+  "problema": "Valore corretto ma la fonte indicata e una pagina di categoria ATECO. Bilancio 2024: 10.713.122 €, 28 dipendenti, oltre 500.000 pneumatici/anno. Perimetro EUDR pienamente coerente (pneumatici = gomma naturale).",
+  "gravita": "bassa",
+  "evidenza": "https://www.reportaziende.it/lecont_srl_tn_01711670222 - \"fatturato 2024: 10.713.122 €\"; https://www.confindustria.tn.it/it/imprese/lecont/ - \"oltre 500.000 pneumatici l'anno\"",
+  "correzione_proposta": "~10,7 mln € (fatturato 2024, bilancio depositato); 28 dip.; oltre 500.000 pneumatici/anno"
  },
  {
   "foglio": "Italia",
   "denominazione": "Ponti Guarnizioni S.r.l.",
   "campo": "sede",
-  "problema": "Sede errata: l'azienda ha sede a Foresto Sparso (BG), Via Faveti 13, non a Castelli Calepio.",
+  "problema": "SEDE ERRATA: l'azienda non e a Castelli Calepio ma a Foresto Sparso (BG), Via Faveti 13. Le schede camerali e il sito aziendale concordano.",
   "gravita": "media",
-  "evidenza": "https://www.pontiguarnizioni.net/ — 'Articoli di gomma | Foresto Sparso, BG'; https://www.pontiguarnizioni.com/azienda.php — 'Via Faveti, 13 - 24060 Foresto Sparso (BG)', P.IVA 02036320162",
+  "evidenza": "https://www.pontiguarnizioni.com/azienda.php - \"con sede a Foresto Sparso, in provincia di Bergamo, in Via Faveti, 13\"; https://m.fatturatoitalia.it/dettagliodettaglioponti_guarnizioni_srl_02036320162 - \"Ponti Guarnizioni Srl Fatturato e Bilancio - Foresto Sparso | P.Iva: 02036320162\"",
   "correzione_proposta": "Foresto Sparso (BG)"
  },
  {
   "foglio": "Italia",
   "denominazione": "Ponti Guarnizioni S.r.l.",
-  "campo": "email",
-  "problema": "Email di reparto export estero ('exportfr@') poco adatta a un contatto direzionale: il recapito generale pubblicato dall'azienda e' ponti@pontiguarnizioni.com.",
-  "gravita": "media",
-  "evidenza": "https://www.pontiguarnizioni.com/azienda.php — 'ponti@pontiguarnizioni.com — tel. +39 035 934360 / 035 930913'",
-  "correzione_proposta": "ponti@pontiguarnizioni.com"
- },
- {
-  "foglio": "Italia",
-  "denominazione": "Ponti Guarnizioni S.r.l.",
   "campo": "dimensione",
-  "problema": "Impresa sotto la forbice target 5-40 mln EUR (4,7 mln, 2023) senza segnalazione esplicita nel campo.",
+  "problema": "Fatturato 4.720.176 € (2023) confermato, ma e SOTTO la forbice target 5-40 M€ e il campo non lo segnala (stesso caso di Caffe River e Bonajuto in altri blocchi).",
   "gravita": "media",
-  "evidenza": "valore riportato nel record stesso (~4,7 mln EUR 2023, 20-49 dip.); soglia minima cliente 5 mln EUR",
-  "correzione_proposta": "~4,7 mln EUR (2023) — SOTTO SOGLIA 5 mln, valutare esclusione"
+  "evidenza": "https://www.reportaziende.it/ponti_guarnizioni_srl_bg_02036320162 - \"2023: fatturato 4.720.176 €, utile 189.281 €, 20-49 dipendenti, costo del personale 1.045.820 €\"",
+  "correzione_proposta": "~4,7 mln € (fatturato 2023, bilancio depositato) - SOTTO SOGLIA 5 M€; 20-49 dip."
  },
  {
   "foglio": "Italia",
   "denominazione": "Ponti Guarnizioni S.r.l.",
-  "campo": "denominazione",
-  "problema": "Coesistono due domini/ragioni sociali storicamente diverse: pontiguarnizioni.it riporta 'PONTI Guarnizioni S.n.c. di Ponti Renato & C.', pontiguarnizioni.com 'Ponti Guarnizioni S.r.l. di Ponti Renato & C.'. Verificare la denominazione attuale al Registro (P.IVA 02036320162).",
+  "campo": "email",
+  "problema": "DA CONFERMARE: 'exportfr@pontiguarnizioni.com' e un recapito di funzione export verso la Francia, non il contatto istituzionale; non l'ho ritrovato letteralmente in fonte pubblica. La pagina contatti del sito e attiva e va usata come riscontro.",
   "gravita": "bassa",
-  "evidenza": "http://www.pontiguarnizioni.it/prodotti.php — 'PONTI Guarnizioni S.n.c. di Ponti Renato & C.'; http://www.pontiguarnizioni.com/cicloproduttivo.php — 'Ponti Guarnizioni S.r.l. di Ponti Renato & C.'",
+  "evidenza": "https://www.pontiguarnizioni.com/contatti.php - pagina \"Contatti e dove siamo | Ponti Guarnizioni\"",
   "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Spaggiari Industria Gomma S.r.l.",
+  "campo": "sito",
+  "problema": "Il dominio ufficiale che compare nei risultati e spaggiarigomma.com, non spaggiarigomma.it. DA CONFERMARE quale dei due sia il dominio attivo/canonico.",
+  "gravita": "bassa",
+  "evidenza": "https://spaggiarigomma.com/ - \"Spaggiari Industria Gomma, Rubber Professional Solutions\"",
+  "correzione_proposta": "https://spaggiarigomma.com"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Cortal Extrasoy S.p.A.",
+  "campo": "email",
+  "problema": "Campo valorizzato 'n.d.' ma l'indirizzo istituzionale e pubblicato sulla pagina contatti del sito ufficiale.",
+  "gravita": "media",
+  "evidenza": "https://www.cortal.it/en/contact-us/ - \"Via Postumia di Ponente 342, 35013 Cittadella (PD) - Tel. 049 9448111 - info@cortal.it (anche infoweb@cortal.it)\"",
+  "correzione_proposta": "info@cortal.it"
  },
  {
   "foglio": "Italia",
   "denominazione": "Cortal Extrasoy S.p.A.",
   "campo": "dimensione",
-  "problema": "Dato confermato ma da precisare: bilancio 2024 ricavi 59.292.815 EUR, utile 2.866.674 EUR, 65 dipendenti (P.IVA 00224840280). Resta sopra la forbice target 5-40 mln, come gia' segnalato nel campo.",
+  "problema": "Valore confermato (59.292.815 € nel 2024, utile 2.866.674 €, 50-99 dip.) ma resta sopra la forbice target 5-40 M€: la segnalazione nel campo e presente ed e corretta. Da allineare solo la fonte, che nel record punta a registroaziende mentre il dato 2024 e verificabile su aziende.it.",
   "gravita": "bassa",
-  "evidenza": "https://www.aziende.it/cortal-extrasoy-s-p-a — 'ricavi 2024: 59.292.815 euro ... utile 2.866.674 euro ... 65 dipendenti'",
-  "correzione_proposta": "~59,3 mln EUR (bilancio 2024); 65 dip. — SOPRA forbice target"
- },
- {
-  "foglio": "Italia",
-  "denominazione": "Mangimificio S.Antonio S.r.l.",
-  "campo": "sito",
-  "problema": "Campo sito vuoto: l'azienda ha un sito web attivo (mangimisantantonio.it).",
-  "gravita": "bassa",
-  "evidenza": "https://www.mangimisantantonio.it/ — 'MANGIMIFICIO - Mangimificio Sant' Antonio, mangimi per i tuoi animali'; scheda Kompass https://it.kompass.com/c/mangimificio-s-antonio-s-r-l/it0133589/ (P.IVA 00573170842, C.da Ranciditi 1, Aragona AG)",
-  "correzione_proposta": "https://www.mangimisantantonio.it"
+  "evidenza": "https://www.aziende.it/cortal-extrasoy-s-p-a - \"nell'ultimo esercizio disponibile (2024) Cortal Extrasoy S.p.a. ha registrato un fatturato di 59.292.815 €, in crescita del 9,9%, chiudendo con un utile di 2.866.674 €; costo del personale 3.324.748 €; 50-99 dipendenti\"",
+  "correzione_proposta": "~59,3 mln € (fatturato 2024, bilancio depositato); utile 2,87 mln €; 50-99 dip. - SOPRA FORBICE 40 M€"
  },
  {
   "foglio": "Italia",
   "denominazione": "Mangimificio S.Antonio S.r.l.",
   "campo": "dimensione",
-  "problema": "Numero dipendenti incoerente: il record indica 18 dipendenti, le schede camerali collocano l'azienda nella classe 20-49 addetti.",
+  "problema": "Disallineamento anno/valore: il campo indica ~9,8 mln € (2024), mentre l'ultimo bilancio reperibile e il 2023 con 10.016.280 € (2022: 8.494.670 €, +15,78%). Il dato dei 18 dipendenti non trova riscontro nelle schede consultate.",
   "gravita": "bassa",
-  "evidenza": "https://www.europages.it/MANGIMIFICIO-SANTONIO-SRL/SEAC000139250-001.html e scheda misterimprese — 'Employees: 20 to 49'",
-  "correzione_proposta": "~9,8 mln EUR (2024); 20-49 dip. (DA CONFERMARE su bilancio)"
+  "evidenza": "https://www.aziende.it/mangimificio-s-antonio-s-r-l - \"fatturato 2023: 10.016.280 €; 2022: 8.494.670 €, +15,78%\"; sede Contrada Ranciditi, 92021 Aragona (AG), P.IVA 00573170842, ATECO 10.9",
+  "correzione_proposta": "~10,0 mln € (fatturato 2023, bilancio depositato); ATECO 10.9; P.IVA 00573170842"
  },
  {
   "foglio": "Italia",
-  "denominazione": "PBA S.r.l. (PBA Italia Nutrizione Animale)",
+  "denominazione": "Mangimi Cavallo S.r.l.",
   "campo": "dimensione",
-  "problema": "Fatturato errato: il bilancio 2023 riporta 38.445.798 EUR (53 dipendenti), non ~49,5 mln; il dato piu' recente disponibile e' ~44,1 mln EUR. Il valore in scheda sovrastima di ~11 mln e fa apparire l'azienda al limite superiore della forbice.",
-  "gravita": "media",
-  "evidenza": "https://www.reportaziende.it/pba_srl_pc_01223200336 — 'ricavi 2023: 38.445.798 EUR'; https://atoka.io/public/it/azienda/pba-srl/327faa54ece6 — 'PBA S.r.l. ... fatturato 44,1 M EUR ... 53 dipendenti'",
-  "correzione_proposta": "~38,4 mln EUR (bilancio 2023); ~44,1 mln EUR dato piu' recente; 53 dip."
+  "problema": "Valore confermato (5.678.439 € nel 2024, utile 88.017 €, 10-15 dip.) ma va notato che l'azienda e appena sopra la soglia minima di 5 M€ della forbice target, con marginalita molto sottile.",
+  "gravita": "bassa",
+  "evidenza": "https://www.reportaziende.it/mangimi_cavallo_srl_sr_01037970892 - \"ultimo esercizio disponibile (2024): fatturato 5.678.439 €, risultato netto 88.017 €; costo del personale 241.405 €; 10-15 dipendenti\"",
+  "correzione_proposta": "~5,68 mln € (fatturato 2024, bilancio depositato); utile 88 mila €; 10-15 dip."
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Mediterranea Mangimi S.p.A.",
+  "campo": "dimensione",
+  "problema": "Valore confermato (33.893.576 € nel 2024; costo del personale 1.582.495 €; 20-49 dip.). Nessun rilievo sostanziale: si segnala solo che l'ultimo bilancio integralmente pubblicato nelle schede consultate e il 2022 (31.600.775 €), quindi il 2024 va tenuto sotto osservazione.",
+  "gravita": "bassa",
+  "evidenza": "https://www.aziende.it/mediterranea-mangimi-spa - \"fatturato 2024: 33.893.576 €; costo del personale 1.582.495 €; 20-49 dipendenti; ultimo bilancio depositato al Registro Imprese nel 2022: 31.600.775 €\"",
+  "correzione_proposta": "~33,9 mln € (fatturato 2024); 20-49 dip.; sede Via Torre Cannata Olivieri s.n.c., 97015 Modica (RG)"
  },
  {
   "foglio": "Italia",
   "denominazione": "PBA S.r.l. (PBA Italia Nutrizione Animale)",
   "campo": "sede",
-  "problema": "Sede legale probabilmente errata: le banche dati camerali registrano PBA S.r.l. (P.IVA 01223200336) in provincia di Piacenza; Fombio (LO) e Casatenovo (LC) sono gli stabilimenti produttivi, non la sede legale.",
+  "problema": "SEDE LEGALE DIVERSA da quella indicata: la sede legale e a Piacenza (PC), Via San Marco 14; Fombio (LO), Via delle Gerole 1, e lo stabilimento produttivo. Le schede camerali classificano l'impresa sotto Piacenza.",
   "gravita": "media",
-  "evidenza": "https://www.reportaziende.it/pba_srl_pc_01223200336 — 'PBA S.R.L. (PC)'; https://atoka.io/public/it/azienda/pba-srl/327faa54ece6 — 'Produzione di mangimi ... a Piacenza'; https://www.pbaitalia.it/azienda/ — 'gli stabilimenti produttivi si trovano a Fombio (LO) e a Casatenovo (LC)'",
-  "correzione_proposta": "Piacenza (PC) — sede legale; stabilimenti Fombio (LO) e Casatenovo (LC) — DA CONFERMARE su visura"
+  "evidenza": "https://atoka.io/public/it/azienda/pba-srl/327faa54ece6 - \"Pba Srl | Produzione di mangimi per l'alimentazione degli animali da allevamento a Piacenza\"; https://topaziende.quotidiano.net/emilia-romagna/piacenza/fatturato-pba-srl/ - \"PBA SRL Piacenza\"; https://www.assolombarda.it/cerca-imprese-prodotti/pba-srl - sede legale Via San Marco 14, 29121 Piacenza; stabilimento Via Gerole 1, 26861 Fombio (LO)",
+  "correzione_proposta": "Piacenza (PC) - sede legale; stabilimento a Fombio (LO)"
  },
  {
   "foglio": "Italia",
   "denominazione": "PBA S.r.l. (PBA Italia Nutrizione Animale)",
-  "campo": "fonte",
-  "problema": "La fonte citata e' una classifica di settore generica (topaziende per codice ATECO) che non sostiene ne' il fatturato ne' la sede indicati.",
+  "campo": "dimensione",
+  "problema": "Fatturato disallineato: il campo indica ~49,5 mln € (2023), le schede aziendali riportano 44,1 mln € con 53 dipendenti e capitale sociale 3,5 mln €. La fonte citata nel record e una pagina di categoria ATECO, non la scheda della societa. DA CONFERMARE quale sia l'esercizio di riferimento.",
+  "gravita": "media",
+  "evidenza": "https://atoka.io/public/it/azienda/pba-srl/327faa54ece6 - \"PBA Srl ... fatturato 44,1 M €, 53 dipendenti, capitale sociale 3,5 mln €, media impresa (50-249 dipendenti)\"",
+  "correzione_proposta": "~44,1 mln € (da verificare l'anno di riferimento); 53 dip.; P.IVA 01223200336"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "PBA S.r.l. (PBA Italia Nutrizione Animale)",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti. La societa nasce come Diusa Zoo S.r.l., fondata da Daniele Dinosio e Piero Palladini, e assume la denominazione PBA S.r.l. nel 2008. DA CONFERMARE in visura chi sia oggi l'amministratore/legale rappresentante: i nomi trovati sul sito (Stefano Merlini veterinario dirigente, Stefano Zaupa responsabile settore bovino, Luca Zini agente di commercio) sono figure tecniche/commerciali, NON legali rappresentanti - non usarli come referente.",
+  "gravita": "media",
+  "evidenza": "https://www.pbaitalia.it/azienda/ - storia societaria (ex Diusa Zoo S.r.l., fondata da Daniele Dinosio e Piero Palladini, ridenominata PBA S.r.l. nel 2008); https://www.pbaitalia.it/azienda/il-nostro-team/ - team tecnico",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Spada Mangimi S.r.l.",
+  "campo": "dimensione",
+  "problema": "Dato aggiornabile: e disponibile il bilancio 2024 con 24.194.549 € (2023: 24.228.393 €, utile 299.548 €; 2022: 23.837.249 €). Fatturato sostanzialmente piatto negli ultimi tre esercizi.",
   "gravita": "bassa",
-  "evidenza": "fonte in scheda: https://topaziende.quotidiano.net/ateco/produzione-di-mangimi-per-lalimentazione-degli-animali-da-allevamento/ (pagina di ranking ATECO, nessun dato specifico PBA verificabile)",
-  "correzione_proposta": "https://www.reportaziende.it/pba_srl_pc_01223200336"
+  "evidenza": "https://www.aziende.it/spada-mangimi-s-r-l - \"2024: 24.194.549 €; 2023: 24.228.393 €, utile 299.548 €; 2022: 23.837.249 €; 20-49 dipendenti; costo del personale 748.289 € (2023)\"",
+  "correzione_proposta": "~24,2 mln € (fatturato 2024, bilancio depositato); 20-49 dip.; P.IVA 00209030188"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "I.GI S.p.A.",
+  "campo": "denominazione",
+  "problema": "Forma giuridica da verificare al Registro: le fonti sono discordanti. Il sito e alcune schede riportano 'I.GI S.p.A.' (P.IVA 06549300637), altre directory e un fornitore impiantistico la indicano come 'I.Gi. S.r.l.'. La fonte citata nel record e essa stessa un URL con slug 'igi-srl'. Va accertata la forma attuale (e l'eventuale esistenza di due entita distinte).",
+  "gravita": "bassa",
+  "evidenza": "https://www.ufficiocamerale.it/3916/igi-srl - titolo \"I.GI. S.P.A., Partita IVA: 06549300637\" ma slug 'igi-srl'; https://www.reteimprese.it/grassi-uso-alimentare/buccino/azienda/2764688 - \"I.gi. SRL - 84020 Buccino\"; https://www.ferdinoximpianti.it/en/i-gi-srl-oil-refinery/ - \"I.Gi. srl - Oil refinery\"; https://www.i-gi.it/ - \"I.GI S.p.A\"",
+  "correzione_proposta": ""
  },
  {
   "foglio": "Italia",
   "denominazione": "I.GI S.p.A.",
   "campo": "dimensione",
-  "problema": "Dato inutilizzabile: 'tra 6 e 30 mln EUR' e' la fascia di ricavi generica pubblicata dalle banche dati, non un fatturato. Con questa forbice non si puo' stabilire se l'azienda rientri nel target 5-40 mln.",
+  "problema": "Il dato non e un fatturato ma la fascia di ricavi dichiarata nel bilancio 2024 (6-30 mln €): un intervallo troppo ampio, che attraversa la soglia minima di 5 M€ e quasi tutta la forbice target. Serve il valore puntuale. L'azienda opera due stabilimenti (Palomonte e Buccino) e raffina oli e grassi vegetali per uso alimentare dal 1986; risulta fornitrice del Gruppo Ferrero.",
   "gravita": "media",
-  "evidenza": "https://www.informazione-aziende.it/Azienda_IGI-SPA — 'ultimo bilancio depositato nel 2024: ricavi compresi tra 6.000.000 e 30.000.000 di euro'",
-  "correzione_proposta": "DA CONFERMARE — recuperare il fatturato puntuale dal bilancio depositato"
+  "evidenza": "https://www.i-gi.it/la-storia - \"I.GI S.p.A opera con due stabilimenti nelle aree industriali di Palomonte e Buccino ... raffinazione di oli e grassi vegetali per uso alimentare dal 1986\"; https://www.ufficiocamerale.it/3916/igi-srl - \"ultimo bilancio depositato 2024: fascia di fatturato tra 6.000.000 e 30.000.000 €\"",
+  "correzione_proposta": ""
  },
  {
   "foglio": "Italia",
   "denominazione": "I.GI S.p.A.",
-  "campo": "fonte",
-  "problema": "La fonte citata punta a una scheda intestata 'I.GI SRL' mentre la societa' e' una S.p.A.; possibile scheda obsoleta o riferita a soggetto diverso. Le fonti concordanti (sito aziendale e informazione-aziende) riportano 'I.GI S.p.A.'.",
-  "gravita": "bassa",
-  "evidenza": "fonte in scheda https://www.ufficiocamerale.it/3916/igi-srl (slug 'igi-srl'); contro https://www.i-gi.it/ — 'Raffinazione oli vegetali | I.GI S.p.A' e https://www.informazione-aziende.it/Azienda_IGI-SPA — 'forma giuridica: Societa' per Azioni'",
-  "correzione_proposta": "https://www.informazione-aziende.it/Azienda_IGI-SPA"
+  "campo": "filiera",
+  "problema": "DA CONFERMARE la classificazione 'Olio di palma': le fonti pubbliche descrivono genericamente 'raffinazione di oli e grassi vegetali per uso alimentare', senza citare esplicitamente la palma. La raffinazione di olio di palma e plausibile per il profilo produttivo (fornitore del Gruppo Ferrero) ma non e documentata nei risultati consultati.",
+  "gravita": "media",
+  "evidenza": "https://www.i-gi.it/ - \"Raffinazione oli vegetali\"; nessun riferimento esplicito a olio di palma nelle fonti reperite",
+  "correzione_proposta": ""
  },
  {
   "foglio": "Italia",
   "denominazione": "I.P.S.A. S.p.A. (Prodotti Speciali per l'Alimentazione)",
   "campo": "dimensione",
-  "problema": "Fatturato obsoleto e senza anno: ~56 mln corrisponde al bilancio 2023 (55.988.023 EUR); il 2024 e' salito a 61.262.679 EUR con ~60 dipendenti. L'azienda e' ben sopra la forbice target.",
+  "problema": "Fatturato obsoleto e sottostimato: il campo indica ~56 mln €, il bilancio 2024 riporta 61.262.679 € (+9% sul 2023), con circa 60 dipendenti. Resta sopra la forbice target 5-40 M€ (segnalazione gia presente nel campo, corretta).",
   "gravita": "media",
-  "evidenza": "https://topaziende.quotidiano.net/marche/ascoli-piceno/fatturato-i-p-s-a-industria-per-la-preparazione-di-prodotti-speciali-per-lalimentazione-spa/ — 'fatturato 2024: 61.262.679 EUR; 2023: 55.988.023 EUR' (P.IVA 00354930448)",
-  "correzione_proposta": "~61,3 mln EUR (bilancio 2024); ~60 dip. — SOPRA forbice target (5-40 mln)"
+  "evidenza": "https://topaziende.quotidiano.net/marche/ascoli-piceno/fatturato-i-p-s-a-industria-per-la-preparazione-di-prodotti-speciali-per-lalimentazione-spa/ - \"fatturato 2024: 61.262.679 €, +9% sul 2023; 60 dipendenti; 18a in provincia di Ascoli Piceno\"",
+  "correzione_proposta": "~61,3 mln € (fatturato 2024, bilancio depositato); ~60 dip.; sede Contrada Rufiano 29, Castignano (AP); P.IVA 00354930448 - SOPRA FORBICE 40 M€"
  },
  {
   "foglio": "Italia",
   "denominazione": "GranCarni S.p.A.",
-  "campo": "referente",
-  "problema": "Campo referente vuoto: l'Amministratore Delegato e titolare e' pubblicamente identificato.",
-  "gravita": "media",
-  "evidenza": "https://www.beverfood.com/carne_produttore/grancarni-spa — 'Franco Balletta, titolare e Amministratore Delegato'",
-  "correzione_proposta": "Franco Balletta — Amministratore Delegato"
- },
- {
-  "foglio": "Italia",
-  "denominazione": "GranCarni S.p.A.",
-  "campo": "dimensione",
-  "problema": "Appartenenza a gruppo non dichiarata: GranCarni fa parte del Gruppo Balletta (holding con sede a Casapulla, CE), che comprende tre unita' operative — Sant'Angelo in Formis-Capua (CE), Pontelatone (CE) e Rho (MI). Si tratta di holding di famiglia (stessa proprieta'), ma la scelta di compliance potrebbe essere accentrata a livello di gruppo.",
-  "gravita": "media",
-  "evidenza": "https://www.obrcampania.it/obr/wp-content/uploads/2024/04/GRUPPO-BALLETTA-Rapporto-aziendale-di-Monitoraggio-Valutativo.pdf e https://it.linkedin.com/company/gruppo-balletta — 'Gruppo Balletta ... tre unita' produttive: Sant'Angelo in Formis-Capua (CE), Pontelatone (CE), Rho (MI)'",
-  "correzione_proposta": "aggiungere nota: societa' del Gruppo Balletta (holding familiare, sede Casapulla CE)"
+  "campo": "denominazione",
+  "problema": "CONTROLLO DI TERZI NON DICHIARATO: GranCarni S.p.A. e una delle sei societa operative della holding Gruppo Balletta S.p.A. ed e formalmente soggetta a sua direzione e coordinamento. Il Gruppo Balletta e un gruppo diversificato (industria + retail food e non food) con ~200 mln € di ricavi consolidati e oltre 600 addetti, quindi non un semplice veicolo familiare: la decisione di compliance EUDR si prende a livello di capogruppo. Il record tratta GranCarni come impresa autonoma.",
+  "gravita": "alta",
+  "evidenza": "https://www.gruppoballetta.it/en/commerci/grancarni/ - \"GranCarni e una delle sei societa operative della holding Gruppo Balletta\"; https://www.reportaziende.it/grancarni_spa_ce_02933880615 - \"societa soggetta a direzione e coordinamento da parte di Gruppo Balletta spa\"; https://www.gruppoballetta.it/en/company-profile/ - gruppo nato nei primi anni '80, ricavi consolidati ~200 mln € e oltre 600 addetti",
+  "correzione_proposta": "Segnalare nel record: societa soggetta a direzione e coordinamento di Gruppo Balletta S.p.A."
  },
  {
   "foglio": "Italia",
   "denominazione": "GranCarni S.p.A.",
   "campo": "dimensione",
-  "problema": "Anno del fatturato da riconfermare: le fonti reperite riportano 27,30 mln EUR per il 2023 (+3% sul 2022), non ~26,8 mln per il 2024.",
+  "problema": "Disallineamento anno/valore: il campo indica ~26,8 mln € (2024) e ~21 dipendenti; le schede riportano 27,30 mln € nel 2023 (+3% sul 2022) e il bilancio 2023 dichiara una fascia 6-30 mln €. L'azienda opera su tre stabilimenti (Pontelatone, Sant'Angelo in Formis-Capua, Pastorano).",
   "gravita": "bassa",
-  "evidenza": "https://www.reportaziende.it/grancarni_spa_ce_02933880615 — 'fatturato 2023: 27,30 mln EUR, +3% sul 2022' (P.IVA 02933880615)",
-  "correzione_proposta": "~27,3 mln EUR (bilancio 2023) — DA CONFERMARE il dato 2024"
+  "evidenza": "https://www.reportaziende.it/grancarni_spa_ce_02933880615 - \"fatturato 27,30 mln € (2023), +3% sul 2022\"; https://www.grancarni.it/contatti/ - stabilimenti Via Ponte Pellegrino 1 Pontelatone (CE), Via Galatina 4 Sant'Angelo in Formis - Capua (CE), Via Cerasa 1 Pastorano (CE)",
+  "correzione_proposta": "~27,3 mln € (fatturato 2023); P.IVA 02933880615"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "ZaroCarni S.p.A.",
+  "campo": "dimensione",
+  "problema": "Fatturato confermato (19.843.692 € nel 2024, utile 10.528 €; 2023: 18.635.575 €) ma l'organico e sottostimato: le fonti indicano 20-49 dipendenti da bilancio e circa 50 addetti dalla stampa locale, non 31. Si segnala la marginalita netta quasi nulla (utile 10.528 € su ~19,8 mln di ricavi), tipica della filiera carne ma da tenere presente.",
+  "gravita": "bassa",
+  "evidenza": "https://www.reportaziende.it/zarocarni_spa_va_01218410122 - \"2024: fatturato 19.843.692 €, utile 10.528 €; 2023: 18.635.575 €; costo del personale 1.433.101 €; 20-49 dipendenti\"; https://www.varesenews.it/2024/12/zaro-carni-spa-una-tradizione-familiare-che-fa-scuola-nel-mercato-della-carne/2123349/ - \"circa 50 dipendenti e un fatturato che si avvicina ai 20 milioni di euro\"",
+  "correzione_proposta": "~19,8 mln € (fatturato 2024, bilancio depositato); ~50 addetti; ATECO 10.11"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Cortal Extrasoy S.p.A.",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti. Dalle fonti risultano Loris Cortese come Amministratore Delegato e Gianpietro Didone' come Presidente (Francesco Didone' co-owner). DA CONFERMARE in visura, la fonte e un aggregatore di organigrammi.",
+  "gravita": "media",
+  "evidenza": "https://rocketreach.co/cortal-extrasoy-management_b41eb7d3ff779d02 - \"Loris Cortese - Amministratore Delegato; Gianpietro Didone' - Presidente; Francesco Didone' - Co-Owner\"",
+  "correzione_proposta": "Loris Cortese - Amministratore Delegato (in alternativa Gianpietro Didone' - Presidente) - DA CONFERMARE in visura"
  },
  {
   "foglio": "Italia",
   "denominazione": "ZaroCarni S.p.A.",
   "campo": "referente",
-  "problema": "Campo referente vuoto: l'Amministratore Delegato e' pubblicamente identificato.",
+  "problema": "Referente e ruolo assenti. Risulta Rita Boldrini (moglie di Giovanni Zaro, in azienda da 60 anni) come amministratore unico/amministratore delegato; l'azienda e alla terza generazione della famiglia Zaro, fondata da Angelo Zaro.",
   "gravita": "media",
-  "evidenza": "https://www.reportaziende.it/zarocarni_spa_va — 'Rita Boldrini — Amministratore Delegato' (Zarocarni S.p.a., P.IVA 01218410122, fatturato 2024 19.843.692 EUR)",
-  "correzione_proposta": "Rita Boldrini — Amministratore Delegato"
+  "evidenza": "https://www.varesenews.it/2024/12/zaro-carni-spa-una-tradizione-familiare-che-fa-scuola-nel-mercato-della-carne/2123349/ - \"Rita Boldrini, moglie di Giovanni Zaro, da 60 anni in azienda, e l'amministratore unico\"",
+  "correzione_proposta": "Rita Boldrini - Amministratore Unico / Amministratore Delegato"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "A.T. Gomma Guarnizioni Industriali S.r.l.",
+  "campo": "filiera",
+  "problema": "PERIMETRO EUDR DA CONFERMARE (rischio caso Helvoet): la gamma standard pubblicata dall'azienda e costituita da O-ring in EPDM, NBR e FKM, cioe soli elastomeri sintetici. Le guarnizioni su misura potrebbero includere gomma naturale, ma non e documentato. Se la produzione fosse solo su mescole sintetiche l'azienda sarebbe FUORI PERIMETRO e andrebbe rimossa.",
+  "gravita": "media",
+  "evidenza": "https://it.linkedin.com/company/a-t-gomma-guarnizioni-industriali-srl - \"produce un'ampia gamma di articoli ... portfolio di O-ring standard in EPDM, NBR, FKM\"",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "A.T. Gomma Guarnizioni Industriali S.r.l.",
+  "campo": "linkedin",
+  "problema": "Campo LinkedIn vuoto: la pagina aziendale esiste.",
+  "gravita": "bassa",
+  "evidenza": "https://it.linkedin.com/company/a-t-gomma-guarnizioni-industriali-srl - \"A.T. GOMMA GUARNIZIONI INDUSTRIALI SRL | LinkedIn\"",
+  "correzione_proposta": "https://it.linkedin.com/company/a-t-gomma-guarnizioni-industriali-srl"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "A.T. Gomma Guarnizioni Industriali S.r.l.",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti; dopo tre ricerche il legale rappresentante non emerge da fonti pubbliche gratuite. DA CONFERMARE tramite visura camerale (P.IVA 02335280166, REA BG-281482).",
+  "gravita": "media",
+  "evidenza": "https://www.ufficiocamerale.it/8472/at-gomma-guarnizioni-industriali-srl - scheda con P.IVA 02335280166, REA BG 281482, sede Via Mearolo 3/D, Foresto Sparso (BG), costituita il 26/10/1994; nessun nominativo di amministratore pubblicato",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Diesse Rubber Hoses S.p.A.",
+  "campo": "linkedin",
+  "problema": "Campo LinkedIn vuoto: la pagina aziendale esiste. Si segnala inoltre che la P.IVA della societa e 03536260163.",
+  "gravita": "bassa",
+  "evidenza": "https://it.linkedin.com/company/diesse-rubber-hoses-s-p-a- - \"Diesse Rubber Hoses S.p.A. | LinkedIn\"; https://www.ufficiocamerale.it/3302/diesse-rubber-hoses-spa - \"DIESSE RUBBER HOSES S.P.A., Partita IVA: 03536260163\"",
+  "correzione_proposta": "https://it.linkedin.com/company/diesse-rubber-hoses-s-p-a-"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Mediterranea Mangimi S.p.A.",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti; dopo due ricerche nessun nominativo di presidente/amministratore delegato emerge da fonti pubbliche gratuite. DA CONFERMARE tramite visura (P.IVA 00575810882, societa costituita il 09/12/1982).",
+  "gravita": "media",
+  "evidenza": "https://www.ufficiocamerale.it/2065/mediterranea-mangimi-spa - scheda camerale senza nominativi degli amministratori",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Spaggiari Industria Gomma S.r.l.",
+  "campo": "filiera",
+  "problema": "Nessun rilievo di perimetro: verifica positiva. La gamma comprende esplicitamente componenti in gomma NATURALE (oltre a sintetica, siliconica e fluoroelastomeri) - membrane e guarnizioni in gomma naturale, SBR, EPDM, nitrile, neoprene, silicone e Viton. L'azienda rientra quindi nell'Allegato I EUDR. Annotazione a supporto, utile perche il campo filiera non documenta l'impiego di caucciu.",
+  "gravita": "bassa",
+  "evidenza": "https://spaggiarigomma.com/ - \"produce componenti in gomma naturale, sintetica, siliconica e fluoroelastomeri\"; https://pdf.agriexpo.online/pdf/spaggiari-gomma/industriale/186115-49573.html - catalogo \"Industriale\": membrane e guarnizioni in gomma naturale, SBR, EPDM, nitrile, neoprene, silicone, Viton",
+  "correzione_proposta": "aggiungere in filiera/dimensione: lavora anche gomma naturale (NR) - perimetro EUDR confermato"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Ellegi S.p.A.",
+  "campo": "sito",
+  "problema": "Campo sito vuoto: l'azienda ha un sito istituzionale attivo (brand 'World Gasket Ellegi').",
+  "gravita": "bassa",
+  "evidenza": "https://ellegi.com/en/contacts/ - \"Contacts | World Gasket Ellegi\"; sede Via della Molinara 89, 24064 Grumello del Monte (BG)",
+  "correzione_proposta": "https://ellegi.com"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Ellegi S.p.A.",
+  "campo": "referente",
+  "problema": "Referente e ruolo assenti; dopo due ricerche nessun nominativo di amministratore emerge da fonti pubbliche gratuite. DA CONFERMARE tramite visura (P.IVA 01838400164, REA BG-241515, costituita nel 1988).",
+  "gravita": "media",
+  "evidenza": "https://www.ufficiocamerale.it/8473/ellegi-spa - scheda camerale senza nominativi degli amministratori",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "F.lli Paris S.r.l.",
+  "campo": "sito",
+  "problema": "Campi sito e LinkedIn vuoti: entrambi esistono (dominio fpparis.com, pagina LinkedIn 'FP - F.lli Paris Srl'). Telefono +39 035 4425511.",
+  "gravita": "bassa",
+  "evidenza": "https://www.sealcore.net/it/azienda/flli-paris - \"Via Guglielmo Marconi 142/144, Castelli Calepio; tel +39 035 442 5511, fax +39 035 442 5478, sito fpparis.com\"; https://it.linkedin.com/company/fpparis - \"FP - F.lli Paris Srl | LinkedIn\"",
+  "correzione_proposta": "sito: https://www.fpparis.com ; linkedin: https://it.linkedin.com/company/fpparis"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "F.lli Paris S.r.l.",
+  "campo": "filiera",
+  "problema": "PERIMETRO EUDR DA CONFERMARE: la specializzazione dichiarata sono anelli di tenuta per alberi rotanti (rotary shaft seals) e articoli tecnici in elastomero e gomma-metallo, categoria realizzata di norma in NBR/FKM/ACM, cioe elastomeri sintetici. Verificare l'impiego di gomma naturale prima di tenerla in lista (cfr. Helvoet, rimossa in Belgio).",
+  "gravita": "media",
+  "evidenza": "https://www.sealcore.net/it/azienda/flli-paris - \"specializzata in anelli di tenuta per alberi rotanti e articoli tecnici progettati in elastomero e gomma-metallo; fondata nel 1979 per la produzione di articoli tecnici in gomma\"",
+  "correzione_proposta": ""
  }
 ]

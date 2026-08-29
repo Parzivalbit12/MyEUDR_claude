@@ -136,6 +136,27 @@ h.append("\n> ⚠️ **Limite della normalizzazione ortografica del foglio Itali
          "Sembrano quindi casi isolati e non un difetto sistematico del foglio — ma i due blocchi "
          "Italia rimanenti non sono ancora stati controllati.\n")
 
+h.append("\n### Il criterio usato per rimuovere, e quello per NON rimuovere\n")
+h.append("Gli errori di perimetro non sono tutti uguali, e la differenza decide se una riga esce dal "
+         "foglio o resta come rilievo aperto:\n")
+h.append("| | Esito | Casi |")
+h.append("|---|---|---|")
+h.append("| **La commodity è fuori Allegato I** — l'azienda lavora una materia che il regolamento "
+         "non copre | **rimossa** | Covera Packaging (vetro e plastica), Vandeputte Oleochemicals "
+         "(lino), Helvoet (elastomeri sintetici), Compex (attrezzature zootecniche), Marine Olie "
+         "(UCO per biocarburanti), Mejling Landhandel (negozio al dettaglio di generi alimentari) |")
+h.append("| **L'azienda non esiste più o non produce più** | **rimossa** | Odense Seglmærkefabrik, "
+         "Kaffekompaniet (sciolte per fusione), Weissengruber, Helmut Sachers, Sisuwood (insolvenze), "
+         "Bayer Kartonagen, Marandi (produzione cessata) |")
+h.append("| **La commodity È in Allegato I e l'unico argomento è la posizione nella filiera** — "
+         "l'azienda commercia o rivende invece di immettere per prima | **rilievo aperto** | "
+         "Varia-Pack, Hausberger, Pappersgrossisten, Däckteam, Svenska Gummihuset, Cebeco Fourage, "
+         "Skovs Korn, Rickl-Mühle, SRC, Kargro Banden |")
+h.append("\nLa terza riga è una **scelta deliberata**: stabilire se un commerciante sia «operatore» "
+         "ai sensi dell'EUDR è una valutazione giuridica, non un dato di fatto verificabile a fonte. "
+         "Quei dieci record restano nel foglio con il rilievo motivato, perché la decisione spetta al "
+         "cliente.\n")
+
 h.append("\n### Correzioni deliberatamente NON applicate\n")
 h.append("Tre categorie di rilievi formali sono state lasciate aperte nel report invece che "
          "corrette nei fogli. Il motivo è sempre lo stesso: la correzione automatica avrebbe "

@@ -1,0 +1,380 @@
+[
+ {
+  "foglio": "Germania",
+  "denominazione": "Sawade GmbH",
+  "campo": "referente",
+  "problema": "Indicato un solo Geschäftsführer: l'Impressum ne riporta due (Benno Hübel e Michael Nielius, secondo GF dal 2018).",
+  "gravita": "media",
+  "evidenza": "https://sawade.berlin/einstellungen/impressum/ — 'Geschäftsführer: Benno Hübel, Michael Nielius'; LinkedIn 'Michael Nielius – Geschäftsführer Sawade GmbH' https://de.linkedin.com/in/michael-nielius-67736248",
+  "correzione_proposta": "Benno Hübel, Michael Nielius"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Sawade GmbH",
+  "campo": "dimensione",
+  "problema": "Campo inutilizzabile: '~100 dip.' senza anno e 'Umsatz n.d.'. Die Deutsche Wirtschaft riporta 80 dipendenti e fatturato stimato ~32 Mio €. Va dichiarato tipo di dato, fonte e anno (e segnalato che il fatturato DDW è una STIMA, non un bilancio).",
+  "gravita": "media",
+  "evidenza": "https://die-deutsche-wirtschaft.de/unternehmen/sawade-gmbh-berlin/ — 'Mitarbeiter: 80 … Umsatz (geschätzt): 32 Mio. EUR'",
+  "correzione_proposta": "Fatturato stimato ~32 Mio € e 80 dipendenti (Die Deutsche Wirtschaft, stima; ultimo aggiornamento portale) — dato di bilancio da confermare su Bundesanzeiger"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Sawade GmbH",
+  "campo": "dimensione",
+  "problema": "Controllo di terzi non dichiarato: dopo l'insolvenza in Eigenverwaltung (2020) e il piano approvato il 5 gennaio 2021, è entrata come nuova socia la società d'investimento berlinese Fintura Corporate Finance. Da valutare a quale livello si decide la compliance. Nota storica: anche la vecchia società era passata per un'insolvenza (rilevata dai coniugi Hübel nel 2013).",
+  "gravita": "alta",
+  "evidenza": "https://www.tagesspiegel.de/berlin/berliner-pralinen-hersteller-sawade-beendet-erfolgreich-insolvenz-5387212.html — 'Der neue Gesellschafter, die Berliner Beteiligungsgesellschaft Fintura Corporate Finance'; https://www.presseportal.de/pm/147038/4671804",
+  "correzione_proposta": "Aggiungere nota: socio di maggioranza Fintura Corporate Finance (Berlino) dal 2021, post-insolvenza in Eigenverwaltung"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Schell Schokoladenmanufaktur (Inh. Eberhard Schell)",
+  "campo": "dimensione",
+  "problema": "Campo privo di qualsiasi dato ('n.d.'). Si tratta di una manifattura artigianale con caffè e camere per ospiti gestita da Annette ed Eberhard Schell: quasi certamente molto al di sotto della forbice target 5–40 M€. Non risultano bilanci pubblici (ditta individuale, non iscritta come società di capitali). DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://oeffnungszeitenbuch.de/filiale/Gundelsheim-Schell%20Schokoladenmanufaktur%20%28Caf%E9%2C%20Verkauf%20%26%20Gaestezimmer%29-922580G.html — 'Schell Schokoladenmanufaktur (Café, Verkauf & Gaestezimmer)'; 'Annette und Eberhard Schell führen die Manufaktur seit 25 Jahren'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Weibler Confiserie Chocolaterie GmbH",
+  "campo": "dimensione",
+  "problema": "ERRORE DI GRUPPO. La nota nel campo ('controllata del gruppo Halloren') è superata: Halloren ha ceduto Weibler all'investitore United Chocolate Group nel 2018, e United Chocolate GmbH detiene su Weibler Confiserie Chocolaterie GmbH un contratto di dominazione e trasferimento utili (Beherrschungs- und Gewinnabführungsvertrag). La compliance EUDR si decide a livello di capogruppo: lead non valido come autonomo.",
+  "gravita": "alta",
+  "evidenza": "https://www.theobroma-cacao.de/blog/aktuelles-aus-der-welt-der-schokolade-3/united-chocolate-ist-neuer-eigentumer-von-weibler-5035 — 'United Chocolate ist neuer Eigentümer von Weibler'; https://www.northdata.de/Weibler%20Confiserie%20Chocolaterie%20GmbH,%20Cremlingen/Amtsgericht%20Braunschweig%20HRB%20207468 — 'Gewinnabführung, Beherrschung: United Chocolate GmbH'",
+  "correzione_proposta": "Controllata di United Chocolate GmbH (Beherrschungs-/Gewinnabführungsvertrag) — non di Halloren"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Weibler Confiserie Chocolaterie GmbH",
+  "campo": "denominazione",
+  "problema": "Forma giuridica: l'azienda operativa è 'Weibler Confiserie Chocolaterie GmbH & Co. KG' (Amtsgericht Braunschweig HRA 201218); la 'GmbH' (HRB 207468) è la complementare/società collegata. Verificare quale entità si vuole contattare.",
+  "gravita": "bassa",
+  "evidenza": "https://www.northdata.com/Weibler%20Confiserie%20Chocolaterie%20GmbH%20&%20Co%C2%B7KG,%20Cremlingen/Amtsgericht%20Braunschweig%20HRA%20201218",
+  "correzione_proposta": "Weibler Confiserie Chocolaterie GmbH & Co. KG"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Weibler Confiserie Chocolaterie GmbH",
+  "campo": "dimensione",
+  "problema": "Nessun dato dimensionale ('n.d.'). Die Deutsche Wirtschaft stima un fatturato di ~40 Mio €: al limite superiore della forbice target. Va indicato tipo di dato, fonte e anno.",
+  "gravita": "media",
+  "evidenza": "https://die-deutsche-wirtschaft.de/unternehmen/weibler-confiserie-chocolaterie-gmbh-co-kg-cremlingen/ — 'geschätzter Umsatz 40 Millionen Euro'",
+  "correzione_proposta": "Fatturato stimato ~40 Mio € (Die Deutsche Wirtschaft, stima) — da confermare su Bundesanzeiger"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "C. Otto Gehrckens GmbH & Co. KG (COG)",
+  "campo": "referente",
+  "problema": "Indicato un solo Geschäftsführer: la direzione è composta da Jan Metzger e Dr. Jan Cord Becker.",
+  "gravita": "media",
+  "evidenza": "https://www.cog.de/impressum — direzione 'Jan Metzger, Dr. Jan Cord Becker'",
+  "correzione_proposta": "Jan Metzger, Dr. Jan Cord Becker"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "C. Otto Gehrckens GmbH & Co. KG (COG)",
+  "campo": "dimensione",
+  "problema": "Campo inutilizzabile: '>250 MA, Umsatz n.d.' senza fonte né anno. Il sito dichiara oltre 230 dipendenti. Con questo organico l'azienda è verosimilmente sopra la forbice target 5–40 M€: serve il fatturato (bilancio Bundesanzeiger) per decidere. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://www.cog.de/ — 'über 230 Mitarbeiter'; https://www.wer-zu-wem.de/firma/otto-gehrckens.html",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "C. Otto Gehrckens GmbH & Co. KG (COG)",
+  "campo": "filiera",
+  "problema": "VERIFICA PERIMETRO SUPERATA (nessun rilievo di merito, si annota per tracciabilità): a differenza dei casi Helvoet/RICO, COG pubblica una scheda tecnica dedicata agli O-Ring in Naturkautschuk (NR), quindi utilizza gomma naturale ed è dentro il perimetro Allegato I. Il grosso della gamma resta però elastomerica sintetica (FKM, FFKM, EPDM, CR...): il volume di gomma naturale potrebbe essere marginale.",
+  "gravita": "bassa",
+  "evidenza": "https://www.cog.de/produkte/datenblaetter/dichtungswerkstoffe-im-ueberblick/natur-kautschuk-nr — 'Naturkautschuk O-Ringe (NR O-Ringe)'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Effbe GmbH",
+  "campo": "dimensione",
+  "problema": "CONTROLLATA DI GRUPPO NON DICHIARATA. EFFBE GmbH (Amtsgericht Hanau HRB 91425) appartiene alla Woco Gruppe (Woco Franz Josef Wolf Holding GmbH, stessa sede di Bad Soden-Salmünster), gruppo automotive internazionale. La compliance EUDR si decide a livello di capogruppo: il lead non è un'impresa indipendente.",
+  "gravita": "alta",
+  "evidenza": "https://www.wocogroup.com/en/company e https://de.linkedin.com/company/effbe-gmbh — 'EFFBE GmbH as part of the Woco Group specializes in the development and production of anti-vibration and bearing systems'; https://www.northdata.com/Woco%20Franz%20Josef%20Wolf%20Holding%20GmbH,%20Bad%20Soden-Salm%C3%BCnster/Amtsgericht%20Hanau%20HRB%2090175",
+  "correzione_proposta": "Controllata della Woco Gruppe (Woco Franz Josef Wolf Holding GmbH) — valutare la compliance a livello di capogruppo"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Effbe GmbH",
+  "campo": "referente",
+  "problema": "Referente non attuale. Franz Josef Wolf è il fondatore/proprietario della capogruppo Woco, non l'attuale Geschäftsführer della EFFBE GmbH: risulta cessato dalla carica nel 2022. La società è oggi guidata da 3 Geschäftsführer (tra cui Joachim Hans Geimer e Michael Borbe) più 1 Prokurist.",
+  "gravita": "alta",
+  "evidenza": "https://www.companyhouse.de/en/EFFBE-GmbH-Bad-Soden-Salmuenster — 'currently run by 4 managers (1 Prokurist, 3 Geschäftsführer)… Geschäftsführer Joachim Hans Geimer (Gelnhausen)'; registro: Franz Josef Wolf cessato 2022",
+  "correzione_proposta": "Joachim Hans Geimer, Geschäftsführer (da confermare l'elenco completo sull'Impressum https://www.effbe.de/impressum/impressum.html)"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Effbe GmbH",
+  "campo": "sito",
+  "problema": "Il dominio indicato (effbe-diaphragm.de) e la mail contact@effbe-diaphragm.com sono il micro-sito della linea membrane, non il sito societario. Il sito e l'Impressum ufficiali della EFFBE GmbH sono su effbe.de.",
+  "gravita": "bassa",
+  "evidenza": "https://www.effbe.de/impressum/impressum.html — 'EFFBE GmbH: Impressum', Hanauer Landstraße 16, 63628 Bad Soden-Salmünster",
+  "correzione_proposta": "https://www.effbe.de"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Effbe GmbH",
+  "campo": "dimensione",
+  "problema": "Campo privo di dato ('Umsatz/MA n.d.'). Le banche dati riportano per la EFFBE GmbH una classe '1000+ dipendenti' (verosimilmente consolidata col gruppo Woco), il che la porterebbe molto fuori dalla forbice target 5–40 M€. Serve il bilancio della singola GmbH (Bundesanzeiger). DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://www.companyhouse.de/en/EFFBE-GmbH-Bad-Soden-Salmuenster — 'Employees: 1000+'; https://www.firmenwissen.de/az/firmeneintrag/63628/6090085099/EFFBE_GMBH.html",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Effbe GmbH",
+  "campo": "filiera",
+  "problema": "PERIMETRO DA CONFERMARE (trappola tipo Helvoet/RICO): la gamma pubblicata di membrane EFFBE è descritta per elastomeri sintetici (EPDM, NBR, FKM, silicone) e la divisione Woco è Anti-Vibration/Gummi-Metall. Non ho trovato una conferma pubblica esplicita di impiego di gomma naturale (NR). Se lavora solo elastomeri sintetici è FUORI PERIMETRO EUDR.",
+  "gravita": "media",
+  "evidenza": "https://effbe-diaphragm.com/elastomer-rubber-diaphragm/ — 'Eigenschaften der Elastomere von EFFBE-Membranen' (EPDM/NBR ecc.)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Gummi-Fischer GmbH & Co. KG",
+  "campo": "filiera",
+  "problema": "PERIMETRO A RISCHIO: non è un trasformatore ma un commerciante tecnico (Gummiwaren Groß- und Einzelhandel / technischer Handel) di tubi in gomma, plastica e metallo, raccorderia, tecnica di trasmissione e parti stampate. È un rivenditore a valle di prodotti già immessi sul mercato UE — stesso profilo di Hausberger (DE) e Cebeco Fourage (DK) già scartati. Da valutare se importa direttamente da paesi terzi; altrimenti fuori perimetro come operatore.",
+  "gravita": "alta",
+  "evidenza": "https://friedrichshafen.branchen-info.net/fp_1461487.php — 'Gummi-Fischer Friedrichshafen – Gummiwaren Groß- und Einzelhandel'; https://www.gummi-fischer.de/firmenportrait/ — 'Handel mit Produkten in den Bereichen technischer Industriebedarf und Arbeitsschutz… Fachhändler für Schläuche aus Gummi, Kunststoff und Metall'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Gummi-Fischer GmbH & Co. KG",
+  "campo": "dimensione",
+  "problema": "Campo inutilizzabile: 'Mittelstand, Umsatz/MA n.d.' — nessun tipo di dato, nessuna fonte, nessun anno. La KG (Amtsgericht Ulm HRA 630188) non pubblica bilanci consultabili gratuitamente su Northdata. DA CONFERMARE su Bundesanzeiger.",
+  "gravita": "media",
+  "evidenza": "https://www.northdata.com/Gummi%20-%20Fischer%20GmbH%20&%20Co%C2%B7%20KG,%20Meckenbeuren/Amtsgericht%20Ulm%20HRA%20630188 — 'Umsatz/Ertragszahlen nur für Premium-Nutzer'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Gummi-Fischer GmbH & Co. KG",
+  "campo": "sede",
+  "problema": "La sede legale iscritta a registro è Käthe-Paulus-Str. 10, 88074 Meckenbeuren (Amtsgericht Ulm HRA 630188), non Friedrichshafen; Ailinger Straße 3 a Friedrichshafen è la sede operativa/negozio. Da uniformare.",
+  "gravita": "bassa",
+  "evidenza": "https://www.gummi-fischer.de/impressum/ — 'Käthe-Paulus-Str. 10, D 88074 Meckenbeuren, Registergericht Ulm'",
+  "correzione_proposta": "Meckenbeuren (sede legale) / Friedrichshafen (sede operativa), Baden-Württemberg"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Gummiwerk Meuselwitz GmbH",
+  "campo": "email",
+  "problema": "Email assente ('n.d.'): il record non è azionabile per contatto diretto. Non ho trovato l'indirizzo in chiaro nei risultati di ricerca (il sito usa un form di contatto). DA CONFERMARE sull'Impressum.",
+  "gravita": "media",
+  "evidenza": "https://www.gummiwerk-meuselwitz.de/impressum/ (pagina esistente, indirizzo e-mail non esposto nei frammenti di ricerca)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Gummiwerk Meuselwitz GmbH",
+  "campo": "dimensione",
+  "problema": "Il dato '~10,5 Mio € Umsatz, ~70 MA' è ripreso da Die Deutsche Wirtschaft, dove il fatturato è però una STIMA del portale e non è datato. Va qualificato come stima e datato, o sostituito con il bilancio depositato.",
+  "gravita": "media",
+  "evidenza": "https://die-deutsche-wirtschaft.de/unternehmen/gummiwerk-meuselwitz-gmbh-meuselwitz/ — 'Mitarbeiter: 70; Umsatz: 10,5 Mio. EUR (Schätzung)'",
+  "correzione_proposta": "Fatturato stimato ~10,5 Mio € e 70 dipendenti (Die Deutsche Wirtschaft, stima non datata) — confermare con bilancio Bundesanzeiger"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Gummiwerk Meuselwitz GmbH",
+  "campo": "filiera",
+  "problema": "Verifica perimetro superata (annotazione): la gamma dichiarata include NR (Naturkautschuk) accanto a EPDM, CR, ECO, AEM, NBR, HNBR, SBR, FKM. Azienda dentro il perimetro Allegato I.",
+  "gravita": "bassa",
+  "evidenza": "https://de.kompass.com/c/gummiwerk-meuselwitz-gmbh/de630152/ — 'Elastomerwerkstoffe wie EPDM, CR, ECO, AEM, NR, NBR, HNBR, SBR und FKM'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Knorr & Macho GmbH",
+  "campo": "dimensione",
+  "problema": "Campo incompleto: '~50 MA, Umsatz n.d.' senza anno né fonte verificabile (wlw non data il dato). Manca del tutto il fatturato: la GmbH deposita bilancio, il dato è recuperabile su Bundesanzeiger/Northdata. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://gummi-formteile.eu/en/wir-ueber-uns/ — 'ca. 50 Mitarbeiter in allen Unternehmensbereichen'; nessun dato di fatturato pubblico nei risultati",
+  "correzione_proposta": "~50 dipendenti (sito aziendale, non datato); fatturato da estrarre dal bilancio depositato (Bundesanzeiger)"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Knorr & Macho GmbH",
+  "campo": "filiera",
+  "problema": "Verifica perimetro superata (annotazione): la gamma mescole comprende esplicitamente NR (Naturkautschuk) oltre a NBR, HNBR, CR, EPDM, FPM, CSM, ACM. Dentro perimetro Allegato I.",
+  "gravita": "bassa",
+  "evidenza": "https://www.europages.de/KNORR-MACHO-GMBH-TECHNISCHE-GUMMIFORMTEILE/00000005312328-001.html — 'Gummiformteile von ca. 25 bis 95 Shore A mit allen Werkstoffen wie NR, NBR, HNBR, CR, EPDM, FPM, CSM, ACM'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Küper GmbH & Co. KG",
+  "campo": "sito",
+  "problema": "Campo sito vuoto: l'azienda ha un sito attivo (kuepergermany.com) con Impressum e pagina contatti. Come fonte è stata usata solo la scheda Northdata.",
+  "gravita": "media",
+  "evidenza": "https://kuepergermany.com/en/legal-notice/ — 'Küper GmbH & Co. KG, Mettestrasse 23, 44803 Bochum, HRA 1153, Geschäftsführer Dipl.-Ing. Roland Küper'",
+  "correzione_proposta": "https://kuepergermany.com"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Küper GmbH & Co. KG",
+  "campo": "email",
+  "problema": "Email indicata come 'n.d.' benché sia pubblicata sulla pagina contatti del sito aziendale.",
+  "gravita": "media",
+  "evidenza": "https://kuepergermany.com/en/contact/ — 'Mettestrasse 23, 44803 Bochum, Tel. +49 234 93598-0, E-Mail: info@kuepergermany.com'",
+  "correzione_proposta": "info@kuepergermany.com"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Küper GmbH & Co. KG",
+  "campo": "dimensione",
+  "problema": "Campo privo di dato ('Umsatz/MA n.d.'). Fonti pubbliche indicano 98 dipendenti su 3 sedi e una classe di fatturato 10–50 Mio € (fascia di portale, non datata): l'azienda rientrerebbe nella forbice target. Il fatturato puntuale va preso dal bilancio.",
+  "gravita": "media",
+  "evidenza": "https://kuepergermany.com/en/company/ — 'interdisciplinary team of 98 employees… three locations'; https://www.wer-zu-wem.de/firma/kuepergermany.html — classe di fatturato 10–50 Mio €",
+  "correzione_proposta": "98 dipendenti (sito aziendale) e fatturato in fascia 10–50 Mio € (wer-zu-wem, fascia non datata) — dato puntuale da Bundesanzeiger"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Küper GmbH & Co. KG",
+  "campo": "filiera",
+  "problema": "PERIMETRO DA CONFERMARE: produce setacci/Räumleisten in gomma vulcanizzata e poliuretano. Il poliuretano è fuori Allegato I; le schede tecniche parlano genericamente di 'in Formen vulkanisierter Gummi'. Non ho trovato conferma pubblica dell'uso di gomma naturale (NR). Se le mescole fossero solo sintetiche/PU l'azienda sarebbe fuori perimetro.",
+  "gravita": "media",
+  "evidenza": "https://zueko.ch/wp-content/uploads/sites/2/2024/07/Kuper-Stecksystem-GK85-1-1.pdf — 'Werkstoffe GIGANT: In Formen vulkanisierter Gummi mit einer Härte von 60 Shore A'; https://kuepergermany.com/en/ — 'rubber and polyurethane screens'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "MaTec Gummiwerk GmbH",
+  "campo": "dimensione",
+  "problema": "Il campo riporta una fascia di portale ('Umsatzklasse fino a 10 Mio €') senza anno. Il dato più solido reperibile è il totale di bilancio 2023 pari a ~3 Mio €: con ~40 dipendenti l'azienda è verosimilmente SOTTO la soglia inferiore della forbice target (5 Mio €). Va riqualificato e segnalato.",
+  "gravita": "media",
+  "evidenza": "https://implisense.com/en/companies/matec-gummiwerk-gmbh-schwielowsee-ot-caputh-DE8CLC36ZI36 — 'last published balance sheet total for 2023: 3 Mio. EUR'; 'ca. 40 Mitarbeiter'",
+  "correzione_proposta": "Bilanzsumme 2023 ~3 Mio €, ~40 dipendenti (Implisense/Bundesanzeiger) — probabilmente sotto la forbice target 5–40 M€"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "MaTec Gummiwerk GmbH",
+  "campo": "filiera",
+  "problema": "PERIMETRO DA CONFERMARE: produce guarnizioni, soffietti, formteile e collegamenti gomma-metallo, ma non ho trovato in fonti pubbliche l'elenco delle mescole. Se lavorasse solo elastomeri sintetici sarebbe fuori perimetro EUDR (caso Helvoet/RICO).",
+  "gravita": "media",
+  "evidenza": "https://de.kompass.com/c/matec-gummiwerk-gmbh/de615825/ — 'Dichtungen, Faltenbälge, Gummiformteile, Gummi-Metall-Verbindungen und Membranen'; nessuna menzione pubblica di NR",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "RIGDON GmbH",
+  "campo": "dimensione",
+  "problema": "CONTROLLATA DI GRUPPO NON DICHIARATA. Nel 2017 Prolimity Capital Partners ha ceduto RIGDON alla Hörger Gruppe (WRZ Hörger GmbH u. Co. KG, Sontheim, riciclo/smaltimento): l'azienda non è indipendente e la compliance si decide a livello di capogruppo. La descrizione 'maggior ricostruttore indipendente' va intesa come 'indipendente dai produttori di pneumatici', non come indipendenza societaria.",
+  "gravita": "alta",
+  "evidenza": "https://reifenpresse.de/2017/09/08/rigdon-gmbh-verkauft-neuer-eigentuemer-setzt-auf-wachstum-und-synergien/ e https://www.gummibereifung.de/hoerger-uebernimmt-rigdon — 'Die WRZ Hörger GmbH & Co. KG… hat den Reifenhersteller Rigdon übernommen'",
+  "correzione_proposta": "Controllata della Hörger Gruppe (WRZ Hörger GmbH u. Co. KG, Sontheim) dal 2017"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "RIGDON GmbH",
+  "campo": "referente",
+  "problema": "Indicato un solo Geschäftsführer: la direzione comprende Günter Ihle e Stefan Förster (registro: 3 Geschäftsführer + 1 Prokurist).",
+  "gravita": "media",
+  "evidenza": "https://www.rigdon.de/impressum/ e https://www.northdata.com/RIGDON%20GmbH,%20G%C3%BCnzburg/Amtsgericht%20Memmingen%20HRB%2016126 — 'Günter Ihle, Geschäftsführer; Stefan Förster, Geschäftsführer'",
+  "correzione_proposta": "Günter Ihle, Stefan Förster"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "RIGDON GmbH",
+  "campo": "dimensione",
+  "problema": "Campo senza fatturato né anno ('~100 MA, Umsatz n.d.'). Va inoltre precisata la storia societaria: RIGDON GmbH è una società NUOVA costituita a fine 2014 per rilevare dall'insolvenza il ramo Runderneuerung di Reifen Ihle (profilo analogo a Minges Kaffeerösterei), seguita da una ristrutturazione nel 2016.",
+  "gravita": "media",
+  "evidenza": "https://reifenpresse.de/2014/12/15/reifen-ihle-runderneuerung-jetzt-auch-verkauft-rigdon-gmbh-gegruendet/ — 'Reifen-Ihle-Runderneuerung jetzt auch verkauft – Rigdon GmbH gegründet'; https://reifenpresse.de/2016/11/02/rigdon-restrukturierung-nimmt-an-fahrt-auf/",
+  "correzione_proposta": "~100 dipendenti; società costituita nel 2014 rilevando dall'insolvenza la Runderneuerung di Reifen Ihle; fatturato da Bundesanzeiger"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Südbadische Gummiwerke GmbH",
+  "campo": "dimensione",
+  "problema": "Campo inutilizzabile ('Umsatz/MA n.d.'). Il bilancio è invece disponibile: totale di bilancio 2023 pari a ~7 Mio €, in calo del 2,5% sull'anno precedente (ultimo deposito 14.08.2024). Dato da inserire con tipo, fonte e anno; il fatturato non è pubblicato (GmbH piccola, bilancio abbreviato).",
+  "gravita": "media",
+  "evidenza": "https://implisense.com/en/companies/suedbadische-gummiwerke-gmbh-donaueschingen-DEKCVDG9I837 — 'last published balance sheet total for 2023: 7 Mio. EUR (-2,5% vs. Vorjahr)', pubblicazione 14.08.2024",
+  "correzione_proposta": "Bilanzsumme (totale di bilancio) 2023 ~7 Mio €, −2,5% sul 2022 (Bundesanzeiger via Implisense); fatturato non pubblicato"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Südbadische Gummiwerke GmbH",
+  "campo": "email",
+  "problema": "Email 'n.d.': non compare in chiaro nei risultati di ricerca né nelle schede consultate. DA CONFERMARE sulla pagina Kontakt/Impressum.",
+  "gravita": "media",
+  "evidenza": "http://www.s-b-g.de/Kontakt/Impressum_15.html e https://www.s-b-g.de/kontakt/ (pagine esistenti, indirizzo e-mail non esposto nei frammenti)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Südbadische Gummiwerke GmbH",
+  "campo": "fonte",
+  "problema": "L'URL indicato (https://www.s-b-g.de/impressum-agb/) non corrisponde alla pagina reale dell'Impressum, che è http://www.s-b-g.de/Kontakt/Impressum_15.html.",
+  "gravita": "bassa",
+  "evidenza": "https://www.s-b-g.de/Kontakt/Impressum_15.html — 'Impressum-AGB - Südbadische Gummiwerke'",
+  "correzione_proposta": "http://www.s-b-g.de/Kontakt/Impressum_15.html"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Südbadische Gummiwerke GmbH",
+  "campo": "filiera",
+  "problema": "PERIMETRO DA CONFERMARE: l'azienda pubblica tabelle di materiali ('Werkstofftabellen') ma nei frammenti non è confermato l'uso di NR/gomma naturale. Da verificare prima di trattarla come operatore EUDR.",
+  "gravita": "media",
+  "evidenza": "https://www.s-b-g.de/werkstoffe/werkstofftabellen/ — 'Werkstofftabellen - Südbadische Gummiwerke'; https://www.s-b-g.de/ — 'über 70 Jahre Erfahrung im Umgang mit Gummi und elastomeren Verbundwerkstoffen'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Weber & Schaer GmbH & Co. KG",
+  "campo": "dimensione",
+  "problema": "FUORI FORBICE TARGET non segnalato: il fatturato stimato è di circa 75 Mio €, ben oltre il tetto di 40 M€ della forbice cliente. Il campo dice solo '>100 MA (gruppo), Umsatz n.d.'.",
+  "gravita": "media",
+  "evidenza": "https://www.wer-zu-wem.de/firma/weber-schaer.html — fatturato stimato ~75 Mio €; https://www.weber-schaer.com/unternehmen/ — 'die WEBER & SCHAER Gruppe beschäftigt heute mehr als 100 Mitarbeiter'",
+  "correzione_proposta": "Fatturato stimato ~75 Mio € (wer-zu-wem, stima non datata), >100 dipendenti di gruppo — SOPRA la forbice target 5–40 M€"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Weber & Schaer GmbH & Co. KG",
+  "campo": "filiera",
+  "problema": "Verifica perimetro superata (annotazione): importatore diretto di Naturkautschuk e lattice con linea prodotti dedicata — è un operatore EUDR di primo livello (importazione da paesi terzi), quindi il lead è pertinente nel merito nonostante la dimensione fuori forbice.",
+  "gravita": "bassa",
+  "evidenza": "https://www.weber-schaer.com/produkte/naturkautschuk-latex/ — 'Naturkautschuk & Latex'; https://www.fsc-deutschland.de/historischer-haendler-weber-schaer-setzt-auf-fsc/",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Weha-Gummiwaren-Fabrik Holzberg GmbH & Co. KG",
+  "campo": "filiera",
+  "problema": "PERIMETRO A RISCHIO (caso tipo Helvoet): l'azienda si presenta come produttore di articoli in SILICONE, TPE e 'Gummi', con focus su Flüssigsilikon (LSR), elastomeri e materie plastiche. Silicone, TPE e plastiche sono FUORI Allegato I. Non ho trovato conferma pubblica dell'impiego di gomma naturale (NR): senza quella conferma il record va sospeso.",
+  "gravita": "alta",
+  "evidenza": "https://www.weha-gummi.de/kontakt-silikonartikel-hersteller.html — 'WEHA: Hersteller für Silikon-, TPE-, Gummiartikel'; https://www.jobcluster.de/arbeitgeber/weha-gummiwarenfabrik-holzberg-gmbh-co.-kg--5469.html — 'Dichtungen… aus Flüssigsilikon (LSR), Elastomeren (Gummi) und Kunststoffen'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Weha-Gummiwaren-Fabrik Holzberg GmbH & Co. KG",
+  "campo": "dimensione",
+  "problema": "Campo senza fatturato né anno ('~45 MA, Umsatz n.d.'). Il dato dipendenti (45) è confermato ma non datato; manca qualsiasi indicatore economico. DA CONFERMARE su Bundesanzeiger.",
+  "gravita": "media",
+  "evidenza": "https://www.jobcluster.de/arbeitgeber/weha-gummiwarenfabrik-holzberg-gmbh-co.-kg--5469.html — 'inhabergeführtes, mittelständisches Unternehmen mit 45 Mitarbeitern'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Bärmühle Langenhessen GmbH Mischfutterwerk",
+  "campo": "email",
+  "problema": "Record non azionabile: email 'n.d.' e campo sito vuoto. Non risulta un sito web aziendale nelle ricerche (solo schede di directory e una pagina Facebook); l'unico contatto pubblico è il telefono 03761 5068.",
+  "gravita": "alta",
+  "evidenza": "https://www.gelbeseiten.de/gsbiz/9d6ad81f-aaed-44a3-ac81-75343f6f2aad e https://www.facebook.com/138904943447676/ — nessun indirizzo e-mail né dominio aziendale pubblicati",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Bärmühle Langenhessen GmbH Mischfutterwerk",
+  "campo": "dimensione",
+  "problema": "Campo privo di dato ('n.d.'). Si tratta di una GmbH costituita il 18.12.1998 con capitale sociale di soli 50.000 €, mulino locale per mangimi suini/bovini con orario di apertura da negozio agricolo: verosimilmente molto sotto la forbice target 5–40 M€. Nessun dato di fatturato pubblico. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://www.registercheck.de/companies/baermuehle-langenhessen-gmbh — 'HRB 16380 Amtsgericht Chemnitz, Stammkapital 50.000,00 €, gegründet 18.12.1998'",
+  "correzione_proposta": ""
+ }
+]
