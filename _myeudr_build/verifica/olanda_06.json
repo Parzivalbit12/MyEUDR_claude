@@ -1,0 +1,155 @@
+[
+ {
+  "foglio": "Olanda",
+  "denominazione": "Doens Food Ingredients B.V.",
+  "campo": "referente",
+  "problema": "DA CONFERMARE: il directeur statutario iscritto alla KVK e' una persona giuridica (Doens Holding B.V., in carica dal 2001), non una persona fisica. 'Walter Doens' non e' riconfermato come vertice attuale da fonti aperte (compare solo come 'Mr W. Doens' associato all'azienda).",
+  "gravita": "media",
+  "evidenza": "https://companyinfo.nl/organisatieprofiel/groothandel-in-akkerbouwproducten-en-veevoeder-algemeen-assortiment/doens-food-ingredients-b-v-ijzendijke-220483390000 - \"According to KVK records, Doens Holding B.V. serves as Director since 2001\"",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Gunnewick Mengvoeders B.V.",
+  "campo": "referente",
+  "problema": "Campo referente/ruolo vuoto, ma l'algemeen directeur e' pubblicato dall'azienda: Marc van Uum (in Gunnewick dal giugno 1998, oggi direttore e specialista nutrizione), marc@gunnewick.com. Da notare che NON e' un membro della famiglia Gunnewick.",
+  "gravita": "media",
+  "evidenza": "https://gunnewick.com/148/nl/team e https://www.jobsonline.nl/bedrijfspresentatie/gunnewick-mengvoeders-bv/ - \"Marc van Uum is de Algemeen Directeur van Gunnewick Mengvoeders ... marc@gunnewick.com\"",
+  "correzione_proposta": "Marc van Uum - Algemeen directeur (marc@gunnewick.com)"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "P. Bos Mengvoeder- en Kunstmesthandel B.V.",
+  "campo": "referente",
+  "problema": "Referente errato/obsoleto: il directeur attuale e' Robert Bos (i figli Pieter, Dirko e Jan Willem sono i successori designati). L'iniziale 'J. Bos' non corrisponde al vertice in carica.",
+  "gravita": "alta",
+  "evidenza": "https://www.boerderij.nl/veevoerbedrijven-p-bos-en-van-benthem-samen-verder - \"De zonen van de huidige directeur Robert Bos ... Pieter, Dirko en Jan Willem\"",
+  "correzione_proposta": "Robert Bos - Algemeen directeur"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "DO IT Organic Food Ingredients B.V.",
+  "campo": "dimensione",
+  "problema": "Dato errato e fuori forbice target: il campo dichiara 'fatturato non pubblicato' e 'numero dipendenti non pubblicato', ma il gruppo DO IT Organic comunica pubblicamente ca. 125 milioni di euro di fatturato con 110 dipendenti. E' oltre tre volte il tetto della forbice cliente (5-40 M EUR) e va segnalato esplicitamente.",
+  "gravita": "alta",
+  "evidenza": "https://www.change.inc/transities/voedsel-transitie/hendrik-wijnen-do-it-organic-biologisch-eten-wordt-de-norm - \"DO IT Organic is now generating approximately 125 million euros in revenue with 110 employees\"",
+  "correzione_proposta": "Fatturato gruppo ca. 125 M EUR con 110 dipendenti (fonte Change Inc./stampa, 2023-2025) - FUORI forbice target 5-40 M EUR"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "DO IT Organic Food Ingredients B.V.",
+  "campo": "referente",
+  "problema": "Referente corretto ma da precisare: Hendrik Wijnen guida DO IT Organic dal 2019 insieme a un socio ('leadership transferred to Hendrik Wijnen and his partner'). Il ruolo pubblicamente usato e' 'directeur' (non CEO formalizzato in KVK).",
+  "gravita": "bassa",
+  "evidenza": "https://www.change.inc/transities/voedsel-transitie/hendrik-wijnen-do-it-organic-biologisch-eten-wordt-de-norm - \"In 2019, leadership transferred to Hendrik Wijnen and his partner\"",
+  "correzione_proposta": "Hendrik Wijnen - Directeur (co-eigenaar dal 2019)"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "S.R.C. (Special Refining Company) B.V.",
+  "campo": "email",
+  "problema": "Il campo riporta 'n.d.' ma l'indirizzo generale e' pubblicato: info@refinery.nl (pagina Contact del sito aziendale). Da compilare.",
+  "gravita": "media",
+  "evidenza": "https://refinery.nl/en/contact/ - \"Email: info@refinery.nl - Phone: +31 75 6707776 - Symon Spiersweg 18, 1506 RZ Zaandam\"",
+  "correzione_proposta": "info@refinery.nl"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "S.R.C. (Special Refining Company) B.V.",
+  "campo": "filiera",
+  "problema": "Perimetro EUDR da chiarire: il campo dimensione stesso qualifica SRC come toll refiner che 'non acquista ne' vende olio, fattura solo il servizio di raffinazione'. Chi lavora conto terzi senza mai immettere la commodity sul mercato UE non e' l'operatore EUDR (lo e' il committente). Va verificato se SRC immette in proprio olio di palma sul mercato UE prima di qualificarla come lead.",
+  "gravita": "media",
+  "evidenza": "https://refinery.nl/en/ - \"SRC b.v. has specialized since 1996 in toll refining of various types of vegetable oils and fats for the food industry\"",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "S.R.C. (Special Refining Company) B.V.",
+  "campo": "dimensione",
+  "problema": "Fuori forbice target dichiarata dallo stesso campo ('fatturato strutturalmente sotto la soglia dei trader'): con sola fatturazione del servizio di raffinazione su 40.000 t/anno e organico ridotto il fatturato e' verosimilmente ben sotto i 5 M EUR. Nessun dato di dipendenti verificabile. Appartenenza al Pieter Bon Group confermata: la compliance EUDR si decide a livello di capogruppo.",
+  "gravita": "media",
+  "evidenza": "https://mvo.nl/organisatie/leden/src - \"SRC is part of the Pieter Bon Group\"; https://refinery.nl/en/ (toll refining, 40.000 t/anno)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "S.R.C. (Special Refining Company) B.V.",
+  "campo": "referente",
+  "problema": "DA CONFERMARE: referente e ruolo vuoti. Il sito pubblica solo referenti di funzione (Melle Bakker - Planning, Kees Loos - Sales, Cristina Mayayo - Quality, Mark Burrough - Financial), nessun directeur. Il directeur statutario e' verosimilmente la holding del Pieter Bon Group: non inventare un nome.",
+  "gravita": "media",
+  "evidenza": "https://refinery.nl/en/contact/ - elenco contatti per reparto (Planning, Sales, Quality, Financial), nessun directeur indicato",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Spack B.V.",
+  "campo": "referente",
+  "problema": "DA CONFERMARE: referente e ruolo vuoti. Il sito dichiara che l'azienda, fondata nel 1977 da C.D. Spaargaren a Rotterdam, e' oggi guidata dalla seconda generazione, ma non pubblica il nome del directeur.",
+  "gravita": "media",
+  "evidenza": "https://www.spack.nl/en/our-history/ - \"Spack was founded in 1977 by Mr C.D. Spaargaren in Rotterdam ... The company is now run by the second generation\"",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "G & A Wennekers Vleesgroothandel B.V.",
+  "campo": "referente",
+  "problema": "DA CONFERMARE: referente e ruolo vuoti. Le fonti aperte (sito, Kompass, Cylex, KVK-derivati) pubblicano solo recapiti generali dell'azienda, nessun directeur nominato. Attenzione: allo stesso indirizzo risulta anche una 'G. & A. Wennekers Vleesgroothandel VOF', da distinguere dalla B.V. KVK 24315872.",
+  "gravita": "media",
+  "evidenza": "https://www.wennekersvlees.nl/en/contact/ e https://www.nederlandinbedrijf.nl/Bedrijf/216001/Vlees-G.-A.-Wennekers-Vleesgroothandel-VOF/Groothandelsmarkt-209-3044HH-Rotterdam-010-4375613 (VOF omonima allo stesso indirizzo)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Kroon Vlees B.V.",
+  "campo": "email",
+  "problema": "Confermato che nessun indirizzo e-mail e' pubblicato: il sito espone solo un contactformulier e il telefono 050-5414551. Il valore 'n.d.' e' quindi corretto, ma l'azienda non e' contattabile via e-mail diretta senza ricerca aggiuntiva.",
+  "gravita": "bassa",
+  "evidenza": "https://www.kroonvlees.nl/contact - solo contactformulier, tel. 050-54 14 551, fax 050-54 18 403",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Kroon Vlees B.V.",
+  "campo": "dimensione",
+  "problema": "DA CONFERMARE: il campo non riporta alcun dato quantitativo (ne' fatturato ne' dipendenti), quindi non e' verificabile la collocazione nella forbice target 5-40 M EUR. Confermati invece stato attivo e proprieta': dal 2014 Henk Luinge, con ampliamento/ristrutturazione avviata nel 2025 ('meest duurzame slachthuis van Noord-Nederland').",
+  "gravita": "media",
+  "evidenza": "https://www.kroonvlees.nl/nieuws/meest-duurzame-slachthuis - ampliamento 2025; https://boerennatuur.nl/actueel/koplopers-henk-luinge/ - \"Sinds 2014 is slachterij Kroon Vlees eigendom van Henk Luinge\"",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Randstad Vleesgroothandel B.V.",
+  "campo": "ruolo",
+  "problema": "Ruolo incoerente: 'Algemeen directrice' e' la forma femminile, mentre il vertice pubblicato dall'azienda e' John van der Arend, indicato come 'Directeur' sulla pagina team (nella versione francese 'Directeur commercial'). L'indicazione per sole iniziali 'J.H.M. van der Arend' non e' quella usata dall'azienda; i proprietari attuali sono piu' d'uno (figli di Leo van der Arend, fondatore 1954).",
+  "gravita": "media",
+  "evidenza": "http://www.randstadvlees.nl/nl/team e https://www.linkedin.com/in/john-van-der-arend-368a5360/ - \"John van der Arend holds the position of Directeur at Randstad vleesgroothandel b.v.\"",
+  "correzione_proposta": "John van der Arend - Directeur"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Van Kooten Vleesgroothandel B.V.",
+  "campo": "referente",
+  "problema": "Referente e ruolo vuoti pur essendo reperibili: la vleesgroothandel e' stata rilevata nel giugno 2012 dai figli Wilco e Gerwin van Kooten. Il directeur statutario iscritto dal 2022 e' una persona giuridica, Tweemo B.V., che e' pero' il veicolo di proprieta' della famiglia (non un controllo di terzi).",
+  "gravita": "media",
+  "evidenza": "https://companyinfo.nl/organisatieprofiel/groothandel-in-vlees-en-vleesproducten/van-kooten-vleesgroothandel-b-v-montfoort-30112737-000018814379 - \"Tweemo B.V. is listed as owner/director from 2022\"; https://vankootenvlees.nl/ - \"opgericht in 1993 ... zonen Wilco en Gerwin namen het bedrijf in juni 2012 over\"",
+  "correzione_proposta": "Wilco van Kooten e Gerwin van Kooten - Directeuren / eigenaren (DA CONFERMARE quale dei due come referente unico)"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Vleesbedrijf Bolscher B.V.",
+  "campo": "email",
+  "problema": "DA CONFERMARE: il campo riporta 'n.d.' e nessun indirizzo e-mail e' emerso in fonti aperte (sito bolscher.nl, Kompass, Telefoonboek, Drimble espongono solo telefono/fax). Referente confermato: i fratelli Roy e Chiel Bolscher, subentrati al padre Harry, sono proprietari e direttori.",
+  "gravita": "bassa",
+  "evidenza": "https://www.oost.nl/nieuws/2221176/dit-vleesbedrijf-wil-veranderen-in-een-eiwitfabriek-maar-consument-kiest-nog-voor-goedkoop-vlees - \"Roy en Chiel Bolscher zijn eigenaren en directeuren van vleesbedrijf 'Bolscher meer dan vlees' in Enschede\"; https://nl.kompass.com/c/vleesbedrijf-bolscher-b-v/nl222906/ (solo tel./fax)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Van Benthem Diervoeders Vollenhove B.V.",
+  "campo": "linkedin",
+  "problema": "DA CONFERMARE: l'URL LinkedIn punta a 'van-benthem-veevoeders-en-kunstmest-b.v.', denominazione diversa da quella del record (Van Benthem Diervoeders Vollenhove B.V., KVK 05044357). Esiste effettivamente una 'Van Benthem Veevoeders en Kunstmest bv' censita separatamente a Vollenhove: verificare che si tratti della stessa entita' e non di una societa' sorella.",
+  "gravita": "bassa",
+  "evidenza": "https://www.bcsteenwijkerland.nl/leden-2/vollenhove/van-benthem-veevoeders-en-kunstmest-bv (voce 'Van Benthem Veevoeders en Kunstmest bv') vs https://drimble.nl/bedrijf/vollenhove/15948374/van-benthem-diervoeders-vollenhove-bv.html",
+  "correzione_proposta": ""
+ }
+]

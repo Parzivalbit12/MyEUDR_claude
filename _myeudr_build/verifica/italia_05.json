@@ -1,0 +1,290 @@
+[
+ {
+  "foglio": "Italia",
+  "denominazione": "Slitti S.r.l.",
+  "campo": "denominazione",
+  "problema": "Forma giuridica errata: al Registro l'impresa di Monsummano Terme risulta 'SLITTI LUCIANO SNC DI SLITTI ANDREA E DANIELE' (societa' in nome collettivo), P.IVA 00204690473, non una S.r.l.",
+  "gravita": "bassa",
+  "evidenza": "https://www.informazione-aziende.it/Azienda_SLITTI-LUCIANO-SNC-DI-SLITTI-ANDREA-E-DANIELE — 'Slitti Luciano Snc Di Slitti Andrea E Daniele ... SOCIETA' IN NOME COLLETTIVO ... P.IVA 00204690473, Via Francesca Vergine dei Pini 1268, Monsummano Terme (PT)'",
+  "correzione_proposta": "Slitti Luciano S.n.c. di Slitti Andrea e Daniele (P.IVA 00204690473)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Slitti S.r.l.",
+  "campo": "dimensione",
+  "problema": "Micro/piccola impresa sotto la forbice target 5-40 mln EUR: il fatturato 2024 e' di 4 mln EUR (2,5 mln nel 2022). Il campo riporta il dato ma non segnala che e' fuori forbice.",
+  "gravita": "media",
+  "evidenza": "https://www.comunicaffe.it/andrea-slitti-puntiamo-a-50-mln-di-fatturato-entro-8-anni/ — 'chiuso il 2024 con un fatturato di 4 milioni di euro ... obiettivo 50 milioni entro otto anni'",
+  "correzione_proposta": "~4,0 mln EUR (2024, fonte Comunicaffe) — SOTTO SOGLIA 5 mln, valutare esclusione"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "A.T. Gomma Guarnizioni Industriali S.r.l.",
+  "campo": "filiera",
+  "problema": "PERIMETRO EUDR DA CONFERMARE: la gamma pubblicata comprende esclusivamente elastomeri sintetici (O-ring e guarnizioni in EPDM, NBR, FKM) per riscaldamento, automotive, pneumatica, elettrodomestici, idraulica. Nessuna evidenza pubblica di uso di gomma naturale (NR/caucciu'), come nel caso Helvoet rimosso in Belgio.",
+  "gravita": "media",
+  "evidenza": "https://it.kompass.com/c/a-t-gomma-guarnizioni-industriali-s-r-l/it0385273/ e https://www.federazionegommaplastica.it/en/aziende-associate/a-t-gomma-guarnizioni-industriali-srl/ — 'portfolio of standard O-rings in EPDM, NBR, FKM'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Diesse Rubber Hoses S.p.A.",
+  "campo": "sito",
+  "problema": "Campo sito vuoto: l'azienda ha un sito web attivo.",
+  "gravita": "bassa",
+  "evidenza": "https://www.coobiz.it/azienda/filago-produzione-lavorazione/co1803832 — 'Website: diesserubber.com'; anche europages riporta lo stesso dominio",
+  "correzione_proposta": "https://www.diesserubber.com"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Ellegi S.p.A.",
+  "campo": "sito",
+  "problema": "Campo sito vuoto: l'azienda ha un sito web attivo.",
+  "gravita": "bassa",
+  "evidenza": "https://www.ufficiocamerale.it/8473/ellegi-spa — 'telefono 0354495511 ... sito ellegi.com' (P.IVA 01838400164)",
+  "correzione_proposta": "https://www.ellegi.com"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Ellegi S.p.A.",
+  "campo": "dimensione",
+  "problema": "Dato di fatturato senza anno e leggermente sottostimato: il bilancio 2023 riporta 30.487.715 EUR (utile netto 841.780 EUR), non ~29,8 mln.",
+  "gravita": "bassa",
+  "evidenza": "https://www.reportaziende.it/ellegi_spa_bg_01838400164 — 'fatturato 2023: 30.487.715 EUR; risultato netto 841.780 EUR; 50-99 dipendenti; ATECO 22.19.09'",
+  "correzione_proposta": "~30,5 mln EUR (bilancio 2023); 50-99 dip.; articoli in gomma (ATECO 22.19.09)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Insit Industria S.p.A.",
+  "campo": "dimensione",
+  "problema": "Fatturato senza anno e sottostimato: il bilancio 2023 riporta 30.736.566 EUR con 175 dipendenti, non ~29,1 mln.",
+  "gravita": "bassa",
+  "evidenza": "https://www.fatturatoazienda.it/azienda/insit-industria-spa-03790920015 — 'Insit Industria — Fatturato 30,7 Mln EUR, 175 dipendenti — Bilancio 2023'",
+  "correzione_proposta": "~30,7 mln EUR (bilancio 2023); 175 dip.; articoli tecnici in gomma stampata ed elastomero termoplastico"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Insit Industria S.p.A.",
+  "campo": "referente",
+  "problema": "Campo referente vuoto: risulta pubblicamente un Presidente in carica.",
+  "gravita": "media",
+  "evidenza": "https://atoka.io/public/it/azienda/insit-industria-societa-per-azioni/5864125aa840 — 'Guglielmo Debenedetti — Presidente'",
+  "correzione_proposta": "Guglielmo Debenedetti — Presidente (DA CONFERMARE su visura aggiornata)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Insit Industria S.p.A.",
+  "campo": "sito",
+  "problema": "Campo sito vuoto: l'azienda ha un sito web attivo (insitindustria.com).",
+  "gravita": "bassa",
+  "evidenza": "https://www.insitindustria.com/ (dominio aziendale emerso in ricerca) e scheda Kompass https://it.kompass.com/c/insit-industria/it0027937/",
+  "correzione_proposta": "https://www.insitindustria.com"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Insit Industria S.p.A.",
+  "campo": "filiera",
+  "problema": "PERIMETRO EUDR DA CONFERMARE: la produzione dichiarata e' di guarnizioni di tenuta per motore e cuffie per giunti di trasmissione in gomma stampata e elastomero termoplastico (automotive); non e' documentato l'impiego di gomma naturale.",
+  "gravita": "media",
+  "evidenza": "https://atoka.io/public/it/azienda/insit-industria-societa-per-azioni/5864125aa840 — 'INSIT designs, develops and manufactures technical articles in molded rubber and thermoplastic elastomer for the automotive industries ... rubber sealing gaskets for engine applications and protective boots for transmission joints'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "F.lli Paris S.r.l.",
+  "campo": "dimensione",
+  "problema": "Dato privo di anno: il fatturato 29.106.837 EUR e' il bilancio 2024 (utile 5.389.192 EUR, 50-99 dipendenti). Va esplicitato anno e classe dipendenti.",
+  "gravita": "bassa",
+  "evidenza": "https://www.reportaziende.it/flli_paris_srl_bg_02739730162 — 'F.lli Paris S.r.l., P.IVA 02739730162, Castelli Calepio: fatturato 2024 29.106.837 EUR, utile 5.389.192 EUR, 50-99 dipendenti'",
+  "correzione_proposta": "~29,1 mln EUR (bilancio 2024); 50-99 dip.; fabbricazione di altri prodotti in gomma"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "F.lli Paris S.r.l.",
+  "campo": "filiera",
+  "problema": "PERIMETRO EUDR DA CONFERMARE: l'unica descrizione pubblica disponibile e' generica ('fabbricazione di altri articoli in gomma'), non c'e' sito aziendale ne' gamma prodotti pubblicata; impossibile accertare l'uso di gomma naturale.",
+  "gravita": "media",
+  "evidenza": "https://registroaziende.it/azienda/flli-paris-srl-castelli-calepio — attivita' 'fabbricazione di altri prodotti in gomma'; nessun sito aziendale reperito nelle ricerche",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Spaggiari Industria Gomma S.r.l.",
+  "campo": "sito",
+  "problema": "TLD errato: il sito ufficiale reperibile e' spaggiarigomma.com, non .it.",
+  "gravita": "bassa",
+  "evidenza": "https://spaggiarigomma.com/ — 'Spaggiari Industria Gomma, Rubber Professional Solutions'",
+  "correzione_proposta": "https://spaggiarigomma.com"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Spaggiari Industria Gomma S.r.l.",
+  "campo": "fonte",
+  "problema": "Discrepanza di identificativo fiscale: la fonte citata usa 00728860347, mentre ufficiocamerale e registroaziende riferiscono la stessa ragione sociale a Luzzara con P.IVA 00924770357. Verificare quale sia il soggetto giuridico corretto (possibile omonimia / CF storico).",
+  "gravita": "media",
+  "evidenza": "https://www.ufficiocamerale.it/3406/spaggiari-industria-gomma-srl — 'SPAGGIARI INDUSTRIA GOMMA S.R.L., Partita IVA: 00924770357'; contro https://www.fatturatoitalia.it/spaggiari_industria_gomma_srl-00728860347/",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Lecont S.r.l.",
+  "campo": "referente",
+  "problema": "Campo referente vuoto: l'azienda e' stata fondata e resta guidata dai fratelli Cont. Non e' stato possibile accertare da fonte pubblica chi sia l'attuale amministratore unico.",
+  "gravita": "media",
+  "evidenza": "https://www.lecont.com/storia/ — 'LeCont nasce nel 1994 dalla passione dei fratelli Valter e Sergio Cont'; https://www.confindustria.tn.it/it/imprese/lecont/",
+  "correzione_proposta": "DA CONFERMARE (probabile Valter Cont o Sergio Cont, Amministratore)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Ponti Guarnizioni S.r.l.",
+  "campo": "sede",
+  "problema": "Sede errata: l'azienda ha sede a Foresto Sparso (BG), Via Faveti 13, non a Castelli Calepio.",
+  "gravita": "media",
+  "evidenza": "https://www.pontiguarnizioni.net/ — 'Articoli di gomma | Foresto Sparso, BG'; https://www.pontiguarnizioni.com/azienda.php — 'Via Faveti, 13 - 24060 Foresto Sparso (BG)', P.IVA 02036320162",
+  "correzione_proposta": "Foresto Sparso (BG)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Ponti Guarnizioni S.r.l.",
+  "campo": "email",
+  "problema": "Email di reparto export estero ('exportfr@') poco adatta a un contatto direzionale: il recapito generale pubblicato dall'azienda e' ponti@pontiguarnizioni.com.",
+  "gravita": "media",
+  "evidenza": "https://www.pontiguarnizioni.com/azienda.php — 'ponti@pontiguarnizioni.com — tel. +39 035 934360 / 035 930913'",
+  "correzione_proposta": "ponti@pontiguarnizioni.com"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Ponti Guarnizioni S.r.l.",
+  "campo": "dimensione",
+  "problema": "Impresa sotto la forbice target 5-40 mln EUR (4,7 mln, 2023) senza segnalazione esplicita nel campo.",
+  "gravita": "media",
+  "evidenza": "valore riportato nel record stesso (~4,7 mln EUR 2023, 20-49 dip.); soglia minima cliente 5 mln EUR",
+  "correzione_proposta": "~4,7 mln EUR (2023) — SOTTO SOGLIA 5 mln, valutare esclusione"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Ponti Guarnizioni S.r.l.",
+  "campo": "denominazione",
+  "problema": "Coesistono due domini/ragioni sociali storicamente diverse: pontiguarnizioni.it riporta 'PONTI Guarnizioni S.n.c. di Ponti Renato & C.', pontiguarnizioni.com 'Ponti Guarnizioni S.r.l. di Ponti Renato & C.'. Verificare la denominazione attuale al Registro (P.IVA 02036320162).",
+  "gravita": "bassa",
+  "evidenza": "http://www.pontiguarnizioni.it/prodotti.php — 'PONTI Guarnizioni S.n.c. di Ponti Renato & C.'; http://www.pontiguarnizioni.com/cicloproduttivo.php — 'Ponti Guarnizioni S.r.l. di Ponti Renato & C.'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Cortal Extrasoy S.p.A.",
+  "campo": "dimensione",
+  "problema": "Dato confermato ma da precisare: bilancio 2024 ricavi 59.292.815 EUR, utile 2.866.674 EUR, 65 dipendenti (P.IVA 00224840280). Resta sopra la forbice target 5-40 mln, come gia' segnalato nel campo.",
+  "gravita": "bassa",
+  "evidenza": "https://www.aziende.it/cortal-extrasoy-s-p-a — 'ricavi 2024: 59.292.815 euro ... utile 2.866.674 euro ... 65 dipendenti'",
+  "correzione_proposta": "~59,3 mln EUR (bilancio 2024); 65 dip. — SOPRA forbice target"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Mangimificio S.Antonio S.r.l.",
+  "campo": "sito",
+  "problema": "Campo sito vuoto: l'azienda ha un sito web attivo (mangimisantantonio.it).",
+  "gravita": "bassa",
+  "evidenza": "https://www.mangimisantantonio.it/ — 'MANGIMIFICIO - Mangimificio Sant' Antonio, mangimi per i tuoi animali'; scheda Kompass https://it.kompass.com/c/mangimificio-s-antonio-s-r-l/it0133589/ (P.IVA 00573170842, C.da Ranciditi 1, Aragona AG)",
+  "correzione_proposta": "https://www.mangimisantantonio.it"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Mangimificio S.Antonio S.r.l.",
+  "campo": "dimensione",
+  "problema": "Numero dipendenti incoerente: il record indica 18 dipendenti, le schede camerali collocano l'azienda nella classe 20-49 addetti.",
+  "gravita": "bassa",
+  "evidenza": "https://www.europages.it/MANGIMIFICIO-SANTONIO-SRL/SEAC000139250-001.html e scheda misterimprese — 'Employees: 20 to 49'",
+  "correzione_proposta": "~9,8 mln EUR (2024); 20-49 dip. (DA CONFERMARE su bilancio)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "PBA S.r.l. (PBA Italia Nutrizione Animale)",
+  "campo": "dimensione",
+  "problema": "Fatturato errato: il bilancio 2023 riporta 38.445.798 EUR (53 dipendenti), non ~49,5 mln; il dato piu' recente disponibile e' ~44,1 mln EUR. Il valore in scheda sovrastima di ~11 mln e fa apparire l'azienda al limite superiore della forbice.",
+  "gravita": "media",
+  "evidenza": "https://www.reportaziende.it/pba_srl_pc_01223200336 — 'ricavi 2023: 38.445.798 EUR'; https://atoka.io/public/it/azienda/pba-srl/327faa54ece6 — 'PBA S.r.l. ... fatturato 44,1 M EUR ... 53 dipendenti'",
+  "correzione_proposta": "~38,4 mln EUR (bilancio 2023); ~44,1 mln EUR dato piu' recente; 53 dip."
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "PBA S.r.l. (PBA Italia Nutrizione Animale)",
+  "campo": "sede",
+  "problema": "Sede legale probabilmente errata: le banche dati camerali registrano PBA S.r.l. (P.IVA 01223200336) in provincia di Piacenza; Fombio (LO) e Casatenovo (LC) sono gli stabilimenti produttivi, non la sede legale.",
+  "gravita": "media",
+  "evidenza": "https://www.reportaziende.it/pba_srl_pc_01223200336 — 'PBA S.R.L. (PC)'; https://atoka.io/public/it/azienda/pba-srl/327faa54ece6 — 'Produzione di mangimi ... a Piacenza'; https://www.pbaitalia.it/azienda/ — 'gli stabilimenti produttivi si trovano a Fombio (LO) e a Casatenovo (LC)'",
+  "correzione_proposta": "Piacenza (PC) — sede legale; stabilimenti Fombio (LO) e Casatenovo (LC) — DA CONFERMARE su visura"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "PBA S.r.l. (PBA Italia Nutrizione Animale)",
+  "campo": "fonte",
+  "problema": "La fonte citata e' una classifica di settore generica (topaziende per codice ATECO) che non sostiene ne' il fatturato ne' la sede indicati.",
+  "gravita": "bassa",
+  "evidenza": "fonte in scheda: https://topaziende.quotidiano.net/ateco/produzione-di-mangimi-per-lalimentazione-degli-animali-da-allevamento/ (pagina di ranking ATECO, nessun dato specifico PBA verificabile)",
+  "correzione_proposta": "https://www.reportaziende.it/pba_srl_pc_01223200336"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "I.GI S.p.A.",
+  "campo": "dimensione",
+  "problema": "Dato inutilizzabile: 'tra 6 e 30 mln EUR' e' la fascia di ricavi generica pubblicata dalle banche dati, non un fatturato. Con questa forbice non si puo' stabilire se l'azienda rientri nel target 5-40 mln.",
+  "gravita": "media",
+  "evidenza": "https://www.informazione-aziende.it/Azienda_IGI-SPA — 'ultimo bilancio depositato nel 2024: ricavi compresi tra 6.000.000 e 30.000.000 di euro'",
+  "correzione_proposta": "DA CONFERMARE — recuperare il fatturato puntuale dal bilancio depositato"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "I.GI S.p.A.",
+  "campo": "fonte",
+  "problema": "La fonte citata punta a una scheda intestata 'I.GI SRL' mentre la societa' e' una S.p.A.; possibile scheda obsoleta o riferita a soggetto diverso. Le fonti concordanti (sito aziendale e informazione-aziende) riportano 'I.GI S.p.A.'.",
+  "gravita": "bassa",
+  "evidenza": "fonte in scheda https://www.ufficiocamerale.it/3916/igi-srl (slug 'igi-srl'); contro https://www.i-gi.it/ — 'Raffinazione oli vegetali | I.GI S.p.A' e https://www.informazione-aziende.it/Azienda_IGI-SPA — 'forma giuridica: Societa' per Azioni'",
+  "correzione_proposta": "https://www.informazione-aziende.it/Azienda_IGI-SPA"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "I.P.S.A. S.p.A. (Prodotti Speciali per l'Alimentazione)",
+  "campo": "dimensione",
+  "problema": "Fatturato obsoleto e senza anno: ~56 mln corrisponde al bilancio 2023 (55.988.023 EUR); il 2024 e' salito a 61.262.679 EUR con ~60 dipendenti. L'azienda e' ben sopra la forbice target.",
+  "gravita": "media",
+  "evidenza": "https://topaziende.quotidiano.net/marche/ascoli-piceno/fatturato-i-p-s-a-industria-per-la-preparazione-di-prodotti-speciali-per-lalimentazione-spa/ — 'fatturato 2024: 61.262.679 EUR; 2023: 55.988.023 EUR' (P.IVA 00354930448)",
+  "correzione_proposta": "~61,3 mln EUR (bilancio 2024); ~60 dip. — SOPRA forbice target (5-40 mln)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "GranCarni S.p.A.",
+  "campo": "referente",
+  "problema": "Campo referente vuoto: l'Amministratore Delegato e titolare e' pubblicamente identificato.",
+  "gravita": "media",
+  "evidenza": "https://www.beverfood.com/carne_produttore/grancarni-spa — 'Franco Balletta, titolare e Amministratore Delegato'",
+  "correzione_proposta": "Franco Balletta — Amministratore Delegato"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "GranCarni S.p.A.",
+  "campo": "dimensione",
+  "problema": "Appartenenza a gruppo non dichiarata: GranCarni fa parte del Gruppo Balletta (holding con sede a Casapulla, CE), che comprende tre unita' operative — Sant'Angelo in Formis-Capua (CE), Pontelatone (CE) e Rho (MI). Si tratta di holding di famiglia (stessa proprieta'), ma la scelta di compliance potrebbe essere accentrata a livello di gruppo.",
+  "gravita": "media",
+  "evidenza": "https://www.obrcampania.it/obr/wp-content/uploads/2024/04/GRUPPO-BALLETTA-Rapporto-aziendale-di-Monitoraggio-Valutativo.pdf e https://it.linkedin.com/company/gruppo-balletta — 'Gruppo Balletta ... tre unita' produttive: Sant'Angelo in Formis-Capua (CE), Pontelatone (CE), Rho (MI)'",
+  "correzione_proposta": "aggiungere nota: societa' del Gruppo Balletta (holding familiare, sede Casapulla CE)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "GranCarni S.p.A.",
+  "campo": "dimensione",
+  "problema": "Anno del fatturato da riconfermare: le fonti reperite riportano 27,30 mln EUR per il 2023 (+3% sul 2022), non ~26,8 mln per il 2024.",
+  "gravita": "bassa",
+  "evidenza": "https://www.reportaziende.it/grancarni_spa_ce_02933880615 — 'fatturato 2023: 27,30 mln EUR, +3% sul 2022' (P.IVA 02933880615)",
+  "correzione_proposta": "~27,3 mln EUR (bilancio 2023) — DA CONFERMARE il dato 2024"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "ZaroCarni S.p.A.",
+  "campo": "referente",
+  "problema": "Campo referente vuoto: l'Amministratore Delegato e' pubblicamente identificato.",
+  "gravita": "media",
+  "evidenza": "https://www.reportaziende.it/zarocarni_spa_va — 'Rita Boldrini — Amministratore Delegato' (Zarocarni S.p.a., P.IVA 01218410122, fatturato 2024 19.843.692 EUR)",
+  "correzione_proposta": "Rita Boldrini — Amministratore Delegato"
+ }
+]

@@ -1,0 +1,155 @@
+[
+ {
+  "foglio": "Svezia",
+  "denominazione": "Nordiska Kaffebolaget H. Hansson & Co Aktiebolag",
+  "campo": "dimensione",
+  "problema": "Capogruppo non dichiarata: la societa' fa parte di un gruppo di 5 societa' con moderbolag WB Stockholm AB (org.nr 556705-8754) e ha a sua volta 3 controllate. Si tratta pero' di holding di proprieta' allo stesso indirizzo (Sibyllegatan 35, Stockholm), quindi struttura familiare: non sposta la decisione di compliance.",
+  "gravita": "bassa",
+  "evidenza": "allabolag/bolagsfakta: 'The parent company is WB Stockholm AB, and the company has 3 subsidiaries' - https://www.bolagsfakta.se/5567058754-WB_Stockholm_AB ; https://www.allabolag.se/foretag/nordiska-kaffebolaget-h.-hansson-co-aktiebolag/stockholm/kaffe-och-te-agenturer/2JYRXQ3I63IHV",
+  "correzione_proposta": "Aggiungere: 'Moderbolag WB Stockholm AB (556705-8754), holding di proprieta' della stessa famiglia, stesso indirizzo; 3 controllate.'"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Nordiska Kaffebolaget H. Hansson & Co Aktiebolag",
+  "campo": "referente",
+  "problema": "Referente e ruolo vuoti. Nei registri non risulta un VD nominato: figura come styrelseledamot Henrik Berg (styrelsesuppleant Olivia Scherlin). Lead senza interlocutore nominato.",
+  "gravita": "media",
+  "evidenza": "allabolag: 'Board member for the company is Henrik Berg and Board substitute is Olivia Scherlin' - https://www.allabolag.se/foretag/nordiska-kaffebolaget-h.-hansson-co-aktiebolag/stockholm/kaffe-och-te-agenturer/2JYRXQ3I63IHV",
+  "correzione_proposta": "Henrik Berg - Styrelseledamot (nessun VD registrato) - DA CONFERMARE"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Tehuset Java Aktiebolag",
+  "campo": "dimensione",
+  "problema": "Dato di fatturato obsoleto di un esercizio: il record riporta 62,4 MSEK / 26 dipendenti, ma l'ultimo bilancio (esercizio maggio 2025 - aprile 2026) e' di 76,7 MSEK (~6,8 M€) con media 34 dipendenti (crescita +23%). La conversione 62,4 MSEK = ~5,5 M€ era comunque corretta.",
+  "gravita": "media",
+  "evidenza": "Ehandel.se 'Skanska te-handlaren narmar sig 80 miljoner i omsattning': nettoomsattning 76,7 MSEK 2025/2026 vs 62,3 MSEK anno precedente; media dipendenti da 26 a 34 - https://www.ehandel.se/skanska-e-handlaren-narmar-sig-80-miljoner-i-omsattning",
+  "correzione_proposta": "Fatturato 76,7 MSEK (~6,8 M€) esercizio 2025/2026 (+23%); 34 dipendenti medi."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Tehuset Java Aktiebolag",
+  "campo": "referente",
+  "problema": "Referente e ruolo vuoti. Il vertice/proprietario e' Fredrik Skeppstedt (styrelseordforande, proprietario con moglie e sorella; e' anche VD della controllante Javaimporten i Sverige AB, gia' citata nel campo dimensione).",
+  "gravita": "media",
+  "evidenza": "Ehandel.se: 'Fredrik Skeppstedt is the Chairman and Sofia Wilen is a Board Member. Fredrik Skeppstedt owns the company together with his wife and sister' - https://www.ehandel.se/skanska-e-handlaren-narmar-sig-80-miljoner-i-omsattning",
+  "correzione_proposta": "Fredrik Skeppstedt - Styrelseordforande/agare (VD della controllante Javaimporten i Sverige AB)"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Aktiebolaget Cool & Candy",
+  "campo": "dimensione",
+  "problema": "Dato fermo all'esercizio 2022 (196,7 MSEK) e presentato in crescita (+9,0%), mentre l'ultimo esercizio disponibile e' di 177,8 MSEK (~15,7 M€): tendenza in calo (~-10%), non in crescita.",
+  "gravita": "media",
+  "evidenza": "allabolag/Vainu: 'Cool & Candy's revenue for the last fiscal year was 177.8 million kronor' - https://www.allabolag.se/foretag/aktiebolaget-cool-candy/ystad/livsmedel-agenturer-och-grossister/2K08WY1I63IIN",
+  "correzione_proposta": "Fatturato 177,8 MSEK (~15,7 M€) ultimo esercizio disponibile, in calo rispetto ai 196,7 MSEK del 2022."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Aktiebolaget Cool & Candy",
+  "campo": "dimensione",
+  "problema": "Controllo di terzi: la societa' e' stata acquisita da Humble Group AB (gruppo quotato, 78 societa') nell'ambito dell'operazione Privab Ystad. Il fatto e' dichiarato nel campo, ma la compliance EUDR si decide a livello di capogruppo: il lead perde valore.",
+  "gravita": "media",
+  "evidenza": "MFN/Cision: 'HUMBLE HAR FULLFOLJT FORVARVEN AV PRIVAB YSTAD, PRIVAB TROLLHATTAN OCH PRIVABS MARKNADSBOLAG' - https://mfn.se/cis/a/humble-group/humble-group-ab-humble-har-fullfoljt-forvarven-av-privab-ystad-privab-trollhattan-och-privabs-marknadsbolag-3a6f50b0 ; allabolag: 'part of a group with a total of 78 companies', moderbolag Humble Group AB",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Aktiebolaget Cool & Candy",
+  "campo": "email",
+  "problema": "Azienda non contattabile: sia 'email' sia 'sito' valgono 'n.d.'. Il record non offre alcun canale di contatto diretto (la societa' opera oggi sotto il marchio/insegna Privab del gruppo Humble).",
+  "gravita": "alta",
+  "evidenza": "Campo email='n.d.' e sito='n.d.' nel record; nessun dominio proprio emerso dalle ricerche - https://www.allabolag.se/5563304137/aktiebolaget-cool-candy",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Grahns Konfektyr AB",
+  "campo": "dimensione",
+  "problema": "Controllo di terzi NON dichiarato: il record non menziona alcuna capogruppo, ma Grahns Konfektyr fa parte di un gruppo di 72 societa' con moderbolag Humble Group AB (gruppo quotato). Non e' un'impresa indipendente: la compliance EUDR si decide a livello di capogruppo.",
+  "gravita": "alta",
+  "evidenza": "allabolag: 'Grahns Konfektyr ingar i en koncern med totalt 72 bolag, dar Humble Group AB ar moderbolaget' - https://www.allabolag.se/organisation/grahns-konfektyr-ab/sk%C3%B6vde/livsmedel-tillverkning/2K2LGQCI63IIO",
+  "correzione_proposta": "Aggiungere: 'Controllata da Humble Group AB (gruppo quotato, 72 societa'): lead a basso valore, decisione di compliance a livello di capogruppo.'"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Svenska Gummihuset Aktiebolag",
+  "campo": "filiera",
+  "problema": "ERRORE DI PERIMETRO. Non e' un produttore/trasformatore di gomma naturale ma un puro rivenditore a valle di pneumatici e cerchi: e-commerce B2C/B2B (gummihuset.se) e commercio di auto. Non immette la commodity sul mercato UE, quindi e' trader e non operatore EUDR. Stesso caso di Dackteam, gia' scartata nel foglio Svezia.",
+  "gravita": "alta",
+  "evidenza": "allabolag/gummihuset.se: 'Bolaget bedriver forsaljning av dack och falg samt darmed forenlig verksamhet, samt bilhandel'; 'Svenska GummiHuset AB ar sedan mitten av 90-talet marknadsledande aterforsaljare inom dack och falgar pa internet/e-handel' - https://gummihuset.se/Info ; https://www.allabolag.se/foretag/svenska-gummihuset-aktiebolag/eskilstuna/bilar/2K2R04HI5YCZW",
+  "correzione_proposta": "Rimuovere il lead (rivenditore/e-tailer di pneumatici, fuori perimetro come operatore EUDR)."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Svenska Gummihuset Aktiebolag",
+  "campo": "email",
+  "problema": "Nessun contatto nominativo: email 'n.d.' e LinkedIn vuoto; resta solo il sito e-commerce. (Fatturato e conversione risultano invece corretti: 146 493 KSEK = ~13,0 M€, 12 dipendenti, esercizio 2025.)",
+  "gravita": "media",
+  "evidenza": "allabolag: 'Svenska Gummihuset Aktiebolag har 12 anstallda och gjorde ett resultat pa 7 460 KSEK med omsattning 146 493 KSEK under 2025' - https://www.bolagsfakta.se/5567507297-Svenska_Gummihuset_Aktiebolag",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Tretorn Sweden AB",
+  "campo": "dimensione",
+  "problema": "Anno di bilancio non confermato e dato probabilmente obsoleto: il record attribuisce i 322 415 KSEK all'esercizio 2024, mentre allabolag riporta quella cifra come esercizio 2021 (e un'altra fonte indica per il 2021 430,3 MSEK). Dato incoerente e vecchio di piu' esercizi. La conversione 322 415 KSEK = ~28,5 M€ e' invece corretta.",
+  "gravita": "media",
+  "evidenza": "allabolag: 'Tretorn Sweden AB hade 322 415 KSEK omsattning under 2021'; ratsit/allabolag: 'Under 2021, Tretorn Sweden AB had a revenue of 430.3 MSEK' - https://www.allabolag.se/bokslut/tretorn-sweden-ab/helsingborg/konfektion/2KG7SLBI63II4",
+  "correzione_proposta": "DA CONFERMARE: verificare l'ultimo bilancio depositato e l'anno di riferimento."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Tretorn Sweden AB",
+  "campo": "dimensione",
+  "problema": "Capogruppo indicata solo in parte: Thevea Brands Group AB e' il moderbolag diretto, ma il koncernmoderbolag e' Thevea Holding AB; il gruppo conta 10 societa' e la stessa Tretorn Sweden ha 3 controllate. Si tratta di un gruppo di marchi (controllo di terzi, non holding dei soci fondatori): la decisione di compliance EUDR si colloca a livello di gruppo.",
+  "gravita": "media",
+  "evidenza": "allabolag: 'Moderbolag ar Thevea Brands Group AB' e 'koncernmoderbolag Thevea Holding AB'; 'Tretorn Sweden AB ingar i en koncern med totalt 10 bolag och har 3 dotterbolag' - https://www.allabolag.se/5590125695/koncern ; Market.se 'Rekordomsattning for Thevea Brands Group' - https://www.market.se/affarsnyheter/finansiella-rapporter/tretorns-agare-nar-ny-milstolpe-omsatter-en-halv-miljard-vuxit-rekordsnabbt/",
+  "correzione_proposta": "Capogruppo: Thevea Brands Group AB, koncernmoderbolag Thevea Holding AB (gruppo di 10 societa')."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Aktiebolaget Johan Hansson",
+  "campo": "dimensione",
+  "problema": "Struttura di gruppo non dichiarata: la societa' risulta appartenere a un gruppo e avere 2 controllate. Verosimilmente holding di proprieta' familiare (nessun controllo industriale terzo emerso), quindi impatto limitato. VD Jessica Marie Aner e 13 dipendenti risultano invece confermati.",
+  "gravita": "bassa",
+  "evidenza": "bolagsfakta/allabolag: 'CEO (Verkstallande direktor): Jessica Marie Anler'; '13 employees'; 'The company is part of a larger group and has 2 subsidiaries' - https://www.bolagsfakta.se/5560378746-Aktiebolaget_Johan_Hansson",
+  "correzione_proposta": "Aggiungere l'assetto di gruppo (2 controllate) - capogruppo DA CONFERMARE."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Aktiebolaget Västerbottens Fodercentral",
+  "campo": "dimensione",
+  "problema": "Dato di bilancio fermo al 2022 (170 138 KSEK) e trend in forte contrazione non segnalato: 2024 217 819 KSEK, 2025 163 565 KSEK, cioe' -24,9% nell'ultimo esercizio (~14,5 M€). Dipendenti 15, non 14.",
+  "gravita": "media",
+  "evidenza": "allabolag/bolagsfakta: 'Revenue for 2025: 163,565 thousand SEK, with 15 employees'; 'Revenue for 2024: 217,819 thousand SEK' - https://www.bolagsfakta.se/5560611765-Aktiebolaget_Vasterbottens_Fodercentral",
+  "correzione_proposta": "Fatturato 163 565 KSEK (~14,5 M€) esercizio 2025, -24,9% sul 2024 (217 819 KSEK); 15 dipendenti."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Aktiebolaget Västerbottens Fodercentral",
+  "campo": "referente",
+  "problema": "Referente e ruolo vuoti: risulta VD (e styrelseordforande) Per Magnus Johansson. Da notare che e' lo stesso nome del VD di Forsbecks Eftr. AB (altro record dello stesso blocco): possibile legame proprietario/di gruppo fra le due societa', da approfondire perche' inciderebbe sull'indipendenza di entrambe.",
+  "gravita": "media",
+  "evidenza": "proff/allabolag: 'VD for Aktiebolaget Vasterbottens Fodercentral is Per Magnus Johansson and chairman is Per Magnus Johansson' - https://www.proff.se/foretag/aktiebolaget-v%C3%A4sterbottens-fodercentral/holmsund/fodermedel/2JYN7HXI5YEEM/",
+  "correzione_proposta": "Per Magnus Johansson - VD (verkstallande direktor). Legame con Forsbecks Eftr. AB: DA CONFERMARE."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Forsbecks Eftr. Aktiebolag",
+  "campo": "dimensione",
+  "problema": "Dato di bilancio fermo al 2022 (589 951 KSEK): l'ultimo esercizio disponibile e' il 2024 con 505 457 KSEK (~44,7 M€), +3,9% sul 2023. La societa' resta comunque sopra la soglia dei 40 M€, ma il valore riportato sovrastima di ~7,5 M€.",
+  "gravita": "media",
+  "evidenza": "allabolag: 'The most recent revenue (2024) is 505,457 thousand SEK, representing a 3.9% increase from 2023'; '31 employees' - https://www.allabolag.se/bokslut/forsbecks-eftr.-aktiebolag/sk%C3%A4nninge/grossister/2JYALIXI63IGS",
+  "correzione_proposta": "Fatturato 505 457 KSEK (~44,7 M€) esercizio 2024 (+3,9%); 31 dipendenti."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Forsbecks Eftr. Aktiebolag",
+  "campo": "email",
+  "problema": "Dominio dell'email diverso da quello del sito: e' indicata per-magnus.johansson@forsbecks.com mentre il sito e' forsbecks.se. Entrambi i domini risultano in uso; come contatto aziendale generale e' preferibile info@forsbecks.se (o pmj@forsbecks.se).",
+  "gravita": "bassa",
+  "evidenza": "forsbecks.se/kontakta-oss e listing pubblici: coesistono 'per-magnus.johansson@forsbecks.com', 'pmj@forsbecks.se' e 'info@forsbecks.se' - https://www.forsbecks.se/kontakta-oss/",
+  "correzione_proposta": "info@forsbecks.se (in alternativa pmj@forsbecks.se)"
+ }
+]
