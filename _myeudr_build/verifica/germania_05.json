@@ -376,5 +376,41 @@
   "gravita": "media",
   "evidenza": "https://www.registercheck.de/companies/baermuehle-langenhessen-gmbh — 'HRB 16380 Amtsgericht Chemnitz, Stammkapital 50.000,00 €, gegründet 18.12.1998'",
   "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Austing Mischfutterwerk GmbH & Co. KG",
+  "campo": "dimensione",
+  "problema": "Campo privo di dato ('n.d.') mentre esistono dati pubblici precisi e commercialmente rilevanti: 25 dipendenti (ufficio + produzione su tre turni) e una capacità/produzione annua dell'ordine di 245.000–300.000 t di mangime. A quel volume il fatturato è verosimilmente MOLTO SOPRA la forbice target 5–40 M€, salvo che si tratti in prevalenza di lavorazione per conto terzi (Lohnfertigung), come l'azienda stessa dichiara. Va esplicitato.",
+  "gravita": "media",
+  "evidenza": "https://www.deutsche-muellerschule-bs.de/regional-verbunden-das-mischfutterwerk-austing/ e https://www.kipro-projekt.de/partner_austing.html — '25 Mitarbeiter… rund um die Uhr im Dreischichtbetrieb', produzione annua ~300.000 t; https://austing.de/ — 'Schweine-, Geflügel- und Rinderfutter in Lohnfertigung'",
+  "correzione_proposta": "25 dipendenti e ~245.000–300.000 t/anno di mangime prodotto (fonti aziendali/di progetto, non datate); fatturato da Bundesanzeiger — attenzione: quota rilevante in Lohnfertigung"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Austing Mischfutterwerk GmbH & Co. KG",
+  "campo": "filiera",
+  "problema": "PERIMETRO DA PRECISARE: l'azienda produce mangime composto in LOHNFERTIGUNG (lavorazione per conto terzi). Se non acquista né immette in proprio la soia sul mercato UE, il ruolo EUDR potrebbe essere quello di trasformatore per conto del committente e non di operatore: verificare chi acquista la materia prima proteica.",
+  "gravita": "media",
+  "evidenza": "https://austing.de/ — 'Mischfutterwerk in Damme-Oldorf… Schweine-, Geflügel- und Rinderfutter in Lohnfertigung'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Demharter Mischfutterwerk GmbH & Co. KG",
+  "campo": "dimensione",
+  "problema": "Il campo riporta una fascia di portale ('Umsatz 10–50 Mio €' da wer-zu-wem) SENZA ANNO e senza indicazione che si tratta di una classe stimata: fascia troppo ampia (copre da dentro a fuori forbice). Nessun bilancio pubblico reperibile per la KG (Amtsgericht Augsburg HRA 10383). DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://www.wer-zu-wem.de/firma/demhartermischfutter.html (classe di fatturato, non datata); https://www.northdata.com/Demharter%20Mischfutterwerk%20GmbH%20&%20Co%C2%B7%20KG,%20Schwabm%C3%BCnchen/Amtsgericht%20Augsburg%20HRA%2010383 — dati economici non pubblici",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Demharter Mischfutterwerk GmbH & Co. KG",
+  "campo": "sito",
+  "problema": "Campo sito vuoto: confermato che l'azienda non ha un sito web proprio (l'unico recapito digitale è una casella t-online, coerente con l'assenza di dominio). Non è un errore del foglio ma un limite di contattabilità/verificabilità da segnalare al cliente.",
+  "gravita": "bassa",
+  "evidenza": "https://firmeneintrag.creditreform.de/86830/8030003015/DEMHARTER_MISCHFUTTERWERK_GMBH_CO_KG e https://schwabmuenchen.branchen-info.net/fp_4102743.php — 'Telefon 08232-4441, E-Mail Demharter-Mischfutter@t-online.de', nessun sito indicato",
+  "correzione_proposta": ""
  }
 ]

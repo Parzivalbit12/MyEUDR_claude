@@ -237,15 +237,15 @@ Tre categorie di rilievi formali sono state lasciate aperte nel report invece ch
 
 | Foglio | Aziende | Blocchi completi | Blocchi parziali | Blocchi da fare | Aziende verificate | Copertura |
 |---|--:|--:|--:|--:|--:|--:|
-| Italia | 95 | 4 | 1 | 0 | 95 | 100% |
-| Germania | 97 | 4 | 1 | 1 | 83 | 86% |
+| Italia | 95 | 5 | 0 | 0 | 95 | 100% |
+| Germania | 97 | 5 | 0 | 1 | 85 | 88% |
 | Finlandia | 83 | 3 | 0 | 2 | 51 | 61% |
 | Danimarca | 85 | 5 | 0 | 0 | 89 | 105% |
 | Svezia | 88 | 5 | 0 | 0 | 89 | 101% |
 | Olanda | 98 | 6 | 0 | 0 | 100 | 102% |
 | Belgio | 92 | 5 | 0 | 0 | 95 | 103% |
 | Austria | 90 | 5 | 0 | 0 | 93 | 103% |
-| **TOTALE** | **728** | **37** | **2** | **3** | **695** | **95%** |
+| **TOTALE** | **728** | **39** | **0** | **3** | **697** | **96%** |
 
 _Un blocco è contato **completo** solo se l'agente ha confermato di aver verificato tutti i record. I **blocchi parziali** sono quelli ancora in corso o interrotti dal limite di sessione: i rilievi già salvati sono validi e inclusi nel report, ma la copertura è conteggiata al ribasso (solo le aziende che compaiono fra i rilievi). Il salvataggio incrementale ogni 3-4 record è ciò che ha evitato di perdere quel lavoro._
 
@@ -257,12 +257,12 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 
 ## 2. Rilievi per foglio
 
-**Totale rilievi Fase B: 1137** — alta 159 · media 655 · bassa 323.
+**Totale rilievi Fase B: 1141** — alta 159 · media 658 · bassa 324.
 
 | Foglio | Rilievi | alta | media | bassa | Aziende toccate |
 |---|--:|--:|--:|--:|--:|
 | Italia | 175 | 4 | 100 | 71 | 93 |
-| Germania | 171 | 16 | 110 | 45 | 83 |
+| Germania | 175 | 16 | 113 | 46 | 85 |
 | Finlandia | 68 | 16 | 35 | 17 | 41 |
 | Danimarca | 131 | 32 | 67 | 32 | 79 |
 | Svezia | 142 | 32 | 72 | 38 | 78 |
@@ -270,18 +270,18 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 | Belgio | 182 | 28 | 100 | 54 | 89 |
 | Austria | 103 | 12 | 61 | 30 | 71 |
 | _(tutti)_ | 1 | 0 | 0 | 1 | 1 |
-| **TOTALE** | **1137** | **159** | **655** | **323** | **619** |
+| **TOTALE** | **1141** | **159** | **658** | **324** | **621** |
 
 ### Rilievi per campo
 
 | Campo | Rilievi | di cui alta |
 |---|--:|--:|
-| dimensione | 530 | 83 |
+| dimensione | 532 | 83 |
 | referente | 245 | 26 |
 | email | 92 | 7 |
 | denominazione | 69 | 19 |
-| filiera | 68 | 19 |
-| sito | 35 | 2 |
+| filiera | 69 | 19 |
+| sito | 36 | 2 |
 | ruolo | 31 | 0 |
 | linkedin | 30 | 0 |
 | sede | 27 | 3 |
@@ -1759,7 +1759,7 @@ REFERENTE OBSOLETO DI DUE PASSAGGI. Heinz Hofer-Wittmann non e' piu' alla guida:
 
 ---
 
-## 5. Casi di gravità MEDIA (655)
+## 5. Casi di gravità MEDIA (658)
 
 _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente errato._
 
@@ -1869,12 +1869,14 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | ZaroCarni S.p.A. | referente | Referente e ruolo assenti. Risulta Rita Boldrini (moglie di Giovanni Zaro, in azienda da 60 anni) come amministratore unico/amministratore delegato; l'azienda e alla terza generazione della famiglia Zaro, fondata da Angelo Zaro. | https://www.varesenews.it/2024/12/zaro-carni-spa-una-tradizione-familiare-che-fa-scuola-nel-mercato-della-carne/2123349/ - "Rita Boldrini, moglie di G | Rita Boldrini - Amministratore Unico / Amministratore Delegato |
 | Zicaffè S.p.A. | referente | Referente e ruolo assenti. La società è amministrata collegialmente da otto cugini della terza generazione Zichittella; l'unica figura identificata con nome è Vito Michele Zichittella, che però è vicepresidente del CdA e direttore marketing, non il p | https://www.comunicaffe.it/intervista-a-vito-michele-zichittella-vice-presidente-c-d-a-e-direttore-marketing-zicaffe/ — «Vito Michele Zichittella, vic |  |
 
-### Germania (110)
+### Germania (113)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
 | Albrecht & Dill Trading GmbH | dimensione | Dato non pertinente: lo 'Stammkapital 500.000 €' è il capitale sociale, non una misura dimensionale. Il dato utile esiste ed è pubblicato: totale di bilancio 2023 ~80 Mio € (+10,5% sull'anno precedente), quindi azienda ben SOPRA la forbice target 5-4 | northdata/implisense, HRB 18309 Hamburg: «The last published balance sheet total of Albrecht & Dill Trading GmbH is 2023 at 80 M €, with an increase o | Totale di bilancio 2023: ~80 Mio € (northdata, HRB 18309) — sopra la forbice target; Umsatz non pubblicato |
 | Alder Sägewerk & Holzhandlung GmbH | dimensione | Campo privo di qualsiasi elemento dimensionale ('Umsatz/MA n.d.'): nessun tipo di dato, nessuna fonte, nessun anno. Segheria familiare (HRB 201958 Amtsgericht Stadthagen) verosimilmente molto sotto la forbice target 5-40 Mio EUR, senza segnalazione e | https://www.northdata.com/Alder%20S%C3%A4gewerk%20&%20Holzhandlung%20GmbH,%20Auhagen/Amtsgericht%20Stadthagen%20HRB%20201958 - scheda registro senza d |  |
+| Austing Mischfutterwerk GmbH & Co. KG | dimensione | Campo privo di dato ('n.d.') mentre esistono dati pubblici precisi e commercialmente rilevanti: 25 dipendenti (ufficio + produzione su tre turni) e una capacità/produzione annua dell'ordine di 245.000–300.000 t di mangime. A quel volume il fatturato  | https://www.deutsche-muellerschule-bs.de/regional-verbunden-das-mischfutterwerk-austing/ e https://www.kipro-projekt.de/partner_austing.html — '25 Mit | 25 dipendenti e ~245.000–300.000 t/anno di mangime prodotto (fonti aziendali/di progetto, non datate); fatturato da Bund |
+| Austing Mischfutterwerk GmbH & Co. KG | filiera | PERIMETRO DA PRECISARE: l'azienda produce mangime composto in LOHNFERTIGUNG (lavorazione per conto terzi). Se non acquista né immette in proprio la soia sul mercato UE, il ruolo EUDR potrebbe essere quello di trasformatore per conto del committente e | https://austing.de/ — 'Mischfutterwerk in Damme-Oldorf… Schweine-, Geflügel- und Rinderfutter in Lohnfertigung' |  |
 | Benecke Coffee GmbH & Co. KG | email | L'e-mail info@benecke-coffee.de non compare letteralmente nell'Impressum, che pubblica invece info@rehmcoffee.de (dominio operativo del gruppo dopo il rebranding Rehm & Co.). | Impressum benecke-coffee.de: «Admiralitaetsstrasse 10, 20459 Hamburg, vertreten durch den Geschaeftsfuehrer Clemens von Storch, Tel. +49 40 37 86 15 0 | info@rehmcoffee.de |
 | Bohnkaf-Kolonial GmbH & Co. KG | dimensione | Campo inutilizzabile ('n.d. (PMI...)'): nessun tipo di dato, fonte o anno. Trattandosi di una GmbH & Co. KG (HRA 5357 KI) i dati di bilancio non sono facilmente pubblici. DA CONFERMARE. | https://www.companyhouse.de/Bohnkaf-Kolonial-GmbH-Co-KG-Neumuenster ; https://firmeneintrag.creditreform.de/24539/2290238310/BOHNKAF_KOLONIAL_GMBH_CO_ |  |
 | Bärmühle Langenhessen GmbH Mischfutterwerk | dimensione | Campo privo di dato ('n.d.'). Si tratta di una GmbH costituita il 18.12.1998 con capitale sociale di soli 50.000 €, mulino locale per mangimi suini/bovini con orario di apertura da negozio agricolo: verosimilmente molto sotto la forbice target 5–40 M | https://www.registercheck.de/companies/baermuehle-langenhessen-gmbh — 'HRB 16380 Amtsgericht Chemnitz, Stammkapital 50.000,00 €, gegründet 18.12.1998' |  |
@@ -1891,6 +1893,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Confiserie Felicitas GmbH | referente | Indicato un solo referente: i Geschäftsführer sono due, la coppia di fondatori belga Goedele Matthyssen e Peter Bienstman. | Impressum Confiserie Felicitas GmbH (AG Cottbus HRB 2349 CB): «Geschäftsführer: Goedele Matthyssen, Peter Bienstman» — https://www.felicitas-schokolad | Goedele Matthyssen e Peter Bienstman (Geschäftsführer) |
 | Confiserie Felicitas GmbH | dimensione | 'classe Umsatz 10–50 Mio €' è una fascia di portale senza anno né fonte primaria, inutilizzabile per collocare l'azienda nella forbice 5-40 M€; anche il dato dipendenti è privo di anno. Un dato dipendenti datato è invece disponibile (75, dicembre 202 | https://bb-br.de/erfolgsstory/2024/12/03/confiserie-felicitas-im-schoko-himmel/ : «heute hat das Unternehmen 75 Mitarbeiter» (dic. 2024); fascia 10-50 | Dipendenti: 75 (Bürgschaftsbank Brandenburg, dic. 2024); fatturato: solo fascia di portale 10-50 Mio € senza anno — dato |
 | DINZLER Kaffeerösterei AG | dimensione | Il dato ('Umsatz ~27,8 Mio EUR stima, 193 MA') e' privo di anno di riferimento ed e' una STIMA di portale (Die Deutsche Wirtschaft), non un bilancio: nessuna fonte pubblica espone il fatturato reale. Con 27,8 Mio EUR l'azienda sarebbe nella meta' alt | Die Deutsche Wirtschaft, scheda Dinzler Kaffeeroesterei AG (valori dichiaratamente stimati, senza anno) — https://die-deutsche-wirtschaft.de/unternehm | Qualificare come 'Umsatz stimato ~27,8 Mio EUR (stima Die Deutsche Wirtschaft, anno non dichiarato), 193 MA incl. gastro |
+| Demharter Mischfutterwerk GmbH & Co. KG | dimensione | Il campo riporta una fascia di portale ('Umsatz 10–50 Mio €' da wer-zu-wem) SENZA ANNO e senza indicazione che si tratta di una classe stimata: fascia troppo ampia (copre da dentro a fuori forbice). Nessun bilancio pubblico reperibile per la KG (Amts | https://www.wer-zu-wem.de/firma/demhartermischfutter.html (classe di fatturato, non datata); https://www.northdata.com/Demharter%20Mischfutterwerk%20G |  |
 | Die Pharmadrucker GmbH | dimensione | Appartenenza a gruppo dichiarata ma da qualificare: la società è controllata dalla Bernecker-Gruppe (Druckerei Bernecker GmbH, stessa sede) dal 2016; la decisione di compliance EUDR si prende a livello di capogruppo, quindi il lead va indirizzato lì. | https://www.diepharmadrucker.de/unternehmen/ — società del gruppo Bernecker dal 2016, stessa sede di Druckerei Bernecker GmbH (Unter dem Schöneberg 1, | «Controllata di Bernecker-Gruppe (Melsungen) dal 2016; 50-99 dipendenti (wlw.com, senza anno) — fatturato non pubblicato |
 | Dresdner Kaffee und Kakao Rösterei (K+M Kaff | dimensione | Campo vuoto ('n.d.'), ma la ricerca fornisce un dato di VOLUME che colloca l'azienda molto sotto la forbice target 5-40 Mio EUR: circa 40.000 kg di caffe' torrefatto all'anno (~40 t), tipico di una micro-torrefazione artigianale. Il lead va probabilm | wer-zu-wem.de / profilo torrefazione: «Die Roesterei roestet im Durchschnitt rund 40.000 Kilogramm Kaffee pro Jahr» — https://www.wer-zu-wem.de/firma/ | Volume: ~40.000 kg caffe' torrefatto/anno (fonte wer-zu-wem, anno non dichiarato); Umsatz/MA non pubblicati. NB: dimensi |
 | Druckerei Siepmann GmbH | dimensione | Campo inutilizzabile: «KMU; Umsatz/MA n.d.», nessun dato quantitativo, nessuna fonte, nessun anno. Il numero di dipendenti è invece pubblicato dall'azienda (~65). | https://siepmanndruck.de/ — «ein Team von rund 65 Mitarbeitern»; AG Hamburg HRB 25539 | «~65 dipendenti (sito aziendale, 2025); fatturato non pubblicato (GmbH, deposito abbreviato) — DA CONFERMARE su Bundesan |
@@ -2461,7 +2464,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 
 ---
 
-## 6. Casi di gravità BASSA (323)
+## 6. Casi di gravità BASSA (324)
 
 _Refusi formali e incoerenze di stile._
 
@@ -2542,7 +2545,7 @@ _Refusi formali e incoerenze di stile._
 | ZaroCarni S.p.A. | dimensione | Fatturato confermato (19.843.692 € nel 2024, utile 10.528 €; 2023: 18.635.575 €) ma l'organico e sottostimato: le fonti indicano 20-49 dipendenti da bilancio e circa 50 addetti dalla stampa locale, non 31. Si segnala la marginalita netta quasi nulla  | https://www.reportaziende.it/zarocarni_spa_va_01218410122 - "2024: fatturato 19.843.692 €, utile 10.528 €; 2023: 18.635.575 €; costo del personale 1.4 | ~19,8 mln € (fatturato 2024, bilancio depositato); ~50 addetti; ATECO 10.11 |
 | Zicaffè S.p.A. | denominazione | Denominazione legale completa: «ZICAFFE S.P.A. o più brevemente I.T.Z. - S.P.A.» (P.IVA 00116680810). La forma abbreviata usata nel foglio è corretta ma incompleta rispetto al Registro Imprese. | https://www.ufficiocamerale.it/1651/zicaffe-spa-o-piu-brevemente-itz-spa ; https://www.reportaziende.it/zicaffe_spa_o_piu_brevemente_itz_spa_tp_001166 | Zicaffè S.p.A. (denominazione a registro: ZICAFFE S.P.A. o più brevemente I.T.Z. - S.P.A.) |
 
-### Germania (45)
+### Germania (46)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -2553,6 +2556,7 @@ _Refusi formali e incoerenze di stile._
 | Christian Göbel Holzgroßhandlung GmbH & Co.  | denominazione | Ragione sociale incompleta: la denominazione registrata e 'Christian Göbel Holzgroßhandlung, Großhandlung mit Sperrholz GmbH & Co. KG' (HRA 15605 Amtsgericht Frankfurt/Main). | https://www.goebel-holz.de/impressum/ - 'Christian Göbel Holzgroßhandlung, Großhandlung mit Sperrholz GmbH & Co. KG, Anton-Schlüter-Straße 2, 60437 Fr | Christian Göbel Holzgroßhandlung, Großhandlung mit Sperrholz GmbH & Co. KG |
 | Confiserie Felicitas GmbH | email | E-mail dichiarata 'n.d.' ma un indirizzo esiste nell'Impressum (mascherato nei risultati di ricerca). Verificare sul sito; l'Impressum indica inoltre come dominio istituzionale www.confiserie-felicitas.de, diverso da quello censito (felicitas-schokol | Impressum Confiserie Felicitas GmbH: «Schokoladenweg 1, 03130 Spremberg OT Hornow, Tel. +49 35698 80 555 0 ... www.confiserie-felicitas.de, E-Mail: [m |  |
 | DINZLER Kaffeerösterei AG | referente | Franz Richter e' confermato Vorstandsvorsitzender, ma il Vorstand e' composto da 5 membri (Franz Richter, Rolf Fischer, Matthias Richter, Katrin Richter, Thomas Steinke) con Aufsichtsratsvorsitzender Prof. Peter Matthias Astner. Nessun errore, solo i | Companyhouse Dinzler Kaffeeroesterei AG: «Das Unternehmen wird derzeit von 9 Managern gefuehrt (5 Vorstaende, 1 Prokurist, 3 Aufsichtsraete)» — https: |  |
+| Demharter Mischfutterwerk GmbH & Co. KG | sito | Campo sito vuoto: confermato che l'azienda non ha un sito web proprio (l'unico recapito digitale è una casella t-online, coerente con l'assenza di dominio). Non è un errore del foglio ma un limite di contattabilità/verificabilità da segnalare al clie | https://firmeneintrag.creditreform.de/86830/8030003015/DEMHARTER_MISCHFUTTERWERK_GMBH_CO_KG e https://schwabmuenchen.branchen-info.net/fp_4102743.php  |  |
 | Dresdner Kaffee und Kakao Rösterei (K+M Kaff | referente | Karsten Lehmann e' confermato Geschaeftsfuehrer, ma la societa' ha due Geschaeftsfuehrer: risulta anche Stefan Meyer-Goetz. Informazione da completare. | Registri societari K+M . Kaffee und Maschinen GmbH, HRB 22937 Dresden: «Geschaeftsfuehrer: Karsten Lehmann, Stefan Meyer-Goetz» — https://www.northdat | Karsten Lehmann, Stefan Meyer-Goetz (Geschaeftsfuehrer) |
 | E. Fuhlrott GmbH & Co. KG (HOLZFUHLROTT) | denominazione | Denominazione registrata completa: 'E. Fuhlrott GmbH & Co. KG, Kistenfabrik und Holzhandel' (HRA 400107). Esistono inoltre societa collegate del medesimo gruppo familiare (FUHLROTT Paletten Verpackungen & Logistik GmbH, HRB 510714; Fuhlrott Produktio | https://www.unternehmen24.info/Firmeninformationen/Deutschland/Firma/164652 - 'E. Fuhlrott GmbH & Co. KG, Kistenfabrik und Holzhandel, HRA 400107'; ht | E. Fuhlrott GmbH & Co. KG, Kistenfabrik und Holzhandel |
 | EcoFinia GmbH (VIVANI / iChoc) | sede | Sede legale incerta: le fonti registrali riportano EcoFinia GmbH con sede a Herford (Amtsgericht Bad Oeynhausen HRB 5604), mentre altre fonti e il sito indicano Bochum. Verificare quale sia la sede legale attuale e quale l'unità operativa. | https://www.firmenwissen.de/az/firmeneintrag/32051/4170196708/ECOFINIA_GMBH.html : «EcoFinia GmbH mit Sitz in Herford ... Amtsgericht Bad Oeynhausen H |  |

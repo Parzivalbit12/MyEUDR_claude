@@ -147,5 +147,13 @@
  "svezia_05": {
   "stato": "completo",
   "verificati": 17
+ },
+ "italia_05": {
+  "stato": "completo",
+  "verificati": 19
+ },
+ "germania_05": {
+  "stato": "completo",
+  "verificati": 17
  }
 }
