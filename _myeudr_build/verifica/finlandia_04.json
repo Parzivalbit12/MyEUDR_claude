@@ -1,0 +1,164 @@
+[
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Nordic Label Oy Ab",
+  "campo": "dimensione",
+  "problema": "Controllo di gruppo estero non dichiarato: Nordic Label e' stata ceduta dall'ex proprietaria Oy Tilgmann Ab al gruppo belga Asteria Group (intero capitale sociale). E' il record piu' grande del blocco (16,2 M€) ma la decisione di compliance EUDR si prende a livello di capogruppo belga, non della societa' finlandese.",
+  "gravita": "alta",
+  "evidenza": "https://pmlehti.fi/uutiset/toimiala/nordic-label-myytiin-asteria-groupille/ - 'Nordic Label Oy:n aiempi omistaja Oy Tilgmann Ab myi yhtion koko osakekannan Asteria Groupille'",
+  "correzione_proposta": "Aggiungere in dimensione/note: controllata dal gruppo belga Asteria Group (ex Tilgmann Group); compliance decisa a livello di capogruppo"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Pyroll Pakkaukset Oy",
+  "campo": "referente",
+  "problema": "Marko Penttinen e' toimitusjohtaja di Pyroll Pakkaukset GROUP Oy (la capogruppo, dall'8.4.2024), non necessariamente della singola entita' Pyroll Pakkaukset Oy: il referente indicato e' l'amministratore della capogruppo. Inoltre il gruppo Pyroll e' partecipato dal fondo di private equity finlandese MB Rahastot, circostanza non dichiarata; la decisione EUDR si prende a livello di gruppo (~67-70 M€, sopra la forbice).",
+  "gravita": "media",
+  "evidenza": "https://www.mbrahastot.fi/tiedote/2024/03/pyroll-pakkaukset-group-oyn-uudeksi-toimitusjohtajaksi-marko-penttinen/ - 'Pyroll Pakkaukset Group Oy:n uudeksi toimitusjohtajaksi Marko Penttinen'; https://pyroll.com/marko-penttinen-pyroll-pakkaukset-groupin-toimitusjohtajaksi/",
+  "correzione_proposta": "DA CONFERMARE il toimitusjohtaja della singola entita' Pyroll Pakkaukset Oy; precisare che la capogruppo Pyroll Pakkaukset Group Oy e' partecipata dal fondo MB Rahastot"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "St Michel Print Oy",
+  "campo": "referente",
+  "problema": "Referente e ruolo lasciati vuoti, mentre il vertice e' pubblicamente noto: Rami (Marko Rami-Petteri) Paajanen, toimitusjohtaja, subentrato a Heikki Suomala passato a direttore vendite e marketing.",
+  "gravita": "media",
+  "evidenza": "https://pmlehti.fi/uutiset/toimiala/st-michel-printin-johtoon-rami-paajanen/ ; https://fi.linkedin.com/in/rami-paajanen-2ba887125 'Rami Paajanen - Managing Director - St Michel Print Oy'",
+  "correzione_proposta": "Referente: Rami Paajanen — Ruolo: Toimitusjohtaja (CEO)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "St Michel Print Oy",
+  "campo": "email",
+  "problema": "L'email paul.dima@stmichelprint.fi esiste ma appartiene a Daniel Paul Dima, commerciale export per Balcani/Belgio/Paesi Bassi/Italia/Francia (telefono romeno +40): non e' il contatto decisionale per la compliance EUDR, ne' un indirizzo aziendale generico.",
+  "gravita": "media",
+  "evidenza": "https://stmichelprint.fi/contact/ - 'Daniel Paul Dima, Balkans, Belgium, The Netherlands, Italy, France, paul.dima@stmichelprint.fi, +40 731 037 496'; sulla stessa pagina 'Rami Paajanen, rami.paajanen@stmichelprint.fi, +358 40 7401768'",
+  "correzione_proposta": "rami.paajanen@stmichelprint.fi"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "St Michel Print Oy",
+  "campo": "dimensione",
+  "problema": "Il fatturato ~16 M€ e' una stima/obiettivo non supportata dalle fonti: la stampa locale riporta un liikevaihto attorno a 10 M€ negli esercizi recenti, con attesa di crescita >20% e ~13 M€ nel 2025. Manca inoltre il dato dipendenti (62 nell'esercizio 12/2023). Il record resta comunque in forbice, ma il valore indicato non e' verificato.",
+  "gravita": "media",
+  "evidenza": "https://www.mikkelinkaupunkilehti.fi/paikalliset/8218470 - 'koronavuosien jalkeen hyvia ja tasaisia vuosia, liikevaihto noin 10 miljoonaa euroa'; per il 2025 attesa 'yli 20 % kasvua, noin 13 miljoonaa euroa'",
+  "correzione_proposta": "Liikevaihto ~10 M€ (2023-24), atteso ~13 M€ (2025), ~62 dip. (2023)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Oy Orapac Ab",
+  "campo": "dimensione",
+  "problema": "Fatturato del 2022 (~15,0 M€), obsoleto di tre anni, accostato a un organico 2025 di ~24 dipendenti mentre nel 2024 i dipendenti erano 51: l'organico si e' piu' che dimezzato, quindi il liikevaihto 2022 non e' piu' rappresentativo della dimensione attuale e la collocazione in forbice non e' verificata.",
+  "gravita": "media",
+  "evidenza": "https://www.asiakastieto.fi/yritykset/fi/oy-orapac-ab/07992807/taloustiedot - '51 henkiloa vuonna 2024'; dato 2025: 24 henkiloa",
+  "correzione_proposta": "DA CONFERMARE: aggiornare il liikevaihto all'ultimo esercizio (2024/2025) e riallineare i dipendenti alla stessa annualita'"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Newprint Oy",
+  "campo": "dimensione",
+  "problema": "Il campo non riporta alcun dato di fatturato ('liikevaihto n.d.'): i database pubblici mostrano infatti 0 EUR per il 2024, cioe' ricavi non pubblicati. Con soli ~25 dipendenti non e' possibile verificare se l'azienda rientri nella forbice 5-40 M€.",
+  "gravita": "media",
+  "evidenza": "https://www.proff.fi/yrityksen/newprint-oy/raisio/painopalvelut/2276536-2I07QV - liikevaihto 0 EUR (2024), 25 tyontekijaa, liiketoiminnan voitto 83 000 EUR; toimitusjohtaja Petteri Kristian Reunanen (confermato)",
+  "correzione_proposta": "DA CONFERMARE il liikevaihto; senza il dato il lead non e' collocabile nella forbice dimensionale"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Jospak Oy",
+  "campo": "dimensione",
+  "problema": "Scale-up in forte perdita e fortemente sotto forbice: liikevaihto 1,05 M€ nel 2023 con risultato d'esercizio -3,04 M€, 1,9 M€ nel 2024. La societa' vive di aumenti di capitale mirati (1 M€ nel 2020, 3,5 M€ nel 2021): rischio di continuita' aziendale da valutare prima dell'outreach. Il campo segnala 'sotto fascia' ma non la fragilita' finanziaria.",
+  "gravita": "media",
+  "evidenza": "https://www.asiakastieto.fi/yritykset/fi/jospak-oy/26182973/taloustiedot - 'liikevaihto oli 1,05 miljoonaa euroa ja tilikauden tulos -3,04 miljoonaa 2023'; 1,9 M€ / 29 henkiloa 2024",
+  "correzione_proposta": "Aggiungere alla dimensione: risultato d'esercizio -3,04 M€ (2023), societa' finanziata da round di capitale; verificare continuita'"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Jospak Oy",
+  "campo": "email",
+  "problema": "Email indicata 'n.d.' e non ritrovata in alcuna fonte pubblica: nei registri compaiono solo indirizzo (Kuulalaakerintie 6, 30100 Forssa) e telefono (+358 20 730 7860). Il lead non e' contattabile via e-mail.",
+  "gravita": "media",
+  "evidenza": "https://www.finder.fi/Pakkaukset/Jospak+Oy/Forssa/yhteystiedot/2924172 - contatti pubblici limitati a indirizzo e telefono",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Pakkaus Piippo Oy",
+  "campo": "email",
+  "problema": "Email indicata 'n.d.'. L'azienda pubblica solo il formato degli indirizzi (etunimi.sukunimi(at)piippopack.com) e i numeri diretti del toimitusjohtaja Tero Nystedt (050 523 2132); nessun indirizzo letterale reperito, quindi non se ne puo' proporre uno senza inventarlo.",
+  "gravita": "media",
+  "evidenza": "https://www.piippopack.com/yhteystiedot/ - 'Sahkopostit muotoa: etunimi.sukunimi(at)piippopack.com'; 'Toimitusjohtaja Tero Nystedt, 050 523 2132'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Pakkaus Piippo Oy",
+  "campo": "sede",
+  "problema": "Discrepanza tra sede legale e stabilimento: l'indirizzo operativo e' Lentilantie 6, 37800 Akaa (coerente col record), ma i registri indicano come kotipaikka Lempaala (Pirkanmaa).",
+  "gravita": "bassa",
+  "evidenza": "https://www.asiakastieto.fi/yritykset/fi/pakkaus-piippo-oy/05702706/yleiskuva - 'Pakkaus Piippo Oy on Lempaalassa toimiva osakeyhtio'; https://www.piippopack.com/yhteystiedot/ - 'Lentilantie 6, 37800 Akaa'",
+  "correzione_proposta": "Akaa (stabilimento) / Lempaala (kotipaikka), Pirkanmaa"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Pirkanmaan Laatuetiketti Oy",
+  "campo": "dimensione",
+  "problema": "Fatturato indicato ~1,9 M€ (~2022), obsoleto e senza dato dipendenti; le fonti recenti riportano ~2,2 M€ e 10 dipendenti nel 2025 (esercizio chiuso 08/2024 gia' a 2,2 M€).",
+  "gravita": "bassa",
+  "evidenza": "https://www.asiakastieto.fi/yritykset/fi/pirkanmaan-laatuetiketti-oy/21173541/taloustiedot - 'liikevaihto oli 2,2 miljoonaa euroa 2025' con 10 henkiloa",
+  "correzione_proposta": "Liikevaihto ~2,2 M€ (2025), ~10 dip. — sotto fascia"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Pirkanmaan Laatuetiketti Oy",
+  "campo": "linkedin",
+  "problema": "Il campo LinkedIn contiene il profilo personale del referente Jarkko Kallio, non la pagina aziendale di Pirkanmaan Laatuetiketti Oy.",
+  "gravita": "bassa",
+  "evidenza": "Valore nel record: https://www.linkedin.com/in/jarkko-kallio-b9774182/ (profilo /in/, personale)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Kirjapaino Markprint Oy",
+  "campo": "dimensione",
+  "problema": "Dato aggiornabile: il record riporta ~2,1 M€ e ~16 dip. (2024), ma l'esercizio 2025 e' gia' pubblicato a 1,9 M€ con 13 dipendenti (contrazione). Referente Tuomas Talvitie confermato (toimitusjohtaja dal 1.7.2024, Mikko Ilomaki passato a presidente del CdA).",
+  "gravita": "bassa",
+  "evidenza": "https://www.asiakastieto.fi/yritykset/fi/kirjapaino-markprint-oy/17728196/taloustiedot - '1,9 miljoonaa euroa 2025', 13 henkiloa; https://www.markprint.fi/tuomas-johtaa-ja-visioi/",
+  "correzione_proposta": "Liikevaihto ~1,9 M€ (2025), ~13 dip. — sotto fascia"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Cafetoria Roastery Oy",
+  "campo": "ruolo",
+  "problema": "Il ruolo indicato e' 'Perustaja' (fondatore), che non e' una carica sociale: le fonti confermano Ivan Ore come imprenditore/fondatore della societa' costituita nel 2012 con la moglie, ma non e' stato possibile riscontrare in una fonte pubblica la carica formale di toimitusjohtaja.",
+  "gravita": "bassa",
+  "evidenza": "https://www.yrittajat.fi/uutiset/vuoden-maahan-muuttanut-yrittaja-ivan-ore-vaihtoi-alaa-nokian-insinoorista-kahvin-paahtajaksi/ - 'perustivat Cafetoria Roastery Oy:n vuonna 2012'; asiakastieto non espone il toimitusjohtaja nei frammenti",
+  "correzione_proposta": "DA CONFERMARE: Toimitusjohtaja (CEO) / Perustaja"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Kahiwa Coffee Roasters Oy",
+  "campo": "linkedin",
+  "problema": "Il campo LinkedIn contiene il profilo personale del referente Joonas Reinikainen, non la pagina aziendale di Kahiwa Coffee Roasters Oy. Dati economici e referente per il resto confermati (0,92 M€ 2024, toimitusjohtaja Joonas Reinikainen, importatore di caffe' verde).",
+  "gravita": "bassa",
+  "evidenza": "Valore nel record: https://www.linkedin.com/in/joonas-reinikainen-818a25b2/ (profilo /in/, personale); dato confermato su https://www.asiakastieto.fi/yritykset/fi/kahiwa-coffee-roasters-oy/28204427/taloustiedot",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Lehmus Roastery Oy",
+  "campo": "linkedin",
+  "problema": "Il campo LinkedIn contiene il profilo personale del referente Arttu Muukkonen, non la pagina aziendale. Per il resto il record e' confermato: societa' attiva, nessun konkurssi o yrityssaneeraus, liikevaihto 2 M€ e 19 dip. nel 2024 (20 dip. nel 2025, con perdita operativa di 12 mila €), toimitusjohtaja Arttu Juhana Muukkonen.",
+  "gravita": "bassa",
+  "evidenza": "Valore nel record: https://www.linkedin.com/in/arttu-muukkonen-17b5a326/ (profilo /in/); https://www.asiakastieto.fi/yritykset/fi/lehmus-roastery-oy/27633828/taloustiedot",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Helsingin Kahvipaahtimo (Olfactory Oy Ab)",
+  "campo": "dimensione",
+  "problema": "Il fatturato indicato (~1,0 M€ 2025) non trova riscontro: l'ultimo esercizio pubblicato e' il 2024 con 876 mila € (2023: 729 mila €) e utile d'esercizio di 1 mila €. Referente Aki Aunola confermato come toimitusjohtaja.",
+  "gravita": "bassa",
+  "evidenza": "https://www.taloustutka.fi/company/2777891-2 - 'liikevaihto oli 876,0 tuhatta euroa, tilikauden tulos 1,0 tuhatta euroa' (2024); toimitusjohtaja Aki Marko Antero Aunola",
+  "correzione_proposta": "Liikevaihto ~0,88 M€ (2024), 5-7 dip. — sotto fascia"
+ }
+]

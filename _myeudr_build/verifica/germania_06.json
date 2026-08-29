@@ -1,0 +1,218 @@
+[
+ {
+  "foglio": "Germania",
+  "denominazione": "ETS Mischfutterwerk GmbH & Co. KG (Eilers Futtermittel)",
+  "campo": "referente",
+  "problema": "L'Impressum ufficiale (la fonte citata nel record) indica come Geschaeftsfuehrer Stefan Eilers e Juergen Aumann. I nomi 'Thorsten Finke' e 'Holger Ellberg' non compaiono nell'Impressum della societa' (sono riconducibili alle societa' socie, non a ETS): referenti non riconfermati.",
+  "gravita": "media",
+  "evidenza": "https://www.ets-mischfutterwerk.de/impressum/ - 'Am Kanal 49, 49549 Ladbergen; Geschaeftsfuehrer: Stefan Eilers, Juergen Aumann; HRA 6208 Amtsgericht Steinfurt'",
+  "correzione_proposta": "Stefan Eilers, Juergen Aumann (Geschaeftsfuehrer, Impressum ets-mischfutterwerk.de)"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "ETS Mischfutterwerk GmbH & Co. KG (Eilers Futtermittel)",
+  "campo": "denominazione",
+  "problema": "CONTROLLO DI TERZI NON DICHIARATO. Il record attribuisce la societa' alla sola Eilers Futtermittel, ma ETS e' una joint venture: soci sono Eilers Futtermittel GmbH & Co. KG, agritura Raiffeisen eG, Raiffeisen-Warengenossenschaft Teuto-Sued eG e Raiffeisen Westfalen Nord eG. La compliance EUDR sull'acquisto di soia si decide a livello delle cooperative Raiffeisen socie, non nello stabilimento.",
+  "gravita": "alta",
+  "evidenza": "https://www.agritura-raiffeisen.com/standort/ets-mischfutterwerk.html + northdata HRA 6208 Steinfurt: 'joint venture tra Eilers Futtermittel GmbH & Co. KG e agritura Raiffeisen eG'; soci anche Raiffeisen-Warengenossenschaft Teuto-Sued eG e Raiffeisen Westfalen Nord eG",
+  "correzione_proposta": "Segnalare nel record: JV Eilers Futtermittel / agritura Raiffeisen eG (+ Raiffeisen Teuto-Sued eG, Raiffeisen Westfalen Nord eG) - decisione d'acquisto a livello cooperativo"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "ETS Mischfutterwerk GmbH & Co. KG (Eilers Futtermittel)",
+  "campo": "dimensione",
+  "problema": "Dato incoerente e da fonte algoritmica. 'Umsatz ~10 Mio € (2023, Implisense)' e' una stima automatica non verificabile ed e' implausibile rispetto alla capacita' dichiarata dall'azienda: 150.000 t di mangime/anno dal 2017 corrispondono a un giro d'affari nell'ordine dei 40-50 Mio €. Il campo non regge come misura di taglia.",
+  "gravita": "media",
+  "evidenza": "https://www.ets-mischfutterwerk.de/unser-neues-mischfutterwerk/ - 'produce 150.000 t di mangime dall'estate 2017; sili e capannoni per cereali, mangimi e fertilizzanti con capacita' complessiva di 17.000 t'",
+  "correzione_proposta": "Volumi: 150.000 t mangime/anno (sito ufficiale, impianto operativo dal 2017); fatturato non pubblicato (northdata/Implisense solo a pagamento) - DA CONFERMARE su Bundesanzeiger"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Freisl Kraftfutter GmbH",
+  "campo": "dimensione",
+  "problema": "Campo inutilizzabile: 'n.d.' senza alcun dato quantitativo. Le fonti disponibili collocano l'azienda ben SOTTO la forbice target 5-40 Mio €: classe di fatturato fino a 10 Mio € e 1-9 dipendenti, capitale sociale 25.000 €. Micro-impresa: da valutare se resta in target.",
+  "gravita": "media",
+  "evidenza": "https://www.companyhouse.de/Freisl-Kraftfutter-GmbH-Habach e https://www.firmenwissen.com/en/az/firmeneintrag/82392/8290134895/FREISL_KRAFTFUTTER_GMBH.html - 'classe di fatturato fino a 10 Mio €; 1-9 dipendenti; GmbH costituita il 22.11.2000, capitale 25.000 €'",
+  "correzione_proposta": "Fatturato: classe <10 Mio € (Companyhouse/firmenwissen, senza anno); dipendenti 1-9; molino familiare dal 1822, HRB 134635 AG Muenchen - taglia sotto la forbice target"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Heinrich Meier Muehle und Futtermittelhandel GmbH & Co. KG",
+  "campo": "dimensione",
+  "problema": "Campo senza alcun dato quantitativo ('n.d.'). Il dato recuperabile mostra una micro-impresa in contrazione: Bilanzsumme 2 Mio € nel 2023, -9,8% sull'anno precedente. Molto sotto la forbice target 5-40 Mio €.",
+  "gravita": "media",
+  "evidenza": "https://implisense.com/en/companies/heinrich-meier-muehle-und-futtermittelhandel-gmbh-co-kg-hille-DEFKS9SFXH85 - 'Bilanzsumme 2023: 2 Mio €, -9,8% rispetto all'anno precedente'",
+  "correzione_proposta": "Totale di bilancio 2 Mio € (2023, Implisense/Bundesanzeiger), -9,8% su 2022; HRA 2696 AG Bad Oeynhausen - sotto la forbice target"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Heinrich Meier Muehle und Futtermittelhandel GmbH & Co. KG",
+  "campo": "filiera",
+  "problema": "DA CONFERMARE l'esposizione alla soia. L'attivita' prevalente descritta dalle fonti e' la produzione di alimenti per animali da compagnia ('da oltre 40 anni sviluppa e produce mangime per animali domestici') e il commercio all'ingrosso di cereali, tabacco greggio e sementi; la soia non compare come materia prima documentata. Il volume di soia immessa sul mercato UE potrebbe essere marginale o nullo.",
+  "gravita": "media",
+  "evidenza": "https://implisense.com/en/companies/heinrich-meier-muehle-und-futtermittelhandel-gmbh-co-kg-hille-DEFKS9SFXH85 - 'oggetto sociale: commercio all'ingrosso di cereali, tabacco greggio, sementi e mangimi; da oltre 40 anni sviluppa e produce mangimi per animali da compagnia'; sito meier-hille.de 'Der beste Freund Deines Tieres'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Kraftfutter-Meyer GmbH",
+  "campo": "dimensione",
+  "problema": "DATO ERRATO. Il record riporta la fascia di portale 'Umsatz 10-50 Mio €' (senza anno): il bilancio depositato indica un fatturato reale di 5,67 Mio € nel 2023, cioe' da 2 a 9 volte inferiore alla fascia dichiarata. L'azienda e' al limite inferiore della forbice target, non a meta'.",
+  "gravita": "alta",
+  "evidenza": "https://app.implisense.com/en/companies/kraftfutter-meyer-gmbh-twistringen--DEIEMKXQNZ39 - 'Umsatz 2021: 3.462.639 €; 2022: 5.223.194 €; 2023: 5.666.643 €; 30 dipendenti (2023); ultimo Jahresabschluss pubblicato il 13.08.2025'",
+  "correzione_proposta": "Umsatz 5,67 Mio € (2023, Jahresabschluss/Bundesanzeiger via Implisense), in crescita da 3,46 Mio € (2021); 30 dipendenti (2023)"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Meika-Biofutter GmbH",
+  "campo": "dimensione",
+  "problema": "Campo senza fonte ne' anno e con volume impreciso: le fonti indicano ~40.000 t/anno (non 48.000) e 25 dipendenti. Manca del tutto il dato economico, che e' disponibile: totale di bilancio 20 Mio € (2023).",
+  "gravita": "media",
+  "evidenza": "https://implisense.com/en/companies/meika-biofutter-gmbh-grossaitingen-DE4EHOI6WM65 e https://www.wer-zu-wem.de/firma/meika-tierernaehrung.html - '25 dipendenti; produzione annua ca. 40.000 t; ultimo totale di bilancio pubblicato 2023: 20 Mio €'",
+  "correzione_proposta": "Totale di bilancio 20 Mio € (2023, Bundesanzeiger via Implisense); 25 dipendenti; ~40.000 t mangime bio/anno; HRB 20318 AG Augsburg"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Schellinger KG",
+  "campo": "dimensione",
+  "problema": "Il valore ~46,86 Mio € e' una STIMA di portale (Companyhouse/wer-zu-wem) priva di anno di riferimento, non un dato di bilancio; la KG non e' tenuta a pubblicare conto economico. Il campo non dichiara l'anno.",
+  "gravita": "media",
+  "evidenza": "https://www.companyhouse.de/Schellinger-KG-Weingarten e https://www.wer-zu-wem.de/firma/schellinger.html - 'Der geschaetzte Umsatz betraegt 46,86 Mio Euro' (nessun anno indicato); HRA 550174 AG Ulm",
+  "correzione_proposta": "Esplicitare: fatturato STIMATO ~46,9 Mio € (Companyhouse/wer-zu-wem, anno non dichiarato) - dato non confermato da bilancio; DA CONFERMARE"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Schellinger KG",
+  "campo": "filiera",
+  "problema": "Filiera dichiarata solo 'Mangimi/Soia', ma dal 1998 l'azienda produce e distribuisce pellet di legno a marchio Sonnen-Pellets su due stabilimenti in Baden-Wuerttemberg: e' un'ulteriore commodity dell'Allegato I EUDR (legno) non rilevata dal record. Informazione che aumenta la rilevanza del lead.",
+  "gravita": "bassa",
+  "evidenza": "https://www.depv.de/unternehmen/8c7524a3-5522-43e5-a702-84d54d310026/ e https://schellinger-kg.de/de/impressum/ - 'Die Schellinger KG produziert und vertreibt seit 1998 Holzpellets der Marke Sonnen-Pellets; an zwei Standorten in Baden-Wuerttemberg, ENplus zertifiziert'",
+  "correzione_proposta": "Mangimi/Soia + Legno (pellet Sonnen-Pellets, dal 1998, ENplus)"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Wilhelm Stroeh jun. GmbH & Co. KG",
+  "campo": "dimensione",
+  "problema": "Campo privo di qualsiasi dato quantitativo ('n.d.'). Dopo tre ricerche non emergono ne' fatturato ne' numero di dipendenti da fonti pubbliche (la KG non pubblica bilancio; Creditreform/Kompass non espongono cifre). Unico dato operativo reperibile: 120 tipi di mangime prodotti in proprio, principale grossista di mangimi per cavalli del Nord Germania.",
+  "gravita": "media",
+  "evidenza": "https://www.hobbersdorfer-muehle.com/ e https://www.wlw.com/en/company/wilhelm-stroeh-jun-gmbh-co-kg-1104774 - 'produziert 120 Futtersorten im eigenen Haus; fuehrender Grosshaendler fuer Pferdefutter in Norddeutschland' (nessuna cifra di fatturato o addetti)",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Wilhelm Stroeh jun. GmbH & Co. KG",
+  "campo": "referente",
+  "problema": "Il record indica un solo referente. L'azienda si presenta come guidata da due persone della famiglia: Horst-Wilhelm e Philipp-Wilhelm Stroeh (4a/5a generazione). Manca il secondo referente, verosimilmente quello operativo per la generazione entrante.",
+  "gravita": "bassa",
+  "evidenza": "https://www.hobbersdorfer-muehle.com/ - 'Horst-Wilhelm und Philipp-Wilhelm Stroeh und ihr Team'; Impressum: 'vertreten durch Horst Wilhelm Stroeh GmbH (AG Luebeck HRB 828 BS), Geschaeftsfuehrer Horst-Wilhelm Stroeh'",
+  "correzione_proposta": "Horst-Wilhelm Stroeh (Geschaeftsfuehrer) + Philipp-Wilhelm Stroeh"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Gustav Heess Oleochemische Erzeugnisse GmbH",
+  "campo": "dimensione",
+  "problema": "Il campo mescola dipendenti di GRUPPO (~150 nel mondo) con il totale di bilancio della singola GmbH e non riporta il fatturato, che e' il parametro della forbice target: un totale di bilancio di 40 Mio € non equivale a 40 Mio € di ricavi. Il gruppo dichiara oltre 100.000 t di prodotti speciali consegnate e nove filiali/impianti in Europa, USA e Asia: taglia verosimilmente sopra la forbice.",
+  "gravita": "media",
+  "evidenza": "https://implisense.com/en/companies/gustav-heess-oleochemische-erzeugnisse-gmbh-leonberg-DEEMPOG4M394 - 'ultimo totale di bilancio pubblicato 2023: 40 Mio €; Jahresueberschuss 2023: 4.458.761 €'; https://www.heessoils.com/en/contact/gustav-heess-worldwide.html - 'nine subsidiaries and production units in Europe, the U.S. and Asia; more than 150 employees; over 100.000 tons of specialty products'",
+  "correzione_proposta": "Totale di bilancio 40 Mio € (2023, Bundesanzeiger via Implisense), utile netto 4,46 Mio € (2023); >150 dipendenti di gruppo; fatturato non pubblicato - DA CONFERMARE"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Gustav Heess Oleochemische Erzeugnisse GmbH",
+  "campo": "denominazione",
+  "problema": "Struttura societaria non dichiarata: la GmbH ha due soci, Olisud Sarl e Gustav Heess GmbH & Co. KG, ed e' la capofila operativa di un gruppo con nove societa'/impianti in Europa, USA e Asia. Se Olisud Sarl e' il veicolo di proprieta' della famiglia il rilievo resta formale, ma va verificato che la decisione d'acquisto dell'olio di palma non sia accentrata altrove.",
+  "gravita": "bassa",
+  "evidenza": "https://www.northdata.com/Gustav%20Heess%20Oleochemische%20Erzeugnisse%20GmbH,%20Leonberg/Amtsgericht%20Stuttgart%20HRB%205001 - '2 Gesellschafter: Olisud Sarl; Gustav Heess GmbH & Co. KG'; HRB 5001 AG Stuttgart; 6 persone con potere di rappresentanza (4 Geschaeftsfuehrer, 2 Prokuristen)",
+  "correzione_proposta": "Indicare: gruppo Gustav Heess (soci Olisud Sarl e Gustav Heess GmbH & Co. KG) - DA CONFERMARE natura di Olisud Sarl"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Henry Lamotte Oils GmbH",
+  "campo": "dimensione",
+  "problema": "FUORI FORBICE NON DICHIARATA IN CIFRA. Il campo si limita a '>200 MA' e 'fascia alta', ma il fatturato 2023 e' 138,4 Mio €, oltre tre volte il limite superiore della forbice target 5-40 Mio €. Anche il numero di dipendenti e' impreciso: 196, non oltre 200. Il record non consente di capire che si tratta di un'azienda di taglia molto superiore al perimetro commerciale.",
+  "gravita": "alta",
+  "evidenza": "https://implisense.com/en/companies/henry-lamotte-oils-gmbh-bremen-DEZCLBIG6D39 e https://www.northdata.com/Henry%20Lamotte%20Oils%20GmbH,%20Bremen/HRB%2014591 - 'Umsatz 2023: 138,4 Mio €; Mitarbeiter 2023: 196; Bilanzsumme 50 Mio €'",
+  "correzione_proposta": "Umsatz 138,4 Mio € (2023, Bundesanzeiger via Implisense/Northdata); 196 dipendenti; totale di bilancio 50 Mio € - SOPRA la forbice target 5-40 Mio €"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Henry Lamotte Oils GmbH",
+  "campo": "email",
+  "problema": "DA CONFERMARE: l'indirizzo info@lamotte-oils.de non e' stato ritrovato letteralmente in nessuna fonte pubblica indicizzata (ricerca esatta sulla stringa senza risultati). Il dominio e l'Impressum sono corretti, ma l'indirizzo va riconfermato sulla pagina Kontakt prima dell'uso.",
+  "gravita": "media",
+  "evidenza": "Ricerca esatta \"info@lamotte-oils.de\": nessun risultato. Impressum verificato: https://lamotte-oils.de/impressum/ - 'Merkurstrasse 47, 28197 Bremen; HRB 14591 HB; Geschaeftsfuehrer Hermann Bosse, Sebastian Drewes, Albert Lamotte'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Schellinger KG",
+  "campo": "email",
+  "problema": "DA CONFERMARE: l'indirizzo info@schellinger-kg.de non compare letteralmente in nessuna fonte pubblica indicizzata (ricerca esatta sulla stringa senza risultati). Sito e Impressum sono corretti; l'indirizzo va riconfermato sulla pagina Kontakt.",
+  "gravita": "media",
+  "evidenza": "Ricerca esatta \"info@schellinger-kg.de\": nessun risultato. Pagine verificate: https://schellinger-kg.de/de/impressum/ e https://schellinger-kg.de/de/kontakt/ - 'Schiessplatzstrasse 1-5, 88250 Weingarten; HRA 550174 AG Ulm; USt-IdNr DE146395237'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "DUSP Fleisch & Service GmbH",
+  "campo": "dimensione",
+  "problema": "Fonte attribuita male e anno mancante. Il fatturato di 25 Mio € non proviene da Northdata (che per questa GmbH non espone ricavi in chiaro) ma dalla scheda wer-zu-wem, senza anno di riferimento. L'unico dato di bilancio pubblicato e' un totale di bilancio di 6 Mio € nel 2021 (+53,8% sull'anno precedente): il campo non permette di datare la taglia dichiarata.",
+  "gravita": "media",
+  "evidenza": "https://www.wer-zu-wem.de/firma/dusp-fleisch.html - 'Das Unternehmen erwirtschaftet einen Umsatz von 25 Millionen Euro und beschaeftigt rund 20 Vollzeitmitarbeiter' (senza anno); https://implisense.com/en/companies/dusp-fleisch-service-gmbh-dinslaken-DE7RD6J4SA68 - 'ultimo totale di bilancio pubblicato 2021: 6 Mio €, +53,8%'",
+  "correzione_proposta": "Umsatz ~25 Mio € e ~20 dipendenti a tempo pieno (wer-zu-wem, anno non dichiarato); totale di bilancio 6 Mio € (2021, Bundesanzeiger via Implisense). Fonte da correggere: wer-zu-wem, non Northdata"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "DUSP Fleisch & Service GmbH",
+  "campo": "filiera",
+  "problema": "Precisazione di perimetro: l'attivita' non e' solo 'lavorazione carne bovina dal 2011' ma include macellazione e lavorazione di suini e bovini PIU' commercio e intermediazione di carni e sottoprodotti, con avvio storico come lavorazione suina (bovini in commercio dal 2004, in lavorazione dal 2011). La quota bovina, l'unica in Allegato I, e' quindi solo una parte del giro d'affari e va dimensionata.",
+  "gravita": "bassa",
+  "evidenza": "https://www.wer-zu-wem.de/firma/dusp-fleisch.html - 'Schlachtung und Verarbeitung von Schweinen und Rindern sowie Handel und Vermittlung von Fleisch und Fleischnebenprodukten'; 'startete als reiner Schweinefleischverarbeiter, 2004 Rindfleischhandel, 2011 Rindfleischverarbeitung'",
+  "correzione_proposta": "Bovini/Carne (quota parziale: macellazione/lavorazione suini e bovini + commercio e intermediazione carni)"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "E. Jacobsen GmbH",
+  "campo": "dimensione",
+  "problema": "Campo con un solo dato, senza fonte ne' anno ('13 MA'), e in contrasto con le fonti disponibili, che indicano una fascia 11-50 dipendenti. Manca del tutto il dato economico: la societa' deposita bilancio (ultimo esercizio chiuso al 30.06.2022) ma le cifre non sono esposte in chiaro. Per un importatore di carne bovina sudamericana il fatturato e' il parametro decisivo e non e' indicato.",
+  "gravita": "media",
+  "evidenza": "https://www.northdata.com/E%C2%B7%20Jacobsen%20GmbH,%20Hamburg/HRB%2020750 e https://firmeneintrag.creditreform.de/22767/2150002973/E_JACOBSEN_GMBH - '11-50 dipendenti; ultimo Jahresabschluss al 30/06/2022; 5 persone con potere di rappresentanza (4 Prokuristen, 1 Geschaeftsfuehrer); 2 soci'",
+  "correzione_proposta": "Dipendenti 11-50 (Creditreform/Kompass, senza anno); fatturato non pubblicato in chiaro - bilancio depositato al 30.06.2022, DA CONFERMARE su Bundesanzeiger"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "FZK GmbH Frische-Zentrum-Kreipl",
+  "campo": "email",
+  "problema": "DA CONFERMARE: l'indirizzo orga@fzk-gmbh.de non e' stato ritrovato letteralmente in fonti pubbliche. L'unico indirizzo pubblicato e' quello nominativo della referente commerciale, lena.kreipl@fzk-gmbh.de.",
+  "gravita": "media",
+  "evidenza": "https://www.regionales-bayern.de/anbieter/fzk-gmbh-frische-zentrum-kreipl-zerlegung-metzgerei-werksverkauf-15896/ - 'Flugplatzstrasse 45, 94348 Atting; Tel. 09429 4509116; E-Mail: lena.kreipl@fzk-gmbh.de'",
+  "correzione_proposta": "lena.kreipl@fzk-gmbh.de (indirizzo pubblicato; orga@fzk-gmbh.de da riconfermare sull'Impressum)"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "FZK GmbH Frische-Zentrum-Kreipl",
+  "campo": "dimensione",
+  "problema": "Dato dipendenti sottostimato e privo di anno: le fonti indicano circa 50 dipendenti, non ~40. Manca inoltre il dato di volume, che e' disponibile e piu' significativo (circa 100 t di carne bovina e suina sezionate a settimana, ~5.000 t/anno) e manca qualsiasi cifra economica.",
+  "gravita": "media",
+  "evidenza": "https://www.regionales-bayern.de/anbieter/fzk-gmbh-frische-zentrum-kreipl-zerlegung-metzgerei-werksverkauf-15896/ e https://www.straubing-tigers.de/top-arbeitgeber/fzk-gmbh-frische-zentrum-kreipl/ - 'Familienbetrieb mit rund 50 Mitarbeitern; woechentlich werden ca. 100 Tonnen Rind- und Schweinefleisch zerlegt; fast 50 Jahre Erfahrung'",
+  "correzione_proposta": "~50 dipendenti (regionales-bayern.de / Straubing Tigers, senza anno); volumi ~100 t/settimana di carne bovina e suina sezionata (~5.000 t/anno); fatturato non pubblicato"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "FZK GmbH Frische-Zentrum-Kreipl",
+  "campo": "referente",
+  "problema": "Passaggio generazionale in corso non rilevato: Lothar Kreipl resta l'unico Geschaeftsfuehrer, ma dal 2 gennaio 2025 il registro annuncia la Prokura congiunta a Philipp Otto Kreipl (1992) e Lena Kreipl, che e' anche la referente di contatto pubblicata. Il record indica un solo nome dove gli interlocutori operativi sono tre.",
+  "gravita": "bassa",
+  "evidenza": "https://www.northdata.com/FZK%20GmbH%20Frische-Zentrum-Kreipl,%20Atting/Amtsgericht%20Straubing%20HRB%2010848 - 'gestita da 3 persone (2 Prokuristen e 1 Geschaeftsfuehrer); annuncio registro 02.01.2025: Philipp Otto Kreipl, geb. 21.05.1992 Straubing, e Lena Kreipl, Gesamtprokura'",
+  "correzione_proposta": "Lothar Kreipl (Geschaeftsfuehrer) + Philipp Otto Kreipl e Lena Kreipl (Prokuristen dal 01/2025)"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Heinrich Meier Muehle und Futtermittelhandel GmbH & Co. KG",
+  "campo": "linkedin",
+  "problema": "Campo vuoto benche' l'azienda abbia una pagina aziendale LinkedIn attiva.",
+  "gravita": "bassa",
+  "evidenza": "https://de.linkedin.com/company/meier-muehle - 'Heinrich Meier Muehle & Futtermittelhandel GmbH & Co. KG'",
+  "correzione_proposta": "https://de.linkedin.com/company/meier-muehle"
+ }
+]

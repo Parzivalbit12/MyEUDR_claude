@@ -1,0 +1,200 @@
+[
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Metsäpaahtimo (Sampokone Oy)",
+  "campo": "dimensione",
+  "problema": "Dimensione dichiarata 'n.d.': in realtà micro-impresa ampiamente fuori forbice 5-40 M€. Liikevaihto 130.000 € (2025) con 5 dipendenti; risultato operativo -10.000 € e omavaraisuusaste -77% (patrimonio netto negativo). Lead non qualificabile come operatore EUDR di taglia utile.",
+  "gravita": "alta",
+  "evidenza": "https://www.asiakastieto.fi/yritykset/fi/sampokone-oy/28367429/taloustiedot — 'SampoKone Oy had a revenue of 130,000 EUR in 2025 and employed 5 people ... operating result showed a loss of -10,000 euros ... equity ratio was -77%'",
+  "correzione_proposta": "Liikevaihto 0,13 M€ (2025), 5 dip. — FUORI FORBICE (micro-impresa, patrimonio netto negativo)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Metsäpaahtimo (Sampokone Oy)",
+  "campo": "sede",
+  "problema": "Sede indicata 'Luumäki, Etelä-Karjala': la sede legale/operativa registrata di SampoKone Oy è a Helsinki (c/o Cafe Metsäpaahtimo, Lapinlahdenpolku 8, 00180 Helsinki). Luumäki è solo il sito del container di torrefazione off-grid.",
+  "gravita": "media",
+  "evidenza": "https://www.proff.fi/yrityksen/sampokone-oy/helsinki/ruokailupaikat/2836742-9I0DRM — 'address c/o Cafe Metsäpaahtimo, Lapinlahdenpolku 8, 00180 Helsinki'",
+  "correzione_proposta": "Helsinki, Uusimaa (sede legale); paahtimo a Luumäki, Etelä-Karjala"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Metsäpaahtimo (Sampokone Oy)",
+  "campo": "referente",
+  "problema": "Referente e ruolo vuoti. Nelle fonti pubbliche compare Petteri Prioteasa come persona di contatto di Metsäpaahtimo, ma il ruolo di toimitusjohtaja non è confermato dai registri consultabili. DA CONFERMARE.",
+  "gravita": "media",
+  "evidenza": "https://metsapaahtimo.fi/yhteystiedot/ — contatto 'Petteri Prioteasa'; ruolo non confermato in kaupparekisteri/Asiakastieto",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Goodio (Helsinki Heaven Oy)",
+  "campo": "referente",
+  "problema": "Il referente indicato (Jukka Peltola, fondatore/CCO) non è il vertice societario. Il toimitusjohtaja registrato di Helsinki Heaven Oy è Sami Mikael Nupponen.",
+  "gravita": "alta",
+  "evidenza": "https://www.finder.fi/Agentuuriliike/Helsinki+Heaven+Oy/Vantaa/yhteystiedot/3076150 — \"The company's CEO is Sami Mikael Nupponen\"",
+  "correzione_proposta": "Sami Nupponen — Toimitusjohtaja (CEO)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Goodio (Helsinki Heaven Oy)",
+  "campo": "dimensione",
+  "problema": "Dimensione 'n.d.' senza segnalazione: l'azienda è ampiamente sotto la forbice 5-40 M€. Liikevaihto 784.000 € (2024) con 9 dipendenti.",
+  "gravita": "alta",
+  "evidenza": "https://www.asiakastieto.fi/yritykset/fi/helsinki-heaven-oy/26885783/taloustiedot — \"revenue in 2024 was 784,000 euros and it employed 9 people\"",
+  "correzione_proposta": "Liikevaihto 0,78 M€ (2024), 9 dip. — SOTTO FASCIA"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "FP FinnProfiles Oy",
+  "campo": "filiera",
+  "problema": "Perimetro EUDR gomma DA CONFERMARE: la gamma pubblicata è di tiivisteet/profiili estrusi per edilizia con linee di estrusione per 'rubber, silicone and TPE'; nessuna conferma esplicita dell'impiego di gomma naturale (NR/caucciù). Se lavora solo elastomeri sintetici/silicone/TPE è fuori Allegato I (cfr. caso Helvoet BE, RICO AT).",
+  "gravita": "alta",
+  "evidenza": "https://www.finnprofiles.com/rubber-seals/ — 'FinnProfiles has modern extrusion lines for rubber, silicone and TPE profiles'; nessun riferimento a luonnonkumi/NR nelle pagine materiali",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "FP FinnProfiles Oy",
+  "campo": "denominazione",
+  "problema": "Struttura di gruppo non dichiarata: esiste Finnprofiles Group Oy (Sastamala) come entità capogruppo/di gruppo, e nel febbraio 2026 FinnProfiles ha acquisito l'intero capitale di Plastep Oy (6,5 M€) nell'ambito di una strategia quinquennale verso ~30 M€. Perimetro societario e taglia da aggiornare.",
+  "gravita": "media",
+  "evidenza": "https://www.finder.fi/Kumituotteet/Finnprofiles+Group+Oy/Sastamala/yhteystiedot/225111 ; https://pjmaa.fi/finnprofiles-oy-ostaa-plastep-oyn-osakekannan/ — 'transaction completed on February 16, 2026 ... Plastep ... turnover of 6.5 million euros'",
+  "correzione_proposta": "Aggiungere: gruppo Finnprofiles Group Oy; acquisizione Plastep Oy (16.02.2026)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Helsingin Kumi Oy",
+  "campo": "dimensione",
+  "problema": "Dimensione 'n.d.' senza segnalazione: l'azienda è sotto la forbice 5-40 M€. Liikevaihto 1,8 M€ (2024).",
+  "gravita": "alta",
+  "evidenza": "https://www.asiakastieto.fi/yritykset/fi/helsingin-kumi-oy/01087232/yleiskuva — 'Helsingin Kumi Oy liikevaihto oli 1,8 miljoonaa euroa 2024'",
+  "correzione_proposta": "Liikevaihto 1,8 M€ (2024) — SOTTO FASCIA"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Helsingin Kumi Oy",
+  "campo": "referente",
+  "problema": "Referente e ruolo vuoti benché il dato sia pubblico: toimitusjohtaja è Tuomas Seppo Pellervo Mäkinen.",
+  "gravita": "media",
+  "evidenza": "https://www.finder.fi/Kumituotteet/Helsingin+Kumi+Oy/Helsinki/yhteystiedot/136590 — 'Yhtiön toimitusjohtaja on Tuomas Seppo Pellervo Mäkinen'",
+  "correzione_proposta": "Tuomas Mäkinen — Toimitusjohtaja (CEO)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Ravelast Oy",
+  "campo": "filiera",
+  "problema": "Perimetro EUDR gomma DA CONFERMARE: toimiala principale registrato è 'Muovin valmistus' (fabbricazione materie plastiche) e la specializzazione pubblicata è 'kumi-elastomeeri ja polyuretaanielastomeeri' — nessuna conferma di gomma naturale (NR). Se lavora solo elastomeri sintetici/PU è fuori Allegato I.",
+  "gravita": "alta",
+  "evidenza": "https://www.finder.fi/Muovin+valmistus/Ravelast/Kello/yhteystiedot/172233 — 'main business area is plastic manufacturing ... specialized expertise includes the manufacture of rubber elastomer and polyurethane elastomer products'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Ravelast Oy",
+  "campo": "dimensione",
+  "problema": "Dato non allineato alle fonti: dichiarato '~8,4 M€ (2025)'; i registri riportano liikevaihto 8,3 M€ nell'esercizio 2024 (-2,2%) e 54 dipendenti. Manca inoltre il dato dipendenti. Da riallineare con anno corretto.",
+  "gravita": "bassa",
+  "evidenza": "https://www.proff.fi/yrityksen/ravelast-oy/kello/kumi-ja-muovituotteet-%E2%80%93-valmistus/2023104-1I10NV — 'revenue was 8.3 million euros ... declined by 2.2% ... employed 54 people'",
+  "correzione_proposta": "Liikevaihto 8,3 M€ (2024), 54 dip."
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "OT-Kumi Oy",
+  "campo": "filiera",
+  "problema": "Perimetro EUDR gomma DA CONFERMARE: la gamma pubblicata dichiara profili di tenuta realizzati 'either from rubber, TPE or silicon', con EPDM indicata come materia prima più usata. Nessuna menzione di gomma naturale (NR/luonnonkumi): se lavora solo elastomeri sintetici/TPE/silicone è fuori Allegato I (cfr. Helvoet BE, RICO AT).",
+  "gravita": "alta",
+  "evidenza": "https://ot-kumi.com/en/materials/ — 'OT-Kumi uses either rubber, TPE or silicon to manufacture their sealing profiles ... EPDM is the most commonly used raw material in sealing profiles'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Reka Kumi Oy",
+  "campo": "referente",
+  "problema": "Referente corretto ma da contestualizzare: Sari Tulander è toimitusjohtaja di Reka Kumi Oy solo 'oman toimensa ohella' dal 11.6.2024, essendo primariamente toimitusjohtaja della capogruppo quotata Reka Industrial Oyj. La decisione di compliance è quindi di gruppo, non di controllata.",
+  "gravita": "media",
+  "evidenza": "https://www.sttinfo.fi/announcement/8897?publisherId=69817735&lang=fi — 'Reka Industrialin toimitusjohtaja Sari Tulander toimii oman toimensa ohella Reka Kumi Oy:n toimitusjohtajana 11.6.2024 alkaen'",
+  "correzione_proposta": "Sari Tulander — Toimitusjohtaja Reka Kumi Oy (e CEO della capogruppo Reka Industrial Oyj)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Reka Kumi Oy",
+  "campo": "dimensione",
+  "problema": "Dato confermato (13,2 M€ 2024, 87 dip.) ma incompleto: l'esercizio 2024 chiude in perdita operativa (-0,5 M€, -3,9%) con fatturato in calo del 6,1%; il segmento gomma del gruppo è tornato a crescere nel 2026 (17,5 M€ nel solo primo semestre). Il campo andrebbe aggiornato all'ultimo esercizio.",
+  "gravita": "bassa",
+  "evidenza": "https://www.asiakastieto.fi/yritykset/fi/reka-kumi-oy/08702349/taloustiedot — 'turnover was 13.2 million euros in 2024, employed 87 people, turnover declined by 6.1%, operating loss -0.5 million'; https://www.sttinfo.fi/announcement/72217378 — 'Kumitoimialan liikevaihto tammi-kesäkuulla 2026 oli 17,5 (16,3) miljoonaa euroa'",
+  "correzione_proposta": "Liikevaihto 13,2 M€ (2024), 87 dip., perdita operativa -0,5 M€; controllata di Reka Industrial Oyj (quotata)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Agrox Oy",
+  "campo": "filiera",
+  "problema": "Uso di soia confermato, ma Agrox dichiara di acquistare la farina di soia da fornitori finlandesi (non importa direttamente): rispetto all'EUDR sarebbe quindi operatore a valle/trader e non primo immettitore. Da chiarire la posizione nella catena prima di qualificarlo come operatore.",
+  "gravita": "media",
+  "evidenza": "https://finnwatch.org/fi/julkaisut/soijaa-brasiliasta — 'Agrox ... states it purchases the soy flour it uses from Finland, though it does not want to make its domestic suppliers public'",
+  "correzione_proposta": "Mangimi/Soia — utilizzatore di farina di soia acquistata da fornitori finlandesi (posizione operatore/trader da verificare)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Agrox Oy",
+  "campo": "dimensione",
+  "problema": "Dato confermato ma da completare: liikevaihto 38,4 M€ (2024) in calo del 14,4%, utile operativo 1,5 M€ (4,0%), 11 dipendenti. Il fatturato è al limite superiore della forbice ed è in forte contrazione.",
+  "gravita": "bassa",
+  "evidenza": "https://www.asiakastieto.fi/yritykset/fi/agrox-oy/26600944/taloustiedot — 'revenue was 38.4 million euros in 2024 ... Revenue declined by 14.4%, with operating profit of 1.5 million euros'",
+  "correzione_proposta": "Liikevaihto 38,4 M€ (2024, -14,4%), 11 dip."
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Kinnusen Mylly Oy",
+  "campo": "filiera",
+  "problema": "Perimetro EUDR DA CONFERMARE: la comunicazione pubblica dei mangimi Kinnusen Tähti insiste su materie prime nazionali (orzo, avena, piselli, favino) e indica il RYPSI (colza) come fonte proteica principale; la soia non compare nella gamma. Se non impiega soia, il record rientra nella casistica 'solo colza/lino/girasole' fuori Allegato I.",
+  "gravita": "alta",
+  "evidenza": "https://kinnusentahtirehut.fi/rehu/melassoitu-rypsi/ e https://kinnusentahtirehut.fi/maan-parhaista-antimista/rehut-kotimaisesta-viljasta/ — 'domestic raw materials ... rapeseed and feed peas ... Molassed rapeseed is a granulated and heat-treated protein component'; nessuna menzione di soia",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Kinnusen Mylly Oy",
+  "campo": "dimensione",
+  "problema": "Dato fatturato corretto (37,6 M€ 2025) ma manca il numero dipendenti disponibile in fonte: 52 addetti; fatturato in calo dell'1,5%, utile operativo 374 k€ (1,0%).",
+  "gravita": "bassa",
+  "evidenza": "https://www.asiakastieto.fi/yritykset/fi/kinnusen-mylly-oy/01901513/taloustiedot — 'revenue was 37.6 million euros in 2025 and employed 52 people. The revenue declined by 1.5%'",
+  "correzione_proposta": "Liikevaihto 37,6 M€ (2025), 52 dip."
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Oy Feedex Ab",
+  "campo": "filiera",
+  "problema": "Perimetro EUDR DA CONFERMARE: Feedex dichiara di usare esclusivamente cereali finlandesi (orzo, avena, frumento, ~45.000 t/anno) e come fonte proteica il panello di COLZA (rypsirouhe/Optima Rouhe, Taurus 2). La soia non risulta nella gamma pubblicata; inoltre il 40% della produzione va agli allevamenti da pelliccia. Casistica 'solo colza' potenzialmente fuori Allegato I.",
+  "gravita": "alta",
+  "evidenza": "https://www.feedex.fi/fi — 'uses only Finnish grain in their feed mixes, including barley, oats and wheat ... Rapeseed meal is used as a protein raw material in products like Taurus 2. Optima Rouhe is a rapeseed-based concentrate'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Oy Feedex Ab",
+  "campo": "dimensione",
+  "problema": "Dato da riallineare: le fonti consultabili riportano 25,9 M€ sull'esercizio 2023 con calo del 24,7%; il record indica 20,1 M€ (2025) senza che l'anno sia riscontrabile nei frammenti. DA CONFERMARE l'esercizio di riferimento.",
+  "gravita": "bassa",
+  "evidenza": "https://www.asiakastieto.fi/yritykset/fi/oy-feedex-ab/23766893/yleiskuva — 'revenue was 25.9 million euros, based on the 2023 financial statements. However, revenue declined by 24.7%'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Vainion Teurastamo Oy",
+  "campo": "filiera",
+  "problema": "Precisazione di perimetro: è il maggiore macello OVINO della Finlandia (~15.000 pecore/anno); i bovini sono attività minoritaria e in forte calo (da ~6.000 a ~2.500 capi/anno). Rimane in Allegato I per la parte bovina, ma la rilevanza EUDR è marginale rispetto a quanto suggerisce la filiera 'Bovini/Carne'.",
+  "gravita": "media",
+  "evidenza": "https://www.seutuneloset.fi/paikalliset/8458336 — 'Suomen suurin lammasteurastamo ... processing about 15,000 sheep annually ... also slaughters cattle, though volumes have decreased from historically around 6,000 cattle per year to approximately 2,500'",
+  "correzione_proposta": "Bovini/Carne — prevalentemente ovino; bovini ~2.500 capi/anno"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Vainion Teurastamo Oy",
+  "campo": "dimensione",
+  "problema": "Dato non allineato: le fonti riportano liikevaihto 7,0 M€ nell'esercizio chiuso 07/2024 (-21,9%) con 17 dipendenti; il record indica 6,2 M€ (2025) senza indicare i dipendenti né il calo. Azienda al limite inferiore della forbice.",
+  "gravita": "bassa",
+  "evidenza": "https://www.proff.fi/yrityksen/vainion-teurastamo-oy/orimattila/valmistajat/2327743-2I016D — 'financial year ending July 2024, revenue was 7.0 million euros ... declined 21.9% ... 17 employees'",
+  "correzione_proposta": "Liikevaihto 7,0 M€ (es. 07/2024, -21,9%), 17 dip."
+ }
+]
