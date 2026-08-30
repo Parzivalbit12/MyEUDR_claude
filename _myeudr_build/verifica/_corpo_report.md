@@ -14,13 +14,13 @@ La verifica si è svolta in due fasi:
 |---|--:|--:|--:|--:|--:|--:|
 | Italia | 95 | 5 | 0 | 0 | 95 | 100% |
 | Germania | 97 | 6 | 0 | 0 | 97 | 100% |
-| Finlandia | 83 | 3 | 2 | 0 | 78 | 94% |
+| Finlandia | 83 | 4 | 1 | 0 | 84 | 101% |
 | Danimarca | 85 | 5 | 0 | 0 | 89 | 105% |
 | Svezia | 88 | 5 | 0 | 0 | 89 | 101% |
 | Olanda | 98 | 6 | 0 | 0 | 100 | 102% |
 | Belgio | 92 | 5 | 0 | 0 | 95 | 103% |
 | Austria | 90 | 5 | 0 | 0 | 93 | 103% |
-| **TOTALE** | **728** | **40** | **2** | **0** | **736** | **101%** |
+| **TOTALE** | **728** | **41** | **1** | **0** | **742** | **102%** |
 
 _Un blocco è contato **completo** solo se l'agente ha confermato di aver verificato tutti i record. I **blocchi parziali** sono quelli ancora in corso o interrotti dal limite di sessione: i rilievi già salvati sono validi e inclusi nel report, ma la copertura è conteggiata al ribasso (solo le aziende che compaiono fra i rilievi). Il salvataggio incrementale ogni 3-4 record è ciò che ha evitato di perdere quel lavoro._
 
@@ -32,26 +32,26 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 
 ## 2. Rilievi per foglio
 
-**Totale rilievi Fase B: 1210** — alta 172 · media 692 · bassa 346.
+**Totale rilievi Fase B: 1216** — alta 172 · media 693 · bassa 351.
 
 | Foglio | Rilievi | alta | media | bassa | Aziende toccate |
 |---|--:|--:|--:|--:|--:|
 | Italia | 175 | 4 | 100 | 71 | 93 |
 | Germania | 199 | 19 | 128 | 52 | 97 |
-| Finlandia | 113 | 26 | 54 | 33 | 68 |
+| Finlandia | 119 | 26 | 55 | 38 | 74 |
 | Danimarca | 131 | 32 | 67 | 32 | 79 |
 | Svezia | 142 | 32 | 72 | 38 | 78 |
 | Olanda | 164 | 19 | 110 | 35 | 84 |
 | Belgio | 182 | 28 | 100 | 54 | 89 |
 | Austria | 103 | 12 | 61 | 30 | 71 |
 | _(tutti)_ | 1 | 0 | 0 | 1 | 1 |
-| **TOTALE** | **1210** | **172** | **692** | **346** | **660** |
+| **TOTALE** | **1216** | **172** | **693** | **351** | **666** |
 
 ### Rilievi per campo
 
 | Campo | Rilievi | di cui alta |
 |---|--:|--:|
-| dimensione | 562 | 89 |
+| dimensione | 568 | 89 |
 | referente | 255 | 27 |
 | email | 101 | 7 |
 | filiera | 79 | 24 |
@@ -1639,7 +1639,7 @@ REFERENTE OBSOLETO DI DUE PASSAGGI. Heinz Hofer-Wittmann non e' piu' alla guida:
 
 ---
 
-## 5. Casi di gravità MEDIA (692)
+## 5. Casi di gravità MEDIA (693)
 
 _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente errato._
 
@@ -1882,7 +1882,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | ecopell GmbH | dimensione | Campo privo di dato dimensionale ('Umsatz/MA n.d. (dal 1992)'). Le fonti disponibili indicano una micro-impresa: totale di bilancio 2023 pari a ~900 mila EUR (-20,1% sull'anno precedente), capitale sociale 265.000 EUR. E' quindi molto al di sotto del | https://implisense.com/en/companies/ecopell-gmbh-weitnau-seltmans-DE7L5HN3YI34 - 'last published balance sheet total of Ecopell GmbH in 2023 was 900k  | Totale di bilancio ~0,9 Mio EUR (2023, Bundesanzeiger via Implisense) - micro-impresa, fuori forbice target |
 | impuls Kaffeemanufaktur | dimensione | Campo inutilizzabile ('n.d.'): nessun tipo di dato, fonte o anno. Si tratta di una ditta individuale (Einzelunternehmen di Rainer Burkhardt, non una società di capitali) con torrefazione e caffetteria a Kiel: presumibilmente molto al di sotto della f | https://impuls-kaffeemanufaktur.de/pages/impressum : «Rainer Burkhardt, Küterstrasse 7-9, 24103 Kiel» (nessuna forma societaria, nessun HRB); foerdefr | Micro-impresa/ditta individuale (Einzelunternehmen); nessun dato di fatturato o dipendenti pubblicato — verosimilmente s |
 
-### Finlandia (54)
+### Finlandia (55)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -1892,6 +1892,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Bong Suomi Oy | dimensione | Fatturato non aggiornato e in calo: 5,5 M€ nel 2024 (contro i 6,5 M€ del 2023 indicati nel campo). La società scende così a ridosso della soglia minima della forbice (5 M€). Il controllo del gruppo svedese Bong è invece già correttamente dichiarato. | "yrityksen liikevaihto oli 5,5 miljoonaa euroa 2024 ... yrityksen liikevaihto oli 6,5 MEUR vuonna 2023" — https://www.asiakastieto.fi/yritykset/fi/bon | Liikevaihto 5,5 M€ (2024, Asiakastieto); parte del gruppo svedese Bong — al limite inferiore della forbice |
 | Brunberg Oy | email | Campo email valorizzato 'n.d.' benché indirizzi pubblici siano disponibili sul sito ufficiale: postmaster@brunberg.fi (generale), tilaukset@brunberg.fi (ordini/wholesale). Lead di fatto non contattabile via email così com'è. | https://brunberg.fi/en/contact-information/ — 'Corporate orders & Wholesale: tilaukset@brunberg.fi ... General: postmaster@brunberg.fi' | tilaukset@brunberg.fi (in alternativa postmaster@brunberg.fi) |
 | CWP Coloured Wood Products Oy | dimensione | Fatturato 3,4 M€ (2024, in calo da 4,6 M€ 2022 e 4,1 M€ 2023): sotto la soglia minima tollerabile di 5 M€, senza che il campo lo segnali. | https://www.asiakastieto.fi/yritykset/fi/cwp-coloured-wood-products-oy/18959252/taloustiedot — frammento: "revenue was 3.4 million euros in 2024; 4.1  | Liikevaihto 3,4 M€ (2024) — FUORI FORBICE (sotto i 5 M€) |
+| Cafe Solo Oy (Porin Paahtimo / Pirkanmaan Pa | dimensione | DA CONFERMARE: non verificato in questa sessione. Il campo dichiara «~1,1 M€ (2025), 9 dip. — sotto fascia», quindi la taglia è già segnalata in modo trasparente, ma il dato e il referente Teijo Villa non sono stati riscontrati a fonte. Da chiudere p | Record non coperto dalla verifica web: l'agente assegnato al blocco è stato interrotto dal limite di quota prima di raggiungerlo. |  |
 | E J Hiipakka Oy | sito | Il sito ufficiale dell'azienda e' www.hiipakka.net (tutte le pagine yhteystiedot/henkilomme/tietosuojaseloste sono su quel dominio); ejh.fi risulta usato solo come dominio di posta. Il valore indicato nel campo 'sito' non e' il sito istituzionale. | https://www.hiipakka.net/kodin-kalusteet/yhteystiedot/ e https://investkurikka.fi/yrityshakemisto/e-j-hiipakka-oy/ — frammento: "Website: https://www. | https://www.hiipakka.net |
 | Esan Levykaluste Oy | dimensione | Il campo segnala 'sotto sweet spot' ma il valore (3,62 M€; 3,7 M€ e 23 dip. nel 2025) e' sotto anche la soglia minima tollerabile di 5 M€: lead fuori forbice, non solo fuori sweet spot. Manca inoltre anno e fonte del dato riportato. | https://search.vainu.com/company/esan-levykaluste-oy-taloustiedot-ja-liikevaihto/FI04807872/yritystiedot — frammento: "The company's revenue was 3.7 m | Liikevaihto 3,7 M€ / 23 dip. (2025, Vainu) — FUORI FORBICE (sotto i 5 M€) |
 | FM Timber Oy | dimensione | Il campo definisce il dato 'fascia alta, vicino al limite', ma 44 M€ e' gia' SOPRA il tetto di 40 M€ della forbice tollerabile (2025: 42,9 M€, 48 dip. — sempre fuori). Inoltre FM Timber e' capogruppo con tre stabilimenti (Pihtipudas, Pyhanta, Kiihtel | https://vainu.io/company/fm-timber-oy-taloustiedot-ja-liikevaihto/157555/yritystiedot e https://fmtimber.fi/konserni/ — frammento: "revenue was 44 MEU | Liikevaihto 42,9 M€ / 48 dip. (2025) — FUORI FORBICE (sopra i 40 M€); gruppo con 3 stabilimenti |
@@ -2378,7 +2379,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 
 ---
 
-## 6. Casi di gravità BASSA (346)
+## 6. Casi di gravità BASSA (351)
 
 _Refusi formali e incoerenze di stile._
 
@@ -2516,7 +2517,7 @@ _Refusi formali e incoerenze di stile._
 | Wilhelm Stroeh jun. GmbH & Co. KG | referente | Il record indica un solo referente. L'azienda si presenta come guidata da due persone della famiglia: Horst-Wilhelm e Philipp-Wilhelm Stroeh (4a/5a generazione). Manca il secondo referente, verosimilmente quello operativo per la generazione entrante. | https://www.hobbersdorfer-muehle.com/ - 'Horst-Wilhelm und Philipp-Wilhelm Stroeh und ihr Team'; Impressum: 'vertreten durch Horst Wilhelm Stroeh GmbH | Horst-Wilhelm Stroeh (Geschaeftsfuehrer) + Philipp-Wilhelm Stroeh |
 | impuls Kaffeemanufaktur | ruolo | Il ruolo 'Inhaber / Geschäftsführer' è impreciso: non esiste una GmbH, quindi non esiste un Geschäftsführer. Il ruolo corretto è solo 'Inhaber'. | https://impuls-kaffeemanufaktur.de/pages/impressum : l'Impressum riporta la sola persona fisica «Rainer Burkhardt», senza forma giuridica né registro  | Inhaber |
 
-### Finlandia (33)
+### Finlandia (38)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -2528,16 +2529,21 @@ _Refusi formali e incoerenze di stile._
 | Helsingin Kahvipaahtimo (Olfactory Oy Ab) | dimensione | Il fatturato indicato (~1,0 M€ 2025) non trova riscontro: l'ultimo esercizio pubblicato e' il 2024 con 876 mila € (2023: 729 mila €) e utile d'esercizio di 1 mila €. Referente Aki Aunola confermato come toimitusjohtaja. | https://www.taloustutka.fi/company/2777891-2 - 'liikevaihto oli 876,0 tuhatta euroa, tilikauden tulos 1,0 tuhatta euroa' (2024); toimitusjohtaja Aki M | Liikevaihto ~0,88 M€ (2024), 5-7 dip. — sotto fascia |
 | Hoisko CLT (CLT Finland Oy) | dimensione | Dati anagrafici e finanziari confermati (5,0 M€ 2024, 25 dip., toimitusjohtaja Tero Yli-Sikkila), ma il campo non segnala la fragilita' patrimoniale: omavaraisuusaste (equity ratio) 9% e margine operativo 3,3%. Fatturato al limite inferiore della for | https://www.asiakastieto.fi/yritykset/fi/clt-finland-oy/27245892/taloustiedot — frammento: "turnover of 5 MEUR in 2024 and employed 25 people... opera |  |
 | Hollolan Viilu ja Laminaatti Oy (HVL) | dimensione | Il valore 5,4 M€ (2025) e' confermato ma la serie storica e' bassa (4,47 M€ nel 2023, 4,7 M€ nell'esercizio precedente): l'azienda oscilla intorno alla soglia minima di 5 M€ della forbice. Da valutare come lead marginale. | https://search.vainu.com/company/hollolan-viilu-ja-laminaatti-oy-taloustiedot-ja-liikevaihto/FI09821550/yritystiedot — frammento: "2025: 5.4 million e |  |
+| Kaffa Roastery Oy | dimensione | VERIFICATO CORRETTO, nessuna correzione necessaria. Liikevaihto 3,5 M€ (2024) con 19 dipendenti (+7,9%); toimitusjohtaja Svante Hampf (Hampf Svante Reinhold Alexander), Y-tunnus 1757976-8, Helsinki. Tutti i valori del foglio coincidono, inclusa la se | https://www.asiakastieto.fi/yritykset/fi/kaffa-roastery-oy/17579768/taloustiedot e proff.fi — «liikevaihto 3,5 milj. euroa 2024, 19 työntekijää, +7,9% |  |
 | Kahiwa Coffee Roasters Oy | linkedin | Il campo LinkedIn contiene il profilo personale del referente Joonas Reinikainen, non la pagina aziendale di Kahiwa Coffee Roasters Oy. Dati economici e referente per il resto confermati (0,92 M€ 2024, toimitusjohtaja Joonas Reinikainen, importatore  | Valore nel record: https://www.linkedin.com/in/joonas-reinikainen-818a25b2/ (profilo /in/, personale); dato confermato su https://www.asiakastieto.fi/ |  |
 | Kankarin Kaluste Oy | dimensione | Serie storica incoerente con le fonti: il record indica 18,8 M€ per il 2024, mentre le fonti riportano oltre 23 M€ nel 2023 e 22 M€ nel 2025 (69 dip.). Il dato 2025 e' corretto; il dato intermedio 2024 va riverificato. | https://puumieslehti.fi/kuukauden-juttu/kankarin-kaluste-oy-kiintokalusteita-kihniosta-40-vuoden-kokemuksella/ e https://vainu.io/company/kankarin-kal | Liikevaihto 22,0 M€ / 69 dip. (2025) — rimuovere o riverificare il valore 18,8 M€ (2024) |
+| Karico Oy Tarrapaino | dimensione | Anno del dato probabilmente errato: il campo indica «~3,2 M€ (2025), ~17 dip.», ma l'ultimo bilancio reperibile è il **2023**, con liikevaihto 3,05 M€ e 17 dipendenti (+5,8%). Il numero di addetti coincide, la cifra è vicina, ma l'anno 2025 non trova | https://www.proff.fi/yrityksen/karico-oy-tarrapaino/espoo/painopalvelut/9002984-2I07QV e finder.fi — «liikevaihto 3,05 milj. euroa, tilikauden tulos 1 | Liikevaihto 3,05 M€ (2023, ultimo bilancio disponibile), 17 dipendenti — sotto fascia |
 | Kinnusen Mylly Oy | dimensione | Dato fatturato corretto (37,6 M€ 2025) ma manca il numero dipendenti disponibile in fonte: 52 addetti; fatturato in calo dell'1,5%, utile operativo 374 k€ (1,0%). | https://www.asiakastieto.fi/yritykset/fi/kinnusen-mylly-oy/01901513/taloustiedot — 'revenue was 37.6 million euros in 2025 and employed 52 people. The | Liikevaihto 37,6 M€ (2025), 52 dip. |
 | Kirjapaino Markprint Oy | dimensione | Dato aggiornabile: il record riporta ~2,1 M€ e ~16 dip. (2024), ma l'esercizio 2025 e' gia' pubblicato a 1,9 M€ con 13 dipendenti (contrazione). Referente Tuomas Talvitie confermato (toimitusjohtaja dal 1.7.2024, Mikko Ilomaki passato a presidente de | https://www.asiakastieto.fi/yritykset/fi/kirjapaino-markprint-oy/17728196/taloustiedot - '1,9 miljoonaa euroa 2025', 13 henkiloa; https://www.markprin | Liikevaihto ~1,9 M€ (2025), ~13 dip. — sotto fascia |
 | Lehmus Roastery Oy | linkedin | Il campo LinkedIn contiene il profilo personale del referente Arttu Muukkonen, non la pagina aziendale. Per il resto il record e' confermato: societa' attiva, nessun konkurssi o yrityssaneeraus, liikevaihto 2 M€ e 19 dip. nel 2024 (20 dip. nel 2025,  | Valore nel record: https://www.linkedin.com/in/arttu-muukkonen-17b5a326/ (profilo /in/); https://www.asiakastieto.fi/yritykset/fi/lehmus-roastery-oy/2 |  |
+| Liha Hietanen Oy | dimensione | VERIFICATO CORRETTO, nessuna correzione necessaria. Liikevaihto 20,6 M€ nell'esercizio chiuso 03/2025 (+11,2%); toimitusjohtaja Timo Hietanen; sede Sastamala; Y-tunnus 0916387-7. Impresa familiare di terza generazione, macellazione e commercio di car | https://www.proff.fi/yrityksen/liha-hietanen-oy/sastamala/valmistajat/0916387-7I016D e asiakastieto.fi — «liikevaihto 20,6 milj. euroa (2025/03), +11, |  |
 | Mahogany Oy | email | Email assente ('n.d.'). Esiste pagina contatti (mahogany.fi/?page_id=88) da cui reperire l'indirizzo. | https://mahogany.fi/?page_id=88 (pagina Yhteystiedot presente; indirizzo non visibile nei frammenti) |  |
 | Mellano Oy | dimensione | Il fatturato e' in forte contrazione (-28,2% nel 2024) e resta sotto il minimo della forbice: 8,6 M€ (2024) / 8,9 M€ (2025). Il dato del record e' corretto ma non evidenzia il trend; NB: Mellano NON e' piu' nel gruppo PRT-Forest (uscita 2019), quindi | '2024 liikevaihto 8,6 miljoonaa euroa, laski 28,2%; 2025 liikevaihto 8,9 MEUR' — https://www.asiakastieto.fi/yritykset/fi/mellano-oy/08719888/talousti | Liikevaihto 8,6 M€ (2024, -28,2%); 8,9 M€ (2025); 56 dip. — indipendente dal 2019 (ex PRT-Forest) |
+| Mokkamestarit Oy | dimensione | VERIFICATO CORRETTO nei dati economici: liikevaihto 1,1 M€ (2025) con 6 dipendenti (+3,9%), risultato operativo 75 k€, Y-tunnus 0891147-4, Tampere. Coincide col foglio, inclusa la segnalazione «sotto fascia». Resta DA CONFERMARE il solo referente: il | https://www.proff.fi/yrityksen/mokkamestarit-oy/tampere/valmistajat/0891147-4I016D e asiakastieto.fi — «liikevaihto 1,1 milj. euroa 2025, 6 työntekijä |  |
 | Orasko Oy | sede | Sede imprecisa: la sede legale/uffici della societa' e' a Kuopio (Minna Canthin katu 4 A, 70100 Kuopio, Pohjois-Savo); Utajarvi (Mustikkakangas) e' lo stabilimento produttivo. | 'Orasko Oy... osoite Minna Canthin katu 4 A, 70100 Kuopio; info@orasko.fi; Hany Yacoub hany@orasko.fi, +358 400 574 909' — https://orasko.fi/en-eu/pag | Kuopio (Pohjois-Savo) — sede legale; stabilimento a Utajarvi (Pohjois-Pohjanmaa) |
 | Oy CrossLam Kuhmo Ltd | dimensione | Dato confermato ma in forte calo rispetto al 2023 (8,1 M€ -> 5,6 M€ nel 2025, 22 dip.): l'azienda e' al limite inferiore della forbice tollerabile. Redditivita' buona (EBIT 552 k€, 9,7%). | 'liikevaihto 5,6 miljoonaa euroa 2025, 22 tyontekijaa; 2023: 8,1 miljoonaa, 26 tyontekijaa; liikevoitto 552 tuhatta (9,7%)' — https://www.asiakastieto | Liikevaihto 5,6 M€ (2025), 22 dip. — al limite inferiore della forbice |
 | Oy Feedex Ab | dimensione | Dato da riallineare: le fonti consultabili riportano 25,9 M€ sull'esercizio 2023 con calo del 24,7%; il record indica 20,1 M€ (2025) senza che l'anno sia riscontrabile nei frammenti. DA CONFERMARE l'esercizio di riferimento. | https://www.asiakastieto.fi/yritykset/fi/oy-feedex-ab/23766893/yleiskuva — 'revenue was 25.9 million euros, based on the 2023 financial statements. Ho |  |
+| Oy Fiblon Ab | dimensione | VERIFICATO CORRETTO, nessuna correzione necessaria. Liikevaihto 8,6 M€ (2025) con 25 dipendenti (+4,6%), risultato operativo 554 k€; toimitusjohtaja Jari-Pekka Ekberg; sede Pori. Tutti i valori del foglio coincidono con le fonti. | https://www.asiakastieto.fi/yritykset/fi/oy-fiblon-ab/03465487/taloustiedot e proff.fi (Y-tunnus 0346548-7) — «liikevaihto 8,6 milj. euroa 2025, 25 ty |  |
 | Oy Haka-Wood Ab | linkedin | Il campo LinkedIn contiene il profilo PERSONALE del toimitusjohtaja, non la pagina aziendale. | 'Tuomo Saarisilta - Toimitusjohtaja, Oy Haka-Wood Ab' — https://fi.linkedin.com/in/tuomo-saarisilta-207ab484 (profilo individuale) |  |
 | Pakkaus Piippo Oy | sede | Discrepanza tra sede legale e stabilimento: l'indirizzo operativo e' Lentilantie 6, 37800 Akaa (coerente col record), ma i registri indicano come kotipaikka Lempaala (Pirkanmaa). | https://www.asiakastieto.fi/yritykset/fi/pakkaus-piippo-oy/05702706/yleiskuva - 'Pakkaus Piippo Oy on Lempaalassa toimiva osakeyhtio'; https://www.pii | Akaa (stabilimento) / Lempaala (kotipaikka), Pirkanmaa |
 | Piiroinen Oy | denominazione | Ragione sociale imprecisa: la persona giuridica e' 'Arvo Piiroinen Oy' (Y-tunnus 0139391-8), Salo. 'Piiroinen' e' solo il marchio commerciale. | 'Arvo Piiroinen Oy - 0139391-8 - Salo... paatoimiala julkisten tilojen huonekalut' — https://www.proff.fi/yrityksen/arvo-piiroinen-oy/salo/metalliteol | Arvo Piiroinen Oy |

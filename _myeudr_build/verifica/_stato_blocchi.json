@@ -159,5 +159,14 @@
  "germania_06": {
   "stato": "completo",
   "verificati": 12
+ },
+ "finlandia_04": {
+  "stato": "parziale",
+  "verificati": 16,
+  "nota": "16 record su 17 verificati; Cafe Solo Oy resta DA CONFERMARE"
+ },
+ "finlandia_05": {
+  "stato": "completo",
+  "verificati": 16
  }
 }

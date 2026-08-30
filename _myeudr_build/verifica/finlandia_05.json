@@ -241,5 +241,23 @@
   "gravita": "media",
   "evidenza": "https://www.rost.fi/en e https://rost.fi/pages/paahtimo — 'Email: rost@rost.fi ... Särkiniementie 5, Helsinki'",
   "correzione_proposta": "rost@rost.fi"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Liha Hietanen Oy",
+  "campo": "dimensione",
+  "problema": "VERIFICATO CORRETTO, nessuna correzione necessaria. Liikevaihto 20,6 M€ nell'esercizio chiuso 03/2025 (+11,2%); toimitusjohtaja Timo Hietanen; sede Sastamala; Y-tunnus 0916387-7. Impresa familiare di terza generazione, macellazione e commercio di carne dagli anni '50. Perimetro EUDR confermato: lavora **carne bovina** (oltre a equina e ovina), quindi Allegato I. È in pieno target dimensionale.",
+  "gravita": "bassa",
+  "evidenza": "https://www.proff.fi/yrityksen/liha-hietanen-oy/sastamala/valmistajat/0916387-7I016D e asiakastieto.fi — «liikevaihto 20,6 milj. euroa (2025/03), +11,2%»; «Liha Hietanen processes beef, horse meat, and lamb meat»; CEO Timo Hietanen",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Mokkamestarit Oy",
+  "campo": "dimensione",
+  "problema": "VERIFICATO CORRETTO nei dati economici: liikevaihto 1,1 M€ (2025) con 6 dipendenti (+3,9%), risultato operativo 75 k€, Y-tunnus 0891147-4, Tampere. Coincide col foglio, inclusa la segnalazione «sotto fascia». Resta DA CONFERMARE il solo referente: il nome Reija Paakkinen non è emerso dalle fonti consultate.",
+  "gravita": "bassa",
+  "evidenza": "https://www.proff.fi/yrityksen/mokkamestarit-oy/tampere/valmistajat/0891147-4I016D e asiakastieto.fi — «liikevaihto 1,1 milj. euroa 2025, 6 työntekijää, +3,9%», Kuukuja 8 E, 33420 Tampere",
+  "correzione_proposta": ""
  }
 ]

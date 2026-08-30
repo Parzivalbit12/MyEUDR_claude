@@ -160,5 +160,41 @@
   "gravita": "bassa",
   "evidenza": "https://www.taloustutka.fi/company/2777891-2 - 'liikevaihto oli 876,0 tuhatta euroa, tilikauden tulos 1,0 tuhatta euroa' (2024); toimitusjohtaja Aki Marko Antero Aunola",
   "correzione_proposta": "Liikevaihto ~0,88 M€ (2024), 5-7 dip. — sotto fascia"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Karico Oy Tarrapaino",
+  "campo": "dimensione",
+  "problema": "Anno del dato probabilmente errato: il campo indica «~3,2 M€ (2025), ~17 dip.», ma l'ultimo bilancio reperibile è il **2023**, con liikevaihto 3,05 M€ e 17 dipendenti (+5,8%). Il numero di addetti coincide, la cifra è vicina, ma l'anno 2025 non trova riscontro. La segnalazione «sotto fascia» nel campo è invece corretta e trasparente. Toimitusjohtaja Kimmo Juhani Palkonen CONFERMATO.",
+  "gravita": "bassa",
+  "evidenza": "https://www.proff.fi/yrityksen/karico-oy-tarrapaino/espoo/painopalvelut/9002984-2I07QV e finder.fi — «liikevaihto 3,05 milj. euroa, tilikauden tulos 178 t€, +5,8%», 17 dipendenti a dicembre 2023; CEO «Kimmo Juhani Palkonen»",
+  "correzione_proposta": "Liikevaihto 3,05 M€ (2023, ultimo bilancio disponibile), 17 dipendenti — sotto fascia"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Oy Fiblon Ab",
+  "campo": "dimensione",
+  "problema": "VERIFICATO CORRETTO, nessuna correzione necessaria. Liikevaihto 8,6 M€ (2025) con 25 dipendenti (+4,6%), risultato operativo 554 k€; toimitusjohtaja Jari-Pekka Ekberg; sede Pori. Tutti i valori del foglio coincidono con le fonti.",
+  "gravita": "bassa",
+  "evidenza": "https://www.asiakastieto.fi/yritykset/fi/oy-fiblon-ab/03465487/taloustiedot e proff.fi (Y-tunnus 0346548-7) — «liikevaihto 8,6 milj. euroa 2025, 25 työntekijää, +4,6%»; CEO Jari-Pekka Ekberg",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Kaffa Roastery Oy",
+  "campo": "dimensione",
+  "problema": "VERIFICATO CORRETTO, nessuna correzione necessaria. Liikevaihto 3,5 M€ (2024) con 19 dipendenti (+7,9%); toimitusjohtaja Svante Hampf (Hampf Svante Reinhold Alexander), Y-tunnus 1757976-8, Helsinki. Tutti i valori del foglio coincidono, inclusa la segnalazione «sotto fascia».",
+  "gravita": "bassa",
+  "evidenza": "https://www.asiakastieto.fi/yritykset/fi/kaffa-roastery-oy/17579768/taloustiedot e proff.fi — «liikevaihto 3,5 milj. euroa 2024, 19 työntekijää, +7,9%»; CEO Hampf Svante Reinhold Alexander",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Cafe Solo Oy (Porin Paahtimo / Pirkanmaan Paahtimo)",
+  "campo": "dimensione",
+  "problema": "DA CONFERMARE: non verificato in questa sessione. Il campo dichiara «~1,1 M€ (2025), 9 dip. — sotto fascia», quindi la taglia è già segnalata in modo trasparente, ma il dato e il referente Teijo Villa non sono stati riscontrati a fonte. Da chiudere prima del contatto.",
+  "gravita": "media",
+  "evidenza": "Record non coperto dalla verifica web: l'agente assegnato al blocco è stato interrotto dal limite di quota prima di raggiungerlo.",
+  "correzione_proposta": ""
  }
 ]
