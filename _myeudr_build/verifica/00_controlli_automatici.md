@@ -2,7 +2,7 @@
 
 _Generato da `_myeudr_build/verifica/controlli_automatici.py` · nessun accesso di rete._
 
-**Perimetro:** 734 record nel workbook (8 fogli) + 458 record nei 30 file JSON di build.
+**Perimetro:** 728 record nel workbook (8 fogli) + 453 record nei 30 file JSON di build.
 
 
 ## Copertura campi per foglio
@@ -11,10 +11,10 @@ _Generato da `_myeudr_build/verifica/controlli_automatici.py` · nessun accesso 
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
 | Italia | 95 | 68 | 11 | 11 | 10 | 85 | 95 | 95 | 91 |
 | Germania | 97 | 88 | 96 | 96 | 17 | 93 | 97 | 97 | 96 |
-| Finlandia | 84 | 69 | 77 | 77 | 17 | 84 | 84 | 84 | 83 |
-| Danimarca | 88 | 80 | 77 | 78 | 57 | 85 | 88 | 88 | 88 |
-| Svezia | 89 | 80 | 75 | 75 | 58 | 88 | 89 | 89 | 89 |
-| Olanda | 99 | 76 | 61 | 61 | 66 | 95 | 99 | 99 | 99 |
+| Finlandia | 83 | 69 | 76 | 76 | 17 | 83 | 83 | 83 | 82 |
+| Danimarca | 85 | 78 | 75 | 76 | 57 | 83 | 85 | 85 | 85 |
+| Svezia | 88 | 79 | 74 | 74 | 57 | 87 | 88 | 88 | 88 |
+| Olanda | 98 | 76 | 61 | 61 | 66 | 95 | 98 | 98 | 98 |
 | Belgio | 92 | 71 | 53 | 53 | 44 | 89 | 92 | 92 | 92 |
 | Austria | 90 | 87 | 89 | 89 | 25 | 89 | 90 | 90 | 90 |
 
@@ -27,7 +27,7 @@ _Generato da `_myeudr_build/verifica/controlli_automatici.py` · nessun accesso 
 | 1c | 1c · Denominazioni diverse con lo stesso sito web | 1 |
 | 2 | 2 · Email con dominio diverso dal sito (sospette di deduzione) | 24 |
 | 2b | 2b · Email presente ma sito assente (non verificabile per dominio) | 1 |
-| 2c | 2c · Email su dominio freemail/PEC (accettabile ma non aziendale) | 10 |
+| 2c | 2c · Email su dominio freemail/PEC (accettabile ma non aziendale) | 9 |
 | 2d | 2d · Email su dominio affine al sito (TLD/variante) — rischio basso | 52 |
 | 3 | 3 · Stessa email su aziende diverse | 0 |
 | 3b | 3b · Stesso LinkedIn su aziende diverse | 1 |
@@ -38,29 +38,29 @@ _Generato da `_myeudr_build/verifica/controlli_automatici.py` · nessun accesso 
 | 6b | 6b · Separatore filiera non em-dash | 0 |
 | 7 | 7 · Fonte vuota o non URL | 0 |
 | 7b | 7b · Dimensione vuota o n.d. | 6 |
-| 7c | 7c · Sito web mancante | 26 |
+| 7c | 7c · Sito web mancante | 24 |
 | 8 | 8 · Dimensione fuori forbice 5–40 M€ senza segnalazione esplicita | 8 |
 | 9 | 9 · Denominazione: registri, spazi, numeri | 0 |
 | 9b | 9b · Forma giuridica incoerente col paese del foglio | 0 |
-| 9c | 9c · Nessuna forma giuridica nel nome | 16 |
-| 9d | 9d · Maiuscolo/minuscolo incoerente dentro il foglio | 51 |
+| 9c | 9c · Nessuna forma giuridica nel nome | 15 |
+| 9d | 9d · Maiuscolo/minuscolo incoerente dentro il foglio | 50 |
 | 9e | 9e · Forma giuridica scritta in stile incoerente (foglio Italia) | 0 |
 | 10 | 10 · TLD del sito estraneo al paese del foglio | 7 |
 | 11 | 11 · Divergenze fra JSON di build e foglio Excel | 0 |
 | 11b | 11b · Record presente nei JSON ma assente dal foglio | 0 |
 
-**Totale rilievi automatici: 203**
+**Totale rilievi automatici: 198**
 
 
 ## Macro-filiere osservate
 
 | Macro | Occorrenze | In tassonomia |
 |---|--:|:--:|
-| Legno/Arredo | 201 | ✅ |
+| Legno/Arredo | 200 | ✅ |
 | Carta/Packaging | 127 | ✅ |
-| Caffè | 95 | ✅ |
-| Cacao/Cioccolato | 80 | ✅ |
-| Mangimi/Soia | 61 | ✅ |
+| Caffè | 94 | ✅ |
+| Cacao/Cioccolato | 79 | ✅ |
+| Mangimi/Soia | 58 | ✅ |
 | Gomma | 48 | ✅ |
 | Legno/Segheria | 39 | ✅ |
 | Bovini/Carne | 35 | ✅ |
@@ -109,7 +109,7 @@ _Nessun rilievo._
 | Danimarca | H.C. JACOBSEN A/S | [STEM DIVERSO — DA CONFERMARE] email @hc-jacobsen.dk vs sito hcemballage.dk  (email: info@hc-jacobsen.dk \| sito: https://hcemballage.dk/) | xlsx:Danimarca!r71 |
 | Olanda | Houtimport Reuver B.V. | [STEM DIVERSO — DA CONFERMARE] email @hireuver.nl vs sito houtimportreuver.nl  (email: verkoop@hireuver.nl \| sito: https://www.houtimportreuver.nl) | xlsx:Olanda!r17 |
 | Olanda | Origin Bridge (Barchem) | [STEM DIVERSO — DA CONFERMARE] email @bridgetoorigin.com vs sito originbridge.coffee  (email: info@bridgetoorigin.com \| sito: https://originbridge.coffee/) | xlsx:Olanda!r66 |
-| Olanda | Van Benthem Diervoeders Vollenhove B.V. | [STEM DIVERSO — DA CONFERMARE] email @vanbenthemvollenhove.nl vs sito vbvoer.nl  (email: info@vanbenthemvollenhove.nl \| sito: https://www.vbvoer.nl/) | xlsx:Olanda!r92 |
+| Olanda | Van Benthem Diervoeders Vollenhove B.V. | [STEM DIVERSO — DA CONFERMARE] email @vanbenthemvollenhove.nl vs sito vbvoer.nl  (email: info@vanbenthemvollenhove.nl \| sito: https://www.vbvoer.nl/) | xlsx:Olanda!r91 |
 | Belgio | Sas NV (Sas Coffee) | [STEM DIVERSO — DA CONFERMARE] email @sas-koffie.be vs sito sas-coffee.com  (email: info@sas-koffie.be \| sito: https://sas-coffee.com/) | xlsx:Belgio!r55 |
 | Belgio | Gudrun Commercial NV | [STEM DIVERSO — DA CONFERMARE] email @chocolates.be vs sito gudrungroup.be  (email: info@chocolates.be \| sito: https://gudrungroup.be/) | xlsx:Belgio!r67 |
 | Belgio | Oxfam Fair Trade CV | [STEM DIVERSO — DA CONFERMARE] email @oft.be vs sito oxfamfairtrade.be  (email: info@oft.be \| sito: https://www.oxfamfairtrade.be/) | xlsx:Belgio!r71 |
@@ -128,7 +128,7 @@ _Nessun rilievo._
 
 ---
 
-## 2c · Email su dominio freemail/PEC (accettabile ma non aziendale)  (10)
+## 2c · Email su dominio freemail/PEC (accettabile ma non aziendale)  (9)
 
 | Foglio | Denominazione | Rilievo | Origine |
 |---|---|---|---|
@@ -137,7 +137,6 @@ _Nessun rilievo._
 | Italia | Antica Dolceria Bonajuto S.r.l. | [FREEMAIL/PEC] email @pec.it vs sito bonajuto.it  (email: bonajuto@pec.it \| sito: https://www.bonajuto.it) | xlsx:Italia!r74 |
 | Italia | Mangimi Cavallo S.r.l. | [FREEMAIL/PEC] email @virgilio.it vs sito mangimicavallo.it  (email: mangimi.cavallo@virgilio.it \| sito: https://mangimicavallo.it) | xlsx:Italia!r89 |
 | Danimarca | EMBALLAGEFABRIKKEN THY PAP | [FREEMAIL/PEC] email @mail.dk vs sito thy-pap.dk  (email: thy-pap@mail.dk \| sito: https://thy-pap.dk/) | xlsx:Danimarca!r41 |
-| Danimarca | MEJLING LANDHANDEL / SÆBY FRØSALG | [FREEMAIL/PEC] email @mail.dk vs sito mejlinglandhandel.dk  (email: mejlingudlejning@mail.dk \| sito: https://mejlinglandhandel.dk/) | xlsx:Danimarca!r80 |
 | Olanda | Houtimport Lekkerkerker B.V. | [FREEMAIL/PEC] email @planet.nl vs sito houtimportlekkerkerker.nl  (email: houtimportlekkerkerker@planet.nl \| sito: https://www.houtimportlekkerkerker.nl) | xlsx:Olanda!r16 |
 | Belgio | Decadt Houthandel NV | [FREEMAIL/PEC] email @telenet.be vs sito decadt-hout.be  (email: decadt.hout@telenet.be \| sito: https://decadt-hout.be/) | xlsx:Belgio!r12 |
 | Belgio | Emballages Gruselle SRL | [FREEMAIL/PEC] email @skynet.be vs sito emballagesgruselle.eu  (email: gruselle@skynet.be \| sito: https://www.emballagesgruselle.eu) | xlsx:Belgio!r42 |
@@ -174,8 +173,8 @@ _Nessun rilievo._
 | Svezia | Nydala Trävaru Aktiebolag | [STEM AFFINE] email @nydalatra.se vs sito nydalatravaru.se  (email: mail@nydalatra.se \| sito: https://nydalatravaru.se/) | xlsx:Svezia!r34 |
 | Svezia | Woodsafe Timber Protection AB | [STESSO NOME, TLD DIVERSO] email @woodsafe.com vs sito woodsafe.se  (email: kundtjanst@woodsafe.com \| sito: https://www.woodsafe.se) | xlsx:Svezia!r47 |
 | Svezia | ZilenZio AB | [STESSO NOME, TLD DIVERSO] email @zilenzio.se vs sito zilenzio.com  (email: info@zilenzio.se \| sito: https://zilenzio.com/) | xlsx:Svezia!r48 |
-| Svezia | Candy People AB | [STESSO NOME, TLD DIVERSO] email @candypeople.com vs sito candypeople.se  (email: info@candypeople.com \| sito: https://candypeople.se/) | xlsx:Svezia!r78 |
-| Svezia | Forsbecks Eftr. Aktiebolag | [STESSO NOME, TLD DIVERSO] email @forsbecks.com vs sito forsbecks.se  (email: per-magnus.johansson@forsbecks.com \| sito: https://www.forsbecks.se/) | xlsx:Svezia!r86 |
+| Svezia | Candy People AB | [STESSO NOME, TLD DIVERSO] email @candypeople.com vs sito candypeople.se  (email: info@candypeople.com \| sito: https://candypeople.se/) | xlsx:Svezia!r77 |
+| Svezia | Forsbecks Eftr. Aktiebolag | [STESSO NOME, TLD DIVERSO] email @forsbecks.com vs sito forsbecks.se  (email: per-magnus.johansson@forsbecks.com \| sito: https://www.forsbecks.se/) | xlsx:Svezia!r85 |
 | Olanda | De Leeuw Huidenhandel N.V. | [STESSO NOME, TLD DIVERSO] email @deleeuwhides.nl vs sito deleeuwhides.com  (email: sales@deleeuwhides.nl \| sito: https://www.deleeuwhides.com) | xlsx:Olanda!r3 |
 | Olanda | Beijleveld Houtimport B.V. | [STEM AFFINE] email @beyleveld.com vs sito beyleveldhoutimport.com  (email: info@beyleveld.com \| sito: https://www.beyleveldhoutimport.com) | xlsx:Olanda!r8 |
 | Olanda | Van Ierssel Houtimport B.V. | [STEM AFFINE] email @vanierssel.nl vs sito vaniersselhoutimport.nl  (email: info@vanierssel.nl \| sito: https://www.vaniersselhoutimport.nl) | xlsx:Olanda!r23 |
@@ -184,9 +183,9 @@ _Nessun rilievo._
 | Olanda | Papierfabriek Schut B.V. | [STESSO NOME, TLD DIVERSO] email @schutpapier.com vs sito schutpapier.nl  (email: info@schutpapier.com \| sito: https://schutpapier.nl) | xlsx:Olanda!r47 |
 | Olanda | Veldhuis Media B.V. | [STEM AFFINE] email @veldhuis.nl vs sito veldhuismedia.nl  (email: info@veldhuis.nl \| sito: https://www.veldhuismedia.nl) | xlsx:Olanda!r50 |
 | Olanda | Hesselink Koffiesystemen B.V. | [STESSO NOME, TLD DIVERSO] email @hesselinkkoffie.eu vs sito hesselinkkoffie.nl  (email: info@hesselinkkoffie.eu \| sito: https://hesselinkkoffie.nl/) | xlsx:Olanda!r61 |
-| Olanda | Chocolatemakers B.V. | [STESSO NOME, TLD DIVERSO] email @chocolatemakers.nl vs sito chocolatemakers.com  (email: info@chocolatemakers.nl \| sito: https://www.chocolatemakers.com/) | xlsx:Olanda!r73 |
-| Olanda | DO IT Organic Food Ingredients B.V. | [STEM AFFINE] email @organic.nl vs sito doitorganic.nl  (email: sales@organic.nl \| sito: https://www.doitorganic.nl/) | xlsx:Olanda!r94 |
-| Olanda | Spack B.V. | [STEM AFFINE] email @spackbv.com vs sito spack.nl  (email: info@spackbv.com \| sito: https://www.spack.nl/) | xlsx:Olanda!r96 |
+| Olanda | Chocolatemakers B.V. | [STESSO NOME, TLD DIVERSO] email @chocolatemakers.nl vs sito chocolatemakers.com  (email: info@chocolatemakers.nl \| sito: https://www.chocolatemakers.com/) | xlsx:Olanda!r72 |
+| Olanda | DO IT Organic Food Ingredients B.V. | [STEM AFFINE] email @organic.nl vs sito doitorganic.nl  (email: sales@organic.nl \| sito: https://www.doitorganic.nl/) | xlsx:Olanda!r93 |
+| Olanda | Spack B.V. | [STEM AFFINE] email @spackbv.com vs sito spack.nl  (email: info@spackbv.com \| sito: https://www.spack.nl/) | xlsx:Olanda!r95 |
 | Belgio | Bulo NV | [STESSO NOME, TLD DIVERSO] email @bulo.be vs sito bulo.com  (email: info@bulo.be \| sito: https://bulo.com) | xlsx:Belgio!r7 |
 | Belgio | Lavrijsen Houtbedrijf NV | [STEM AFFINE] email @lavrijsen-geel.be vs sito lavrijsen.be  (email: info@lavrijsen-geel.be \| sito: https://lavrijsen.be/) | xlsx:Belgio!r21 |
 | Belgio | Allbox NV | [STEM AFFINE] email @allbox.be vs sito allboxnetwork.be  (email: info@allbox.be \| sito: https://allboxnetwork.be) | xlsx:Belgio!r36 |
@@ -267,7 +266,7 @@ _Nessun rilievo._
 
 ---
 
-## 7c · Sito web mancante  (26)
+## 7c · Sito web mancante  (24)
 
 | Foglio | Denominazione | Rilievo | Origine |
 |---|---|---|---|
@@ -286,13 +285,11 @@ _Nessun rilievo._
 | Germania | Bärmühle Langenhessen GmbH Mischfutterwerk | Sito = '' | xlsx:Germania!r86 |
 | Germania | Demharter Mischfutterwerk GmbH & Co. KG | Sito = '' | xlsx:Germania!r87 |
 | Danimarca | DANSK KAFFE ApS | Sito = '' | xlsx:Danimarca!r54 |
-| Danimarca | TJØRNEHØJ MØLLE A/S | Sito = 'n.d.' | xlsx:Danimarca!r83 |
-| Danimarca | VESTJYSK SPECIALFODER ApS | Sito = 'n.d.' | xlsx:Danimarca!r84 |
-| Svezia | Aktiebolaget Cool & Candy | Sito = 'n.d.' | xlsx:Svezia!r77 |
+| Danimarca | TJØRNEHØJ MØLLE A/S | Sito = 'n.d.' | xlsx:Danimarca!r81 |
+| Svezia | Aktiebolaget Cool & Candy | Sito = 'n.d.' | xlsx:Svezia!r76 |
 | Olanda | Snel Industrie voor Karton en Papierveredeling B.V. | Sito = '' | xlsx:Olanda!r48 |
-| Olanda | Chocolade- en Suikerwerkfabriek Marandi B.V. | Sito = 'n.d.' | xlsx:Olanda!r71 |
-| Olanda | Continental Chocolate B.V. | Sito = 'n.d.' | xlsx:Olanda!r74 |
-| Olanda | Rousseau Chocolade B.V. | Sito = 'n.d.' | xlsx:Olanda!r80 |
+| Olanda | Continental Chocolate B.V. | Sito = 'n.d.' | xlsx:Olanda!r73 |
+| Olanda | Rousseau Chocolade B.V. | Sito = 'n.d.' | xlsx:Olanda!r79 |
 | Belgio | Label-Pak-Int'l Co SA | Sito = 'n.d.' | xlsx:Belgio!r46 |
 | Belgio | Silco NV | Sito = '' | xlsx:Belgio!r56 |
 | Belgio | Slachthuis Velzeke BV | Sito = 'n.d.' | xlsx:Belgio!r91 |
@@ -304,9 +301,9 @@ _Nessun rilievo._
 
 | Foglio | Denominazione | Rilievo | Origine |
 |---|---|---|---|
-| Svezia | Nordiska Kaffebolaget H. Hansson & Co Aktiebolag | valori stimati M€: 4.84 («54,7 MSEK») \| campo: Fatturato 54,7 MSEK (~4,8 M€) 2024 (+8,4%); 17 dipendenti (14 nel 2023) (fonte: allabolag.se, bilancio 2024). Org.nr 556083-2379. SNI 46370 kaffe/te a | xlsx:Svezia!r75 |
-| Svezia | Malmö Chokladfabrik AB | valori stimati M€: 3.77 («42,6 MSEK») \| campo: Fatturato 42,6 MSEK (~3,8 M€) esercizio 2025 (+31,6%); 16 dipendenti (fonte: allabolag.se / bolagsfakta.se). Org.nr 556664-6286. Sotto la fascia tolle | xlsx:Svezia!r81 |
-| Svezia | Forsbecks Eftr. Aktiebolag | valori stimati M€: 52.21 («589.951 KSEK») \| campo: ATTENZIONE TAGLIA: fatturato 589.951 KSEK (~52,2 M€) con soli 31-35 dipendenti — bilancio 2022 (fonte allabolag/bolagsfakta); org.nr 556002-3417. Sopr | xlsx:Svezia!r86 |
+| Svezia | Nordiska Kaffebolaget H. Hansson & Co Aktiebolag | valori stimati M€: 4.84 («54,7 MSEK») \| campo: Fatturato 54,7 MSEK (~4,8 M€) 2024 (+8,4%); 17 dipendenti (14 nel 2023) (fonte: allabolag.se, bilancio 2024). Org.nr 556083-2379. SNI 46370 kaffe/te a | xlsx:Svezia!r74 |
+| Svezia | Malmö Chokladfabrik AB | valori stimati M€: 3.77 («42,6 MSEK») \| campo: Fatturato 42,6 MSEK (~3,8 M€) esercizio 2025 (+31,6%); 16 dipendenti (fonte: allabolag.se / bolagsfakta.se). Org.nr 556664-6286. Sotto la fascia tolle | xlsx:Svezia!r80 |
+| Svezia | Forsbecks Eftr. Aktiebolag | valori stimati M€: 52.21 («589.951 KSEK») \| campo: ATTENZIONE TAGLIA: fatturato 589.951 KSEK (~52,2 M€) con soli 31-35 dipendenti — bilancio 2022 (fonte allabolag/bolagsfakta); org.nr 556002-3417. Sopr | xlsx:Svezia!r85 |
 | Belgio | Baeten & Co NV | valori stimati M€: 42.81 («42.810.588 EUR») \| campo: Fatturato 42.810.588 EUR (bilancio NBB depositato 15-07-2025) — taglia gonfiata dal costo materia prima: solo 13,7 FTE; n. impresa BE 0447.081.908 | xlsx:Belgio!r84 |
 | Belgio | Royale Lacroix SA | valori stimati M€: 49.35 («49.349.520 EUR») \| campo: Fatturato 49.349.520 EUR (bilancio NBB, ultimo esercizio pubblicato) — taglia gonfiata dal costo materia prima: solo 18,6 FTE; n. impresa BE 0404.423. | xlsx:Belgio!r85 |
 | Belgio | Ameloot BV | valori stimati M€: 49.30 («49.298.205 EUR») \| campo: Fatturato 49.298.205 EUR (Trends Top/NBB, ultimo esercizio); n. impresa BE 0413.029.562. AZIENDA DI CONFINE: sopra i 40 M€ ma PMI familiare indipenden | xlsx:Belgio!r86 |
@@ -327,7 +324,7 @@ _Nessun rilievo._
 
 ---
 
-## 9c · Nessuna forma giuridica nel nome  (16)
+## 9c · Nessuna forma giuridica nel nome  (15)
 
 | Foglio | Denominazione | Rilievo | Origine |
 |---|---|---|---|
@@ -338,10 +335,9 @@ _Nessun rilievo._
 | Germania | Confiserie Dengel (Inh. Uwe Dengel) | nessuna forma giuridica riconoscibile | xlsx:Germania!r63 |
 | Germania | Schell Schokoladenmanufaktur (Inh. Eberhard Schell) | nessuna forma giuridica riconoscibile | xlsx:Germania!r72 |
 | Danimarca | EMBALLAGEFABRIKKEN THY PAP | nessuna forma giuridica riconoscibile | xlsx:Danimarca!r41 |
-| Danimarca | MEJLING LANDHANDEL / SÆBY FRØSALG | nessuna forma giuridica riconoscibile | xlsx:Danimarca!r80 |
-| Danimarca | Naturli' Foods | nessuna forma giuridica riconoscibile | xlsx:Danimarca!r85 |
-| Danimarca | Grambogård | nessuna forma giuridica riconoscibile | xlsx:Danimarca!r88 |
-| Danimarca | JN Meat International | nessuna forma giuridica riconoscibile | xlsx:Danimarca!r89 |
+| Danimarca | Naturli' Foods | nessuna forma giuridica riconoscibile | xlsx:Danimarca!r82 |
+| Danimarca | Grambogård | nessuna forma giuridica riconoscibile | xlsx:Danimarca!r85 |
+| Danimarca | JN Meat International | nessuna forma giuridica riconoscibile | xlsx:Danimarca!r86 |
 | Olanda | Origin Bridge (Barchem) | nessuna forma giuridica riconoscibile | xlsx:Olanda!r66 |
 | Austria | steininger.designers gmbh | nessuna forma giuridica riconoscibile | xlsx:Austria!r38 |
 | Austria | weinberger-holz gmbh | nessuna forma giuridica riconoscibile | xlsx:Austria!r39 |
@@ -350,61 +346,60 @@ _Nessun rilievo._
 
 ---
 
-## 9d · Maiuscolo/minuscolo incoerente dentro il foglio  (51)
+## 9d · Maiuscolo/minuscolo incoerente dentro il foglio  (50)
 
 | Foglio | Denominazione | Rilievo | Origine |
 |---|---|---|---|
 | Germania | FMS AG | maiuscolo integrale da registro: 1/97 record del foglio Germania sono in MAIUSCOLO, gli altri 96 in forma normale | xlsx:Germania!r29 |
-| Danimarca | NIELAUS A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r3 |
-| Danimarca | AUBO PRODUCTION A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r6 |
-| Danimarca | BØJSØ DØRE & VINDUER A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r7 |
-| Danimarca | DANSK HÅRDTTRÆ SAVVÆRK A/S (DHS) | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r8 |
-| Danimarca | DINESEN FLOORS A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r9 |
-| Danimarca | FREDERICIA FURNITURE A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r10 |
-| Danimarca | GLOBAL TIMBER A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r12 |
-| Danimarca | GRAMRODE MØBELFABRIK A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r13 |
-| Danimarca | HAMMEL FURNITURE A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r14 |
-| Danimarca | HVIDBJERG VINDUET A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r15 |
-| Danimarca | HØRNING PARKET A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r16 |
-| Danimarca | JKE DESIGN A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r19 |
-| Danimarca | KEFLICO A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r20 |
-| Danimarca | KRYDSFINER-HANDELEN A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r21 |
-| Danimarca | KVIST INDUSTRIES A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r22 |
-| Danimarca | LILLEHEDEN A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r24 |
-| Danimarca | MULTIFORM A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r25 |
-| Danimarca | N. EILERSEN A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r26 |
-| Danimarca | SIKA DESIGN A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r28 |
-| Danimarca | SKOVBY MØBELFABRIK A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r29 |
-| Danimarca | SOFTLINE A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r30 |
-| Danimarca | SOMMER-SAVEX A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r31 |
-| Danimarca | SUPERWOOD A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r32 |
-| Danimarca | TIMBERMAN DENMARK A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r34 |
-| Danimarca | VERMUND LARSEN A/S (VELA / VERMUND) | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r35 |
-| Danimarca | SKOVS KORN A/S. KORN- OG FODERSTOFAGENTUR | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r36 |
-| Danimarca | ALL CREATIVE A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r37 |
-| Danimarca | BOXEN EMBALLAGE A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r38 |
-| Danimarca | BUCHS A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r39 |
-| Danimarca | COLOR LABEL A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r40 |
-| Danimarca | EMBALLAGEFABRIKKEN THY PAP | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r41 |
-| Danimarca | IKAST ETIKET A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r43 |
-| Danimarca | KAILOW A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r45 |
-| Danimarca | KLS PUREPRINT A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r46 |
-| Danimarca | MC EMBALLAGE A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r47 |
-| Danimarca | SCANLUX PACKAGING A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r48 |
-| Danimarca | STOK EMBALLAGE K/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r51 |
-| Danimarca | PETER BEIER CHOKOLADE A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r64 |
-| Danimarca | PR CHOKOLADE A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r65 |
-| Danimarca | AVK GUMMI A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r69 |
-| Danimarca | DANSK GUMMI INDUSTRI A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r70 |
-| Danimarca | H.C. JACOBSEN A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r71 |
-| Danimarca | RG ROM GUMMI A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r72 |
-| Danimarca | SKANDINAVISK DÆK IMPORT A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r74 |
-| Danimarca | CEBECO FOURAGE A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r77 |
-| Danimarca | CR FODERSERVICE K/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r79 |
-| Danimarca | MEJLING LANDHANDEL / SÆBY FRØSALG | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r80 |
-| Danimarca | NORDVEST FODER A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r81 |
-| Danimarca | NUTRIMIN A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r82 |
-| Danimarca | TJØRNEHØJ MØLLE A/S | maiuscolo integrale da registro: 50/88 record del foglio Danimarca sono in MAIUSCOLO, gli altri 38 in forma normale | xlsx:Danimarca!r83 |
+| Danimarca | NIELAUS A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r3 |
+| Danimarca | AUBO PRODUCTION A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r6 |
+| Danimarca | BØJSØ DØRE & VINDUER A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r7 |
+| Danimarca | DANSK HÅRDTTRÆ SAVVÆRK A/S (DHS) | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r8 |
+| Danimarca | DINESEN FLOORS A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r9 |
+| Danimarca | FREDERICIA FURNITURE A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r10 |
+| Danimarca | GLOBAL TIMBER A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r12 |
+| Danimarca | GRAMRODE MØBELFABRIK A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r13 |
+| Danimarca | HAMMEL FURNITURE A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r14 |
+| Danimarca | HVIDBJERG VINDUET A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r15 |
+| Danimarca | HØRNING PARKET A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r16 |
+| Danimarca | JKE DESIGN A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r19 |
+| Danimarca | KEFLICO A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r20 |
+| Danimarca | KRYDSFINER-HANDELEN A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r21 |
+| Danimarca | KVIST INDUSTRIES A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r22 |
+| Danimarca | LILLEHEDEN A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r24 |
+| Danimarca | MULTIFORM A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r25 |
+| Danimarca | N. EILERSEN A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r26 |
+| Danimarca | SIKA DESIGN A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r28 |
+| Danimarca | SKOVBY MØBELFABRIK A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r29 |
+| Danimarca | SOFTLINE A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r30 |
+| Danimarca | SOMMER-SAVEX A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r31 |
+| Danimarca | SUPERWOOD A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r32 |
+| Danimarca | TIMBERMAN DENMARK A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r34 |
+| Danimarca | VERMUND LARSEN A/S (VELA / VERMUND) | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r35 |
+| Danimarca | SKOVS KORN A/S. KORN- OG FODERSTOFAGENTUR | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r36 |
+| Danimarca | ALL CREATIVE A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r37 |
+| Danimarca | BOXEN EMBALLAGE A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r38 |
+| Danimarca | BUCHS A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r39 |
+| Danimarca | COLOR LABEL A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r40 |
+| Danimarca | EMBALLAGEFABRIKKEN THY PAP | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r41 |
+| Danimarca | IKAST ETIKET A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r43 |
+| Danimarca | KAILOW A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r45 |
+| Danimarca | KLS PUREPRINT A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r46 |
+| Danimarca | MC EMBALLAGE A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r47 |
+| Danimarca | SCANLUX PACKAGING A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r48 |
+| Danimarca | STOK EMBALLAGE K/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r51 |
+| Danimarca | PETER BEIER CHOKOLADE A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r64 |
+| Danimarca | PR CHOKOLADE A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r65 |
+| Danimarca | AVK GUMMI A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r69 |
+| Danimarca | DANSK GUMMI INDUSTRI A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r70 |
+| Danimarca | H.C. JACOBSEN A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r71 |
+| Danimarca | RG ROM GUMMI A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r72 |
+| Danimarca | SKANDINAVISK DÆK IMPORT A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r74 |
+| Danimarca | CEBECO FOURAGE A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r77 |
+| Danimarca | CR FODERSERVICE K/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r78 |
+| Danimarca | NORDVEST FODER A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r79 |
+| Danimarca | NUTRIMIN A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r80 |
+| Danimarca | TJØRNEHØJ MØLLE A/S | maiuscolo integrale da registro: 49/85 record del foglio Danimarca sono in MAIUSCOLO, gli altri 36 in forma normale | xlsx:Danimarca!r81 |
 
 ---
 

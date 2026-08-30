@@ -595,16 +595,25 @@ fogli non hanno tutti la stessa origine:
 Ogni correzione ha un **controllo di guardia**: lo script confronta il valore attuale con quello
 atteso e **salta** la correzione se non coincidono. Così è rieseguibile senza rischi.
 
+### Esito finale della copertura
+
+**Fase A: 100% dei record. Fase B: 41 blocchi completi su 42.**
+Un solo record dell'intero censimento non è stato coperto dalla verifica web — **Cafe Solo Oy**
+(Finlandia) — ed è segnalato come `DA CONFERMARE` nel report. Tutto il resto è stato verificato
+record per record, con evidenza a fonte.
+
+**1.216 rilievi** in totale: **172 di gravità alta**, 693 media, 351 bassa.
+
 ### Cosa resta da fare
 
-La Fase A copre il **100%** dei record. La **Fase B è parziale**: il limite di sessione degli agenti
-si è riattivato ancora (uccidendo 2 agenti a metà lavoro), quindi non tutti i 42 blocchi sono stati
-verificati. Lo stato di avanzamento è nella **§1 del `REPORT_VERIFICA.md`**, che elenca blocco per
-blocco quali sono fatti.
+**Il lavoro di verifica è concluso.** Quel che resta non è verifica ma *decisione del cliente*:
+i rilievi `alta` e `media` sono nel report con evidenza e correzione proposta, e vanno sciolti prima
+del contatto commerciale. In particolare i **dieci record operatore/commerciante** (§0-bis del
+report), le **filiali di gruppi esteri** e i **fuori taglia**, tutti lasciati nei fogli di proposito.
 
-**Per continuare:** prendere un blocco non ancora verificato da `_myeudr_build/verifica/blocchi/`,
-lanciare un agente con il testo di `MANDATO_AGENTE.md` + i promemoria specifici del paese, e far
-scrivere `_myeudr_build/verifica/<nome_blocco>.json`. Poi rilanciare `monta_report.py`.
+**Se si volesse chiudere l'ultimo record:** prendere Cafe Solo Oy dal blocco `finlandia_04`,
+verificarlo con `MANDATO_AGENTE.md`, aggiungere il rilievo a `_myeudr_build/verifica/finlandia_04.json`
+e rilanciare `monta_report.py`.
 Regole che hanno funzionato e vanno mantenute:
 1. **massimo 2-3 agenti per volta** (il limite si è riattivato 9 volte in tutto il progetto);
 2. **salvataggio incrementale obbligatorio** nel prompt («scrivi il file ogni 3-4 record»): è ciò
