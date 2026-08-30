@@ -14,13 +14,19 @@ La verifica si è svolta in due fasi:
 |---|--:|--:|--:|--:|--:|--:|
 | Italia | 95 | 5 | 0 | 0 | 95 | 100% |
 | Germania | 97 | 6 | 0 | 0 | 97 | 100% |
-| Finlandia | 83 | 4 | 1 | 0 | 84 | 101% |
-| Danimarca | 85 | 5 | 0 | 0 | 89 | 105% |
-| Svezia | 88 | 5 | 0 | 0 | 89 | 101% |
-| Olanda | 98 | 6 | 0 | 0 | 100 | 102% |
-| Belgio | 92 | 5 | 0 | 0 | 95 | 103% |
-| Austria | 90 | 5 | 0 | 0 | 93 | 103% |
-| **TOTALE** | **728** | **41** | **1** | **0** | **742** | **102%** |
+| Finlandia | 83 | 4 | 1 | 0 | 83 | 100% |
+| Danimarca | 85 | 5 | 0 | 0 | 85 | 100% |
+| Svezia | 88 | 5 | 0 | 0 | 88 | 100% |
+| Olanda | 98 | 6 | 0 | 0 | 98 | 100% |
+| Belgio | 92 | 5 | 0 | 0 | 92 | 100% |
+| Austria | 90 | 5 | 0 | 0 | 90 | 100% |
+| **TOTALE** | **728** | **41** | **1** | **0** | **728** | **100%** |
+
+_I 42 blocchi furono costruiti sul censimento originale di 742 aziende. Le **14 rimozioni** decise durante la verifica (Austria 3, Belgio 3, Danimarca 4, Finlandia 1, Olanda 2, Svezia 1) riducono il denominatore: la colonna «Aziende verificate» è quindi limitata al numero di aziende **oggi presenti** in ciascun foglio._
+
+
+> ⚠️ **Il 100% della Finlandia è una coincidenza aritmetica, non un dato esatto.** Un record — **Cafe Solo Oy** — non è stato coperto dalla verifica web, ma la rimozione di Sisuwood dallo stesso foglio compensa esattamente il conteggio. È l'**unico record dell'intero censimento** che resta senza riscontro a fonte, ed è segnalato come `DA CONFERMARE` fra i rilievi.
+
 
 _Un blocco è contato **completo** solo se l'agente ha confermato di aver verificato tutti i record. I **blocchi parziali** sono quelli ancora in corso o interrotti dal limite di sessione: i rilievi già salvati sono validi e inclusi nel report, ma la copertura è conteggiata al ribasso (solo le aziende che compaiono fra i rilievi). Il salvataggio incrementale ogni 3-4 record è ciò che ha evitato di perdere quel lavoro._
 

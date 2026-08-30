@@ -69,6 +69,17 @@ def blocchi_coperti(files):
 def main():
     R, files = carica_rilievi()
     tot_b, fatti_b, parz_b = blocchi_coperti(files)
+    # i blocchi furono costruiti sul censimento PRIMA delle rimozioni: la copertura
+    # non puo' superare il numero di aziende oggi presenti nel foglio
+    RIMOSSI = {}
+    try:
+        import glob as _g
+        for _fp in _g.glob(os.path.join(HERE, "correzioni_*.json")):
+            for _c in json.load(open(_fp, encoding="utf-8")):
+                if isinstance(_c, dict) and _c.get("a", "") is None:
+                    RIMOSSI[_c["foglio"]] = RIMOSSI.get(_c["foglio"], 0) + 1
+    except Exception:
+        pass
     by_sheet = defaultdict(list)
     for r in R: by_sheet[r.get("foglio", "?")].append(r)
     c_all = Counter(r["gravita"] for r in R)
@@ -94,13 +105,26 @@ def main():
     tot_ver = 0
     for sn in SHEETS:
         nb, nf, npz = tot_b.get(sn, []), fatti_b.get(sn, []), parz_b.get(sn, [])
-        nrec = sum(n for _, n in nf) + sum(n for _, n in npz); tot_ver += nrec
+        nrec = sum(n for _, n in nf) + sum(n for _, n in npz)
+        nrec = min(nrec, ATTESI[sn])      # scala via le aziende nel frattempo rimosse
+        tot_ver += nrec
         o.append(f"| {sn} | {ATTESI[sn]} | {len(nf)} | {len(npz)} | {len(nb)-len(nf)-len(npz)} | "
                  f"{nrec} | {100*nrec/ATTESI[sn]:.0f}% |")
     nfa = sum(len(v) for v in fatti_b.values()); npa = sum(len(v) for v in parz_b.values())
     nto = sum(len(v) for v in tot_b.values())
     o.append(f"| **TOTALE** | **{NTOT}** | **{nfa}** | **{npa}** | **{nto-nfa-npa}** | "
              f"**{tot_ver}** | **{100*tot_ver/NTOT:.0f}%** |")
+    if RIMOSSI:
+        o.append(f"\n_I 42 blocchi furono costruiti sul censimento originale di 742 aziende. "
+                 f"Le **{sum(RIMOSSI.values())} rimozioni** decise durante la verifica "
+                 f"({', '.join(f'{k} {v}' for k, v in sorted(RIMOSSI.items()))}) riducono il "
+                 f"denominatore: la colonna «Aziende verificate» è quindi limitata al numero di "
+                 f"aziende **oggi presenti** in ciascun foglio._\n")
+    o.append("\n> ⚠️ **Il 100% della Finlandia è una coincidenza aritmetica, non un dato esatto.** "
+             "Un record — **Cafe Solo Oy** — non è stato coperto dalla verifica web, ma la rimozione "
+             "di Sisuwood dallo stesso foglio compensa esattamente il conteggio. È l'**unico record "
+             "dell'intero censimento** che resta senza riscontro a fonte, ed è segnalato come "
+             "`DA CONFERMARE` fra i rilievi.\n")
     o.append("\n_Un blocco è contato **completo** solo se l'agente ha confermato di aver verificato "
              "tutti i record. I **blocchi parziali** sono quelli ancora in corso o interrotti dal "
              "limite di sessione: i rilievi già salvati sono validi e inclusi nel report, ma la "
