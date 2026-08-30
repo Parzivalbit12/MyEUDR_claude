@@ -14,13 +14,13 @@ La verifica si è svolta in due fasi:
 |---|--:|--:|--:|--:|--:|--:|
 | Italia | 95 | 5 | 0 | 0 | 95 | 100% |
 | Germania | 97 | 6 | 0 | 0 | 97 | 100% |
-| Finlandia | 83 | 3 | 2 | 0 | 75 | 90% |
+| Finlandia | 83 | 3 | 2 | 0 | 78 | 94% |
 | Danimarca | 85 | 5 | 0 | 0 | 89 | 105% |
 | Svezia | 88 | 5 | 0 | 0 | 89 | 101% |
 | Olanda | 98 | 6 | 0 | 0 | 100 | 102% |
 | Belgio | 92 | 5 | 0 | 0 | 95 | 103% |
 | Austria | 90 | 5 | 0 | 0 | 93 | 103% |
-| **TOTALE** | **728** | **40** | **2** | **0** | **733** | **101%** |
+| **TOTALE** | **728** | **40** | **2** | **0** | **736** | **101%** |
 
 _Un blocco è contato **completo** solo se l'agente ha confermato di aver verificato tutti i record. I **blocchi parziali** sono quelli ancora in corso o interrotti dal limite di sessione: i rilievi già salvati sono validi e inclusi nel report, ma la copertura è conteggiata al ribasso (solo le aziende che compaiono fra i rilievi). Il salvataggio incrementale ogni 3-4 record è ciò che ha evitato di perdere quel lavoro._
 
@@ -32,28 +32,28 @@ _A questi si aggiunge la verifica mirata dei **13 punti già noti** lasciati ape
 
 ## 2. Rilievi per foglio
 
-**Totale rilievi Fase B: 1205** — alta 172 · media 689 · bassa 344.
+**Totale rilievi Fase B: 1210** — alta 172 · media 692 · bassa 346.
 
 | Foglio | Rilievi | alta | media | bassa | Aziende toccate |
 |---|--:|--:|--:|--:|--:|
 | Italia | 175 | 4 | 100 | 71 | 93 |
 | Germania | 199 | 19 | 128 | 52 | 97 |
-| Finlandia | 108 | 26 | 51 | 31 | 65 |
+| Finlandia | 113 | 26 | 54 | 33 | 68 |
 | Danimarca | 131 | 32 | 67 | 32 | 79 |
 | Svezia | 142 | 32 | 72 | 38 | 78 |
 | Olanda | 164 | 19 | 110 | 35 | 84 |
 | Belgio | 182 | 28 | 100 | 54 | 89 |
 | Austria | 103 | 12 | 61 | 30 | 71 |
 | _(tutti)_ | 1 | 0 | 0 | 1 | 1 |
-| **TOTALE** | **1205** | **172** | **689** | **344** | **657** |
+| **TOTALE** | **1210** | **172** | **692** | **346** | **660** |
 
 ### Rilievi per campo
 
 | Campo | Rilievi | di cui alta |
 |---|--:|--:|
-| dimensione | 561 | 89 |
-| referente | 254 | 27 |
-| email | 98 | 7 |
+| dimensione | 562 | 89 |
+| referente | 255 | 27 |
+| email | 101 | 7 |
 | filiera | 79 | 24 |
 | denominazione | 72 | 20 |
 | sito | 36 | 2 |
@@ -1639,7 +1639,7 @@ REFERENTE OBSOLETO DI DUE PASSAGGI. Heinz Hofer-Wittmann non e' piu' alla guida:
 
 ---
 
-## 5. Casi di gravità MEDIA (689)
+## 5. Casi di gravità MEDIA (692)
 
 _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente errato._
 
@@ -1882,7 +1882,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | ecopell GmbH | dimensione | Campo privo di dato dimensionale ('Umsatz/MA n.d. (dal 1992)'). Le fonti disponibili indicano una micro-impresa: totale di bilancio 2023 pari a ~900 mila EUR (-20,1% sull'anno precedente), capitale sociale 265.000 EUR. E' quindi molto al di sotto del | https://implisense.com/en/companies/ecopell-gmbh-weitnau-seltmans-DE7L5HN3YI34 - 'last published balance sheet total of Ecopell GmbH in 2023 was 900k  | Totale di bilancio ~0,9 Mio EUR (2023, Bundesanzeiger via Implisense) - micro-impresa, fuori forbice target |
 | impuls Kaffeemanufaktur | dimensione | Campo inutilizzabile ('n.d.'): nessun tipo di dato, fonte o anno. Si tratta di una ditta individuale (Einzelunternehmen di Rainer Burkhardt, non una società di capitali) con torrefazione e caffetteria a Kiel: presumibilmente molto al di sotto della f | https://impuls-kaffeemanufaktur.de/pages/impressum : «Rainer Burkhardt, Küterstrasse 7-9, 24103 Kiel» (nessuna forma societaria, nessun HRB); foerdefr | Micro-impresa/ditta individuale (Einzelunternehmen); nessun dato di fatturato o dipendenti pubblicato — verosimilmente s |
 
-### Finlandia (51)
+### Finlandia (54)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -1890,11 +1890,13 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Aureskosken Jalostetehdas Oy | dimensione | Società appartenente a Tammisto-Yhtiöt (gruppo): il legame è già dichiarato nel campo, ma la compliance EUDR si decide a livello di capogruppo — lead da riqualificare sulla holding Tammisto (stesso CEO di Lapuan Saha). | https://www.asiakastieto.fi/yritykset/fi/aureskosken-jalostetehdas-oy/25116026/yleiskuva — frammento: "Aureskosken Jalostetehdas Oy ... kuuluu Tammist |  |
 | BestPak Oy | referente | Referente e ruolo assenti: il toimitusjohtaja risulta Jyri Juhani Weiste. | "BestPak Oy (Y-tunnus 1994958-2) is located in Pirkkala, and its toimitusjohtaja is Weiste Jyri Juhani" — https://www.asiakastieto.fi/yritykset/fi/bes | Jyri Weiste — Toimitusjohtaja (CEO) |
 | Bong Suomi Oy | dimensione | Fatturato non aggiornato e in calo: 5,5 M€ nel 2024 (contro i 6,5 M€ del 2023 indicati nel campo). La società scende così a ridosso della soglia minima della forbice (5 M€). Il controllo del gruppo svedese Bong è invece già correttamente dichiarato. | "yrityksen liikevaihto oli 5,5 miljoonaa euroa 2024 ... yrityksen liikevaihto oli 6,5 MEUR vuonna 2023" — https://www.asiakastieto.fi/yritykset/fi/bon | Liikevaihto 5,5 M€ (2024, Asiakastieto); parte del gruppo svedese Bong — al limite inferiore della forbice |
+| Brunberg Oy | email | Campo email valorizzato 'n.d.' benché indirizzi pubblici siano disponibili sul sito ufficiale: postmaster@brunberg.fi (generale), tilaukset@brunberg.fi (ordini/wholesale). Lead di fatto non contattabile via email così com'è. | https://brunberg.fi/en/contact-information/ — 'Corporate orders & Wholesale: tilaukset@brunberg.fi ... General: postmaster@brunberg.fi' | tilaukset@brunberg.fi (in alternativa postmaster@brunberg.fi) |
 | CWP Coloured Wood Products Oy | dimensione | Fatturato 3,4 M€ (2024, in calo da 4,6 M€ 2022 e 4,1 M€ 2023): sotto la soglia minima tollerabile di 5 M€, senza che il campo lo segnali. | https://www.asiakastieto.fi/yritykset/fi/cwp-coloured-wood-products-oy/18959252/taloustiedot — frammento: "revenue was 3.4 million euros in 2024; 4.1  | Liikevaihto 3,4 M€ (2024) — FUORI FORBICE (sotto i 5 M€) |
 | E J Hiipakka Oy | sito | Il sito ufficiale dell'azienda e' www.hiipakka.net (tutte le pagine yhteystiedot/henkilomme/tietosuojaseloste sono su quel dominio); ejh.fi risulta usato solo come dominio di posta. Il valore indicato nel campo 'sito' non e' il sito istituzionale. | https://www.hiipakka.net/kodin-kalusteet/yhteystiedot/ e https://investkurikka.fi/yrityshakemisto/e-j-hiipakka-oy/ — frammento: "Website: https://www. | https://www.hiipakka.net |
 | Esan Levykaluste Oy | dimensione | Il campo segnala 'sotto sweet spot' ma il valore (3,62 M€; 3,7 M€ e 23 dip. nel 2025) e' sotto anche la soglia minima tollerabile di 5 M€: lead fuori forbice, non solo fuori sweet spot. Manca inoltre anno e fonte del dato riportato. | https://search.vainu.com/company/esan-levykaluste-oy-taloustiedot-ja-liikevaihto/FI04807872/yritystiedot — frammento: "The company's revenue was 3.7 m | Liikevaihto 3,7 M€ / 23 dip. (2025, Vainu) — FUORI FORBICE (sotto i 5 M€) |
 | FM Timber Oy | dimensione | Il campo definisce il dato 'fascia alta, vicino al limite', ma 44 M€ e' gia' SOPRA il tetto di 40 M€ della forbice tollerabile (2025: 42,9 M€, 48 dip. — sempre fuori). Inoltre FM Timber e' capogruppo con tre stabilimenti (Pihtipudas, Pyhanta, Kiihtel | https://vainu.io/company/fm-timber-oy-taloustiedot-ja-liikevaihto/157555/yritystiedot e https://fmtimber.fi/konserni/ — frammento: "revenue was 44 MEU | Liikevaihto 42,9 M€ / 48 dip. (2025) — FUORI FORBICE (sopra i 40 M€); gruppo con 3 stabilimenti |
 | FP FinnProfiles Oy | denominazione | Struttura di gruppo non dichiarata: esiste Finnprofiles Group Oy (Sastamala) come entità capogruppo/di gruppo, e nel febbraio 2026 FinnProfiles ha acquisito l'intero capitale di Plastep Oy (6,5 M€) nell'ambito di una strategia quinquennale verso ~30  | https://www.finder.fi/Kumituotteet/Finnprofiles+Group+Oy/Sastamala/yhteystiedot/225111 ; https://pjmaa.fi/finnprofiles-oy-ostaa-plastep-oyn-osakekanna | Aggiungere: gruppo Finnprofiles Group Oy; acquisizione Plastep Oy (16.02.2026) |
+| Goodio (Helsinki Heaven Oy) | email | Email 'info@goodio.fi' non riscontrata nelle fonti pubbliche: la pagina contatti ufficiale indica feedback@goodio.fi. | https://goodiochocolate.com/pages/contact-us — 'Contact Email: feedback@goodio.fi ... Address: Auratie 2, VANTAA' | feedback@goodio.fi |
 | Havi Oy | dimensione | Numero di dipendenti gravemente sovrastimato: il campo indica ~106 dip., le fonti registrali riportano 22 dipendenti sul liikevaihto 10,8 M€ (2025, +16,6%, EBIT 1,3 M€). Confermato invece che Havi Oy è il nuovo nome di Suomen Kerta Oy (stesso Y-tunnu | "Havi Oy (0648171-4) had a revenue of 10.8 million euros in 2025 and employed 22 people" — https://www.asiakastieto.fi/yritykset/fi/havi-oy/06481714/t | Liikevaihto 10,8 M€ (2025, Asiakastieto); 22 dip.; ex Suomen Kerta Oy (Y-tunnus 0648171-4, denominazione confermata) |
 | Helsingin Kumi Oy | referente | Referente e ruolo vuoti benché il dato sia pubblico: toimitusjohtaja è Tuomas Seppo Pellervo Mäkinen. | https://www.finder.fi/Kumituotteet/Helsingin+Kumi+Oy/Helsinki/yhteystiedot/136590 — 'Yhtiön toimitusjohtaja on Tuomas Seppo Pellervo Mäkinen' | Tuomas Mäkinen — Toimitusjohtaja (CEO) |
 | I.S. Mäkinen Oy (MAKINEN) | email | Email assente ('n.d.'): il lead non e' contattabile via posta elettronica. Nessun indirizzo reperito nei frammenti pubblici consultati. | https://www.finder.fi/Laivasisustus/I+S+M%C3%A4kinen+Oy/Vanhalinna/yhteystiedot/138719 — la scheda contatti non espone un indirizzo email nei framment |  |
@@ -1926,6 +1928,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 | Pakkaus Piippo Oy | email | Email indicata 'n.d.'. L'azienda pubblica solo il formato degli indirizzi (etunimi.sukunimi(at)piippopack.com) e i numeri diretti del toimitusjohtaja Tero Nystedt (050 523 2132); nessun indirizzo letterale reperito, quindi non se ne puo' proporre uno | https://www.piippopack.com/yhteystiedot/ - 'Sahkopostit muotoa: etunimi.sukunimi(at)piippopack.com'; 'Toimitusjohtaja Tero Nystedt, 050 523 2132' |  |
 | Piklas Oy | dimensione | Dato di fatturato obsoleto e riferito alla vecchia persona giuridica: 11,41 M€ (2023). L'esercizio 2025 chiude a 10,2 M€ con risultato negativo (-44,1 k€), 65 dipendenti. | 'Piklas Oy liikevaihto 10,2 miljoonaa euroa (tilikausi 2025), tilikauden tulos -44,1 tuhatta; 65 tyontekijaa' — https://search.vainu.com/company/pikla | Liikevaihto 10,2 M€ (2025), risultato -44 k€, 65 dip. |
 | Pyroll Pakkaukset Oy | referente | Marko Penttinen e' toimitusjohtaja di Pyroll Pakkaukset GROUP Oy (la capogruppo, dall'8.4.2024), non necessariamente della singola entita' Pyroll Pakkaukset Oy: il referente indicato e' l'amministratore della capogruppo. Inoltre il gruppo Pyroll e' p | https://www.mbrahastot.fi/tiedote/2024/03/pyroll-pakkaukset-group-oyn-uudeksi-toimitusjohtajaksi-marko-penttinen/ - 'Pyroll Pakkaukset Group Oy:n uude | DA CONFERMARE il toimitusjohtaja della singola entita' Pyroll Pakkaukset Oy; precisare che la capogruppo Pyroll Pakkauks |
+| ROST-kahvipaahtimo (Oy Kaffecentralen Finlan | email | Email 'hei@rost.fi' non riscontrata: i contatti pubblicati riportano rost@rost.fi (Särkiniementie 5, Lauttasaari, Helsinki). | https://www.rost.fi/en e https://rost.fi/pages/paahtimo — 'Email: rost@rost.fi ... Särkiniementie 5, Helsinki' | rost@rost.fi |
 | Reka Kumi Oy | referente | Referente corretto ma da contestualizzare: Sari Tulander è toimitusjohtaja di Reka Kumi Oy solo 'oman toimensa ohella' dal 11.6.2024, essendo primariamente toimitusjohtaja della capogruppo quotata Reka Industrial Oyj. La decisione di compliance è qui | https://www.sttinfo.fi/announcement/8897?publisherId=69817735&lang=fi — 'Reka Industrialin toimitusjohtaja Sari Tulander toimii oman toimensa ohella R | Sari Tulander — Toimitusjohtaja Reka Kumi Oy (e CEO della capogruppo Reka Industrial Oyj) |
 | Sahakuutio Oy | dimensione | Numero di dipendenti fortemente sottostimato: il campo indica ~17 dip., ma le fonti riportano ~34-35 addetti alla sola segheria di Kerimäki più ~27 alla segheria di Hammaslahti (Joensuu), cioè ~60 in totale. Anche la sequenza dei ricavi è incoerente  | "Sahakuutio operates two sawmills: the Kerimäki sawmill currently employs 34 people and the Joensuu Hammaslahti sawmill employs 27 people" — https://w | Liikevaihto 17,0 M€ (2024, Asiakastieto); ~60 dip. su due segherie (Kerimäki + Hammaslahti) — DA CONFERMARE il dato 2025 |
 | Selka Oy | referente | Referente e ruolo assenti. Le fonti pubbliche indicano Juha Tapio Nevalainen come presidente del consiglio (hallituksen puheenjohtaja); il toimitusjohtaja non emerge dai frammenti. | "Juha Tapio Nevalainen serves as the board chairman (puheenjohtaja)" — https://www.asiakastieto.fi/yritykset/fi/selka-oy/30909311/paattajat |  |
@@ -2375,7 +2378,7 @@ _Dato dubbio o obsoleto: da rinfrescare prima del contatto, non necessariamente 
 
 ---
 
-## 6. Casi di gravità BASSA (344)
+## 6. Casi di gravità BASSA (346)
 
 _Refusi formali e incoerenze di stile._
 
@@ -2513,7 +2516,7 @@ _Refusi formali e incoerenze di stile._
 | Wilhelm Stroeh jun. GmbH & Co. KG | referente | Il record indica un solo referente. L'azienda si presenta come guidata da due persone della famiglia: Horst-Wilhelm e Philipp-Wilhelm Stroeh (4a/5a generazione). Manca il secondo referente, verosimilmente quello operativo per la generazione entrante. | https://www.hobbersdorfer-muehle.com/ - 'Horst-Wilhelm und Philipp-Wilhelm Stroeh und ihr Team'; Impressum: 'vertreten durch Horst Wilhelm Stroeh GmbH | Horst-Wilhelm Stroeh (Geschaeftsfuehrer) + Philipp-Wilhelm Stroeh |
 | impuls Kaffeemanufaktur | ruolo | Il ruolo 'Inhaber / Geschäftsführer' è impreciso: non esiste una GmbH, quindi non esiste un Geschäftsführer. Il ruolo corretto è solo 'Inhaber'. | https://impuls-kaffeemanufaktur.de/pages/impressum : l'Impressum riporta la sola persona fisica «Rainer Burkhardt», senza forma giuridica né registro  | Inhaber |
 
-### Finlandia (31)
+### Finlandia (33)
 
 | Azienda | Campo | Problema | Evidenza | Correzione proposta |
 |---|---|---|---|---|
@@ -2547,6 +2550,8 @@ _Refusi formali e incoerenze di stile._
 | Topi-Keittiöt Oy | dimensione | Il campo lascia aperta l'incertezza ('fonti variano: ~13 M€ 2023'). Le fonti registrali sono concordi: 20,4 M€ e 152 dip. nel 2024, 23,1 M€ e 134 dip. nel 2025 (+13,5%). | "In 2025, the company's revenue was 23.1 million euros and employed 134 people, with revenue increasing by 13.5%" — https://www.asiakastieto.fi/yrityk | Liikevaihto 23,1 M€ (2025, Asiakastieto); 134 dip. (20,4 M€ / 152 dip. nel 2024) |
 | Unico Finland Oy | dimensione | Il numero di dipendenti (>100) non trova riscontro: l'ultimo bilancio disponibile riporta 86 dipendenti. Confermati invece i 3 stabilimenti (Kauhava, Lapua, Kankaanpää) e il liikevaihto 23,1 M€ (2024). | "In the fiscal period ending 01/2024, the company had 86 employees" — https://www.asiakastieto.fi/yritykset/fi/unico-finland-oy/09668074/taloustiedot | Liikevaihto 23,1 M€ (2024); 86 dip.; 3 stabilimenti (Kauhava, Lapua, Kankaanpää) |
 | Vainion Teurastamo Oy | dimensione | Dato non allineato: le fonti riportano liikevaihto 7,0 M€ nell'esercizio chiuso 07/2024 (-21,9%) con 17 dipendenti; il record indica 6,2 M€ (2025) senza indicare i dipendenti né il calo. Azienda al limite inferiore della forbice. | https://www.proff.fi/yrityksen/vainion-teurastamo-oy/orimattila/valmistajat/2327743-2I016D — 'financial year ending July 2024, revenue was 7.0 million | Liikevaihto 7,0 M€ (es. 07/2024, -21,9%), 17 dip. |
+| Veljekset Rönkä Oy | dimensione | Dato da riallineare: le fonti pubbliche riportano 25,7 M€ (2023) e 26,1 M€ (2024) con circa 60 addetti; il record indica 29,6 M€ (2025) e 62 dip., non riscontrabile nei frammenti consultati. DA CONFERMARE l'esercizio 2025. | https://www.asiakastieto.fi/yritykset/fi/veljekset-ronka-oy/04854206/yleiskuva — 'revenue in 2023 was approximately 25.7 million euros ... revenue gre |  |
+| Veljekset Rönkä Oy | referente | Referente corretto ma recentissimo: Petri Korva è toimitusjohtaja solo dal 12.5.2025 (prima direttore vendite e membro del CdA dal 2019). Nomina da tenere aggiornata perché il cambio è recente. | https://ronka.fi/veljekset-ronka-oyn-toimitusjohtaja-vaihtuu/ — 'Petri Korva became the managing director of Veljekset Rönkä Oy starting May 12, 2025' | Petri Korva — Toimitusjohtaja (dal 12.05.2025) |
 | Ålands Skogsindustrier Ab | referente | Refuso nel cognome: il vd si chiama Anders Mattsson (doppia s), in carica dall'ottobre 2019, proveniente dalla controllata svedese di Nordkalk. | "Ålands Skogsindustriers verkställande direktör är Anders Mattsson" — https://www.nyan.ax/nyheter/ny-vd-pa-skogsindustrier/ ; https://handel.ax/oppen/ | Anders Mattsson |
 
 ### Danimarca (32)

@@ -196,5 +196,50 @@
   "gravita": "bassa",
   "evidenza": "https://www.proff.fi/yrityksen/vainion-teurastamo-oy/orimattila/valmistajat/2327743-2I016D — 'financial year ending July 2024, revenue was 7.0 million euros ... declined 21.9% ... 17 employees'",
   "correzione_proposta": "Liikevaihto 7,0 M€ (es. 07/2024, -21,9%), 17 dip."
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Veljekset Rönkä Oy",
+  "campo": "dimensione",
+  "problema": "Dato da riallineare: le fonti pubbliche riportano 25,7 M€ (2023) e 26,1 M€ (2024) con circa 60 addetti; il record indica 29,6 M€ (2025) e 62 dip., non riscontrabile nei frammenti consultati. DA CONFERMARE l'esercizio 2025.",
+  "gravita": "bassa",
+  "evidenza": "https://www.asiakastieto.fi/yritykset/fi/veljekset-ronka-oy/04854206/yleiskuva — 'revenue in 2023 was approximately 25.7 million euros ... revenue grew to 26.1 million euros in 2024 ... employs approximately 60 people'",
+  "correzione_proposta": ""
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Veljekset Rönkä Oy",
+  "campo": "referente",
+  "problema": "Referente corretto ma recentissimo: Petri Korva è toimitusjohtaja solo dal 12.5.2025 (prima direttore vendite e membro del CdA dal 2019). Nomina da tenere aggiornata perché il cambio è recente.",
+  "gravita": "bassa",
+  "evidenza": "https://ronka.fi/veljekset-ronka-oyn-toimitusjohtaja-vaihtuu/ — 'Petri Korva became the managing director of Veljekset Rönkä Oy starting May 12, 2025'",
+  "correzione_proposta": "Petri Korva — Toimitusjohtaja (dal 12.05.2025)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Brunberg Oy",
+  "campo": "email",
+  "problema": "Campo email valorizzato 'n.d.' benché indirizzi pubblici siano disponibili sul sito ufficiale: postmaster@brunberg.fi (generale), tilaukset@brunberg.fi (ordini/wholesale). Lead di fatto non contattabile via email così com'è.",
+  "gravita": "media",
+  "evidenza": "https://brunberg.fi/en/contact-information/ — 'Corporate orders & Wholesale: tilaukset@brunberg.fi ... General: postmaster@brunberg.fi'",
+  "correzione_proposta": "tilaukset@brunberg.fi (in alternativa postmaster@brunberg.fi)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Goodio (Helsinki Heaven Oy)",
+  "campo": "email",
+  "problema": "Email 'info@goodio.fi' non riscontrata nelle fonti pubbliche: la pagina contatti ufficiale indica feedback@goodio.fi.",
+  "gravita": "media",
+  "evidenza": "https://goodiochocolate.com/pages/contact-us — 'Contact Email: feedback@goodio.fi ... Address: Auratie 2, VANTAA'",
+  "correzione_proposta": "feedback@goodio.fi"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "ROST-kahvipaahtimo (Oy Kaffecentralen Finland Ab)",
+  "campo": "email",
+  "problema": "Email 'hei@rost.fi' non riscontrata: i contatti pubblicati riportano rost@rost.fi (Särkiniementie 5, Lauttasaari, Helsinki).",
+  "gravita": "media",
+  "evidenza": "https://www.rost.fi/en e https://rost.fi/pages/paahtimo — 'Email: rost@rost.fi ... Särkiniementie 5, Helsinki'",
+  "correzione_proposta": "rost@rost.fi"
  }
 ]
