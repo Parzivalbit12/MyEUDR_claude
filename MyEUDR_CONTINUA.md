@@ -595,6 +595,27 @@ fogli non hanno tutti la stessa origine:
 Ogni correzione ha un **controllo di guardia**: lo script confronta il valore attuale con quello
 atteso e **salta** la correzione se non coincidono. Così è rieseguibile senza rischi.
 
+### Referenti e ruoli applicati ai fogli (su richiesta del cliente)
+
+Dopo la consegna, il cliente ha chiesto di **riversare nei fogli i referenti verificati**. Applicate
+**131 correzioni** (178 celle fra `Referente` e `Ruolo`), con tre regole di sicurezza:
+
+1. **Nessun campo viene mai svuotato.** Molte proposte riguardavano solo il *ruolo*: applicarle
+   ingenuamente avrebbe cancellato il nome. Verificato a posteriori: **0 campi svuotati**.
+2. **Escluse le proposte con riserva.** 36 su 172 contenevano «DA CONFERMARE», «da riconfermare»,
+   «in alternativa» o un punto interrogativo: sono rimaste **solo nel report**, non nei fogli.
+   Escluse anche 3 proposte che erano un titolo («Geschäftsführer») e non un nome di persona.
+3. **Guardia sul valore attuale**, come per tutte le altre correzioni: 26 proposte coincidevano già
+   col foglio e sono state saltate.
+
+La copertura dei referenti sale da **535/728 (73%) a 575/728 (78%)**; le altre 138 correzioni non
+aggiungono un nome ma **ne sostituiscono uno sbagliato o superato**, che è il guadagno maggiore.
+Le 18 di gravità `alta` sono i casi in cui il nome nel foglio era di un predecessore, di un ruolo
+diverso (presidente del CdA invece dell'AD, direttore finanziario invece del CEO) o **di un'altra
+società**.
+
+Script: `applica_referenti.py`, tabella in `correzioni_referenti.json`.
+
 ### Esito finale della copertura
 
 **Fase A: 100% dei record. Fase B: 41 blocchi completi su 42.**
