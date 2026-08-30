@@ -14,8 +14,14 @@ tot_A = re.search(r"\*\*Totale rilievi automatici: (\d+)\*\*", auto)
 
 # --- correzioni applicate ---
 corr = []
+REF_FILE = os.path.join(HERE, "correzioni_referenti.json")
 for fp in sorted(glob.glob(os.path.join(HERE, "correzioni_*.json"))):
+    if os.path.abspath(fp) == os.path.abspath(REF_FILE): continue   # schema diverso, sezione dedicata
     corr += json.load(open(fp, encoding="utf-8"))
+try:
+    refs = json.load(open(REF_FILE, encoding="utf-8"))
+except Exception:
+    refs = []
 
 def esc(s): return str(s or "").replace("|", "\\|").replace("\n", " ").strip()
 
@@ -135,6 +141,32 @@ h.append("\n> ⚠️ **Limite della normalizzazione ortografica del foglio Itali
          "Arko, entrambe nei primi due blocchi. Il terzo blocco ne ha trovate **zero su 19**. "
          "Sembrano quindi casi isolati e non un difetto sistematico del foglio — ma i due blocchi "
          "Italia rimanenti non sono ancora stati controllati.\n")
+
+if refs:
+    nref = sum(1 for c in refs if c.get("referente"))
+    nalta = sum(1 for c in refs if c.get("gravita") == "alta")
+    h.append(f"\n### Referenti e ruoli riversati nei fogli ({len(refs)})\n")
+    h.append("Applicati su richiesta del cliente, dopo la prima consegna. Sono i referenti "
+             f"**verificati a fonte** in Fase B: {nref} portano un nome, gli altri correggono solo il "
+             f"ruolo; {nalta} sono di gravità `alta`.\n")
+    h.append("Tre regole hanno governato l'applicazione:\n")
+    h.append("1. **Nessun campo viene mai svuotato.** Molte proposte riguardavano solo il *ruolo*: "
+             "applicarle alla lettera avrebbe cancellato il nome. Verificato a posteriori: "
+             "**0 campi svuotati**.\n")
+    h.append("2. **Escluse le proposte con riserva** — 36 su 172 contenevano «DA CONFERMARE», "
+             "«da riconfermare», «in alternativa» o un punto interrogativo, più 3 che erano un titolo "
+             "e non un nome di persona. Quelle **restano solo qui nel report**.\n")
+    h.append("3. **Guardia sul valore attuale**, come per ogni altra correzione: 26 proposte "
+             "coincidevano già col foglio e sono state saltate.\n")
+    h.append("\nIl guadagno non è tanto nella copertura — i referenti passano da 535 a **575 su 728** "
+             "— quanto nella **sostituzione di nomi sbagliati**: predecessori, persone con un ruolo "
+             "diverso da quello indicato (il presidente del CdA al posto dell'AD, il direttore "
+             "finanziario al posto del CEO) e, in tre casi, **il dirigente di un'altra società**.\n")
+    h.append("| Foglio | Azienda | Referente | Ruolo | Gravità |")
+    h.append("|---|---|---|---|---|")
+    for c in sorted(refs, key=lambda x: (x["foglio"], x["denominazione"])):
+        h.append(f"| {esc(c['foglio'])} | {esc(c['denominazione'])[:40]} | "
+                 f"{esc(c.get('referente')) or '—'} | {esc(c.get('ruolo')) or '—'} | {c.get('gravita','')} |")
 
 h.append("\n### Il criterio usato per rimuovere, e quello per NON rimuovere\n")
 h.append("Gli errori di perimetro non sono tutti uguali, e la differenza decide se una riga esce dal "

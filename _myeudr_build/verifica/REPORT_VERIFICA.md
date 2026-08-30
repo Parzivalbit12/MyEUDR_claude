@@ -43,7 +43,7 @@ I rilievi si concentrano invece su qualità e coerenza redazionale:
 | 1c | 1c · Denominazioni diverse con lo stesso sito web | 1 |
 | 2 | 2 · Email con dominio diverso dal sito (sospette di deduzione) | 24 |
 | 2b | 2b · Email presente ma sito assente (non verificabile per dominio) | 1 |
-| 2c | 2c · Email su dominio freemail/PEC (accettabile ma non aziendale) | 10 |
+| 2c | 2c · Email su dominio freemail/PEC (accettabile ma non aziendale) | 9 |
 | 2d | 2d · Email su dominio affine al sito (TLD/variante) — rischio basso | 52 |
 | 3 | 3 · Stessa email su aziende diverse | 0 |
 | 3b | 3b · Stesso LinkedIn su aziende diverse | 1 |
@@ -54,19 +54,19 @@ I rilievi si concentrano invece su qualità e coerenza redazionale:
 | 6b | 6b · Separatore filiera non em-dash | 0 |
 | 7 | 7 · Fonte vuota o non URL | 0 |
 | 7b | 7b · Dimensione vuota o n.d. | 6 |
-| 7c | 7c · Sito web mancante | 26 |
+| 7c | 7c · Sito web mancante | 24 |
 | 8 | 8 · Dimensione fuori forbice 5–40 M€ senza segnalazione esplicita | 8 |
 | 9 | 9 · Denominazione: registri, spazi, numeri | 0 |
 | 9b | 9b · Forma giuridica incoerente col paese del foglio | 0 |
-| 9c | 9c · Nessuna forma giuridica nel nome | 16 |
-| 9d | 9d · Maiuscolo/minuscolo incoerente dentro il foglio | 51 |
+| 9c | 9c · Nessuna forma giuridica nel nome | 15 |
+| 9d | 9d · Maiuscolo/minuscolo incoerente dentro il foglio | 50 |
 | 9e | 9e · Forma giuridica scritta in stile incoerente (foglio Italia) | 0 |
 | 10 | 10 · TLD del sito estraneo al paese del foglio | 7 |
 | 11 | 11 · Divergenze fra JSON di build e foglio Excel | 0 |
 | 11b | 11b · Record presente nei JSON ma assente dal foglio | 0 |
 
 
-**Totale rilievi automatici: 203.**
+**Totale rilievi automatici: 198.**
 
 
 > **Nota sul controllo 2 (email dedotte).** Il controllo grezzo segnalava 86 email con dominio diverso dal sito. Separando i casi innocui — stesso nome con TLD diverso (`azienda.de` vs `azienda.com`) e caselle freemail/PEC, entrambi legittimi — restano **24 casi con stem realmente diverso**, che sono quelli da confermare a fonte.
@@ -203,6 +203,155 @@ Il foglio **Finlandia** conteneva varianti storiche della tassonomia (`Legno/Com
 >
 > **Quanto è esteso il problema, per ora.** Tre blocchi Italia verificati (57 record, tutte le P.IVA confrontate al Registro): **2 forme giuridiche sbagliate**, Fonpelli e Arko, entrambe nei primi due blocchi. Il terzo blocco ne ha trovate **zero su 19**. Sembrano quindi casi isolati e non un difetto sistematico del foglio — ma i due blocchi Italia rimanenti non sono ancora stati controllati.
 
+
+### Referenti e ruoli riversati nei fogli (131)
+
+Applicati su richiesta del cliente, dopo la prima consegna. Sono i referenti **verificati a fonte** in Fase B: 112 portano un nome, gli altri correggono solo il ruolo; 18 sono di gravità `alta`.
+
+Tre regole hanno governato l'applicazione:
+
+1. **Nessun campo viene mai svuotato.** Molte proposte riguardavano solo il *ruolo*: applicarle alla lettera avrebbe cancellato il nome. Verificato a posteriori: **0 campi svuotati**.
+
+2. **Escluse le proposte con riserva** — 36 su 172 contenevano «DA CONFERMARE», «da riconfermare», «in alternativa» o un punto interrogativo, più 3 che erano un titolo e non un nome di persona. Quelle **restano solo qui nel report**.
+
+3. **Guardia sul valore attuale**, come per ogni altra correzione: 26 proposte coincidevano già col foglio e sono state saltate.
+
+
+Il guadagno non è tanto nella copertura — i referenti passano da 535 a **575 su 728** — quanto nella **sostituzione di nomi sbagliati**: predecessori, persone con un ruolo diverso da quello indicato (il presidente del CdA al posto dell'AD, il direttore finanziario al posto del CEO) e, in tre casi, **il dirigente di un'altra società**.
+
+| Foglio | Azienda | Referente | Ruolo | Gravità |
+|---|---|---|---|---|
+| Austria | "Sojarei" Vollwertkost-Gesellschaft m.b. | Christoph Eschner, BSc | — | media |
+| Austria | CARINI GmbH | Simon Sohm (Geschäftsführer), con Michael Dür | — | alta |
+| Austria | Holzindustrie Schafler GmbH & Co KG | — | Geschäftsführer / Inhaber | bassa |
+| Austria | KUK-Austria GmbH | — | Geschäftsführerin (CEO) | bassa |
+| Austria | Landgarten GmbH & Co KG | Florian Kühbacher | — | media |
+| Austria | Naber Kaffee Manufaktur GmbH | — | Geschaeftsfuehrer | media |
+| Austria | Natural Products & Drugs GmbH | Mag. Dr. Antonius Dominik Schantl | Geschäftsführer | media |
+| Austria | Rudolf Frierss & Söhne Fleisch- und Wurs | Mag. Christoph Frierss | — | media |
+| Austria | SCHAFFER SÄGEWERK-HOLZEXPORT GmbH | — | Geschäftsführer | bassa |
+| Austria | WIESTRADING Gesellschaft m.b.H. | Kurt Wiesinger jun | — | bassa |
+| Austria | Wallner Holzhandel GmbH | Geschäftsführer (con Mag. Hans-Christian Riegler) | — | bassa |
+| Austria | Wittmann Möbelwerkstätten GmbH | Alice Wittmann | Geschäftsführerin | alta |
+| Austria | Wograndl Druck GmbH | Jochen Wograndl (co-GF con Bernd Wograndl) | — | bassa |
+| Austria | Zrunek Gummiwaren Gesellschaft m.b.H. | Mag. Dr. Ulrich Zrunek | — | media |
+| Belgio | Antilope De Bie NV | Bart De Bie (con il fratello Johan De Bie) | CEO / gedelegeerd bestuurder | bassa |
+| Belgio | Cafés Delahaut SRL | — | Administrateur / Gérant | bassa |
+| Belgio | Cartonnages Delsaux SA | — | Administrateur delegue | bassa |
+| Belgio | Confiserie Vandenbulcke NV | Jelle Vandenbulcke | CEO / gedelegeerd bestuurder | media |
+| Belgio | Decadt Houthandel NV | — | Bedrijfsleider / gedelegeerd bestuurder | bassa |
+| Belgio | Etilux SA | Olivier Bronne | Administrateur délégué / CEO | alta |
+| Belgio | Extremis NV | Valentine Batjoens | CEO | alta |
+| Belgio | Jos Leemput BV | — | Zaakvoerder | bassa |
+| Belgio | Klingele Chocolade NV | Koen Klingele (con Eline Blanchaert) | gedelegeerd bestuurder | bassa |
+| Belgio | Koffie St.-Michel NV | — | Gedelegeerd bestuurder | bassa |
+| Belgio | Lavrijsen Houtbedrijf NV | — | Bestuurders / gedelegeerd bestuurders | bassa |
+| Belgio | Mecam NV | Luc Meers | Gedelegeerd bestuurder / CEO | media |
+| Belgio | Meubelfabriek Lievens NV | Lieven Decoene | General Manager | bassa |
+| Belgio | Passe Partout NV | — | Gedelegeerd bestuurder | bassa |
+| Belgio | Pierre Marcolini Group SA | Pierre Marcolini | Administrateur delegue | media |
+| Belgio | Royal Botania NV | — | Gedelegeerd bestuurder | bassa |
+| Belgio | VC Wood Zottegem NV | Thomas Van Cauwenberge (con i fratelli Tim e Bart) | zaakvoerder/bestuurder | media |
+| Belgio | Van de Velde Packaging NV | — | Gedelegeerd bestuurder | bassa |
+| Belgio | Vincent Sheppard NV | Jos Destrooper | CEO / gedelegeerd bestuurder | alta |
+| Belgio | coffeeRoots NV | — | Gedelegeerd bestuurder (CEO) | bassa |
+| Danimarca | ALL CREATIVE A/S | Mette Juhl Christensen | Adm. direktor | bassa |
+| Danimarca | AUBO PRODUCTION A/S | Torben Paulin | Adm. direktør | alta |
+| Danimarca | CAFÉU DENMARK ApS | Steffan Nørgård Tobiesen | Direktør (fondatore) | media |
+| Danimarca | COLOR LABEL A/S | — | Adm. direktør (fondatore) | bassa |
+| Danimarca | HVIDBJERG VINDUET A/S | Morten Filtenborg Mortensgaard | Adm. direktør | alta |
+| Danimarca | HØRNING PARKET A/S | Peter Vissing | Adm. direktør | alta |
+| Danimarca | IKAST ETIKET A/S | Ulrik Lauritsen | Direktør | media |
+| Danimarca | JN Meat International | John Sashi Nielsen | adm. direktør | media |
+| Danimarca | JOHNSEN GRAPHIC SOLUTIONS A/S (oggi anch | Steen Johnsen | Adm. direktør | media |
+| Danimarca | KAILOW A/S | Per Puch Holm-Larsen | Adm. direktør (dal 01.04.2025) | alta |
+| Danimarca | Klim Furniture A/S (gia' Klim Mobelfabri | Kasper Hogenhaug | Direktor | alta |
+| Danimarca | Kontra A/S (KONTRA Coffee) | Henrik Aagaard | Adm. direktør | media |
+| Danimarca | N. EILERSEN A/S | Marianne Lind Koch-Pedersen | Direktor | alta |
+| Danimarca | NORDVEST FODER A/S | Rasmus Toft | adm. direktør | media |
+| Danimarca | Naturli' Foods | Henrik Lund | adm. direktør | media |
+| Danimarca | Nordic Coffee House ApS | Michael Molbaek | Direktør | media |
+| Danimarca | The Coffee Collective A/S | Rebecca Vang | Adm. direktør (CEO), dal 2024 | media |
+| Finlandia | BestPak Oy | Jyri Weiste | Toimitusjohtaja (CEO) | media |
+| Finlandia | Elega Oy | Pauli Niinikoski | Toimitusjohtaja (CEO) | alta |
+| Finlandia | Goodio (Helsinki Heaven Oy) | Sami Nupponen | Toimitusjohtaja (CEO) | alta |
+| Finlandia | Helsingin Kumi Oy | Tuomas Mäkinen | Toimitusjohtaja (CEO) | media |
+| Finlandia | Kiilax Oy | Jouni Kontkanen | Toimitusjohtaja (CEO) | alta |
+| Finlandia | Lappiporras Oy | Anne Juopperi | Toimitusjohtaja (CEO) | media |
+| Finlandia | Mahogany Oy | Markku Tamminen | Toimitusjohtaja (CEO) | media |
+| Finlandia | Reka Kumi Oy | Sari Tulander | Toimitusjohtaja Reka Kumi Oy | media |
+| Finlandia | Sisuwood Oy | Pekka Koponen | — | bassa |
+| Finlandia | St Michel Print Oy | Rami Paajanen | Toimitusjohtaja (CEO) | media |
+| Finlandia | Topi-Keittiöt Oy | — | Toimitusjohtaja (CEO) | bassa |
+| Finlandia | Veljekset Rönkä Oy | Petri Korva | Toimitusjohtaja (dal 12.05.2025) | bassa |
+| Finlandia | Ålands Skogsindustrier Ab | Anders Mattsson | — | bassa |
+| Germania | C. Otto Gehrckens GmbH & Co. KG (COG) | Jan Metzger, Dr. Jan Cord Becker | — | media |
+| Germania | Confiserie Burg Lauenstein GmbH | Thomas Luger e Maximilian Kaub | — | media |
+| Germania | Confiserie Coppeneur et Compagnon GmbH | Oliver Coppeneur e Oliver Tölge | — | media |
+| Germania | Confiserie Felicitas GmbH | Goedele Matthyssen e Peter Bienstman | — | media |
+| Germania | Die Pharmadrucker GmbH | Felix Fischer, Alexander Storck | — | alta |
+| Germania | Dresdner Kaffee und Kakao Rösterei (K+M  | Karsten Lehmann, Stefan Meyer-Goetz (Geschaeftsfuehrer) | — | bassa |
+| Germania | EGGER Druck + Medien GmbH | Franz Xaver Egger, Josef Maximilian Egger, Axel Schreiner | — | media |
+| Germania | ETS Mischfutterwerk GmbH & Co. KG (Eiler | Stefan Eilers, Juergen Aumann (Geschaeftsfuehrer, Impressum ets-mischfutterwerk.de) | — | media |
+| Germania | FZK GmbH Frische-Zentrum-Kreipl | Lothar Kreipl (Geschaeftsfuehrer) + Philipp Otto Kreipl e Lena Kreipl (Prokuristen dal 01/2025) | — | bassa |
+| Germania | Hartmann Möbelwerke GmbH | Katharina Hartmann, Bernhard Hartmann, Holger Hanhardt | — | bassa |
+| Germania | Hoppenworth & Ploch (Food Products GmbH) | Matthias Hoppenworth, Julian Ploch, Joris Kohnen (Geschaeftsfuehrer) | — | bassa |
+| Germania | List + Beisler GmbH | Robert Heuveldop, Jan Walter, Philip von der Goltz (geschaeftsfuehrende Gesellschafter) | — | bassa |
+| Germania | Münchner Kaffeerösterei GmbH | Steven Mc Auley, Benjamin Groeschel, Michael Stransky, Viktoria Hentzschel (Geschaeftsfuehrer) | — | bassa |
+| Germania | RIGDON GmbH | Günter Ihle, Stefan Förster | — | media |
+| Germania | RMW Wohnmöbel GmbH & Co. KG (Rietberger  | Rudolf Eikenkötter, Volker Klocke | — | bassa |
+| Germania | SINTAG GmbH & Co. KG | Ingolf Christian Jacob | Geschäftsführer | alta |
+| Germania | Sawade GmbH | Benno Hübel, Michael Nielius | — | media |
+| Germania | Schmidt & Thürmer Holzhandlung, Säge- un | Mathias Mörke, Andreas Helmrich | — | bassa |
+| Germania | Speicherstadt Kaffeerösterei (Hacienda S | Thimo Drews e Andreas Wessel-Ellermann | — | media |
+| Germania | Spiegel Verpackungen AG | Inga Spiegel, Michael Spiegel (Vorstand) | — | bassa |
+| Germania | W. Machwitz GmbH (Machwitz Kaffee) | Jörg-Walter Koch e Maximilian Koch | — | media |
+| Germania | Wilhelm Stroeh jun. GmbH & Co. KG | Horst-Wilhelm Stroeh (Geschaeftsfuehrer) + Philipp-Wilhelm Stroeh | — | bassa |
+| Germania | Willy Hagen GmbH (Hagen Kaffee) | Hanspeter Hagen e Antonia Hagen-Kettemann | — | media |
+| Germania | impuls Kaffeemanufaktur | — | Inhaber | bassa |
+| Italia | Antica Dolceria Bonajuto S.r.l. | Pierpaolo Ruta | Titolare / Amministratore | media |
+| Italia | Box Marche S.p.A. | Tonino Dominici | Presidente e Amministratore Delegato | media |
+| Italia | Cartiera Mantovana S.r.l. | Alberto Marenghi | Amministratore Delegato | media |
+| Italia | Conceria Tolio S.p.A. | Mario Tolio | Presidente | bassa |
+| Italia | Costadoro S.p.A. Società Benefit | Giulio Trombetta | Amministratore Delegato | media |
+| Italia | Dersut Caffè S.p.A. | Lara Caballini di Sassoferrato | Amministratore Delegato | media |
+| Italia | Diemme - Industria Caffè Torrefatti S.p. | Gianandrea Dubbini | Presidente e Amministratore Delegato | media |
+| Italia | Goppion Caffè S.p.A. | Silvia Goppion | Amministratore Delegato | media |
+| Italia | Guglielmo S.p.A. (Caffè Guglielmo) | Daniele Rossi | Amministratore Delegato | media |
+| Italia | Guido Gobino S.r.l. | Guido Gobino | Fondatore e Amministratore (socio unico) | media |
+| Italia | Itlas Srl Societa Benefit | Patrizio Dei Tos | Presidente del CdA | media |
+| Italia | Milani S.p.A. (Caffè Milani) | Pierluigi Milani | Presidente / Amministratore Delegato | media |
+| Italia | Musetti S.p.A. (Caffè Musetti) | Guido Sicuro Musetti | Presidente (AD: Marcello Malguzzi) | bassa |
+| Italia | Oro Caffè S.r.l. | Stefano Toppano | Amministratore Delegato | bassa |
+| Italia | PALM SpA SB | Primo Barzoni | Presidente e Amministratore Delegato | media |
+| Italia | Quarta Caffè S.p.A. | — | Amministratore Unico | bassa |
+| Italia | Sandalj Trading Company S.p.A. | Enrico Venuti | Presidente / Amministratore | media |
+| Italia | Scatolificio Cartotecnica Schiassi S.r.l | — | Presidente e Amministratore Unico | media |
+| Italia | ZaroCarni S.p.A. | Rita Boldrini | Amministratore Unico / Amministratore Delegato | media |
+| Olanda | Akarton B.V. | Mike Noldus | Directeur | media |
+| Olanda | DO IT Organic Food Ingredients B.V. | Hendrik Wijnen | Directeur (co-eigenaar dal 2019) | bassa |
+| Olanda | De Euforij Chocolade B.V. | Wouter Koopdonk | Directeur (medeoprichter/eigenaar) | media |
+| Olanda | Hesselink Koffiesystemen B.V. | Gerrit Hesselink | Directeur / eigenaar | media |
+| Olanda | Koffiebranderij G. Peeze B.V. | Myriam Lufting | Directeur | media |
+| Olanda | OTR Oiltrade B.V. | Lars Schipper | Directeur | media |
+| Olanda | P. Bos Mengvoeder- en Kunstmesthandel B. | Robert Bos | Algemeen directeur | alta |
+| Olanda | RIS Rubber N.V. | W. (Wouter) Rietdijk | Algemeen directeur | media |
+| Olanda | Ruma Rubber B.V. | John (Johannes C.) van Haaren | Algemeen directeur (CEO Ruma Group) | bassa |
+| Olanda | Smeulders Interieurwerken B.V. | Anton Smeulders | — | bassa |
+| Olanda | Steenland Chocolate B.V. | P. De Abadal Coulet | Directeur | media |
+| Olanda | Van Gennip Verpakking B.V. | Nick Verdaasdonk | Commercieel directeur | media |
+| Olanda | Zaadhof's Cartonnage Fabrieken B.V. | Jan Meindert Zaadhof | Directeur | bassa |
+| Olanda | Zalsman B.V. | Herman Verlind | DGA / eigenaar | media |
+| Svezia | Aktiebolaget Karlaträ | Bo Anders Ingemar Larsson | VD (verkställande direktör) | media |
+| Svezia | Baseco Golv Aktiebolag | Marcus Abrahamsson | VD (verkställande direktör) | media |
+| Svezia | Bording AB | Stefan Gustafsson | VD (verkställande direktör) | alta |
+| Svezia | Brattby Sågverks AB | Anne Marie Bergstrand | — | bassa |
+| Svezia | Bäckebrons Sågverk Aktiebolag | Rolf Stefan Gillberg | — | bassa |
+| Svezia | Drömtrappor AB | Johan Ludvig Gösta Jonsson | — | bassa |
+| Svezia | Fegens Sågverk AB | Lars Johan Andersson | — | bassa |
+| Svezia | Gärsnäs Aktiebolag | Magnus Eriksson | VD | bassa |
+| Svezia | Nola Industrier AB | Henrik Edlund (Claes Henrik Edlund) | — | bassa |
+| Svezia | Älgsjö Såg AB | Jörgen Törnqvist | styrelseledamot | media |
 
 ### Il criterio usato per rimuovere, e quello per NON rimuovere
 
@@ -392,7 +541,7 @@ La tabella distingue i due casi, che non hanno la stessa gravità:
 | Olanda | Bangma Verpakking B.V. | **dichiarato** | CAPOGRUPPO NON DICHIARATA/OBSOLETA. Il campo indica come controllante De Jong Verpakking, definita 'maggior produttore indipendente olandese': non è più vero. De Jong Packaging Group è stata acquisita |
 | Olanda | Bannink Packaging B.V. | **dichiarato** | Contraddizione interna e legame di gruppo: il campo definisce l'azienda 'uno dei pochi trasformatori ancora indipendenti' e poco dopo dichiara che dal 2021 l'amministratore statutario è la tedesca Gau |
 | Olanda | BeBo Parket B.V. | **dichiarato** | Assetto proprietario incompleto: dal 2022 l'azienda e' partecipata dall'investitore Nobel Capital Partners insieme al management di seconda generazione. La partecipazione di private equity non e' dich |
-| Olanda | Chocolade- en Suikerwerkfabriek Marandi  | **NON dichiarato** | Azienda non piu operativa: rilevata da Lonka nel 2010, produzione di nougat/cioccolato a Lunteren cessata a inizio 2014 con trasferimento alla capogruppo Lonka a Roosendaal. La fabbrica di Klomperweg  |
+| Olanda | Chocolade- en Suikerwerkfabriek Marandi  | — (record non risolto) | Azienda non piu operativa: rilevata da Lonka nel 2010, produzione di nougat/cioccolato a Lunteren cessata a inizio 2014 con trasferimento alla capogruppo Lonka a Roosendaal. La fabbrica di Klomperweg  |
 | Olanda | GWW Houtimport B.V. | **dichiarato** | Controllata di gruppo: dal 01/01/2026 GWW Houtimport, GWW Agency e Van den Berg Hardhout confluiscono nella holding Van den Berg Houtgroep. Il legame e' gia' dichiarato correttamente nel campo, ma la  |
 | Olanda | Houthandel Jos Dennebos B.V. | **NON dichiarato** | Referente e ruolo assenti. Il socio unico e' la persona giuridica Jos Dennebos Exploitatie B.V.; il fondatore storico e' Jos Dennebos (attivo anche in Dennebos Suriname). Nome e carica del directeur a |
 | Olanda | Houtplex B.V. | **dichiarato** | Controllata di gruppo estero: Houtplex appartiene al gruppo Wood United, con sede a Singapore; dal febbraio 2019 le quote sia di Houtplex sia di Wood United sono di Timothy Paul, che ha rilevato la pa |
