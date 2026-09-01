@@ -1,0 +1,178 @@
+[
+ {
+  "denominazione": "Sopraco NV",
+  "foglio": "Belgio",
+  "esito": "incerto",
+  "referente": "",
+  "ruolo": "",
+  "fonte": "",
+  "frammento": "",
+  "nota": "Tre ricerche (LinkedIn Sopraco NV, companyweb, staatsbladmonitor, sito sopraco.eu) non restituiscono alcun nome di bestuurder/gedelegeerd bestuurder: il vertice resta non accertabile da fonti gratuite. Resta valido solo il LinkedIn aziendale https://be.linkedin.com/company/sopraco-nv.",
+  "_perche": "esito «incerto»: nessuna modifica"
+ },
+ {
+  "denominazione": "Skagerak Denmark A/S",
+  "foglio": "Danimarca",
+  "esito": "confermato_attuale",
+  "referente": "Josef Theodor Kaiser",
+  "ruolo": "Formand for bestyrelsen (presidente del CdA)",
+  "fonte": "https://estatistik.dk/virksomhed/skagerak-denmark-as/28855990/roller",
+  "frammento": "The company has 0 direktorer (directors) listed, and the status shows 'OPLOST EFTER FUSION' (dissolved after merger). ... Josef Theodor Kaiser as chairman of the board (formand for bestyrelsen), Lars Hardboe Galsgaard, Lars Torp Madsen, Jonas Olsson as board members",
+  "nota": "Riserva sciolta in senso diverso dall'atteso: Skagerak Denmark A/S (CVR 28855990) risulta 'oplost efter fusion' e senza alcun direktor registrato; Josef Theodor Kaiser figurava come presidente del CdA. Il referente attuale va cercato in Fritz Hansen A/S (marchio 'Skagerak by Fritz Hansen'), non nella controllata.",
+  "_perche": "esito «confermato_attuale»: nessuna modifica"
+ },
+ {
+  "denominazione": "Pyroll Pakkaukset Oy",
+  "foglio": "Finlandia",
+  "esito": "confermato_attuale",
+  "referente": "Marko Penttinen",
+  "ruolo": "Toimitusjohtaja",
+  "fonte": "https://www.finder.fi/Pakkaukset/Pyroll+Pakkaukset+Oy/Tampere/yhteystiedot/101262",
+  "frammento": "Pyroll Pakkaukset Oy was established in 2016 and is a limited company based in Tampere with packaging as its main business ... The CEO is Marko Penttinen",
+  "nota": "Riserva sciolta: Marko Penttinen risulta toimitusjohtaja anche della singola entita' Pyroll Pakkaukset Oy (Y-tunnus 2778467-7, Tampere), non solo della capogruppo Pyroll Pakkaukset Group Oy. Resta da segnalare a parte la partecipazione del fondo MB Rahastot.",
+  "_perche": "esito «confermato_attuale»: nessuna modifica"
+ },
+ {
+  "denominazione": "Cafetoria Roastery Oy",
+  "foglio": "Finlandia",
+  "esito": "confermato_attuale",
+  "referente": "Ivan Ore",
+  "ruolo": "Perustaja",
+  "fonte": "https://www.op-media.fi/yrittajyys/cafetoria-roasteryn-ivan-ore-bisneksen-tavoitteena-on-hyva-elama/",
+  "frammento": "Ivan Ore and his wife founded Cafetoria Roastery Oy in 2012 when they decided to become full-time entrepreneurs. Ivan Ore is of Peruvian background and runs Cafetoria roastery Oy from Lohja.",
+  "nota": "Tre ricerche (yrittajat.fi, op-media, proff.fi/asiakastieto) confermano Ivan Ore come fondatore e gestore dell'azienda ma non espongono la carica formale di toimitusjohtaja: si conferma il valore attuale 'Perustaja'.",
+  "_perche": "esito «confermato_attuale»: nessuna modifica"
+ },
+ {
+  "denominazione": "Nord Legnami Group Srl",
+  "foglio": "Italia",
+  "esito": "incerto",
+  "referente": "",
+  "ruolo": "",
+  "fonte": "",
+  "frammento": "",
+  "nota": "Tre ricerche (ufficiocamerale, reportaziende, aziende.it, LinkedIn) confermano solo che Marica Benedetto lavora in Nord Legnami Group S.r.l. (Settimo Torinese, P.IVA 06812230016) e che la compagine e' interamente familiare Benedetto; nessun frammento pubblico attribuisce la carica di amministratore delegato. Serve visura.",
+  "_perche": "esito «incerto»: nessuna modifica"
+ },
+ {
+  "denominazione": "Lecont S.r.l.",
+  "foglio": "Italia",
+  "esito": "incerto",
+  "referente": "",
+  "ruolo": "",
+  "fonte": "",
+  "frammento": "",
+  "nota": "Due ricerche (lecont.com/storia, Confindustria Trento, ufficiocamerale P.IVA 01711670222) confermano che i fondatori e titolari sono i fratelli Sergio e Valter Cont, ma nessuna fonte gratuita indica chi sia l'amministratore unico/legale rappresentante: la scelta del referente resta da fare in visura.",
+  "_perche": "esito «incerto»: nessuna modifica"
+ },
+ {
+  "denominazione": "Agrox Oy",
+  "foglio": "Finlandia",
+  "campo": "filiera",
+  "esito": "confermato_attuale",
+  "valore": "Mangimi/Soia",
+  "fonte": "https://finnwatch.org/fi/julkaisut/soijaa-brasiliasta",
+  "frammento": "Finnwatch 'Soijaa Brasiliasta': 'Agrox kertoo ostavansa kayttamansa soijarouheen Suomesta, mutta ei halua julkistaa kotimaista toimittajaansa' — oltre il 90% della soia proviene da fonti diverse dal Brasile; la soia brasiliana e' coperta da crediti RTRS e da conferma scritta di ADM che non proviene da aree a rischio",
+  "nota": "La commodity soia e' in Allegato I EUDR, quindi il valore 'Mangimi/Soia' resta corretto. Agrox pero' acquista la farina di soia da fornitori finlandesi (ADM come subfornitore): e' operatore a valle/trader, non primo immettitore sul mercato UE. Da riportare nella nota del lead, non nel campo filiera.",
+  "_perche": "esito «confermato_attuale»: nessuna modifica"
+ },
+ {
+  "denominazione": "Gustav Heess Oleochemische Erzeugnisse GmbH",
+  "foglio": "Germania",
+  "campo": "denominazione",
+  "esito": "confermato_attuale",
+  "valore": "Gustav Heess Oleochemische Erzeugnisse GmbH",
+  "fonte": "https://www.unternehmen24.info/Firmeninformationen/Deutschland/Firma/97824",
+  "frammento": "'Gustav Heess Oleochemische Erzeugnisse GmbH | Firmenauskunft, Bonitat & Handelsregisterauszug - HRB 5001' — Mollenbachstrasse 29, 71229 Leonberg; Rechtsform: Gesellschaft mit beschrankter Haftung; Registergericht: Amtsgericht Stuttgart, HRB 5001; USt-IdNr. DE147829001; Grundung 23.11.1972; Stammkapital 100.000 EUR; 6 Manager (4 Geschaftsfuhrer, 2 Prokuristen) e 2 Gesellschafter",
+  "nota": "Ragione sociale e forma giuridica confermate a registro (HRB 5001 AG Stuttgart, P.IVA DE147829001): il valore nel foglio e' esatto. Sulla struttura resta un dubbio non sciolto: Olisud Sarl e' descritta come societa' del gruppo Gustav Heess con sede ad Aix-en-Provence, ma le fonti non chiariscono se sia il veicolo di proprieta' familiare ne' dove sia accentrato l'acquisto dell'olio di palma.",
+  "_perche": "esito «confermato_attuale»: nessuna modifica"
+ },
+ {
+  "denominazione": "FZK GmbH Frische-Zentrum-Kreipl",
+  "foglio": "Germania",
+  "campo": "email",
+  "esito": "confermato_attuale",
+  "valore": "orga@fzk-gmbh.de",
+  "fonte": "https://www.v-d-f.de/mitglieder-uebersicht/mitglieder/kreipl",
+  "frammento": "Scheda socio VDF (Verband der Fleischwirtschaft) 'FZK GmbH Frische-Zentrum-Kreipl': Flugplatzstrasse 45, 94348 Atting; Telefon 09429 / 45091-0; E-Mail orga@fzk-gmbh.de; Ansprechpartnerin Lena Kreipl, Tel. 09429 4509116, lena.kreipl@fzk-gmbh.de",
+  "nota": "L'indirizzo orga@fzk-gmbh.de compare alla lettera nell'annuario ufficiale di categoria VDF con il centralino aziendale: valore attuale confermato. lena.kreipl@fzk-gmbh.de resta il recapito nominativo della referente commerciale.",
+  "_perche": "esito «confermato_attuale»: nessuna modifica"
+ },
+ {
+  "denominazione": "Van den Berg Hardhout B.V.",
+  "foglio": "Olanda",
+  "campo": "email",
+  "esito": "confermato_attuale",
+  "valore": "info@vandenberghardhout.nl",
+  "fonte": "https://www.vandenberghardhout.com/en/contact/",
+  "frammento": "Contact us - Van den Berg Hardhout: Email: info@vandenberghardhout.nl — 2e Industrieweg 19, 3411 ME Lopik, The Netherlands — Telephone +31(0)348 820 000",
+  "nota": "La pagina contatti sul dominio .com pubblica proprio la casella su dominio .nl: il valore attuale e' corretto, i due domini convivono (sito .com, posta .nl).",
+  "_perche": "esito «confermato_attuale»: nessuna modifica"
+ },
+ {
+  "denominazione": "VC Wood Zottegem NV",
+  "foglio": "Belgio",
+  "campo": "linkedin",
+  "esito": "confermato_attuale",
+  "valore": "https://be.linkedin.com/company/vc-wood-zottegem",
+  "fonte": "https://be.linkedin.com/company/vc-wood-zottegem",
+  "frammento": "Risultato di ricerca: 'VC WOOD Zottegem | LinkedIn' — https://be.linkedin.com/company/vc-wood-zottegem (accanto a 'VC Wood | LinkedIn' — https://be.linkedin.com/company/vc-wood)",
+  "nota": "Entrambe le pagine esistono: /company/vc-wood-zottegem e' attiva e riferita alla sede di Zottegem (l'entita' VC WOOD ZOTTEGEM NV, ondernemingsnummer 0407925778); /company/vc-wood e' la pagina di gruppo con le filiali.",
+  "_perche": "esito «confermato_attuale»: nessuna modifica"
+ },
+ {
+  "denominazione": "Conceria Lomar (Lomar Lavorazione Pelli S.r.l.)",
+  "foglio": "Italia",
+  "campo": "email",
+  "esito": "confermato_attuale",
+  "valore": "lomar@concerialomar.it",
+  "fonte": "https://www.concerialomar.it/contatti/",
+  "frammento": "Pagina 'Contatti - Conceria Lomar' (www.concerialomar.it/contatti/): Email: lomar@concerialomar.it — Strada dei Laghi, 45 - 36072 Chiampo (VI) — Tel. 0444-625050 — Lun-Ven 7:00-19:00",
+  "nota": "La pagina contatti del sito ufficiale riporta proprio lomar@concerialomar.it: il valore nel foglio e' corretto. info@concerialomar.it compare come recapito alternativo nelle schede terze.",
+  "_perche": "esito «confermato_attuale»: nessuna modifica"
+ },
+ {
+  "denominazione": "Spaggiari Industria Gomma S.r.l.",
+  "foglio": "Italia",
+  "campo": "sito",
+  "esito": "confermato_attuale",
+  "valore": "https://www.spaggiarigomma.it",
+  "fonte": "https://www.ice.it/en/my-home/find-your-italian-partner/company-details/14545/Spaggiari-industria-gomma",
+  "frammento": "Scheda ICE-Agenzia 'Spaggiari industria gomma': 'The company's official website is http://spaggiarigomma.it/' — Via G. Carboni 90, Luzzara (RE) 42045, tel. +390522825808; risultano attive sia spaggiarigomma.it (con /industriale/catalogo-prodotti e /en/) sia spaggiarigomma.com",
+  "nota": "Entrambi i domini sono attivi e appartengono alla stessa azienda; le fonti istituzionali (ICE, directory di settore, email info@spaggiarigomma.it) indicano .it come dominio ufficiale. Valore attuale confermato.",
+  "_perche": "esito «confermato_attuale»: nessuna modifica"
+ },
+ {
+  "denominazione": "Van den Berg Hardhout B.V.",
+  "foglio": "Olanda",
+  "campo": "linkedin",
+  "esito": "confermato_attuale",
+  "valore": "https://nl.linkedin.com/company/vandenberghardhout",
+  "fonte": "https://nl.linkedin.com/company/vandenberghardhout",
+  "frammento": "Risultato di ricerca: 'Van den Berg Hardhout BV | LinkedIn' — https://nl.linkedin.com/company/vandenberghardhout (azienda di Lopik, Utrecht, distributore di legno duro sostenibile)",
+  "nota": "L'URL gia' presente nel foglio e' quello attivo e riferito alla societa' di Lopik; da non confondere con 'Van den Berg Lopik BV', impresa edile diversa.",
+  "_perche": "esito «confermato_attuale»: nessuna modifica"
+ },
+ {
+  "denominazione": "Bla Station Aktiebolag",
+  "foglio": "Svezia",
+  "campo": "sito",
+  "esito": "confermato_attuale",
+  "valore": "https://www.blastation.se/",
+  "fonte": "https://www.blastation.se/produkter",
+  "frammento": "Risultati: 'Products | Blå Station' -> https://www.blastation.se/produkter e 'Blå Station - innovativa designmöbler' -> https://blastation.com/; Wikipedia SV: 'Blå Station AB har sitt huvudkontor på Box 100 S-296 22 Åhus'",
+  "nota": "Il dominio .se e' attivo e serve pagine reali (es. /produkter): il valore nel foglio non e' errato. blastation.com e' il sito internazionale parallelo (pagine /company, /contact) ed e' l'alternativa se si preferisce la versione in inglese.",
+  "_perche": "esito «confermato_attuale»: nessuna modifica"
+ },
+ {
+  "denominazione": "Candy People AB",
+  "foglio": "Svezia",
+  "campo": "sito",
+  "esito": "confermato_attuale",
+  "valore": "https://candypeople.se/",
+  "fonte": "https://candypeople.se/",
+  "frammento": "Risultato: 'Candy People – Vi har en favorit för alla!' -> https://candypeople.se/ ; accanto a 'Kontakt – Candy People' -> https://www.candypeople.com/kontakt/ ; allabolag: 'Candy People AB - Org.nr 556696-8375 - Malmö'",
+  "nota": "candypeople.se e' attivo (sito consumer svedese) quindi il valore nel foglio non e' errato; candypeople.com ospita la pagina Kontakt e il dominio di posta info@candypeople.com. Nessuna delle due va svuotata.",
+  "_perche": "esito «confermato_attuale»: nessuna modifica"
+ }
+]

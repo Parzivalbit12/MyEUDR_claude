@@ -8,6 +8,27 @@
  },
  {
   "foglio": "Italia",
+  "denominazione": "Conceria Italia S.p.A.",
+  "campo": "fonte",
+  "da": "https://www.conceriaitalia.com/contatti",
+  "a": "https://www.conceriaitalia.com/nuova-pagina"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "C.I.M.A. S.r.l. (Compensati Impiallacciature Materiali Affini)",
+  "campo": "referente",
+  "da": "",
+  "a": "Alessandro Dal Soglio"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "C.I.M.A. S.r.l. (Compensati Impiallacciature Materiali Affini)",
+  "campo": "ruolo",
+  "da": "",
+  "a": "Presidente"
+ },
+ {
+  "foglio": "Italia",
   "denominazione": "C.I.M.A. S.r.l. (Compensati Impiallacciature Materiali Affini)",
   "campo": "sito",
   "da": "",
@@ -29,10 +50,73 @@
  },
  {
   "foglio": "Italia",
+  "denominazione": "Original Parquet S.p.A.",
+  "campo": "referente",
+  "da": "",
+  "a": "Giovanni Ballardini"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Original Parquet S.p.A.",
+  "campo": "ruolo",
+  "da": "",
+  "a": "Direttore Generale"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Segheria Saccavini S.r.l.",
+  "campo": "referente",
+  "da": "",
+  "a": "Nella De Sabbata"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Segheria Saccavini S.r.l.",
+  "campo": "ruolo",
+  "da": "",
+  "a": "Presidente"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Zalf S.p.A. (Zalf Industria Mobili Componibili)",
+  "campo": "email",
+  "da": "n.d.",
+  "a": "zalfcen@zalf.com"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Bartoli S.p.A.",
+  "campo": "referente",
+  "da": "",
+  "a": "Giorgio Giovanni Bartoli"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Bartoli S.p.A.",
+  "campo": "ruolo",
+  "da": "",
+  "a": "Presidente / Amministratore unico"
+ },
+ {
+  "foglio": "Italia",
   "denominazione": "Bartoli S.p.A.",
   "campo": "email",
   "da": "bartolispa@pec.it",
   "a": "info@bartolispa.it"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Cartonificio Sandreschi S.r.l.",
+  "campo": "referente",
+  "da": "",
+  "a": "Ernesto Sandreschi"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Cartonificio Sandreschi S.r.l.",
+  "campo": "ruolo",
+  "da": "",
+  "a": "Presidente / Legale rappresentante"
  },
  {
   "foglio": "Italia",
@@ -43,6 +127,20 @@
  },
  {
   "foglio": "Italia",
+  "denominazione": "Cesare Trucillo S.p.A. (Caffè Trucillo)",
+  "campo": "referente",
+  "da": "",
+  "a": "Matteo Trucillo"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Cesare Trucillo S.p.A. (Caffè Trucillo)",
+  "campo": "ruolo",
+  "da": "",
+  "a": "Presidente e Amministratore Delegato"
+ },
+ {
+  "foglio": "Italia",
   "denominazione": "Imperator S.r.l.",
   "campo": "sito",
   "da": "https://www.imperator.it",
@@ -50,10 +148,38 @@
  },
  {
   "foglio": "Italia",
+  "denominazione": "Domori S.p.A.",
+  "campo": "referente",
+  "da": "",
+  "a": "Riccardo Illy"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Domori S.p.A.",
+  "campo": "ruolo",
+  "da": "",
+  "a": "Amministratore Delegato"
+ },
+ {
+  "foglio": "Italia",
   "denominazione": "Gambarotta S.r.l.",
   "campo": "sito",
   "da": "",
   "a": "https://www.gambarotta.eu"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Majani 1796 S.p.A.",
+  "campo": "referente",
+  "da": "",
+  "a": "Francesco Mezzadri Majani"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Majani 1796 S.p.A.",
+  "campo": "ruolo",
+  "da": "",
+  "a": "Presidente e Amministratore Delegato"
  },
  {
   "foglio": "Italia",
@@ -92,6 +218,41 @@
  },
  {
   "foglio": "Italia",
+  "denominazione": "Insit Industria S.p.A.",
+  "campo": "referente",
+  "da": "",
+  "a": "Guglielmo Debenedetti"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Insit Industria S.p.A.",
+  "campo": "ruolo",
+  "da": "",
+  "a": "Presidente"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Spaggiari Industria Gomma S.r.l.",
+  "campo": "filiera",
+  "da": "Gomma",
+  "a": "Gomma — articoli tecnici in gomma naturale (NR), sintetica, siliconica e fluoroelastomeri"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Cortal Extrasoy S.p.A.",
+  "campo": "referente",
+  "da": "",
+  "a": "Gianpietro Didoné"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Cortal Extrasoy S.p.A.",
+  "campo": "ruolo",
+  "da": "",
+  "a": "Presidente"
+ },
+ {
+  "foglio": "Italia",
   "denominazione": "Cortal Extrasoy S.p.A.",
   "campo": "email",
   "da": "n.d.",
@@ -127,10 +288,24 @@
  },
  {
   "foglio": "Germania",
+  "denominazione": "Lindner Kartonagen GmbH",
+  "campo": "referente",
+  "da": "Jutta Summann, Emanuel Dick",
+  "a": "Jutta Summann, Johannes Kunze"
+ },
+ {
+  "foglio": "Germania",
   "denominazione": "Benecke Coffee GmbH & Co. KG",
   "campo": "email",
   "da": "info@benecke-coffee.de",
   "a": "info@rehmcoffee.de"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Gebr. Westhoff GmbH & Co. KG",
+  "campo": "referente",
+  "da": "Max J.W. Ültzen",
+  "a": "Max J.W. Ueltzen, Christian Bruns, Pauline von Mettenheim"
  },
  {
   "foglio": "Germania",
@@ -142,6 +317,13 @@
  {
   "foglio": "Germania",
   "denominazione": "Röstfein Kaffee GmbH",
+  "campo": "dimensione",
+  "da": "n.d. (torrefazione media, gegr. 1908)",
+  "a": "n.d. (torrefazione media, gegr. 1908). Legame di gruppo: controllata al 100% da Zentralkonsum eG (Berlino) — HRB 107856."
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Röstfein Kaffee GmbH",
   "campo": "fonte",
   "da": "https://www.roestfein.de/impressum",
   "a": "https://www.roestfein.de/impressum.html"
@@ -149,9 +331,30 @@
  {
   "foglio": "Germania",
   "denominazione": "HCS Hamburg Cocoa Services GmbH",
+  "campo": "referente",
+  "da": "Edmund Agyapong-Poku",
+  "a": "Nathaniel Durant"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "HCS Hamburg Cocoa Services GmbH",
   "campo": "sito",
   "da": "",
   "a": "https://www.cocoaservices.de"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Weibler Confiserie Chocolaterie GmbH & Co. KG",
+  "campo": "denominazione",
+  "da": "Weibler Confiserie Chocolaterie GmbH",
+  "a": "Weibler Confiserie Chocolaterie GmbH & Co. KG"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Effbe GmbH",
+  "campo": "referente",
+  "da": "Franz Josef Wolf",
+  "a": "Joachim Geimer"
  },
  {
   "foglio": "Germania",
@@ -189,11 +392,39 @@
   "a": "https://de.linkedin.com/company/meier-muehle"
  },
  {
+  "foglio": "Germania",
+  "denominazione": "Schellinger KG",
+  "campo": "filiera",
+  "da": "Mangimi/Soia",
+  "a": "Mangimi/Soia + Legno — pellet di legno Sonnen-Pellets (dal 1998, certificati ENplus)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Akonkosken Saha Oy",
+  "campo": "email",
+  "da": "akonkoskensaha@akonkoskensaha.fi",
+  "a": "akonkoskensaha@netikka.fi"
+ },
+ {
   "foglio": "Finlandia",
   "denominazione": "E J Hiipakka Oy",
   "campo": "sito",
   "da": "https://www.ejh.fi",
   "a": "https://www.hiipakka.net"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Kiilax Oy",
+  "campo": "filiera",
+  "da": "Legno/Arredo — compensato betulla/lamellare",
+  "a": "Legno/Arredo — botole d'ispezione e prodotti in compensato (produzione e rivendita specializzata)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Arvo Piiroinen Oy",
+  "campo": "denominazione",
+  "da": "Piiroinen Oy",
+  "a": "Arvo Piiroinen Oy"
  },
  {
   "foglio": "Finlandia",
@@ -211,10 +442,38 @@
  },
  {
   "foglio": "Finlandia",
+  "denominazione": "Brunberg Oy",
+  "campo": "email",
+  "da": "n.d.",
+  "a": "tilaukset@brunberg.fi"
+ },
+ {
+  "foglio": "Finlandia",
   "denominazione": "Goodio (Helsinki Heaven Oy)",
   "campo": "email",
   "da": "info@goodio.fi",
   "a": "feedback@goodio.fi"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Vainion Teurastamo Oy",
+  "campo": "filiera",
+  "da": "Bovini/Carne",
+  "a": "Bovini/Carne — prevalentemente ovino (~15.000 capi/anno); bovini ~2.500 capi/anno"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "ONECOLLECTION A/S (House of Finn Juhl)",
+  "campo": "fonte",
+  "da": "https://www.proff.dk/firma/onecollection-as/ringk%C3%B8bing/m%C3%B8bler/GXS757I015G",
+  "a": "https://www.proff.dk/firma/onecollection-as/ringk%C3%B8bing/producenter/GQYY8HI016D"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "JOHNSEN PRINT & DIGITAL MEDIA A/S (già Johnsen Graphic Solutions A/S)",
+  "campo": "denominazione",
+  "da": "JOHNSEN GRAPHIC SOLUTIONS A/S (oggi anche Johnsen Print & Digital Media A/S)",
+  "a": "JOHNSEN PRINT & DIGITAL MEDIA A/S (già Johnsen Graphic Solutions A/S)"
  },
  {
   "foglio": "Svezia",
@@ -229,6 +488,55 @@
   "campo": "linkedin",
   "da": "",
   "a": "https://se.linkedin.com/company/ekstrand-&-son-ab"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Lars Carlsson Trävaru Aktiebolag",
+  "campo": "referente",
+  "da": "",
+  "a": "Lars Anders Hilding Carlsson"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Lars Carlsson Trävaru Aktiebolag",
+  "campo": "ruolo",
+  "da": "",
+  "a": "Styrelseordförande / ansvarig (nessun VD registrato)"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Lykke Coffee Farms AB",
+  "campo": "referente",
+  "da": "",
+  "a": "Johan Wellander"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Lykke Coffee Farms AB",
+  "campo": "ruolo",
+  "da": "",
+  "a": "Ordförande / grundare (nessun VD registrato)"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Aktiebolaget Johan Hansson",
+  "campo": "linkedin",
+  "da": "",
+  "a": "https://se.linkedin.com/company/ab-johan-hansson"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Aktiebolaget Ginsten Slakteri",
+  "campo": "filiera",
+  "da": "Bovini/Carne — macello indipendente (bovini, suini, ovini) e commercio carni",
+  "a": "Bovini/Carne — macello (bovini, suini, ovini) e commercio carni, in gruppo familiare"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Aktiebolaget Ginsten Slakteri",
+  "campo": "dimensione",
+  "da": "Fatturato 227.210 KSEK (~20,1 M€) — bilancio 2024, +18,2% (fonte allabolag/bolagsfakta); org.nr 556257-9861. Nella società capofila risultano 0 dipendenti registrati (personale in società del gruppo). In pieno target di fatturato.",
+  "a": "Fatturato 227.210 KSEK (~20,1 M€) — bilancio 2024, +18,2% (fonte allabolag/bolagsfakta); org.nr 556257-9861. Nella società capofila risultano 0 dipendenti registrati (personale in società del gruppo). In pieno target di fatturato. Capogruppo: Aktiebolaget Joh. M. Johansson, Kött- & Charkuteriaffär (gruppo familiare di 4 societa')."
  },
  {
   "foglio": "Olanda",
@@ -260,6 +568,20 @@
  },
  {
   "foglio": "Olanda",
+  "denominazione": "Ascot Amsterdam B.V.",
+  "campo": "referente",
+  "da": "",
+  "a": "Merijn Bruinse"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Ascot Amsterdam B.V.",
+  "campo": "ruolo",
+  "da": "",
+  "a": "Managing Director"
+ },
+ {
+  "foglio": "Olanda",
   "denominazione": "Daarnhouwer & Co B.V.",
   "campo": "email",
   "da": "n.d.",
@@ -274,10 +596,38 @@
  },
  {
   "foglio": "Olanda",
+  "denominazione": "Bannink Packaging B.V.",
+  "campo": "email",
+  "da": "n.d.",
+  "a": "info@bannink.nl"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "De Groot Drukkerij B.V.",
+  "campo": "referente",
+  "da": "Anton de Groot",
+  "a": "Wim Everts"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "De Groot Drukkerij B.V.",
+  "campo": "ruolo",
+  "da": "Directeur",
+  "a": "Algemeen directeur"
+ },
+ {
+  "foglio": "Olanda",
   "denominazione": "Drukkerij Van der Eems B.V.",
   "campo": "email",
   "da": "sjoukje@vandereems.nl",
   "a": "dj@vandereems.nl"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Snel Industrie voor Karton en Papierveredeling B.V.",
+  "campo": "sito",
+  "da": "",
+  "a": "https://www.snelbv.nl"
  },
  {
   "foglio": "Olanda",
@@ -309,10 +659,38 @@
  },
  {
   "foglio": "Olanda",
+  "denominazione": "BENZU (eenmanszaak) — handelsnaam «Origin Bridge»",
+  "campo": "denominazione",
+  "da": "Origin Bridge (Barchem)",
+  "a": "BENZU (eenmanszaak) — handelsnaam «Origin Bridge»"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Chocolatemakers B.V.",
+  "campo": "dimensione",
+  "da": "Fatturato ~4 M€ (fonte: MT/Sprout, articolo sulla fusione con Hands Off, 2025). KVK 57652066. SBI verwerking van cacao. Fabbrica bean-to-bar nel porto di Amsterdam, importa direttamente fave da Congo, Perù e Rep. Dominicana: operatore EUDR. Nota: sotto la fascia 5-40 M€, tenuta per copertura del segmento bean-to-bar.",
+  "a": "Fatturato ~4 M€ (fonte: MT/Sprout, articolo sulla fusione con Hands Off, 2025). KVK 57652066. SBI verwerking van cacao. Fabbrica bean-to-bar nel porto di Amsterdam, importa direttamente fave da Congo, Perù e Rep. Dominicana: operatore EUDR. Nota: sotto la fascia 5-40 M€, tenuta per copertura del segmento bean-to-bar. Legame di gruppo: dal 2025 confluita in The Chocolate Impact Group (fusione con Hands Off; marchi Chocolatemakers, Hands Off, CLARO)."
+ },
+ {
+  "foglio": "Olanda",
   "denominazione": "Martinez Chocolade B.V.",
   "campo": "email",
   "da": "n.d.",
   "a": "info@martinezchocolade.nl"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Rousseau Chocolade B.V.",
+  "campo": "referente",
+  "da": "",
+  "a": "Paul Diepstraten"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Rousseau Chocolade B.V.",
+  "campo": "ruolo",
+  "da": "",
+  "a": "Directeur"
  },
  {
   "foglio": "Olanda",
@@ -357,6 +735,48 @@
   "a": "Directeur"
  },
  {
+  "foglio": "Olanda",
+  "denominazione": "Van Kooten Vleesgroothandel B.V.",
+  "campo": "referente",
+  "da": "",
+  "a": "Wilco van Kooten, Gerwin van Kooten"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Van Kooten Vleesgroothandel B.V.",
+  "campo": "ruolo",
+  "da": "",
+  "a": "Directeuren / eigenaren"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Bulo NV",
+  "campo": "referente",
+  "da": "Dirk Busschop",
+  "a": "Carlo Busschop"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Bulo NV",
+  "campo": "ruolo",
+  "da": "CEO",
+  "a": "CEO / Managing Director"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Confortluxe NV",
+  "campo": "referente",
+  "da": "",
+  "a": "Jimmy Ollevier"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Confortluxe NV",
+  "campo": "ruolo",
+  "da": "",
+  "a": "Bestuurder"
+ },
+ {
   "foglio": "Belgio",
   "denominazione": "Desmedt Labels BV",
   "campo": "email",
@@ -393,10 +813,73 @@
  },
  {
   "foglio": "Belgio",
+  "denominazione": "Bruyerre Chocolates SA",
+  "campo": "referente",
+  "da": "",
+  "a": "Marc Delsemme"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Bruyerre Chocolates SA",
+  "campo": "ruolo",
+  "da": "",
+  "a": "Amministratore / co-proprietario (titolo statutario non confermato)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Bruyerre Chocolates SA",
+  "campo": "linkedin",
+  "da": "",
+  "a": "https://be.linkedin.com/company/bruyerre-chocolates"
+ },
+ {
+  "foglio": "Belgio",
   "denominazione": "Chocolaterie Ickx NV",
   "campo": "sito",
   "da": "https://www.ickx.be/",
   "a": "https://www.choc-ickx.be/"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Confiserie De Bie - L'Abeille - Trefin NV",
+  "campo": "referente",
+  "da": "",
+  "a": "Bert Verriet"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Confiserie De Bie - L'Abeille - Trefin NV",
+  "campo": "ruolo",
+  "da": "",
+  "a": "CEO"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Dolfin SA",
+  "campo": "referente",
+  "da": "",
+  "a": "Jean-Jacques de Gruben"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Dolfin SA",
+  "campo": "ruolo",
+  "da": "",
+  "a": "Directeur général (CEO)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "La Chocolaterie Galler SA",
+  "campo": "referente",
+  "da": "",
+  "a": "Sebastien Desclee"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "La Chocolaterie Galler SA",
+  "campo": "ruolo",
+  "da": "",
+  "a": "CEO"
  },
  {
   "foglio": "Belgio",
@@ -428,6 +911,55 @@
  },
  {
   "foglio": "Belgio",
+  "denominazione": "Hexpol Compounding SRL",
+  "campo": "denominazione",
+  "da": "Hexpol Compounding BV",
+  "a": "Hexpol Compounding SRL"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Vanrobaeys Granen & Zaden NV",
+  "campo": "filiera",
+  "da": "Mangimi/Soia — granaglie e semi per mangimi",
+  "a": "Mangimi/Soia — mangimi per colombi (duivenvoer) a base di granaglie, semi e soia tostata"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Voeders Mellaerts NV",
+  "campo": "referente",
+  "da": "",
+  "a": "Dirk Mellaerts"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Voeders Mellaerts NV",
+  "campo": "ruolo",
+  "da": "",
+  "a": "Bestuurder"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Baeten & Co NV",
+  "campo": "filiera",
+  "da": "Olio di palma — raffinazione oli e grassi vegetali/animali",
+  "a": "Olio di palma + Bovini — raffinazione di grassi animali (sego bovino/suino) e oli vegetali (palma, cocco, mais): doppia esposizione EUDR"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Van De Walle SRL",
+  "campo": "email",
+  "da": "info@vdw-grossisteenviande.be",
+  "a": "vdwgrossiste@skynet.be"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Vleeshandel Vens NV",
+  "campo": "filiera",
+  "da": "Bovini/Carne — ingrosso e sezionamento",
+  "a": "Bovini/Carne — sezionamento e commercio di carne (ingrosso piu' negozio proprio e punti di ritiro)"
+ },
+ {
+  "foglio": "Belgio",
   "denominazione": "Vleeshandel Vens NV",
   "campo": "email",
   "da": "n.d.",
@@ -446,6 +978,20 @@
   "campo": "sito",
   "da": "http://alvorada.wien",
   "a": "https://www.alvorada.com"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Ulrich Etiketten Gesellschaft m.b.H.",
+  "campo": "sito",
+  "da": "https://ulrich.at",
+  "a": "https://www.ulrich-etiketten.at"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Cafe-Konditorei Fürst GmbH",
+  "campo": "denominazione",
+  "da": "Fürst GmbH",
+  "a": "Cafe-Konditorei Fürst GmbH"
  },
  {
   "foglio": "Austria",

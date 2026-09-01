@@ -1,0 +1,202 @@
+[
+ {
+  "foglio": "Belgio",
+  "denominazione": "Bruyerre Chocolates SA",
+  "campo": "linkedin",
+  "gravita": "bassa",
+  "valore_attuale": "",
+  "problema": "Campo LinkedIn vuoto: esiste una pagina aziendale belga attiva. Da verificare se copra la sola Bruyerre Chocolates SA o l'intero marchio Bruyerre (che include anche Bruyerre SA distribuzione, BE 0431.703.151).",
+  "evidenza": "https://be.linkedin.com/company/bruyerre",
+  "correzione_proposta": "https://be.linkedin.com/company/bruyerre (DA CONFERMARE la corrispondenza con l'entita' 0688.794.525)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Akonkosken Saha Oy",
+  "campo": "email",
+  "gravita": "alta",
+  "valore_attuale": "akonkoskensaha@akonkoskensaha.fi",
+  "problema": "L'indirizzo akonkoskensaha@akonkoskensaha.fi non compare in nessuna fonte pubblica: le fonti (Finder/Fonecta/yrityshakemisto) riportano un dominio di posta diverso (netikka.fi), dominio storico dell'azienda distinto dal sito web.",
+  "evidenza": "https://www.finder.fi/Puutavara/Akonkosken+saha+Oy/T%C3%B6ys%C3%A4/yhteystiedot/124414 — frammento: \"Email (Sähköposti): akonkoskensaha@netikka.fi; Puhelin: 020 773 8585; Ähtärintie 23, 63600 Töysä\"",
+  "correzione_proposta": "akonkoskensaha@netikka.fi (da riconfermare sulla pagina https://www.akonkoskensaha.fi/kontakti.html)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Agrox Oy",
+  "campo": "filiera",
+  "gravita": "media",
+  "valore_attuale": "Mangimi/Soia",
+  "problema": "Uso di soia confermato, ma Agrox dichiara di acquistare la farina di soia da fornitori finlandesi (non importa direttamente): rispetto all'EUDR sarebbe quindi operatore a valle/trader e non primo immettitore. Da chiarire la posizione nella catena prima di qualificarlo come operatore.",
+  "evidenza": "https://finnwatch.org/fi/julkaisut/soijaa-brasiliasta — 'Agrox ... states it purchases the soy flour it uses from Finland, though it does not want to make its domestic suppliers public'",
+  "correzione_proposta": "Mangimi/Soia — utilizzatore di farina di soia acquistata da fornitori finlandesi (posizione operatore/trader da verificare)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Brunberg Oy",
+  "campo": "email",
+  "gravita": "media",
+  "valore_attuale": "n.d.",
+  "problema": "Campo email valorizzato 'n.d.' benché indirizzi pubblici siano disponibili sul sito ufficiale: postmaster@brunberg.fi (generale), tilaukset@brunberg.fi (ordini/wholesale). Lead di fatto non contattabile via email così com'è.",
+  "evidenza": "https://brunberg.fi/en/contact-information/ — 'Corporate orders & Wholesale: tilaukset@brunberg.fi ... General: postmaster@brunberg.fi'",
+  "correzione_proposta": "tilaukset@brunberg.fi (in alternativa postmaster@brunberg.fi)"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Gustav Heess Oleochemische Erzeugnisse GmbH",
+  "campo": "denominazione",
+  "gravita": "bassa",
+  "valore_attuale": "Gustav Heess Oleochemische Erzeugnisse GmbH",
+  "problema": "Struttura societaria non dichiarata: la GmbH ha due soci, Olisud Sarl e Gustav Heess GmbH & Co. KG, ed e' la capofila operativa di un gruppo con nove societa'/impianti in Europa, USA e Asia. Se Olisud Sarl e' il veicolo di proprieta' della famiglia il rilievo resta formale, ma va verificato che la decisione d'acquisto dell'olio di palma non sia accentrata altrove.",
+  "evidenza": "https://www.northdata.com/Gustav%20Heess%20Oleochemische%20Erzeugnisse%20GmbH,%20Leonberg/Amtsgericht%20Stuttgart%20HRB%205001 - '2 Gesellschafter: Olisud Sarl; Gustav Heess GmbH & Co. KG'; HRB 5001 AG Stuttgart; 6 persone con potere di rappresentanza (4 Geschaeftsfuehrer, 2 Prokuristen)",
+  "correzione_proposta": "Indicare: gruppo Gustav Heess (soci Olisud Sarl e Gustav Heess GmbH & Co. KG) - DA CONFERMARE natura di Olisud Sarl"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "FZK GmbH Frische-Zentrum-Kreipl",
+  "campo": "email",
+  "gravita": "media",
+  "valore_attuale": "orga@fzk-gmbh.de",
+  "problema": "DA CONFERMARE: l'indirizzo orga@fzk-gmbh.de non e' stato ritrovato letteralmente in fonti pubbliche. L'unico indirizzo pubblicato e' quello nominativo della referente commerciale, lena.kreipl@fzk-gmbh.de.",
+  "evidenza": "https://www.regionales-bayern.de/anbieter/fzk-gmbh-frische-zentrum-kreipl-zerlegung-metzgerei-werksverkauf-15896/ - 'Flugplatzstrasse 45, 94348 Atting; Tel. 09429 4509116; E-Mail: lena.kreipl@fzk-gmbh.de'",
+  "correzione_proposta": "lena.kreipl@fzk-gmbh.de (indirizzo pubblicato; orga@fzk-gmbh.de da riconfermare sull'Impressum)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Zalf SpA (Zalf Industria Mobili Componibili)",
+  "campo": "email",
+  "gravita": "media",
+  "valore_attuale": "n.d.",
+  "problema": "Email 'n.d.', sito e LinkedIn vuoti: record non contattabile, benche' esistano il sito di marchio www.zalf.com (con pagina contatti) e la pagina LinkedIn del Gruppo Euromobil.",
+  "evidenza": "https://www.zalf.com/en/contacts ; https://it.linkedin.com/company/gruppo-euromobil",
+  "correzione_proposta": "sito: https://www.zalf.com (email da confermare sulla pagina contatti)"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Van den Berg Hardhout B.V.",
+  "campo": "email",
+  "gravita": "media",
+  "valore_attuale": "info@vandenberghardhout.nl",
+  "problema": "Incoerenza di dominio: l'email e su .nl (info@vandenberghardhout.nl) mentre il sito ufficiale e le e-mail nominative del personale sono sul dominio .com (vandenberghardhout.com). Verificare quale dominio di posta sia realmente attivo.",
+  "evidenza": "https://rocketreach.co/albert-oudenaarden-email_99038923 - 'a******@vandenberghardhout.com'; https://www.vandenberghardhout.com/en/contact/",
+  "correzione_proposta": "info@vandenberghardhout.com (da confermare)"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Bannink Packaging B.V.",
+  "campo": "email",
+  "gravita": "media",
+  "valore_attuale": "n.d.",
+  "problema": "Il campo riporta 'n.d.' sostenendo che nessuna e-mail sia pubblicata, ma l'indirizzo generale info@bannink.nl compare in fonti pubbliche.",
+  "evidenza": "https://www.cylex.nl/bedrijf/bannink-golfkarton-10687870.html — frammento: 'Bannink Golfkarton is located at Vosmatenweg 1 in Coevorden with phone number 0524-599599. The general email contact is info@bannink.nl'",
+  "correzione_proposta": "info@bannink.nl (DA CONFERMARE sul sito bannink.nl)"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Snel Industrie voor Karton en Papierveredeling B.V.",
+  "campo": "sito",
+  "gravita": "media",
+  "valore_attuale": "",
+  "problema": "Il campo sito è vuoto e il campo dimensione afferma che 'nessun sito web è pubblicato': esiste invece www.snelbv.nl indicizzato nelle directory di settore.",
+  "evidenza": "https://nl.kompass.com/c/snel-industrie-voor-karton-en-papierveredeling-b-v/nl135304/ — frammento: 'The website is www.snelbv.nl ... Phone number: 026-3250863 ... KvK number 09059215 ... Between 51 and 100 people are employed'",
+  "correzione_proposta": "https://www.snelbv.nl (DA CONFERMARE che il dominio sia attivo)"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Ulrich Etiketten Gesellschaft m.b.H.",
+  "campo": "sito",
+  "gravita": "media",
+  "valore_attuale": "https://ulrich.at",
+  "problema": "Il dominio istituzionale dell'azienda è ulrich-etiketten.at (sito, news e sezione jobs), non ulrich.at come riportato nel campo sito e nel campo fonte. Di conseguenza anche l'e-mail ulrich@ulrich.at va riverificata: non è ritrovata letteralmente nelle fonti pubbliche consultate. DA CONFERMARE.",
+  "evidenza": "ulrich-etiketten.at/ulrich-news/ e ulrich-etiketten.at/jobs/; karriere.at/f/ulrich-etiketten; at.linkedin.com/company/ulrich-etiketten-gesmbh",
+  "correzione_proposta": "https://www.ulrich-etiketten.at"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "VC Wood Zottegem NV",
+  "campo": "linkedin",
+  "gravita": "bassa",
+  "valore_attuale": "https://be.linkedin.com/company/vc-wood-zottegem",
+  "problema": "L'URL LinkedIn indicato (company/vc-wood-zottegem) non corrisponde alla pagina che emerge dalle ricerche, che e' company/vc-wood. DA CONFERMARE quale delle due sia attiva.",
+  "evidenza": "https://be.linkedin.com/company/vc-wood (risultato di ricerca per 'VC Wood Zottegem houthandel')",
+  "correzione_proposta": "https://be.linkedin.com/company/vc-wood"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Van De Walle SRL",
+  "campo": "email",
+  "gravita": "media",
+  "valore_attuale": "info@vdw-grossisteenviande.be",
+  "problema": "E-mail non confermata alla lettera. L'indirizzo riportato nel foglio (info@vdw-grossisteenviande.be) non compare in nessuna fonte pubblica: l'unico indirizzo pubblicato e' vdwgrossiste@skynet.be, nell'annuario ufficiale del comune di Les Bons Villers. Da segnalare inoltre che l'azienda usa due domini paralleli, vdw-grossisteenviande.be e vdw-grossisteenviande.com.",
+  "evidenza": "https://www.les-bons-villers.be/annuaire/van-de-walle-sprl — «VAN DE WALLE SPRL, Rue de Gosselies 30, 6210 Wayaux — Tel. 071/88 51 57 — vdwgrossiste@skynet.be — BE 0893.625.564»",
+  "correzione_proposta": "vdwgrossiste@skynet.be"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "ONECOLLECTION A/S (House of Finn Juhl)",
+  "campo": "fonte",
+  "gravita": "bassa",
+  "valore_attuale": "https://www.proff.dk/firma/onecollection-as/ringk%C3%B8bing/m%C3%B8bler/GXS757I015G",
+  "problema": "DA CONFERMARE: l'ID proff nell'URL citato (GXS757I015G) non coincide con quello della scheda ONECOLLECTION A/S CVR 29787786 reperita (GQYY8HI016D). L'URL potrebbe puntare a una scheda diversa/obsoleta.",
+  "evidenza": "https://www.proff.dk/firma/onecollection-as/ringk%C3%B8bing/producenter/GQYY8HI016D — titolo: \"ONECOLLECTION A/S - CVR-nr 29787786 - Ringkøbing\"",
+  "correzione_proposta": "https://www.proff.dk/firma/onecollection-as/ringk%C3%B8bing/producenter/GQYY8HI016D"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Conceria Italia S.p.A.",
+  "campo": "fonte",
+  "gravita": "bassa",
+  "valore_attuale": "https://www.conceriaitalia.com/contatti",
+  "problema": "L'URL indicato (www.conceriaitalia.com/contatti) non risulta essere la pagina contatti del sito: la pagina CONTATTI pubblicata è /nuova-pagina. Link probabilmente non valido.",
+  "evidenza": "Risultato di ricerca: 'CONTATTI — Conceria Italia' → https://www.conceriaitalia.com/nuova-pagina",
+  "correzione_proposta": "https://www.conceriaitalia.com/nuova-pagina"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Conceria Lomar (Lomar Lavorazione Pelli S.r.l.)",
+  "campo": "email",
+  "gravita": "media",
+  "valore_attuale": "lomar@concerialomar.it",
+  "problema": "L'indirizzo 'lomar@concerialomar.it' non compare nelle fonti pubbliche reperite; le schede aziendali e la certificazione LWG riportano 'info@concerialomar.it'. DA CONFERMARE.",
+  "evidenza": "https://www.reportaziende.it/lomar_lavorazione_pelli_srl_vi_02002810246 — 'Email: info@concerialomar.it; Tel +39 0444625050; PEC lomar@pec-italia.it'",
+  "correzione_proposta": "info@concerialomar.it"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Spaggiari Industria Gomma S.r.l.",
+  "campo": "sito",
+  "gravita": "bassa",
+  "valore_attuale": "https://www.spaggiarigomma.it",
+  "problema": "Il dominio ufficiale che compare nei risultati e spaggiarigomma.com, non spaggiarigomma.it. DA CONFERMARE quale dei due sia il dominio attivo/canonico.",
+  "evidenza": "https://spaggiarigomma.com/ - \"Spaggiari Industria Gomma, Rubber Professional Solutions\"",
+  "correzione_proposta": "https://spaggiarigomma.com"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Van den Berg Hardhout B.V.",
+  "campo": "linkedin",
+  "gravita": "bassa",
+  "valore_attuale": "https://nl.linkedin.com/company/vandenberghardhout",
+  "problema": "URL LinkedIn probabilmente errato: la pagina aziendale reperibile e /company/van-den-berg-hardhout-bv---lopik, non /company/vandenberghardhout.",
+  "evidenza": "https://nl.linkedin.com/company/van-den-berg-hardhout-bv---lopik - 'Van den Berg Hardhout BV | LinkedIn'",
+  "correzione_proposta": "https://nl.linkedin.com/company/van-den-berg-hardhout-bv---lopik"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Blå Station Aktiebolag",
+  "campo": "sito",
+  "gravita": "bassa",
+  "valore_attuale": "https://www.blastation.se/",
+  "problema": "Dominio ufficiale da verificare: il sito istituzionale che compare nelle fonti è blastation.com (pagina 'Company'), mentre il record indica blastation.se.",
+  "evidenza": "https://blastation.com/company — «Company | Blå Station»",
+  "correzione_proposta": "https://blastation.com/"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Candy People AB",
+  "campo": "sito",
+  "gravita": "bassa",
+  "valore_attuale": "https://candypeople.se/",
+  "problema": "Dominio probabilmente errato: il sito corporate svedese (comprese le pagine in svedese 'Kontakt') e su candypeople.com, coerente con l'e-mail info@candypeople.com riportata nel record. Il dominio candypeople.se indicato nel campo non risulta nelle fonti. DA CONFERMARE.",
+  "evidenza": "https://www.candypeople.com/kontakt/ - pagina 'Kontakt' in svedese; 'Email: info@candypeople.com, Phone: +46 40 18 99 94, Address: Lundavagen 74, Malmo'",
+  "correzione_proposta": "https://www.candypeople.com/"
+ }
+]

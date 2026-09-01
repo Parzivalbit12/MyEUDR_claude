@@ -1,0 +1,332 @@
+[
+ {
+  "foglio": "Belgio",
+  "denominazione": "Bulo NV",
+  "campo": "referente",
+  "gravita": "media",
+  "valore_attuale": "Dirk Busschop",
+  "problema": "Referente probabilmente non aggiornato. Dirk Busschop risulta CEO in fonti risalenti (2009); l'azienda e' oggi guidata dalla terza generazione, Carlo e Louis Busschop, con Carlo Busschop indicato come Managing Director / CEO in fonti recenti. Da riconfermare quale sia il gedelegeerd bestuurder in carica.",
+  "evidenza": "https://www.bulo.com/third_generation/ e https://rocketreach.co/carlo-busschop-email_93406361 - frammento: \"Carlo Busschop, based in Mechelen, BE, is currently a Managing Director at Bulo\"; \"Carlo Busschop is the third generation and the current CEO\"",
+  "correzione_proposta": "Carlo Busschop — gedelegeerd bestuurder / Managing Director (DA CONFERMARE)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Confortluxe NV",
+  "campo": "referente",
+  "gravita": "media",
+  "valore_attuale": "",
+  "problema": "Referente e ruolo assenti benche' gli amministratori siano pubblici e confermati (Jacqueline Pauwels, Jimmy Ollevier, Heidi Ollevier). Il fondatore Andre Ollevier, storico gedelegeerd bestuurder, e' deceduto: non usarlo come referente. Da attribuire il ruolo di gedelegeerd bestuurder tra i tre amministratori in carica.",
+  "evidenza": "https://fincheck.be/en/confortluxe/0412.863.078/Wervik/connections - frammento: \"The current board members of Confortluxe are Jacqueline Pauwels, Jimmy Ollevier, and Heidi Ollevier\"; https://www.made-in.be/west-vlaanderen/afscheid-van-ras-en-superondernemer-mijnheer-andre-ollevier-79/",
+  "correzione_proposta": "Jimmy Ollevier — bestuurder (ruolo di gedelegeerd bestuurder DA CONFERMARE)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Bruyerre Chocolates SA",
+  "campo": "referente",
+  "gravita": "media",
+  "valore_attuale": "",
+  "problema": "Referente e ruolo vuoti. Le fonti pubbliche indicano Marc Delsemme come Administrateur Delegue di Bruyerre Chocolates (con Olivier de Macar, coacquirente della cioccolateria e cofondatore di Bruyerre Chocolates SA). Titolo coerente con una SA vallona.",
+  "evidenza": "https://rocketreach.co/marc-delsemme-email_123029407 (\"Marc Delsemme ... Bruyerre Chocolates Administrateur Delegue\"); https://bruyerre.eu/en/history/ (\"Olivier de Macar & Marc Delsemme acquired the Bruyerre Chocolate Factory and created Bruyerre Chocolates SA\")",
+  "correzione_proposta": "referente: Marc Delsemme — ruolo: Administrateur delegue (DA CONFERMARE su KBO/NBB)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Confiserie De Bie - L'Abeille - Trefin NV",
+  "campo": "referente",
+  "gravita": "media",
+  "valore_attuale": "",
+  "problema": "Referente e ruolo vuoti. Le fonti registrali indicano come amministratori Bert Verriet e Lisette Lerno. Fatturato (11.404.101 €), FTE (34,4) e deposito (08-06-2026) risultano confermati.",
+  "evidenza": "Frammento FinCheck: \"The directors of Confiserie Trefin are Bert Verriet and Lisette Lerno\" — https://fincheck.be/nl/confiserie-trefin/0400.120.050/Lokeren/bestuurders",
+  "correzione_proposta": "referente: Bert Verriet — ruolo: gedelegeerd bestuurder (DA CONFERMARE quale dei due amministratori sia il delegato)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Dolfin SA",
+  "campo": "referente",
+  "gravita": "media",
+  "valore_attuale": "",
+  "problema": "Referente e ruolo vuoti ed email 'n.d.'. Le fonti pubbliche indicano Jean-Jacques de Gruben come proprietario e Directeur General di Dolfin SA (ha rilevato la cioccolateria nel 2007 insieme a Gilles van der Meerschen).",
+  "evidenza": "Frammento: \"En 2007, Jean-Jacques de Gruben a repris les renes de la Chocolaterie Dolfin\" (https://www.dolfin.be/en/who-are-we/); \"Jean-Jacques de Gruben is the Directeur General of DOLFIN SA\"",
+  "correzione_proposta": "referente: Jean-Jacques de Gruben — ruolo: Administrateur delegue / Directeur general (DA CONFERMARE il titolo statutario su KBO)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "La Chocolaterie Galler SA",
+  "campo": "referente",
+  "gravita": "media",
+  "valore_attuale": "",
+  "problema": "Referente, ruolo, LinkedIn ed email tutti vuoti/'n.d.': il lead non e' contattabile. Dalle cronache dell'operazione 2026 emerge Sebastien Desclee, CEO ad interim di Chocolaterie Galler e ora anche fra gli azionisti della nuova societa'. DA CONFERMARE il titolo statutario dopo la ristrutturazione.",
+  "evidenza": "Frammento: \"Le consortium d'actionnaires est compose de la chocolaterie Dolfin, de Wallonie Entreprendre (WE), d'un groupe d'investisseurs prives et de Sebastien Desclee, CEO ad interim de la Chocolaterie Galler\" — https://www.qu4tre.be/infos/economie/des-actionnaires-wallons-reprennent-la-chocolate",
+  "correzione_proposta": "referente: Sebastien Desclee — ruolo: CEO (ad interim) / administrateur delegue (DA CONFERMARE)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Voeders Mellaerts NV",
+  "campo": "referente",
+  "gravita": "media",
+  "valore_attuale": "",
+  "problema": "Referente e ruolo assenti mentre il vertice e' pubblicamente identificabile: Dirk Mellaerts e' bestuurder della NV (entrato in azienda nel 1978 dopo il servizio militare, subentrato al fondatore Alfons Mellaerts); risulta anche Bart Webers come vaste vertegenwoordiger. Da riportare la forma belga corretta (gedelegeerd bestuurder / bestuurder).",
+  "evidenza": "https://voedersmellaerts.eu/nl/about-us/historique/ e https://www.staatsbladmonitor.be/bedrijfsfiche.html?ondernemingsnummer=0455669079 — «Dirk Mellaerts, bestuurder; Bart Webers, vaste vertegenwoordiger»; «na zijn legerdienst in 1978 kwam Dirk Mellaerts in het familiebedrijf»",
+  "correzione_proposta": "Dirk Mellaerts — Gedelegeerd bestuurder (DA CONFERMARE la qualifica esatta sul deposito bestuurders NBB/KBO)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Sopraco NV",
+  "campo": "referente",
+  "gravita": "media",
+  "valore_attuale": "",
+  "problema": "Referente e ruolo assenti; il campo LinkedIn e' vuoto benche' la pagina aziendale esista (Sopraco Groep). Nessun gedelegeerd bestuurder della NV emerge dalle fonti gratuite: DA CONFERMARE su NBB/KBO. L'e-mail info@sopraco.eu e il sito sopraco.eu risultano invece corretti.",
+  "evidenza": "https://be.linkedin.com/company/sopraco-nv — pagina «Sopraco Groep»; https://www.sopraco.eu/ — nessun nome di vertice pubblicato",
+  "correzione_proposta": "LinkedIn: https://be.linkedin.com/company/sopraco-nv ; referente DA CONFERMARE"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Skagerak Denmark A/S",
+  "campo": "referente",
+  "gravita": "alta",
+  "valore_attuale": "Josef Theodor Kaiser",
+  "problema": "Referente errato e legame di gruppo non dichiarato: Skagerak Denmark A/S e' stata acquisita da Fritz Hansen A/S nel dicembre 2021 ed e' oggi il marchio 'Skagerak by Fritz Hansen'. Josef Theodor Kaiser indicato come referente e' (era) l'amministratore delegato della capogruppo Fritz Hansen, non il vertice della controllata (all'atto della cessione l'ad di Skagerak era Jesper Panduro). Il campo dime",
+  "evidenza": "https://www.dezeen.com/2021/12/15/fritz-hansen-acquires-skagerak/ ; https://www.hjulmandkaptain.dk/english/news/hjulmandkaptain-has-advised-the-owners-of-skagerak-denmark-on-the-sale-to-fritz-hansen/ - 'Fritz Hansen CEO Josef Kaiser ... Skagerak CEO Jesper Panduro'",
+  "correzione_proposta": "Dichiarare: controllata di Fritz Hansen A/S dal dicembre 2021; referente da riverificare presso la controllata (non l'ad di gruppo)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Pyroll Pakkaukset Oy",
+  "campo": "referente",
+  "gravita": "media",
+  "valore_attuale": "Marko Penttinen",
+  "problema": "Marko Penttinen e' toimitusjohtaja di Pyroll Pakkaukset GROUP Oy (la capogruppo, dall'8.4.2024), non necessariamente della singola entita' Pyroll Pakkaukset Oy: il referente indicato e' l'amministratore della capogruppo. Inoltre il gruppo Pyroll e' partecipato dal fondo di private equity finlandese MB Rahastot, circostanza non dichiarata; la decisione EUDR si prende a livello di gruppo (~67-70 M€,",
+  "evidenza": "https://www.mbrahastot.fi/tiedote/2024/03/pyroll-pakkaukset-group-oyn-uudeksi-toimitusjohtajaksi-marko-penttinen/ - 'Pyroll Pakkaukset Group Oy:n uudeksi toimitusjohtajaksi Marko Penttinen'; https://pyroll.com/marko-penttinen-pyroll-pakkaukset-groupin-toimitusjohtajaksi/",
+  "correzione_proposta": "DA CONFERMARE il toimitusjohtaja della singola entita' Pyroll Pakkaukset Oy; precisare che la capogruppo Pyroll Pakkaukset Group Oy e' partecipata dal fondo MB Rahastot"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Cafetoria Roastery Oy",
+  "campo": "ruolo",
+  "gravita": "bassa",
+  "valore_attuale": "Perustaja",
+  "problema": "Il ruolo indicato e' 'Perustaja' (fondatore), che non e' una carica sociale: le fonti confermano Ivan Ore come imprenditore/fondatore della societa' costituita nel 2012 con la moglie, ma non e' stato possibile riscontrare in una fonte pubblica la carica formale di toimitusjohtaja.",
+  "evidenza": "https://www.yrittajat.fi/uutiset/vuoden-maahan-muuttanut-yrittaja-ivan-ore-vaihtoi-alaa-nokian-insinoorista-kahvin-paahtajaksi/ - 'perustivat Cafetoria Roastery Oy:n vuonna 2012'; asiakastieto non espone il toimitusjohtaja nei frammenti",
+  "correzione_proposta": "DA CONFERMARE: Toimitusjohtaja (CEO) / Perustaja"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Lindner Kartonagen GmbH",
+  "campo": "referente",
+  "gravita": "media",
+  "valore_attuale": "Jutta Summann, Emanuel Dick",
+  "problema": "Il secondo referente 'Emanuel Dick' non trova riscontro in nessuna fonte pubblica. Le fonti aziendali e i portali indicano come titolari/Geschaeftsfuehrer Jutta Summann e Johannes Kunze (subentrati nel 2002). DA CONFERMARE sull'Impressum.",
+  "evidenza": "wer-zu-wem.de / lindner-kartonagen.de: «Das Unternehmen wurde 1957 als Walter Lindner Kartonagen in Espelkamp gegruendet, 1969 nach Diepenau verlegt und 2002 an Jutta Summann und Johannes Kunze uebergeben» — https://www.wer-zu-wem.de/firma/lindner-kartonagen.html",
+  "correzione_proposta": "Jutta Summann, Johannes Kunze (Geschaeftsfuehrer) — da riconfermare su https://lindner-kartonagen.de/impressum/"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Gebr. Westhoff GmbH & Co. KG",
+  "campo": "referente",
+  "gravita": "bassa",
+  "valore_attuale": "Max J.W. Ültzen",
+  "problema": "Max J.W. Ueltzen e' confermato Geschaeftsfuehrer, ma dal 2019 la Geschaeftsfuehrung e' condivisa con Werner Schulte. Informazione da completare per non contattare un solo vertice.",
+  "evidenza": "Lebensmittelpraxis.de 17/04/2019 «Gebr. Westhoff - Werner Schulte neuer Geschaeftsfuehrer» — https://lebensmittelpraxis.de/industrie-aktuell/24407-gebr-westhoff-werner-schulte-neuer-geschaeftsfuehrer-2019-04-17-08-17-56.html",
+  "correzione_proposta": "Max J.W. Ueltzen, Werner Schulte (Geschaeftsfuehrer) — da riconfermare su Impressum westhoff.de"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "HCS Hamburg Cocoa Services GmbH",
+  "campo": "referente",
+  "gravita": "alta",
+  "valore_attuale": "Edmund Agyapong-Poku",
+  "problema": "Referente non attuale: l'ultima iscrizione registrale (21.02.2025) nomina Geschäftsführer con firma individuale Nathaniel Durant (Maplewood, USA, nato 08.02.1970). Edmund Agyapong-Poku compare solo in fonti anteriori. La nomina di un GF residente negli USA suggerisce inoltre un controllo estero non dichiarato: da verificare la compagine sociale.",
+  "evidenza": "Handelsregister AG Hamburg HRB 89478, iscrizione 21.02.2025: «Nathaniel Durant, Maplewood, Vereinigte Staaten, geb. 08.02.1970, Geschäftsführer, einzelvertretungsberechtigt» (webvalid.de / unternehmen24.info)",
+  "correzione_proposta": "Nathaniel Durant (Geschäftsführer dal 21.02.2025) — da riconfermare"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Effbe GmbH",
+  "campo": "referente",
+  "gravita": "alta",
+  "valore_attuale": "Franz Josef Wolf",
+  "problema": "Referente non attuale. Franz Josef Wolf è il fondatore/proprietario della capogruppo Woco, non l'attuale Geschäftsführer della EFFBE GmbH: risulta cessato dalla carica nel 2022. La società è oggi guidata da 3 Geschäftsführer (tra cui Joachim Hans Geimer e Michael Borbe) più 1 Prokurist.",
+  "evidenza": "https://www.companyhouse.de/en/EFFBE-GmbH-Bad-Soden-Salmuenster — 'currently run by 4 managers (1 Prokurist, 3 Geschäftsführer)… Geschäftsführer Joachim Hans Geimer (Gelnhausen)'; registro: Franz Josef Wolf cessato 2022",
+  "correzione_proposta": "Joachim Hans Geimer, Geschäftsführer (da confermare l'elenco completo sull'Impressum https://www.effbe.de/impressum/impressum.html)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "C.I.M.A. Srl (Compensati Impiallacciature Materiali Affini)",
+  "campo": "referente",
+  "gravita": "media",
+  "valore_attuale": "",
+  "problema": "Referente e ruolo assenti: dalle fonti camerali risulta Alessandro Dal Soglio come Presidente.",
+  "evidenza": "Frammento reportaziende/ufficiocamerale su P.IVA 00227040284: 'Key Contact: Alessandro Dal Soglio (President)'",
+  "correzione_proposta": "Alessandro Dal Soglio — Presidente (DA CONFERMARE su visura)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Nord Legnami Group Srl",
+  "campo": "referente",
+  "gravita": "media",
+  "valore_attuale": "",
+  "problema": "Referente e ruolo assenti: risulta amministratore delegato Marica Emilia Benedetto.",
+  "evidenza": "Frammento su P.IVA 06812230016 (ufficiocamerale/visurissima): 'Un amministratore delegato e' Marica Emilia Benedetto'",
+  "correzione_proposta": "Marica Emilia Benedetto — Amministratore Delegato (DA CONFERMARE su visura)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Original Parquet SpA",
+  "campo": "referente",
+  "gravita": "media",
+  "valore_attuale": "",
+  "problema": "Referente e ruolo assenti: nelle fonti di stampa locale il vertice/titolare indicato e' Giovanni Ballardini.",
+  "evidenza": "https://www.inmagazineromagna.it/original-parquet/ (Giovanni Ballardini, titolare di Original Parquet)",
+  "correzione_proposta": "Giovanni Ballardini — Titolare/Presidente (ruolo esatto DA CONFERMARE su visura)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Segheria Saccavini Srl",
+  "campo": "referente",
+  "gravita": "media",
+  "valore_attuale": "",
+  "problema": "Referente e ruolo assenti: risulta Nella De Sabbata come Presidente della societa'.",
+  "evidenza": "Frammento ZoomInfo/legno.cc su Saccavini S.r.l. Premariacco: 'Nella De Sabbata is the Presidente (President) of the company'",
+  "correzione_proposta": "Nella De Sabbata — Presidente (DA CONFERMARE su visura)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Bartoli S.p.A.",
+  "campo": "referente",
+  "gravita": "media",
+  "valore_attuale": "",
+  "problema": "Referente e ruolo assenti: il legale rappresentante indicato dalle fonti e' Giorgio Giovanni Bartoli.",
+  "evidenza": "https://www.luccaimprese.it/imprese/bartoli-spa e https://www.dnb.com/business-directory/company-profiles.bartoli_spa.d87e01b4d7329d49978e25034bccb739.html 'key principal / legale rappresentante: Giorgio Giovanni Bartoli'",
+  "correzione_proposta": "Giorgio Giovanni Bartoli — Presidente/Legale rappresentante (ruolo esatto DA CONFERMARE su visura)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Cartonificio Sandreschi S.r.l.",
+  "campo": "referente",
+  "gravita": "media",
+  "valore_attuale": "",
+  "problema": "Referente e ruolo assenti. Il legale rappresentante e Ernesto Sandreschi (azienda familiare iscritta dal 01/02/1963). Forma giuridica S.R.L. verificata e corretta e fatturato del foglio confermato: 14.087.375 EUR nel 2024, utile 55.309 EUR, P.IVA 00132980467.",
+  "evidenza": "https://www.reportaziende.it/cartonificio_sandreschi_srl_lu — 'rappresentante legale Ernesto Sandreschi'; https://www.fatturatoitalia.it/cartonificio-sandreschi-srl-00132980467 — 'nel 2024 fatturato 14.087.375 EUR, utile 55.309 EUR'",
+  "correzione_proposta": "Referente: Ernesto Sandreschi — Ruolo: Legale rappresentante (qualifica esatta — Amministratore Unico o Presidente — da confermare in visura)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Cesare Trucillo S.p.A. (Caffè Trucillo)",
+  "campo": "referente",
+  "gravita": "media",
+  "valore_attuale": "",
+  "problema": "Referente assente e ad alto rischio di errore: la denominazione sociale porta il nome 'Cesare Trucillo', ma Cesare Trucillo e la quarta generazione che segue brand e sviluppo, mentre l'Amministratore Delegato e il padre Matteo Trucillo. Chi compilasse il referente dal nome della societa sbaglierebbe persona. Forma giuridica S.p.A. verificata e corretta (P.IVA 00181880659).",
+  "evidenza": "https://www.quotidiano.net/economia/made-in-italy/il-caffe-salernitano-ora-sbarca-b288be41 — 'Cesare Trucillo guida i processi di consolidamento ed espansione del brand nell'azienda di famiglia, mentre il padre Matteo e amministratore delegato'",
+  "correzione_proposta": "Referente: Matteo Trucillo — Ruolo: Amministratore Delegato (da riconfermare in visura)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Domori S.p.A.",
+  "campo": "referente",
+  "gravita": "media",
+  "valore_attuale": "",
+  "problema": "Referente e ruolo assenti. L'AD in carica è Giacomo Biviano, nominato dal CdA in sostituzione di Janluca de Waijer (in carica 16 mesi). Attenzione: Domori ha avuto cinque AD in tre anni, quindi il dato va riconfermato prima del contatto. Riccardo Illy è presidente della controllante Polo del Gusto.",
+  "evidenza": "https://www.alimentando.info/riccardo-illy-polo-del-gusto-domori-cinque-ad-in-tre-anni-ma-ora-siamo-sereni/ ; https://www.comunicaffe.it/riccardo-illy-presidente-del-polo-del-gusto-fa-il-bilancio/",
+  "correzione_proposta": "referente: Giacomo Biviano — ruolo: Amministratore Delegato (DA RICONFERMARE: forte turnover; presidente capogruppo Polo del Gusto: Riccardo Illy)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Majani 1796 S.p.A.",
+  "campo": "referente",
+  "gravita": "media",
+  "valore_attuale": "",
+  "problema": "Referente e ruolo assenti. L'azienda è guidata da Francesco Mezzadri Majani (settima generazione della famiglia).",
+  "evidenza": "https://www.comunicaffe.it/cioccolata-majani-1796-storia-lunga-220-anni/ — «guidata da Francesco Mezzadri Majani»; https://it.wikipedia.org/wiki/Majani",
+  "correzione_proposta": "referente: Francesco Mezzadri Majani — ruolo: Amministratore Delegato / titolare (DA CONFERMARE la carica esatta da visura)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Insit Industria S.p.A.",
+  "campo": "referente",
+  "gravita": "media",
+  "valore_attuale": "",
+  "problema": "Referente e ruolo assenti. Societa familiare Debenedetti: risulta Presidente Guglielmo Debenedetti; Anna Debenedetti figura come titolare/General Manager. DA CONFERMARE in visura quale sia il legale rappresentante attuale.",
+  "evidenza": "https://atoka.io/public/it/azienda/insit-industria-societa-per-azioni/5864125aa840 - \"Guglielmo Debenedetti - Presidente\"; https://www.linkedin.com/in/anna-debenedetti-10427b35/ - \"Anna DEBENEDETTI - INSIT INDUSTRIA SPA\"",
+  "correzione_proposta": "Guglielmo Debenedetti - Presidente (DA CONFERMARE in visura; Anna Debenedetti titolare/General Manager)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Lecont S.r.l.",
+  "campo": "referente",
+  "gravita": "media",
+  "valore_attuale": "",
+  "problema": "Referente e ruolo assenti. Azienda familiare fondata nel 1994 dai fratelli Valter e Sergio Cont, tuttora alla guida. DA CONFERMARE in visura chi dei due sia l'amministratore unico/legale rappresentante.",
+  "evidenza": "https://www.lecont.com/storia/ - \"nei primi giorni del 1994 ... i fratelli Valter e Sergio Cont decidono di trasformare la loro passione per il mondo del kart in un vero e proprio lavoro\"",
+  "correzione_proposta": "Valter Cont (o Sergio Cont) - Fondatore / Amministratore (DA CONFERMARE in visura)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Cortal Extrasoy S.p.A.",
+  "campo": "referente",
+  "gravita": "media",
+  "valore_attuale": "",
+  "problema": "Referente e ruolo assenti. Dalle fonti risultano Loris Cortese come Amministratore Delegato e Gianpietro Didone' come Presidente (Francesco Didone' co-owner). DA CONFERMARE in visura, la fonte e un aggregatore di organigrammi.",
+  "evidenza": "https://rocketreach.co/cortal-extrasoy-management_b41eb7d3ff779d02 - \"Loris Cortese - Amministratore Delegato; Gianpietro Didone' - Presidente; Francesco Didone' - Co-Owner\"",
+  "correzione_proposta": "Loris Cortese - Amministratore Delegato (in alternativa Gianpietro Didone' - Presidente) - DA CONFERMARE in visura"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Ascot Amsterdam B.V.",
+  "campo": "referente",
+  "gravita": "media",
+  "valore_attuale": "",
+  "problema": "Referente e ruolo assenti: risulta pubblicamente Merijn Bruinse come Managing Director di Ascot Amsterdam B.V.",
+  "evidenza": "https://rocketreach.co/merijn-bruinse-email_50707800 - 'Merijn Bruinse ... Ascot Amsterdam BV Managing Director'",
+  "correzione_proposta": "Merijn Bruinse - Managing Director (da riconfermare su fonte KVK)"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "De Groot Drukkerij B.V.",
+  "campo": "referente",
+  "gravita": "alta",
+  "valore_attuale": "Anton de Groot",
+  "problema": "Referente non più attuale. Anton de Groot non è l'attuale vertice: dal settembre 2024 l'azienda è guidata da Wim Everts come algemeen directeur (fonte di settore, ottobre 2025).",
+  "evidenza": "https://www.printmedianieuws.nl/2025/10/grootsgedrukt-nl-goudriaan-vol-ijverige-aandacht/ — frammento: 'Wim Everts has led the family business since September of last year as general director'",
+  "correzione_proposta": "Wim Everts — Algemeen directeur (DA CONFERMARE su fonte primaria)"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Rousseau Chocolade B.V.",
+  "campo": "referente",
+  "gravita": "media",
+  "valore_attuale": "",
+  "problema": "Campo referente/ruolo vuoto: le fonti pubbliche indicano Paul Diepstraten come directeur di Rousseau Chocolade B.V. (tel. 046 45 19 282). DA CONFERMARE come directeur statutario KVK 14002870.",
+  "evidenza": "https://www.nfv.nl/formule/rousseau-chocolade-b-v/ e https://www.goudengids.nl/nl/bedrijf/Sittard/L119985201/Rousseau+Chocolade/ - 'Directeur: Paul Diepstraten, 046 - 45 19 282'",
+  "correzione_proposta": "Paul Diepstraten - Directeur (DA CONFERMARE su KVK)"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Van Kooten Vleesgroothandel B.V.",
+  "campo": "referente",
+  "gravita": "media",
+  "valore_attuale": "",
+  "problema": "Referente e ruolo vuoti pur essendo reperibili: la vleesgroothandel e' stata rilevata nel giugno 2012 dai figli Wilco e Gerwin van Kooten. Il directeur statutario iscritto dal 2022 e' una persona giuridica, Tweemo B.V., che e' pero' il veicolo di proprieta' della famiglia (non un controllo di terzi).",
+  "evidenza": "https://companyinfo.nl/organisatieprofiel/groothandel-in-vlees-en-vleesproducten/van-kooten-vleesgroothandel-b-v-montfoort-30112737-000018814379 - \"Tweemo B.V. is listed as owner/director from 2022\"; https://vankootenvlees.nl/ - \"opgericht in 1993 ... zonen Wilco en Gerwin namen het bedrijf in juni ",
+  "correzione_proposta": "Wilco van Kooten e Gerwin van Kooten - Directeuren / eigenaren (DA CONFERMARE quale dei due come referente unico)"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Lars Carlsson Trävaru Aktiebolag",
+  "campo": "referente",
+  "gravita": "media",
+  "valore_attuale": "",
+  "problema": "Referente e ruolo assenti: il record non è contattabile a livello nominativo. Allabolag indica Anders Carlsson come styrelseordförande e Olof Carlsson come styrelseledamot; non risulta un VD registrato distinto. Dati dimensionali confermati (70 552 KSEK = 70,6 MSEK ≈ 6,2 M€, +15,6%, 14 dipendenti, 2024): conversione KSEK corretta.",
+  "evidenza": "https://www.allabolag.se/foretag/lars-carlsson-tr%C3%A4varu-aktiebolag/%C3%A4lmeboda/s%C3%A5gverk/2JYU2DYI5YHTM — «14 employees ... omsättning of 70,552 KSEK during 2024 ... Anders Carlsson as chairman and Olof Carlsson as board member»",
+  "correzione_proposta": "Anders Carlsson – styrelseordförande (DA CONFERMARE l'esistenza di un VD)"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Lykke Coffee Farms AB",
+  "campo": "referente",
+  "gravita": "media",
+  "valore_attuale": "",
+  "problema": "Referente e ruolo vuoti: il lead non ha interlocutore. Nel registro non risulta un VD nominato; la carica di vertice e' il presidente/fondatore Johan Wellander (ordforande & grundare), con Pontus Wretman come COO. Da valutare come referente in assenza di VD.",
+  "evidenza": "https://www.allabolag.se/foretag/lykke-coffee-farms-ab/farsta/jordbruk/2K2TVQFI63IHJ - 'Johan Wellander ordforande och styrelseledamot'; https://www.linkedin.com/in/johan-wellander-55046745/ - 'Ordforande & Grundare - LYKKE KAFFEGARDAR'",
+  "correzione_proposta": "Johan Wellander - Ordforande/grundare (nessun VD registrato); in alternativa Pontus Wretman, COO."
+ }
+]

@@ -25,7 +25,7 @@
  },
  {
   "denominazione": "Baeten & Co NV",
-  "filiera": "Olio di palma — raffinazione oli e grassi vegetali/animali",
+  "filiera": "Olio di palma + Bovini — raffinazione di grassi animali (sego bovino/suino) e oli vegetali (palma, cocco, mais): doppia esposizione EUDR",
   "sede": "Berlare (Overmere, Oost-Vlaanderen)",
   "sito": "https://baetennv.be/",
   "email": "info@baetennv.be",
@@ -36,7 +36,7 @@
   "fonte": "https://www.companyweb.be/en/0447081908/baeten-co"
  },
  {
-  "denominazione": "Hexpol Compounding BV",
+  "denominazione": "Hexpol Compounding SRL",
   "filiera": "Gomma — mescole di gomma (rubber compounding)",
   "sede": "Eupen (Liège, Wallonie – Ostbelgien)",
   "sito": "https://www.hexpol.com/rubber/plant-locations/hexpol-compounding-sprl/",
@@ -89,15 +89,15 @@
   "sede": "Tielt-Winge (Sint-Joris-Winge, Vlaams-Brabant)",
   "sito": "https://voedersmellaerts.eu/",
   "email": "order@voedersmellaerts.eu",
-  "referente": "",
-  "ruolo": "",
+  "referente": "Dirk Mellaerts",
+  "ruolo": "Bestuurder",
   "linkedin": "https://be.linkedin.com/company/voeders-mellaerts",
   "dimensione": "Fatturato 33.531.211 EUR (Trends Top/NBB, ultimo esercizio pubblicato); 11,5 FTE — taglia gonfiata dal costo materia prima; n. impresa BE 0455.669.079",
   "fonte": "https://trendstop.knack.be/nl/detail/455669079/voeders-mellaerts.aspx"
  },
  {
   "denominazione": "Vanrobaeys Granen & Zaden NV",
-  "filiera": "Mangimi/Soia — granaglie e semi per mangimi",
+  "filiera": "Mangimi/Soia — mangimi per colombi (duivenvoer) a base di granaglie, semi e soia tostata",
   "sede": "Menen-Rekkem (West-Vlaanderen)",
   "sito": "https://www.vanrobaeysbelgium.com/",
   "email": "info@vanrobaeysbelgium.com",

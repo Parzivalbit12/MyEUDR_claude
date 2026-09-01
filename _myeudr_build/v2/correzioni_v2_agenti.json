@@ -1,0 +1,112 @@
+[
+ {
+  "foglio": "Belgio",
+  "denominazione": "Bruyerre Chocolates SA",
+  "motivo": "Esiste una pagina LinkedIn dedicata /company/bruyerre-chocolates, distinta da /company/bruyerre (marchio): e' quella che corrisponde all'entita' BE 0688.794.525, stessa sede di Gosselies.",
+  "fonte": "https://be.linkedin.com/company/bruyerre-chocolates — Bruyerre Chocolates | LinkedIn — Bruyerre Chocolates, Food and Beverage Manufacturing, Gosselies, Hainaut; Rue Francois Leon Bruyerre 38, 6041 Gosselies. Companyweb: 'Bruyerre Chocolates (SA) - Charle",
+  "gravita": "",
+  "origine": "out_B_contatti.json",
+  "campo": "linkedin",
+  "da": "",
+  "a": "https://be.linkedin.com/company/bruyerre-chocolates"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Akonkosken Saha Oy",
+  "motivo": "Due ricerche indipendenti (Finder e Fonecta/asiakastieto) riportano il dominio di posta netikka.fi; l'indirizzo su dominio proprio non e' mai comparso alla lettera. Confermata la correzione proposta.",
+  "fonte": "https://www.finder.fi/Puutavara/Akonkosken+saha+Oy/T%C3%B6ys%C3%A4/yhteystiedot/124414 — Email: akonkoskensaha@netikka.fi — Address: Ahtarintie 23, 63600 Toysa — Website: www.akonkoskensaha.fi",
+  "gravita": "",
+  "origine": "out_B_contatti.json",
+  "campo": "email",
+  "da": "akonkoskensaha@akonkoskensaha.fi",
+  "a": "akonkoskensaha@netikka.fi"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Brunberg Oy",
+  "motivo": "Entrambi gli indirizzi compaiono alla lettera sulla pagina contatti ufficiale; si adotta tilaukset@brunberg.fi (canale commerciale), alternativa generale postmaster@brunberg.fi.",
+  "fonte": "https://brunberg.fi/en/contact-information/ — Brunberg Oy - Yhteystiedot: General inquiries: postmaster@brunberg.fi; Orders: tilaukset@brunberg.fi; Veckjarventie 6, 06150 Porvoo; asiakaspalvelu (019) 548 42 00",
+  "gravita": "",
+  "origine": "out_B_contatti.json",
+  "campo": "email",
+  "da": "n.d.",
+  "a": "tilaukset@brunberg.fi"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Zalf S.p.A. (Zalf Industria Mobili Componibili)",
+  "motivo": "Indirizzo pubblicato nell'annuario dell'associazione di categoria (FederlegnoArredo): sostituisce il 'n.d.'. Siti coerenti: www.zalf.com (marchio) e www.gruppoeuromobil.com (gruppo).",
+  "fonte": "https://vetrina.federlegnoarredo.it/it/aziende-associate/zalf-spa-ind--mobili-componibili/1819046388 — Vetrina FederlegnoArredo, scheda 'Zalf Industria Mobili Componibili spa': Via Marosticana 9, 31010 Maser (TV) — Tel. +39 0423 9255 — Fax +39 0423 565866 — email zalfcen@zalf.com — sito www.gruppoeurom",
+  "gravita": "",
+  "origine": "out_B_contatti.json",
+  "campo": "email",
+  "da": "n.d.",
+  "a": "zalfcen@zalf.com"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Bannink Packaging B.V.",
+  "motivo": "Indirizzo generale confermato da piu' directory olandesi; sostituisce il 'n.d.' del foglio.",
+  "fonte": "https://www.cylex.nl/bedrijf/bannink-golfkarton-10687870.html — Bannink Golfkarton, Vosmatenweg 1 / Postbus 124, NL-7740 AC Coevorden — Phone +31 (0) 524 599 599 — Email: info at bannink.nl — Website: www.bannink.nl",
+  "gravita": "",
+  "origine": "out_B_contatti.json",
+  "campo": "email",
+  "da": "n.d.",
+  "a": "info@bannink.nl"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Snel Industrie voor Karton en Papierveredeling B.V.",
+  "motivo": "Dominio snelbv.nl confermato da Kompass, Bloomberg e PitchBook; esiste anche la pagina LinkedIn 'Snel BV'.",
+  "fonte": "https://nl.kompass.com/c/snel-industrie-voor-karton-en-papierveredeling-b-v/nl135304/ — Snel Industrie Voor Karton En Papierveredeling B.V. — 'Their website is www.snelbv.nl'; contract manufacturer for the cardboard packaging industry, headquartered in Huissen/Bemmel",
+  "gravita": "",
+  "origine": "out_B_contatti.json",
+  "campo": "sito",
+  "da": "",
+  "a": "https://www.snelbv.nl"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Ulrich Etiketten Gesellschaft m.b.H.",
+  "motivo": "L'Impressum (pagina legale obbligatoria) e' pubblicato su ulrich-etiketten.at: e' quello il dominio istituzionale. Resta NON confermata l'email ulrich@ulrich.at, mai ritrovata alla lettera.",
+  "fonte": "https://ulrich-etiketten.at/impressum — Risultato: 'Ulrich Etiketten und Verpackungen' — https://ulrich-etiketten.at/impressum; Impressum: Ulrich Etiketten GmbH, 1210 Wien, Tel. +43 (1) 2713940; Unternehmensgegenstand: Herstellung und Vertr",
+  "gravita": "",
+  "origine": "out_B_contatti.json",
+  "campo": "sito",
+  "da": "https://ulrich.at",
+  "a": "https://www.ulrich-etiketten.at"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Van De Walle SRL",
+  "motivo": "vdwgrossiste@skynet.be e' confermato alla lettera da due fonti indipendenti (annuario comunale di Les Bons Villers e Europages). info@vdw-grossisteenviande.be risulta associato ai domini aziendali ma non e' stato ritrovato citato alla lettera in una pagina consultabile: si adotta quindi l'indirizzo verificato.",
+  "fonte": "https://www.europages.fr/VAN-DE-WALLE/BEL107615-00101.html — Europages, scheda VAN DE WALLE (Wayaux, Les Bons Villers): 'Van De Walle SPRL, Rue de Gosselies, 30 - 6210 Wayaux, telephone 071/88 51 57, fax 071/88 51 59, email vdwgrossiste@skynet.be' — impresa fam",
+  "gravita": "",
+  "origine": "out_B_contatti.json",
+  "campo": "email",
+  "da": "info@vdw-grossisteenviande.be",
+  "a": "vdwgrossiste@skynet.be"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "ONECOLLECTION A/S (House of Finn Juhl)",
+  "motivo": "La scheda proff.dk con ID GQYY8HI016D e' quella riferita al CVR 29787786 con sede a Ringkobing; l'ID citato nel foglio (GXS757I015G) non compare in nessun risultato. Esistono altre schede proff per lo stesso CVR (0HQGEII0D03 e, per la sede di Kobenhavn K, GXKTTGI0D03).",
+  "fonte": "https://www.proff.dk/firma/onecollection-as/ringk%C3%B8bing/producenter/GQYY8HI016D — Risultato: 'ONECOLLECTION A/S - CVR-nr 29787786 - Ringkobing - Se Regnskaber, Roller og mere' -> https://www.proff.dk/firma/onecollection-as/ringkobing/producenter/GQYY8HI016D; scheda: Vesterled 18, 6",
+  "gravita": "",
+  "origine": "out_B_contatti.json",
+  "campo": "fonte",
+  "da": "https://www.proff.dk/firma/onecollection-as/ringk%C3%B8bing/m%C3%B8bler/GXS757I015G",
+  "a": "https://www.proff.dk/firma/onecollection-as/ringk%C3%B8bing/producenter/GQYY8HI016D"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Conceria Italia S.p.A.",
+  "motivo": "La pagina contatti del sito ufficiale ha effettivamente lo slug /nuova-pagina: l'URL /contatti non esiste. Confermata la correzione proposta.",
+  "fonte": "https://www.conceriaitalia.com/nuova-pagina — Risultato di ricerca: 'CONTATTI — Conceria Italia' -> https://www.conceriaitalia.com/nuova-pagina; scheda azienda: Via Europa 2/A - 36072 Chiampo (VI), tel. +39 0444 688033, info@conceriaitalia.com",
+  "gravita": "",
+  "origine": "out_B_contatti.json",
+  "campo": "fonte",
+  "da": "https://www.conceriaitalia.com/contatti",
+  "a": "https://www.conceriaitalia.com/nuova-pagina"
+ }
+]

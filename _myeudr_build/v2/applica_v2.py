@@ -33,11 +33,18 @@ def fold(x):
     x = re.sub(r"[^a-z0-9]", "", re.sub(r"\(.*?\)", "", x))
     return x.replace("oe","o").replace("ae","a").replace("ue","u")
 
-def match(a,b):
-    fa,fb = fold(a),fold(b)
-    if fa==fb: return True
-    if len(fa)>=12 and len(fb)>=12 and (fa.startswith(fb[:12]) or fb.startswith(fa[:12])): return True
-    return sorted(fa)==sorted(fb)
+def match(a, b, esatto=False):
+    """Confronto fra denominazioni.
+    Il ripiego fuzzy e' volutamente stretto: la vecchia regola 'primi 12 caratteri'
+    faceva collidere fra loro TUTTE le societa' svedesi che cominciano per
+    'Aktiebolaget' (sono sei nel foglio). Bug scoperto in v2 e intercettato dalla
+    guardia sul valore attuale."""
+    fa, fb = fold(a), fold(b)
+    if fa == fb: return True
+    if esatto: return False
+    corto, lungo = (fa, fb) if len(fa) <= len(fb) else (fb, fa)
+    if len(corto) >= 18 and lungo.startswith(corto): return True   # prefisso distintivo
+    return len(fa) >= 18 and sorted(fa) == sorted(fb)              # termini invertiti
 
 S = dict(app=0, salt=0, gia=0, nf=0)
 LOG = []
@@ -57,8 +64,26 @@ def applica_a_record(get, set_, c, sh):
     tocco = False
     for campo, val in campi_di(c):
         cur = get(campo); cur = "" if cur is None else str(cur).strip()
-        if val is None or not str(val).strip():         # regola 2: mai svuotare
+        val = "" if val is None else str(val)
+        if not val.strip():                       # regola 2: mai svuotare un campo
             continue
+
+        # __APPEND__ = aggiunge una clausola in coda invece di sostituire il campo.
+        # Non avendo una guardia "da", pretende un'ancora: un frammento che DEVE
+        # comparire nel valore attuale, cosi' la coda non puo' finire su un altro record.
+        if val.startswith("__APPEND__"):
+            coda = val[len("__APPEND__"):].strip()
+            anc = (c.get("ancora") or "").strip()
+            if not anc or anc.lower() not in cur.lower():
+                S["salt"] += 1
+                registra(sh, c["denominazione"], campo, cur, coda, c, "saltata_ancora")
+                print(f"  ~ {sh}/{c['denominazione'][:30]} {campo}: ancora «{anc[:34]}» assente — SALTATA")
+                continue
+            if coda.lower() in cur.lower():
+                S["gia"] += 1
+                registra(sh, c["denominazione"], campo, cur, coda, c, "gia_presente"); continue
+            val = (cur + " " + coda).strip() if cur and cur.lower() != "n.d." else coda
+
         if fold(cur) == fold(val):
             S["gia"] += 1; registra(sh, c["denominazione"], campo, cur, val, c, "gia_uguale"); continue
         atteso = c.get("da")
@@ -75,7 +100,8 @@ def applica_a_record(get, set_, c, sh):
 def main():
     from openpyxl import load_workbook
     C = []
-    for nome in ("correzioni_v2_generiche","correzioni_v2_referenti","correzioni_v2_manuali"):
+    for nome in ("correzioni_v2_generiche","correzioni_v2_referenti","correzioni_v2_manuali",
+                 "correzioni_v2_agenti","correzioni_v2_agenti_ref"):
         fp = os.path.join(HERE, nome + ".json")
         if os.path.exists(fp): C += json.load(open(fp, encoding="utf-8"))
     print(f"{len(C)} correzioni in tabella · target {os.path.basename(XLSX)}\n")
@@ -85,20 +111,33 @@ def main():
     for c in C:
         sh = c["foglio"]
         if sh in INPLACE: continue
-        trovato = False
+        cand = []
         for fp in sorted(glob.glob(os.path.join(BUILD, f"{PREFIX[sh]}_*.json"))):
             data = json.load(open(fp, encoding="utf-8"))
             for r in data:
-                if not match(r.get("denominazione"), c["denominazione"]): continue
-                trovato = True
-                if applica_a_record(lambda k: r.get(k), lambda k,v: r.__setitem__(k,v), c, sh):
-                    if not DRY:
-                        json.dump(data, open(fp,"w",encoding="utf-8"), ensure_ascii=False, indent=1)
-                    tocchi.add(sh)
-                break
-            if trovato: break
-        if not trovato:
-            S["nf"] += 1; print(f"  !! {sh}: «{c['denominazione']}» non trovata nei JSON")
+                if match(r.get("denominazione"), c["denominazione"], esatto=True):
+                    cand.append((fp, data, r, True))
+                elif match(r.get("denominazione"), c["denominazione"]):
+                    cand.append((fp, data, r, False))
+        esatti = [x for x in cand if x[3]] or cand      # l'esatto batte sempre il fuzzy
+        trovato = len(esatti) == 1
+        if len(esatti) > 1:
+            S["salt"] += 1
+            print(f"  ~ {sh}: «{c['denominazione']}» corrisponde a {len(esatti)} record — AMBIGUA, saltata")
+        elif trovato:
+            fp, data, r, _ = esatti[0]
+            if applica_a_record(lambda k: r.get(k), lambda k,v: r.__setitem__(k,v), c, sh):
+                if not DRY:
+                    json.dump(data, open(fp,"w",encoding="utf-8"), ensure_ascii=False, indent=1)
+                tocchi.add(sh)
+        if not trovato and len(esatti) <= 1:
+            if c.get("campo") == "denominazione" and any(
+                    match(r.get("denominazione"), c["a"], esatto=True)
+                    for fp in glob.glob(os.path.join(BUILD, f"{PREFIX[sh]}_*.json"))
+                    for r in json.load(open(fp, encoding="utf-8"))):
+                S["gia"] += 1; print(f"  = {sh}: «{c['denominazione']}» gia' rinominata")
+            else:
+                S["nf"] += 1; print(f"  !! {sh}: «{c['denominazione']}» non trovata nei JSON")
 
     for sh in sorted(tocchi):
         if DRY: print(f"  (dry-run) rigenererei {sh}"); continue
@@ -111,17 +150,28 @@ def main():
     for c in C:
         sh = c["foglio"]
         if sh not in INPLACE: continue
-        ws = wb[sh]; trovato = False
-        for row in range(3, ws.max_row+1):
-            den = ws.cell(row,1).value
-            if not den or not match(den, c["denominazione"]): continue
-            trovato = True
+        ws = wb[sh]
+        cand = [row for row in range(3, ws.max_row+1)
+                if ws.cell(row,1).value and match(ws.cell(row,1).value, c["denominazione"], esatto=True)]
+        if not cand:
+            cand = [row for row in range(3, ws.max_row+1)
+                    if ws.cell(row,1).value and match(ws.cell(row,1).value, c["denominazione"])]
+        trovato = len(cand) == 1
+        if len(cand) > 1:
+            S["salt"] += 1
+            print(f"  ~ {sh}: «{c['denominazione']}» corrisponde a {len(cand)} righe — AMBIGUA, saltata")
+        elif trovato:
+            row = cand[0]
             if applica_a_record(lambda k: ws.cell(row, COL[k]).value,
                                 lambda k,v: setattr(ws.cell(row, COL[k]), "value", v), c, sh):
                 changed = True
-            break
-        if not trovato:
-            S["nf"] += 1; print(f"  !! {sh}: «{c['denominazione']}» non trovata nel foglio")
+        if not trovato and len(cand) <= 1:
+            if c.get("campo") == "denominazione" and any(
+                    ws.cell(rr,1).value and match(ws.cell(rr,1).value, c["a"], esatto=True)
+                    for rr in range(3, ws.max_row+1)):
+                S["gia"] += 1; print(f"  = {sh}: «{c['denominazione']}» gia' rinominata")
+            else:
+                S["nf"] += 1; print(f"  !! {sh}: «{c['denominazione']}» non trovata nel foglio")
 
     # --- 3. ordine dei fogli + salvataggio ---
     if not DRY and (changed or tocchi):

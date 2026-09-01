@@ -1,0 +1,272 @@
+[
+ {
+  "foglio": "Belgio",
+  "denominazione": "Bulo NV",
+  "motivo": "Confermato Carlo Busschop come vertice attuale (terza generazione); il titolo statutario 'gedelegeerd bestuurder' non compare nelle fonti gratuite, si usa CEO/Managing Director. Dirk Busschop e' superato.",
+  "fonte": "https://bulo.com/nl/news/we-zijn-een-emotiebedrijf-en-onze-producten-moeten-dat-uitstralen/ — Bulo is based in Mechelen, Belgium and was founded by Walter Busschop in 1963, with Carlo Busschop being the current CEO and third generation of the family.",
+  "gravita": "",
+  "origine": "out_A_referenti.json",
+  "referente": "Carlo Busschop",
+  "ruolo": "CEO / Managing Director"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Confortluxe NV",
+  "motivo": "Tre ricerche non hanno isolato chi sia il gedelegeerd bestuurder: si conferma Jimmy Ollevier (figlio del fondatore Andre, deceduto 20.04.2021) come bestuurder in carica, ruolo prudenziale 'bestuurder'.",
+  "fonte": "https://fincheck.be/en/confortluxe/0412.863.078/Wervik/connections — The board members of Confortluxe are Jacqueline Pauwels, Jimmy Ollevier, and Heidi Ollevier.",
+  "gravita": "",
+  "origine": "out_A_referenti.json",
+  "referente": "Jimmy Ollevier",
+  "ruolo": "Bestuurder"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Bruyerre Chocolates SA",
+  "motivo": "Confermato che Marc Delsemme e' co-acquirente e dirigente dell'attivita' cioccolato confluita in Bruyerre Chocolates SA; il titolo esatto 'administrateur delegue' resta non riscontrato su fonte registrale.",
+  "fonte": "https://www.rtbf.be/article/gosselies-le-chocolat-bruyerre-passe-entre-les-mains-de-corne-1932-9825613 — In 2015, the company (Corne Food) was taken over by Marc Delsemme and Olivier de Macar. Three years after having purchased Corne 1932, Olivier de Macar and Marc Delsemme expanded by taking over the ch",
+  "gravita": "",
+  "origine": "out_A_referenti.json",
+  "referente": "Marc Delsemme",
+  "ruolo": "Amministratore / co-proprietario (titolo statutario non confermato)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Confiserie De Bie - L'Abeille - Trefin NV",
+  "motivo": "Il profilo LinkedIn indica Bert Verriet come CEO di Confiserie Trefin NV; Lisette Lerno risulta gedelegeerd bestuurder solo in una fonte 2014. Referente = Bert Verriet.",
+  "fonte": "https://be.linkedin.com/in/bert-verriet-10a44612 — Bert Verriet - CEO @ Confiserie Trefin NV",
+  "gravita": "",
+  "origine": "out_A_referenti.json",
+  "referente": "Bert Verriet",
+  "ruolo": "CEO"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Dolfin SA",
+  "motivo": "Confermato de Gruben come Directeur general/proprietario dal 2007; il titolo statutario esatto (administrateur delegue) non e' verificabile su fonte KBO gratuita.",
+  "fonte": "https://www.dolfin.be/en/who-are-we/ — Jean-Jacques de Gruben is the General Director of Dolfin SA. More recently, he acquired Dolfin in 2007",
+  "gravita": "",
+  "origine": "out_A_referenti.json",
+  "referente": "Jean-Jacques de Gruben",
+  "ruolo": "Directeur général (CEO)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "La Chocolaterie Galler SA",
+  "motivo": "Riserva sciolta: Desclee non e' piu' ad interim ma CEO a pieno titolo, e ha investito personalmente nel consorzio di ripresa 2026 (Dolfin azionista di maggioranza, Wallonie Entreprendre).",
+  "fonte": "https://www.galler.com/fr/news/changement-a-la-chocolaterie-sebastien-desclee/ — Sebastien Desclee was appointed as CEO ad interim starting November 18, 2025. He is now CEO of the company on a full-time basis.",
+  "gravita": "",
+  "origine": "out_A_referenti.json",
+  "referente": "Sebastien Desclee",
+  "ruolo": "CEO"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Voeders Mellaerts NV",
+  "motivo": "Confermato Dirk Mellaerts come bestuurder e vertice di fatto; la qualifica 'gedelegeerd bestuurder' non risulta da fonte pubblica, si mantiene 'bestuurder'. Bart Webers e' il genero (vaste vertegenwoordiger).",
+  "fonte": "https://www.made-in.be/vlaams-brabant/293977/ — Dirk Mellaerts is listed as a bestuurder (director/manager) at Voeders Mellaerts, and the veevoederbedrijf (animal feed company) is in the hands of Dirk Mellaerts, his wife Greta, and son-in-law Bart ",
+  "gravita": "",
+  "origine": "out_A_referenti.json",
+  "referente": "Dirk Mellaerts",
+  "ruolo": "Bestuurder"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Lindner Kartonagen GmbH",
+  "motivo": "Riserva sciolta: i Geschaeftsfuehrer sono Jutta Summann e Johannes Kunze. 'Emanuel Dick' non trova alcun riscontro in fonti pubbliche e va rimosso.",
+  "fonte": "https://www.wer-zu-wem.de/firma/lindner-kartonagen.html — Geschaeftsfuehrer: Jutta Summann and Johannes Kunze lead the company today. ... in 2002, it was handed over to Jutta Summann and Johannes Kunze. ... registered at the Walsrode District Court with regi",
+  "gravita": "",
+  "origine": "out_A_referenti.json",
+  "referente": "Jutta Summann, Johannes Kunze",
+  "ruolo": "Geschäftsführer"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Gebr. Westhoff GmbH & Co. KG",
+  "motivo": "L'Impressum attuale elenca tre Geschaeftsfuehrer: Max J.W. Ueltzen resta in carica, ma i colleghi attuali sono Christian Bruns e Pauline von Mettenheim, non Werner Schulte (nomina 2019 non piu' presente).",
+  "fonte": "https://www.westhoff.de/impressum — The company is represented by Geschaeftsfuehrer (managing directors) Christian Bruns, Pauline von Mettenheim, and Max J.W. Ueltzen, registered at Amtsgericht Bremen with registration number HRB 4460.",
+  "gravita": "",
+  "origine": "out_A_referenti.json",
+  "referente": "Max J.W. Ueltzen, Christian Bruns, Pauline von Mettenheim",
+  "ruolo": "Geschäftsführer"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "HCS Hamburg Cocoa Services GmbH",
+  "motivo": "Confermata l'iscrizione del 21.02.2025: Nathaniel Durant sostituisce Edmund Agyapong-Poku (Accra). Da segnalare che la societa' e' nell'orbita del gruppo ghanese Niche Cocoa (delibera 25.01.2021 di cambio denominazione in 'Niche Cocoa Services'): controllo estero non dichiarato.",
+  "fonte": "https://www.northdata.com/HCS%20Hamburg%20Cocoa%20Services%20GmbH,%20Hamburg/HRB%2089478 — a recent register announcement from February 21, 2025 shows that Nathaniel Durant from Maplewood, United States (born February 8, 1970) has been appointed as managing director (Geschaeftsfuehrer) with",
+  "gravita": "",
+  "origine": "out_A_referenti.json",
+  "referente": "Nathaniel Durant",
+  "ruolo": "Geschäftsführer (einzelvertretungsberechtigt)"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Effbe GmbH",
+  "motivo": "Riserva sciolta: Joachim Geimer e' Geschaeftsfuehrer (confermato anche da companyhouse: 3 Geschaeftsfuehrer + 1 Prokurist). L'Impressum elenca inoltre Michael Lorig, Benjamin Mueller e ancora Franz Josef Wolf (fondatore Woco, cessato dal registro nel 2022): non usare Wolf come referente operativo.",
+  "fonte": "https://www.effbe.de/impressum/impressum.html — According to EFFBE GmbH's Impressum (legal notice), Michael Lorig, Joachim Geimer, Franz Josef Wolf, and Benjamin Mueller are listed as management representatives.",
+  "gravita": "",
+  "origine": "out_A_referenti.json",
+  "referente": "Joachim Geimer",
+  "ruolo": "Geschäftsführer"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "C.I.M.A. S.r.l. (Compensati Impiallacciature Materiali Affini)",
+  "motivo": "Riserva sciolta: Alessandro Dal Soglio confermato Presidente di C.I.M.A. S.r.l. (P.IVA 00227040284, Limena PD).",
+  "fonte": "https://www.ufficiocamerale.it/4152/compensati-impiallacciature-materiali-affini-cima-srl-in-sigla-cima-srl — C.I.M.A. (Compensati Impiallacciature Materiali Affini) is located at Via Del Santo, 226 in Limena, Padova, Veneto ... Alessandro Dal Soglio serves as the company's President.",
+  "gravita": "",
+  "origine": "out_A_referenti.json",
+  "referente": "Alessandro Dal Soglio",
+  "ruolo": "Presidente"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Original Parquet S.p.A.",
+  "motivo": "Riserva sciolta sul ruolo: Giovanni Ballardini e' Direttore Generale (non Presidente); la presidenza e' del padre Roberto Ballardini. Giovanni resta il referente operativo corretto.",
+  "fonte": "https://www.ravennaedintorni.it/238/original-parquet-levoluzione-unimpresa-innovativa-fra-industria-4-0-mercati-globali-prodotti-ecosostenibili/ — Giovanni Ballardini is the general director (direttore generale) of Original Parquet, representing the third generation of a family of entrepreneurs ... and his father Roberto holds the role of presid",
+  "gravita": "",
+  "origine": "out_A_referenti.json",
+  "referente": "Giovanni Ballardini",
+  "ruolo": "Direttore Generale"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Segheria Saccavini S.r.l.",
+  "motivo": "Riserva sciolta: Nella De Sabbata confermata Presidente di Saccavini S.r.l. (Premariacco, UD).",
+  "fonte": "https://www.legno.cc/azienda-saccavini-premariacco-10740 — Saccavini S.r.l. is a sawmill and carpentry company ('segherie e falegnamerie') located at Via Arturo Malignani, 10 in Premariacco, Udine, in the Friuli-Venezia Giulia region. Nella De Sabbata is the ",
+  "gravita": "",
+  "origine": "out_A_referenti.json",
+  "referente": "Nella De Sabbata",
+  "ruolo": "Presidente"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Bartoli S.p.A.",
+  "motivo": "Riserva sciolta: Giorgio Giovanni Bartoli e' amministratore unico/presidente dal 1993 (e' stato anche presidente della CCIAA di Lucca).",
+  "fonte": "https://www.luccaimprese.it/imprese/bartoli-spa — Giorgio Bartoli, a third-generation entrepreneur, has been the sole administrator of Bartoli S.p.A. since 1993. Giorgio Giovanni Bartoli serves as President of the company, which is located at Travers",
+  "gravita": "",
+  "origine": "out_A_referenti.json",
+  "referente": "Giorgio Giovanni Bartoli",
+  "ruolo": "Presidente / Amministratore unico"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Cartonificio Sandreschi S.r.l.",
+  "motivo": "Riserva sciolta: la qualifica e' Presidente del CdA e legale rappresentante (non amministratore unico). Azienda storica Unioncamere, Villa Basilica (LU).",
+  "fonte": "https://it.linkedin.com/in/ernesto-sandreschi-4010b7216 — Ernesto Sandreschi is the president of the company, and he serves as the legal representative (Rappresentante Legale) of Cartonificio Sandreschi S.R.L. ... holds multiple positions including Chairman ",
+  "gravita": "",
+  "origine": "out_A_referenti.json",
+  "referente": "Ernesto Sandreschi",
+  "ruolo": "Presidente / Legale rappresentante"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Cesare Trucillo S.p.A. (Caffè Trucillo)",
+  "motivo": "Riserva sciolta: Matteo Trucillo (figlio del fondatore Cesare) e' presidente e AD; il figlio Cesare Trucillo, omonimo della ragione sociale, non e' il legale rappresentante.",
+  "fonte": "https://www.trucillo.it/trucillo/la-nostra-storia/ — Matteo Trucillo is the administrator of Cesare Trucillo SpA. More specifically, Matteo Trucillo is today president and amministratore delegato (CEO) of the company.",
+  "gravita": "",
+  "origine": "out_A_referenti.json",
+  "referente": "Matteo Trucillo",
+  "ruolo": "Presidente e Amministratore Delegato"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Domori S.p.A.",
+  "motivo": "Dato aggiornato al 29.05.2026: Giacomo Biviano non e' piu' AD (resta consigliere per Domori Professional); le deleghe di AD sono in capo a Riccardo Illy, presidente della controllante Polo del Gusto. Alberto Franzone e' Chief Transformation Officer.",
+  "fonte": "https://www.teleborsa.it/News/2026/05/29/domori-riccardo-illy-assume-le-deleghe-di-amministratore-delegato-151.html — In May 2026, the Board of Directors of Domori, a high-quality chocolate producer controlled by Polo del Gusto, appointed Riccardo Illy as Chief Executive Officer (Amministratore Delegato) in replaceme",
+  "gravita": "",
+  "origine": "out_A_referenti.json",
+  "referente": "Riccardo Illy",
+  "ruolo": "Amministratore Delegato"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Majani 1796 S.p.A.",
+  "motivo": "Riserva sciolta: carica esatta = Presidente, Amministratore Delegato e Direttore Generale di Majani 1796 SpA; controllante VMM Finanziaria SpA (100%).",
+  "fonte": "https://www.bbs.unibo.it/francesco-mezzadri-majani/ — Francesco Mezzadri Majani serves as President and CEO of VMM FINANZIARIA SpA (which owns 100% of Majani 1796 Spa) and as President, CEO, and General Director of Majani 1796 SpA.",
+  "gravita": "",
+  "origine": "out_A_referenti.json",
+  "referente": "Francesco Mezzadri Majani",
+  "ruolo": "Presidente e Amministratore Delegato"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Insit Industria S.p.A.",
+  "motivo": "Riserva sciolta: Guglielmo Debenedetti confermato Presidente. Anna Debenedetti resta un contatto secondario (LinkedIn Insit Industria SpA).",
+  "fonte": "https://atoka.io/public/it/azienda/insit-industria-societa-per-azioni/5864125aa840 — Guglielmo Debenedetti is the Presidente (President) of Insit Industria. The company's legal headquarters (sede legale) is located at Corso Generale Giuseppe Govone, 18, 10129, Torino (TO), with tax ID",
+  "gravita": "",
+  "origine": "out_A_referenti.json",
+  "referente": "Guglielmo Debenedetti",
+  "ruolo": "Presidente"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Cortal Extrasoy S.p.A.",
+  "motivo": "Riserva sciolta a favore del Presidente: il profilo LinkedIn personale conferma Gianpietro Didone' come Presidente di Cortal Extrasoy SpA (Cittadella, PD). Il ruolo di AD di Loris Cortese resta non confermato da fonte diretta.",
+  "fonte": "https://www.linkedin.com/in/gianpietro-didone-33784b68/ — Gianpietro Didone' - Presidente (imprenditore) - Cortal extrasoy Spa",
+  "gravita": "",
+  "origine": "out_A_referenti.json",
+  "referente": "Gianpietro Didoné",
+  "ruolo": "Presidente"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Ascot Amsterdam B.V.",
+  "motivo": "Riserva sciolta: due fonti indipendenti (RocketReach e il profilo cocoa CONNECT / KIT-IPP) indicano Merijn Bruinse come Managing Director di Ascot Amsterdam B.V. (societa' di trading cacao, costituita 2012, Weteringschans 26 Amsterdam).",
+  "fonte": "https://rocketreach.co/merijn-bruinse-email_50707800 — Merijn Bruinse, based in Amsterdam, is currently a Managing Director at Ascot Amsterdam BV. He brings experience from previous roles at Tradin Organic Agriculture B.V., Continaf BV, Rabobank Internati",
+  "gravita": "",
+  "origine": "out_A_referenti.json",
+  "referente": "Merijn Bruinse",
+  "ruolo": "Managing Director"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "De Groot Drukkerij B.V.",
+  "motivo": "Riserva sciolta: Wim Everts e' l'algemeen directeur di De Groot Drukkerij (Goudriaan), oggi operante come 'De Groot - grootsgedrukt.nl'. Anton de Groot non e' piu' il vertice.",
+  "fonte": "https://www.printmedianieuws.nl/2025/10/grootsgedrukt-nl-goudriaan-vol-ijverige-aandacht/ — De Groot Drukkerij in Goudriaan appointed a new director, Wim Everts (44) from IJsselmuiden ... Wim Everts Msc, from the automation industry, was appointed as the new Algemeen Directeur (General Direc",
+  "gravita": "",
+  "origine": "out_A_referenti.json",
+  "referente": "Wim Everts",
+  "ruolo": "Algemeen directeur"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Rousseau Chocolade B.V.",
+  "motivo": "Riserva sciolta: Paul Diepstraten e' directeur e contatto ufficiale; la direzione e' condivisa con il socio Guido Rousseau.",
+  "fonte": "https://www.nfv.nl/formule/rousseau-chocolade-b-v/ — Paul Diepstraten is the directeur (director) of Rousseau Chocolade. He serves as part of the 2-person leadership team alongside Guido Rousseau. ... The company's address is Langs de Heij 11, 6136 KR S",
+  "gravita": "",
+  "origine": "out_A_referenti.json",
+  "referente": "Paul Diepstraten",
+  "ruolo": "Directeur"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Van Kooten Vleesgroothandel B.V.",
+  "motivo": "Riserva parzialmente sciolta: i due fratelli sono confermati proprietari/direttori dal giugno 2012 (il directeur statutario Tweemo B.V. e' il loro veicolo familiare). Nessuna fonte distingue un referente unico fra i due; emerge inoltre Frank Schaapsmeerders come directeur operativo/produzione.",
+  "fonte": "https://vankootenvlees.nl/ — The meat wholesale business was founded in 1993 by their father, and his sons Wilco and Gerwin took over the company in June 2012. ... Frank Schaapsmeerders serves as the operational director. The com",
+  "gravita": "",
+  "origine": "out_A_referenti.json",
+  "referente": "Wilco van Kooten, Gerwin van Kooten",
+  "ruolo": "Directeuren / eigenaren"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Lars Carlsson Trävaru Aktiebolag",
+  "motivo": "Riserva sciolta: nessun VD registrato; la persona responsabile/ordforande e' Lars Anders Hilding Carlsson (org.nr 556093-1734, Almeboda, impresa familiare di quarta generazione). Olof Carlsson resta styrelseledamot.",
+  "fonte": "https://www.allabolag.se/foretag/lars-carlsson-tr%C3%A4varu-aktiebolag/%C3%A4lmeboda/s%C3%A5gverk/2JYU2DYI5YHTM — Lars Anders Hilding Carlsson, age 66, is the responsible person for the company. Lars Carlsson Travaru Aktiebolag has 14 employees and achieved a result of 1,455 KSEK with revenue of 70,552 KSEK in 20",
+  "gravita": "",
+  "origine": "out_A_referenti.json",
+  "referente": "Lars Anders Hilding Carlsson",
+  "ruolo": "Styrelseordförande / ansvarig (nessun VD registrato)"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Lykke Coffee Farms AB",
+  "motivo": "Riserva sciolta: nessun VD nominato nel registro; Johan Wellander e' ordforande, fondatore e persona responsabile - referente corretto. Fatturato 2025: 67,5 MSEK (+17%).",
+  "fonte": "https://www.allabolag.se/foretag/lykke-coffee-farms-ab/farsta/jordbruk/2K2TVQFI63IHJ — Johan Wellander is the Chairman (Ordforande) of Lykke Coffee Farms AB. He is 64 years old and serves as the responsible person (ansvarig) for the company. Lykke Coffee Farms AB has organization number",
+  "gravita": "",
+  "origine": "out_A_referenti.json",
+  "referente": "Johan Wellander",
+  "ruolo": "Ordförande / grundare (nessun VD registrato)"
+ }
+]

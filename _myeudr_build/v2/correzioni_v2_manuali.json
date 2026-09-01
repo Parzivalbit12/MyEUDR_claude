@@ -1,0 +1,191 @@
+[
+ {
+  "foglio": "Austria",
+  "denominazione": "Fürst GmbH",
+  "campo": "denominazione",
+  "da": "Fürst GmbH",
+  "a": "Cafe-Konditorei Fürst GmbH",
+  "motivo": "Ragione sociale incompleta: il Firmenbuch riporta la denominazione estesa.",
+  "fonte": "https://firmen.wko.at/cafe-konditorei-f%C3%BCrst-gmbh-cafe-konditorei/salzburg/ — Firmenbuchnummer 257955x, LG Salzburg",
+  "gravita": "bassa",
+  "origine": "verifica/austria"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Hexpol Compounding BV",
+  "campo": "denominazione",
+  "da": "Hexpol Compounding BV",
+  "a": "Hexpol Compounding SRL",
+  "motivo": "Forma giuridica errata a registro: la KBO/companyweb registra la societa' di Eupen come SRL, non BV.",
+  "fonte": "https://www.companyweb.be/en/0430105126/hexpol-compounding — «Hexpol Compounding (SRL) - Eupen (4700) - BE0430105126»",
+  "gravita": "bassa",
+  "origine": "verifica/belgio"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "JOHNSEN GRAPHIC SOLUTIONS A/S (oggi anche Johnsen Print & Digital Media A/S)",
+  "campo": "denominazione",
+  "da": "JOHNSEN GRAPHIC SOLUTIONS A/S (oggi anche Johnsen Print & Digital Media A/S)",
+  "a": "JOHNSEN PRINT & DIGITAL MEDIA A/S (già Johnsen Graphic Solutions A/S)",
+  "motivo": "Ridenominazione registrale sotto lo stesso CVR: il nome attuale e' Johnsen Print & Digital Media A/S.",
+  "fonte": "https://virmo.dk/firma/18624141-johnsen-print-digital-media-as — CVR 18624141",
+  "gravita": "bassa",
+  "origine": "verifica/danimarca"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Piiroinen Oy",
+  "campo": "denominazione",
+  "da": "Piiroinen Oy",
+  "a": "Arvo Piiroinen Oy",
+  "motivo": "Ragione sociale incompleta: il registro riporta Arvo Piiroinen Oy.",
+  "fonte": "https://www.proff.fi/yrityksen/arvo-piiroinen-oy/salo/... — Y-tunnus 0139391-8",
+  "gravita": "bassa",
+  "origine": "verifica/finlandia"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Weibler Confiserie Chocolaterie GmbH",
+  "campo": "denominazione",
+  "da": "Weibler Confiserie Chocolaterie GmbH",
+  "a": "Weibler Confiserie Chocolaterie GmbH & Co. KG",
+  "motivo": "Forma giuridica errata (non e' una GmbH ma una GmbH & Co. KG): e' lo stesso tipo di errore di Arko/Fonpelli, non una normalizzazione ortografica.",
+  "fonte": "https://www.northdata.com/Weibler%20Confiserie%20Chocolaterie%20GmbH%20&%20Co%C2%B7KG,%20Cremlingen — Amtsgericht Braunschweig HRA 201218",
+  "gravita": "bassa",
+  "origine": "verifica/germania"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Origin Bridge (Barchem)",
+  "campo": "denominazione",
+  "da": "Origin Bridge (Barchem)",
+  "a": "BENZU (eenmanszaak) — handelsnaam «Origin Bridge»",
+  "motivo": "Non e' una B.V.: e' una ditta individuale (eenmanszaak) denominata BENZU che opera col nome commerciale Origin Bridge. Stesso caso di Josef Meyer Palettenbau (già corretto in v1).",
+  "fonte": "https://originbridge.coffee/legal-information/ — KvK 70878315; registro: «BENZU (Eenmanszaak)»",
+  "gravita": "media",
+  "origine": "verifica/olanda"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Röstfein Kaffee GmbH",
+  "campo": "dimensione",
+  "da": "n.d. (torrefazione media, gegr. 1908)",
+  "a": "n.d. (torrefazione media, gegr. 1908). Legame di gruppo: controllata al 100% da Zentralkonsum eG (Berlino) — HRB 107856.",
+  "motivo": "Legame di gruppo non dichiarato (rilievo di gravita' alta): socio unico Zentralkonsum eG.",
+  "fonte": "northdata / wer-zu-wem, Röstfein Kaffee GmbH, Magdeburg, HRB 107856; https://www.zentralkonsum.de/",
+  "gravita": "alta",
+  "origine": "verifica/germania"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Chocolatemakers B.V.",
+  "campo": "dimensione",
+  "da": null,
+  "a": "__APPEND__ Legame di gruppo: dal 2025 confluita in The Chocolate Impact Group (fusione con Hands Off; marchi Chocolatemakers, Hands Off, CLARO).",
+  "motivo": "Legame di gruppo non dichiarato (rilievo di gravita' alta): la societa' e' confluita in un nuovo gruppo.",
+  "fonte": "https://www.doen.nl/en/nieuws/dutch-chocolate-companies-hands-off-and-chocolatemakers-are-merging-to-form-the-chocolate-impact-group/",
+  "gravita": "alta",
+  "origine": "verifica/olanda",
+  "ancora": "KVK 57652066"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Aktiebolaget Ginsten Slakteri",
+  "campo": "filiera",
+  "da": "Bovini/Carne — macello indipendente (bovini, suini, ovini) e commercio carni",
+  "a": "Bovini/Carne — macello (bovini, suini, ovini) e commercio carni, in gruppo familiare",
+  "motivo": "Il foglio affermava un'indipendenza che non c'e': e' il sottoinsieme piu' grave dei legami di gruppo (§3 del report).",
+  "fonte": "https://www.allabolag.se/organisation/aktiebolaget-ginsten-slakteri/harplinge/livsmedel/ — «part of a group with 4 companies»",
+  "gravita": "media",
+  "origine": "verifica/svezia"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Aktiebolaget Ginsten Slakteri",
+  "campo": "dimensione",
+  "da": null,
+  "a": "__APPEND__ Capogruppo: Aktiebolaget Joh. M. Johansson, Kött- & Charkuteriaffär (gruppo familiare di 4 societa').",
+  "motivo": "Capogruppo non indicata: il campo parlava genericamente di «societa' capofila».",
+  "fonte": "https://www.allabolag.se/organisation/aktiebolaget-ginsten-slakteri/harplinge/livsmedel/",
+  "gravita": "media",
+  "origine": "verifica/svezia",
+  "ancora": "556257-9861"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Vanrobaeys Granen & Zaden NV",
+  "campo": "filiera",
+  "da": "Mangimi/Soia — granaglie e semi per mangimi",
+  "a": "Mangimi/Soia — mangimi per colombi (duivenvoer) a base di granaglie, semi e soia tostata",
+  "motivo": "Precisazione della commodity: la soia tostata e' documentata nella composizione dei mangimi.",
+  "fonte": "https://www.vanrobaeysbelgium.com/nl-BE — composizione Power Rui «getoaste sojabonen 5%»",
+  "gravita": "bassa",
+  "origine": "verifica/belgio"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Baeten & Co NV",
+  "campo": "filiera",
+  "da": "Olio di palma — raffinazione oli e grassi vegetali/animali",
+  "a": "Olio di palma + Bovini — raffinazione di grassi animali (sego bovino/suino) e oli vegetali (palma, cocco, mais): doppia esposizione EUDR",
+  "motivo": "Commodity incompleta: l'azienda dichiara di lavorare anche sego bovino, che e' Allegato I.",
+  "fonte": "https://baetennv.be/eng/our-products — «Baeten & Co is specialised in beef and pork fat»",
+  "gravita": "bassa",
+  "origine": "verifica/belgio"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Vleeshandel Vens NV",
+  "campo": "filiera",
+  "da": "Bovini/Carne — ingrosso e sezionamento",
+  "a": "Bovini/Carne — sezionamento e commercio di carne (ingrosso piu' negozio proprio e punti di ritiro)",
+  "motivo": "Precisazione dell'attivita' reale, documentata dal sito aziendale.",
+  "fonte": "https://vleeshandelvens.be/afhaalpunten/ e https://vleeshandelvens.be/winkel/",
+  "gravita": "bassa",
+  "origine": "verifica/belgio"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Kiilax Oy",
+  "campo": "filiera",
+  "da": "Legno/Arredo — compensato betulla/lamellare",
+  "a": "Legno/Arredo — botole d'ispezione e prodotti in compensato (produzione e rivendita specializzata)",
+  "motivo": "Descrizione della commodity non aderente: il prodotto principale sono le botole d'ispezione in compensato.",
+  "fonte": "https://vainu.io/company/kiilax-oy-... — «manufactures inspection hatches and is a specialty store»",
+  "gravita": "media",
+  "origine": "verifica/finlandia"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Vainion Teurastamo Oy",
+  "campo": "filiera",
+  "da": "Bovini/Carne",
+  "a": "Bovini/Carne — prevalentemente ovino (~15.000 capi/anno); bovini ~2.500 capi/anno",
+  "motivo": "Qualificazione necessaria: l'ovino non e' Allegato I, il bovino si'. Il volume bovino resta ma va dimensionato.",
+  "fonte": "https://www.seutuneloset.fi/paikalliset/8458336 — «Suomen suurin lammasteurastamo ... about 15,000 sheep annually ... also slaughters cattle»",
+  "gravita": "media",
+  "origine": "verifica/finlandia"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Schellinger KG",
+  "campo": "filiera",
+  "da": "Mangimi/Soia",
+  "a": "Mangimi/Soia + Legno — pellet di legno Sonnen-Pellets (dal 1998, certificati ENplus)",
+  "motivo": "Seconda commodity Allegato I non censita: la produzione di pellet di legno.",
+  "fonte": "https://www.depv.de/unternehmen/8c7524a3-... e https://schellinger-kg.de/de/impressum/",
+  "gravita": "bassa",
+  "origine": "verifica/germania"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Spaggiari Industria Gomma S.r.l.",
+  "campo": "filiera",
+  "da": "Gomma",
+  "a": "Gomma — articoli tecnici in gomma naturale (NR), sintetica, siliconica e fluoroelastomeri",
+  "motivo": "Perimetro EUDR reso esplicito: l'azienda lavora anche gomma naturale, che e' la commodity dell'Allegato I.",
+  "fonte": "https://spaggiarigomma.com/ — «componenti in gomma naturale, sintetica, siliconica e fluoroelastomeri»",
+  "gravita": "bassa",
+  "origine": "verifica/italia"
+ }
+]
