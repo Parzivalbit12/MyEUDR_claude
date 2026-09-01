@@ -75,7 +75,7 @@
   "denominazione": "Chocolaterie Ickx NV",
   "filiera": "Cacao/Cioccolato — praline",
   "sede": "Essen (Anversa) — Fiandre",
-  "sito": "https://www.ickx.be/",
+  "sito": "https://www.choc-ickx.be/",
   "email": "avangastel@choc-ickx.be",
   "referente": "",
   "ruolo": "",
@@ -101,8 +101,8 @@
   "sede": "Comines-Warneton (Komen-Waasten), Hainaut — Vallonia",
   "sito": "https://www.libeert.com/",
   "email": "contact@libeert.com",
-  "referente": "Lily Libeert",
-  "ruolo": "Co-directrice (4a generazione della famiglia Libeert)",
+  "referente": "Ignace Libeert",
+  "ruolo": "gedelegeerd bestuurder (mantenere eventualmente Lily Libeert come secondo contatto commerciale)",
   "linkedin": "",
   "dimensione": "Fatturato ~35 M€ e 136,8 FTE (fonte: companyweb.be, ultimo bilancio depositato NBB, deposito 13-11-2025). N. impresa BE 0407.026.747. Azienda familiare, oltre 5.000 t di cioccolato all'anno, gamma bio. Azienda di confine nella parte alta del range tollerabile (5-40 M€), ma resta PMI familiare indipendente.",
   "fonte": "https://www.companyweb.be/en/0407026747/libeert"
@@ -163,7 +163,7 @@
   "email": "info@mbcchocolates.be",
   "referente": "Arnaud Verwilghen",
   "ruolo": "CEO",
-  "linkedin": "",
+  "linkedin": "https://be.linkedin.com/company/manufacture-belge-de-chocolats",
   "dimensione": "Fatturato 25.731.148 € e 175,1 FTE (fonte: trendstop.levif.be / companyweb.be, ultimo bilancio depositato NBB, deposito 08-07-2025); 30° posto nel settore cioccolato e dolciumi. N. impresa BE 0722.764.519. Firmataria di Beyond Chocolate (impegni su deforestazione e tracciabilità del cacao). Nella parte alta del range tollerabile 5-40 M€.",
   "fonte": "https://trendstop.levif.be/fr/detail/722764519/manufacture-belge-de-chocolats.aspx"
  },
@@ -175,7 +175,7 @@
   "email": "info@oft.be",
   "referente": "",
   "ruolo": "",
-  "linkedin": "",
+  "linkedin": "https://be.linkedin.com/company/oxfam-fair-trade",
   "dimensione": "Fatturato 17.446.343 € (fonte: trendstop.knack.be, ultimo bilancio depositato NBB); 81° posto nel settore alimentare/commercio. N. impresa BE 0453.066.016. Importatore equosolidale: acquista cacao (e caffè) direttamente dalle cooperative dei paesi produttori e immette i prodotti sul mercato UE — operatore EUDR in senso stretto. Firmataria di Beyond Chocolate. In pieno target 10-20 M€. Nota: struttura cooperativa legata a Oxfam-Wereldwinkels.",
   "fonte": "https://trendstop.knack.be/nl/detail/453066016/oxfam-fairtrade.aspx"
  },

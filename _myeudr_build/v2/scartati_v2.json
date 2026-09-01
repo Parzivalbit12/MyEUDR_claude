@@ -1,0 +1,13 @@
+[
+ {
+  "foglio": "Austria",
+  "denominazione": "BIOSERVICE Zach Ges.m.b.H.",
+  "motivo": "Titoli accademici del referente imprecisi: le fonti riportano 'Mag. DI (FH) Dr. Robert Zach' come Geschäftsführer, non 'Ing. Mag. Robert Zach'. Nome e funzione confermati.",
+  "fonte": "https://www.firmenabc.at/bioservice-zach-ges-m-b-h_BBRcB / https://www.bioservice.at/en/contact/ — 'Mag. DI (FH) Dr. Robert Zach, Geschäftsführer'",
+  "gravita": "bassa",
+  "origine": "austria_05.json",
+  "campo": "ruolo",
+  "proposta": "Mag. DI (FH) Dr. Robert Zach",
+  "perche": "la proposta non contiene una parola-ruolo: non e' un ruolo"
+ }
+]

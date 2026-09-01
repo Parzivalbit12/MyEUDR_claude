@@ -1,0 +1,812 @@
+[
+ {
+  "foglio": "Austria",
+  "denominazione": "Wittmann Möbelwerkstätten GmbH",
+  "motivo": "REFERENTE OBSOLETO DI DUE PASSAGGI. Heinz Hofer-Wittmann non e' piu' alla guida: gli e' subentrato Bo Thuesen come CEO, uscito dopo circa un anno e mezzo su sua richiesta, e oggi la Geschäftsführung e' di Alice Wittmann (39 anni, pro-pronipote del fondatore), con responsabilita' su marketing, prodotto e vendite. In Firmenbuch risultano inoltre iscritti Alexander Sova e Ron Vorona.",
+  "fonte": "https://www.noen.at/krems/wechsel-ururenkelin-von-firmengruender-neu-an-spitze-von-etsdorfer-unternehmen-508632071 ; https://moebel-guide.at/news/generationswechsel-bei-wittmann-alice-wittmann-ubernimmt-geschaftsfuhrung ; https://www.moebelfertigung.com/branche/bo-thuesen-ist-der-neue-ceo ; https://www.firmenabc.at/wittmann-moebelwerkstaetten-gmbh_NVdS",
+  "gravita": "alta",
+  "origine": "austria_02.json",
+  "referente": "Alice Wittmann",
+  "ruolo": "Geschäftsführerin"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Natural Products & Drugs GmbH",
+  "motivo": "Referente e ruolo lasciati vuoti: i Geschäftsführer risultano Mag. Dr. Antonius Dominik Schantl (farmacista, fondatore 2003) e il fratello Josef Schantl (dal 2005).",
+  "fonte": "https://firmeneintrag.creditreform.de/9800/9090098935/NATURAL_PRODUCTS_DRUGS_GMBH — 'Geschäftsführer: Mag Dr Antonius Dominik Schantl, Josef Schantl'",
+  "gravita": "media",
+  "origine": "austria_05.json",
+  "referente": "Mag. Dr. Antonius Dominik Schantl",
+  "ruolo": "Geschäftsführer"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Decadt Houthandel NV",
+  "motivo": "Stefaan Decadt e' confermato al vertice, ma il ruolo pubblicato e' 'bedrijfsleider' (LinkedIn) e non 'Algemeen directeur'; per una NV il titolo statutario sarebbe 'gedelegeerd bestuurder'. Inoltre coesistono due siti web riferiti a Decadt a Vlamertinge (decadt-hout.be e houthandeldecadt-ieper.be) e due pagine LinkedIn aziendali: verificare quale corrisponda alla NV BE 0415.284.714.",
+  "fonte": "https://be.linkedin.com/in/stefaan-decadt-8b8144113 - frammento: \"Stefaan Decadt - bedrijfsleider bij decadt houthandel nv\"; siti concorrenti https://decadt-hout.be/ e https://www.houthandeldecadt-ieper.be/",
+  "gravita": "bassa",
+  "origine": "belgio_01.json",
+  "referente": "",
+  "ruolo": "Bedrijfsleider / gedelegeerd bestuurder"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Extremis NV",
+  "motivo": "Referente non aggiornato: Dirk Wynants e' oggi owner e chief designer, NON il vertice esecutivo. L'amministratore delegato in carica e' Valentine Batjoens, nominata CEO in successione a Yff Vandendriessche. Il campo attribuisce erroneamente a Wynants la funzione di vertice.",
+  "fonte": "https://www.lovethatdesign.com/?post_type=news&p=378797 e https://www.linkedin.com/posts/extremis_meet-our-new-ceo-aka-captain-of-the-ship-activity-7046080915592069121-Z6QI - frammento: \"Extremis appointed Valentine Batjoens as its new Chief Executive Officer... continue the course of outgoing CEO Yff Vandendriessche. However, Dirk Wynants remains as the owner and chief designer of Extremis\"",
+  "gravita": "alta",
+  "origine": "belgio_01.json",
+  "referente": "Valentine Batjoens",
+  "ruolo": "CEO (Dirk Wynants resta fondatore/proprietario e chief designer)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Mecam NV",
+  "motivo": "Il referente indicato (Inge Meers, CFO) non e' il vertice della societa'. Il gedelegeerd bestuurder / CEO e' il fratello Luc Meers, che ha la direzione generale; Inge cura la parte finanziaria.",
+  "fonte": "meubihome.be / sterck-magazine.be: 'CFO en bestuurder Inge Meers runt samen met haar broer Luc het bedrijf'; wonen360.nl: 'CEO Luc Meers'; trendstop: gedelegeerd bestuurder Luc Meers, Vilvertstraat 11, Dilsen-Stokkem",
+  "gravita": "media",
+  "origine": "belgio_02.json",
+  "referente": "Luc Meers",
+  "ruolo": "Gedelegeerd bestuurder / CEO"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Meubelfabriek Lievens NV",
+  "motivo": "Lieven Decoene e' confermato come 'general manager' operativo, ma il mandato statutario della NV e' esercitato da Telinfra (VA Telifra) con rappresentante permanente Andre Ollevier. Il ruolo indicato non e' quello statutario belga (gedelegeerd bestuurder/bestuurder).",
+  "fonte": "pappers.be/nl/company/meubelfabriek-lievens-0413666990: 'VA Telifra — Andre Ollevier, vaste vertegenwoordiger/zaakvoerder'; wonen360.nl: 'general manager Lieven Decoene'",
+  "gravita": "bassa",
+  "origine": "belgio_02.json",
+  "referente": "Lieven Decoene",
+  "ruolo": "General Manager (rappresentante legale: Telinfra, rappr. perm. Andre Ollevier)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "VC Wood Zottegem NV",
+  "motivo": "Il record afferma che 'il nome del gestore non e' pubblicato in fonti verificabili': non e' vero. I zaakvoerders sono i fratelli Van Cauwenberge (terza generazione): Thomas, Tim e Bart Van Cauwenberge.",
+  "fonte": "managermagazines.be 'Vc Wood Zottegem — Eenvoudig veelzijdig': 'Thomas Van Cauwenberge is een van de zaakvoerders, samen met zijn broers Tim en Bart'",
+  "gravita": "media",
+  "origine": "belgio_02.json",
+  "referente": "Thomas Van Cauwenberge (con i fratelli Tim e Bart)",
+  "ruolo": "zaakvoerder/bestuurder"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Vincent Sheppard NV",
+  "motivo": "Referente errato: Brendan McCarthy risulta Managing Director di Vincent Sheppard USA / Sika Design USA (struttura distributiva statunitense nata nel 2021 con Design Holdings), non della NV belga. Il vertice della societa' belga e' Jos Destrooper, entrato come nuovo CEO e investitore (proveniente da Lotus Bakeries).",
+  "fonte": "crunchbase.com/person/brendan-mccarthy: 'Managing Director @ Vincent Sheppard and Sika Design USA'; made-in.be/west-vlaanderen/nieuwe-ceo-en-investeerder-bij-vincent-sheppard: 'Jos Destrooper ... operationeel en als aandeelhouder (fifty-fifty) naast de familie Claeys'",
+  "gravita": "alta",
+  "origine": "belgio_02.json",
+  "referente": "Jos Destrooper",
+  "ruolo": "CEO / gedelegeerd bestuurder"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Klingele Chocolade NV",
+  "motivo": "Referente confermato (Koen Klingele, cofondatore 1995) ma incompleto: la societa' e' co-gestita dalla moglie Eline Blanchaert, indicata dalle fonti come zaakvoerder alla pari. Da notare che le fonti usano 'zaakvoerder', titolo proprio della BV, mentre la forma giuridica registrata e' NV (naamloze vennootschap): il titolo statutario corretto e' gedelegeerd bestuurder, come gia' riportato nel record.",
+  "fonte": "vrt.be/vrtnws/nl/2025/11/05: 'Koen Klingele en Eline Blanchaert, zaakvoerders van Klingele Chocolade'; jaarrekening.be/nl/KLINGELE-CHOCOLADE/0479.916.606: 'de juridische vorm is Naamloze vennootschap'",
+  "gravita": "bassa",
+  "origine": "belgio_02.json",
+  "referente": "Koen Klingele (con Eline Blanchaert)",
+  "ruolo": "gedelegeerd bestuurder"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Antilope De Bie NV",
+  "motivo": "Referente confermato (Bart De Bie, CEO, quarta generazione) ma incompleto: la direzione e' condivisa con il fratello Johan De Bie, che ha rilevato la drukkerij insieme a lui nel 1996. Segnalazione puramente formale.",
+  "fonte": "made-in.be/mechelen/bart-de-bie-ceo-antilope-de-bie: 'Bart De Bie (CEO Antilope De Bie) ... Hij en zijn broer Johan zijn de vierde generatie van drukkersfamilie De Bie ... In 1996 namen ze de drukkerij over van hun ouders'",
+  "gravita": "bassa",
+  "origine": "belgio_02.json",
+  "referente": "Bart De Bie (con il fratello Johan De Bie)",
+  "ruolo": "CEO / gedelegeerd bestuurder"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Etilux SA",
+  "motivo": "REFERENTE NON PIU' IN CARICA. Quentin Gemoets, entrato a fine 2018 per accompagnare la transizione generazionale, ha lasciato l'incarico a FINE 2023. Olivier Bronne, azionista e CEO, ha assunto da solo la direzione dell'azienda e l'azionista ha deciso di NON sostituire Gemoets, appoggiandosi al CdA e a un Comitato di direzione rafforzato. La fonte citata nel record (ccimag 05-01-2024) e' proprio l'articolo che documenta l'uscita.",
+  "fonte": "https://ccimag.be/2024/01/05/la-transition-generationnelle-se-finalise-chez-etilux/ — 'Quentin Gemoets... a quitté ses fonctions fin 2023'; 'Olivier Bronne, actuel propriétaire et co-CEO, a décidé de reprendre seul la direction'",
+  "gravita": "alta",
+  "origine": "belgio_03.json",
+  "referente": "Olivier Bronne",
+  "ruolo": "Administrateur délégué / CEO"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Kartonnage Lefevere-Beel NV",
+  "motivo": "Ruolo impreciso: Didier Lefevere non figura come bestuurder in proprio ma come RAPPRESENTANTE PERMANENTE (vaste vertegenwoordiger) dal 01-07-2021 della persona giuridica amministratrice; bestuurder nominata il 22-12-2023 e' Marieke Lannoo, accanto alla societa' BellRock. 'CEO' non e' una qualifica statutaria belga.",
+  "fonte": "https://fincheck.be/nl/kartonnage-lefevere---beel/0413.759.339/Wielsbeke/bestuurders — 'Marieke Lannoo (appointed as director on 22/12/2023), Didier Lefevere (permanent representative since 01/07/2021), and BellRock'",
+  "gravita": "bassa",
+  "origine": "belgio_03.json",
+  "referente": "",
+  "ruolo": "Vaste vertegenwoordiger / Bestuurder"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Confiserie Vandenbulcke NV",
+  "motivo": "Referente e ruolo vuoti. La terza generazione e' al timone con Jelle Vandenbulcke come CEO, affiancato dai cugini Bert e Luk. Fatturato 13.332.120 € confermato (44° posto di settore).",
+  "fonte": "Frammento Voka/Made-in: \"the third generation is now in charge, with CEO Jelle Vandenbulcke and his cousins Bert and Luk at the helm\"; https://trendstop.knack.be/nl/detail/417738319/vandenbulcke-confiserie.aspx",
+  "gravita": "media",
+  "origine": "belgio_04.json",
+  "referente": "Jelle Vandenbulcke",
+  "ruolo": "CEO / gedelegeerd bestuurder"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Libeert NV",
+  "motivo": "Il referente indicato (Lily Libeert, 'Co-directrice') non e' il vertice statutario. Il gedelegeerd bestuurder di Libeert e' Ignace Libeert; Lily Libeert risulta Co-CEO per Sales & Marketing e Pieter Libeert e' fra i proprietari. Per una NV/SA il titolo da censire e' gedelegeerd bestuurder / administrateur delegue.",
+  "fonte": "https://www.linkedin.com/in/ignace-libeert-ba44b8113/ — \"Ignace Libeert - gedelegeerd bestuurder - LIBEERT - Belgian Chocolate Creators\"; frammento: \"Pieter Libeert and Ignace Libeert are listed as Owners, with Lily Libeert serving as Co-CEO for Sales & Marketing\"",
+  "gravita": "media",
+  "origine": "belgio_04.json",
+  "referente": "Ignace Libeert",
+  "ruolo": "gedelegeerd bestuurder (mantenere eventualmente Lily Libeert come secondo contatto commerciale)"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Pierre Marcolini Group SA",
+  "motivo": "Referente, ruolo, LinkedIn ed email tutti vuoti/'n.d.': il lead non e' contattabile. L'administrateur-delegue della societa' e' Pierre Marcolini stesso (BE 0461.740.982, Rue du Bassin Collecteur 4, 1130 Bruxelles).",
+  "fonte": "https://www.pappers.be/fr/company/pierre-marcolini-group-0461740982 — \"Pierre Marcolin[i] est Administrateur-delegue\"; sede Rue du Bassin Collecteur 4, 1130 Bruxelles (https://www.companyweb.be/en/0461740982/pierre-marcolini-group)",
+  "gravita": "media",
+  "origine": "belgio_04.json",
+  "referente": "Pierre Marcolini",
+  "ruolo": "Administrateur delegue"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "AUBO PRODUCTION A/S",
+  "motivo": "Referente non attuale: Torben Andersen è il PREDECESSORE. La carica di administrerende direktør è passata a Torben Paulin (ingresso registrato 22.01.2026 secondo lasso.dk). Contattare Torben Andersen come vertice attuale è un dato falso.",
+  "fonte": "https://lasso.dk/firmaer/28854846/ny-administrerende-direktr-i-aubo-production-as/ — titolo \"Ny administrerende direktør i AUBO PRODUCTION A/S\"; frammento: \"Torben Paulin overtook the position of administrerende direktør (CEO) at AUBO PRODUCTION A/S from Torben Andersen\"",
+  "gravita": "alta",
+  "origine": "danimarca_01.json",
+  "referente": "Torben Paulin",
+  "ruolo": "Adm. direktør"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "HVIDBJERG VINDUET A/S",
+  "motivo": "Referente errato: Claus Arberg non risulta l'administrerende direktør attuale. Il vertice esecutivo è Morten Filtenborg Mortensgaard (pagina Kontakt del sito ufficiale, aprile 2026).",
+  "fonte": "https://www.hvidbjergvinduet.dk/kontakt/ — frammento: \"Morten F. Mortensgaard is the managing director (based on their contact page from April 2026)\"; \"Morten Filtenborg Mortensgaard is the Managing Director (Administrerende direktør)\"",
+  "gravita": "alta",
+  "origine": "danimarca_01.json",
+  "referente": "Morten Filtenborg Mortensgaard",
+  "ruolo": "Adm. direktør"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "HØRNING PARKET A/S",
+  "motivo": "Referente e ruolo errati: Peter (Christian Saaby) Mathiasen è presidente del consiglio di amministrazione (bestyrelsesformand), non adm. direktør. Il vertice esecutivo della società è Peter Vissing, direktør/adm. direktør e co-proprietario dal 2016.",
+  "fonte": "https://www.proff.dk/firma/h%C3%B8rning-parket-as/skanderborg/producenter/GTM41UI016D — frammento: \"a director named Peter Vissing and board chairman Peter Christian Saaby Mathiasen ... has 24 employees\"; https://rocketreach.co/peter-vissing-email_99791140 — \"Peter Vissing ... CEO and Partner at Hørning Parket A/S\"",
+  "gravita": "alta",
+  "origine": "danimarca_01.json",
+  "referente": "Peter Vissing",
+  "ruolo": "Adm. direktør"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Klim Furniture A/S (gia' Klim Mobelfabrik)",
+  "motivo": "Referente non attuale: dal 2024 il direktor in carica e' Kasper Hogenhaug (che ha acquisito il 50% della societa'); Jan Middelboe resta comproprietario al 50% ma non e' piu' il vertice operativo indicato dalle fonti. Lo stesso campo dimensione del record segnala Kasper Hogenhaug come 'co-proprietario e direttore (dal 2024)', in contraddizione con il campo referente.",
+  "fonte": "https://jammerbugtavis.dk/kasper-hoegenhaug-bliver-medejer-i-klim-furniture/ ; https://www.wood-supply.dk/article/view/1092962/traditionsrig_mobelproducent_far_ny_medejer_og_direktor - 'Ejerskabet i Klim Furniture er ligeligt fordelt mellem Kasper Hogenhaug og Jan Middelboe, og Kasper Hogenhaug er direktor i selskabet'",
+  "gravita": "alta",
+  "origine": "danimarca_02.json",
+  "referente": "Kasper Hogenhaug",
+  "ruolo": "Direktor"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "N. EILERSEN A/S",
+  "motivo": "Referente errato: Anders Michael Juul Ejlersen risulta membro del consiglio di amministrazione (bestyrelse) e comproprietario, non direktor. Il direktor registrato di N. EILERSEN A/S (CVR 35118519) e' Marianne Lind Koch-Pedersen. Nota anche la grafia ufficiale al CVR: 'Ejlersen'.",
+  "fonte": "https://www.proff.dk/roller/n.-eilersen-as/skamby/m%C3%B8bler/GKEJPJI015G ; https://ownr.dk/companies/public-profile/35118519 - direktor: Marianne Lind Koch-Pedersen; bestyrelse: Anders Michael Juul Ejlersen, Bettina Elisabeth Juul Ejlersen, Simon Kristian Frosig",
+  "gravita": "alta",
+  "origine": "danimarca_02.json",
+  "referente": "Marianne Lind Koch-Pedersen",
+  "ruolo": "Direktor (Anders Michael Juul Ejlersen resta comproprietario/consigliere)"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "ALL CREATIVE A/S",
+  "motivo": "Nome del referente incompleto: l'adm. direktor registrato e' Mette Juhl Christensen. Email info@allcreative.dk e sede (vendite Islevdalvej 214, Rodovre; produzione Tulipvej 3, Vejle) risultano confermate.",
+  "fonte": "https://www.proff.dk/firma/all-creative-as/r%C3%B8dovre/papir-og-papirprodukter-produktion/GSG8C7I10K1 (adm. direktor Mette Juhl Christensen) ; https://allcreative.dk/en/kontakt/",
+  "gravita": "bassa",
+  "origine": "danimarca_02.json",
+  "referente": "Mette Juhl Christensen",
+  "ruolo": "Adm. direktor"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "IKAST ETIKET A/S",
+  "motivo": "Il campo e' vuoto e il campo dimensione afferma che 'nessun adm. direktoer pubblicato': e' falso. Ulrik Lauritsen risulta direktoer della societa' dal 2003 (oltre che membro del consiglio).",
+  "fonte": "https://www.proff.dk/firma/ikast-etiket-as/ikast/engroshandel-annet/GJF022I10N6 - 'Ikast Etiket A/S blev grundlagt i 1986 og har vaeret ledet af Ulrik Lauritsen siden 2003'",
+  "gravita": "media",
+  "origine": "danimarca_03.json",
+  "referente": "Ulrik Lauritsen",
+  "ruolo": "Direktør"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "JOHNSEN GRAPHIC SOLUTIONS A/S (oggi anche Johnsen Print & Digital Media A/S)",
+  "motivo": "Campo vuoto: il vertice e' pubblicato. Steen Johnsen risulta adm. direktoer del CVR 18624141 (Sune Johnsen co-direttore; Peter Bager presidente del consiglio).",
+  "fonte": "https://cvrapi.dk/virksomhed/dk/johnsen-graphic-solutions-as/18624141 - 'CVR: 18624141, adm. dir: Steen Johnsen'; proff.dk roller: 'Steen Johnsen og Sune Johnsen er direktoerer ... Peter Bager (formand)'",
+  "gravita": "media",
+  "origine": "danimarca_03.json",
+  "referente": "Steen Johnsen",
+  "ruolo": "Adm. direktør"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "KAILOW A/S",
+  "motivo": "REFERENTE SUPERATO. Joergen Kailow non e' piu' al vertice operativo: dal 1 aprile 2025 l'administrerende direktoer di KAILOW A/S e' Per Puch Holm-Larsen, mentre Joergen Kailow e' passato a presidente del consiglio (bestyrelsesformand) dalla stessa data. Il ruolo indicato ('Direktoer della capogruppo') non e' inoltre il vertice della societa' target.",
+  "fonte": "https://lasso.dk/firmaer/15945672/ny-administrerende-direktr-i-kailow-as/... 'Ny administrerende direktoer i KAILOW A/S' (evento 01.04.2025); estatistik.dk/virksomhed/kailow-as/15945672/roller - 'Per Puch Holm-Larsen, administrerende direktoer siden 1. april 2025; Joergen Kailow, bestyrelsesformand siden 1. april 2025'",
+  "gravita": "alta",
+  "origine": "danimarca_03.json",
+  "referente": "Per Puch Holm-Larsen",
+  "ruolo": "Adm. direktør (dal 01.04.2025)"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "CAFÉU DENMARK ApS",
+  "motivo": "Campo vuoto: il vertice e' pubblicato e coincide con il titolare della holding gia' citata nel campo dimensione. Steffan Noergaard Tobiesen e' fondatore e direktoer di CaféU Denmark ApS (capogruppo STEFFAN TOBIESEN HOLDING ApS).",
+  "fonte": "https://cvrapi.dk/virksomhed/dk/cafeu-denmark-aps/33243537 e https://www.proff.dk/firma/caf%C3%A9u-denmark-aps/esbjerg-n/n%C3%A6rings-og-nydelsesmidler/GT4AIYI116S - direktoer Steffan Noergaard Tobiesen; https://cafeu.dk/om-os/ - 'Steffan Tobiesen ... stifter'",
+  "gravita": "media",
+  "origine": "danimarca_03.json",
+  "referente": "Steffan Nørgård Tobiesen",
+  "ruolo": "Direktør (fondatore)"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Kontra A/S (KONTRA Coffee)",
+  "motivo": "Referente e ruolo assenti. proff.dk indica come adm. direktør Henrik Aagaard (bestyrelsesformand Jais Stampe Li Valeur).",
+  "fonte": "https://www.proff.dk/firma/kontra-as/hvidovre/producenter/H0B8BKI016D - frammento: 'adm. direktør Henrik Aagaard ... bestyrelsesformand Jais Stampe Li Valeur ... Jernholmen 45E, 2650 Hvidovre'",
+  "gravita": "media",
+  "origine": "danimarca_04.json",
+  "referente": "Henrik Aagaard",
+  "ruolo": "Adm. direktør"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Nordic Coffee House ApS",
+  "motivo": "Referente e ruolo assenti. Il direktør e proprietario al 100% e Michael Molbaek.",
+  "fonte": "https://www.proff.dk/roller/nordic-coffee-house-aps/-/-/39807122/ - frammento: 'Direktør: Michael Molbaek ... Michael Molbaek er ejer 100%'",
+  "gravita": "media",
+  "origine": "danimarca_04.json",
+  "referente": "Michael Molbaek",
+  "ruolo": "Direktør"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "The Coffee Collective A/S",
+  "motivo": "Referente non e il vertice attuale della societa: dal 2024 l'amministratore delegato (CEO / adm. direktør) e Rebecca Vang, subentrata a Peter Dupont. Klaus Thomsen resta co-fondatore e comproprietario con ruolo operativo sulla qualita, non e il vertice.",
+  "fonte": "https://coffeecollective.dk/blogs/stories/new-ceo e https://www.gcrmag.com/coffee-collective-announces-new-ceo/ - frammento: 'Rebecca Vang joined as CEO in 2024 while the three operating founders retained 100% ownership. Peter Dupont had served as CEO of Coffee Collective for 16 years'",
+  "gravita": "media",
+  "origine": "danimarca_04.json",
+  "referente": "Rebecca Vang",
+  "ruolo": "Adm. direktør (CEO), dal 2024"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "NORDVEST FODER A/S",
+  "motivo": "Campo referente/ruolo VUOTO benche' il dato sia pubblico: Rasmus Toft e' direktor e comproprietario, terza generazione, subentrato con il ricambio generazionale del 01/07/2024. Contatto diretto pubblicato: rasmus@nordvestfoder.dk, mob. 27 29 80 04.",
+  "fonte": "https://www.nordvestfoder.dk/kontakt/ e https://www.nordvestfoder.dk/om-os/historien-bag-nvf/ - 'Rasmus Toft, 3. generation og ny direktor ... rasmus@nordvestfoder.dk, 27 29 80 04'",
+  "gravita": "media",
+  "origine": "danimarca_05.json",
+  "referente": "Rasmus Toft",
+  "ruolo": "adm. direktør (e comproprietario)"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Naturli' Foods",
+  "motivo": "Campo referente/ruolo VUOTO benche' il dato sia pubblico: adm. direktor di Naturli' Foods A/S e' Henrik Lund; bestyrelsesformand e' Christian Munk (adm. direktor di Dragsbaek).",
+  "fonte": "https://estatistik.dk/virksomhed/naturli-foods-as/25476573/roller ; https://www.altinget.dk/foedevarer/artikel/naturli-foods-faar-ny-bestyrelsesformand",
+  "gravita": "media",
+  "origine": "danimarca_05.json",
+  "referente": "Henrik Lund",
+  "ruolo": "adm. direktør"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "JN Meat International",
+  "motivo": "Referente e ruolo imprecisi: il direktor in carica risulta JOHN SASHI NIELSEN (non semplicemente 'John Nielsen'), e il ruolo censito e' 'Stifter (fondatore)', che non e' la carica di vertice richiesta. Il ruolo corretto in DK e' adm. direktor.",
+  "fonte": "https://www.proff.dk/roller/j.n.-meat-international-aps/slagelse/producenter/GLH1KVI016D - 'John Sashi Nielsen ... direktor'; https://ownr.dk/users/public-profile/4003916379",
+  "gravita": "media",
+  "origine": "danimarca_05.json",
+  "referente": "John Sashi Nielsen",
+  "ruolo": "adm. direktør"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Elega Oy",
+  "motivo": "Referente errato: Kaj Pellinen non e' il toimitusjohtaja ma il talouspaallikko (direttore amministrativo/finanziario). Il toimitusjohtaja in carica e' Pauli Niinikoski, confermato anche dopo il riassetto azionario.",
+  "fonte": "https://elega.fi/ajankohtaista/elegan-osakkaiksi-elegalaisia-avainhenkiloita/ e https://www.asiakastieto.fi/yritykset/fi/elega-oy/24968649/paattajat — frammento: \"Pauli Niinikoski continues in his role as CEO and as a shareholder alongside other members of the entrepreneur team... Kaj Pellinen serves as the finance director (talouspaallikko)\"",
+  "gravita": "alta",
+  "origine": "finlandia_01.json",
+  "referente": "Pauli Niinikoski",
+  "ruolo": "Toimitusjohtaja (CEO)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Kiilax Oy",
+  "motivo": "Referente errato/superato: il toimitusjohtaja in carica e' Jouni Kontkanen (imprenditore di Joensuu che ha rilevato e rilanciato l'azienda, gia' nota come Palavaneri). Jani Olkkonen non risulta amministratore delegato attuale.",
+  "fonte": "https://vainu.io/company/kiilax-oy-taloustiedot-ja-liikevaihto/256569/yritystiedot e https://www.karjalainen.fi/paikalliset/7656099 — frammento: \"The company's managing director (toimitusjohtaja) is Jouni Kontkanen\"; \"Tuore joensuulainen yrittaja Jouni Kontkanen on pistanyt aiemmin Palavanerina tunnettua Kiilaxia iskukuntoon\"",
+  "gravita": "alta",
+  "origine": "finlandia_01.json",
+  "referente": "Jouni Kontkanen",
+  "ruolo": "Toimitusjohtaja (CEO)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Lappiporras Oy",
+  "motivo": "Referente e ruolo vuoti; la toimitusjohtaja e' identificabile nei registri.",
+  "fonte": "'Yhtion toimitusjohtaja on Anne Mirjami Juopperi' — https://www.asiakastieto.fi/yritykset/fi/lappiporras-oy/10897317/paattajat",
+  "gravita": "media",
+  "origine": "finlandia_02.json",
+  "referente": "Anne Juopperi",
+  "ruolo": "Toimitusjohtaja (CEO)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Mahogany Oy",
+  "motivo": "Referente e ruolo vuoti; la toimitusjohtaja e' identificabile nei registri.",
+  "fonte": "'Toimitusjohtaja on Markku Johannes Tamminen' — https://www.asiakastieto.fi/yritykset/fi/mahogany-oy/24059920/paattajat",
+  "gravita": "media",
+  "origine": "finlandia_02.json",
+  "referente": "Markku Tamminen",
+  "ruolo": "Toimitusjohtaja (CEO)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "BestPak Oy",
+  "motivo": "Referente e ruolo assenti: il toimitusjohtaja risulta Jyri Juhani Weiste.",
+  "fonte": "\"BestPak Oy (Y-tunnus 1994958-2) is located in Pirkkala, and its toimitusjohtaja is Weiste Jyri Juhani\" — https://www.asiakastieto.fi/yritykset/fi/bestpak-oy/19949582/paattajat",
+  "gravita": "media",
+  "origine": "finlandia_03.json",
+  "referente": "Jyri Weiste",
+  "ruolo": "Toimitusjohtaja (CEO)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "St Michel Print Oy",
+  "motivo": "Referente e ruolo lasciati vuoti, mentre il vertice e' pubblicamente noto: Rami (Marko Rami-Petteri) Paajanen, toimitusjohtaja, subentrato a Heikki Suomala passato a direttore vendite e marketing.",
+  "fonte": "https://pmlehti.fi/uutiset/toimiala/st-michel-printin-johtoon-rami-paajanen/ ; https://fi.linkedin.com/in/rami-paajanen-2ba887125 'Rami Paajanen - Managing Director - St Michel Print Oy'",
+  "gravita": "media",
+  "origine": "finlandia_04.json",
+  "referente": "Rami Paajanen",
+  "ruolo": "Toimitusjohtaja (CEO)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Goodio (Helsinki Heaven Oy)",
+  "motivo": "Il referente indicato (Jukka Peltola, fondatore/CCO) non è il vertice societario. Il toimitusjohtaja registrato di Helsinki Heaven Oy è Sami Mikael Nupponen.",
+  "fonte": "https://www.finder.fi/Agentuuriliike/Helsinki+Heaven+Oy/Vantaa/yhteystiedot/3076150 — \"The company's CEO is Sami Mikael Nupponen\"",
+  "gravita": "alta",
+  "origine": "finlandia_05.json",
+  "referente": "Sami Nupponen",
+  "ruolo": "Toimitusjohtaja (CEO)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Helsingin Kumi Oy",
+  "motivo": "Referente e ruolo vuoti benché il dato sia pubblico: toimitusjohtaja è Tuomas Seppo Pellervo Mäkinen.",
+  "fonte": "https://www.finder.fi/Kumituotteet/Helsingin+Kumi+Oy/Helsinki/yhteystiedot/136590 — 'Yhtiön toimitusjohtaja on Tuomas Seppo Pellervo Mäkinen'",
+  "gravita": "media",
+  "origine": "finlandia_05.json",
+  "referente": "Tuomas Mäkinen",
+  "ruolo": "Toimitusjohtaja (CEO)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Reka Kumi Oy",
+  "motivo": "Referente corretto ma da contestualizzare: Sari Tulander è toimitusjohtaja di Reka Kumi Oy solo 'oman toimensa ohella' dal 11.6.2024, essendo primariamente toimitusjohtaja della capogruppo quotata Reka Industrial Oyj. La decisione di compliance è quindi di gruppo, non di controllata.",
+  "fonte": "https://www.sttinfo.fi/announcement/8897?publisherId=69817735&lang=fi — 'Reka Industrialin toimitusjohtaja Sari Tulander toimii oman toimensa ohella Reka Kumi Oy:n toimitusjohtajana 11.6.2024 alkaen'",
+  "gravita": "media",
+  "origine": "finlandia_05.json",
+  "referente": "Sari Tulander",
+  "ruolo": "Toimitusjohtaja Reka Kumi Oy (e CEO della capogruppo Reka Industrial Oyj)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Veljekset Rönkä Oy",
+  "motivo": "Referente corretto ma recentissimo: Petri Korva è toimitusjohtaja solo dal 12.5.2025 (prima direttore vendite e membro del CdA dal 2019). Nomina da tenere aggiornata perché il cambio è recente.",
+  "fonte": "https://ronka.fi/veljekset-ronka-oyn-toimitusjohtaja-vaihtuu/ — 'Petri Korva became the managing director of Veljekset Rönkä Oy starting May 12, 2025'",
+  "gravita": "bassa",
+  "origine": "finlandia_05.json",
+  "referente": "Petri Korva",
+  "ruolo": "Toimitusjohtaja (dal 12.05.2025)"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "SINTAG GmbH & Co. KG",
+  "motivo": "Campi referente e ruolo VUOTI: il lead non è utilizzabile così. Il registro indica come persona iscritta Ingolf Christian Jacob (Rosengarten, nato 29.10.1971), coerente con l'e-mail censita jacob@sintag.eu; è Geschäftsführer della complementare SINTAG Verwaltungs GmbH.",
+  "fonte": "https://www.unternehmen24.info/Firmeninformationen/Deutschland/Firma/4708283 (SINTAG GmbH & Co. KG, HRA 204176 Tostedt): «registered person Ingolf Christian Jacob, Rosengarten, geb. 29.10.1971 ... jacob@sintag.eu»; https://firmeneintrag.creditreform.de/21224/2151946166/SINTAG_VERWALTUNGS_GMBH",
+  "gravita": "alta",
+  "origine": "germania_04.json",
+  "referente": "Ingolf Christian Jacob",
+  "ruolo": "Geschäftsführer (della complementare SINTAG Verwaltungs GmbH)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Conceria Tolio S.p.A.",
+  "motivo": "Campo vuoto: il vertice attuale è identificabile con certezza dalle fonti di distretto.",
+  "fonte": "https://www.distrettovenetodellapelle.it/soci-distretto-veneto-pelle/concia/conceria-tolio-spa/ — 'Conceria Tolio nasce nel 1962 da un'idea imprenditoriale di Mario Tolio, attuale presidente della società'; i figli Stefano e Monica seguono area commerciale e amministrativa",
+  "gravita": "bassa",
+  "origine": "italia_01.json",
+  "referente": "Mario Tolio",
+  "ruolo": "Presidente"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Itlas Srl Societa Benefit",
+  "motivo": "Referente e ruolo assenti: il vertice e' Patrizio Dei Tos, fondatore e Presidente del Consiglio di Amministrazione.",
+  "fonte": "https://www.edilportale.com/aziende/itlas_619529.html 'fondata da Patrizio Dei Tos, oggi presidente del Consiglio di Amministrazione'",
+  "gravita": "media",
+  "origine": "italia_02.json",
+  "referente": "Patrizio Dei Tos",
+  "ruolo": "Presidente del CdA"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "PALM SpA SB",
+  "motivo": "Referente e ruolo assenti: Primo Barzoni e' Presidente e Amministratore Delegato di PALM S.p.A. SB.",
+  "fonte": "https://www.pefc.it/news/primo-barzoni-di-palm-s-p-a-e-il-nuovo-vice-presidente-di-pefc-italia e https://www.thedotcultura.it/40-anni-di-palm-spa-il-pallet-a-servizio-delle-imprese-parla-primo-barzoni/ 'Primo Barzoni is president and CEO'",
+  "gravita": "media",
+  "origine": "italia_02.json",
+  "referente": "Primo Barzoni",
+  "ruolo": "Presidente e Amministratore Delegato"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Box Marche S.p.A.",
+  "motivo": "Referente e ruolo assenti: Tonino Dominici e' Presidente e Amministratore Delegato di Box Marche.",
+  "fonte": "https://www.este.it/relatori-eventi/tonino-dominici/ e https://www.quotidiano.net/economia/made-in-italy/sostenibilita-e-fattore-umano-fanno-la-differenza-nel-packaging-7d8a0075 'Tonino Dominici, presidente e amministratore delegato di Box Marche'",
+  "gravita": "media",
+  "origine": "italia_02.json",
+  "referente": "Tonino Dominici",
+  "ruolo": "Presidente e Amministratore Delegato"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Cartiera Mantovana S.r.l.",
+  "motivo": "Referente e ruolo assenti. Il vertice attuale e individuabile: Alberto Marenghi, Amministratore Delegato (azienda familiare: la sede legale e in Piazza Franco Marenghi 18, Maglio di Goito). E il contributo piu utile su questo record.",
+  "fonte": "https://www.reportaziende.it/cartiera_mantovana_srl_mn_00152840203 — 'Amministratore delegato: Alberto Marenghi'; sede 'Piazza Franco Marenghi, 18, 46044 Maglio di Goito (MN)'",
+  "gravita": "media",
+  "origine": "italia_03.json",
+  "referente": "Alberto Marenghi",
+  "ruolo": "Amministratore Delegato"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Scatolificio Cartotecnica Schiassi S.r.l.",
+  "motivo": "Il ruolo indicato ('Imprenditrice alla guida dell'azienda') non e una qualifica societaria e non rispetta il formato richiesto per l'Italia. La carica reale di Silvia Magnoni e Presidente e Amministratore Unico. Il nome del referente e corretto: va corretta solo la qualifica.",
+  "fonte": "https://www.impresaitalia.info/ik02748011/scatolificio-cartotecnica-schiassi-srl/castenaso.aspx — 'sotto la guida della presidente e amministratore unico Silvia Magnoni'",
+  "gravita": "media",
+  "origine": "italia_03.json",
+  "referente": "",
+  "ruolo": "Presidente e Amministratore Unico"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Costadoro S.p.A. Società Benefit",
+  "motivo": "Referente e ruolo assenti. Il vertice attuale è Giulio Trombetta, amministratore delegato (famiglia Trombetta: figli Carlotta e Umberto, nipote Federica in azienda).",
+  "fonte": "https://www.torinocronaca.it/news/torino/578588/torino-costadoro-celebra-135-anni-e-prepara-un-piano-di-crescita-fino-a-40-milioni-entro-il-2029.html — «Giulio Trombetta, amministratore delegato ... ha illustrato la strategia»",
+  "gravita": "media",
+  "origine": "italia_04.json",
+  "referente": "Giulio Trombetta",
+  "ruolo": "Amministratore Delegato"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Dersut Caffè S.p.A.",
+  "motivo": "Referente e ruolo assenti. L'AD è l'avv. Lara Caballini di Sassoferrato; il padre Giorgio Caballini di Sassoferrato è Presidente del CdA.",
+  "fonte": "https://www.welfarecare.org/2019/08/02/intervista-all-avv-lara-caballini-di-sassoferrato-amministratore-delegato-dersut-caffe/ ; https://www.comunicaffe.it/lara-caballini/",
+  "gravita": "media",
+  "origine": "italia_04.json",
+  "referente": "Lara Caballini di Sassoferrato",
+  "ruolo": "Amministratore Delegato (Presidente CdA: Giorgio Caballini di Sassoferrato)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Diemme - Industria Caffè Torrefatti S.p.A. (Caffè Diemme)",
+  "motivo": "Referente e ruolo assenti. Il vertice è Gianandrea Dubbini, presidente e amministratore delegato (terza generazione).",
+  "fonte": "https://www.comunicaffe.it/un-sodalizio-al-caffe-caffe-diemme-incorpora-moka-sirs-per-fusione-per-superare-i-30-milioni/ — «Gianandrea Dubbini, presidente e amministratore delegato di Diemme»",
+  "gravita": "media",
+  "origine": "italia_04.json",
+  "referente": "Gianandrea Dubbini",
+  "ruolo": "Presidente e Amministratore Delegato"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Goppion Caffè S.p.A.",
+  "motivo": "Referente e ruolo assenti. AD è Silvia Goppion (terza generazione), insieme ai cugini Paola e Mario; il padre Sergio Goppion è presidente.",
+  "fonte": "https://www.ilgazzettino.it/economia/news/goppion_25_milioni_fatturato_magazzino_investimenti-9030753.html — «Silvia Goppion ... amministratore delegato dell'azienda di famiglia insieme ai cugini Paola e Mario, mentre il padre Sergio è presidente»",
+  "gravita": "media",
+  "origine": "italia_04.json",
+  "referente": "Silvia Goppion",
+  "ruolo": "Amministratore Delegato (Presidente: Sergio Goppion)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Guglielmo S.p.A. (Caffè Guglielmo)",
+  "motivo": "Referente e ruolo assenti. Il vertice attuale è Daniele Rossi, amministratore delegato dell'azienda di famiglia, che guida insieme allo zio Roberto Volpi (presidente) e ai cugini Matteo Tubertini e Beatrice Volpi.",
+  "fonte": "https://www.beverfood.com/torrefazione/guglielmo-spa — «Daniele Rossi è l'amministratore delegato dell'azienda di famiglia, che guida insieme allo zio Roberto Volpi e ai cugini Matteo Tubertini e Beatrice Volpi»; https://en.wikipedia.org/wiki/Guglielmo_Caff%C3%A8 (chairman Roberto Volpi)",
+  "gravita": "media",
+  "origine": "italia_04.json",
+  "referente": "Daniele Rossi",
+  "ruolo": "Amministratore Delegato (Presidente: Roberto Volpi)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Milani S.p.A. (Caffè Milani)",
+  "motivo": "Il referente indicato (Elisabetta Milani) è responsabile marketing, non il legale rappresentante. Il vertice della società è Pierluigi Milani, presidente e amministratore delegato (terza generazione).",
+  "fonte": "https://www.caffemilani.it/approfondimenti/un-caffe-con-pierluigi-milani/ ; scheda torrefattore https://www.beverfood.com/torrefazione/milani-s-p-a",
+  "gravita": "media",
+  "origine": "italia_04.json",
+  "referente": "Pierluigi Milani",
+  "ruolo": "Presidente / Amministratore Delegato (Elisabetta Milani resta utile come contatto marketing)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Musetti S.p.A. (Caffè Musetti)",
+  "motivo": "Il referente indicato (Guido Sicuro Musetti, Presidente) è confermato e attuale, ma l'amministratore delegato operativo del gruppo è Marcello Malguzzi: utile indicarlo come secondo contatto per la decisione di compliance.",
+  "fonte": "https://www.comunicaffe.it/guido-sicuro-musetti-dopo-hostmilano-2025-nel-caffe-serve-piu-cultura-piu-trasparenza-e-una-filiera-pronta-alle-nuove-sfide-globali (Guido Sicuro Musetti presidente, nov. 2025); https://www.alimentando.info/caffe-musetti-acquisisce-il-100-di-caffe-bonomi/ (Marcello Malguzzi AD)",
+  "gravita": "bassa",
+  "origine": "italia_04.json",
+  "referente": "Guido Sicuro Musetti",
+  "ruolo": "Presidente (AD: Marcello Malguzzi)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Oro Caffè S.r.l.",
+  "motivo": "Il ruolo dichiarato («Fondatori/titolari») non è la carica sociale: Stefano Toppano è amministratore delegato di Oro Caffè S.r.l.",
+  "fonte": "https://www.comunicaffe.it/stefano-toppano-orocaffe/ — «Stefano Toppano, amministratore delegato di Oro Caffè srl di Tavagnacco»; https://www.confindustria.ud.it/schede/scheda/8149/stefano-toppano-nuovo-capogruppo-delle-industrie-alimentari-e-bevande-di-confindustria-udine",
+  "gravita": "bassa",
+  "origine": "italia_04.json",
+  "referente": "Stefano Toppano",
+  "ruolo": "Amministratore Delegato"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Quarta Caffè S.p.A.",
+  "motivo": "Il ruolo dichiarato («Titolare») non è la carica sociale: Antonio Quarta è amministratore unico della società (terza generazione; i figli Gaetano ed Edoardo sono la quarta). È inoltre presidente dell'Associazione italiana torrefattori.",
+  "fonte": "https://www.quartacaffe.com/azienda ; https://www.cibotoday.it/storie/quarta-caffe-torrefazione-lecce-edoardo-quarta.html — «Antonio Quarta, amministratore unico»",
+  "gravita": "bassa",
+  "origine": "italia_04.json",
+  "referente": "",
+  "ruolo": "Amministratore Unico"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Sandalj Trading Company S.p.A.",
+  "motivo": "Il referente indicato (Theresa Sandalj, «Titolare/direzione») non risulta essere il legale rappresentante: le fonti indicano Enrico Venuti come presidente e amministratore della società.",
+  "fonte": "https://www.ufficiocamerale.it/8366/sandalj-trading-company-spa ; https://imagazine.it/home_desk/a-enrico-venuti-la-stella-al-merito-del-lavoro/ — «Enrico Venuti, presidente e amministratore della Sandalj Trading Company»",
+  "gravita": "media",
+  "origine": "italia_04.json",
+  "referente": "Enrico Venuti",
+  "ruolo": "Presidente / Amministratore (Theresa Sandalj resta contatto della famiglia proprietaria)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Antica Dolceria Bonajuto S.r.l.",
+  "motivo": "Referente e ruolo assenti. Il titolare/legale rappresentante è Pierpaolo Ruta (sesta generazione della famiglia Bonajuto-Ruta), affiancato dal padre Franco Ruta.",
+  "fonte": "https://en.wikipedia.org/wiki/Antica_Dolceria_Bonajuto ; https://www.bonajuto.it/magazine/fattojo-bonajuto/ — «Pierpaolo Ruta, titolare dell'Antica Dolceria Bonajuto»",
+  "gravita": "media",
+  "origine": "italia_04.json",
+  "referente": "Pierpaolo Ruta",
+  "ruolo": "Titolare / Amministratore"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Guido Gobino S.r.l.",
+  "motivo": "Referente e ruolo assenti. Guido Gobino è fondatore, socio unico e amministratore della società omonima; il fatturato 2024 di 7.878.481 € conferma il dato del foglio.",
+  "fonte": "https://www.ufficiocamerale.it/1632/guido-gobino-srl (P.IVA 02646140018; fatturato 2024 7.878.481 €, utile 276.760 €) ; https://wine.pambianconews.com/2024/05/guido-gobino-ricavi-in-crescita-a-12-mln-e-e-nuovi-investimenti/227293/",
+  "gravita": "media",
+  "origine": "italia_04.json",
+  "referente": "Guido Gobino",
+  "ruolo": "Fondatore e Amministratore (socio unico)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "ZaroCarni S.p.A.",
+  "motivo": "Referente e ruolo assenti. Risulta Rita Boldrini (moglie di Giovanni Zaro, in azienda da 60 anni) come amministratore unico/amministratore delegato; l'azienda e alla terza generazione della famiglia Zaro, fondata da Angelo Zaro.",
+  "fonte": "https://www.varesenews.it/2024/12/zaro-carni-spa-una-tradizione-familiare-che-fa-scuola-nel-mercato-della-carne/2123349/ - \"Rita Boldrini, moglie di Giovanni Zaro, da 60 anni in azienda, e l'amministratore unico\"",
+  "gravita": "media",
+  "origine": "italia_05.json",
+  "referente": "Rita Boldrini",
+  "ruolo": "Amministratore Unico / Amministratore Delegato"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "BeBo Parket B.V.",
+  "motivo": "Referente obsoleto: Frans Bolier e Johan van de Beek (fondatori 2006) hanno ceduto l'azienda nel 2022 alla seconda generazione. La direzione e' oggi di Kees van de Beek e Marielle Zwolsman.",
+  "fonte": "https://www.vloerenbusiness.nl/vloerenspecialist-bebo-overgenomen-door-tweede-generatie/ - frammento: 'Kees van de Beek en Marielle Zwolsman maakten al deel uit van het management van Bebo en blijven het bedrijf leiden na de overdracht'",
+  "gravita": "alta",
+  "origine": "olanda_01.json",
+  "referente": "Kees van de Beek / Marielle Zwolsman",
+  "ruolo": "Directeur"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "OTR Oiltrade B.V.",
+  "motivo": "Referente e ruolo assenti: risulta pubblicamente Lars Schipper come directeur di OTR Oiltrade B.V.",
+  "fonte": "https://www.transfirm.nl/nl/organisatie/24464899-000000435155-otr-oiltrade-b.v. - 'Lars Schipper is directeur'; KVK 24464899, Dieplood 40, 4251 LV Werkendam",
+  "gravita": "media",
+  "origine": "olanda_02.json",
+  "referente": "Lars Schipper",
+  "ruolo": "Directeur"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Akarton B.V.",
+  "motivo": "Referente e ruolo vuoti, ma il directeur persona fisica è pubblicamente noto: Mike Noldus (M. Noldus, in direzione dal 2006, anche nella holding Atlas Packaging Group B.V.). Compilabile.",
+  "fonte": "https://shiftlimburg.nl/en/kennis-innovatie/akarton-first-and-only-european-producer-patented-sustainable-packaging-material — frammento: 'According to director Mike Noldus, Akarton in Venlo is the European producer of the patented Hexpand packaging material'; company.info Atlas Packaging Group B.V.: 'M. Noldus in management sinds 2006'",
+  "gravita": "media",
+  "origine": "olanda_03.json",
+  "referente": "Mike Noldus",
+  "ruolo": "Directeur"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Van Gennip Verpakking B.V.",
+  "motivo": "Il campo referente contiene due nomi ('Michelle en Nick Verdaasdonk') e un ruolo generico ('Eigenaren, quarta generazione') non coerente con la qualifica pubblicata: Nick Verdaasdonk risulta commercieel directeur (nick@gennip.nl). Per un contatto diretto serve un solo referente con ruolo verificato.",
+  "fonte": "https://www.linkedin.com/in/nick-verdaasdonk-75524060/ e https://www.paper-world.com/en/company/van-gennip-verpakking-bv-eindhoven-1260570 — frammento: 'Nick Verdaasdonk is the Commercial Director, and can be reached at nick@gennip.nl'",
+  "gravita": "media",
+  "origine": "olanda_03.json",
+  "referente": "Nick Verdaasdonk",
+  "ruolo": "Commercieel directeur (referente unico)"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Zaadhof's Cartonnage Fabrieken B.V.",
+  "motivo": "Referente incompleto e ruolo impreciso: l'attuale vertice è Jan Meindert Zaadhof (54), directeur, che guida l'azienda insieme alla sorella Karina Wessels (55), quarta generazione. Inoltre il campo dimensione data l'attività al 1951, mentre l'azienda è stata fondata nel 1910 a Nieuwe Pekela (nel 1951 si è solo trasferita a Winschoten).",
+  "fonte": "https://www.rtvnoord.nl/economie/1416341/made-in-grunn-winschoter-familiebedrijf-maakt-jaarlijks-tientallen-miljoenen-verpakkingen — 'Jan Meindert Zaadhof (54) is directeur van Zaadhof Cartonnage en runt het familiebedrijf samen met zijn zus Karina Wessels (55)'; 'overgrootvader begon in 1910 in Nieuwe Pekela ... in 1951 op de huidige locatie aan de Industrieweg'",
+  "gravita": "bassa",
+  "origine": "olanda_03.json",
+  "referente": "Jan Meindert Zaadhof",
+  "ruolo": "Directeur (co-gestione con Karina Wessels); fondazione 1910, sede Winschoten dal 1951"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Zalsman B.V.",
+  "motivo": "Herman Verlind non e' il 'Directeur' operativo ma il DGA / eigenaar (azionista di maggioranza); il directeur indicato dalla stampa di settore e' Gerwin de Vries.",
+  "fonte": "https://printmatters.nl/nieuws/2023/01/06/inclusiekampioen-zalsman-bij-ons-doet-iedereen-ertoe - frammento: 'Herman Verlind serves as DGA (majority shareholder) along with director Gerwin de Vries'; LinkedIn https://nl.linkedin.com/in/herman-verlind-12025719 'Herman Verlind - Owner at Zalsman b.v.'",
+  "gravita": "media",
+  "origine": "olanda_04.json",
+  "referente": "Herman Verlind",
+  "ruolo": "DGA / eigenaar (directeur operativo: Gerwin de Vries)"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Hesselink Koffiesystemen B.V.",
+  "motivo": "Referente e ruolo assenti benche' il vertice sia pubblicamente noto: Gerrit Hesselink, directeur-eigenaar, quarta generazione.",
+  "fonte": "https://www.achterhoeknieuwswinterswijk.nl/nieuws/algemeen/116924/hesselink-koffie-loopt-voorop-in-duurzaamheid- - frammento: 'Directeur-eigenaar Gerrit Hesselink ... fourth generation owner of this family business'",
+  "gravita": "media",
+  "origine": "olanda_04.json",
+  "referente": "Gerrit Hesselink",
+  "ruolo": "Directeur / eigenaar"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Koffiebranderij G. Peeze B.V.",
+  "motivo": "Referente e ruolo assenti benche' il vertice sia pubblicamente noto: Myriam Lufting e' directeur di Peeze (ed entrata nella direzione di Coffee Growth Group).",
+  "fonte": "https://www.consultancy.nl/nieuws/60839/nieuwe-koffie-alliantie-coffee-growth-group-neemt-peeze-over - frammento: 'Myriam Lufting has joined the management of Coffee Growth Group alongside Wouter Jansen van Velsen. Myriam Lufting is the director of Peeze'",
+  "gravita": "media",
+  "origine": "olanda_04.json",
+  "referente": "Myriam Lufting",
+  "ruolo": "Directeur"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "De Euforij Chocolade B.V.",
+  "motivo": "Campo referente/ruolo vuoto benche il dato sia pubblico: directeur e Wouter Koopdonk, che con Isabel Koelewijn detiene il 73% della societa (il resto e distribuito tra investitori privati da crowdfunding).",
+  "fonte": "https://www.crowdfundmarkt.nl/projecten/de-euforij-chocolade-b-v/ - 'De Euforij Chocolade B.V. is voor 73% in handen van ondernemer Wouter Koopdonk en Isabel Koelewijn'; https://www.euforij.nl/over-ons/",
+  "gravita": "media",
+  "origine": "olanda_05.json",
+  "referente": "Wouter Koopdonk",
+  "ruolo": "Directeur (medeoprichter/eigenaar)"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Steenland Chocolate B.V.",
+  "motivo": "Campo referente/ruolo vuoto benche il dato registrale sia disponibile: come Directeur al 2026 risulta P. De Abadal Coulet. Presenti anche recapiti diretti (Burg. van Reenensingel 127, 2803 PA Gouda, tel. +31 182 590 700) mentre il campo email resta 'n.d.'.",
+  "fonte": "https://companyinfo.nl/organisatieprofiel/vervaardiging-van-chocolade-en-suikerwerk/steenland-chocolate-b-v-gouda-24354029-000018029809 - 'P. De Abadal Coulet, Directeur (2026)'; https://www.steenland.nl/contact/",
+  "gravita": "media",
+  "origine": "olanda_05.json",
+  "referente": "P. De Abadal Coulet",
+  "ruolo": "Directeur"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "RIS Rubber N.V.",
+  "motivo": "Campo referente/ruolo vuoto benche il vertice sia pubblico: W. (Wouter) Rietdijk, algemeen directeur/eigenaar, subentrato a Henk Rietdijk (algemeen directeur nel 2007). Azienda familiare.",
+  "fonte": "https://www.dnb.com/business-directory/company-profiles.ris_rubber_nv.d013a99cd92044b0abeaf033f700b9cb.html - 'W. Rietdijk, MD/Chief Operating Officer'; https://prisma-advies.nl/succes/ris-rubber/ - Wouter Rietdijk directeur van RIS; https://www.omroepflevoland.nl/nieuws/53273/chartbeat - Henk Rietdijk algemeen directeur (2007)",
+  "gravita": "media",
+  "origine": "olanda_05.json",
+  "referente": "W. (Wouter) Rietdijk",
+  "ruolo": "Algemeen directeur"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Ruma Rubber B.V.",
+  "motivo": "Il ruolo 'Key principal / Directeur' e una formula da banca dati anglosassone: la carica corretta e algemeen directeur di Ruma Rubber B.V. (John van Haaren, che e anche CEO di Ruma Group). Va inoltre segnalato che Ruma Rubber fa parte di Ruma Group (holding del gruppo familiare, con sedi a Olkusz PL e Dubai): veicolo proprietario dei soci, non controllo di terzi. Il fatturato ~15 M$ resta un dato stimato D&B, non un bilancio depositato.",
+  "fonte": "https://hoogeveenschecourant.nl/zakelijk-nieuws/Ruma-Group-stelt-deuren-open-voor-publiek-We-zijn-de-Champions-League-in-de-wereld-van-rubber-29199540.html - 'John van Haaren, algemeen directeur van Ruma Rubber en CEO van Ruma Group'; https://www.dnb.com/business-directory/company-profiles.ruma_rubber_bv.8b91dcdabf64a6f6e9fbc7005f6b7b30.html",
+  "gravita": "bassa",
+  "origine": "olanda_05.json",
+  "referente": "John (Johannes C.) van Haaren",
+  "ruolo": "Algemeen directeur (CEO Ruma Group)"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Gunnewick Mengvoeders B.V.",
+  "motivo": "Campo referente/ruolo vuoto, ma l'algemeen directeur e' pubblicato dall'azienda: Marc van Uum (in Gunnewick dal giugno 1998, oggi direttore e specialista nutrizione), marc@gunnewick.com. Da notare che NON e' un membro della famiglia Gunnewick.",
+  "fonte": "https://gunnewick.com/148/nl/team e https://www.jobsonline.nl/bedrijfspresentatie/gunnewick-mengvoeders-bv/ - \"Marc van Uum is de Algemeen Directeur van Gunnewick Mengvoeders ... marc@gunnewick.com\"",
+  "gravita": "media",
+  "origine": "olanda_06.json",
+  "referente": "Marc van Uum",
+  "ruolo": "Algemeen directeur"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "P. Bos Mengvoeder- en Kunstmesthandel B.V.",
+  "motivo": "Referente errato/obsoleto: il directeur attuale e' Robert Bos (i figli Pieter, Dirko e Jan Willem sono i successori designati). L'iniziale 'J. Bos' non corrisponde al vertice in carica.",
+  "fonte": "https://www.boerderij.nl/veevoerbedrijven-p-bos-en-van-benthem-samen-verder - \"De zonen van de huidige directeur Robert Bos ... Pieter, Dirko en Jan Willem\"",
+  "gravita": "alta",
+  "origine": "olanda_06.json",
+  "referente": "Robert Bos",
+  "ruolo": "Algemeen directeur"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "DO IT Organic Food Ingredients B.V.",
+  "motivo": "Referente corretto ma da precisare: Hendrik Wijnen guida DO IT Organic dal 2019 insieme a un socio ('leadership transferred to Hendrik Wijnen and his partner'). Il ruolo pubblicamente usato e' 'directeur' (non CEO formalizzato in KVK).",
+  "fonte": "https://www.change.inc/transities/voedsel-transitie/hendrik-wijnen-do-it-organic-biologisch-eten-wordt-de-norm - \"In 2019, leadership transferred to Hendrik Wijnen and his partner\"",
+  "gravita": "bassa",
+  "origine": "olanda_06.json",
+  "referente": "Hendrik Wijnen",
+  "ruolo": "Directeur (co-eigenaar dal 2019)"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Randstad Vleesgroothandel B.V.",
+  "motivo": "Ruolo incoerente: 'Algemeen directrice' e' la forma femminile, mentre il vertice pubblicato dall'azienda e' John van der Arend, indicato come 'Directeur' sulla pagina team (nella versione francese 'Directeur commercial'). L'indicazione per sole iniziali 'J.H.M. van der Arend' non e' quella usata dall'azienda; i proprietari attuali sono piu' d'uno (figli di Leo van der Arend, fondatore 1954).",
+  "fonte": "http://www.randstadvlees.nl/nl/team e https://www.linkedin.com/in/john-van-der-arend-368a5360/ - \"John van der Arend holds the position of Directeur at Randstad vleesgroothandel b.v.\"",
+  "gravita": "media",
+  "origine": "olanda_06.json",
+  "referente": "John van der Arend",
+  "ruolo": "Directeur"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Aktiebolaget Karlaträ",
+  "motivo": "Campo referente e ruolo vuoti benché il dato sia pubblico: VD registrato è Bo Anders Ingemar Larsson.",
+  "fonte": "allabolag.se befattningshavare (556081-8782): «VD för Aktiebolaget Karlaträ är Bo Anders Ingemar Larsson» — https://www.allabolag.se/befattningshavare/aktiebolaget-karlatr%C3%A4/bottnaryd/s%C3%A5gverk/2JYRN8EI5YHTM",
+  "gravita": "media",
+  "origine": "svezia_01.json",
+  "referente": "Bo Anders Ingemar Larsson",
+  "ruolo": "VD (verkställande direktör)"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Baseco Golv Aktiebolag",
+  "motivo": "Campo referente e ruolo vuoti benché il dato sia pubblico: VD registrato è Karl Eskil Marcus Abrahamsson.",
+  "fonte": "allabolag.se befattningar (556295-1953): «VD är Karl Eskil Marcus Abrahamsson» — https://www.allabolag.se/5562951953/befattningar",
+  "gravita": "media",
+  "origine": "svezia_01.json",
+  "referente": "Marcus Abrahamsson",
+  "ruolo": "VD (verkställande direktör)"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Älgsjö Såg AB",
+  "motivo": "Referente e ruolo assenti: lead non nominativo (il campo dimensione lo dichiara correttamente). Le fonti confermano che non è registrato alcun VD; gli unici nominativi sono Jörgen Törnqvist (styrelseledamot) e Åke Törnqvist (styrelsesuppleant). Tutti gli altri dati (137,4 MSEK es. 2025, +13%, 12 dipendenti, capogruppo Älgsjö Invest AB dichiarata) risultano confermati.",
+  "fonte": "allabolag: «Styrelseledamot: Jörgen Törnqvist, Styrelsesuppleant: Åke Törnqvist ... Moderbolaget är Älgsjö Invest AB ... omsättning 137,4 MSEK, +13 %, 12 anställda» — https://www.allabolag.se/5563411577/algsjo-sag-ab",
+  "gravita": "media",
+  "origine": "svezia_03.json",
+  "referente": "Jörgen Törnqvist",
+  "ruolo": "styrelseledamot (in assenza di VD registrato)"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Bording AB",
+  "motivo": "REFERENTE ERRATO. Il VD registrato di Bording AB (org.nr 556239-7090) è Bo Magnus Stefan Gustafsson, non Björn Andersson; ordförande è Bernt Johan Therp.",
+  "fonte": "allabolag/bolagsfakta: «Bolagets VD är Bo Magnus Stefan Gustafsson ... styrelseordförande Bernt Johan Therp» — https://www.allabolag.se/foretag/bording-ab/bor%C3%A5s/tryckerier/2JZPH2AI5YI3L",
+  "gravita": "alta",
+  "origine": "svezia_03.json",
+  "referente": "Stefan Gustafsson",
+  "ruolo": "VD (verkställande direktör)"
+ }
+]
