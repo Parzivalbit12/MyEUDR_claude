@@ -8,21 +8,21 @@ Questo documento elenca **tutto** ciò che cambia rispetto alla v1 (`MyEUDR_Lead
 
 ## 1. Il quadro in numeri
 
-- **286 celle cambiate** su 727 aziende.
+- **313 celle cambiate** su 727 aziende.
 - **2 riga rimossa** (§4).
 - **0 campi svuotati** e **0 record orfani**, verificati cella per cella contro il backup pre-modifica (`verifica_integrita.py`).
 - Ordine degli 8 fogli invariato: Italia, Germania, Finlandia, Danimarca, Svezia, Olanda, Belgio, Austria.
 
 | Campo | Celle | | Foglio | Celle |
 |---|--:|---|---|--:|
-| `dimensione` | 124 | | Svezia | 50 |
-| `email` | 34 | | Germania | 48 |
-| `referente` | 31 | | Italia | 46 |
-| `ruolo` | 29 | | Belgio | 42 |
-| `sito` | 19 | | Olanda | 37 |
-| `linkedin` | 16 | | Danimarca | 28 |
-| `sede` | 15 | | Finlandia | 21 |
-| `filiera` | 8 | | Austria | 14 |
+| `dimensione` | 151 | | Italia | 51 |
+| `email` | 34 | | Germania | 51 |
+| `referente` | 31 | | Svezia | 51 |
+| `ruolo` | 29 | | Belgio | 44 |
+| `sito` | 19 | | Olanda | 38 |
+| `linkedin` | 16 | | Finlandia | 31 |
+| `sede` | 15 | | Danimarca | 31 |
+| `filiera` | 8 | | Austria | 16 |
 | `denominazione` | 6 | |  |  |
 | `fonte` | 4 | |  |  |
 
@@ -320,15 +320,19 @@ Molte proposte erano nella forma «Nome Cognome — Ruolo»: applicate alla lett
 | Foglio | Azienda | Cosa cambia |
 |---|---|---|
 | Austria | CARINI GmbH | sostituito: Fatturato oltre 18 Mio. € nel 2010 (con 123 dipendenti; fonte Wirtschaftszeit.at); dato di fatturato piu' r… |
+| Austria | Flatz GmbH | sostituito: ⚠ FUORI TAGLIA: ca. 72 Mio. € di fatturato e 320 addetti dichiarati dall'azienda — oltre il tetto di ~50 M€… |
 | Austria | Heidi Chocolat AG | aggiunto: Legame di gruppo non dichiarato: l'entità austriaca è la succursale (Niederlassung Österreich) di Heidi Cho… |
 | Austria | Rudolf Frierss & Söhne Fleisc… | aggiunto: Bilanzsumme 13,3 Mio. € al 31.03.2025 (firmenabc.at). |
 | Austria | Salzer Papier GmbH | aggiunto: FN 211554i, LG St.; Pölten. |
+| Austria | Zrunek Gummiwaren Gesellschaf… | sostituito: ⚠ SOTTO SOGLIA: Bilanzsumme 1,74 Mio. € al 31.12.2024, 10-19 dipendenti — sotto il minimo di 5 M€ della for… |
 | Belgio | Corné Port-Royal Chocolatier … | aggiunto: Legame di gruppo non dichiarato: controllata dal gruppo Neuhaus dal 2013, che figura direttamente fra gli a… |
 | Belgio | Corpack NV | aggiunto: N. impresa BE 0452.991.978. 44,3 FTE (bilancio NBB depositato 17-07-2026); fatturato non pubblicato, stimat… |
 | Belgio | Decolvenaere BV | sostituito: Fatturato totale 38.585.036 € nell'ultimo bilancio depositato (deposito NBB del 27-01-2025, quindi esercizi… |
+| Belgio | Emballages Gruselle SRL | sostituito: ⚠ SOTTO SOGLIA: margine lordo 142.075 € — sotto il minimo di 5 M€ della forbice target. Tenuta nel censimen… |
 | Belgio | Euro Meat Group NV | aggiunto: N. impresa BE 0832.292.464. Legame di gruppo: unità della holding Cadus (quattro macelli bovini in Belgio, … |
 | Belgio | Hannecard Benelux NV | aggiunto: Legame di gruppo non dichiarato: è l'entità Benelux del Gruppo Hannecard, che fa capo a Hannecard NV (BE 08… |
 | Belgio | Hexpol Compounding SRL | aggiunto: Legame di gruppo: controllata del gruppo quotato svedese HEXPOL AB (Nasdaq Stockholm) — la compliance EUDR … |
+| Belgio | Koffie St.-Michel NV | sostituito: ⚠ SOTTO SOGLIA: margine lordo 575.000 € con 3 dipendenti (dato 2017) — sotto il minimo di 5 M€ della forbic… |
 | Belgio | Manufacture Belge de Chocolat… | aggiunto: Legame di gruppo non dichiarato: non è una PMI indipendente ma lo stabilimento bruxellese di Godiva, ceduto… |
 | Belgio | Slachthuis Swaegers NV | aggiunto: Il gruppo familiare ha rilevato anche il macello di Bastogne. |
 | Belgio | Slachthuis Velzeke BV | aggiunto: Legame di gruppo: dal 01-01-2025 controllata dalla holding Cadus, che l'ha rilevata da Vion Food Group — st… |
@@ -343,27 +347,40 @@ Molte proposte erano nella forma «Nome Cognome — Ruolo»: applicate alla lett
 | Danimarca | Estate Coffee Copenhagen A/S | sostituito: Bruttofortjeneste 15 mio DKK nel 2024 (~2,01 M€, cambio 7,46; 11 mio DKK nel 2023); fatturato non pubblicat… |
 | Danimarca | Grambogård | aggiunto: Controllata di FoodService Danmark A/S (gruppo Dagrofa). |
 | Danimarca | H. EMBALLAGE ApS | sostituito: Bruttofortjeneste 8.149.124 DKK nel 2024 (~1,09 M€, cambio 7,46), contro 7.847.995 DKK nel 2023; risultato … |
-| Danimarca | H.C. JACOBSEN A/S | aggiunto: Capogruppo BEA HOLDING ApS; presidente CdA Pernille Andersen; distributore di imballaggi ed elastici, FUORI… |
+| Danimarca | H.C. JACOBSEN A/S | sostituito: ⚠ SOTTO SOGLIA: bruttofortjeneste 3,2 mio. DKK (~0,43 M€) — sotto il minimo di 5 M€ della forbice target. T… |
 | Danimarca | HVIDBJERG VINDUET A/S | aggiunto: Capogruppo corretta: la società è controllata dal gruppo ACO Nordic, a sua volta parte del gruppo tedesco A… |
 | Danimarca | KLS PUREPRINT A/S | aggiunto: Controllata (oggi integralmente) di F.; E.; BORDING A/S dopo il riacquisto della quota di Knud Erik Larsen … |
 | Danimarca | KVIST INDUSTRIES A/S | aggiunto: Controllata da KVIST HOLDING A/S, partecipata dal fondo Dansk Ejerkapital; fatturato non pubblicato (bilanc… |
 | Danimarca | La Cabra Risteri ApS (gruppo … | aggiunto: Risultato es. 2025 -2,7 mio.; DKK (virmo.dk, CVR 43681176). |
 | Danimarca | NIELAUS A/S | sostituito: 19 dipendenti (krak.dk/proff.dk, CVR 35480943; il valore '11' riportato altrove si riferisce alla produktio… |
 | Danimarca | NUTRIMIN A/S | aggiunto: Controllata di Nutreco N.V. (gruppo SHV, Paesi Bassi) - Trouw Nutrition, dal 01/12/2021. |
+| Danimarca | Nordic Coffee House ApS | sostituito: ⚠ SOTTO SOGLIA: bruttofortjeneste 3,3 mio. DKK (~0,44 M€), 5-10 dipendenti — sotto il minimo di 5 M€ della … |
 | Danimarca | RG ROM GUMMI A/S | aggiunto: Controllata tramite RGDE ApS, societa in portafoglio del fondo Dansk Ejerkapital. |
+| Danimarca | SKANDINAVISK DÆK IMPORT A/S | sostituito: ⚠ SOTTO SOGLIA: bruttofortjeneste 8,06 M DKK nel 2023 (~1,1 M€), 7 dipendenti — sotto il minimo di 5 M€ del… |
 | Danimarca | SKJERN PAPER A/S (già Skjern … | aggiunto: to su fonte verificabile: con questi volumi è AZIENDA DI CONFINE, plausibilmente sopra i 40 M€ - verificare… |
 | Danimarca | STIBO COMPLETE A/S (già Rosen… | sostituito: Nettoomsaetning 748 mio DKK nell'esercizio 2025 (~100,3 M€, cambio 7,46), con perdita di 33,5 mio DKK dovut… |
-| Danimarca | STOK EMBALLAGE K/S | aggiunto: Il campo nominava solo la capogruppo formale: dal 30.04.2024 STOK Denmark ApS è partecipata in maggioranza … |
+| Danimarca | STOK EMBALLAGE K/S | sostituito: ⚠ FUORI TAGLIA: fatturato reale ca. 92 M€, oltre il tetto di ~50 M€ (il campo dava una stima «>50 M€»). Ten… |
+| Danimarca | TBC INGREDIENTS ApS | sostituito: ⚠ SOTTO SOGLIA: bruttofortjeneste 10,27 M DKK (~1,4 M€), 4-5 addetti — sotto il minimo di 5 M€ della forbic… |
 | Danimarca | TIMBERMAN DENMARK A/S | aggiunto: Controllata del gruppo svedese quotato Volati AB dal dicembre 2024 (in precedenza Corticeira Amorim); Mogen… |
 | Danimarca | TJØRNEHØJ MØLLE A/S | aggiunto: Controllata del gruppo DLG (grande operatore, fuori target lead). |
-| Finlandia | CWP Coloured Wood Products Oy | aggiunto: Controllata di Auroora Yhtiöt Oyj (Tampere) — riqualificare il lead sulla capogruppo o scartare. |
+| Finlandia | BestPak Oy | sostituito: ⚠ SOTTO SOGLIA: liikevaihto ~2,0 M€, 28 dipendenti — sotto il minimo di 5 M€ della forbice target. Tenuta n… |
+| Finlandia | CWP Coloured Wood Products Oy | sostituito: ⚠ SOTTO SOGLIA: 3,4 M€ (2024), in calo dai 4,6 M€ del 2022 — sotto il minimo di 5 M€ della forbice target. … |
+| Finlandia | Esan Levykaluste Oy | sostituito: ⚠ SOTTO SOGLIA: 3,7 M€ e 23 dipendenti (2025) — sotto il minimo di 5 M€ della forbice target. Tenuta nel ce… |
+| Finlandia | FM Timber Oy | sostituito: ⚠ SOPRA LA FORBICE: 42,9-44 M€ (2025) — sopra il tetto di 40 M€ della forbice tollerabile, ma sotto i ~50 M… |
 | Finlandia | Jet-Puu Oy | aggiunto: Legame di gruppo non dichiarato: JET-Puu Oy fa parte di JETTA-Korporaatio (gruppo Jetta-Talo, case prefabbr… |
 | Finlandia | Jospak Oy | sostituito: Liikevaihto 1,9 M€ (2024, +83,3%), 29 dip.; perdita operativa -4,5 M€ (2024, margine -225,5%) e tilikauden … |
+| Finlandia | Kiteen Huonekalutehdas Oy | sostituito: ⚠ SOTTO SOGLIA: liikevaihto 3,1 M€ (2024), 25 dipendenti — sotto il minimo di 5 M€ della forbice target. Te… |
+| Finlandia | Lappiporras Oy | sostituito: ⚠ SOTTO SOGLIA: liikevaihto 2,92 M€ (esercizio chiuso 05/2024, -28,8%), 16 dipendenti — sotto il minimo di … |
+| Finlandia | Luopajärven Saha Oy | sostituito: ⚠ SOTTO SOGLIA: 4,9 M€ (2025, in calo), 18 dipendenti — sotto il minimo di 5 M€ della forbice target. Tenut… |
+| Finlandia | Mahogany Oy | sostituito: ⚠ SOTTO SOGLIA: liikevaihto 1,3 M€ (2024), 17 dipendenti, perdita operativa 183 k€ — sotto il minimo di 5 M… |
+| Finlandia | Metsäpaahtimo (Sampokone Oy) | sostituito: ⚠ SOTTO SOGLIA: liikevaihto 130.000 € — sotto il minimo di 5 M€ della forbice target. Tenuta nel censimento… |
 | Finlandia | Newprint Oy | sostituito: Liikevaihto ~6,0 M€ (ultimo esercizio pubblicato, 2024), 25 dip. (-3,9% sull'anno precedente); liiketoiminn… |
 | Finlandia | Nordic Label Oy Ab | aggiunto: /note: controllata dal gruppo belga Asteria Group (ex Tilgmann Group); compliance decisa a livello di capog… |
 | Finlandia | Oy Orapac Ab | sostituito: 24 dip. (2025), 51 dip. (2024); liiketulos 1,4 M€ (2025) e 1,3-1,5 M€ (2024); liikevaihto NON pubblicato ne… |
 | Finlandia | Sahakuutio Oy | sostituito: Liikevaihto 22,6 M€ (2025), 34 dip.; 17,0 M€ (2024), 35 dip. (Asiakastieto/Proff, Y-tunnus 0167908-6) — in … |
+| Finlandia | Selka Oy | sostituito: ⚠ SOTTO SOGLIA: liikevaihto 1,7 M€ (2024), 14 dipendenti, perdita operativa 45 k€ — sotto il minimo di 5 M€… |
 | Finlandia | Siparila Oy | aggiunto: Legame di gruppo non dichiarato: acquisita dal gruppo estone Thermory (Livonia Partners), che ne detiene il… |
+| Finlandia | Sysmän Ikkuna ja Ovi Oy (Päij… | sostituito: ⚠ SOTTO SOGLIA: 3,8 M€ (2025, +13,6%), 19 dipendenti — sotto il minimo di 5 M€ della forbice target. Tenuta… |
 | Finlandia | Ålands Skogsindustrier Ab | sostituito: Omsättning koncernen 21,8 M€ (2025, +~10%; moderbolaget 17,3 M€), rörelseresultat 0,76 M€; ~49 anställda — … |
 | Germania | Confiserie Burg Lauenstein Gm… | sostituito: Fatturato ~14,0 Mio € e ~150 dipendenti fra full-time e part-time (Die Deutsche Wirtschaft, stima di portal… |
 | Germania | Confiserie Felicitas GmbH | sostituito: Dipendenti: 75 (dato datato dicembre 2024, Bürgschaftsbank Brandenburg / bauernzeitung), in prevalenza donn… |
@@ -380,6 +397,7 @@ Molte proposte erano nella forma «Nome Cognome — Ruolo»: applicate alla lett
 | Germania | H. Heitz Furnierkantenwerk Gm… | aggiunto: Controllata di INDUS Holding AG (gruppo quotato) dal 2016; dato dimensionale da integrare con fonte e anno. |
 | Germania | H.-J. Dres GmbH | sostituito: 11-50 dipendenti (LinkedIn, dato attuale 2025; erano 19 nel 2010 secondo lieferanten.de); azienda fondata n… |
 | Germania | Hannoversche Kartonagenfabrik… | sostituito: 10-49 dipendenti (Creditreform, 2025; wer-zu-wem indica ~30); azienda familiare di medie dimensioni fondata… |
+| Germania | Henry Lamotte Oils GmbH | sostituito: ⚠ FUORI TAGLIA: fatturato 138,4 Mio. € (2023), oltre tre volte il tetto di ~50 M€; >200 dipendenti. Impresa… |
 | Germania | Lederfabrik Josef Heinen GmbH… | sostituito: ~100 dipendenti nello stabilimento di Wegberg (sito aziendale heinen-leather.de, 2025); fatturato: 35 Mio €… |
 | Germania | Lindner Kartonagen GmbH | aggiunto: duzione a Diepenau dal 1969). 73 dipendenti (Implisense, dati registro/Bundesanzeiger, ultimo aggiornamento… |
 | Germania | MaTec Gummiwerk GmbH | sostituito: Bilanzsumme (totale di bilancio) 3 Mio € nell'esercizio 2023 (ultimo pubblicato, Bundesanzeiger via Implise… |
@@ -391,15 +409,23 @@ Molte proposte erano nella forma «Nome Cognome — Ruolo»: applicate alla lett
 | Germania | Schmidt & Thürmer Holzhandlun… | sostituito: ~130 dipendenti (2024-2025, Die Deutsche Wirtschaft / sito aziendale), 5 sedi in Meclemburgo-Pomerania, fon… |
 | Germania | Schorn & Groh GmbH | sostituito: ~85 dipendenti (sito aziendale sg-veneers.com, 2025), 2ª generazione, fondata 1961; 8 mln m² di tranciati a… |
 | Germania | W. Machwitz GmbH (Machwitz Ka… | sostituito: Torrefazione regionale, gegr. 1883 a Danzica, sede Hannover dal 1919, 2ª/3ª gen. (Jörg-Walter e Maximilian … |
+| Germania | Weber & Schaer GmbH & Co. KG | sostituito: ⚠ FUORI TAGLIA: fatturato stimato ca. 75 Mio. €, oltre il tetto di ~50 M€; >100 dipendenti (gruppo). Import… |
 | Germania | Weibler Confiserie Chocolater… | aggiunto: Controllata di United Chocolate GmbH (Beherrschungs-/Gewinnabführungsvertrag) — non di Halloren. |
+| Germania | ecopell GmbH | sostituito: ⚠ SOTTO SOGLIA: totale di bilancio ~900 mila € (2023, -20,1%) — sotto il minimo di 5 M€ della forbice targe… |
 | Italia | Amedei S.r.l. | aggiunto: Legame di gruppo non dichiarato: dall'agosto 2017 il 99% del capitale è di Ferrarelle S.p.A. Società Benefi… |
+| Italia | Antica Dolceria Bonajuto S.r.… | sostituito: ⚠ SOTTO SOGLIA: fatturato ~2,7 mln € — sotto il minimo di 5 M€ della forbice target. Tenuta nel censimento … |
+| Italia | Caffè River S.p.A. | sostituito: ⚠ SOTTO SOGLIA: ricavi 4.041.633 € nel bilancio 2024, con una perdita di 254.359 € — sotto il minimo di 5 M… |
+| Italia | Cortal Extrasoy S.p.A. | sostituito: ⚠ FUORI TAGLIA: 59.292.815 € nel 2024 (utile 2.866.674 €), 50-99 dipendenti — sopra il tetto di ~50 M€. PMI… |
 | Italia | Fratelli Berti Legnami S.r.l. | sostituito: Fatturato 5.937.871 € (2024), in calo dai 6.546.179 € del 2023 e dai 7.872.713 € del 2021; perdita d'eserci… |
 | Italia | GranCarni S.p.A. | aggiunto: Legame di gruppo: società soggetta a direzione e coordinamento di Gruppo Balletta S.p.A. |
+| Italia | I.P.S.A. S.p.A. (Prodotti Spe… | sostituito: ⚠ FUORI TAGLIA: 61.262.679 € di ricavi nel bilancio 2024 (+9% sul 2023), ca. 60 dipendenti — sopra il tetto… |
 | Italia | PBA S.r.l. (PBA Italia Nutriz… | sostituito: Fatturato 44.097.825 € (ultimo bilancio disponibile, esercizio 2024 pubblicato 2025); utile 332.730 €; 53 d… |
+| Italia | Slitti S.r.l. | sostituito: ⚠ SOTTO SOGLIA: fatturato ~4 mln € (2024) — sotto il minimo di 5 M€ della forbice target. Tenuta nel censim… |
 | Italia | Zalf S.p.A. (Zalf Industria M… | aggiunto: /note: 'societa' del Gruppo Euromobil (marchi Euromobil, Zalf, Desiree) - decisione EUDR a livello di capog… |
 | Olanda | Bocca Coffee B.V. | aggiunto: Acquisizione di Single Estate Coffee Roasters da Cavesco; fatturato e organico da riaggiornare post-operazi… |
 | Olanda | Chocolatemakers B.V. | aggiunto: Legame di gruppo: dal 2025 confluita in The Chocolate Impact Group (fusione con Hands Off; marchi Chocolate… |
 | Olanda | Continental Chocolate B.V. | aggiunto: Legame di gruppo non dichiarato: acquisita nel maggio 2009 dal gruppo belga Baronie (Baronie-de Heer B.V., … |
+| Olanda | DO IT Organic Food Ingredient… | sostituito: ⚠ FUORI TAGLIA: il gruppo DO IT Organic comunica ca. 125 milioni di € di fatturato con 110 dipendenti, oltr… |
 | Olanda | L. Verhoeven's Emballagefabri… | aggiunto: Struttura di gruppo non dichiarata: opera in gruppo con la consociata Zagerij Verhoeven (Harskamp), Kist&Co… |
 | Olanda | Papierfabriek Schut B.V. | aggiunto: fascia bassa del target (specialty paper, alto valore unitario). |
 | Olanda | Simon Levelt B.V. | sostituito: Fatturato della BV NON pubblicato (bilancio abbreviato; accesso premium su company.info). Serie storica di … |
@@ -417,6 +443,7 @@ Molte proposte erano nella forma «Nome Cognome — Ruolo»: applicate alla lett
 | Svezia | Delicato Bakverk Aktiebolag | aggiunto: Moderbolag diretto Belveens Bageri AB; capogruppo di vertice Eldkvarn AB (gruppo di 8 societa)'. |
 | Svezia | Drömtrappor AB | aggiunto: Moderbolag Förvaltnings AB Klätterbjörken; fatturato in calo da 126,4 MSEK (2024) a 83,2 MSEK (2025). |
 | Svezia | Econopack Aktiebolag | aggiunto: Capogruppo operativa S-Pack AB (aPak AB, Crispo Paper AB, Econopack AB); capogruppo ultima Lameja Invest AB… |
+| Svezia | Forsbecks Eftr. Aktiebolag | sostituito: ⚠ SOPRA LA FORBICE: 505.457 KSEK (~44,7 M€) nell'esercizio 2024 — sopra il tetto di 40 M€ della forbice tol… |
 | Svezia | Glimakra of Sweden AB | aggiunto: Controllata di Garpco Aktiebolag (dal 2007), koncern di 25 società / 311 addetti / 667 MSEK. |
 | Svezia | Grahns Konfektyr AB | aggiunto: Controllata dal gruppo quotato Humble Group AB - compliance decisa a livello di capogruppo. Esercizio 2024 … |
 | Svezia | Hjältevadshus AB | aggiunto: Perdita d'esercizio 2025 (marginalità -32,6%); koncern Pulsen AB, 56 società. |
@@ -444,7 +471,7 @@ Molte proposte erano nella forma «Nome Cognome — Ruolo»: applicate alla lett
 | Svezia | ZilenZio AB | aggiunto: Capogruppo ZilenZio Selling Silence AB / Easier AB. |
 | Svezia | Åsljunga Pallen Aktiebolag | aggiunto: Capogruppo Åsljunga-Pallen Service Aktiebolag (org.nr 556398-3211). |
 
-*124 celle.*
+*151 celle.*
 
 ### 3.7 Sede
 
@@ -483,6 +510,56 @@ Non produce piu'. A meta' 2021 Scandinavian Print Group ha rilevato clienti e co
 > Fonte: Riverifica lotto E — «Scandinavian Print Group took over customers, contracts, and a total of seven employees. Over 20 employees at the printing facility were laid off due to the acquisition. The production in Kalmar was discontinued.»
 
 Nessun'altra riga è stata tolta. In particolare **non** è stato rimosso nessun fuori taglia: STOK Emballage (92 M€), Flatz (72 M€), DO IT (~125 M€) e Henry Lamotte (138 M€) restano nei fogli come rilievi aperti, perché la taglia non è fra le categorie che il mandato autorizza a correggere d'ufficio. È una decisione che spetta al cliente.
+
+---
+
+## 4-bis. Fuori taglia — la decisione del cliente
+
+Il mandato non autorizza a togliere una riga per la sola dimensione, quindi la scelta è stata posta al cliente. **Ha deciso di tenere tutti i record, con un'avvertenza esplicita nel campo `Dimensione`**: nessuna rimozione per taglia, ma nessun dato che resti ambiguo.
+
+**Sopra il tetto (9 record).** L'avvertenza apre il campo e porta la cifra reale: in diversi casi il valore che c'era era sbagliato, assente o obsoleto — su Flatz era errato di un fattore quattro (~17 Mio. € contro 72 reali) e il campo concludeva perfino «IN TARGET».
+
+| Foglio | Azienda | Cifra accertata |
+|---|---|---|
+| Austria | Flatz GmbH | ca. 72 Mio. € di fatturato e 320 addetti dichiarati dall'azienda — oltre il tetto di ~50 M€. Il dato precedent |
+| Germania | Henry Lamotte Oils GmbH | fatturato 138,4 Mio. € (2023), oltre tre volte il tetto di ~50 M€; >200 dipendenti. Impresa familiare; tratta |
+| Germania | Weber & Schaer GmbH & Co. KG | fatturato stimato ca. 75 Mio. €, oltre il tetto di ~50 M€; >100 dipendenti (gruppo). Importatore di gomma natu |
+| Italia | I.P.S.A. S.p.A. (Prodotti Special… | 61.262.679 € di ricavi nel bilancio 2024 (+9% sul 2023), ca. 60 dipendenti — sopra il tetto di ~50 M€; il dato |
+| Italia | Cortal Extrasoy S.p.A. | 59.292.815 € nel 2024 (utile 2.866.674 €), 50-99 dipendenti — sopra il tetto di ~50 M€. PMI indipendente speci |
+| Danimarca | STOK EMBALLAGE K/S | fatturato reale ca. 92 M€, oltre il tetto di ~50 M€ (il campo dava una stima «>50 M€»). Tenuta nel censimento |
+| Olanda | DO IT Organic Food Ingredients B.… | il gruppo DO IT Organic comunica ca. 125 milioni di € di fatturato con 110 dipendenti, oltre tre volte il tett |
+| Svezia | Forsbecks Eftr. Aktiebolag | 505.457 KSEK (~44,7 M€) nell'esercizio 2024 — sopra il tetto di 40 M€ della forbice tollerabile, ma sotto i ~5 |
+| Finlandia | FM Timber Oy | 42,9-44 M€ (2025) — sopra il tetto di 40 M€ della forbice tollerabile, ma sotto i ~50 M€ di esclusione. Il cam |
+
+**Sotto la soglia dei 5 M€ (21 record).** Stessa forma: cifra accertata più la ragione per cui il record resta (copertura di filiera dove il mercato non offre di meglio — torrefazioni nordiche, cioccolato bean-to-bar, concia).
+
+| Foglio | Azienda | Cifra accertata |
+|---|---|---|
+| Finlandia | Lappiporras Oy | liikevaihto 2,92 M€ (esercizio chiuso 05/2024, -28,8%), 16 dipendenti |
+| Finlandia | Mahogany Oy | liikevaihto 1,3 M€ (2024), 17 dipendenti, perdita operativa 183 k€ |
+| Finlandia | Selka Oy | liikevaihto 1,7 M€ (2024), 14 dipendenti, perdita operativa 45 k€ |
+| Finlandia | BestPak Oy | liikevaihto ~2,0 M€, 28 dipendenti |
+| Finlandia | Metsäpaahtimo (Sampokone Oy) | liikevaihto 130.000 € |
+| Finlandia | CWP Coloured Wood Products Oy | 3,4 M€ (2024), in calo dai 4,6 M€ del 2022 |
+| Finlandia | Esan Levykaluste Oy | 3,7 M€ e 23 dipendenti (2025) |
+| Finlandia | Kiteen Huonekalutehdas Oy | liikevaihto 3,1 M€ (2024), 25 dipendenti |
+| Finlandia | Sysmän Ikkuna ja Ovi Oy (Päijänne… | 3,8 M€ (2025, +13,6%), 19 dipendenti |
+| Finlandia | Luopajärven Saha Oy | 4,9 M€ (2025, in calo), 18 dipendenti |
+| Italia | Antica Dolceria Bonajuto S.r.l. | fatturato ~2,7 mln € |
+| Italia | Caffè River S.p.A. | ricavi 4.041.633 € nel bilancio 2024, con una perdita di 254.359 € |
+| Italia | Slitti S.r.l. | fatturato ~4 mln € (2024) |
+| Danimarca | TBC INGREDIENTS ApS | bruttofortjeneste 10,27 M DKK (~1,4 M€), 4-5 addetti |
+| Danimarca | Nordic Coffee House ApS | bruttofortjeneste 3,3 mio. DKK (~0,44 M€), 5-10 dipendenti |
+| Danimarca | H.C. JACOBSEN A/S | bruttofortjeneste 3,2 mio. DKK (~0,43 M€) |
+| Danimarca | SKANDINAVISK DÆK IMPORT A/S | bruttofortjeneste 8,06 M DKK nel 2023 (~1,1 M€), 7 dipendenti |
+| Austria | Zrunek Gummiwaren Gesellschaft m.… | Bilanzsumme 1,74 Mio. € al 31.12.2024, 10-19 dipendenti |
+| Germania | ecopell GmbH | totale di bilancio ~900 mila € (2023, -20,1%) |
+| Belgio | Emballages Gruselle SRL | margine lordo 142.075 € |
+| Belgio | Koffie St.-Michel NV | margine lordo 575.000 € con 3 dipendenti (dato 2017) |
+
+Restano **senza avvertenza numerica** i record per cui la fonte dice solo «presumibilmente» o «verosimilmente» sotto soglia (impuls Kaffeemanufaktur, Edelmond Chocolatiers, Dresdner Kaffee, Confiserie Wenschitz): anche un'avvertenza è un dato, e non si scrive un dato non verificato. Restano rilievi aperti.
+
+Nel setacciare questi record sono emersi quattro **falsi allarmi di taglia**, dove era il rilievo a sbagliare: Sopraco NV (8,9 M€) e Mellano Oy (8,6 M€) sono in forbice, non sotto; su HCS Hamburg Cocoa e Rörvikshus il rilievo non riguardava affatto la dimensione.
 
 ---
 

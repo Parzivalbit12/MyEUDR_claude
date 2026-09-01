@@ -716,7 +716,7 @@ stessa azienda si annullavano a vicenda — succedeva a Grahns Konfektyr e Lilje
 
 ### Esito
 
-**726 aziende** (da 728), 8 fogli nell'ordine giusto, **286 celle cambiate**, **0 campi svuotati**
+**726 aziende** (da 728), 8 fogli nell'ordine giusto, **313 celle cambiate**, **0 campi svuotati**
 e **0 record orfani**, verificati cella per cella contro il backup pre-modifica dopo ogni lotto.
 Controlli deterministici sulla v2: **0 entità HTML, 0 email malformate, 0 URL non validi, 0 fonti
 vuote**.
@@ -728,7 +728,7 @@ vuote**.
 | Referente | 575 (78%) | **596 (82%)** |
 | LinkedIn | 293 (40%) | **305 (42%)** |
 
-Le celle cambiate per campo: dimensione 124, email 34, referente 31, ruolo 29, sito 19, LinkedIn 16,
+Le celle cambiate per campo: dimensione 151, email 34, referente 31, ruolo 29, sito 19, LinkedIn 16,
 sede 15, filiera 8, denominazione 6, fonte 4.
 
 ### Le due righe rimosse — e le molte non rimosse
@@ -772,10 +772,40 @@ vecchio della serie, non il più recente.
 
 ### Cosa resta al cliente
 
-Dei 100 rilievi `alta` che avevano una correzione proposta ancora aperta, **56 hanno prodotto una
-correzione nel foglio** e **44 restano aperti**: 12 sono legami di gruppo **già dichiarati** nel
-campo (decisione di selezione, non errore di dato), 9 fuori taglia, 5 operatore/commerciante e 18
-un dato datato o incompleto che nessuna fonte ha permesso di chiudere.
+Dei 100 rilievi `alta` che avevano una correzione proposta ancora aperta, **67 hanno prodotto una
+correzione nel foglio** e **33 restano aperti**: 10 sono legami di gruppo **già dichiarati** nel
+campo (decisione di selezione, non errore di dato), 5 operatore/commerciante e 18 un dato datato o
+incompleto che nessuna fonte ha permesso di chiudere. **Nessuno resta aperto per la taglia.**
+
+### PASSO 4 — le tre categorie, chiuse
+
+**(a) Legami di gruppo non dichiarati o con capogruppo sbagliata → corretti.** 19 record. Per la
+§3 del report sono errori di dato, non decisioni di selezione. Fra questi i quattro che
+**affermavano un'indipendenza che non c'è** — il sottoinsieme più grave: Tärnsjö Garveri
+(«principale conceria indipendente», ha moderbolag Axel Bodéns Handels AB), Skjern Paper
+(«indipendente danese dal 2005», acquisita da SONOCO), Papierfabriek Schut («cartiera indipendente
+dal 1618», nel gruppo Exacompta Clairefontaine dal 1998) e Billes Tryckeri («tipografia
+indipendente», moderbolag Billes Tryckeri Holding AB, mentre la società citata nel campo è un
+veicolo immobiliare). Lì il foglio non taceva un dato: ne affermava uno falso, e aggiungere una
+clausola avrebbe lasciato la cella in contraddizione con se stessa — è stata corretta
+l'affermazione. Su **Hvidbjerg Vinduet** la capogruppo indicata era proprio quella sbagliata.
+
+**(b) Fuori taglia → chiesto al cliente, che ha scelto di tenerli con avvertenza.** Nessuna
+rimozione per dimensione. 9 record sopra il tetto (Henry Lamotte 138,4 M€ · DO IT ~125 · STOK 92 ·
+Weber & Schaer ~75 · Flatz 72 · I.P.S.A. 61,3 · Cortal Extrasoy 59,3 · Forsbecks ~44,7 ·
+FM Timber 42,9-44) e 21 sotto i 5 M€ ora aprono il campo `Dimensione` con un'avvertenza esplicita
+e la **cifra accertata**. In diversi casi il valore che c'era era sbagliato: su **Flatz** era
+errato di un fattore quattro (~17 Mio. € contro 72 reali) e il campo concludeva «IN TARGET».
+Restano senza avvertenza numerica i record per cui la fonte dice solo «presumibilmente» sotto
+soglia: anche un'avvertenza è un dato, e non si scrive un dato non verificato.
+
+⚠ Setacciando questi record sono emersi **quattro falsi allarmi di taglia**, dove sbagliava il
+rilievo: Sopraco NV (8,9 M€) e Mellano Oy (8,6 M€) sono in forbice, non sotto; su HCS Hamburg
+Cocoa e Rörvikshus il rilievo non riguardava affatto la dimensione.
+
+**(c) Operatore vs commerciante → lasciati e segnalati.** I dieci record restano invariati:
+stabilire se un commerciante sia «operatore» ai sensi dell'EUDR è una valutazione **giuridica**,
+non un dato verificabile a fonte.
 
 Il PASSO 4 categoria (a) è stato chiuso: **19 legami di gruppo non dichiarati o con capogruppo
 sbagliata** sono stati corretti nel campo `Dimensione`, perché per la §3 del report sono errori di

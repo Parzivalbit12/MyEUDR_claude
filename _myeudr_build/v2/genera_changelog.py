@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Genera _myeudr_build/verifica/CORREZIONI_V2.md dalle tabelle di correzione e dal
 diff cella per cella fra v1 e v2. Rieseguibile: il documento e' sempre allineato ai dati."""
-import collections, json, os, datetime
+import collections, json, os, re, datetime
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 BUILD = os.path.dirname(HERE); REPO = os.path.dirname(BUILD)
@@ -20,6 +20,8 @@ ag_gen    = carica("correzioni_v2_agenti.json")
 ag_ref    = carica("correzioni_v2_agenti_ref.json")
 dimens    = carica("correzioni_v2_dimensione.json")
 gruppi    = carica("correzioni_v2_gruppi.json") + carica("correzioni_v2_passo4.json")
+tg_sopra  = carica("correzioni_v2_taglia_sopra.json")
+tg_sotto  = carica("correzioni_v2_taglia_sotto.json")
 sede_tab  = carica("correzioni_v2_sede.json")
 residui   = carica("correzioni_v2_residui.json")
 rimozioni = carica("rimozioni_v2.json")
@@ -32,7 +34,8 @@ non_app   = carica("agenti_non_applicati.json")
 classif   = carica("classificato.json")
 
 MOTIVO = {}          # (foglio, denominazione, campo) -> (motivo, fonte)
-for tab in (manuali, generiche, referenti, ag_gen, ag_ref, dimens, gruppi, sede_tab, residui):
+for tab in (manuali, generiche, referenti, ag_gen, ag_ref, dimens, gruppi, sede_tab,
+            residui, tg_sopra, tg_sotto):
     for c in tab:
         campi = [c["campo"]] if "campo" in c else ["referente", "ruolo"]
         for k in campi:
@@ -201,6 +204,37 @@ w("Nessun'altra riga è stata tolta. In particolare **non** è stato rimosso nes
   "taglia: STOK Emballage (92 M€), Flatz (72 M€), DO IT (~125 M€) e Henry Lamotte (138 M€) "
   "restano nei fogli come rilievi aperti, perché la taglia non è fra le categorie che il "
   "mandato autorizza a correggere d'ufficio. È una decisione che spetta al cliente.\n")
+
+w("---\n")
+w("## 4-bis. Fuori taglia — la decisione del cliente\n")
+w("Il mandato non autorizza a togliere una riga per la sola dimensione, quindi la scelta è stata "
+  "posta al cliente. **Ha deciso di tenere tutti i record, con un'avvertenza esplicita nel campo "
+  "`Dimensione`**: nessuna rimozione per taglia, ma nessun dato che resti ambiguo.\n")
+w(f"**Sopra il tetto ({len(tg_sopra)} record).** L'avvertenza apre il campo e porta la cifra reale: "
+  "in diversi casi il valore che c'era era sbagliato, assente o obsoleto — su Flatz era errato di "
+  "un fattore quattro (~17 Mio. € contro 72 reali) e il campo concludeva perfino «IN TARGET».\n")
+w("| Foglio | Azienda | Cifra accertata |")
+w("|---|---|---|")
+for c in tg_sopra:
+    m = re.match(r"⚠ [A-Z ]+:\s*(.{0,110})", str(c["a"]))
+    w(f"| {c['foglio']} | {taglia(c['denominazione'],34)} | {taglia(m.group(1) if m else '', 110)} |")
+w("")
+w(f"**Sotto la soglia dei 5 M€ ({len(tg_sotto)} record).** Stessa forma: cifra accertata più la "
+  "ragione per cui il record resta (copertura di filiera dove il mercato non offre di meglio — "
+  "torrefazioni nordiche, cioccolato bean-to-bar, concia).\n")
+w("| Foglio | Azienda | Cifra accertata |")
+w("|---|---|---|")
+for c in tg_sotto:
+    m = re.match(r"⚠ SOTTO SOGLIA:\s*(.{0,100}?)\s*—", str(c["a"]))
+    w(f"| {c['foglio']} | {taglia(c['denominazione'],34)} | {taglia(m.group(1) if m else '', 100)} |")
+w("")
+w("Restano **senza avvertenza numerica** i record per cui la fonte dice solo «presumibilmente» o "
+  "«verosimilmente» sotto soglia (impuls Kaffeemanufaktur, Edelmond Chocolatiers, Dresdner Kaffee, "
+  "Confiserie Wenschitz): anche un'avvertenza è un dato, e non si scrive un dato non verificato. "
+  "Restano rilievi aperti.\n")
+w("Nel setacciare questi record sono emersi quattro **falsi allarmi di taglia**, dove era il "
+  "rilievo a sbagliare: Sopraco NV (8,9 M€) e Mellano Oy (8,6 M€) sono in forbice, non sotto; "
+  "su HCS Hamburg Cocoa e Rörvikshus il rilievo non riguardava affatto la dimensione.\n")
 
 w("---\n")
 w("## 5. La riverifica dei casi con riserva (PASSO 3)\n")

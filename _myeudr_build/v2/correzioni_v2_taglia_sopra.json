@@ -1,0 +1,101 @@
+[
+ {
+  "foglio": "Austria",
+  "denominazione": "Flatz GmbH",
+  "campo": "dimensione",
+  "da": "Fatturato stimato ca. 18,4 Mio. USD (~17 Mio. €) - 96 dipendenti (fonte profilo RocketReach, dato stimato); azienda attiva dal 1935, uno dei principali produttori austriaci di imballaggi in cartone ondulato. Firmenbuch FN 136639s, LG Feldkirch. IN TARGET 10-20 M€. 4 stabilimenti a Lauterach (Funkenstraße 6/11, Scheibenstraße 20). Impresa familiare indipendente; Hans-Peter Flatz indicato come co-Geschäftsführer in fonti di stampa.",
+  "a": "⚠ FUORI TAGLIA: ca. 72 Mio. € di fatturato e 320 addetti dichiarati dall'azienda — oltre il tetto di ~50 M€. Il dato precedente (~17 Mio. €, profilo RocketReach) era errato di un fattore quattro. Attiva dal 1935, fra i principali produttori austriaci di imballaggi in cartone ondulato. Firmenbuch FN 136639s, LG Feldkirch. Tenuta nel censimento su decisione del cliente.",
+  "motivo": "Fuori taglia: il cliente ha scelto di tenere il record con avvertenza esplicita invece di rimuoverlo. La cifra nel campo era errata, assente o obsoleta.",
+  "fonte": "Rilievo di Fase B sul campo dimensione, con evidenza a fonte",
+  "gravita": "alta",
+  "origine": "passo4_taglia"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Henry Lamotte Oils GmbH",
+  "campo": "dimensione",
+  "da": ">200 MA; familiare; tratta olio di palma, palmisto, oleina, stearina — fascia alta",
+  "a": "⚠ FUORI TAGLIA: fatturato 138,4 Mio. € (2023), oltre tre volte il tetto di ~50 M€; >200 dipendenti. Impresa familiare; tratta olio di palma, palmisto, oleina e stearina — lead EUDR rilevante ma fuori dalla forbice di taglia. Tenuta nel censimento su decisione del cliente.",
+  "motivo": "Fuori taglia: il cliente ha scelto di tenere il record con avvertenza esplicita invece di rimuoverlo. La cifra nel campo era errata, assente o obsoleta.",
+  "fonte": "Rilievo di Fase B sul campo dimensione, con evidenza a fonte",
+  "gravita": "alta",
+  "origine": "passo4_taglia"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Weber & Schaer GmbH & Co. KG",
+  "campo": "dimensione",
+  "da": ">100 MA (gruppo), Umsatz n.d.; importatore gomma naturale — lead EUDR chiave",
+  "a": "⚠ FUORI TAGLIA: fatturato stimato ca. 75 Mio. €, oltre il tetto di ~50 M€; >100 dipendenti (gruppo). Importatore di gomma naturale — lead EUDR chiave ma fuori dalla forbice di taglia. Tenuta nel censimento su decisione del cliente.",
+  "motivo": "Fuori taglia: il cliente ha scelto di tenere il record con avvertenza esplicita invece di rimuoverlo. La cifra nel campo era errata, assente o obsoleta.",
+  "fonte": "Rilievo di Fase B sul campo dimensione, con evidenza a fonte",
+  "gravita": "alta",
+  "origine": "passo4_taglia"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "I.P.S.A. S.p.A. (Prodotti Speciali per l'Alimentazione)",
+  "campo": "dimensione",
+  "da": "~56 mln € — sopra soglia, PMI indip.; oli/grassi incl. palma raffinato",
+  "a": "⚠ FUORI TAGLIA: 61.262.679 € di ricavi nel bilancio 2024 (+9% sul 2023), ca. 60 dipendenti — sopra il tetto di ~50 M€; il dato precedente (~56 mln €) era obsoleto. PMI indipendente; oli e grassi, incluso palma raffinato. Tenuta nel censimento su decisione del cliente.",
+  "motivo": "Fuori taglia: il cliente ha scelto di tenere il record con avvertenza esplicita invece di rimuoverlo. La cifra nel campo era errata, assente o obsoleta.",
+  "fonte": "Rilievo di Fase B sul campo dimensione, con evidenza a fonte",
+  "gravita": "alta",
+  "origine": "passo4_taglia"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Cortal Extrasoy S.p.A.",
+  "campo": "dimensione",
+  "da": "~59,3 mln € (2024); 50-99 dip. — sopra soglia ma PMI indip. specializzata in soia",
+  "a": "⚠ FUORI TAGLIA: 59.292.815 € nel 2024 (utile 2.866.674 €), 50-99 dipendenti — sopra il tetto di ~50 M€. PMI indipendente specializzata in soia. Tenuta nel censimento su decisione del cliente.",
+  "motivo": "Fuori taglia: il cliente ha scelto di tenere il record con avvertenza esplicita invece di rimuoverlo. La cifra nel campo era errata, assente o obsoleta.",
+  "fonte": "Rilievo di Fase B sul campo dimensione, con evidenza a fonte",
+  "gravita": "alta",
+  "origine": "passo4_taglia"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "STOK EMBALLAGE K/S",
+  "campo": "dimensione",
+  "da": "100-200 dipendenti complessivi (62 a Langeskov, 10 a Vejle); bruttofortjeneste 146 mio DKK nel 2024 (~19,6 M€ di solo margine lordo). CVR 16427284, NACE 172100, Erik Stoks Allé 4. Capogruppo STOK Denmark ApS. AZIENDA DI CONFINE / SOPRA FASCIA: il fatturato è verosimilmente >50 M€ - da verificare prima del contatto, potenzialmente da escludere. Il campo nominava solo la capogruppo formale: dal 30.04.2024 STOK Denmark ApS è partecipata in maggioranza dal fondo di private equity statunitense A&M Capital Europe.",
+  "a": "⚠ FUORI TAGLIA: fatturato reale ca. 92 M€, oltre il tetto di ~50 M€ (il campo dava una stima «>50 M€»). Tenuta nel censimento su decisione del cliente. 100-200 dipendenti complessivi (62 a Langeskov, 10 a Vejle); bruttofortjeneste 146 mio DKK nel 2024 (~19,6 M€ di solo margine lordo). CVR 16427284, NACE 172100, Erik Stoks Allé 4. Capogruppo STOK Denmark ApS. AZIENDA DI CONFINE / SOPRA FASCIA: il fatturato è verosimilmente >50 M€ - da verificare prima del contatto, potenzialmente da escludere. Il campo nominava solo la capogruppo formale: dal 30.04.2024 STOK Denmark ApS è partecipata in maggioranza dal fondo di private equity statunitense A&M Capital Europe.",
+  "motivo": "Fuori taglia: il cliente ha scelto di tenere il record con avvertenza esplicita invece di rimuoverlo.",
+  "fonte": "Rilievo di Fase B sul campo dimensione, con evidenza a fonte",
+  "gravita": "alta",
+  "origine": "passo4_taglia"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "DO IT Organic Food Ingredients B.V.",
+  "campo": "dimensione",
+  "da": "Fatturato non pubblicato (BV con deposito abbreviato; dati finanziari solo a pagamento). KVK 75119048 (entita DO IT Organic Food Ingredients B.V., Barneveld; il gruppo DO-IT opera dal 1990 ca.). Trader olandese di ingredienti biologici con rete mondiale di fornitori: soia ca. 15% del giro d'affari e oli/grassi (inclusi palma e cocco) ca. 10% - importatore/operatore EUDR su entrambe le commodity. Numero dipendenti non pubblicato.",
+  "a": "⚠ FUORI TAGLIA: il gruppo DO IT Organic comunica ca. 125 milioni di € di fatturato con 110 dipendenti, oltre tre volte il tetto di ~50 M€. Tenuta nel censimento su decisione del cliente. Fatturato non pubblicato (BV con deposito abbreviato; dati finanziari solo a pagamento). KVK 75119048 (entita DO IT Organic Food Ingredients B.V., Barneveld; il gruppo DO-IT opera dal 1990 ca.). Trader olandese di ingredienti biologici con rete mondiale di fornitori: soia ca. 15% del giro d'affari e oli/grassi (inclusi palma e cocco) ca. 10% - importatore/operatore EUDR su entrambe le commodity. Numero dipendenti non pubblicato.",
+  "motivo": "Fuori taglia: il cliente ha scelto di tenere il record con avvertenza esplicita invece di rimuoverlo.",
+  "fonte": "Rilievo di Fase B sul campo dimensione, con evidenza a fonte",
+  "gravita": "alta",
+  "origine": "passo4_taglia"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Forsbecks Eftr. Aktiebolag",
+  "campo": "dimensione",
+  "da": "ATTENZIONE TAGLIA: fatturato 589.951 KSEK (~52,2 M€) con soli 31-35 dipendenti — bilancio 2022 (fonte allabolag/bolagsfakta); org.nr 556002-3417. Sopra la soglia dei 40 M€ ma è PMI indipendente (famiglia Johansson dal 1953) con fatturato gonfiato dal costo della materia prima (ca. 100.000 t di cereali/anno).",
+  "a": "⚠ SOPRA LA FORBICE: 505.457 KSEK (~44,7 M€) nell'esercizio 2024 — sopra il tetto di 40 M€ della forbice tollerabile, ma sotto i ~50 M€ di esclusione. Il dato precedente (589.951 KSEK, es. 2022) era obsoleto e sovrastimato. fatturato 589.951 KSEK (~52,2 M€) con soli 31-35 dipendenti — bilancio 2022 (fonte allabolag/bolagsfakta); org.nr 556002-3417. Sopra la soglia dei 40 M€ ma è PMI indipendente (famiglia Johansson dal 1953) con fatturato gonfiato dal costo della materia prima (ca. 100.000 t di cereali/anno).",
+  "motivo": "Fuori taglia: il cliente ha scelto di tenere il record con avvertenza esplicita invece di rimuoverlo.",
+  "fonte": "Rilievo di Fase B sul campo dimensione, con evidenza a fonte",
+  "gravita": "alta",
+  "origine": "passo4_taglia"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "FM Timber Oy",
+  "campo": "dimensione",
+  "da": "≈44 M€ / ~49 dip. (2024, Finder/Proff) — fascia alta, vicino al limite",
+  "a": "⚠ SOPRA LA FORBICE: 42,9-44 M€ (2025) — sopra il tetto di 40 M€ della forbice tollerabile, ma sotto i ~50 M€ di esclusione. Il campo lo definiva «vicino al limite»: il limite è già superato. ≈44 M€ / ~49 dip. (2024, Finder/Proff) — fascia alta, vicino al limite",
+  "motivo": "Fuori taglia: il cliente ha scelto di tenere il record con avvertenza esplicita invece di rimuoverlo.",
+  "fonte": "Rilievo di Fase B sul campo dimensione, con evidenza a fonte",
+  "gravita": "alta",
+  "origine": "passo4_taglia"
+ }
+]

@@ -141,6 +141,13 @@
  },
  {
   "foglio": "Italia",
+  "denominazione": "Caffè River S.p.A.",
+  "campo": "dimensione",
+  "da": "Fatturato fascia 3-6 mln € (bilancio 2024, Registro Imprese)",
+  "a": "⚠ SOTTO SOGLIA: ricavi 4.041.633 € nel bilancio 2024, con una perdita di 254.359 € — sotto il minimo di 5 M€ della forbice target. Tenuta nel censimento per copertura di filiera, su decisione del cliente. Fatturato fascia 3-6 mln € (bilancio 2024, Registro Imprese)"
+ },
+ {
+  "foglio": "Italia",
   "denominazione": "Cesare Trucillo S.p.A. (Caffè Trucillo)",
   "campo": "referente",
   "da": "",
@@ -166,6 +173,13 @@
   "campo": "dimensione",
   "da": "~5,5 mln € (2024); ~28 dip.; bean-to-bar (importa cacao)",
   "a": "~5,5 mln € (2024); ~28 dip.; bean-to-bar (importa cacao) Legame di gruppo non dichiarato: dall'agosto 2017 il 99% del capitale è di Ferrarelle S.p.A. Società Benefit."
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Antica Dolceria Bonajuto S.r.l.",
+  "campo": "dimensione",
+  "da": "n.d. (PMI artigianale; lavora cacao)",
+  "a": "⚠ SOTTO SOGLIA: fatturato ~2,7 mln € — sotto il minimo di 5 M€ della forbice target. Tenuta nel censimento per copertura di filiera, su decisione del cliente. n.d. (PMI artigianale; lavora cacao)"
  },
  {
   "foglio": "Italia",
@@ -201,6 +215,13 @@
   "campo": "ruolo",
   "da": "",
   "a": "Presidente e Amministratore Delegato"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Slitti S.r.l.",
+  "campo": "dimensione",
+  "da": "~4 mln € (2024), in forte crescita; bean-to-bar (tosta cacao)",
+  "a": "⚠ SOTTO SOGLIA: fatturato ~4 mln € (2024) — sotto il minimo di 5 M€ della forbice target. Tenuta nel censimento per copertura di filiera, su decisione del cliente. ~4 mln € (2024), in forte crescita; bean-to-bar (tosta cacao)"
  },
  {
   "foglio": "Italia",
@@ -282,6 +303,13 @@
  {
   "foglio": "Italia",
   "denominazione": "Cortal Extrasoy S.p.A.",
+  "campo": "dimensione",
+  "da": "~59,3 mln € (2024); 50-99 dip. — sopra soglia ma PMI indip. specializzata in soia",
+  "a": "⚠ FUORI TAGLIA: 59.292.815 € nel 2024 (utile 2.866.674 €), 50-99 dipendenti — sopra il tetto di ~50 M€. PMI indipendente specializzata in soia. Tenuta nel censimento su decisione del cliente."
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Cortal Extrasoy S.p.A.",
   "campo": "referente",
   "da": "",
   "a": "Gianpietro Didoné"
@@ -316,6 +344,13 @@
  },
  {
   "foglio": "Italia",
+  "denominazione": "I.P.S.A. S.p.A. (Prodotti Speciali per l'Alimentazione)",
+  "campo": "dimensione",
+  "da": "~56 mln € — sopra soglia, PMI indip.; oli/grassi incl. palma raffinato",
+  "a": "⚠ FUORI TAGLIA: 61.262.679 € di ricavi nel bilancio 2024 (+9% sul 2023), ca. 60 dipendenti — sopra il tetto di ~50 M€; il dato precedente (~56 mln €) era obsoleto. PMI indipendente; oli e grassi, incluso palma raffinato. Tenuta nel censimento su decisione del cliente."
+ },
+ {
+  "foglio": "Italia",
   "denominazione": "GranCarni S.p.A.",
   "campo": "dimensione",
   "da": "~26,8 mln € (2024); ~21 dip.; lavorazione carni rosse (bovino/bufalino)",
@@ -334,6 +369,13 @@
   "campo": "dimensione",
   "da": "~20-35 Mio € Umsatz (2019: 35M; 2020: ~20M); conceria pelle bovina",
   "a": "~100 dipendenti nello stabilimento di Wegberg (sito aziendale heinen-leather.de, 2025); fatturato: 35 Mio € (2019, KfW Stories), classe di fatturato Creditreform 50-100 Mio € (non datata); bilanci depositati fino al 2024 ma cifre non pubbliche — anno recente non determinabile"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "ecopell GmbH",
+  "campo": "dimensione",
+  "da": "Umsatz/MA n.d. (dal 1992)",
+  "a": "⚠ SOTTO SOGLIA: totale di bilancio ~900 mila € (2023, -20,1%) — sotto il minimo di 5 M€ della forbice target. Tenuta nel censimento per copertura di filiera, su decisione del cliente. Umsatz/MA n.d. (dal 1992)"
  },
  {
   "foglio": "Germania",
@@ -624,6 +666,13 @@
  },
  {
   "foglio": "Germania",
+  "denominazione": "Weber & Schaer GmbH & Co. KG",
+  "campo": "dimensione",
+  "da": ">100 MA (gruppo), Umsatz n.d.; importatore gomma naturale — lead EUDR chiave",
+  "a": "⚠ FUORI TAGLIA: fatturato stimato ca. 75 Mio. €, oltre il tetto di ~50 M€; >100 dipendenti (gruppo). Importatore di gomma naturale — lead EUDR chiave ma fuori dalla forbice di taglia. Tenuta nel censimento su decisione del cliente."
+ },
+ {
+  "foglio": "Germania",
   "denominazione": "ETS Mischfutterwerk GmbH & Co. KG (Eilers Futtermittel)",
   "campo": "dimensione",
   "da": "Umsatz ~10 Mio € (2023, Implisense)",
@@ -658,6 +707,13 @@
   "a": "Totale di bilancio (Bilanzsumme) 40 Mio € nel 2023, in calo del 7,1% sull'anno precedente (Bundesanzeiger via Implisense); utile netto 2023 4,46 Mio €. Dipendenti: 150; capacita' produttiva annua 50.000 t nel mondo. FATTURATO NON PUBBLICATO — la Bilanzsumme non e' un ricavo. Azienda familiare fondata 1897 (HRB 5001 AG Stuttgart), nove filiali/impianti in Europa, USA e Asia; tratta anche olio di palma."
  },
  {
+  "foglio": "Germania",
+  "denominazione": "Henry Lamotte Oils GmbH",
+  "campo": "dimensione",
+  "da": ">200 MA; familiare; tratta olio di palma, palmisto, oleina, stearina — fascia alta",
+  "a": "⚠ FUORI TAGLIA: fatturato 138,4 Mio. € (2023), oltre tre volte il tetto di ~50 M€; >200 dipendenti. Impresa familiare; tratta olio di palma, palmisto, oleina e stearina — lead EUDR rilevante ma fuori dalla forbice di taglia. Tenuta nel censimento su decisione del cliente."
+ },
+ {
   "foglio": "Finlandia",
   "denominazione": "Akonkosken Saha Oy",
   "campo": "email",
@@ -669,7 +725,7 @@
   "denominazione": "CWP Coloured Wood Products Oy",
   "campo": "dimensione",
   "da": "Liikevaihto 3,4 M€ (2024); 19 dip. (Asiakastieto)",
-  "a": "Liikevaihto 3,4 M€ (2024); 19 dip. (Asiakastieto) Controllata di Auroora Yhtiöt Oyj (Tampere) — riqualificare il lead sulla capogruppo o scartare."
+  "a": "⚠ SOTTO SOGLIA: 3,4 M€ (2024), in calo dai 4,6 M€ del 2022 — sotto il minimo di 5 M€ della forbice target. Tenuta nel censimento per copertura di filiera, su decisione del cliente. Liikevaihto 3,4 M€ (2024); 19 dip. (Asiakastieto) Controllata di Auroora Yhtiöt Oyj (Tampere) — riqualificare il lead sulla capogruppo o scartare."
  },
  {
   "foglio": "Finlandia",
@@ -677,6 +733,20 @@
   "campo": "sito",
   "da": "https://www.ejh.fi",
   "a": "https://www.hiipakka.net"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Esan Levykaluste Oy",
+  "campo": "dimensione",
+  "da": "Liikevaihto 3,62 M€ — sotto sweet spot",
+  "a": "⚠ SOTTO SOGLIA: 3,7 M€ e 23 dipendenti (2025) — sotto il minimo di 5 M€ della forbice target. Tenuta nel censimento per copertura di filiera, su decisione del cliente. Liikevaihto 3,62 M€ — sotto sweet spot"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "FM Timber Oy",
+  "campo": "dimensione",
+  "da": "≈44 M€ / ~49 dip. (2024, Finder/Proff) — fascia alta, vicino al limite",
+  "a": "⚠ SOPRA LA FORBICE: 42,9-44 M€ (2025) — sopra il tetto di 40 M€ della forbice tollerabile, ma sotto i ~50 M€ di esclusione. Il campo lo definiva «vicino al limite»: il limite è già superato. ≈44 M€ / ~49 dip. (2024, Finder/Proff) — fascia alta, vicino al limite"
  },
  {
   "foglio": "Finlandia",
@@ -691,6 +761,34 @@
   "campo": "filiera",
   "da": "Legno/Arredo — compensato betulla/lamellare",
   "a": "Legno/Arredo — botole d'ispezione e prodotti in compensato (produzione e rivendita specializzata)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Kiteen Huonekalutehdas Oy",
+  "campo": "dimensione",
+  "da": "Liikevaihto 3,09 M€ (2023) — sotto sweet spot",
+  "a": "⚠ SOTTO SOGLIA: liikevaihto 3,1 M€ (2024), 25 dipendenti — sotto il minimo di 5 M€ della forbice target. Tenuta nel censimento per copertura di filiera, su decisione del cliente. Liikevaihto 3,09 M€ (2023) — sotto sweet spot"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Lappiporras Oy",
+  "campo": "dimensione",
+  "da": "Liikevaihto 2,92 M€ (2024); ~20 dip. (Vainu/Asiakastieto)",
+  "a": "⚠ SOTTO SOGLIA: liikevaihto 2,92 M€ (esercizio chiuso 05/2024, -28,8%), 16 dipendenti — sotto il minimo di 5 M€ della forbice target. Tenuta nel censimento per copertura di filiera, su decisione del cliente. Liikevaihto 2,92 M€ (2024); ~20 dip. (Vainu/Asiakastieto)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Luopajärven Saha Oy",
+  "campo": "dimensione",
+  "da": "≈5 M€ / ~18 dip. (2024-25, Asiakastieto)",
+  "a": "⚠ SOTTO SOGLIA: 4,9 M€ (2025, in calo), 18 dipendenti — sotto il minimo di 5 M€ della forbice target. Tenuta nel censimento per copertura di filiera, su decisione del cliente. ≈5 M€ / ~18 dip. (2024-25, Asiakastieto)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Mahogany Oy",
+  "campo": "dimensione",
+  "da": "Liikevaihto 1,3 M€ (2024); 17 dip. (Vainu/Asiakastieto)",
+  "a": "⚠ SOTTO SOGLIA: liikevaihto 1,3 M€ (2024), 17 dipendenti, perdita operativa 183 k€ — sotto il minimo di 5 M€ della forbice target. Tenuta nel censimento per copertura di filiera, su decisione del cliente. Liikevaihto 1,3 M€ (2024); 17 dip. (Vainu/Asiakastieto)"
  },
  {
   "foglio": "Finlandia",
@@ -715,6 +813,13 @@
  },
  {
   "foglio": "Finlandia",
+  "denominazione": "Selka Oy",
+  "campo": "dimensione",
+  "da": "n.d. (liikevaihto non pubblicato)",
+  "a": "⚠ SOTTO SOGLIA: liikevaihto 1,7 M€ (2024), 14 dipendenti, perdita operativa 45 k€ — sotto il minimo di 5 M€ della forbice target. Tenuta nel censimento per copertura di filiera, su decisione del cliente. n.d. (liikevaihto non pubblicato)"
+ },
+ {
+  "foglio": "Finlandia",
   "denominazione": "Siparila Oy",
   "campo": "dimensione",
   "da": "≈31,4 M€ / ~119 dip. (2024, Asiakastieto)",
@@ -722,10 +827,24 @@
  },
  {
   "foglio": "Finlandia",
+  "denominazione": "Sysmän Ikkuna ja Ovi Oy (Päijänne-Ovet)",
+  "campo": "dimensione",
+  "da": "Liikevaihto 3,8 M€ (2025); 19 dip. (Asiakastieto/Vainu)",
+  "a": "⚠ SOTTO SOGLIA: 3,8 M€ (2025, +13,6%), 19 dipendenti — sotto il minimo di 5 M€ della forbice target. Tenuta nel censimento per copertura di filiera, su decisione del cliente. Liikevaihto 3,8 M€ (2025); 19 dip. (Asiakastieto/Vainu)"
+ },
+ {
+  "foglio": "Finlandia",
   "denominazione": "Ålands Skogsindustrier Ab",
   "campo": "dimensione",
   "da": "≈18,5 M€ (2022, largestcompanies/Åland)",
   "a": "Omsättning koncernen 21,8 M€ (2025, +~10%; moderbolaget 17,3 M€), rörelseresultat 0,76 M€; ~49 anställda — in forbice"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "BestPak Oy",
+  "campo": "dimensione",
+  "da": "~28 dip. (2024); liikevaihto n.d. (gruppo Orapac)",
+  "a": "⚠ SOTTO SOGLIA: liikevaihto ~2,0 M€, 28 dipendenti — sotto il minimo di 5 M€ della forbice target. Tenuta nel censimento per copertura di filiera, su decisione del cliente. ~28 dip. (2024); liikevaihto n.d. (gruppo Orapac)"
  },
  {
   "foglio": "Finlandia",
@@ -768,6 +887,13 @@
   "campo": "email",
   "da": "paul.dima@stmichelprint.fi",
   "a": "rami.paajanen@stmichelprint.fi"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Metsäpaahtimo (Sampokone Oy)",
+  "campo": "dimensione",
+  "da": "n.d.; importatore di caffè verde (da India/Bali) + vendita all'ingrosso — EUDR-rilevante",
+  "a": "⚠ SOTTO SOGLIA: liikevaihto 130.000 € — sotto il minimo di 5 M€ della forbice target. Tenuta nel censimento per copertura di filiera, su decisione del cliente. n.d.; importatore di caffè verde (da India/Bali) + vendita all'ingrosso — EUDR-rilevante"
  },
  {
   "foglio": "Finlandia",
@@ -921,7 +1047,7 @@
   "denominazione": "STOK EMBALLAGE K/S",
   "campo": "dimensione",
   "da": "100-200 dipendenti complessivi (62 a Langeskov, 10 a Vejle); bruttofortjeneste 146 mio DKK nel 2024 (~19,6 M€ di solo margine lordo). CVR 16427284, NACE 172100, Erik Stoks Allé 4. Capogruppo STOK Denmark ApS. AZIENDA DI CONFINE / SOPRA FASCIA: il fatturato è verosimilmente >50 M€ - da verificare prima del contatto, potenzialmente da escludere.",
-  "a": "100-200 dipendenti complessivi (62 a Langeskov, 10 a Vejle); bruttofortjeneste 146 mio DKK nel 2024 (~19,6 M€ di solo margine lordo). CVR 16427284, NACE 172100, Erik Stoks Allé 4. Capogruppo STOK Denmark ApS. AZIENDA DI CONFINE / SOPRA FASCIA: il fatturato è verosimilmente >50 M€ - da verificare prima del contatto, potenzialmente da escludere. Il campo nominava solo la capogruppo formale: dal 30.04.2024 STOK Denmark ApS è partecipata in maggioranza dal fondo di private equity statunitense A&M Capital Europe."
+  "a": "⚠ FUORI TAGLIA: fatturato reale ca. 92 M€, oltre il tetto di ~50 M€ (il campo dava una stima «>50 M€»). Tenuta nel censimento su decisione del cliente. 100-200 dipendenti complessivi (62 a Langeskov, 10 a Vejle); bruttofortjeneste 146 mio DKK nel 2024 (~19,6 M€ di solo margine lordo). CVR 16427284, NACE 172100, Erik Stoks Allé 4. Capogruppo STOK Denmark ApS. AZIENDA DI CONFINE / SOPRA FASCIA: il fatturato è verosimilmente >50 M€ - da verificare prima del contatto, potenzialmente da escludere. Il campo nominava solo la capogruppo formale: dal 30.04.2024 STOK Denmark ApS è partecipata in maggioranza dal fondo di private equity statunitense A&M Capital Europe."
  },
  {
   "foglio": "Danimarca",
@@ -960,10 +1086,17 @@
  },
  {
   "foglio": "Danimarca",
+  "denominazione": "Nordic Coffee House ApS",
+  "campo": "dimensione",
+  "da": "n.d. - fatturato e dipendenti non pubblicati nelle fonti consultate. Registrata nella categoria 'Kaffe og te - agentur og engros'; risteri proprio a Nr. Bjertvej 67, 6000 Kolding, import diretto di caffè verde. Gazelle Børsen 2023 e 2024. Fonte: proff.dk / nordiccoffeehouse.dk. Taglia probabilmente sotto il target: da verificare. · CVR 39807122",
+  "a": "⚠ SOTTO SOGLIA: bruttofortjeneste 3,3 mio. DKK (~0,44 M€), 5-10 dipendenti — sotto il minimo di 5 M€ della forbice target. Tenuta nel censimento per copertura di filiera, su decisione del cliente. n.d. - fatturato e dipendenti non pubblicati nelle fonti consultate. Registrata nella categoria 'Kaffe og te - agentur og engros'; risteri proprio a Nr. Bjertvej 67, 6000 Kolding, import diretto di caffè verde. Gazelle Børsen 2023 e 2024. Fonte: proff.dk / nordiccoffeehouse.dk. Taglia probabilmente sotto il target: da verificare. · CVR 39807122"
+ },
+ {
+  "foglio": "Danimarca",
   "denominazione": "H.C. JACOBSEN A/S",
   "campo": "dimensione",
   "da": "Fatturato non pubblicato (n.d.); bruttofortjeneste 3,2 mio DKK (~0,4 M EUR) nel 2025. ATTENZIONE: sotto la fascia target. Fonte: proff.dk (CVR 75144911), anno 2025",
-  "a": "Fatturato non pubblicato (n.d.); bruttofortjeneste 3,2 mio DKK (~0,4 M EUR) nel 2025. ATTENZIONE: sotto la fascia target. Fonte: proff.dk (CVR 75144911), anno 2025 Capogruppo BEA HOLDING ApS; presidente CdA Pernille Andersen; distributore di imballaggi ed elastici, FUORI dalla forbice 5-40 M EUR."
+  "a": "⚠ SOTTO SOGLIA: bruttofortjeneste 3,2 mio. DKK (~0,43 M€) — sotto il minimo di 5 M€ della forbice target. Tenuta nel censimento per copertura di filiera, su decisione del cliente. Fatturato non pubblicato (n.d.); bruttofortjeneste 3,2 mio DKK (~0,4 M EUR) nel 2025. ATTENZIONE: sotto la fascia target. Fonte: proff.dk (CVR 75144911), anno 2025 Capogruppo BEA HOLDING ApS; presidente CdA Pernille Andersen; distributore di imballaggi ed elastici, FUORI dalla forbice 5-40 M EUR."
  },
  {
   "foglio": "Danimarca",
@@ -971,6 +1104,13 @@
   "campo": "dimensione",
   "da": "Fatturato non pubblicato (n.d.); bruttofortjeneste 53 mio DKK (~7,1 M EUR) nel 2023; 71-80 dipendenti. Fonti: proff.dk (CVR 76653313), romgummi.dk, anno 2023",
   "a": "Fatturato non pubblicato (n.d.); bruttofortjeneste 53 mio DKK (~7,1 M EUR) nel 2023; 71-80 dipendenti. Fonti: proff.dk (CVR 76653313), romgummi.dk, anno 2023 Controllata tramite RGDE ApS, societa in portafoglio del fondo Dansk Ejerkapital."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "SKANDINAVISK DÆK IMPORT A/S",
+  "campo": "dimensione",
+  "da": "n.d. (fatturato e dipendenti non pubblicati nelle fonti accessibili); societa fondata nel 1984, commercio e produzione di pneumatici industriali. Fonte: proff.dk (CVR 87222810)",
+  "a": "⚠ SOTTO SOGLIA: bruttofortjeneste 8,06 M DKK nel 2023 (~1,1 M€), 7 dipendenti — sotto il minimo di 5 M€ della forbice target. Tenuta nel censimento per copertura di filiera, su decisione del cliente. n.d. (fatturato e dipendenti non pubblicati nelle fonti accessibili); societa fondata nel 1984, commercio e produzione di pneumatici industriali. Fonte: proff.dk (CVR 87222810)"
  },
  {
   "foglio": "Danimarca",
@@ -985,6 +1125,13 @@
   "campo": "dimensione",
   "da": "DATO STORICO: fatturato lordo 80 M DKK ≈ 10,7 M€ nel 2003 (fonte: articolo Maskinbladet 'Foderspecialisten til smågrise'), di cui circa il 63% da miscele per lo svezzamento precoce dei suinetti. Produttore di mangimi per suini e cavalli. CVR, dati finanziari attuali, numero dipendenti e stato di attivita' NON VERIFICATI: lead da confermare su CVR/proff prima dell'uso. Il dato 2003 collocherebbe l'azienda nel target 10-20 M€ ma non e' attuale.",
   "a": "DATO STORICO: fatturato lordo 80 M DKK ≈ 10,7 M€ nel 2003 (fonte: articolo Maskinbladet 'Foderspecialisten til smågrise'), di cui circa il 63% da miscele per lo svezzamento precoce dei suinetti. Produttore di mangimi per suini e cavalli. CVR, dati finanziari attuali, numero dipendenti e stato di attivita' NON VERIFICATI: lead da confermare su CVR/proff prima dell'uso. Il dato 2003 collocherebbe l'azienda nel target 10-20 M€ ma non e' attuale. Controllata del gruppo DLG (grande operatore, fuori target lead)."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "TBC INGREDIENTS ApS",
+  "campo": "dimensione",
+  "da": "Fatturato non pubblicato (n.d.); bruttofortjeneste 10,27 mio DKK (~1,4 M EUR); 4-5 dipendenti (2-10 secondo LinkedIn); importatore/rivenditore di oli vegetali con l'olio di palma come componente principale; oltre 150 mio kg di ingredienti/anno. Fonti: proff.dk (CVR 28119666), LinkedIn aziendale e piano d'azione palma su etiskhandel.dk (2021)",
+  "a": "⚠ SOTTO SOGLIA: bruttofortjeneste 10,27 M DKK (~1,4 M€), 4-5 addetti — sotto il minimo di 5 M€ della forbice target. Tenuta nel censimento per copertura di filiera, su decisione del cliente. Fatturato non pubblicato (n.d.); bruttofortjeneste 10,27 mio DKK (~1,4 M EUR); 4-5 dipendenti (2-10 secondo LinkedIn); importatore/rivenditore di oli vegetali con l'olio di palma come componente principale; oltre 150 mio kg di ingredienti/anno. Fonti: proff.dk (CVR 28119666), LinkedIn aziendale e piano d'azione palma su etiskhandel.dk (2021)"
  },
  {
   "foglio": "Danimarca",
@@ -1317,6 +1464,13 @@
  },
  {
   "foglio": "Svezia",
+  "denominazione": "Forsbecks Eftr. Aktiebolag",
+  "campo": "dimensione",
+  "da": "ATTENZIONE TAGLIA: fatturato 589.951 KSEK (~52,2 M€) con soli 31-35 dipendenti — bilancio 2022 (fonte allabolag/bolagsfakta); org.nr 556002-3417. Sopra la soglia dei 40 M€ ma è PMI indipendente (famiglia Johansson dal 1953) con fatturato gonfiato dal costo della materia prima (ca. 100.000 t di cereali/anno).",
+  "a": "⚠ SOPRA LA FORBICE: 505.457 KSEK (~44,7 M€) nell'esercizio 2024 — sopra il tetto di 40 M€ della forbice tollerabile, ma sotto i ~50 M€ di esclusione. Il dato precedente (589.951 KSEK, es. 2022) era obsoleto e sovrastimato. fatturato 589.951 KSEK (~52,2 M€) con soli 31-35 dipendenti — bilancio 2022 (fonte allabolag/bolagsfakta); org.nr 556002-3417. Sopra la soglia dei 40 M€ ma è PMI indipendente (famiglia Johansson dal 1953) con fatturato gonfiato dal costo della materia prima (ca. 100.000 t di cereali/anno)."
+ },
+ {
+  "foglio": "Svezia",
   "denominazione": "Liljeholmens Stearinfabriks AB",
   "campo": "dimensione",
   "da": "Fatturato 346.300 KSEK (~30,6 M€) nel 2024 e 93-98 dipendenti (93 nel 2023, fatturato 375.373 KSEK) (fonte bolagsfakta/allabolag); org.nr 556041-6348. Sopra la fascia ideale ma entro il tollerabile.",
@@ -1576,6 +1730,13 @@
  },
  {
   "foglio": "Olanda",
+  "denominazione": "DO IT Organic Food Ingredients B.V.",
+  "campo": "dimensione",
+  "da": "Fatturato non pubblicato (BV con deposito abbreviato; dati finanziari solo a pagamento). KVK 75119048 (entita DO IT Organic Food Ingredients B.V., Barneveld; il gruppo DO-IT opera dal 1990 ca.). Trader olandese di ingredienti biologici con rete mondiale di fornitori: soia ca. 15% del giro d'affari e oli/grassi (inclusi palma e cocco) ca. 10% - importatore/operatore EUDR su entrambe le commodity. Numero dipendenti non pubblicato.",
+  "a": "⚠ FUORI TAGLIA: il gruppo DO IT Organic comunica ca. 125 milioni di € di fatturato con 110 dipendenti, oltre tre volte il tetto di ~50 M€. Tenuta nel censimento su decisione del cliente. Fatturato non pubblicato (BV con deposito abbreviato; dati finanziari solo a pagamento). KVK 75119048 (entita DO IT Organic Food Ingredients B.V., Barneveld; il gruppo DO-IT opera dal 1990 ca.). Trader olandese di ingredienti biologici con rete mondiale di fornitori: soia ca. 15% del giro d'affari e oli/grassi (inclusi palma e cocco) ca. 10% - importatore/operatore EUDR su entrambe le commodity. Numero dipendenti non pubblicato."
+ },
+ {
+  "foglio": "Olanda",
   "denominazione": "S.R.C. (Special Refining Company) B.V.",
   "campo": "email",
   "da": "n.d.",
@@ -1674,6 +1835,13 @@
  },
  {
   "foglio": "Belgio",
+  "denominazione": "Emballages Gruselle SRL",
+  "campo": "dimensione",
+  "da": "DATO DI FATTURATO NON PUBBLICATO sulle fonti accessibili (companyweb/fincheck/pappers riportano la scheda ma non la cifra d'affari; l'azienda deposita in schema abbreviato). N. impresa BE 0448.350.331, costituita nel 1992. Azienda familiare, fabbricazione di scatole in cartone e articoli d'imballaggio e protezione; officina nel parco industriale di Martinrou, Rue de Rabiseau 12, 6220 Fleurus. AZIENDA DI CONFINE: taglia stimata SOTTO i 5 M€ — inserita per copertura della filiera in Vallonia, da qualificare prima del contatto.",
+  "a": "⚠ SOTTO SOGLIA: margine lordo 142.075 € — sotto il minimo di 5 M€ della forbice target. Tenuta nel censimento per copertura di filiera, su decisione del cliente. DATO DI FATTURATO NON PUBBLICATO sulle fonti accessibili (companyweb/fincheck/pappers riportano la scheda ma non la cifra d'affari; l'azienda deposita in schema abbreviato). N. impresa BE 0448.350.331, costituita nel 1992. Azienda familiare, fabbricazione di scatole in cartone e articoli d'imballaggio e protezione; officina nel parco industriale di Martinrou, Rue de Rabiseau 12, 6220 Fleurus. AZIENDA DI CONFINE: taglia stimata SOTTO i 5 M€ — inserita per copertura della filiera in Vallonia, da qualificare prima del contatto."
+ },
+ {
+  "foglio": "Belgio",
   "denominazione": "Etilux SA",
   "campo": "linkedin",
   "da": "",
@@ -1692,6 +1860,13 @@
   "campo": "linkedin",
   "da": "",
   "a": "https://be.linkedin.com/company/varia-pack-nv"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Koffie St.-Michel NV",
+  "campo": "dimensione",
+  "da": "Impresa BE 0406.919.552, fondata nel 1880. Sede: Asiadok 28A, 2030 Antwerpen (porto di Anversa). Margine lordo € 686.005 e 43ª posizione nel settore 'koffie en thee' (trendstop); NON pubblica il fatturato nell'ultimo bilancio depositato (schema abbreviato NBB → ricavi presumibilmente sotto la soglia delle piccole società, ~11 M€): TAGLIA DA VERIFICARE, possibile sotto i 5 M€. Torrefazione familiare, indicata come la più antica e la più grande di Anversa (fornisce ~60% del mercato locale) e private-label roaster per marchi terzi. Contatto alternativo pubblicato: stmichel@skynet.be. Tel. 03 234 34 70.",
+  "a": "⚠ SOTTO SOGLIA: margine lordo 575.000 € con 3 dipendenti (dato 2017) — sotto il minimo di 5 M€ della forbice target. Tenuta nel censimento per copertura di filiera, su decisione del cliente. Impresa BE 0406.919.552, fondata nel 1880. Sede: Asiadok 28A, 2030 Antwerpen (porto di Anversa). Margine lordo € 686.005 e 43ª posizione nel settore 'koffie en thee' (trendstop); NON pubblica il fatturato nell'ultimo bilancio depositato (schema abbreviato NBB → ricavi presumibilmente sotto la soglia delle piccole società, ~11 M€): TAGLIA DA VERIFICARE, possibile sotto i 5 M€. Torrefazione familiare, indicata come la più antica e la più grande di Anversa (fornisce ~60% del mercato locale) e private-label roaster per marchi terzi. Contatto alternativo pubblicato: stmichel@skynet.be. Tel. 03 234 34 70."
  },
  {
   "foglio": "Belgio",
@@ -1940,6 +2115,13 @@
  },
  {
   "foglio": "Austria",
+  "denominazione": "Flatz GmbH",
+  "campo": "dimensione",
+  "da": "Fatturato stimato ca. 18,4 Mio. USD (~17 Mio. €) - 96 dipendenti (fonte profilo RocketReach, dato stimato); azienda attiva dal 1935, uno dei principali produttori austriaci di imballaggi in cartone ondulato. Firmenbuch FN 136639s, LG Feldkirch. IN TARGET 10-20 M€. 4 stabilimenti a Lauterach (Funkenstraße 6/11, Scheibenstraße 20). Impresa familiare indipendente; Hans-Peter Flatz indicato come co-Geschäftsführer in fonti di stampa.",
+  "a": "⚠ FUORI TAGLIA: ca. 72 Mio. € di fatturato e 320 addetti dichiarati dall'azienda — oltre il tetto di ~50 M€. Il dato precedente (~17 Mio. €, profilo RocketReach) era errato di un fattore quattro. Attiva dal 1935, fra i principali produttori austriaci di imballaggi in cartone ondulato. Firmenbuch FN 136639s, LG Feldkirch. Tenuta nel censimento su decisione del cliente."
+ },
+ {
+  "foglio": "Austria",
   "denominazione": "Salzer Papier GmbH",
   "campo": "dimensione",
   "da": "Fatturato stimato ca. 42 Mio. € (fonte die-deutsche-wirtschaft.de, stima su dati 2023) - 51-200 dipendenti (fonte LinkedIn/firmenabc); nel 2007 24,5 Mio. € con 95 dipendenti (noe.ORF.at). Produzione ca. 30.000 t di carta/anno. Firmenbuch FN 312367p, LG St. Pölten. AZIENDA DI CONFINE: la stima 42 Mio. € supera di poco la fascia tollerabile 5-40 M€ ma resta ben sotto la soglia di esclusione ~50 M€. Impresa familiare all'8a generazione, parte della Salzer Gruppe (Papier, Industrie-Service, Holz). Co-Geschäftsführer citato in stampa: Dr. Harald Egger. Membro Austropapier.",
@@ -1965,6 +2147,13 @@
   "campo": "dimensione",
   "da": "Fatturato ca. 18 Mio. € - ca. 180 dipendenti (fonte Wikipedia/dati aziendali, ultimo dato pubblico 2018; ordine di grandezza confermato da cash.at). Firmenbuch FN 397683d, LG Wiener Neustadt; UID ATU67943648. Titolare del marchio storico viennese Niemetz Schwedenbomben (dal 1926) rilevato nel 2013; produzione trasferita a Wiener Neudorf. IN TARGET 10-20 M€. Grande utilizzatore di cioccolato/cacao per il rivestimento dei prodotti = operatore/commerciante EUDR.",
   "a": "Fatturato ca. 18 Mio. € - ca. 180 dipendenti (fonte Wikipedia/dati aziendali, ultimo dato pubblico 2018; ordine di grandezza confermato da cash.at). Firmenbuch FN 397683d, LG Wiener Neustadt; UID ATU67943648. Titolare del marchio storico viennese Niemetz Schwedenbomben (dal 1926) rilevato nel 2013; produzione trasferita a Wiener Neudorf. IN TARGET 10-20 M€. Grande utilizzatore di cioccolato/cacao per il rivestimento dei prodotti = operatore/commerciante EUDR. Legame di gruppo non dichiarato: l'entità austriaca è la succursale (Niederlassung Österreich) di Heidi Chocolat SA, con sede a Zug (Svizzera) — la compliance EUDR si decide a livello di gruppo."
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Zrunek Gummiwaren Gesellschaft m.b.H.",
+  "campo": "dimensione",
+  "da": "10-19 dipendenti, classe di fatturato 0-10 Mio. €, Bilanzsumme 1,74 Mio. € al 31.12.2024 (firmenabc.at / northdata). NOTA: sotto la soglia target — produttore austriaco di articoli in gomma dal 1947. Altri GF: Mag. Dr. Ulrich Zrunek, Dipl.-Ing. Helena Zrunek Marja",
+  "a": "⚠ SOTTO SOGLIA: Bilanzsumme 1,74 Mio. € al 31.12.2024, 10-19 dipendenti — sotto il minimo di 5 M€ della forbice target. Tenuta nel censimento per copertura di filiera, su decisione del cliente. 10-19 dipendenti, classe di fatturato 0-10 Mio. €, Bilanzsumme 1,74 Mio. € al 31.12.2024 (firmenabc.at / northdata). NOTA: sotto la soglia target — produttore austriaco di articoli in gomma dal 1947. Altri GF: Mag. Dr. Ulrich Zrunek, Dipl.-Ing. Helena Zrunek Marja"
  },
  {
   "foglio": "Austria",
