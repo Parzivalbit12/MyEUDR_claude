@@ -239,6 +239,13 @@
  },
  {
   "foglio": "Italia",
+  "denominazione": "Ponti Guarnizioni S.r.l.",
+  "campo": "sede",
+  "da": "Castelli Calepio (BG)",
+  "a": "Foresto Sparso (BG)"
+ },
+ {
+  "foglio": "Italia",
   "denominazione": "Spaggiari Industria Gomma S.r.l.",
   "campo": "filiera",
   "da": "Gomma",
@@ -266,6 +273,13 @@
   "a": "info@cortal.it"
  },
  {
+  "foglio": "Italia",
+  "denominazione": "PBA S.r.l. (PBA Italia Nutrizione Animale)",
+  "campo": "sede",
+  "da": "Fombio (LO)",
+  "a": "Piacenza (PC) — sede legale; stabilimento a Fombio (LO)"
+ },
+ {
   "foglio": "Germania",
   "denominazione": "Christian Göbel Holzgroßhandlung GmbH & Co. KG",
   "campo": "email",
@@ -285,6 +299,13 @@
   "campo": "email",
   "da": "n.d.",
   "a": "info@cropp-timber.com"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "PFT Holz in Form GmbH",
+  "campo": "sede",
+  "da": "Mertendorf OT Görschen (Sachsen-Anhalt)",
+  "a": "Mertendorf OT Görschen (Sachsen-Anhalt) — stabilimento; sede legale Schlüsselfeld (Bayern)"
  },
  {
   "foglio": "Germania",
@@ -400,6 +421,13 @@
  },
  {
   "foglio": "Germania",
+  "denominazione": "Gummi-Fischer GmbH & Co. KG",
+  "campo": "sede",
+  "da": "Friedrichshafen, Baden-Württemberg",
+  "a": "Meckenbeuren (sede legale) / Friedrichshafen (sede operativa), Baden-Württemberg"
+ },
+ {
+  "foglio": "Germania",
   "denominazione": "Küper GmbH & Co. KG",
   "campo": "email",
   "da": "n.d.",
@@ -470,6 +498,13 @@
  },
  {
   "foglio": "Finlandia",
+  "denominazione": "Orasko Oy",
+  "campo": "sede",
+  "da": "Utajärvi (Pohjois-Pohjanmaa)",
+  "a": "Kuopio (Pohjois-Savo) — sede legale; stabilimento a Utajärvi (Pohjois-Pohjanmaa)"
+ },
+ {
+  "foglio": "Finlandia",
   "denominazione": "Arvo Piiroinen Oy",
   "campo": "denominazione",
   "da": "Piiroinen Oy",
@@ -484,10 +519,24 @@
  },
  {
   "foglio": "Finlandia",
+  "denominazione": "Pakkaus Piippo Oy",
+  "campo": "sede",
+  "da": "Akaa (Pirkanmaa)",
+  "a": "Akaa (stabilimento) / Lempäälä (kotipaikka), Pirkanmaa"
+ },
+ {
+  "foglio": "Finlandia",
   "denominazione": "St Michel Print Oy",
   "campo": "email",
   "da": "paul.dima@stmichelprint.fi",
   "a": "rami.paajanen@stmichelprint.fi"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Metsäpaahtimo (Sampokone Oy)",
+  "campo": "sede",
+  "da": "Luumäki, Etelä-Karjala",
+  "a": "Helsinki (Uusimaa) — sede legale; paahtimo a Luumäki, Etelä-Karjala"
  },
  {
   "foglio": "Finlandia",
@@ -596,6 +645,13 @@
  },
  {
   "foglio": "Danimarca",
+  "denominazione": "STIBO COMPLETE A/S (già Rosendahls A/S - Print Design Media)",
+  "campo": "sede",
+  "da": "Esbjerg N (Syddanmark)",
+  "a": "Horsens (Midtjylland) — sede legale; unità operative a Esbjerg N e Søborg"
+ },
+ {
+  "foglio": "Danimarca",
   "denominazione": "CAFÉU DENMARK ApS",
   "campo": "dimensione",
   "da": "Bruttofortjeneste 7,3 mio. DKK nell'ultimo bilancio disponibile (+421% in 5 anni); dipendenti non pubblicati. Capogruppo: STEFFAN TOBIESEN HOLDING ApS. Fonte: food-supply.dk / proff.dk. SOTTO IL TARGET. · CVR 33243537",
@@ -663,6 +719,13 @@
   "campo": "dimensione",
   "da": "Fatturato ca. 45 mio DKK (~6,0 M EUR); macello/lavorazione carni con linea bovina da manze e manzi. Fonte: effektivtlandbrug.landbrugnet.dk, articolo 2023",
   "a": "Fatturato ca. 45 mio DKK (~6,0 M EUR); macello/lavorazione carni con linea bovina da manze e manzi. Fonte: effektivtlandbrug.landbrugnet.dk, articolo 2023 Controllata di FoodService Danmark A/S (gruppo Dagrofa)."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Randers Kød Engros ApS",
+  "campo": "sede",
+  "da": "Randers, Region Midtjylland",
+  "a": "Randers SØ, Region Midtjylland"
  },
  {
   "foglio": "Svezia",
@@ -764,6 +827,13 @@
  },
  {
   "foglio": "Svezia",
+  "denominazione": "NC Nordic Care AB",
+  "campo": "sede",
+  "da": "Tranås, Jönköpings län",
+  "a": "Tranås, Jönköpings län (säte); stabilimento a Grännäs, Valdemarsvik, Östergötlands län"
+ },
+ {
+  "foglio": "Svezia",
   "denominazione": "Nola Industrier AB",
   "campo": "dimensione",
   "da": "Fatturato 86 155 KSEK = 86,2 MSEK ≈ 7,6 M€ (2024, -2,6%); risultato 2 629 KSEK; 22 dipendenti; org.nr 556207-4442 – fonte allabolag.se. Sotto il target ideale ma entro la fascia tollerabile",
@@ -796,6 +866,13 @@
   "campo": "dimensione",
   "da": "≈26 M€ / 15 dip. (fatturato 296,6 MSEK, riconoscimento Gasell Dagens Industri; allabolag 2020: 98 352 KSEK) · org.nr 556579-8435 · crescita +269% in 4 anni, azienda di confine sulla fascia alta · produzione ~70 000 m³/anno",
   "a": "≈26 M€ / 15 dip. (fatturato 296,6 MSEK, riconoscimento Gasell Dagens Industri; allabolag 2020: 98 352 KSEK) · org.nr 556579-8435 · crescita +269% in 4 anni, azienda di confine sulla fascia alta · produzione ~70 000 m³/anno Controllata dal gruppo Stockhult (Stockhult Timber AB / Stockhult Holding AB)."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Stockhult Glommers Timber AB",
+  "campo": "sede",
+  "da": "Glommersträsk (Arvidsjaur), Norrbottens län",
+  "a": "Glommersträsk (Arvidsjaur) — sede legale Luleå, Norrbottens län"
  },
  {
   "foglio": "Svezia",
@@ -845,6 +922,13 @@
   "campo": "dimensione",
   "da": "Fatturato 282.998 KSEK (~25,0 M€) e 81 dipendenti — bilancio 2024 (fonte allabolag/bolagsfakta); org.nr 556051-6188. Sopra la fascia ideale ma entro il tollerabile.",
   "a": "Fatturato 282.998 KSEK (~25,0 M€) e 81 dipendenti — bilancio 2024 (fonte allabolag/bolagsfakta); org.nr 556051-6188. Sopra la fascia ideale ma entro il tollerabile. Capogruppo Janmon AB."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Däckteam i Sverige Aktiebolag",
+  "campo": "sede",
+  "da": "Malmö, Skåne län",
+  "a": "Borås, Västra Götalands län"
  },
  {
   "foglio": "Svezia",
@@ -1226,6 +1310,13 @@
  },
  {
   "foglio": "Belgio",
+  "denominazione": "Corpack NV",
+  "campo": "sede",
+  "da": "Beveren-Waas, Provincia di Fiandre Orientali (Fiandre)",
+  "a": "Beveren-Kruibeke-Zwijndrecht (ex Beveren-Waas), Provincia di Fiandre Orientali (Fiandre)"
+ },
+ {
+  "foglio": "Belgio",
   "denominazione": "Desmedt Labels BV",
   "campo": "email",
   "da": "n.d.",
@@ -1433,6 +1524,20 @@
   "campo": "email",
   "da": "office@ludwig-reiter.com",
   "a": "reiter@ludwig-reiter.com"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Meyer Parkett GmbH",
+  "campo": "sede",
+  "da": "Kalsdorf bei Graz (Steiermark)",
+  "a": "Premstätten (Steiermark)"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Mühlbauer Holz GmbH",
+  "campo": "sede",
+  "da": "Himberg (Niederösterreich)",
+  "a": "Himberg (Niederösterreich) — sede operativa; sede legale 1080 Wien"
  },
  {
   "foglio": "Austria",

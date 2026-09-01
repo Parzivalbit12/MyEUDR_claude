@@ -1,0 +1,167 @@
+[
+ {
+  "foglio": "Austria",
+  "denominazione": "Meyer Parkett GmbH",
+  "campo": "sede",
+  "da": "Kalsdorf bei Graz (Steiermark)",
+  "a": "Premstätten (Steiermark)",
+  "motivo": "La sede non e' piu' Kalsdorf bei Graz: Firmenbuch, herold e firmenabc indicano Sternweg 2, 8141 Premstaetten (Graz-Umgebung). Trasferimento oggetto di Kundmachung comunale 2024.",
+  "fonte": "https://www.evi.gv.at/f/226133z (titolo: 'Meyer Parkett GmbH 8141 Premstaetten | Firmenbuch'); https://www.herold.at/gelbe-seiten/premst%C3%A4tten/qSRb9/meyer-parkett-gmbh/ ; https://www.premstaetten.gv.at/wp-content/uploads/2024/04/Kundmachung-Meyer-Parkett-GmbH.pdf",
+  "gravita": "media",
+  "origine": "austria_02.json"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Ponti Guarnizioni S.r.l.",
+  "campo": "sede",
+  "da": "Castelli Calepio (BG)",
+  "a": "Foresto Sparso (BG)",
+  "motivo": "SEDE ERRATA: l'azienda non e a Castelli Calepio ma a Foresto Sparso (BG), Via Faveti 13. Le schede camerali e il sito aziendale concordano.",
+  "fonte": "https://www.pontiguarnizioni.com/azienda.php - \"con sede a Foresto Sparso, in provincia di Bergamo, in Via Faveti, 13\"; https://m.fatturatoitalia.it/dettagliodettaglioponti_guarnizioni_srl_02036320162 - \"Ponti Guarnizioni Srl Fatturato e Bilancio - Foresto Sparso | P.Iva: 02036320162\"",
+  "gravita": "media",
+  "origine": "italia_05.json"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Däckteam i Sverige Aktiebolag",
+  "campo": "sede",
+  "da": "Malmö, Skåne län",
+  "a": "Borås, Västra Götalands län",
+  "motivo": "Sede errata: il campo indica Malmö, Skåne län, mentre la sede legale e operativa è a Borås (Arlagatan 12C, Västra Götalands län).",
+  "fonte": "allabolag: «Däckteam i Sverige Aktiebolag - Org.nr 556390-4837 - Borås» — https://www.allabolag.se/5563904837/dackteam-i-sverige-aktiebolag ; hitta.se: «Däckteam i Sverige AB - 556390-4837 - Arlagatan 12C i Borås»",
+  "gravita": "alta",
+  "origine": "svezia_03.json"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Corpack NV",
+  "campo": "sede",
+  "da": "Beveren-Waas, Provincia di Fiandre Orientali (Fiandre)",
+  "a": "Beveren-Kruibeke-Zwijndrecht (ex Beveren-Waas), Provincia di Fiandre Orientali (Fiandre)",
+  "motivo": "Denominazione del comune superata: dopo la fusione del 2025 la sede legale risulta registrata come Doornpark 20, 9120 Beveren-Kruibeke-Zwijndrecht (non piu' 'Beveren-Waas'). Refuso puramente formale, l'indirizzo e la provincia (Oost-Vlaanderen) sono corretti.",
+  "fonte": "companyweb.be/en/0452991978/corpack: 'Corpack (NV) - Beveren-Kruibeke-Zwijndrecht (9120)'; trendstop: 'Doornpark(BEV) 20, 9120 Beveren-Kruibeke-Zwijndrecht'",
+  "gravita": "bassa",
+  "origine": "belgio_02.json"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Randers Kød Engros ApS",
+  "campo": "sede",
+  "da": "Randers, Region Midtjylland",
+  "a": "Randers SØ, Region Midtjylland",
+  "motivo": "Sede da precisare: il CVR e le banche dati registrano l'azienda a Randers SO (Randers Soender), non genericamente 'Randers'. Referente Kaspar Kaerskov Jakobsen confermato come direktor in carica.",
+  "fonte": "https://www.krak.dk/randers+k%C3%B8d+engros+aps+randers+s%C3%B8/66907640/firma ; https://virmo.dk/firma/25539222-randers-k%C3%B8d-engros-aps",
+  "gravita": "bassa",
+  "origine": "danimarca_05.json"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "STIBO COMPLETE A/S (già Rosendahls A/S - Print Design Media)",
+  "campo": "sede",
+  "da": "Esbjerg N (Syddanmark)",
+  "a": "Horsens (Midtjylland) — sede legale; unità operative a Esbjerg N e Søborg",
+  "motivo": "La sede legale del CVR 37120928 e' Saturnvej 65, 8700 Horsens; Esbjerg N (Lammefjordsvej 2) e' una delle unita' operative, come Soeborg. Il campo indica solo Esbjerg N. Inoltre l'URL in 'fonte' punta ancora alla scheda proff della denominazione superata 'Rosendahls A/S - Print Design Media'.",
+  "fonte": "https://virmo.dk/firma/37120928-stibo-complete-as - 'Stibo Complete A/S (37120928) - Saturnvej 65, 8700 Horsens'; schede proff.dk distinte per Esbjerg N, Horsens e Soeborg sullo stesso CVR",
+  "gravita": "media",
+  "origine": "danimarca_03.json"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Mühlbauer Holz GmbH",
+  "campo": "sede",
+  "da": "Himberg (Niederösterreich)",
+  "a": "Himberg (Niederösterreich) — sede operativa; sede legale 1080 Wien",
+  "motivo": "Himberg e' la sede operativa (Franz-Lehn-Gasse 7, 2325 Himberg), ma la sede legale iscritta al Firmenbuch e' 1080 Wien, Laudongasse 47/52 (anche l'iscrizione WKO e' su Vienna).",
+  "fonte": "https://www.evi.gv.at/f/283235y (titolo: 'Mühlbauer Holz GmbH 1080 Wien | Firmenbuch'); https://firmen.wko.at/m%C3%BChlbauer-holz-gmbh/wien/",
+  "gravita": "bassa",
+  "origine": "austria_02.json"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Orasko Oy",
+  "campo": "sede",
+  "da": "Utajärvi (Pohjois-Pohjanmaa)",
+  "a": "Kuopio (Pohjois-Savo) — sede legale; stabilimento a Utajärvi (Pohjois-Pohjanmaa)",
+  "motivo": "Sede imprecisa: la sede legale/uffici della societa' e' a Kuopio (Minna Canthin katu 4 A, 70100 Kuopio, Pohjois-Savo); Utajarvi (Mustikkakangas) e' lo stabilimento produttivo.",
+  "fonte": "'Orasko Oy... osoite Minna Canthin katu 4 A, 70100 Kuopio; info@orasko.fi; Hany Yacoub hany@orasko.fi, +358 400 574 909' — https://orasko.fi/en-eu/pages/yhteystiedot e https://www.proff.fi/yrityksen/orasko-oy/kuopio/tukkukauppa-%E2%80%93-muut/2325828-2I10LK",
+  "gravita": "bassa",
+  "origine": "finlandia_02.json"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Pakkaus Piippo Oy",
+  "campo": "sede",
+  "da": "Akaa (Pirkanmaa)",
+  "a": "Akaa (stabilimento) / Lempäälä (kotipaikka), Pirkanmaa",
+  "motivo": "Discrepanza tra sede legale e stabilimento: l'indirizzo operativo e' Lentilantie 6, 37800 Akaa (coerente col record), ma i registri indicano come kotipaikka Lempaala (Pirkanmaa).",
+  "fonte": "https://www.asiakastieto.fi/yritykset/fi/pakkaus-piippo-oy/05702706/yleiskuva - 'Pakkaus Piippo Oy on Lempaalassa toimiva osakeyhtio'; https://www.piippopack.com/yhteystiedot/ - 'Lentilantie 6, 37800 Akaa'",
+  "gravita": "bassa",
+  "origine": "finlandia_04.json"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Metsäpaahtimo (Sampokone Oy)",
+  "campo": "sede",
+  "da": "Luumäki, Etelä-Karjala",
+  "a": "Helsinki (Uusimaa) — sede legale; paahtimo a Luumäki, Etelä-Karjala",
+  "motivo": "Sede indicata 'Luumäki, Etelä-Karjala': la sede legale/operativa registrata di SampoKone Oy è a Helsinki (c/o Cafe Metsäpaahtimo, Lapinlahdenpolku 8, 00180 Helsinki). Luumäki è solo il sito del container di torrefazione off-grid.",
+  "fonte": "https://www.proff.fi/yrityksen/sampokone-oy/helsinki/ruokailupaikat/2836742-9I0DRM — 'address c/o Cafe Metsäpaahtimo, Lapinlahdenpolku 8, 00180 Helsinki'",
+  "gravita": "media",
+  "origine": "finlandia_05.json"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "PFT Holz in Form GmbH",
+  "campo": "sede",
+  "da": "Mertendorf OT Görschen (Sachsen-Anhalt)",
+  "a": "Mertendorf OT Görschen (Sachsen-Anhalt) — stabilimento; sede legale Schlüsselfeld (Bayern)",
+  "motivo": "La sede legale (Sitz) iscritta a registro e Schlüsselfeld, con iscrizione presso l'Amtsgericht Stendal (HRB 26378); Mertendorf OT Görschen (Südring 7) e la sede operativa/stabilimento. Il campo non distingue i due livelli.",
+  "fonte": "https://www.northdata.com/PFT%20Holz%20in%20Form%20GmbH,%20Schl%C3%BCsselfeld/Amtsgericht%20Stendal%20HRB%2026378 - 'PFT Holz in Form GmbH, Schlüsselfeld'; https://formsperrholz.de/kontakt - 'Südring 7, 06618 Mertendorf OT Görschen'",
+  "gravita": "bassa",
+  "origine": "germania_01.json"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Gummi-Fischer GmbH & Co. KG",
+  "campo": "sede",
+  "da": "Friedrichshafen, Baden-Württemberg",
+  "a": "Meckenbeuren (sede legale) / Friedrichshafen (sede operativa), Baden-Württemberg",
+  "motivo": "La sede legale iscritta a registro è Käthe-Paulus-Str. 10, 88074 Meckenbeuren (Amtsgericht Ulm HRA 630188), non Friedrichshafen; Ailinger Straße 3 a Friedrichshafen è la sede operativa/negozio. Da uniformare.",
+  "fonte": "https://www.gummi-fischer.de/impressum/ — 'Käthe-Paulus-Str. 10, D 88074 Meckenbeuren, Registergericht Ulm'",
+  "gravita": "bassa",
+  "origine": "germania_05.json"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "PBA S.r.l. (PBA Italia Nutrizione Animale)",
+  "campo": "sede",
+  "da": "Fombio (LO)",
+  "a": "Piacenza (PC) — sede legale; stabilimento a Fombio (LO)",
+  "motivo": "SEDE LEGALE DIVERSA da quella indicata: la sede legale e a Piacenza (PC), Via San Marco 14; Fombio (LO), Via delle Gerole 1, e lo stabilimento produttivo. Le schede camerali classificano l'impresa sotto Piacenza.",
+  "fonte": "https://atoka.io/public/it/azienda/pba-srl/327faa54ece6 - \"Pba Srl | Produzione di mangimi per l'alimentazione degli animali da allevamento a Piacenza\"; https://topaziende.quotidiano.net/emilia-romagna/piacenza/fatturato-pba-srl/ - \"PBA SRL Piacenza\"; https://www.assolombarda.it/cerca-imprese-prodotti/pba-srl - sede legale Via San Marco 14, 29121 Piacenza; stabilimento Via Gerole 1, 26861 Fombio (LO)",
+  "gravita": "media",
+  "origine": "italia_05.json"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "NC Nordic Care AB",
+  "campo": "sede",
+  "da": "Tranås, Jönköpings län",
+  "a": "Tranås, Jönköpings län (säte); stabilimento a Grännäs, Valdemarsvik, Östergötlands län",
+  "motivo": "Indirizzo operativo/registrato discordante: allabolag colloca l'azienda a Grännäs, 615 95 Valdemarsvik (Östergötlands län), con indirizzo postale Box 30, 573 21 Tranås e säte formale a Tranås. Il foglio riporta solo «Tranås, Jönköpings län». Da precisare quale sia la sede produttiva effettiva. Dati dimensionali confermati (79 707 KSEK ≈ 7,1 M€, risultato 166 KSEK, 14 dipendenti, 2025) e VD Thomas Jörgen Johannesson confermato (ordförande Jenny Hörberg).",
+  "fonte": "https://www.allabolag.se/foretag/nc-nordic-care-ab/valdemarsvik/m%C3%B6bler/2JZRNU1I5YGJV — «NC Nordic Care AB is located at Grännäs, 615 95 Valdemarsvik, with postal address Box 30, 573 21 Tranås ... official seat (säte) in Tranås»",
+  "gravita": "bassa",
+  "origine": "svezia_02.json"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Stockhult Glommers Timber AB",
+  "campo": "sede",
+  "da": "Glommersträsk (Arvidsjaur), Norrbottens län",
+  "a": "Glommersträsk (Arvidsjaur) — sede legale Luleå, Norrbottens län",
+  "motivo": "La sede legale registrata risulta a Luleå (Norrbottens län) nelle schede più recenti; Glommersträsk (Arvidsjaur) è la sede operativa/segheria. Entrambe in Norrbottens län: refuso formale, non sostanziale.",
+  "fonte": "https://www.allabolag.se/5565798435/stockhult-glommers-timber-ab — «Stockhult Glommers Timber AB - Org.nr 556579-8435 - Luleå»",
+  "gravita": "bassa",
+  "origine": "svezia_03.json"
+ }
+]

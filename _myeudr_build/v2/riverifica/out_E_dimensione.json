@@ -98,5 +98,45 @@
   "fonte": "https://www.dnb.com/business-directory/company-profiles.weibler_confiserie_chocolaterie_gmbh__cokg.b2a369e8e883c54140627b837737c652.html",
   "frammento": "Weibler Confiserie Chocolaterie GmbH & Co.KG has 172 employees at this location and generates $19.08 million in sales (USD). [...] Weibler gehoert zur Halloren Schokoladenfabrik aus Halle an der Saale, der aeltesten deutschen noch produzierenden Schokoladenfabrik.",
   "nota": "Aggiunto il dato dipendenti (172, D&B) e una seconda stima di fatturato (~17,6 Mio €) che contraddice i ~40 Mio € di DDW; entrambe restano stime. Confermata l'appartenenza al gruppo Halloren: l'azienda NON e' indipendente."
+ },
+ {
+  "denominazione": "MaTec Gummiwerk GmbH",
+  "foglio": "Germania",
+  "esito": "risolto",
+  "dimensione": "Bilanzsumme (totale di bilancio) 3 Mio € nell'esercizio 2023 (ultimo pubblicato, Bundesanzeiger via Implisense); 40 dipendenti in Germania; classe di fatturato fino a 10 Mio € (portale, senza anno). Fatturato puntuale non pubblicato. Stabilimento di gomma tecnica a Caputh/Schwielowsee (HRB 13965 AG Potsdam), 55 anni di attivita'. NB: taglia verosimilmente SOTTO la soglia inferiore della forbice target (5 Mio €).",
+  "fuori_taglia": "no",
+  "fonte": "https://implisense.com/en/companies/matec-gummiwerk-gmbh-schwielowsee-ot-caputh-DE8CLC36ZI36",
+  "frammento": "The company has 40 employees in Germany. The company falls in the revenue class of up to 10 million euros. Additionally, the last published balance sheet total of the MaTec Gummiwerk GmbH is 2023 at 3 M EUR.",
+  "nota": "Confermata la correzione proposta: Bilanzsumme 2023 di 3 Mio € e 40 dipendenti; la fascia 'fino a 10 Mio €' resta una classe di portale. Azienda molto sotto la forbice target."
+ },
+ {
+  "denominazione": "ETS Mischfutterwerk GmbH & Co. KG (Eilers Futtermittel)",
+  "foglio": "Germania",
+  "esito": "risolto",
+  "dimensione": "Classe di fatturato 10-50 Mio € (wer-zu-wem, senza anno); fatturato puntuale NON pubblicato (KG, HRA 6208 AG Steinfurt). Volumi: 150.000 t di mangime/anno prodotte a Ladbergen dall'estate 2017 (sito ufficiale). Dipendenti non pubblicati. NB assetto: ETS Mischfutterwerk e' una JOINT VENTURE fra Eilers Futtermittel GmbH & Co. KG (fondata 1903) e agritura Raiffeisen eG — non e' quindi una PMI indipendente in senso stretto.",
+  "fuori_taglia": "",
+  "fonte": "https://www.wer-zu-wem.de/firma/ets-mischfutterwerk.html",
+  "frammento": "ETS Mischfutterwerk GmbH & Co. KG (Effiziente Tierernaehrungs Strategien) is a partnership consisting of Eilers Futtermittel GmbH & Co. KG and agritura Raiffeisen eG, with the mixing plant established in summer 2017. [...] Umsatz (Revenue): The revenue range is 10-50 million euros. [...] Since summer 2017, the facility in Ladbergen produces 150,000 tons of mixed feed.",
+  "nota": "Rimossa la stima algoritmica Implisense (~10 Mio €, non verificabile) e sostituita con la classe di fatturato 10-50 Mio € piu' i volumi ufficiali; emerso che la societa' e' una JV fra Eilers e agritura Raiffeisen eG. Fatturato puntuale non pubblicato: collocazione nella forbice non determinabile."
+ },
+ {
+  "denominazione": "Schellinger KG",
+  "foglio": "Germania",
+  "esito": "risolto",
+  "dimensione": "Fatturato STIMATO ~46,86 Mio € (Companyhouse / wer-zu-wem / Die Deutsche Wirtschaft — stima di portale, anno di riferimento NON dichiarato): non e' un dato di bilancio, la KG non pubblica il conto economico. Dipendenti: fonti discordanti, 20-49 secondo alcuni portali, ~100 secondo altri. Fondata 1879; molino a cereali, mangimi, pellet ed energie rinnovabili; Schießplatzstr. 1-5, 88250 Weingarten (HRA 550174 AG Ulm). Limite superiore della forbice target.",
+  "fuori_taglia": "no",
+  "fonte": "https://die-deutsche-wirtschaft.de/famu_top/schellinger-kg-weingarten-umsatz-mitarbeiterzahl/",
+  "frammento": "The company's estimated revenue is 46.86 million euros. [...] One source indicates the company employs around 100 employees, while another source mentions 20 to 49 employees. [...] The company was founded in 1879 [...] operates a grain mill and is engaged in the production and distribution of animal feed, production of renewable energy technology.",
+  "nota": "Due query confermano che i 46,86 Mio € sono una STIMA ripresa da piu' portali (Companyhouse, wer-zu-wem, DDW) senza anno; nessun bilancio disponibile. Emersa la discordanza sui dipendenti (20-49 vs ~100), ora esplicitata."
+ },
+ {
+  "denominazione": "Gustav Heess Oleochemische Erzeugnisse GmbH",
+  "foglio": "Germania",
+  "esito": "risolto",
+  "dimensione": "Totale di bilancio (Bilanzsumme) 40 Mio € nel 2023, in calo del 7,1% sull'anno precedente (Bundesanzeiger via Implisense); utile netto 2023 4,46 Mio €. Dipendenti: 150; capacita' produttiva annua 50.000 t nel mondo. FATTURATO NON PUBBLICATO — la Bilanzsumme non e' un ricavo. Azienda familiare fondata 1897 (HRB 5001 AG Stuttgart), nove filiali/impianti in Europa, USA e Asia; tratta anche olio di palma.",
+  "fuori_taglia": "",
+  "fonte": "https://implisense.com/en/companies/gustav-heess-oleochemische-erzeugnisse-gmbh-leonberg-DEEMPOG4M394",
+  "frammento": "The company employs 150 staff members and has an annual production capacity of 50,000 tons worldwide. [...] The last published balance sheet total for Gustav Heess Oleochemische Erzeugnisse GmbH in 2023 was 40 million euros, representing a decrease of 7.1% compared to the previous year. [...] The family company was founded in 1897 by Gustav Heess.",
+  "nota": "Chiarito che i 40 Mio € sono il totale di bilancio 2023 (-7,1% a/a) e non il fatturato, e che i 150 dipendenti sono il dato del gruppo; aggiunta la capacita' produttiva 50.000 t/anno. Il fatturato resta non pubblicato: fuori taglia non determinabile."
  }
 ]

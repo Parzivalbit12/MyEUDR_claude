@@ -8,21 +8,22 @@ Questo documento elenca **tutto** ciò che cambia rispetto alla v1 (`MyEUDR_Lead
 
 ## 1. Il quadro in numeri
 
-- **215 celle cambiate** su 727 aziende.
+- **230 celle cambiate** su 727 aziende.
 - **1 riga rimossa** (§4).
 - **0 campi svuotati** e **0 record orfani**, verificati cella per cella contro il backup pre-modifica (`verifica_integrita.py`).
 - Ordine degli 8 fogli invariato: Italia, Germania, Finlandia, Danimarca, Svezia, Olanda, Belgio, Austria.
 
 | Campo | Celle | | Foglio | Celle |
 |---|--:|---|---|--:|
-| `dimensione` | 72 | | Svezia | 42 |
-| `email` | 34 | | Italia | 38 |
-| `referente` | 31 | | Belgio | 35 |
+| `dimensione` | 72 | | Svezia | 45 |
+| `email` | 34 | | Italia | 40 |
+| `referente` | 31 | | Belgio | 36 |
 | `ruolo` | 29 | | Olanda | 32 |
-| `sito` | 17 | | Germania | 25 |
-| `linkedin` | 14 | | Danimarca | 21 |
-| `filiera` | 8 | | Finlandia | 11 |
-| `denominazione` | 6 | | Austria | 11 |
+| `sito` | 17 | | Germania | 27 |
+| `sede` | 15 | | Danimarca | 23 |
+| `linkedin` | 14 | | Finlandia | 14 |
+| `filiera` | 8 | | Austria | 13 |
+| `denominazione` | 6 | |  |  |
 | `fonte` | 4 | |  |  |
 
 ---
@@ -367,7 +368,23 @@ Molte proposte erano nella forma «Nome Cognome — Ruolo»: applicate alla lett
 
 ### 3.7 Sede
 
-Nessuna correzione di sede applicata: le 21 proposte sono precisazioni redazionali (sede legale accanto a quella operativa, nuovo nome del comune dopo una fusione) oppure — in un caso, Libeert — un valore che appartiene a un altro campo. Restano rilievi aperti.
+| Foglio | Azienda | Da | A |
+|---|---|---|---|
+| Italia | Ponti Guarnizioni S.r.l. | Castelli Calepio (BG) | **Foresto Sparso (BG)** |
+| Italia | PBA S.r.l. (PBA Italia Nutriz… | Fombio (LO) | **Piacenza (PC) — sede legale; stabilimento a…** |
+| Germania | PFT Holz in Form GmbH | Mertendorf OT Görschen (Sachsen-Anhalt) | **Mertendorf OT Görschen (Sachsen-Anhalt) — s…** |
+| Germania | Gummi-Fischer GmbH & Co. KG | Friedrichshafen, Baden-Württemberg | **Meckenbeuren (sede legale) / Friedrichshafe…** |
+| Finlandia | Orasko Oy | Utajärvi (Pohjois-Pohjanmaa) | **Kuopio (Pohjois-Savo) — sede legale; stabil…** |
+| Finlandia | Pakkaus Piippo Oy | Akaa (Pirkanmaa) | **Akaa (stabilimento) / Lempäälä (kotipaikka)…** |
+| Finlandia | Metsäpaahtimo (Sampokone Oy) | Luumäki, Etelä-Karjala | **Helsinki (Uusimaa) — sede legale; paahtimo …** |
+| Danimarca | STIBO COMPLETE A/S (già Rosen… | Esbjerg N (Syddanmark) | **Horsens (Midtjylland) — sede legale; unità …** |
+| Danimarca | Randers Kød Engros ApS | Randers, Region Midtjylland | **Randers SØ, Region Midtjylland** |
+| Svezia | NC Nordic Care AB | Tranås, Jönköpings län | **Tranås, Jönköpings län (säte); stabilimento…** |
+| Svezia | Stockhult Glommers Timber AB | Glommersträsk (Arvidsjaur), Norrbottens län | **Glommersträsk (Arvidsjaur) — sede legale Lu…** |
+| Svezia | Däckteam i Sverige Aktiebolag | Malmö, Skåne län | **Borås, Västra Götalands län** |
+| Belgio | Corpack NV | Beveren-Waas, Provincia di Fiandre Oriental… | **Beveren-Kruibeke-Zwijndrecht (ex Beveren-Wa…** |
+| Austria | Meyer Parkett GmbH | Kalsdorf bei Graz (Steiermark) | **Premstätten (Steiermark)** |
+| Austria | Mühlbauer Holz GmbH | Himberg (Niederösterreich) | **Himberg (Niederösterreich) — sede operativa…** |
 
 ---
 

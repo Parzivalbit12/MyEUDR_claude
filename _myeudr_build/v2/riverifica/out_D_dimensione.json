@@ -108,5 +108,45 @@
   "fonte": "https://www.sg-veneers.com/",
   "frammento": "Since its founding in 1961, Schorn & Groh has developed into one of the leading companies in the veneer industry. [...] The company employs around 85 employees and is run in the second generation. [...] holds eight million square meters of veneer in stock",
   "nota": "Confermati gli ~85 dipendenti (sito aziendale, Creditreform indicava ~80). Nessuna fonte pubblica il fatturato: collocazione in forbice non verificabile."
+ },
+ {
+  "denominazione": "Winter & Freis GmbH & Co. KG",
+  "foglio": "Germania",
+  "esito": "incerto",
+  "dimensione": "",
+  "fuori_taglia": "",
+  "fonte": "",
+  "frammento": "",
+  "nota": "Tre ricerche (sito aziendale holzkiste-palette.de, northdata, portali): nessun dato di fatturato né di organico pubblicato. Northdata (AG Ingolstadt HRA 1683, Kipfenberg) espone Umsatz e Mitarbeiter solo dietro abbonamento premium. Il campo resta 'n.d.'; nota di merito: il sito indica la fondazione nel 1927, non 1926."
+ },
+ {
+  "denominazione": "Die Pharmadrucker GmbH",
+  "foglio": "Germania",
+  "esito": "risolto",
+  "dimensione": "50-99 dipendenti (wlw.com, senza anno); Bilanzsumme 2,0 Mio € (2023, -15,7% sul 2022, Bundesanzeiger via Implisense); fatturato non pubblicato. Controllata della Bernecker-Gruppe (Melsungen) dal 2015/2016; il 90% dei ricavi di stampa del gruppo viene da packaging secondario farmaceutico. AG Fritzlar HRB 12160 — decisione EUDR a livello di capogruppo Bernecker",
+  "fuori_taglia": "",
+  "fonte": "https://implisense.com/en/companies/die-pharmadrucker-gmbh-melsungen-DEAN0AQSGB12",
+  "frammento": "the last published balance sheet total of Die Pharmadrucker GmbH is 2023 at 2 million euros, with a decrease of 15.7% compared to the previous year [...] Die Pharmadrucker GmbH - as a subsidiary of the Bernecker Group - has been providing high-quality printing products for the pharmaceutical & cosmetics industry since 2016 [...] By the end of 2020, 90% of the printing revenue of the Bernecker group is generated with secondary packaging for the pharmaceutical industry.",
+  "nota": "Aggiunto il totale di bilancio 2023 (2,0 Mio €, unico dato quantitativo pubblico) e confermata l'appartenenza al gruppo Bernecker. Il fatturato non è depositato: collocazione in forbice non verificabile."
+ },
+ {
+  "denominazione": "Druckerei Siepmann GmbH",
+  "foglio": "Germania",
+  "esito": "risolto",
+  "dimensione": "~65 dipendenti (sito aziendale siepmanndruck.de, 2025); Bilanzsumme 4,0 Mio € (2023, Bundesanzeiger via Implisense); fatturato non pubblicato (deposito abbreviato). Sede Ruhrstraße 126, 22761 Amburgo; AG Hamburg HRB 25539; offset/digitale, astucci pieghevoli e packaging farmaceutico",
+  "fuori_taglia": "",
+  "fonte": "https://implisense.com/en/companies/druckerei-siepmann-gmbh-hamburg-DEWPQ6L09972",
+  "frammento": "Mitarbeiter (Employees): The company has around 65 employees. Bilanzsumme (Balance Sheet Total): The last published balance sheet total of Druckerei Siepmann GmbH is 2023 at 4 million euros. [...] offset printing, digital printing, specialty printing as well as the production of folding boxes and packaging, particularly for the pharmaceutical industry",
+  "nota": "Sostituito «KMU; Umsatz/MA n.d.» con dati verificabili: ~65 dipendenti e totale di bilancio 4,0 Mio € (2023). Il fatturato non è depositato, ma con 65 addetti nella stampa il posizionamento nella parte bassa della forbice è plausibile (non provato)."
+ },
+ {
+  "denominazione": "EGGER Druck + Medien GmbH",
+  "foglio": "Germania",
+  "esito": "risolto",
+  "dimensione": "11-50 dipendenti (Creditreform / wer-zu-wem / LifeVERDE, 2025); azienda familiare di 5ª generazione fondata nel 1872, AG Augsburg HRB 9915, Landsberg am Lech; stampa di packaging in cartoncino + shop online madika.de; fatturato non pubblicato — con questo organico verosimilmente SOTTO la soglia di 5 Mio €",
+  "fuori_taglia": "si",
+  "fonte": "https://www.lifeverde.de/gruene-unternehmen/gruene-kommunikation-und-csr/egger-druck-medien/zahlen-daten-fakten",
+  "frammento": "Gründungsjahr: 1872 als Buchbinderei mit Ladengeschäft; Mitarbeiterzahl: 11-50 [...] EGGER Druck + Medien ist eine familiengeführte Verpackungsdruckerei, die nachhaltige Kartonverpackungen mit individuellen Designs anbietet [...] geführt von Xaver und Josef Egger in 5. Generation",
+  "nota": "Fascia 11-50 dipendenti confermata da due fonti indipendenti. Il fatturato non è pubblicato; con questo organico l'azienda è verosimilmente sotto la soglia minima di 5 Mio € — riqualificare o escludere. Confermata l'attività di packaging in cartoncino (non solo stampa commerciale)."
  }
 ]
