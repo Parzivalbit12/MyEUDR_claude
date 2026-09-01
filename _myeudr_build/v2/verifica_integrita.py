@@ -14,6 +14,9 @@ ORDINE = ["Italia","Germania","Finlandia","Danimarca","Svezia","Olanda","Belgio"
 CAMPI = ["denominazione","filiera","dimensione","referente","ruolo","linkedin","email","sito","sede","fonte"]
 
 # rinomine volute: vecchia denominazione -> nuova (dalla tabella delle correzioni manuali)
+RIMOSSI = {(r["foglio"], r["denominazione"]) for r in
+           (json.load(open(os.path.join(HERE, "rimozioni_v2.json"), encoding="utf-8"))
+            if os.path.exists(os.path.join(HERE, "rimozioni_v2.json")) else [])}
 RINOMINE = {}
 for fn in ("correzioni_v2_manuali.json", "correzioni_v2_generiche.json"):
     fp = os.path.join(HERE, fn)
@@ -35,11 +38,13 @@ svuotati, cambi, orfani = [], [], []
 print("\nrighe per foglio (v1 → v2):")
 for sn in ORDINE:
     ra, rb = righe(A, sn), righe(B, sn)
-    flag = "✓" if len(ra) == len(rb) else "✗"
+    tolti = sum(1 for x in ra if (sn, x[0]) in RIMOSSI)
+    flag = "✓" if len(ra) - tolti == len(rb) else "✗"
     if flag == "✗": ok = False
-    print(f"  {flag} {sn:12s} {len(ra):4d} → {len(rb):4d}")
+    print(f"  {flag} {sn:12s} {len(ra):4d} → {len(rb):4d}" + (f"  (−{tolti} rimosso)" if tolti else ""))
     idx = {r[0]: r for r in rb}
     for x in ra:
+        if (sn, x[0]) in RIMOSSI: continue
         chiave = RINOMINE.get((sn, x[0]), x[0])
         y = idx.get(chiave)
         if y is None:

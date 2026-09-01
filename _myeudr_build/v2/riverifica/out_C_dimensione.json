@@ -1,0 +1,132 @@
+[
+ {
+  "denominazione": "CARINI GmbH",
+  "foglio": "Austria",
+  "esito": "risolto",
+  "dimensione": "Fatturato oltre 18 Mio. € nel 2010 (con 123 dipendenti; fonte Wirtschaftszeit.at); dato di fatturato piu' recente non pubblicato (GmbH, conto economico non depositato). Organico: ca. 150 dipendenti nella sede di Lustenau nel 2021 (neue.at), 160 dipendenti oggi fra amministrazione e produzione (carini.at / LinkedIn, 2025). Firmenbuch FN 205435k. Con 160 addetti e un fatturato gia' >18 Mio. € nel 2010 l'azienda e' ampiamente sopra la soglia minima di 5 M€ e verosimilmente dentro/appena sopra la fascia 20-35 M€. La stima RocketReach (5,2 Mio. USD / 33 dipendenti) e' errata e va scartata.",
+  "fuori_taglia": "no",
+  "fonte": "https://www.wirtschaftszeit.at/news/etiketten-carini-gehoert-zum-trio-des-jahres-2011/ ; https://www.carini.at/unternehmen-karriere/ueber-uns/ ; https://www.neue.at/vorarlberg/2021/09/01/etikettierer-carini-investiert-in-den-standort.neue",
+  "frammento": "\"In 2010, Etiketten CARINI had more than 18 million euros in sales with 123 employees\"; \"CARINI employs 160 employees at their headquarters in Lustenau in administration and production ... the company employed around 150 employees at its headquarters in Lustenau as of 2021\"",
+  "nota": "Riserva sciolta sul dipendenti (160, 2025) e su un ancoraggio reale di fatturato (>18 M€ nel 2010); il fatturato corrente resta non pubblicato ma la soglia dei 5 M€ e' certamente superata."
+ },
+ {
+  "denominazione": "Wellpappenfabrik TEWA Gesellschaft m.b.H.",
+  "foglio": "Austria",
+  "esito": "confermato_attuale",
+  "dimensione": "Fatturato 12,5 Mio. € (dato 2012, meinbezirk.at) - unico dato di fatturato pubblicato, non aggiornato da fonti successive; 65 dipendenti nel 2012 con ca. 12.000 t di cartone ondulato lavorate/anno, ca. 50 nel 2014, fascia attuale 51-100 dipendenti (wlw.com / karriere.at). Sede Buchscheiden 9, 9560 Feldkirchen in Kaernten. Geschaeftsfuehrender Gesellschafter KommR Franz Ronge (subentrato il 02.04.2012). Membro Forum Wellpappe Austria. IN TARGET 10-20 M€ sul dato 2012.",
+  "fuori_taglia": "no",
+  "fonte": "https://www.meinbezirk.at/feldkirchen/c-wirtschaft/verpackung-wird-zur-familiensache_a2057491 ; https://www.wlw.com/en/company/wellpappenfabrik-tewa-gmbh-113206",
+  "frammento": "\"65 employees process approximately 12,000 tons of corrugated cardboard annually (as of 2012) ... The company employed around 50 employees (as of 2014) ... Current employee range is 51-100. The annual revenue is 12.5 million euros (as of 2012)\"; \"Franz Ronge took over the Wellpappenfabrik TEWA in Buchscheiden on April 2, 2012\"",
+  "nota": "Due ricerche su firmenabc/WKO/northdata non hanno prodotto un fatturato piu' recente: il 12,5 Mio. € (2012) resta l'unico dato pubblicato ed e' corretto; corretto anche l'indirizzo Buchscheiden 9."
+ },
+ {
+  "denominazione": "pack it! Verpackungen GmbH",
+  "foglio": "Austria",
+  "esito": "confermato_attuale",
+  "dimensione": "Fatturato 25,5 Mio. € nell'esercizio 2012 (+15% sui ca. 23 Mio. € del 2011) - 63 dipendenti su produzione a quattro turni (meinbezirk.at / packreport.de); fascia dipendenti attuale 51-200 (LinkedIn/Creditreform). Nessun dato di fatturato piu' recente pubblicato (northdata: nessuna pubblicazione di bilancio). Firmenbuch FN 196751s, LG Steyr. Sede Hermesstrasse 7, 4595 Waldneukirchen. Cartone ondulato cachierato offset, ca. 50% export (DE, NL). Soci fondatori 2000: Stefan Bergmair, Walter Freimueller, Karl Oemmer e Dinkhauser Verpackungen (Tirolo). SOPRA la fascia ideale 10-20 M€ ma dentro il range tollerabile 5-40 M€.",
+  "fuori_taglia": "no",
+  "fonte": "https://www.meinbezirk.at/steyr-steyr-land/c-wirtschaft/firma-packit-auf-dem-erfolgsweg_a574517 ; https://www.northdata.com/pack%20it!%20Verpackungen%20GmbH,%20Waldneukirchen/196751s",
+  "frammento": "\"pack it! Verpackungen GmbH with headquarters in Waldneukirchen was founded in 2000 by Stefan Bergmair, Walter Freimueller, Karl Oemmer and the Tyrolean company Dinkhauser Verpackungen ... In the previous fiscal year, Packit Verpackungen recorded revenue of 25.5 million euros, representing 15 percent growth compared to 2011 with revenue of approximately 23 million euros ... Packit currently employs 63 employees\"; northdata: \"there are no publications matching the search for financial information\"",
+  "nota": "Il fatturato 25,5 Mio. € e' confermato ma va datato all'esercizio 2012; nessun dato successivo pubblicato. Il nome 'Karl Oemmer' risulta confermato come socio fondatore (non come Prokurist)."
+ },
+ {
+  "denominazione": "pratopac GmbH",
+  "foglio": "Austria",
+  "esito": "confermato_attuale",
+  "dimensione": "Fatturato 18 Mio. € nell'esercizio 2020 - 75 dipendenti (fonte ORF Vorarlberg / VN.at, luglio 2021). Serie storica: 14 Mio. € nel 2015 (56 dip. a Klaus e Weiler), 15 Mio. € nel 2016, 15 Mio. € nel 2018 (50 dip.). Firmenbuch FN 217834w, LG Feldkirch. Sede Riedstrasse 1-5, 6833 Klaus + sede operativa a Weiler. Cartone ondulato, cartonaggi, tubi e barattoli in cartone spiralato; investimento di ca. 10 Mio. € nel nuovo stabilimento. GF Alexander Abbrederis, proprieta' famiglia Abbrederis. PERFETTAMENTE IN TARGET 10-20 M€.",
+  "fuori_taglia": "no",
+  "fonte": "https://vorarlberg.orf.at/tv/stories/3111839/ ; https://www.vn.at/markt/2019/03/13/dafuer-investiert-klauser-verpackungsunternehmen-pratopac-zehn-millionen-euro.vn",
+  "frammento": "\"pratopac achieved a revenue of 18 million euros in the previous year, and the family business employs 75 employees. This information comes from a July 2021 ORF report about the company's new building, which indicates this data refers to the 2020 fiscal year\"; \"2015: 14 million euros; 2016: 15 million euros; 2018: 15 million euros; Later year: 18 million euros\"",
+  "nota": "Il dato 18 Mio. € contestato risulta invece confermato e va datato all'esercizio 2020 (75 dip.); la serie 14/15/15 M€ e' antecedente. Nessun dato 2023-2025 pubblicato."
+ },
+ {
+  "denominazione": "Decolvenaere BV",
+  "foglio": "Belgio",
+  "esito": "risolto",
+  "dimensione": "Fatturato totale 38.585.036 € nell'ultimo bilancio depositato (deposito NBB del 27-01-2025, quindi esercizio 2023/2024); 9 FTE secondo lo stato del personale dello stesso bilancio. Trendstop colloca la societa' nella fascia 25-100 Mio €. BE 0400.079.171, fondata 01-07-1959, Singel 140, 9000 Gent. Importatore diretto di legname tropicale (azobe, iroko, sapelli, wenge, afrormosia) - operatore EUDR in senso stretto; organico snello tipico dell'importatore/commerciante. AL LIMITE SUPERIORE della forbice 5-40 M€, ben sopra il target ideale 10-20 M€.",
+  "fuori_taglia": "no",
+  "fonte": "https://www.companyweb.be/en/0400079171/decolvenaere ; https://trendstop.knack.be/nl/detail/400079171/decolvenaere-houtimport.aspx",
+  "frammento": "\"The most recent financial statements were filed on 27-01-2025. There are 9 FTEs working at Decolvenaere according to the staff figures in the most recent financial statements ... The company's turnover is in the range of EUR 25.000.000 - EUR 100.000.000\" (companyweb riporta \"total turnover of EUR 38,585,036.00\")",
+  "nota": "Fatturato ~38,6 M€ confermato e datato all'ultimo deposito NBB (27-01-2025); 9 FTE. Sotto i 50 M€ quindi non fuori taglia, ma al limite alto della tolleranza."
+ },
+ {
+  "denominazione": "NIELAUS A/S",
+  "foglio": "Danimarca",
+  "esito": "risolto",
+  "dimensione": "19 dipendenti (krak.dk/proff.dk, CVR 35480943; il valore '11' riportato altrove si riferisce alla produktionsenhed, non alla societa'); bruttofortjeneste 6,657 mio DKK (~0,89 M€, cambio 7,46) nell'ultimo bilancio disponibile - anno non esposto dalla fonte; afkastningsgrad 29,45%. Fatturato non pubblicato (A/S, bilancio in forma ridotta). NACE 310000 Fremstilling af moebler, Vejrup Storegade 63, 6740 Bramming; produttore di mobili di design familiare da oltre 50 anni. MOLTO SOTTO la forbice 5-40 M€: mantenuto per copertura del cluster Syddanmark. Co-direttore Kim Nordentoft Frederiksen.",
+  "fuori_taglia": "no",
+  "fonte": "https://www.krak.dk/nielaus+a%2Fs+bramming/98577448/firma ; https://www.proff.dk/firma/nielaus-as/bramming/producenter/GUJZBOI016D",
+  "frammento": "\"Nielaus has a bruttofortjeneste (gross profit) of 6,657 thousand kr, an afkastningsgrad (return on assets) of 29.45%, and 19 employees. However, another source lists 11 employees, which may reflect different reporting dates or entities\"; \"NIELAUS A/S ... is a production unit (Produktionsenhed) ... and has 11 employees\"",
+  "nota": "Riserva sciolta: 19 dipendenti e' il dato della societa', 11 quello dell'unita' produttiva. Anno del bilancio non esposto dalle fonti gratuite."
+ },
+ {
+  "denominazione": "BUCHS A/S",
+  "foglio": "Danimarca",
+  "esito": "risolto",
+  "dimensione": "Bruttofortjeneste 14.746.681 DKK nel 2024 (~1,98 M€, cambio 7,46), contro 16.092.571 DKK nel 2023; risultato d'esercizio -418.569 DKK (perdita); 28 dipendenti (fascia paqle 20-50). Fatturato non pubblicato (A/S con bilancio in forma ridotta: viene esposto solo il margine lordo). CVR 29845646, costituita il 07.09.2006, Kertemindevej 15, 8940 Randers SV. Produzione interna oggi all'80% imballaggi; dal 2023 tipografia di etichette Buchs Labels A/S (CVR 44349051, Randers SV). MOLTO SOTTO la forbice 5-40 M€ come singola societa': con ~2,0 M€ di margine lordo e 28 addetti il fatturato e' verosimilmente sotto i 5 M€. La stima precedente '5-15 M€ a livello di gruppo' non e' sostenuta da alcuna fonte.",
+  "fuori_taglia": "no",
+  "fonte": "https://www.krak.dk/buchs+as+randers+sv/67226095/firma ; https://www.proff.dk/firma/buchs-as/randers-sv/internetdesign-og-programmering/GKN0O3I0C2C ; https://www.paqle.dk/p/buchs-a-s/472787",
+  "frammento": "\"Gross profit (bruttofortjeneste) was 14,746,681 DKK in 2024, compared to 16,092,571 DKK in 2023. The profit and loss statement ended at -418,569 DKK (a loss). The staff consists of 28 employees ... established on September 7, 2006 ... Kertemindevej 15, 8940 Randers SV\"; paqle: \"BUCHS A/S - 20-50 ansatte\"",
+  "nota": "Dato 2024 confermato con anno e valuta; fatturato non pubblicabile per forma di bilancio. Azienda molto sotto la soglia minima 5 M€: decisione al cliente."
+ },
+ {
+  "denominazione": "COLOR LABEL A/S",
+  "foglio": "Danimarca",
+  "esito": "risolto",
+  "dimensione": "13 dipendenti; bruttofortjeneste 14,756 mio DKK nel 2024 (~1,98 M€, cambio 7,46); risultato ante imposte 5,169 mio DKK. Fatturato non pubblicato (A/S, bilancio in forma ridotta). CVR 15136901, Vejlbjergvej 12-16, 8240 Risskov (Aarhus). Azienda fondata nel 1980 da Erik Groenning, tuttora in prima linea (l'attuale CVR 15136901 e' registrato nel 1991). Etichette autoadesive per food, chimica e retail; parco macchine flexo Nilpeter (10a macchina flexo nel 2018, nuova FA-17 a 8 colori nel 2022). Capogruppo Color Label Holding ApS. MOLTO SOTTO la forbice: fatturato stimabile ben sotto i 10 M€, probabilmente vicino o sotto i 5 M€.",
+  "fuori_taglia": "no",
+  "fonte": "https://www.colorlabel.dk/om-color-label ; https://proff.dk/firma/color-label-as/risskov/producenter/GJW24II016D",
+  "frammento": "\"The Aarhus-based company was established in 1980 by Erik Groenning, who continues to be in the forefront of the company. The company is located at Vejlbjergvej 12-16 in DK-8240 Risskov ... Today, Color Label A/S stands as one of Denmark's leading suppliers of self-adhesive labels for the food industry, chemical industry and retail\"",
+  "nota": "Riserva sull'anno di fondazione sciolta: 1980 (Erik Groenning), CVR registrato nel 1991. Indirizzo corretto in Vejlbjergvej 12-16. Dati di bilancio 2024 invariati."
+ },
+ {
+  "denominazione": "H. EMBALLAGE ApS",
+  "foglio": "Danimarca",
+  "esito": "risolto",
+  "dimensione": "Bruttofortjeneste 8.149.124 DKK nel 2024 (~1,09 M€, cambio 7,46), contro 7.847.995 DKK nel 2023; risultato d'esercizio -6.461.178 DKK (perdita). 21 dipendenti (fascia paqle 20-50). Fatturato non pubblicato (ApS, bilancio in forma ridotta: viene esposto solo il margine lordo). CVR 38528742, costituita il 27.03.2017, NACE 172100, Hoejrupvej 11, 5620 Glamsbjerg. Fabbricazione di carta ondulata e imballaggi di carta. Capogruppo HOEJRUP HOLDING ApS (gruppo di 5 societa'); nel management Jesper Hildebrandt Christensen. MOLTO SOTTO la forbice 5-40 M€ - lead marginale.",
+  "fuori_taglia": "no",
+  "fonte": "https://estatistik.dk/virksomhed/h-emballage-aps/38528742 ; https://www.proff.dk/firma/h.-emballage-aps/glamsbjerg/papir-og-papirprodukter/GWNSLZI0ZDH ; https://www.paqle.dk/p/h-emballage-aps/836196",
+  "frammento": "\"H. Emballage ApS is located at Hoejrupvej 11, 5620 Glamsbjerg and was established on March 27, 2017 ... Bruttofortjeneste (Gross profit): 8,149,124 DKK in 2024, compared to 7,847,995 DKK in 2023. Aarets resultat (Annual result): -6,461,178 DKK ... The company has 21 employees ... part of a group with a total of 5 companies, with HOEJRUP HOLDING ApS as the parent company\"",
+  "nota": "Ambiguita' sciolta: il dato pubblicato e' il bruttofortjeneste, ora datato (8,15 mio DKK nel 2024). Il valore 9,211 mio DKK del campo non trova riscontro nelle annualita' 2023-2024."
+ },
+ {
+  "denominazione": "STIBO COMPLETE A/S (già Rosendahls A/S - Print Design Media)",
+  "foglio": "Danimarca",
+  "esito": "risolto",
+  "dimensione": "Nettoomsaetning 748 mio DKK nell'esercizio 2025 (~100,3 M€, cambio 7,46), con perdita di 33,5 mio DKK dovuta principalmente alla chiusura della rotativa di Horsens; 278 dipendenti (fascia paqle 200-500). CVR 37120928, Oddesundvej 1, Horsens; esercizio 1 maggio - 30 aprile. Ex Rosendahls, acquisita e ridenominata Stibo Complete A/S nel 2022; parte di Stibo Complete Group A/S (CVR 35844120), gruppo grafico internazionale della fondazione danese Stibo. NETTAMENTE FUORI TAGLIA: ~100 M€ di fatturato, oltre il doppio della soglia dei 50 M€ e ben oltre la forbice tollerabile 5-40 M€.",
+  "fuori_taglia": "si",
+  "fonte": "https://www.proff.dk/firma/stibo-complete-as/horsens/trykeritjenester/0M3MOWI07QV ; https://www.paqle.dk/p/stibo-complete-a-s/182143 ; https://da.wikipedia.org/wiki/Stibo_Complete",
+  "frammento": "\"Stibo Complete A/S had a loss of 33.5 million kroner in 2025 on a net revenue of 748 million kroner. The loss was primarily because the company had to close its rotary printing facility in Horsens ... Stibo Complete A/S has 278 employees\"",
+  "nota": "Riserva sciolta con il fatturato reale: 748 mio DKK (~100 M€) nel 2025. Azienda fuori taglia, da scartare o gestire come lead enterprise."
+ },
+ {
+  "denominazione": "CAFÉU DENMARK ApS",
+  "foglio": "Danimarca",
+  "esito": "risolto",
+  "dimensione": "Bruttofortjeneste 7,3 mio DKK (~0,98 M€, cambio 7,46) nell'ultimo bilancio pubblicato al momento dell'articolo (+421% in cinque anni); utile d'esercizio 2,17 mio DKK nell'esercizio 1.1.2023-31.12.2023 (proff.dk). Dipendenti non pubblicati. Fatturato non pubblicato (ApS, bilancio in forma ridotta). CVR 33243537, capitale 80.000 DKK, NACE 463700 'engroshandel med kaffe, te, kakao og krydderier', Storstroemsvej 42, 6715 Esbjerg N. Torrefazione propria e soluzioni caffe' per aziende. Capogruppo STEFFAN TOBIESEN HOLDING ApS. MOLTO SOTTO IL TARGET.",
+  "fuori_taglia": "no",
+  "fonte": "https://www.proff.dk/firma/caf%C3%A9u-denmark-aps/esbjerg-n/n%C3%A6rings-og-nydelsesmidler/GT4AIYI116S ; https://www.fodevarefokus.dk/dansk-kaffefirma-slaar-konkurrenterne-paa-baeredygtighed-og-logistik/",
+  "frammento": "\"Cafeu Denmark ApS's gross profit increased by 421 percent to 7.3 million kroner in their latest accounts\"; \"For the period January 1, 2023 to December 31, 2023, Cafeu Denmark ApS reported a profit of 2.17 million kroner\"",
+  "nota": "Riserva solo parzialmente sciolta: le fonti gratuite non datano esplicitamente il bruttofortjeneste di 7,3 mio DKK; e' pero' agganciato all'esercizio 2023 documentato (utile 2,17 mio DKK). Conferma la collocazione sotto il target."
+ },
+ {
+  "denominazione": "Estate Coffee Copenhagen A/S",
+  "foglio": "Danimarca",
+  "esito": "risolto",
+  "dimensione": "Bruttofortjeneste 15 mio DKK nel 2024 (~2,01 M€, cambio 7,46; 11 mio DKK nel 2023); fatturato non pubblicato (A/S, bilancio in forma ridotta). Dipendenti: 17 secondo una fonte, 22 secondo un'altra; fascia paqle 20-50. CVR 18179407, societa' costituita nel 1994 e oggi denominata Smage-Compagniet A/S, Holmevej 10, 5683 Haarby (Fionia). Torrefazione, magazzino e vendita di caffe' slow roast, te' biologici e cioccolato fine; marchi Estate Coffee, Valrhona, NUTe, T Town, Chokolade Compagniet, North OAK. Capogruppo Smage-Compagniet Holding A/S (CVR 44432382). Doppia commodity EUDR (caffe' + cacao). SOTTO IL TARGET.",
+  "fuori_taglia": "no",
+  "fonte": "https://www.proff.dk/firma/smage-compagniet-as/haarby/n%C3%A6rings-og-nydelsesmidler/GLOZ6AI116S ; https://www.paqle.dk/p/smage-compagniet-a-s/208839",
+  "frammento": "\"Smage-Compagniet A/S was established in 1994 and is located in Haarby ... In 2024, the company's accounts showed a gross profit of DKK 15 million ... The company has 17 employees, though another source lists 22 employees ... Brands include Estate Coffee, Valrhona, NUTe, T Town, Chokolade Compagniet and North OAK ... Estate Coffee Copenhagen A/S changed its name to Smage-Compagniet A/S\"",
+  "nota": "Dati aggiornati al 2024 e identita' societaria confermata (stesso CVR 18179407, ora Smage-Compagniet A/S). Resta sotto la forbice."
+ },
+ {
+  "denominazione": "I.S. Mäkinen Oy (MAKINEN)",
+  "foglio": "Finlandia",
+  "esito": "confermato_attuale",
+  "dimensione": "Liikevaihto 36,5 M€ nel 2025 (+56,3% sul 2024), 42 dipendenti; liiketulos 466.000 € (marginalita' 1,3%). Nel 2024: liikevaihto 23,3 M€ (+12,7%), 20-49 dipendenti, perdita operativa 1,4 M€ (-5,9%). Y-tunnus 1860318-4, Tammitie 14, 21410 Vanhalinna (Lieto). Interni/arredo navale e refitting cabine per navi da crociera e traghetti + falegnameria. NB: la societa' fa parte del gruppo MAKINEN (il CEO Mikko Makinen, subentrato a Jaakko Makikalli il 9.5.2025, appartiene alla proprieta' del gruppo): la decisione di compliance EUDR va verificata a livello di capogruppo. AL LIMITE ALTO ma dentro la forbice tollerabile 5-40 M€.",
+  "fuori_taglia": "no",
+  "fonte": "https://www.asiakastieto.fi/yritykset/fi/i-s-makinen-oy/18603184/taloustiedot ; https://www.proff.fi/yrityksen/i.s.-m%C3%A4kinen-oy/vanhalinna/huonekalut/1860318-4I015G",
+  "frammento": "\"I.S. Makinen Oy's revenue (liikevaihto) was 36.5 million euros in 2025 with 42 employees. Revenue increased by 56.3% from the previous year, and the company had an operating profit of 466,000 euros with an operating profit margin of 1.3% ... In 2024, the company had a revenue of 23.3 million euros and employed 20-49 people\"",
+  "nota": "Dato 2025 confermato; aggiunta la serie 2024 e l'appartenenza al gruppo MAKINEN. Sotto i 50 M€ ma vicino al limite alto della tolleranza."
+ }
+]

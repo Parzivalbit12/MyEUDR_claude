@@ -79,6 +79,13 @@
  {
   "foglio": "Italia",
   "denominazione": "Zalf S.p.A. (Zalf Industria Mobili Componibili)",
+  "campo": "dimensione",
+  "da": "≈27,5M€ (2024) (CompanyReports/RegistroAziende)",
+  "a": "≈27,5M€ (2024) (CompanyReports/RegistroAziende) /note: 'societa' del Gruppo Euromobil (marchi Euromobil, Zalf, Desiree) - decisione EUDR a livello di capogruppo."
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Zalf S.p.A. (Zalf Industria Mobili Componibili)",
   "campo": "email",
   "da": "n.d.",
   "a": "zalfcen@zalf.com"
@@ -267,6 +274,13 @@
  },
  {
   "foglio": "Germania",
+  "denominazione": "H. Heitz Furnierkantenwerk GmbH & Co. KG",
+  "campo": "dimensione",
+  "da": "Umsatz/MA n.d.; specialista bordi in legno",
+  "a": "Umsatz/MA n.d.; specialista bordi in legno Controllata di INDUS Holding AG (gruppo quotato) dal 2016; dato dimensionale da integrare con fonte e anno."
+ },
+ {
+  "foglio": "Germania",
   "denominazione": "Max Cropp GmbH & Co. KG (Timber Im- & Export)",
   "campo": "email",
   "da": "n.d.",
@@ -344,10 +358,31 @@
  },
  {
   "foglio": "Germania",
+  "denominazione": "Sawade GmbH",
+  "campo": "dimensione",
+  "da": "~100 dip. (Wikipedia/DDW); Umsatz n.d.; storica manifattura",
+  "a": "~100 dip. (Wikipedia/DDW); Umsatz n.d.; storica manifattura Nota: socio di maggioranza Fintura Corporate Finance (Berlino) dal 2021, post-insolvenza in Eigenverwaltung."
+ },
+ {
+  "foglio": "Germania",
   "denominazione": "Weibler Confiserie Chocolaterie GmbH & Co. KG",
   "campo": "denominazione",
   "da": "Weibler Confiserie Chocolaterie GmbH",
   "a": "Weibler Confiserie Chocolaterie GmbH & Co. KG"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Weibler Confiserie Chocolaterie GmbH & Co. KG",
+  "campo": "dimensione",
+  "da": "n.d. — NB: controllata del gruppo Halloren (verificare indipendenza)",
+  "a": "n.d. — NB: controllata del gruppo Halloren (verificare indipendenza) Controllata di United Chocolate GmbH (Beherrschungs-/Gewinnabführungsvertrag) — non di Halloren."
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Effbe GmbH",
+  "campo": "dimensione",
+  "da": "Umsatz/MA n.d.; membrane in elastomero (~70 anni)",
+  "a": "Umsatz/MA n.d.; membrane in elastomero (~70 anni) Controllata della Woco Gruppe (Woco Franz Josef Wolf Holding GmbH) — valutare la compliance a livello di capogruppo."
  },
  {
   "foglio": "Germania",
@@ -379,6 +414,13 @@
  },
  {
   "foglio": "Germania",
+  "denominazione": "RIGDON GmbH",
+  "campo": "dimensione",
+  "da": "~100 MA, Umsatz n.d.; maggior ricostruttore pneumatici indip. DE (borderline)",
+  "a": "~100 MA, Umsatz n.d.; maggior ricostruttore pneumatici indip. DE (borderline) Controllata della Hörger Gruppe (WRZ Hörger GmbH u.; Co.; KG, Sontheim) dal 2017."
+ },
+ {
+  "foglio": "Germania",
   "denominazione": "Südbadische Gummiwerke GmbH",
   "campo": "fonte",
   "da": "https://www.s-b-g.de/impressum-agb/",
@@ -407,6 +449,13 @@
  },
  {
   "foglio": "Finlandia",
+  "denominazione": "CWP Coloured Wood Products Oy",
+  "campo": "dimensione",
+  "da": "Liikevaihto 3,4 M€ (2024); 19 dip. (Asiakastieto)",
+  "a": "Liikevaihto 3,4 M€ (2024); 19 dip. (Asiakastieto) Controllata di Auroora Yhtiöt Oyj (Tampere) — riqualificare il lead sulla capogruppo o scartare."
+ },
+ {
+  "foglio": "Finlandia",
   "denominazione": "E J Hiipakka Oy",
   "campo": "sito",
   "da": "https://www.ejh.fi",
@@ -425,6 +474,13 @@
   "campo": "denominazione",
   "da": "Piiroinen Oy",
   "a": "Arvo Piiroinen Oy"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Nordic Label Oy Ab",
+  "campo": "dimensione",
+  "da": "Liikevaihto ~16,2 M€ (2025), ~64 dip.",
+  "a": "Liikevaihto ~16,2 M€ (2025), ~64 dip. /note: controllata dal gruppo belga Asteria Group (ex Tilgmann Group); compliance decisa a livello di capogruppo."
  },
  {
   "foglio": "Finlandia",
@@ -470,10 +526,101 @@
  },
  {
   "foglio": "Danimarca",
+  "denominazione": "KVIST INDUSTRIES A/S",
+  "campo": "dimensione",
+  "da": "110 dip. (proff.dk, CVR 22629115); codice NACE 310900 Fremstilling af andre møbler; fatturato non pubblicato. Stima ~15-25 M€ sulla base degli addetti: da verificare",
+  "a": "110 dip. (proff.dk, CVR 22629115); codice NACE 310900 Fremstilling af andre møbler; fatturato non pubblicato. Stima ~15-25 M€ sulla base degli addetti: da verificare Controllata da KVIST HOLDING A/S, partecipata dal fondo Dansk Ejerkapital; fatturato non pubblicato (bilancio classe B)."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "TIMBERMAN DENMARK A/S",
+  "campo": "dimensione",
+  "da": "22 dipendenti. Fatturato non pubblicato nelle fonti consultate; ultimo esercizio 2025: risultato ante imposte 43,07 M DKK (~5,8 M€), risultato netto 33,6 M DKK, patrimonio netto 72,4 M DKK — indicatori coerenti con una fascia di ricavi nel target. CVR 25776380, costituita 01.12.2000, sede Havnevej 11, 9560 Hadsund. Centralino +45 99 52 52 52. Codice NACE: commercio all'ingrosso di legno e materiali da costruzione. LEGAME DI GRUPPO: controllata da Timberman Holding ApS; nel CdA figurano Lovisa Märtha Maria Krantz e il presidente Fredrick John Sylva (azionariato nordico).",
+  "a": "22 dipendenti. Fatturato non pubblicato nelle fonti consultate; ultimo esercizio 2025: risultato ante imposte 43,07 M DKK (~5,8 M€), risultato netto 33,6 M DKK, patrimonio netto 72,4 M DKK — indicatori coerenti con una fascia di ricavi nel target. CVR 25776380, costituita 01.12.2000, sede Havnevej 11, 9560 Hadsund. Centralino +45 99 52 52 52. Codice NACE: commercio all'ingrosso di legno e materiali da costruzione. LEGAME DI GRUPPO: controllata da Timberman Holding ApS; nel CdA figurano Lovisa Märtha Maria Krantz e il presidente Fredrick John Sylva (azionariato nordico). Controllata del gruppo svedese quotato Volati AB dal dicembre 2024 (in precedenza Corticeira Amorim); Mogens Albaek Fisker resta direktor e comproprietario."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "EMBALLAGEFABRIKKEN THY PAP",
+  "campo": "dimensione",
+  "da": "n.d. - nessun dato di fatturato o addetti reperito su fonte verificabile. Produttore di imballaggi in cartone e astucci con oltre 25 anni di attività, lavora anche come terzista per tipografie; sede Industrivej 19 B, 7700 Thisted. DA VERIFICARE su CVR: ragione sociale esatta, dimensione e referente.",
+  "a": "n.d. - nessun dato di fatturato o addetti reperito su fonte verificabile. Produttore di imballaggi in cartone e astucci con oltre 25 anni di attività, lavora anche come terzista per tipografie; sede Industrivej 19 B, 7700 Thisted. DA VERIFICARE su CVR: ragione sociale esatta, dimensione e referente. CVR 25352769 (THY PAP, enkeltmandsvirksomhed).; Fatturato e addetti non pubblicati per forma giuridica; micro-impresa AMPIAMENTE SOTTO SOGLIA rispetto al target 5-40 M€."
+ },
+ {
+  "foglio": "Danimarca",
   "denominazione": "JOHNSEN PRINT & DIGITAL MEDIA A/S (già Johnsen Graphic Solutions A/S)",
   "campo": "denominazione",
   "da": "JOHNSEN GRAPHIC SOLUTIONS A/S (oggi anche Johnsen Print & Digital Media A/S)",
   "a": "JOHNSEN PRINT & DIGITAL MEDIA A/S (già Johnsen Graphic Solutions A/S)"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "KLS PUREPRINT A/S",
+  "campo": "dimensione",
+  "da": "41 dipendenti. CVR 13918783, Jernholmen 42A. Tipografia certificata Cradle2Cradle, storica azienda familiare (ex K. Larsen & Søn). LEGAME DI GRUPPO: capogruppo F. E. BORDING A/S (gruppo grafico danese quotato) - la decisione di acquisto potrebbe essere centralizzata. Fatturato non pubblicato a livello di controllata.",
+  "a": "41 dipendenti. CVR 13918783, Jernholmen 42A. Tipografia certificata Cradle2Cradle, storica azienda familiare (ex K. Larsen & Søn). LEGAME DI GRUPPO: capogruppo F. E. BORDING A/S (gruppo grafico danese quotato) - la decisione di acquisto potrebbe essere centralizzata. Fatturato non pubblicato a livello di controllata. Controllata (oggi integralmente) di F.; E.; BORDING A/S dopo il riacquisto della quota di Knud Erik Larsen a fine 2024.; Lead da valutare a livello di capogruppo Bording."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Copenhagen Coffee Lab ApS",
+  "campo": "dimensione",
+  "da": "16 dipendenti; risultato ante imposte ~4,7 mio. DKK es. 2024; utile 2023 1,3 mio. DKK (2 mio. DKK nel 2022). Fatturato non pubblicato. Fonte: proff.dk. SOTTO IL TARGET. · CVR 40207929",
+  "a": "16 dipendenti; risultato ante imposte ~4,7 mio. DKK es. 2024; utile 2023 1,3 mio. DKK (2 mio. DKK nel 2022). Fatturato non pubblicato. Fonte: proff.dk. SOTTO IL TARGET. · CVR 40207929 Capogruppo Copenhagen Coffee Lab Holding ApS (gruppo di 6 societa'); 70% Steen Skallebæk e Ole Kristoffersen, 30% i fondatori Allan Krogsgaard Nielsen e Jacob Karlsen.; Controllo danese, non estero.; Referente Allan Krogsgaard Nielsen (direktør) confermato."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "DANSK KAFFE ApS",
+  "campo": "dimensione",
+  "da": "Micro-impresa: capitale sociale 80 t.DKK; dipendenti e fatturato non pubblicati nelle fonti consultate. Codice NACE 463700 (engros di caffè, tè, cacao e spezie); oggetto sociale: import/export di caffè. Fonte: proff.dk. SOTTO IL TARGET ma importatore puro. · CVR 25081544",
+  "a": "Micro-impresa: capitale sociale 80 t.DKK; dipendenti e fatturato non pubblicati nelle fonti consultate. Codice NACE 463700 (engros di caffè, tè, cacao e spezie); oggetto sociale: import/export di caffè. Fonte: proff.dk. SOTTO IL TARGET ma importatore puro. · CVR 25081544 Capogruppo KAFFEA ApS (gruppo di 2 societa'), societa' costituita il 27.11.2013.; Micro-impresa MOLTO SOTTO SOGLIA rispetto al target 5-40 M€."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "La Cabra Risteri ApS (gruppo La Cabra)",
+  "campo": "dimensione",
+  "da": "Unità risteri: 59 dipendenti (CVR 43681176, costituita 01/11/2022). Fatturato di gruppo La Cabra 150 mio. DKK (~20 M€) es. 2023/24, raddoppiato sull'anno precedente (33 mio. DKK a marzo 2022); ~50% del fatturato da USA. Fonte: fodevarewatch.dk + proff.dk. IN TARGET.",
+  "a": "Unità risteri: 59 dipendenti (CVR 43681176, costituita 01/11/2022). Fatturato di gruppo La Cabra 150 mio. DKK (~20 M€) es. 2023/24, raddoppiato sull'anno precedente (33 mio. DKK a marzo 2022); ~50% del fatturato da USA. Fonte: fodevarewatch.dk + proff.dk. IN TARGET. Risultato es. 2025 -2,7 mio.; DKK (virmo.dk, CVR 43681176)."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "H.C. JACOBSEN A/S",
+  "campo": "dimensione",
+  "da": "Fatturato non pubblicato (n.d.); bruttofortjeneste 3,2 mio DKK (~0,4 M EUR) nel 2025. ATTENZIONE: sotto la fascia target. Fonte: proff.dk (CVR 75144911), anno 2025",
+  "a": "Fatturato non pubblicato (n.d.); bruttofortjeneste 3,2 mio DKK (~0,4 M EUR) nel 2025. ATTENZIONE: sotto la fascia target. Fonte: proff.dk (CVR 75144911), anno 2025 Capogruppo BEA HOLDING ApS; presidente CdA Pernille Andersen; distributore di imballaggi ed elastici, FUORI dalla forbice 5-40 M EUR."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "RG ROM GUMMI A/S",
+  "campo": "dimensione",
+  "da": "Fatturato non pubblicato (n.d.); bruttofortjeneste 53 mio DKK (~7,1 M EUR) nel 2023; 71-80 dipendenti. Fonti: proff.dk (CVR 76653313), romgummi.dk, anno 2023",
+  "a": "Fatturato non pubblicato (n.d.); bruttofortjeneste 53 mio DKK (~7,1 M EUR) nel 2023; 71-80 dipendenti. Fonti: proff.dk (CVR 76653313), romgummi.dk, anno 2023 Controllata tramite RGDE ApS, societa in portafoglio del fondo Dansk Ejerkapital."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "NUTRIMIN A/S",
+  "campo": "dimensione",
+  "da": "66 dipendenti; bruttofortjeneste 41,98 M DKK (2022, era 55,31 M DKK nel 2021), risultato netto 8,82 M DKK (2022). Fatturato non pubblicato (bilancio in forma ridotta) - taglia stimata nella fascia PMI ma DA VERIFICARE. Fonte: proff.dk, dati 2022. CVR 28513518. Terzo fornitore danese di premix vitaminico-minerali, concentrati, mangimi per suinetti e latte per vitelli (uso di soia/proteine vegetali). Sede operativa: Bodalen 11, 8643 Ans By, tel. +45 8750 0880.",
+  "a": "66 dipendenti; bruttofortjeneste 41,98 M DKK (2022, era 55,31 M DKK nel 2021), risultato netto 8,82 M DKK (2022). Fatturato non pubblicato (bilancio in forma ridotta) - taglia stimata nella fascia PMI ma DA VERIFICARE. Fonte: proff.dk, dati 2022. CVR 28513518. Terzo fornitore danese di premix vitaminico-minerali, concentrati, mangimi per suinetti e latte per vitelli (uso di soia/proteine vegetali). Sede operativa: Bodalen 11, 8643 Ans By, tel. +45 8750 0880. Controllata di Nutreco N.V. (gruppo SHV, Paesi Bassi) - Trouw Nutrition, dal 01/12/2021."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "TJØRNEHØJ MØLLE A/S",
+  "campo": "dimensione",
+  "da": "DATO STORICO: fatturato lordo 80 M DKK ≈ 10,7 M€ nel 2003 (fonte: articolo Maskinbladet 'Foderspecialisten til smågrise'), di cui circa il 63% da miscele per lo svezzamento precoce dei suinetti. Produttore di mangimi per suini e cavalli. CVR, dati finanziari attuali, numero dipendenti e stato di attivita' NON VERIFICATI: lead da confermare su CVR/proff prima dell'uso. Il dato 2003 collocherebbe l'azienda nel target 10-20 M€ ma non e' attuale.",
+  "a": "DATO STORICO: fatturato lordo 80 M DKK ≈ 10,7 M€ nel 2003 (fonte: articolo Maskinbladet 'Foderspecialisten til smågrise'), di cui circa il 63% da miscele per lo svezzamento precoce dei suinetti. Produttore di mangimi per suini e cavalli. CVR, dati finanziari attuali, numero dipendenti e stato di attivita' NON VERIFICATI: lead da confermare su CVR/proff prima dell'uso. Il dato 2003 collocherebbe l'azienda nel target 10-20 M€ ma non e' attuale. Controllata del gruppo DLG (grande operatore, fuori target lead)."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Grambogård",
+  "campo": "dimensione",
+  "da": "Fatturato ca. 45 mio DKK (~6,0 M EUR); macello/lavorazione carni con linea bovina da manze e manzi. Fonte: effektivtlandbrug.landbrugnet.dk, articolo 2023",
+  "a": "Fatturato ca. 45 mio DKK (~6,0 M EUR); macello/lavorazione carni con linea bovina da manze e manzi. Fonte: effektivtlandbrug.landbrugnet.dk, articolo 2023 Controllata di FoodService Danmark A/S (gruppo Dagrofa)."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Aktiebolaget Karlaträ",
+  "campo": "dimensione",
+  "da": "≈7,9 M€ / 12 dip. (allabolag: 89 711 KSEK) · org.nr 556081-8782 · sotto la fascia target 10-20 M€, tenuta per copertura · produzione ~40 000 m³/anno",
+  "a": "≈7,9 M€ / 12 dip. (allabolag: 89 711 KSEK) · org.nr 556081-8782 · sotto la fascia target 10-20 M€, tenuta per copertura · produzione ~40 000 m³/anno Koncern di 2 società, moderbolag Karlaträ Försäljning AB (holding di vendita del medesimo gruppo familiare)."
  },
  {
   "foglio": "Svezia",
@@ -484,10 +631,66 @@
  },
  {
   "foglio": "Svezia",
+  "denominazione": "Balungstrands Sågverk AB",
+  "campo": "dimensione",
+  "da": "≈10,1 M€ / 38 dip. (allabolag 2025: 114 525 KSEK) · org.nr 556637-7171 · legame di gruppo: controllata di Green Wood Sverige AB (stessa proprietà di Bäckebrons e Nordanå Trä) · calo -70,1% sul 2024, verificare durata esercizio",
+  "a": "≈10,1 M€ / 38 dip. (allabolag 2025: 114 525 KSEK) · org.nr 556637-7171 · legame di gruppo: controllata di Green Wood Sverige AB (stessa proprietà di Bäckebrons e Nordanå Trä) · calo -70,1% sul 2024, verificare durata esercizio Controllata di Green Wood Sverige AB; koncernmoderbolag Profuragruppen AB (dal 2025, dopo il fallimento di Ziegler Group)."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Brattby Sågverks AB",
+  "campo": "dimensione",
+  "da": "≈12,7 M€ / 32 dip. (allabolag/bolagsfakta 2024: 143 413 KSEK, +25,6%) · org.nr 556415-5066 · membro SÅGAB-Sågverken Norrland · target ideale",
+  "a": "≈12,7 M€ / 32 dip. (allabolag/bolagsfakta 2024: 143 413 KSEK, +25,6%) · org.nr 556415-5066 · membro SÅGAB-Sågverken Norrland · target ideale Koncern con moderbolag Brattby Trading Aktiebolag."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Bäckebrons Sågverk Aktiebolag",
+  "campo": "dimensione",
+  "da": "≈12,6 M€ / 39 dip. (allabolag 2025: 142 474 KSEK) · org.nr 556099-7008 · NOTA: nel 2023 il fatturato era 326 MSEK (≈29 M€), calo -66,7% nel 2025 (possibile esercizio ridotto) · legame di gruppo: controllata di Green Wood Sverige AB, capogruppo Ziegler Holding GmbH",
+  "a": "≈12,6 M€ / 39 dip. (allabolag 2025: 142 474 KSEK) · org.nr 556099-7008 · NOTA: nel 2023 il fatturato era 326 MSEK (≈29 M€), calo -66,7% nel 2025 (possibile esercizio ridotto) · legame di gruppo: controllata di Green Wood Sverige AB, capogruppo Ziegler Holding GmbH Controllata di Green Wood Sverige AB; koncernmoderbolag Profuragruppen AB (dopo il fallimento di Ziegler Group)."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Drömtrappor AB",
+  "campo": "dimensione",
+  "da": "Fatturato 83.213 KSEK (~7,4 M€) e 74 dipendenti nel 2025 (fonte allabolag.se). Org.nr 556309-7038 (ex Trätrappor Norsjö AB). Sotto il target 10-20 M€ ma dentro la fascia tollerata.",
+  "a": "Fatturato 83.213 KSEK (~7,4 M€) e 74 dipendenti nel 2025 (fonte allabolag.se). Org.nr 556309-7038 (ex Trätrappor Norsjö AB). Sotto il target 10-20 M€ ma dentro la fascia tollerata. Moderbolag Förvaltnings AB Klätterbjörken; fatturato in calo da 126,4 MSEK (2024) a 83,2 MSEK (2025)."
+ },
+ {
+  "foglio": "Svezia",
   "denominazione": "Ekstrands Dörrar & Fönster AB",
   "campo": "linkedin",
   "da": "",
   "a": "https://se.linkedin.com/company/ekstrand-&-son-ab"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Glimakra of Sweden AB",
+  "campo": "dimensione",
+  "da": "Fatturato 165 564 KSEK = 165,6 MSEK ≈ 14,7 M€ (2024, -6,4%); 78 dipendenti (2024); org.nr 556120-7837 – fonte allabolag.se. Pienamente in target. Legame di gruppo: controllata di Garpco AB, con 2 sub-controllate; ha acquisito Fanerami Sweden (impiallacciature)",
+  "a": "Fatturato 165 564 KSEK = 165,6 MSEK ≈ 14,7 M€ (2024, -6,4%); 78 dipendenti (2024); org.nr 556120-7837 – fonte allabolag.se. Pienamente in target. Legame di gruppo: controllata di Garpco AB, con 2 sub-controllate; ha acquisito Fanerami Sweden (impiallacciature) Controllata di Garpco Aktiebolag (dal 2007), koncern di 25 società / 311 addetti / 667 MSEK."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Hjältevadshus AB",
+  "campo": "dimensione",
+  "da": "Fatturato 140.766 KSEK (~12,5 M€) e 86 dipendenti nel 2025 (fonte allabolag.se). Org.nr 556232-9135. Pienamente in target. Azionista di controllo: gruppo Pulsen (dal 2011).",
+  "a": "Fatturato 140.766 KSEK (~12,5 M€) e 86 dipendenti nel 2025 (fonte allabolag.se). Org.nr 556232-9135. Pienamente in target. Azionista di controllo: gruppo Pulsen (dal 2011). Perdita d'esercizio 2025 (marginalità -32,6%); koncern Pulsen AB, 56 società."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Horreds Möbel Aktiebolag",
+  "campo": "dimensione",
+  "da": "Fatturato 103 MSEK ≈ 9,1 M€ (esercizio 2022, +77% sul 2021); 50 dipendenti (2022, +11 sull'anno precedente); org.nr 556365-1974 – fonte allabolag.se / Mark-Posten. ATTENZIONE: dato non aggiornato al 2024, da riverificare. Fa parte di un gruppo di 3 società",
+  "a": "Fatturato 103 MSEK ≈ 9,1 M€ (esercizio 2022, +77% sul 2021); 50 dipendenti (2022, +11 sull'anno precedente); org.nr 556365-1974 – fonte allabolag.se / Mark-Posten. ATTENZIONE: dato non aggiornato al 2024, da riverificare. Fa parte di un gruppo di 3 società Capogruppo Horreds Holding AB / Horreds Möbel Utvecklings AB (org.nr 559016-3324), gruppo di 3 società."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Johanson Design Aktiebolag",
+  "campo": "dimensione",
+  "da": "Fatturato 251 117 KSEK = 251,1 MSEK ≈ 22,2 M€ (2024); 70 dipendenti (2024; 80 a marzo 2025); org.nr 556358-5206 – fonte allabolag.se. Azienda di confine: leggermente sopra il target ideale 10-20 M€ ma entro la fascia tollerabile 5-40 M€",
+  "a": "Fatturato 251 117 KSEK = 251,1 MSEK ≈ 22,2 M€ (2024); 70 dipendenti (2024; 80 a marzo 2025); org.nr 556358-5206 – fonte allabolag.se. Azienda di confine: leggermente sopra il target ideale 10-20 M€ ma entro la fascia tollerabile 5-40 M€ Capogruppo Johanson Design Invest Aktiebolag (org.nr 556691-6457), gruppo di 5 società; 3 controllate dirette."
  },
  {
   "foglio": "Svezia",
@@ -505,6 +708,132 @@
  },
  {
   "foglio": "Svezia",
+  "denominazione": "NC Nordic Care AB",
+  "campo": "dimensione",
+  "da": "Fatturato 79 707 KSEK = 79,7 MSEK ≈ 7,1 M€ (2025); risultato 166 KSEK; 14 dipendenti; org.nr 556249-9177 – fonte allabolag.se. Sotto il target ideale ma entro la fascia tollerabile. Attività di produzione mobili ufficio + commercio all'ingrosso (SNI 46471): rilevante come operatore EUDR",
+  "a": "Fatturato 79 707 KSEK = 79,7 MSEK ≈ 7,1 M€ (2025); risultato 166 KSEK; 14 dipendenti; org.nr 556249-9177 – fonte allabolag.se. Sotto il target ideale ma entro la fascia tollerabile. Attività di produzione mobili ufficio + commercio all'ingrosso (SNI 46471): rilevante come operatore EUDR Capogruppo Materia Group AB (gruppo di arredo); lead da valutare a livello di capogruppo."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Nola Industrier AB",
+  "campo": "dimensione",
+  "da": "Fatturato 86 155 KSEK = 86,2 MSEK ≈ 7,6 M€ (2024, -2,6%); risultato 2 629 KSEK; 22 dipendenti; org.nr 556207-4442 – fonte allabolag.se. Sotto il target ideale ma entro la fascia tollerabile",
+  "a": "Fatturato 86 155 KSEK = 86,2 MSEK ≈ 7,6 M€ (2024, -2,6%); risultato 2 629 KSEK; 22 dipendenti; org.nr 556207-4442 – fonte allabolag.se. Sotto il target ideale ma entro la fascia tollerabile Capogruppo Sentensen Aktiebolag (gruppo di 3 società, 88,0 MSEK)."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Nydala Trävaru Aktiebolag",
+  "campo": "dimensione",
+  "da": "≈28,6 M€ / 41 dip. (allabolag 2023: 323 425 KSEK; 2022: 364 MSEK) · org.nr 556075-2825 · azienda di confine sulla fascia alta del range tollerabile · segheria familiare dal 1908, ~100 000 m³/anno",
+  "a": "≈28,6 M€ / 41 dip. (allabolag 2023: 323 425 KSEK; 2022: 364 MSEK) · org.nr 556075-2825 · azienda di confine sulla fascia alta del range tollerabile · segheria familiare dal 1908, ~100 000 m³/anno Capogruppo Nydala Trä Holding AB (gruppo di 2 società)."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Sjöbergs Workbenches AB",
+  "campo": "dimensione",
+  "da": "Fatturato 67 063 KSEK = 67,1 MSEK ≈ 5,9 M€ (2024; 60 142 KSEK nel 2023); 27-29 dipendenti; org.nr 556085-1825 – fonte allabolag.se. Azienda di confine: appena sopra la soglia minima di 5 M€. Legame di gruppo: capogruppo Idun Woodcraft AB; controllata Svenska Hyvelbänkar. Produzione di banchi, mobili e componenti in legno massello",
+  "a": "Fatturato 67 063 KSEK = 67,1 MSEK ≈ 5,9 M€ (2024; 60 142 KSEK nel 2023); 27-29 dipendenti; org.nr 556085-1825 – fonte allabolag.se. Azienda di confine: appena sopra la soglia minima di 5 M€. Legame di gruppo: capogruppo Idun Woodcraft AB; controllata Svenska Hyvelbänkar. Produzione di banchi, mobili e componenti in legno massello Gruppo Idun Woodcraft AB, 74 società (gruppo Idun)."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Småland Timber AB",
+  "campo": "dimensione",
+  "da": "≈14,6 M€ / 26 dip. (allabolag 2023: 164 742 KSEK; 2022: 187 418 KSEK con 31 dip.) · org.nr 556136-0248 · ex Rydaholms Träförädling AB · target ideale",
+  "a": "≈14,6 M€ / 26 dip. (allabolag 2023: 164 742 KSEK; 2022: 187 418 KSEK con 31 dip.) · org.nr 556136-0248 · ex Rydaholms Träförädling AB · target ideale Controllata da Green Wood Sverige AB (org.nr 559248-6616), holding del legno con sede a Sunne."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Stockhult Glommers Timber AB",
+  "campo": "dimensione",
+  "da": "≈26 M€ / 15 dip. (fatturato 296,6 MSEK, riconoscimento Gasell Dagens Industri; allabolag 2020: 98 352 KSEK) · org.nr 556579-8435 · crescita +269% in 4 anni, azienda di confine sulla fascia alta · produzione ~70 000 m³/anno",
+  "a": "≈26 M€ / 15 dip. (fatturato 296,6 MSEK, riconoscimento Gasell Dagens Industri; allabolag 2020: 98 352 KSEK) · org.nr 556579-8435 · crescita +269% in 4 anni, azienda di confine sulla fascia alta · produzione ~70 000 m³/anno Controllata dal gruppo Stockhult (Stockhult Timber AB / Stockhult Holding AB)."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Stolab Möbel AB",
+  "campo": "dimensione",
+  "da": "Fatturato 83,3 MSEK ≈ 7,4 M€ (2024; risultato -5,6 MSEK); 50 dipendenti (2024); org.nr 556182-5224 – fonte allabolag.se / proff.se. Sotto il target ideale ma entro la fascia tollerabile. Ha acquisito Albin i Hyssna (produzione svedese)",
+  "a": "Fatturato 83,3 MSEK ≈ 7,4 M€ (2024; risultato -5,6 MSEK); 50 dipendenti (2024); org.nr 556182-5224 – fonte allabolag.se / proff.se. Sotto il target ideale ma entro la fascia tollerabile. Ha acquisito Albin i Hyssna (produzione svedese) Capogruppo Martinvest i Smålandsstenar AB / Moid AB (holding familiare, 4 società)."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Sunnerbo Fönster AB",
+  "campo": "dimensione",
+  "da": "Fatturato 101.636 KSEK (~9,0 M€) e 40 dipendenti nel 2024 (fonte allabolag.se). Org.nr 556708-7282. Di poco sotto il target 10-20 M€, dentro la fascia tollerata.",
+  "a": "Fatturato 101.636 KSEK (~9,0 M€) e 40 dipendenti nel 2024 (fonte allabolag.se). Org.nr 556708-7282. Di poco sotto il target 10-20 M€, dentro la fascia tollerata. Controllata da Sunnerbo Windows & Doors AB (org.nr 556986-4902); esercizio 2024 in perdita -1,3 MSEK."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Swedese Möbler Aktiebolag",
+  "campo": "dimensione",
+  "da": "Fatturato 165 761 KSEK = 165,8 MSEK ≈ 14,7 M€ (2024, -1,3%); risultato 4 153 KSEK; 87 dipendenti (2024); org.nr 556280-1323 – fonte allabolag.se. Pienamente in target 10-20 M€",
+  "a": "Fatturato 165 761 KSEK = 165,8 MSEK ≈ 14,7 M€ (2024, -1,3%); risultato 4 153 KSEK; 87 dipendenti (2024); org.nr 556280-1323 – fonte allabolag.se. Pienamente in target 10-20 M€ Capogruppo Patino Group AB (holding della proprietà)."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "VårgårdaHus AB",
+  "campo": "dimensione",
+  "da": "Fatturato 151.086 KSEK (~13,4 M€) e 53 dipendenti nel 2024 (fonte allabolag.se). Org.nr 556477-6911. Pienamente in target. Fa parte del gruppo SVENSKA HUSCOMPAGNIET AB (7 società).",
+  "a": "Fatturato 151.086 KSEK (~13,4 M€) e 53 dipendenti nel 2024 (fonte allabolag.se). Org.nr 556477-6911. Pienamente in target. Fa parte del gruppo SVENSKA HUSCOMPAGNIET AB (7 società). Controllata del gruppo danese HusCompagniet A/S tramite Svenska HusCompagniet AB — lead da valutare a livello di capogruppo."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "ZilenZio AB",
+  "campo": "dimensione",
+  "da": "Fatturato 123,4 MSEK ≈ 10,9 M€ (esercizio 2025; 106 963 KSEK nel 2023); risultato operativo 9,1 MSEK; 20 dipendenti (2023), 28 a livello di gruppo; org.nr 556651-5689 – fonte allabolag.se/proff.se. Pienamente in target",
+  "a": "Fatturato 123,4 MSEK ≈ 10,9 M€ (esercizio 2025; 106 963 KSEK nel 2023); risultato operativo 9,1 MSEK; 20 dipendenti (2023), 28 a livello di gruppo; org.nr 556651-5689 – fonte allabolag.se/proff.se. Pienamente in target Capogruppo ZilenZio Selling Silence AB / Easier AB."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Åsljunga Pallen Aktiebolag",
+  "campo": "dimensione",
+  "da": "≈22,6 M€ / 80 dip. (allabolag 2024: 255 909 KSEK) · org.nr 556093-5156 · maggior produttore svedese di pallet (HS 4415, Allegato I EUDR) · fascia alta del range tollerabile",
+  "a": "≈22,6 M€ / 80 dip. (allabolag 2024: 255 909 KSEK) · org.nr 556093-5156 · maggior produttore svedese di pallet (HS 4415, Allegato I EUDR) · fascia alta del range tollerabile Capogruppo Åsljunga-Pallen Service Aktiebolag (org.nr 556398-3211)."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Aktiebolaget Halmstads Gummifabrik",
+  "campo": "dimensione",
+  "da": "Fatturato 282.998 KSEK (~25,0 M€) e 81 dipendenti — bilancio 2024 (fonte allabolag/bolagsfakta); org.nr 556051-6188. Sopra la fascia ideale ma entro il tollerabile.",
+  "a": "Fatturato 282.998 KSEK (~25,0 M€) e 81 dipendenti — bilancio 2024 (fonte allabolag/bolagsfakta); org.nr 556051-6188. Sopra la fascia ideale ma entro il tollerabile. Capogruppo Janmon AB."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Rubber Company, R. Holmquist Aktiebolag",
+  "campo": "dimensione",
+  "da": "Fatturato 118.377 KSEK (~10,5 M€) e 39-42 dipendenti — ultimo esercizio disponibile 2024/2025 (fonte allabolag/bolagsfakta); org.nr 556068-0448. In pieno target.",
+  "a": "Fatturato 118.377 KSEK (~10,5 M€) e 39-42 dipendenti — ultimo esercizio disponibile 2024/2025 (fonte allabolag/bolagsfakta); org.nr 556068-0448. In pieno target. Capogruppo Rubber Förvaltning Aktiebolag (gruppo di 5 società)."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Bording AB",
+  "campo": "dimensione",
+  "da": "Fatturato 91.326 KSEK (~8,1 M€) e 42 dipendenti — fonte allabolag/bolagsfakta, es. 2023. Org.nr 556239-7090. AZIENDA DI CONFINE: sotto il target 10-20 M€ ma dentro la fascia tollerabile 5-40 M€. Nota: la stessa entità compare anche come Bording PurePrint AB; legame con il gruppo danese Bording.",
+  "a": "Fatturato 91.326 KSEK (~8,1 M€) e 42 dipendenti — fonte allabolag/bolagsfakta, es. 2023. Org.nr 556239-7090. AZIENDA DI CONFINE: sotto il target 10-20 M€ ma dentro la fascia tollerabile 5-40 M€. Nota: la stessa entità compare anche come Bording PurePrint AB; legame con il gruppo danese Bording. Controllata di F E Bording A/S (DK) — lead da valutare a livello di capogruppo danese."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Econopack Aktiebolag",
+  "campo": "dimensione",
+  "da": "Fatturato 127.623 KSEK (~11,3 M€) e 10 dipendenti — fonte allabolag/bolagsfakta, es. 2024. Org.nr 556262-9211. IN TARGET per fatturato, ma organico ridotto (modello distributivo/commerciale su soluzioni di imballaggio). Nota legame di gruppo: capogruppo S-Pack AB.",
+  "a": "Fatturato 127.623 KSEK (~11,3 M€) e 10 dipendenti — fonte allabolag/bolagsfakta, es. 2024. Org.nr 556262-9211. IN TARGET per fatturato, ma organico ridotto (modello distributivo/commerciale su soluzioni di imballaggio). Nota legame di gruppo: capogruppo S-Pack AB. Capogruppo operativa S-Pack AB (aPak AB, Crispo Paper AB, Econopack AB); capogruppo ultima Lameja Invest AB; gruppo 8 societa', 100 dip., 930 MSEK.; Interlocutore compliance da valutare a livello S-Pack."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Klippans Bruk AB",
+  "campo": "dimensione",
+  "da": "Fatturato 264.323 KSEK (~23,4 M€) e 54 dipendenti — fonte allabolag/bolagsfakta, es. 2024. Org.nr 556530-3228. AZIENDA DI CONFINE: sopra il target 10-20 M€ ma dentro la fascia tollerabile 5-40 M€. Cartiera (produzione di carta e locazione immobili), sede Bruksallén 9, Klippan, tel. 0435-291 00; presidente Stefan Uno Sundh, VD Jan Mauritzson (nominato dal 1° novembre 2021, fonte comunicato klippansbruk.se/lesprom). Lo stabilimento opera storicamente anche sotto l'insegna Svenska Pappersbruket AB.",
+  "a": "Fatturato 264.323 KSEK (~23,4 M€) e 54 dipendenti — fonte allabolag/bolagsfakta, es. 2024. Org.nr 556530-3228. AZIENDA DI CONFINE: sopra il target 10-20 M€ ma dentro la fascia tollerabile 5-40 M€. Cartiera (produzione di carta e locazione immobili), sede Bruksallén 9, Klippan, tel. 0435-291 00; presidente Stefan Uno Sundh, VD Jan Mauritzson (nominato dal 1° novembre 2021, fonte comunicato klippansbruk.se/lesprom). Lo stabilimento opera storicamente anche sotto l'insegna Svenska Pappersbruket AB. Capogruppo Sundh Center AB (holding di proprieta' della famiglia Sundh)."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Lenanders Grafiska AB",
+  "campo": "dimensione",
+  "da": "Fatturato 122.940 KSEK (~10,9 M€) e 42 dipendenti — fonte allabolag/bolagssoket, es. 2024. Org.nr 556323-6776 (da riverificare: fonti aggregate riportano numerazioni divergenti). IN TARGET. Nota legame di gruppo: collegata a Scandinavian Print Group (proprietà danese); VD non pubblicato nelle fonti consultate — in cda risultano Henrik Corvenius Frydendahl ed Esben Mols Kabell.",
+  "a": "Fatturato 122.940 KSEK (~10,9 M€) e 42 dipendenti — fonte allabolag/bolagssoket, es. 2024. Org.nr 556323-6776 (da riverificare: fonti aggregate riportano numerazioni divergenti). IN TARGET. Nota legame di gruppo: collegata a Scandinavian Print Group (proprietà danese); VD non pubblicato nelle fonti consultate — in cda risultano Henrik Corvenius Frydendahl ed Esben Mols Kabell. Controllata (100%) di Scandinavian Print Group (DK) dal 1/9/2021; capogruppo di riferimento per la compliance: Scandinavian Print Group."
+ },
+ {
+  "foglio": "Svezia",
   "denominazione": "Lykke Coffee Farms AB",
   "campo": "referente",
   "da": "",
@@ -519,10 +848,38 @@
  },
  {
   "foglio": "Svezia",
+  "denominazione": "Nordiska Kaffebolaget H. Hansson & Co Aktiebolag",
+  "campo": "dimensione",
+  "da": "Fatturato 54,7 MSEK (~4,8 M€) 2024 (+8,4%); 17 dipendenti (14 nel 2023) (fonte: allabolag.se, bilancio 2024). Org.nr 556083-2379. SNI 46370 kaffe/te agenturer. Taglia appena sotto la fascia tollerabile ma importatore/agente puro.",
+  "a": "Fatturato 54,7 MSEK (~4,8 M€) 2024 (+8,4%); 17 dipendenti (14 nel 2023) (fonte: allabolag.se, bilancio 2024). Org.nr 556083-2379. SNI 46370 kaffe/te agenturer. Taglia appena sotto la fascia tollerabile ma importatore/agente puro. Capogruppo WB Stockholm AB (org.nr 556705-8754, stessa sede) - holding/operativa di proprieta familiare; gruppo di 5 societa, 3 controllate."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Delicato Bakverk Aktiebolag",
+  "campo": "dimensione",
+  "da": "Fatturato 396,6 MSEK (~35,1 M€) esercizio 2025 (+12,2%); 125 dipendenti (fonte: allabolag.se / bolagsfakta.se). Org.nr 556119-4720. Gruppo di 8 società, capogruppo Belvéns Bageri AB. Entro la fascia tollerabile (5-40 M€).",
+  "a": "Fatturato 396,6 MSEK (~35,1 M€) esercizio 2025 (+12,2%); 125 dipendenti (fonte: allabolag.se / bolagsfakta.se). Org.nr 556119-4720. Gruppo di 8 società, capogruppo Belvéns Bageri AB. Entro la fascia tollerabile (5-40 M€). Moderbolag diretto Belveens Bageri AB; capogruppo di vertice Eldkvarn AB (gruppo di 8 societa)'."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Grahns Konfektyr AB",
+  "campo": "dimensione",
+  "da": "Fatturato 259,7 MSEK (~23,0 M€) 2024; 208,6 MSEK 2023; 60-65 dipendenti (fonte: allabolag.se / bolagsfakta.se). Org.nr 556724-8884.",
+  "a": "Fatturato 259,7 MSEK (~23,0 M€) 2024; 208,6 MSEK 2023; 60-65 dipendenti (fonte: allabolag.se / bolagsfakta.se). Org.nr 556724-8884. Controllata dal gruppo quotato Humble Group AB - compliance decisa a livello di capogruppo. Esercizio 2024 in perdita (-2,2 MSEK) nonostante +24,5% di fatturato'."
+ },
+ {
+  "foglio": "Svezia",
   "denominazione": "Aktiebolaget Johan Hansson",
   "campo": "linkedin",
   "da": "",
   "a": "https://se.linkedin.com/company/ab-johan-hansson"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Liljeholmens Stearinfabriks AB",
+  "campo": "dimensione",
+  "da": "Fatturato 346.300 KSEK (~30,6 M€) nel 2024 e 93-98 dipendenti (93 nel 2023, fatturato 375.373 KSEK) (fonte bolagsfakta/allabolag); org.nr 556041-6348. Sopra la fascia ideale ma entro il tollerabile.",
+  "a": "Fatturato 346.300 KSEK (~30,6 M€) nel 2024 e 93-98 dipendenti (93 nel 2023, fatturato 375.373 KSEK) (fonte bolagsfakta/allabolag); org.nr 556041-6348. Sopra la fascia ideale ma entro il tollerabile. Controllata via Liljeholmens Group AB / ALG Holding AB, capogruppo di vertice Tibia Intressenter AB; controlla Liljeholmens Fastighets AB e ASP-HOLMBLAD A/S (DK). Fatturato 2024 in calo dell'8% sul 2023'."
  },
  {
   "foglio": "Svezia",
@@ -537,6 +894,20 @@
   "campo": "dimensione",
   "da": "Fatturato 227.210 KSEK (~20,1 M€) — bilancio 2024, +18,2% (fonte allabolag/bolagsfakta); org.nr 556257-9861. Nella società capofila risultano 0 dipendenti registrati (personale in società del gruppo). In pieno target di fatturato.",
   "a": "Fatturato 227.210 KSEK (~20,1 M€) — bilancio 2024, +18,2% (fonte allabolag/bolagsfakta); org.nr 556257-9861. Nella società capofila risultano 0 dipendenti registrati (personale in società del gruppo). In pieno target di fatturato. Capogruppo: Aktiebolaget Joh. M. Johansson, Kött- & Charkuteriaffär (gruppo familiare di 4 societa')."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Nya Siljans Chark AB",
+  "campo": "dimensione",
+  "da": "Fatturato 222.064 KSEK (~19,7 M€) e 81 dipendenti — bilancio 2024 (fonte bolagsfakta/allabolag); org.nr 559256-8256. In pieno target.",
+  "a": "Fatturato 222.064 KSEK (~19,7 M€) e 81 dipendenti — bilancio 2024 (fonte bolagsfakta/allabolag); org.nr 559256-8256. In pieno target. Capogruppo Siljans Chark Holding AB (holding dei soci Par Nilsson e Mats Arjes); societa subentrata alla precedente Siljans Chark dopo il fallimento; controlla Norrlandsgarden AB e Siljanfood AB'."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Närkes Slakteri i Gällersta Aktiebolag",
+  "campo": "dimensione",
+  "da": "Fatturato 209.054 KSEK (~18,5 M€) e 27 dipendenti — bilancio 2024 (fonte bolagsfakta/allabolag); org.nr 556514-4861. In pieno target.",
+  "a": "Fatturato 209.054 KSEK (~18,5 M€) e 27 dipendenti — bilancio 2024 (fonte bolagsfakta/allabolag); org.nr 556514-4861. In pieno target. Controllata da Kott & Charkgruppen i Narke AB (gruppo di 5 societa)'."
  },
  {
   "foglio": "Olanda",
@@ -631,6 +1002,13 @@
  },
  {
   "foglio": "Olanda",
+  "denominazione": "Veldhuis Media B.V.",
+  "campo": "dimensione",
+  "da": "Fatturato ca. 15,5 M€ (fonte bedrijvenregister.nl, dato 2017 - ultimo pubblicato; bilanci recenti depositati in forma abbreviata). 21-50 dipendenti (fonte bedrijvenregister.nl / drukkerij-gids.nl, 2024). KVK 05071502. Tipografia offset e legatoria (brochure, riviste, cataloghi, libri). Direzione condivisa con Erwin de Lange dal 2002. Partecipazione di minoranza della società di investimento Wadinko NV — legame di gruppo parziale.",
+  "a": "Fatturato ca. 15,5 M€ (fonte bedrijvenregister.nl, dato 2017 - ultimo pubblicato; bilanci recenti depositati in forma abbreviata). 21-50 dipendenti (fonte bedrijvenregister.nl / drukkerij-gids.nl, 2024). KVK 05071502. Tipografia offset e legatoria (brochure, riviste, cataloghi, libri). Direzione condivisa con Erwin de Lange dal 2002. Partecipazione di minoranza della società di investimento Wadinko NV — legame di gruppo parziale. Partecipazione di minoranza Wadinko NV dal dicembre 2023."
+ },
+ {
+  "foglio": "Olanda",
   "denominazione": "Zaadhof's Cartonnage Fabrieken B.V.",
   "campo": "ruolo",
   "da": "Directeur",
@@ -642,6 +1020,13 @@
   "campo": "email",
   "da": "n.d.",
   "a": "office@blanchedael.nl"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Bocca Coffee B.V.",
+  "campo": "dimensione",
+  "da": "Fatturato ~4,8 M€ con 40 dipendenti (fonte: New10, articolo aziendale). Sede Kerkstraat 96 Amsterdam, torrefazione a Dronten; primo specialty roaster olandese, B Corp. SOTTO la fascia 5-40 M€ (borderline). Nota legame: il fondatore Menno Simons è anche fondatore dell'importatore di caffè verde Trabocca B.V.",
+  "a": "Fatturato ~4,8 M€ con 40 dipendenti (fonte: New10, articolo aziendale). Sede Kerkstraat 96 Amsterdam, torrefazione a Dronten; primo specialty roaster olandese, B Corp. SOTTO la fascia 5-40 M€ (borderline). Nota legame: il fondatore Menno Simons è anche fondatore dell'importatore di caffè verde Trabocca B.V. Acquisizione di Single Estate Coffee Roasters da Cavesco; fatturato e organico da riaggiornare post-operazione."
  },
  {
   "foglio": "Olanda",
@@ -775,6 +1160,13 @@
   "campo": "ruolo",
   "da": "",
   "a": "Bestuurder"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Corpack NV",
+  "campo": "dimensione",
+  "da": "DATO DI FATTURATO NON REPERITO su fonti pubbliche accessibili (bilancio NBB da consultare direttamente). Produttore indipendente di imballaggi in cartone ondulato su misura (scatole americane stampate e imballaggi industriali pesanti), fondato nel 1994, rivolto specificamente alle PMI; stabilimento di 10.000 m² dal 2000. Sede Doornpark 20, 9120 Beveren-Waas. Certificata FSC. DA QUALIFICARE: dimensione presumibilmente nella fascia bassa 5-15 M€, da verificare.",
+  "a": "DATO DI FATTURATO NON REPERITO su fonti pubbliche accessibili (bilancio NBB da consultare direttamente). Produttore indipendente di imballaggi in cartone ondulato su misura (scatole americane stampate e imballaggi industriali pesanti), fondato nel 1994, rivolto specificamente alle PMI; stabilimento di 10.000 m² dal 2000. Sede Doornpark 20, 9120 Beveren-Waas. Certificata FSC. DA QUALIFICARE: dimensione presumibilmente nella fascia bassa 5-15 M€, da verificare. N. impresa BE 0452.991.978. 44,3 FTE (bilancio NBB depositato 17-07-2026); fatturato non pubblicato, stimato 10-25 M€ (Kompass)."
  },
  {
   "foglio": "Belgio",
@@ -946,6 +1338,20 @@
  },
  {
   "foglio": "Belgio",
+  "denominazione": "Euro Meat Group NV",
+  "campo": "dimensione",
+  "da": "Fatturato ca. 11 milioni EUR (VILT, stampa settoriale agroalimentare belga); organico ca. 50 persone (40 operai + 10 impiegati); capacita' 75.000 bovini ed equini/anno, ca. 125.000 bovini macellati per conto terzi. Numero d'impresa BE non verificato su fonte pubblica. Fa parte del gruppo Cadus NV (macelli in Belgio) ed e' socio Febev.",
+  "a": "Fatturato ca. 11 milioni EUR (VILT, stampa settoriale agroalimentare belga); organico ca. 50 persone (40 operai + 10 impiegati); capacita' 75.000 bovini ed equini/anno, ca. 125.000 bovini macellati per conto terzi. Numero d'impresa BE non verificato su fonte pubblica. Fa parte del gruppo Cadus NV (macelli in Belgio) ed e' socio Febev. N. impresa BE 0832.292.464."
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Slachthuis Swaegers NV",
+  "campo": "dimensione",
+  "da": "Fatturato 4.287.787 EUR e 4,8 FTE nella societa' di macellazione (ultimo bilancio NBB, via Companyweb/Trends Top); n. impresa BE 0436.764.571. SOTTO LA SOGLIA dei 5 M€ come singola entita': il fatturato riflette solo i servizi di macellazione: il gruppo familiare Swaegers & Co dichiara 70.000 bovini/anno e 22.000 t di capacita' annua, quindi volumi EUDR molto superiori al fatturato contabile.",
+  "a": "Fatturato 4.287.787 EUR e 4,8 FTE nella societa' di macellazione (ultimo bilancio NBB, via Companyweb/Trends Top); n. impresa BE 0436.764.571. SOTTO LA SOGLIA dei 5 M€ come singola entita': il fatturato riflette solo i servizi di macellazione: il gruppo familiare Swaegers & Co dichiara 70.000 bovini/anno e 22.000 t di capacita' annua, quindi volumi EUDR molto superiori al fatturato contabile. Il gruppo familiare ha rilevato anche il macello di Bastogne."
+ },
+ {
+  "foglio": "Belgio",
   "denominazione": "Van De Walle SRL",
   "campo": "email",
   "da": "info@vdw-grossisteenviande.be",
@@ -978,6 +1384,13 @@
   "campo": "sito",
   "da": "http://alvorada.wien",
   "a": "https://www.alvorada.com"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Salzer Papier GmbH",
+  "campo": "dimensione",
+  "da": "Fatturato stimato ca. 42 Mio. € (fonte die-deutsche-wirtschaft.de, stima su dati 2023) - 51-200 dipendenti (fonte LinkedIn/firmenabc); nel 2007 24,5 Mio. € con 95 dipendenti (noe.ORF.at). Produzione ca. 30.000 t di carta/anno. Firmenbuch FN 312367p, LG St. Pölten. AZIENDA DI CONFINE: la stima 42 Mio. € supera di poco la fascia tollerabile 5-40 M€ ma resta ben sotto la soglia di esclusione ~50 M€. Impresa familiare all'8a generazione, parte della Salzer Gruppe (Papier, Industrie-Service, Holz). Co-Geschäftsführer citato in stampa: Dr. Harald Egger. Membro Austropapier.",
+  "a": "Fatturato stimato ca. 42 Mio. € (fonte die-deutsche-wirtschaft.de, stima su dati 2023) - 51-200 dipendenti (fonte LinkedIn/firmenabc); nel 2007 24,5 Mio. € con 95 dipendenti (noe.ORF.at). Produzione ca. 30.000 t di carta/anno. Firmenbuch FN 312367p, LG St. Pölten. AZIENDA DI CONFINE: la stima 42 Mio. € supera di poco la fascia tollerabile 5-40 M€ ma resta ben sotto la soglia di esclusione ~50 M€. Impresa familiare all'8a generazione, parte della Salzer Gruppe (Papier, Industrie-Service, Holz). Co-Geschäftsführer citato in stampa: Dr. Harald Egger. Membro Austropapier. FN 211554i, LG St.; Pölten."
  },
  {
   "foglio": "Austria",
@@ -1020,5 +1433,12 @@
   "campo": "sito",
   "da": "http://www.np-d.com",
   "a": "https://www.benenaturalproducts.com"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Rudolf Frierss & Söhne Fleisch- und Wurstspezialitäten Gesellschaft m.b.H.",
+  "campo": "dimensione",
+  "da": "ca. 110-120 dipendenti su due stabilimenti a Villach (frierss.at / feines-haus.at, 2025); fatturato non pubblicato. Azienda familiare dal 1898, 5ª generazione. Firmenbuch FN 114403 (LG Klagenfurt)",
+  "a": "ca. 110-120 dipendenti su due stabilimenti a Villach (frierss.at / feines-haus.at, 2025); fatturato non pubblicato. Azienda familiare dal 1898, 5ª generazione. Firmenbuch FN 114403 (LG Klagenfurt) Bilanzsumme 13,3 Mio. € al 31.03.2025 (firmenabc.at)."
  }
 ]
