@@ -25,6 +25,15 @@ for sn in wb.sheetnames:
         d = ws.cell(row,1).value
         if d: IDX.setdefault((sn, fold(d)), []).append(row)
 
+# clausole gia' aggiunte in coda al campo Dimensione: una sostituzione integrale
+# proposta da un agente non deve farle sparire senza accorgersene
+CODE = {}
+fp_app = os.path.join(HERE, "correzioni_v2_dimensione.json")
+if os.path.exists(fp_app):
+    for c in json.load(open(fp_app, encoding="utf-8")):
+        CODE.setdefault((c["foglio"], fold(c["denominazione"])), []).append(
+            str(c["a"]).replace("__APPEND__", "").strip())
+
 gen, ref, scarti = [], [], []
 import sys
 # solo gli agenti indicati: un file di output ancora in scrittura (salvataggio
@@ -53,6 +62,9 @@ for fp in FILES:
         elif "dimensione" in x:                               # agente C
             val = (x.get("dimensione") or "").strip()
             if not val: scarti.append(dict(x, _perche="dimensione vuota")); continue
+            perse = [q for q in CODE.get((sh, fold(den)), []) if q.lower() not in val.lower()]
+            if perse:
+                val = val.rstrip(" .") + ". " + " ".join(perse)   # riaggancio le clausole
             cur = ws.cell(row, COL["dimensione"]).value
             gen.append(dict(base, campo="dimensione", da="" if cur is None else str(cur).strip(), a=val))
         else:                                                 # agente A: referente/ruolo

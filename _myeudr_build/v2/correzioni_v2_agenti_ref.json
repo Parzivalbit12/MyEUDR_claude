@@ -47,7 +47,7 @@
   "gravita": "",
   "origine": "out_A_referenti.json",
   "referente": "Jean-Jacques de Gruben",
-  "ruolo": "Directeur général (CEO)"
+  "ruolo": "Directeur general (CEO)"
  },
  {
   "foglio": "Belgio",
@@ -77,7 +77,7 @@
   "gravita": "",
   "origine": "out_A_referenti.json",
   "referente": "Jutta Summann, Johannes Kunze",
-  "ruolo": "Geschäftsführer"
+  "ruolo": "Geschaeftsfuehrer"
  },
  {
   "foglio": "Germania",
@@ -87,7 +87,7 @@
   "gravita": "",
   "origine": "out_A_referenti.json",
   "referente": "Max J.W. Ueltzen, Christian Bruns, Pauline von Mettenheim",
-  "ruolo": "Geschäftsführer"
+  "ruolo": "Geschaeftsfuehrer"
  },
  {
   "foglio": "Germania",
@@ -97,7 +97,7 @@
   "gravita": "",
   "origine": "out_A_referenti.json",
   "referente": "Nathaniel Durant",
-  "ruolo": "Geschäftsführer (einzelvertretungsberechtigt)"
+  "ruolo": "Geschaeftsfuehrer (einzelvertretungsberechtigt)"
  },
  {
   "foglio": "Germania",
@@ -107,7 +107,7 @@
   "gravita": "",
   "origine": "out_A_referenti.json",
   "referente": "Joachim Geimer",
-  "ruolo": "Geschäftsführer"
+  "ruolo": "Geschaeftsfuehrer"
  },
  {
   "foglio": "Italia",
@@ -206,7 +206,7 @@
   "fonte": "https://www.linkedin.com/in/gianpietro-didone-33784b68/ — Gianpietro Didone' - Presidente (imprenditore) - Cortal extrasoy Spa",
   "gravita": "",
   "origine": "out_A_referenti.json",
-  "referente": "Gianpietro Didoné",
+  "referente": "Gianpietro Didone'",
   "ruolo": "Presidente"
  },
  {
@@ -257,7 +257,7 @@
   "gravita": "",
   "origine": "out_A_referenti.json",
   "referente": "Lars Anders Hilding Carlsson",
-  "ruolo": "Styrelseordförande / ansvarig (nessun VD registrato)"
+  "ruolo": "Styrelseordforande / ansvarig (nessun VD registrato)"
  },
  {
   "foglio": "Svezia",
@@ -267,6 +267,6 @@
   "gravita": "",
   "origine": "out_A_referenti.json",
   "referente": "Johan Wellander",
-  "ruolo": "Ordförande / grundare (nessun VD registrato)"
+  "ruolo": "Ordforande / grundare (nessun VD registrato)"
  }
 ]

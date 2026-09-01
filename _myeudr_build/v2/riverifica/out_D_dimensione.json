@@ -1,0 +1,112 @@
+[
+ {
+  "denominazione": "Kankarin Kaluste Oy",
+  "foglio": "Finlandia",
+  "esito": "confermato_attuale",
+  "dimensione": "Liikevaihto 22,0 M€ (2025), 69 dip.; 18,8 M€ (2024), 63 dip. (Asiakastieto/Finder/Proff) — in forbice",
+  "fuori_taglia": "no",
+  "fonte": "https://www.asiakastieto.fi/yritykset/fi/kankarin-kaluste-oy/05566230/taloustiedot",
+  "frammento": "Vuosi 2025: Yrityksen liikevaihto oli 22 MEUR ja se työllisti 69 henkilöä. Liikevaihto nousi 17,2 %. Vuosi 2024: Yrityksen liikevaihto oli 18,8 miljoonaa euroa ja se työllisti 63 henkilöä. Liikevaihto laski 19,2 %.",
+  "nota": "La serie 18,8 M€ (2024) → 22,0 M€ (2025) è confermata dai registri finlandesi; il valore_attuale era corretto, aggiunti solo i 63 dip. del 2024."
+ },
+ {
+  "denominazione": "Sahakuutio Oy",
+  "foglio": "Finlandia",
+  "esito": "risolto",
+  "dimensione": "Liikevaihto 22,6 M€ (2025), 34 dip.; 17,0 M€ (2024), 35 dip. (Asiakastieto/Proff, Y-tunnus 0167908-6) — in forbice",
+  "fuori_taglia": "no",
+  "fonte": "https://www.asiakastieto.fi/yritykset/fi/sahakuutio-oy/01679086/taloustiedot",
+  "frammento": "Sahakuutio Oy's revenue was 22.6 million euros in 2025 and it employed 34 people. [...] Sahakuutio Oy's revenue was 17 million euros in 2024, and the company employed 35 people.",
+  "nota": "I ~60 addetti dell'evidenza precedente sommavano due entità distinte: la segheria di Hammaslahti (Joensuu) è Kaivospuu Oy (26 dip., 2023), società separata. Sahakuutio Oy come entità giuridica ha 34-35 dipendenti."
+ },
+ {
+  "denominazione": "Ålands Skogsindustrier Ab",
+  "foglio": "Finlandia",
+  "esito": "risolto",
+  "dimensione": "Omsättning koncernen 21,8 M€ (2025, +~10%; moderbolaget 17,3 M€), rörelseresultat 0,76 M€; ~49 anställda — in forbice",
+  "fuori_taglia": "no",
+  "fonte": "https://alandsradio.ax/nyheter/skogsindustrier-okade-omsattningen-med-cirka-10-procent-under-2025",
+  "frammento": "For the group, revenue increased by approximately two million euros to just over 21.8 million euros. For the parent company, the increase was approximately 300,000 euros, landing at just over 17.3 million euros in 2025. [...] operating result for 2025 was 760,000 euros",
+  "nota": "Sostituito il dato 2022 (18,5 M€) con il bilancio 2025: gruppo 21,8 M€, capogruppo 17,3 M€. La crescita include MEH Forest consolidata dal 2024."
+ },
+ {
+  "denominazione": "Oy Orapac Ab",
+  "foglio": "Finlandia",
+  "esito": "risolto",
+  "dimensione": "24 dip. (2025), 51 dip. (2024); liiketulos 1,4 M€ (2025) e 1,3-1,5 M€ (2024); liikevaihto NON pubblicato nei registri (0 EUR in Proff/Asiakastieto per 2024 e 2025) — ultimo fatturato noto ~15,0 M€ (2022), non più rappresentativo",
+  "fuori_taglia": "",
+  "fonte": "https://www.proff.fi/yrityksen/oy-orapac-ab/oravaisten-tehdas/pakkausmateriaalit/0799280-7I00C3",
+  "frammento": "According to Proff, Oy Orapac Ab's (Y-tunnus 0799280-7) revenue was 0 EUR in 2025 and the company employed 24 people. The operating profit was 1.4 million EUR. [...] in the 2024 fiscal year, the company's revenue was 0.0 thousand euros",
+  "nota": "Il liikevaihto non è pubblicato (registri riportano 0 EUR = dato non depositato) per 2024 e 2025: la collocazione in forbice resta non verificabile; organico dimezzato da 51 (2024) a 24 (2025)."
+ },
+ {
+  "denominazione": "Newprint Oy",
+  "foglio": "Finlandia",
+  "esito": "risolto",
+  "dimensione": "Liikevaihto ~6,0 M€ (ultimo esercizio pubblicato, 2024), 25 dip. (-3,9% sull'anno precedente); liiketoiminnan voitto 83.000 € (2024) — limite inferiore della forbice",
+  "fuori_taglia": "no",
+  "fonte": "https://www.asiakastieto.fi/yritykset/fi/newprint-oy/22765362/taloustiedot",
+  "frammento": "Newprint Oy's (business ID: 2276536-2) revenue in the previous fiscal year was 6.0 million euros with 25 employees. [...] The company has 25 employees, which is 3.9% fewer than in the previous fiscal year.",
+  "nota": "Il fatturato risulta ora pubblicato (~6,0 M€, ultimo esercizio disponibile): non è più 'n.d.'. Azienda al limite inferiore della forbice 5-40 M€."
+ },
+ {
+  "denominazione": "Jospak Oy",
+  "foglio": "Finlandia",
+  "esito": "risolto",
+  "dimensione": "Liikevaihto 1,9 M€ (2024, +83,3%), 29 dip.; perdita operativa -4,5 M€ (2024, margine -225,5%) e tilikauden tulos -3,04 M€ (2023, liikevaihto 1,05 M€); scale-up finanziata da aumenti di capitale (1 M€ 2020, 3,5 M€ 2021) — MOLTO SOTTO FASCIA, verificare continuità aziendale",
+  "fuori_taglia": "si",
+  "fonte": "https://www.asiakastieto.fi/yritykset/fi/jospak-oy/26182973/taloustiedot",
+  "frammento": "Jospak Oy's revenue (liikevaihto) was 1.9 million euros in 2024 and the company employed 29 people. The operating loss (liiketoiminnan tappio) was −4.5 million euros and the operating profit margin was -225.5%. Revenue increased by 83.3%",
+  "nota": "Confermato 1,9 M€ / 29 dip. (2024) e aggiunta la perdita operativa 2024 (-4,5 M€), più grave di quella 2023. Molto sotto la soglia 5 M€: decisione del cliente."
+ },
+ {
+  "denominazione": "Gebr. Kilger, Lederfabrik Viechtach KG",
+  "foglio": "Germania",
+  "esito": "risolto",
+  "dimensione": "~20 dipendenti (hogn.de 2019, confermato da wer-zu-wem/sito kilger.de); volumi 1.000-1.500 pelli/mese; fatturato NON pubblicato (KG senza obbligo di deposito) — dimensione verosimilmente < 5 Mio €, SOTTO la forbice target",
+  "fuori_taglia": "si",
+  "fonte": "https://www.hogn.de/2019/07/02/1-da-hogn-geht-um/nachrichten-im-landkreis-regen/michael-kilger-viechtach-leder-manufaktur-guertel-schuhe-gerbung-sattel/123664",
+  "frammento": "The company has approximately 20 employees who process between 1,000 and 1,500 hides per month into high-quality leather. [...] Lederfabrik Gebr. Kilger KG has stood for high-quality, purely naturally tanned leather from Germany since 1856",
+  "nota": "Tre ricerche (northdata, D&B, wer-zu-wem, bayern-international): nessuna fonte pubblica il fatturato. Confermati i ~20 addetti; con questo organico e questi volumi l'azienda è sotto la soglia minima di 5 Mio €."
+ },
+ {
+  "denominazione": "Lederfabrik Josef Heinen GmbH & Co. KG (Heinen Leather)",
+  "foglio": "Germania",
+  "esito": "risolto",
+  "dimensione": "~100 dipendenti nello stabilimento di Wegberg (sito aziendale heinen-leather.de, 2025); fatturato: 35 Mio € (2019, KfW Stories), classe di fatturato Creditreform 50-100 Mio € (non datata); bilanci depositati fino al 2024 ma cifre non pubbliche — anno recente non determinabile",
+  "fuori_taglia": "",
+  "fonte": "https://www.heinen-leather.de/leder-heinen/jobs/",
+  "frammento": "Lederfabrik Josef Heinen GmbH & Co. KG ist ein mittelständisches, familiengeführtes Unternehmen der Lederbranche. An unserem Standort in Wegberg produzieren rund 100 Mitarbeiter hochwertiges Leder für die Schuh- und Taschenfertigung",
+  "nota": "Risolto il dato dipendenti (~100, sito aziendale). Il fatturato resta indeterminato tra i 35 Mio € del 2019 e la classe 50-100 Mio € di Creditreform: i bilanci 2022-2024 sono depositati ma non consultabili via WebSearch. Se valesse la classe Creditreform l'azienda sarebbe fuori taglia."
+ },
+ {
+  "denominazione": "Furnierwerk Bühl GmbH",
+  "foglio": "Germania",
+  "esito": "risolto",
+  "dimensione": "Bilanzsumme 1,8 Mio € (2023, Bundesanzeiger via Implisense); classe di fatturato 10-50 Mio € (wer-zu-wem / Implisense); AG Mannheim HRB 210482; numero dipendenti non pubblicato — fatturato puntuale non determinabile",
+  "fuori_taglia": "",
+  "fonte": "https://implisense.com/de/companies/furnierwerk-buehl-gmbh-buehl-DE7ZGDDBNO95",
+  "frammento": "the most recently published balance sheet total (Bilanzsumme) of Furnierwerk Bühl GmbH for 2023 was 1.8 million euros. The company falls within the revenue class of 10-50 million euros. [...] registered at Amtsgericht Mannheim with HRB 210482",
+  "nota": "Confermata la correzione proposta: totale di bilancio 1,8 Mio € (2023) e classe di fatturato 10-50 Mio €. Le due indicazioni restano discordanti; il fatturato reale non è pubblicato (deposito abbreviato)."
+ },
+ {
+  "denominazione": "Schmidt & Thürmer Holzhandlung, Säge- und Hobelwerk GmbH & Co. KG",
+  "foglio": "Germania",
+  "esito": "risolto",
+  "dimensione": "~130 dipendenti (2024-2025, Die Deutsche Wirtschaft / sito aziendale), 5 sedi in Meclemburgo-Pomerania, fondata 1992; AG Stralsund HRA 279; fatturato non pubblicato (GmbH & Co. KG) — stima Implisense ~5 Mio € su 100 dip., ritenuta non attendibile",
+  "fuori_taglia": "",
+  "fonte": "https://die-deutsche-wirtschaft.de/unternehmen/schmidt-thuermer-holzhandlung-saege-und-hobelwerk-gmbh-co-kg-behrenhoff/",
+  "frammento": "The company operates a wood specialty retail business with currently 130 employees, while another source estimates 100 employees and approximately 5 million euros in revenue. [...] With its 5 locations, the company serves as a full-service provider in the area of wood and wood-based materials",
+  "nota": "Confermati i 130 dipendenti; i «~5 Mio €» erano una stima algoritmica (Implisense) riferita a 100 dipendenti, incoerente con l'organico reale. Fatturato non depositato: eliminata la cifra stimata dal campo."
+ },
+ {
+  "denominazione": "Schorn & Groh GmbH",
+  "foglio": "Germania",
+  "esito": "risolto",
+  "dimensione": "~85 dipendenti (sito aziendale sg-veneers.com, 2025), 2ª generazione, fondata 1961; 8 mln m² di tranciati a magazzino + oltre 2.000 m³ di tavolame (Karlsruhe ed Ehrenkirchen); fatturato non pubblicato (AG Mannheim HRB 103479). NB: il dato RocketReach «14,2 M$ / 13 dip.» è incoerente, da non usare",
+  "fuori_taglia": "",
+  "fonte": "https://www.sg-veneers.com/",
+  "frammento": "Since its founding in 1961, Schorn & Groh has developed into one of the leading companies in the veneer industry. [...] The company employs around 85 employees and is run in the second generation. [...] holds eight million square meters of veneer in stock",
+  "nota": "Confermati gli ~85 dipendenti (sito aziendale, Creditreform indicava ~80). Nessuna fonte pubblica il fatturato: collocazione in forbice non verificabile."
+ }
+]

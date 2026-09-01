@@ -1,0 +1,202 @@
+[
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Kankarin Kaluste Oy",
+  "campo": "dimensione",
+  "gravita": "bassa",
+  "valore_attuale": "Liikevaihto 22,0 M€ (2025), 69 dip.; 18,8 M€ (2024) (Finder)",
+  "problema": "Serie storica incoerente con le fonti: il record indica 18,8 M€ per il 2024, mentre le fonti riportano oltre 23 M€ nel 2023 e 22 M€ nel 2025 (69 dip.). Il dato 2025 e' corretto; il dato intermedio 2024 va riverificato.",
+  "evidenza": "https://puumieslehti.fi/kuukauden-juttu/kankarin-kaluste-oy-kiintokalusteita-kihniosta-40-vuoden-kokemuksella/ e https://vainu.io/company/kankarin-kaluste-oy-taloustiedot-ja-liikevaihto/190847/yritystiedot — frammento: \"In 2025, the company had a revenue of 22 million euros and employed 69 people; I",
+  "correzione_proposta": "Liikevaihto 22,0 M€ / 69 dip. (2025) — rimuovere o riverificare il valore 18,8 M€ (2024)"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Sahakuutio Oy",
+  "campo": "dimensione",
+  "gravita": "media",
+  "valore_attuale": "≈22,6 M€ (2025; 17 M€ 2024) / ~17 dip. (Asiakastieto)",
+  "problema": "Numero di dipendenti fortemente sottostimato: il campo indica ~17 dip., ma le fonti riportano ~34-35 addetti alla sola segheria di Kerimäki più ~27 alla segheria di Hammaslahti (Joensuu), cioè ~60 in totale. Anche la sequenza dei ricavi è incoerente (22,6 M€ 2025 dato come crescita rispetto a 17 M€ 2024, mentre le fonti indicano un calo del 22,1% nel 2025).",
+  "evidenza": "\"Sahakuutio operates two sawmills: the Kerimäki sawmill currently employs 34 people and the Joensuu Hammaslahti sawmill employs 27 people\" — https://www.puumieslehti.fi / https://www.asiakastieto.fi/yritykset/fi/sahakuutio-oy/01679086/taloustiedot",
+  "correzione_proposta": "Liikevaihto 17,0 M€ (2024, Asiakastieto); ~60 dip. su due segherie (Kerimäki + Hammaslahti) — DA CONFERMARE il dato 2025"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Ålands Skogsindustrier Ab",
+  "campo": "dimensione",
+  "gravita": "media",
+  "valore_attuale": "≈18,5 M€ (2022, largestcompanies/Åland)",
+  "problema": "Fatturato obsoleto di 4 anni (2022). Il gruppo dichiara 13,2 M€ nel solo primo semestre 2026 (+14% su base annua), quindi un giro d'affari annuo ormai nettamente superiore ai 18,5 M€ indicati.",
+  "evidenza": "\"Ålands Skogsindustrier-koncernen redovisar en omsättning på 13,2 miljoner euro för första halvåret 2026, en ökning med 14 procent jämfört med samma period i fjol\" — https://www.alandstidningen.ax/naeringsliv/stormen-johannes-blaste-upp-omsaettningen/1366643",
+  "correzione_proposta": "Omsättning koncernen 13,2 M€ nel 1° semestre 2026 (+14%); dato annuo 2025 DA CONFERMARE"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Oy Orapac Ab",
+  "campo": "dimensione",
+  "gravita": "media",
+  "valore_attuale": "Liikevaihto ~15,0 M€ (2022), ~24 dip. (2025)",
+  "problema": "Fatturato del 2022 (~15,0 M€), obsoleto di tre anni, accostato a un organico 2025 di ~24 dipendenti mentre nel 2024 i dipendenti erano 51: l'organico si e' piu' che dimezzato, quindi il liikevaihto 2022 non e' piu' rappresentativo della dimensione attuale e la collocazione in forbice non e' verificata.",
+  "evidenza": "https://www.asiakastieto.fi/yritykset/fi/oy-orapac-ab/07992807/taloustiedot - '51 henkiloa vuonna 2024'; dato 2025: 24 henkiloa",
+  "correzione_proposta": "DA CONFERMARE: aggiornare il liikevaihto all'ultimo esercizio (2024/2025) e riallineare i dipendenti alla stessa annualita'"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Newprint Oy",
+  "campo": "dimensione",
+  "gravita": "media",
+  "valore_attuale": "~25 dip. (2024); liikevaihto n.d.",
+  "problema": "Il campo non riporta alcun dato di fatturato ('liikevaihto n.d.'): i database pubblici mostrano infatti 0 EUR per il 2024, cioe' ricavi non pubblicati. Con soli ~25 dipendenti non e' possibile verificare se l'azienda rientri nella forbice 5-40 M€.",
+  "evidenza": "https://www.proff.fi/yrityksen/newprint-oy/raisio/painopalvelut/2276536-2I07QV - liikevaihto 0 EUR (2024), 25 tyontekijaa, liiketoiminnan voitto 83 000 EUR; toimitusjohtaja Petteri Kristian Reunanen (confermato)",
+  "correzione_proposta": "DA CONFERMARE il liikevaihto; senza il dato il lead non e' collocabile nella forbice dimensionale"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Jospak Oy",
+  "campo": "dimensione",
+  "gravita": "media",
+  "valore_attuale": "Liikevaihto ~1,9 M€ (2024), ~29 dip. (scale-up) — sotto fascia",
+  "problema": "Scale-up in forte perdita e fortemente sotto forbice: liikevaihto 1,05 M€ nel 2023 con risultato d'esercizio -3,04 M€, 1,9 M€ nel 2024. La societa' vive di aumenti di capitale mirati (1 M€ nel 2020, 3,5 M€ nel 2021): rischio di continuita' aziendale da valutare prima dell'outreach. Il campo segnala 'sotto fascia' ma non la fragilita' finanziaria.",
+  "evidenza": "https://www.asiakastieto.fi/yritykset/fi/jospak-oy/26182973/taloustiedot - 'liikevaihto oli 1,05 miljoonaa euroa ja tilikauden tulos -3,04 miljoonaa 2023'; 1,9 M€ / 29 henkiloa 2024",
+  "correzione_proposta": "Aggiungere alla dimensione: risultato d'esercizio -3,04 M€ (2023), societa' finanziata da round di capitale; verificare continuita'"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Gebr. Kilger, Lederfabrik Viechtach KG",
+  "campo": "dimensione",
+  "gravita": "media",
+  "valore_attuale": "~20 MA, Umsatz n.d.; piccola conceria vegetale (marchio Rendenbach)",
+  "problema": "Il campo riporta solo '~20 MA, Umsatz n.d.' senza anno ne fonte. Il dato dipendenti e confermabile (fonte 2019) ma nessun dato di fatturato e disponibile; con ~20 addetti e 1.000-1.500 pelli/mese l'azienda e verosimilmente molto sotto la forbice target 5-40 Mio EUR, senza che questo sia segnalato.",
+  "evidenza": "https://www.hogn.de/2019/07/02/1-da-hogn-geht-um/nachrichten-im-landkreis-regen/michael-kilger-viechtach-leder-manufaktur-guertel-schuhe-gerbung-sattel/123664 - 'Die rund 20 Mitarbeiter von Kilger verarbeiten monatlich zwischen 1.000 und 1.500 Haeute'",
+  "correzione_proposta": "~20 dipendenti (fonte: hogn.de, 2019); volumi 1.000-1.500 pelli/mese; fatturato non pubblicato (KG non tenuta al deposito) - probabile < 5 Mio EUR, fuori forbice target"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Lederfabrik Josef Heinen GmbH & Co. KG (Heinen Leather)",
+  "campo": "dimensione",
+  "gravita": "media",
+  "valore_attuale": "~20-35 Mio € Umsatz (2019: 35M; 2020: ~20M); conceria pelle bovina",
+  "problema": "Dato dimensionale obsoleto (2019/2020, 5+ anni) e in conflitto con le fonti: Creditreform/firmeneintrag colloca l'azienda in classe di fatturato 50-100 Mio EUR, non 20-35 Mio EUR. Va riverificato l'anno di riferimento.",
+  "evidenza": "https://firmeneintrag.creditreform.de/41844/5230009708/LEDERFABRIK_JOSEF_HEINEN_GMBH_CO_KG - classe di fatturato 50-100 Mio EUR; https://www.kfw.de/stories/wirtschaft/unternehmen/leder-heinen/ - 35 Mio EUR nel 2019",
+  "correzione_proposta": "Fatturato 35 Mio EUR (2019, KfW Stories); classe di fatturato indicata da Creditreform 50-100 Mio EUR - anno piu recente DA CONFERMARE"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Furnierwerk Bühl GmbH",
+  "campo": "dimensione",
+  "gravita": "media",
+  "valore_attuale": "Umsatz/MA n.d.",
+  "problema": "Campo privo di dato dimensionale ('Umsatz/MA n.d.'). Le fonti danno indicazioni discordanti: classe di fatturato 10-50 Mio EUR ma totale di bilancio 2023 di soli 1,8 Mio EUR. Da riverificare prima di considerare il lead in forbice.",
+  "evidenza": "https://implisense.com/de/companies/furnierwerk-buehl-gmbh-buehl-DE7ZGDDBNO95 - 'Bilanzsumme 2023: 1,8 Mio EUR'; https://www.wer-zu-wem.de/firma/furnierwerk-buehl.html - classe di fatturato 10-50 Mio EUR",
+  "correzione_proposta": "Totale di bilancio 1,8 Mio EUR (2023, Bundesanzeiger via Implisense); classe di fatturato 10-50 Mio EUR (wer-zu-wem) - DA CONFERMARE"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Schmidt & Thürmer Holzhandlung, Säge- und Hobelwerk GmbH & Co. KG",
+  "campo": "dimensione",
+  "gravita": "media",
+  "valore_attuale": "~5 Mio € Umsatz (stima) / ~100 MA (Die Deutsche Wirtschaft)",
+  "problema": "Campo inutilizzabile: fatturato dichiarato come «~5 Mio € (stima)» senza fonte né anno, e numero dipendenti superato. Il sito aziendale e Die Deutsche Wirtschaft indicano 130 dipendenti, non ~100. Con 130 addetti e 5 sedi un fatturato di 5 Mio € è implausibile: il record rischia di collocare l'azienda fuori dalla forbice 5-40 Mio € su un dato inventato.",
+  "evidenza": "https://die-deutsche-wirtschaft.de/unternehmen/schmidt-thuermer-holzhandlung-saege-und-hobelwerk-gmbh-co-kg-behrenhoff/ — «betreibt seit 30 Jahren einen Holzhandel in Mecklenburg-Vorpommern mit derzeit 130 Mitarbeitern»; 5 Standorte",
+  "correzione_proposta": "«~130 dipendenti (2024, Die Deutsche Wirtschaft / sito aziendale); fatturato non pubblicato (GmbH & Co. KG, nessun bilancio in Bundesanzeiger) — DA CONFERMARE»"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Schorn & Groh GmbH",
+  "campo": "dimensione",
+  "gravita": "media",
+  "valore_attuale": "~80 MA (Creditreform); Umsatz n.d.; impiallacciature/tavolame",
+  "problema": "Campo privo di anno e di fatturato: «~80 MA (Creditreform); Umsatz n.d.». Il sito aziendale indica ~85 dipendenti. Nessun elemento consente di collocare l'azienda nella forbice 5-40 Mio €. Attenzione: alcuni aggregatori (RocketReach) riportano «14,2 M$ / 13 dipendenti», dato palesemente incoerente e da non usare.",
+  "evidenza": "https://www.sg-veneers.com/unternehmen/ueber-uns.html — «in zweiter Generation geführt, beschäftigt rund 85 Mitarbeiter, seit mehreren Jahren PEFC- und FSC-zertifiziert»",
+  "correzione_proposta": "«~85 dipendenti (sito aziendale, 2025); fatturato non pubblicato — DA CONFERMARE su Bundesanzeiger (HRB 103479, AG Mannheim)»"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Winter & Freis GmbH & Co. KG",
+  "campo": "dimensione",
+  "gravita": "media",
+  "valore_attuale": "Umsatz/MA n.d. (gegr. 1927); casse/imballaggi legno",
+  "problema": "Campo privo di qualsiasi dato verificabile: «Umsatz/MA n.d.». Non è possibile stabilire se l'azienda rientri nella forbice 5-40 Mio €. Inoltre l'anno di fondazione indicato (1927) non coincide con le fonti aziendali, che riportano 1926.",
+  "evidenza": "https://holzkiste-palette.de/wir-sind-winter-freis/ — «1926 in Bayern gegründet ... seit über 90 Jahren in Familienbesitz, heute in dritter und vierter Generation von Johannes und Julian Ostermeier geführt»",
+  "correzione_proposta": "«Impresa familiare fondata nel 1926, imballaggi in legno/casse da export; fatturato e dipendenti non pubblicati (GmbH & Co. KG senza obbligo di deposito) — DA CONFERMARE»"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Die Pharmadrucker GmbH",
+  "campo": "dimensione",
+  "gravita": "media",
+  "valore_attuale": "50–99 MA (wlw.com); NB: parte della Bernecker-Gruppe; Umsatz n.d.",
+  "problema": "Appartenenza a gruppo dichiarata ma da qualificare: la società è controllata dalla Bernecker-Gruppe (Druckerei Bernecker GmbH, stessa sede) dal 2016; la decisione di compliance EUDR si prende a livello di capogruppo, quindi il lead va indirizzato lì. Inoltre il campo non contiene alcun dato di fatturato né anno: solo una fascia di portale «50-99 MA (wlw.com)» priva di data.",
+  "evidenza": "https://www.diepharmadrucker.de/unternehmen/ — società del gruppo Bernecker dal 2016, stessa sede di Druckerei Bernecker GmbH (Unter dem Schöneberg 1, Melsungen); https://www.bernecker.de/",
+  "correzione_proposta": "«Controllata di Bernecker-Gruppe (Melsungen) dal 2016; 50-99 dipendenti (wlw.com, senza anno) — fatturato non pubblicato, DA CONFERMARE. Valutare il contatto a livello di capogruppo Bernecker»"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Druckerei Siepmann GmbH",
+  "campo": "dimensione",
+  "gravita": "media",
+  "valore_attuale": "KMU; Umsatz/MA n.d.",
+  "problema": "Campo inutilizzabile: «KMU; Umsatz/MA n.d.», nessun dato quantitativo, nessuna fonte, nessun anno. Il numero di dipendenti è invece pubblicato dall'azienda (~65).",
+  "evidenza": "https://siepmanndruck.de/ — «ein Team von rund 65 Mitarbeitern»; AG Hamburg HRB 25539",
+  "correzione_proposta": "«~65 dipendenti (sito aziendale, 2025); fatturato non pubblicato (GmbH, deposito abbreviato) — DA CONFERMARE su Bundesanzeiger, AG Hamburg HRB 25539»"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "EGGER Druck + Medien GmbH",
+  "campo": "dimensione",
+  "gravita": "media",
+  "valore_attuale": "Familienunternehmen (marchio madika); Umsatz/MA n.d. — NB: non è il gruppo pannelli EGGER",
+  "problema": "Campo privo di qualsiasi dato («Umsatz/MA n.d.»). Le fonti disponibili indicano 11-50 dipendenti: con questa dimensione l'azienda è verosimilmente SOTTO la soglia minima di 5 Mio € della forbice cliente, e il record andrebbe riqualificato o escluso. Va inoltre verificata la filiera: l'attività prevalente è stampa commerciale/online-print (madika.de), non produzione di astucci pieghevoli.",
+  "evidenza": "https://firmeneintrag.creditreform.de/86899/8030017156/EGGER_DRUCK_MEDIEN_GMBH e https://www.wer-zu-wem.de/firma/egger-druck-medien.html — 11-50 Mitarbeiter; shop online www.madika.de",
+  "correzione_proposta": "«11-50 dipendenti (Creditreform / wer-zu-wem, 2025); fatturato non pubblicato — probabile sotto-soglia rispetto alla forbice 5-40 Mio €, DA CONFERMARE»"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "FMS AG",
+  "campo": "dimensione",
+  "gravita": "media",
+  "valore_attuale": ">60 MA (wer-zu-wem); Umsatz n.d.",
+  "problema": "Il campo riporta solo una fascia di portale senza anno e senza fatturato («>60 MA (wer-zu-wem); Umsatz n.d.»). Il numero è confermato dal sito aziendale ma resta impossibile collocare l'azienda nella forbice 5-40 Mio €. Trattandosi di una AG con registro ad Ansbach HRB 5384, i conti sono depositabili in Bundesanzeiger.",
+  "evidenza": "https://fmsag.de/ihre-fms/ — «über 60 Mitarbeiterinnen, Mitarbeiter und Auszubildende»; https://www.northdata.com/FMS%20AG%20-%20Druck,%20Verpackungen,%20Displays,%20Leutershausen/Amtsgericht%20Ansbach%20HRB%205384",
+  "correzione_proposta": "«>60 dipendenti (sito aziendale, 2025); fatturato non pubblicato — DA CONFERMARE su Bundesanzeiger, AG Ansbach HRB 5384»"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Graphische Betriebe Kip GmbH + Co. KG",
+  "campo": "dimensione",
+  "gravita": "media",
+  "valore_attuale": "~115 MA (2020, print.de); Umsatz n.d.",
+  "problema": "Dato dipendenti obsoleto (2020, sei anni fa) e nessun dato di fatturato. Le fonti attuali indicano oltre 100 dipendenti a tempo pieno / fascia 51-200 (LinkedIn), quindi il campo non consente di collocare l'azienda nella forbice 5-40 Mio €.",
+  "evidenza": "https://www.emsachse.de/unternehmen/graphische-betriebe-kip-gmbh-co-kg — azienda familiare fondata nel 1951, «mehr als 100 Vollzeitbeschäftigte», produzione in due turni; https://de.linkedin.com/company/graphische-betriebe-kip-gmbh-co.-kg (51-200 dipendenti)",
+  "correzione_proposta": "«>100 dipendenti a tempo pieno (2025, emsachse.de); fatturato non pubblicato (GmbH & Co. KG, AG Osnabrück HRA 130316) — DA CONFERMARE»"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "H.-J. Dres GmbH",
+  "campo": "dimensione",
+  "gravita": "media",
+  "valore_attuale": "~19 MA (2010, lieferanten.de); Umsatz n.d.",
+  "problema": "Dato gravemente obsoleto: «~19 MA (2010, lieferanten.de)» ha 16 anni ed è tratto da un portale di elenchi, non da bilancio. Inoltre, se il dato fosse ancora attuale, con ~19 addetti l'azienda sarebbe ampiamente SOTTO la soglia minima di 5 Mio € della forbice cliente: il record va riqualificato o escluso. Nessun dato di fatturato disponibile.",
+  "evidenza": "https://www.lieferanten.de/lieferant-8453-h-j-dres-gmbh.html (dato 2010: 19 dipendenti); https://www.northdata.com/H%C2%B7-J%C2%B7%20Dres%20GmbH,%20Speyer/Amtsgericht%20Ludwigshafen%20a.Rhein%20HRB%2052133",
+  "correzione_proposta": "«~19 dipendenti (2010, lieferanten.de) — dato non aggiornato; fatturato non pubblicato. Verificare l'attuale dimensione: se confermata, azienda sotto-soglia rispetto alla forbice 5-40 Mio €»"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Hannoversche Kartonagenfabrik GmbH & Co. KG",
+  "campo": "dimensione",
+  "gravita": "media",
+  "valore_attuale": "Mittelstand familiare (gegr. 1958); Umsatz/MA n.d.",
+  "problema": "Campo privo di dati verificabili («Umsatz/MA n.d.»). Le fonti indicano ~30 dipendenti: con questa dimensione l'azienda è al limite inferiore o sotto la forbice 5-40 Mio €, elemento che il campo deve rendere esplicito.",
+  "evidenza": "https://www.wer-zu-wem.de/firma/hannoversche-karton.html — «mittelständisches Familienunternehmen, gegründet 1958, rund 30 Mitarbeiter»; AG Hannover HRA 26344; https://www.hannoverschekartonagen.de/ueber-uns",
+  "correzione_proposta": "«~30 dipendenti (wer-zu-wem.de, 2025); fatturato non pubblicato (GmbH & Co. KG, AG Hannover HRA 26344) — verosimilmente al limite inferiore della forbice 5-40 Mio €, DA CONFERMARE»"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Josef Schulte GmbH",
+  "campo": "dimensione",
+  "gravita": "bassa",
+  "valore_attuale": "~116 MA, Umsatz ~36 Mio € (wirtschaftsforum.de) — fascia alta",
+  "problema": "Il dato (116 dipendenti, ~36 Mio € di fatturato) è confermato dalla fonte citata, ma il campo non riporta l'anno di riferimento: è l'unico elemento mancante per un record altrimenti utilizzabile. Il valore è al limite superiore della forbice cliente (5-40 Mio €), quindi l'anno è determinante.",
+  "evidenza": "https://www.wirtschaftsforum.de/news/josef-schulte-gmbh/hochwertig-und-nachhaltig — «beschäftigt derzeit 116 Mitarbeiter ... mehr als 3.500 Kunden ... Jahresumsatz von 36 Millionen EUR»",
+  "correzione_proposta": "«~36 Mio € di fatturato e 116 dipendenti (wirtschaftsforum.de) — aggiungere l'anno del servizio; verificare l'aggiornamento su Bundesanzeiger»"
+ }
+]

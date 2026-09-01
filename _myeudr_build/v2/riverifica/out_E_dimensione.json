@@ -1,0 +1,102 @@
+[
+ {
+  "denominazione": "Lindner Kartonagen GmbH",
+  "foglio": "Germania",
+  "esito": "risolto",
+  "dimensione": "Familienunternehmen dal 1957 (Espelkamp; produzione a Diepenau dal 1969). 73 dipendenti (Implisense, dati registro/Bundesanzeiger, ultimo aggiornamento disponibile); Bilanzsumme 3,3 Mio € (2019, Bundesanzeiger via Implisense). Fatturato non pubblicato. NB: taglia verosimilmente SOTTO la forbice target 5-40 Mio €.",
+  "fuori_taglia": "no",
+  "fonte": "https://implisense.com/de/companies/lindner-kartonagen-gmbh-diepenau-DE8876XR9Q30",
+  "frammento": "Lindner Kartonagen GmbH is a small company with 73 employees in the paper manufacturing sector (C17), located at Gruener Weg 4, 31603 Diepenau. The most recently published balance sheet sum of Lindner Kartonagen GmbH was 3.3 million euros in 2019.",
+  "nota": "Sciolta la riserva sul numero dipendenti (73, Implisense); il fatturato resta non pubblicato, unico dato economico e' la Bilanzsumme 2019 di 3,3 Mio € che colloca l'azienda sotto la forbice."
+ },
+ {
+  "denominazione": "Minges Kaffeerösterei GmbH",
+  "foglio": "Germania",
+  "esito": "incerto",
+  "dimensione": "",
+  "fuori_taglia": "",
+  "fonte": "",
+  "frammento": "",
+  "nota": "Dopo 2 query non si trova un fatturato puntuale con anno: le fonti (Die Deutsche Wirtschaft, wer-zu-wem, companyhouse) riportano solo la classe di fatturato 10-50 Mio € senza anno, e nessun dato dipendenti aggiornato. Il valore attuale (10,5 Mio €, 2017, DDW) non e' confermabile ne' smentibile; resta anche da confermare l'assetto proprietario post-insolvenza."
+ },
+ {
+  "denominazione": "Röstfein Kaffee GmbH",
+  "foglio": "Germania",
+  "esito": "risolto",
+  "dimensione": "Torrefazione storica (gegr. 1908), Magdeburg; interamente controllata da Zentralkonsum eG. Dipendenti: oltre 200 (fonte azienda/portali, dato corrente s.d.; Wikipedia riportava oltre 150). Fatturato non pubblicato in chiaro: bilanci depositati fino all'esercizio 31/12/2023 (HRB 107856 AG Stendal, northdata) ma cifre non esposte.",
+  "fuori_taglia": "",
+  "fonte": "https://www.wer-zu-wem.de/firma/roestfein.html",
+  "frammento": "Roestfein currently employs over 200 employees and is among the larger coffee roasteries in Germany. [...] Roestfein Kaffee GmbH has its business and production headquarters in Magdeburg and is wholly owned by Zentralkonsum eG. An annual report for the year ending 31/12/2023 exists.",
+  "nota": "Risolto il dato dipendenti (oltre 200, aggiornato rispetto al >150 di Wikipedia) e la proprieta' (Zentralkonsum eG); il fatturato resta non pubblicato dopo 2 query mirate, quindi fuori_taglia non determinabile."
+ },
+ {
+  "denominazione": "W. Machwitz GmbH (Machwitz Kaffee)",
+  "foglio": "Germania",
+  "esito": "risolto",
+  "dimensione": "Torrefazione regionale, gegr. 1883 a Danzica, sede Hannover dal 1919, 2ª/3ª gen. (Jörg-Walter e Maximilian Koch). Dipendenti: <25 (Wikipedia) — altra fonte locale indica ~40 posti creati nel tempo. Patrimonio netto (Eigenkapital) 912.420 € nel 2021 (bilancio depositato). Fatturato non pubblicato. NB: taglia ampiamente SOTTO la forbice target 5-40 Mio €.",
+  "fuori_taglia": "no",
+  "fonte": "https://www.wer-zu-wem.de/firma/machwitz-kaffee.html",
+  "frammento": "W. Machwitz GmbH is a private company in the food processing industry, founded in 1883 in Danzig, with headquarters in Hanover since 1919. According to Wikipedia data, the company has fewer than 25 employees [...] The company's total equity was EUR 912,420 in 2021.",
+  "nota": "Aggiunto il dato di patrimonio netto 2021 e la forbice dipendenti (<25 secondo Wikipedia, ~40 secondo stampa locale); il fatturato non e' pubblicato ma tutti gli indicatori collocano l'azienda sotto la soglia dei 5 Mio €."
+ },
+ {
+  "denominazione": "Willy Hagen GmbH (Hagen Kaffee)",
+  "foglio": "Germania",
+  "esito": "incerto",
+  "dimensione": "",
+  "fuori_taglia": "",
+  "fonte": "",
+  "frammento": "",
+  "nota": "Tre query (wlw, wer-zu-wem, creditreform/companyhouse/northdata) non producono alcun dato puntuale: solo fasce di portale senza anno (11-50 dipendenti; 10-50 Mio € di fatturato). Unico dato nuovo, non dimensionale: HRB 104035 AG Stuttgart, 4 dirigenti e 2 soci, azienda familiare nel caffe' da 90 anni. Fatturato e dipendenti restano da confermare."
+ },
+ {
+  "denominazione": "Confiserie Burg Lauenstein GmbH",
+  "foglio": "Germania",
+  "esito": "risolto",
+  "dimensione": "Fatturato ~14,0 Mio € e ~150 dipendenti fra full-time e part-time (Die Deutsche Wirtschaft, stima di portale, anno non dichiarato); stima alternativa 101 dipendenti e ~11 Mio € di fatturato (Implisense/Creditreform). Il campo precedente indicava 130 dipendenti fissi + ~50 stagionali natalizi. Costituita 1989, Lauensteiner Straße 41, Ludwigsstadt (HRB 1536 AG Coburg). IN TARGET (11-14 Mio €).",
+  "fuori_taglia": "no",
+  "fonte": "https://die-deutsche-wirtschaft.de/unternehmen/confiserie-burg-lauenstein-gmbh-ludwigsstadt/",
+  "frammento": "According to one source, the company has 101 employees and approximately 11 million euros in revenue (estimate). Another source indicates approximately 150 full-time and part-time employees with revenue of approximately 14.0 million euros. The company was incorporated in 1989 and is headquartered at Lauensteiner Strasse 41 in 96337 Ludwigsstadt.",
+  "nota": "Inserito il fatturato pubblicato (~11-14 Mio € secondo la fonte), che il campo dichiarava 'n.d.'; entrambe le stime collocano l'azienda dentro la forbice target, restano stime di portale senza anno."
+ },
+ {
+  "denominazione": "Confiserie Felicitas GmbH",
+  "foglio": "Germania",
+  "esito": "risolto",
+  "dimensione": "Dipendenti: 75 (dato datato dicembre 2024, Bürgschaftsbank Brandenburg / bauernzeitung), in prevalenza donne. Fatturato: solo classe di portale 10-50 Mio € (wer-zu-wem/companyhouse, senza anno) — cifra puntuale NON pubblicata. Fondata 1992, ~2.000 mq fra produzione, magazzino, caffè e factory outlet; filiali proprie a Potsdam e Dresda; prodotti in 200 punti vendita in Germania.",
+  "fuori_taglia": "",
+  "fonte": "https://bb-br.de/erfolgsstory/2024/12/03/confiserie-felicitas-im-schoko-himmel/",
+  "frammento": "The company currently has 75 workers, primarily women. According to business registry data, the company's revenue is estimated at 10-50 million euros. The company was founded in 1992 in a 35 m2 kitchen, and today the facility encompasses about 2,000 m2 [...] The company has its own branches in Potsdam and Dresden, and Felicitas products are sold in 200 stores nationwide.",
+  "nota": "Confermato e datato il dato dipendenti (75, dic. 2024); dopo 2 query il fatturato puntuale resta non pubblicato, disponibile solo la fascia 10-50 Mio €, quindi la collocazione nella forbice non e' determinabile."
+ },
+ {
+  "denominazione": "Paul Reber GmbH & Co. KG",
+  "foglio": "Germania",
+  "esito": "risolto",
+  "dimensione": "Impresa familiare indipendente dal 1865 (famiglia Botzleiner-Reber), sede Bad Reichenhall. Dipendenti: circa 300 nei periodi di picco (Wikipedia/stampa locale, s.d.). Volumi: ~500.000 Mozartkugeln/giorno, export in oltre 50 paesi; leader di mercato tedesco e, per dichiarazione propria, maggior produttore mondiale di Mozartkugeln. Fatturato NON pubblicato (KG, HRA 701 Traunstein, non deposita conto economico) — le stime di portale tipo rocketreach non sono citabili.",
+  "fuori_taglia": "",
+  "fonte": "https://de.wikipedia.org/wiki/Paul_Reber_(Unternehmen)",
+  "frammento": "The Paul Reber GmbH & Co. KG is a praline producer in Bad Reichenhall that is the German market leader and the world's largest producer of Mozartkugeln by its own account, producing 500,000 units per day [...] Reber has been in the ownership of the Botzleiner-Reber family since its founding in 1865 [...] The company employs around 300 employees during peak seasons.",
+  "nota": "Trovato il dato dipendenti (~300 nei picchi stagionali), che mancava del tutto; il fatturato resta non pubblicato dopo 2 query, quindi la collocazione rispetto alla soglia dei 50 Mio € non e' determinabile (300 dipendenti sono comunque un indizio di taglia al limite superiore o oltre)."
+ },
+ {
+  "denominazione": "Sawade GmbH",
+  "foglio": "Germania",
+  "esito": "risolto",
+  "dimensione": "Fatturato STIMATO ~32 Mio € (Die Deutsche Wirtschaft, stima di portale, non dato di bilancio); dipendenti: 80 secondo DDW, ~100 nello stabilimento di Berlin-Reinickendorf secondo azienda/Wikipedia. Manifattura di praline piu' antica di Berlino, fondata 1880 Unter den Linden; guidata dai coniugi Melanie e Benno Hübel, subentrati nel novembre 2013 (HRB 153823 B AG Charlottenburg). IN TARGET se la stima regge; dato di bilancio da confermare su Bundesanzeiger.",
+  "fuori_taglia": "no",
+  "fonte": "https://die-deutsche-wirtschaft.de/unternehmen/sawade-gmbh-berlin/",
+  "frammento": "Around 100 employees work at the Berlin Reinickendorf location, though one source mentions 80 employees. The estimated revenue is 32 million euros. [...] Sawade GmbH is the oldest praline manufactory in Berlin, founded in 1880 'Unter den Linden' [...] currently led by the entrepreneur couple Melanie and Benno Huebel, who took over the firm in November 2013.",
+  "nota": "Confermata la stima DDW (~32 Mio €, 80 dipendenti) e riconciliato lo scarto con il dato ~100 dipendenti; esplicitato che il fatturato e' una STIMA di portale, non un bilancio."
+ },
+ {
+  "denominazione": "Weibler Confiserie Chocolaterie GmbH",
+  "foglio": "Germania",
+  "esito": "risolto",
+  "dimensione": "Dun & Bradstreet: 172 dipendenti nella sede di Cremlingen e fatturato stimato 19,08 Mio USD (~17,6 Mio € al cambio ~1,08 USD/€), stima senza anno dichiarato. Stima alternativa Die Deutsche Wirtschaft: fatturato ~40 Mio €. Le due stime divergono ampiamente: nessun dato di bilancio pubblicato. NB: NON indipendente — appartiene al gruppo Halloren Schokoladenfabrik (Halle an der Saale).",
+  "fuori_taglia": "no",
+  "fonte": "https://www.dnb.com/business-directory/company-profiles.weibler_confiserie_chocolaterie_gmbh__cokg.b2a369e8e883c54140627b837737c652.html",
+  "frammento": "Weibler Confiserie Chocolaterie GmbH & Co.KG has 172 employees at this location and generates $19.08 million in sales (USD). [...] Weibler gehoert zur Halloren Schokoladenfabrik aus Halle an der Saale, der aeltesten deutschen noch produzierenden Schokoladenfabrik.",
+  "nota": "Aggiunto il dato dipendenti (172, D&B) e una seconda stima di fatturato (~17,6 Mio €) che contraddice i ~40 Mio € di DDW; entrambe restano stime. Confermata l'appartenenza al gruppo Halloren: l'azienda NON e' indipendente."
+ }
+]

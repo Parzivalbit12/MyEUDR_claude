@@ -174,5 +174,49 @@
   "frammento": "Risultato: 'Candy People – Vi har en favorit för alla!' -> https://candypeople.se/ ; accanto a 'Kontakt – Candy People' -> https://www.candypeople.com/kontakt/ ; allabolag: 'Candy People AB - Org.nr 556696-8375 - Malmö'",
   "nota": "candypeople.se e' attivo (sito consumer svedese) quindi il valore nel foglio non e' errato; candypeople.com ospita la pagina Kontakt e il dominio di posta info@candypeople.com. Nessuna delle due va svuotata.",
   "_perche": "esito «confermato_attuale»: nessuna modifica"
+ },
+ {
+  "denominazione": "Wellpappenfabrik TEWA Gesellschaft m.b.H.",
+  "foglio": "Austria",
+  "esito": "confermato_attuale",
+  "dimensione": "Fatturato 12,5 Mio. € (dato 2012, meinbezirk.at) - unico dato di fatturato pubblicato, non aggiornato da fonti successive; 65 dipendenti nel 2012 con ca. 12.000 t di cartone ondulato lavorate/anno, ca. 50 nel 2014, fascia attuale 51-100 dipendenti (wlw.com / karriere.at). Sede Buchscheiden 9, 9560 Feldkirchen in Kaernten. Geschaeftsfuehrender Gesellschafter KommR Franz Ronge (subentrato il 02.04.2012). Membro Forum Wellpappe Austria. IN TARGET 10-20 M€ sul dato 2012.",
+  "fuori_taglia": "no",
+  "fonte": "https://www.meinbezirk.at/feldkirchen/c-wirtschaft/verpackung-wird-zur-familiensache_a2057491 ; https://www.wlw.com/en/company/wellpappenfabrik-tewa-gmbh-113206",
+  "frammento": "\"65 employees process approximately 12,000 tons of corrugated cardboard annually (as of 2012) ... The company employed around 50 employees (as of 2014) ... Current employee range is 51-100. The annual revenue is 12.5 million euros (as of 2012)\"; \"Franz Ronge took over the Wellpappenfabrik TEWA in Buchscheiden on April 2, 2012\"",
+  "nota": "Due ricerche su firmenabc/WKO/northdata non hanno prodotto un fatturato piu' recente: il 12,5 Mio. € (2012) resta l'unico dato pubblicato ed e' corretto; corretto anche l'indirizzo Buchscheiden 9.",
+  "_perche": "esito «confermato_attuale»: nessuna modifica"
+ },
+ {
+  "denominazione": "pack it! Verpackungen GmbH",
+  "foglio": "Austria",
+  "esito": "confermato_attuale",
+  "dimensione": "Fatturato 25,5 Mio. € nell'esercizio 2012 (+15% sui ca. 23 Mio. € del 2011) - 63 dipendenti su produzione a quattro turni (meinbezirk.at / packreport.de); fascia dipendenti attuale 51-200 (LinkedIn/Creditreform). Nessun dato di fatturato piu' recente pubblicato (northdata: nessuna pubblicazione di bilancio). Firmenbuch FN 196751s, LG Steyr. Sede Hermesstrasse 7, 4595 Waldneukirchen. Cartone ondulato cachierato offset, ca. 50% export (DE, NL). Soci fondatori 2000: Stefan Bergmair, Walter Freimueller, Karl Oemmer e Dinkhauser Verpackungen (Tirolo). SOPRA la fascia ideale 10-20 M€ ma dentro il range tollerabile 5-40 M€.",
+  "fuori_taglia": "no",
+  "fonte": "https://www.meinbezirk.at/steyr-steyr-land/c-wirtschaft/firma-packit-auf-dem-erfolgsweg_a574517 ; https://www.northdata.com/pack%20it!%20Verpackungen%20GmbH,%20Waldneukirchen/196751s",
+  "frammento": "\"pack it! Verpackungen GmbH with headquarters in Waldneukirchen was founded in 2000 by Stefan Bergmair, Walter Freimueller, Karl Oemmer and the Tyrolean company Dinkhauser Verpackungen ... In the previous fiscal year, Packit Verpackungen recorded revenue of 25.5 million euros, representing 15 percent growth compared to 2011 with revenue of approximately 23 million euros ... Packit currently employs 63 employees\"; northdata: \"there are no publications matching the search for financial information\"",
+  "nota": "Il fatturato 25,5 Mio. € e' confermato ma va datato all'esercizio 2012; nessun dato successivo pubblicato. Il nome 'Karl Oemmer' risulta confermato come socio fondatore (non come Prokurist).",
+  "_perche": "esito «confermato_attuale»: nessuna modifica"
+ },
+ {
+  "denominazione": "pratopac GmbH",
+  "foglio": "Austria",
+  "esito": "confermato_attuale",
+  "dimensione": "Fatturato 18 Mio. € nell'esercizio 2020 - 75 dipendenti (fonte ORF Vorarlberg / VN.at, luglio 2021). Serie storica: 14 Mio. € nel 2015 (56 dip. a Klaus e Weiler), 15 Mio. € nel 2016, 15 Mio. € nel 2018 (50 dip.). Firmenbuch FN 217834w, LG Feldkirch. Sede Riedstrasse 1-5, 6833 Klaus + sede operativa a Weiler. Cartone ondulato, cartonaggi, tubi e barattoli in cartone spiralato; investimento di ca. 10 Mio. € nel nuovo stabilimento. GF Alexander Abbrederis, proprieta' famiglia Abbrederis. PERFETTAMENTE IN TARGET 10-20 M€.",
+  "fuori_taglia": "no",
+  "fonte": "https://vorarlberg.orf.at/tv/stories/3111839/ ; https://www.vn.at/markt/2019/03/13/dafuer-investiert-klauser-verpackungsunternehmen-pratopac-zehn-millionen-euro.vn",
+  "frammento": "\"pratopac achieved a revenue of 18 million euros in the previous year, and the family business employs 75 employees. This information comes from a July 2021 ORF report about the company's new building, which indicates this data refers to the 2020 fiscal year\"; \"2015: 14 million euros; 2016: 15 million euros; 2018: 15 million euros; Later year: 18 million euros\"",
+  "nota": "Il dato 18 Mio. € contestato risulta invece confermato e va datato all'esercizio 2020 (75 dip.); la serie 14/15/15 M€ e' antecedente. Nessun dato 2023-2025 pubblicato.",
+  "_perche": "esito «confermato_attuale»: nessuna modifica"
+ },
+ {
+  "denominazione": "I.S. Mäkinen Oy (MAKINEN)",
+  "foglio": "Finlandia",
+  "esito": "confermato_attuale",
+  "dimensione": "Liikevaihto 36,5 M€ nel 2025 (+56,3% sul 2024), 42 dipendenti; liiketulos 466.000 € (marginalita' 1,3%). Nel 2024: liikevaihto 23,3 M€ (+12,7%), 20-49 dipendenti, perdita operativa 1,4 M€ (-5,9%). Y-tunnus 1860318-4, Tammitie 14, 21410 Vanhalinna (Lieto). Interni/arredo navale e refitting cabine per navi da crociera e traghetti + falegnameria. NB: la societa' fa parte del gruppo MAKINEN (il CEO Mikko Makinen, subentrato a Jaakko Makikalli il 9.5.2025, appartiene alla proprieta' del gruppo): la decisione di compliance EUDR va verificata a livello di capogruppo. AL LIMITE ALTO ma dentro la forbice tollerabile 5-40 M€.",
+  "fuori_taglia": "no",
+  "fonte": "https://www.asiakastieto.fi/yritykset/fi/i-s-makinen-oy/18603184/taloustiedot ; https://www.proff.fi/yrityksen/i.s.-m%C3%A4kinen-oy/vanhalinna/huonekalut/1860318-4I015G",
+  "frammento": "\"I.S. Makinen Oy's revenue (liikevaihto) was 36.5 million euros in 2025 with 42 employees. Revenue increased by 56.3% from the previous year, and the company had an operating profit of 466,000 euros with an operating profit margin of 1.3% ... In 2024, the company had a revenue of 23.3 million euros and employed 20-49 people\"",
+  "nota": "Dato 2025 confermato; aggiunta la serie 2024 e l'appartenenza al gruppo MAKINEN. Sotto i 50 M€ ma vicino al limite alto della tolleranza.",
+  "_perche": "esito «confermato_attuale»: nessuna modifica"
  }
 ]

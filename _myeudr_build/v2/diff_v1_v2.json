@@ -519,6 +519,13 @@
  },
  {
   "foglio": "Danimarca",
+  "denominazione": "NIELAUS A/S",
+  "campo": "dimensione",
+  "da": "11 dip. (proff.dk, CVR 35480943, NACE 310000 Fremstilling af møbler); fatturato non pubblicato. Taglia sotto 5 M€ mantenuta per copertura del cluster Syddanmark; co-direttore Kim Nordentoft Frederiksen",
+  "a": "19 dipendenti (krak.dk/proff.dk, CVR 35480943; il valore '11' riportato altrove si riferisce alla produktionsenhed, non alla societa'); bruttofortjeneste 6,657 mio DKK (~0,89 M€, cambio 7,46) nell'ultimo bilancio disponibile - anno non esposto dalla fonte; afkastningsgrad 29,45%. Fatturato non pubblicato (A/S, bilancio in forma ridotta). NACE 310000 Fremstilling af moebler, Vejrup Storegade 63, 6740 Bramming; produttore di mobili di design familiare da oltre 50 anni. MOLTO SOTTO la forbice 5-40 M€: mantenuto per copertura del cluster Syddanmark. Co-direttore Kim Nordentoft Frederiksen."
+ },
+ {
+  "foglio": "Danimarca",
   "denominazione": "ONECOLLECTION A/S (House of Finn Juhl)",
   "campo": "fonte",
   "da": "https://www.proff.dk/firma/onecollection-as/ringk%C3%B8bing/m%C3%B8bler/GXS757I015G",
@@ -540,10 +547,31 @@
  },
  {
   "foglio": "Danimarca",
+  "denominazione": "BUCHS A/S",
+  "campo": "dimensione",
+  "da": "27 specialisti in Buchs A/S; il gruppo (Buchs + Buchs Labels, Randers/Silkeborg/Ho Chi Minh City) si avvicina a 100 dipendenti. CVR 29845646. Produzione interna oggi all'80% imballaggi; dal 2023 nuova tipografia di etichette (Buchs Labels A/S). Fatturato non pubblicato: DA VERIFICARE su regnskab; fascia stimata 5-15 M€ a livello di gruppo.",
+  "a": "Bruttofortjeneste 14.746.681 DKK nel 2024 (~1,98 M€, cambio 7,46), contro 16.092.571 DKK nel 2023; risultato d'esercizio -418.569 DKK (perdita); 28 dipendenti (fascia paqle 20-50). Fatturato non pubblicato (A/S con bilancio in forma ridotta: viene esposto solo il margine lordo). CVR 29845646, costituita il 07.09.2006, Kertemindevej 15, 8940 Randers SV. Produzione interna oggi all'80% imballaggi; dal 2023 tipografia di etichette Buchs Labels A/S (CVR 44349051, Randers SV). MOLTO SOTTO la forbice 5-40 M€ come singola societa': con ~2,0 M€ di margine lordo e 28 addetti il fatturato e' verosimilmente sotto i 5 M€. La stima precedente '5-15 M€ a livello di gruppo' non e' sostenuta da alcuna fonte."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "COLOR LABEL A/S",
+  "campo": "dimensione",
+  "da": "13 dipendenti; bruttofortjeneste 14,756 mio DKK nel 2024 (~2,0 M€ di margine lordo), risultato ante imposte 5,169 mio DKK. CVR 15136901, Vejlbjergvej 14, fondata 1991. Produzione di etichette autoadesive. SOTTO SOGLIA: fatturato stimato ben sotto i 10 M€, probabilmente vicino o sotto i 5 M€. Capogruppo Color Label Holding ApS.",
+  "a": "13 dipendenti; bruttofortjeneste 14,756 mio DKK nel 2024 (~1,98 M€, cambio 7,46); risultato ante imposte 5,169 mio DKK. Fatturato non pubblicato (A/S, bilancio in forma ridotta). CVR 15136901, Vejlbjergvej 12-16, 8240 Risskov (Aarhus). Azienda fondata nel 1980 da Erik Groenning, tuttora in prima linea (l'attuale CVR 15136901 e' registrato nel 1991). Etichette autoadesive per food, chimica e retail; parco macchine flexo Nilpeter (10a macchina flexo nel 2018, nuova FA-17 a 8 colori nel 2022). Capogruppo Color Label Holding ApS. MOLTO SOTTO la forbice: fatturato stimabile ben sotto i 10 M€, probabilmente vicino o sotto i 5 M€."
+ },
+ {
+  "foglio": "Danimarca",
   "denominazione": "EMBALLAGEFABRIKKEN THY PAP",
   "campo": "dimensione",
   "da": "n.d. - nessun dato di fatturato o addetti reperito su fonte verificabile. Produttore di imballaggi in cartone e astucci con oltre 25 anni di attività, lavora anche come terzista per tipografie; sede Industrivej 19 B, 7700 Thisted. DA VERIFICARE su CVR: ragione sociale esatta, dimensione e referente.",
   "a": "n.d. - nessun dato di fatturato o addetti reperito su fonte verificabile. Produttore di imballaggi in cartone e astucci con oltre 25 anni di attività, lavora anche come terzista per tipografie; sede Industrivej 19 B, 7700 Thisted. DA VERIFICARE su CVR: ragione sociale esatta, dimensione e referente. CVR 25352769 (THY PAP, enkeltmandsvirksomhed).; Fatturato e addetti non pubblicati per forma giuridica; micro-impresa AMPIAMENTE SOTTO SOGLIA rispetto al target 5-40 M€."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "H. EMBALLAGE ApS",
+  "campo": "dimensione",
+  "da": "21 dipendenti; ricavi/margine lordo dichiarati 9,211 mio DKK (~1,2 M€). CVR 38528742, NACE 172100, Højrupvej 11. SOTTO SOGLIA: ampiamente al di sotto della fascia minima 5 M€ - lead marginale, incluso solo perché già segnalato come lead parziale da verificare.",
+  "a": "Bruttofortjeneste 8.149.124 DKK nel 2024 (~1,09 M€, cambio 7,46), contro 7.847.995 DKK nel 2023; risultato d'esercizio -6.461.178 DKK (perdita). 21 dipendenti (fascia paqle 20-50). Fatturato non pubblicato (ApS, bilancio in forma ridotta: viene esposto solo il margine lordo). CVR 38528742, costituita il 27.03.2017, NACE 172100, Hoejrupvej 11, 5620 Glamsbjerg. Fabbricazione di carta ondulata e imballaggi di carta. Capogruppo HOEJRUP HOLDING ApS (gruppo di 5 societa'); nel management Jesper Hildebrandt Christensen. MOLTO SOTTO la forbice 5-40 M€ - lead marginale."
  },
  {
   "foglio": "Danimarca",
@@ -561,6 +589,20 @@
  },
  {
   "foglio": "Danimarca",
+  "denominazione": "STIBO COMPLETE A/S (già Rosendahls A/S - Print Design Media)",
+  "campo": "dimensione",
+  "da": "150 dipendenti; fatturato ~200 mio DKK (~26,8 M€, cambio 7,46). CVR 37120928, Oddesundvej 1. AZIENDA DI CONFINE: sopra la fascia 10-20 M€ ma dentro il tollerabile 5-40 M€. LEGAME DI GRUPPO: ex Rosendahls, acquisita e ridenominata Stibo Complete A/S nel 2022 (gruppo Stibo, danese, fondazione).",
+  "a": "Nettoomsaetning 748 mio DKK nell'esercizio 2025 (~100,3 M€, cambio 7,46), con perdita di 33,5 mio DKK dovuta principalmente alla chiusura della rotativa di Horsens; 278 dipendenti (fascia paqle 200-500). CVR 37120928, Oddesundvej 1, Horsens; esercizio 1 maggio - 30 aprile. Ex Rosendahls, acquisita e ridenominata Stibo Complete A/S nel 2022; parte di Stibo Complete Group A/S (CVR 35844120), gruppo grafico internazionale della fondazione danese Stibo. NETTAMENTE FUORI TAGLIA: ~100 M€ di fatturato, oltre il doppio della soglia dei 50 M€ e ben oltre la forbice tollerabile 5-40 M€."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "CAFÉU DENMARK ApS",
+  "campo": "dimensione",
+  "da": "Bruttofortjeneste 7,3 mio. DKK nell'ultimo bilancio disponibile (+421% in 5 anni); dipendenti non pubblicati. Capogruppo: STEFFAN TOBIESEN HOLDING ApS. Fonte: food-supply.dk / proff.dk. SOTTO IL TARGET. · CVR 33243537",
+  "a": "Bruttofortjeneste 7,3 mio DKK (~0,98 M€, cambio 7,46) nell'ultimo bilancio pubblicato al momento dell'articolo (+421% in cinque anni); utile d'esercizio 2,17 mio DKK nell'esercizio 1.1.2023-31.12.2023 (proff.dk). Dipendenti non pubblicati. Fatturato non pubblicato (ApS, bilancio in forma ridotta). CVR 33243537, capitale 80.000 DKK, NACE 463700 'engroshandel med kaffe, te, kakao og krydderier', Storstroemsvej 42, 6715 Esbjerg N. Torrefazione propria e soluzioni caffe' per aziende. Capogruppo STEFFAN TOBIESEN HOLDING ApS. MOLTO SOTTO IL TARGET."
+ },
+ {
+  "foglio": "Danimarca",
   "denominazione": "Copenhagen Coffee Lab ApS",
   "campo": "dimensione",
   "da": "16 dipendenti; risultato ante imposte ~4,7 mio. DKK es. 2024; utile 2023 1,3 mio. DKK (2 mio. DKK nel 2022). Fatturato non pubblicato. Fonte: proff.dk. SOTTO IL TARGET. · CVR 40207929",
@@ -572,6 +614,13 @@
   "campo": "dimensione",
   "da": "Micro-impresa: capitale sociale 80 t.DKK; dipendenti e fatturato non pubblicati nelle fonti consultate. Codice NACE 463700 (engros di caffè, tè, cacao e spezie); oggetto sociale: import/export di caffè. Fonte: proff.dk. SOTTO IL TARGET ma importatore puro. · CVR 25081544",
   "a": "Micro-impresa: capitale sociale 80 t.DKK; dipendenti e fatturato non pubblicati nelle fonti consultate. Codice NACE 463700 (engros di caffè, tè, cacao e spezie); oggetto sociale: import/export di caffè. Fonte: proff.dk. SOTTO IL TARGET ma importatore puro. · CVR 25081544 Capogruppo KAFFEA ApS (gruppo di 2 societa'), societa' costituita il 27.11.2013.; Micro-impresa MOLTO SOTTO SOGLIA rispetto al target 5-40 M€."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "Estate Coffee Copenhagen A/S",
+  "campo": "dimensione",
+  "da": "10-20 dipendenti; bruttofortjeneste 10 mio. DKK (bilancio 2021); fatturato non pubblicato. Costituita nel 1994. Fonte: paqle.dk / proff.dk / retailnews.dk. SOTTO IL TARGET ma doppia commodity EUDR (caffè + cacao). NB: stesso CVR 18179407 ora registrato come Smage-Compagniet A/S (Holmevej 10, 5683 Haarby); marchi Estate Coffee, Chokolade Compagniet, Valrhona. · CVR 18179407",
+  "a": "Bruttofortjeneste 15 mio DKK nel 2024 (~2,01 M€, cambio 7,46; 11 mio DKK nel 2023); fatturato non pubblicato (A/S, bilancio in forma ridotta). Dipendenti: 17 secondo una fonte, 22 secondo un'altra; fascia paqle 20-50. CVR 18179407, societa' costituita nel 1994 e oggi denominata Smage-Compagniet A/S, Holmevej 10, 5683 Haarby (Fionia). Torrefazione, magazzino e vendita di caffe' slow roast, te' biologici e cioccolato fine; marchi Estate Coffee, Valrhona, NUTe, T Town, Chokolade Compagniet, North OAK. Capogruppo Smage-Compagniet Holding A/S (CVR 44432382). Doppia commodity EUDR (caffe' + cacao). SOTTO IL TARGET."
  },
  {
   "foglio": "Danimarca",
@@ -1163,6 +1212,13 @@
  },
  {
   "foglio": "Belgio",
+  "denominazione": "Decolvenaere BV",
+  "campo": "dimensione",
+  "da": "Fatturato annuo dichiarato 'oltre 10 milioni di euro' (fonte: reportage Sterck Magazine); presente nel ranking settoriale 'houthandel' di Trends Top. Impresa BE 0400.079.171, fondata 01-07-1959. Sede: Singel 140, 9000 Gent. Organico snello (6-9 addetti secondo Kompass) rispetto ai volumi: tipico importatore/commerciante. Importatore diretto di legname tropicale (azobé, iroko, sapelli, wengé, afrormosia...) — operatore EUDR in senso stretto. Fatturato esatto da confermare su NBB. Nessuna pagina LinkedIn aziendale propria reperita; l'azienda è presente su LinkedIn tramite la joint venture 50/50 con Lemahieu 'LDCwood' (be.linkedin.com/company/ldcwood), specializzata in legno termotrattato.",
+  "a": "Fatturato totale 38.585.036 € nell'ultimo bilancio depositato (deposito NBB del 27-01-2025, quindi esercizio 2023/2024); 9 FTE secondo lo stato del personale dello stesso bilancio. Trendstop colloca la societa' nella fascia 25-100 Mio €. BE 0400.079.171, fondata 01-07-1959, Singel 140, 9000 Gent. Importatore diretto di legname tropicale (azobe, iroko, sapelli, wenge, afrormosia) - operatore EUDR in senso stretto; organico snello tipico dell'importatore/commerciante. AL LIMITE SUPERIORE della forbice 5-40 M€, ben sopra il target ideale 10-20 M€."
+ },
+ {
+  "foglio": "Belgio",
   "denominazione": "Corpack NV",
   "campo": "dimensione",
   "da": "DATO DI FATTURATO NON REPERITO su fonti pubbliche accessibili (bilancio NBB da consultare direttamente). Produttore indipendente di imballaggi in cartone ondulato su misura (scatole americane stampate e imballaggi industriali pesanti), fondato nel 1994, rivolto specificamente alle PMI; stabilimento di 10.000 m² dal 2000. Sede Doornpark 20, 9120 Beveren-Waas. Certificata FSC. DA QUALIFICARE: dimensione presumibilmente nella fascia bassa 5-15 M€, da verificare.",
@@ -1384,6 +1440,13 @@
   "campo": "sito",
   "da": "http://alvorada.wien",
   "a": "https://www.alvorada.com"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "CARINI GmbH",
+  "campo": "dimensione",
+  "da": "Fatturato ca. 5,2 Mio. USD (~4,8 Mio. €) - 33 dipendenti (fonte profilo RocketReach, dato stimato). Firmenbuch FN 205435k. Sede Industrie Nord, Bildgasse 42, 6890 Lustenau. AZIENDA SOTTO LA SOGLIA MINIMA 5 M€ secondo la stima disponibile: dimensione DA VERIFICARE prima del contatto (l'azienda si presenta come una delle principali etichettifici dell'area di lingua tedesca, quindi il dato stimato potrebbe essere sottostimato). Impresa familiare fondata nel 1939, 4a generazione (Simon Sohm in direzione, tecnica applicativa e vendite).",
+  "a": "Fatturato oltre 18 Mio. € nel 2010 (con 123 dipendenti; fonte Wirtschaftszeit.at); dato di fatturato piu' recente non pubblicato (GmbH, conto economico non depositato). Organico: ca. 150 dipendenti nella sede di Lustenau nel 2021 (neue.at), 160 dipendenti oggi fra amministrazione e produzione (carini.at / LinkedIn, 2025). Firmenbuch FN 205435k. Con 160 addetti e un fatturato gia' >18 Mio. € nel 2010 l'azienda e' ampiamente sopra la soglia minima di 5 M€ e verosimilmente dentro/appena sopra la fascia 20-35 M€. La stima RocketReach (5,2 Mio. USD / 33 dipendenti) e' errata e va scartata."
  },
  {
   "foglio": "Austria",

@@ -1,0 +1,202 @@
+[
+ {
+  "foglio": "Germania",
+  "denominazione": "Lindner Kartonagen GmbH",
+  "campo": "dimensione",
+  "gravita": "media",
+  "valore_attuale": "Familienunternehmen dal 1957; Umsatz/MA n.d.",
+  "problema": "Campo inutilizzabile: 'Umsatz/MA n.d.', nessun tipo di dato, nessun anno, nessuna fonte. Il dato pubblicato piu' recente reperibile e' la Bilanzsumme, che colloca l'azienda sotto la forbice target 5-40 Mio EUR.",
+  "evidenza": "Implisense (dati Bundesanzeiger): «Die zuletzt veroeffentlichte Bilanzsumme der Lindner Kartonagen GmbH betrug 3,3 Mio. EUR im Jahr 2019» — https://implisense.com/de/companies/lindner-kartonagen-gmbh-diepenau-DE8876XR9Q30",
+  "correzione_proposta": "Bilanzsumme 3,3 Mio EUR (2019, Bundesanzeiger via Implisense); Umsatz e MA non pubblicati. NB: dimensione probabilmente sotto la forbice target 5-40 Mio EUR"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Minges Kaffeerösterei GmbH",
+  "campo": "dimensione",
+  "gravita": "alta",
+  "valore_attuale": "Umsatz ~10,5 Mio € (2017), 90 MA (Die Deutsche Wirtschaft)",
+  "problema": "STORIA DI INSOLVENZA E CAMBIO DI PROPRIETA' NON DICHIARATI. La precedente Minges Kaffee GmbH & Co. KG (HRA 8818) fini' in insolvenza dopo la perdita di un grande cliente; il curatore Volker Boehm vendette l'azienda a un gruppo privato di investitori del settore e l'attuale Minges Kaffeeroesterei GmbH (HRB 7608 Bamberg) e' una societa' NUOVA, iscritta il 18.06.2013 con capitale 1.000.000 EUR. Nel s",
+  "evidenza": "Schultze & Braun, comunicato «Minges Kaffeeroesterei ist gerettet»: «Der Insolvenzverwalter hat die Minges Kaffeeroesterei an eine private Investorengruppe aus der Branche verkauft; alle 35 Arbeitsplaetze und der Produktionsstandort Breitengueszbach bleiben erhalten» — https://www.schultze-braun.de/",
+  "correzione_proposta": "Segnalare: nuova societa' costituita 18.06.2013 dopo l'insolvenza della Minges Kaffee GmbH & Co. KG (HRA 8818), rilevata da un gruppo privato di investitori; 35 posti conservati alla ripartenza. Assetto proprietario attuale DA CONFERMARE"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Röstfein Kaffee GmbH",
+  "campo": "dimensione",
+  "gravita": "media",
+  "valore_attuale": "n.d. (torrefazione media, gegr. 1908)",
+  "problema": "Campo inutilizzabile: 'n.d. (torrefazione media, gegr. 1908)' non dichiara né tipo di dato, né fonte, né anno. Dato dipendenti reperibile.",
+  "evidenza": "roestfein.de / de.wikipedia.org/wiki/Röstfein: «Die Magdeburger Kaffeefabrik hat über 150 Mitarbeiter»",
+  "correzione_proposta": "Dipendenti: oltre 150 (fonte azienda/Wikipedia, s.d. — anno da confermare); fatturato non pubblicato (bilanci depositati 2020-2024 su northdata, HRB 107856 Stendal)"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "W. Machwitz GmbH (Machwitz Kaffee)",
+  "campo": "dimensione",
+  "gravita": "media",
+  "valore_attuale": "n.d. (torrefazione regionale, gegr. 1883, 3ª gen.)",
+  "problema": "Campo inutilizzabile ('n.d.'). Il dato dipendenti è pubblico (~40) e colloca l'azienda presumibilmente sotto la forbice target 5-40 M€: va segnalato esplicitamente.",
+  "evidenza": "city-immobilienmakler.de/niedersachsen/hannover/machwitz-kaffee/ : «Der Familienbetrieb hat im Laufe der Jahre rund 40 Arbeitsplätze geschaffen»",
+  "correzione_proposta": "Dipendenti: ~40 (fonte stampa/azienda, anno n.d.); fatturato non pubblicato — probabile sotto forbice target"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Willy Hagen GmbH (Hagen Kaffee)",
+  "campo": "dimensione",
+  "gravita": "media",
+  "valore_attuale": "~45 MA (Firmenangabe); Umsatz n.d.; torrefazione familiare 3ª gen.",
+  "problema": "'~45 MA (Firmenangabe)' senza fonte né anno; i dati di portale disponibili sono fasce larghe e prive di anno (11-50 dipendenti; 10-50 Mio € di fatturato), non un dato utilizzabile per il posizionamento nella forbice 5-40 M€.",
+  "evidenza": "https://www.wlw.de/de/firma/willy-hagen-gmbh-921947 : «11-50 Mitarbeiter», «Umsatz 10-50 Mio. €» (fascia di portale, senza anno)",
+  "correzione_proposta": "Dipendenti: fascia 11-50; fatturato: fascia 10-50 Mio € (wlw.de, fasce di portale senza anno) — dato puntuale DA CONFERMARE"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Confiserie Burg Lauenstein GmbH",
+  "campo": "dimensione",
+  "gravita": "media",
+  "valore_attuale": "~130 dip. + ~50 stagionali (DDW); Umsatz n.d.",
+  "problema": "Il campo riporta solo i dipendenti senza anno e dichiara 'Umsatz n.d.', mentre il fatturato è pubblicato: ~14 Mio € (Die Deutsche Wirtschaft; altra stima 11 Mio €). Dato dentro la forbice target: va inserito.",
+  "evidenza": "https://die-deutsche-wirtschaft.de/unternehmen/confiserie-burg-lauenstein-gmbh-ludwigsstadt/ : fatturato ~14,0 Mio €; 130 dipendenti fissi + ~50 stagionali natalizi",
+  "correzione_proposta": "Fatturato ~14 Mio € (Die Deutsche Wirtschaft, stima; anno da confermare); 130 dipendenti fissi + ~50 stagionali"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Confiserie Felicitas GmbH",
+  "campo": "dimensione",
+  "gravita": "media",
+  "valore_attuale": "~75 dip.; classe Umsatz 10–50 Mio € (northdata/wer-zu-wem)",
+  "problema": "'classe Umsatz 10–50 Mio €' è una fascia di portale senza anno né fonte primaria, inutilizzabile per collocare l'azienda nella forbice 5-40 M€; anche il dato dipendenti è privo di anno. Un dato dipendenti datato è invece disponibile (75, dicembre 2024).",
+  "evidenza": "https://bb-br.de/erfolgsstory/2024/12/03/confiserie-felicitas-im-schoko-himmel/ : «heute hat das Unternehmen 75 Mitarbeiter» (dic. 2024); fascia 10-50 Mio € da wer-zu-wem.de senza anno",
+  "correzione_proposta": "Dipendenti: 75 (Bürgschaftsbank Brandenburg, dic. 2024); fatturato: solo fascia di portale 10-50 Mio € senza anno — dato puntuale DA CONFERMARE"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Paul Reber GmbH & Co. KG",
+  "campo": "dimensione",
+  "gravita": "media",
+  "valore_attuale": "n.d. (impresa familiare indip. dal 1865; leader Mozartkugeln)",
+  "problema": "Campo inutilizzabile ('n.d.'): nessun tipo di dato, fonte o anno. Le uniche cifre reperibili sono un dato di VOLUME (500.000 Mozartkugeln/giorno, export in oltre 50 paesi) e stime di portali di dubbia affidabilità (rocketreach: 31 dipendenti e 28,3 Mio $ 'nel 2026' — incoerenti fra loro e non citabili). Fatturato/dipendenti DA CONFERMARE (KG, HRA 701 Traunstein: non deposita conti pubblici complet",
+  "evidenza": "https://de.wikipedia.org/wiki/Paul_Reber_(Unternehmen) : «produziert nach eigenen Angaben 500.000 Mozartkugeln pro Tag ... Export in mehr als 50 Länder»; rocketreach.co/paul-reber-gmbh-co-kg-profile (stime non affidabili)",
+  "correzione_proposta": "Volumi: ~500.000 Mozartkugeln/giorno, export in 50+ paesi (Wikipedia/azienda); fatturato e dipendenti non pubblicati — DA CONFERMARE"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Sawade GmbH",
+  "campo": "dimensione",
+  "gravita": "media",
+  "valore_attuale": "~100 dip. (Wikipedia/DDW); Umsatz n.d.; storica manifattura",
+  "problema": "Campo inutilizzabile: '~100 dip.' senza anno e 'Umsatz n.d.'. Die Deutsche Wirtschaft riporta 80 dipendenti e fatturato stimato ~32 Mio €. Va dichiarato tipo di dato, fonte e anno (e segnalato che il fatturato DDW è una STIMA, non un bilancio).",
+  "evidenza": "https://die-deutsche-wirtschaft.de/unternehmen/sawade-gmbh-berlin/ — 'Mitarbeiter: 80 … Umsatz (geschätzt): 32 Mio. EUR'",
+  "correzione_proposta": "Fatturato stimato ~32 Mio € e 80 dipendenti (Die Deutsche Wirtschaft, stima; ultimo aggiornamento portale) — dato di bilancio da confermare su Bundesanzeiger"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Weibler Confiserie Chocolaterie GmbH",
+  "campo": "dimensione",
+  "gravita": "media",
+  "valore_attuale": "n.d. — NB: controllata del gruppo Halloren (verificare indipendenza)",
+  "problema": "Nessun dato dimensionale ('n.d.'). Die Deutsche Wirtschaft stima un fatturato di ~40 Mio €: al limite superiore della forbice target. Va indicato tipo di dato, fonte e anno.",
+  "evidenza": "https://die-deutsche-wirtschaft.de/unternehmen/weibler-confiserie-chocolaterie-gmbh-co-kg-cremlingen/ — 'geschätzter Umsatz 40 Millionen Euro'",
+  "correzione_proposta": "Fatturato stimato ~40 Mio € (Die Deutsche Wirtschaft, stima) — da confermare su Bundesanzeiger"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "MaTec Gummiwerk GmbH",
+  "campo": "dimensione",
+  "gravita": "media",
+  "valore_attuale": "Umsatzklasse fino a 10 Mio €, ~40 MA (Northdata/Kompass)",
+  "problema": "Il campo riporta una fascia di portale ('Umsatzklasse fino a 10 Mio €') senza anno. Il dato più solido reperibile è il totale di bilancio 2023 pari a ~3 Mio €: con ~40 dipendenti l'azienda è verosimilmente SOTTO la soglia inferiore della forbice target (5 Mio €). Va riqualificato e segnalato.",
+  "evidenza": "https://implisense.com/en/companies/matec-gummiwerk-gmbh-schwielowsee-ot-caputh-DE8CLC36ZI36 — 'last published balance sheet total for 2023: 3 Mio. EUR'; 'ca. 40 Mitarbeiter'",
+  "correzione_proposta": "Bilanzsumme 2023 ~3 Mio €, ~40 dipendenti (Implisense/Bundesanzeiger) — probabilmente sotto la forbice target 5–40 M€"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "ETS Mischfutterwerk GmbH & Co. KG (Eilers Futtermittel)",
+  "campo": "dimensione",
+  "gravita": "media",
+  "valore_attuale": "Umsatz ~10 Mio € (2023, Implisense)",
+  "problema": "Dato incoerente e da fonte algoritmica. 'Umsatz ~10 Mio € (2023, Implisense)' e' una stima automatica non verificabile ed e' implausibile rispetto alla capacita' dichiarata dall'azienda: 150.000 t di mangime/anno dal 2017 corrispondono a un giro d'affari nell'ordine dei 40-50 Mio €. Il campo non regge come misura di taglia.",
+  "evidenza": "https://www.ets-mischfutterwerk.de/unser-neues-mischfutterwerk/ - 'produce 150.000 t di mangime dall'estate 2017; sili e capannoni per cereali, mangimi e fertilizzanti con capacita' complessiva di 17.000 t'",
+  "correzione_proposta": "Volumi: 150.000 t mangime/anno (sito ufficiale, impianto operativo dal 2017); fatturato non pubblicato (northdata/Implisense solo a pagamento) - DA CONFERMARE su Bundesanzeiger"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Schellinger KG",
+  "campo": "dimensione",
+  "gravita": "media",
+  "valore_attuale": "Umsatz ~46,86 Mio € (stima Companyhouse, incl. molino/pellet); 20–49 MA — limite superiore",
+  "problema": "Il valore ~46,86 Mio € e' una STIMA di portale (Companyhouse/wer-zu-wem) priva di anno di riferimento, non un dato di bilancio; la KG non e' tenuta a pubblicare conto economico. Il campo non dichiara l'anno.",
+  "evidenza": "https://www.companyhouse.de/Schellinger-KG-Weingarten e https://www.wer-zu-wem.de/firma/schellinger.html - 'Der geschaetzte Umsatz betraegt 46,86 Mio Euro' (nessun anno indicato); HRA 550174 AG Ulm",
+  "correzione_proposta": "Esplicitare: fatturato STIMATO ~46,9 Mio € (Companyhouse/wer-zu-wem, anno non dichiarato) - dato non confermato da bilancio; DA CONFERMARE"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Gustav Heess Oleochemische Erzeugnisse GmbH",
+  "campo": "dimensione",
+  "gravita": "media",
+  "valore_attuale": "~150 MA nel mondo; Bilanzsumme ~40 Mio € (2023); familiare, tratta olio di palma",
+  "problema": "Il campo mescola dipendenti di GRUPPO (~150 nel mondo) con il totale di bilancio della singola GmbH e non riporta il fatturato, che e' il parametro della forbice target: un totale di bilancio di 40 Mio € non equivale a 40 Mio € di ricavi. Il gruppo dichiara oltre 100.000 t di prodotti speciali consegnate e nove filiali/impianti in Europa, USA e Asia: taglia verosimilmente sopra la forbice.",
+  "evidenza": "https://implisense.com/en/companies/gustav-heess-oleochemische-erzeugnisse-gmbh-leonberg-DEEMPOG4M394 - 'ultimo totale di bilancio pubblicato 2023: 40 Mio €; Jahresueberschuss 2023: 4.458.761 €'; https://www.heessoils.com/en/contact/gustav-heess-worldwide.html - 'nine subsidiaries and production uni",
+  "correzione_proposta": "Totale di bilancio 40 Mio € (2023, Bundesanzeiger via Implisense), utile netto 4,46 Mio € (2023); >150 dipendenti di gruppo; fatturato non pubblicato - DA CONFERMARE"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "E. Jacobsen GmbH",
+  "campo": "dimensione",
+  "gravita": "media",
+  "valore_attuale": "13 MA; importatore carne bovina (anche Sud America)",
+  "problema": "Campo con un solo dato, senza fonte ne' anno ('13 MA'), e in contrasto con le fonti disponibili, che indicano una fascia 11-50 dipendenti. Manca del tutto il dato economico: la societa' deposita bilancio (ultimo esercizio chiuso al 30.06.2022) ma le cifre non sono esposte in chiaro. Per un importatore di carne bovina sudamericana il fatturato e' il parametro decisivo e non e' indicato.",
+  "evidenza": "https://www.northdata.com/E%C2%B7%20Jacobsen%20GmbH,%20Hamburg/HRB%2020750 e https://firmeneintrag.creditreform.de/22767/2150002973/E_JACOBSEN_GMBH - '11-50 dipendenti; ultimo Jahresabschluss al 30/06/2022; 5 persone con potere di rappresentanza (4 Prokuristen, 1 Geschaeftsfuehrer); 2 soci'",
+  "correzione_proposta": "Dipendenti 11-50 (Creditreform/Kompass, senza anno); fatturato non pubblicato in chiaro - bilancio depositato al 30.06.2022, DA CONFERMARE su Bundesanzeiger"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Fratelli Berti Legnami Srl",
+  "campo": "dimensione",
+  "gravita": "bassa",
+  "valore_attuale": "≈6,5M€ (2023) / 16-19 dip. (FatturatoItalia)",
+  "problema": "Dato discordante rispetto ad Atoka, che indica ~5,9M€ e 18 dipendenti; valore comunque al limite inferiore della forbice target 5-40M€. Anno del dato da riconfermare.",
+  "evidenza": "https://atoka.io/public/it/azienda/fratelli-berti-legnami-srl/4735010f740f '18 employees and a turnover of 5.9 million euros'",
+  "correzione_proposta": "≈5,9M€ / 18 dip. (Atoka) — anno da confermare"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "PBA S.r.l. (PBA Italia Nutrizione Animale)",
+  "campo": "dimensione",
+  "gravita": "media",
+  "valore_attuale": "~49,5 mln € (2023) — limite alto, PMI indipendente",
+  "problema": "Fatturato disallineato: il campo indica ~49,5 mln € (2023), le schede aziendali riportano 44,1 mln € con 53 dipendenti e capitale sociale 3,5 mln €. La fonte citata nel record e una pagina di categoria ATECO, non la scheda della societa. DA CONFERMARE quale sia l'esercizio di riferimento.",
+  "evidenza": "https://atoka.io/public/it/azienda/pba-srl/327faa54ece6 - \"PBA Srl ... fatturato 44,1 M €, 53 dipendenti, capitale sociale 3,5 mln €, media impresa (50-249 dipendenti)\"",
+  "correzione_proposta": "~44,1 mln € (da verificare l'anno di riferimento); 53 dip.; P.IVA 01223200336"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Simon Levelt B.V.",
+  "campo": "dimensione",
+  "gravita": "media",
+  "valore_attuale": "Fatturato della BV non pubblicato (accesso premium su company.info). Riferimenti di stampa: 11,5 M€ di fatturato nel 2011; fatturato al consumo della catena oltre 20 M€ nel 2016 (fonte: MT/Sprout, Fonk Magazine). 77 dipendenti (fonte: company.info / OpenKvK, 2025). KVK 34093465, A. Hofmanweg 3 Haarlem. Torrefazione + confezionamento tè + catena in franchising dal 1826. BORDERLINE: potrebbe superare i 40 M€ di giro d'affari di insegna — da verificare prima del contatto.",
+  "problema": "Dati obsoleti e conclusione non sostenuta: la scheda cita fatturati del 2011 (11,5 M€) e del 2016 (>20 M€ al consumo) e ipotizza il superamento dei 40 M€. La fonte piu' recente indica invece 8,5 M€ di fatturato, 43 FTE e 29 negozi: l'azienda e' SOTTO la forbice 5-40 M€ nella parte bassa, non sopra.",
+  "evidenza": "https://managementscope.nl/magazine/artikel/265-interview-mikkel-levelt - frammento: 'Simon Lévelt is a food and beverage company based in Haarlem with a turnover of 8.5 million euros, 43 full-time employees, and 29 stores'",
+  "correzione_proposta": "Fatturato ~8,5 M€, 43 FTE, 29 punti vendita (fonte Managementscope, intervista a Mikkel Levelt). Rimuovere l'ipotesi di superamento dei 40 M€."
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Smit & Dorlas Koffiebranders B.V.",
+  "campo": "dimensione",
+  "gravita": "media",
+  "valore_attuale": "Fatturato non pubblicato nei registri (bilancio abbreviato); stima di terze parti ~12,4 M$ (rocketreach — non ufficiale, da verificare). 94 dipendenti dichiarati dall'azienda (2025). KVK 31022124, costituita 28-03-1978 (marchi Smit e Dorlas dal 1822). Torrefazione artigianale per l'horeca. Se la stima regge, rientra nel target 10-20 M€.",
+  "problema": "Numero KVK errato: la scheda riporta 31022124, mentre i registri indicano KVK 33239607 (Nijverheidsweg 1, 3641 RP Mijdrecht). Discordante anche la data di costituzione (scheda: 28-03-1978; registri: 1992).",
+  "evidenza": "https://companyinfo.nl/organisatieprofiel/verwerking-van-thee-en-koffie/smit-dorlas-koffiebranders-b-v-mijdrecht-33239607-000018873669 e https://drimble.nl/bedrijf/mijdrecht/19906935/smit-dorlas-koffiebranders-bv.html - frammento: 'KVK-nummer: 33239607 ... Nijverheidsweg 1, 3641RP Mijdrecht ... inco",
+  "correzione_proposta": "KVK 33239607; verificare la data di costituzione."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Lenanders Grafiska AB",
+  "campo": "dimensione",
+  "gravita": "alta",
+  "valore_attuale": "Fatturato 122.940 KSEK (~10,9 M€) e 42 dipendenti — fonte allabolag/bolagssoket, es. 2024. Org.nr 556323-6776 (da riverificare: fonti aggregate riportano numerazioni divergenti). IN TARGET. Nota legame di gruppo: collegata a Scandinavian Print Group (proprietà danese); VD non pubblicato nelle fonti consultate — in cda risultano Henrik Corvenius Frydendahl ed Esben Mols Kabell.",
+  "problema": "Org.nr ERRATO: 556323-6776 non e' di Lenanders Grafiska AB ma di Scandinavian Print Group Sweden AB (Skarpnack), cioe' della capogruppo. Il numero identificativo del lead punta a un'altra societa'.",
+  "evidenza": "https://www.allabolag.se/foretag/scandinavian-print-group-sweden-ab/skarpn%C3%A4ck/tryckerier/2K07GYWI5YI3L - 'Scandinavian Print Group Sweden AB - Org.nr 556323-6776 - Skarpnack'",
+  "correzione_proposta": "Rimuovere l'org.nr 556323-6776 (appartiene a Scandinavian Print Group Sweden AB); org.nr di Lenanders Grafiska AB DA CONFERMARE su allabolag."
+ }
+]
