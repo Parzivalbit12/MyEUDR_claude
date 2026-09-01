@@ -148,5 +148,55 @@
   "fonte": "https://www.lifeverde.de/gruene-unternehmen/gruene-kommunikation-und-csr/egger-druck-medien/zahlen-daten-fakten",
   "frammento": "Gründungsjahr: 1872 als Buchbinderei mit Ladengeschäft; Mitarbeiterzahl: 11-50 [...] EGGER Druck + Medien ist eine familiengeführte Verpackungsdruckerei, die nachhaltige Kartonverpackungen mit individuellen Designs anbietet [...] geführt von Xaver und Josef Egger in 5. Generation",
   "nota": "Fascia 11-50 dipendenti confermata da due fonti indipendenti. Il fatturato non è pubblicato; con questo organico l'azienda è verosimilmente sotto la soglia minima di 5 Mio € — riqualificare o escludere. Confermata l'attività di packaging in cartoncino (non solo stampa commerciale)."
+ },
+ {
+  "denominazione": "FMS AG",
+  "foglio": "Germania",
+  "esito": "risolto",
+  "dimensione": "Oltre 60 dipendenti e apprendisti nella sede di Leutershausen (sito aziendale fmsag.de, 2025), oltre 90 considerando entrambe le sedi (wer-zu-wem); capitale sociale 2.000.000 €; AG Ansbach HRB 5384; astucci pieghevoli, imballaggi e display per food, cosmetica, giocattoli, automotive; fatturato non pubblicato",
+  "fuori_taglia": "",
+  "fonte": "https://fmsag.de/karriere/",
+  "frammento": "Currently employing over 60 employees and trainees (from their career page); Over 90 employees and trainees at both locations (from another source) [...] The registered capital is 2,000,000.00 EUR [...] registered with the Ansbach District Court under commercial register number HRB 5384",
+  "nota": "Aggiunto il dato di gruppo (>90 addetti su due sedi) e il capitale sociale. Nessuna fonte pubblica il fatturato nemmeno per una AG: collocazione in forbice non verificabile."
+ },
+ {
+  "denominazione": "Graphische Betriebe Kip GmbH + Co. KG",
+  "foglio": "Germania",
+  "esito": "risolto",
+  "dimensione": ">100 dipendenti a tempo pieno (2025, emsachse.de / Creditreform; fascia LinkedIn 51-200), produzione su due turni; azienda familiare fondata nel 1951, sede Neuenhaus, AG Osnabrück HRA 130316; fatturato non pubblicato (GmbH & Co. KG)",
+  "fuori_taglia": "",
+  "fonte": "https://firmeneintrag.creditreform.de/49828/2410023268/GRAPHISCHE_BETRIEBE_KIP_GMBH_CO_KG",
+  "frammento": "Mitarbeiter (Employees): The company has more than 100 permanent employees. [...] headquartered in Neuenhaus and is registered with the Osnabrück district court under commercial register number HRA 130316 [...] known for over 65 years as a service-oriented, high-performance partner among brand manufacturers and agencies",
+  "nota": "Aggiornato il dato dipendenti dal 2020 (~115) al 2025 (>100 a tempo pieno). Il fatturato non è depositato: la collocazione in forbice resta non verificabile."
+ },
+ {
+  "denominazione": "H.-J. Dres GmbH",
+  "foglio": "Germania",
+  "esito": "risolto",
+  "dimensione": "11-50 dipendenti (LinkedIn, dato attuale 2025; erano 19 nel 2010 secondo lieferanten.de); azienda fondata nel 1950, Brunckstr. 4, 67346 Speyer, AG Ludwigshafen HRB 52133; astucci pieghevoli e cartonaggi; fatturato non pubblicato — con questo organico verosimilmente SOTTO la soglia di 5 Mio €",
+  "fuori_taglia": "si",
+  "fonte": "https://de.linkedin.com/company/h.-j.-dres-gmbh",
+  "frammento": "The company has 11–50 employees according to LinkedIn. Historical data shows in 2010 the company had 19 employees. [...] H.-J. Dres GmbH has been a manufacturer of folding boxes in all standard formats [...] The company was founded in 1950.",
+  "nota": "Sostituito il dato 2010 con la fascia attuale 11-50 dipendenti (LinkedIn). Nessun fatturato pubblicato; con questo organico l'azienda è verosimilmente sotto-soglia rispetto alla forbice 5-40 Mio € — riqualificare o escludere."
+ },
+ {
+  "denominazione": "Hannoversche Kartonagenfabrik GmbH & Co. KG",
+  "foglio": "Germania",
+  "esito": "risolto",
+  "dimensione": "10-49 dipendenti (Creditreform, 2025; wer-zu-wem indica ~30); azienda familiare di medie dimensioni fondata nel 1958, AG Hannover HRA 26344; imballaggi e display in cartone teso e ondulato; fatturato non pubblicato (GmbH & Co. KG) — verosimilmente al limite inferiore o sotto la forbice 5-40 Mio €",
+  "fuori_taglia": "",
+  "fonte": "https://firmeneintrag.creditreform.de/30559/2190021040/HANNOVERSCHE_KARTONAGENFABRIK_GMBH_CO_KG",
+  "frammento": "Employees: The company has 10-49 employees [...] The company develops and manufactures packaging and displays made of solid cardboard and corrugated cardboard. The Hannoversche Kartonagenfabrik was founded in 1958. It is a medium-sized family business [...] registered with the Amtsgericht 30175 Hannover under commercial register number HRA 26344",
+  "nota": "Confermata la fascia ~30 dipendenti (Creditreform: 10-49). Il fatturato non è depositato; con questo organico la collocazione nella forbice 5-40 Mio € è dubbia, elemento ora esplicitato nel campo."
+ },
+ {
+  "denominazione": "Josef Schulte GmbH",
+  "foglio": "Germania",
+  "esito": "confermato_attuale",
+  "dimensione": "~116 dipendenti e fatturato annuo ~36 Mio € (wirtschaftsforum.de, articolo non datato — dato più recente disponibile); oltre 3.500 clienti; sede Delbrück (NRW), fondata nel 1965 a Sande; imballaggi in cartone ondulato riciclato — FASCIA ALTA della forbice 5-40 Mio €",
+  "fuori_taglia": "no",
+  "fonte": "https://www.wirtschaftsforum.de/news/josef-schulte-gmbh/hochwertig-und-nachhaltig",
+  "frammento": "The Josef Schulte GmbH currently employs 116 employees and has more than 3,500 customers from all sectors with annual revenue of 36 million EUR. [...] The medium-sized company is headquartered in Delbrück in North Rhine-Westphalia [...] founded in 1965 in Sande by Josef Schulte.",
+  "nota": "Cifre confermate (116 dip., 36 Mio €). Tre ricerche non hanno permesso di datare l'articolo wirtschaftsforum.de né di trovare un bilancio più recente (northdata/Implisense/Creditreform espongono i dati solo a pagamento): l'anno resta non determinato, esplicitato nel campo."
  }
 ]

@@ -138,5 +138,65 @@
   "fonte": "https://implisense.com/en/companies/gustav-heess-oleochemische-erzeugnisse-gmbh-leonberg-DEEMPOG4M394",
   "frammento": "The company employs 150 staff members and has an annual production capacity of 50,000 tons worldwide. [...] The last published balance sheet total for Gustav Heess Oleochemische Erzeugnisse GmbH in 2023 was 40 million euros, representing a decrease of 7.1% compared to the previous year. [...] The family company was founded in 1897 by Gustav Heess.",
   "nota": "Chiarito che i 40 Mio € sono il totale di bilancio 2023 (-7,1% a/a) e non il fatturato, e che i 150 dipendenti sono il dato del gruppo; aggiunta la capacita' produttiva 50.000 t/anno. Il fatturato resta non pubblicato: fuori taglia non determinabile."
+ },
+ {
+  "denominazione": "E. Jacobsen GmbH",
+  "foglio": "Germania",
+  "esito": "incerto",
+  "dimensione": "",
+  "fuori_taglia": "",
+  "fonte": "",
+  "frammento": "",
+  "nota": "Due query (Creditreform/Kompass, northdata/lieferanten) non restituiscono alcuna cifra di fatturato: le fonti confermano solo la fascia 11-50 dipendenti, la sede Große Elbstraße 14 Amburgo, HRB 20750, la guida di Thomas Bär e oltre 70 anni di attivita' nell'import di carne (bovino sudamericano, agnello neozelandese). Il parametro economico resta non pubblicato."
+ },
+ {
+  "denominazione": "Fratelli Berti Legnami Srl",
+  "foglio": "Italia",
+  "esito": "risolto",
+  "dimensione": "Fatturato 5.937.871 € (2024), in calo dai 6.546.179 € del 2023 e dai 7.872.713 € del 2021; perdita d'esercizio 213.556 € nel 2024. 18 dipendenti (piccola impresa, 10-49 addetti). Sede Via Stazione, Castello-Molina di Fiemme (TN); P.IVA 02000590220; taglio e piallatura del legno. Fonte: ufficiocamerale/reportaziende/Atoka su bilanci depositati. NB: al limite inferiore della forbice target 5-40 M€ e in contrazione.",
+  "fuori_taglia": "no",
+  "fonte": "https://www.ufficiocamerale.it/3131/fratelli-berti-legnami-srl",
+  "frammento": "Fratelli Berti Legnami Srl is located in Via Stazione, Castello-Molina di Fiemme (TN), with 18 employees and a turnover of 5.9 million euros. Recent Turnover (2024): EUR 5,937,871 - Previous Year (2023): EUR 6,546,179 - 2021 Turnover: EUR 7,872,713 [...] The company recorded a loss of EUR 213,556 in 2024.",
+  "nota": "Sciolta la riserva sull'anno: i ~6,5 M€ erano il 2023, il dato piu' recente e' il 2024 con 5,94 M€ e una perdita di 214 mila €; confermati i 18 dipendenti. Trend in calo, azienda vicina alla soglia inferiore."
+ },
+ {
+  "denominazione": "PBA S.r.l. (PBA Italia Nutrizione Animale)",
+  "foglio": "Italia",
+  "esito": "risolto",
+  "dimensione": "Fatturato 44.097.825 € (ultimo bilancio disponibile, esercizio 2024 pubblicato 2025); utile 332.730 €; 53 dipendenti; capitale sociale 3.500.000 €. Sede Via San Marco 14, 29121 Piacenza (PC); P.IVA 01223200336; mangimificio fondato nel 1972 (suini, ruminanti, avicoli e animali da cortile). Media impresa, al limite superiore della forbice target ma sotto i 50 M€.",
+  "fuori_taglia": "no",
+  "fonte": "https://www.ufficiocamerale.it/4576/pba-srl",
+  "frammento": "PBA S.R.L. is located at Via San Marco 14, 29121 Piacenza (PC) [...] Fatturato (Revenue): The most recent fatturato is EUR 44,097,825.00 (2025). Dipendenti (Employees): The company has 53 employees. Capital: EUR 3,500,000.00. Profit (Utile): EUR 332,730.00. PBA was founded in 1972 as a feed mill for egg-laying hens.",
+  "nota": "Corretto il fatturato: non ~49,5 mln € ma 44,1 mln € nell'ultimo bilancio depositato, coerente con la scheda Atoka; confermati 53 dipendenti e capitale sociale 3,5 mln €. Sede a Piacenza, non Bagnara."
+ },
+ {
+  "denominazione": "Simon Levelt B.V.",
+  "foglio": "Olanda",
+  "esito": "risolto",
+  "dimensione": "Fatturato della BV NON pubblicato (bilancio abbreviato; accesso premium su company.info). Serie storica di stampa: 8,5 M€ di fatturato con 43 FTE e 29 negozi — dato di un'intervista del 2007, NON recente; 11,5 M€ nel 2011; oltre 20 M€ di fatturato al consumo dell'insegna nel 2016 (+4,6%). Ultimo esercizio noto: fatturato +20% (RetailTrends), crescita in parte spiegata dal raddoppio dei prezzi dell'arabica nel 2024 riversato sui listini. Oggi oltre 40 negozi specializzati in NL e BE; 77 dipendenti (company.info/OpenKvK, 2025). KVK 34093465, A. Hofmanweg 3 Haarlem; torrefazione + confezionamento tè + catena in franchising dal 1826. Direttore generale unico dal gennaio 2026 Bert Jongsma (primo esterno alla famiglia).",
+  "fuori_taglia": "",
+  "fonte": "https://retailtrends.nl/news/43432/hoe-gaat-het-met-simon-levelt",
+  "frammento": "In the most recent fiscal year, revenue increased by 20 percent. However, this 20 percent revenue growth is partly explainable by the growing arabica market: in 2024, input prices doubled due to drought in Brazil, and this increase was passed through in selling prices. [...] over 40 specialty stores in the Netherlands and Belgium [...] As of January 2026, Bert Jongsma was formally appointed as the sole responsible general director from outside the family. [Managementscope/MT-Sprout] Simon Levelt had a turnover of 8.5 million euros with 43 full-time employees (according to an article from 2007).",
+  "nota": "RIBALTATA la correzione proposta: gli 8,5 M€ con 43 FTE NON sono il dato piu' recente ma provengono da un'intervista del 2007, quindi sono il piu' VECCHIO della serie. La progressione (11,5 M€ nel 2011, >20 M€ al consumo nel 2016, +20% nell'ultimo esercizio, oltre 40 negozi) e' crescente: l'azienda non e' sotto la forbice. Fatturato assoluto attuale non pubblicato, quindi non si puo' escludere il superamento dei 40 M€ di giro d'affari d'insegna."
+ },
+ {
+  "denominazione": "Smit & Dorlas Koffiebranders B.V.",
+  "foglio": "Olanda",
+  "esito": "risolto",
+  "dimensione": "Fatturato NON pubblicato nei registri (bilancio abbreviato); nessuna cifra reperibile su fonti pubbliche — la stima di terze parti ~12,4 M$ (rocketreach) non e' verificabile e va trattata come non ufficiale. Dipendenti: 90 secondo l'azienda (88 secondo altra fonte). KVK 33239607 (numero corretto), Nijverheidsweg 1, 3641 RP Mijdrecht; societa' costituita nel 1992, attivita' di torrefazione dal 1822, oltre 190 anni di servizio all'horeca.",
+  "fuori_taglia": "",
+  "fonte": "https://drimble.nl/bedrijf/mijdrecht/18873669/smit-dorlas-koffiebranders-bv.html",
+  "frammento": "KVK Number: 33239607 - Address: Nijverheidsweg 1, 3641 RP, Mijdrecht - Incorporation Date: 1992. The company has 90 enthusiastic employees (according to one source), though another source indicates 88 employees. [...] They started roasting coffee in 1822.",
+  "nota": "Confermati il KVK corretto 33239607 e la costituzione nel 1992 (non 1978), e il dato dipendenti ~90; il fatturato resta non pubblicato, quindi la collocazione nella forbice 10-20 M€ non e' confermabile."
+ },
+ {
+  "denominazione": "Lenanders Grafiska AB",
+  "foglio": "Svezia",
+  "esito": "risolto",
+  "dimensione": "ATTENZIONE - LEAD NON PIU' INDIPENDENTE. Lenanders Grafiska e' stata ACQUISITA a meta' 2021 dal gruppo danese Scandinavian Print Group: SPG ha rilevato clienti, contratti e soltanto 7 dipendenti, oltre 20 addetti sono stati licenziati e la PRODUZIONE a Kalmar e' stata CHIUSA; il marchio Lenanders e' stato mantenuto come sede commerciale nel centro di Kalmar (site manager Angelos Patlis), con IT e amministrazione accentrati a Skarpnäck (Stoccolma). Org.nr: 556323-6776 e' della capogruppo Scandinavian Print Group Sweden AB e va rimosso; l'org.nr storico di Lenanders Grafiska AB e' 556592-3066, ma quella societa' risulta oggi RIDENOMINATA e cancellata dai registri fiscali. Il dato dimensionale precedente (fatturato 122.940 KSEK ≈ 10,9 M€ al cambio 11,3 SEK/€, e 42 dipendenti, es. 2024, allabolag/solidinfo) e' riferito a quell'org.nr e NON e' attribuibile con certezza a un'entita' Lenanders attiva: da trattare come non affidabile.",
+  "fuori_taglia": "",
+  "fonte": "https://www.branschkoll.se/de-koper-koper-lenanders-grafiska/",
+  "frammento": "Scandinavian Print Group took over customers, contracts, and a total of seven employees. Over 20 employees at the printing facility were laid off due to the acquisition. The production in Kalmar was discontinued. As with previous acquisitions, the Lenanders brand was retained, and employees moved to a new location in central Kalmar with Angelos Patlis as site manager. [bolagsfakta/allabolag] Lenanders Grafiska AB changed its name [...] org.nr 556592-3066 [...] the company has been deregistered from tax records.",
+  "nota": "Confermato che 556323-6776 e' della capogruppo; l'org.nr storico di Lenanders e' 556592-3066 ma la societa' risulta ridenominata e cancellata dai registri fiscali. Emerso il fatto decisivo: acquisizione 2021 da parte di Scandinavian Print Group, chiusura della produzione a Kalmar e passaggio di soli 7 dipendenti — il lead non e' una PMI indipendente e il dato 122.940 KSEK/42 dipendenti non e' affidabile."
  }
 ]

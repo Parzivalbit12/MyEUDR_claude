@@ -34,6 +34,10 @@ if os.path.exists(fp_app):
         CODE.setdefault((c["foglio"], fold(c["denominazione"])), []).append(
             str(c["a"]).replace("__APPEND__", "").strip())
 
+RIMOSSI = {(r["foglio"], fold(r["denominazione"])) for r in
+           (json.load(open(os.path.join(HERE, "rimozioni_v2.json"), encoding="utf-8"))
+            if os.path.exists(os.path.join(HERE, "rimozioni_v2.json")) else [])}
+
 gen, ref, scarti = [], [], []
 import sys
 # solo gli agenti indicati: un file di output ancora in scrittura (salvataggio
@@ -44,6 +48,8 @@ print("consumo:", [os.path.basename(f) for f in FILES])
 for fp in FILES:
     for x in json.load(open(fp, encoding="utf-8")):
         sh, den = x.get("foglio"), x.get("denominazione")
+        if (sh, fold(den)) in RIMOSSI:
+            scarti.append(dict(x, _perche="record rimosso dal censimento: correzione superflua")); continue
         if x.get("esito") != "risolto":
             scarti.append(dict(x, _perche=f"esito «{x.get('esito')}»: nessuna modifica")); continue
         righe = IDX.get((sh, fold(den)), [])

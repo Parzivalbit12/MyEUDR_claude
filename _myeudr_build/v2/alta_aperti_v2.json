@@ -1,6 +1,24 @@
 [
  {
   "foglio": "Austria",
+  "denominazione": "Wittmann Möbelwerkstätten GmbH",
+  "campo": "referente",
+  "problema": "REFERENTE OBSOLETO DI DUE PASSAGGI. Heinz Hofer-Wittmann non e' piu' alla guida: gli e' subentrato Bo Thuesen come CEO, uscito dopo circa un anno e mezzo su sua richiesta, e oggi la Geschäftsführung e' di Alice Wittmann (39 anni, pro-pronipote del fondatore), con responsabilita' su marketing, prodotto e vendite. In Firmenbuch risultano inoltre iscritti Alexander Sova e Ron Vorona.",
+  "gravita": "alta",
+  "evidenza": "https://www.noen.at/krems/wechsel-ururenkelin-von-firmengruender-neu-an-spitze-von-etsdorfer-unternehmen-508632071 ; https://moebel-guide.at/news/generationswechsel-bei-wittmann-alice-wittmann-ubernimmt-geschaftsfuhrung ; https://www.moebelfertigung.com/branche/bo-thuesen-ist-der-neue-ceo ; https://www.firmenabc.at/wittmann-moebelwerkstaetten-gmbh_NVdS",
+  "correzione_proposta": "Alice Wittmann — Geschäftsführerin",
+  "_file": "austria_02.json",
+  "_stato": "aperta",
+  "_attuale": "Alice Wittmann",
+  "_row": 36,
+  "_classe": "SPLIT",
+  "_valore": [
+   "Alice Wittmann",
+   "Geschäftsführerin"
+  ]
+ },
+ {
+  "foglio": "Austria",
   "denominazione": "Flatz GmbH",
   "campo": "dimensione",
   "problema": "FUORI TAGLIA. Il dato RocketReach usato nel campo (~17 Mio. € / 96 dipendenti) è errato di un fattore 4: Flatz dichiara ca. 72 Mio. € di fatturato e ca. 320 dipendenti più 30 apprendisti. Supera nettamente la soglia di esclusione ~50 M€ indicata dal cliente. Inoltre una parte rilevante del portafoglio è EPS/styrofoam (flapor, flaporplus) e pezzi stampati EPP, fuori Allegato I: la quota carta/cartone ondulato è solo una parte del business.",
@@ -46,6 +64,42 @@
  },
  {
   "foglio": "Belgio",
+  "denominazione": "Extremis NV",
+  "campo": "referente",
+  "problema": "Referente non aggiornato: Dirk Wynants e' oggi owner e chief designer, NON il vertice esecutivo. L'amministratore delegato in carica e' Valentine Batjoens, nominata CEO in successione a Yff Vandendriessche. Il campo attribuisce erroneamente a Wynants la funzione di vertice.",
+  "gravita": "alta",
+  "evidenza": "https://www.lovethatdesign.com/?post_type=news&p=378797 e https://www.linkedin.com/posts/extremis_meet-our-new-ceo-aka-captain-of-the-ship-activity-7046080915592069121-Z6QI - frammento: \"Extremis appointed Valentine Batjoens as its new Chief Executive Officer... continue the course of outgoing CEO Yff Vandendriessche. However, Dirk Wynants remains as the owner and chief designer of Extremis\"",
+  "correzione_proposta": "Valentine Batjoens — CEO (Dirk Wynants resta fondatore/proprietario e chief designer)",
+  "_file": "belgio_01.json",
+  "_stato": "aperta",
+  "_attuale": "Valentine Batjoens",
+  "_row": 16,
+  "_classe": "SPLIT",
+  "_valore": [
+   "Valentine Batjoens",
+   "CEO (Dirk Wynants resta fondatore/proprietario e chief designer)"
+  ]
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Vincent Sheppard NV",
+  "campo": "referente",
+  "problema": "Referente errato: Brendan McCarthy risulta Managing Director di Vincent Sheppard USA / Sika Design USA (struttura distributiva statunitense nata nel 2021 con Design Holdings), non della NV belga. Il vertice della societa' belga e' Jos Destrooper, entrato come nuovo CEO e investitore (proveniente da Lotus Bakeries).",
+  "gravita": "alta",
+  "evidenza": "crunchbase.com/person/brendan-mccarthy: 'Managing Director @ Vincent Sheppard and Sika Design USA'; made-in.be/west-vlaanderen/nieuwe-ceo-en-investeerder-bij-vincent-sheppard: 'Jos Destrooper ... operationeel en als aandeelhouder (fifty-fifty) naast de familie Claeys'",
+  "correzione_proposta": "Jos Destrooper — CEO / gedelegeerd bestuurder",
+  "_file": "belgio_02.json",
+  "_stato": "aperta",
+  "_attuale": "Jos Destrooper",
+  "_row": 29,
+  "_classe": "SPLIT",
+  "_valore": [
+   "Jos Destrooper",
+   "CEO / gedelegeerd bestuurder"
+  ]
+ },
+ {
+  "foglio": "Belgio",
   "denominazione": "Emballages Gruselle SRL",
   "campo": "dimensione",
   "problema": "Confermato FUORI FORBICE per difetto, e con ampio margine: margine lordo € 142.075 e 113ª posizione nel settore carta/cartone. Non e' un'azienda 'di confine' a 5 M€ ma una micro-impresa artigianale (produzione su misura da 1 a 20.000 pezzi). Nessuna prospettiva di rientrare nel target 5-40 M€.",
@@ -58,6 +112,24 @@
   "_row": 42,
   "_classe": "DECISIONE",
   "_valore": null
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Etilux SA",
+  "campo": "referente",
+  "problema": "REFERENTE NON PIU' IN CARICA. Quentin Gemoets, entrato a fine 2018 per accompagnare la transizione generazionale, ha lasciato l'incarico a FINE 2023. Olivier Bronne, azionista e CEO, ha assunto da solo la direzione dell'azienda e l'azionista ha deciso di NON sostituire Gemoets, appoggiandosi al CdA e a un Comitato di direzione rafforzato. La fonte citata nel record (ccimag 05-01-2024) e' proprio l'articolo che documenta l'uscita.",
+  "gravita": "alta",
+  "evidenza": "https://ccimag.be/2024/01/05/la-transition-generationnelle-se-finalise-chez-etilux/ — 'Quentin Gemoets... a quitté ses fonctions fin 2023'; 'Olivier Bronne, actuel propriétaire et co-CEO, a décidé de reprendre seul la direction'",
+  "correzione_proposta": "Olivier Bronne — Administrateur délégué / CEO",
+  "_file": "belgio_03.json",
+  "_stato": "aperta",
+  "_attuale": "Olivier Bronne",
+  "_row": 43,
+  "_classe": "SPLIT",
+  "_valore": [
+   "Olivier Bronne",
+   "Administrateur délégué / CEO"
+  ]
  },
  {
   "foglio": "Belgio",
@@ -181,6 +253,24 @@
  },
  {
   "foglio": "Danimarca",
+  "denominazione": "AUBO PRODUCTION A/S",
+  "campo": "referente",
+  "problema": "Referente non attuale: Torben Andersen è il PREDECESSORE. La carica di administrerende direktør è passata a Torben Paulin (ingresso registrato 22.01.2026 secondo lasso.dk). Contattare Torben Andersen come vertice attuale è un dato falso.",
+  "gravita": "alta",
+  "evidenza": "https://lasso.dk/firmaer/28854846/ny-administrerende-direktr-i-aubo-production-as/ — titolo \"Ny administrerende direktør i AUBO PRODUCTION A/S\"; frammento: \"Torben Paulin overtook the position of administrerende direktør (CEO) at AUBO PRODUCTION A/S from Torben Andersen\"",
+  "correzione_proposta": "Torben Paulin — Adm. direktør",
+  "_file": "danimarca_01.json",
+  "_stato": "aperta",
+  "_attuale": "Torben Paulin",
+  "_row": 6,
+  "_classe": "SPLIT",
+  "_valore": [
+   "Torben Paulin",
+   "Adm. direktør"
+  ]
+ },
+ {
+  "foglio": "Danimarca",
   "denominazione": "BØJSØ DØRE & VINDUER A/S",
   "campo": "denominazione",
   "problema": "Lead non indipendente: dal 2017 la società è controllata da INWIDO DENMARK A/S, parte del gruppo quotato svedese Inwido AB (fatturato di gruppo ~9 mld SEK nel 2025). Secondo il mandato una controllata di un gruppo estero non è un lead valido, perché la due diligence EUDR viene decisa a livello di capogruppo. Il campo dimensione lo segnala ma il record resta classificato come lead.",
@@ -193,6 +283,24 @@
   "_row": 7,
   "_classe": "DECISIONE",
   "_valore": null
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "HVIDBJERG VINDUET A/S",
+  "campo": "referente",
+  "problema": "Referente errato: Claus Arberg non risulta l'administrerende direktør attuale. Il vertice esecutivo è Morten Filtenborg Mortensgaard (pagina Kontakt del sito ufficiale, aprile 2026).",
+  "gravita": "alta",
+  "evidenza": "https://www.hvidbjergvinduet.dk/kontakt/ — frammento: \"Morten F. Mortensgaard is the managing director (based on their contact page from April 2026)\"; \"Morten Filtenborg Mortensgaard is the Managing Director (Administrerende direktør)\"",
+  "correzione_proposta": "Morten Filtenborg Mortensgaard — Adm. direktør",
+  "_file": "danimarca_01.json",
+  "_stato": "aperta",
+  "_attuale": "Morten Filtenborg Mortensgaard",
+  "_row": 15,
+  "_classe": "SPLIT",
+  "_valore": [
+   "Morten Filtenborg Mortensgaard",
+   "Adm. direktør"
+  ]
  },
  {
   "foglio": "Danimarca",
@@ -211,6 +319,24 @@
  },
  {
   "foglio": "Danimarca",
+  "denominazione": "HØRNING PARKET A/S",
+  "campo": "referente",
+  "problema": "Referente e ruolo errati: Peter (Christian Saaby) Mathiasen è presidente del consiglio di amministrazione (bestyrelsesformand), non adm. direktør. Il vertice esecutivo della società è Peter Vissing, direktør/adm. direktør e co-proprietario dal 2016.",
+  "gravita": "alta",
+  "evidenza": "https://www.proff.dk/firma/h%C3%B8rning-parket-as/skanderborg/producenter/GTM41UI016D — frammento: \"a director named Peter Vissing and board chairman Peter Christian Saaby Mathiasen ... has 24 employees\"; https://rocketreach.co/peter-vissing-email_99791140 — \"Peter Vissing ... CEO and Partner at Hørning Parket A/S\"",
+  "correzione_proposta": "Peter Vissing — Adm. direktør",
+  "_file": "danimarca_01.json",
+  "_stato": "aperta",
+  "_attuale": "Peter Vissing",
+  "_row": 16,
+  "_classe": "SPLIT",
+  "_valore": [
+   "Peter Vissing",
+   "Adm. direktør"
+  ]
+ },
+ {
+  "foglio": "Danimarca",
   "denominazione": "JKE DESIGN A/S",
   "campo": "denominazione",
   "problema": "Lead non indipendente: la società appartiene al gruppo BALLINGSLÖV INTERNATIONAL DANMARK A/S / Ballingslöv International AB (gruppo svedese, Stena Adactum), con presidente del CdA e consigliere espressi dalla capogruppo (Björn Friedrich Hauber, Magnus Hegdal). Secondo il mandato una controllata di un gruppo estero non è un lead valido: la due diligence EUDR si decide a livello di capogruppo.",
@@ -226,6 +352,42 @@
  },
  {
   "foglio": "Danimarca",
+  "denominazione": "Klim Furniture A/S (gia' Klim Mobelfabrik)",
+  "campo": "referente",
+  "problema": "Referente non attuale: dal 2024 il direktor in carica e' Kasper Hogenhaug (che ha acquisito il 50% della societa'); Jan Middelboe resta comproprietario al 50% ma non e' piu' il vertice operativo indicato dalle fonti. Lo stesso campo dimensione del record segnala Kasper Hogenhaug come 'co-proprietario e direttore (dal 2024)', in contraddizione con il campo referente.",
+  "gravita": "alta",
+  "evidenza": "https://jammerbugtavis.dk/kasper-hoegenhaug-bliver-medejer-i-klim-furniture/ ; https://www.wood-supply.dk/article/view/1092962/traditionsrig_mobelproducent_far_ny_medejer_og_direktor - 'Ejerskabet i Klim Furniture er ligeligt fordelt mellem Kasper Hogenhaug og Jan Middelboe, og Kasper Hogenhaug er direktor i selskabet'",
+  "correzione_proposta": "Kasper Hogenhaug, Direktor",
+  "_file": "danimarca_02.json",
+  "_stato": "aperta",
+  "_attuale": "Kasper Hogenhaug",
+  "_row": 23,
+  "_classe": "SPLIT",
+  "_valore": [
+   "Kasper Hogenhaug",
+   "Direktor"
+  ]
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "N. EILERSEN A/S",
+  "campo": "referente",
+  "problema": "Referente errato: Anders Michael Juul Ejlersen risulta membro del consiglio di amministrazione (bestyrelse) e comproprietario, non direktor. Il direktor registrato di N. EILERSEN A/S (CVR 35118519) e' Marianne Lind Koch-Pedersen. Nota anche la grafia ufficiale al CVR: 'Ejlersen'.",
+  "gravita": "alta",
+  "evidenza": "https://www.proff.dk/roller/n.-eilersen-as/skamby/m%C3%B8bler/GKEJPJI015G ; https://ownr.dk/companies/public-profile/35118519 - direktor: Marianne Lind Koch-Pedersen; bestyrelse: Anders Michael Juul Ejlersen, Bettina Elisabeth Juul Ejlersen, Simon Kristian Frosig",
+  "correzione_proposta": "Marianne Lind Koch-Pedersen, Direktor (Anders Michael Juul Ejlersen resta comproprietario/consigliere)",
+  "_file": "danimarca_02.json",
+  "_stato": "aperta",
+  "_attuale": "Marianne Lind Koch-Pedersen",
+  "_row": 26,
+  "_classe": "SPLIT",
+  "_valore": [
+   "Marianne Lind Koch-Pedersen",
+   "Direktor (Anders Michael Juul Ejlersen resta comproprietario/consigliere)"
+  ]
+ },
+ {
+  "foglio": "Danimarca",
   "denominazione": "SKOVS KORN A/S. KORN- OG FODERSTOFAGENTUR",
   "campo": "filiera",
   "problema": "Perimetro EUDR dubbio: la societa' si qualifica pubblicamente come broker/agenzia di intermediazione internazionale ('brokers indenfor international handel med korn, foderstoffer og oliefro' dal 1987) e la ragione sociale stessa e' 'Korn- og Foderstofagentur'. Un agente che non acquista in proprio non immette la commodity sul mercato UE e quindi non e' operatore ai sensi EUDR (analogia con gli operatori di sola logistica). Inoltre le commodity trattate (cereali, mangimi, semi oleosi) ricadono in Allegato I solo per la parte soia, non verificata. Il modesto bruttofortjeneste (12 M DKK ~1,6 M€) e' coerente con un'attivita' di pura intermediazione.",
@@ -238,6 +400,24 @@
   "_row": 36,
   "_classe": "DECISIONE",
   "_valore": null
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "KAILOW A/S",
+  "campo": "referente",
+  "problema": "REFERENTE SUPERATO. Joergen Kailow non e' piu' al vertice operativo: dal 1 aprile 2025 l'administrerende direktoer di KAILOW A/S e' Per Puch Holm-Larsen, mentre Joergen Kailow e' passato a presidente del consiglio (bestyrelsesformand) dalla stessa data. Il ruolo indicato ('Direktoer della capogruppo') non e' inoltre il vertice della societa' target.",
+  "gravita": "alta",
+  "evidenza": "https://lasso.dk/firmaer/15945672/ny-administrerende-direktr-i-kailow-as/... 'Ny administrerende direktoer i KAILOW A/S' (evento 01.04.2025); estatistik.dk/virksomhed/kailow-as/15945672/roller - 'Per Puch Holm-Larsen, administrerende direktoer siden 1. april 2025; Joergen Kailow, bestyrelsesformand siden 1. april 2025'",
+  "correzione_proposta": "Per Puch Holm-Larsen — Adm. direktør (dal 01.04.2025)",
+  "_file": "danimarca_03.json",
+  "_stato": "aperta",
+  "_attuale": "Per Puch Holm-Larsen",
+  "_row": 45,
+  "_classe": "SPLIT",
+  "_valore": [
+   "Per Puch Holm-Larsen",
+   "Adm. direktør (dal 01.04.2025)"
+  ]
  },
  {
   "foglio": "Danimarca",
@@ -271,6 +451,24 @@
  },
  {
   "foglio": "Finlandia",
+  "denominazione": "Elega Oy",
+  "campo": "referente",
+  "problema": "Referente errato: Kaj Pellinen non e' il toimitusjohtaja ma il talouspaallikko (direttore amministrativo/finanziario). Il toimitusjohtaja in carica e' Pauli Niinikoski, confermato anche dopo il riassetto azionario.",
+  "gravita": "alta",
+  "evidenza": "https://elega.fi/ajankohtaista/elegan-osakkaiksi-elegalaisia-avainhenkiloita/ e https://www.asiakastieto.fi/yritykset/fi/elega-oy/24968649/paattajat — frammento: \"Pauli Niinikoski continues in his role as CEO and as a shareholder alongside other members of the entrepreneur team... Kaj Pellinen serves as the finance director (talouspaallikko)\"",
+  "correzione_proposta": "Pauli Niinikoski — Toimitusjohtaja (CEO)",
+  "_file": "finlandia_01.json",
+  "_stato": "aperta",
+  "_attuale": "Pauli Niinikoski",
+  "_row": 8,
+  "_classe": "SPLIT",
+  "_valore": [
+   "Pauli Niinikoski",
+   "Toimitusjohtaja (CEO)"
+  ]
+ },
+ {
+  "foglio": "Finlandia",
   "denominazione": "Jet-Puu Oy",
   "campo": "dimensione",
   "problema": "Appartenenza a gruppo NON dichiarata: JET-Puu Oy fa parte di JETTA-Korporaatio (gruppo Jetta-Talo, case prefabbricate). Lead da riqualificare sulla capogruppo. Inoltre il fatturato riportato (8,4 M€ 2024) e' superato: 10,7 M€ e 27 dip. nel 2025.",
@@ -283,6 +481,24 @@
   "_row": 15,
   "_classe": "REVIEW",
   "_valore": null
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Kiilax Oy",
+  "campo": "referente",
+  "problema": "Referente errato/superato: il toimitusjohtaja in carica e' Jouni Kontkanen (imprenditore di Joensuu che ha rilevato e rilanciato l'azienda, gia' nota come Palavaneri). Jani Olkkonen non risulta amministratore delegato attuale.",
+  "gravita": "alta",
+  "evidenza": "https://vainu.io/company/kiilax-oy-taloustiedot-ja-liikevaihto/256569/yritystiedot e https://www.karjalainen.fi/paikalliset/7656099 — frammento: \"The company's managing director (toimitusjohtaja) is Jouni Kontkanen\"; \"Tuore joensuulainen yrittaja Jouni Kontkanen on pistanyt aiemmin Palavanerina tunnettua Kiilaxia iskukuntoon\"",
+  "correzione_proposta": "Jouni Kontkanen — Toimitusjohtaja (CEO)",
+  "_file": "finlandia_01.json",
+  "_stato": "aperta",
+  "_attuale": "Jouni Kontkanen",
+  "_row": 18,
+  "_classe": "SPLIT",
+  "_valore": [
+   "Jouni Kontkanen",
+   "Toimitusjohtaja (CEO)"
+  ]
  },
  {
   "foglio": "Finlandia",
@@ -407,6 +623,24 @@
  {
   "foglio": "Finlandia",
   "denominazione": "Goodio (Helsinki Heaven Oy)",
+  "campo": "referente",
+  "problema": "Il referente indicato (Jukka Peltola, fondatore/CCO) non è il vertice societario. Il toimitusjohtaja registrato di Helsinki Heaven Oy è Sami Mikael Nupponen.",
+  "gravita": "alta",
+  "evidenza": "https://www.finder.fi/Agentuuriliike/Helsinki+Heaven+Oy/Vantaa/yhteystiedot/3076150 — \"The company's CEO is Sami Mikael Nupponen\"",
+  "correzione_proposta": "Sami Nupponen — Toimitusjohtaja (CEO)",
+  "_file": "finlandia_05.json",
+  "_stato": "aperta",
+  "_attuale": "Sami Nupponen",
+  "_row": 75,
+  "_classe": "SPLIT",
+  "_valore": [
+   "Sami Nupponen",
+   "Toimitusjohtaja (CEO)"
+  ]
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Goodio (Helsinki Heaven Oy)",
   "campo": "dimensione",
   "problema": "Dimensione 'n.d.' senza segnalazione: l'azienda è ampiamente sotto la forbice 5-40 M€. Liikevaihto 784.000 € (2024) con 9 dipendenti.",
   "gravita": "alta",
@@ -466,6 +700,24 @@
  },
  {
   "foglio": "Germania",
+  "denominazione": "SINTAG GmbH & Co. KG",
+  "campo": "referente",
+  "problema": "Campi referente e ruolo VUOTI: il lead non è utilizzabile così. Il registro indica come persona iscritta Ingolf Christian Jacob (Rosengarten, nato 29.10.1971), coerente con l'e-mail censita jacob@sintag.eu; è Geschäftsführer della complementare SINTAG Verwaltungs GmbH.",
+  "gravita": "alta",
+  "evidenza": "https://www.unternehmen24.info/Firmeninformationen/Deutschland/Firma/4708283 (SINTAG GmbH & Co. KG, HRA 204176 Tostedt): «registered person Ingolf Christian Jacob, Rosengarten, geb. 29.10.1971 ... jacob@sintag.eu»; https://firmeneintrag.creditreform.de/21224/2151946166/SINTAG_VERWALTUNGS_GMBH",
+  "correzione_proposta": "Ingolf Christian Jacob — Geschäftsführer (della complementare SINTAG Verwaltungs GmbH)",
+  "_file": "germania_04.json",
+  "_stato": "aperta",
+  "_attuale": "Ingolf Christian Jacob",
+  "_row": 70,
+  "_classe": "SPLIT",
+  "_valore": [
+   "Ingolf Christian Jacob",
+   "Geschäftsführer (della complementare SINTAG Verwaltungs GmbH)"
+  ]
+ },
+ {
+  "foglio": "Germania",
   "denominazione": "ETS Mischfutterwerk GmbH & Co. KG (Eilers Futtermittel)",
   "campo": "denominazione",
   "problema": "CONTROLLO DI TERZI NON DICHIARATO. Il record attribuisce la societa' alla sola Eilers Futtermittel, ma ETS e' una joint venture: soci sono Eilers Futtermittel GmbH & Co. KG, agritura Raiffeisen eG, Raiffeisen-Warengenossenschaft Teuto-Sued eG e Raiffeisen Westfalen Nord eG. La compliance EUDR sull'acquisto di soia si decide a livello delle cooperative Raiffeisen socie, non nello stabilimento.",
@@ -506,6 +758,21 @@
   "_stato": "aperta",
   "_attuale": ">200 MA; familiare; tratta olio di palma, palmisto, oleina, stearina — fascia alta",
   "_row": 96,
+  "_classe": "REVIEW",
+  "_valore": null
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Zalf SpA (Zalf Industria Mobili Componibili)",
+  "campo": "dimensione",
+  "problema": "CONTROLLATA DI GRUPPO NON DICHIARATA: Zalf e' una societa' del Gruppo Euromobil (famiglia Lucchetta, holding a Falze' di Piave/Susegana TV), insieme ai marchi Euromobil e Desiree. La compliance EUDR si decide a livello di capogruppo: il lead va riqualificato o riferito a Gruppo Euromobil.",
+  "gravita": "alta",
+  "evidenza": "https://www.gruppoeuromobil.com/en/group/history e https://www.zalf.com/en/company 'Today Zalf is a company of Gruppo Euromobil ... three brands - Euromobil, Zalf and Desiree - founded and led by the four Lucchetta brothers'",
+  "correzione_proposta": "Aggiungere in dimensione/note: 'societa' del Gruppo Euromobil (marchi Euromobil, Zalf, Desiree) - decisione EUDR a livello di capogruppo'",
+  "_file": "italia_02.json",
+  "_stato": "aperta",
+  "_attuale": "≈27,5M€ (2024) (CompanyReports/RegistroAziende)",
+  "_row": 38,
   "_classe": "REVIEW",
   "_valore": null
  },
@@ -631,6 +898,24 @@
  },
  {
   "foglio": "Olanda",
+  "denominazione": "P. Bos Mengvoeder- en Kunstmesthandel B.V.",
+  "campo": "referente",
+  "problema": "Referente errato/obsoleto: il directeur attuale e' Robert Bos (i figli Pieter, Dirko e Jan Willem sono i successori designati). L'iniziale 'J. Bos' non corrisponde al vertice in carica.",
+  "gravita": "alta",
+  "evidenza": "https://www.boerderij.nl/veevoerbedrijven-p-bos-en-van-benthem-samen-verder - \"De zonen van de huidige directeur Robert Bos ... Pieter, Dirko en Jan Willem\"",
+  "correzione_proposta": "Robert Bos - Algemeen directeur",
+  "_file": "olanda_06.json",
+  "_stato": "aperta",
+  "_attuale": "Robert Bos",
+  "_row": 90,
+  "_classe": "SPLIT",
+  "_valore": [
+   "Robert Bos",
+   "Algemeen directeur"
+  ]
+ },
+ {
+  "foglio": "Olanda",
   "denominazione": "DO IT Organic Food Ingredients B.V.",
   "campo": "dimensione",
   "problema": "Dato errato e fuori forbice target: il campo dichiara 'fatturato non pubblicato' e 'numero dipendenti non pubblicato', ma il gruppo DO IT Organic comunica pubblicamente ca. 125 milioni di euro di fatturato con 110 dipendenti. E' oltre tre volte il tetto della forbice cliente (5-40 M EUR) e va segnalato esplicitamente.",
@@ -706,21 +991,6 @@
  },
  {
   "foglio": "Svezia",
-  "denominazione": "Däckteam i Sverige Aktiebolag",
-  "campo": "sede",
-  "problema": "Sede errata: il campo indica Malmö, Skåne län, mentre la sede legale e operativa è a Borås (Arlagatan 12C, Västra Götalands län).",
-  "gravita": "alta",
-  "evidenza": "allabolag: «Däckteam i Sverige Aktiebolag - Org.nr 556390-4837 - Borås» — https://www.allabolag.se/5563904837/dackteam-i-sverige-aktiebolag ; hitta.se: «Däckteam i Sverige AB - 556390-4837 - Arlagatan 12C i Borås»",
-  "correzione_proposta": "Borås, Västra Götalands län",
-  "_file": "svezia_03.json",
-  "_stato": "aperta",
-  "_attuale": "Malmö, Skåne län",
-  "_row": 52,
-  "_classe": "REVIEW",
-  "_valore": null
- },
- {
-  "foglio": "Svezia",
   "denominazione": "Puratos Sweden AB",
   "campo": "filiera",
   "problema": "ERRORE DI PERIMETRO EUDR. La società è la filiale commerciale svedese del gruppo belga Puratos: importa e distribuisce cioccolato (Belcolade) e cacao prodotti dal gruppo in Belgio. La prima immissione sul mercato UE avviene a monte, presso Puratos NV; la controllata svedese svolge distribuzione intra-UE ed è quindi un operatore a valle, non un soggetto EUDR autonomo. Coerente con i casi già rimossi (Hausberger DE, Skovs Korn DK). L'oggetto sociale registrato è di commercio/marketing di prodotti alimentari, non di produzione in Svezia.",
@@ -748,6 +1018,24 @@
   "_row": 55,
   "_classe": "REVIEW",
   "_valore": null
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Bording AB",
+  "campo": "referente",
+  "problema": "REFERENTE ERRATO. Il VD registrato di Bording AB (org.nr 556239-7090) è Bo Magnus Stefan Gustafsson, non Björn Andersson; ordförande è Bernt Johan Therp.",
+  "gravita": "alta",
+  "evidenza": "allabolag/bolagsfakta: «Bolagets VD är Bo Magnus Stefan Gustafsson ... styrelseordförande Bernt Johan Therp» — https://www.allabolag.se/foretag/bording-ab/bor%C3%A5s/tryckerier/2JZPH2AI5YI3L",
+  "correzione_proposta": "Stefan Gustafsson — VD (verkställande direktör)",
+  "_file": "svezia_03.json",
+  "_stato": "aperta",
+  "_attuale": "Stefan Gustafsson",
+  "_row": 56,
+  "_classe": "SPLIT",
+  "_valore": [
+   "Stefan Gustafsson",
+   "VD (verkställande direktör)"
+  ]
  },
  {
   "foglio": "Svezia",

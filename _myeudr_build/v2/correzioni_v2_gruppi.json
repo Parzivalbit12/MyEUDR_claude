@@ -1,0 +1,57 @@
+[
+ {
+  "foglio": "Belgio",
+  "denominazione": "Hexpol Compounding SRL",
+  "campo": "dimensione",
+  "ancora": "BE 0430.105.126",
+  "a": "__APPEND__ Legame di gruppo: controllata del gruppo quotato svedese HEXPOL AB (Nasdaq Stockholm) — la compliance EUDR si decide a livello di capogruppo.",
+  "motivo": "Legame di gruppo non dichiarato (gravità alta): lo stabilimento di Eupen appartiene alla business area HEXPOL Compounding del gruppo HEXPOL AB.",
+  "fonte": "Rilievo belgio_* della Fase B; companyweb BE 0430.105.126",
+  "gravita": "alta",
+  "origine": "recupero_gruppi"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Euro Meat Group NV",
+  "campo": "dimensione",
+  "ancora": "Fatturato ca. 11 milioni EUR",
+  "a": "__APPEND__ Legame di gruppo: unità della holding Cadus (quattro macelli bovini in Belgio, ~25% delle macellazioni bovine nazionali) — stesso decisore di Slachthuis Velzeke.",
+  "motivo": "Il record presentava la società come indipendente: è invece una delle unità della holding Cadus, che ha lo stesso decisore di un altro lead del censimento.",
+  "fonte": "Rilievo belgio_* della Fase B (stampa settoriale VILT / Cadus)",
+  "gravita": "media",
+  "origine": "recupero_gruppi"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Slachthuis Velzeke BV",
+  "campo": "dimensione",
+  "ancora": "BE 1018.071.121",
+  "a": "__APPEND__ Legame di gruppo: dal 01-01-2025 controllata dalla holding Cadus, che l'ha rilevata da Vion Food Group — stesso decisore di Euro Meat Group.",
+  "motivo": "Legame di gruppo non dichiarato (gravità alta) e recentissimo: il passaggio a Cadus è del 01-01-2025.",
+  "fonte": "Rilievo belgio_* della Fase B (Cadus / Vion Food Group)",
+  "gravita": "alta",
+  "origine": "recupero_gruppi"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "GranCarni S.p.A.",
+  "campo": "dimensione",
+  "ancora": "~26,8 mln",
+  "a": "__APPEND__ Legame di gruppo: società soggetta a direzione e coordinamento di Gruppo Balletta S.p.A.",
+  "motivo": "Legame di gruppo non dichiarato (gravità alta): la società è soggetta a direzione e coordinamento, quindi la compliance non si decide al suo interno.",
+  "fonte": "Rilievo italia_* della Fase B (visura / Registro Imprese)",
+  "gravita": "alta",
+  "origine": "recupero_gruppi"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Johan & Nyström Kafferostare & Tehandlare AB",
+  "campo": "dimensione",
+  "ancora": "Espresso House",
+  "a": "__APPEND__ EH Group AB fa capo a JAB Holding: è lì il decisore di compliance.",
+  "motivo": "Il legame con Espresso House era dichiarato ma incompleto: manca la capogruppo di vertice, che è il decisore effettivo.",
+  "fonte": "Rilievo svezia_* della Fase B (EH Group AB / JAB)",
+  "gravita": "media",
+  "origine": "recupero_gruppi"
+ }
+]

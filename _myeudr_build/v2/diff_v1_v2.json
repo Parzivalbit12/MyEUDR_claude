@@ -43,6 +43,13 @@
  },
  {
   "foglio": "Italia",
+  "denominazione": "Fratelli Berti Legnami S.r.l.",
+  "campo": "dimensione",
+  "da": "≈6,5M€ (2023) / 16-19 dip. (FatturatoItalia)",
+  "a": "Fatturato 5.937.871 € (2024), in calo dai 6.546.179 € del 2023 e dai 7.872.713 € del 2021; perdita d'esercizio 213.556 € nel 2024. 18 dipendenti (piccola impresa, 10-49 addetti). Sede Via Stazione, Castello-Molina di Fiemme (TN); P.IVA 02000590220; taglio e piallatura del legno. Fonte: ufficiocamerale/reportaziende/Atoka su bilanci depositati. NB: al limite inferiore della forbice target 5-40 M€ e in contrazione."
+ },
+ {
+  "foglio": "Italia",
   "denominazione": "Holzland Fuchs S.r.l.",
   "campo": "sito",
   "da": "",
@@ -225,6 +232,20 @@
  },
  {
   "foglio": "Italia",
+  "denominazione": "F.lli Paris S.r.l.",
+  "campo": "linkedin",
+  "da": "",
+  "a": "https://it.linkedin.com/company/fpparis"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "F.lli Paris S.r.l.",
+  "campo": "sito",
+  "da": "",
+  "a": "https://www.fpparis.com"
+ },
+ {
+  "foglio": "Italia",
   "denominazione": "Insit Industria S.p.A.",
   "campo": "referente",
   "da": "",
@@ -275,9 +296,37 @@
  {
   "foglio": "Italia",
   "denominazione": "PBA S.r.l. (PBA Italia Nutrizione Animale)",
+  "campo": "dimensione",
+  "da": "~49,5 mln € (2023) — limite alto, PMI indipendente",
+  "a": "Fatturato 44.097.825 € (ultimo bilancio disponibile, esercizio 2024 pubblicato 2025); utile 332.730 €; 53 dipendenti; capitale sociale 3.500.000 €. Sede Via San Marco 14, 29121 Piacenza (PC); P.IVA 01223200336; mangimificio fondato nel 1972 (suini, ruminanti, avicoli e animali da cortile). Media impresa, al limite superiore della forbice target ma sotto i 50 M€."
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "PBA S.r.l. (PBA Italia Nutrizione Animale)",
   "campo": "sede",
   "da": "Fombio (LO)",
   "a": "Piacenza (PC) — sede legale; stabilimento a Fombio (LO)"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "GranCarni S.p.A.",
+  "campo": "dimensione",
+  "da": "~26,8 mln € (2024); ~21 dip.; lavorazione carni rosse (bovino/bufalino)",
+  "a": "~26,8 mln € (2024); ~21 dip.; lavorazione carni rosse (bovino/bufalino) Legame di gruppo: società soggetta a direzione e coordinamento di Gruppo Balletta S.p.A."
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Gebr. Kilger, Lederfabrik Viechtach KG",
+  "campo": "dimensione",
+  "da": "~20 MA, Umsatz n.d.; piccola conceria vegetale (marchio Rendenbach)",
+  "a": "~20 dipendenti (hogn.de 2019, confermato da wer-zu-wem/sito kilger.de); volumi 1.000-1.500 pelli/mese; fatturato NON pubblicato (KG senza obbligo di deposito) — dimensione verosimilmente < 5 Mio €, SOTTO la forbice target"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Lederfabrik Josef Heinen GmbH & Co. KG (Heinen Leather)",
+  "campo": "dimensione",
+  "da": "~20-35 Mio € Umsatz (2019: 35M; 2020: ~20M); conceria pelle bovina",
+  "a": "~100 dipendenti nello stabilimento di Wegberg (sito aziendale heinen-leather.de, 2025); fatturato: 35 Mio € (2019, KfW Stories), classe di fatturato Creditreform 50-100 Mio € (non datata); bilanci depositati fino al 2024 ma cifre non pubbliche — anno recente non determinabile"
  },
  {
   "foglio": "Germania",
@@ -285,6 +334,13 @@
   "campo": "email",
   "da": "info@goebel-holz.de",
   "a": "info@goebel-holz.com"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Furnierwerk Bühl GmbH",
+  "campo": "dimensione",
+  "da": "Umsatz/MA n.d.",
+  "a": "Bilanzsumme 1,8 Mio € (2023, Bundesanzeiger via Implisense); classe di fatturato 10-50 Mio € (wer-zu-wem / Implisense); AG Mannheim HRB 210482; numero dipendenti non pubblicato — fatturato puntuale non determinabile"
  },
  {
   "foglio": "Germania",
@@ -309,6 +365,20 @@
  },
  {
   "foglio": "Germania",
+  "denominazione": "Schmidt & Thürmer Holzhandlung, Säge- und Hobelwerk GmbH & Co. KG",
+  "campo": "dimensione",
+  "da": "~5 Mio € Umsatz (stima) / ~100 MA (Die Deutsche Wirtschaft)",
+  "a": "~130 dipendenti (2024-2025, Die Deutsche Wirtschaft / sito aziendale), 5 sedi in Meclemburgo-Pomerania, fondata 1992; AG Stralsund HRA 279; fatturato non pubblicato (GmbH & Co. KG) — stima Implisense ~5 Mio € su 100 dip., ritenuta non attendibile"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Schorn & Groh GmbH",
+  "campo": "dimensione",
+  "da": "~80 MA (Creditreform); Umsatz n.d.; impiallacciature/tavolame",
+  "a": "~85 dipendenti (sito aziendale sg-veneers.com, 2025), 2ª generazione, fondata 1961; 8 mln m² di tranciati a magazzino + oltre 2.000 m³ di tavolame (Karlsruhe ed Ehrenkirchen); fatturato non pubblicato (AG Mannheim HRB 103479). NB: il dato RocketReach «14,2 M$ / 13 dip.» è incoerente, da non usare"
+ },
+ {
+  "foglio": "Germania",
   "denominazione": "Büttenpapierfabrik Gmund GmbH & Co. KG",
   "campo": "email",
   "da": "n.d.",
@@ -316,10 +386,66 @@
  },
  {
   "foglio": "Germania",
+  "denominazione": "Die Pharmadrucker GmbH",
+  "campo": "dimensione",
+  "da": "50–99 MA (wlw.com); NB: parte della Bernecker-Gruppe; Umsatz n.d.",
+  "a": "50-99 dipendenti (wlw.com, senza anno); Bilanzsumme 2,0 Mio € (2023, -15,7% sul 2022, Bundesanzeiger via Implisense); fatturato non pubblicato. Controllata della Bernecker-Gruppe (Melsungen) dal 2015/2016; il 90% dei ricavi di stampa del gruppo viene da packaging secondario farmaceutico. AG Fritzlar HRB 12160 — decisione EUDR a livello di capogruppo Bernecker"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Druckerei Siepmann GmbH",
+  "campo": "dimensione",
+  "da": "KMU; Umsatz/MA n.d.",
+  "a": "~65 dipendenti (sito aziendale siepmanndruck.de, 2025); Bilanzsumme 4,0 Mio € (2023, Bundesanzeiger via Implisense); fatturato non pubblicato (deposito abbreviato). Sede Ruhrstraße 126, 22761 Amburgo; AG Hamburg HRB 25539; offset/digitale, astucci pieghevoli e packaging farmaceutico"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "EGGER Druck + Medien GmbH",
+  "campo": "dimensione",
+  "da": "Familienunternehmen (marchio madika); Umsatz/MA n.d. — NB: non è il gruppo pannelli EGGER",
+  "a": "11-50 dipendenti (Creditreform / wer-zu-wem / LifeVERDE, 2025); azienda familiare di 5ª generazione fondata nel 1872, AG Augsburg HRB 9915, Landsberg am Lech; stampa di packaging in cartoncino + shop online madika.de; fatturato non pubblicato — con questo organico verosimilmente SOTTO la soglia di 5 Mio €"
+ },
+ {
+  "foglio": "Germania",
   "denominazione": "EGGER Druck + Medien GmbH",
   "campo": "email",
   "da": "service@madika.de",
   "a": "egger@eggerdruck.de"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "FMS AG",
+  "campo": "dimensione",
+  "da": ">60 MA (wer-zu-wem); Umsatz n.d.",
+  "a": "Oltre 60 dipendenti e apprendisti nella sede di Leutershausen (sito aziendale fmsag.de, 2025), oltre 90 considerando entrambe le sedi (wer-zu-wem); capitale sociale 2.000.000 €; AG Ansbach HRB 5384; astucci pieghevoli, imballaggi e display per food, cosmetica, giocattoli, automotive; fatturato non pubblicato"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Graphische Betriebe Kip GmbH + Co. KG",
+  "campo": "dimensione",
+  "da": "~115 MA (2020, print.de); Umsatz n.d.",
+  "a": ">100 dipendenti a tempo pieno (2025, emsachse.de / Creditreform; fascia LinkedIn 51-200), produzione su due turni; azienda familiare fondata nel 1951, sede Neuenhaus, AG Osnabrück HRA 130316; fatturato non pubblicato (GmbH & Co. KG)"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "H.-J. Dres GmbH",
+  "campo": "dimensione",
+  "da": "~19 MA (2010, lieferanten.de); Umsatz n.d.",
+  "a": "11-50 dipendenti (LinkedIn, dato attuale 2025; erano 19 nel 2010 secondo lieferanten.de); azienda fondata nel 1950, Brunckstr. 4, 67346 Speyer, AG Ludwigshafen HRB 52133; astucci pieghevoli e cartonaggi; fatturato non pubblicato — con questo organico verosimilmente SOTTO la soglia di 5 Mio €"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Hannoversche Kartonagenfabrik GmbH & Co. KG",
+  "campo": "dimensione",
+  "da": "Mittelstand familiare (gegr. 1958); Umsatz/MA n.d.",
+  "a": "10-49 dipendenti (Creditreform, 2025; wer-zu-wem indica ~30); azienda familiare di medie dimensioni fondata nel 1958, AG Hannover HRA 26344; imballaggi e display in cartone teso e ondulato; fatturato non pubblicato (GmbH & Co. KG) — verosimilmente al limite inferiore o sotto la forbice 5-40 Mio €"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Lindner Kartonagen GmbH",
+  "campo": "dimensione",
+  "da": "Familienunternehmen dal 1957; Umsatz/MA n.d.",
+  "a": "Familienunternehmen dal 1957 (Espelkamp; produzione a Diepenau dal 1969). 73 dipendenti (Implisense, dati registro/Bundesanzeiger, ultimo aggiornamento disponibile); Bilanzsumme 3,3 Mio € (2019, Bundesanzeiger via Implisense). Fatturato non pubblicato. NB: taglia verosimilmente SOTTO la forbice target 5-40 Mio €."
  },
  {
   "foglio": "Germania",
@@ -354,7 +480,7 @@
   "denominazione": "Röstfein Kaffee GmbH",
   "campo": "dimensione",
   "da": "n.d. (torrefazione media, gegr. 1908)",
-  "a": "n.d. (torrefazione media, gegr. 1908). Legame di gruppo: controllata al 100% da Zentralkonsum eG (Berlino) — HRB 107856."
+  "a": "Torrefazione storica (gegr. 1908), Magdeburg; interamente controllata da Zentralkonsum eG. Dipendenti: oltre 200 (fonte azienda/portali, dato corrente s.d.; Wikipedia riportava oltre 150). Fatturato non pubblicato in chiaro: bilanci depositati fino all'esercizio 31/12/2023 (HRB 107856 AG Stendal, northdata) ma cifre non esposte."
  },
  {
   "foglio": "Germania",
@@ -362,6 +488,27 @@
   "campo": "fonte",
   "da": "https://www.roestfein.de/impressum",
   "a": "https://www.roestfein.de/impressum.html"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "W. Machwitz GmbH (Machwitz Kaffee)",
+  "campo": "dimensione",
+  "da": "n.d. (torrefazione regionale, gegr. 1883, 3ª gen.)",
+  "a": "Torrefazione regionale, gegr. 1883 a Danzica, sede Hannover dal 1919, 2ª/3ª gen. (Jörg-Walter e Maximilian Koch). Dipendenti: <25 (Wikipedia) — altra fonte locale indica ~40 posti creati nel tempo. Patrimonio netto (Eigenkapital) 912.420 € nel 2021 (bilancio depositato). Fatturato non pubblicato. NB: taglia ampiamente SOTTO la forbice target 5-40 Mio €."
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Confiserie Burg Lauenstein GmbH",
+  "campo": "dimensione",
+  "da": "~130 dip. + ~50 stagionali (DDW); Umsatz n.d.",
+  "a": "Fatturato ~14,0 Mio € e ~150 dipendenti fra full-time e part-time (Die Deutsche Wirtschaft, stima di portale, anno non dichiarato); stima alternativa 101 dipendenti e ~11 Mio € di fatturato (Implisense/Creditreform). Il campo precedente indicava 130 dipendenti fissi + ~50 stagionali natalizi. Costituita 1989, Lauensteiner Straße 41, Ludwigsstadt (HRB 1536 AG Coburg). IN TARGET (11-14 Mio €)."
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Confiserie Felicitas GmbH",
+  "campo": "dimensione",
+  "da": "~75 dip.; classe Umsatz 10–50 Mio € (northdata/wer-zu-wem)",
+  "a": "Dipendenti: 75 (dato datato dicembre 2024, Bürgschaftsbank Brandenburg / bauernzeitung), in prevalenza donne. Fatturato: solo classe di portale 10-50 Mio € (wer-zu-wem/companyhouse, senza anno) — cifra puntuale NON pubblicata. Fondata 1992, ~2.000 mq fra produzione, magazzino, caffè e factory outlet; filiali proprie a Potsdam e Dresda; prodotti in 200 punti vendita in Germania."
  },
  {
   "foglio": "Germania",
@@ -379,10 +526,17 @@
  },
  {
   "foglio": "Germania",
+  "denominazione": "Paul Reber GmbH & Co. KG",
+  "campo": "dimensione",
+  "da": "n.d. (impresa familiare indip. dal 1865; leader Mozartkugeln)",
+  "a": "Impresa familiare indipendente dal 1865 (famiglia Botzleiner-Reber), sede Bad Reichenhall. Dipendenti: circa 300 nei periodi di picco (Wikipedia/stampa locale, s.d.). Volumi: ~500.000 Mozartkugeln/giorno, export in oltre 50 paesi; leader di mercato tedesco e, per dichiarazione propria, maggior produttore mondiale di Mozartkugeln. Fatturato NON pubblicato (KG, HRA 701 Traunstein, non deposita conto economico) — le stime di portale tipo rocketreach non sono citabili."
+ },
+ {
+  "foglio": "Germania",
   "denominazione": "Sawade GmbH",
   "campo": "dimensione",
   "da": "~100 dip. (Wikipedia/DDW); Umsatz n.d.; storica manifattura",
-  "a": "~100 dip. (Wikipedia/DDW); Umsatz n.d.; storica manifattura Nota: socio di maggioranza Fintura Corporate Finance (Berlino) dal 2021, post-insolvenza in Eigenverwaltung."
+  "a": "Fatturato STIMATO ~32 Mio € (Die Deutsche Wirtschaft, stima di portale, non dato di bilancio); dipendenti: 80 secondo DDW, ~100 nello stabilimento di Berlin-Reinickendorf secondo azienda/Wikipedia. Manifattura di praline piu' antica di Berlino, fondata 1880 Unter den Linden; guidata dai coniugi Melanie e Benno Hübel, subentrati nel novembre 2013 (HRB 153823 B AG Charlottenburg). IN TARGET se la stima regge; dato di bilancio da confermare su Bundesanzeiger. Nota: socio di maggioranza Fintura Corporate Finance (Berlino) dal 2021, post-insolvenza in Eigenverwaltung."
  },
  {
   "foglio": "Germania",
@@ -442,6 +596,13 @@
  },
  {
   "foglio": "Germania",
+  "denominazione": "MaTec Gummiwerk GmbH",
+  "campo": "dimensione",
+  "da": "Umsatzklasse fino a 10 Mio €, ~40 MA (Northdata/Kompass)",
+  "a": "Bilanzsumme (totale di bilancio) 3 Mio € nell'esercizio 2023 (ultimo pubblicato, Bundesanzeiger via Implisense); 40 dipendenti in Germania; classe di fatturato fino a 10 Mio € (portale, senza anno). Fatturato puntuale non pubblicato. Stabilimento di gomma tecnica a Caputh/Schwielowsee (HRB 13965 AG Potsdam), 55 anni di attivita'. NB: taglia verosimilmente SOTTO la soglia inferiore della forbice target (5 Mio €)."
+ },
+ {
+  "foglio": "Germania",
   "denominazione": "RIGDON GmbH",
   "campo": "dimensione",
   "da": "~100 MA, Umsatz n.d.; maggior ricostruttore pneumatici indip. DE (borderline)",
@@ -456,6 +617,13 @@
  },
  {
   "foglio": "Germania",
+  "denominazione": "ETS Mischfutterwerk GmbH & Co. KG (Eilers Futtermittel)",
+  "campo": "dimensione",
+  "da": "Umsatz ~10 Mio € (2023, Implisense)",
+  "a": "Classe di fatturato 10-50 Mio € (wer-zu-wem, senza anno); fatturato puntuale NON pubblicato (KG, HRA 6208 AG Steinfurt). Volumi: 150.000 t di mangime/anno prodotte a Ladbergen dall'estate 2017 (sito ufficiale). Dipendenti non pubblicati. NB assetto: ETS Mischfutterwerk e' una JOINT VENTURE fra Eilers Futtermittel GmbH & Co. KG (fondata 1903) e agritura Raiffeisen eG — non e' quindi una PMI indipendente in senso stretto."
+ },
+ {
+  "foglio": "Germania",
   "denominazione": "Heinrich Meier Mühle und Futtermittelhandel GmbH & Co. KG",
   "campo": "linkedin",
   "da": "",
@@ -467,6 +635,20 @@
   "campo": "filiera",
   "da": "Mangimi/Soia",
   "a": "Mangimi/Soia + Legno — pellet di legno Sonnen-Pellets (dal 1998, certificati ENplus)"
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Schellinger KG",
+  "campo": "dimensione",
+  "da": "Umsatz ~46,86 Mio € (stima Companyhouse, incl. molino/pellet); 20–49 MA — limite superiore",
+  "a": "Fatturato STIMATO ~46,86 Mio € (Companyhouse / wer-zu-wem / Die Deutsche Wirtschaft — stima di portale, anno di riferimento NON dichiarato): non e' un dato di bilancio, la KG non pubblica il conto economico. Dipendenti: fonti discordanti, 20-49 secondo alcuni portali, ~100 secondo altri. Fondata 1879; molino a cereali, mangimi, pellet ed energie rinnovabili; Schießplatzstr. 1-5, 88250 Weingarten (HRA 550174 AG Ulm). Limite superiore della forbice target."
+ },
+ {
+  "foglio": "Germania",
+  "denominazione": "Gustav Heess Oleochemische Erzeugnisse GmbH",
+  "campo": "dimensione",
+  "da": "~150 MA nel mondo; Bilanzsumme ~40 Mio € (2023); familiare, tratta olio di palma",
+  "a": "Totale di bilancio (Bilanzsumme) 40 Mio € nel 2023, in calo del 7,1% sull'anno precedente (Bundesanzeiger via Implisense); utile netto 2023 4,46 Mio €. Dipendenti: 150; capacita' produttiva annua 50.000 t nel mondo. FATTURATO NON PUBBLICATO — la Bilanzsumme non e' un ricavo. Azienda familiare fondata 1897 (HRB 5001 AG Stuttgart), nove filiali/impianti in Europa, USA e Asia; tratta anche olio di palma."
  },
  {
   "foglio": "Finlandia",
@@ -512,10 +694,45 @@
  },
  {
   "foglio": "Finlandia",
+  "denominazione": "Sahakuutio Oy",
+  "campo": "dimensione",
+  "da": "≈22,6 M€ (2025; 17 M€ 2024) / ~17 dip. (Asiakastieto)",
+  "a": "Liikevaihto 22,6 M€ (2025), 34 dip.; 17,0 M€ (2024), 35 dip. (Asiakastieto/Proff, Y-tunnus 0167908-6) — in forbice"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Ålands Skogsindustrier Ab",
+  "campo": "dimensione",
+  "da": "≈18,5 M€ (2022, largestcompanies/Åland)",
+  "a": "Omsättning koncernen 21,8 M€ (2025, +~10%; moderbolaget 17,3 M€), rörelseresultat 0,76 M€; ~49 anställda — in forbice"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Jospak Oy",
+  "campo": "dimensione",
+  "da": "Liikevaihto ~1,9 M€ (2024), ~29 dip. (scale-up) — sotto fascia",
+  "a": "Liikevaihto 1,9 M€ (2024, +83,3%), 29 dip.; perdita operativa -4,5 M€ (2024, margine -225,5%) e tilikauden tulos -3,04 M€ (2023, liikevaihto 1,05 M€); scale-up finanziata da aumenti di capitale (1 M€ 2020, 3,5 M€ 2021) — MOLTO SOTTO FASCIA, verificare continuità aziendale"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Newprint Oy",
+  "campo": "dimensione",
+  "da": "~25 dip. (2024); liikevaihto n.d.",
+  "a": "Liikevaihto ~6,0 M€ (ultimo esercizio pubblicato, 2024), 25 dip. (-3,9% sull'anno precedente); liiketoiminnan voitto 83.000 € (2024) — limite inferiore della forbice"
+ },
+ {
+  "foglio": "Finlandia",
   "denominazione": "Nordic Label Oy Ab",
   "campo": "dimensione",
   "da": "Liikevaihto ~16,2 M€ (2025), ~64 dip.",
   "a": "Liikevaihto ~16,2 M€ (2025), ~64 dip. /note: controllata dal gruppo belga Asteria Group (ex Tilgmann Group); compliance decisa a livello di capogruppo."
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Oy Orapac Ab",
+  "campo": "dimensione",
+  "da": "Liikevaihto ~15,0 M€ (2022), ~24 dip. (2025)",
+  "a": "24 dip. (2025), 51 dip. (2024); liiketulos 1,4 M€ (2025) e 1,3-1,5 M€ (2024); liikevaihto NON pubblicato nei registri (0 EUR in Proff/Asiakastieto per 2024 e 2025) — ultimo fatturato noto ~15,0 M€ (2022), non più rappresentativo"
  },
  {
   "foglio": "Finlandia",
@@ -593,6 +810,13 @@
   "campo": "dimensione",
   "da": "22 dipendenti. Fatturato non pubblicato nelle fonti consultate; ultimo esercizio 2025: risultato ante imposte 43,07 M DKK (~5,8 M€), risultato netto 33,6 M DKK, patrimonio netto 72,4 M DKK — indicatori coerenti con una fascia di ricavi nel target. CVR 25776380, costituita 01.12.2000, sede Havnevej 11, 9560 Hadsund. Centralino +45 99 52 52 52. Codice NACE: commercio all'ingrosso di legno e materiali da costruzione. LEGAME DI GRUPPO: controllata da Timberman Holding ApS; nel CdA figurano Lovisa Märtha Maria Krantz e il presidente Fredrick John Sylva (azionariato nordico).",
   "a": "22 dipendenti. Fatturato non pubblicato nelle fonti consultate; ultimo esercizio 2025: risultato ante imposte 43,07 M DKK (~5,8 M€), risultato netto 33,6 M DKK, patrimonio netto 72,4 M DKK — indicatori coerenti con una fascia di ricavi nel target. CVR 25776380, costituita 01.12.2000, sede Havnevej 11, 9560 Hadsund. Centralino +45 99 52 52 52. Codice NACE: commercio all'ingrosso di legno e materiali da costruzione. LEGAME DI GRUPPO: controllata da Timberman Holding ApS; nel CdA figurano Lovisa Märtha Maria Krantz e il presidente Fredrick John Sylva (azionariato nordico). Controllata del gruppo svedese quotato Volati AB dal dicembre 2024 (in precedenza Corticeira Amorim); Mogens Albaek Fisker resta direktor e comproprietario."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "VERMUND LARSEN A/S (VELA / VERMUND)",
+  "campo": "sito",
+  "da": "https://vermund.eu/",
+  "a": "https://www.vela.dk/ (vermund.eu è il sito del marchio design Vermund)"
  },
  {
   "foglio": "Danimarca",
@@ -747,6 +971,13 @@
   "campo": "dimensione",
   "da": "≈10,1 M€ / 38 dip. (allabolag 2025: 114 525 KSEK) · org.nr 556637-7171 · legame di gruppo: controllata di Green Wood Sverige AB (stessa proprietà di Bäckebrons e Nordanå Trä) · calo -70,1% sul 2024, verificare durata esercizio",
   "a": "≈10,1 M€ / 38 dip. (allabolag 2025: 114 525 KSEK) · org.nr 556637-7171 · legame di gruppo: controllata di Green Wood Sverige AB (stessa proprietà di Bäckebrons e Nordanå Trä) · calo -70,1% sul 2024, verificare durata esercizio Controllata di Green Wood Sverige AB; koncernmoderbolag Profuragruppen AB (dal 2025, dopo il fallimento di Ziegler Group)."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Blå Station Aktiebolag",
+  "campo": "linkedin",
+  "da": "https://se.linkedin.com/company/blastation",
+  "a": "https://www.linkedin.com/company/bla_station_ab/"
  },
  {
   "foglio": "Svezia",
@@ -960,10 +1191,10 @@
  },
  {
   "foglio": "Svezia",
-  "denominazione": "Lenanders Grafiska AB",
+  "denominazione": "Johan & Nyström Kafferostare & Tehandlare AB",
   "campo": "dimensione",
-  "da": "Fatturato 122.940 KSEK (~10,9 M€) e 42 dipendenti — fonte allabolag/bolagssoket, es. 2024. Org.nr 556323-6776 (da riverificare: fonti aggregate riportano numerazioni divergenti). IN TARGET. Nota legame di gruppo: collegata a Scandinavian Print Group (proprietà danese); VD non pubblicato nelle fonti consultate — in cda risultano Henrik Corvenius Frydendahl ed Esben Mols Kabell.",
-  "a": "Fatturato 122.940 KSEK (~10,9 M€) e 42 dipendenti — fonte allabolag/bolagssoket, es. 2024. Org.nr 556323-6776 (da riverificare: fonti aggregate riportano numerazioni divergenti). IN TARGET. Nota legame di gruppo: collegata a Scandinavian Print Group (proprietà danese); VD non pubblicato nelle fonti consultate — in cda risultano Henrik Corvenius Frydendahl ed Esben Mols Kabell. Controllata (100%) di Scandinavian Print Group (DK) dal 1/9/2021; capogruppo di riferimento per la compliance: Scandinavian Print Group."
+  "da": "Fatturato 196,8 MSEK (~17,4 M€) 2024 (-2,9%); 54 dipendenti (fonte: allabolag.se, bilancio 2024). Org.nr 556657-9446. Nota: dal 2016 controllata da Espresso House (EH Group AB).",
+  "a": "Fatturato 196,8 MSEK (~17,4 M€) 2024 (-2,9%); 54 dipendenti (fonte: allabolag.se, bilancio 2024). Org.nr 556657-9446. Nota: dal 2016 controllata da Espresso House (EH Group AB). EH Group AB fa capo a JAB Holding: è lì il decisore di compliance."
  },
  {
   "foglio": "Svezia",
@@ -1181,6 +1412,20 @@
   "campo": "denominazione",
   "da": "Origin Bridge (Barchem)",
   "a": "BENZU (eenmanszaak) — handelsnaam «Origin Bridge»"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Simon Levelt B.V.",
+  "campo": "dimensione",
+  "da": "Fatturato della BV non pubblicato (accesso premium su company.info). Riferimenti di stampa: 11,5 M€ di fatturato nel 2011; fatturato al consumo della catena oltre 20 M€ nel 2016 (fonte: MT/Sprout, Fonk Magazine). 77 dipendenti (fonte: company.info / OpenKvK, 2025). KVK 34093465, A. Hofmanweg 3 Haarlem. Torrefazione + confezionamento tè + catena in franchising dal 1826. BORDERLINE: potrebbe superare i 40 M€ di giro d'affari di insegna — da verificare prima del contatto.",
+  "a": "Fatturato della BV NON pubblicato (bilancio abbreviato; accesso premium su company.info). Serie storica di stampa: 8,5 M€ di fatturato con 43 FTE e 29 negozi — dato di un'intervista del 2007, NON recente; 11,5 M€ nel 2011; oltre 20 M€ di fatturato al consumo dell'insegna nel 2016 (+4,6%). Ultimo esercizio noto: fatturato +20% (RetailTrends), crescita in parte spiegata dal raddoppio dei prezzi dell'arabica nel 2024 riversato sui listini. Oggi oltre 40 negozi specializzati in NL e BE; 77 dipendenti (company.info/OpenKvK, 2025). KVK 34093465, A. Hofmanweg 3 Haarlem; torrefazione + confezionamento tè + catena in franchising dal 1826. Direttore generale unico dal gennaio 2026 Bert Jongsma (primo esterno alla famiglia)."
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Smit & Dorlas Koffiebranders B.V.",
+  "campo": "dimensione",
+  "da": "Fatturato non pubblicato nei registri (bilancio abbreviato); stima di terze parti ~12,4 M$ (rocketreach — non ufficiale, da verificare). 94 dipendenti dichiarati dall'azienda (2025). KVK 31022124, costituita 28-03-1978 (marchi Smit e Dorlas dal 1822). Torrefazione artigianale per l'horeca. Se la stima regge, rientra nel target 10-20 M€.",
+  "a": "Fatturato NON pubblicato nei registri (bilancio abbreviato); nessuna cifra reperibile su fonti pubbliche — la stima di terze parti ~12,4 M$ (rocketreach) non e' verificabile e va trattata come non ufficiale. Dipendenti: 90 secondo l'azienda (88 secondo altra fonte). KVK 33239607 (numero corretto), Nijverheidsweg 1, 3641 RP Mijdrecht; societa' costituita nel 1992, attivita' di torrefazione dal 1822, oltre 190 anni di servizio all'horeca."
  },
  {
   "foglio": "Olanda",
@@ -1457,6 +1702,13 @@
  },
  {
   "foglio": "Belgio",
+  "denominazione": "Hexpol Compounding SRL",
+  "campo": "dimensione",
+  "da": "Fatturato 31.327.285 EUR (Trends Top/NBB, ultimo esercizio pubblicato); n. impresa BE 0430.105.126",
+  "a": "Fatturato 31.327.285 EUR (Trends Top/NBB, ultimo esercizio pubblicato); n. impresa BE 0430.105.126 Legame di gruppo: controllata del gruppo quotato svedese HEXPOL AB (Nasdaq Stockholm) — la compliance EUDR si decide a livello di capogruppo."
+ },
+ {
+  "foglio": "Belgio",
   "denominazione": "Vanrobaeys Granen & Zaden NV",
   "campo": "filiera",
   "da": "Mangimi/Soia — granaglie e semi per mangimi",
@@ -1488,7 +1740,7 @@
   "denominazione": "Euro Meat Group NV",
   "campo": "dimensione",
   "da": "Fatturato ca. 11 milioni EUR (VILT, stampa settoriale agroalimentare belga); organico ca. 50 persone (40 operai + 10 impiegati); capacita' 75.000 bovini ed equini/anno, ca. 125.000 bovini macellati per conto terzi. Numero d'impresa BE non verificato su fonte pubblica. Fa parte del gruppo Cadus NV (macelli in Belgio) ed e' socio Febev.",
-  "a": "Fatturato ca. 11 milioni EUR (VILT, stampa settoriale agroalimentare belga); organico ca. 50 persone (40 operai + 10 impiegati); capacita' 75.000 bovini ed equini/anno, ca. 125.000 bovini macellati per conto terzi. Numero d'impresa BE non verificato su fonte pubblica. Fa parte del gruppo Cadus NV (macelli in Belgio) ed e' socio Febev. N. impresa BE 0832.292.464."
+  "a": "Fatturato ca. 11 milioni EUR (VILT, stampa settoriale agroalimentare belga); organico ca. 50 persone (40 operai + 10 impiegati); capacita' 75.000 bovini ed equini/anno, ca. 125.000 bovini macellati per conto terzi. Numero d'impresa BE non verificato su fonte pubblica. Fa parte del gruppo Cadus NV (macelli in Belgio) ed e' socio Febev. N. impresa BE 0832.292.464. Legame di gruppo: unità della holding Cadus (quattro macelli bovini in Belgio, ~25% delle macellazioni bovine nazionali) — stesso decisore di Slachthuis Velzeke."
  },
  {
   "foglio": "Belgio",
@@ -1496,6 +1748,13 @@
   "campo": "dimensione",
   "da": "Fatturato 4.287.787 EUR e 4,8 FTE nella societa' di macellazione (ultimo bilancio NBB, via Companyweb/Trends Top); n. impresa BE 0436.764.571. SOTTO LA SOGLIA dei 5 M€ come singola entita': il fatturato riflette solo i servizi di macellazione: il gruppo familiare Swaegers & Co dichiara 70.000 bovini/anno e 22.000 t di capacita' annua, quindi volumi EUDR molto superiori al fatturato contabile.",
   "a": "Fatturato 4.287.787 EUR e 4,8 FTE nella societa' di macellazione (ultimo bilancio NBB, via Companyweb/Trends Top); n. impresa BE 0436.764.571. SOTTO LA SOGLIA dei 5 M€ come singola entita': il fatturato riflette solo i servizi di macellazione: il gruppo familiare Swaegers & Co dichiara 70.000 bovini/anno e 22.000 t di capacita' annua, quindi volumi EUDR molto superiori al fatturato contabile. Il gruppo familiare ha rilevato anche il macello di Bastogne."
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Slachthuis Velzeke BV",
+  "campo": "dimensione",
+  "da": "50-99 dipendenti (Companyweb, dati piu' recenti); capacita' 2.000 bovini/settimana, uno dei maggiori macelli bovini del Belgio; n. impresa BE 1018.071.121. Fatturato NON disponibile: entita' costituita il 30/12/2024 (cambio di proprieta' nel 2025), nessun bilancio con cifra d'affari ancora depositato. Altri amministratori indicati: Guy De Bruycker, Johan Castelein.",
+  "a": "50-99 dipendenti (Companyweb, dati piu' recenti); capacita' 2.000 bovini/settimana, uno dei maggiori macelli bovini del Belgio; n. impresa BE 1018.071.121. Fatturato NON disponibile: entita' costituita il 30/12/2024 (cambio di proprieta' nel 2025), nessun bilancio con cifra d'affari ancora depositato. Altri amministratori indicati: Guy De Bruycker, Johan Castelein. Legame di gruppo: dal 01-01-2025 controllata dalla holding Cadus, che l'ha rilevata da Vion Food Group — stesso decisore di Euro Meat Group."
  },
  {
   "foglio": "Belgio",

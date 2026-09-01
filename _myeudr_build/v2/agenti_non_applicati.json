@@ -19,7 +19,7 @@
   "fonte": "https://estatistik.dk/virksomhed/skagerak-denmark-as/28855990/roller",
   "frammento": "The company has 0 direktorer (directors) listed, and the status shows 'OPLOST EFTER FUSION' (dissolved after merger). ... Josef Theodor Kaiser as chairman of the board (formand for bestyrelsen), Lars Hardboe Galsgaard, Lars Torp Madsen, Jonas Olsson as board members",
   "nota": "Riserva sciolta in senso diverso dall'atteso: Skagerak Denmark A/S (CVR 28855990) risulta 'oplost efter fusion' e senza alcun direktor registrato; Josef Theodor Kaiser figurava come presidente del CdA. Il referente attuale va cercato in Fritz Hansen A/S (marchio 'Skagerak by Fritz Hansen'), non nella controllata.",
-  "_perche": "esito «confermato_attuale»: nessuna modifica"
+  "_perche": "record rimosso dal censimento: correzione superflua"
  },
  {
   "denominazione": "Pyroll Pakkaukset Oy",
@@ -218,5 +218,93 @@
   "frammento": "\"I.S. Makinen Oy's revenue (liikevaihto) was 36.5 million euros in 2025 with 42 employees. Revenue increased by 56.3% from the previous year, and the company had an operating profit of 466,000 euros with an operating profit margin of 1.3% ... In 2024, the company had a revenue of 23.3 million euros and employed 20-49 people\"",
   "nota": "Dato 2025 confermato; aggiunta la serie 2024 e l'appartenenza al gruppo MAKINEN. Sotto i 50 M€ ma vicino al limite alto della tolleranza.",
   "_perche": "esito «confermato_attuale»: nessuna modifica"
+ },
+ {
+  "denominazione": "Kankarin Kaluste Oy",
+  "foglio": "Finlandia",
+  "esito": "confermato_attuale",
+  "dimensione": "Liikevaihto 22,0 M€ (2025), 69 dip.; 18,8 M€ (2024), 63 dip. (Asiakastieto/Finder/Proff) — in forbice",
+  "fuori_taglia": "no",
+  "fonte": "https://www.asiakastieto.fi/yritykset/fi/kankarin-kaluste-oy/05566230/taloustiedot",
+  "frammento": "Vuosi 2025: Yrityksen liikevaihto oli 22 MEUR ja se työllisti 69 henkilöä. Liikevaihto nousi 17,2 %. Vuosi 2024: Yrityksen liikevaihto oli 18,8 miljoonaa euroa ja se työllisti 63 henkilöä. Liikevaihto laski 19,2 %.",
+  "nota": "La serie 18,8 M€ (2024) → 22,0 M€ (2025) è confermata dai registri finlandesi; il valore_attuale era corretto, aggiunti solo i 63 dip. del 2024.",
+  "_perche": "esito «confermato_attuale»: nessuna modifica"
+ },
+ {
+  "denominazione": "Winter & Freis GmbH & Co. KG",
+  "foglio": "Germania",
+  "esito": "incerto",
+  "dimensione": "",
+  "fuori_taglia": "",
+  "fonte": "",
+  "frammento": "",
+  "nota": "Tre ricerche (sito aziendale holzkiste-palette.de, northdata, portali): nessun dato di fatturato né di organico pubblicato. Northdata (AG Ingolstadt HRA 1683, Kipfenberg) espone Umsatz e Mitarbeiter solo dietro abbonamento premium. Il campo resta 'n.d.'; nota di merito: il sito indica la fondazione nel 1927, non 1926.",
+  "_perche": "esito «incerto»: nessuna modifica"
+ },
+ {
+  "denominazione": "Josef Schulte GmbH",
+  "foglio": "Germania",
+  "esito": "confermato_attuale",
+  "dimensione": "~116 dipendenti e fatturato annuo ~36 Mio € (wirtschaftsforum.de, articolo non datato — dato più recente disponibile); oltre 3.500 clienti; sede Delbrück (NRW), fondata nel 1965 a Sande; imballaggi in cartone ondulato riciclato — FASCIA ALTA della forbice 5-40 Mio €",
+  "fuori_taglia": "no",
+  "fonte": "https://www.wirtschaftsforum.de/news/josef-schulte-gmbh/hochwertig-und-nachhaltig",
+  "frammento": "The Josef Schulte GmbH currently employs 116 employees and has more than 3,500 customers from all sectors with annual revenue of 36 million EUR. [...] The medium-sized company is headquartered in Delbrück in North Rhine-Westphalia [...] founded in 1965 in Sande by Josef Schulte.",
+  "nota": "Cifre confermate (116 dip., 36 Mio €). Tre ricerche non hanno permesso di datare l'articolo wirtschaftsforum.de né di trovare un bilancio più recente (northdata/Implisense/Creditreform espongono i dati solo a pagamento): l'anno resta non determinato, esplicitato nel campo.",
+  "_perche": "esito «confermato_attuale»: nessuna modifica"
+ },
+ {
+  "denominazione": "Minges Kaffeerösterei GmbH",
+  "foglio": "Germania",
+  "esito": "incerto",
+  "dimensione": "",
+  "fuori_taglia": "",
+  "fonte": "",
+  "frammento": "",
+  "nota": "Dopo 2 query non si trova un fatturato puntuale con anno: le fonti (Die Deutsche Wirtschaft, wer-zu-wem, companyhouse) riportano solo la classe di fatturato 10-50 Mio € senza anno, e nessun dato dipendenti aggiornato. Il valore attuale (10,5 Mio €, 2017, DDW) non e' confermabile ne' smentibile; resta anche da confermare l'assetto proprietario post-insolvenza.",
+  "_perche": "esito «incerto»: nessuna modifica"
+ },
+ {
+  "denominazione": "Willy Hagen GmbH (Hagen Kaffee)",
+  "foglio": "Germania",
+  "esito": "incerto",
+  "dimensione": "",
+  "fuori_taglia": "",
+  "fonte": "",
+  "frammento": "",
+  "nota": "Tre query (wlw, wer-zu-wem, creditreform/companyhouse/northdata) non producono alcun dato puntuale: solo fasce di portale senza anno (11-50 dipendenti; 10-50 Mio € di fatturato). Unico dato nuovo, non dimensionale: HRB 104035 AG Stuttgart, 4 dirigenti e 2 soci, azienda familiare nel caffe' da 90 anni. Fatturato e dipendenti restano da confermare.",
+  "_perche": "esito «incerto»: nessuna modifica"
+ },
+ {
+  "denominazione": "Weibler Confiserie Chocolaterie GmbH",
+  "foglio": "Germania",
+  "esito": "risolto",
+  "dimensione": "Dun & Bradstreet: 172 dipendenti nella sede di Cremlingen e fatturato stimato 19,08 Mio USD (~17,6 Mio € al cambio ~1,08 USD/€), stima senza anno dichiarato. Stima alternativa Die Deutsche Wirtschaft: fatturato ~40 Mio €. Le due stime divergono ampiamente: nessun dato di bilancio pubblicato. NB: NON indipendente — appartiene al gruppo Halloren Schokoladenfabrik (Halle an der Saale).",
+  "fuori_taglia": "no",
+  "fonte": "https://www.dnb.com/business-directory/company-profiles.weibler_confiserie_chocolaterie_gmbh__cokg.b2a369e8e883c54140627b837737c652.html",
+  "frammento": "Weibler Confiserie Chocolaterie GmbH & Co.KG has 172 employees at this location and generates $19.08 million in sales (USD). [...] Weibler gehoert zur Halloren Schokoladenfabrik aus Halle an der Saale, der aeltesten deutschen noch produzierenden Schokoladenfabrik.",
+  "nota": "Aggiunto il dato dipendenti (172, D&B) e una seconda stima di fatturato (~17,6 Mio €) che contraddice i ~40 Mio € di DDW; entrambe restano stime. Confermata l'appartenenza al gruppo Halloren: l'azienda NON e' indipendente.",
+  "_perche": "0 righe corrispondono: non applicata"
+ },
+ {
+  "denominazione": "E. Jacobsen GmbH",
+  "foglio": "Germania",
+  "esito": "incerto",
+  "dimensione": "",
+  "fuori_taglia": "",
+  "fonte": "",
+  "frammento": "",
+  "nota": "Due query (Creditreform/Kompass, northdata/lieferanten) non restituiscono alcuna cifra di fatturato: le fonti confermano solo la fascia 11-50 dipendenti, la sede Große Elbstraße 14 Amburgo, HRB 20750, la guida di Thomas Bär e oltre 70 anni di attivita' nell'import di carne (bovino sudamericano, agnello neozelandese). Il parametro economico resta non pubblicato.",
+  "_perche": "esito «incerto»: nessuna modifica"
+ },
+ {
+  "denominazione": "Lenanders Grafiska AB",
+  "foglio": "Svezia",
+  "esito": "risolto",
+  "dimensione": "ATTENZIONE - LEAD NON PIU' INDIPENDENTE. Lenanders Grafiska e' stata ACQUISITA a meta' 2021 dal gruppo danese Scandinavian Print Group: SPG ha rilevato clienti, contratti e soltanto 7 dipendenti, oltre 20 addetti sono stati licenziati e la PRODUZIONE a Kalmar e' stata CHIUSA; il marchio Lenanders e' stato mantenuto come sede commerciale nel centro di Kalmar (site manager Angelos Patlis), con IT e amministrazione accentrati a Skarpnäck (Stoccolma). Org.nr: 556323-6776 e' della capogruppo Scandinavian Print Group Sweden AB e va rimosso; l'org.nr storico di Lenanders Grafiska AB e' 556592-3066, ma quella societa' risulta oggi RIDENOMINATA e cancellata dai registri fiscali. Il dato dimensionale precedente (fatturato 122.940 KSEK ≈ 10,9 M€ al cambio 11,3 SEK/€, e 42 dipendenti, es. 2024, allabolag/solidinfo) e' riferito a quell'org.nr e NON e' attribuibile con certezza a un'entita' Lenanders attiva: da trattare come non affidabile.",
+  "fuori_taglia": "",
+  "fonte": "https://www.branschkoll.se/de-koper-koper-lenanders-grafiska/",
+  "frammento": "Scandinavian Print Group took over customers, contracts, and a total of seven employees. Over 20 employees at the printing facility were laid off due to the acquisition. The production in Kalmar was discontinued. As with previous acquisitions, the Lenanders brand was retained, and employees moved to a new location in central Kalmar with Angelos Patlis as site manager. [bolagsfakta/allabolag] Lenanders Grafiska AB changed its name [...] org.nr 556592-3066 [...] the company has been deregistered from tax records.",
+  "nota": "Confermato che 556323-6776 e' della capogruppo; l'org.nr storico di Lenanders e' 556592-3066 ma la societa' risulta ridenominata e cancellata dai registri fiscali. Emerso il fatto decisivo: acquisizione 2021 da parte di Scandinavian Print Group, chiusura della produzione a Kalmar e passaggio di soli 7 dipendenti — il lead non e' una PMI indipendente e il dato 122.940 KSEK/42 dipendenti non e' affidabile.",
+  "_perche": "record rimosso dal censimento: correzione superflua"
  }
 ]

@@ -17,6 +17,17 @@ RIMOZIONI = [dict(
            "Stesso criterio gia' applicato in v1 a Odense Seglmærkefabrik («opløst efter fusion») "
            "e a Kaffekompaniet. Si aggiunge il legame gia' noto con Fritz Hansen, fra i big esclusi.",
     fonte="https://estatistik.dk/virksomhed/skagerak-denmark-as/28855990/roller — «0 direktører; status: OPLØST EFTER FUSION»",
+), dict(
+    foglio="Svezia", denominazione="Lenanders Grafiska AB", categoria="b",
+    motivo="Non produce piu'. A meta' 2021 Scandinavian Print Group ha rilevato clienti e "
+           "contratti e soltanto sette dipendenti; oltre venti addetti sono stati licenziati e "
+           "la PRODUZIONE di Kalmar e' stata chiusa. Il marchio Lenanders sopravvive come "
+           "insegna del gruppo, ma l'org.nr storico 556592-3066 risulta ridenominato e "
+           "cancellato dai registri fiscali. Stesso criterio gia' applicato in v1 a Bayer "
+           "Kartonagen (asset deal, produzione trasferita) e a Marandi (produzione cessata).",
+    fonte="Riverifica lotto E — «Scandinavian Print Group took over customers, contracts, and a "
+          "total of seven employees. Over 20 employees at the printing facility were laid off "
+          "due to the acquisition. The production in Kalmar was discontinued.»",
 )]
 
 def fold(x):

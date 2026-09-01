@@ -19,6 +19,9 @@ referenti = carica("correzioni_v2_referenti.json")
 ag_gen    = carica("correzioni_v2_agenti.json")
 ag_ref    = carica("correzioni_v2_agenti_ref.json")
 dimens    = carica("correzioni_v2_dimensione.json")
+gruppi    = carica("correzioni_v2_gruppi.json")
+sede_tab  = carica("correzioni_v2_sede.json")
+residui   = carica("correzioni_v2_residui.json")
 rimozioni = carica("rimozioni_v2.json")
 dec_cli   = carica("dimensione_decisione_cliente.json")
 aperti    = carica("dimensione_restano_aperti.json")
@@ -29,7 +32,7 @@ non_app   = carica("agenti_non_applicati.json")
 classif   = carica("classificato.json")
 
 MOTIVO = {}          # (foglio, denominazione, campo) -> (motivo, fonte)
-for tab in (manuali, generiche, referenti, ag_gen, ag_ref, dimens):
+for tab in (manuali, generiche, referenti, ag_gen, ag_ref, dimens, gruppi, sede_tab, residui):
     for c in tab:
         campi = [c["campo"]] if "campo" in c else ["referente", "ruolo"]
         for k in campi:
@@ -116,7 +119,7 @@ righe = [c for c in manuali if c.get("campo") in ("dimensione","filiera") and "g
 for c in righe:
     val = str(c["a"]).replace("__APPEND__","").strip()
     w(f"| {c['foglio']} | {taglia(c['denominazione'],32)} | {taglia(val,90)} | {taglia(c['fonte'],80)} |")
-gruppo_dim = [c for c in dimens if any(k in (c.get("motivo","")+c.get("a","")).lower()
+gruppo_dim = [c for c in dimens + gruppi if any(k in (c.get("motivo","")+c.get("a","")).lower()
               for k in ("gruppo","controllat","capogrupp","fondo","holding"))]
 for c in gruppo_dim:
     val = str(c["a"]).replace("__APPEND__","").strip()

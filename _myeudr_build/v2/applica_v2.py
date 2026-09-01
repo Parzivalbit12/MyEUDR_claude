@@ -73,15 +73,15 @@ def applica_a_record(get, set_, c, sh):
         # comparire nel valore attuale, cosi' la coda non puo' finire su un altro record.
         if val.startswith("__APPEND__"):
             coda = val[len("__APPEND__"):].strip()
+            if coda.lower() in cur.lower():
+                S["gia"] += 1
+                registra(sh, c["denominazione"], campo, cur, coda, c, "gia_presente"); continue
             anc = (c.get("ancora") or "").strip()
             if not anc or anc.lower() not in cur.lower():
                 S["salt"] += 1
                 registra(sh, c["denominazione"], campo, cur, coda, c, "saltata_ancora")
                 print(f"  ~ {sh}/{c['denominazione'][:30]} {campo}: ancora «{anc[:34]}» assente — SALTATA")
                 continue
-            if coda.lower() in cur.lower():
-                S["gia"] += 1
-                registra(sh, c["denominazione"], campo, cur, coda, c, "gia_presente"); continue
             val = (cur + " " + coda).strip() if cur and cur.lower() != "n.d." else coda
 
         if fold(cur) == fold(val):
@@ -99,12 +99,24 @@ def applica_a_record(get, set_, c, sh):
 
 def main():
     from openpyxl import load_workbook
+    fp_rim = os.path.join(HERE, "rimozioni_v2.json")
+    RIMOSSI = {(r["foglio"], r["denominazione"]) for r in
+               (json.load(open(fp_rim, encoding="utf-8")) if os.path.exists(fp_rim) else [])}
     C = []
     for nome in ("correzioni_v2_generiche","correzioni_v2_referenti","correzioni_v2_manuali",
                  "correzioni_v2_agenti","correzioni_v2_agenti_ref",
-                 "correzioni_v2_dimensione", "correzioni_v2_sede"):
+                 "correzioni_v2_dimensione", "correzioni_v2_sede",
+                 "correzioni_v2_residui", "correzioni_v2_gruppi"):
         fp = os.path.join(HERE, nome + ".json")
         if os.path.exists(fp): C += json.load(open(fp, encoding="utf-8"))
+    # una correzione chiave sul nome VECCHIO non troverebbe piu' un record rinominato:
+    # allineo le chiavi alle rinomine gia' in tabella, cosi' la riesecuzione resta pulita
+    RINOMINE = {(c["foglio"], c["denominazione"]): c["a"]
+                for c in C if c.get("campo") == "denominazione" and c.get("a")}
+    for c in C:
+        nuovo = RINOMINE.get((c["foglio"], c["denominazione"]))
+        if nuovo and c.get("campo") != "denominazione":
+            c["denominazione"] = nuovo
     print(f"{len(C)} correzioni in tabella · target {os.path.basename(XLSX)}\n")
 
     # --- 1. fogli con JSON di build ---
@@ -137,6 +149,8 @@ def main():
                     for fp in glob.glob(os.path.join(BUILD, f"{PREFIX[sh]}_*.json"))
                     for r in json.load(open(fp, encoding="utf-8"))):
                 S["gia"] += 1; print(f"  = {sh}: «{c['denominazione']}» gia' rinominata")
+            elif (sh, c["denominazione"]) in RIMOSSI:
+                print(f"  = {sh}: «{c['denominazione']}» rimossa dal censimento")
             else:
                 S["nf"] += 1; print(f"  !! {sh}: «{c['denominazione']}» non trovata nei JSON")
 

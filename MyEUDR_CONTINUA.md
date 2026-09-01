@@ -641,3 +641,153 @@ Regole che hanno funzionato e vanno mantenute:
    che ha salvato il lavoro quando due agenti sono stati interrotti;
 3. dire subito all'agente che **registri e siti sono irraggiungibili** (403 di egress) e che
    funziona **solo WebSearch**, altrimenti spreca il budget in tentativi WebFetch.
+
+---
+
+## 17. CORREZIONI v2 — esito (sessione di applicazione controllata)
+
+Applicazione al censimento dei rilievi già istruiti dalla verifica di §16, su branch
+`claude/myeudr-lead-corrections-amohn5`. **Non** era una nuova raccolta né una nuova verifica:
+era il riversamento controllato di correzioni già motivate, più la riverifica mirata dei casi
+lasciati con riserva.
+
+### Il deliverable
+
+**`MyEUDR_Lead_Mapping_v2.xlsx`** — 8 fogli nell'ordine di sempre (Italia, Germania, Finlandia,
+Danimarca, Svezia, Olanda, Belgio, Austria). **`MyEUDR_Lead_Mapping.xlsx` (v1) non è stata
+toccata**: da qui in avanti si lavora sulla copia. `_myeudr_build/v2/backup_v1.xlsx` conserva la
+v1 come termine di confronto per la verifica d'integrità.
+
+Il changelog completo è **`_myeudr_build/verifica/CORREZIONI_V2.md`**: azienda, campo, da → a,
+motivo e fonte per ogni correzione, **più l'elenco di ciò che non è stato applicato e perché**.
+È generato da `genera_changelog.py` rileggendo le tabelle e il diff cella per cella, quindi resta
+allineato ai dati a ogni riesecuzione.
+
+### Il criterio è quello di §16, non uno nuovo
+
+Una correzione entra nel foglio solo se ricade in una **categoria già decisa** e ha **evidenza a
+fonte**. Le rimozioni solo per commodity fuori Allegato I o azienda cessata — il fuori taglia da
+solo continua a non bastare. Le denominazioni solo con numero di registro o P.IVA nell'evidenza:
+è la lezione di Arko, dove normalizzare l'ortografia aveva reso più autorevole una forma sbagliata.
+
+### L'infrastruttura: `_myeudr_build/v2/`
+
+Riusa i **due percorsi** già collaudati e non li confonde: DK/SE/NL/BE/AT si correggono nei JSON
+di build e si rigenerano con `add_country.py`; IT/DE/FI si correggono nella cella in posto.
+Prima di iniziare, la rigenerazione dai JSON è stata **riverificata identica cella per cella**
+su tutti e cinque i fogli. Dopo ogni rigenerazione l'ordine dei fogli viene ripristinato.
+
+| Script | Cosa fa |
+|---|---|
+| `inventario.py` | confronta ogni `correzione_proposta` col valore attuale del foglio |
+| `classifica.py` | separa i **valori applicabili** dalle proposte che sono **decisioni** |
+| `costruisci_tabelle.py` | costruisce le tabelle, con le guardie su referente/ruolo |
+| `dimensione.py` | isola le clausole da **aggiungere** al campo Dimensione |
+| `da_agenti.py` | trasforma gli esiti della riverifica in tabelle di correzione |
+| **`applica_v2.py`** | applica, con guardia sul valore attuale; **non svuota mai un campo** |
+| `rimuovi.py` | le rimozioni, ciascuna con la propria motivazione e il precedente |
+| `verifica_integrita.py` | confronto cella per cella col backup pre-modifica |
+| `genera_changelog.py` | rigenera `CORREZIONI_V2.md` |
+
+Tutti **rieseguibili**: una seconda esecuzione applica 0 correzioni e riporta tutto come «già
+uguale». Provare sempre prima con `applica_v2.py --dry-run`.
+
+### ⚠️ Due difetti dell'infrastruttura, trovati applicando
+
+**Il confronto fra denominazioni era troppo largo.** `applica_correzioni.py` e
+`applica_referenti.py` consideravano uguali due nomi che condividono i **primi 12 caratteri**.
+In svedese questo fa collidere fra loro *tutte* le società che cominciano per `Aktiebolaget` —
+nel foglio Svezia sono sei — e una correzione destinata a **Ginsten Slakteri** è finita su
+**Karlaträ**, una segheria. L'ha intercettata la **guardia sul valore attuale**, che ha visto
+`Legno/Segheria` dove si aspettava `Bovini/Carne`. In v2 il match esatto ha la precedenza e il
+ripiego fuzzy si applica solo se è **unico**. Verificato che **in v1 il difetto non ha prodotto
+scritture sbagliate**: delle 131 correzioni di referente applicate allora, quattro toccavano nomi
+collidenti e tutte e quattro hanno raggiunto il record giusto.
+
+**La verifica d'integrità confrontava le righe per posizione.** Ma `add_country.py` riordina il
+foglio per filiera e nome: correggere una denominazione **sposta legittimamente la riga**, e il
+confronto posizionale leggeva lo spostamento come una valanga di campi svuotati. Ora si confronta
+**per identità**, seguendo rinomine e rimozioni dichiarate. Chi riprende: non fidarsi di un
+confronto posizionale sui cinque fogli rigenerati.
+
+Minore ma utile: le clausole aggiunte al campo Dimensione usano una forma `__APPEND__` con
+**ancora** sul valore attuale invece della guardia `da`. Con la sola guardia, due clausole sulla
+stessa azienda si annullavano a vicenda — succedeva a Grahns Konfektyr e Liljeholmens.
+
+### Esito
+
+**726 aziende** (da 728), 8 fogli nell'ordine giusto, **267 celle cambiate**, **0 campi svuotati**
+e **0 record orfani**, verificati cella per cella contro il backup pre-modifica dopo ogni lotto.
+Controlli deterministici sulla v2: **0 entità HTML, 0 email malformate, 0 URL non validi, 0 fonti
+vuote**.
+
+| | v1 | v2 |
+|---|--:|--:|
+| Aziende | 728 | **726** |
+| Email | 616 (84%) | **634 (87%)** |
+| Referente | 575 (78%) | **596 (82%)** |
+| LinkedIn | 293 (40%) | **305 (42%)** |
+
+Le celle cambiate per campo: dimensione 105, email 34, referente 31, ruolo 29, sito 19, LinkedIn 16,
+sede 15, filiera 8, denominazione 6, fonte 4.
+
+### Le due righe rimosse — e le molte non rimosse
+
+- **Skagerak Denmark A/S** (DK): CVR 28855990 «opløst efter fusion», zero direktør registrati.
+  Precedenti: Odense Seglmærkefabrik e Kaffekompaniet.
+- **Lenanders Grafiska AB** (SE): produzione di Kalmar chiusa dopo l'acquisizione 2021 di
+  Scandinavian Print Group (rilevati clienti, contratti e soltanto 7 dipendenti; oltre 20
+  licenziati), org.nr storico cancellato dai registri fiscali. Precedenti: Bayer Kartonagen e
+  Marandi.
+
+Entrambe categoria «l'azienda non esiste più o non produce più». **Nessun fuori taglia è stato
+rimosso**: STOK Emballage (92 M€), Flatz (72), DO IT (~125) e Henry Lamotte (138) restano nei
+fogli con il rilievo, perché la taglia non è fra le categorie correggibili d'ufficio. Restano
+anche i **dieci record operatore/commerciante** (Varia-Pack, Hausberger, Pappersgrossisten,
+Däckteam, Svenska Gummihuset, Cebeco Fourage, Skovs Korn, Rickl-Mühle, SRC, Kargro Banden):
+stabilire se un commerciante sia «operatore» ai sensi dell'EUDR è una **valutazione giuridica**,
+non un dato verificabile a fonte. Decide il cliente.
+
+### PASSO 3 — la riverifica dei casi con riserva
+
+106 rilievi portavano una proposta con riserva (96 dai file di verifica, più 10 la cui riserva stava
+nell'enunciato del problema). Cinque agenti li hanno lavorati con due vincoli:
+**massimo 2-3 query WebSearch per caso** (chi resta incerto dopo tre resta incerto) e
+**salvataggio incrementale ogni 3-4 record**. Il secondo si è rivelato di nuovo decisivo: un
+agente è stato interrotto dal limite di quota e i 13 record già lavorati erano salvati e sono
+stati usati.
+
+- **80 riserve sciolte**, 7 restano incerte (Sopraco NV, Nord Legnami Group, Lecont S.r.l.,
+  Winter & Freis, Minges Kaffeerösterei, Willy Hagen, E. Jacobsen) e restano tali.
+- **19 confermate come già corrette**: erano falsi allarmi — Blå Station e Candy People (il
+  dominio `.se` è quello giusto), Conceria Lomar, Spaggiari, il LinkedIn di Van den Berg
+  Hardhout. La conferma che non andavano applicate d'ufficio.
+
+Le scoperte più utili: **«Emanuel Dick»**, referente di Lindner Kartonagen, non trova riscontro in
+nessuna fonte pubblica (i GF reali sono Jutta Summann e Johannes Kunze, HRB 100588); l'AD di
+**Domori** è Riccardo Illy dal 29.05.2026, non Giacomo Biviano; i «~60 dipendenti» di
+**Sahakuutio** sommavano due società diverse; e su **Simon Lévelt** la correzione proposta andava
+**ribaltata** — gli 8,5 M€/43 FTE venivano da un'intervista del **2007** ed erano il dato più
+vecchio della serie, non il più recente.
+
+### Cosa resta al cliente
+
+Dei 100 rilievi `alta` che avevano una correzione proposta ancora aperta, **33 hanno prodotto una
+correzione nel foglio** e **67 restano aperti**: 35 sono legami di gruppo **già dichiarati**
+(decisione di selezione, non errore di dato), 12 fuori taglia, 5 operatore/commerciante e 15 un
+dato datato o incompleto che nessuna fonte ha permesso di chiudere. Il dettaglio, con evidenza e fonte, è in `CORREZIONI_V2.md` §6.
+
+Restano inoltre aperti: **202 rilievi sul campo Dimensione** la cui proposta non è riconducibile a
+una clausola accertata, le **email dubbie** (che il mandato vieta sia di inventare sia di
+cancellare d'ufficio) e **Cafe Solo Oy**, l'unico record del censimento mai coperto dalla verifica
+web.
+
+### Regole che continuano a funzionare
+
+1. **massimo 2-3 agenti per volta** — il limite si è riattivato anche in questa sessione;
+2. **salvataggio incrementale obbligatorio** nel prompt: ha salvato 13 record su un agente
+   interrotto a metà;
+3. dire subito all'agente che **registri e siti sono irraggiungibili** (403 di egress) e che
+   funziona **solo WebSearch**;
+4. **la guardia sul valore attuale non è burocrazia**: è ciò che ha intercettato la correzione
+   finita sulla società sbagliata. Non toglietela per fare prima.

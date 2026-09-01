@@ -8,20 +8,20 @@ Questo documento elenca **tutto** ciò che cambia rispetto alla v1 (`MyEUDR_Lead
 
 ## 1. Il quadro in numeri
 
-- **230 celle cambiate** su 727 aziende.
-- **1 riga rimossa** (§4).
+- **267 celle cambiate** su 727 aziende.
+- **2 riga rimossa** (§4).
 - **0 campi svuotati** e **0 record orfani**, verificati cella per cella contro il backup pre-modifica (`verifica_integrita.py`).
 - Ordine degli 8 fogli invariato: Italia, Germania, Finlandia, Danimarca, Svezia, Olanda, Belgio, Austria.
 
 | Campo | Celle | | Foglio | Celle |
 |---|--:|---|---|--:|
-| `dimensione` | 72 | | Svezia | 45 |
-| `email` | 34 | | Italia | 40 |
-| `referente` | 31 | | Belgio | 36 |
-| `ruolo` | 29 | | Olanda | 32 |
-| `sito` | 17 | | Germania | 27 |
-| `sede` | 15 | | Danimarca | 23 |
-| `linkedin` | 14 | | Finlandia | 14 |
+| `dimensione` | 105 | | Germania | 48 |
+| `email` | 34 | | Svezia | 46 |
+| `referente` | 31 | | Italia | 45 |
+| `ruolo` | 29 | | Belgio | 38 |
+| `sito` | 19 | | Olanda | 34 |
+| `linkedin` | 16 | | Danimarca | 24 |
+| `sede` | 15 | | Finlandia | 19 |
 | `filiera` | 8 | | Austria | 13 |
 | `denominazione` | 6 | |  |  |
 | `fonte` | 4 | |  |  |
@@ -119,8 +119,13 @@ Per la §3 del report questi **sono errori di dato**, non decisioni di selezione
 | Svezia | Liljeholmens Stearinfabriks AB | Controllata via Liljeholmens Group AB / ALG Holding AB, capogruppo di vertice Tibia Intre… | https://www.allabolag.se/5560416348/liljeholmens-stearinfabriks-ab e https://ww… |
 | Svezia | Narkes Slakteri i Gallersta Akt… | Controllata da Kott & Charkgruppen i Narke AB (gruppo di 5 societa)'. | https://allabolag.se/5565144861/koncern - 'The company is part of a group with … |
 | Svezia | Nya Siljans Chark AB | Capogruppo Siljans Chark Holding AB (holding dei soci Par Nilsson e Mats Arjes); societa … | https://www.allabolag.se/organisation/nya-siljans-chark-ab/mora/livsmedel/2KHO5… |
+| Belgio | Hexpol Compounding SRL | Legame di gruppo: controllata del gruppo quotato svedese HEXPOL AB (Nasdaq Stockholm) — l… | Rilievo belgio_* della Fase B; companyweb BE 0430.105.126 |
+| Belgio | Euro Meat Group NV | Legame di gruppo: unità della holding Cadus (quattro macelli bovini in Belgio, ~25% delle… | Rilievo belgio_* della Fase B (stampa settoriale VILT / Cadus) |
+| Belgio | Slachthuis Velzeke BV | Legame di gruppo: dal 01-01-2025 controllata dalla holding Cadus, che l'ha rilevata da Vi… | Rilievo belgio_* della Fase B (Cadus / Vion Food Group) |
+| Italia | GranCarni S.p.A. | Legame di gruppo: società soggetta a direzione e coordinamento di Gruppo Balletta S.p.A. | Rilievo italia_* della Fase B (visura / Registro Imprese) |
+| Svezia | Johan & Nyström Kafferostare & … | EH Group AB fa capo a JAB Holding: è lì il decisore di compliance. | Rilievo svezia_* della Fase B (EH Group AB / JAB) |
 
-*56 record.*
+*61 record.*
 
 ### 3.3 Filiere: commodity mancanti o imprecise
 
@@ -159,6 +164,7 @@ Applicate solo le proposte che sono un **valore ben formato** per quel campo (un
 | Belgio | Vleeshandel Vens NV | `email` | n.d. | **info@vleeshandelvens.be** |
 | Belgio | coffeeRoots NV | `linkedin` | https://fr.linkedin.com/company/coffe… | **https://be.linkedin.com/company/coffeeroots** |
 | Danimarca | ONECOLLECTION A/S (House of F… | `fonte` | https://www.proff.dk/firma/onecollect… | **https://www.proff.dk/firma/onecollection-as…** |
+| Danimarca | VERMUND LARSEN A/S (VELA / VE… | `sito` | https://vermund.eu/ | **https://www.vela.dk/ (vermund.eu è il sito …** |
 | Finlandia | Akonkosken Saha Oy | `email` | akonkoskensaha@akonkoskensaha.fi | **akonkoskensaha@netikka.fi** |
 | Finlandia | Brunberg Oy | `email` | n.d. | **tilaukset@brunberg.fi** |
 | Finlandia | E J Hiipakka Oy | `sito` | https://www.ejh.fi | **https://www.hiipakka.net** |
@@ -188,6 +194,8 @@ Applicate solo le proposte che sono un **valore ben formato** per quel campo (un
 | Italia | Diesse Rubber Hoses S.p.A. | `linkedin` | — | **https://it.linkedin.com/company/diesse-rubb…** |
 | Italia | Diesse Rubber Hoses S.p.A. | `sito` | — | **https://www.diesserubber.com** |
 | Italia | Ellegi S.p.A. | `sito` | — | **https://ellegi.com** |
+| Italia | F.lli Paris S.r.l. | `linkedin` | — | **https://it.linkedin.com/company/fpparis** |
+| Italia | F.lli Paris S.r.l. | `sito` | — | **https://www.fpparis.com** |
 | Italia | Gambarotta S.r.l. | `sito` | — | **https://www.gambarotta.eu** |
 | Italia | Holzland Fuchs S.r.l. | `sito` | — | **https://www.avantishop.it** |
 | Italia | Imperator S.r.l. | `sito` | https://www.imperator.it | **https://www.imperator.cc** |
@@ -209,9 +217,10 @@ Applicate solo le proposte che sono un **valore ben formato** per quel campo (un
 | Olanda | Snel Industrie voor Karton en… | `sito` | — | **https://www.snelbv.nl** |
 | Svezia | Aktiebolaget Johan Hansson | `linkedin` | — | **https://se.linkedin.com/company/ab-johan-ha…** |
 | Svezia | Aktiebolaget Karlaträ | `linkedin` | — | **https://se.linkedin.com/company/ab-johan-ha…** |
+| Svezia | Blå Station Aktiebolag | `linkedin` | https://se.linkedin.com/company/blast… | **https://www.linkedin.com/company/bla_statio…** |
 | Svezia | Ekstrands Dörrar & Fönster AB | `linkedin` | — | **https://se.linkedin.com/company/ekstrand-&-…** |
 
-*69 celle.*
+*73 celle.*
 
 ### 3.5 Referenti e ruoli
 
@@ -296,8 +305,10 @@ Molte proposte erano nella forma «Nome Cognome — Ruolo»: applicate alla lett
 | Austria | Salzer Papier GmbH | aggiunto: FN 211554i, LG St.; Pölten. |
 | Belgio | Corpack NV | aggiunto: N. impresa BE 0452.991.978. 44,3 FTE (bilancio NBB depositato 17-07-2026); fatturato non pubblicato, stimat… |
 | Belgio | Decolvenaere BV | sostituito: Fatturato totale 38.585.036 € nell'ultimo bilancio depositato (deposito NBB del 27-01-2025, quindi esercizi… |
-| Belgio | Euro Meat Group NV | aggiunto: N. impresa BE 0832.292.464. |
+| Belgio | Euro Meat Group NV | aggiunto: N. impresa BE 0832.292.464. Legame di gruppo: unità della holding Cadus (quattro macelli bovini in Belgio, … |
+| Belgio | Hexpol Compounding SRL | aggiunto: Legame di gruppo: controllata del gruppo quotato svedese HEXPOL AB (Nasdaq Stockholm) — la compliance EUDR … |
 | Belgio | Slachthuis Swaegers NV | aggiunto: Il gruppo familiare ha rilevato anche il macello di Bastogne. |
+| Belgio | Slachthuis Velzeke BV | aggiunto: Legame di gruppo: dal 01-01-2025 controllata dalla holding Cadus, che l'ha rilevata da Vion Food Group — st… |
 | Danimarca | BUCHS A/S | sostituito: Bruttofortjeneste 14.746.681 DKK nel 2024 (~1,98 M€, cambio 7,46), contro 16.092.571 DKK nel 2023; risultat… |
 | Danimarca | CAFÉU DENMARK ApS | aggiunto: ndenti non pubblicati. Fatturato non pubblicato (ApS, bilancio in forma ridotta). CVR 33243537, capitale 80… |
 | Danimarca | COLOR LABEL A/S | aggiunto: ' registrato nel 1991). Etichette autoadesive per food, chimica e retail; parco macchine flexo Nilpeter (10… |
@@ -318,16 +329,47 @@ Molte proposte erano nella forma «Nome Cognome — Ruolo»: applicate alla lett
 | Danimarca | TIMBERMAN DENMARK A/S | aggiunto: Controllata del gruppo svedese quotato Volati AB dal dicembre 2024 (in precedenza Corticeira Amorim); Mogen… |
 | Danimarca | TJØRNEHØJ MØLLE A/S | aggiunto: Controllata del gruppo DLG (grande operatore, fuori target lead). |
 | Finlandia | CWP Coloured Wood Products Oy | aggiunto: Controllata di Auroora Yhtiöt Oyj (Tampere) — riqualificare il lead sulla capogruppo o scartare. |
+| Finlandia | Jospak Oy | sostituito: Liikevaihto 1,9 M€ (2024, +83,3%), 29 dip.; perdita operativa -4,5 M€ (2024, margine -225,5%) e tilikauden … |
+| Finlandia | Newprint Oy | sostituito: Liikevaihto ~6,0 M€ (ultimo esercizio pubblicato, 2024), 25 dip. (-3,9% sull'anno precedente); liiketoiminn… |
 | Finlandia | Nordic Label Oy Ab | aggiunto: /note: controllata dal gruppo belga Asteria Group (ex Tilgmann Group); compliance decisa a livello di capog… |
+| Finlandia | Oy Orapac Ab | sostituito: 24 dip. (2025), 51 dip. (2024); liiketulos 1,4 M€ (2025) e 1,3-1,5 M€ (2024); liikevaihto NON pubblicato ne… |
+| Finlandia | Sahakuutio Oy | sostituito: Liikevaihto 22,6 M€ (2025), 34 dip.; 17,0 M€ (2024), 35 dip. (Asiakastieto/Proff, Y-tunnus 0167908-6) — in … |
+| Finlandia | Ålands Skogsindustrier Ab | sostituito: Omsättning koncernen 21,8 M€ (2025, +~10%; moderbolaget 17,3 M€), rörelseresultat 0,76 M€; ~49 anställda — … |
+| Germania | Confiserie Burg Lauenstein Gm… | sostituito: Fatturato ~14,0 Mio € e ~150 dipendenti fra full-time e part-time (Die Deutsche Wirtschaft, stima di portal… |
+| Germania | Confiserie Felicitas GmbH | sostituito: Dipendenti: 75 (dato datato dicembre 2024, Bürgschaftsbank Brandenburg / bauernzeitung), in prevalenza donn… |
+| Germania | Die Pharmadrucker GmbH | sostituito: 50-99 dipendenti (wlw.com, senza anno); Bilanzsumme 2,0 Mio € (2023, -15,7% sul 2022, Bundesanzeiger via Im… |
+| Germania | Druckerei Siepmann GmbH | sostituito: ~65 dipendenti (sito aziendale siepmanndruck.de, 2025); Bilanzsumme 4,0 Mio € (2023, Bundesanzeiger via Imp… |
+| Germania | EGGER Druck + Medien GmbH | sostituito: 11-50 dipendenti (Creditreform / wer-zu-wem / LifeVERDE, 2025); azienda familiare di 5ª generazione fondata… |
+| Germania | ETS Mischfutterwerk GmbH & Co… | sostituito: Classe di fatturato 10-50 Mio € (wer-zu-wem, senza anno); fatturato puntuale NON pubblicato (KG, HRA 6208 A… |
 | Germania | Effbe GmbH | aggiunto: Controllata della Woco Gruppe (Woco Franz Josef Wolf Holding GmbH) — valutare la compliance a livello di ca… |
+| Germania | FMS AG | sostituito: Oltre 60 dipendenti e apprendisti nella sede di Leutershausen (sito aziendale fmsag.de, 2025), oltre 90 con… |
+| Germania | Furnierwerk Bühl GmbH | sostituito: Bilanzsumme 1,8 Mio € (2023, Bundesanzeiger via Implisense); classe di fatturato 10-50 Mio € (wer-zu-wem / … |
+| Germania | Gebr. Kilger, Lederfabrik Vie… | sostituito: ~20 dipendenti (hogn.de 2019, confermato da wer-zu-wem/sito kilger.de); volumi 1.000-1.500 pelli/mese; fatt… |
+| Germania | Graphische Betriebe Kip GmbH … | sostituito: >100 dipendenti a tempo pieno (2025, emsachse.de / Creditreform; fascia LinkedIn 51-200), produzione su due… |
+| Germania | Gustav Heess Oleochemische Er… | sostituito: Totale di bilancio (Bilanzsumme) 40 Mio € nel 2023, in calo del 7,1% sull'anno precedente (Bundesanzeiger v… |
 | Germania | H. Heitz Furnierkantenwerk Gm… | aggiunto: Controllata di INDUS Holding AG (gruppo quotato) dal 2016; dato dimensionale da integrare con fonte e anno. |
+| Germania | H.-J. Dres GmbH | sostituito: 11-50 dipendenti (LinkedIn, dato attuale 2025; erano 19 nel 2010 secondo lieferanten.de); azienda fondata n… |
+| Germania | Hannoversche Kartonagenfabrik… | sostituito: 10-49 dipendenti (Creditreform, 2025; wer-zu-wem indica ~30); azienda familiare di medie dimensioni fondata… |
+| Germania | Lederfabrik Josef Heinen GmbH… | sostituito: ~100 dipendenti nello stabilimento di Wegberg (sito aziendale heinen-leather.de, 2025); fatturato: 35 Mio €… |
+| Germania | Lindner Kartonagen GmbH | aggiunto: duzione a Diepenau dal 1969). 73 dipendenti (Implisense, dati registro/Bundesanzeiger, ultimo aggiornamento… |
+| Germania | MaTec Gummiwerk GmbH | sostituito: Bilanzsumme (totale di bilancio) 3 Mio € nell'esercizio 2023 (ultimo pubblicato, Bundesanzeiger via Implise… |
+| Germania | Paul Reber GmbH & Co. KG | sostituito: Impresa familiare indipendente dal 1865 (famiglia Botzleiner-Reber), sede Bad Reichenhall. Dipendenti: circ… |
 | Germania | RIGDON GmbH | aggiunto: Controllata della Hörger Gruppe (WRZ Hörger GmbH u.; Co.; KG, Sontheim) dal 2017. |
-| Germania | Röstfein Kaffee GmbH | aggiunto: . Legame di gruppo: controllata al 100% da Zentralkonsum eG (Berlino) — HRB 107856. |
-| Germania | Sawade GmbH | aggiunto: Nota: socio di maggioranza Fintura Corporate Finance (Berlino) dal 2021, post-insolvenza in Eigenverwaltung. |
+| Germania | Röstfein Kaffee GmbH | sostituito: Torrefazione storica (gegr. 1908), Magdeburg; interamente controllata da Zentralkonsum eG. Dipendenti: oltr… |
+| Germania | Sawade GmbH | sostituito: Fatturato STIMATO ~32 Mio € (Die Deutsche Wirtschaft, stima di portale, non dato di bilancio); dipendenti: … |
+| Germania | Schellinger KG | sostituito: Fatturato STIMATO ~46,86 Mio € (Companyhouse / wer-zu-wem / Die Deutsche Wirtschaft — stima di portale, ann… |
+| Germania | Schmidt & Thürmer Holzhandlun… | sostituito: ~130 dipendenti (2024-2025, Die Deutsche Wirtschaft / sito aziendale), 5 sedi in Meclemburgo-Pomerania, fon… |
+| Germania | Schorn & Groh GmbH | sostituito: ~85 dipendenti (sito aziendale sg-veneers.com, 2025), 2ª generazione, fondata 1961; 8 mln m² di tranciati a… |
+| Germania | W. Machwitz GmbH (Machwitz Ka… | sostituito: Torrefazione regionale, gegr. 1883 a Danzica, sede Hannover dal 1919, 2ª/3ª gen. (Jörg-Walter e Maximilian … |
 | Germania | Weibler Confiserie Chocolater… | aggiunto: Controllata di United Chocolate GmbH (Beherrschungs-/Gewinnabführungsvertrag) — non di Halloren. |
+| Italia | Fratelli Berti Legnami S.r.l. | sostituito: Fatturato 5.937.871 € (2024), in calo dai 6.546.179 € del 2023 e dai 7.872.713 € del 2021; perdita d'eserci… |
+| Italia | GranCarni S.p.A. | aggiunto: Legame di gruppo: società soggetta a direzione e coordinamento di Gruppo Balletta S.p.A. |
+| Italia | PBA S.r.l. (PBA Italia Nutriz… | sostituito: Fatturato 44.097.825 € (ultimo bilancio disponibile, esercizio 2024 pubblicato 2025); utile 332.730 €; 53 d… |
 | Italia | Zalf S.p.A. (Zalf Industria M… | aggiunto: /note: 'societa' del Gruppo Euromobil (marchi Euromobil, Zalf, Desiree) - decisione EUDR a livello di capog… |
 | Olanda | Bocca Coffee B.V. | aggiunto: Acquisizione di Single Estate Coffee Roasters da Cavesco; fatturato e organico da riaggiornare post-operazi… |
 | Olanda | Chocolatemakers B.V. | aggiunto: Legame di gruppo: dal 2025 confluita in The Chocolate Impact Group (fusione con Hands Off; marchi Chocolate… |
+| Olanda | Simon Levelt B.V. | sostituito: Fatturato della BV NON pubblicato (bilancio abbreviato; accesso premium su company.info). Serie storica di … |
+| Olanda | Smit & Dorlas Koffiebranders … | sostituito: Fatturato NON pubblicato nei registri (bilancio abbreviato); nessuna cifra reperibile su fonti pubbliche — … |
 | Olanda | Veldhuis Media B.V. | aggiunto: Partecipazione di minoranza Wadinko NV dal dicembre 2023. |
 | Svezia | Aktiebolaget Ginsten Slakteri | aggiunto: Capogruppo: Aktiebolaget Joh. M. Johansson, Kött- & Charkuteriaffär (gruppo familiare di 4 societa'). |
 | Svezia | Aktiebolaget Halmstads Gummif… | aggiunto: Capogruppo Janmon AB. |
@@ -343,9 +385,9 @@ Molte proposte erano nella forma «Nome Cognome — Ruolo»: applicate alla lett
 | Svezia | Grahns Konfektyr AB | aggiunto: Controllata dal gruppo quotato Humble Group AB - compliance decisa a livello di capogruppo. Esercizio 2024 … |
 | Svezia | Hjältevadshus AB | aggiunto: Perdita d'esercizio 2025 (marginalità -32,6%); koncern Pulsen AB, 56 società. |
 | Svezia | Horreds Möbel Aktiebolag | aggiunto: Capogruppo Horreds Holding AB / Horreds Möbel Utvecklings AB (org.nr 559016-3324), gruppo di 3 società. |
+| Svezia | Johan & Nyström Kafferostare … | aggiunto: EH Group AB fa capo a JAB Holding: è lì il decisore di compliance. |
 | Svezia | Johanson Design Aktiebolag | aggiunto: Capogruppo Johanson Design Invest Aktiebolag (org.nr 556691-6457), gruppo di 5 società; 3 controllate diret… |
 | Svezia | Klippans Bruk AB | aggiunto: Capogruppo Sundh Center AB (holding di proprieta' della famiglia Sundh). |
-| Svezia | Lenanders Grafiska AB | aggiunto: Controllata (100%) di Scandinavian Print Group (DK) dal 1/9/2021; capogruppo di riferimento per la complian… |
 | Svezia | Liljeholmens Stearinfabriks AB | aggiunto: Controllata via Liljeholmens Group AB / ALG Holding AB, capogruppo di vertice Tibia Intressenter AB; contro… |
 | Svezia | NC Nordic Care AB | aggiunto: Capogruppo Materia Group AB (gruppo di arredo); lead da valutare a livello di capogruppo. |
 | Svezia | Nola Industrier AB | aggiunto: Capogruppo Sentensen Aktiebolag (gruppo di 3 società, 88,0 MSEK). |
@@ -364,7 +406,7 @@ Molte proposte erano nella forma «Nome Cognome — Ruolo»: applicate alla lett
 | Svezia | ZilenZio AB | aggiunto: Capogruppo ZilenZio Selling Silence AB / Easier AB. |
 | Svezia | Åsljunga Pallen Aktiebolag | aggiunto: Capogruppo Åsljunga-Pallen Service Aktiebolag (org.nr 556398-3211). |
 
-*72 celle.*
+*105 celle.*
 
 ### 3.7 Sede
 
@@ -396,6 +438,12 @@ Societa' estinta: il CVR 28855990 risulta «opløst efter fusion» e non ha piu'
 
 > Fonte: https://estatistik.dk/virksomhed/skagerak-denmark-as/28855990/roller — «0 direktører; status: OPLØST EFTER FUSION»
 
+**Lenanders Grafiska AB** (Svezia) — categoria «b».
+
+Non produce piu'. A meta' 2021 Scandinavian Print Group ha rilevato clienti e contratti e soltanto sette dipendenti; oltre venti addetti sono stati licenziati e la PRODUZIONE di Kalmar e' stata chiusa. Il marchio Lenanders sopravvive come insegna del gruppo, ma l'org.nr storico 556592-3066 risulta ridenominato e cancellato dai registri fiscali. Stesso criterio gia' applicato in v1 a Bayer Kartonagen (asset deal, produzione trasferita) e a Marandi (produzione cessata).
+
+> Fonte: Riverifica lotto E — «Scandinavian Print Group took over customers, contracts, and a total of seven employees. Over 20 employees at the printing facility were laid off due to the acquisition. The production in Kalmar was discontinued.»
+
 Nessun'altra riga è stata tolta. In particolare **non** è stato rimosso nessun fuori taglia: STOK Emballage (92 M€), Flatz (72 M€), DO IT (~125 M€) e Henry Lamotte (138 M€) restano nei fogli come rilievi aperti, perché la taglia non è fra le categorie che il mandato autorizza a correggere d'ufficio. È una decisione che spetta al cliente.
 
 ---
@@ -404,9 +452,9 @@ Nessun'altra riga è stata tolta. In particolare **non** è stato rimosso nessun
 
 96 rilievi portavano una proposta con riserva esplicita. Sono stati affidati ad agenti con due vincoli: **massimo 2-3 query WebSearch per caso** — chi resta incerto dopo tre resta incerto — e **salvataggio incrementale ogni 3-4 record**. Il secondo vincolo si è rivelato decisivo: un agente è stato interrotto dal limite di quota e i record già lavorati erano salvati.
 
-- **46 riserve sciolte e applicate.**
-- **17 confermate come già corrette**: erano falsi allarmi. Fra queste Blå Station e Candy People (il dominio `.se` è quello giusto), Conceria Lomar, Spaggiari e il LinkedIn di Van den Berg Hardhout. Sono la conferma che valeva la pena non applicarle d'ufficio.
-- **3 restano incerte** e restano tali: Sopraco NV, Nord Legnami Group, Lecont S.r.l.
+- **78 riserve sciolte e applicate.**
+- **18 confermate come già corrette**: erano falsi allarmi. Fra queste Blå Station e Candy People (il dominio `.se` è quello giusto), Conceria Lomar, Spaggiari e il LinkedIn di Van den Berg Hardhout. Sono la conferma che valeva la pena non applicarle d'ufficio.
+- **7 restano incerte** e restano tali: Sopraco NV, Nord Legnami Group, Lecont S.r.l.
 
 Le correzioni più significative emerse dalla riverifica:
 
@@ -426,14 +474,14 @@ Questa sezione è la più importante per il cliente: sono le cose che restano da
 
 ### 6.1 Le tre categorie del PASSO 4
 
-Dei 100 rilievi di gravità `alta` che avevano una correzione proposta ancora aperta, **49 sono stati sciolti in v2** e **51 restano aperti**, così ripartiti:
+Dei 100 rilievi di gravità `alta` che avevano una correzione proposta ancora aperta, **33 sono stati sciolti in v2** e **67 restano aperti**, così ripartiti:
 
 | Categoria | Casi | Trattamento |
 |---|--:|---|
-| Legame di gruppo | 31 | Dove il legame era **non dichiarato o errato** è stato corretto (§3.2): è un errore di dato. Dove era **già dichiarato** nel campo non è un errore, ed è una **decisione di selezione che spetta al cliente**. |
+| Legame di gruppo | 35 | Dove il legame era **non dichiarato o errato** è stato corretto (§3.2): è un errore di dato. Dove era **già dichiarato** nel campo non è un errore, ed è una **decisione di selezione che spetta al cliente**. |
 | Fuori taglia | 12 | **Non rimossi.** Il mandato non autorizza a togliere una riga per la sola dimensione. Il dato corretto è nel foglio, la decisione al cliente. |
 | Operatore vs commerciante | 5 | **Lasciati e segnalati.** Stabilire se un commerciante sia «operatore» ai sensi dell'EUDR è una valutazione **giuridica**, non un dato verificabile a fonte. |
-| Dato datato o incompleto | 3 | Restano rilievi aperti nel report. |
+| Dato datato o incompleto | 15 | Restano rilievi aperti nel report. |
 
 I **dieci record operatore/commerciante** già individuati in v1 restano tutti nei fogli, invariati: Varia-Pack, Hausberger, Pappersgrossisten, Däckteam, Svenska Gummihuset, Cebeco Fourage, Skovs Korn, Rickl-Mühle, SRC, Kargro Banden.
 

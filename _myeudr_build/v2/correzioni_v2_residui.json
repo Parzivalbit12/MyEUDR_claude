@@ -1,0 +1,46 @@
+[
+ {
+  "foglio": "Danimarca",
+  "denominazione": "VERMUND LARSEN A/S (VELA / VERMUND)",
+  "campo": "sito",
+  "da": "https://vermund.eu/",
+  "a": "https://www.vela.dk/ (vermund.eu è il sito del marchio design Vermund)",
+  "motivo": "Disallineamento tra i canali: il sito indicato (vermund.eu) e' quello del solo marchio di design 'Vermund', mentre il sito istituzionale della societa' e del marchio principale e' vela.dk (coerente con l'email mail@vela.dk e con la pagina LinkedIn 'vela-vermund-larsen'). Referente Per Buus (adm. direktor) e indipendenza proprietaria (Ny Vela Holding ApS, famiglia Larsen) risultano invece confermati.",
+  "fonte": "https://www.vela.dk/om-vela ; https://estatistik.dk/virksomhed/vermund-larsen-as/52796628/roller - 'Ny Vela Holding ApS tiltradte som ejer 100% af virksomheden'",
+  "gravita": "bassa",
+  "origine": "danimarca_02.json"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "F.lli Paris S.r.l.",
+  "campo": "sito",
+  "da": "",
+  "a": "https://www.fpparis.com",
+  "motivo": "Campi sito e LinkedIn vuoti: entrambi esistono (dominio fpparis.com, pagina LinkedIn 'FP - F.lli Paris Srl'). Telefono +39 035 4425511.",
+  "fonte": "https://www.sealcore.net/it/azienda/flli-paris - \"Via Guglielmo Marconi 142/144, Castelli Calepio; tel +39 035 442 5511, fax +39 035 442 5478, sito fpparis.com\"; https://it.linkedin.com/company/fpparis - \"FP - F.lli Paris Srl | LinkedIn\"",
+  "gravita": "bassa",
+  "origine": "italia_05.json"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "F.lli Paris S.r.l.",
+  "campo": "linkedin",
+  "da": "",
+  "a": "https://it.linkedin.com/company/fpparis",
+  "motivo": "Campi sito e LinkedIn vuoti: entrambi esistono (dominio fpparis.com, pagina LinkedIn 'FP - F.lli Paris Srl'). Telefono +39 035 4425511.",
+  "fonte": "https://www.sealcore.net/it/azienda/flli-paris - \"Via Guglielmo Marconi 142/144, Castelli Calepio; tel +39 035 442 5511, fax +39 035 442 5478, sito fpparis.com\"; https://it.linkedin.com/company/fpparis - \"FP - F.lli Paris Srl | LinkedIn\"",
+  "gravita": "bassa",
+  "origine": "italia_05.json"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Blå Station Aktiebolag",
+  "campo": "linkedin",
+  "da": "https://se.linkedin.com/company/blastation",
+  "a": "https://www.linkedin.com/company/bla_station_ab/",
+  "motivo": "URL LinkedIn probabilmente errato: la pagina aziendale reperibile è linkedin.com/company/bla_station_ab, non /company/blastation.",
+  "fonte": "https://www.linkedin.com/company/bla_station_ab/ («Blå Station AB | LinkedIn») emerso in ricerca; nessun risultato per /company/blastation",
+  "gravita": "bassa",
+  "origine": "svezia_01.json"
+ }
+]
