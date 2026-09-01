@@ -106,7 +106,8 @@ def main():
     for nome in ("correzioni_v2_generiche","correzioni_v2_referenti","correzioni_v2_manuali",
                  "correzioni_v2_agenti","correzioni_v2_agenti_ref",
                  "correzioni_v2_dimensione", "correzioni_v2_sede",
-                 "correzioni_v2_residui", "correzioni_v2_gruppi"):
+                 "correzioni_v2_residui", "correzioni_v2_gruppi",
+                 "correzioni_v2_passo4"):
         fp = os.path.join(HERE, nome + ".json")
         if os.path.exists(fp): C += json.load(open(fp, encoding="utf-8"))
     # una correzione chiave sul nome VECCHIO non troverebbe piu' un record rinominato:

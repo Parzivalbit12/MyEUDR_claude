@@ -716,7 +716,7 @@ stessa azienda si annullavano a vicenda — succedeva a Grahns Konfektyr e Lilje
 
 ### Esito
 
-**726 aziende** (da 728), 8 fogli nell'ordine giusto, **267 celle cambiate**, **0 campi svuotati**
+**726 aziende** (da 728), 8 fogli nell'ordine giusto, **286 celle cambiate**, **0 campi svuotati**
 e **0 record orfani**, verificati cella per cella contro il backup pre-modifica dopo ogni lotto.
 Controlli deterministici sulla v2: **0 entità HTML, 0 email malformate, 0 URL non validi, 0 fonti
 vuote**.
@@ -728,7 +728,7 @@ vuote**.
 | Referente | 575 (78%) | **596 (82%)** |
 | LinkedIn | 293 (40%) | **305 (42%)** |
 
-Le celle cambiate per campo: dimensione 105, email 34, referente 31, ruolo 29, sito 19, LinkedIn 16,
+Le celle cambiate per campo: dimensione 124, email 34, referente 31, ruolo 29, sito 19, LinkedIn 16,
 sede 15, filiera 8, denominazione 6, fonte 4.
 
 ### Le due righe rimosse — e le molte non rimosse
@@ -772,10 +772,21 @@ vecchio della serie, non il più recente.
 
 ### Cosa resta al cliente
 
-Dei 100 rilievi `alta` che avevano una correzione proposta ancora aperta, **33 hanno prodotto una
-correzione nel foglio** e **67 restano aperti**: 35 sono legami di gruppo **già dichiarati**
-(decisione di selezione, non errore di dato), 12 fuori taglia, 5 operatore/commerciante e 15 un
-dato datato o incompleto che nessuna fonte ha permesso di chiudere. Il dettaglio, con evidenza e fonte, è in `CORREZIONI_V2.md` §6.
+Dei 100 rilievi `alta` che avevano una correzione proposta ancora aperta, **56 hanno prodotto una
+correzione nel foglio** e **44 restano aperti**: 12 sono legami di gruppo **già dichiarati** nel
+campo (decisione di selezione, non errore di dato), 9 fuori taglia, 5 operatore/commerciante e 18
+un dato datato o incompleto che nessuna fonte ha permesso di chiudere.
+
+Il PASSO 4 categoria (a) è stato chiuso: **19 legami di gruppo non dichiarati o con capogruppo
+sbagliata** sono stati corretti nel campo `Dimensione`, perché per la §3 del report sono errori di
+dato e non decisioni di selezione. Fra questi i quattro record che **affermavano un'indipendenza
+che non c'è** — il sottoinsieme più grave: Tärnsjö Garveri («principale conceria indipendente»,
+ha moderbolag Axel Bodéns Handels AB), Skjern Paper («indipendente danese dal 2005», acquisita da
+SONOCO), Papierfabriek Schut («cartiera indipendente dal 1618», nel gruppo Exacompta
+Clairefontaine dal 1998) e Billes Tryckeri («tipografia indipendente», moderbolag Billes Tryckeri
+Holding AB, mentre la società indicata nel campo è un veicolo immobiliare). Lì il foglio non
+taceva un dato: ne affermava uno falso, e per quelli non è bastato aggiungere una clausola — è
+stato corretto il testo. Il dettaglio, con evidenza e fonte, è in `CORREZIONI_V2.md` §6.
 
 Restano inoltre aperti: **202 rilievi sul campo Dimensione** la cui proposta non è riconducibile a
 una clausola accertata, le **email dubbie** (che il mandato vieta sia di inventare sia di

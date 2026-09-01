@@ -8,21 +8,21 @@ Questo documento elenca **tutto** ciò che cambia rispetto alla v1 (`MyEUDR_Lead
 
 ## 1. Il quadro in numeri
 
-- **267 celle cambiate** su 727 aziende.
+- **286 celle cambiate** su 727 aziende.
 - **2 riga rimossa** (§4).
 - **0 campi svuotati** e **0 record orfani**, verificati cella per cella contro il backup pre-modifica (`verifica_integrita.py`).
 - Ordine degli 8 fogli invariato: Italia, Germania, Finlandia, Danimarca, Svezia, Olanda, Belgio, Austria.
 
 | Campo | Celle | | Foglio | Celle |
 |---|--:|---|---|--:|
-| `dimensione` | 105 | | Germania | 48 |
-| `email` | 34 | | Svezia | 46 |
-| `referente` | 31 | | Italia | 45 |
-| `ruolo` | 29 | | Belgio | 38 |
-| `sito` | 19 | | Olanda | 34 |
-| `linkedin` | 16 | | Danimarca | 24 |
-| `sede` | 15 | | Finlandia | 19 |
-| `filiera` | 8 | | Austria | 13 |
+| `dimensione` | 124 | | Svezia | 50 |
+| `email` | 34 | | Germania | 48 |
+| `referente` | 31 | | Italia | 46 |
+| `ruolo` | 29 | | Belgio | 42 |
+| `sito` | 19 | | Olanda | 37 |
+| `linkedin` | 16 | | Danimarca | 28 |
+| `sede` | 15 | | Finlandia | 21 |
+| `filiera` | 8 | | Austria | 14 |
 | `denominazione` | 6 | |  |  |
 | `fonte` | 4 | |  |  |
 
@@ -124,8 +124,27 @@ Per la §3 del report questi **sono errori di dato**, non decisioni di selezione
 | Belgio | Slachthuis Velzeke BV | Legame di gruppo: dal 01-01-2025 controllata dalla holding Cadus, che l'ha rilevata da Vi… | Rilievo belgio_* della Fase B (Cadus / Vion Food Group) |
 | Italia | GranCarni S.p.A. | Legame di gruppo: società soggetta a direzione e coordinamento di Gruppo Balletta S.p.A. | Rilievo italia_* della Fase B (visura / Registro Imprese) |
 | Svezia | Johan & Nyström Kafferostare & … | EH Group AB fa capo a JAB Holding: è lì il decisore di compliance. | Rilievo svezia_* della Fase B (EH Group AB / JAB) |
+| Austria | Heidi Chocolat AG | Legame di gruppo non dichiarato: l'entità austriaca è la succursale (Niederlassung Österr… | Rilievo austria_* della Fase B — Firmenbuch FN 397683d |
+| Belgio | Tannerie Masure SA | Legame di gruppo non dichiarato: dal 2014 la società fa parte del Groupe Saturne (holding… | Rilievo belgio_* della Fase B — Groupe Saturne / Financière Saturne |
+| Belgio | Corné Port-Royal Chocolatier SA | Legame di gruppo non dichiarato: controllata dal gruppo Neuhaus dal 2013, che figura dire… | Rilievo belgio_* della Fase B — amministratori depositati BE 0433.283.558 |
+| Belgio | Manufacture Belge de Chocolats … | Legame di gruppo non dichiarato: non è una PMI indipendente ma lo stabilimento bruxellese… | Rilievo belgio_* della Fase B — cessione Godiva / MBK Partners, giugno 2019 |
+| Belgio | Hannecard Benelux NV | Legame di gruppo non dichiarato: è l'entità Benelux del Gruppo Hannecard, che fa capo a H… | Rilievo belgio_* della Fase B — KBO BE 0892.311.512 |
+| Danimarca | BØJSØ DØRE & VINDUER A/S | Legame di gruppo non dichiarato: dal 2017 la società è controllata da INWIDO DENMARK A/S,… | Rilievo danimarca_* della Fase B — Inwido Denmark A/S / Inwido AB |
+| Danimarca | STOK EMBALLAGE K/S | Il campo nominava solo la capogruppo formale: dal 30.04.2024 STOK Denmark ApS è partecipa… | Rilievo danimarca_* della Fase B — A&M Capital Europe, 30.04.2024 |
+| Finlandia | Jet-Puu Oy | Legame di gruppo non dichiarato: JET-Puu Oy fa parte di JETTA-Korporaatio (gruppo Jetta-T… | Rilievo finlandia_* della Fase B — JETTA-Korporaatio |
+| Finlandia | Siparila Oy | Legame di gruppo non dichiarato: acquisita dal gruppo estone Thermory (Livonia Partners),… | Rilievo finlandia_* della Fase B — Thermory / Livonia Partners |
+| Italia | Amedei S.r.l. | Legame di gruppo non dichiarato: dall'agosto 2017 il 99% del capitale è di Ferrarelle S.p… | Rilievo italia_* della Fase B — Ferrarelle S.p.A., agosto 2017 |
+| Olanda | L. Verhoeven's Emballagefabriek… | Struttura di gruppo non dichiarata: opera in gruppo con la consociata Zagerij Verhoeven (… | Rilievo olanda_* della Fase B — gruppo Verhoeven / Kist&Co / Harskamp Timber |
+| Olanda | Continental Chocolate B.V. | Legame di gruppo non dichiarato: acquisita nel maggio 2009 dal gruppo belga Baronie (Baro… | Rilievo olanda_* della Fase B — gruppo Baronie, maggio 2009 |
+| Svezia | Brännfors Träförädling Aktiebol… | Legame di gruppo non dichiarato: moderbolag Brännfors Holding AB. | Rilievo svezia_* della Fase B — allabolag, moderbolag Brännfors Holding AB |
+| Svezia | Willa Nordic AB | Legame di gruppo non dichiarato: moderbolag WINO Holding AB, koncernmoder Nordh Invest i … | Rilievo svezia_* della Fase B — allabolag, WINO Holding AB / Nordh Invest i Sto… |
+| Danimarca | HVIDBJERG VINDUET A/S | Capogruppo corretta: la società è controllata dal gruppo ACO Nordic, a sua volta parte de… | Rilievo danimarca_* della Fase B — ACO Nordic / ACO Gruppe |
+| Svezia | Tärnsjö Garveri Aktiebolag | Fatturato 51.898 KSEK (~4,6 M€) e 43 dipendenti — bilancio 2024 (fonte bolagsfakta/allabo… | Rilievo svezia_* della Fase B — allabolag, moderbolag Axel Bodéns Handels AB |
+| Danimarca | SKJERN PAPER A/S (già Skjern Pa… | 75 dipendenti; produzione ~70.000 t/anno di carta (dato 2021). Legame di gruppo: acquisit… | Rilievo danimarca_* della Fase B — SONOCO Products Company |
+| Olanda | Papierfabriek Schut B.V. | Fatturato NON pubblicato (BV con bilancio abbreviato). 43-45 dipendenti (fonte drimble.nl… | Rilievo olanda_* della Fase B — Exacompta Clairefontaine S.A., 01/07/1998 |
+| Svezia | Billes Tryckeri AB | Fatturato 248.036 KSEK (~22,0 M€) e 99 dipendenti — fonte allabolag/bolagsfakta, es. 2024… | Rilievo svezia_* della Fase B — allabolag, Billes Tryckeri Holding AB |
 
-*61 record.*
+*80 record.*
 
 ### 3.3 Filiere: commodity mancanti o imprecise
 
@@ -301,15 +320,21 @@ Molte proposte erano nella forma «Nome Cognome — Ruolo»: applicate alla lett
 | Foglio | Azienda | Cosa cambia |
 |---|---|---|
 | Austria | CARINI GmbH | sostituito: Fatturato oltre 18 Mio. € nel 2010 (con 123 dipendenti; fonte Wirtschaftszeit.at); dato di fatturato piu' r… |
+| Austria | Heidi Chocolat AG | aggiunto: Legame di gruppo non dichiarato: l'entità austriaca è la succursale (Niederlassung Österreich) di Heidi Cho… |
 | Austria | Rudolf Frierss & Söhne Fleisc… | aggiunto: Bilanzsumme 13,3 Mio. € al 31.03.2025 (firmenabc.at). |
 | Austria | Salzer Papier GmbH | aggiunto: FN 211554i, LG St.; Pölten. |
+| Belgio | Corné Port-Royal Chocolatier … | aggiunto: Legame di gruppo non dichiarato: controllata dal gruppo Neuhaus dal 2013, che figura direttamente fra gli a… |
 | Belgio | Corpack NV | aggiunto: N. impresa BE 0452.991.978. 44,3 FTE (bilancio NBB depositato 17-07-2026); fatturato non pubblicato, stimat… |
 | Belgio | Decolvenaere BV | sostituito: Fatturato totale 38.585.036 € nell'ultimo bilancio depositato (deposito NBB del 27-01-2025, quindi esercizi… |
 | Belgio | Euro Meat Group NV | aggiunto: N. impresa BE 0832.292.464. Legame di gruppo: unità della holding Cadus (quattro macelli bovini in Belgio, … |
+| Belgio | Hannecard Benelux NV | aggiunto: Legame di gruppo non dichiarato: è l'entità Benelux del Gruppo Hannecard, che fa capo a Hannecard NV (BE 08… |
 | Belgio | Hexpol Compounding SRL | aggiunto: Legame di gruppo: controllata del gruppo quotato svedese HEXPOL AB (Nasdaq Stockholm) — la compliance EUDR … |
+| Belgio | Manufacture Belge de Chocolat… | aggiunto: Legame di gruppo non dichiarato: non è una PMI indipendente ma lo stabilimento bruxellese di Godiva, ceduto… |
 | Belgio | Slachthuis Swaegers NV | aggiunto: Il gruppo familiare ha rilevato anche il macello di Bastogne. |
 | Belgio | Slachthuis Velzeke BV | aggiunto: Legame di gruppo: dal 01-01-2025 controllata dalla holding Cadus, che l'ha rilevata da Vion Food Group — st… |
+| Belgio | Tannerie Masure SA | aggiunto: Legame di gruppo non dichiarato: dal 2014 la società fa parte del Groupe Saturne (holding francese Financiè… |
 | Danimarca | BUCHS A/S | sostituito: Bruttofortjeneste 14.746.681 DKK nel 2024 (~1,98 M€, cambio 7,46), contro 16.092.571 DKK nel 2023; risultat… |
+| Danimarca | BØJSØ DØRE & VINDUER A/S | aggiunto: Legame di gruppo non dichiarato: dal 2017 la società è controllata da INWIDO DENMARK A/S, parte del gruppo … |
 | Danimarca | CAFÉU DENMARK ApS | aggiunto: ndenti non pubblicati. Fatturato non pubblicato (ApS, bilancio in forma ridotta). CVR 33243537, capitale 80… |
 | Danimarca | COLOR LABEL A/S | aggiunto: ' registrato nel 1991). Etichette autoadesive per food, chimica e retail; parco macchine flexo Nilpeter (10… |
 | Danimarca | Copenhagen Coffee Lab ApS | aggiunto: Capogruppo Copenhagen Coffee Lab Holding ApS (gruppo di 6 societa'); 70% Steen Skallebæk e Ole Kristofferse… |
@@ -319,21 +344,26 @@ Molte proposte erano nella forma «Nome Cognome — Ruolo»: applicate alla lett
 | Danimarca | Grambogård | aggiunto: Controllata di FoodService Danmark A/S (gruppo Dagrofa). |
 | Danimarca | H. EMBALLAGE ApS | sostituito: Bruttofortjeneste 8.149.124 DKK nel 2024 (~1,09 M€, cambio 7,46), contro 7.847.995 DKK nel 2023; risultato … |
 | Danimarca | H.C. JACOBSEN A/S | aggiunto: Capogruppo BEA HOLDING ApS; presidente CdA Pernille Andersen; distributore di imballaggi ed elastici, FUORI… |
+| Danimarca | HVIDBJERG VINDUET A/S | aggiunto: Capogruppo corretta: la società è controllata dal gruppo ACO Nordic, a sua volta parte del gruppo tedesco A… |
 | Danimarca | KLS PUREPRINT A/S | aggiunto: Controllata (oggi integralmente) di F.; E.; BORDING A/S dopo il riacquisto della quota di Knud Erik Larsen … |
 | Danimarca | KVIST INDUSTRIES A/S | aggiunto: Controllata da KVIST HOLDING A/S, partecipata dal fondo Dansk Ejerkapital; fatturato non pubblicato (bilanc… |
 | Danimarca | La Cabra Risteri ApS (gruppo … | aggiunto: Risultato es. 2025 -2,7 mio.; DKK (virmo.dk, CVR 43681176). |
 | Danimarca | NIELAUS A/S | sostituito: 19 dipendenti (krak.dk/proff.dk, CVR 35480943; il valore '11' riportato altrove si riferisce alla produktio… |
 | Danimarca | NUTRIMIN A/S | aggiunto: Controllata di Nutreco N.V. (gruppo SHV, Paesi Bassi) - Trouw Nutrition, dal 01/12/2021. |
 | Danimarca | RG ROM GUMMI A/S | aggiunto: Controllata tramite RGDE ApS, societa in portafoglio del fondo Dansk Ejerkapital. |
+| Danimarca | SKJERN PAPER A/S (già Skjern … | aggiunto: to su fonte verificabile: con questi volumi è AZIENDA DI CONFINE, plausibilmente sopra i 40 M€ - verificare… |
 | Danimarca | STIBO COMPLETE A/S (già Rosen… | sostituito: Nettoomsaetning 748 mio DKK nell'esercizio 2025 (~100,3 M€, cambio 7,46), con perdita di 33,5 mio DKK dovut… |
+| Danimarca | STOK EMBALLAGE K/S | aggiunto: Il campo nominava solo la capogruppo formale: dal 30.04.2024 STOK Denmark ApS è partecipata in maggioranza … |
 | Danimarca | TIMBERMAN DENMARK A/S | aggiunto: Controllata del gruppo svedese quotato Volati AB dal dicembre 2024 (in precedenza Corticeira Amorim); Mogen… |
 | Danimarca | TJØRNEHØJ MØLLE A/S | aggiunto: Controllata del gruppo DLG (grande operatore, fuori target lead). |
 | Finlandia | CWP Coloured Wood Products Oy | aggiunto: Controllata di Auroora Yhtiöt Oyj (Tampere) — riqualificare il lead sulla capogruppo o scartare. |
+| Finlandia | Jet-Puu Oy | aggiunto: Legame di gruppo non dichiarato: JET-Puu Oy fa parte di JETTA-Korporaatio (gruppo Jetta-Talo, case prefabbr… |
 | Finlandia | Jospak Oy | sostituito: Liikevaihto 1,9 M€ (2024, +83,3%), 29 dip.; perdita operativa -4,5 M€ (2024, margine -225,5%) e tilikauden … |
 | Finlandia | Newprint Oy | sostituito: Liikevaihto ~6,0 M€ (ultimo esercizio pubblicato, 2024), 25 dip. (-3,9% sull'anno precedente); liiketoiminn… |
 | Finlandia | Nordic Label Oy Ab | aggiunto: /note: controllata dal gruppo belga Asteria Group (ex Tilgmann Group); compliance decisa a livello di capog… |
 | Finlandia | Oy Orapac Ab | sostituito: 24 dip. (2025), 51 dip. (2024); liiketulos 1,4 M€ (2025) e 1,3-1,5 M€ (2024); liikevaihto NON pubblicato ne… |
 | Finlandia | Sahakuutio Oy | sostituito: Liikevaihto 22,6 M€ (2025), 34 dip.; 17,0 M€ (2024), 35 dip. (Asiakastieto/Proff, Y-tunnus 0167908-6) — in … |
+| Finlandia | Siparila Oy | aggiunto: Legame di gruppo non dichiarato: acquisita dal gruppo estone Thermory (Livonia Partners), che ne detiene il… |
 | Finlandia | Ålands Skogsindustrier Ab | sostituito: Omsättning koncernen 21,8 M€ (2025, +~10%; moderbolaget 17,3 M€), rörelseresultat 0,76 M€; ~49 anställda — … |
 | Germania | Confiserie Burg Lauenstein Gm… | sostituito: Fatturato ~14,0 Mio € e ~150 dipendenti fra full-time e part-time (Die Deutsche Wirtschaft, stima di portal… |
 | Germania | Confiserie Felicitas GmbH | sostituito: Dipendenti: 75 (dato datato dicembre 2024, Bürgschaftsbank Brandenburg / bauernzeitung), in prevalenza donn… |
@@ -362,12 +392,16 @@ Molte proposte erano nella forma «Nome Cognome — Ruolo»: applicate alla lett
 | Germania | Schorn & Groh GmbH | sostituito: ~85 dipendenti (sito aziendale sg-veneers.com, 2025), 2ª generazione, fondata 1961; 8 mln m² di tranciati a… |
 | Germania | W. Machwitz GmbH (Machwitz Ka… | sostituito: Torrefazione regionale, gegr. 1883 a Danzica, sede Hannover dal 1919, 2ª/3ª gen. (Jörg-Walter e Maximilian … |
 | Germania | Weibler Confiserie Chocolater… | aggiunto: Controllata di United Chocolate GmbH (Beherrschungs-/Gewinnabführungsvertrag) — non di Halloren. |
+| Italia | Amedei S.r.l. | aggiunto: Legame di gruppo non dichiarato: dall'agosto 2017 il 99% del capitale è di Ferrarelle S.p.A. Società Benefi… |
 | Italia | Fratelli Berti Legnami S.r.l. | sostituito: Fatturato 5.937.871 € (2024), in calo dai 6.546.179 € del 2023 e dai 7.872.713 € del 2021; perdita d'eserci… |
 | Italia | GranCarni S.p.A. | aggiunto: Legame di gruppo: società soggetta a direzione e coordinamento di Gruppo Balletta S.p.A. |
 | Italia | PBA S.r.l. (PBA Italia Nutriz… | sostituito: Fatturato 44.097.825 € (ultimo bilancio disponibile, esercizio 2024 pubblicato 2025); utile 332.730 €; 53 d… |
 | Italia | Zalf S.p.A. (Zalf Industria M… | aggiunto: /note: 'societa' del Gruppo Euromobil (marchi Euromobil, Zalf, Desiree) - decisione EUDR a livello di capog… |
 | Olanda | Bocca Coffee B.V. | aggiunto: Acquisizione di Single Estate Coffee Roasters da Cavesco; fatturato e organico da riaggiornare post-operazi… |
 | Olanda | Chocolatemakers B.V. | aggiunto: Legame di gruppo: dal 2025 confluita in The Chocolate Impact Group (fusione con Hands Off; marchi Chocolate… |
+| Olanda | Continental Chocolate B.V. | aggiunto: Legame di gruppo non dichiarato: acquisita nel maggio 2009 dal gruppo belga Baronie (Baronie-de Heer B.V., … |
+| Olanda | L. Verhoeven's Emballagefabri… | aggiunto: Struttura di gruppo non dichiarata: opera in gruppo con la consociata Zagerij Verhoeven (Harskamp), Kist&Co… |
+| Olanda | Papierfabriek Schut B.V. | aggiunto: fascia bassa del target (specialty paper, alto valore unitario). |
 | Olanda | Simon Levelt B.V. | sostituito: Fatturato della BV NON pubblicato (bilancio abbreviato; accesso premium su company.info). Serie storica di … |
 | Olanda | Smit & Dorlas Koffiebranders … | sostituito: Fatturato NON pubblicato nei registri (bilancio abbreviato); nessuna cifra reperibile su fonti pubbliche — … |
 | Olanda | Veldhuis Media B.V. | aggiunto: Partecipazione di minoranza Wadinko NV dal dicembre 2023. |
@@ -375,8 +409,10 @@ Molte proposte erano nella forma «Nome Cognome — Ruolo»: applicate alla lett
 | Svezia | Aktiebolaget Halmstads Gummif… | aggiunto: Capogruppo Janmon AB. |
 | Svezia | Aktiebolaget Karlaträ | aggiunto: Koncern di 2 società, moderbolag Karlaträ Försäljning AB (holding di vendita del medesimo gruppo familiare). |
 | Svezia | Balungstrands Sågverk AB | aggiunto: Controllata di Green Wood Sverige AB; koncernmoderbolag Profuragruppen AB (dal 2025, dopo il fallimento di … |
+| Svezia | Billes Tryckeri AB | aggiunto: una società immobiliare, non la capogruppo. E-mail diretta VD pubblicata nelle fonti: niklas.bille@billes.s… |
 | Svezia | Bording AB | aggiunto: Controllata di F E Bording A/S (DK) — lead da valutare a livello di capogruppo danese. |
 | Svezia | Brattby Sågverks AB | aggiunto: Koncern con moderbolag Brattby Trading Aktiebolag. |
+| Svezia | Brännfors Träförädling Aktieb… | aggiunto: Legame di gruppo non dichiarato: moderbolag Brännfors Holding AB. |
 | Svezia | Bäckebrons Sågverk Aktiebolag | aggiunto: Controllata di Green Wood Sverige AB; koncernmoderbolag Profuragruppen AB (dopo il fallimento di Ziegler Gr… |
 | Svezia | Delicato Bakverk Aktiebolag | aggiunto: Moderbolag diretto Belveens Bageri AB; capogruppo di vertice Eldkvarn AB (gruppo di 8 societa)'. |
 | Svezia | Drömtrappor AB | aggiunto: Moderbolag Förvaltnings AB Klätterbjörken; fatturato in calo da 126,4 MSEK (2024) a 83,2 MSEK (2025). |
@@ -402,11 +438,13 @@ Molte proposte erano nella forma «Nome Cognome — Ruolo»: applicate alla lett
 | Svezia | Stolab Möbel AB | aggiunto: Capogruppo Martinvest i Smålandsstenar AB / Moid AB (holding familiare, 4 società). |
 | Svezia | Sunnerbo Fönster AB | aggiunto: Controllata da Sunnerbo Windows & Doors AB (org.nr 556986-4902); esercizio 2024 in perdita -1,3 MSEK. |
 | Svezia | Swedese Möbler Aktiebolag | aggiunto: Capogruppo Patino Group AB (holding della proprietà). |
+| Svezia | Tärnsjö Garveri Aktiebolag | aggiunto: gruppo: moderbolag Axel Bodéns Handels Aktiebolag — l'indipendenza dichiarata in precedenza non è confermat… |
 | Svezia | VårgårdaHus AB | aggiunto: Controllata del gruppo danese HusCompagniet A/S tramite Svenska HusCompagniet AB — lead da valutare a livel… |
+| Svezia | Willa Nordic AB | aggiunto: Legame di gruppo non dichiarato: moderbolag WINO Holding AB, koncernmoder Nordh Invest i Stockaryd AB. Nota… |
 | Svezia | ZilenZio AB | aggiunto: Capogruppo ZilenZio Selling Silence AB / Easier AB. |
 | Svezia | Åsljunga Pallen Aktiebolag | aggiunto: Capogruppo Åsljunga-Pallen Service Aktiebolag (org.nr 556398-3211). |
 
-*105 celle.*
+*124 celle.*
 
 ### 3.7 Sede
 
@@ -474,11 +512,11 @@ Questa sezione è la più importante per il cliente: sono le cose che restano da
 
 ### 6.1 Le tre categorie del PASSO 4
 
-Dei 100 rilievi di gravità `alta` che avevano una correzione proposta ancora aperta, **33 sono stati sciolti in v2** e **67 restano aperti**, così ripartiti:
+Dei 100 rilievi di gravità `alta` che avevano una correzione proposta ancora aperta, **56 sono stati sciolti in v2** e **44 restano aperti**, così ripartiti:
 
 | Categoria | Casi | Trattamento |
 |---|--:|---|
-| Legame di gruppo | 35 | Dove il legame era **non dichiarato o errato** è stato corretto (§3.2): è un errore di dato. Dove era **già dichiarato** nel campo non è un errore, ed è una **decisione di selezione che spetta al cliente**. |
+| Legame di gruppo | 12 | Dove il legame era **non dichiarato o errato** è stato corretto (§3.2): è un errore di dato. Dove era **già dichiarato** nel campo non è un errore, ed è una **decisione di selezione che spetta al cliente**. |
 | Fuori taglia | 12 | **Non rimossi.** Il mandato non autorizza a togliere una riga per la sola dimensione. Il dato corretto è nel foglio, la decisione al cliente. |
 | Operatore vs commerciante | 5 | **Lasciati e segnalati.** Stabilire se un commerciante sia «operatore» ai sensi dell'EUDR è una valutazione **giuridica**, non un dato verificabile a fonte. |
 | Dato datato o incompleto | 15 | Restano rilievi aperti nel report. |

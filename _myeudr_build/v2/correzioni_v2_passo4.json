@@ -1,0 +1,211 @@
+[
+ {
+  "foglio": "Austria",
+  "denominazione": "Heidi Chocolat AG",
+  "campo": "dimensione",
+  "ancora": "FN 397683d",
+  "a": "__APPEND__ Legame di gruppo non dichiarato: l'entità austriaca è la succursale (Niederlassung Österreich) di Heidi Chocolat SA, con sede a Zug (Svizzera) — la compliance EUDR si decide a livello di gruppo.",
+  "motivo": "Legame di gruppo non dichiarato o capogruppo errata: per la §3 del report è un errore di dato, non una decisione di selezione.",
+  "fonte": "Rilievo austria_* della Fase B — Firmenbuch FN 397683d",
+  "gravita": "alta",
+  "origine": "passo4_gruppi"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Tannerie Masure SA",
+  "campo": "dimensione",
+  "ancora": "BE 0401.249.606",
+  "a": "__APPEND__ Legame di gruppo non dichiarato: dal 2014 la società fa parte del Groupe Saturne (holding francese Financière Saturne) insieme alla Tannerie Fortier-Beaulieu di Roanne.",
+  "motivo": "Legame di gruppo non dichiarato o capogruppo errata: per la §3 del report è un errore di dato, non una decisione di selezione.",
+  "fonte": "Rilievo belgio_* della Fase B — Groupe Saturne / Financière Saturne",
+  "gravita": "alta",
+  "origine": "passo4_gruppi"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Corné Port-Royal Chocolatier SA",
+  "campo": "dimensione",
+  "ancora": "BE 0433.283.558",
+  "a": "__APPEND__ Legame di gruppo non dichiarato: controllata dal gruppo Neuhaus dal 2013, che figura direttamente fra gli amministratori (denominazione registrale abbreviata «CPR CHOCOLATIER»).",
+  "motivo": "Legame di gruppo non dichiarato o capogruppo errata: per la §3 del report è un errore di dato, non una decisione di selezione.",
+  "fonte": "Rilievo belgio_* della Fase B — amministratori depositati BE 0433.283.558",
+  "gravita": "alta",
+  "origine": "passo4_gruppi"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Manufacture Belge de Chocolats SRL",
+  "campo": "dimensione",
+  "ancora": "BE 0722.764",
+  "a": "__APPEND__ Legame di gruppo non dichiarato: non è una PMI indipendente ma lo stabilimento bruxellese di Godiva, ceduto nel giugno 2019 al fondo MBK Partners insieme alle attività Godiva di Giappone, Corea del Sud e Oceania.",
+  "motivo": "Legame di gruppo non dichiarato o capogruppo errata: per la §3 del report è un errore di dato, non una decisione di selezione.",
+  "fonte": "Rilievo belgio_* della Fase B — cessione Godiva / MBK Partners, giugno 2019",
+  "gravita": "alta",
+  "origine": "passo4_gruppi"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Hannecard Benelux NV",
+  "campo": "dimensione",
+  "ancora": "BE 0694.906.812",
+  "a": "__APPEND__ Legame di gruppo non dichiarato: è l'entità Benelux del Gruppo Hannecard, che fa capo a Hannecard NV (BE 0892.311.512, stessa sede di Ronse); dal febbraio 2022 nel capitale è entrata BNP Paribas Fortis Private Equity.",
+  "motivo": "Legame di gruppo non dichiarato o capogruppo errata: per la §3 del report è un errore di dato, non una decisione di selezione.",
+  "fonte": "Rilievo belgio_* della Fase B — KBO BE 0892.311.512",
+  "gravita": "alta",
+  "origine": "passo4_gruppi"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "BØJSØ DØRE & VINDUER A/S",
+  "campo": "dimensione",
+  "ancora": "41 dipendenti",
+  "a": "__APPEND__ Legame di gruppo non dichiarato: dal 2017 la società è controllata da INWIDO DENMARK A/S, parte del gruppo quotato svedese Inwido AB — la compliance EUDR si decide a livello di capogruppo.",
+  "motivo": "Legame di gruppo non dichiarato o capogruppo errata: per la §3 del report è un errore di dato, non una decisione di selezione.",
+  "fonte": "Rilievo danimarca_* della Fase B — Inwido Denmark A/S / Inwido AB",
+  "gravita": "alta",
+  "origine": "passo4_gruppi"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "STOK EMBALLAGE K/S",
+  "campo": "dimensione",
+  "ancora": "CVR 16427284",
+  "a": "__APPEND__ Il campo nominava solo la capogruppo formale: dal 30.04.2024 STOK Denmark ApS è partecipata in maggioranza dal fondo di private equity statunitense A&M Capital Europe.",
+  "motivo": "Legame di gruppo non dichiarato o capogruppo errata: per la §3 del report è un errore di dato, non una decisione di selezione.",
+  "fonte": "Rilievo danimarca_* della Fase B — A&M Capital Europe, 30.04.2024",
+  "gravita": "alta",
+  "origine": "passo4_gruppi"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Jet-Puu Oy",
+  "campo": "dimensione",
+  "ancora": "8,4 M€",
+  "a": "__APPEND__ Legame di gruppo non dichiarato: JET-Puu Oy fa parte di JETTA-Korporaatio (gruppo Jetta-Talo, case prefabbricate).",
+  "motivo": "Legame di gruppo non dichiarato o capogruppo errata: per la §3 del report è un errore di dato, non una decisione di selezione.",
+  "fonte": "Rilievo finlandia_* della Fase B — JETTA-Korporaatio",
+  "gravita": "alta",
+  "origine": "passo4_gruppi"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Siparila Oy",
+  "campo": "dimensione",
+  "ancora": "31,4 M€",
+  "a": "__APPEND__ Legame di gruppo non dichiarato: acquisita dal gruppo estone Thermory (Livonia Partners), che ne detiene il 63% — il sito aziendale ha una pagina «Thermory Group».",
+  "motivo": "Legame di gruppo non dichiarato o capogruppo errata: per la §3 del report è un errore di dato, non una decisione di selezione.",
+  "fonte": "Rilievo finlandia_* della Fase B — Thermory / Livonia Partners",
+  "gravita": "alta",
+  "origine": "passo4_gruppi"
+ },
+ {
+  "foglio": "Italia",
+  "denominazione": "Amedei S.r.l.",
+  "campo": "dimensione",
+  "ancora": "~5,5 mln",
+  "a": "__APPEND__ Legame di gruppo non dichiarato: dall'agosto 2017 il 99% del capitale è di Ferrarelle S.p.A. Società Benefit.",
+  "motivo": "Legame di gruppo non dichiarato o capogruppo errata: per la §3 del report è un errore di dato, non una decisione di selezione.",
+  "fonte": "Rilievo italia_* della Fase B — Ferrarelle S.p.A., agosto 2017",
+  "gravita": "alta",
+  "origine": "passo4_gruppi"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "L. Verhoeven's Emballagefabriek en Houthandel B.V.",
+  "campo": "dimensione",
+  "ancora": "Fatturato NON pubblicato",
+  "a": "__APPEND__ Struttura di gruppo non dichiarata: opera in gruppo con la consociata Zagerij Verhoeven (Harskamp), Kist&Co (Ridderkerk) e Harskamp Timber (Harskamp).",
+  "motivo": "Legame di gruppo non dichiarato o capogruppo errata: per la §3 del report è un errore di dato, non una decisione di selezione.",
+  "fonte": "Rilievo olanda_* della Fase B — gruppo Verhoeven / Kist&Co / Harskamp Timber",
+  "gravita": "alta",
+  "origine": "passo4_gruppi"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Continental Chocolate B.V.",
+  "campo": "dimensione",
+  "ancora": "KVK 34146292",
+  "a": "__APPEND__ Legame di gruppo non dichiarato: acquisita nel maggio 2009 dal gruppo belga Baronie (Baronie-de Heer B.V., stessa sede di Galvanistraat, Rotterdam).",
+  "motivo": "Legame di gruppo non dichiarato o capogruppo errata: per la §3 del report è un errore di dato, non una decisione di selezione.",
+  "fonte": "Rilievo olanda_* della Fase B — gruppo Baronie, maggio 2009",
+  "gravita": "alta",
+  "origine": "passo4_gruppi"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Brännfors Träförädling Aktiebolag",
+  "campo": "dimensione",
+  "ancora": "556103-8695",
+  "a": "__APPEND__ Legame di gruppo non dichiarato: moderbolag Brännfors Holding AB.",
+  "motivo": "Legame di gruppo non dichiarato o capogruppo errata: per la §3 del report è un errore di dato, non una decisione di selezione.",
+  "fonte": "Rilievo svezia_* della Fase B — allabolag, moderbolag Brännfors Holding AB",
+  "gravita": "alta",
+  "origine": "passo4_gruppi"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Willa Nordic AB",
+  "campo": "dimensione",
+  "ancora": "556361-9161",
+  "a": "__APPEND__ Legame di gruppo non dichiarato: moderbolag WINO Holding AB, koncernmoder Nordh Invest i Stockaryd AB. Nota di trend: l'esercizio 2024 segna -31% sul 2023 e chiude in perdita (-742 KSEK).",
+  "motivo": "Legame di gruppo non dichiarato o capogruppo errata: per la §3 del report è un errore di dato, non una decisione di selezione.",
+  "fonte": "Rilievo svezia_* della Fase B — allabolag, WINO Holding AB / Nordh Invest i Stockaryd AB",
+  "gravita": "alta",
+  "origine": "passo4_gruppi"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "HVIDBJERG VINDUET A/S",
+  "campo": "dimensione",
+  "ancora": "155 dipendenti",
+  "a": "__APPEND__ Capogruppo corretta: la società è controllata dal gruppo ACO Nordic, a sua volta parte del gruppo tedesco ACO (famiglia Ahlmann), dal rilevamento del gruppo Plastmo nel 1995 — NON da «Hvidbjerg i A/S» come indicato in precedenza.",
+  "motivo": "Legame di gruppo non dichiarato o capogruppo errata: per la §3 del report è un errore di dato, non una decisione di selezione.",
+  "fonte": "Rilievo danimarca_* della Fase B — ACO Nordic / ACO Gruppe",
+  "gravita": "alta",
+  "origine": "passo4_gruppi"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Tärnsjö Garveri Aktiebolag",
+  "campo": "dimensione",
+  "da": "Fatturato 51.898 KSEK (~4,6 M€) e 43 dipendenti — bilancio 2024 (fonte bolagsfakta/allabolag); org.nr 556474-7797. Sotto la soglia minima ideale: in Svezia le concerie sono pochissime e questa è la principale conceria indipendente attiva.",
+  "a": "Fatturato 51.898 KSEK (~4,6 M€) e 43 dipendenti — bilancio 2024 (fonte bolagsfakta/allabolag); org.nr 556474-7797. Sotto la soglia minima ideale: in Svezia le concerie sono pochissime e questa è una delle poche concerie attive. Legame di gruppo: moderbolag Axel Bodéns Handels Aktiebolag — l'indipendenza dichiarata in precedenza non è confermata.",
+  "motivo": "Il record affermava un'indipendenza che non c'è: è il sottoinsieme più grave dei legami di gruppo (§3 del report).",
+  "fonte": "Rilievo svezia_* della Fase B — allabolag, moderbolag Axel Bodéns Handels AB",
+  "gravita": "alta",
+  "origine": "passo4_indipendenza_falsa"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "SKJERN PAPER A/S (già Skjern Papirfabrik A/S)",
+  "campo": "dimensione",
+  "da": "75 dipendenti; produzione ~70.000 t/anno di carta (dato 2021). Proprietà Buur Invest A/S + dirigenti operativi (indipendente danese dal 2005). Fatturato non reperito su fonte verificabile: con questi volumi è AZIENDA DI CONFINE, plausibilmente sopra i 40 M€ - verificare regnskab prima del contatto.",
+  "a": "75 dipendenti; produzione ~70.000 t/anno di carta (dato 2021). Legame di gruppo: acquisita dal gruppo statunitense quotato SONOCO Products Company (NYSE: SON); in precedenza Buur Invest A/S e dirigenti operativi. L'indipendenza danese dichiarata in precedenza non è più attuale. Fatturato non reperito su fonte verificabile: con questi volumi è AZIENDA DI CONFINE, plausibilmente sopra i 40 M€ - verificare regnskab prima del contatto.",
+  "motivo": "Il record affermava un'indipendenza che non c'è («indipendente danese dal 2005»).",
+  "fonte": "Rilievo danimarca_* della Fase B — SONOCO Products Company",
+  "gravita": "alta",
+  "origine": "passo4_indipendenza_falsa"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Papierfabriek Schut B.V.",
+  "campo": "dimensione",
+  "da": "Fatturato NON pubblicato (BV con bilancio abbreviato). 43-45 dipendenti (fonte drimble.nl / stagemarkt.nl, 2024-2025). KVK 09001229. Cartiera indipendente attiva dal 1618, specialità: carta per belle arti, acquerello, carta filigranata e carta circolare da residui del cliente. Membro Koninklijke VNP. Stima fatturato in fascia bassa del target (specialty paper, alto valore unitario).",
+  "a": "Fatturato NON pubblicato (BV con bilancio abbreviato). 43-45 dipendenti (fonte drimble.nl / stagemarkt.nl, 2024-2025). KVK 09001229. Cartiera attiva dal 1618, dal 1° luglio 1998 nel gruppo francese quotato Exacompta Clairefontaine S.A., specialità: carta per belle arti, acquerello, carta filigranata e carta circolare da residui del cliente. Membro Koninklijke VNP. Stima fatturato in fascia bassa del target (specialty paper, alto valore unitario).",
+  "motivo": "Il record affermava un'indipendenza che non c'è («cartiera indipendente dal 1618»).",
+  "fonte": "Rilievo olanda_* della Fase B — Exacompta Clairefontaine S.A., 01/07/1998",
+  "gravita": "alta",
+  "origine": "passo4_indipendenza_falsa"
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Billes Tryckeri AB",
+  "campo": "dimensione",
+  "da": "Fatturato 248.036 KSEK (~22,0 M€) e 99 dipendenti — fonte allabolag/bolagsfakta, es. 2024. Org.nr 559063-9349. AZIENDA DI CONFINE: appena sopra il target 10-20 M€, ben dentro la fascia tollerabile. Tipografia indipendente a controllo familiare (collegata a Billes Tryckeri Förvaltning AB, org.nr 556259-9034). E-mail diretta VD pubblicata nelle fonti: niklas.bille@billes.se.",
+  "a": "Fatturato 248.036 KSEK (~22,0 M€) e 99 dipendenti — fonte allabolag/bolagsfakta, es. 2024. Org.nr 559063-9349. AZIENDA DI CONFINE: appena sopra il target 10-20 M€, ben dentro la fascia tollerabile. Legame di gruppo: moderbolag Billes Tryckeri Holding AB (gruppo di 4 società, 122 dipendenti, 264,0 MSEK aggregati); Billes Tryckeri Förvaltning AB (org.nr 556259-9034) è invece una società immobiliare, non la capogruppo. E-mail diretta VD pubblicata nelle fonti: niklas.bille@billes.se.",
+  "motivo": "Il record affermava un'indipendenza che non c'è e indicava la capogruppo sbagliata.",
+  "fonte": "Rilievo svezia_* della Fase B — allabolag, Billes Tryckeri Holding AB",
+  "gravita": "alta",
+  "origine": "passo4_indipendenza_falsa"
+ }
+]

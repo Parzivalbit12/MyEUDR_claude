@@ -162,6 +162,13 @@
  },
  {
   "foglio": "Italia",
+  "denominazione": "Amedei S.r.l.",
+  "campo": "dimensione",
+  "da": "~5,5 mln € (2024); ~28 dip.; bean-to-bar (importa cacao)",
+  "a": "~5,5 mln € (2024); ~28 dip.; bean-to-bar (importa cacao) Legame di gruppo non dichiarato: dall'agosto 2017 il 99% del capitale è di Ferrarelle S.p.A. Società Benefit."
+ },
+ {
+  "foglio": "Italia",
   "denominazione": "Domori S.p.A.",
   "campo": "referente",
   "da": "",
@@ -673,6 +680,13 @@
  },
  {
   "foglio": "Finlandia",
+  "denominazione": "Jet-Puu Oy",
+  "campo": "dimensione",
+  "da": "≈8,4 M€ (2024, Asiakastieto)",
+  "a": "≈8,4 M€ (2024, Asiakastieto) Legame di gruppo non dichiarato: JET-Puu Oy fa parte di JETTA-Korporaatio (gruppo Jetta-Talo, case prefabbricate)."
+ },
+ {
+  "foglio": "Finlandia",
   "denominazione": "Kiilax Oy",
   "campo": "filiera",
   "da": "Legno/Arredo — compensato betulla/lamellare",
@@ -698,6 +712,13 @@
   "campo": "dimensione",
   "da": "≈22,6 M€ (2025; 17 M€ 2024) / ~17 dip. (Asiakastieto)",
   "a": "Liikevaihto 22,6 M€ (2025), 34 dip.; 17,0 M€ (2024), 35 dip. (Asiakastieto/Proff, Y-tunnus 0167908-6) — in forbice"
+ },
+ {
+  "foglio": "Finlandia",
+  "denominazione": "Siparila Oy",
+  "campo": "dimensione",
+  "da": "≈31,4 M€ / ~119 dip. (2024, Asiakastieto)",
+  "a": "≈31,4 M€ / ~119 dip. (2024, Asiakastieto) Legame di gruppo non dichiarato: acquisita dal gruppo estone Thermory (Livonia Partners), che ne detiene il 63% — il sito aziendale ha una pagina «Thermory Group»."
  },
  {
   "foglio": "Finlandia",
@@ -799,6 +820,20 @@
  },
  {
   "foglio": "Danimarca",
+  "denominazione": "BØJSØ DØRE & VINDUER A/S",
+  "campo": "dimensione",
+  "da": "41 dipendenti (unità produttiva); le fonti aziendali parlano di ~40 addetti sotto la guida di Lasse Sørensen, figlio del fondatore Bøje Sørensen. Fatturato non pubblicato separatamente nelle fonti consultate. Con ~40 addetti in produzione i ricavi si collocano verosimilmente nella fascia bassa del target (stima non verificata). CVR 12224494, attività dal 01.01.1988 (fondata nel 1972 da Bøje Sørensen), sede Højagervej 5-7, 6623 Vorbasse; showroom su appuntamento a Tranegårdsvej 27, 2900 Hellerup. Centralino +45 75 33 33 44. Specializzata in finestre e porte per edifici storici e vincolati. LEGAME DI GRUPPO IMPORTANTE: dal 2017 controllata da INWIDO DENMARK A/S, parte del gruppo quotato svedese Inwido — la due diligence EUDR potrebbe essere centralizzata a livello di gruppo, il che riduce la probabilità di acquisto autonomo del software. Lead da qualificare con cautela.",
+  "a": "41 dipendenti (unità produttiva); le fonti aziendali parlano di ~40 addetti sotto la guida di Lasse Sørensen, figlio del fondatore Bøje Sørensen. Fatturato non pubblicato separatamente nelle fonti consultate. Con ~40 addetti in produzione i ricavi si collocano verosimilmente nella fascia bassa del target (stima non verificata). CVR 12224494, attività dal 01.01.1988 (fondata nel 1972 da Bøje Sørensen), sede Højagervej 5-7, 6623 Vorbasse; showroom su appuntamento a Tranegårdsvej 27, 2900 Hellerup. Centralino +45 75 33 33 44. Specializzata in finestre e porte per edifici storici e vincolati. LEGAME DI GRUPPO IMPORTANTE: dal 2017 controllata da INWIDO DENMARK A/S, parte del gruppo quotato svedese Inwido — la due diligence EUDR potrebbe essere centralizzata a livello di gruppo, il che riduce la probabilità di acquisto autonomo del software. Lead da qualificare con cautela. Legame di gruppo non dichiarato: dal 2017 la società è controllata da INWIDO DENMARK A/S, parte del gruppo quotato svedese Inwido AB — la compliance EUDR si decide a livello di capogruppo."
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "HVIDBJERG VINDUET A/S",
+  "campo": "dimensione",
+  "da": "Circa 155 dipendenti complessivi (66 nell'unità di Thyholm + 106 nell'unità di Thisted secondo i registri; il totale aziendale dichiarato è ~155). Fatturato non pubblicato nelle banche dati consultate (campo vuoto su proff). AZIENDA DI CONFINE: con questo organico i ricavi potrebbero superare la fascia target — da verificare a bilancio prima del contatto. CVR 17010344, costituita 01.01.1993, capitale sociale 5.000.000 DKK. Centralino +45 96 91 22 22. Sito ufficiale hvidbjergvinduet.dk CONFERMATO in questa sessione. LEGAME DI GRUPPO: controllata da Hvidbjerg i A/S. Produce finestre e porte in legno/alluminio a Nors (Thy): soggetta a EUDR per il legname immesso sul mercato UE.",
+  "a": "Circa 155 dipendenti complessivi (66 nell'unità di Thyholm + 106 nell'unità di Thisted secondo i registri; il totale aziendale dichiarato è ~155). Fatturato non pubblicato nelle banche dati consultate (campo vuoto su proff). AZIENDA DI CONFINE: con questo organico i ricavi potrebbero superare la fascia target — da verificare a bilancio prima del contatto. CVR 17010344, costituita 01.01.1993, capitale sociale 5.000.000 DKK. Centralino +45 96 91 22 22. Sito ufficiale hvidbjergvinduet.dk CONFERMATO in questa sessione. LEGAME DI GRUPPO: controllata da Hvidbjerg i A/S. Produce finestre e porte in legno/alluminio a Nors (Thy): soggetta a EUDR per il legname immesso sul mercato UE. Capogruppo corretta: la società è controllata dal gruppo ACO Nordic, a sua volta parte del gruppo tedesco ACO (famiglia Ahlmann), dal rilevamento del gruppo Plastmo nel 1995 — NON da «Hvidbjerg i A/S» come indicato in precedenza."
+ },
+ {
+  "foglio": "Danimarca",
   "denominazione": "KVIST INDUSTRIES A/S",
   "campo": "dimensione",
   "da": "110 dip. (proff.dk, CVR 22629115); codice NACE 310900 Fremstilling af andre møbler; fatturato non pubblicato. Stima ~15-25 M€ sulla base degli addetti: da verificare",
@@ -862,6 +897,13 @@
  },
  {
   "foglio": "Danimarca",
+  "denominazione": "SKJERN PAPER A/S (già Skjern Papirfabrik A/S)",
+  "campo": "dimensione",
+  "da": "75 dipendenti; produzione ~70.000 t/anno di carta (dato 2021). Proprietà Buur Invest A/S + dirigenti operativi (indipendente danese dal 2005). Fatturato non reperito su fonte verificabile: con questi volumi è AZIENDA DI CONFINE, plausibilmente sopra i 40 M€ - verificare regnskab prima del contatto.",
+  "a": "75 dipendenti; produzione ~70.000 t/anno di carta (dato 2021). Legame di gruppo: acquisita dal gruppo statunitense quotato SONOCO Products Company (NYSE: SON); in precedenza Buur Invest A/S e dirigenti operativi. L'indipendenza danese dichiarata in precedenza non è più attuale. Fatturato non reperito su fonte verificabile: con questi volumi è AZIENDA DI CONFINE, plausibilmente sopra i 40 M€ - verificare regnskab prima del contatto."
+ },
+ {
+  "foglio": "Danimarca",
   "denominazione": "STIBO COMPLETE A/S (già Rosendahls A/S - Print Design Media)",
   "campo": "dimensione",
   "da": "150 dipendenti; fatturato ~200 mio DKK (~26,8 M€, cambio 7,46). CVR 37120928, Oddesundvej 1. AZIENDA DI CONFINE: sopra la fascia 10-20 M€ ma dentro il tollerabile 5-40 M€. LEGAME DI GRUPPO: ex Rosendahls, acquisita e ridenominata Stibo Complete A/S nel 2022 (gruppo Stibo, danese, fondazione).",
@@ -873,6 +915,13 @@
   "campo": "sede",
   "da": "Esbjerg N (Syddanmark)",
   "a": "Horsens (Midtjylland) — sede legale; unità operative a Esbjerg N e Søborg"
+ },
+ {
+  "foglio": "Danimarca",
+  "denominazione": "STOK EMBALLAGE K/S",
+  "campo": "dimensione",
+  "da": "100-200 dipendenti complessivi (62 a Langeskov, 10 a Vejle); bruttofortjeneste 146 mio DKK nel 2024 (~19,6 M€ di solo margine lordo). CVR 16427284, NACE 172100, Erik Stoks Allé 4. Capogruppo STOK Denmark ApS. AZIENDA DI CONFINE / SOPRA FASCIA: il fatturato è verosimilmente >50 M€ - da verificare prima del contatto, potenzialmente da escludere.",
+  "a": "100-200 dipendenti complessivi (62 a Langeskov, 10 a Vejle); bruttofortjeneste 146 mio DKK nel 2024 (~19,6 M€ di solo margine lordo). CVR 16427284, NACE 172100, Erik Stoks Allé 4. Capogruppo STOK Denmark ApS. AZIENDA DI CONFINE / SOPRA FASCIA: il fatturato è verosimilmente >50 M€ - da verificare prima del contatto, potenzialmente da escludere. Il campo nominava solo la capogruppo formale: dal 30.04.2024 STOK Denmark ApS è partecipata in maggioranza dal fondo di private equity statunitense A&M Capital Europe."
  },
  {
   "foglio": "Danimarca",
@@ -953,6 +1002,13 @@
  },
  {
   "foglio": "Svezia",
+  "denominazione": "Tärnsjö Garveri Aktiebolag",
+  "campo": "dimensione",
+  "da": "Fatturato 51.898 KSEK (~4,6 M€) e 43 dipendenti — bilancio 2024 (fonte bolagsfakta/allabolag); org.nr 556474-7797. Sotto la soglia minima ideale: in Svezia le concerie sono pochissime e questa è la principale conceria indipendente attiva.",
+  "a": "Fatturato 51.898 KSEK (~4,6 M€) e 43 dipendenti — bilancio 2024 (fonte bolagsfakta/allabolag); org.nr 556474-7797. Sotto la soglia minima ideale: in Svezia le concerie sono pochissime e questa è una delle poche concerie attive. Legame di gruppo: moderbolag Axel Bodéns Handels Aktiebolag — l'indipendenza dichiarata in precedenza non è confermata."
+ },
+ {
+  "foglio": "Svezia",
   "denominazione": "Aktiebolaget Karlaträ",
   "campo": "dimensione",
   "da": "≈7,9 M€ / 12 dip. (allabolag: 89 711 KSEK) · org.nr 556081-8782 · sotto la fascia target 10-20 M€, tenuta per copertura · produzione ~40 000 m³/anno",
@@ -985,6 +1041,13 @@
   "campo": "dimensione",
   "da": "≈12,7 M€ / 32 dip. (allabolag/bolagsfakta 2024: 143 413 KSEK, +25,6%) · org.nr 556415-5066 · membro SÅGAB-Sågverken Norrland · target ideale",
   "a": "≈12,7 M€ / 32 dip. (allabolag/bolagsfakta 2024: 143 413 KSEK, +25,6%) · org.nr 556415-5066 · membro SÅGAB-Sågverken Norrland · target ideale Koncern con moderbolag Brattby Trading Aktiebolag."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Brännfors Träförädling Aktiebolag",
+  "campo": "dimensione",
+  "da": "≈7,0 M€ / 17 dip. (allabolag 2025: 79 011 KSEK; 2024: 53 348 KSEK con 15 dip.) · org.nr 556103-8695 · sotto la fascia target 10-20 M€, tenuta per copertura · membro SÅGAB",
+  "a": "≈7,0 M€ / 17 dip. (allabolag 2025: 79 011 KSEK; 2024: 53 348 KSEK con 15 dip.) · org.nr 556103-8695 · sotto la fascia target 10-20 M€, tenuta per copertura · membro SÅGAB Legame di gruppo non dichiarato: moderbolag Brännfors Holding AB."
  },
  {
   "foglio": "Svezia",
@@ -1135,6 +1198,13 @@
  },
  {
   "foglio": "Svezia",
+  "denominazione": "Willa Nordic AB",
+  "campo": "dimensione",
+  "da": "Fatturato 208.856 KSEK (~18,5 M€) e 63 dipendenti nel 2024 (fonte allabolag.se). Org.nr 556361-9161. Pienamente in target.",
+  "a": "Fatturato 208.856 KSEK (~18,5 M€) e 63 dipendenti nel 2024 (fonte allabolag.se). Org.nr 556361-9161. Pienamente in target. Legame di gruppo non dichiarato: moderbolag WINO Holding AB, koncernmoder Nordh Invest i Stockaryd AB. Nota di trend: l'esercizio 2024 segna -31% sul 2023 e chiude in perdita (-742 KSEK)."
+ },
+ {
+  "foglio": "Svezia",
   "denominazione": "ZilenZio AB",
   "campo": "dimensione",
   "da": "Fatturato 123,4 MSEK ≈ 10,9 M€ (esercizio 2025; 106 963 KSEK nel 2023); risultato operativo 9,1 MSEK; 20 dipendenti (2023), 28 a livello di gruppo; org.nr 556651-5689 – fonte allabolag.se/proff.se. Pienamente in target",
@@ -1167,6 +1237,13 @@
   "campo": "dimensione",
   "da": "Fatturato 118.377 KSEK (~10,5 M€) e 39-42 dipendenti — ultimo esercizio disponibile 2024/2025 (fonte allabolag/bolagsfakta); org.nr 556068-0448. In pieno target.",
   "a": "Fatturato 118.377 KSEK (~10,5 M€) e 39-42 dipendenti — ultimo esercizio disponibile 2024/2025 (fonte allabolag/bolagsfakta); org.nr 556068-0448. In pieno target. Capogruppo Rubber Förvaltning Aktiebolag (gruppo di 5 società)."
+ },
+ {
+  "foglio": "Svezia",
+  "denominazione": "Billes Tryckeri AB",
+  "campo": "dimensione",
+  "da": "Fatturato 248.036 KSEK (~22,0 M€) e 99 dipendenti — fonte allabolag/bolagsfakta, es. 2024. Org.nr 559063-9349. AZIENDA DI CONFINE: appena sopra il target 10-20 M€, ben dentro la fascia tollerabile. Tipografia indipendente a controllo familiare (collegata a Billes Tryckeri Förvaltning AB, org.nr 556259-9034). E-mail diretta VD pubblicata nelle fonti: niklas.bille@billes.se.",
+  "a": "Fatturato 248.036 KSEK (~22,0 M€) e 99 dipendenti — fonte allabolag/bolagsfakta, es. 2024. Org.nr 559063-9349. AZIENDA DI CONFINE: appena sopra il target 10-20 M€, ben dentro la fascia tollerabile. Legame di gruppo: moderbolag Billes Tryckeri Holding AB (gruppo di 4 società, 122 dipendenti, 264,0 MSEK aggregati); Billes Tryckeri Förvaltning AB (org.nr 556259-9034) è invece una società immobiliare, non la capogruppo. E-mail diretta VD pubblicata nelle fonti: niklas.bille@billes.se."
  },
  {
   "foglio": "Svezia",
@@ -1303,6 +1380,13 @@
  },
  {
   "foglio": "Olanda",
+  "denominazione": "L. Verhoeven's Emballagefabriek en Houthandel B.V.",
+  "campo": "dimensione",
+  "da": "Fatturato NON pubblicato (BV con bilancio abbreviato). Numero dipendenti non pubblicato nelle fonti consultate; l'azienda si autodefinisce produttore di pallet di media dimensione (fonte sito aziendale, 2025). KVK 24247802. Azienda familiare dagli anni '50, oggi guidata da Leander Jonkers, nipote del fondatore L. Verhoeven. Produce pallet CP, block e stringer pallet e imballaggi su misura.",
+  "a": "Fatturato NON pubblicato (BV con bilancio abbreviato). Numero dipendenti non pubblicato nelle fonti consultate; l'azienda si autodefinisce produttore di pallet di media dimensione (fonte sito aziendale, 2025). KVK 24247802. Azienda familiare dagli anni '50, oggi guidata da Leander Jonkers, nipote del fondatore L. Verhoeven. Produce pallet CP, block e stringer pallet e imballaggi su misura. Struttura di gruppo non dichiarata: opera in gruppo con la consociata Zagerij Verhoeven (Harskamp), Kist&Co (Ridderkerk) e Harskamp Timber (Harskamp)."
+ },
+ {
+  "foglio": "Olanda",
   "denominazione": "Ascot Amsterdam B.V.",
   "campo": "referente",
   "da": "",
@@ -1356,6 +1440,13 @@
   "campo": "email",
   "da": "sjoukje@vandereems.nl",
   "a": "dj@vandereems.nl"
+ },
+ {
+  "foglio": "Olanda",
+  "denominazione": "Papierfabriek Schut B.V.",
+  "campo": "dimensione",
+  "da": "Fatturato NON pubblicato (BV con bilancio abbreviato). 43-45 dipendenti (fonte drimble.nl / stagemarkt.nl, 2024-2025). KVK 09001229. Cartiera indipendente attiva dal 1618, specialità: carta per belle arti, acquerello, carta filigranata e carta circolare da residui del cliente. Membro Koninklijke VNP. Stima fatturato in fascia bassa del target (specialty paper, alto valore unitario).",
+  "a": "Fatturato NON pubblicato (BV con bilancio abbreviato). 43-45 dipendenti (fonte drimble.nl / stagemarkt.nl, 2024-2025). KVK 09001229. Cartiera attiva dal 1618, dal 1° luglio 1998 nel gruppo francese quotato Exacompta Clairefontaine S.A., specialità: carta per belle arti, acquerello, carta filigranata e carta circolare da residui del cliente. Membro Koninklijke VNP. Stima fatturato in fascia bassa del target (specialty paper, alto valore unitario)."
  },
  {
   "foglio": "Olanda",
@@ -1436,6 +1527,13 @@
  },
  {
   "foglio": "Olanda",
+  "denominazione": "Continental Chocolate B.V.",
+  "campo": "dimensione",
+  "da": "Fatturato non pubblicato. 20-49 dipendenti (fonte: transfirm.nl / Dun & Bradstreet, dati KVK 2025). KVK 34146292. Costituita nel 2000. Sede Galvanistraat 10, Rotterdam. Produzione di cioccolato e prodotti dolciari a base di cacao.",
+  "a": "Fatturato non pubblicato. 20-49 dipendenti (fonte: transfirm.nl / Dun & Bradstreet, dati KVK 2025). KVK 34146292. Costituita nel 2000. Sede Galvanistraat 10, Rotterdam. Produzione di cioccolato e prodotti dolciari a base di cacao. Legame di gruppo non dichiarato: acquisita nel maggio 2009 dal gruppo belga Baronie (Baronie-de Heer B.V., stessa sede di Galvanistraat, Rotterdam)."
+ },
+ {
+  "foglio": "Olanda",
   "denominazione": "Martinez Chocolade B.V.",
   "campo": "email",
   "da": "n.d.",
@@ -1510,6 +1608,13 @@
   "campo": "ruolo",
   "da": "",
   "a": "Directeuren / eigenaren"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Tannerie Masure SA",
+  "campo": "dimensione",
+  "da": "Fatturato 17.158.424 EUR (bilancio depositato BNB, via Trends Top/Pappers.be) - 3a azienda del settore cuoio/calzatura in Belgio; n. impresa BE 0401.249.606. Nel cuore della fascia target. Concia esclusivamente vegetale di groppe e collo bovini di provenienza europea; fa capo al Groupe Saturne (Tannerie Fortier Beaulieu + Masure).",
+  "a": "Fatturato 17.158.424 EUR (bilancio depositato BNB, via Trends Top/Pappers.be) - 3a azienda del settore cuoio/calzatura in Belgio; n. impresa BE 0401.249.606. Nel cuore della fascia target. Concia esclusivamente vegetale di groppe e collo bovini di provenienza europea; fa capo al Groupe Saturne (Tannerie Fortier Beaulieu + Masure). Legame di gruppo non dichiarato: dal 2014 la società fa parte del Groupe Saturne (holding francese Financière Saturne) insieme alla Tannerie Fortier-Beaulieu di Roanne."
  },
  {
   "foglio": "Belgio",
@@ -1639,6 +1744,13 @@
  },
  {
   "foglio": "Belgio",
+  "denominazione": "Corné Port-Royal Chocolatier SA",
+  "campo": "dimensione",
+  "da": "Fatturato 8.796.906 € (ultimo bilancio depositato NBB, deposito 26-06-2025; 8.421.952 € e 54° posto di settore su trendstop.knack.be). N. impresa BE 0433.283.558. Sede Avenue Vésale 12, 1300 Wavre; maison storica (marchio dal 1932), rete di ~20 boutique in Belgio e 15 in Francia. Sotto la fascia ottimale ma dentro il range tollerabile 5-40 M€.",
+  "a": "Fatturato 8.796.906 € (ultimo bilancio depositato NBB, deposito 26-06-2025; 8.421.952 € e 54° posto di settore su trendstop.knack.be). N. impresa BE 0433.283.558. Sede Avenue Vésale 12, 1300 Wavre; maison storica (marchio dal 1932), rete di ~20 boutique in Belgio e 15 in Francia. Sotto la fascia ottimale ma dentro il range tollerabile 5-40 M€. Legame di gruppo non dichiarato: controllata dal gruppo Neuhaus dal 2013, che figura direttamente fra gli amministratori (denominazione registrale abbreviata «CPR CHOCOLATIER»)."
+ },
+ {
+  "foglio": "Belgio",
   "denominazione": "Dolfin SA",
   "campo": "referente",
   "da": "",
@@ -1682,6 +1794,13 @@
  {
   "foglio": "Belgio",
   "denominazione": "Manufacture Belge de Chocolats SRL",
+  "campo": "dimensione",
+  "da": "Fatturato 25.731.148 € e 175,1 FTE (fonte: trendstop.levif.be / companyweb.be, ultimo bilancio depositato NBB, deposito 08-07-2025); 30° posto nel settore cioccolato e dolciumi. N. impresa BE 0722.764.519. Firmataria di Beyond Chocolate (impegni su deforestazione e tracciabilità del cacao). Nella parte alta del range tollerabile 5-40 M€.",
+  "a": "Fatturato 25.731.148 € e 175,1 FTE (fonte: trendstop.levif.be / companyweb.be, ultimo bilancio depositato NBB, deposito 08-07-2025); 30° posto nel settore cioccolato e dolciumi. N. impresa BE 0722.764.519. Firmataria di Beyond Chocolate (impegni su deforestazione e tracciabilità del cacao). Nella parte alta del range tollerabile 5-40 M€. Legame di gruppo non dichiarato: non è una PMI indipendente ma lo stabilimento bruxellese di Godiva, ceduto nel giugno 2019 al fondo MBK Partners insieme alle attività Godiva di Giappone, Corea del Sud e Oceania."
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Manufacture Belge de Chocolats SRL",
   "campo": "linkedin",
   "da": "",
   "a": "https://be.linkedin.com/company/manufacture-belge-de-chocolats"
@@ -1692,6 +1811,13 @@
   "campo": "linkedin",
   "da": "",
   "a": "https://be.linkedin.com/company/oxfam-fair-trade"
+ },
+ {
+  "foglio": "Belgio",
+  "denominazione": "Hannecard Benelux NV",
+  "campo": "dimensione",
+  "da": "Fatturato 16.954.714 EUR (Trends Top/NBB, ultimo esercizio pubblicato); 83,3 FTE; n. impresa BE 0694.906.812",
+  "a": "Fatturato 16.954.714 EUR (Trends Top/NBB, ultimo esercizio pubblicato); 83,3 FTE; n. impresa BE 0694.906.812 Legame di gruppo non dichiarato: è l'entità Benelux del Gruppo Hannecard, che fa capo a Hannecard NV (BE 0892.311.512, stessa sede di Ronse); dal febbraio 2022 nel capitale è entrata BNP Paribas Fortis Private Equity."
  },
  {
   "foglio": "Belgio",
@@ -1832,6 +1958,13 @@
   "campo": "denominazione",
   "da": "Fürst GmbH",
   "a": "Cafe-Konditorei Fürst GmbH"
+ },
+ {
+  "foglio": "Austria",
+  "denominazione": "Heidi Chocolat AG",
+  "campo": "dimensione",
+  "da": "Fatturato ca. 18 Mio. € - ca. 180 dipendenti (fonte Wikipedia/dati aziendali, ultimo dato pubblico 2018; ordine di grandezza confermato da cash.at). Firmenbuch FN 397683d, LG Wiener Neustadt; UID ATU67943648. Titolare del marchio storico viennese Niemetz Schwedenbomben (dal 1926) rilevato nel 2013; produzione trasferita a Wiener Neudorf. IN TARGET 10-20 M€. Grande utilizzatore di cioccolato/cacao per il rivestimento dei prodotti = operatore/commerciante EUDR.",
+  "a": "Fatturato ca. 18 Mio. € - ca. 180 dipendenti (fonte Wikipedia/dati aziendali, ultimo dato pubblico 2018; ordine di grandezza confermato da cash.at). Firmenbuch FN 397683d, LG Wiener Neustadt; UID ATU67943648. Titolare del marchio storico viennese Niemetz Schwedenbomben (dal 1926) rilevato nel 2013; produzione trasferita a Wiener Neudorf. IN TARGET 10-20 M€. Grande utilizzatore di cioccolato/cacao per il rivestimento dei prodotti = operatore/commerciante EUDR. Legame di gruppo non dichiarato: l'entità austriaca è la succursale (Niederlassung Österreich) di Heidi Chocolat SA, con sede a Zug (Svizzera) — la compliance EUDR si decide a livello di gruppo."
  },
  {
   "foglio": "Austria",
